@@ -1,0 +1,1080 @@
+[
+    {
+        "number": 1,
+        "question": "Which of the following statements correctly defines a function?",
+        "choices": [
+            "A. A relation where every input has exactly one output",
+            "B. A relation where every output has exactly one input",
+            "C. A relation that passes the horizontal line test",
+            "D. Any set of ordered pairs"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "The graph of an odd function is always symmetric with respect to the:",
+        "choices": [
+            "A. x-axis",
+            "B. y-axis",
+            "C. origin",
+            "D. line y = x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "What is the value of the limit of (sin x)/x as x approaches 0?",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. Infinity",
+            "D. Undefined"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 4,
+        "question": "The theorem which states that if f(x) <= g(x) <= h(x) and the limits of f(x) and h(x) as x approaches 'a' are both L, then the limit of g(x) is also L, is called:",
+        "choices": [
+            "A. Mean Value Theorem",
+            "B. Intermediate Value Theorem",
+            "C. Squeeze Theorem",
+            "D. Rolle's Theorem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 5,
+        "question": "What type of discontinuity occurs when the two one-sided limits exist but are not equal?",
+        "choices": [
+            "A. Removable",
+            "B. Jump",
+            "C. Infinite",
+            "D. Essential"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "A discontinuity is classified as \"removable\" if:",
+        "choices": [
+            "A. The limit does not exist",
+            "B. The function approaches infinity",
+            "C. The limit exists but does not equal the function's value at that point",
+            "D. The left and right limits are different"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "Which of the following limits represents the number e?",
+        "choices": [
+            "A. Limit as x->0 of (1+x)^(1/x)",
+            "B. Limit as x->infinity of (1+x)^(1/x)",
+            "C. Limit as x->0 of (1+1/x)^x",
+            "D. Limit as x->1 of (1+x)^x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "Horizontal asymptotes are determined by evaluating the limit of f(x) as x approaches:",
+        "choices": [
+            "A. Zero",
+            "B. The y-intercept",
+            "C. Positive or negative infinity",
+            "D. The roots of the function"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 9,
+        "question": "Which theorem guarantees that if a function f is continuous on a closed interval [a, b] and N is any number between f(a) and f(b), then there exists a number c in (a, b) such that f(c) = N?",
+        "choices": [
+            "A. Extreme Value Theorem",
+            "B. Squeeze Theorem",
+            "C. Intermediate Value Theorem",
+            "D. Mean Value Theorem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "Evaluate the limit of (x^2 - 9)/(x - 3) as x approaches 3.",
+        "choices": [
+            "A. 0",
+            "B. 6",
+            "C. 9",
+            "D. Undefined"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "The derivative of a function at a point represents the:",
+        "choices": [
+            "A. Area under the curve",
+            "B. Slope of the secant line",
+            "C. Slope of the tangent line",
+            "D. y-intercept of the function"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "In calculus, the expression [f(x+h) - f(x)] / h is known as the:",
+        "choices": [
+            "A. Difference quotient",
+            "B. Derivative",
+            "C. Differential",
+            "D. Integral"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "Which of the following represents the limit definition of the derivative of f(x)?",
+        "choices": [
+            "A. Limit as h->0 of [f(x+h) - f(x)] / h",
+            "B. Limit as h->0 of [f(x) - f(x-h)] / h",
+            "C. Limit as x->a of [f(x) - f(a)] / (x-a)",
+            "D. All of the above"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "If a function is differentiable at x = a, then it must be:",
+        "choices": [
+            "A. Positive at x = a",
+            "B. Continuous at x = a",
+            "C. An even function",
+            "D. An odd function"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Which of the following statements is universally true?",
+        "choices": [
+            "A. If a function is continuous, it is differentiable.",
+            "B. If a function is differentiable, it is continuous.",
+            "C. A function with a corner is differentiable.",
+            "D. Continuity and differentiability are the same concept."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "The process of finding the derivative of a function is called:",
+        "choices": [
+            "A. Integration",
+            "B. Differentiation",
+            "C. Limits",
+            "D. Anti-differentiation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 17,
+        "question": "A function fails to be differentiable at a point if the graph has a:",
+        "choices": [
+            "A. Smooth curve",
+            "B. Horizontal tangent",
+            "C. Cusp or sharp corner",
+            "D. y-intercept"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 18,
+        "question": "What does it mean geometrically if f'(a) = 0?",
+        "choices": [
+            "A. The function is undefined at a",
+            "B. The tangent line is vertical",
+            "C. The tangent line is horizontal",
+            "D. The function has a sharp corner"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "If the left-hand derivative and right-hand derivative of a function at x = c are not equal, then the function is:",
+        "choices": [
+            "A. Continuous and differentiable",
+            "B. Differentiable but not continuous",
+            "C. Continuous but not differentiable",
+            "D. Neither continuous nor differentiable"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Which notation is attributed to Gottfried Wilhelm Leibniz for the derivative of y with respect to x?",
+        "choices": [
+            "A. y'",
+            "B. f'(x)",
+            "C. dy/dx",
+            "D. D_x y"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "Which notation is attributed to Joseph-Louis Lagrange for the derivative of a function f at x?",
+        "choices": [
+            "A. dy/dx",
+            "B. df/dx",
+            "C. f'(x)",
+            "D. D_x f"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "The derivative of a constant function f(x) = C is always:",
+        "choices": [
+            "A. C",
+            "B. 1",
+            "C. 0",
+            "D. x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "What physical quantity does the derivative of a position function with respect to time represent?",
+        "choices": [
+            "A. Acceleration",
+            "B. Jerk",
+            "C. Velocity",
+            "D. Distance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "If a function has a vertical tangent at x = a, the function is:",
+        "choices": [
+            "A. Differentiable at x = a",
+            "B. Not differentiable at x = a",
+            "C. Continuous and differentiable",
+            "D. A polynomial function"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "If limit as x approaches 'a' of f(x) does not equal f(a), what can be said about f'(a)?",
+        "choices": [
+            "A. f'(a) = 0",
+            "B. f'(a) exists but is not zero",
+            "C. f'(a) does not exist",
+            "D. f'(a) is infinite"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "The limit definition of a derivative evaluates to a form of:",
+        "choices": [
+            "A. 1/0",
+            "B. 0/0",
+            "C. infinity/infinity",
+            "D. 0/1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "Which of the following represents the slope of the secant line passing through (x, f(x)) and (x+h, f(x+h))?",
+        "choices": [
+            "A. f'(x)",
+            "B. [f(x+h) - f(x)] / h",
+            "C. limit as h->0 [f(x+h) - f(x)] / h",
+            "D. f(x+h) - f(x)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "For a function f(x), if f'(a) exists, the value of the limit as x->a of f(x) must be:",
+        "choices": [
+            "A. 0",
+            "B. a",
+            "C. f'(a)",
+            "D. f(a)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "A point on a curve where the concavity changes and the tangent line exists is called a point of inflection. Does the derivative exist at this point?",
+        "choices": [
+            "A. Always",
+            "B. Never",
+            "C. Sometimes",
+            "D. Only if f(x) is even"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "If the graph of a function is broken or disconnected at x = a, the function is:",
+        "choices": [
+            "A. Differentiable but not continuous",
+            "B. Continuous but not differentiable",
+            "C. Not continuous, therefore not differentiable",
+            "D. Both continuous and differentiable"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "What does the term \"instantaneous rate of change\" refer to?",
+        "choices": [
+            "A. Average slope over an interval",
+            "B. The derivative of the function at a specific point",
+            "C. The area under the curve",
+            "D. The total change in y"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "The derivative of the function f(x) = mx + b using the limit definition will always result in:",
+        "choices": [
+            "A. x",
+            "B. b",
+            "C. m",
+            "D. 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "To prove a function is differentiable at a point using limits, which limits must be equal?",
+        "choices": [
+            "A. Limit of the function from left and right",
+            "B. Limit of the difference quotient from left and right",
+            "C. Limit of the function to infinity",
+            "D. Limit of f(x) and f'(x)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "Evaluate limit as h->0 of [(x+h)^2 - x^2] / h.",
+        "choices": [
+            "A. x",
+            "B. 2x",
+            "C. x^2",
+            "D. 2x + h"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "Evaluate limit as h->0 of [3(x+h) - 3x] / h.",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 3",
+            "D. 3x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "Evaluate the limit as x->a of [x^3 - a^3] / [x - a] to find the derivative of f(x) = x^3 at x=a.",
+        "choices": [
+            "A. 3a",
+            "B. 3a^2",
+            "C. a^3",
+            "D. a^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Use the limit definition to find the derivative of f(x) = 1/x.",
+        "choices": [
+            "A. 1/x^2",
+            "B. -1/x^2",
+            "C. -1/x",
+            "D. ln(x)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "Use the limit definition to find the derivative of f(x) = sqrt(x).",
+        "choices": [
+            "A. 1 / (2*sqrt(x))",
+            "B. 1 / sqrt(x)",
+            "C. -1 / (2*sqrt(x))",
+            "D. sqrt(x) / 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "If f(x) =",
+        "choices": [
+            "A. x",
+            "B. , what is the right-hand derivative at x = 0?",
+            "C. 0",
+            "D. -1"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 42,
+        "question": "If f(x) =",
+        "choices": [
+            "A. x",
+            "B. , what is the left-hand derivative at x = 0?",
+            "C. 0",
+            "D. -1"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 43,
+        "question": "Given f(x) = x^(1/3). Why is f(x) not differentiable at x = 0?",
+        "choices": [
+            "A. It has a corner",
+            "B. It has a jump discontinuity",
+            "C. It has a vertical tangent",
+            "D. It is not continuous"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "Let f(x) = x^2 for x < 1, 2x - 1 for x >= 1. Is f(x) continuous at x = 1?",
+        "choices": [
+            "A. Yes",
+            "B. No",
+            "C. Cannot be determined",
+            "D. Only from the right"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "Let f(x) = x^2 for x < 1, 2x - 1 for x >= 1. Is f(x) differentiable at x = 1?",
+        "choices": [
+            "A. Yes",
+            "B. No",
+            "C. Cannot be determined",
+            "D. Only from the left"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 46,
+        "question": "Let f(x) = x^2 for x < 2, 4x - 4 for x >= 2. What is the right-hand derivative at x = 2?",
+        "choices": [
+            "A. 2",
+            "B. 4",
+            "C. 8",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "Let f(x) = x^2 for x < 2, 4x - 4 for x >= 2. What is the left-hand derivative at x = 2?",
+        "choices": [
+            "A. 2",
+            "B. 4",
+            "C. 8",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "Evaluate the limit as h->0 of [sqrt(x+h) - sqrt(x)] / h.",
+        "choices": [
+            "A. 1 / (2*sqrt(x))",
+            "B. 1 / sqrt(x)",
+            "C. -1 / (2*sqrt(x))",
+            "D. Undefined"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "For the function f(x) =",
+        "choices": [
+            "A. x^2 - 4",
+            "B. , at what values of x is the function continuous but not differentiable?",
+            "C. x = 0",
+            "D. x = 2 and x = -2"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 50,
+        "question": "Find the instantaneous rate of change of f(x) = 5x^2 at x = 3 using the limit definition.",
+        "choices": [
+            "A. 15",
+            "B. 30",
+            "C. 45",
+            "D. 10"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "What is the slope of the tangent line to the curve y = 1 - x^2 at x = 2?",
+        "choices": [
+            "A. -4",
+            "B. -2",
+            "C. 0",
+            "D. 4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "If limit as x->3 of [f(x) - f(3)] / [x - 3] = 4, what is f'(3)?",
+        "choices": [
+            "A. 3",
+            "B. 4",
+            "C. f(3)",
+            "D. Cannot be determined"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "If f(x) is differentiable at x = c, evaluate limit as h->0 of [f(c) - f(c-h)] / h.",
+        "choices": [
+            "A. f'(c)",
+            "B. -f'(c)",
+            "C. 0",
+            "D. f(c)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "Evaluate limit as h->0 of [1/(x+h) - 1/x] / h.",
+        "choices": [
+            "A. -1/x^2",
+            "B. 1/x^2",
+            "C. -1/x",
+            "D. 1/x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "Determine if f(x) = x *",
+        "choices": [
+            "A. x",
+            "B. is differentiable at x = 0.",
+            "C. Yes, f'(0) = 0",
+            "D. Yes, f'(0) = 1"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 56,
+        "question": "Consider f(x) = (x-1)^(2/3). At x = 1, the graph has a:",
+        "choices": [
+            "A. Vertical tangent",
+            "B. Cusp",
+            "C. Corner",
+            "D. Removable discontinuity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "Let f(x) = ax + b for x < 2, x^2 for x >= 2. Find 'a' and 'b' such that f(x) is differentiable at x = 2.",
+        "choices": [
+            "A. a=4, b=-4",
+            "B. a=2, b=0",
+            "C. a=4, b=4",
+            "D. a=-4, b=4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Which of the following limit expressions represents the derivative of f(x) = sin(x) at x = pi?",
+        "choices": [
+            "A. limit as h->0 [sin(pi+h) - sin(pi)] / h",
+            "B. limit as x->pi [sin(x) - sin(pi)] / x",
+            "C. limit as h->pi [sin(x+h) - sin(x)] / h",
+            "D. limit as h->0 [sin(pi) - sin(x)] / h"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "Let f(x) =",
+        "choices": [
+            "A. x - 5",
+            "B. . What is the value of limit as x->5+ of [f(x) - f(5)] / [x - 5]?",
+            "C. 1",
+            "D. -1"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 60,
+        "question": "A function is defined as f(x) = x * sin(1/x) for x != 0, and f(0) = 0. Is f(x) continuous at x = 0?",
+        "choices": [
+            "A. Yes",
+            "B. No",
+            "C. Only from the right",
+            "D. Only from the left"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "A function is defined as f(x) = x * sin(1/x) for x != 0, and f(0) = 0. Is f(x) differentiable at x = 0?",
+        "choices": [
+            "A. Yes",
+            "B. No",
+            "C. Only from the right",
+            "D. Only from the left"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "If limit as x->a [f(x) - f(a)] / [x - a] exists and equals L, what is limit as x->a f(x)?",
+        "choices": [
+            "A. L",
+            "B. 0",
+            "C. f(a)",
+            "D. a"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "Given limit as h->0 [f(2+h) - f(2)] / h = 5. Find limit as x->2 f(x) if f(2) = 10.",
+        "choices": [
+            "A. 2",
+            "B. 5",
+            "C. 10",
+            "D. 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "Evaluate the symmetric difference quotient limit as h->0 of [f(x+h) - f(x-h)] / (2h) for f(x) = x^2.",
+        "choices": [
+            "A. x",
+            "B. 2x",
+            "C. x^2",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "The slope of the curve y = x^3 - 3x at the origin is:",
+        "choices": [
+            "A. 3",
+            "B. 0",
+            "C. -3",
+            "D. 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "Find the equation of the tangent line to y = x^2 at x = 1.",
+        "choices": [
+            "A. y = 2x - 1",
+            "B. y = 2x + 1",
+            "C. y = x - 1",
+            "D. y = x + 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 67,
+        "question": "Let f(x) = 3x for x < 0, e^x - 1 for x >= 0. Which of the following is true at x = 0?",
+        "choices": [
+            "A. Continuous and differentiable",
+            "B. Continuous but not differentiable",
+            "C. Differentiable but not continuous",
+            "D. Neither"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "Evaluate limit as t->x of [t^2 - x^2] / [t - x].",
+        "choices": [
+            "A. x",
+            "B. 2x",
+            "C. x^2",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "If the function f(x) = cx^2 + dx for x < 1, 3x - 1 for x >= 1 is differentiable at x = 1, find c and d.",
+        "choices": [
+            "A. c = 1, d = 1",
+            "B. c = 2, d = 0",
+            "C. c = -1, d = 3",
+            "D. c = 1, d = 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "Identify the limit: limit as h->0 [e^(x+h) - e^x] / h.",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. e^x",
+            "D. x*e^(x-1)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "Evaluate limit as x->a of [x^2 * f(a) - a^2 * f(x)] / [x - a] if f(x) is differentiable at a.",
+        "choices": [
+            "A. 2a*f(a) - a^2*f'(a)",
+            "B. a^2*f'(a)",
+            "C. 2a*f'(a)",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "Recognize the limit: limit as h->0 [cos(pi/6 + h) - cos(pi/6)] / h.",
+        "choices": [
+            "A. 1/2",
+            "B. -1/2",
+            "C. sqrt(3)/2",
+            "D. -sqrt(3)/2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "Recognize the limit: limit as x->pi/4 [tan(x) - 1] / [x - pi/4].",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 1/2",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "Let f(x) = x^2 * sin(1/x) for x != 0, 0 for x = 0. Which of the following is true at x = 0?",
+        "choices": [
+            "A. Continuous but not differentiable",
+            "B. Not continuous",
+            "C. Continuous and differentiable",
+            "D. Limit does not exist"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "What is the derivative of f(x) = x^2 * sin(1/x) at x = 0?",
+        "choices": [
+            "A. 1",
+            "B. -1",
+            "C. 0",
+            "D. Does not exist"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "If f(x) is an even differentiable function, then f'(x) must be:",
+        "choices": [
+            "A. Even",
+            "B. Odd",
+            "C. Constant",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "If f(x) is an odd differentiable function, then f'(x) must be:",
+        "choices": [
+            "A. Even",
+            "B. Odd",
+            "C. Constant",
+            "D. Zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "If limit as h->0 [f(x+3h) - f(x)] / h = 6x, what is f'(x)?",
+        "choices": [
+            "A. 6x",
+            "B. 3x",
+            "C. 2x",
+            "D. 18x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "Evaluate limit as h->0 [f(x+h) - f(x-h)] / h in terms of f'(x).",
+        "choices": [
+            "A. f'(x)",
+            "B. 2f'(x)",
+            "C. 0",
+            "D. 1/2 f'(x)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "If limit as x->c [f(x) - f(c)] / [x - c] = infinity, the graph of f at x = c has a:",
+        "choices": [
+            "A. Horizontal tangent",
+            "B. Vertical tangent",
+            "C. Hole",
+            "D. Jump discontinuity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "Which of the following functions represents the classic example of a function that is continuous everywhere but differentiable nowhere?",
+        "choices": [
+            "A. Dirichlet function",
+            "B. Heaviside step function",
+            "C. Weierstrass function",
+            "D. Riemann zeta function"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "Let f(x) = x^3 for x <= 0, 0 for x > 0. Is the second derivative f''(x) continuous at x = 0?",
+        "choices": [
+            "A. Yes",
+            "B. No",
+            "C. Only from the left",
+            "D. Only from the right"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "Let f(x) =",
+        "choices": [
+            "A. x",
+            "B. ^3. What is f''(0)?",
+            "C. 0",
+            "D. 1"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 84,
+        "question": "Find the limit as h->0 of [ln(e + h) - 1] / h.",
+        "choices": [
+            "A. e",
+            "B. 1/e",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "Recognize the limit: limit as x->e [ln(x) - 1] / [x - e].",
+        "choices": [
+            "A. e",
+            "B. 1/e",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "If f(x) = (x-a)^n * g(x) where g(a) != 0 and n > 1 is an integer, what is f'(a)?",
+        "choices": [
+            "A. g(a)",
+            "B. n*g(a)",
+            "C. 0",
+            "D. a"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "Given limit as h->0 [f(a+h) - f(a-h)] / (2h) exists. Does this guarantee f is differentiable at x=a?",
+        "choices": [
+            "A. Yes, always",
+            "B. No, f(x) could be",
+            "C. x",
+            "D. at a=0"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 88,
+        "question": "A function f is defined as f(x) = x for rational x, and f(x) = -x for irrational x. At which point is f(x) continuous?",
+        "choices": [
+            "A. x = 1",
+            "B. x = 0",
+            "C. Everywhere",
+            "D. Nowhere"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "A function f is defined as f(x) = x^2 for rational x, and f(x) = 0 for irrational x. Is it differentiable at x = 0?",
+        "choices": [
+            "A. Yes, f'(0) = 0",
+            "B. Yes, f'(0) = 1",
+            "C. No",
+            "D. Cannot be determined"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Evaluate limit as x->1 of [x^(50) - 1] / [x - 1] by recognizing it as a derivative.",
+        "choices": [
+            "A. 1",
+            "B. 49",
+            "C. 50",
+            "D. 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "Evaluate limit as x->0 of [sin(x)] / x by relating it to the derivative of a function at a point.",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. infinity",
+            "D. undefined"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "Let f(x) = Ax^2 + Bx + C for x < 1, 2x - 3 for x >= 1. If f is differentiable at x = 1 and f(0) = 0, find A, B, and",
+        "choices": [
+            "C. A. A=1, B=0, C=0",
+            "B. A=3, B=-4, C=0",
+            "C. A=2, B=-2, C=0",
+            "D. A=-1, B=4, C=0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "If limit as x->2 [f(x) + x^2 - 4] / [x - 2] = 7, find f'(2) assuming f(2) = 0.",
+        "choices": [
+            "A. 3",
+            "B. 7",
+            "C. 4",
+            "D. 11"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "Consider f(x) = x^2 sin(1/x) for x>0, 0 for x<=0. What is the right-hand derivative at x=0?",
+        "choices": [
+            "A. 1",
+            "B. -1",
+            "C. 0",
+            "D. Does not exist"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "If f(x+y) = f(x) + f(y) + xy for all x, y and limit as h->0 f(h)/h = 2, find f'(x).",
+        "choices": [
+            "A. x",
+            "B. 2x",
+            "C. x + 2",
+            "D. 2x + 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "Find the values of a and b such that f(x) = ax^3 for x <= 2, x^2 + b for x > 2 is differentiable at x = 2.",
+        "choices": [
+            "A. a = 1/3, b = -4/3",
+            "B. a = 1, b = 4",
+            "C. a = 1/3, b = 4/3",
+            "D. a = 3, b = -4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "If f(x) =",
+        "choices": [
+            "A. x^3 - 8",
+            "B. , at what value of x is the function not differentiable?",
+            "C. 0",
+            "D. -2"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 98,
+        "question": "The limit as h->0 of [8(x+h)^3 - 8x^3] / h represents the derivative of which function?",
+        "choices": [
+            "A. 2x^3",
+            "B. 8x^3",
+            "C. 24x^2",
+            "D. 8x^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "If f(x) is differentiable everywhere and f(x+h) - f(x) = 3x^2 h + 3xh^2 + h^3 + 2h, find f'(x).",
+        "choices": [
+            "A. 3x^2",
+            "B. 3x^2 + 2",
+            "C. x^3 + 2x",
+            "D. 6x"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 100,
+        "question": "Is the function f(x) = x^(4/3) differentiable at x = 0?",
+        "choices": [
+            "A. Yes, f'(0) = 0",
+            "B. Yes, f'(0) = 4/3",
+            "C. No, it has a corner",
+            "D. No, it has a vertical tangent"
+        ],
+        "correct_answer": "A"
+    }
+]

@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "Worded circuit: A Type 1 linear feedback control system is subjected to a unit step input. What is the mathematical steady-state error?",
+        "choices": [
+            "A. Infinity",
+            "B. A finite constant",
+            "C. Zero",
+            "D. Undefined"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "For a generic underdamped second-order system, the widely accepted mathematical approximation for the 2% settling time is strictly:",
+        "choices": [
+            "A. 4 / (ζωn)",
+            "B. 3 / (ζωn)",
+            "C. π / (ζωn)",
+            "D. 2.2 / (ζωn)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "Which of the following strictly determines the Maximum Percent Overshoot (%OS) of a standard second-order system?",
+        "choices": [
+            "A. The undamped natural frequency",
+            "B. The DC gain",
+            "C. The resonant frequency",
+            "D. The damping ratio"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "Which time-domain specification is strictly defined as the time required for the step response to reach exactly 50% of its final steady-state value?",
+        "choices": [
+            "A. Rise time",
+            "B. Delay time",
+            "C. Peak time",
+            "D. Settling time"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "A unity feedback system has an open-loop transfer function G(s) = 10 / (s^2 * (s+4)). What is the steady-state error for a unit parabolic input?",
+        "choices": [
+            "A. Zero",
+            "B. 0.4",
+            "C. Infinity",
+            "D. 10"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "For an overdamped first-order system, the rise time is conventionally measured between which two percentage limits of the final value?",
+        "choices": [
+            "A. 0% and 100%",
+            "B. 5% and 95%",
+            "C. 0% and 50%",
+            "D. 10% and 90%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 7,
+        "question": "A pure unit ramp input is applied to a strictly Type 0 control system. The resulting steady-state error (ess) will mathematically evaluate to:",
+        "choices": [
+            "A. Infinity",
+            "B. Zero",
+            "C. A finite constant",
+            "D. Unity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "The exact physical time required for an underdamped second-order system's step response to reach its first absolute peak is mathematically defined as:",
+        "choices": [
+            "A. Rise time",
+            "B. Settling time",
+            "C. Peak time",
+            "D. Delay time"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 9,
+        "question": "In the complex s-plane, the horizontal and vertical axes are strictly designated as the:",
+        "choices": [
+            "A. Real axis (σ) and Imaginary axis (jω)",
+            "B. Imaginary axis (jω) and Real axis (σ)",
+            "C. Magnitude axis and Phase axis",
+            "D. Damping axis and Frequency axis"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "The roots of the characteristic equation (the denominator of the closed-loop transfer function) are plotted on the s-plane and are formally known as the system's:",
+        "choices": [
+            "A. Zeros",
+            "B. Residues",
+            "C. Poles",
+            "D. Eigenvectors"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "The roots of the numerator polynomial of a classical transfer function are mathematically defined as the system's:",
+        "choices": [
+            "A. Poles",
+            "B. Zeros",
+            "C. Breakaway points",
+            "D. Origins"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "In the complex s-plane, moving the dominant closed-loop poles horizontally further to the left (more negative real part) physically results in a system that:",
+        "choices": [
+            "A. Becomes unconditionally unstable",
+            "B. Responds much slower",
+            "C. Oscillates continuously forever",
+            "D. Responds and settles much faster"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "In the complex s-plane, moving a second-order system's complex conjugate poles vertically further away from the real axis (increasing the imaginary part) while keeping the real part exactly constant strictly results in:",
+        "choices": [
+            "A. A significantly slower settling time",
+            "B. Absolutely zero overshoot",
+            "C. A critically damped, sluggish response",
+            "D. A higher frequency of transient oscillation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "If a system's closed-loop poles are located exactly on the jω-axis (imaginary axis) with no poles in the right-half plane, the time-domain step response will physically exhibit:",
+        "choices": [
+            "A. Exponential decay",
+            "B. Sustained, continuous sinusoidal oscillations",
+            "C. Exponential growth",
+            "D. Perfect critical damping"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "The presence of even a single pole in the right-half of the complex s-plane fundamentally dictates that the linear control system is:",
+        "choices": [
+            "A. Marginally stable",
+            "B. Asymptotically stable",
+            "C. Unconditionally unstable",
+            "D. Non-causal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "Mathematically adding a real zero in the left-half plane to a standard second-order system generally has what physical effect on the step response?",
+        "choices": [
+            "A. It increases the peak overshoot and decreases the rise time",
+            "B. It slows the system down dramatically",
+            "C. It makes the system unconditionally unstable",
+            "D. It perfectly eliminates all oscillations"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "Conversely, mathematically adding an extra pole in the left-half plane to a standard second-order system generally has what effect on the transient response?",
+        "choices": [
+            "A. It increases the peak overshoot significantly",
+            "B. It turns a stable system into an infinite oscillator",
+            "C. It makes the system more sluggish (increases rise time)",
+            "D. It drops the steady-state error precisely to zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 18,
+        "question": "For a higher-order pole to be safely ignored using the dominant pole approximation, it must typically be located on the real axis at least how many times further to the left than the dominant complex poles?",
+        "choices": [
+            "A. It must be on the right side",
+            "B. 0.5 times",
+            "C. 2 times",
+            "D. 5 to 10 times"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 19,
+        "question": "A pole and a zero located extremely close to each other on the complex s-plane physically effectively cancel each other's influence on the dynamic response. This closely spaced pair is formally known in control theory as a:",
+        "choices": [
+            "A. Dipole",
+            "B. Doublet",
+            "C. Collocated node",
+            "D. Phantom pair"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 20,
+        "question": "When a zero perfectly cancels a pole at the exact same coordinates in the s-plane, the mathematical phenomenon is referred to as exact:",
+        "choices": [
+            "A. Residue elimination",
+            "B. Pole-zero cancellation (or Collocation)",
+            "C. Conjugate matching",
+            "D. Dominant masking"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "Worded circuit: A PI controller introduces a pole at the origin and a zero very close to the origin. This forms a dipole near the origin. What is the physical effect of this specific dipole on the system's step response?",
+        "choices": [
+            "A. It causes absolute instability",
+            "B. It introduces a very slowly decaying \"tail\" in the transient response before reaching steady state",
+            "C. It forces the damping ratio to zero",
+            "D. It creates infinite overshoot"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "On the complex s-plane, drawing a straight radial line from the origin at a constant angle θ strictly represents a locus of constant:",
+        "choices": [
+            "A. Damping ratio (ζ)",
+            "B. Natural frequency (ωn)",
+            "C. Damped frequency (ωd)",
+            "D. Settling time (Ts)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "On the complex s-plane, a perfect circle centered at the origin strictly represents a locus of constant:",
+        "choices": [
+            "A. Peak time",
+            "B. Real part (σ)",
+            "C. Damping ratio (ζ)",
+            "D. Undamped natural frequency (ωn)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "On the complex s-plane, drawing a horizontal line parallel to the real axis represents a locus of constant:",
+        "choices": [
+            "A. Natural frequency",
+            "B. Attenuation factor",
+            "C. Damped natural frequency (ωd)",
+            "D. Damping ratio"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "On the complex s-plane, drawing a vertical line parallel to the imaginary axis represents a locus of constant:",
+        "choices": [
+            "A. Settling time (or constant real part σ)",
+            "B. Percent overshoot",
+            "C. Natural frequency",
+            "D. Damped frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "If a control system possesses a zero strictly located in the right-half of the complex s-plane, the system is mathematically classified as a:",
+        "choices": [
+            "A. Minimum phase system",
+            "B. Non-minimum phase system",
+            "C. Unstable system",
+            "D. Marginally stable system"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "What is the defining physical characteristic of the step response of a Non-Minimum Phase system (a system with a Right-Half Plane zero)?",
+        "choices": [
+            "A. The output reaches steady state instantly",
+            "B. The output oscillates endlessly",
+            "C. The output initially dips in the opposite (negative) direction before rising to the final positive value",
+            "D. The output has absolutely no overshoot"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "For a physical (strictly proper) control system to be realizable in hardware, the number of poles (n) and the number of zeros (m) must strictly satisfy which mathematical condition?",
+        "choices": [
+            "A. n < m",
+            "B. n = m",
+            "C. n = 0",
+            "D. n ≥ m"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "In the transient response equation of any strictly stable LTI system, the physical rate at which the transient terms exponentially decay to zero is dictated exclusively by the:",
+        "choices": [
+            "A. System DC gain",
+            "B. Numerator polynomial (Zeros)",
+            "C. Imaginary parts of the closed-loop poles",
+            "D. Real parts of the closed-loop poles"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "A single pole located exactly at the origin (s=0) of the s-plane mathematically corresponds to what physical operation in the time domain?",
+        "choices": [
+            "A. Pure differentiation",
+            "B. Phase lead",
+            "C. Pure integration",
+            "D. Time delay"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "A single zero located exactly at the origin (s=0) of the s-plane mathematically corresponds to what physical operation in the time domain?",
+        "choices": [
+            "A. Pure integration",
+            "B. Pure differentiation",
+            "C. Phase lag",
+            "D. Amplification"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "For any physical system with real coefficients in its differential equation, complex poles must always appear in the s-plane as:",
+        "choices": [
+            "A. Complex conjugate pairs",
+            "B. Isolated points",
+            "C. Quartets",
+            "D. Points on the real axis only"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "If a pair of complex conjugate poles lies on a radial line originating from the origin at an angle θ (measured from the negative real axis), the damping ratio ζ is mathematically exactly equal to:",
+        "choices": [
+            "A. sin(θ)",
+            "B. tan(θ)",
+            "C. cos(θ)",
+            "D. sec(θ)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "An overdamped second-order system (ζ > 1) will strictly have its two closed-loop poles located mathematically on the s-plane as:",
+        "choices": [
+            "A. Distinct real roots in the left-half plane",
+            "B. Repeated real roots in the left-half plane",
+            "C. Complex conjugates in the left-half plane",
+            "D. Distinct real roots in the right-half plane"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "A critically damped second-order system (ζ = 1) will strictly have its two closed-loop poles located mathematically on the s-plane as:",
+        "choices": [
+            "A. Complex conjugates on the jω-axis",
+            "B. Repeated (identical) real roots in the left-half plane",
+            "C. Distinct real roots in the left-half plane",
+            "D. One real root at the origin, one in the left-half plane"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "A pure time delay (transport delay) of 'T' seconds is modeled mathematically by e^(-sT). How does this affect the number of poles in the system?",
+        "choices": [
+            "A. It removes all poles",
+            "B. It moves poles to the right-half plane",
+            "C. It adds exactly one pole at s=-T",
+            "D. It mathematically introduces an infinite number of poles"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "When mapping the left-half of the continuous s-plane to the discrete z-plane, the entire jω-axis of the s-plane maps perfectly onto what geometric feature in the z-plane?",
+        "choices": [
+            "A. The real axis",
+            "B. The unit circle",
+            "C. A parabola",
+            "D. The origin"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "A 3rd-order system has closed-loop poles exactly at s = -2 ± j5, and s = -3. Will this system accurately follow the standard second-order approximation formulas?",
+        "choices": [
+            "A. Yes, 3rd order systems always act like 2nd order systems",
+            "B. Yes, the complex poles are inherently dominant",
+            "C. No, because the system is overdamped",
+            "D. No, because the real pole at -3 is too close to the complex poles' real part (-2), significantly altering the dynamics"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 39,
+        "question": "As a left-half plane zero is mathematically moved closer to the origin (and thus closer to the dominant poles), the Maximum Percent Overshoot of the step response will strictly:",
+        "choices": [
+            "A. Decrease to zero",
+            "B. Remain unaffected",
+            "C. Increase significantly",
+            "D. Cause the system to become unstable"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "When simplifying a higher-order transfer function, an engineer mathematically cancels a pole and a zero located very close to each other. This is considered valid ONLY IF they are located:",
+        "choices": [
+            "A. Relatively far to the left of the dominant poles",
+            "B. In the right-half plane",
+            "C. Exactly on the imaginary axis",
+            "D. Extremely close to the origin"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "If a closed-loop pole is located mathematically on the positive real axis of the s-plane, the corresponding time-domain transient term strictly takes the form of:",
+        "choices": [
+            "A. An exponentially growing function (e^+at)",
+            "B. An exponentially decaying function (e^-at)",
+            "C. A sustained sine wave",
+            "D. A decaying sine wave"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "Worded circuit: A control system has a transfer function H(s) = (s+5) / (s^2 + 2s + 2). What are the exact coordinates of the zeros and poles on the s-plane?",
+        "choices": [
+            "A. Zero at -5; Poles at -2, -1",
+            "B. Zeros at -1+j, -1-j; Pole at -5",
+            "C. Zero at -5; Poles at -1+j, -1-j",
+            "D. Zero at +5; Poles at +1+j, +1-j"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "In Root Locus analysis, the points where multiple poles meet and split off into the complex plane are formally known as:",
+        "choices": [
+            "A. Saddle points",
+            "B. Asymptotes",
+            "C. Zeros",
+            "D. Breakaway points"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "The angle at which a pole trajectory leaves a complex open-loop pole in the s-plane as system gain increases is formally called the:",
+        "choices": [
+            "A. Angle of incidence",
+            "B. Angle of departure",
+            "C. Phase margin",
+            "D. Root locus angle"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "The asymptotes of a root locus plot intersect the real axis of the s-plane at a single mathematical point formally known as the:",
+        "choices": [
+            "A. Break-in point",
+            "B. Origin",
+            "C. Pole-zero average",
+            "D. Centroid"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 46,
+        "question": "As the open-loop gain 'K' of a standard negative feedback system increases from zero to infinity, the closed-loop poles mathematically migrate in the s-plane from the:",
+        "choices": [
+            "A. Open-loop zeros to the open-loop poles",
+            "B. Open-loop poles to the open-loop zeros",
+            "C. Origin to infinity",
+            "D. Left-half plane to the right-half plane"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "Which specific type of stability analysis simply answers with a \"Yes\" or \"No\" as to whether all closed-loop poles strictly lie in the left-half of the s-plane?",
+        "choices": [
+            "A. Absolute stability",
+            "B. Relative stability",
+            "C. Marginal stability",
+            "D. Conditional stability"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "\"Relative stability\" goes beyond absolute stability by quantitatively measuring how close a system is to becoming unstable. This is most commonly quantified in the frequency domain using:",
+        "choices": [
+            "A. Routh-Hurwitz arrays",
+            "B. Root locus plots",
+            "C. Gain margin and Phase margin",
+            "D. Pole-zero cancellation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "A continuous linear time-invariant system is formally defined as Bounded-Input Bounded-Output (BIBO) stable if and only if:",
+        "choices": [
+            "A. Every bounded input produces exactly zero output",
+            "B. The input is a bounded step function",
+            "C. Every absolutely bounded input produces an absolutely bounded output",
+            "D. The system has infinite bandwidth"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "Mathematically, the strict necessary and sufficient condition for a continuous LTI system to be BIBO stable is that its impulse response h(t) is:",
+        "choices": [
+            "A. Differentiable everywhere",
+            "B. A unit step function",
+            "C. Symmetrical about the y-axis",
+            "D. Absolutely integrable from zero to infinity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 51,
+        "question": "The Routh-Hurwitz criterion is an algebraic method primarily utilized by engineers to determine the:",
+        "choices": [
+            "A. Exact transient response of a system",
+            "B. Number of closed-loop poles located strictly in the right-half of the s-plane",
+            "C. Exact frequency of oscillation",
+            "D. Optimal PID controller gains"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "To apply the Routh-Hurwitz criterion, the characteristic equation of the system must be strictly written in the form of a polynomial equated to zero, arranged in:",
+        "choices": [
+            "A. Descending powers of s",
+            "B. Ascending powers of s",
+            "C. Factored pole-zero form",
+            "D. State-space matrix form"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "A necessary (but not strictly sufficient) mathematical condition for absolute stability is that all coefficients of the characteristic polynomial must:",
+        "choices": [
+            "A. Be exactly zero",
+            "B. Be strictly positive and non-zero (assuming the highest power is positive)",
+            "C. Be complex numbers",
+            "D. Alternate in sign"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "If a characteristic polynomial is missing a term (e.g., s^4 + 3s^2 + 2 = 0), what does this mathematically guarantee about the system's absolute stability?",
+        "choices": [
+            "A. The system is definitively not absolutely stable (it is either unstable or marginally stable)",
+            "B. The system is perfectly stable",
+            "C. The system has infinite bandwidth",
+            "D. The system is a non-minimum phase system"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "According to the Routh-Hurwitz criterion, the exact number of roots of the characteristic equation located in the right-half s-plane is mathematically equal to the number of:",
+        "choices": [
+            "A. Zeros in the first column of the Routh array",
+            "B. Non-zero elements in the first row",
+            "C. Sign changes in the first column of the Routh array",
+            "D. Rows of all zeros in the Routh array"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "For a characteristic equation a4*s^4 + a3*s^3 + a2*s^2 + a1*s + a0 = 0, the very first two rows of the Routh array are strictly constructed directly from:",
+        "choices": [
+            "A. The derivatives of the polynomial",
+            "B. The roots of the polynomial",
+            "C. The odd and even powers of the system transfer function's numerator",
+            "D. The coefficients of the even and odd powers of 's' from the characteristic equation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "In a Routh array, if the first element of a row becomes exactly zero, but the rest of the row contains non-zero elements, the standard mathematical workaround is to:",
+        "choices": [
+            "A. Replace the zero with a very small positive number (epsilon, ε), complete the array, and take the limit as ε approaches zero",
+            "B. Terminate the array immediately and declare the system unstable",
+            "C. Form an auxiliary equation",
+            "D. Multiply the entire row by -1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "In a Routh array, if an entire row evaluates to exactly zero, it mathematically indicates that the characteristic equation strictly possesses:",
+        "choices": [
+            "A. Only real poles",
+            "B. Roots that are symmetrically located about the origin (e.g., purely imaginary conjugate pairs or real pairs of opposite sign)",
+            "C. Poles deep in the right-half plane",
+            "D. No poles at all"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "When an entire row of zeros appears in a Routh array, the engineer must mathematically construct an \"Auxiliary Equation\" specifically using the coefficients from the:",
+        "choices": [
+            "A. Row strictly below the row of zeros",
+            "B. First row of the array",
+            "C. Characteristic equation directly",
+            "D. Row strictly immediately above the row of zeros"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "The polynomial formed by the Auxiliary Equation in a Routh array is strictly composed entirely of:",
+        "choices": [
+            "A. Complex numbers",
+            "B. Odd powers of s",
+            "C. Even powers of s",
+            "D. Fractional powers of s"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "After constructing the Auxiliary Equation, how is the row of zeros strictly replaced to continue the Routh array calculation?",
+        "choices": [
+            "A. By the coefficients of the original characteristic equation",
+            "B. By adding 1 to every element",
+            "C. By dividing the Auxiliary Equation by 's'",
+            "D. By the coefficients of the mathematical derivative of the Auxiliary Equation with respect to 's'"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 62,
+        "question": "The roots of the Auxiliary Equation mathematically correspond to exactly which specific poles of the overall system?",
+        "choices": [
+            "A. The dominant poles in the left-half plane",
+            "B. All the poles of the system",
+            "C. The poles that are symmetrically located about the origin of the s-plane",
+            "D. The zeros of the open-loop transfer function"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "If a Routh array has a row of zeros (yielding purely imaginary roots) AND there are absolutely no sign changes in the entire first column, the system is strictly classified as:",
+        "choices": [
+            "A. Marginally stable",
+            "B. Asymptotically stable",
+            "C. Unconditionally unstable",
+            "D. Critically damped"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "If a system's characteristic equation possesses repeated (multiple) roots exactly on the jω-axis, the time-domain response will grow over time, classifying the system as:",
+        "choices": [
+            "A. Marginally stable",
+            "B. Unstable",
+            "C. Asymptotically stable",
+            "D. Conditionally stable"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "The absolute physical boundary between stability and instability in the continuous complex s-plane is strictly the:",
+        "choices": [
+            "A. Real axis",
+            "B. Unit circle",
+            "C. Imaginary (jω) axis",
+            "D. Origin"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "A system has a characteristic equation s^3 + 3s^2 + 2s + K = 0. Using the Routh-Hurwitz criterion, what is the strict mathematical range of K for the system to remain absolutely stable?",
+        "choices": [
+            "A. K > 6",
+            "B. 0 < K < 6",
+            "C. K < 0",
+            "D. K = 6"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "For the equation s^3 + 3s^2 + 2s + K = 0, at exactly K = 6, the Routh array will produce a row of zeros. What is the physical significance of K=6?",
+        "choices": [
+            "A. The system becomes a first-order system",
+            "B. The system becomes unconditionally stable",
+            "C. The system becomes a non-minimum phase system",
+            "D. The system becomes marginally stable, oscillating at a constant frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 68,
+        "question": "For the system s^3 + 3s^2 + 2s + K = 0, when K=6, the auxiliary equation from the s^2 row is 3s^2 + 6 = 0. What is the exact frequency of sustained oscillation (ω)?",
+        "choices": [
+            "A. √2 rad/s",
+            "B. 2 rad/s",
+            "C. 6 rad/s",
+            "D. √6 rad/s"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "To mathematically determine if all roots of a system have a real part more negative than a specific value -σ1 using Routh-Hurwitz, an engineer must substitute what specific transformation into the characteristic equation?",
+        "choices": [
+            "A. s = z",
+            "B. s = p - σ1",
+            "C. s = p * σ1",
+            "D. s = 1/p"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "A control system that is strictly stable for a specific range of gains (e.g., K1 < K < K2) but unstable outside this range is formally classified as:",
+        "choices": [
+            "A. Unconditionally stable",
+            "B. Marginally stable",
+            "C. Conditionally stable",
+            "D. Absolutely stable"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "In a Root Locus plot, the exact mathematical point where a locus branch crosses the jω-axis corresponds precisely to a condition of:",
+        "choices": [
+            "A. Marginal stability",
+            "B. Critical damping",
+            "C. Infinite gain",
+            "D. Overdamping"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "In the frequency domain, relative stability is often physically quantified by determining the distance of the open-loop frequency response curve from which critical mathematical point?",
+        "choices": [
+            "A. The origin (0, 0)",
+            "B. (-1, +j)",
+            "C. (0, -j)",
+            "D. (-1, j0)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "The Gain Margin (GM) of a system is formally defined as the amount of additional open-loop gain required to make the system exactly marginally stable when the phase angle is strictly:",
+        "choices": [
+            "A. -180 degrees",
+            "B. 0 degrees",
+            "C. 90 degrees",
+            "D. -90 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "The Phase Margin (PM) of a system is formally defined as the amount of additional phase lag required to make the system exactly marginally stable when the open-loop magnitude is strictly:",
+        "choices": [
+            "A. Zero",
+            "B. Infinite",
+            "C. -1",
+            "D. Unity (0 dB)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "For a strictly stable minimum-phase closed-loop system, the Bode plot must physically show that the Gain Margin (GM) and Phase Margin (PM) are both:",
+        "choices": [
+            "A. Negative",
+            "B. Positive",
+            "C. Zero",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "For a generic third-order characteristic equation a3*s^3 + a2*s^2 + a1*s + a0 = 0 (where all coefficients are positive), what is the direct algebraic inequality for absolute stability?",
+        "choices": [
+            "A. a3*a1 < a2*a0",
+            "B. a3*a0 > a2*a1",
+            "C. a2*a1 > a3*a0",
+            "D. a2 + a1 > a3 + a0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "For a generic second-order characteristic equation as^2 + bs + c = 0, what is the strict mathematical condition for absolute stability?",
+        "choices": [
+            "A. a > b",
+            "B. b^2 - 4ac > 0",
+            "C. a, b, and c must alternate in sign",
+            "D. a, b, and c must all be strictly positive (or all negative)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "A system's characteristic equation is s^4 + 2s^3 + 3s^2 + 4s + 5 = 0. The first column of the Routh array contains a negative number. This definitively mathematically proves:",
+        "choices": [
+            "A. The system is unconditionally unstable",
+            "B. The system is conditionally stable",
+            "C. The system is absolutely stable",
+            "D. The system is critically damped"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "If a Routh array computation yields a first-column term of (10 - 2K) / 3, what is the strict mathematical restriction on K for that specific term to indicate stability?",
+        "choices": [
+            "A. K > 5",
+            "B. K = 5",
+            "C. K < 5",
+            "D. K < 10"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "When constructing a Routh array, any entire row can be mathematically multiplied or divided by a positive constant to simplify calculations. How does this specific operation affect the final stability determination?",
+        "choices": [
+            "A. It reverses the stability criterion",
+            "B. It has absolutely no effect on the final stability conclusion",
+            "C. It shifts the poles to the left",
+            "D. It changes the frequency of oscillation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "A Routh array's first column has the signs: +, +, -, -, +. Exactly how many closed-loop poles are located in the right-half of the s-plane?",
+        "choices": [
+            "A. 4",
+            "B. 0",
+            "C. 2",
+            "D. 3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "The Nyquist Stability Criterion fundamentally uses which strict mathematical theorem from complex variable analysis to determine closed-loop stability from open-loop frequency response?",
+        "choices": [
+            "A. Stokes' Theorem",
+            "B. Cauchy's Principle of Argument",
+            "C. De Moivre's Theorem",
+            "D. Euler's Formula"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "In the classic Nyquist equation Z = N + P, the variable 'Z' strictly represents the exact number of:",
+        "choices": [
+            "A. Closed-loop poles in the right-half plane",
+            "B. Open-loop poles in the right-half plane",
+            "C. Encirclements of the -1 point",
+            "D. Open-loop zeros in the right-half plane"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "The specific frequency at which the open-loop phase angle is exactly -180 degrees is mathematically defined as the:",
+        "choices": [
+            "A. Gain crossover frequency",
+            "B. Resonant frequency",
+            "C. Natural frequency",
+            "D. Phase crossover frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "The specific frequency at which the open-loop magnitude is exactly 1 (or 0 dB) is mathematically defined as the:",
+        "choices": [
+            "A. Phase crossover frequency",
+            "B. Gain crossover frequency",
+            "C. Cutoff frequency",
+            "D. Corner frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "For a typical stable minimum-phase system, the physical relationship between the gain crossover frequency (ω_gc) and the phase crossover frequency (ω_pc) is strictly:",
+        "choices": [
+            "A. ω_gc = ω_pc",
+            "B. ω_gc > ω_pc",
+            "C. ω_gc < ω_pc",
+            "D. They are unrelated"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "If the gain crossover frequency is physically greater than the phase crossover frequency (ω_gc > ω_pc) in a standard minimum phase system, the closed-loop system is mathematically classified as:",
+        "choices": [
+            "A. Absolutely stable",
+            "B. Critically damped",
+            "C. Marginally stable",
+            "D. Unstable"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "The mathematical formula to calculate Phase Margin (PM) from the open-loop phase angle (φ) at the gain crossover frequency is strictly:",
+        "choices": [
+            "A. PM = 180° + φ",
+            "B. PM = 180° - φ",
+            "C. PM = φ - 180°",
+            "D. PM = -180° - φ"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "The mathematical formula to calculate Gain Margin (GM) in decibels from the open-loop magnitude",
+        "choices": [
+            "A. G(jω)",
+            "B. at the phase crossover frequency is strictly:",
+            "C. GM_dB = -20 * log10(",
+            "D. G(jω_pc)"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 90,
+        "question": "A physical system has a pure transport delay e^(-sT). What is the strict mathematical effect of this delay on the frequency response and relative stability?",
+        "choices": [
+            "A. It adds phase lead, increasing phase margin",
+            "B. It changes the magnitude plot drastically",
+            "C. It has no effect on relative stability",
+            "D. It adds phase lag linearly with frequency, strictly decreasing the phase margin and destabilizing the system"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "A standard first-order physical system (e.g., G(s) = K / (Ts + 1)) placed in a unity negative feedback loop will theoretically become unstable at what value of K?",
+        "choices": [
+            "A. K = 1",
+            "B. K > 10",
+            "C. It will never become mathematically unstable for any positive value of K",
+            "D. K = -1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Can a strictly Linear Time-Invariant (LTI) system exhibit a physical \"limit cycle\" (a sustained oscillation independent of initial conditions common in non-linear systems)?",
+        "choices": [
+            "A. Yes, if it has conjugate poles",
+            "B. No, true limit cycles are strictly a non-linear phenomenon",
+            "C. Yes, if it is marginally stable",
+            "D. Only if it has a transport delay"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "If an open-loop system has a pole exactly at the origin (an integrator), the Nyquist contour must strictly detour around the origin. The mathematical mapping of this infinitesimally small semi-circle detour produces what shape in the Nyquist plot?",
+        "choices": [
+            "A. A straight line",
+            "B. A point at the origin",
+            "C. A small circle",
+            "D. An infinite semi-circle"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "A polynomial is strictly classified as a \"Hurwitz polynomial\" if and only if all of its roots are mathematically located:",
+        "choices": [
+            "A. In the left-half of the s-plane",
+            "B. On the real axis",
+            "C. In the right-half of the s-plane",
+            "D. On the imaginary axis"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "In modern state-space analysis, the absolute stability of the continuous system dx/dt = Ax + Bu is strictly determined by the eigenvalues of the:",
+        "choices": [
+            "A. Input matrix B",
+            "B. System matrix A",
+            "C. Output matrix C",
+            "D. State transition matrix Φ"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "Mathematically, the eigenvalues of a system's state matrix A are exactly equal to the:",
+        "choices": [
+            "A. Zeros of the transfer function",
+            "B. Breakaway points of the root locus",
+            "C. Poles of the closed-loop transfer function",
+            "D. Resonant frequencies"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 97,
+        "question": "Worded circuit: Adding a Proportional-Integral (PI) controller to a physical plant mathematically adds a pole exactly at the origin (s=0). What is the strict secondary effect on the Root Locus and system stability?",
+        "choices": [
+            "A. It makes the system immediately absolutely stable",
+            "B. It has no effect on the root locus",
+            "C. It generally pulls the root locus to the right, physically making the system less stable (reducing relative stability)",
+            "D. It pulls the root locus to the left, increasing relative stability"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 98,
+        "question": "Worded circuit: Adding a Proportional-Derivative (PD) controller mathematically adds a zero in the left-half plane. What is the strict secondary effect on the Root Locus and system stability?",
+        "choices": [
+            "A. It generally pulls the root locus to the right, destabilizing the system",
+            "B. It generally pulls the root locus to the left, physically increasing relative stability and improving transient response",
+            "C. It cancels the dominant poles",
+            "D. It makes the steady-state error infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "If a system's zero is located at s = -2.01 and a pole is located at s = -2.00, this dipole will theoretically have a very small residue. How does this physically affect the overall step response?",
+        "choices": [
+            "A. It causes violent oscillations",
+            "B. It eliminates the steady state error",
+            "C. It completely cancels out all transient response",
+            "D. It causes a very small amplitude, slowly decaying exponential term in the time response"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "Which highly advanced mathematical theorem states that an equilibrium point is stable if there exists a scalar scalar function V(x) that is strictly positive definite, and its time derivative dV/dt is strictly negative definite?",
+        "choices": [
+            "A. Lyapunov's Second Method (Direct Method)",
+            "B. Routh-Hurwitz Theorem",
+            "C. Nyquist Criterion",
+            "D. Bode's Theorem"
+        ],
+        "correct_answer": "A"
+    }
+]

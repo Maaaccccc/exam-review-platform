@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "A system's transfer function is H(s) = 10 / (s + 5). The mathematically exact phase shift precisely at DC (w = 0) is:",
+        "choices": [
+            "A. -90 degrees",
+            "B. +90 degrees",
+            "C. 180 degrees",
+            "D. 0 degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 2,
+        "question": "The complex s-domain values that cause the denominator polynomial of a transfer function to equal zero are formally known as the:",
+        "choices": [
+            "A. Zeros",
+            "B. Poles",
+            "C. Roots",
+            "D. Break frequencies"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "In a Bode magnitude plot, a simple first-order real pole mathematically introduces a high-frequency asymptote with a strict slope of:",
+        "choices": [
+            "A. +20 dB/decade",
+            "B. -40 dB/decade",
+            "C. -20 dB/decade",
+            "D. -6 dB/decade"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "A linear time-invariant system is bounded-input bounded-output (BIBO) stable if all of its transfer function poles strictly lie in the:",
+        "choices": [
+            "A. Right half of the s-plane",
+            "B. Entire upper half of the s-plane",
+            "C. Exact center of the Smith chart",
+            "D. Left half of the s-plane"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "The exact mathematically undamped natural frequency (w_n) in rad/s for the transfer function H(s) = 100 / (s^2 + 6s + 64) is:",
+        "choices": [
+            "A. 8",
+            "B. 6",
+            "C. 64",
+            "D. 3"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "For a system with poles at s = -3 +/- j4, the exact dimensionless damping ratio (zeta) is:",
+        "choices": [
+            "A. 0.8",
+            "B. 0.6",
+            "C. 1.33",
+            "D. 0.75"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "Worded circuit: An ideal operational amplifier integrates the input voltage and amplifies it with a voltage gain of 10 (with phase inversion). The exact transfer function H(s) is:",
+        "choices": [
+            "A. 10 * s",
+            "B. -10 * s",
+            "C. -10 / s",
+            "D. -1 / (10*s)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "If the Bode magnitude plot is observed to drop by exactly 40 dB over precisely two decades, the asymptotic slope is rigorously defined as:",
+        "choices": [
+            "A. -40 dB/decade",
+            "B. -80 dB/decade",
+            "C. -10 dB/decade",
+            "D. -20 dB/decade"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "One Coulomb of electrical charge is mathematically equivalent to the total charge of approximately how many exact electrons?",
+        "choices": [
+            "A. 6.242 x 10^18",
+            "B. 1.602 x 10^-19",
+            "C. 6.242 x 10^19",
+            "D. 1.602 x 10^-18"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "The fundamental electrical quantity formally defined as the time rate of change of charge is:",
+        "choices": [
+            "A. Voltage",
+            "B. Power",
+            "C. Energy",
+            "D. Current"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "A constant current of 5 A strictly flows through a wire for exactly 2 minutes. The mathematically exact total charge that has passed through the wire is:",
+        "choices": [
+            "A. 10 C",
+            "B. 300 C",
+            "C. 600 C",
+            "D. 150 C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "If the mathematical expression for charge entering a terminal is q(t) = 5t^2 + 3t Coulombs, the exact instantaneous current at t = 2 seconds is:",
+        "choices": [
+            "A. 13 A",
+            "B. 10 A",
+            "C. 20 A",
+            "D. 23 A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "The mathematically exact definition of one Volt is strictly equivalent to:",
+        "choices": [
+            "A. One Joule per Coulomb",
+            "B. One Watt per Ampere",
+            "C. Both One Joule per Coulomb and One Watt per Ampere",
+            "D. One Coulomb per Joule"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "If exactly 120 Joules of energy are physically required to move 5 Coulombs of charge from point A to point B, the strict potential difference between these points is:",
+        "choices": [
+            "A. 600 V",
+            "B. 24 V",
+            "C. 0.04 V",
+            "D. 2.4 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "The instantaneous power absorbed by an electrical element is mathematically strictly given by the derivative of:",
+        "choices": [
+            "A. Charge with respect to time",
+            "B. Voltage with respect to time",
+            "C. Current with respect to time",
+            "D. Energy with respect to time"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 16,
+        "question": "A purely resistive load absorbs exactly 100 W of power for 5 hours. The mathematically exact total energy consumed in kilowatt-hours is:",
+        "choices": [
+            "A. 0.5 kWh",
+            "B. 500 kWh",
+            "C. 0.05 kWh",
+            "D. 5.0 kWh"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "The basic SI unit of electrical energy is the Joule, which is dimensionally exactly equivalent to a:",
+        "choices": [
+            "A. Volt-Ampere",
+            "B. Coulomb-Ampere",
+            "C. Newton-meter squared",
+            "D. Watt-second"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 18,
+        "question": "Worded circuit: A 12V automotive battery is continuously charged with a constant current of 10 A for exactly 4 hours. The theoretically exact total energy delivered to the battery (assuming 100% efficiency) is:",
+        "choices": [
+            "A. 480 Wh",
+            "B. 4800 Wh",
+            "C. 120 Wh",
+            "D. 1728 J"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "A strict application of the passive sign convention dictates that if current mathematically enters the positive terminal of an element, the calculated power p = vi physically represents:",
+        "choices": [
+            "A. Power generated by the element",
+            "B. Power absorbed by the element",
+            "C. Reactive power only",
+            "D. Apparent power"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "In a completely closed electrical network, the rigorous mathematical sum of the instantaneous powers absorbed by all individual elements must strictly equal:",
+        "choices": [
+            "A. Infinity",
+            "B. The total source voltage",
+            "C. Zero",
+            "D. The total line current"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "An electrical circuit element that is mathematically and physically capable of supplying average real power to an external device indefinitely is formally classified as a/an:",
+        "choices": [
+            "A. Passive element",
+            "B. Reactive element",
+            "C. Non-linear element",
+            "D. Active element"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 22,
+        "question": "Which of the following strict lists contains ONLY ideal active circuit elements?",
+        "choices": [
+            "A. Resistor, Capacitor, Inductor",
+            "B. Battery, Generator, Operational Amplifier",
+            "C. Diode, Transistor, Capacitor",
+            "D. Transformer, Inductor, Generator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "A pure, ideal independent voltage source mathematically rigorously maintains its specified terminal voltage regardless of the:",
+        "choices": [
+            "A. Internal resistance",
+            "B. Time of day",
+            "C. Current drawn from its terminals",
+            "D. Ambient temperature"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "If a dead short circuit is physically applied directly across the terminals of a theoretically perfectly ideal independent voltage source, the mathematically exact current that flows is:",
+        "choices": [
+            "A. Zero",
+            "B. Exactly its rated current",
+            "C. 1 Ampere",
+            "D. Infinite"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "A physical operational amplifier acts essentially as what specific type of ideal mathematical dependent source (in its linear active region)?",
+        "choices": [
+            "A. Current-Controlled Current Source (CCCS)",
+            "B. Voltage-Controlled Current Source (VCCS)",
+            "C. Current-Controlled Voltage Source (CCVS)",
+            "D. Voltage-Controlled Voltage Source (VCVS)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 26,
+        "question": "In the standard circuit modeling of a pure Bipolar Junction Transistor (BJT), the collector current is mathematically directly controlled by the base current, rigorously modeling it as a:",
+        "choices": [
+            "A. VCVS",
+            "B. CCCS",
+            "C. VCCS",
+            "D. CCVS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "An ideal independent current source is mathematically connected directly in series with a 10-ohm resistor. The exact overall Thevenin equivalent of this specific combination viewed from its two terminals strictly acts as:",
+        "choices": [
+            "A. A 10-ohm resistor",
+            "B. An ideal independent voltage source",
+            "C. An ideal independent current source",
+            "D. An open circuit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Worded circuit: An ideal 5A independent current source is physically connected directly in parallel with an ideal 10V independent voltage source. The mathematical exact voltage across the current source is:",
+        "choices": [
+            "A. 0 V",
+            "B. 10 V",
+            "C. 50 V",
+            "D. 2 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "A Voltage-Controlled Current Source (VCCS) has a mathematical proportionality constant 'g'. The strict physical SI unit of this transconductance parameter 'g' is:",
+        "choices": [
+            "A. Siemens",
+            "B. Ohms",
+            "C. Volts/Ampere",
+            "D. Dimensionless"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "A Current-Controlled Voltage Source (CCVS) has a mathematical proportionality constant 'r'. The strict physical SI unit of this transresistance parameter 'r' is:",
+        "choices": [
+            "A. Siemens",
+            "B. Ohms",
+            "C. Dimensionless",
+            "D. Amperes/Volt"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Ohm's Law rigorously mathematically states that the current flowing through a linear metallic conductor at a constant physical temperature is strictly directly proportional to the:",
+        "choices": [
+            "A. Cross-sectional area",
+            "B. Applied potential difference",
+            "C. Resistance of the conductor",
+            "D. Time of current flow"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "Worded circuit: A highly precise 2.2 k-ohm resistor is connected across a strict 110 V DC source. The mathematically exact current flowing through the resistor is:",
+        "choices": [
+            "A. 50 mA",
+            "B. 20 mA",
+            "C. 200 mA",
+            "D. 5 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "Joule's Law of electrical heating strictly mathematically dictates that the heat energy dissipated in a resistor is directly proportional to the resistance, the time of flow, and the:",
+        "choices": [
+            "A. Voltage",
+            "B. Square of the voltage",
+            "C. Square root of the current",
+            "D. Square of the current"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 34,
+        "question": "The fundamental electrical power law can be mathematically expressed in terms of strictly resistance (R) and current (I) exactly as:",
+        "choices": [
+            "A. P = I^2 / R",
+            "B. P = V * I",
+            "C. P = I^2 * R",
+            "D. P = V^2 / R"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "Worded circuit: A pure 100-ohm resistor safely dissipates exactly 400 W of real power. The mathematically exact magnitude of the DC voltage applied across its terminals must be:",
+        "choices": [
+            "A. 40 V",
+            "B. 20 V",
+            "C. 400 V",
+            "D. 200 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "A heating element is designed to operate at 240 V and consume 1200 W. If the physical supply voltage mathematically drops to 120 V (assuming resistance is perfectly constant), the exact new power consumed is:",
+        "choices": [
+            "A. 600 W",
+            "B. 300 W",
+            "C. 1200 W",
+            "D. 150 W"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "Worded circuit: An electric kettle draws 10 A from a 220 V line for exactly 5 minutes to boil water. The mathematically exact total electrical energy consumed is:",
+        "choices": [
+            "A. 11,000 J",
+            "B. 660,000 J",
+            "C. 2200 J",
+            "D. 110,000 J"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "In a strictly linear resistive circuit, if the applied voltage is mathematically tripled while the resistance remains constant, the physical real power dissipated will strictly increase by a factor of:",
+        "choices": [
+            "A. 3",
+            "B. 6",
+            "C. 9",
+            "D. 1.732"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "An electrical load mathematically consumes 2 kWh of energy over a continuous period of 8 hours. The exact average active power drawn by this load is:",
+        "choices": [
+            "A. 250 W",
+            "B. 400 W",
+            "C. 1600 W",
+            "D. 25 W"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 40,
+        "question": "Worded circuit: A 12 V DC motor lifts a mechanical mass, physically doing 600 J of total work over 10 seconds. Assuming exactly 100% efficiency, the strictly mathematically required constant current is:",
+        "choices": [
+            "A. 6.0 A",
+            "B. 5.0 A",
+            "C. 0.5 A",
+            "D. 7.2 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "The mathematically exact equivalent formulation for electrical energy (W) in terms of charge (Q) and voltage (V) is strictly:",
+        "choices": [
+            "A. W = Q / V",
+            "B. W = V / Q",
+            "C. W = Q * V",
+            "D. W = Q^2 * V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "One theoretical strictly exact metric horsepower (HP) is universally mathematically defined in electrical terms as approximately:",
+        "choices": [
+            "A. 746 Watts",
+            "B. 1000 Watts",
+            "C. 735.5 Watts",
+            "D. 550 Watts"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "One mechanical Imperial horsepower (HP) is universally mathematically defined in electrical terms as exactly:",
+        "choices": [
+            "A. 746 Watts",
+            "B. 735.5 Watts",
+            "C. 1000 Watts",
+            "D. 1 Watt"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "The fundamental physical property of a material that intrinsically opposes the flow of electrical current is mathematically defined as its:",
+        "choices": [
+            "A. Conductivity",
+            "B. Permittivity",
+            "C. Resistance",
+            "D. Susceptance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "The exact mathematical formula relating the DC resistance (R) of a uniform wire to its physical length (L), cross-sectional area (A), and resistivity (rho) is strictly:",
+        "choices": [
+            "A. R = (rho * A) / L",
+            "B. R = (rho * L) / A",
+            "C. R = L / (rho * A)",
+            "D. R = rho * L * A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "The standard SI unit for electrical resistivity (rho) is mathematically and physically rigorously defined as the:",
+        "choices": [
+            "A. Ohm-meter",
+            "B. Ohm/meter",
+            "C. Siemens/meter",
+            "D. Ohm-meter squared"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "A perfectly uniform copper wire has a strictly measured resistance of 10 ohms. If the physical length of the wire is mathematically exactly doubled while its volume remains completely constant (wire is drawn out), the new exact resistance is:",
+        "choices": [
+            "A. 20 ohms",
+            "B. 10 ohms",
+            "C. 5 ohms",
+            "D. 40 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 48,
+        "question": "Worded circuit: A specific wire has a resistance of R. A second wire made of the exact same physical material is mathematically twice as long and possesses twice the exact diameter. The exact mathematical resistance of the second wire is:",
+        "choices": [
+            "A. R",
+            "B. 2R",
+            "C. R/2",
+            "D. R/4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "The electrical conductance (G) of a circuit element is mathematically strictly defined as the absolute reciprocal of its:",
+        "choices": [
+            "A. Admittance",
+            "B. Inductance",
+            "C. Resistance",
+            "D. Reactance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "The standard SI unit for electrical conductance is strictly the Siemens (S), which is mathematically and physically identically equivalent to the:",
+        "choices": [
+            "A. Henry",
+            "B. Ohm",
+            "C. Mho",
+            "D. Farad"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "If a pure DC circuit strictly possesses a total equivalent conductance of 0.25 Siemens, its mathematically exact equivalent resistance is:",
+        "choices": [
+            "A. 2.5 ohms",
+            "B. 4.0 ohms",
+            "C. 0.4 ohms",
+            "D. 25.0 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "Most standard pure metallic conductors (like copper and aluminum) possess a physical Temperature Coefficient of Resistance that is mathematically strictly:",
+        "choices": [
+            "A. Zero",
+            "B. Negative",
+            "C. Complex",
+            "D. Positive"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "A material exhibiting a mathematically STRICTLY NEGATIVE temperature coefficient of resistance physically implies that as its temperature strictly increases, its electrical resistance:",
+        "choices": [
+            "A. Decreases",
+            "B. Increases",
+            "C. Remains perfectly constant",
+            "D. Becomes completely infinite"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "In standard engineering theory, which of the following physical materials universally exhibits a strictly negative temperature coefficient of resistance?",
+        "choices": [
+            "A. Copper",
+            "B. Tungsten",
+            "C. Silicon",
+            "D. Aluminum"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "The mathematically exact algebraic formula dictating the final resistance (R2) at a final temperature (T2), given the initial resistance (R1) at an initial temperature (T1) and the temperature coefficient (alpha1) at T1 is:",
+        "choices": [
+            "A. R2 = R1 * (1 - alpha1 * (T2 - T1))",
+            "B. R2 = R1 * (1 + alpha1 * (T2 - T1))",
+            "C. R2 = R1 / (1 + alpha1 * (T2 - T1))",
+            "D. R2 = R1 * (alpha1 * (T2 - T1))"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "The physical parameter known strictly as \"Inferred Zero Resistance Temperature\" for standard annealed copper is mathematically approximately:",
+        "choices": [
+            "A. 0 deg C",
+            "B. -273.15 deg C",
+            "C. -234.5 deg C",
+            "D. 100 deg C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "Worded circuit: A copper coil has a strict measured resistance of 100 ohms precisely at 20 deg",
+        "choices": [
+            "C. The temperature coefficient of copper at 20 deg C is exactly 0.00393 /deg",
+            "C. The mathematically exact resistance of the coil if it is physically heated to 70 deg C is:",
+            "A. 119.65 ohms",
+            "B. 150.0 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Which of the following physical alloys is highly specifically manufactured to possess a temperature coefficient of resistance that mathematically approximates almost precisely zero?",
+        "choices": [
+            "A. Nichrome",
+            "B. Brass",
+            "C. Constantan (or Manganin)",
+            "D. Steel"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "The exact mathematical reciprocal of physical electrical resistivity (rho) is formally and universally defined as the material's:",
+        "choices": [
+            "A. Permeability",
+            "B. Conductivity (sigma)",
+            "C. Susceptibility",
+            "D. Admittance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "The standard SI unit for electrical conductivity (sigma) is rigorously physically defined strictly as:",
+        "choices": [
+            "A. Ohm-meters",
+            "B. Siemens-meter",
+            "C. Ohms per meter",
+            "D. Siemens per meter (S/m)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "Worded circuit: A 100-meter length of highly uniform wire has a cross-sectional area of 2 mm^2 and a physical resistivity of 1.7 x 10^-8 ohm-m. The mathematically exact end-to-end DC resistance of this wire is:",
+        "choices": [
+            "A. 0.85 ohms",
+            "B. 1.7 ohms",
+            "C. 8.5 ohms",
+            "D. 0.17 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "Worded circuit: If the exact physical cross-sectional area of a uniform current-carrying wire is mathematically strictly halved while maintaining the same constant length, its resulting electrical resistance will strictly:",
+        "choices": [
+            "A. Be halved",
+            "B. Remain completely constant",
+            "C. Quadruple",
+            "D. Double"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 63,
+        "question": "Superconductivity is a strict physical phenomenon where a material's DC electrical resistance mathematically drops to exactly zero when the material is cooled strictly below its specific:",
+        "choices": [
+            "A. Critical mass",
+            "B. Curie temperature",
+            "C. Critical temperature (Tc)",
+            "D. Absolute zero point"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "In the universally standardized EIA 4-band color code system for physical carbon-composition resistors, what specific exact numerical value does the color \"Red\" strictly represent?",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 2",
+            "D. 3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "In the standard EIA 4-band resistor color code, the strict physical color sequence \"Yellow-Violet-Red-Gold\" mathematically corresponds exactly to which specific resistance value and tolerance?",
+        "choices": [
+            "A. 47 k-ohms +/- 5%",
+            "B. 4700 ohms +/- 5%",
+            "C. 4.7 k-ohms +/- 10%",
+            "D. 470 ohms +/- 5%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "In the standard EIA 4-band resistor color code, what specific physical color rigorously represents the mathematical multiplier of 10^3 (or 1,000)?",
+        "choices": [
+            "A. Red",
+            "B. Yellow",
+            "C. Brown",
+            "D. Orange"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 67,
+        "question": "Worded circuit: A technician reads a 4-band physical resistor with the colors strictly \"Brown-Black-Green-Silver\". The mathematically exact nominal resistance and tolerance of this component is:",
+        "choices": [
+            "A. 10 k-ohms +/- 10%",
+            "B. 1.0 M-ohms +/- 10%",
+            "C. 100 k-ohms +/- 5%",
+            "D. 1.0 M-ohms +/- 5%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "In the standard 4-band physical resistor color code, the color \"Gold\" located strictly in the third band position mathematically represents an exact multiplier of:",
+        "choices": [
+            "A. 0.1",
+            "B. 0.01",
+            "C. 1",
+            "D. 10"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "In the standard 4-band physical resistor color code, a tolerance band strictly colored \"Silver\" indicates a mathematical manufacturing tolerance of exactly:",
+        "choices": [
+            "A. +/- 1%",
+            "B. +/- 5%",
+            "C. +/- 10%",
+            "D. +/- 20%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "If a physical 4-band carbon resistor completely lacks a fourth color band, its strict mathematical default manufacturing tolerance is universally assumed to be:",
+        "choices": [
+            "A. +/- 5%",
+            "B. +/- 10%",
+            "C. +/- 1%",
+            "D. +/- 20%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 71,
+        "question": "In the highly precise EIA 5-band color code system (often used for metal film resistors), the first exactly how many bands rigorously represent the significant mathematical digits of the value?",
+        "choices": [
+            "A. Two",
+            "B. Three",
+            "C. Four",
+            "D. One"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "Worded circuit: A precision 5-band physical resistor has the exact color sequence \"Red-Red-Black-Brown-Brown\". Its strictly exact mathematical nominal resistance and tolerance is:",
+        "choices": [
+            "A. 2.2 k-ohms +/- 1%",
+            "B. 220 ohms +/- 1%",
+            "C. 2.2 k-ohms +/- 5%",
+            "D. 22 k-ohms +/- 1%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "For military-spec (MIL-SPEC) highly reliable 5-band physical resistors, a strict fifth band colored \"Brown\" rigorously mathematically indicates a specific failure rate of:",
+        "choices": [
+            "A. 1.0% per 1000 hours",
+            "B. 0.1% per 1000 hours",
+            "C. 0.01% per 1000 hours",
+            "D. 0.001% per 1000 hours"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "The standard physical color strictly designated to mathematically represent the number \"8\" in standard EIA resistor color coding is:",
+        "choices": [
+            "A. Violet",
+            "B. White",
+            "C. Gray",
+            "D. Blue"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "The mathematically exact nominal resistance value indicated by a 4-band physical resistor strictly painted \"Orange-Orange-Orange-Gold\" is exactly:",
+        "choices": [
+            "A. 3.3 k-ohms",
+            "B. 33 k-ohms",
+            "C. 333 ohms",
+            "D. 330 k-ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "The strict mathematical unit \"Mho\" (now Siemens) is occasionally physically written using the exact inverted symbol of which standard Greek letter?",
+        "choices": [
+            "A. Alpha",
+            "B. Omega",
+            "C. Sigma",
+            "D. Delta"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "Worded circuit: An ideal mathematically pure independent voltage source of 5V is connected directly in parallel with a 10V ideal independent voltage source. According to rigorous classical circuit theory, this specific physical configuration is strictly:",
+        "choices": [
+            "A. Perfectly stable",
+            "B. Equivalent to a 15V source",
+            "C. Equivalent to a 5V source",
+            "D. Mathematically impossible (violates KVL)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "Worded circuit: A completely ideal independent current source of 2A is connected directly in series with a 5A ideal independent current source. According to rigorous classical circuit theory, this specific physical configuration is strictly:",
+        "choices": [
+            "A. Equivalent to a 7A source",
+            "B. Equivalent to a 3A source",
+            "C. Mathematically impossible (violates KCL)",
+            "D. Equivalent to a 2.5A source"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "In basic electrical definitions, \"Electron-Volt (eV)\" is strictly a mathematically small unit of:",
+        "choices": [
+            "A. Voltage",
+            "B. Energy",
+            "C. Charge",
+            "D. Power"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "One mathematical Electron-Volt (eV) is strictly physically equivalent to exactly how many Joules?",
+        "choices": [
+            "A. 1.602 x 10^-19 J",
+            "B. 6.242 x 10^18 J",
+            "C. 1.38 x 10^-23 J",
+            "D. 9.11 x 10^-31 J"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "Worded circuit: A real physical battery is mathematically modeled strictly as an ideal independent DC voltage source connected perfectly in series with a/an:",
+        "choices": [
+            "A. Ideal capacitor",
+            "B. Internal parallel resistance",
+            "C. Ideal inductor",
+            "D. Internal series resistance"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 82,
+        "question": "If the physical physical cross-section of a wire is strictly circular, its mathematical area (A) utilized in the resistivity formula R=rho*L/A is rigorously exactly equal to:",
+        "choices": [
+            "A. pi * d",
+            "B. pi * r",
+            "C. (pi * d^2) / 4",
+            "D. (pi * d) / 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "A common non-metric engineering unit strictly for the physical cross-sectional area of electrical wire in North America is the:",
+        "choices": [
+            "A. Circular mil (CM)",
+            "B. Square inch",
+            "C. Cubic centimeter",
+            "D. Mil-foot"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "One rigorous mathematical circular mil (CM) is strictly defined as the exact area of a circle possessing a diameter of precisely:",
+        "choices": [
+            "A. 1 millimeter",
+            "B. 1 inch",
+            "C. 0.001 inch (1 mil)",
+            "D. 0.01 inch"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "The exact mathematical physical area (in circular mils, CM) of a solid wire having a strict diameter of 'd' mils is simply rigorously given by the formula:",
+        "choices": [
+            "A. (pi * d^2) / 4",
+            "B. d^2",
+            "C. d",
+            "D. pi * d"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "Worded circuit: A standard AWG (American Wire Gauge) physical wire size is decreased strictly by exactly 3 gauge numbers (e.g., from AWG 10 to AWG 7). The wire's mathematical cross-sectional area approximately precisely:",
+        "choices": [
+            "A. Doubles",
+            "B. Halves",
+            "C. Triples",
+            "D. Quadruples"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "In basic physics, the rigorous mathematically defined elementary charge 'e' (the exact absolute charge of a single proton) is precisely:",
+        "choices": [
+            "A. +1.602 x 10^-19 C",
+            "B. -1.602 x 10^-19 C",
+            "C. +6.242 x 10^18 C",
+            "D. +1.0 C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "The standard physical metric prefix \"Pico\" (p) mathematically rigorously denotes exactly which specific multiplication factor?",
+        "choices": [
+            "A. 10^-9",
+            "B. 10^-12",
+            "C. 10^-15",
+            "D. 10^-6"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "A physical incandescent light bulb strictly acts as a mathematically non-linear resistor. As the voltage applied to it increases, the physical temperature of its filament strictly increases, causing its exact mathematical electrical resistance to:",
+        "choices": [
+            "A. Remain strictly constant",
+            "B. Decrease sharply",
+            "C. Increase",
+            "D. Fluctuate randomly"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "An ideal operational amplifier mathematically strictly inherently possesses an exact theoretical input resistance of:",
+        "choices": [
+            "A. Zero",
+            "B. 50 ohms",
+            "C. Infinity",
+            "D. 1 Megohm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "Worded circuit: A completely purely resistive highly complex network is enclosed in a strict \"black box\" with exactly two exposed terminals. Using an ohmmeter, the mathematical resistance is measured as exactly zero ohms. The network inside is strictly physically equivalent to a/an:",
+        "choices": [
+            "A. Open circuit",
+            "B. Short circuit",
+            "C. Infinite resistance",
+            "D. Voltage source"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "Which of the strictly fundamental basic circuit laws explicitly mathematically validates the physical conservation of total energy in a closed electrical circuit loop?",
+        "choices": [
+            "A. Kirchhoff's Current Law (KCL)",
+            "B. Ohm's Law",
+            "C. Norton's Theorem",
+            "D. Kirchhoff's Voltage Law (KVL)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "Which of the strictly fundamental basic circuit laws explicitly mathematically validates the physical conservation of total charge exactly at a circuit node?",
+        "choices": [
+            "A. Kirchhoff's Voltage Law (KVL)",
+            "B. Faraday's Law",
+            "C. Kirchhoff's Current Law (KCL)",
+            "D. Joule's Law"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "Worded circuit: A physical toaster strictly draws 8 A from a 120 V AC line. The mathematically exact resistance of the pure heating element while fully hot is strictly:",
+        "choices": [
+            "A. 15 ohms",
+            "B. 960 ohms",
+            "C. 0.067 ohms",
+            "D. 120 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "Worded circuit: An ideal 10V independent voltage source strictly delivers exactly 50 W of active power to an unknown passive element. The mathematically exact current flowing physically out of its positive terminal is:",
+        "choices": [
+            "A. 0.2 A",
+            "B. 5.0 A",
+            "C. 500 A",
+            "D. 10.0 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "In rigorous circuit theory, the mathematical node voltage is always physically measured precisely with absolute respect to a strictly designated:",
+        "choices": [
+            "A. Dependent source",
+            "B. Reference node (Ground, defined as exactly 0V)",
+            "C. Highest voltage point",
+            "D. Resistor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "Worded circuit: An ideal CCCS (Current-Controlled Current Source) yields an output current strictly given by I_out = Beta * I_in. The strict physical unit of the mathematical multiplier 'Beta' is:",
+        "choices": [
+            "A. Siemens",
+            "B. Ohms",
+            "C. Volts",
+            "D. Dimensionless"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 98,
+        "question": "Worded circuit: A physical series circuit strictly contains a 10V ideal independent voltage source and a pure 5-ohm resistor. If the terminals are physically completely short-circuited, the mathematically exact power dissipated strictly by the 5-ohm resistor is:",
+        "choices": [
+            "A. 50 W",
+            "B. 20 W",
+            "C. 10 W",
+            "D. 100 W"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "The strict physical parameter known as \"Sheet Resistance\" is mathematically heavily utilized in integrated circuit layout. Its exact dimension is ohms, but it is conventionally strictly stated in specialized units of:",
+        "choices": [
+            "A. Ohms per square",
+            "B. Ohms per cubic centimeter",
+            "C. Ohms per mil",
+            "D. Siemens per square"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 100,
+        "question": "Worded circuit: A pure, ideal independent current source of I Amperes strictly drives a completely open circuit. The mathematically exact voltage that physically develops directly across the open terminals is:",
+        "choices": [
+            "A. 0 V",
+            "B. Exactly I Volts",
+            "C. Negative I Volts",
+            "D. Theoretical Infinity"
+        ],
+        "correct_answer": "D"
+    }
+]

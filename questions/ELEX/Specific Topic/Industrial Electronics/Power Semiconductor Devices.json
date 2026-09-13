@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "The minimum anode current required to maintain an SCR in the ON state immediately after the gate signal is removed is called the:",
+        "choices": [
+            "A. Holding current",
+            "B. Latching current",
+            "C. Breakover current",
+            "D. Reverse recovery current"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "A DIAC is used to trigger a TRIAC in a light dimmer circuit. If the DIAC has a breakover voltage of 30V, what is its primary function in this configuration?",
+        "choices": [
+            "A. To rectify the AC supply for the TRIAC gate",
+            "B. To provide a sharp, high-current pulse to the TRIAC gate at a precise phase angle",
+            "C. To limit the main load current flowing through the TRIAC",
+            "D. To act as a snubber circuit to prevent dv/dt false triggering"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "A UJT relaxation oscillator uses an emitter resistor R and capacitor",
+        "choices": [
+            "C. The intrinsic standoff ratio is 0.5. VBB is 12V and the diode drop is 0.7V. What is the approximate peak voltage (Vp) required to trigger the UJT?",
+            "A. 6.0 V",
+            "B. 12.7 V",
+            "C. 6.7 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "Which of the following thyristor family devices can be turned OFF by applying a negative pulse to its gate?",
+        "choices": [
+            "A. Silicon Controlled Rectifier (SCR)",
+            "B. TRIAC",
+            "C. Programmable Unijunction Transistor (PUT)",
+            "D. Gate Turn-Off Thyristor (GTO)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "In a standard SCR, the ratio of the latching current (IL) to the holding current (IH) is typically:",
+        "choices": [
+            "A. Exactly 1",
+            "B. Between 2 and 3",
+            "C. Less than 1",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "A worded circuit: An SCR controls a 50V DC circuit. A forced commutation circuit switches a reverse-charged capacitor across the SCR. For successful commutation, this reverse voltage must be maintained across the SCR for a duration longer than its:",
+        "choices": [
+            "A. Delay time",
+            "B. Forward breakover time",
+            "C. Turn-off time (tq)",
+            "D. Reverse recovery time (trr)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "The process of turning off an SCR in an AC circuit by naturally letting the supply voltage cross zero is referred to as:",
+        "choices": [
+            "A. Forced commutation",
+            "B. Gate turn-off commutation",
+            "C. Resonant commutation",
+            "D. Line or natural commutation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "What additional semiconductor layer is incorporated into a power diode to increase its reverse breakdown voltage capability?",
+        "choices": [
+            "A. A lightly doped drift region (n- layer)",
+            "B. A heavily doped p+ layer",
+            "C. A silicon dioxide insulating layer",
+            "D. A metallic Schottky barrier"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "The reverse recovery time (trr) of a power diode is composed of the charge storage time (ta) and the fall time (tb). The \"softness factor\" (S) is defined as:",
+        "choices": [
+            "A. ta / tb",
+            "B. ta + tb",
+            "C. tb / ta",
+            "D. (ta * tb) / 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "A power diode has a reverse recovery time of 3 µs and a rate of fall of diode current (di/dt) of 30 A/µs. Assuming an abrupt recovery where ta ≈ trr, what is the approximate stored charge (Qrr) utilizing the basic triangular approximation?",
+        "choices": [
+            "A. 45 µC",
+            "B. 90 µC",
+            "C. 270 µC",
+            "D. 135 µC"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "Which type of power diode is a majority carrier device, inherently exhibiting essentially zero reverse recovery charge (excluding junction capacitance)?",
+        "choices": [
+            "A. Schottky diode",
+            "B. PIN diode",
+            "C. Fast recovery diode",
+            "D. General purpose diode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "Schottky power diodes are generally limited in their application by their:",
+        "choices": [
+            "A. Extremely slow switching speeds",
+            "B. Relatively low reverse blocking voltage capability (typically < 100V)",
+            "C. High forward voltage drop compared to PN junction diodes",
+            "D. High reverse recovery current transients"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "A worded circuit: A step-down (buck) converter uses a fast-recovery freewheeling diode. If the diode's reverse recovery time increases significantly due to high temperature, what is the most immediate negative consequence on the circuit?",
+        "choices": [
+            "A. The output DC voltage will double",
+            "B. The inductor will saturate instantly",
+            "C. The diode will fail due to excessive forward voltage drop",
+            "D. The main switching transistor will experience very high turn-on current spikes and increased switching losses"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "Unlike small-signal BJTs, a power BJT is characterized by a vertically oriented structure. The lightly doped collector drift region is essential for:",
+        "choices": [
+            "A. Withstanding high reverse voltages in the OFF state",
+            "B. Increasing the current gain (beta)",
+            "C. Reducing the saturation voltage (VCE(sat))",
+            "D. Increasing the switching speed"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "The DC current gain (hFE or beta) of a high-voltage power BJT, when operating at its rated nominal current, is typically in the range of:",
+        "choices": [
+            "A. 100 to 500",
+            "B. 5 to 20",
+            "C. 1000 to 5000",
+            "D. Less than 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "To turn off a saturated power BJT quickly, a reverse base current pulse is applied. This extracts the stored minority charge in the base and collector regions. During this turn-off phase, the parameter that denotes the time it takes for the collector current to start falling is the:",
+        "choices": [
+            "A. Rise time",
+            "B. Fall time",
+            "C. Storage time",
+            "D. Delay time"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "Which destructive phenomenon in power BJTs is caused by localized \"hot spots\" due to current crowding, leading to a sudden collapse of collector-emitter voltage and thermal runaway?",
+        "choices": [
+            "A. Secondary breakdown",
+            "B. Primary breakdown",
+            "C. Avalanche breakdown",
+            "D. Zener breakdown"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "A worded circuit: A power BJT is driving an inductive load. A \"Baker clamp\" circuit consisting of diodes is connected to the base and collector. What is the primary purpose of this specific circuit?",
+        "choices": [
+            "A. To protect the BJT from high reverse voltages during turn-off",
+            "B. To keep the BJT out of deep saturation, thereby drastically reducing storage time and improving turn-off speed",
+            "C. To increase the effective current gain of the BJT",
+            "D. To act as a freewheeling path for the inductive load current"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "In the output characteristics of a power BJT, there is a distinct region between hard saturation and the active region where the drift region becomes partially depleted. This is known as the:",
+        "choices": [
+            "A. Cutoff region",
+            "B. Deep saturation region",
+            "C. Quasi-saturation region",
+            "D. Avalanche region"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Power MOSFETs are preferred over power BJTs for high-frequency switching applications (e.g., > 100 kHz) primarily because:",
+        "choices": [
+            "A. They have a much higher breakdown voltage rating",
+            "B. They can handle significantly higher steady-state currents",
+            "C. They have a lower on-state voltage drop at high currents",
+            "D. They are majority carrier devices and do not suffer from minority carrier storage time delays"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "The on-state resistance (RDS(on)) of a power MOSFET has a positive temperature coefficient. This specific characteristic is highly advantageous because it:",
+        "choices": [
+            "A. Decreases conduction losses as the device heats up",
+            "B. Facilitates easy paralleling of multiple MOSFETs by naturally preventing thermal runaway and current hogging",
+            "C. Increases the switching speed at higher operating temperatures",
+            "D. Eliminates the need for a heat sink"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "A worded circuit: A power MOSFET is used as a low-side switch. During the turn-on transition, the gate-to-source voltage (VGS) rises to the threshold, then remains relatively flat for a short period before rising to the final drive voltage. This flat region on the gate charge curve is called the:",
+        "choices": [
+            "A. Threshold plateau",
+            "B. Ohmic region",
+            "C. Miller plateau",
+            "D. Saturation delay"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "The inherent structural design of a vertical power MOSFET intrinsically creates a parasitic component between the source and drain. What is this component?",
+        "choices": [
+            "A. A Zener diode",
+            "B. A thyristor",
+            "C. An inductor",
+            "D. A reverse-biased body diode"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "In a power MOSFET, the primary trade-off in manufacturing design is between the breakdown voltage rating (BVDSS) and the:",
+        "choices": [
+            "A. On-state resistance (RDS(on))",
+            "B. Gate-source threshold voltage (VGS(th))",
+            "C. Maximum operating junction temperature",
+            "D. Intrinsic body diode recovery time"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "To drive a power MOSFET efficiently at high frequencies, the gate driver circuit must be capable of sourcing and sinking high peak currents. This is primarily required to:",
+        "choices": [
+            "A. Maintain the MOSFET in the active region",
+            "B. Overcome the internal gate resistance",
+            "C. Rapidly charge and discharge the parasitic gate-source (Cgs) and gate-drain (Cgd) capacitances",
+            "D. Provide the necessary continuous base drive current for saturation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "An Insulated Gate Bipolar Transistor (IGBT) essentially combines the input characteristics of a _____ and the output characteristics of a _____.",
+        "choices": [
+            "A. BJT, BJT",
+            "B. JFET, MOSFET",
+            "C. BJT, MOSFET",
+            "D. MOSFET, BJT"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "Which of the following statements correctly compares an IGBT to a Power MOSFET of similar high-voltage rating (e.g., 1000V)?",
+        "choices": [
+            "A. The IGBT has a lower conduction loss at high currents but slower switching speeds",
+            "B. The IGBT has a higher conduction loss but much faster switching speeds",
+            "C. The IGBT does not suffer from tail current during turn-off",
+            "D. The IGBT is a pure majority carrier device"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "During the turn-off phase of an IGBT, the collector current drops rapidly at first, then decays slowly. This slow decay is known as the \"tail current\" and is caused by:",
+        "choices": [
+            "A. The discharge of the gate-emitter capacitance",
+            "B. The recombination of minority carriers trapped in the wide N- drift region, which cannot be extracted via the gate",
+            "C. The parasitic thyristor latch-up mechanism",
+            "D. The reverse recovery of the intrinsic body diode"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "A potentially destructive phenomenon in IGBTs occurs if the parasitic NPNP thyristor structure within the device turns on, causing a loss of gate control. This is called:",
+        "choices": [
+            "A. Secondary breakdown",
+            "B. Thermal runaway",
+            "C. Avalanche breakdown",
+            "D. Latch-up"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "There are two main types of IGBT structures: Punch-Through (PT) and Non-Punch-Through (NPT). A key characteristic of the NPT IGBT compared to the PT IGBT is that the NPT IGBT:",
+        "choices": [
+            "A. Has a positive temperature coefficient for VCE(sat), making it easier to parallel",
+            "B. Has a significantly faster switching speed",
+            "C. Requires a heavily doped buffer layer",
+            "D. Is highly susceptible to thermal runaway when paralleled"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "A worded circuit: An IGBT is used in a motor drive inverter. To prevent latch-up during high-stress dynamic operation, the circuit designer must strictly ensure that the device does not exceed its specified limits for maximum collector current and:",
+        "choices": [
+            "A. Minimum gate-emitter voltage",
+            "B. Maximum rate of change of voltage (dv/dt)",
+            "C. Minimum switching frequency",
+            "D. Maximum rate of change of gate current (diG/dt)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "The Safe Operating Area (SOA) of a power semiconductor device is a graphical representation of the allowable operating region bounded by:",
+        "choices": [
+            "A. Gate voltage and gate current",
+            "B. Switching frequency and duty cycle",
+            "C. Maximum voltage and maximum current",
+            "D. Temperature and thermal resistance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "In the Forward Bias Safe Operating Area (FBSOA) of a power BJT, the upper right boundary is typically limited by thermal dissipation (Ptot) and a steeper slope boundary representing:",
+        "choices": [
+            "A. Secondary breakdown limit",
+            "B. Maximum continuous collector current limit",
+            "C. Maximum collector-emitter breakdown voltage (BVCEO) limit",
+            "D. Avalanche energy limit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "When comparing the SOA of a Power MOSFET to a Power BJT, the Power MOSFET generally has a much wider SOA because it:",
+        "choices": [
+            "A. Can withstand higher breakdown voltages",
+            "B. Does not suffer from secondary breakdown caused by current crowding and thermal hot spots",
+            "C. Has a lower on-state resistance",
+            "D. Requires a lower gate drive voltage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Reverse Bias Safe Operating Area (RBSOA) is particularly critical to evaluate when a power device is:",
+        "choices": [
+            "A. Operating in a purely DC state",
+            "B. Turning on into a resistive load",
+            "C. Turning off an inductive load",
+            "D. Conducting current in the reverse direction through its body diode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Fast recovery power diodes typically use platinum or gold doping in their manufacturing process. The primary purpose of this specific doping is to:",
+        "choices": [
+            "A. Increase the reverse breakdown voltage",
+            "B. Decrease the forward voltage drop",
+            "C. Improve the thermal conductivity of the silicon",
+            "D. Create recombination centers that drastically reduce minority carrier lifetime and reverse recovery time"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "A single-phase full-bridge rectifier uses four power diodes. If the load is highly inductive, forcing a constant DC current Io, what is the average current flowing through each individual diode?",
+        "choices": [
+            "A. Io",
+            "B. Io / 2",
+            "C. Io / pi",
+            "D. Io / sqrt(2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "The ratio of the collector current to the base current (IC / IB) in a saturated power BJT used as a switch is called the:",
+        "choices": [
+            "A. Common-emitter current gain (hFE)",
+            "B. Alpha (α)",
+            "C. Forced beta (β_forced)",
+            "D. Transition frequency (fT)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "To ensure a power BJT is driven fully into hard saturation to minimize conduction losses, the base drive current must be selected such that the forced beta is:",
+        "choices": [
+            "A. Much greater than the nominal hFE",
+            "B. Exactly equal to the nominal hFE",
+            "C. Equal to 1",
+            "D. Significantly less than the nominal hFE"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "A worded circuit: A power BJT controls a relay coil. A \"snubber\" or freewheeling diode is omitted by mistake. When the BJT turns off, the inductor voltage spikes. This high voltage and simultaneous decaying current will most likely force the BJT outside its:",
+        "choices": [
+            "A. Reverse Bias Safe Operating Area (RBSOA) causing secondary breakdown",
+            "B. Forward Bias Safe Operating Area (FBSOA) causing primary breakdown",
+            "C. Continuous current rating",
+            "D. Maximum gate-emitter voltage rating"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "Which terminal of a Power MOSFET is typically connected to the metal tab or casing (heatsink) of a standard TO-220 package?",
+        "choices": [
+            "A. Gate",
+            "B. Source",
+            "C. Drain",
+            "D. Body"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "In the linear (ohmic) region of a Power MOSFET, it behaves essentially as a resistor. To maintain this low-resistance state for high current conduction, the gate-to-source voltage (VGS) must be:",
+        "choices": [
+            "A. Slightly below the threshold voltage (Vth)",
+            "B. Exactly equal to the threshold voltage",
+            "C. Zero",
+            "D. Significantly higher than the threshold voltage (e.g., 10V to 15V)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 43,
+        "question": "The theoretical relationship between the on-state resistance (RDS(on)) of a silicon power MOSFET and its breakdown voltage rating (VBR) dictates that RDS(on) increases approximately proportional to:",
+        "choices": [
+            "A. VBR^2.5",
+            "B. VBR",
+            "C. sqrt(VBR)",
+            "D. 1 / VBR"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "The schematic symbol for an IGBT combines elements of both BJTs and MOSFETs. It has three terminals named:",
+        "choices": [
+            "A. Base, Emitter, Collector",
+            "B. Gate, Emitter, Collector",
+            "C. Gate, Source, Drain",
+            "D. Anode, Cathode, Gate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "When an IGBT is conducting in the ON state, the voltage drop across its main terminals (VCE(sat)) is typically composed of the voltage drop of a:",
+        "choices": [
+            "A. P-N junction diode only",
+            "B. Purely resistive MOSFET channel only",
+            "C. Zener diode in series with a resistor",
+            "D. MOSFET channel in series with a forward-biased P-N junction"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 46,
+        "question": "A worded circuit: An IGBT in a half-bridge inverter is driven by a gate driver IC. To ensure rapid turn-off and prevent false triggering due to Miller capacitance during high dv/dt events on the collector, the gate driver typically applies what voltage during the OFF state?",
+        "choices": [
+            "A. A negative voltage (e.g., -5V to -15V)",
+            "B. Exactly 0V (ground)",
+            "C. A small positive voltage (e.g., +2V)",
+            "D. The main supply voltage (+VCC)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "Which specification defines the maximum amount of heat energy a power semiconductor package can dissipate to the ambient environment?",
+        "choices": [
+            "A. Electrical resistance",
+            "B. Thermal resistance (theta_JA or RthJA)",
+            "C. Heat capacity",
+            "D. Dielectric strength"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "If a power transistor has a maximum junction temperature of 150°C, an ambient temperature of 50°C, and a total thermal resistance (junction-to-ambient) of 2°C/W, what is the maximum allowable power dissipation?",
+        "choices": [
+            "A. 200 W",
+            "B. 100 W",
+            "C. 50 W",
+            "D. 75 W"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "Which of the following power diodes is best suited for rectifying a high-frequency (500 kHz) square wave in a Switch-Mode Power Supply (SMPS)?",
+        "choices": [
+            "A. Schottky diode",
+            "B. Standard recovery P-N diode",
+            "C. Zener diode",
+            "D. Rectifier diode (e.g., 1N4007)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "In a Darlington power BJT configuration, the overall current gain is very high. However, a major drawback of the Darlington configuration in power switching applications is its:",
+        "choices": [
+            "A. Very low input impedance",
+            "B. Higher saturation voltage (VCE(sat)) compared to a single BJT",
+            "C. Susceptibility to avalanche breakdown",
+            "D. Inability to handle high collector voltages"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "A worded circuit: A Power MOSFET operates in a PWM circuit. It exhibits significant ringing at the gate during turn-on. This is likely caused by the parasitic gate trace inductance resonating with the MOSFET's:",
+        "choices": [
+            "A. Output capacitance (Coss)",
+            "B. Reverse transfer capacitance (Crss)",
+            "C. Input capacitance (Ciss)",
+            "D. Package lead resistance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "IGBTs are most dominant in which of the following application ranges?",
+        "choices": [
+            "A. Very high frequency, low voltage logic circuits",
+            "B. Microwave RF amplifiers",
+            "C. Low power, battery-operated portable devices",
+            "D. High voltage, high current, medium frequency motor drives and inverters"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "The Forward Bias Safe Operating Area (FBSOA) of a power device is often specified for single pulses of varying durations (e.g., 1 ms, 10 ms, DC). As the pulse duration becomes shorter, the allowable current boundary:",
+        "choices": [
+            "A. Decreases",
+            "B. Increases",
+            "C. Remains constant",
+            "D. Becomes zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "Which device is essentially an SCR that can conduct in both directions?",
+        "choices": [
+            "A. GTO",
+            "B. PUT",
+            "C. TRIAC",
+            "D. DIAC"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "A free-wheeling diode is placed across a highly inductive load driven by a power transistor. The primary purpose of this diode is to:",
+        "choices": [
+            "A. Increase the speed of the transistor turn-on",
+            "B. Prevent the load current from dropping to zero",
+            "C. Rectify the AC supply voltage",
+            "D. Provide a path for the inductive current to flow when the transistor turns off, preventing high voltage spikes"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 56,
+        "question": "The parameter VCEO(sus) in a power BJT specification sheet refers to the:",
+        "choices": [
+            "A. Sustaining voltage from collector to emitter with the base open, representing the absolute maximum voltage during inductive turn-off",
+            "B. Saturation voltage at maximum rated current",
+            "C. Voltage required to initiate secondary breakdown",
+            "D. Base-emitter breakdown voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 57,
+        "question": "The input impedance of a power MOSFET at DC is ideally:",
+        "choices": [
+            "A. Zero",
+            "B. Equal to the channel resistance",
+            "C. Infinite",
+            "D. 50 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "A critical parameter for an IGBT is its short-circuit withstand time (tsc). This rating specifies how long the IGBT can survive a direct short circuit across its output terminals while fully turned on. A typical value for tsc in standard industrial IGBTs is on the order of:",
+        "choices": [
+            "A. 1 microsecond",
+            "B. 1 millisecond",
+            "C. 1 second",
+            "D. 10 microseconds"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 59,
+        "question": "When a power MOSFET is operated in linear mode (active region) for extended periods, it is susceptible to a failure mode previously thought to only affect BJTs, caused by localized thermal runaway within the silicon cells. This phenomenon in modern high-density MOSFETs is called:",
+        "choices": [
+            "A. Spiraling or thermal current crowding (Spirito effect)",
+            "B. Latch-up",
+            "C. Avalanche injection",
+            "D. Secondary breakdown"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "Which parameter defines the maximum instantaneous reverse voltage that a power diode can withstand without breaking down?",
+        "choices": [
+            "A. RMS reverse voltage",
+            "B. Peak Inverse Voltage (PIV) or Maximum Repetitive Reverse Voltage (VRRM)",
+            "C. Forward breakover voltage",
+            "D. Reverse recovery voltage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "In power BJT datasheets, the safe operating area is often limited by a physical phenomenon that occurs when minority carriers take a finite time to cross the base region. The frequency at which the common-emitter current gain drops to 1 is called the:",
+        "choices": [
+            "A. Alpha cutoff frequency (f_alpha)",
+            "B. Beta cutoff frequency (f_beta)",
+            "C. Resonant frequency (f_r)",
+            "D. Transition frequency (f_T)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 62,
+        "question": "A worded circuit: In a synchronous buck converter, the low-side diode is replaced by a power MOSFET. During the \"dead time\" when both upper and lower MOSFETs are OFF, the inductor current forces the low-side MOSFET's body diode to conduct. When the upper MOSFET turns ON, it must force the lower MOSFET's body diode into reverse recovery. This event is critical because it causes:",
+        "choices": [
+            "A. High shoot-through current spikes and significant switching losses",
+            "B. The inductor to immediately discharge to zero",
+            "C. The output voltage to reverse polarity",
+            "D. The low-side MOSFET to permanently latch up"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "Which of the following devices exhibits a \"forward voltage drop\" that behaves more like a PN diode (having a knee voltage) rather than a pure resistor when conducting?",
+        "choices": [
+            "A. Power MOSFET",
+            "B. IGBT",
+            "C. JFET",
+            "D. Ideal Switch"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "To ensure a power semiconductor operates within its thermal SOA, designers use heat sinks. The total thermal resistance theta_JA is the sum of: (JC=junction-case, CS=case-sink, SA=sink-ambient)",
+        "choices": [
+            "A. theta_JC * theta_CS * theta_SA",
+            "B. theta_JC - theta_CS - theta_SA",
+            "C. theta_JC + theta_CS + theta_SA",
+            "D. 1 / (theta_JC + theta_CS + theta_SA)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "Two identical power diodes are connected in series to withstand a high reverse voltage. Due to manufacturing tolerances, their reverse leakage currents differ slightly. To prevent the diode with lower leakage from absorbing the entire reverse voltage and failing, what circuit addition is necessary?",
+        "choices": [
+            "A. High-value voltage-sharing resistors connected in parallel with each diode",
+            "B. Current-sharing inductors in series with each diode",
+            "C. Small bypass capacitors in series with the diodes",
+            "D. Zener diodes in series with the main diodes"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "In a power BJT, the heavily doped emitter (N+) injects electrons into the base. The base region must be very narrow to ensure:",
+        "choices": [
+            "A. High breakdown voltage",
+            "B. High current gain (beta) and fast transit time",
+            "C. High base resistance",
+            "D. Low thermal conductivity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "The parasitic capacitance Cgd (gate-to-drain) in a power MOSFET is highly non-linear and increases significantly when the drain-to-source voltage (VDS) is:",
+        "choices": [
+            "A. Very high",
+            "B. Negative",
+            "C. Low (approaching zero)",
+            "D. Equal to the threshold voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "A worded circuit: An IGBT module is used to switch a 600V DC bus. To limit the dv/dt across the IGBT during turn-off, a snubber circuit is applied. If the gate resistor (RG) is increased in value, the switching speed will decrease. What is the consequent effect on switching losses and dv/dt?",
+        "choices": [
+            "A. Switching losses decrease, dv/dt increases",
+            "B. Switching losses decrease, dv/dt decreases",
+            "C. Switching losses increase, dv/dt increases",
+            "D. Switching losses increase, dv/dt decreases"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "The absolute maximum junction temperature (Tj,max) for typical silicon power semiconductors is usually in the range of:",
+        "choices": [
+            "A. 85°C to 100°C",
+            "B. 150°C to 175°C",
+            "C. 250°C to 300°C",
+            "D. 400°C to 500°C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "In a high-frequency full-bridge inverter, the anti-parallel diodes across the switching transistors must be:",
+        "choices": [
+            "A. Standard 50/60 Hz rectifier diodes",
+            "B. Zener diodes",
+            "C. Fast recovery or Schottky diodes",
+            "D. Tunnel diodes"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "A power BJT is used in a flyback converter. The transistor turns off, interrupting current in the primary winding. To keep the trajectory of the operating point within the RBSOA and prevent secondary breakdown during the high voltage spike, what component is typically used?",
+        "choices": [
+            "A. A larger base resistor",
+            "B. A speed-up capacitor",
+            "C. A current transformer",
+            "D. An RCD (Resistor-Capacitor-Diode) clamp circuit across the primary winding"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "Which of the following is NOT a terminal of a standard discrete Power MOSFET?",
+        "choices": [
+            "A. Collector",
+            "B. Gate",
+            "C. Source",
+            "D. Drain"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "Modern trench-gate IGBTs offer significant improvements over older planar-gate IGBTs primarily by:",
+        "choices": [
+            "A. Eliminating the tail current completely",
+            "B. Removing the P+ collector layer",
+            "C. Increasing the cell density and reducing the on-state voltage drop (VCE(sat))",
+            "D. Operating solely as majority carrier devices"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "For a power semiconductor, the transient thermal impedance (ZthJC(t)) is used to calculate the junction temperature rise for short pulses. As the pulse duration approaches DC (continuous operation), the transient thermal impedance ZthJC approaches:",
+        "choices": [
+            "A. Zero",
+            "B. Infinity",
+            "C. The ambient temperature",
+            "D. The steady-state thermal resistance (RthJC)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "The forward voltage drop of a typical silicon power diode at rated current is approximately:",
+        "choices": [
+            "A. 1.0 V to 1.5 V",
+            "B. 0.2 V to 0.3 V",
+            "C. 5.0 V to 10.0 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "Current crowding in a power BJT occurs at high current densities and forces the emitter current to concentrate at the:",
+        "choices": [
+            "A. Center of the emitter region",
+            "B. Edges (periphery) of the emitter region",
+            "C. Base-collector junction",
+            "D. Emitter bonding wire"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "A worded circuit: Two identical power MOSFETs are paralleled to share a 100A load. Due to layout asymmetry, the stray inductance in the source leg of MOSFET 1 is higher than MOSFET 2. During a fast turn-on transient, this stray source inductance causes negative feedback to the gate drive. What is the immediate result during the dynamic switching phase?",
+        "choices": [
+            "A. MOSFET 1 will turn on faster and take most of the current",
+            "B. Both MOSFETs will share the transient current perfectly equally",
+            "C. The gate driver will be instantly destroyed",
+            "D. MOSFET 1 will turn on slower, causing MOSFET 2 to take a larger share of the transient current and potentially overheat"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "The term \"Insulated Gate\" in IGBT refers to the layer of material separating the gate terminal from the semiconductor channel. What is this material typically?",
+        "choices": [
+            "A. Silicon dioxide (SiO2)",
+            "B. Gallium arsenide (GaAs)",
+            "C. Aluminum",
+            "D. Polycrystalline silicon"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "If a power device operates repetitively with a pulsed power waveform, the average junction temperature can be calculated using the steady-state thermal resistance and the average power. However, to find the peak junction temperature, one must use the:",
+        "choices": [
+            "A. Ambient temperature coefficient",
+            "B. Transient thermal impedance curve (and duty cycle)",
+            "C. Maximum voltage rating",
+            "D. Heatsink fin spacing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "The \"snap-off\" effect in some fast recovery diodes occurs when the reverse recovery current falls abruptly to zero. This extremely high di/dt can cause severe voltage spikes due to parasitic inductances. To mitigate this, designers prefer diodes with a:",
+        "choices": [
+            "A. Small softness factor (S < 0.1)",
+            "B. Very high peak reverse current (Irr)",
+            "C. Soft recovery characteristic (larger softness factor S)",
+            "D. Lower reverse breakdown voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 81,
+        "question": "When a power BJT is used in a linear power supply (e.g., as a series pass transistor), it operates exclusively in which region?",
+        "choices": [
+            "A. Active region",
+            "B. Saturation region",
+            "C. Cutoff region",
+            "D. Reverse-active region"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "The logic-level power MOSFET is designed to reach its fully enhanced ON state (minimum RDS(on)) with a gate-source voltage of typically:",
+        "choices": [
+            "A. 10 V to 15 V",
+            "B. 4.5 V to 5 V",
+            "C. 1.5 V to 2 V",
+            "D. 20 V to 30 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "A worded circuit: An IGBT is used in a boost converter. The designer notices excessive ringing and voltage spikes on the gate terminal during turn-off, threatening to falsely turn the device back on via the Miller capacitance. A common, robust solution is to use a gate driver with:",
+        "choices": [
+            "A. A smaller gate resistor",
+            "B. A higher positive turn-on voltage",
+            "C. An active Miller clamp circuit or a negative turn-off bias voltage",
+            "D. A Zener diode across the collector and emitter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "The Safe Operating Area graph is typically plotted with which two axes?",
+        "choices": [
+            "A. Gate voltage vs. Drain current",
+            "B. Power vs. Time",
+            "C. Temperature vs. Current",
+            "D. Drain/Collector Current vs. Drain-Source/Collector-Emitter Voltage (log-log scale)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Silicon Carbide (SiC) Schottky diodes are becoming increasingly popular in high-voltage power electronics (e.g., EV chargers) because, unlike traditional Silicon Schottky diodes, they:",
+        "choices": [
+            "A. Are much cheaper to manufacture",
+            "B. Can be rated for very high reverse voltages (e.g., 1200V) while maintaining zero reverse recovery charge",
+            "C. Have a much higher forward voltage drop",
+            "D. Can only operate at low temperatures"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "In order to reduce the storage time (ts) in a power BJT, the base region can be lightly doped with gold. What is the physical mechanism by which gold doping reduces storage time?",
+        "choices": [
+            "A. It increases the base-emitter breakdown voltage",
+            "B. It increases the mobility of electrons",
+            "C. It creates deep-level recombination centers that drastically reduce minority carrier lifetime",
+            "D. It increases the thermal conductivity of the base"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "Which parameter defines the amount of electrical charge that must be supplied to the gate of a MOSFET to fully turn it on?",
+        "choices": [
+            "A. On-state resistance (RDS(on))",
+            "B. Transconductance (gfs)",
+            "C. Gate threshold voltage (VGS(th))",
+            "D. Total gate charge (Qg)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "In an IGBT datasheet, the parameter VCE(sat) is strongly dependent on the collector current and the:",
+        "choices": [
+            "A. Junction temperature",
+            "B. Rate of change of collector voltage (dv/dt)",
+            "C. Reverse recovery time of the body diode",
+            "D. Gate-emitter threshold voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "A power MOSFET is driving a highly capacitive load. Upon turn-on, the device must source a massive surge current while the drain-source voltage is still high. This specific transient condition places immense stress on the MOSFET and requires strict evaluation against its:",
+        "choices": [
+            "A. Avalanche energy rating (EAS)",
+            "B. Reverse Bias Safe Operating Area (RBSOA)",
+            "C. Forward Bias Safe Operating Area (FBSOA) under short-pulse conditions",
+            "D. Thermal resistance rating"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "Which of the following devices is widely used in residential ceiling fan speed regulators and light dimmers?",
+        "choices": [
+            "A. GTO",
+            "B. Power BJT",
+            "C. IGBT",
+            "D. TRIAC"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "The forward voltage drop (VF) of a power diode decreases as the junction temperature increases. This means the diode has a:",
+        "choices": [
+            "A. Negative temperature coefficient for VF",
+            "B. Positive temperature coefficient for VF",
+            "C. Zero temperature coefficient for VF",
+            "D. Constant power dissipation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "A Darlington power transistor inherently has a higher saturation voltage (VCE(sat)) than a single BJT because:",
+        "choices": [
+            "A. The input impedance is lower",
+            "B. The VCE of the output transistor cannot fall below the VBE of the output transistor plus the VCE(sat) of the driver transistor",
+            "C. It has a lower current gain",
+            "D. It suffers from a more severe Early effect"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "To protect the delicate gate oxide of a Power MOSFET from electrostatic discharge (ESD) and voltage spikes, what component is sometimes integrated internally or added externally between the gate and source?",
+        "choices": [
+            "A. A Schottky diode",
+            "B. An inductor",
+            "C. A capacitor",
+            "D. Back-to-back Zener diodes"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "An IGBT is generally modeled as a PNP bipolar transistor driven by an N-channel MOSFET. In this equivalent circuit, the MOSFET drain is connected to the PNP:",
+        "choices": [
+            "A. Base",
+            "B. Emitter",
+            "C. Collector",
+            "D. Gate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "A worded circuit: An inductive load is switched by an N-channel MOSFET. To absorb the avalanche energy during turn-off without a snubber, the MOSFET must be \"avalanche rated.\" The datasheet specifies a maximum single-pulse avalanche energy (EAS). This energy is primarily dissipated in the MOSFET while it is operating in which breakdown mode?",
+        "choices": [
+            "A. Gate oxide breakdown",
+            "B. Drain-to-source avalanche breakdown (acting like a Zener clamp)",
+            "C. Thermal runaway",
+            "D. Secondary breakdown"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "When a PN junction power diode is forward biased, it stores charge in the depletion region and the neutral regions. This stored charge is directly proportional to the:",
+        "choices": [
+            "A. Reverse blocking voltage",
+            "B. Frequency of operation",
+            "C. Forward current",
+            "D. Reverse leakage current"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 97,
+        "question": "The phenomenon of \"thermal runaway\" in a power BJT occurs because its base-emitter voltage (VBE) decreases with temperature, and its current gain (beta) increases with temperature. If the base voltage is held constant, a rise in temperature will cause the collector current to:",
+        "choices": [
+            "A. Increase, generating more heat and leading to a destructive positive feedback loop",
+            "B. Decrease, cooling the device down",
+            "C. Remain perfectly constant",
+            "D. Oscillate violently"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "A worded circuit: In a half-bridge topology, the rapid turn-on of the upper MOSFET forces a high dv/dt across the lower (OFF) MOSFET. This dv/dt couples charge through the lower MOSFET's Cgd into its gate. If the gate driver has high impedance, this injected charge can raise the gate voltage above the threshold, causing shoot-through. This phenomenon is known as:",
+        "choices": [
+            "A. Avalanche injection",
+            "B. Parasitic turn-on (or dv/dt induced turn-on)",
+            "C. Latch-up",
+            "D. Secondary breakdown"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "Wide bandgap (WBG) materials are displacing silicon in some advanced high-power IGBTs and MOSFETs. Which of the following is a prominent WBG material?",
+        "choices": [
+            "A. Germanium (Ge)",
+            "B. Gallium (Ga)",
+            "C. Silicon Carbide (SiC)",
+            "D. Aluminum (Al)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "The derating curve of a power semiconductor specifies how the maximum allowable power dissipation must be reduced as the:",
+        "choices": [
+            "A. Switching frequency increases",
+            "B. Operating voltage increases",
+            "C. Load current decreases",
+            "D. Case or ambient temperature increases"
+        ],
+        "correct_answer": "D"
+    }
+]

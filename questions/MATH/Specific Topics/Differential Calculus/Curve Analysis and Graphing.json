@@ -1,0 +1,1080 @@
+[
+    {
+        "number": 1,
+        "question": "Which theorem guarantees that a continuous function on a closed interval attains an absolute maximum and minimum?",
+        "choices": [
+            "A. Extreme Value Theorem",
+            "B. Mean Value Theorem",
+            "C. Rolle's Theorem",
+            "D. Cauchy's Mean Value Theorem"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "Under Rolle's Theorem, if f(a) = f(b) and f is differentiable on (a,b), then there exists a point c in (a,b) where the tangent is:",
+        "choices": [
+            "A. Vertical",
+            "B. Horizontal",
+            "C. Diagonal",
+            "D. Undefined"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "The Mean Value Theorem applies to a function that is continuous on [a,b] and differentiable on (a,b). The formula is f'(c) = ?",
+        "choices": [
+            "A. 0",
+            "B. f(b) - f(a)",
+            "C. (f(b)-f(a))/(b-a)",
+            "D. f(a) - f(b)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "Which of the following conditions is required for Cauchy's Mean Value Theorem for functions f(x) and g(x)?",
+        "choices": [
+            "A. g'(x) = 0",
+            "B. g(x) = f(x)",
+            "C. g(a) = g(b)",
+            "D. g'(x) != 0 for all x in (a,b)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "Find the value of c guaranteed by the Mean Value Theorem for f(x) = x^2 on [0, 2].",
+        "choices": [
+            "A. 1",
+            "B. 0.5",
+            "C. 1.5",
+            "D. 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "If f'(x) = 0 for all x in an interval, what does the Mean Value Theorem imply about f(x)?",
+        "choices": [
+            "A. It is strictly increasing",
+            "B. It is a constant function",
+            "C. It is strictly decreasing",
+            "D. It has an inflection point"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "In Cauchy's Mean Value Theorem, how many functions are being compared simultaneously?",
+        "choices": [
+            "A. One",
+            "B. Three",
+            "C. Two",
+            "D. Four"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "Rolle's Theorem is a special case of the Mean Value Theorem where the secant line's slope is:",
+        "choices": [
+            "A. Positive",
+            "B. Negative",
+            "C. Undefined",
+            "D. Zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "A point in the domain of a function f at which f'(x) = 0 or f'(x) does not exist is called a:",
+        "choices": [
+            "A. Critical point",
+            "B. Inflection point",
+            "C. Boundary point",
+            "D. Limit point"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "A stationary point is specifically a point on the graph of a function where:",
+        "choices": [
+            "A. The derivative is undefined",
+            "B. The derivative is exactly zero",
+            "C. The second derivative is zero",
+            "D. The function is discontinuous"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "Find the critical points of f(x) = x^3 - 3x + 2.",
+        "choices": [
+            "A. x = 0, 1",
+            "B. x = -2, 2",
+            "C. x = -1, 1",
+            "D. x = 0, -1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "Which of the following functions has a critical point at x = 0 but NOT a stationary point?",
+        "choices": [
+            "A. f(x) = x^2",
+            "B. f(x) = x^3",
+            "C. f(x) = cos(x)",
+            "D. f(x) ="
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 13,
+        "question": "What is the stationary point of f(x) = e^(2x) - 4x?",
+        "choices": [
+            "A. x = (ln 2)/2",
+            "B. x = ln 2",
+            "C. x = 0",
+            "D. x = 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "How many critical points does the function f(x) = x^4 - 4x^3 have?",
+        "choices": [
+            "A. One",
+            "B. Two",
+            "C. Three",
+            "D. Four"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "A function f(x) has a derivative f'(x) = (x-1)/(x+2). The critical points are:",
+        "choices": [
+            "A. x = 1 only",
+            "B. x = -2 only",
+            "C. x = 1 and x = -2",
+            "D. No critical points"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "For f(x) = 1/x, the number of critical points is:",
+        "choices": [
+            "A. One",
+            "B. Two",
+            "C. Three",
+            "D. Zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "If f'(x) > 0 for all x in an interval I, then the function f is:",
+        "choices": [
+            "A. Strictly increasing on I",
+            "B. Strictly decreasing on I",
+            "C. Constant on I",
+            "D. Concave up on I"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "If a function is strictly decreasing on an interval, its first derivative must be:",
+        "choices": [
+            "A. Positive",
+            "B. Negative",
+            "C. Zero",
+            "D. Undefined"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Find the interval where f(x) = x^2 - 4x + 3 is strictly increasing.",
+        "choices": [
+            "A. (-infinity, 2)",
+            "B. (-2, 2)",
+            "C. (2, infinity)",
+            "D. (3, infinity)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "For what values of x is f(x) = -x^3 + 3x strictly decreasing?",
+        "choices": [
+            "A. (-1, 1)",
+            "B. (-infinity, 0)",
+            "C. (0, infinity)",
+            "D. (-infinity, -1) U (1, infinity)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "Determine the positive interval where f(x) = e^x / x is decreasing.",
+        "choices": [
+            "A. (0, 1)",
+            "B. (1, infinity)",
+            "C. (0, e)",
+            "D. (e, infinity)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "If f'(x) = (x-2)(x+3)^2, where is f(x) strictly increasing?",
+        "choices": [
+            "A. x < 2",
+            "B. x > 2",
+            "C. x < -3",
+            "D. -3 < x < 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "Which of the following functions is strictly increasing for all real numbers?",
+        "choices": [
+            "A. f(x) = x^2",
+            "B. f(x) = cos(x)",
+            "C. f(x) = x^3 + x",
+            "D. f(x) = 1/x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "Given f(x) = ln(x^2 + 1). Where is the function strictly decreasing?",
+        "choices": [
+            "A. x > 0",
+            "B. All real numbers",
+            "C. Nowhere",
+            "D. x < 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "The First Derivative Test is primarily used to determine:",
+        "choices": [
+            "A. Local extrema",
+            "B. Absolute extrema",
+            "C. Inflection points",
+            "D. Concavity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "If f'(c) = 0 and f'(x) changes from positive to negative at x = c, then f(c) is a:",
+        "choices": [
+            "A. Local minimum",
+            "B. Local maximum",
+            "C. Point of inflection",
+            "D. Vertical asymptote"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "If f'(x) changes from negative to positive at x = c, the function has a:",
+        "choices": [
+            "A. Local maximum at c",
+            "B. Discontinuity at c",
+            "C. Local minimum at c",
+            "D. Root at c"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "If f'(c) = 0 but f'(x) does not change sign at x = c, then at x = c the function has:",
+        "choices": [
+            "A. A local minimum",
+            "B. A local maximum",
+            "C. An absolute maximum",
+            "D. Neither a local max nor a local min"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "Find the local minimum value of f(x) = x^2 - 6x + 5.",
+        "choices": [
+            "A. -4",
+            "B. 3",
+            "C. 5",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Using the first derivative test, identify the local maximum of f(x) = 2x^3 - 3x^2 - 12x.",
+        "choices": [
+            "A. x = 2",
+            "B. x = -1",
+            "C. x = 0",
+            "D. x = 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "For f(x) = x + 1/x, the local maximum occurs at x = ?",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. -1",
+            "D. 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "If a function is defined as f(x) =",
+        "choices": [
+            "A. x - 3",
+            "B. , the first derivative test shows a local minimum at x = 3 because:",
+            "C. f'(3) = 0",
+            "D. f''(3) > 0"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 33,
+        "question": "If the second derivative f''(x) > 0 on an interval, the graph of f is:",
+        "choices": [
+            "A. Concave upward",
+            "B. Concave downward",
+            "C. Linear",
+            "D. Decreasing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "A graph is concave downward on an interval if its first derivative is:",
+        "choices": [
+            "A. Increasing",
+            "B. Decreasing",
+            "C. Constant",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Determine the interval where f(x) = x^3 - 6x^2 is concave downward.",
+        "choices": [
+            "A. (2, infinity)",
+            "B. (0, 2)",
+            "C. (-infinity, 2)",
+            "D. (-infinity, 0)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "For f(x) = x^4 - 4x^3, on which interval is the graph concave upward?",
+        "choices": [
+            "A. (-infinity, 0) U (2, infinity)",
+            "B. (0, 2)",
+            "C. (-infinity, 2)",
+            "D. (0, infinity)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "If a curve lies above all its tangent lines on an interval I, then on I the curve is:",
+        "choices": [
+            "A. Concave downward",
+            "B. Concave upward",
+            "C. Decreasing",
+            "D. Increasing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Find the concavity of f(x) = ln(x) for x > 0.",
+        "choices": [
+            "A. Concave upward",
+            "B. Constant concavity",
+            "C. Concave downward",
+            "D. Alternating concavity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "If f''(x) = 0 for all x in an interval, the graph of f in that interval is:",
+        "choices": [
+            "A. A parabola",
+            "B. A circle",
+            "C. A hyperbola",
+            "D. A straight line"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "A point on the curve where the concavity changes is called a:",
+        "choices": [
+            "A. Point of inflection",
+            "B. Critical point",
+            "C. Stationary point",
+            "D. Maximum point"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "A necessary (but not sufficient) condition for an inflection point at x = c is:",
+        "choices": [
+            "A. f'(c) = 0",
+            "B. f''(c) = 0 or undefined",
+            "C. f(c) = 0",
+            "D. f'''(c) = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Find the point of inflection of f(x) = x^3 - 3x^2 + 4.",
+        "choices": [
+            "A. (0, 4)",
+            "B. (2, 0)",
+            "C. (1, 2)",
+            "D. (3, 4)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "The Second Derivative Test states that if f'(c) = 0 and f''(c) > 0, then f has a:",
+        "choices": [
+            "A. Local maximum at c",
+            "B. Point of inflection at c",
+            "C. Vertical tangent at c",
+            "D. Local minimum at c"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Under the Second Derivative Test, if f'(c) = 0 and f''(c) < 0, then f has a:",
+        "choices": [
+            "A. Local maximum",
+            "B. Local minimum",
+            "C. Saddle point",
+            "D. Discontinuity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "If f'(c) = 0 and f''(c) = 0, the Second Derivative Test is:",
+        "choices": [
+            "A. Proof of an inflection point",
+            "B. Inconclusive",
+            "C. Proof of a minimum",
+            "D. Proof of a maximum"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "Find the inflection point of f(x) = x^4 - 6x^2.",
+        "choices": [
+            "A. (0, 0) only",
+            "B. (sqrt(3), -9) only",
+            "C. (-1, -5) and (1, -5)",
+            "D. (0, 0) and (1, -5)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "Determine the local maximum of f(x) = -x^4 + 2x^2 using the Second Derivative Test.",
+        "choices": [
+            "A. x = 0",
+            "B. x = -1 only",
+            "C. x = 1 only",
+            "D. x = 1 and x = -1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "How many inflection points does f(x) = x^4 have?",
+        "choices": [
+            "A. Zero",
+            "B. One",
+            "C. Two",
+            "D. Three"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "Does the function f(x) = 1/x have any inflection points?",
+        "choices": [
+            "A. Yes, at x=0",
+            "B. No, none exist",
+            "C. Yes, at x=1",
+            "D. Yes, at x=-1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "For a polynomial of degree n >= 3, what is the maximum number of inflection points it can have?",
+        "choices": [
+            "A. n",
+            "B. n-1",
+            "C. n-2",
+            "D. n-3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "What is the x-coordinate of the inflection point for f(x) = sin(x) on the interval (0, 2pi)?",
+        "choices": [
+            "A. pi/2",
+            "B. 3pi/2",
+            "C. 2pi",
+            "D. pi"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "Find the inflection point of f(x) = x e^x.",
+        "choices": [
+            "A. (-2, -2/e^2)",
+            "B. (-1, -1/e)",
+            "C. (0, 0)",
+            "D. (1, e)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "Where is the point of inflection for the function f(x) = arctan(x)?",
+        "choices": [
+            "A. x = 1",
+            "B. x = 0",
+            "C. x = -1",
+            "D. It has no inflection points"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Find the x-coordinate of the inflection point of f(x) = e^(-x) * sin(x) in the interval (0, pi).",
+        "choices": [
+            "A. pi/4",
+            "B. pi/3",
+            "C. pi/2",
+            "D. 3pi/4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "Does f(x) = ln(x) have an inflection point?",
+        "choices": [
+            "A. Yes, at x=1",
+            "B. Yes, at x=e",
+            "C. Yes, at x=0",
+            "D. No, it is always concave downward"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "For f(x) = x^2 ln(x), find the x-coordinate of the inflection point.",
+        "choices": [
+            "A. e^(-3/2)",
+            "B. e^(-1)",
+            "C. 1",
+            "D. e"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Where does f(x) = cosh(x) have its inflection point?",
+        "choices": [
+            "A. x = 0",
+            "B. It has no inflection point",
+            "C. x = 1",
+            "D. x = -1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Find the inflection points of f(x) = tan(x) in (-pi/2, pi/2).",
+        "choices": [
+            "A. x = pi/4",
+            "B. x = -pi/4",
+            "C. x = 0",
+            "D. x = pi/3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "Which transcendental function has infinitely many inflection points?",
+        "choices": [
+            "A. e^x",
+            "B. ln(x)",
+            "C. arctan(x)",
+            "D. sin(x)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "A function has a horizontal tangent at x = c if:",
+        "choices": [
+            "A. f'(c) = 0",
+            "B. f'(c) approaches infinity",
+            "C. f''(c) = 0",
+            "D. f(c) = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "A continuous function f has a vertical tangent at x = c if the limit of",
+        "choices": [
+            "A. f'(x)",
+            "B. as x approaches c is:",
+            "C. 0",
+            "D. Infinity"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 64,
+        "question": "Which of the following functions has a cusp (and thus vertical tangents from both sides but opposite signs) at x = 0?",
+        "choices": [
+            "A. f(x) = x^3",
+            "B. f(x) = x^(1/3)",
+            "C. f(x) = sin(x)",
+            "D. f(x) = x^(2/3)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "At what point does the curve y = x^3 - 3x^2 + 3x have a horizontal tangent?",
+        "choices": [
+            "A. (1, 1)",
+            "B. (0, 0)",
+            "C. (2, 2)",
+            "D. (-1, -7)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Find the x-coordinate where y = sqrt(4 - x^2) has a horizontal tangent.",
+        "choices": [
+            "A. x = 2",
+            "B. x = 0",
+            "C. x = -2",
+            "D. It has no horizontal tangents"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "The curve y = arcsin(x) has vertical tangents at which points?",
+        "choices": [
+            "A. x = 0",
+            "B. x = 1/2",
+            "C. x = 1 and x = -1",
+            "D. x = pi/2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "How many horizontal tangents does the curve y = e^x possess?",
+        "choices": [
+            "A. One",
+            "B. Two",
+            "C. Infinite",
+            "D. Zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "To trace a curve efficiently, identifying where it crosses the x-axis is finding its:",
+        "choices": [
+            "A. Intercepts",
+            "B. Asymptotes",
+            "C. Extrema",
+            "D. Inflection points"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "If limit of f(x) as x approaches a is infinity, then the line x = a is a:",
+        "choices": [
+            "A. Horizontal asymptote",
+            "B. Vertical asymptote",
+            "C. Slant asymptote",
+            "D. Tangent line"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "If limit of f(x) as x approaches infinity is L, then the line y = L is a:",
+        "choices": [
+            "A. Vertical asymptote",
+            "B. Slant asymptote",
+            "C. Horizontal asymptote",
+            "D. Normal line"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "A rational function f(x) = P(x)/Q(x) has a slant (oblique) asymptote if the degree of P(x) is:",
+        "choices": [
+            "A. Equal to the degree of Q(x)",
+            "B. Less than the degree of Q(x)",
+            "C. Two more than the degree of Q(x)",
+            "D. Exactly one more than the degree of Q(x)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "Find the vertical asymptote(s) of y = (x^2 - 1) / (x^2 - 4).",
+        "choices": [
+            "A. x = 2, x = -2",
+            "B. x = 1, x = -1",
+            "C. x = 4",
+            "D. No vertical asymptotes"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "Find the horizontal asymptote of y = (3x^2 + 2) / (5x^2 - 1).",
+        "choices": [
+            "A. y = 0",
+            "B. y = 3/5",
+            "C. y = -2",
+            "D. No horizontal asymptote"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "Determine the slant asymptote of y = (x^2 + 2x + 1) / (x - 1).",
+        "choices": [
+            "A. y = x",
+            "B. y = x + 1",
+            "C. y = x + 3",
+            "D. y = 2x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "The curve y = x + sin(x) is bounded between which two parallel lines?",
+        "choices": [
+            "A. y = -1 and y = 1",
+            "B. y = x and y = -x",
+            "C. y = x and y = 2x",
+            "D. y = x - 1 and y = x + 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "L'Hôpital's Rule is directly applicable to which indeterminate forms?",
+        "choices": [
+            "A. 0/0 and infinity/infinity",
+            "B. 0 * infinity",
+            "C. 1^infinity",
+            "D. infinity - infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "If a limit yields the indeterminate form 0 * infinity, what must be done before applying L'Hôpital's Rule?",
+        "choices": [
+            "A. Differentiate directly",
+            "B. Rewrite it as a quotient (0/0 or inf/inf)",
+            "C. Take the natural logarithm",
+            "D. Factor the expression"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "Evaluate limit as x->0 of (sin x) / x using L'Hôpital's Rule.",
+        "choices": [
+            "A. 0",
+            "B. infinity",
+            "C. 1",
+            "D. -1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "Evaluate limit as x->0 of (1 - cos x) / x^2.",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. 2",
+            "D. 1/2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "Evaluate limit as x->infinity of (e^x) / (x^2).",
+        "choices": [
+            "A. infinity",
+            "B. 0",
+            "C. 1",
+            "D. e"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "Evaluate limit as x->infinity of (ln x) / x.",
+        "choices": [
+            "A. infinity",
+            "B. 0",
+            "C. 1",
+            "D. e"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "Evaluate limit as x->0 of (e^x - 1 - x) / x^2.",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. 1/2",
+            "D. infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "The indeterminate form 1^infinity is typically solved by:",
+        "choices": [
+            "A. Factoring",
+            "B. Direct differentiation",
+            "C. Algebraic conjugation",
+            "D. Taking the natural log then applying L'Hôpital's"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Evaluate limit as x->0+ of x * ln(x).",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. infinity",
+            "D. -1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Evaluate limit as x->1 of (x^3 - 1) / (x^2 - 1).",
+        "choices": [
+            "A. 1",
+            "B. 3/2",
+            "C. 2/3",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "Evaluate limit as x->0 of (tan x - x) / x^3.",
+        "choices": [
+            "A. 1/2",
+            "B. 1/6",
+            "C. 1/3",
+            "D. 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "Evaluate limit as x->0 of (arcsin x - x) / x^3.",
+        "choices": [
+            "A. 1/3",
+            "B. 0",
+            "C. 1",
+            "D. 1/6"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "The Newton-Raphson method is a numerical technique used primarily to find:",
+        "choices": [
+            "A. Roots of a real-valued function",
+            "B. The definite integral of a function",
+            "C. The derivative of a function",
+            "D. The exact maximum of a function"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "The iterative formula for the Newton-Raphson method is x_n+1 = ?",
+        "choices": [
+            "A. x_n + f(x_n)/f'(x_n)",
+            "B. x_n - f(x_n)/f'(x_n)",
+            "C. x_n - f'(x_n)/f(x_n)",
+            "D. x_n * f(x_n)/f'(x_n)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "Geometrically, the Newton-Raphson method approximates the root by using the x-intercept of the:",
+        "choices": [
+            "A. Secant line",
+            "B. Normal line",
+            "C. Tangent line",
+            "D. Asymptote"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "The Newton-Raphson method may fail to converge if the initial guess x_0 produces f'(x_0) equal to:",
+        "choices": [
+            "A. 1",
+            "B. f(x_0)",
+            "C. -1",
+            "D. 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "If finding the square root of N, the equation is f(x) = x^2 - N = 0. What is the Newton-Raphson iteration formula?",
+        "choices": [
+            "A. x_n+1 = 0.5 * (x_n + N/x_n)",
+            "B. x_n+1 = x_n - N/x_n",
+            "C. x_n+1 = 0.5 * (x_n - N/x_n)",
+            "D. x_n+1 = x_n^2 - N"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "Use one iteration of Newton-Raphson to estimate the root of f(x) = x^2 - 5, starting with x_0 = 2.",
+        "choices": [
+            "A. 2.5",
+            "B. 2.25",
+            "C. 2.1",
+            "D. 2.2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "What is the order of convergence for the Newton-Raphson method for a simple root?",
+        "choices": [
+            "A. Linear (1st order)",
+            "B. Fractional",
+            "C. Quadratic (2nd order)",
+            "D. Cubic (3rd order)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "The method might oscillate infinitely between two values if the function has a certain symmetry. This is a characteristic failure of:",
+        "choices": [
+            "A. Bisection method",
+            "B. Secant method",
+            "C. Regula Falsi method",
+            "D. Newton-Raphson method"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "Using Newton's method to find the root of cos(x) - x = 0, what is the expression for x_n+1?",
+        "choices": [
+            "A. x_n + (cos x_n - x_n)/(sin x_n + 1)",
+            "B. x_n - (cos x_n - x_n)/(sin x_n + 1)",
+            "C. x_n - (cos x_n + x_n)/(sin x_n - 1)",
+            "D. x_n + (cos x_n - x_n)/(sin x_n - 1)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "Which method is a variation of Newton-Raphson that replaces the derivative with a finite difference approximation?",
+        "choices": [
+            "A. Bisection Method",
+            "B. Secant Method",
+            "C. Euler's Method",
+            "D. Runge-Kutta Method"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "Find the next approximation x_1 for the root of f(x) = x^3 - 2x - 5 = 0 using Newton-Raphson with x_0 = 2.",
+        "choices": [
+            "A. 2.5",
+            "B. 2.05",
+            "C. 2.1",
+            "D. 2.2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "If a root is a multiple root (multiplicity m > 1), the Newton-Raphson method converges:",
+        "choices": [
+            "A. Quadratically",
+            "B. Cubically",
+            "C. Exponentially",
+            "D. Linearly"
+        ],
+        "correct_answer": "D"
+    }
+]

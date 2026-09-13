@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "The LM317 integrated circuit is formally classified in power electronics as an adjustable:",
+        "choices": [
+            "A. Positive linear voltage regulator",
+            "B. Switching buck converter",
+            "C. Negative linear voltage regulator",
+            "D. Isolated flyback controller"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "A worded circuit description: A high-speed MOSFET is in series with a 12V DC input. Its drain connects to the input, and its source connects to the cathode of a diode (anode grounded) and to an inductor. The other end of the inductor connects to the output capacitor and load. What is the output voltage if the MOSFET is driven at a 25% duty cycle?",
+        "choices": [
+            "A. 12 V",
+            "B. 3 V",
+            "C. 48 V",
+            "D. 9 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "In a standard continuous-conduction mode boost converter, if the desired output voltage is 24V from a 6V input, the theoretical duty cycle required is exactly:",
+        "choices": [
+            "A. 25%",
+            "B. 60%",
+            "C. 75%",
+            "D. 80%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "A worded circuit description: A 10V peak sine wave is fed to a series resistor. In parallel with the load is an ideal diode with its cathode pointing upward. In series with this diode is a 3V DC battery with its positive terminal pointing downward (to ground). The output waveform is strictly clipped:",
+        "choices": [
+            "A. Above +3V",
+            "B. Below +3V",
+            "C. Above -3V",
+            "D. Below -3V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "The Clamping Circuit Theorem states that for a steady-state periodic waveform, the mathematical ratio of the output's forward area to its reverse area (Af / Ar) is strictly equal to the ratio of the:",
+        "choices": [
+            "A. Load resistance to the source resistance",
+            "B. Diode's forward resistance to the load resistance",
+            "C. Source resistance to the load resistance",
+            "D. Load resistance to the diode's forward resistance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "A worded circuit description: A 15V unregulated DC source feeds a 100-ohm series resistor. A 10V Zener diode (cathode up, anode grounded) is in parallel with a load resistor RL. What is the absolute minimum value of RL required to keep the Zener diode in its breakdown region (assuming the knee current is negligible)?",
+        "choices": [
+            "A. 100 ohms",
+            "B. 150 ohms",
+            "C. 200 ohms",
+            "D. 300 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "A 7805 voltage regulator is subjected to an input voltage varying from 8V to 15V. If the output voltage changes from 5.01V to 5.08V across this range, the line regulation is mathematically equal to:",
+        "choices": [
+            "A. 5 mV/V",
+            "B. 1 mV/V",
+            "C. 50 mV/V",
+            "D. 10 mV/V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "A worded circuit description: An LM317 regulator has an R1 (OUT to ADJ) of 240 ohms and an R2 (ADJ to GND) of 1.2 kOhms. Ignoring the ADJ pin current, the approximate regulated output voltage is:",
+        "choices": [
+            "A. 7.5 V",
+            "B. 5.0 V",
+            "C. 6.25 V",
+            "D. 12.0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "To effectively function as a stable voltage reference, a Zener diode must be deliberately operated in which specific region of its V-I characteristic curve?",
+        "choices": [
+            "A. Forward bias region",
+            "B. Zero-bias region",
+            "C. Reverse breakdown region",
+            "D. Avalanche multiplication region only"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "A worded circuit description: An AC input of 20V peak sine wave feeds a series resistor. In parallel with the output is a single 5.1V Zener diode, with its anode grounded and cathode facing the input. Assuming a standard 0.7V forward drop, the output waveform is clipped precisely at:",
+        "choices": [
+            "A. +5.1V and -5.1V",
+            "B. +0.7V and -0.7V",
+            "C. 0V and +5.1V",
+            "D. +5.1V and -0.7V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "A worded circuit description: Two identical 6V Zener diodes are connected in series but pointing in opposite directions (back-to-back, cathode to cathode). They are placed in parallel with a load. If a 15V peak AC signal is applied through a series resistor, the output waveform will strictly be clipped at approximately:",
+        "choices": [
+            "A. +6.7V and -6.7V",
+            "B. +6.0V and -6.0V",
+            "C. +12.0V and -12.0V",
+            "D. +6.7V and 0V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "Zener diodes with breakdown voltages strictly below approximately 5V operate primarily through which physical mechanism?",
+        "choices": [
+            "A. Avalanche multiplication",
+            "B. Zener tunneling",
+            "C. Impact ionization",
+            "D. Thermal runaway"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "A highly stable Zener reference circuit is designed by placing a forward-biased silicon diode in series with a Zener diode. What is the fundamental physical reason for this specific arrangement?",
+        "choices": [
+            "A. To double the current handling capacity",
+            "B. To increase the breakdown voltage by exactly 0.7V",
+            "C. To perfectly eliminate dynamic Zener impedance",
+            "D. To cancel the Zener's positive temperature coefficient with the diode's negative temperature coefficient"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "A 12V Zener diode has a specified dynamic impedance (Zz) of 10 ohms at its test current. If the Zener current increases by 20 mA due to an input fluctuation, the Zener voltage will strictly change by:",
+        "choices": [
+            "A. 0.2 V",
+            "B. 2.0 V",
+            "C. 0.12 V",
+            "D. 1.2 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "A worded circuit description: A sensitive DC voltmeter with a full-scale deflection of 10V is protected by placing a Zener diode directly in parallel with it. To ensure the meter reads accurately up to 10V but is protected from severe overvoltage, the Zener diode should ideally have a rating of:",
+        "choices": [
+            "A. Exactly 10V",
+            "B. Slightly higher than 10V (e.g., 11V)",
+            "C. Slightly lower than 10V (e.g., 9V)",
+            "D. 5V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "In power supply circuits, Zener diodes are frequently bypassed with a small parallel capacitor (e.g., 0.1 uF). What is the primary purpose of this capacitor?",
+        "choices": [
+            "A. To convert the Zener into a voltage doubler",
+            "B. To increase the DC voltage output",
+            "C. To filter out high-frequency avalanche noise generated by the Zener",
+            "D. To decrease the reverse recovery time"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "A Zener diode rated at 5.6V, 1W is used in a simple shunt regulator. What is the absolute maximum safe continuous Zener current (Izm) it can theoretically sustain?",
+        "choices": [
+            "A. 178 mA",
+            "B. 5.6 mA",
+            "C. 100 mA",
+            "D. 560 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "A varactor diode exploits the electrical properties of a PN junction to function as a voltage-controlled variable:",
+        "choices": [
+            "A. Inductor",
+            "B. Resistor",
+            "C. Capacitor",
+            "D. Oscillator"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "To operate properly as a variable reactance device, a varactor diode must be strictly biased in the:",
+        "choices": [
+            "A. Forward region",
+            "B. Reverse region below breakdown",
+            "C. Avalanche breakdown region",
+            "D. Constant current region"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "The transition capacitance (C_T) of a reverse-biased varactor diode is mathematically proportional to (V_R + V_K)^-n. For a standard abrupt PN junction, the value of the grading coefficient 'n' is exactly:",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 1/3",
+            "D. 1/2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "A hyperabrupt varactor diode is heavily preferred in sensitive voltage-controlled oscillators (VCOs) over standard abrupt varactors primarily because it offers a:",
+        "choices": [
+            "A. Much higher breakdown voltage",
+            "B. Wider capacitance tuning ratio and more linear frequency-vs-voltage characteristic",
+            "C. Lower equivalent series resistance (ESR)",
+            "D. Zero temperature coefficient"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "A worded circuit description: A varactor diode is placed in parallel with a 10 uH inductor to form a resonant LC tank. At a reverse bias of 2V, the varactor has a capacitance of 100 pF. What is the approximate resonant frequency of this tank circuit?",
+        "choices": [
+            "A. 1.59 MHz",
+            "B. 3.18 MHz",
+            "C. 15.9 MHz",
+            "D. 5.03 MHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 23,
+        "question": "In the electronics industry, a varactor diode is frequently and interchangeably referred to as a:",
+        "choices": [
+            "A. Varicap or tuning diode",
+            "B. Step recovery diode",
+            "C. Shockley diode",
+            "D. Esaki diode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "If the reverse bias voltage applied to a standard abrupt varactor diode is increased from 1V to 4V (ignoring the built-in barrier potential for simplification), its transition capacitance will strictly:",
+        "choices": [
+            "A. Double",
+            "B. Quadruple",
+            "C. Halve",
+            "D. Decrease to one-quarter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "The Quality Factor (Q) of a varactor diode at microwave frequencies is heavily degraded primarily by the:",
+        "choices": [
+            "A. Junction capacitance",
+            "B. Package inductance",
+            "C. Equivalent series resistance (ESR) of the semiconductor bulk",
+            "D. Thermal noise of the depletion region"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "What will strictly happen if a varactor diode in an RF tuning circuit is accidentally driven into forward bias by a large signal?",
+        "choices": [
+            "A. Its Q factor drops drastically and it distorts the RF signal by conducting",
+            "B. Its capacitance becomes perfectly infinite",
+            "C. It acts as an ideal infinite-Q inductor",
+            "D. It permanently burns out immediately"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "A worded circuit description: A varactor diode (C_v) is in series with a fixed capacitor (C_s), and this combination is in parallel with an inductor (L). The varactor's reverse bias is supplied through a large resistor. What is the primary purpose of the fixed capacitor C_s in this VCO circuit?",
+        "choices": [
+            "A. To multiply the varactor's capacitance",
+            "B. To increase the varactor's tuning range",
+            "C. To act as a bypass filter for high frequencies",
+            "D. To block the DC control voltage from shorting through the inductor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 28,
+        "question": "A standard Schottky diode fundamentally differs from a conventional PN junction diode because its physical junction is formed exactly between a semiconductor and a:",
+        "choices": [
+            "A. Superconductor",
+            "B. Metal",
+            "C. Heavily doped insulator",
+            "D. Vacuum gap"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "Which of the following is a direct physical consequence of the Schottky diode relying exclusively on majority carriers for current transport?",
+        "choices": [
+            "A. It has an extremely high reverse breakdown voltage",
+            "B. It acts as a perfect insulator at high frequencies",
+            "C. It has a significantly higher forward voltage drop",
+            "D. It exhibits practically zero reverse recovery time (storage time)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "For a typical silicon-based Schottky diode, the forward voltage drop at a moderate forward current is generally in the range of:",
+        "choices": [
+            "A. 0.6 V to 0.8 V",
+            "B. 0.15 V to 0.45 V",
+            "C. 1.2 V to 1.5 V",
+            "D. 2.0 V to 3.0 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "A worded circuit description: A Schottky diode is placed strictly in parallel with the collector-base junction of an NPN bipolar junction transistor (BJT) in a digital logic gate. The anode connects to the base and the cathode to the collector. The primary function of this diode is to:",
+        "choices": [
+            "A. Increase the transistor's current gain (hfe)",
+            "B. Protect the transistor from high voltage spikes",
+            "C. Prevent the transistor from entering deep saturation, thereby vastly increasing switching speed",
+            "D. Act as a freewheeling diode for inductive loads"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "The most notable electrical disadvantage of a Schottky diode compared to a standard silicon PN junction diode of similar size is its significantly:",
+        "choices": [
+            "A. Higher reverse leakage current",
+            "B. Higher forward voltage drop",
+            "C. Slower switching speed",
+            "D. Higher equivalent series inductance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "A worded circuit description: In a high-frequency (500 kHz) Buck converter, a diode connects from the switching node (inductor input) to ground. To maximize efficiency and minimize switching losses during the \"freewheeling\" period, the best diode choice is a:",
+        "choices": [
+            "A. Standard 1N4007 rectifier diode",
+            "B. Schottky diode",
+            "C. Zener diode",
+            "D. Varactor diode"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "To mitigate the high electric field crowding at the edges of the metal-semiconductor contact, which causes premature breakdown and high leakage in Schottky diodes, manufacturers heavily employ a specific internal structure called a:",
+        "choices": [
+            "A. Guard ring (a P+ diffusion ring)",
+            "B. Double heterojunction",
+            "C. Intrinsic buffer layer",
+            "D. Phosphor coating"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "Because of its extremely fast response time and lack of charge storage, the Schottky diode is universally utilized in RF applications as a:",
+        "choices": [
+            "A. Voltage-controlled oscillator",
+            "B. High-power low-frequency rectifier",
+            "C. Constant current source",
+            "D. Microwave detector and mixer"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "The barrier potential and forward characteristics of a Schottky diode are fundamentally dictated mathematically by the semiconductor's electron affinity and the metal's:",
+        "choices": [
+            "A. Thermal conductivity",
+            "B. Specific heat capacity",
+            "C. Work function",
+            "D. Crystalline lattice constant"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "When compared directly to a \"fast recovery\" PN junction diode, the reverse recovery characteristic of a Schottky diode is dominated strictly by its:",
+        "choices": [
+            "A. Transition (depletion) capacitance discharging",
+            "B. Minority carrier recombination",
+            "C. Avalanche multiplication decay",
+            "D. Zener breakdown time"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "The tunnel diode, also known as the Esaki diode, requires a doping concentration that is approximately how many times greater than a standard PN junction diode?",
+        "choices": [
+            "A. 10 times",
+            "B. 100 times",
+            "C. 1,000 to 10,000 times",
+            "D. It is completely undoped (intrinsic)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "The exceptionally heavy doping in a tunnel diode physically causes the depletion region to become so incredibly thin that electrons can cross the junction at low forward bias through a quantum mechanical process called:",
+        "choices": [
+            "A. Impact ionization",
+            "B. Tunneling",
+            "C. Avalanche breakdown",
+            "D. Thermionic emission"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "The most crucial and exploitable characteristic of a tunnel diode's V-I curve, occurring strictly between the peak voltage (Vp) and the valley voltage (Vv), is the region exhibiting:",
+        "choices": [
+            "A. Infinite resistance",
+            "B. Constant current",
+            "C. Zener breakdown",
+            "D. Negative dynamic resistance"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "A worded circuit description: A tunnel diode is placed in parallel with an LC tank circuit and a DC biasing network. To function as a continuous high-frequency oscillator, the DC bias must place the operating Q-point strictly:",
+        "choices": [
+            "A. At the exact peak voltage (Vp)",
+            "B. In the negative resistance region",
+            "C. Below the peak voltage (in the tunneling region)",
+            "D. In the reverse avalanche region"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "For a tunnel diode oscillator circuit to successfully sustain oscillations, the magnitude of the tunnel diode's negative resistance",
+        "choices": [
+            "A. -R_d",
+            "B. must be mathematically:",
+            "C. Exactly zero",
+            "D. Much greater than the parallel tank impedance"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 43,
+        "question": "Which of the following parameters of a tunnel diode allows it to operate and switch at incredibly high frequencies (into the microwave region)?",
+        "choices": [
+            "A. High transition capacitance",
+            "B. Long minority carrier lifetime",
+            "C. Negligible transit time (tunneling happens at nearly the speed of light)",
+            "D. Extremely high reverse breakdown voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "As the forward bias voltage across a tunnel diode is increased significantly past the valley voltage (Vv), the current begins to rise again. This current is primarily due to:",
+        "choices": [
+            "A. Normal minority carrier injection (standard diode conduction)",
+            "B. Continued quantum tunneling",
+            "C. Avalanche multiplication",
+            "D. Zener breakdown"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "Despite its exceptional high-frequency capabilities, the tunnel diode is rarely used in modern electronic designs primarily because:",
+        "choices": [
+            "A. It requires an external magnetic field",
+            "B. It generates too much thermal heat",
+            "C. It is a two-terminal device, offering no inherent physical isolation between input and output",
+            "D. Its operating voltage is dangerously high"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "The peak current (Ip) to valley current (Iv) ratio is a key figure of merit for tunnel diodes. A higher Ip/Iv ratio generally indicates:",
+        "choices": [
+            "A. Higher power dissipation",
+            "B. A wider and more usable negative resistance region for signal swing",
+            "C. A lower operating frequency limit",
+            "D. A higher forward voltage drop"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "A worded circuit description: A microwave amplifier utilizes a tunnel diode. Because the tunnel diode is a two-terminal device, separating the amplified output wave from the input wave requires a highly specialized component known as a:",
+        "choices": [
+            "A. Circulator",
+            "B. Center-tapped transformer",
+            "C. Varactor",
+            "D. Triac"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "Tunnel diodes are often constructed using Gallium Arsenide (GaAs) or Germanium (Ge) rather than Silicon (Si) because GaAs and Ge provide a higher:",
+        "choices": [
+            "A. Reverse breakdown voltage",
+            "B. Transition capacitance",
+            "C. Thermal resistance",
+            "D. Peak-to-valley current ratio (Ip/Iv)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "In the energy band diagram of a tunnel diode under zero bias, the Fermi level strictly lies:",
+        "choices": [
+            "A. Exactly in the middle of the bandgap",
+            "B. Slightly below the conduction band",
+            "C. Slightly above the valence band",
+            "D. Inside the conduction band on the N-side and inside the valence band on the P-side"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "Light-Emitting Diodes (LEDs) emit visible or infrared light when operated in forward bias strictly through the quantum physical process of:",
+        "choices": [
+            "A. Stimulated emission of radiation",
+            "B. Avalanche multiplication",
+            "C. Radiative recombination of electrons and holes",
+            "D. Thermionic emission"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "To effectively emit light, LEDs must be fabricated using semiconductor materials that exhibit a:",
+        "choices": [
+            "A. Perfect crystalline vacuum",
+            "B. Direct bandgap",
+            "C. Indirect bandgap",
+            "D. Zero bandgap"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "The color (wavelength) of the light emitted by an LED is mathematically determined almost entirely by the:",
+        "choices": [
+            "A. Energy bandgap of the semiconductor material",
+            "B. Forward current magnitude",
+            "C. Ambient operating temperature",
+            "D. Transition capacitance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "Given Planck’s equation E = hc / λ, if a semiconductor has a bandgap energy of approximately 1.9 eV, what color will the LED primarily emit? (h*c ~ 1240 eV-nm)",
+        "choices": [
+            "A. Red (~650 nm)",
+            "B. Blue (~450 nm)",
+            "C. Ultraviolet (~300 nm)",
+            "D. Infrared (~900 nm)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "A worded circuit description: A standard Red LED (Vf = 2.0V) is connected in series with a resistor to a 5V DC source. The desired forward current is 15 mA. The exact mathematical value required for the series resistor is:",
+        "choices": [
+            "A. 133 ohms",
+            "B. 200 ohms",
+            "C. 333 ohms",
+            "D. 466 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "When compared to a standard 1N4148 silicon diode, the maximum reverse breakdown voltage rating of a typical visible-light LED is:",
+        "choices": [
+            "A. Much higher (e.g., >100V)",
+            "B. Exactly the same",
+            "C. Much lower (e.g., 3V to 5V)",
+            "D. Infinite"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "As the operating junction temperature of an LED significantly increases, its light output intensity (efficacy) strictly:",
+        "choices": [
+            "A. Increases exponentially",
+            "B. Remains perfectly constant",
+            "C. Shifts entirely into the X-ray spectrum",
+            "D. Decreases, accompanied by a slight shift in dominant wavelength"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "The most common and commercially viable method to produce bright \"white\" light from a single LED chip utilizes a:",
+        "choices": [
+            "A. Red, green, and blue die connected in series",
+            "B. Blue or UV LED die coated with a yellow-emitting phosphor layer",
+            "C. Pure intrinsic silicon die driven at extreme currents",
+            "D. Tunnel diode heavily doped with carbon"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "The acronym OLED stands for Organic Light-Emitting Diode. The \"Organic\" mathematically and chemically refers to the use of:",
+        "choices": [
+            "A. Biological tissues inside the diode",
+            "B. Organometallic vapor phase epitaxy",
+            "C. Carbon-based organic molecules and polymers as the emissive electroluminescent layer",
+            "D. Naturally mined, unrefined silicon"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "A worded circuit description: An LED is driven directly from the 220V AC mains using a \"capacitor dropper\" circuit. The circuit consists of a series capacitor, a series current-limiting resistor, a bridge rectifier, and the LED. What is the fundamental physical role of the series capacitor?",
+        "choices": [
+            "A. To filter out 60Hz ripple",
+            "B. To increase the voltage applied to the LED",
+            "C. To perfectly tune the circuit to resonance",
+            "D. To act as a lossless AC voltage dropper (reactive current limiter)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "To operate as a highly sensitive linear light detector, a standard PN photodiode is strictly biased in the:",
+        "choices": [
+            "A. Reverse-bias region",
+            "B. Forward-bias region",
+            "C. Zener breakdown region",
+            "D. Avalanche breakdown region"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "The small, residual reverse current that flows through a photodiode even when it is in complete darkness is formally called the:",
+        "choices": [
+            "A. Saturation current",
+            "B. Photocurrent",
+            "C. Dark current",
+            "D. Recombination current"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "The Responsivity of a photodiode is a key performance parameter mathematically defined as the ratio of the:",
+        "choices": [
+            "A. Dark current to the applied reverse voltage",
+            "B. Incident optical power to the dark current",
+            "C. Forward voltage to the incident optical power",
+            "D. Generated photocurrent to the incident optical power (A/W)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 63,
+        "question": "A worded circuit description: A photodiode is connected directly across the inputs of an operational amplifier. The non-inverting input is grounded. The inverting input connects to the photodiode anode (cathode grounded) and a feedback resistor Rf. This specific configuration operates the photodiode in:",
+        "choices": [
+            "A. Photovoltaic mode (zero bias)",
+            "B. Photoconductive mode (reverse bias)",
+            "C. Avalanche mode",
+            "D. Zener mode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "In the exact same op-amp circuit (photodiode in photovoltaic mode with feedback resistor Rf), this topology is universally known as a:",
+        "choices": [
+            "A. Voltage follower",
+            "B. Transimpedance amplifier",
+            "C. Logarithmic amplifier",
+            "D. Non-inverting amplifier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "A photodiode is operated with a 10V reverse bias through a series load resistor (Photoconductive mode). Compared to photovoltaic mode, this configuration provides:",
+        "choices": [
+            "A. Zero dark current",
+            "B. Higher dynamic resistance",
+            "C. Perfect temperature stability",
+            "D. Faster response time and wider bandwidth"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 66,
+        "question": "The fundamental cutoff wavelength of a photodiode, beyond which it cannot detect light, is mathematically determined strictly by the semiconductor's:",
+        "choices": [
+            "A. Energy bandgap",
+            "B. Transition capacitance",
+            "C. Operating reverse voltage",
+            "D. Physical surface area"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 67,
+        "question": "The Quantum Efficiency of a photodiode is mathematically defined as the precise ratio of the number of:",
+        "choices": [
+            "A. Generated electrons to the number of generated holes",
+            "B. Generated electron-hole pairs contributing to photocurrent to the number of incident photons",
+            "C. Incident photons to the incident optical power",
+            "D. Dark current electrons to the photocurrent electrons"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "An Avalanche Photodiode (APD) differs fundamentally from a standard PIN photodiode because the APD provides internal signal amplification through:",
+        "choices": [
+            "A. Thermionic emission",
+            "B. A built-in field-effect transistor",
+            "C. Impact ionization under extremely high reverse bias",
+            "D. Quantum tunneling"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "To achieve the highest possible speed (bandwidth) in a photodiode, the depletion region must be carefully optimized. If the depletion region is made too wide, the response time is severely degraded by:",
+        "choices": [
+            "A. Long carrier transit time",
+            "B. High junction capacitance",
+            "C. Excessive dark current",
+            "D. Zener breakdown"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "A solar cell (photovoltaic cell) is essentially a large-area PN junction designed to operate strictly in which quadrant of its V-I characteristic curve?",
+        "choices": [
+            "A. First quadrant (Forward bias, power consumed)",
+            "B. Second quadrant",
+            "C. Third quadrant (Reverse bias, power consumed)",
+            "D. Fourth quadrant (Forward voltage, reverse current, power generated)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 71,
+        "question": "When a solar cell is fully illuminated but its output terminals are completely shorted together, the current that flows is mathematically termed the:",
+        "choices": [
+            "A. Open-circuit current",
+            "B. Dark current",
+            "C. Short-circuit current (I_sc)",
+            "D. Peak-power current (I_mp)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "The Fill Factor (FF) is a critical metric of solar cell quality. It is mathematically defined as the ratio of the:",
+        "choices": [
+            "A. Open-circuit voltage to the short-circuit current",
+            "B. Maximum power (P_max) to the product of V_oc and I_sc",
+            "C. Output electrical power to the input solar optical power",
+            "D. Active cell area to the total panel area"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "A worded circuit description: A solar panel consists of 36 identical silicon solar cells connected strictly in series. If each cell produces an open-circuit voltage of 0.6V and a short-circuit current of 3A under standard test conditions, the entire panel will output approximately:",
+        "choices": [
+            "A. V_oc = 0.6V, I_sc = 108A",
+            "B. V_oc = 21.6V, I_sc = 3A",
+            "C. V_oc = 21.6V, I_sc = 108A",
+            "D. V_oc = 0.6V, I_sc = 3A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "As the operating temperature of a standard crystalline silicon solar cell increases, its open-circuit voltage (V_oc) strictly:",
+        "choices": [
+            "A. Decreases significantly due to increased intrinsic carrier concentration",
+            "B. Increases proportionally with absolute temperature",
+            "C. Remains perfectly constant",
+            "D. Drops abruptly to exactly zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "The equivalent circuit model of a practical solar cell consists of an ideal current source in parallel with a forward-biased diode, and includes parasitic resistances. To maximize efficiency, the ideal cell should mathematically possess:",
+        "choices": [
+            "A. High series resistance and high shunt resistance",
+            "B. Low series resistance and low shunt resistance",
+            "C. High series resistance and low shunt resistance",
+            "D. Low series resistance and high shunt resistance"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 76,
+        "question": "A solar cell has an area of 100 cm^2 and receives standard solar irradiance of 1000 W/m^2. If it produces a maximum electrical power of 1.5 W, its conversion efficiency is exactly:",
+        "choices": [
+            "A. 1.5%",
+            "B. 10%",
+            "C. 15%",
+            "D. 25%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "Maximum Power Point Tracking (MPPT) charge controllers actively adjust the electrical load presented to a solar panel. The mathematical goal is to continuously operate the panel at the exact point on its V-I curve where:",
+        "choices": [
+            "A. Voltage is maximum (V_oc)",
+            "B. Current is maximum (I_sc)",
+            "C. The product of voltage and current (V*I) is maximized",
+            "D. The internal series resistance drops to zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "The theoretical maximum efficiency of a single-junction solar cell is fundamentally limited by the Shockley-Queisser limit. For an un-concentrated solar spectrum, this mathematical limit for a silicon cell is approximately:",
+        "choices": [
+            "A. 10% to 15%",
+            "B. 30% to 33%",
+            "C. 50% to 60%",
+            "D. 100%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "To reduce the massive reflection of incident sunlight off the bare, shiny silicon surface of a solar cell, manufacturers universally apply a specialized thin layer called an:",
+        "choices": [
+            "A. Anti-reflective (AR) coating",
+            "B. Epitaxial layer",
+            "C. Ohmic contact",
+            "D. Anodized aluminum shield"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "An optocoupler (or optoisolator) fundamentally consists of a light emitter (usually an LED) and a light detector enclosed in a single opaque package. Its primary physical function in circuit design is to provide:",
+        "choices": [
+            "A. Extreme voltage amplification",
+            "B. High-speed frequency multiplication",
+            "C. Accurate rectification of AC power",
+            "D. Complete electrical (galvanic) isolation between two distinct circuits"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "The most important performance parameter of a standard LED-phototransistor optocoupler is the Current Transfer Ratio (CTR). It is mathematically defined as the ratio of the:",
+        "choices": [
+            "A. Output voltage to input voltage",
+            "B. Input LED current to the output phototransistor current",
+            "C. Dark current to the input LED current",
+            "D. Output phototransistor collector current to the input LED forward current"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 82,
+        "question": "A worded circuit description: A microcontroller outputs a 5V digital signal to drive a 120V AC water pump. To achieve this safely, the microcontroller drives the LED of an optocoupler. To control the AC mains, the detector inside the optocoupler should specifically be an:",
+        "choices": [
+            "A. Avalanche photodiode",
+            "B. Phototransistor",
+            "C. Opto-triac (or photo-triac)",
+            "D. Schottky diode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "Over many years of continuous operation, the Current Transfer Ratio (CTR) of a standard optocoupler typically degrades (decreases). The primary physical cause of this degradation is the:",
+        "choices": [
+            "A. Phototransistor gaining excessive beta (hFE)",
+            "B. Gradual reduction in light output efficiency of the internal LED",
+            "C. Darkening of the opaque plastic package",
+            "D. Increase in the isolation breakdown voltage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "The Isolation Voltage rating of a commercial optocoupler typically ranges from 1,500V to over 7,500V. This rating mathematically specifies the maximum voltage that can be safely applied:",
+        "choices": [
+            "A. Between the input pins and the output pins without dielectric breakdown",
+            "B. Across the LED in reverse bias",
+            "C. Across the collector-emitter junction of the phototransistor",
+            "D. Across the power supply lines of the driving circuit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "A worded circuit description: An optocoupler's LED is driven by 10mA. The phototransistor collector connects to a 5V supply through a 1k-ohm pull-up resistor, and the emitter is grounded. If the optocoupler has a CTR of 50%, what is the approximate collector voltage when the LED is ON? (Assume ideal saturation).",
+        "choices": [
+            "A. 5 V",
+            "B. 0 V (fully saturated, typically ~0.2V)",
+            "C. 2.5 V",
+            "D. 10 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "The physical structure of a PIN diode consists of a P-type layer and an N-type layer separated by a relatively thick region of:",
+        "choices": [
+            "A. Intrinsic (undoped or very lightly doped) semiconductor material",
+            "B. Metallic conductor",
+            "C. Insulating silicon dioxide",
+            "D. Heavily doped P+ material"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "At extremely low frequencies (e.g., 60 Hz), a PIN diode functions identically to a standard PN junction rectifier. However, at microwave frequencies (e.g., > 100 MHz), it strictly behaves as a:",
+        "choices": [
+            "A. Perfect insulator",
+            "B. High-Q capacitor",
+            "C. Negative resistance oscillator",
+            "D. Current-controlled variable resistor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "The exact physical reason a PIN diode acts as a linear resistor rather than a rectifier at high RF frequencies is that the RF signal period is:",
+        "choices": [
+            "A. Much longer than the transition time",
+            "B. Exactly equal to the dielectric relaxation time",
+            "C. Much shorter than the minority carrier lifetime in the intrinsic region",
+            "D. Blocked by the transition capacitance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "A worded circuit description: A PIN diode is placed in series between an RF generator and an antenna. A DC control circuit injects a variable forward direct current through the PIN diode. In this configuration, the PIN diode is being utilized strictly as an:",
+        "choices": [
+            "A. RF frequency multiplier",
+            "B. FM demodulator",
+            "C. RF switch or variable attenuator",
+            "D. Voltage-controlled oscillator"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "A worded circuit description: In a Pi-network RF attenuator, three PIN diodes are used (one series, two shunt). To mathematically increase the RF attenuation while maintaining a constant 50-ohm characteristic impedance, the DC control circuit must:",
+        "choices": [
+            "A. Increase forward current in all three diodes",
+            "B. Decrease current in the series diode and increase current in the shunt diodes",
+            "C. Increase current in the series diode and decrease current in the shunt diodes",
+            "D. Reverse bias all three diodes"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "When a PIN diode is strongly reverse-biased, the intrinsic region is fully depleted of charge carriers. In this state, the PIN diode strictly represents a:",
+        "choices": [
+            "A. Very low and constant capacitance",
+            "B. Very high and variable inductance",
+            "C. Short circuit",
+            "D. Negative resistance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "Because of its wide intrinsic layer, a PIN diode is also highly effective when used as a photodetector. Compared to a standard PN photodiode, the PIN photodiode exhibits a:",
+        "choices": [
+            "A. Much higher dark current",
+            "B. Narrower bandwidth",
+            "C. Slower response time",
+            "D. Larger depletion volume, resulting in higher quantum efficiency and faster response"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "The forward RF resistance (R_s) of a PIN diode is mathematically proportional to the square of the intrinsic layer thickness (W) and inversely proportional to the:",
+        "choices": [
+            "A. Applied RF voltage",
+            "B. Junction capacitance",
+            "C. Ambient temperature",
+            "D. Forward DC bias current and carrier lifetime"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "The Step Recovery Diode (SRD) is a highly specialized semiconductor device primarily utilized in microwave electronics for:",
+        "choices": [
+            "A. High-order frequency multiplication and pulse generation",
+            "B. Low-frequency power rectification",
+            "C. Voltage regulation",
+            "D. Light emission"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "The unique operation of a Step Recovery Diode relies on a phenomenon called \"snap-off.\" This occurs when the diode is driven from forward bias into reverse bias and the stored minority carriers are depleted, causing the reverse current to:",
+        "choices": [
+            "A. Increase exponentially",
+            "B. Drop to zero almost instantaneously (in picoseconds)",
+            "C. Oscillate sinusoidally",
+            "D. Match the forward current exactly"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "A worded circuit description: An SRD is placed in a resonant cavity and driven by a high-power 1 GHz sine wave. Due to the diode's extremely abrupt reverse recovery transition, the output spectrum is exceptionally rich in high-frequency harmonics. This specific circuit configuration is known as a:",
+        "choices": [
+            "A. Buck converter",
+            "B. Parametric amplifier",
+            "C. Comb generator",
+            "D. Ring modulator"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 97,
+        "question": "To achieve the highly abrupt \"snap-off\" characteristic, the doping profile of a Step Recovery Diode is meticulously engineered. Unlike a standard abrupt PN junction, the SRD typically utilizes a:",
+        "choices": [
+            "A. Graded doping profile (higher doping near the contacts, lower near the junction)",
+            "B. Purely intrinsic region (like a PIN diode)",
+            "C. Uniformly heavy doping profile (like a tunnel diode)",
+            "D. Metal-semiconductor junction (like a Schottky diode)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "For efficient frequency multiplication using an SRD, the minority carrier lifetime (τ) of the diode must be mathematically:",
+        "choices": [
+            "A. Exactly zero",
+            "B. Much less than the period of the input RF drive signal",
+            "C. Much greater than the period of the input RF drive signal",
+            "D. Equal to the snap-off transition time"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "While a varactor diode acts as a nonlinear capacitor to generate harmonics, the Step Recovery Diode is far more efficient at generating very high-order harmonics (e.g., 10th or 20th harmonic) because its harmonic generation relies strictly on its highly nonlinear:",
+        "choices": [
+            "A. Avalanche breakdown characteristic",
+            "B. Forward voltage drop",
+            "C. Transition capacitance",
+            "D. Charge storage and abrupt switching action"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "Which of the following special diodes is the ONLY one that routinely exploits the quantum mechanical tunneling of electrons across a heavily doped junction to achieve negative dynamic resistance?",
+        "choices": [
+            "A. Step Recovery Diode",
+            "B. Esaki Diode",
+            "C. Varactor Diode",
+            "D. Schottky Diode"
+        ],
+        "correct_answer": "B"
+    }
+]

@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "Worded circuit: A classic Maxwell bridge is perfectly balanced. It is primarily used to measure what specific unknown component by comparing it against a standard capacitor?",
+        "choices": [
+            "A. High-Q inductors",
+            "B. Very small capacitors",
+            "C. Unknown inductances (typically low to medium Q)",
+            "D. Standard resistors"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "The Hay bridge is mathematically optimized to measure an inductor with a high Quality Factor (Q). In its standard balancing arm, the standard capacitor and standard resistor are connected strictly in:",
+        "choices": [
+            "A. Series",
+            "B. Parallel",
+            "C. Delta",
+            "D. Wye"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "Worded circuit: A Schering bridge is balanced at 60 Hz to measure a cable's insulation. The Dissipation Factor (D) is mathematically extracted from the balance conditions. What physical ratio does D rigorously represent?",
+        "choices": [
+            "A. Reactance to Resistance",
+            "B. Total capacitance to reference capacitance",
+            "C. Voltage to Current in the test arm",
+            "D. Series resistance to Capacitive reactance (tan delta)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "The exact theoretical mathematical formula for the balance frequency of a standard Wien bridge with a series R1-C1 arm and a parallel R2-C2 arm is rigorously given by:",
+        "choices": [
+            "A. f = 1 / (2 * pi * R1 * C1)",
+            "B. f = 1 / (2 * pi * sqrt(R1 * R2 * C1 * C2))",
+            "C. f = 2 * pi * sqrt(R1 * R2 * C1 * C2)",
+            "D. f = 1 / (R1 * R2 * C1 * C2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "Worded circuit: In a balanced Maxwell bridge, the unknown inductor has resistance Rx and inductance Lx. If the standard parallel arm consists of R1 and C1, and the other arms are pure resistors R2 and R3, the rigorous formula for Lx is:",
+        "choices": [
+            "A. Lx = R1 * R2 / C1",
+            "B. Lx = C1 / (R2 * R3)",
+            "C. Lx = R2 * R3 * C1",
+            "D. Lx = R1 * C1 / R2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "When measuring an inductor with a Quality Factor Q strictly less than 10, utilizing a Hay bridge instead of a Maxwell bridge is strongly discouraged because the Hay bridge's exact balance equation for Lx becomes heavily dependent on the:",
+        "choices": [
+            "A. Angular frequency (omega)",
+            "B. Applied voltage magnitude",
+            "C. Ambient temperature",
+            "D. Detector's internal impedance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "Worded circuit: A Schering bridge is widely used in high-voltage engineering. To mathematically eliminate severe errors caused by stray physical capacitances, engineers strictly employ a shielding technique known universally as the:",
+        "choices": [
+            "A. Kelvin double shield",
+            "B. Heaviside compensation",
+            "C. Superposition mesh",
+            "D. Wagner ground connection"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "Worded circuit: A Wien bridge utilizes identical reactive components (R1 = R2 = R, C1 = C2 = C). To physically and mathematically achieve a perfect AC balance at its resonant frequency, the ratio of the purely resistive arms (R3 / R4) MUST exactly equal:",
+        "choices": [
+            "A. 1.0",
+            "B. 2.0",
+            "C. 0.5",
+            "D. 3.14"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "In two-port network theory, the Z-parameters (impedance parameters) are mathematically derived by expressing the port voltages (V1, V2) strictly as linear functions of the:",
+        "choices": [
+            "A. Port currents (I1, I2)",
+            "B. Port admittances (Y1, Y2)",
+            "C. Input voltage and output current",
+            "D. Input current and output voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "The impedance parameter Z11 is formally defined and mathematically evaluated as the:",
+        "choices": [
+            "A. Short-circuit input impedance",
+            "B. Open-circuit transfer impedance from port 1 to port 2",
+            "C. Open-circuit input impedance",
+            "D. Short-circuit transfer impedance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "When analyzing a two-port network using Y-parameters (admittance parameters), the independent variables in the governing linear mathematical equations are strictly the:",
+        "choices": [
+            "A. Port currents (I1, I2)",
+            "B. Port voltages (V1, V2)",
+            "C. V1 and I2",
+            "D. I1 and V2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "In a standard Y-parameter matrix, the specific parameter Y21 is rigorously mathematically defined as the:",
+        "choices": [
+            "A. Short-circuit input admittance",
+            "B. Open-circuit reverse transfer admittance",
+            "C. Open-circuit output admittance",
+            "D. Short-circuit forward transfer admittance"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Worded circuit: A symmetric T-network contains a 10-ohm resistor in the series arm of port 1, a 10-ohm resistor in the series arm of port 2, and a 20-ohm resistor in the shunt branch. The exact mathematical value of the open-circuit input impedance Z11 is:",
+        "choices": [
+            "A. 10 ohms",
+            "B. 30 ohms",
+            "C. 20 ohms",
+            "D. 40 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 14,
+        "question": "From the exact same T-network (series arms = 10 ohms each, shunt arm = 20 ohms), what is the mathematically exact value of the transfer impedance Z12?",
+        "choices": [
+            "A. 10 ohms",
+            "B. 30 ohms",
+            "C. 40 ohms",
+            "D. 20 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 15,
+        "question": "Worded circuit: A Pi-network consists of a 0.1 S shunt admittance at port 1, a 0.2 S shunt admittance at port 2, and a 0.5 S series admittance connecting port 1 to port 2. The exact mathematical value of Y11 is:",
+        "choices": [
+            "A. 0.6 S",
+            "B. 0.1 S",
+            "C. 0.5 S",
+            "D. -0.5 S"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 16,
+        "question": "Using the exact same Pi-network (Y_shunt1 = 0.1 S, Y_shunt2 = 0.2 S, Y_series = 0.5 S), what is the exact mathematical value of the transfer admittance Y12?",
+        "choices": [
+            "A. 0.5 S",
+            "B. 0.1 S",
+            "C. -0.5 S",
+            "D. 0.6 S"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "For a two-port network that possesses a mathematically invertible Z-parameter matrix [Z], the exact relationship to its Y-parameter matrix [Y] is rigorously strictly:",
+        "choices": [
+            "A. [Y] = [Z]^T",
+            "B. [Y] = [Z] * [I]",
+            "C. [Y] = -[Z]",
+            "D. [Y] = [Z]^-1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 18,
+        "question": "A passive two-port network is mathematically and physically classified as strictly reciprocal if and only if which precise condition holds true for its Z-parameters?",
+        "choices": [
+            "A. Z11 = Z22",
+            "B. Z12 = Z21",
+            "C. Z11 * Z22 = Z12 * Z21",
+            "D. Z12 = -Z21"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "A linear two-port network is mathematically classified as strictly symmetrical if a specific condition is met, meaning port 1 and port 2 can be interchanged without altering behavior. For Z-parameters, this condition is exactly:",
+        "choices": [
+            "A. Z12 = Z21",
+            "B. Z11 * Z22 = 1",
+            "C. Z11 = Z22",
+            "D. Z11 = -Z22"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "For a two-port network described by its admittance parameters, the strict mathematical condition for network reciprocity is exactly:",
+        "choices": [
+            "A. Y12 = Y21",
+            "B. Y11 = Y22",
+            "C. Y12 = -Y21",
+            "D. Y11 * Y22 = 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "The hybrid parameters (h-parameters) are exceptionally popular in BJT transistor modeling. The independent variables mathematically used to define the port voltages and currents in the h-parameter model are strictly:",
+        "choices": [
+            "A. V1 and V2",
+            "B. I1 and I2",
+            "C. I1 and V2",
+            "D. V1 and I2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "In the fundamental h-parameter mathematical equations, the parameter h11 strictly represents the:",
+        "choices": [
+            "A. Short-circuit input impedance",
+            "B. Open-circuit input impedance",
+            "C. Short-circuit forward current gain",
+            "D. Open-circuit reverse voltage gain"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "The h-parameter h21 is a dimensionless ratio heavily utilized in amplifier analysis. It physically and mathematically represents the:",
+        "choices": [
+            "A. Open-circuit reverse voltage gain",
+            "B. Short-circuit input admittance",
+            "C. Open-circuit output admittance",
+            "D. Short-circuit forward current gain"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "For a two-port network modeled with h-parameters, the precise mathematical condition that dictates the network is strictly reciprocal is:",
+        "choices": [
+            "A. h12 = h21",
+            "B. h12 = -h21",
+            "C. h11 * h22 - h12 * h21 = 1",
+            "D. h11 = h22"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "The strict mathematical condition for a two-port network to be classified as completely symmetrical using its h-parameters is formally given by:",
+        "choices": [
+            "A. h11 * h22 - h12 * h21 = 1",
+            "B. h12 = -h21",
+            "C. h11 = h22",
+            "D. h11 * h22 = 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "The inverse hybrid parameters (g-parameters) uniquely express I1 and V2 strictly as linear mathematical combinations of the independent variables:",
+        "choices": [
+            "A. I1 and V2",
+            "B. I1 and I2",
+            "C. V1 and I2",
+            "D. V1 and V2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "In the standard mathematical matrix for g-parameters, the term g21 represents the ratio of V2 to V1 when I2 is strictly zero. This physically corresponds to the:",
+        "choices": [
+            "A. Short-circuit forward current gain",
+            "B. Open-circuit forward voltage gain",
+            "C. Short-circuit reverse current gain",
+            "D. Open-circuit reverse voltage gain"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "The transmission parameters, universally known as ABCD parameters, are heavily utilized in power system analysis. They mathematically relate the input port variables (V1, I1) strictly to the:",
+        "choices": [
+            "A. Output port variables (V2, I2)",
+            "B. Output port variables (-V2, -I2)",
+            "C. Output port variables (V2, I1)",
+            "D. Output port variables (V2, -I2)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "In the generic transmission parameter matrix equation, the strictly dimensionless parameter 'A' mathematically and physically represents the:",
+        "choices": [
+            "A. Short-circuit forward current ratio",
+            "B. Open-circuit reverse voltage ratio (V1/V2)",
+            "C. Open-circuit transfer impedance",
+            "D. Short-circuit transfer admittance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "The transmission parameter 'C' mathematically evaluates the ratio I1/V2 with the output port completely open-circuited. Its strict physical SI unit is the:",
+        "choices": [
+            "A. Ohm",
+            "B. Volt",
+            "C. Dimensionless",
+            "D. Siemens (Mho)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 31,
+        "question": "The rigorous mathematical condition that proves a two-port network is strictly reciprocal based on its ABCD transmission parameters is exactly:",
+        "choices": [
+            "A. A = D",
+            "B. A * B - C * D = 1",
+            "C. A * D - B * C = 1",
+            "D. A = B * C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "If a two-port network is structurally perfectly symmetrical end-to-end, its ABCD parameters will mathematically strictly satisfy which exact condition?",
+        "choices": [
+            "A. A = D",
+            "B. B = C",
+            "C. A * D - B * C = 1",
+            "D. A = 1/D"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "When two separate two-port networks (Network 1 and Network 2) are physically connected in a strict cascade (series-tandem), the overall combined equivalent matrix is mathematically found by taking the strict matrix product of their individual:",
+        "choices": [
+            "A. Z-parameter matrices",
+            "B. Y-parameter matrices",
+            "C. h-parameter matrices",
+            "D. ABCD-parameter matrices"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 34,
+        "question": "Worded circuit: Two independent two-port networks have their input ports connected precisely in series, and their output ports connected precisely in series. To mathematically find the total overall parameters, one must simply add their individual:",
+        "choices": [
+            "A. Y-parameter matrices",
+            "B. Z-parameter matrices",
+            "C. ABCD-parameter matrices",
+            "D. h-parameter matrices"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Worded circuit: Two independent two-port networks have their input ports connected precisely in parallel, and their output ports connected precisely in parallel. The mathematically exact combined overall parameters are found by adding their individual:",
+        "choices": [
+            "A. Y-parameter matrices",
+            "B. Z-parameter matrices",
+            "C. h-parameter matrices",
+            "D. ABCD-parameter matrices"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 36,
+        "question": "If the inputs of two two-port networks are physically connected strictly in series, and their corresponding outputs are physically connected strictly in parallel, their overall combined equivalent matrix is the direct sum of their individual:",
+        "choices": [
+            "A. Z-parameters",
+            "B. Y-parameters",
+            "C. h-parameters",
+            "D. g-parameters"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "If the inputs of two two-port networks are connected strictly in parallel, and their outputs are connected strictly in series, their overall combined equivalent matrix is the exact mathematical sum of their individual:",
+        "choices": [
+            "A. ABCD-parameters",
+            "B. h-parameters",
+            "C. g-parameters",
+            "D. Z-parameters"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "Worded circuit: A pure T-network has a series arm Z_a = 5 ohms, a second series arm Z_b = 10 ohms, and a shunt arm Z_c = 15 ohms to ground. The mathematically exact Z-parameter matrix component Z22 is:",
+        "choices": [
+            "A. 25 ohms",
+            "B. 20 ohms",
+            "C. 15 ohms",
+            "D. 10 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "Using the exact same T-network (Z_a = 5, Z_b = 10, Z_c = 15), the strictly mathematical value of Z21 is:",
+        "choices": [
+            "A. 5 ohms",
+            "B. 15 ohms",
+            "C. 10 ohms",
+            "D. 25 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "Worded circuit: A pure Pi-network has a shunt admittance Y_A = 0.2 S at port 1, a series admittance Y_B = 0.4 S, and a shunt admittance Y_C = 0.3 S at port 2. The mathematically exact value of Y22 is:",
+        "choices": [
+            "A. 0.5 S",
+            "B. 0.6 S",
+            "C. 0.3 S",
+            "D. 0.7 S"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "From the exact same Pi-network (Y_A = 0.2 S, Y_B = 0.4 S, Y_C = 0.3 S), the strictly mathematical value of the transfer admittance Y12 is:",
+        "choices": [
+            "A. -0.4 S",
+            "B. 0.4 S",
+            "C. -0.2 S",
+            "D. -0.3 S"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "Worded circuit: A two-port network consists purely of a single series impedance Z connecting the input to the output, with no shunt element. The mathematically exact ABCD transmission matrix is:",
+        "choices": [
+            "A. A=Z, B=1, C=0, D=Z",
+            "B. A=1, B=0, C=Z, D=1",
+            "C. A=1, B=Z, C=0, D=1",
+            "D. A=0, B=Z, C=1, D=0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "Worded circuit: A two-port network consists purely of a single shunt admittance Y connected directly across the transmission line to ground. The exact ABCD transmission matrix is mathematically given by:",
+        "choices": [
+            "A. A=Y, B=0, C=1, D=Y",
+            "B. A=1, B=Y, C=0, D=1",
+            "C. A=0, B=1, C=Y, D=0",
+            "D. A=1, B=0, C=Y, D=1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "At extremely high microwave frequencies, standard voltages and currents are virtually impossible to measure accurately. Consequently, two-port networks are universally mathematically characterized using scattering parameters (S-parameters), which relate the strictly defined:",
+        "choices": [
+            "A. Admittance waves to impedance waves",
+            "B. Incident voltage waves to reflected voltage waves",
+            "C. Short-circuit currents to open-circuit voltages",
+            "D. Standing waves to traveling currents"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "In standard S-parameter network analysis, the specific parameter S11 is mathematically rigorously defined as the input reflection coefficient strictly when the output port is:",
+        "choices": [
+            "A. Short-circuited",
+            "B. Terminated in a perfectly matched load (Z0)",
+            "C. Open-circuited",
+            "D. Terminated in an arbitrary impedance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "The scattering parameter S21 physically and mathematically represents the forward transmission coefficient (or insertion gain/loss). This is evaluated when exactly which condition is met?",
+        "choices": [
+            "A. Port 1 is shorted",
+            "B. Port 2 is open",
+            "C. Port 1 is perfectly matched",
+            "D. Port 2 is perfectly matched (no reflection)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 47,
+        "question": "For a microwave two-port network to be rigorously classified as strictly reciprocal mathematically, its S-parameter matrix must strictly satisfy the exact condition:",
+        "choices": [
+            "A. S12 = S21",
+            "B. S11 = S22",
+            "C. S11 * S22 - S12 * S21 = 1",
+            "D. S12 = -S21"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "If a microwave passive component is physically and geometrically perfectly symmetrical from input to output, its measured S-parameters will mathematically strictly exhibit which specific property?",
+        "choices": [
+            "A. S21 = S12",
+            "B. S11 = 1 / S22",
+            "C. S11 = S22",
+            "D. S11 = -S22"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "In advanced RF engineering, a two-port network is mathematically strictly classified as purely lossless if and only if its scattering matrix [S] is precisely:",
+        "choices": [
+            "A. Singular",
+            "B. Diagonal",
+            "C. Asymmetrical",
+            "D. Unitary"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "For a strictly lossless, reciprocal two-port network, the conservation of power rigorously dictates that the exact mathematical sum of the squared magnitudes of S11 and S21 is perfectly equal to:",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. S22",
+            "D. S12"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "The Inverse Transmission Parameters (A', B', C', D' or a, b, c, d) mathematically express the output variables (V2, I2) strictly as linear combinations of the:",
+        "choices": [
+            "A. Variables V1 and I2",
+            "B. Variables V2 and I1",
+            "C. Input variables (V1, -I1)",
+            "D. Variables -V1 and I1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "When mathematically deriving the precise ABCD transmission parameters from a known Z-parameter matrix, the parameter 'A' is strictly algebraically equivalent to:",
+        "choices": [
+            "A. Z11 / Z21",
+            "B. Z11 * Z22",
+            "C. Z22 / Z21",
+            "D. (Z11*Z22 - Z12*Z21) / Z21"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "When mathematically deriving the precise ABCD transmission parameters from a known Z-parameter matrix, the parameter 'C' is strictly algebraically equivalent to:",
+        "choices": [
+            "A. Z22 / Z21",
+            "B. (Z11*Z22 - Z12*Z21) / Z21",
+            "C. 1 / Z21",
+            "D. Z11 / Z21"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "If the determinant of a mathematically valid Y-parameter matrix is denoted as Delta_Y (where Delta_Y = Y11*Y22 - Y12*Y21), the strict mathematical equivalent for the parameter Z11 is:",
+        "choices": [
+            "A. Y22 / Delta_Y",
+            "B. Y11 / Delta_Y",
+            "C. -Y12 / Delta_Y",
+            "D. 1 / Delta_Y"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "Given an ABCD transmission matrix, the exact rigorous mathematical conversion to determine the impedance parameter Z11 is strictly given by:",
+        "choices": [
+            "A. B / D",
+            "B. C / A",
+            "C. D / C",
+            "D. A / C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 56,
+        "question": "When physically connecting two individual two-port networks strictly in series or parallel, their port characteristics must not be altered by circulating currents. To mathematically and physically guarantee validity before simply adding matrices, one must successfully apply:",
+        "choices": [
+            "A. Thevenin's Theorems",
+            "B. Brune's Tests",
+            "C. Maxwell's Equations",
+            "D. Millman's Theorem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "Worded circuit: An ideal transformer has a primary to secondary turns ratio of n:1. It is modeled as a two-port network. The mathematically exact ABCD transmission matrix for this ideal transformer is:",
+        "choices": [
+            "A. A=n, B=0, C=0, D=n",
+            "B. A=n, B=0, C=0, D=1/n",
+            "C. A=1/n, B=0, C=0, D=n",
+            "D. A=1, B=n, C=1/n, D=1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "A fundamental ideal two-port component heavily used in active filter synthesis mathematically inverts impedances (e.g., makes a capacitor act like an inductor). Its Z-parameter matrix is strictly Z11=0, Z22=0, Z12=-R, Z21=R. This theoretical device is the:",
+        "choices": [
+            "A. Operational Amplifier",
+            "B. Circulator",
+            "C. Isolator",
+            "D. Gyrator"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 59,
+        "question": "The standard Z-parameter matrix for a perfectly ideal transformer is mathematically impossible to formulate directly (it is singular/undefined). The primary fundamental physical reason for this strict mathematical failure is that:",
+        "choices": [
+            "A. V1 and V2 are completely dependent, and I1 and I2 are completely dependent",
+            "B. An ideal transformer has infinite core losses",
+            "C. The turns ratio n is purely imaginary",
+            "D. The matrix determinant is negative"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "Any linear, reciprocal two-port network operating at a specific AC frequency can be strictly mathematically represented by a purely equivalent physical circuit consisting of three passive impedances arranged exactly as a/an:",
+        "choices": [
+            "A. Pi-network",
+            "B. Bridge-T network",
+            "C. T-network",
+            "D. Lattice network"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "Similarly, the exact same linear, reciprocal two-port network can also be rigorously mathematically modeled by three passive admittances arranged strictly in a/an:",
+        "choices": [
+            "A. H-network",
+            "B. T-network",
+            "C. L-section",
+            "D. Pi-network"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 62,
+        "question": "When mathematically synthesizing a T-equivalent circuit from a known reciprocal Z-parameter matrix, the physical series arm strictly connected to Port 1 is mathematically equal to:",
+        "choices": [
+            "A. Z11",
+            "B. Z11 - Z12",
+            "C. Z11 + Z12",
+            "D. Z12"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "In transmission line and filter theory, the specific terminating impedance at port 2 that mathematically results in an identical input impedance at port 1 (and vice versa) is formally defined strictly as the:",
+        "choices": [
+            "A. Characteristic impedance",
+            "B. Thevenin equivalent impedance",
+            "C. Image impedance",
+            "D. Iterative impedance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "The mathematical calculation of the image impedance (Z_I1) at port 1 of an asymmetrical two-port network requires knowing the short-circuit (Z_SC1) and open-circuit (Z_OC1) input impedances. The exact formula is:",
+        "choices": [
+            "A. sqrt(Z_OC1 * Z_SC1)",
+            "B. (Z_OC1 + Z_SC1) / 2",
+            "C. Z_OC1 * Z_SC1",
+            "D. Z_OC1 / Z_SC1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "A highly specific terminating impedance at port 2 forces the exact same mathematical impedance to appear at the input of port 1, making the network appear as an infinite chain. This is formally called the:",
+        "choices": [
+            "A. Iterative impedance",
+            "B. Image impedance",
+            "C. Conjugate impedance",
+            "D. Natural impedance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "When combining two-port networks, strict isolation must be maintained. If joining two unbalanced T-networks in parallel structurally violates Brune's test by shorting out components, one must physically insert an ideal:",
+        "choices": [
+            "A. Capacitor",
+            "B. Inductor",
+            "C. Isolation transformer (1:1)",
+            "D. Resistor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "Worded circuit: A two-port network has an ABCD matrix. Two identical blocks of this exact network are perfectly cascaded. The new resulting mathematically exact 'A' parameter of the combined system is:",
+        "choices": [
+            "A. A^2",
+            "B. A^2 + B*C",
+            "C. A^2 + C^2",
+            "D. A*B + C*D"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "If the input port and output port of a two-port network have absolutely zero physical or electromagnetic coupling between them, the transfer parameters (Y12 and Y21) mathematically strictly equal:",
+        "choices": [
+            "A. Infinity",
+            "B. Y11 / Y22",
+            "C. Y11 * Y22",
+            "D. Zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "In the low-frequency AC analysis of a common-emitter BJT using h-parameters, the parameter h_re mathematically represents the voltage feedback ratio. In a highly simplified, ideal approximation, h_re is frequently assumed to be exactly:",
+        "choices": [
+            "A. Zero",
+            "B. One",
+            "C. Infinity",
+            "D. Equal to h_fe"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "Worded circuit: A common-emitter amplifier is modeled using h-parameters (h_ie, h_re, h_fe, h_oe). If a pure load conductance G_L is connected to the output, the exact mathematical voltage gain (V2/V1) is rigorously given by:",
+        "choices": [
+            "A. -h_fe / (h_ie * (h_oe + G_L))",
+            "B. h_fe / (h_ie + G_L)",
+            "C. -h_fe / (h_ie * (h_oe + G_L) - h_re * h_fe)",
+            "D. -h_fe / h_ie"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "An infinite cascade of identical LC L-sections physically mathematically acts as a standard lumped-parameter transmission line. The rigorous mathematical technique used to find its passband and stopband behavior heavily utilizes:",
+        "choices": [
+            "A. Z-parameters",
+            "B. ABCD transmission parameters",
+            "C. S-parameters",
+            "D. h-parameters"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "In an RF two-port network, if port 2 is terminated exactly in the system characteristic impedance (Z0), the mathematical voltage reflection coefficient (Gamma_in) measured strictly at port 1 is identically equal to which S-parameter?",
+        "choices": [
+            "A. S21",
+            "B. S22",
+            "C. S12",
+            "D. S11"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "The Return Loss (in dB) of an RF component is a critical physical measurement of impedance mismatch. It is mathematically strictly related to the magnitude of the S11 parameter by the exact algebraic formula:",
+        "choices": [
+            "A. +20 * log10(",
+            "B. S11",
+            "C. )",
+            "D. -20 * log10("
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 74,
+        "question": "The Insertion Loss (in dB) of a passive RF filter mathematically rigorously corresponds to which exact formula involving the forward transmission S-parameter?",
+        "choices": [
+            "A. -10 * log10(",
+            "B. S21",
+            "C. )",
+            "D. +20 * log10("
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 75,
+        "question": "A theoretical one-port network consisting purely of a dead short circuit placed exactly at the reference plane mathematically possesses a single S-parameter (S11) strictly equal to:",
+        "choices": [
+            "A. -1",
+            "B. 0",
+            "C. +1",
+            "D. Infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "A theoretical one-port network consisting purely of a perfect open circuit placed exactly at the reference plane mathematically possesses a single S-parameter (S11) strictly equal to:",
+        "choices": [
+            "A. 0",
+            "B. -1",
+            "C. +1",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "In RF amplifier design utilizing S-parameters, the active device is mathematically considered unconditionally stable if its Rollett stability factor (K) and matrix determinant (Delta_S) strictly satisfy:",
+        "choices": [
+            "A. K < 1 and",
+            "B. Delta_S",
+            "C. < 1",
+            "D. K > 1 and"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "For a fully reciprocal two-port network described by Z-parameters, the exact mathematical determinant of the matrix (Delta_Z = Z11*Z22 - Z12*Z21) physically appears in the numerator when solving for which specific parameter set?",
+        "choices": [
+            "A. Y-parameters",
+            "B. h-parameters",
+            "C. g-parameters",
+            "D. ABCD parameters"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "Worded circuit: A Delta (Pi) network consists of three identical 30-ohm resistors. To mathematically find the Z-parameters, it is easiest to first strictly convert the Delta into an equivalent T-network. The exact value of each resulting T-network series arm is:",
+        "choices": [
+            "A. 30 ohms",
+            "B. 90 ohms",
+            "C. 3 ohms",
+            "D. 10 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "A highly specialized, perfectly symmetrical two-port filter structure that resembles a Wheatstone bridge where the input is across one diagonal and output is across the other is mathematically known strictly as a:",
+        "choices": [
+            "A. Twin-T network",
+            "B. Lattice network",
+            "C. Bridged-T network",
+            "D. Pi-network"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "In a completely symmetrical lattice network, the series arms are both Z_A and the diagonal (cross) arms are both Z_B. The exact mathematical rigorous value for the open-circuit input impedance Z11 is:",
+        "choices": [
+            "A. Z_A + Z_B",
+            "B. (Z_A * Z_B) / (Z_A + Z_B)",
+            "C. Z_A - Z_B",
+            "D. (Z_A + Z_B) / 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 82,
+        "question": "Using the exact same symmetrical lattice (series arms Z_A, diagonal arms Z_B), the strictly mathematical value of the transfer impedance Z12 is:",
+        "choices": [
+            "A. (Z_A + Z_B) / 2",
+            "B. (Z_B - Z_A) / 2",
+            "C. Z_B - Z_A",
+            "D. (Z_A * Z_B) / 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "A passive two-port RC filter topology heavily utilized to generate a deep mathematical notch (zero transmission) at a specific frequency consists of two separate T-networks physically connected strictly in parallel. This is formally named the:",
+        "choices": [
+            "A. Bridged-T",
+            "B. Lattice",
+            "C. Twin-T (or Parallel-T)",
+            "D. Ladder network"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "When rigorously mathematically converting a known Z-parameter matrix into its corresponding h-parameter matrix, the parameter h22 is strictly given by the exact algebraic identity:",
+        "choices": [
+            "A. 1 / Z22",
+            "B. Z11 / Z22",
+            "C. Z22 / Z11",
+            "D. Delta_Z / Z22"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "When mathematically applying Y-parameters to a network heavily containing independent voltage sources inside the port boundaries, the basic linear matrix equation [I] = [Y][V] must be rigorously modified to strictly include an additional:",
+        "choices": [
+            "A. Norton equivalent short-circuit current vector",
+            "B. Thevenin equivalent open-circuit voltage vector",
+            "C. ABCD transformation matrix",
+            "D. S-parameter scattering vector"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Worded circuit: A cascade consists of a pure shunt capacitor (Y = jwC) followed strictly by a pure series inductor (Z = jwL). The mathematically exact overall transmission parameter 'A' of this specific combined two-port is:",
+        "choices": [
+            "A. 1 - w^2*L*C",
+            "B. 1 + w^2*L*C",
+            "C. 1",
+            "D. -w^2*L*C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "Since the g-parameters and h-parameters are mathematically exact inverses of each other in terms of dependent/independent variable assignments, a two-port network's g-parameter matrix [g] strictly algebraically equals:",
+        "choices": [
+            "A. -[h]",
+            "B. [h]^T",
+            "C. [h] / Delta_h",
+            "D. [h]^-1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "It is a mathematical fact that not every theoretical two-port circuit strictly possesses every parameter set. A simple, perfectly ideal parallel wire connecting port 1 directly to port 2 (with no ground connection) mathematically lacks a valid:",
+        "choices": [
+            "A. ABCD-parameter matrix",
+            "B. Y-parameter matrix",
+            "C. Z-parameter matrix",
+            "D. S-parameter matrix"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "If a two-port network physically consists entirely of ideal linear resistors, all elements of its rigorously calculated Z-parameter matrix must strictly be:",
+        "choices": [
+            "A. Complex numbers",
+            "B. Purely real numbers",
+            "C. Purely imaginary numbers",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "In steady-state AC analysis, the exact complex power S mathematically delivered strictly into Port 1 of a two-port network is rigorously given by:",
+        "choices": [
+            "A. 0.5 * V1 * I1",
+            "B. V1 * I1",
+            "C. 0.5 * V1 * I1_conjugate",
+            "D. V1 * I1_conjugate"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "A two-port network is rigorously mathematically classified as strictly active (capable of generating power) if the total average real power entering the network (P1 + P2) can possibly be:",
+        "choices": [
+            "A. Less than zero (negative)",
+            "B. Exactly zero",
+            "C. Greater than zero (positive)",
+            "D. Complex"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "For a reciprocal two-port network to be rigorously physically classified as strictly passive, the real parts of its Z-parameters (R11 and R22) evaluated at any real frequency must mathematically satisfy:",
+        "choices": [
+            "A. R11 * R22 = 1",
+            "B. R11 < 0 and R22 < 0",
+            "C. R11 >= 0 and R22 >= 0",
+            "D. R11 = -R22"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "If the physical input reference plane of an RF two-port network is mathematically shifted away from the device by an electrical length theta, the measured scattering parameter S11 strictly alters by a strict phase angle shift of:",
+        "choices": [
+            "A. +theta",
+            "B. +2*theta",
+            "C. -2*theta",
+            "D. -theta"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "An ideal operational amplifier with its non-inverting input grounded acts as a highly specialized two-port. Its mathematically rigorous ABCD transmission parameters are essentially:",
+        "choices": [
+            "A. A=0, B=0, C=0, D=0 (Matrix is identically zero)",
+            "B. A=1, B=0, C=0, D=1",
+            "C. A=Infinity",
+            "D. Undefined, it cannot be modeled"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "Worded circuit: A pure Current Controlled Current Source (CCCS) has a gain of 'Beta'. Port 1 is the shorted input (V1=0). Port 2 outputs I2 = Beta*I1. The exact mathematical value of the h-parameter h21 is:",
+        "choices": [
+            "A. 0",
+            "B. Beta",
+            "C. Infinity",
+            "D. 1/Beta"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "A passive band-pass filter is physically synthesized by strictly cascading multiple identical T-networks. The overall mathematical stability and passband characteristics of this massive chain are heavily dictated by a specific network parameter derived from ABCD, known as the:",
+        "choices": [
+            "A. Characteristic impedance",
+            "B. Thevenin voltage",
+            "C. Voltage Reflection Coefficient",
+            "D. Propagation constant (gamma)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "A strictly unilateral two-port network physically permits signal transmission in one exact direction only (e.g., an ideal amplifier or isolator). Mathematically, this rigorous condition demands that its transmission parameter matrix strictly yields a specific zero, particularly:",
+        "choices": [
+            "A. S11 = 0",
+            "B. Y12 = Y21 = 0",
+            "C. Z12 = Z21 = 0",
+            "D. S12 = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 98,
+        "question": "While an ideal transformer lacks a Z-matrix, a practical physical transformer with finite primary inductance L1, secondary inductance L2, and mutual inductance M strictly possesses a Z-matrix where Z12 is exactly mathematically:",
+        "choices": [
+            "A. j*w*L1",
+            "B. j*w*M",
+            "C. j*w*L2",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "In microwave engineering, a two-port network is rigorously defined as being simultaneously conjugate matched when the mathematical reflection coefficients strictly satisfy:",
+        "choices": [
+            "A. Gamma_in = 0 and Gamma_out = 0",
+            "B. Gamma_in = S11 and Gamma_out = S22",
+            "C. Gamma_in = S11* (conjugate) and Gamma_out = S22* (conjugate)",
+            "D. Gamma_in = 1 and Gamma_out = 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "Fundamentally, a mathematical port in network theory is rigorously physically defined strictly as a pair of terminals where:",
+        "choices": [
+            "A. The exact current entering one terminal identically equals the current leaving the other",
+            "B. The voltage between them is exactly zero",
+            "C. The impedance is perfectly matched to 50 ohms",
+            "D. The active power is always positive"
+        ],
+        "correct_answer": "A"
+    }
+]

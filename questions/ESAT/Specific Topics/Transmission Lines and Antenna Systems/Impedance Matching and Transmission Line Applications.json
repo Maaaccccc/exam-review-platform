@@ -1,0 +1,981 @@
+[
+    {
+        "number": 1,
+        "question": "The power loss in a transmission line caused by the finite conductivity and resistance of the metallic conductors is formally known as:",
+        "choices": [
+            "A. Dielectric loss",
+            "B. Copper loss (Ohmic loss)",
+            "C. Radiation loss",
+            "D. Induction loss"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "Voltage Standing Wave Ratio (VSWR) is mathematically related to the magnitude of the reflection coefficient by:",
+        "choices": [
+            "A. VSWR = (1 +",
+            "B. Gamma",
+            "C. ) / (1 -",
+            "D. Gamma"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 3,
+        "question": "The input impedance of a lossless transmission line that is exactly one-quarter wavelength long and terminated in a short circuit is:",
+        "choices": [
+            "A. Zero",
+            "B. 50 ohms",
+            "C. Purely reactive inductive",
+            "D. Infinite (open circuit)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "A quarter-wave transformer with characteristic impedance Z0 is used to match a purely resistive load ZL = 100 ohms to a source line of Zs = 25 ohms. What should be the characteristic impedance Z0 of the quarter-wave matching section?",
+        "choices": [
+            "A. 50 ohms",
+            "B. 75 ohms",
+            "C. 35.35 ohms",
+            "D. 62.5 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "The skin depth of a copper conductor at 1 GHz, given its conductivity of approximately 5.8 x 10^7 S/m and permeability, is approximately:",
+        "choices": [
+            "A. 2.06 micrometers",
+            "B. 66.1 micrometers",
+            "C. 2.06 millimeters",
+            "D. 1.5 centimeters"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "A lossless transmission line has Z0 = 50 ohms and is terminated in a load ZL = 50 + j50 ohms. Calculate the magnitude of the reflection coefficient.",
+        "choices": [
+            "A. 0.316",
+            "B. 0.447",
+            "C. 0.500",
+            "D. 0.707"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "The primary purpose of impedance matching in high-frequency transmission line systems is to:",
+        "choices": [
+            "A. Maximize power transfer from the source to the load and minimize reflections",
+            "B. Eliminate all line losses entirely",
+            "C. Increase the operating frequency of the system",
+            "D. Make the line physically shorter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "According to the Maximum Power Transfer Theorem, maximum power is delivered to a load when the load impedance is equal to:",
+        "choices": [
+            "A. Zero",
+            "B. Infinity",
+            "C. The characteristic impedance of the line (or complex conjugate of the source impedance)",
+            "D. Purely reactive"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 9,
+        "question": "A quarter-wavelength transmission line acts as an impedance inverter, transforming a low impedance into a:",
+        "choices": [
+            "A. Lower impedance",
+            "B. High impedance",
+            "C. Purely capacitive reactance",
+            "D. Zero impedance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "What is the characteristic impedance Z0 required for a quarter-wave matching transformer placed between a 100-ohm load and a 400-ohm transmission line?",
+        "choices": [
+            "A. 50 ohms",
+            "B. 100 ohms",
+            "C. 150 ohms",
+            "D. 200 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "When a quarter-wave transformer is used to match a complex load impedance (ZL = RL + jXL), the transformer must be placed at a distance from the load where the input impedance looking into the line is:",
+        "choices": [
+            "A. Purely resistive",
+            "B. Purely reactive",
+            "C. Equal to zero",
+            "D. Equal to infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "Stub matching involves placing a short-circuited or open-circuited transmission line section (stub) in parallel or series with the main feedline at a specific distance from the load to:",
+        "choices": [
+            "A. Eliminate copper loss",
+            "B. Cancel out the reactive part of the load impedance and achieve a matched VSWR of 1.0",
+            "C. Increase the physical length of the line",
+            "D. Block DC currents"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "In single stub matching, the distance (d) from the load to the stub is chosen such that the normalized admittance at that point has a real part equal to:",
+        "choices": [
+            "A. Zero",
+            "B. Infinity",
+            "C. Exactly 1.0",
+            "D. 0.5"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "In single stub matching, once the distance d is selected to make the real part of the normalized admittance equal to 1.0, the susceptance is cancelled out by adjusting the stub length to provide a susceptance that is:",
+        "choices": [
+            "A. Equal and of the same sign",
+            "B. Equal and opposite (negative of the line susceptance)",
+            "C. Infinite",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Why are short-circuited stubs heavily preferred over open-circuited stubs in practical high-frequency RF engineering?",
+        "choices": [
+            "A. Short-circuited stubs are much easier to fabricate and do not suffer from fringing capacitance and radiation losses associated with open ends",
+            "B. Short stubs have infinite resistance",
+            "C. Open stubs cannot handle AC power",
+            "D. Short stubs require no copper"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 16,
+        "question": "Double stub tuning utilizes two stubs of fixed spacing (commonly separated by an eighth or a quarter wavelength) with adjustable:",
+        "choices": [
+            "A. Characteristic impedances",
+            "B. Physical lengths",
+            "C. Operating frequencies",
+            "D. Dielectric constants"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 17,
+        "question": "A major operational limitation of single stub matching compared to double stub tuning is that single stub matching:",
+        "choices": [
+            "A. Cannot be used on coaxial cables",
+            "B. Requires the stub to be placed at an arbitrary distance which varies if the load frequency changes, whereas double stubs have fixed positions",
+            "C. Has zero bandwidth",
+            "D. Always results in a VSWR of 2.0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "What is the primary function of a balun in transmission line and antenna engineering?",
+        "choices": [
+            "A. To amplify weak RF signals",
+            "B. To convert a balanced transmission line (or antenna) to an unbalanced transmission line (or coaxial cable)",
+            "C. To measure VSWR",
+            "D. To act as a low-pass filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Which of the following is a classic example of a balun constructed from a section of coaxial cable wrapped or sleeved to prevent outer braid current?",
+        "choices": [
+            "A. Quarter-wave transformer",
+            "B. Bazooka balun (sleeve balun)",
+            "C. L-type matching network",
+            "D. Pi network"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "A 4:1 impedance ratio balun is commonly used to connect a balanced 300-ohm twin-lead feedline to an unbalanced coaxial cable with a characteristic impedance of:",
+        "choices": [
+            "A. 50 ohms",
+            "B. 75 ohms",
+            "C. 150 ohms",
+            "D. 300 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "An L-type matching network consists of how many reactive components (inductors or capacitors)?",
+        "choices": [
+            "A. One",
+            "B. Two",
+            "C. Three",
+            "D. Four"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "A T-type matching network is composed of three reactive components arranged in the shape of the letter T, featuring:",
+        "choices": [
+            "A. Two series arms and one shunt arm to ground",
+            "B. One series arm and two shunt arms",
+            "C. Three parallel arms",
+            "D. No inductors"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "A pi-type (pi-network) matching network features:",
+        "choices": [
+            "A. Two series arms and one shunt arm",
+            "B. One series arm and two shunt arms (forming a pi shape)",
+            "C. Three series inductors",
+            "D. Zero harmonic suppression"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "Pi-network matching networks are exceptionally popular in vacuum tube and solid-state RF transmitter output stages primarily because they provide excellent:",
+        "choices": [
+            "A. DC blocking",
+            "B. High harmonic suppression and broad impedance transformation ratios",
+            "C. Phase inversion",
+            "D. Zero power dissipation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "If an L-type matching network is used to step up a low resistance to a high resistance, the inductor is typically placed in the:",
+        "choices": [
+            "A. Shunt arm",
+            "B. Series arm on the low-impedance side",
+            "C. Ground return path",
+            "D. Across the load terminals directly"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "In designing matching networks, the \"loaded Q\" (Q_L) of the network dictates its:",
+        "choices": [
+            "A. Bandwidth and harmonic rejection capability",
+            "B. Physical length in meters",
+            "C. Characteristic impedance",
+            "D. Velocity factor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "As the loaded Q of a matching network is increased, the bandwidth of the matching network:",
+        "choices": [
+            "A. Increases",
+            "B. Remains completely unchanged",
+            "C. Decreases (becomes narrower)",
+            "D. Drops to zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "A quarter-wavelength transformer is inherently a narrowband matching device because its electrical length deviates from 90 degrees as the:",
+        "choices": [
+            "A. Temperature changes",
+            "B. Operating frequency shifts away from the design frequency",
+            "C. Transmit power increases",
+            "D. Load resistance changes"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "To overcome the narrowband limitation of a single quarter-wave transformer, engineers frequently cascade multiple quarter-wave sections with progressively varying characteristic impedances. This is called a:",
+        "choices": [
+            "A. T-section network",
+            "B. Binomial or Chebyshev multi-section transformer",
+            "C. Pi-type matching network",
+            "D. Balanced balun"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "What is the input impedance of a quarter-wave transformer if it is terminated in a short circuit?",
+        "choices": [
+            "A. Zero",
+            "B. 50 ohms",
+            "C. Purely resistive",
+            "D. Infinite (open circuit)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 31,
+        "question": "If a quarter-wave transformer is terminated in an open circuit, its input impedance is:",
+        "choices": [
+            "A. Infinite",
+            "B. Zero (short circuit)",
+            "C. Equal to its characteristic impedance",
+            "D. Capacitive"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "A transmission line of characteristic impedance Z0 = 50 ohms is terminated in a load ZL = 200 ohms. To match this load using a quarter-wave transformer, what must be the characteristic impedance of the transformer?",
+        "choices": [
+            "A. 50 ohms",
+            "B. 100 ohms",
+            "C. 150 ohms",
+            "D. 200 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "Using a Smith Chart for single stub matching, the first step after normalizing the load impedance to the characteristic impedance is to:",
+        "choices": [
+            "A. Convert it to admittance and plot it on the chart",
+            "B. Multiply by the frequency",
+            "C. Add an inductor in series",
+            "D. Calculate the physical length of the line"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "In Smith Chart single stub matching, moving from the normalized load admittance along a constant VSWR circle toward the generator corresponds to moving:",
+        "choices": [
+            "A. Clockwise toward the generator",
+            "B. Counter-clockwise toward the load",
+            "C. Radially inward",
+            "D. Along the outer perimeter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "The intersection of the constant VSWR circle with the circle where normalized conductance g = 1 on the Smith Chart identifies the exact location where:",
+        "choices": [
+            "A. The load is matched",
+            "B. A single shunt stub can cancel the reactive susceptance",
+            "C. The reflection coefficient is zero",
+            "D. The phase constant is zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "In double stub tuning, certain load impedances located within a forbidden region near the center of the Smith Chart cannot be matched because:",
+        "choices": [
+            "A. The stubs would have to be infinitely long",
+            "B. The first stub cannot successfully transform the conductance to the 1.0 circle before reaching the second stub",
+            "C. The frequency is too high",
+            "D. The VSWR is exactly 1.0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "A Ruthroff balun is a type of broadband transmission line transformer that utilizes coupled inductors and is typically configured to provide impedance transformations such as:",
+        "choices": [
+            "A. 1:1 or 4:1",
+            "B. 10:1 only",
+            "C. 50:1",
+            "D. Infinite ratio"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "A Guanella balun achieves wideband impedance transformation by utilizing:",
+        "choices": [
+            "A. Uncoupled transmission line sections connected in parallel at one end and series at the other",
+            "B. Resonant LC tanks",
+            "C. Waveguides",
+            "D. Step-down resistors"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "In an L-type matching network stepping down a high impedance (e.g., 500 ohms) to a low impedance (e.g., 50 ohms), where is the reactive shunt arm placed?",
+        "choices": [
+            "A. Across the high-impedance side (load side)",
+            "B. In series with the source",
+            "C. Across the low-impedance side",
+            "D. Directly at the generator terminals"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 40,
+        "question": "The Q-factor of an L-type matching network connecting a source resistance R_S and a load resistance R_L (where R_S > R_L) is mathematically given by:",
+        "choices": [
+            "A. sqrt(R_S / R_L - 1)",
+            "B. R_S / R_L",
+            "C. R_L / R_S",
+            "D. sqrt(R_L / R_S)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "If a matching network has a high Q-factor, it will be exceptionally sensitive to:",
+        "choices": [
+            "A. Component tolerances and frequency drift",
+            "B. Low voltages",
+            "C. High temperatures",
+            "D. Mechanical vibrations"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "Impedance matching in radio frequency power amplifiers is critical not only for maximum power transfer but also to protect the final output transistors or tubes from damage caused by:",
+        "choices": [
+            "A. Excessive reflected power (high VSWR)",
+            "B. Low DC supply voltage",
+            "C. Clock jitter",
+            "D. Phase ambiguity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 43,
+        "question": "A quarter-wave transformer can match any pure resistance to another pure resistance. Can it match a complex load impedance directly without an initial line section?",
+        "choices": [
+            "A. Yes, always",
+            "B. No, the load must be purely resistive, or a length of line must be used first to transform the complex load into a pure resistance",
+            "C. Yes, if the frequency is doubled",
+            "D. Only if the VSWR is zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "When evaluating a matching network, insertion loss refers to the power lost within the matching components themselves, usually expressed in:",
+        "choices": [
+            "A. Decibels (dB)",
+            "B. Watts",
+            "C. Ohms",
+            "D. Farads"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "A 1:1 balun is frequently used at the feedpoint of a dipole antenna fed with coaxial cable to:",
+        "choices": [
+            "A. Step up the antenna impedance by a factor of 4",
+            "B. Prevent RF currents from flowing on the outside shield of the coaxial cable (common-mode current suppression)",
+            "C. Act as a low-pass filter",
+            "D. Double the transmitter power"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "Which of the following matching networks provides the highest degree of low-pass filtering (attenuation of harmonic frequencies)?",
+        "choices": [
+            "A. L-type network",
+            "B. Quarter-wave transformer",
+            "C. Pi-type network",
+            "D. Single stub matching"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "In a T-type matching network, increasing the loaded Q results in:",
+        "choices": [
+            "A. Broader bandwidth",
+            "B. Narrower bandwidth and increased component stress",
+            "C. Lower insertion loss",
+            "D. Elimination of harmonics"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "A load of ZL = 75 ohms is to be matched to a 300-ohm transmission line using a quarter-wave transformer. What is the required characteristic impedance of the transformer?",
+        "choices": [
+            "A. 150 ohms",
+            "B. 225 ohms",
+            "C. 375 ohms",
+            "D. 100 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "If a transmission line is terminated in an impedance equal to the complex conjugate of the characteristic impedance (Z_L = Z_0^*), what is the resulting VSWR on the line?",
+        "choices": [
+            "A. 1.0 (assuming Z0 is real)",
+            "B. 2.0",
+            "C. Infinite",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "In RF design, conjugate matching is standardly utilized at the input and output ports of small-signal amplifiers to achieve maximum power transfer, whereas impedance matching on high-power transmission lines is designed for:",
+        "choices": [
+            "A. Real characteristic impedance matching (Z_L = Z_0) to eliminate standing waves",
+            "B. Zero power transfer",
+            "C. Infinite VSWR",
+            "D. Maximum reflection"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "What is the primary drawback of using an L-type matching network compared to a Pi-network?",
+        "choices": [
+            "A. L-networks have fixed Q-factor determined strictly by the transformation ratio, offering no independent control over bandwidth or harmonic suppression",
+            "B. L-networks require too many components",
+            "C. L-networks cannot match resistive loads",
+            "D. L-networks are physically too large"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "In single stub matching, if the normalized load admittance Y_L = 1 + jB, what length of short-circuited shunt stub is required to achieve a match?",
+        "choices": [
+            "A. A stub providing susceptance of -jB",
+            "B. A stub providing susceptance of +jB",
+            "C. An open stub of length λ/2",
+            "D. Zero length"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "A short-circuited stub provides an input susceptance. To cancel out an inductive load susceptance of +j1.5 Siemens (normalized), the stub must provide:",
+        "choices": [
+            "A. -j1.5 Siemens of capacitive susceptance",
+            "B. +j1.5 Siemens",
+            "C. Zero susceptance",
+            "D. Infinite susceptance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "The length of a short-circuited stub required to yield a specific input reactance X on a line of characteristic impedance Z_0 is calculated using the formula:",
+        "choices": [
+            "A. l = (λ / 2π) arctan(X / Z_0)",
+            "B. l = (λ / 2π) arctan(Z_0 / X)",
+            "C. l = λ / 4",
+            "D. l = λ / 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "A balun is termed \"balanced-to-unbalanced\" because it transitions between a balanced load (where currents in both conductors are equal in magnitude and opposite in phase) and an unbalanced load where:",
+        "choices": [
+            "A. One conductor is at ground potential (like the outer shield of a coaxial cable)",
+            "B. Both conductors are grounded",
+            "C. There is no ground reference",
+            "D. Voltages are infinite"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "Which type of balun uses twin windings wound tightly on a magnetic ferrite core to achieve broad bandwidth through high mutual coupling?",
+        "choices": [
+            "A. Core-type (transmission line or conventional) balun",
+            "B. Quarter-wave bazooka balun",
+            "C. Slot-line balun",
+            "D. Microstrip single stub"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 57,
+        "question": "In a multi-section binomial quarter-wave transformer designed for impedance matching, the characteristic impedances of the sections are chosen such that the reflection coefficient frequency response is maximally flat, resembling a:",
+        "choices": [
+            "A. Butterworth filter response",
+            "B. Chebyshev filter response with ripple",
+            "C. Linear ramp",
+            "D. Step function"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "A Chebyshev multi-section quarter-wave transformer differs from a binomial transformer because the Chebyshev design yields:",
+        "choices": [
+            "A. Equal-ripple passband performance with a shorter physical length for a given bandwidth",
+            "B. Slower bandwidth",
+            "C. Infinite VSWR",
+            "D. Zero insertion loss"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "Why is impedance matching critical in long-distance telecommunications and cable TV trunk lines?",
+        "choices": [
+            "A. To prevent signal echoes, ghosting, and multiple reflections caused by standing waves that degrade digital data integrity or analog video",
+            "B. To increase cable weight",
+            "C. To eliminate the need for amplifiers",
+            "D. To reduce the speed of light"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "If a transmitter is connected to an unmatched antenna resulting in a high VSWR, what adverse effect does this have on solid-state RF power amplifiers?",
+        "choices": [
+            "A. It can cause excessive reflected voltage/current spikes that overheat the output transistors or trigger protective fold-back circuitry",
+            "B. It increases the transmitter efficiency",
+            "C. It decreases the operating frequency",
+            "D. It stabilizes the DC power supply"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "In designing matching networks, if the load impedance has a large reactive component, it is often beneficial to first insert a length of transmission line to transform the impedance into a region where:",
+        "choices": [
+            "A. The reactive part can be easily cancelled by a single series or shunt reactive element",
+            "B. The frequency drops to zero",
+            "C. The line becomes superconducting",
+            "D. The VSWR becomes infinite"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "A quarter-wave transformer matching a 50-ohm line to a 200-ohm load has a characteristic impedance of 100 ohms. If the operating frequency deviates by 10% from the design frequency, the input VSWR will:",
+        "choices": [
+            "A. Remain exactly 1.0",
+            "B. Rise slightly above 1.0 due to imperfect impedance transformation",
+            "C. Drop to zero",
+            "D. Become infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "What is the input impedance of a lossless transmission line section of length l = λ/4 terminated in a purely resistive load R_L, when R_L > Z_0?",
+        "choices": [
+            "A. A resistance greater than Z_0",
+            "B. A resistance less than Z_0 (specifically Z_0^2 / R_L)",
+            "C. Purely reactive",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "A matching stub is placed in parallel (shunt) across the main transmission line rather than in series because parallel stubs are generally much easier to construct and adjust in:",
+        "choices": [
+            "A. Coaxial and microstrip circuit layouts",
+            "B. Open-wire twin-lead lines only",
+            "C. Waveguide systems exclusively",
+            "D. Underground buried cables"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "When utilizing a Smith Chart for stub matching, moving along a constant radius circle from the load toward the generator represents moving along the transmission line, whereas moving along a constant resistance (or conductance) circle represents:",
+        "choices": [
+            "A. Adding a series (or shunt) reactance (or susceptance) component",
+            "B. Changing the line length",
+            "C. Changing the characteristic impedance",
+            "D. Altering the frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "In an L-type matching network, if the source impedance is lower than the load impedance (R_S < R_L), the network configuration should place the inductor on the:",
+        "choices": [
+            "A. Source side (series arm) and capacitor on the load side (shunt arm)",
+            "B. Shunt arm on the source side",
+            "C. Ground return path",
+            "D. Across the load terminals"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 67,
+        "question": "The primary operational trade-off of using a broadband balun wound on a magnetic ferrite core at very high microwave frequencies (e.g., > 3 GHz) is:",
+        "choices": [
+            "A. Core saturation, high magnetic losses, and frequency limitations of the ferrite material",
+            "B. Excessive physical size",
+            "C. Perfect impedance matching",
+            "D. Infinite bandwidth"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "In a T-type matching network, having two adjustable series arms and one shunt arm allows the designer to independently control both the:",
+        "choices": [
+            "A. Transformation ratio (matching condition) and the loaded Q-factor (bandwidth)",
+            "B. Frequency and velocity factor",
+            "C. Physical length and skin depth",
+            "D. Dielectric constant and attenuation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "What does a phase angle of zero degrees for the reflection coefficient (Γ = 0) signify at the input of a matching network?",
+        "choices": [
+            "A. Perfect impedance match (no reflection, maximum power transfer)",
+            "B. Total power reflection",
+            "C. Short circuit",
+            "D. Open circuit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "If a matching network is completely lossless, the total power delivered to the network input by the source is:",
+        "choices": [
+            "A. Exactly equal to the power delivered by the network to the load",
+            "B. Greater than the load power",
+            "C. Zero",
+            "D. Equal to the reflected power"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "In single stub matching, if the normalized load admittance is Y_L = g + jb, the distance d from the load to the stub position is calculated to transform Y_L to an admittance Y_d whose real conductance part g_d is:",
+        "choices": [
+            "A. Exactly equal to 1.0",
+            "B. Equal to 0",
+            "C. Equal to g",
+            "D. Equal to infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "A transmission line of Z_0 = 50 ohms is matched to a load using a single shunt short-circuited stub. If the susceptance required to cancel the line admittance at the stub point is -j0.8 Siemens (normalized), what must be the input susceptance provided by the shorted stub?",
+        "choices": [
+            "A. +j0.8 Siemens",
+            "B. -j0.8 Siemens",
+            "C. Zero",
+            "D. Infinite"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "Why are Pi-type matching networks heavily favored in high-power RF transmitter tube amplifiers?",
+        "choices": [
+            "A. They provide high attenuation of harmonic frequencies and can easily match a wide range of load impedances to a low tube output impedance",
+            "B. They have zero components",
+            "C. They do not require tuning",
+            "D. They operate exclusively at DC"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "When tuning a double stub matching system, why are the stub lengths adjusted while their positions remain fixed?",
+        "choices": [
+            "A. Because the physical positions of the stubs are rigidly set by the hardware design (e.g., separated by λ/8 or λ/4), leaving only their lengths as variable parameters",
+            "B. Because stub lengths cannot be changed",
+            "C. Because positions affect the frequency",
+            "D. Because fixed positions eliminate copper loss"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "A quarter-wave matching transformer is designed for a center frequency of 100 MHz. At 100 MHz, the electrical length is 90 degrees. At 110 MHz, the electrical length becomes greater than 90 degrees, causing the input impedance to become:",
+        "choices": [
+            "A. Complex (reactive), resulting in a degraded VSWR",
+            "B. Purely resistive",
+            "C. Zero",
+            "D. Infinite"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "In impedance matching applications, a \" balun \" is named as a portmanteau of which two words?",
+        "choices": [
+            "A. Balanced and Unbalanced",
+            "B. Bandpass and Linear",
+            "C. Binary and Analog",
+            "D. Basic and Universal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "Which matching network topology is generally preferred when the desired transformation ratio is extremely high (e.g., matching a very low antenna resistance to a high source resistance)?",
+        "choices": [
+            "A. Pi-type network or multi-section transformer",
+            "B. Single L-section",
+            "C. Direct connection",
+            "D. Open-circuited stub alone"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "In a Smith Chart, the horizontal axis passing through the center represents:",
+        "choices": [
+            "A. Purely resistive impedances (normalized resistance line where reactance X = 0)",
+            "B. Purely reactive impedances",
+            "C. The outer reflection coefficient circle",
+            "D. The VSWR circle"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "If a matching network introduces an insertion loss of 0.5 dB, what percentage of the input power is successfully delivered to the load?",
+        "choices": [
+            "A. Approximately 89.1%",
+            "B. 100%",
+            "C. 50%",
+            "D. 10%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "The process of adding a matching network to an RF transmission line system primarily serves to ensure that the transmitter sees a load impedance equal to:",
+        "choices": [
+            "A. Its internal generator impedance (typically 50 ohms)",
+            "B. Zero ohms",
+            "C. Infinity",
+            "D. A purely reactive impedance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "When using an open-circuited stub for matching, the input reactance is capacitive when its length is between 0 and λ/4, and it becomes inductive when its length is between:",
+        "choices": [
+            "A. λ/4 and λ/2",
+            "B. 0 and λ/8",
+            "C. λ/2 and 3λ/4",
+            "D. λ/8 and λ/4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "A quarter-wave transformer operating at its design frequency has a reflection coefficient magnitude of zero at its input terminals when terminated in its target load. This occurs because the forward and reflected waves within the quarter-wave section destructively interfere at the input to cancel:",
+        "choices": [
+            "A. The reflected wave coming from the load",
+            "B. The source voltage",
+            "C. The carrier frequency",
+            "D. The thermal noise"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "Which of the following networks provides the most flexible impedance transformation across a wide range of both high-to-low and low-to-high resistive loads while allowing independent control over the network Q-factor?",
+        "choices": [
+            "A. T-type matching network",
+            "B. Simple series resistor",
+            "C. Single shorted stub",
+            "D. Direct coaxial jumper"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "A balun constructed using a pair of transmission lines twisted together or wound on a toroidal core to exploit high mutual magnetic coupling is commonly referred to as a:",
+        "choices": [
+            "A. Guanella or Ruthroff ferrite transformer balun",
+            "B. Bazooka sleeve balun",
+            "C. Waveguide horn",
+            "D. Microstrip patch balun"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "In the design of an L-type matching network, the choice between a \"high-pass\" or \"low-pass\" network configuration depends on whether the series arm contains an inductor and the shunt arm contains a capacitor, or vice versa, which also provides additional filtering of:",
+        "choices": [
+            "A. Harmonics (low-pass configuration attenuates harmonics)",
+            "B. DC power",
+            "C. Carrier frequency",
+            "D. Phase jitter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "The input impedance of a quarter-wave transformer of characteristic impedance Z_0 = 75 ohms connected to a load Z_L = 300 ohms is:",
+        "choices": [
+            "A. 18.75 ohms",
+            "B. 75 ohms",
+            "C. 300 ohms",
+            "D. 1125 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "If a matching network is poorly designed and introduces a high VSWR of 3.0 between the matching network and the load, the overall system efficiency will drop because of increased:",
+        "choices": [
+            "A. Conductor and dielectric losses in the line due to higher peak standing wave currents and voltages",
+            "B. Transistor cooling",
+            "C. Clock recovery errors",
+            "D. Quantization noise"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "When performing single stub matching, if the normalized load admittance Y_L = 0.5 + j1.2, what is the conductance value g that dictates whether a match is possible using a single shunt stub?",
+        "choices": [
+            "A. g = 0.5 (since g ≠ 1, we must move along the constant VSWR circle until the conductance circle g = 1 is intersected)",
+            "B. g = 1.2",
+            "C. g = 0",
+            "D. g = 1.0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "The primary operational advantage of a bazooka balun over a ferrite-core balun at very high VHF/UHF frequencies is that the bazooka balun:",
+        "choices": [
+            "A. Operates on distributed electromagnetic principles without magnetic core saturation losses",
+            "B. Is much smaller physically",
+            "C. Requires a DC power supply",
+            "D. Has adjustable resistance"
+        ],
+        "correct_answer": "A"
+    }
+]

@@ -1,0 +1,1146 @@
+[
+    {
+        "number": 1,
+        "question": "What is the primary purpose of impedance matching in high-frequency transmission line systems?",
+        "choices": [
+            "A. Maximize power transfer from the source to the load and minimize reflections",
+            "B. Eliminate all line losses entirely",
+            "C. Increase the operating frequency of the system",
+            "D. Make the line physically shorter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "A quarter-wavelength transmission line acts as an impedance inverter, transforming a low impedance into a:",
+        "choices": [
+            "A. Lower impedance",
+            "B. High impedance",
+            "C. Purely capacitive reactance",
+            "D. Zero impedance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "What is the primary function of a balun in transmission line and antenna engineering?",
+        "choices": [
+            "A. To amplify weak RF signals",
+            "B. To convert a balanced transmission line to an unbalanced transmission line",
+            "C. To measure VSWR",
+            "D. To act as a low-pass filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 4,
+        "question": "A pi-type (pi-network) matching network features:",
+        "choices": [
+            "A. Two series arms and one shunt arm",
+            "B. One series arm and two shunt arms (forming a pi shape)",
+            "C. Three series inductors",
+            "D. Zero harmonic suppression"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "Stub matching involves placing a short-circuited or open-circuited transmission line section in parallel or series with the main feedline to:",
+        "choices": [
+            "A. Eliminate copper loss",
+            "B. Cancel out the reactive part of the load impedance and achieve a matched VSWR of 1.0",
+            "C. Increase the physical length of the line",
+            "D. Block DC currents"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "An L-type matching network consists of how many reactive components?",
+        "choices": [
+            "A. One",
+            "B. Two",
+            "C. Three",
+            "D. Four"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "Who invented the Smith Chart, which is a graphical tool used to solve transmission line and impedance matching problems?",
+        "choices": [
+            "A. Heinrich Hertz",
+            "B. Phillip H. Smith",
+            "C. James Clerk Maxwell",
+            "D. Oliver Heaviside"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "The center of a standard normalized Smith Chart represents a normalized impedance of:",
+        "choices": [
+            "A. 0 + j0",
+            "B. 1 + j0",
+            "C. Infinity",
+            "D. 0.5 + j0.5"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "On a standard Smith Chart, the outer perimeter circle (outer boundary) represents a reflection coefficient magnitude (\\vertΓ\\vert) of:",
+        "choices": [
+            "A. 0",
+            "B. 0.5",
+            "C. 1.0",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "The horizontal axis running through the center of the Smith Chart corresponds to:",
+        "choices": [
+            "A. Purely reactive impedances (R = 0)",
+            "B. Purely resistive impedances (X = 0)",
+            "C. The unit circle of reflection phase",
+            "D. The VSWR = 0 circle"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "On the Smith Chart, the upper half of the chart represents impedances that are:",
+        "choices": [
+            "A. Capacitive (negative reactance)",
+            "B. Inductive (positive reactance)",
+            "C. Purely resistive",
+            "D. Open-circuited"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "On the Smith Chart, the lower half of the chart represents impedances that are:",
+        "choices": [
+            "A. Inductive (positive reactance)",
+            "B. Capacitive (negative reactance)",
+            "C. Short-circuited",
+            "D. Purely resistive"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "The complete outer circumference scale of a standard Smith Chart is typically calibrated in terms of:",
+        "choices": [
+            "A. Wavelengths Toward Generator (WTG) and Wavelengths Toward Load (WTL)",
+            "B. Frequency in Megahertz",
+            "C. VSWR directly",
+            "D. Reflection coefficient phase in decibels"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "When plotting a normalized impedance z = r + jx on a Smith Chart, the resistance circle corresponding to r = 1 passes through:",
+        "choices": [
+            "A. The extreme left point of the chart",
+            "B. The exact center of the chart",
+            "C. The extreme right point of the chart",
+            "D. The top-most point of the chart"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "The point representing a short circuit (Z_L = 0) on a standard impedance Smith Chart is located at:",
+        "choices": [
+            "A. The extreme right of the horizontal axis (z = ∞)",
+            "B. The exact center of the chart (z = 1)",
+            "C. The extreme left of the horizontal axis (z = 0)",
+            "D. The top-most point of the chart"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "The point representing an open circuit (Z_L = ∞) on a standard impedance Smith Chart is located at:",
+        "choices": [
+            "A. The extreme left of the horizontal axis (z = 0)",
+            "B. The extreme right of the horizontal axis (z = ∞)",
+            "C. The exact center (z = 1)",
+            "D. The bottom-most point"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 17,
+        "question": "To convert a normalized impedance z to a normalized admittance y on a Smith Chart graphically, one must:",
+        "choices": [
+            "A. Rotate the impedance point by exactly 90 degrees",
+            "B. Move the point directly across through the center of the chart by 180 degrees (diametrically opposite point)",
+            "C. Move vertically upward along the constant resistance circle",
+            "D. Multiply the coordinates by 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "On a Smith Chart, movement along a constant VSWR circle toward the generator corresponds to moving in which rotational direction?",
+        "choices": [
+            "A. Counter-clockwise",
+            "B. Clockwise",
+            "C. Radially inward",
+            "D. Radially outward"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Movement along a constant VSWR circle on a Smith Chart toward the load corresponds to moving in which rotational direction?",
+        "choices": [
+            "A. Clockwise",
+            "B. Counter-clockwise",
+            "C. Vertically",
+            "D. Horizontally"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "The total angular distance representing one complete full wavelength (λ) around the outer periphery scale of the Smith Chart corresponds to:",
+        "choices": [
+            "A. 90 degrees",
+            "B. 180 degrees",
+            "C. 360 degrees (or 0.5λ per half-revolution)",
+            "D. 720 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "One complete half-revolution (180^\\circ or 0.5λ) around the outer scale of a Smith Chart takes the user from the load to the generator and corresponds to moving:",
+        "choices": [
+            "A. A distance of λ/4 on the actual transmission line",
+            "B. A distance of λ/2 on the actual transmission line",
+            "C. A distance of λ on the line",
+            "D. A distance of 2λ on the line"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "To find the Voltage Standing Wave Ratio (VSWR) graphically using a Smith Chart, one measures the distance from the chart center to the plotted normalized impedance point using compasses, and then:",
+        "choices": [
+            "A. Multiplies the radius by 50",
+            "B. Swings that radius down to intersect the horizontal resistance axis in the right-half plane, reading the VSWR value directly",
+            "C. Divides by 2",
+            "D. Reads the phase angle directly"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "The maximum value of VSWR that can be read directly on the horizontal resistance axis of a standard Smith Chart is:",
+        "choices": [
+            "A. 1.0",
+            "B. 10.0",
+            "C. Infinity",
+            "D. 5.0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "The magnitude of the voltage reflection coefficient (\\vertΓ\\vert) can be determined graphically from a Smith Chart by taking the ratio of:",
+        "choices": [
+            "A. The distance from the center to the plotted point divided by the radius to the outer edge of the chart (1.0)",
+            "B. The plotted resistance to the plotted reactance",
+            "C. The wavelength scale to the resistance scale",
+            "D. The center distance to the chart diameter squared"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "If a plotted normalized impedance point falls inside a constant VSWR circle of radius 0.5 (relative to a chart radius of 1.0), the magnitude of the reflection coefficient \\vertΓ\\vert is:",
+        "choices": [
+            "A. 0.5",
+            "B. 1.0",
+            "C. 0.25",
+            "D. 2.0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "To find the input impedance of a transmission line at a distance d from the load using a Smith Chart, one first plots the normalized load impedance, draws a constant VSWR circle passing through that point, and then moves along the circle toward the generator by an electrical distance equal to:",
+        "choices": [
+            "A. d",
+            "B. 2d",
+            "C. d / 2",
+            "D. 4d"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "A normalized load impedance is given as z_L = 1 + j1. When plotted on the Smith Chart, this point lies on the:",
+        "choices": [
+            "A. r = 1 circle",
+            "B. x = 1 circle",
+            "C. Origin",
+            "D. Extreme right edge"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "If a transmission line is terminated in a pure resistance load R_L that is greater than the characteristic impedance (R_L > Z_0), the normalized load impedance z_L will lie on the horizontal axis to the:",
+        "choices": [
+            "A. Left of the center",
+            "B. Right of the center",
+            "C. Exact center",
+            "D. Top of the chart"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "If R_L < Z_0, the normalized load impedance z_L plotted on the Smith Chart lies on the horizontal axis to the:",
+        "choices": [
+            "A. Right of the center",
+            "B. Left of the center",
+            "C. Exact center",
+            "D. Bottom of the chart"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "When designing a single stub matching network using a Smith Chart, the primary objective of moving a distance d from the load along a constant VSWR circle is to reach a point where the normalized admittance has a real part (conductance g) equal to:",
+        "choices": [
+            "A. Zero",
+            "B. Infinity",
+            "C. Exactly 1.0",
+            "D. 0.5"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "Once the normalized admittance point with conductance g = 1 is reached on the Smith Chart during single stub matching, the remaining imaginary susceptance b is cancelled by adding a stub that provides a normalized susceptance of:",
+        "choices": [
+            "A. +b",
+            "B. -b",
+            "C. 1 / b",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "On an admittance Smith Chart, the horizontal axis represents:",
+        "choices": [
+            "A. Normalized conductance g (where susceptance b = 0)",
+            "B. Normalized susceptance b",
+            "C. Reflection phase angle",
+            "D. VSWR values"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "The upper half of a standard admittance Smith Chart represents:",
+        "choices": [
+            "A. Capacitive susceptance (positive susceptance)",
+            "B. Inductive susceptance (positive susceptance)",
+            "C. Pure resistance",
+            "D. Zero admittance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "The lower half of a standard admittance Smith Chart represents:",
+        "choices": [
+            "A. Inductive susceptance",
+            "B. Capacitive susceptance (negative susceptance)",
+            "C. Infinite conductance",
+            "D. Short circuit point"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "What is the primary advantage of using a Smith Chart over manual complex arithmetic when solving transmission line problems?",
+        "choices": [
+            "A. It eliminates all mathematical errors completely",
+            "B. It converts complex hyperbolic and transcendental transmission line equations into simple graphical geometric rotations and distance readings",
+            "C. It can only be used for lossless lines",
+            "D. It requires no knowledge of transmission lines"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "A load impedance Z_L = 75 + j75 ohms is connected to a 75-ohm transmission line. What is the normalized load impedance z_L?",
+        "choices": [
+            "A. 1 + j1",
+            "B. 0.5 + j0.5",
+            "C. 1 - j1",
+            "D. 2 + j2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "Using the normalized load impedance z_L = 1 + j1 from the previous question, what is the magnitude of the reflection coefficient \\vertΓ\\vert on the Smith Chart?",
+        "choices": [
+            "A. 0.447",
+            "B. 0.500",
+            "C. 0.707",
+            "D. 0.316"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Using the same load z_L = 1 + j1, what is the corresponding VSWR value read from the horizontal axis of the Smith Chart?",
+        "choices": [
+            "A. 1.5",
+            "B. 2.62",
+            "C. 3.0",
+            "D. 2.0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "A transmission line of Z_0 = 50 ohms is terminated in a purely reactive load Z_L = j50 ohms. Where does this normalized impedance plot on the Smith Chart?",
+        "choices": [
+            "A. At the exact center",
+            "B. On the outermost perimeter circle (r = 0 circle)",
+            "C. On the extreme right axis",
+            "D. At the short-circuit point"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "When a normalized impedance point is located on the outermost perimeter circle of the Smith Chart (r = 0), what is the magnitude of the reflection coefficient \\vert\\gammma\\vert?",
+        "choices": [
+            "A. 0",
+            "B. 0.5",
+            "C. 1.0",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "If a transmission line is terminated in a short circuit (Z_L = 0), its normalized impedance is z_L = 0. On the Smith Chart, this point is located at:",
+        "choices": [
+            "A. The extreme right (+∞)",
+            "B. The exact center (1 + j0)",
+            "C. The extreme left (0 + j0)",
+            "D. The top-most point"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "If a transmission line is terminated in an open circuit (Z_L = ∞), its normalized impedance plots on the Smith Chart at:",
+        "choices": [
+            "A. The extreme left (0 + j0)",
+            "B. The extreme right (∞)",
+            "C. The exact center",
+            "D. The bottom point"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Moving from the load toward the generator on a Smith Chart corresponds to moving in a wavelength scale calibrated in:",
+        "choices": [
+            "A. Wavelengths Toward Generator (WTG), which increases in the clockwise direction",
+            "B. Wavelengths Toward Load (WTL), moving counter-clockwise",
+            "C. Meters per second",
+            "D. Radians per second"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "Moving from the generator back toward the load on a Smith Chart corresponds to moving in the:",
+        "choices": [
+            "A. Clockwise direction",
+            "B. Counter-clockwise direction (Wavelengths Toward Load)",
+            "C. Radially outward direction",
+            "D. Vertical direction"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "On the Smith Chart, the distance around the outer periphery representing a full wavelength (λ) corresponds to exactly:",
+        "choices": [
+            "A. 0.25 revolutions (90^\\circ)",
+            "B. 0.50 revolutions (180^\\circ)",
+            "C. 1.0 full revolution (360^\\circ)",
+            "D. 2.0 full revolutions (720^\\circ)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "A transmission line has a physical length corresponding to an electrical length of λ/8 (45^\\circ). On the Smith Chart, moving this distance toward the generator corresponds to rotating:",
+        "choices": [
+            "A. 45^\\circ (or 0.125 wavelengths) clockwise around the center",
+            "B. 90^\\circ clockwise",
+            "C. 180^\\circ clockwise",
+            "D. 360^\\circ clockwise"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "If an impedance point is located on the Smith Chart, and you rotate it by 0.25 wavelengths (90^\\circ) toward the generator along the constant VSWR circle, you arrive at a point that represents:",
+        "choices": [
+            "A. The load impedance itself",
+            "B. The exact input impedance of a quarter-wave transformed line",
+            "C. A short circuit",
+            "D. An open circuit"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "The reflection coefficient phase angle (θ_Γ) can be read directly from the outermost angular scale of the Smith Chart by drawing a straight line from:",
+        "choices": [
+            "A. The center through the plotted impedance point out to the angle scale",
+            "B. The top edge to the bottom edge",
+            "C. The short-circuit point to the open-circuit point",
+            "D. The origin to the VSWR circle intersection"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "If a transmission line has a physical length of λ/2, what is the total angular rotation required on the Smith Chart to find the input impedance?",
+        "choices": [
+            "A. 90^\\circ (0.25λ)",
+            "B. 180^\\circ (0.5λ)",
+            "C. 360^\\circ (1.0λ)",
+            "D. 720^\\circ (2.0λ)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "When using a Smith Chart to find the position of the first voltage maximum from the load, one looks for the intersection of the constant VSWR circle with:",
+        "choices": [
+            "A. The right-hand horizontal resistance axis",
+            "B. The left-hand axis",
+            "C. The outer perimeter",
+            "D. The vertical reactance axis"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "When using a Smith Chart to find the position of the first voltage minimum from the load, one looks for the intersection of the constant VSWR circle with:",
+        "choices": [
+            "A. The right-hand horizontal axis",
+            "B. The left-hand horizontal resistance axis",
+            "C. The top reactance arc",
+            "D. The center point"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "On the Smith Chart, the normalized admittance chart can be obtained directly from the normalized impedance chart by:",
+        "choices": [
+            "A. Using a completely separate chart or by rotating the impedance chart by 180^\\circ",
+            "B. Multiplying all values by 50",
+            "C. Inverting the frequency scale",
+            "D. Adding 1 to all reactances"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "In single stub matching, after converting the normalized load impedance z_L to admittance y_L, the next step is to draw the constant VSWR circle and find where it intersects the:",
+        "choices": [
+            "A. r = 1 circle",
+            "B. g = 1 circle on the admittance chart",
+            "C. Origin",
+            "D. Outer boundary"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "The distance d (in wavelengths) from the load to the stub location in single stub matching is determined on the Smith Chart by reading the difference in the WTG scale between:",
+        "choices": [
+            "A. The initial normalized admittance point y_L and the intersection point on the g = 1 circle",
+            "B. The load and the generator end",
+            "C. The short-circuit point and open-circuit point",
+            "D. Zero and infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "Once the distance d is found and the point on the g = 1 circle is identified, the required normalized susceptance b at that point must be cancelled by the stub. If the point has an admittance y = 1 + jb, the stub must provide an input susceptance of:",
+        "choices": [
+            "A. +j b",
+            "B. -j b",
+            "C. 1 + j b",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "If a short-circuited stub is used for matching, its input admittance is purely reactive and is located on the Smith Chart by starting at:",
+        "choices": [
+            "A. The extreme right (open circuit)",
+            "B. The extreme left (z = 0, short circuit point) and moving toward the generator by the required stub length l",
+            "C. The exact center",
+            "D. The top-most point"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "If an open-circuited stub is used for matching, its input admittance on the Smith Chart is found by starting at:",
+        "choices": [
+            "A. The extreme left (z = 0)",
+            "B. The extreme right (z = ∞, open circuit point) and moving toward the generator by the required length l",
+            "C. The exact center",
+            "D. The bottom point"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "A short-circuited stub is required to provide a normalized susceptance of -j1.5 (capacitive susceptance). On the Smith Chart, starting from the short-circuit point (z=0, extreme left), one moves toward the generator until hitting the susceptance contour of:",
+        "choices": [
+            "A. -1.5",
+            "B. +1.5",
+            "C. 0",
+            "D. 1.0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "The electrical length of the stub in wavelengths is read directly from the:",
+        "choices": [
+            "A. WTG scale by measuring the arc distance from the starting point to the target susceptance point",
+            "B. Center impedance value",
+            "C. Reflection coefficient magnitude",
+            "D. VSWR scale"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "Which of the following statements about the Smith Chart is strictly true?",
+        "choices": [
+            "A. The Smith Chart is a graphical mapping of the complex reflection coefficient plane onto the normalized impedance plane",
+            "B. The Smith Chart can only represent positive reactances",
+            "C. The outer boundary of the Smith Chart corresponds to a VSWR of 1.0",
+            "D. The center of the Smith Chart corresponds to a short circuit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "On a Smith Chart, constant resistance circles are:",
+        "choices": [
+            "A. Concentric circles centered at the origin",
+            "B. Non-concentric circles with centers lying on the horizontal axis and passing through the right-hand point (∞)",
+            "C. Straight vertical lines",
+            "D. Straight horizontal lines"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "On a Smith Chart, constant reactance arcs are:",
+        "choices": [
+            "A. Concentric circles centered at the origin",
+            "B. Portions of circles whose centers lie on the vertical axis outside the chart boundary",
+            "C. Straight lines passing through the center",
+            "D. Hyperbolas"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "The radius of a constant VSWR circle plotted on a Smith Chart is determined solely by:",
+        "choices": [
+            "A. The frequency of operation",
+            "B. The magnitude of the voltage reflection coefficient (\\vertΓ\\vert)",
+            "C. The physical length of the line",
+            "D. The characteristic impedance Z_0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "If a transmission line has a VSWR of 3.0, what is the corresponding radius of the constant VSWR circle on the Smith Chart, assuming the chart radius (outer perimeter) is normalized to 1.0?",
+        "choices": [
+            "A. 0.50",
+            "B. 0.333",
+            "C. 0.667",
+            "D. 0.75"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "When calculating input impedance using a Smith Chart, if the line length l given in meters must be converted to wavelengths (λ), the formula used is:",
+        "choices": [
+            "A. l / λ",
+            "B. λ / l",
+            "C. l × λ",
+            "D. l + λ"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Given an operating frequency of 300 MHz and a velocity factor of 1.0 (v = 3 × 10^8 m/s), what is the wavelength (λ) used for Smith Chart calculations?",
+        "choices": [
+            "A. 0.5 meters",
+            "B. 1.0 meter",
+            "C. 2.0 meters",
+            "D. 0.1 meter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "A transmission line of length l = 0.25 meters has an operating wavelength of λ = 1.0 meter. What is its electrical length in wavelengths for Smith Chart rotation?",
+        "choices": [
+            "A. 0.125λ",
+            "B. 0.25λ",
+            "C. 0.50λ",
+            "D. 1.0λ"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "Using the 0.25λ length from the previous question, what is the exact angular rotation in degrees on the Smith Chart?",
+        "choices": [
+            "A. 90^\\circ",
+            "B. 180^\\circ",
+            "C. 270^\\circ",
+            "D. 360^\\circ"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "If a normalized impedance point on the Smith Chart is rotated by 0.5λ (180^\\circ) toward the generator along the constant VSWR circle, the resulting impedance is:",
+        "choices": [
+            "A. Exactly equal to the original impedance",
+            "B. The complex conjugate",
+            "C. The inverse (admittance)",
+            "D. Zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "Why does a rotation of 0.5λ (180^\\circ) on the Smith Chart return the impedance to its original value?",
+        "choices": [
+            "A. Because transmission line impedance repeats every half-wavelength (λ/2)",
+            "B. Because the chart is circular",
+            "C. Because of the reflection coefficient phase",
+            "D. Because the VSWR is zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "In double stub matching, the two stubs have fixed physical positions (e.g., separated by λ/8 or λ/4), meaning that on the Smith Chart, moving between the two stubs corresponds to:",
+        "choices": [
+            "A. Rotating along a constant VSWR circle by a fixed angle corresponding to the stub separation distance",
+            "B. Moving radially inward",
+            "C. Moving straight across the center",
+            "D. Adding random reactance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "When solving a double stub matching problem on a Smith Chart, the first stub transforms the load admittance, and the second stub (located closer to the generator) is adjusted to:",
+        "choices": [
+            "A. Shift the circle to the g = 1 circle",
+            "B. Eliminate the remaining imaginary susceptance, achieving a match (y = 1 + j0)",
+            "C. Double the VSWR",
+            "D. Short circuit the line"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "If a load impedance is located inside the forbidden circle on a Smith Chart during a double stub matching procedure, it means that:",
+        "choices": [
+            "A. The load cannot be matched using that specific stub spacing because the transformed circle does not intersect the g = 1 circle",
+            "B. The frequency is too low",
+            "C. The line is lossless",
+            "D. The VSWR is infinite"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "The characteristic impedance Z_0 of the transmission line acts as the normalizing factor for Smith Charts. If Z_0 = 50 ohms and a measured load impedance is Z_L = 25 - j50 ohms, what is the normalized load impedance z_L?",
+        "choices": [
+            "A. 0.5 - j1.0",
+            "B. 1.0 - j2.0",
+            "C. 2.0 - j1.0",
+            "D. 0.5 - j0.5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "Using the normalized load impedance z_L = 0.5 - j1.0 from the previous question, where does this point plot on the Smith Chart?",
+        "choices": [
+            "A. In the upper half",
+            "B. In the lower-left quadrant (capacitive reactance, resistance r < 1)",
+            "C. At the exact center",
+            "D. On the right horizontal axis"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "If a Smith Chart user needs to find the reflection coefficient vector Γ, the angle of Γ is read off the outer circular scale by drawing a line from the chart center through the plotted impedance point to the:",
+        "choices": [
+            "A. Angle of Reflection Coefficient in Degrees scale",
+            "B. Resistance axis",
+            "C. Reactance axis",
+            "D. Center point"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "The outer circular scale of a standard Smith Chart labeled \"Angle of Reflection Coefficient in Degrees\" ranges from:",
+        "choices": [
+            "A. 0^\\circ to 90^\\circ",
+            "B. -180^\\circ to +180^\\circ (or 0^\\circ to 360^\\circ)",
+            "C. 0^\\circ to 180^\\circ",
+            "D. -90^\\circ to +90^\\circ"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "When evaluating a transmission line with losses using a Smith Chart, how is attenuation accounted for graphically?",
+        "choices": [
+            "A. Attenuation cannot be shown on a Smith Chart",
+            "B. By spiraling inward toward the center of the chart as you move toward the generator, reflecting the decrease in reflection coefficient magnitude due to line loss",
+            "C. By moving outward",
+            "D. By changing the characteristic impedance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "In a lossless transmission line, the trajectory on the Smith Chart when moving from the load toward the generator traces a:",
+        "choices": [
+            "A. Straight line",
+            "B. Perfect circle centered at the origin (constant VSWR circle)",
+            "C. Spiral",
+            "D. Parabola"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "If the normalized load impedance is z_L = 1.0 (purely resistive and equal to Z_0), where does the plotted point sit on the Smith Chart?",
+        "choices": [
+            "A. At the extreme left",
+            "B. At the exact center origin",
+            "C. At the extreme right",
+            "D. On the outer perimeter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "When plotting a normalized admittance y = g + jb on an admittance Smith Chart, if g > 1, the point lies:",
+        "choices": [
+            "A. To the right of the center (g = 1 circle)",
+            "B. To the left of the center",
+            "C. Exactly on the center",
+            "D. Outside the chart"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "When g < 1 on an admittance Smith Chart, the point lies:",
+        "choices": [
+            "A. Inside the g = 1 circle (to the left of the center)",
+            "B. To the right of the center",
+            "C. On the outer boundary",
+            "D. At the short-circuit point"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "If a short-circuited stub has a length of λ/4 (90^\\circ), what is its input impedance on the Smith Chart?",
+        "choices": [
+            "A. Zero (short circuit)",
+            "B. Infinite (open circuit)",
+            "C. Equal to Z_0",
+            "D. Purely inductive"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "If an open-circuited stub has a length of λ/4 (90^\\circ), what is its input impedance on the Smith Chart?",
+        "choices": [
+            "A. Infinite (open circuit)",
+            "B. Zero (short circuit)",
+            "C. Equal to Z_0",
+            "D. Capacitive"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "A transmission line is terminated in a load that results in a VSWR of 2.0. On the Smith Chart, the intersection of the constant VSWR circle with the right-hand horizontal resistance axis gives a value of:",
+        "choices": [
+            "A. 0.5",
+            "B. 2.0",
+            "C. 1.0",
+            "D. 3.0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "The intersection of the constant VSWR circle with the left-hand horizontal resistance axis on the Smith Chart gives a value equal to:",
+        "choices": [
+            "A. VSWR",
+            "B. 1 / \\textVSWR",
+            "C. \\textVSWR - 1",
+            "D. \\textVSWR^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "If the VSWR on a line is 3.0, the value read at the left-hand intersection of the constant VSWR circle with the horizontal axis on the Smith Chart is:",
+        "choices": [
+            "A. 3.0",
+            "B. 1.0",
+            "C. 0.333",
+            "D. 0.5"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "In single stub matching, if two possible stub locations (d_1 and d_2) exist within the first half-wavelength from the load, they correspond to the two points where the constant VSWR circle intersects the:",
+        "choices": [
+            "A. g = 1 circle on the admittance chart",
+            "B. r = 1 circle on the impedance chart",
+            "C. Outer perimeter",
+            "D. Horizontal axis"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "The distance between the two possible stub positions (d_1 and d_2) in single stub matching is always equal to:",
+        "choices": [
+            "A. λ / 4",
+            "B. λ / 2",
+            "C. Exactly half the distance determined by the reactive components",
+            "D. λ / 8"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "A normalized impedance z_L = 2 + j2 is plotted on a Smith Chart. To find its corresponding admittance y_L, one reflects the point through the origin by an angle of:",
+        "choices": [
+            "A. 90^\\circ",
+            "B. 180^\\circ",
+            "C. 360^\\circ",
+            "D. 45^\\circ"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "After reflecting z_L = 2 + j2 by 180^\\circ to find the admittance, the resulting normalized admittance y_L is approximately:",
+        "choices": [
+            "A. 0.25 - j0.25",
+            "B. 0.5 + j0.5",
+            "C. 2 - j2",
+            "D. 1 + j1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "Which of the scales on the perimeter of a Smith Chart is used to determine the exact physical or electrical distance in fractions of a wavelength from the load?",
+        "choices": [
+            "A. Transmission Loss (dB) scale",
+            "B. Wavelengths Toward Generator / Load (WTG/WTL) scale",
+            "C. Reflection Coefficient scale",
+            "D. VSWR scale"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "If a Smith Chart reading on the WTG scale at the load position is 0.10λ, and the target matching point is at 0.32λ on the WTG scale, what is the required electrical distance d to move toward the generator?",
+        "choices": [
+            "A. 0.22λ",
+            "B. 0.42λ",
+            "C. 0.10λ",
+            "D. 0.32λ"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "If the calculation of distance toward the generator yields a negative value or exceeds 0.5λ when moving past zero, how is it adjusted on the Smith Chart?",
+        "choices": [
+            "A. Add or subtract 0.5λ (since the Smith Chart wavelength scale repeats every half-wavelength, 0.5λ)",
+            "B. Multiply by 2",
+            "C. Discard the result",
+            "D. Convert to degrees directly"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "When utilizing a Smith Chart, why are admittance values heavily preferred over impedance values when calculating parallel (shunt) stub matching?",
+        "choices": [
+            "A. Because parallel admittances simply add directly (Y_total = Y_1 + Y_2), making shunt stub calculations straightforward",
+            "B. Because impedances add directly in parallel",
+            "C. Because admittances have no imaginary parts",
+            "D. Because the chart is smaller for admittances"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 96,
+        "question": "If two loads are connected in parallel across a transmission line, their total normalized admittance is found on the Smith Chart by:",
+        "choices": [
+            "A. Converting each individual load impedance to normalized admittance and summing their complex admittance values",
+            "B. Multiplying their impedances",
+            "C. Adding their impedances directly",
+            "D. Averaging their VSWR values"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "In a Smith Chart, the point 1 + j0 represents a matched condition where the reflection coefficient Γ is:",
+        "choices": [
+            "A. 1.0 ∠ 0^\\circ",
+            "B. 0.0 (zero magnitude)",
+            "C. -1.0",
+            "D. ∞"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "What is the graphical equivalent on a Smith Chart of adding a pure series reactance +jX to a load impedance z_L?",
+        "choices": [
+            "A. Moving along a constant resistance circle upward (in the inductive direction) by an amount proportional to X",
+            "B. Moving along a constant VSWR circle",
+            "C. Moving across the center by 180^\\circ",
+            "D. Moving along the outer boundary"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "What is the graphical equivalent on a Smith Chart of adding a pure series reactance -jX (capacitive reactance) to a load impedance z_L?",
+        "choices": [
+            "A. Moving along a constant resistance circle downward (in the capacitive direction)",
+            "B. Moving clockwise around the VSWR circle",
+            "C. Moving to the admittance chart",
+            "D. Moving to the origin"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 100,
+        "question": "What is the graphical equivalent on a Smith Chart of adding a pure shunt susceptance +jb to a normalized admittance y_L?",
+        "choices": [
+            "A. Moving along a constant conductance (g) circle upward",
+            "B. Moving along a constant VSWR circle",
+            "C. Moving diametrically across the center",
+            "D. Moving to the left"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 101,
+        "question": "What is the graphical equivalent on a Smith Chart of adding a pure shunt susceptance -jb to a normalized admittance y_L?",
+        "choices": [
+            "A. Moving along a constant conductance (g) circle downward",
+            "B. Moving clockwise to the load",
+            "C. Moving counter-clockwise",
+            "D. Moving to the outer edge"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 102,
+        "question": "A transmission line has a characteristic impedance of 50 ohms. On the Smith Chart, a normalized impedance of z = 0.5 - j1.2 corresponds to an actual unnormalized impedance of:",
+        "choices": [
+            "A. 25 - j60 ohms",
+            "B. 50 - j50 ohms",
+            "C. 100 - j240 ohms",
+            "D. 25 - j12 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 103,
+        "question": "If the actual unnormalized load impedance is Z_L = 100 + j150 ohms on a 50-ohm line, what is the normalized impedance z_L?",
+        "choices": [
+            "A. 1.0 + j1.5",
+            "B. 2.0 + j3.0",
+            "C. 0.5 + j0.75",
+            "D. 5.0 + j7.5"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 104,
+        "question": "Using the normalized impedance z_L = 2.0 + j3.0 from the previous question, what is the corresponding normalized admittance y_L?",
+        "choices": [
+            "A. 0.15 - j0.23",
+            "B. 2.0 - j3.0",
+            "C. 0.5 - j0.75",
+            "D. 1.0 + j1.0"
+        ],
+        "correct_answer": "A"
+    }
+]

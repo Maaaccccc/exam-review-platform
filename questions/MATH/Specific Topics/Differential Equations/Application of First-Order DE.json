@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "Which of the following is the necessary and sufficient condition for the differential equation M(x,y)dx + N(x,y)dy = 0 to be exact?",
+        "choices": [
+            "A. ∂ M / ∂ y = ∂ N / ∂ x",
+            "B. ∂ M / ∂ x = ∂ N / ∂ y",
+            "C. ∂ M / ∂ y = -∂ N / ∂ x",
+            "D. ∂ M / ∂ x = -∂ N / ∂ y"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "What is the standard integrating factor for the first-order linear differential equation dy/dx + P(x)y = Q(x)?",
+        "choices": [
+            "A. e^∫ Q(x) dx",
+            "B. e^∫ P(x) dx",
+            "C. ∫ P(x) dx",
+            "D. e^-∫ P(x) dx"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "To transform the Bernoulli differential equation dy/dx + P(x)y = Q(x)y^n into a linear equation, which substitution is used?",
+        "choices": [
+            "A. z = y^n",
+            "B. z = y^n-1",
+            "C. z = y^1-n",
+            "D. z = y"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "Solve the variable separable differential equation dy/dx = 2x/y.",
+        "choices": [
+            "A. y^2 = x^2 + C",
+            "B. x^2 + y^2 = C",
+            "C. y = x^2 + C",
+            "D. y^2 = 2x^2 + C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "A function f(x,y) is said to be homogeneous of degree n if for any real number t, f(tx,ty) is equal to:",
+        "choices": [
+            "A. t^n f(x,y)",
+            "B. t f(x,y)",
+            "C. f(x,y) / t^n",
+            "D. f(x,y)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "If y_1 is a known particular solution to the Riccati equation y' = P(x) + Q(x)y + R(x)y^2, what substitution is used to reduce it to a linear equation?",
+        "choices": [
+            "A. y = y_1 · u",
+            "B. y = y_1 + 1/u",
+            "C. y = 1 / (y_1 + u)",
+            "D. y = y_1 + u"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "Find the general solution to the differential equation x(dy/dx) + y = 3x^2.",
+        "choices": [
+            "A. y = x^3 + C/x",
+            "B. y = x^2 + C",
+            "C. y = x^2 + C/x",
+            "D. y = 3x^2 + C/x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "Solve the homogeneous differential equation (x^2 + y^2)dx - xy dy = 0.",
+        "choices": [
+            "A. y^2 = 2x^2 ln(x) + C",
+            "B. y^2 = x^2 ln(x) + Cx^2",
+            "C. y^2 = 2x^2 + Cx",
+            "D. y^2 = 2x^2 ln"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 9,
+        "question": "Solve the exact differential equation (2xy + 3)dx + (x^2 - 1)dy = 0.",
+        "choices": [
+            "A. x^2y + 3x - y = C",
+            "B. x^2y - 3x + y = C",
+            "C. 2x^2y + 3x - y = C",
+            "D. xy^2 + 3x - y = C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "If the substitution z = y^1-n is applied to the Bernoulli equation y' + P(x)y = Q(x)y^n, the resulting linear differential equation in z is:",
+        "choices": [
+            "A. z' + P(x)z = Q(x)",
+            "B. z' + (1-n)P(x)z = (1-n)Q(x)",
+            "C. z' - (1-n)P(x)z = (1-n)Q(x)",
+            "D. z' + (n-1)P(x)z = (n-1)Q(x)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "The basic differential equation for unrestricted population growth, where population P grows at a rate proportional to its current size, is:",
+        "choices": [
+            "A. dP/dt = k/P",
+            "B. dP/dt = P/k",
+            "C. dP/dt = kP",
+            "D. dP/dt = kP^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "In the exponential growth model dy/dt = ky, what does the constant k represent?",
+        "choices": [
+            "A. The initial population",
+            "B. The half-life of the substance",
+            "C. The total time elapsed",
+            "D. The relative (or specific) growth rate"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "If a radioactive substance has a decay constant k (where k > 0 in the equation dy/dt = -ky), its half-life T is given by:",
+        "choices": [
+            "A. T = ln(2) / k",
+            "B. T = k / ln(2)",
+            "C. T = e^-k",
+            "D. T = 2 / k"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "A population of bacteria doubles every 4 hours. If the initial population is 1000, what is the continuous growth rate k per hour?",
+        "choices": [
+            "A. ln(2)",
+            "B. ln(2) / 4",
+            "C. 4 ln(2)",
+            "D. ln(4) / 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "A radioactive isotope decays to 1/8 of its original amount in 30 days. What is its half-life?",
+        "choices": [
+            "A. 15 days",
+            "B. 8 days",
+            "C. 10 days",
+            "D. 5 days"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "Carbon-14 has a half-life of approximately 5730 years. If a fossil contains 25% of its original Carbon-14, how old is the fossil?",
+        "choices": [
+            "A. 5730 years",
+            "B. 22920 years",
+            "C. 17190 years",
+            "D. 11460 years"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "A population triples in 15 years. How long will it take for the population to become 9 times its original size?",
+        "choices": [
+            "A. 30 years",
+            "B. 45 years",
+            "C. 25 years",
+            "D. 60 years"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "Radium decays at a rate proportional to the amount present. If 10% of a given amount disappears in 100 years, what percentage of the original amount will remain after 200 years?",
+        "choices": [
+            "A. 80%",
+            "B. 81%",
+            "C. 79%",
+            "D. 90%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "The general solution to the radioactive decay equation dx/dt = -kx (where k is a positive constant) is:",
+        "choices": [
+            "A. x(t) = C e^kt",
+            "B. x(t) = C k^t",
+            "C. x(t) = C e^-kt",
+            "D. x(t) = C t^-k"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "If a population P grows according to the logistic equation dP/dt = 0.05P(1 - P/1000), what is the carrying capacity of the environment?",
+        "choices": [
+            "A. 0.05",
+            "B. 50",
+            "C. 100",
+            "D. 1000"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "A certain radioactive substance has a half-life of 38 hours. How long will it take for 90% of the substance to decay?",
+        "choices": [
+            "A. 126.2 hours",
+            "B. 115.4 hours",
+            "C. 134.5 hours",
+            "D. 142.1 hours"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "A bacterial culture grows exponentially. The count was 400 after 2 hours and 1600 after 6 hours. What was the initial population at t = 0?",
+        "choices": [
+            "A. 100",
+            "B. 200",
+            "C. 50",
+            "D. 300"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "Substance A has a half-life of 2 days, while Substance B has a half-life of 4 days. If you start with equal amounts of both, after how many days will the amount of A be exactly 1/4 the amount of B?",
+        "choices": [
+            "A. 4 days",
+            "B. 6 days",
+            "C. 8 days",
+            "D. 12 days"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "If a population grows continuously and increases by 50% in 5 years, what is the approximate continuous growth rate k per year?",
+        "choices": [
+            "A. 5.4%",
+            "B. 12.5%",
+            "C. 10.0%",
+            "D. 8.1%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "An isotope decays to 1/e of its original mass in 10 days. What is the decay constant k in days^-1?",
+        "choices": [
+            "A. 0.10",
+            "B. 10",
+            "C. 2.718",
+            "D. 0.693"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "After 3 half-lives have passed, what fraction of the original radioactive sample remains?",
+        "choices": [
+            "A. 1/6",
+            "B. 1/8",
+            "C. 1/9",
+            "D. 1/4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "A city's population grew from 100,000 to 150,000 in 10 years. Assuming exponential growth, what will be the population in another 10 years?",
+        "choices": [
+            "A. 200,000",
+            "B. 210,000",
+            "C. 225,000",
+            "D. 250,000"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Which of the following differential equations models a population that decreases when it falls below a minimum threshold M, and increases above it?",
+        "choices": [
+            "A. dP/dt = k(M-P)",
+            "B. dP/dt = -kP(P-M)",
+            "C. dP/dt = kP(M-P)",
+            "D. dP/dt = kP(P-M)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "If money is invested at an interest rate r compounded continuously, the time required for the investment to double is:",
+        "choices": [
+            "A. ln(2) / r",
+            "B. r / ln(2)",
+            "C. 2 / r",
+            "D. e^r / 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "If a principal of 1,000 is compounded continuously at 5% per year, what is the amount after 10 years?",
+        "choices": [
+            "A. 1,500.00",
+            "B. 1,648.72",
+            "C. 1,628.89",
+            "D. 1,550.25"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Newton's Law of Cooling states that the rate of change of temperature T of an object is proportional to the difference between T and the surrounding temperature Tm. The differential equation is:",
+        "choices": [
+            "A. dT/dt = k(T + Tm)",
+            "B. dT/dt = -k(Tm - T)",
+            "C. dT/dt = -k(T - Tm)",
+            "D. dT/dt = k/T - Tm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "The general solution to Newton's Law of Cooling, dT/dt = -k(T - Tm), where Tm is constant, is:",
+        "choices": [
+            "A. T(t) = Tm + e^-kt",
+            "B. T(t) = (T_0 - Tm)e^-kt",
+            "C. T(t) = T_0 e^-kt + Tm",
+            "D. T(t) = Tm + C e^-kt"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "A cake is removed from a 300F oven and placed in a 70F room. If its temperature drops to 200F in 10 minutes, what is the temperature after 20 minutes?",
+        "choices": [
+            "A. 143.5F",
+            "B. 150F",
+            "C. 135F",
+            "D. 120.5F"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "A cold thermometer reading 10C is brought into a room kept at 30C. After 5 minutes, it reads 20C. What will it read after 10 minutes?",
+        "choices": [
+            "A. 22.5C",
+            "B. 25C",
+            "C. 27C",
+            "D. 28.5C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "An object cools from 100C to 80C in 10 mins in a room at 20C. Find the cooling constant k (in min^-1).",
+        "choices": [
+            "A. 0.051",
+            "B. 0.045",
+            "C. 0.029",
+            "D. 0.035"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "A body at 90C is placed in a room at 30C. It cools to 70C in 15 minutes. How many more minutes will it take to cool to 50C?",
+        "choices": [
+            "A. 15.0 mins",
+            "B. 30.0 mins",
+            "C. 20.0 mins",
+            "D. 25.6 mins"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "A cup of coffee cools from 90C to 80C in 5 minutes, and from 80C to 72.5C in the next 5 minutes. What is the ambient room temperature Tm?",
+        "choices": [
+            "A. 50C",
+            "B. 60C",
+            "C. 20C",
+            "D. 70C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "If the temperature difference between an object and its surroundings is halved every 10 minutes, how long does it take for the difference to reduce to 1/16 of its initial value?",
+        "choices": [
+            "A. 20 minutes",
+            "B. 40 minutes",
+            "C. 50 minutes",
+            "D. 80 minutes"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "A murder victim is discovered at 12:00 PM and the core temperature is 85F. At 1:00 PM, the temperature is 80F. The room is at 70F. Assuming a normal body temperature of 98.6F, at approximately what time did the murder occur? (Select closest time)",
+        "choices": [
+            "A. 10:15 AM",
+            "B. 9:30 AM",
+            "C. 10:25 AM",
+            "D. 11:15 AM"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "If the ambient temperature Tm is not constant but varies with time as Tm(t) = 20 + 2t, the differential equation dT/dt = -k(T - Tm) becomes a:",
+        "choices": [
+            "A. Non-linear DE",
+            "B. Separable DE",
+            "C. Exact DE",
+            "D. Linear first-order DE"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "An object's temperature is modeled by T(t) = 25 + 50 e^-0.2t. What is the ambient medium's temperature?",
+        "choices": [
+            "A. 25",
+            "B. 75",
+            "C. 50",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "In Newton's Law of Cooling T(t) = Tm + (T0 - Tm)e^-t/τ, what is the parameter τ called?",
+        "choices": [
+            "A. Half-life",
+            "B. Time constant",
+            "C. Decay constant",
+            "D. Cooling coefficient"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "After 20 minutes, a hot cup of tea is at 60C, and after 40 minutes, it is at 40C. The room temperature is 20C. What was the initial temperature of the tea?",
+        "choices": [
+            "A. 80C",
+            "B. 120C",
+            "C. 100C",
+            "D. 90C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "As t approaches infinity, what does the temperature of the object T(t) approach according to Newton's Law of Cooling?",
+        "choices": [
+            "A. Absolute zero",
+            "B. The initial temperature T0",
+            "C. Zero degrees",
+            "D. The ambient temperature Tm"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "A graph of ln(T - Tm) versus time t yields a:",
+        "choices": [
+            "A. Straight line with negative slope",
+            "B. Parabola",
+            "C. Straight line with positive slope",
+            "D. Exponential curve"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "In a standard mixing problem, the rate of change of the amount of substance in the tank, dx/dt, is equal to:",
+        "choices": [
+            "A. Rate Out - Rate In",
+            "B. Rate In - Rate Out",
+            "C. Volume In - Volume Out",
+            "D. Concentration In - Concentration Out"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "The \"Rate In\" of the solute in a mixing problem is calculated by multiplying the flow rate of the incoming fluid by the:",
+        "choices": [
+            "A. Tank volume",
+            "B. Outflow rate",
+            "C. Concentration of the incoming fluid",
+            "D. Concentration of the fluid in the tank"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "A tank initially contains 100 gallons of pure water. Brine with 2 lb/gal of salt flows in at 3 gal/min, and the well-stirred mixture flows out at 3 gal/min. What is the differential equation for the amount of salt x(t)?",
+        "choices": [
+            "A. dx/dt = 6 - (3/x)",
+            "B. dx/dt = 2 - (3x/100)",
+            "C. dx/dt = 6 - 3x",
+            "D. dx/dt = 6 - (3x/100)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "Using the equation dx/dt = 6 - 0.03x with x(0)=0, the amount of salt x(t) approaches what steady-state value as t approaches infinity?",
+        "choices": [
+            "A. 200 lbs",
+            "B. 100 lbs",
+            "C. 300 lbs",
+            "D. 600 lbs"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "If brine enters a tank at 5 L/min and the mixture leaves at 3 L/min, and the initial volume is 200 L, the volume of fluid in the tank at any time t is:",
+        "choices": [
+            "A. V(t) = 200 - 2t",
+            "B. V(t) = 200 + 2t",
+            "C. V(t) = 200 + 5t",
+            "D. V(t) = 200 + 8t"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "A 100-gal tank initially contains 50 gal of pure water. Brine with 1 lb/gal salt enters at 2 gal/min. The mixture leaves at 1 gal/min. What is the amount of salt when the tank is full?",
+        "choices": [
+            "A. 50 lbs",
+            "B. 100 lbs",
+            "C. 75 lbs",
+            "D. 25 lbs"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "A 500 L tank is full of brine with 50 kg of salt. Pure water enters at 10 L/min and the mixture leaves at 10 L/min. Find the time required for the salt to reduce to 25 kg.",
+        "choices": [
+            "A. 25.5 mins",
+            "B. 40.2 mins",
+            "C. 50.0 mins",
+            "D. 34.7 mins"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "In a tank with constant volume V, constant inflow/outflow rate r, and inflow concentration C_in, if the tank initially contains pure water, the concentration C(t) in the tank is:",
+        "choices": [
+            "A. C_in (1 - e^-(r/V)t)",
+            "B. C_in e^-(r/V)t",
+            "C. (C_in / V) e^-rt",
+            "D. C_in (1 + e^-(r/V)t)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "In a constant volume mixing problem, the integrating factor e^∫ (r/V) dt evaluates to:",
+        "choices": [
+            "A. 0",
+            "B. e^(r/V)t",
+            "C. V e^rt",
+            "D. ln(V)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Tank A (100 gal) drains into Tank B (100 gal) at 5 gal/min. Tank A starts with 50 lbs salt, B with pure water. Pure water enters A at 5 gal/min. The differential equation for salt in B, y(t), is:",
+        "choices": [
+            "A. dy/dt = 50e^-0.05t - 0.05y",
+            "B. dy/dt = 2.5e^0.05t - 0.05y",
+            "C. dy/dt = 2.5e^-0.05t - 0.05y",
+            "D. dy/dt = 0.05x - 5y"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "A tank contains 200 liters of fluid. Fluid flows in at 4 L/min and flows out at 6 L/min. When will the tank be completely empty?",
+        "choices": [
+            "A. 50 mins",
+            "B. 200 mins",
+            "C. 80 mins",
+            "D. 100 mins"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "A family of curves that intersects another family of curves at right angles everywhere is called the:",
+        "choices": [
+            "A. Orthogonal trajectories",
+            "B. Tangential paths",
+            "C. Isoclines",
+            "D. Parallel trajectories"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "If the differential equation of a family of curves is dy/dx = f(x,y), then the differential equation of its orthogonal trajectories is:",
+        "choices": [
+            "A. dy/dx = f(x,y)",
+            "B. dy/dx = -1 / f(x,y)",
+            "C. dy/dx = 1 / f(x,y)",
+            "D. dy/dx = -f(x,y)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "The orthogonal trajectories of the family of circles x^2 + y^2 = c^2 are:",
+        "choices": [
+            "A. Parabolas",
+            "B. Ellipses",
+            "C. Straight lines through the origin",
+            "D. Hyperbolas"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "The orthogonal trajectories of the family of straight lines y = kx are:",
+        "choices": [
+            "A. Parabolas",
+            "B. Parallel lines",
+            "C. Hyperbolas",
+            "D. Circles centered at the origin"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "Find the orthogonal trajectories of the family of parabolas y = c x^2.",
+        "choices": [
+            "A. x^2 / 2 + y^2 = k",
+            "B. x^2 - y^2 / 2 = k",
+            "C. 2x^2 + y^2 = k",
+            "D. x^2 + 2y^2 = k"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "In polar coordinates, if the differential equation of a family is dr/dθ = f(r,θ), the DE of its orthogonal trajectories is:",
+        "choices": [
+            "A. dr/dθ = -1 / f(r,θ)",
+            "B. dr/dθ = -r^2 / f(r,θ)",
+            "C. dr/dθ = r / f(r,θ)",
+            "D. dr/dθ = -1 / (r^2 f(r,θ))"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "The orthogonal trajectories of the family of rectangular hyperbolas xy = c is the family:",
+        "choices": [
+            "A. xy = k",
+            "B. y = kx",
+            "C. x^2 - y^2 = k",
+            "D. x^2 + y^2 = k"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "Find the orthogonal trajectories of the family y = c e^x.",
+        "choices": [
+            "A. y = -x + k",
+            "B. x^2 + y^2 = k",
+            "C. y^2 = 2x + k",
+            "D. x + y^2/2 = k"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "The orthogonal trajectories of the family of circles tangent to the y-axis at the origin (x^2 + y^2 = cx) are:",
+        "choices": [
+            "A. Circles tangent to the x-axis at the origin",
+            "B. Straight lines through the origin",
+            "C. Parabolas opening right",
+            "D. Concentric circles"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "A family of curves is called \"self-orthogonal\" if its orthogonal trajectories are:",
+        "choices": [
+            "A. Straight lines",
+            "B. The exact same family of curves",
+            "C. Circles",
+            "D. Point masses"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "In a series RL circuit connected to a voltage source E(t), Kirchhoff's Voltage Law gives the differential equation:",
+        "choices": [
+            "A. R(di/dt) + L i = E(t)",
+            "B. L(di/dt) + (1/R) i = E(t)",
+            "C. L(di/dt) + R i = E(t)",
+            "D. R i + (1/L) ∫ i dt = E(t)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "The time constant τ for a series RL circuit is given by:",
+        "choices": [
+            "A. τ = R/L",
+            "B. τ = RL",
+            "C. τ = 1/(RL)",
+            "D. τ = L/R"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "In the context of an RL circuit, the time constant represents the time required for the current to reach approximately what percentage of its steady-state value (starting from 0)?",
+        "choices": [
+            "A. 63.2%",
+            "B. 50%",
+            "C. 70.7%",
+            "D. 36.8%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "For a series RL circuit with a constant DC voltage source E, the steady-state current as t approaches infinity is:",
+        "choices": [
+            "A. E / L",
+            "B. E / R",
+            "C. R / E",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "A series RL circuit has a constant voltage E applied at t=0 with zero initial current. The current i(t) is given by:",
+        "choices": [
+            "A. (E/R) e^-Rt/L",
+            "B. (E/L)(1 - e^-Rt/L)",
+            "C. (E/R)(1 - e^-Rt/L)",
+            "D. (R/E)(1 - e^-Lt/R)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "An RL circuit has an inductor of 2 H, a resistor of 10 ohms, and a 20 V battery. If i(0) = 0, find the current at t = 0.2 s. (Note: eI¹ ≈ 0.368)",
+        "choices": [
+            "A. 0.82 A",
+            "B. 1.05 A",
+            "C. 2.00 A",
+            "D. 1.26 A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "If an established DC current of I_0 in an RL circuit is suddenly disconnected from the source and shorted, the current decays according to:",
+        "choices": [
+            "A. i(t) = I_0 e^-(R/L)t",
+            "B. i(t) = I_0 (1 - e^-(R/L)t)",
+            "C. i(t) = I_0 e^-(L/R)t",
+            "D. i(t) = I_0 e^-Rt"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "In a series RC circuit, Kirchhoff's Voltage Law gives the differential equation for the charge q on the capacitor as:",
+        "choices": [
+            "A. C(dq/dt) + R q = E(t)",
+            "B. R(dq/dt) + (1/C) q = E(t)",
+            "C. R(dq/dt) + C q = E(t)",
+            "D. L(dq/dt) + R q = E(t)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "The time constant τ for a series RC circuit is:",
+        "choices": [
+            "A. R/C",
+            "B. C/R",
+            "C. RC",
+            "D. 1/(RC)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "In a capacitor circuit, the current i(t) relates to the charge q(t) on the capacitor by the equation:",
+        "choices": [
+            "A. i(t) = ∫ q(t) dt",
+            "B. i(t) = q(t) / t",
+            "C. i(t) = d^2q/dt^2",
+            "D. i(t) = dq/dt"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "A constant DC voltage E is applied to a series RC circuit. Assuming zero initial charge, the steady-state charge on the capacitor is:",
+        "choices": [
+            "A. CE",
+            "B. E/C",
+            "C. C/E",
+            "D. E/(RC)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "When a DC voltage E is applied to a completely uncharged RC circuit, the current i(t) flowing in the circuit is:",
+        "choices": [
+            "A. (E/R)(1 - e^-t/RC)",
+            "B. (E/R) e^-t/RC",
+            "C. (E/C) e^-t/RC",
+            "D. (C/R) e^-t/RC"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "A 10-ohm resistor and a 0.02 F capacitor are connected in series to a 50 V battery. If the capacitor is initially uncharged, find the charge q(t) after 0.2 seconds. (Note: eI¹ ≈ 0.368)",
+        "choices": [
+            "A. 0.85 C",
+            "B. 1.0 C",
+            "C. 0.63 C",
+            "D. 0.37 C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "An RL circuit is connected to an AC source E(t) = E_m sin(ω t). The steady-state current will be a sinusoidal wave that:",
+        "choices": [
+            "A. Leads the voltage",
+            "B. Is in phase with the voltage",
+            "C. Is a square wave",
+            "D. Lags the voltage"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "A 100 L tank initially contains 10 kg of salt dissolved in it. Water containing 0.2 kg/L of salt enters at 5 L/min. The mixture drains at 5 L/min. What is the salt amount at t = 20 mins? (Note: eI¹ ≈ 0.368)",
+        "choices": [
+            "A. 16.32 kg",
+            "B. 20.0 kg",
+            "C. 17.36 kg",
+            "D. 26.32 kg"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "According to Newton's Law of Cooling, as the temperature of an object approaches the ambient temperature, the rate of temperature change:",
+        "choices": [
+            "A. Becomes constant",
+            "B. Approaches zero",
+            "C. Increases exponentially",
+            "D. Oscillates"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "If money is invested at an annual interest rate r compounded continuously, the differential equation governing the amount A(t) is:",
+        "choices": [
+            "A. dA/dt = A/r",
+            "B. dA/dt = A + r",
+            "C. dA/dt = r A",
+            "D. dA/dt = r / A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "If 5,000 is invested at 8% annual interest compounded continuously, what is the value after 10 years? (Note: e^0.8 ≈ 2.2255)",
+        "choices": [
+            "A. 9,000.00",
+            "B. 10,800.50",
+            "C. 12,450.00",
+            "D. 11,127.50"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "An account earns 5% interest compounded continuously. If a person withdraws 1000 per year continuously, the differential equation for the balance A(t) is:",
+        "choices": [
+            "A. dA/dt = 0.05A - 1000",
+            "B. dA/dt = 0.05(A - 1000)",
+            "C. dA/dt = 1000 - 0.05A",
+            "D. dA/dt = A(0.05 - 1000)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "What continuous interest rate r is required to double an investment in exactly 14 years? (Note: ln(2) ≈ 0.693)",
+        "choices": [
+            "A. 3.50%",
+            "B. 4.95%",
+            "C. 5.50%",
+            "D. 6.00%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "The effective annual yield (APY) for a nominal interest rate r compounded continuously is given by:",
+        "choices": [
+            "A. r",
+            "B. e^r",
+            "C. e^r - 1",
+            "D. 1 - e^-r"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "An object of mass m falls from rest under gravity, with air resistance proportional to its velocity (F_d = -kv). The differential equation is m(dv/dt) = mg - kv. The terminal velocity is:",
+        "choices": [
+            "A. m/k",
+            "B. mg",
+            "C. k/mg",
+            "D. mg/k"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "Using the equation m(dv/dt) = mg - kv, if m = 10 kg, g = 9.8 m/s^2, and k = 2 kg/s, find the velocity as t approaches infinity.",
+        "choices": [
+            "A. 49 m/s",
+            "B. 98 m/s",
+            "C. 20 m/s",
+            "D. 5 m/s"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "A completely charged capacitor C in series with a resistor R is discharged when a switch is thrown. The voltage across the capacitor V_c(t) follows:",
+        "choices": [
+            "A. V_0 (1 - e^-t/RC)",
+            "B. V_0 e^-t/RC",
+            "C. V_0 e^-Rt/C",
+            "D. V_0 (1 - e^-Rt/C)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "A tank initially contains 100 liters of pure water. A radioactive liquid with concentration 2 g/L and decay constant 0.1/min is pumped in at 3 L/min, and pumped out at 3 L/min. This problem requires modeling with:",
+        "choices": [
+            "A. A simple separable equation",
+            "B. An exact equation",
+            "C. A linear first-order equation with an extra decay term",
+            "D. A Bernoulli equation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Torricelli's Law states that the rate of change of volume of water draining from a tank is proportional to the square root of the depth h. The differential equation for depth h is:",
+        "choices": [
+            "A. dh/dt = -k h",
+            "B. dh/dt = -k h^2",
+            "C. dh/dt = -k / √( h )",
+            "D. dh/dt = -k √( h )"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "A cylindrical tank of radius 2m drains through a hole. By Torricelli's Law, dh/dt = -0.5 √( h ). If the initial height is 16m, when will the tank be empty?",
+        "choices": [
+            "A. 16 units",
+            "B. 32 units",
+            "C. 8 units",
+            "D. 64 units"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "If the half-life of a radioactive material is T, the fraction remaining after 2T is:",
+        "choices": [
+            "A. 1/2",
+            "B. 1/4",
+            "C. 1/8",
+            "D. 1/e"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "Coffee A and Coffee B are identical. A is placed in a 20C room, B in a 10C room. They start at 100C. After 10 mins, A is at 60C. What is B's temperature after 10 mins?",
+        "choices": [
+            "A. 50.0C",
+            "B. 60.0C",
+            "C. 55.0C",
+            "D. 45.0C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "A tank has 100 L of brine at 0.5 kg/L. Brine at 0.5 kg/L enters at 2 L/min and leaves at 2 L/min. The amount of salt in the tank after 50 minutes is:",
+        "choices": [
+            "A. 25 kg",
+            "B. 100 kg",
+            "C. 75 kg",
+            "D. 50 kg"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "The orthogonal trajectories of the family x^2/a^2 - y^2/b^2 = c are described by a differential equation. If a=b (rectangular hyperbolas x^2 - y^2 = c), the OT is:",
+        "choices": [
+            "A. xy = k",
+            "B. x^2 + y^2 = k",
+            "C. y = kx",
+            "D. y^2 - x^2 = k"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "In the logistic population growth model dP/dt = kP(1 - P/M), at what population size does the growth rate reach its maximum?",
+        "choices": [
+            "A. P = M",
+            "B. P = M/2",
+            "C. P = M/4",
+            "D. P = 2M"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "Using Newton's law of universal gravitation, the differential equation for an object projected straight upward is v(dv/dy) = -g R^2 / (R+y)^2. This is an example of a:",
+        "choices": [
+            "A. Linear equation",
+            "B. Bernoulli equation",
+            "C. Separable equation",
+            "D. Exact equation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "Tank A has 100 gallons of pure water. Brine (1 lb/gal) enters at 2 gal/min, leaves at 2 gal/min. At t=50 min, what is the ratio of salt in the tank to its theoretical maximum? (Note: eI¹ ≈ 0.368)",
+        "choices": [
+            "A. 0.865",
+            "B. 0.368",
+            "C. 0.500",
+            "D. 0.632"
+        ],
+        "correct_answer": "D"
+    }
+]

@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "Three identical amplifier stages, each with a voltage gain of 10, are cascaded. What is the overall voltage gain in decibels?",
+        "choices": [
+            "A. 30 dB",
+            "B. 100 dB",
+            "C. 60 dB",
+            "D. 1000 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "An amplifier with a no-load gain of 50 V/V and an output impedance of 1 kOhm drives a second stage with an input impedance of 4 kOhms. What is the effective loaded voltage gain of the first stage?",
+        "choices": [
+            "A. 10 V/V",
+            "B. 40 V/V",
+            "C. 50 V/V",
+            "D. 12.5 V/V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "When 'n' identical amplifier stages with individual upper cutoff frequencies fH are cascaded, what happens to the overall upper cutoff frequency of the system?",
+        "choices": [
+            "A. It increases by a factor of n",
+            "B. It remains exactly fH",
+            "C. It increases by a factor of sqrt(n)",
+            "D. It decreases by a factor of sqrt(2^(1/n) - 1)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "Which coupling method is absolutely required in a multistage amplifier to process a 0.5 Hz signal or a pure DC voltage?",
+        "choices": [
+            "A. Direct coupling",
+            "B. RC coupling",
+            "C. Transformer coupling",
+            "D. Impedance coupling"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "A cascade configuration consists of a Common-Emitter stage followed by a Common-Collector stage. What is the overall theoretical phase shift from input to output?",
+        "choices": [
+            "A. 0 degrees",
+            "B. 180 degrees",
+            "C. 90 degrees",
+            "D. 360 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "An output stage requires an optimal AC load of 800 ohms. It is transformer-coupled to an 8-ohm speaker. Assuming an ideal transformer, what must be the primary-to-secondary turns ratio?",
+        "choices": [
+            "A. 100:1",
+            "B. 20:1",
+            "C. 10:1",
+            "D. 5:1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "In an RC coupled multistage amplifier, the coupling capacitor acts as a short circuit for:",
+        "choices": [
+            "A. Both AC and DC signals",
+            "B. DC bias voltages only",
+            "C. Low-frequency noise",
+            "D. AC signal frequencies"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "A two-stage amplifier has Stage 1 with Av = -25 and Stage 2 with Av = -40. What is the overall linear voltage gain?",
+        "choices": [
+            "A. 1000",
+            "B. -1000",
+            "C. 65",
+            "D. -65"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "A basic BJT cascode amplifier consists of which two configurations connected in series?",
+        "choices": [
+            "A. Common-Collector driving Common-Base",
+            "B. Common-Emitter driving Common-Collector",
+            "C. Common-Emitter driving Common-Base",
+            "D. Common-Base driving Common-Emitter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "What is the most significant high-frequency advantage of the cascode configuration over a standard Common-Emitter amplifier?",
+        "choices": [
+            "A. It virtually eliminates the Miller effect capacitance at the input",
+            "B. It provides an infinite input impedance",
+            "C. It completely eliminates phase shift",
+            "D. It uses fewer components"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "In a standard CE-CB cascode amplifier, the overall input impedance of the circuit is primarily determined by the:",
+        "choices": [
+            "A. Output impedance of the CB stage",
+            "B. Input impedance of the CE stage",
+            "C. Base resistance of the CB stage",
+            "D. Collector resistance of the CE stage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "The output impedance of a BJT cascode amplifier, before considering the external collector resistor, is exceptionally high because it is determined by the:",
+        "choices": [
+            "A. Input impedance of the CE stage",
+            "B. Transconductance of the CE stage",
+            "C. Emitter resistance of the CB stage",
+            "D. Output impedance of the Common-Base stage"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Why is the Miller capacitance effectively nullified in the Common-Emitter stage of a cascode amplifier?",
+        "choices": [
+            "A. The voltage gain of the CE stage is clamped to approximately -1",
+            "B. The CE stage operates as a non-inverting amplifier",
+            "C. The input and output signals are perfectly in phase",
+            "D. The collector-base capacitance is physically removed"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Which Field Effect Transistor (FET) cascade topology is directly analogous to the BJT cascode amplifier?",
+        "choices": [
+            "A. Common-Drain driving Common-Gate",
+            "B. Common-Source driving Common-Drain",
+            "C. Common-Gate driving Common-Source",
+            "D. Common-Source driving Common-Gate"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 15,
+        "question": "Compared to a single Common-Emitter amplifier with the same load resistor, the dominant high-frequency pole of a Cascode amplifier is shifted to a:",
+        "choices": [
+            "A. Lower frequency",
+            "B. Zero frequency",
+            "C. Much higher frequency",
+            "D. The exact same frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "A DC-coupled CE-CB cascode uses a single voltage divider network (R1, R2, R3) to bias both bases. If Vcc = 20V, and the bases are at Vb1 = 2V and Vb2 = 10V, what is the approximate VCE of the lower transistor (Q1) assuming VBE = 0.7V for both?",
+        "choices": [
+            "A. 9.3 V",
+            "B. 7.3 V",
+            "C. 8.0 V",
+            "D. 2.0 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 17,
+        "question": "In a BJT cascode amplifier, the AC load seen by the collector of the driving Common-Emitter stage is the:",
+        "choices": [
+            "A. External collector resistor (Rc)",
+            "B. Base bias resistors",
+            "C. Input impedance of the Common-Base stage (approx re)",
+            "D. Power supply"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 18,
+        "question": "Assuming identical transistors with a high beta, the overall AC current gain of a standard CE-CB cascode amplifier is approximately equal to:",
+        "choices": [
+            "A. The beta of the Common-Emitter stage",
+            "B. The square of the beta",
+            "C. The beta of the Common-Base stage (approx 1)",
+            "D. Zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "In RF receiver applications, cascode amplifiers are often favored over standard cascaded stages because they offer:",
+        "choices": [
+            "A. Higher power dissipation",
+            "B. Zero output impedance",
+            "C. Lower input impedance",
+            "D. High gain and high bandwidth with very low noise figures"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 20,
+        "question": "While a \"cascade\" refers to connecting amplifier stages in series (output to input), a \"cascode\" specifically refers to:",
+        "choices": [
+            "A. A parallel configuration of transistors",
+            "B. A series-stacked configuration (e.g., CE-CB) sharing the same DC bias current",
+            "C. A feedback loop connecting output to input",
+            "D. An amplifier driven by a push-pull source"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "In a CS-CG FET cascode amplifier, if both JFETs have the same transconductance (gm), the overall transconductance of the entire cascode circuit is approximately:",
+        "choices": [
+            "A. gm / 2",
+            "B. gm^2",
+            "C. gm",
+            "D. 2 * gm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "Why doesn't the Common-Base (CB) stage in a cascode amplifier suffer from the Miller effect?",
+        "choices": [
+            "A. It has an extremely low voltage gain",
+            "B. Its transconductance is zero",
+            "C. Its base-collector capacitance is zero",
+            "D. Its base is at AC ground, preventing output-to-input capacitive feedback"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 23,
+        "question": "The magnitude of the overall midband voltage gain of a BJT cascode amplifier (ignoring early effect) is approximately:",
+        "choices": [
+            "A. gm * re",
+            "B. gm * Rc",
+            "C. beta * Rc",
+            "D. Rc / re"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "What is the phase relationship between the input voltage and the final output voltage in a standard CE-CB cascode amplifier?",
+        "choices": [
+            "A. 180 degrees (Out of phase)",
+            "B. 0 degrees (In phase)",
+            "C. 90 degrees",
+            "D. 270 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "A cascode amplifier has a lower CE stage with gm = 40 mA/V. The upper CB stage drives an AC load of 2 kOhms. Assuming alpha approaches 1, what is the approximate overall voltage gain of this amplifier?",
+        "choices": [
+            "A. 20 V/V",
+            "B. 40 V/V",
+            "C. 2000 V/V",
+            "D. 80 V/V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 26,
+        "question": "In a typical discrete cascode amplifier, the base of the upper (Common-Base) transistor must be connected to ground via a:",
+        "choices": [
+            "A. Bypass capacitor",
+            "B. Large inductor",
+            "C. Resistor",
+            "D. Direct wire (DC ground)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "A limitation of stacking transistors in a cascode configuration between Vcc and ground is that it:",
+        "choices": [
+            "A. Increases the overall phase shift",
+            "B. Reduces the available output voltage swing (headroom)",
+            "C. Decreases the input impedance",
+            "D. Drastically reduces the voltage gain"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "Which specific semiconductor device intrinsically forms a cascode configuration within a single package and is widely used in RF amplifiers?",
+        "choices": [
+            "A. Darlington transistor",
+            "B. Triac",
+            "C. Dual-gate MOSFET",
+            "D. Insulated Gate Bipolar Transistor (IGBT)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "Because the cascode configuration severely restricts signal transmission from output back to input, it makes the amplifier highly:",
+        "choices": [
+            "A. Unilateral, maximizing stability in RF circuits",
+            "B. Bilateral, allowing reverse amplification",
+            "C. Unstable at high frequencies",
+            "D. Prone to parasitic oscillations"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Compare the overall transconductance of a cascode amplifier (G_cas) to the transconductance of its individual Common-Emitter input stage (g_m1).",
+        "choices": [
+            "A. G_cas = 2 * g_m1",
+            "B. G_cas is much smaller than g_m1",
+            "C. G_cas is approximately equal to g_m1",
+            "D. G_cas = g_m1^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "A Darlington pair consists of two bipolar junction transistors connected such that:",
+        "choices": [
+            "A. Their collectors are tied to their respective bases",
+            "B. The emitter of the first is tied to the base of the second, and their collectors are tied together",
+            "C. They are in parallel",
+            "D. The emitter of the first is tied to the emitter of the second"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "The primary electronic advantage of using a Darlington pair configuration is its:",
+        "choices": [
+            "A. Very high voltage gain",
+            "B. Extreme high-frequency bandwidth",
+            "C. Negative output impedance",
+            "D. Extremely high current gain"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "If a Darlington pair is formed using two transistors with current gains beta1 = 40 and beta2 = 50, what is the approximate overall current gain of the pair?",
+        "choices": [
+            "A. 2000",
+            "B. 90",
+            "C. 200",
+            "D. 1.25"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "In a standard silicon Darlington pair operating in the active region, what is the approximate base-to-emitter voltage drop (VBE) of the entire configuration?",
+        "choices": [
+            "A. 0.3 V",
+            "B. 0.7 V",
+            "C. 2.1 V",
+            "D. 1.4 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 35,
+        "question": "Compared to a single BJT operating at the same collector current, the input impedance of a Darlington pair is:",
+        "choices": [
+            "A. Considerably lower",
+            "B. Considerably higher",
+            "C. Exactly the same",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "A major disadvantage of a standard Darlington pair in high-speed switching applications is its:",
+        "choices": [
+            "A. Extremely fast turn-off time",
+            "B. Very low input capacitance",
+            "C. Slow turn-off time due to the inability of the first transistor to actively pull charge out of the second transistor's base",
+            "D. Tendency to oscillate at low frequencies"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "A Darlington pair is used as a switch to drive a 1 A relay. If the overall current gain of the pair is 1000, what is the minimum base current required to fully switch the relay?",
+        "choices": [
+            "A. 10 mA",
+            "B. 1 mA",
+            "C. 0.1 mA",
+            "D. 100 mA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "When a Darlington pair is fully driven into saturation, the total collector-emitter saturation voltage (VCE_sat) is typically:",
+        "choices": [
+            "A. 0.2 V",
+            "B. 0 V",
+            "C. Around 1.0 V to 1.5 V, which is higher than a single BJT",
+            "D. Negative"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "In many commercial Darlington pair ICs, a resistor is placed between the base and emitter of the second transistor (Q2). What is its primary function?",
+        "choices": [
+            "A. To provide a discharge path for the base charge of Q2, improving turn-off speed and preventing leakage amplification",
+            "B. To increase the overall current gain",
+            "C. To increase the input impedance to infinity",
+            "D. To turn the pair into a Sziklai configuration"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 40,
+        "question": "When configured as an emitter follower (common-collector), the output impedance of a Darlington pair is:",
+        "choices": [
+            "A. Extremely high",
+            "B. Equal to the load resistance",
+            "C. Equal to the input impedance",
+            "D. Extremely low, much lower than a single BJT emitter follower"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Because they are so commonly used together, Darlington pairs are frequently manufactured and sold as:",
+        "choices": [
+            "A. A single three-terminal package",
+            "B. A four-terminal integrated circuit only",
+            "C. Surface-mount resistors",
+            "D. Separate uncoupled transistors"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "When a Darlington pair is used in an emitter-follower configuration, the voltage gain is approximately:",
+        "choices": [
+            "A. 1000",
+            "B. -1",
+            "C. 100",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 43,
+        "question": "Generally, the high-frequency response (bandwidth) of a Darlington pair compared to a single equivalent BJT is:",
+        "choices": [
+            "A. Much wider",
+            "B. Exactly the same",
+            "C. Narrower, due to increased internal phase shifts and longer transit times",
+            "D. Infinite"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "In a high-power Darlington transistor pair driving a heavy load, which transistor dissipates the vast majority of the heat?",
+        "choices": [
+            "A. The input transistor (Q1)",
+            "B. The output transistor (Q2)",
+            "C. Both dissipate exactly the same amount",
+            "D. Neither dissipates heat"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "The Sziklai pair, often used as an alternative to the Darlington pair, is constructed using:",
+        "choices": [
+            "A. Two NPN transistors",
+            "B. Two PNP transistors",
+            "C. Two JFETs",
+            "D. One NPN and one PNP transistor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 46,
+        "question": "The Sziklai pair is also commonly referred to in electronics literature as the:",
+        "choices": [
+            "A. Cascode pair",
+            "B. Complementary Darlington",
+            "C. Differential pair",
+            "D. Current mirror"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "For a silicon Sziklai pair, what is the approximate turn-on voltage (VBE) for the overall configuration?",
+        "choices": [
+            "A. 0.7 V",
+            "B. 1.4 V",
+            "C. 0.3 V",
+            "D. 2.1 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "In a Sziklai pair where the input transistor (Q1) is NPN and the output transistor (Q2) is PNP, the overall pair functions externally as a single:",
+        "choices": [
+            "A. PNP transistor",
+            "B. JFET",
+            "C. NPN transistor",
+            "D. Unijunction transistor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "Compared to a standard Darlington pair, a significant advantage of the Sziklai pair in power amplifier output stages is its:",
+        "choices": [
+            "A. Higher input impedance",
+            "B. Lower overall collector-emitter saturation voltage (VCE_sat)",
+            "C. Higher base-emitter voltage drop",
+            "D. Infinite bandwidth"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "If the NPN transistor in a Sziklai pair has beta=50 and the PNP has beta=40, the overall current gain of the pair is approximately:",
+        "choices": [
+            "A. 2000",
+            "B. 90",
+            "C. 10",
+            "D. 1.25"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "In an NPN-driven Sziklai pair, the \"collector\" of the equivalent overall NPN transistor is actually formed by the:",
+        "choices": [
+            "A. Base of the PNP",
+            "B. Emitter of the NPN",
+            "C. Collector of the NPN",
+            "D. Emitter of the PNP transistor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "Sziklai pairs are highly popular in the output stages of audio power amplifiers, specifically in a topology known as:",
+        "choices": [
+            "A. Class A single-ended",
+            "B. Class C tuned",
+            "C. Quasi-complementary symmetry",
+            "D. Class D switching"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 53,
+        "question": "In a Sziklai pair, the quiescent bias current is highly dependent on the VBE of the input transistor (Q1). Therefore, for thermal stability, a heatsink is primarily needed for:",
+        "choices": [
+            "A. The PNP transistor only",
+            "B. Neither transistor",
+            "C. The input transistor (Q1)",
+            "D. The output transistor (Q2)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "A basic CMOS cascode amplifier branch consists of which two MOSFET configurations stacked vertically?",
+        "choices": [
+            "A. Common-Drain driving Common-Source",
+            "B. Common-Source driving Common-Gate",
+            "C. Common-Gate driving Common-Source",
+            "D. Common-Drain driving Common-Gate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "In analog integrated circuit design, the primary reason for using a CMOS cascode current source instead of a simple current mirror is to:",
+        "choices": [
+            "A. Dramatically increase the output resistance",
+            "B. Increase the output current magnitude",
+            "C. Decrease the required voltage headroom",
+            "D. Reduce the transconductance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "If a simple CMOS Common-Source amplifier has an intrinsic gain of (gm * ro), a cascode amplifier using similar transistors will have an intrinsic gain of approximately:",
+        "choices": [
+            "A. 2 * gm * ro",
+            "B. gm / ro",
+            "C. (gm * ro)^0.5",
+            "D. (gm * ro)^2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "A major disadvantage of the standard \"telescopic\" CMOS cascode configuration in modern low-voltage ICs is its:",
+        "choices": [
+            "A. Extremely low bandwidth",
+            "B. High power consumption",
+            "C. Low voltage gain",
+            "D. Reduced output voltage swing (headroom) requirement"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 59,
+        "question": "To alleviate the output voltage swing limitations of a telescopic cascode while maintaining high gain, designers frequently use which topology?",
+        "choices": [
+            "A. Push-pull amplifier",
+            "B. Darlington cascode",
+            "C. Folded cascode",
+            "D. Pseudo-NMOS logic"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "A folded cascode amplifier differs from a telescopic cascode by:",
+        "choices": [
+            "A. Using resistors instead of active loads",
+            "B. Using opposite-type transistors (e.g., NMOS driving PMOS) for the input and cascode devices",
+            "C. Having a lower output resistance",
+            "D. Eliminating the current source"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "A significant advantage of the folded cascode operational amplifier over the telescopic topology is its ability to:",
+        "choices": [
+            "A. Provide zero output impedance",
+            "B. Operate without a DC power supply",
+            "C. Achieve infinite gain-bandwidth product",
+            "D. Provide a much wider input common-mode voltage range, often including one of the supply rails"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 62,
+        "question": "An NPN Darlington pair is biased with a base current of 5 uA. Beta1 = 100, Beta2 = 100. There is a 1 kOhm resistor connected between the base and emitter of Q2. Assume VBE2 = 0.7V. What is the approximate collector current of Q1?",
+        "choices": [
+            "A. 500 uA",
+            "B. 50 uA",
+            "C. 50 mA",
+            "D. 0 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "Compared to a Darlington pair without base-emitter bleed resistors, a Sziklai pair generally exhibits:",
+        "choices": [
+            "A. Extremely slow turn-on",
+            "B. Faster turn-off times due to the structural differences in minority carrier extraction",
+            "C. Exactly identical switching speeds",
+            "D. High frequency oscillations during turn-off"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "In a fully differential telescopic CMOS cascode op-amp branch, how many transistors are typically stacked vertically between the VDD and VSS rails?",
+        "choices": [
+            "A. 2",
+            "B. 3",
+            "C. 5",
+            "D. 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "To maximize the output voltage swing of a cascode current mirror, a specific biasing technique is used to keep the bottom transistor right at the edge of the saturation region. This is called a:",
+        "choices": [
+            "A. Wide-swing cascode current mirror",
+            "B. Darlington mirror",
+            "C. Sziklai mirror",
+            "D. Threshold-compensated mirror"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "In a CS-CG FET cascode, the voltage gain of the CS stage is roughly -gm1/gm2 = -1 (if identical). Thus, the effective Miller capacitance at the input gate is approximately:",
+        "choices": [
+            "A. Cgd",
+            "B. 0",
+            "C. Infinite",
+            "D. 2 * Cgd"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 67,
+        "question": "In a cascade of several noisy amplifiers, Friis' formula indicates that the overall noise figure is primarily dominated by the noise figure of the:",
+        "choices": [
+            "A. Last stage",
+            "B. First stage",
+            "C. Middle stage",
+            "D. Power supply"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "Due to their excellent high-frequency isolation and gain, cascode amplifiers are heavily utilized in the design of:",
+        "choices": [
+            "A. Audio subwoofers",
+            "B. DC voltage regulators",
+            "C. RF tuners and video amplifiers",
+            "D. Motor controllers"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "A Darlington pair (NPN) is used as an emitter follower driving a 10V output across a load. What is the approximate voltage required at the base of the input transistor?",
+        "choices": [
+            "A. 10.7 V",
+            "B. 11.4 V",
+            "C. 10.0 V",
+            "D. 9.3 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "If you need a high-current PNP transistor but only have a low-power PNP and a high-power NPN, which configuration allows you to create a high-power equivalent PNP?",
+        "choices": [
+            "A. Standard Darlington",
+            "B. Cascode",
+            "C. Sziklai pair (PNP input, NPN output)",
+            "D. Sziklai pair (NPN input, PNP output)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "In a CMOS cascode amplifier, the overall transconductance (Gm) of the entire amplifier is almost exactly equal to:",
+        "choices": [
+            "A. The transconductance of the input (CS) transistor",
+            "B. The transconductance of the cascode (CG) transistor",
+            "C. The sum of their transconductances",
+            "D. The product of their transconductances"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "A BJT CE-CB cascode has an input signal applied to the base of Q1. The base of Q2 is biased at a fixed 5V. In the small-signal AC model, the base of Q2 is:",
+        "choices": [
+            "A. Connected to the collector of Q1",
+            "B. Left open",
+            "C. A signal source",
+            "D. Grounded"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "A single BJT emitter follower has an input impedance of beta * Re. A Darlington emitter follower has an input impedance of approximately:",
+        "choices": [
+            "A. beta^2 * Re",
+            "B. beta * Re",
+            "C. Re / beta",
+            "D. Re / beta^2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "An NPN-input Sziklai pair behaves as an equivalent NPN transistor. What does a PNP-input Sziklai pair behave as?",
+        "choices": [
+            "A. NPN transistor",
+            "B. PNP transistor",
+            "C. P-channel JFET",
+            "D. Thyristor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "In a folded cascode op-amp, the DC bias current from the input stage tail current source is:",
+        "choices": [
+            "A. Sent entirely to the load",
+            "B. Sent directly to the power supply",
+            "C. Split between the input differential pair and the cascode branches",
+            "D. Zero during normal operation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "To correct a severe loading effect between a high-impedance voltage amplifier and a low-impedance load, one should insert a:",
+        "choices": [
+            "A. Common-Collector (Buffer) stage",
+            "B. Common-Base stage",
+            "C. Common-Emitter stage",
+            "D. Transformer with a 1:1 ratio"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "While cascoding greatly increases the bandwidth of a single stage by moving the dominant pole to a higher frequency, it introduces a non-dominant pole at the connection node between the two transistors. This pole frequency is roughly:",
+        "choices": [
+            "A. gm / Cpi",
+            "B. 1 / (RC * C_load)",
+            "C. gm2 / C_parasitic_node",
+            "D. beta / Cmu"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "When a Darlington pair is used for PWM switching of an inductive load, a freewheeling diode is essential. Furthermore, Darlington pairs often include an internal anti-parallel diode across the:",
+        "choices": [
+            "A. Collector-Emitter of the overall pair",
+            "B. Base-Emitter of Q1",
+            "C. Base-Collector of Q2",
+            "D. Base-Emitter of Q2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "Compared to a simple CMOS common-source amplifier with the same load capacitance, a cascode amplifier has:",
+        "choices": [
+            "A. A vastly superior Gain-Bandwidth Product (GBW)",
+            "B. A much lower GBW",
+            "C. Zero GBW",
+            "D. Roughly the same Gain-Bandwidth Product (GBW), but much higher DC gain"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "In an IF (Intermediate Frequency) tuned cascode amplifier, the tuned LC tank circuit is typically placed:",
+        "choices": [
+            "A. At the base of the CE stage",
+            "B. At the collector of the CB stage",
+            "C. Between the CE and CB stages",
+            "D. At the emitter of the CE stage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "In a quasi-complementary audio output stage, the \"push\" (top) side typically uses a standard Darlington pair. What is typically used for the \"pull\" (bottom) side to simulate a complementary PNP Darlington?",
+        "choices": [
+            "A. Another standard Darlington",
+            "B. A single MOSFET",
+            "C. A Sziklai pair",
+            "D. A Cascode amplifier"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "The reactance of a coupling capacitor in a multistage amplifier must be very low at the operating frequencies. Reactance is calculated as:",
+        "choices": [
+            "A. 2 * pi * f * C",
+            "B. 1 / (2 * pi * f * C)",
+            "C. 1 / (R * C)",
+            "D. sqrt(L / C)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "If Q1 has a base current of 10 uA, and both transistors have a beta of 50, what is the approximate emitter current of Q2?",
+        "choices": [
+            "A. 25 mA",
+            "B. 50 mA",
+            "C. 0.5 mA",
+            "D. 2.5 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "The common-gate device in a CMOS cascode provides a \"shielding\" effect that isolates the input device from output voltage variations. This drastically reduces the circuit's:",
+        "choices": [
+            "A. Input impedance",
+            "B. Transconductance",
+            "C. Cutoff frequency",
+            "D. Channel-length modulation effect on the input device"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Which of the following is a primary reason BJT cascodes are sometimes preferred over FET cascodes in purely analog, high-speed applications?",
+        "choices": [
+            "A. BJTs have zero input capacitance",
+            "B. FETs cannot be cascoded",
+            "C. FETs lack a common-gate configuration",
+            "D. BJTs generally have higher transconductance (gm) for a given bias current"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "The Sziklai pair can be viewed as a single transistor with an internal local feedback loop. This internal feedback loop is of what type?",
+        "choices": [
+            "A. Positive voltage feedback",
+            "B. Negative voltage feedback",
+            "C. Negative current feedback",
+            "D. Positive current feedback"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "A folded cascode has an output swing that is typically:",
+        "choices": [
+            "A. Smaller than a telescopic cascode",
+            "B. Larger than a telescopic cascode",
+            "C. Exactly equal to the supply voltage",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "To properly bias a CE-CB cascode amplifier, the base voltage of the CB stage must be:",
+        "choices": [
+            "A. Higher than the collector voltage of the CE stage",
+            "B. Equal to ground",
+            "C. Lower than the emitter voltage of the CE stage",
+            "D. Modulated by the input signal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "In high-speed integrated Darlington pairs, replacing the passive base-emitter resistor of Q2 with an active transistor current sink improves:",
+        "choices": [
+            "A. Turn-off time significantly",
+            "B. Voltage gain",
+            "C. Input impedance",
+            "D. Transconductance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Four identical stages have a voltage gain of 5 each. What is the overall gain in dB?",
+        "choices": [
+            "A. 20 dB",
+            "B. 14 dB",
+            "C. 625 dB",
+            "D. 54 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "The intrinsic gain of a MOSFET is defined as gm*ro. What is the typical intrinsic gain magnitude order for a standard CMOS process?",
+        "choices": [
+            "A. 1 to 5",
+            "B. Millions",
+            "C. 10 to 100",
+            "D. Less than 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "The cascode configuration provides excellent isolation between the input and output ports. This is commonly quantified by a very low parameter known as:",
+        "choices": [
+            "A. Forward transconductance",
+            "B. Reverse transmission (S12 or reverse voltage gain)",
+            "C. Input return loss",
+            "D. Output impedance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "In a Sziklai pair, which transistor saturates first if driven hard?",
+        "choices": [
+            "A. The output transistor (Q2)",
+            "B. The input transistor (Q1)",
+            "C. Both saturate simultaneously",
+            "D. Neither can saturate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "Darlington emitter followers driving capacitive loads are prone to high-frequency oscillations due to:",
+        "choices": [
+            "A. Excessive Miller effect",
+            "B. Zero output impedance",
+            "C. The negative real part of the input impedance caused by phase shifts",
+            "D. Thermal runaway"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "In deep submicron CMOS processes, the intrinsic gain (gm*ro) drops significantly due to short-channel effects. To achieve high op-amp gain, designers heavily rely on:",
+        "choices": [
+            "A. Single-stage Common-Source amplifiers",
+            "B. Source followers",
+            "C. Diode-connected loads",
+            "D. Cascoding"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "A cascode amplifier uses a single resistive voltage divider (R1 top, R2 mid, R3 bottom) across Vcc. The base of Q2 is at the R1-R2 junction, and the base of Q1 is at the R2-R3 junction. To maintain Q1 in the active region, the voltage drop across R2 must be at least:",
+        "choices": [
+            "A. Slightly greater than VBE of Q2 plus the VCE(sat) of Q1",
+            "B. Zero",
+            "C. Equal to Vcc",
+            "D. Equal to VBE of Q1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "In a discrete Darlington pair made of two different transistors, the maximum load current is limited by the:",
+        "choices": [
+            "A. Current rating of Q1",
+            "B. Current rating of Q2",
+            "C. Base current of Q1",
+            "D. VBE of Q2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "The temperature coefficient of the turn-on voltage (VBE) for a standard Darlington is approx -4 mV/C. For a Sziklai pair, it is approximately:",
+        "choices": [
+            "A. -8 mV/C",
+            "B. +2 mV/C",
+            "C. 0 mV/C",
+            "D. -2 mV/C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 99,
+        "question": "If a folded cascode op-amp uses a PMOS differential input pair, the cascode transistors must be:",
+        "choices": [
+            "A. PNP BJTs",
+            "B. PMOS devices",
+            "C. NMOS devices",
+            "D. JFETs"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "The term \"cascode\" originated in the vacuum tube era. It is generally accepted to be a contraction of the phrase:",
+        "choices": [
+            "A. \"Cascade to cathode\"",
+            "B. \"Capacitive anode\"",
+            "C. \"Common anode\"",
+            "D. \"Cascade diode\""
+        ],
+        "correct_answer": "A"
+    }
+]

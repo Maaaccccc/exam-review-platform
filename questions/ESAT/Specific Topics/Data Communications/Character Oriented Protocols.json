@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "Which TCP/IP layer corresponds to the OSI Physical and Data Link layers?",
+        "choices": [
+            "A. Network Interface",
+            "B. Internet",
+            "C. Transport",
+            "D. Application"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "What port number does HTTP use by default at the Transport layer?",
+        "choices": [
+            "A. 21",
+            "B. 25",
+            "C. 80",
+            "D. 443"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "Which protocol provides reliable, connection-oriented service at the Transport layer?",
+        "choices": [
+            "A. UDP",
+            "B. TCP",
+            "C. IP",
+            "D. ICMP"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 4,
+        "question": "Which IP class allows for the largest number of hosts per network?",
+        "choices": [
+            "A. Class C",
+            "B. Class B",
+            "C. Class D",
+            "D. Class A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "What is the exact size of a standard UDP header?",
+        "choices": [
+            "A. 8 bytes",
+            "B. 16 bytes",
+            "C. 20 bytes",
+            "D. 32 bytes"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "Which protocol provides connectionless, best-effort delivery at the Internet layer?",
+        "choices": [
+            "A. TCP",
+            "B. IP",
+            "C. UDP",
+            "D. ARP"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "A host receives a TCP segment on a closed port. It responds by sending a segment with which flag set?",
+        "choices": [
+            "A. SYN",
+            "B. ACK",
+            "C. URG",
+            "D. RST"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "In VLSM, subnets of different sizes are created. What is a strict requirement when allocating these subnets?",
+        "choices": [
+            "A. All subnets must end with .255",
+            "B. The subnet masks must be identical",
+            "C. Address ranges of the subnets must not overlap",
+            "D. Subnets must only use Class C addresses"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 9,
+        "question": "The process of combining multiple smaller networks into a single large routing entry is known as:",
+        "choices": [
+            "A. Subnetting",
+            "B. Fragmentation",
+            "C. CIDR block",
+            "D. Route Summarization"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 10,
+        "question": "In the TCP three-way handshake, what is the second step?",
+        "choices": [
+            "A. The client replies with an ACK packet",
+            "B. The server replies with a SYN-ACK packet",
+            "C. The server sends a SYN packet",
+            "D. The client sends a FIN packet"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "Data link protocols that use specific ASCII or EBCDIC characters to manage link control are classified as:",
+        "choices": [
+            "A. Bit-oriented protocols",
+            "B. Byte-stuffed protocols",
+            "C. Character-oriented protocols",
+            "D. Asynchronous protocols"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "In start/stop framing (asynchronous transmission), how does the receiver identify the beginning of a new character frame?",
+        "choices": [
+            "A. By detecting a transition from the idle state (logic 1) to the start bit (logic 0)",
+            "B. By reading the preamble sequence",
+            "C. By calculating the checksum",
+            "D. By waiting for a clock pulse on the timing wire"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "What is the primary disadvantage of start/stop framing methods when transmitting large blocks of data?",
+        "choices": [
+            "A. High susceptibility to cross-talk",
+            "B. Inability to use copper wires",
+            "C. Requirement for external clocking",
+            "D. High transmission overhead due to adding start and stop bits to every single character"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "In a character-oriented protocol, which ASCII control character is typically used to indicate the start of the message header?",
+        "choices": [
+            "A. STX",
+            "B. SOH",
+            "C. ENQ",
+            "D. ETX"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Which ASCII control character signifies the end of the header and the beginning of the text payload?",
+        "choices": [
+            "A. STX",
+            "B. ETX",
+            "C. SOH",
+            "D. EOT"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 16,
+        "question": "Which control character marks the end of a message's text block?",
+        "choices": [
+            "A. ENQ",
+            "B. ACK",
+            "C. ETX",
+            "D. NAK"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "If a character-oriented receiver successfully receives a block of data without errors, it responds with which control character?",
+        "choices": [
+            "A. NAK",
+            "B. ACK",
+            "C. EOT",
+            "D. SYN"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "If the receiver detects an error in the received block, it requests retransmission by sending which character?",
+        "choices": [
+            "A. ENQ",
+            "B. DLE",
+            "C. ACK",
+            "D. NAK"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 19,
+        "question": "To establish a connection or request a response from a remote terminal, a master station typically sends which inquiry character?",
+        "choices": [
+            "A. ACK",
+            "B. SYN",
+            "C. ENQ",
+            "D. SOH"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Which character is used by the transmitting station to indicate that it has finished its transmission and is relinquishing the line?",
+        "choices": [
+            "A. EOT",
+            "B. ETX",
+            "C. ENQ",
+            "D. DLE"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "In synchronous character-oriented protocols, idle time between frames is filled with which specific characters to maintain clock synchronization?",
+        "choices": [
+            "A. NAK",
+            "B. SYN",
+            "C. DLE",
+            "D. STX"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "The phenomenon where binary data in the payload accidentally contains the bit pattern of a control character (like ETX), causing premature frame termination, is known as a lack of:",
+        "choices": [
+            "A. Synchronization",
+            "B. Parity",
+            "C. Handshaking",
+            "D. Data transparency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 23,
+        "question": "To achieve data transparency in character-oriented protocols, which technique is implemented by the sender?",
+        "choices": [
+            "A. Character stuffing (Byte stuffing)",
+            "B. Bit stuffing",
+            "C. Pulse amplitude modulation",
+            "D. Wavelength multiplexing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "In character stuffing, a special escape character is inserted immediately before any data byte that matches a control character. Which character is universally used for this?",
+        "choices": [
+            "A. SOH",
+            "B. SYN",
+            "C. DLE (Data Link Escape)",
+            "D. EOT"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "If the data payload itself contains the DLE character, how does the transmitter ensure data transparency?",
+        "choices": [
+            "A. It drops the character",
+            "B. It inserts another DLE character immediately before it",
+            "C. It changes the DLE to a SYN",
+            "D. It aborts the transmission"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "When a receiver encounters two consecutive DLE characters in the data stream of a character-stuffed protocol, what action does it take?",
+        "choices": [
+            "A. It treats them as an End of Transmission",
+            "B. It drops the entire frame due to a framing error",
+            "C. It discards the first DLE and treats the second DLE as actual payload data",
+            "D. It switches to transparent mode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "In transparent mode, if the receiver sees the sequence \"DLE ETX\", it interprets this strictly as:",
+        "choices": [
+            "A. The true end of the text block",
+            "B. Two bytes of payload data",
+            "C. A request for retransmission",
+            "D. A synchronization error"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "Which framing method delineates frames by counting the number of characters in the frame and placing this count in the header?",
+        "choices": [
+            "A. Start/stop framing",
+            "B. Flag-based framing",
+            "C. Token passing",
+            "D. Character count framing"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "What is a major vulnerability of the character count framing method?",
+        "choices": [
+            "A. It cannot transmit binary data",
+            "B. If the count field gets corrupted during transmission, the receiver loses frame synchronization and cannot easily resynchronize",
+            "C. It requires excessively large headers",
+            "D. It is strictly limited to half-duplex links"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "Because of the vulnerability of character count framing, most modern character-oriented protocols rely on:",
+        "choices": [
+            "A. Control character sequences (like SOH, STX, ETX) to delineate frames",
+            "B. Hardware interrupts for every byte",
+            "C. Fixed-length frames exclusively",
+            "D. Out-of-band signaling"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "Binary Synchronous Communications (BSC or BISYNC) is a character-oriented data link protocol originally developed by:",
+        "choices": [
+            "A. Cisco",
+            "B. DEC",
+            "C. Microsoft",
+            "D. IBM"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 32,
+        "question": "In terms of transmission direction, the BISYNC protocol fundamentally operates in which mode?",
+        "choices": [
+            "A. Simplex",
+            "B. Full-duplex",
+            "C. Half-duplex",
+            "D. Multiplex"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "BISYNC supports which types of network topologies?",
+        "choices": [
+            "A. Mesh only",
+            "B. Star only",
+            "C. Ring only",
+            "D. Point-to-point and multipoint"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 34,
+        "question": "Because BISYNC is a half-duplex protocol, it relies heavily on which mechanism to reverse the direction of data flow?",
+        "choices": [
+            "A. Turnaround sequences and ACK/NAK handshaking",
+            "B. Carrier Sense Multiple Access",
+            "C. Frequency Division Multiplexing",
+            "D. Dual-ring wrapping"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "BISYNC is designed to support which specific character encoding sets?",
+        "choices": [
+            "A. ASCII and UTF-8",
+            "B. ASCII, EBCDIC, and Transcode",
+            "C. Unicode only",
+            "D. Baudot code only"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "A standard BISYNC frame begins with a synchronization sequence consisting of:",
+        "choices": [
+            "A. A single start bit",
+            "B. A preamble of alternating 1s and 0s",
+            "C. At least two SYN characters",
+            "D. An EOT character"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "In a BISYNC message block, the block check character (BCC) is placed immediately following which control character?",
+        "choices": [
+            "A. SOH",
+            "B. STX",
+            "C. SYN",
+            "D. ETX or ETB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 38,
+        "question": "In a BISYNC transmission, if a message is too long to send as a single block, it is divided into intermediate blocks. The end of an intermediate block is marked by which character?",
+        "choices": [
+            "A. EOT",
+            "B. ETB (End of Transmission Block)",
+            "C. ETX",
+            "D. ENQ"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Which error detection method is typically used in BISYNC when the data is encoded in ASCII?",
+        "choices": [
+            "A. 16-bit CRC",
+            "B. 32-bit CRC",
+            "C. VRC/LRC (Vertical and Longitudinal Redundancy Check)",
+            "D. Checksum"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "When BISYNC is transmitting EBCDIC-encoded data, which error detection method is mandated because EBCDIC does not use a parity bit per character?",
+        "choices": [
+            "A. CRC-16 (Cyclic Redundancy Check)",
+            "B. VRC only",
+            "C. LRC only",
+            "D. Hamming Code"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "In a BISYNC multipoint configuration, the host computer regulates traffic by systematically asking each terminal if it has data to send. This process is called:",
+        "choices": [
+            "A. Selecting",
+            "B. Polling",
+            "C. Broadcasting",
+            "D. Token passing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "When the host in a BISYNC multipoint network has data to send to a specific terminal, it asks the terminal if it is ready to receive. This process is called:",
+        "choices": [
+            "A. Selecting",
+            "B. Polling",
+            "C. Handshaking",
+            "D. Contention"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 43,
+        "question": "If a BISYNC terminal is polled but has no data to send, what control character does it transmit in response?",
+        "choices": [
+            "A. NAK",
+            "B. ACK",
+            "C. ENQ",
+            "D. EOT"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "In BISYNC, the protocol uses Alternating Acknowledgments to prevent duplicated or lost blocks. These acknowledgments are represented by:",
+        "choices": [
+            "A. ACK1 and ACK2",
+            "B. ACK0 and NAK",
+            "C. ACK0 and ACK1",
+            "D. SYN and ACK"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "Upon receiving a valid first block of data, a BISYNC receiver will reply with which alternating acknowledgment?",
+        "choices": [
+            "A. ACK1",
+            "B. ACK0",
+            "C. WACK",
+            "D. RVI"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "In BISYNC, if a receiver is temporarily busy and cannot accept more data immediately but wants to maintain the connection, it sends a Wait Before Transmit Positive Acknowledgment denoted as:",
+        "choices": [
+            "A. NAK",
+            "B. ACK0",
+            "C. EOT",
+            "D. WACK"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 47,
+        "question": "A BISYNC receiver can interrupt a sender's transmission sequence to urgently request the line for its own high-priority transmission by sending a:",
+        "choices": [
+            "A. WACK",
+            "B. RVI (Reverse Interrupt)",
+            "C. ENQ",
+            "D. NAK"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "To initiate a transparent data block in BISYNC (where payload might contain control character bit patterns), the STX character must be preceded by:",
+        "choices": [
+            "A. SYN",
+            "B. SOH",
+            "C. DLE",
+            "D. ENQ"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "In BISYNC transparent mode, if the block ends with an ETX, how must the ETX be transmitted to signal the true end of the block?",
+        "choices": [
+            "A. DLE ETX",
+            "B. ETX DLE",
+            "C. SYN ETX",
+            "D. ETX ETX"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "If a sender using BISYNC transmits a block and receives a garbled or unrecognizable response (neither ACK nor NAK), what is the standard recovery procedure?",
+        "choices": [
+            "A. Disconnect the line immediately",
+            "B. Resend the data block",
+            "C. Send an EOT",
+            "D. Send an ENQ to request the receiver to repeat its last reply"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 51,
+        "question": "Which sequence represents a valid standard BISYNC non-transparent data frame structure?",
+        "choices": [
+            "A. SOH-Data-STX-Data-ETX-BCC",
+            "B. STX-Header-SOH-Data-ETX-BCC",
+            "C. SYN-SYN-SOH-Header-STX-Data-ETX-BCC",
+            "D. SOH-Header-Data-ETX-BCC"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "Why did bit-oriented protocols (like HDLC) largely replace character-oriented protocols (like BISYNC) in modern networks?",
+        "choices": [
+            "A. Bit-oriented protocols are half-duplex",
+            "B. Bit-oriented protocols provide inherent data transparency via bit stuffing, eliminating the complex DLE escaping rules",
+            "C. Character-oriented protocols cannot use copper wire",
+            "D. Bit-oriented protocols do not require error checking"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "In a character-oriented protocol, the Block Check Character (BCC) is accumulated beginning immediately after which character?",
+        "choices": [
+            "A. SYN",
+            "B. SOH",
+            "C. STX or SOH",
+            "D. ENQ"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "Does the BCC calculation in a BISYNC frame include the starting STX character?",
+        "choices": [
+            "A. Yes, always",
+            "B. Yes, if transparent mode is active",
+            "C. Only if EBCDIC is used",
+            "D. No, BCC accumulation begins with the first character after STX"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 55,
+        "question": "Does the BCC calculation in a BISYNC frame include the terminating ETX character?",
+        "choices": [
+            "A. Yes",
+            "B. No",
+            "C. Only if transparent mode is active",
+            "D. Only if ASCII is used"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "In BISYNC, the Time-out mechanism is used by the transmitting station primarily to:",
+        "choices": [
+            "A. Increase the baud rate",
+            "B. Recover from a situation where a sent message or its expected reply is lost in transit",
+            "C. Change the encoding to EBCDIC",
+            "D. Switch from half-duplex to full-duplex"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "Point-to-Point Protocol (PPP), when running over an asynchronous serial link, operates as a character-oriented protocol. What byte is used as the flag to delineate PPP frames?",
+        "choices": [
+            "A. 0x7E (01111110)",
+            "B. 0xFF",
+            "C. 0x00",
+            "D. 0x55"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "When PPP operates in a character-oriented (asynchronous) mode, how does it achieve data transparency if the flag byte (0x7E) appears in the payload?",
+        "choices": [
+            "A. Bit stuffing (inserting a 0 bit)",
+            "B. It drops the frame",
+            "C. Byte stuffing (inserting a 0x7D escape character and modifying the payload byte)",
+            "D. It changes the flag byte to 0x7F"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "In PPP byte stuffing, if the escape character (0x7D) itself appears in the payload data, how is it transmitted?",
+        "choices": [
+            "A. It is replaced with 0x7E",
+            "B. It is removed completely",
+            "C. It is transmitted as a single 0x7D",
+            "D. It is escaped by inserting another 0x7D before it and XORing the original 0x7D with 0x20"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "In the context of character-oriented protocols, contention refers to a state where:",
+        "choices": [
+            "A. A single master polls all slaves",
+            "B. Two devices on a point-to-point link simultaneously attempt to initiate a transmission using an ENQ character",
+            "C. The line is physically broken",
+            "D. The receiver buffer is overflowing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "In a BISYNC point-to-point connection experiencing contention (both send ENQ), how is the tie typically broken?",
+        "choices": [
+            "A. Both devices drop the connection",
+            "B. The device with the lowest MAC address wins",
+            "C. The device with the highest IP address wins",
+            "D. One device is predefined as the primary or master and wins the contention"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 62,
+        "question": "If a receiving station detects a parity error on a single character within a BISYNC block, it will:",
+        "choices": [
+            "A. Wait until the end of the block and reply with a NAK",
+            "B. Immediately abort the block and reply with a NAK",
+            "C. Fix the error automatically using Hamming code",
+            "D. Send an ENQ"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "Which of the following best describes Longitudinal Redundancy Check (LRC)?",
+        "choices": [
+            "A. A check bit added to each individual character",
+            "B. A parity byte generated by XORing all the characters in a message block together",
+            "C. A division of the message polynomial by a generator polynomial",
+            "D. A checksum using 1s complement arithmetic"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "In a 2-dimensional parity system (VRC and LRC combined), which type of errors can be mathematically guaranteed to be detected?",
+        "choices": [
+            "A. Only single-bit errors",
+            "B. All even numbers of bit errors",
+            "C. All 1-bit, 2-bit, 3-bit, and any odd number of bit errors",
+            "D. Burst errors exceeding the block length"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "During BISYNC transparent transmission, if a DLE character is generated as part of the CRC block check character (BCC) at the end of the frame, must it be escaped (stuffed) with another DLE?",
+        "choices": [
+            "A. Yes, always",
+            "B. Yes, but only in EBCDIC",
+            "C. Only if it is the first byte of the BCC",
+            "D. No, the BCC is treated strictly as data and is never character-stuffed"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 66,
+        "question": "What is the primary purpose of the Pad character (PAD) sometimes transmitted at the very end of a BISYNC frame?",
+        "choices": [
+            "A. To encrypt the frame",
+            "B. To synchronize the clocks",
+            "C. To ensure that the last significant character is fully transmitted and processed before the transmitter turns off its carrier",
+            "D. To identify the sender"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "In a half-duplex character-oriented protocol, the time required for a modem to switch from receive mode to transmit mode is known as:",
+        "choices": [
+            "A. Turnaround time",
+            "B. Propagation delay",
+            "C. Processing delay",
+            "D. Transmission time"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "In an asynchronous character-oriented link, if the receiver's clock is running 5% slower than the transmitter's clock, which part of a standard 10-bit character frame is most likely to be sampled incorrectly?",
+        "choices": [
+            "A. The start bit",
+            "B. The stop bit (framing error)",
+            "C. The first data bit",
+            "D. The parity bit"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "Which legacy character-oriented protocol was developed by Digital Equipment Corporation (DEC) and uses character counts for framing?",
+        "choices": [
+            "A. BISYNC",
+            "B. SDLC",
+            "C. HDLC",
+            "D. DDCMP (Digital Data Communications Message Protocol)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "While DDCMP uses a character count for framing, how does it handle the vulnerability of a corrupted count field?",
+        "choices": [
+            "A. It relies on a separate header CRC to ensure the count is valid before processing the data block",
+            "B. It uses bit stuffing as a backup",
+            "C. It transmits the count field twice",
+            "D. It limits frames to 10 characters"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "In BISYNC, the control sequence \"DLE EOT\" is specifically used to signal:",
+        "choices": [
+            "A. The start of transparent text",
+            "B. A forced disconnect or mandatory line release",
+            "C. A reverse interrupt",
+            "D. An alternating acknowledgment"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "The header of a BISYNC message is optional. If present, it starts with SOH and ends with STX. What type of information is typically placed in the header?",
+        "choices": [
+            "A. The checksum",
+            "B. The payload data",
+            "C. Clock synchronization bits",
+            "D. Addressing and control information (e.g., sequence numbers or device addresses)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "When an EBCDIC-encoded BISYNC system calculates a CRC-16, the polynomial division is performed on:",
+        "choices": [
+            "A. The control characters only",
+            "B. The header only",
+            "C. The continuous bit stream of characters from the first character after STX up to and including the ETX/ETB",
+            "D. The payload data excluding all DLE characters"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "In character-oriented protocols, Limited Transparent Mode involves:",
+        "choices": [
+            "A. Escaping only specific control characters (like STX and ETX) rather than escaping all occurrences of DLE",
+            "B. Using bit stuffing instead of byte stuffing",
+            "C. Sending data without any headers",
+            "D. Restricting the payload to ASCII only"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "If a station receives a block with a valid BCC but the block is out of sequence (e.g., receives Block 3 when expecting Block 2), how does it generally respond in BISYNC?",
+        "choices": [
+            "A. It acknowledges (ACK) the block and sorts it later",
+            "B. It replies with a NAK or an error sequence to force retransmission",
+            "C. It drops the connection",
+            "D. It sends a WACK"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "In a character-oriented asynchronous link, a Break condition is signaled by:",
+        "choices": [
+            "A. Sending a continuous logic 1",
+            "B. Sending rapidly alternating 1s and 0s",
+            "C. Holding the data line at logic 0 (space) for longer than one complete character frame",
+            "D. Sending an EOT character"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "Which character-oriented protocol was widely used for file transfers over dial-up bulletin board systems (BBS) and used 128-byte blocks with a simple checksum?",
+        "choices": [
+            "A. XMODEM",
+            "B. BISYNC",
+            "C. HDLC",
+            "D. Kermit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "The Kermit protocol is a classic character-oriented file transfer protocol. How does it handle data transparency over 7-bit ASCII links?",
+        "choices": [
+            "A. It uses bit stuffing",
+            "B. It forces 8-bit mode",
+            "C. It drops the 8th bit",
+            "D. It converts 8-bit binary data into printable 7-bit ASCII characters using a technique called printable encoding"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "Why is byte stuffing computationally more expensive than bit stuffing for a software-based receiver?",
+        "choices": [
+            "A. It requires more memory",
+            "B. It alters the physical voltage",
+            "C. It requires checking every single incoming byte against a list of escape characters, rather than using a simple hardware shift register to count bits",
+            "D. It increases the baud rate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "In a BISYNC multipoint system, if the host polls a terminal and the terminal does not respond at all within a predefined time window, the host will:",
+        "choices": [
+            "A. Shut down",
+            "B. Time out and proceed to poll the next terminal in the polling list",
+            "C. Send an ACK0",
+            "D. Wait indefinitely"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "What defines a character-oriented protocol fundamentally?",
+        "choices": [
+            "A. It processes and transmits data strictly in discrete units of full bytes (characters), interpreting specific byte values as control commands",
+            "B. It can only transmit alphabetical letters",
+            "C. It operates strictly at the physical layer",
+            "D. It uses bit stuffing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "Which IBM terminal family is most famously associated with the widespread use of the BISYNC protocol over leased lines?",
+        "choices": [
+            "A. IBM PC",
+            "B. IBM 5250",
+            "C. IBM 3270",
+            "D. IBM AS/400"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "A BISYNC frame is transmitted over a noisy line. The STX character is corrupted. What happens at the receiver?",
+        "choices": [
+            "A. The receiver corrects the STX using CRC",
+            "B. The receiver fails to recognize the start of the text block and will likely discard the incoming data as junk until it resynchronizes",
+            "C. The receiver treats the data as a header",
+            "D. The receiver sends a WACK immediately"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "Which of the following is a strict limitation of the BISYNC protocol?",
+        "choices": [
+            "A. It can only run over fiber optics",
+            "B. It requires a full-duplex transmission medium",
+            "C. It cannot transmit binary data",
+            "D. It is inherently half-duplex, requiring inefficient turnaround times for every acknowledgment"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "In asynchronous character transmission, why is a parity bit often sufficient for error detection in simple text communications but inadequate for file transfers?",
+        "choices": [
+            "A. A parity bit cannot detect an even number of bit errors in a single character, which is common in burst noise",
+            "B. It slows down the transmission",
+            "C. It requires a CRC calculation",
+            "D. It is incompatible with ASCII"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "When configuring a character-oriented link, if the sender uses 8 data bits and the receiver expects 7 data bits, the resulting misinterpretation of character boundaries is called a:",
+        "choices": [
+            "A. Parity error",
+            "B. Framing error",
+            "C. Collision",
+            "D. Checksum error"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "Which legacy character-oriented file transfer protocol improved upon XMODEM by supporting sliding windows and variable block sizes?",
+        "choices": [
+            "A. YMODEM",
+            "B. BISYNC",
+            "C. DDCMP",
+            "D. ZMODEM"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "In a multipoint BISYNC environment, the addresses assigned to each terminal controller on the line are known as:",
+        "choices": [
+            "A. IP addresses",
+            "B. MAC addresses",
+            "C. Polling and Select addresses",
+            "D. Socket numbers"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "If a terminal controller in a BISYNC multipoint network is powered off, how does the host handle the polling sequence?",
+        "choices": [
+            "A. The host polls it, waits for the timeout period, and moves on, causing a slight delay in the overall polling cycle",
+            "B. The host automatically removes it from the list forever",
+            "C. The host stops polling all terminals",
+            "D. The host sends an EOT to the offline terminal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Character-oriented protocols typically require the transmitter and receiver to agree in advance on the character set (ASCII vs EBCDIC). Why?",
+        "choices": [
+            "A. Because the physical wires are different",
+            "B. Because the exact bit patterns for critical control characters (like STX, ETX, ENQ) differ entirely between encoding sets",
+            "C. Because ASCII is full-duplex and EBCDIC is half-duplex",
+            "D. Because EBCDIC requires bit stuffing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "When implementing a software-based BISYNC protocol stack, encountering the sequence DLE SYN inside a transparent text block means:",
+        "choices": [
+            "A. The block has ended",
+            "B. A reverse interrupt is requested",
+            "C. The transmitter is inserting an idle sync character to maintain timing and the receiver should discard it",
+            "D. An error has occurred"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "In the OSI Reference Model, character-oriented framing and error detection (as performed by BISYNC) operate at which layer?",
+        "choices": [
+            "A. Physical",
+            "B. Network",
+            "C. Transport",
+            "D. Data Link"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "A BISYNC connection is established between a host and a printer. What sequence of control characters completes the transmission and releases the line?",
+        "choices": [
+            "A. EOT",
+            "B. ETX",
+            "C. NAK",
+            "D. ENQ"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "The transition from character-oriented protocols (BISYNC) to bit-oriented protocols (HDLC/SDLC) primarily aimed to achieve:",
+        "choices": [
+            "A. Slower transmission speeds",
+            "B. Full-duplex operation, code independence, and greater efficiency through sliding window flow control",
+            "C. Compatibility with analog modems",
+            "D. The elimination of CRC"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "In start/stop transmission, the stop bit is electrically identical to the:",
+        "choices": [
+            "A. Start bit",
+            "B. Parity bit",
+            "C. Line idle state (Mark/Logic 1)",
+            "D. Data bit 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "If an asynchronous transmission uses 1 start bit, 8 data bits, no parity, and 2 stop bits, what is the frame efficiency?",
+        "choices": [
+            "A. 100%",
+            "B. 80.0%",
+            "C. 88.8%",
+            "D. 72.7%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "In the sequence SYN SYN SOH Header STX Data ETX BCC, the Data section contains 100 bytes. Which bytes are included in the BCC calculation for a standard ASCII BISYNC frame?",
+        "choices": [
+            "A. The 100 Data bytes only",
+            "B. The Header bytes, STX, the 100 Data bytes, and ETX",
+            "C. The 100 Data bytes and ETX only",
+            "D. All bytes from the first SYN to the ETX"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "What is the main reason byte stuffing (using DLE) is considered inefficient compared to bit stuffing?",
+        "choices": [
+            "A. A single stuffed control character adds a full 8 bits of overhead, whereas bit stuffing typically adds only 1 bit per stuffed sequence",
+            "B. It causes voltage drops",
+            "C. It encrypts the payload",
+            "D. It requires a hardware UART"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "In BISYNC, if the transmitter receives a WACK, it will typically respond by sending:",
+        "choices": [
+            "A. Another block of data",
+            "B. An STX",
+            "C. An ENQ to ping the receiver and ask if it is ready",
+            "D. An EOT to drop the line"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "Which of the following best summarizes the function of the Start and Stop bits in character-oriented asynchronous protocols?",
+        "choices": [
+            "A. They provide error correction for the data bits",
+            "B. They identify the sender's MAC address",
+            "C. They encrypt the character",
+            "D. They frame each character, allowing the receiver to resynchronize its local clock for the duration of that specific character"
+        ],
+        "correct_answer": "D"
+    }
+]

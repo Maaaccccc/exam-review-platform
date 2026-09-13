@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "The Jacobian determinant d(x,y)/d(r,theta) for the standard polar coordinate transformation evaluates to:",
+        "choices": [
+            "A. r",
+            "B. 1",
+            "C. r^2",
+            "D. sin(theta)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "Evaluating a double integral of the function f(x,y) = 1 over a given region R geometrically yields the region's:",
+        "choices": [
+            "A. Perimeter",
+            "B. Area",
+            "C. Volume",
+            "D. Centroid"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "In cylindrical coordinates, the differential volume element dV is expressed as:",
+        "choices": [
+            "A. rho^2 sin(phi) dr d(theta) dz",
+            "B. r^2 dr d(theta) dz",
+            "C. r dr d(theta) dz",
+            "D. dr d(theta) dz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "Reverse the order of integration for Integral from 0 to 1 of (Integral from 0 to x of f(x,y) dy) dx.",
+        "choices": [
+            "A. Integral from 0 to x of (Integral from 0 to 1 of f(x,y) dx) dy",
+            "B. Integral from 0 to y of (Integral from 0 to 1 of f(x,y) dx) dy",
+            "C. Integral from 0 to 1 of (Integral from 0 to y of f(x,y) dx) dy",
+            "D. Integral from 0 to 1 of (Integral from y to 1 of f(x,y) dx) dy"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "Evaluate the iterated integral: Integral from 0 to 2 of (Integral from 0 to 3 of xy dy) dx.",
+        "choices": [
+            "A. 18",
+            "B. 9",
+            "C. 6",
+            "D. 12"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "To find the y-coordinate of a centroid using double integration over an area A, the integrand must be:",
+        "choices": [
+            "A. (1/A) * x",
+            "B. (1/A) * x^2",
+            "C. (1/A) * y",
+            "D. (1/A) * y^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "Under the transformation u = 3x - y and v = x + 2y, what is the absolute value of the Jacobian determinant d(u,v)/d(x,y)?",
+        "choices": [
+            "A. 5",
+            "B. 7",
+            "C. 6",
+            "D. 4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "When converting from Cartesian to spherical coordinates, the equation x^2 + y^2 + z^2 = 9 becomes:",
+        "choices": [
+            "A. rho = 3",
+            "B. rho = 9",
+            "C. rho = 81",
+            "D. rho = sqrt(3)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "A mathematical equation that involves one or more independent variables, an unknown function, and its derivatives is called a:",
+        "choices": [
+            "A. Polynomial equation",
+            "B. Transcendental equation",
+            "C. Differential equation",
+            "D. Algebraic equation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "A differential equation containing only ordinary derivatives with respect to a single independent variable is classified as:",
+        "choices": [
+            "A. Ordinary",
+            "B. Partial",
+            "C. Linear",
+            "D. Exact"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "A differential equation containing partial derivatives with respect to two or more independent variables is called:",
+        "choices": [
+            "A. An ordinary differential equation",
+            "B. A linear differential equation",
+            "C. A homogeneous differential equation",
+            "D. A partial differential equation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 12,
+        "question": "The order of a differential equation is strictly defined as the order of the:",
+        "choices": [
+            "A. Highest power of the dependent variable",
+            "B. Highest derivative present in the equation",
+            "C. Lowest derivative present in the equation",
+            "D. Degree of the polynomial"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "The degree of a differential equation is defined as the power to which the highest order derivative is raised, provided the equation is:",
+        "choices": [
+            "A. Linear",
+            "B. Homogeneous",
+            "C. Expressed as a polynomial in the derivatives",
+            "D. Separable"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "Determine the order of the differential equation: d^3y/dx^3 + 4(dy/dx)^5 - y = 0.",
+        "choices": [
+            "A. 1",
+            "B. 3",
+            "C. 5",
+            "D. 4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Determine the degree of the differential equation: (d^2y/dx^2)^3 + (dy/dx)^4 - x = 0.",
+        "choices": [
+            "A. 2",
+            "B. 4",
+            "C. 3",
+            "D. 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "Find the order of the differential equation: y'' + 2y' + 3y = e^x.",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 17,
+        "question": "Find the degree of the DE: [1 + (y')^2]^(3/2) = c * y''.",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "State the order and degree of the DE: (d^4y/dx^4)^2 + x(dy/dx)^5 = sin(x).",
+        "choices": [
+            "A. Order 5, Degree 2",
+            "B. Order 4, Degree 5",
+            "C. Order 4, Degree 2",
+            "D. Order 1, Degree 5"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "What is the order of the partial differential equation: partial^2 u / partial x^2 + partial^2 u / partial y^2 = 0?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "Determine the degree of the DE: (d^3y/dx^3)^(4/3) = x * (dy/dx).",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "Which of the following defines a linear ordinary differential equation of order n?",
+        "choices": [
+            "A. It contains terms where the dependent variable is squared.",
+            "B. The dependent variable and all its derivatives are of the first degree.",
+            "C. It involves transcendental functions of the dependent variable.",
+            "D. The coefficients are functions of both x and y."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "An ordinary differential equation is considered NON-LINEAR if:",
+        "choices": [
+            "A. The dependent variable is multiplied by its derivative.",
+            "B. All coefficients are constants.",
+            "C. The independent variable is squared.",
+            "D. It contains only first derivatives."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "Which of the following is a NON-LINEAR differential equation?",
+        "choices": [
+            "A. dy/dx + 2xy = e^x",
+            "B. d^2y/dx^2 + sin(x)y = 0",
+            "C. y'' + 3y' + 4y = x^2",
+            "D. dy/dx + y^2 = x"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "Classify the differential equation: (x^2 + y^2)dx - 2xy dy = 0.",
+        "choices": [
+            "A. Linear in y",
+            "B. Linear in x",
+            "C. Non-linear in both x and y",
+            "D. Linear in both x and y"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "Classify the DE: x^3 y''' - 2x y'' + 4y = cos(x).",
+        "choices": [
+            "A. Non-linear",
+            "B. Homogeneous",
+            "C. Separable",
+            "D. Linear"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 26,
+        "question": "Which of the following features makes a differential equation NON-LINEAR?",
+        "choices": [
+            "A. The presence of an independent variable squared",
+            "B. The presence of a derivative raised to the first power",
+            "C. The presence of a product of the independent variable and a derivative",
+            "D. The presence of a transcendental function of the dependent variable"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "Classify the differential equation: dy/dx = cos(x).",
+        "choices": [
+            "A. Linear of order 1",
+            "B. Non-linear of order 1",
+            "C. Non-linear of degree 1",
+            "D. Linear of order 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "A solution of a differential equation that contains a number of independent arbitrary constants equal to the order of the equation is called the:",
+        "choices": [
+            "A. Singular solution",
+            "B. Particular solution",
+            "C. Trivial solution",
+            "D. General solution"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "A solution obtained by assigning specific values to the arbitrary constants of a general solution is called a:",
+        "choices": [
+            "A. Particular solution",
+            "B. Singular solution",
+            "C. Trivial solution",
+            "D. Complete primitive"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "A solution to a differential equation that CANNOT be obtained by assigning specific values to the arbitrary constants in the general solution is called a:",
+        "choices": [
+            "A. General solution",
+            "B. Particular solution",
+            "C. Singular solution",
+            "D. Trivial solution"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "The equation y = C_1 cos(x) + C_2 sin(x) is the general solution to y'' + y = 0. The solution y = cos(x) is a:",
+        "choices": [
+            "A. Singular solution",
+            "B. General solution",
+            "C. Trivial solution",
+            "D. Particular solution"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 32,
+        "question": "What condition defines an Initial Value Problem (IVP)?",
+        "choices": [
+            "A. Conditions are given at multiple values of the independent variable.",
+            "B. Conditions are given at a single value of the independent variable.",
+            "C. The differential equation must be non-linear.",
+            "D. The solution must be singular."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "If auxiliary conditions for a differential equation are specified at two different values of the independent variable, the problem is a:",
+        "choices": [
+            "A. Boundary Value Problem",
+            "B. Initial Value Problem",
+            "C. Singular Value Problem",
+            "D. Cauchy Problem"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Consider the problem: y'' + 4y = 0, with y(0) = 1 and y'(0) = 2. This is an example of a:",
+        "choices": [
+            "A. Boundary Value Problem",
+            "B. Singular Value Problem",
+            "C. Initial Value Problem",
+            "D. Transcendental Problem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "Consider the problem: y'' + y = 0, with y(0) = 0 and y(pi) = 0. This is strictly classified as a:",
+        "choices": [
+            "A. Initial Value Problem",
+            "B. Singular Value Problem",
+            "C. Cauchy Problem",
+            "D. Boundary Value Problem"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "The theorem that guarantees a unique solution exists for an initial value problem under certain continuity conditions is known as:",
+        "choices": [
+            "A. Picard's Existence and Uniqueness Theorem",
+            "B. Euler's Theorem",
+            "C. Laplace's Theorem",
+            "D. Runge-Kutta Theorem"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "In an Initial Value Problem of the first order, dy/dx = f(x,y) with y(x_0) = y_0, the point (x_0, y_0) physically represents:",
+        "choices": [
+            "A. A critical point",
+            "B. A boundary point",
+            "C. The starting point of the integral curve",
+            "D. An inflection point"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "A family of curves that intersects every curve of a given family at right angles is called:",
+        "choices": [
+            "A. Isoclines",
+            "B. Orthogonal Trajectories",
+            "C. Direction Fields",
+            "D. Singular curves"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "A graphical tool composed of short line segments indicating the slope of the solution curve at various grid points in the xy-plane is a:",
+        "choices": [
+            "A. Direction field",
+            "B. Phase portrait",
+            "C. Level curve",
+            "D. Bifurcation diagram"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 40,
+        "question": "Eliminate the arbitrary constant C from the equation: y = Cx.",
+        "choices": [
+            "A. y' = C",
+            "B. x y' - y = 0",
+            "C. y y' - x = 0",
+            "D. y' = y"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "Eliminate the constant C from the equation: y = x^2 +",
+        "choices": [
+            "C. A. y' = 2x",
+            "B. y' = x^2",
+            "C. y' = x",
+            "D. y' = C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "Eliminate the arbitrary constant A from the equation: y = A e^(2x).",
+        "choices": [
+            "A. y' - y = 0",
+            "B. y' + 2y = 0",
+            "C. y' - 2y = 0",
+            "D. y' = 2A e^(2x)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "Eliminate the arbitrary constant C from the equation y = C e^(-3x).",
+        "choices": [
+            "A. y' + 3y = 0",
+            "B. y' - 3y = 0",
+            "C. 3y' + y = 0",
+            "D. y' + y = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "Eliminate the arbitrary constants A and B from y = A cos(x) + B sin(x).",
+        "choices": [
+            "A. y'' + y' = 0",
+            "B. y'' - y = 0",
+            "C. y'' + 2y = 0",
+            "D. y'' + y = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Eliminate the arbitrary constants C1 and C2 from y = C1 e^x + C2 e^-x.",
+        "choices": [
+            "A. y'' + y = 0",
+            "B. y'' - y = 0",
+            "C. y'' + y' = 0",
+            "D. y'' - y' = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "Eliminate the constant C from the family of circles: x^2 + y^2 = C^2.",
+        "choices": [
+            "A. x + y y' = 0",
+            "B. x - y y' = 0",
+            "C. x^2 + y y' = 0",
+            "D. y + x y' = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "By eliminating the constant C from y = C x^2, the resulting differential equation is:",
+        "choices": [
+            "A. 2x y' - y = 0",
+            "B. x y' + 2y = 0",
+            "C. y' - 2x = 0",
+            "D. x y' - 2y = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 48,
+        "question": "Eliminate the arbitrary constants A and B from y = A x +",
+        "choices": [
+            "B. A. y' = A",
+            "B. y' = 0",
+            "C. y'' = 0",
+            "D. y'' = B"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "Eliminate the arbitrary constant a from y^2 = 4ax.",
+        "choices": [
+            "A. y y' - 2x = 0",
+            "B. 2x y' - y = 0",
+            "C. 2x y' + y = 0",
+            "D. x y' - 2y = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "Eliminate the constant C from ln(y) = x +",
+        "choices": [
+            "C. A. y' - y = x",
+            "B. y' = x y",
+            "C. y' - y = 0",
+            "D. y' = 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "Eliminate the arbitrary constants A and B from y = A e^(2x) + B e^(-2x).",
+        "choices": [
+            "A. y'' - 2y = 0",
+            "B. y'' + 4y = 0",
+            "C. y'' - y = 0",
+            "D. y'' - 4y = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "Eliminate the arbitrary constants A and B from y = A e^x + B e^(3x).",
+        "choices": [
+            "A. y'' - 4y' + 3y = 0",
+            "B. y'' + 4y' + 3y = 0",
+            "C. y'' - 3y' + 4y = 0",
+            "D. y'' + 3y' + 4y = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "Eliminate C from y = sin(x + C).",
+        "choices": [
+            "A. (y')^2 = 1 + y^2",
+            "B. (y')^2 + y^2 = 1",
+            "C. y'' - y = 0",
+            "D. y' = cos(x + C)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "Eliminate the constant c from y = cx + c.",
+        "choices": [
+            "A. y = x y' - y'",
+            "B. y' = c",
+            "C. y = x y' + x",
+            "D. y = y'(x + 1)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 55,
+        "question": "Eliminate the arbitrary constant c from x^2 + cy^2 = 1.",
+        "choices": [
+            "A. y'(x^2 + 1) = xy",
+            "B. y'(x^2 - 1) = xy",
+            "C. x y' = x^2 - 1",
+            "D. y y' = x(x^2 - 1)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "Eliminate the arbitrary constants A and B from y = Ax + Bx^2.",
+        "choices": [
+            "A. x^2 y'' + 2x y' - 2y = 0",
+            "B. x^2 y'' - x y' + y = 0",
+            "C. x^2 y'' - 2x y' + 2y = 0",
+            "D. x^2 y'' + x y' - 2y = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "Eliminate the arbitrary constants A and B from x = A cos(wt) + B sin(wt), where w is constant.",
+        "choices": [
+            "A. d^2x/dt^2 + w^2 x = 0",
+            "B. d^2x/dt^2 - w^2 x = 0",
+            "C. d^2x/dt^2 + w x = 0",
+            "D. dx/dt + w^2 x = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Eliminate the arbitrary constant k from y = k e^x + 1.",
+        "choices": [
+            "A. y' - y - 1 = 0",
+            "B. y' - y + 1 = 0",
+            "C. y' + y - 1 = 0",
+            "D. y' + y + 1 = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Eliminate the arbitrary constant C from y = C e^(x^2).",
+        "choices": [
+            "A. y' + 2xy = 0",
+            "B. y' - x^2 y = 0",
+            "C. x y' - 2y = 0",
+            "D. y' - 2xy = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "Eliminate a and b from y = a e^(3x) + b e^(-3x).",
+        "choices": [
+            "A. y'' + 9y = 0",
+            "B. y'' - 9y = 0",
+            "C. y'' - 3y = 0",
+            "D. y'' + 3y = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "Eliminate C1 and C2 from y = C1 e^(2x) + C2 x e^(2x).",
+        "choices": [
+            "A. y'' + 4y' + 4y = 0",
+            "B. y'' - 4y' - 4y = 0",
+            "C. y'' - 4y' + 4y = 0",
+            "D. y'' + 4y' - 4y = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "Eliminate A and B from y = e^x (A cos(x) + B sin(x)).",
+        "choices": [
+            "A. y'' - 2y' + 2y = 0",
+            "B. y'' + 2y' + 2y = 0",
+            "C. y'' - 2y' - 2y = 0",
+            "D. y'' + 2y' - 2y = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "Eliminate the arbitrary constant c from x^3 + y^3 = c.",
+        "choices": [
+            "A. 3x^2 + 3y^2 y' = c",
+            "B. x^2 + y^2 y' = 0",
+            "C. x^3 + y^3 = 0",
+            "D. x^2 y' + y^2 = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "Eliminate the constants A and B from y = A x^3 + B x.",
+        "choices": [
+            "A. x^2 y'' + 3x y' - 3y = 0",
+            "B. x^2 y'' - x y' + 3y = 0",
+            "C. x^2 y'' + x y' + y = 0",
+            "D. x^2 y'' - 3x y' + 3y = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "Obtain the differential equation of the family of straight lines passing through the origin.",
+        "choices": [
+            "A. x dx - y dy = 0",
+            "B. x dy - y dx = 0",
+            "C. x dx + y dy = 0",
+            "D. x dy + y dx = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "Obtain the differential equation of all circles centered at the origin.",
+        "choices": [
+            "A. x dy - y dx = 0",
+            "B. y dx + x dy = 0",
+            "C. x dx + y dy = 0",
+            "D. x dy + y dx = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "Eliminate C from y = C(x - 1) + x^2.",
+        "choices": [
+            "A. y = (x - 1)y' + x^2",
+            "B. y = (x - 1)y' - x^2 - 2x",
+            "C. y = (x + 1)y' - x^2 + 2x",
+            "D. y = (x - 1)y' - x^2 + 2x"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 68,
+        "question": "Eliminate A and B from y = x (A + B ln x).",
+        "choices": [
+            "A. x^2 y'' - x y' + y = 0",
+            "B. x^2 y'' + x y' - y = 0",
+            "C. x^2 y'' - y' + y = 0",
+            "D. x^2 y'' + x y' + y = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "Eliminate the constant a from the family of parabolas y^2 = 4ax.",
+        "choices": [
+            "A. x y' - y = 0",
+            "B. x y' + 2y = 0",
+            "C. 2x y' - y = 0",
+            "D. x y' - 2y = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "Find the differential equation of all circles tangent to the y-axis at the origin.",
+        "choices": [
+            "A. 2xy y' = x^2 - y^2",
+            "B. 2xy y' = x^2 + y^2",
+            "C. 2xy y' = y^2 - x^2",
+            "D. x y' = y^2 - x^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "Eliminate the arbitrary constant k from y = sin(kx).",
+        "choices": [
+            "A. y''(1-y^2) + y(y')^2 = 0",
+            "B. y''(1-y^2) - y(y')^2 = 0",
+            "C. y''(1-y^2) + (y')^2 = 0",
+            "D. y''(1+y^2) + y(y')^2 = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "Eliminate the constant A from y^2 = A(x^2 - 1).",
+        "choices": [
+            "A. x y = y' (x^2 + 1)",
+            "B. x y' = y (x^2 - 1)",
+            "C. y' (x^2 - 1) - x y = 0",
+            "D. y' (x^2 + 1) - x y = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "What is the degree of the differential equation (y'')^3 + (y')^4 + y^5 = e^x?",
+        "choices": [
+            "A. 1",
+            "B. 4",
+            "C. 5",
+            "D. 3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "Find the order of the differential equation d^2y/dx^2 + (dy/dx)^3 = x.",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "Classify the differential equation dy/dx + x^2 y = sin(x).",
+        "choices": [
+            "A. Non-linear, 1st order",
+            "B. Linear, 2nd order",
+            "C. Linear, 1st order",
+            "D. Non-linear, 2nd order"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "Which statement correctly distinguishes a general solution from a particular solution?",
+        "choices": [
+            "A. A general solution contains arbitrary constants, while a particular solution does not.",
+            "B. A particular solution contains arbitrary constants, while a general solution does not.",
+            "C. A general solution is always linear, while a particular solution is non-linear.",
+            "D. A particular solution is exact, while a general solution is approximate."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "Is the differential equation y y' + x = 0 linear or non-linear?",
+        "choices": [
+            "A. Linear",
+            "B. Non-linear",
+            "C. Homogeneous",
+            "D. Exact"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "What type of problem is specified by y'' + 4y = 0 with conditions y(0)=1 and y'(pi)=0?",
+        "choices": [
+            "A. Initial Value Problem",
+            "B. Boundary Value Problem",
+            "C. Singular Problem",
+            "D. Cauchy Problem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "The differential equation y'' + 4y = 0 subject to y(0)=1 and y'(0)=2 is a classic example of a(n):",
+        "choices": [
+            "A. Singular Value Problem",
+            "B. Boundary Value Problem",
+            "C. Initial Value Problem",
+            "D. Endpoint Value Problem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "If a differential equation cannot be written as a polynomial in the unknown function and its derivatives, then its degree is:",
+        "choices": [
+            "A. One",
+            "B. Zero",
+            "C. Equal to its order",
+            "D. Undefined"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "Eliminate the arbitrary constant C from y = C x^3.",
+        "choices": [
+            "A. x y' - 3y = 0",
+            "B. 3x y' - y = 0",
+            "C. x y' + 3y = 0",
+            "D. y' - 3x^2 = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "By eliminating the arbitrary constant c from y = x^2 + c x, we obtain:",
+        "choices": [
+            "A. x y' + y = x^2",
+            "B. y' - x y = x^2",
+            "C. x y' - y = x^2",
+            "D. x y' - y = -x^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "Eliminate C from x^2 + y^2 =",
+        "choices": [
+            "C. A. x + y y' = 0",
+            "B. 2x + y y' = 0",
+            "C. x^2 + y y' = 0",
+            "D. x + y^2 = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "Eliminate C from y = C e^x.",
+        "choices": [
+            "A. y' + y = 0",
+            "B. x y' - y = 0",
+            "C. y' - y = 0",
+            "D. y' - x = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "A differential equation is linear if the dependent variable y and all its derivatives are of degree:",
+        "choices": [
+            "A. Two",
+            "B. Zero",
+            "C. Undefined",
+            "D. One"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "If the conditions for a differential equation are given at t=0 and t=5, it is a:",
+        "choices": [
+            "A. Boundary Value Problem",
+            "B. Initial Value Problem",
+            "C. Singular Problem",
+            "D. Cauchy Problem"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "The direction field of dy/dx = y shows horizontal line segments along:",
+        "choices": [
+            "A. The y-axis",
+            "B. The x-axis",
+            "C. The line y=x",
+            "D. The line y=-x"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "The locus of points in a direction field where the slope is constant (dy/dx = k) is called an:",
+        "choices": [
+            "A. Orthogonal trajectory",
+            "B. Envelope",
+            "C. Isocline",
+            "D. Integral curve"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "Eliminate a from y = a x^2 + x.",
+        "choices": [
+            "A. x y' - 2y - x = 0",
+            "B. 2x y' - y + x = 0",
+            "C. x y' + 2y - x = 0",
+            "D. x y' - 2y + x = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "Eliminate C from y = x + C e^x.",
+        "choices": [
+            "A. y' - y + x - 1 = 0",
+            "B. y' + y - x - 1 = 0",
+            "C. y' - y - x + 1 = 0",
+            "D. y' + y + x + 1 = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "Determine the order of y''' + 4(y'')^2 - 3y = 0.",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Eliminate A from y = A / x.",
+        "choices": [
+            "A. x y' - y = 0",
+            "B. y' + x y = 0",
+            "C. x y' - x = 0",
+            "D. x y' + y = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "Eliminate the constants A and B from y = A cos(2x) + B sin(2x).",
+        "choices": [
+            "A. y'' - 4y = 0",
+            "B. y'' + 4y = 0",
+            "C. y'' + 2y = 0",
+            "D. y'' - 2y = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "The degree of (d^2y/dx^2)^2 + (dy/dx)^3 = 0 is:",
+        "choices": [
+            "A. 2",
+            "B. 3",
+            "C. 1",
+            "D. Undefined"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "Which of the following is NOT a requirement for a differential equation to be linear?",
+        "choices": [
+            "A. Dependent variable is degree 1",
+            "B. Derivatives are degree 1",
+            "C. Coefficients must be constant",
+            "D. No products of dependent variables and its derivatives"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "If y = C_1 e^(3x) + C_2 e^(-3x) is a general solution, y = 5 e^(3x) - 2 e^(-3x) is a:",
+        "choices": [
+            "A. Singular solution",
+            "B. Trivial solution",
+            "C. Complete solution",
+            "D. Particular solution"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "A singular solution of a differential equation:",
+        "choices": [
+            "A. Cannot be obtained from the general solution",
+            "B. Is obtained by setting constants to zero",
+            "C. Contains complex numbers",
+            "D. Is always linear"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "The order of the highest derivative in a differential equation dictates the number of:",
+        "choices": [
+            "A. Particular solutions",
+            "B. Dependent variables",
+            "C. Singular solutions",
+            "D. Arbitrary constants in the general solution"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 99,
+        "question": "Eliminate C from x y =",
+        "choices": [
+            "C. A. x y' - y = 0",
+            "B. y y' + x = 0",
+            "C. x y' + y = 0",
+            "D. x y' + x = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "The differential equation x^2 dy/dx + y = e^x is classified as:",
+        "choices": [
+            "A. Linear, 1st order",
+            "B. Non-linear, 1st order",
+            "C. Linear, 2nd order",
+            "D. Non-linear, 2nd order"
+        ],
+        "correct_answer": "A"
+    }
+]

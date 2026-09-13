@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "What is the primary function of a Watchdog Timer (WDT) in a deeply embedded microcontroller application?",
+        "choices": [
+            "A. To automatically reset the entire microcontroller if the software enters an infinite loop or hangs",
+            "B. To keep track of real-world calendar time",
+            "C. To protect the memory from unauthorized access",
+            "D. To generate highly precise PWM signals for motor control"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "In the context of microcontrollers, what is the primary advantage of a Harvard architecture over a Von Neumann architecture?",
+        "choices": [
+            "A. It requires less physical silicon area",
+            "B. It allows simultaneous fetching of instruction and data",
+            "C. It uses a single unified memory space for simplicity",
+            "D. It operates without a system clock"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Which internal reset mechanism ensures that the microcontroller initializes its internal registers to known default states the exact moment physical power is first applied?",
+        "choices": [
+            "A. Software Reset",
+            "B. Watchdog Reset",
+            "C. Power-On Reset (POR)",
+            "D. Pin Reset"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "An I2C Master writes a byte of data to an EEPROM. What logic state does the EEPROM pull the SDA line to during the 9th clock cycle to indicate a successful receipt (ACK)?",
+        "choices": [
+            "A. High Impedance",
+            "B. Logic HIGH",
+            "C. Toggle between HIGH and LOW",
+            "D. Logic LOW"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "What specific microcontroller subsystem is utilized to generate a continuous series of repetitive negative-going pulses, often used as a programmable digital frequency divider?",
+        "choices": [
+            "A. Timer/Counter in Rate Generator Mode",
+            "B. Real-Time Clock (RTC)",
+            "C. Analog-to-Digital Converter",
+            "D. Watchdog Timer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "Which memory technology is primarily utilized to implement the CPU's general-purpose registers and the physical data stack inside a microcontroller?",
+        "choices": [
+            "A. Flash Memory",
+            "B. Static RAM (SRAM)",
+            "C. EEPROM",
+            "D. Dynamic RAM (DRAM)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "A mechanical push-button connects a microcontroller input pin directly to ground. To prevent the pin from floating when the button is released, the internal port configuration must enable the:",
+        "choices": [
+            "A. Schmitt trigger",
+            "B. Open-drain output",
+            "C. Internal pull-up resistor",
+            "D. Analog multiplexer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "When comparing the ARM Cortex-M architecture to older 8-bit cores, which internal peripheral is specifically designed to manage all hardware interrupts with ultra-low latency?",
+        "choices": [
+            "A. Advanced APIC",
+            "B. Programmable Interrupt Controller (PIC)",
+            "C. System Control Block (SCB)",
+            "D. Nested Vectored Interrupt Controller (NVIC)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "Convert the decimal number 255 to its hexadecimal equivalent.",
+        "choices": [
+            "A. FF",
+            "B. FE",
+            "C. 100",
+            "D. EE"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "What is the binary equivalent of the octal number 74?",
+        "choices": [
+            "A. 111100",
+            "B. 111101",
+            "C. 111010",
+            "D. 110100"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "The hexadecimal number 2A is equal to what value in decimal?",
+        "choices": [
+            "A. 52",
+            "B. 40",
+            "C. 42",
+            "D. 44"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "Convert the binary number 101101.11 to decimal.",
+        "choices": [
+            "A. 45.5",
+            "B. 45.25",
+            "C. 45.625",
+            "D. 45.75"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Which of the following number systems has a base or radix of 8?",
+        "choices": [
+            "A. Octal",
+            "B. Binary",
+            "C. Hexadecimal",
+            "D. Decimal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Determine the octal equivalent of the hexadecimal number F3.",
+        "choices": [
+            "A. 362",
+            "B. 363",
+            "C. 364",
+            "D. 365"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "What is the decimal value of the largest 4-bit unsigned binary number?",
+        "choices": [
+            "A. 7",
+            "B. 16",
+            "C. 15",
+            "D. 8"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "In the hexadecimal number system, the letter 'E' represents which decimal value?",
+        "choices": [
+            "A. 11",
+            "B. 12",
+            "C. 13",
+            "D. 14"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "Convert the decimal fraction 0.625 to binary.",
+        "choices": [
+            "A. 0.101",
+            "B. 0.011",
+            "C. 0.110",
+            "D. 0.111"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "What is the sum of the binary numbers 1010 and 0111?",
+        "choices": [
+            "A. 10011",
+            "B. 10001",
+            "C. 10010",
+            "D. 11111"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Convert the octal number 345 to decimal.",
+        "choices": [
+            "A. 227",
+            "B. 228",
+            "C. 229",
+            "D. 230"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Which of the following is an invalid BCD (Binary Coded Decimal) code?",
+        "choices": [
+            "A. 0101",
+            "B. 1001",
+            "C. 0111",
+            "D. 1010"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "The binary number 10000000 is equivalent to what decimal value?",
+        "choices": [
+            "A. 128",
+            "B. 256",
+            "C. 64",
+            "D. 127"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Convert the hexadecimal number 1A to binary.",
+        "choices": [
+            "A. 0001 1011",
+            "B. 0001 1100",
+            "C. 0001 1010",
+            "D. 0001 1001"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "What is the minimum number of bits required to represent the decimal number 300 in unsigned binary?",
+        "choices": [
+            "A. 7",
+            "B. 8",
+            "C. 10",
+            "D. 9"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "What is the 1's complement of the binary number 10110011?",
+        "choices": [
+            "A. 01001100",
+            "B. 01001101",
+            "C. 10110100",
+            "D. 01001111"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "To find the 2's complement of a binary number, one must:",
+        "choices": [
+            "A. Invert all bits and subtract 1",
+            "B. Invert all bits and add 1",
+            "C. Add 1 to the MSB",
+            "D. Swap the MSB and LSB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "What is the 2's complement of 01011000?",
+        "choices": [
+            "A. 10100111",
+            "B. 10101001",
+            "C. 10101000",
+            "D. 10101011"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "In 8-bit 2's complement representation, what is the decimal equivalent of 11111111?",
+        "choices": [
+            "A. 255",
+            "B. 127",
+            "C. -128",
+            "D. -1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 28,
+        "question": "Perform the binary subtraction using 2's complement: 1010 - 0101. Assume a 4-bit system and ignore the final carry.",
+        "choices": [
+            "A. 0101",
+            "B. 0110",
+            "C. 1111",
+            "D. 1010"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 29,
+        "question": "In an 8-bit signed system using 2's complement, what is the range of representable decimal integers?",
+        "choices": [
+            "A. -127 to +128",
+            "B. -128 to +127",
+            "C. 0 to 255",
+            "D. -255 to +255"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "If the MSB of a 2's complement binary number is 1, the number is:",
+        "choices": [
+            "A. Odd",
+            "B. Positive",
+            "C. Negative",
+            "D. Zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "What is the result of adding 0110 and 0100 in a 4-bit 2's complement system?",
+        "choices": [
+            "A. 1010 (valid +10)",
+            "B. 0010 (overflow)",
+            "C. 1000 (valid +8)",
+            "D. 1010 (overflow, result is -6)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 32,
+        "question": "Worded circuit: An arithmetic circuit uses a 4-bit adder to perform subtraction by inverting the subtrahend and setting the carry-in bit to 1. This circuit physically implements subtraction using:",
+        "choices": [
+            "A. 2's complement arithmetic",
+            "B. 1's complement arithmetic",
+            "C. Sign-magnitude arithmetic",
+            "D. BCD arithmetic"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "Subtract 1011 from 1100 directly in binary.",
+        "choices": [
+            "A. 0011",
+            "B. 0001",
+            "C. 0010",
+            "D. 0101"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "The 1's complement of a number is obtained by substituting 0s for 1s and 1s for 0s. This operation is logically equivalent to passing the binary signal through a:",
+        "choices": [
+            "A. NOR gate",
+            "B. AND gate",
+            "C. NOT gate",
+            "D. XOR gate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "Find the 2's complement of the hexadecimal number 3A (expressed in 8 bits).",
+        "choices": [
+            "A. C5",
+            "B. 3B",
+            "C. 4A",
+            "D. C6"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "What is the sum of +12 and -12 in 8-bit 2's complement binary?",
+        "choices": [
+            "A. 00000000",
+            "B. 11111111",
+            "C. 10000000",
+            "D. 00000001"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "If an 8-bit register contains 10000000 in 2's complement format, what is its decimal value?",
+        "choices": [
+            "A. -0",
+            "B. -128",
+            "C. -127",
+            "D. 128"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "When adding two negative numbers in 2's complement, an overflow condition strictly occurs if the carry out of the MSB is 1 and the carry into the MSB is:",
+        "choices": [
+            "A. 1",
+            "B. High impedance",
+            "C. 0",
+            "D. Unchanged"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "Which logic gate produces a HIGH output only when all of its inputs are HIGH?",
+        "choices": [
+            "A. OR",
+            "B. NAND",
+            "C. NOR",
+            "D. AND"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "The logical expression Y = A + B represents which fundamental logic gate?",
+        "choices": [
+            "A. OR",
+            "B. AND",
+            "C. XOR",
+            "D. NAND"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "Which logic gate is often referred to as an inverter?",
+        "choices": [
+            "A. XOR",
+            "B. NOT",
+            "C. NOR",
+            "D. XNOR"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "The NAND gate is logically equivalent to an AND gate followed immediately by a:",
+        "choices": [
+            "A. OR gate",
+            "B. XOR gate",
+            "C. NOT gate",
+            "D. Buffer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "Which two-input logic gate produces a HIGH output if the inputs are different, and a LOW output if the inputs are the same?",
+        "choices": [
+            "A. XNOR",
+            "B. NAND",
+            "C. OR",
+            "D. XOR"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "A NOR gate produces a logic 1 output strictly when:",
+        "choices": [
+            "A. All inputs are 0",
+            "B. Any input is 1",
+            "C. All inputs are 1",
+            "D. An odd number of inputs is 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "The Exclusive-NOR (XNOR) gate is often called the equivalence gate because its output is HIGH when:",
+        "choices": [
+            "A. Its inputs are different",
+            "B. Its inputs are identical",
+            "C. All inputs are 0 regardless of other states",
+            "D. Any input is 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "Worded circuit: A security system alarm (Y) sounds if a window sensor (A) is open (1) OR a door sensor (B) is open (1), but the alarm is disarmed (C=0). The logic equation is Y = (A + B) *",
+        "choices": [
+            "C. Which gates are required?",
+            "A. Two OR gates",
+            "B. One AND gate, one NOR gate",
+            "C. One OR gate, one AND gate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "How many inputs does a standard NOT gate have?",
+        "choices": [
+            "A. 2",
+            "B. 4",
+            "C. 8",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 48,
+        "question": "The boolean expression Y = A XOR B corresponds to which logic gate?",
+        "choices": [
+            "A. XOR",
+            "B. XNOR",
+            "C. OR",
+            "D. NAND"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "If the two inputs of a NAND gate are tied together to form a single input, the resulting circuit operates perfectly as a:",
+        "choices": [
+            "A. AND gate",
+            "B. NOT gate",
+            "C. Buffer",
+            "D. OR gate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "Which logic gate will have a LOW output only if all its inputs are HIGH?",
+        "choices": [
+            "A. NOR",
+            "B. XOR",
+            "C. NAND",
+            "D. NOT"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "Worded circuit: A digital parity generator circuit receives a 4-bit data stream. It must output a 1 if the number of 1s in the data stream is odd. What specific type of logic gate is cascaded to build this circuit most efficiently?",
+        "choices": [
+            "A. AND gates",
+            "B. NAND gates",
+            "C. NOR gates",
+            "D. XOR gates"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "An OR gate has inputs A=1, B=0, C=1, D=0. What is the output?",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. High-Z",
+            "D. Oscillating"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "The expression Y = A'B + AB' represents the boolean operation for which gate?",
+        "choices": [
+            "A. XNOR",
+            "B. XOR",
+            "C. NAND",
+            "D. NOR"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "The expression Y = AB + A'B' is the boolean expansion for which gate?",
+        "choices": [
+            "A. XOR",
+            "B. AND",
+            "C. XNOR",
+            "D. OR"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "In a negative logic system, the more negative voltage represents logic 1 and the more positive voltage represents logic 0. In this system, a positive logic AND gate physically acts as a:",
+        "choices": [
+            "A. NAND gate",
+            "B. NOR gate",
+            "C. XOR gate",
+            "D. OR gate"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 56,
+        "question": "Why are NAND and NOR gates officially classified as Universal Gates?",
+        "choices": [
+            "A. Any Boolean function or standard logic gate can be implemented using exclusively NAND or exclusively NOR gates",
+            "B. They are manufactured by every semiconductor company universally",
+            "C. They can operate on both AC and DC universal power",
+            "D. They have an infinite number of inputs"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 57,
+        "question": "To implement a basic NOT gate using only NOR gates, how many NOR gates are strictly required?",
+        "choices": [
+            "A. 2",
+            "B. 1",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "How many NAND gates are required to build a standard two-input AND gate?",
+        "choices": [
+            "A. 1",
+            "B. 3",
+            "C. 2",
+            "D. 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "Worded circuit: You need to implement the function Y = A + B (an OR gate) but you only have standard 2-input NAND gates available. How many NAND gates are required in total to build this OR gate?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 4",
+            "D. 3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "Worded circuit: A digital designer connects the inputs A and B to a NOR gate. The output of this NOR gate is then fed into both inputs of a second NOR gate. The entire circuit is functionally equivalent to which basic gate?",
+        "choices": [
+            "A. OR gate",
+            "B. AND gate",
+            "C. XOR gate",
+            "D. NAND gate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "To construct an Exclusive-OR (XOR) gate using only standard 2-input NAND gates, what is the minimum number of NAND gates required?",
+        "choices": [
+            "A. 3",
+            "B. 4",
+            "C. 5",
+            "D. 6"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "Implementing a 2-input AND gate using only NOR gates requires a minimum of how many NOR gates?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "Which logic family famously uses the NAND gate as its primary, natural basic building block due to the internal transistor arrangement?",
+        "choices": [
+            "A. ECL",
+            "B. I2L",
+            "C. RTL",
+            "D. TTL (Transistor-Transistor Logic)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "A circuit consists of a NAND gate whose output is inverted by another NAND gate wired as an inverter. This circuit perfectly mimics a:",
+        "choices": [
+            "A. AND gate",
+            "B. OR gate",
+            "C. NOR gate",
+            "D. XNOR gate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "According to De Morgan's theorem, a bubbled-AND gate (an AND gate with inverters on all inputs) is logically equivalent to a:",
+        "choices": [
+            "A. NAND gate",
+            "B. NOR gate",
+            "C. OR gate",
+            "D. XOR gate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "According to De Morgan's theorem, a bubbled-OR gate (an OR gate with inverters on all inputs) is logically equivalent to a:",
+        "choices": [
+            "A. AND gate",
+            "B. NOR gate",
+            "C. NAND gate",
+            "D. XNOR gate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "Worded circuit: You are designing a custom IC and want to minimize fabrication costs by using only one type of gate array. To implement the Boolean function Y = AB + CD, which universal gate would typically allow for a direct 2-level implementation (SOP form)?",
+        "choices": [
+            "A. NOR",
+            "B. XNOR",
+            "C. XOR",
+            "D. NAND"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 68,
+        "question": "The Boolean algebraic law stating that A + B = B + A is formally known as the:",
+        "choices": [
+            "A. Commutative Law",
+            "B. Associative Law",
+            "C. Distributive Law",
+            "D. Absorptive Law"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "The Boolean expression A(B + C) = AB + AC represents which fundamental algebraic law?",
+        "choices": [
+            "A. Commutative Law",
+            "B. Distributive Law",
+            "C. Associative Law",
+            "D. De Morgan's Theorem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "The Associative Law of Boolean algebra for multiplication states that:",
+        "choices": [
+            "A. A(BC) = A + BC",
+            "B. A(B+C) = AB + AC",
+            "C. A(BC) = (AB)C",
+            "D. A + (B + C) = (A + B) + C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "According to De Morgan's First Theorem, the complement of a sum of variables is equal to the:",
+        "choices": [
+            "A. Sum of their complements",
+            "B. Sum of their products",
+            "C. Quotient of their complements",
+            "D. Product of their complements"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "Evaluate the Boolean expression: A + A'B using standard theorems.",
+        "choices": [
+            "A. A + B",
+            "B. A",
+            "C. B",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "Which of the following is the correct statement of the Identity Law for the OR operation?",
+        "choices": [
+            "A. A + 1 = A",
+            "B. A + 0 = A",
+            "C. A + A = A",
+            "D. A + A' = 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "According to the Idempotent Law, what does the expression A * A simplify to?",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. A",
+            "D. 2A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "The Boolean expression A + 1 simplifies to:",
+        "choices": [
+            "A. A",
+            "B. 0",
+            "C. A'",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 76,
+        "question": "Simplify the Boolean expression: A * (A + B).",
+        "choices": [
+            "A. A",
+            "B. AB",
+            "C. A + B",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "De Morgan's Second Theorem states that (A * B)' is logically equivalent to:",
+        "choices": [
+            "A. A' * B'",
+            "B. A' + B'",
+            "C. A + B",
+            "D. A' B + A B'"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "Simplify the expression: A'B + AB + AC.",
+        "choices": [
+            "A. A + BC",
+            "B. A' + B",
+            "C. B + AC",
+            "D. AB + C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "The Boolean rule stating that A + A' = 1 is known as the:",
+        "choices": [
+            "A. Identity Law",
+            "B. Null Law",
+            "C. Idempotent Law",
+            "D. Complementary Law"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "Simplify the Boolean expression: (A + B)(A + C).",
+        "choices": [
+            "A. A + BC",
+            "B. AB + C",
+            "C. A + B + C",
+            "D. ABC"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "What is the dual of the Boolean expression A + (B * C)?",
+        "choices": [
+            "A. A' + (B' * C')",
+            "B. A * (B + C)",
+            "C. A + B + C",
+            "D. A * B * C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "Evaluate the expression: (X + Y)' * Z using De Morgan's theorem.",
+        "choices": [
+            "A. X' + Y' * Z",
+            "B. X' Y' + Z",
+            "C. X' Y' Z",
+            "D. (X' + Y') Z"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "A Boolean expression written entirely as the logical sum of multiple product terms (e.g., AB + CD) is in which standard form?",
+        "choices": [
+            "A. Product of Sums (POS)",
+            "B. Canonical POS",
+            "C. Maxterm form",
+            "D. Sum of Products (SOP)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 84,
+        "question": "A Boolean expression written as the logical product of multiple sum terms (e.g., (A+B)(C+D)) is in which standard form?",
+        "choices": [
+            "A. Product of Sums (POS)",
+            "B. Sum of Products (SOP)",
+            "C. Minterm form",
+            "D. Canonical SOP"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "In a standard Sum of Products (SOP) expression, each individual product term is technically called a:",
+        "choices": [
+            "A. Maxterm",
+            "B. Minterm",
+            "C. Midterm",
+            "D. Monomial"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "In a Product of Sums (POS) expression, each individual sum term is known as a:",
+        "choices": [
+            "A. Minterm",
+            "B. Multiterm",
+            "C. Maxterm",
+            "D. Canonical term"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "A canonical SOP expression is one in which every minterm contains:",
+        "choices": [
+            "A. Only the complemented variables",
+            "B. Only uncomplemented variables",
+            "C. Exactly two variables",
+            "D. All the variables of the specific Boolean function"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "To convert a truth table directly into a Sum of Products (SOP) expression, you strictly formulate minterms for the rows where the output is:",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. Don't care",
+            "D. Alternating"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "To extract a Product of Sums (POS) expression from a truth table, you generate maxterms for the rows where the output evaluates to:",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. Don't care",
+            "D. Both 0 and 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "How many unique minterms are possible for a Boolean function consisting of exactly 3 variables (A, B, C)?",
+        "choices": [
+            "A. 4",
+            "B. 6",
+            "C. 8",
+            "D. 9"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "The minterm designated as m5 for a 3-variable system (A, B, C) where A is the MSB represents which boolean product?",
+        "choices": [
+            "A. A' B C",
+            "B. A B C",
+            "C. A' B' C",
+            "D. A B' C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "The maxterm designated as M2 for a 3-variable system (A, B, C) represents which boolean sum?",
+        "choices": [
+            "A. A + B' + C",
+            "B. A' + B + C'",
+            "C. A + B + C",
+            "D. A' + B' + C'"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 93,
+        "question": "Worded circuit: A logic circuit is designed from the expression Y = A'BC + AB'C + ABC. This circuit is structurally implemented using which specific arrangement of logic gates?",
+        "choices": [
+            "A. An OR gate feeding multiple AND gates",
+            "B. Multiple AND gates feeding a single OR gate",
+            "C. Multiple NAND gates feeding a single AND gate",
+            "D. Multiple XOR gates feeding a NOR gate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "The standard Sum of Products (SOP) form is most naturally and directly implemented using a 2-level gate architecture consisting of:",
+        "choices": [
+            "A. OR-AND",
+            "B. NOR-NOR",
+            "C. AND-OR",
+            "D. NAND-NOR"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "The standard Product of Sums (POS) form is most directly implemented using a 2-level gate architecture consisting of:",
+        "choices": [
+            "A. AND-OR",
+            "B. NAND-NAND",
+            "C. NOR-AND",
+            "D. OR-AND"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "A Boolean function F is given by the sum of minterms: Sum m(0, 1, 2, 3) for a 2-variable system (A, B). What does this function simplify to?",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. A + B",
+            "D. AB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "The complement of a specific minterm is exactly its corresponding:",
+        "choices": [
+            "A. Minterm",
+            "B. Maxterm",
+            "C. Identity",
+            "D. Dual"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "Any Boolean expression can be converted from SOP to POS (or vice-versa) primarily by applying:",
+        "choices": [
+            "A. Associative Law",
+            "B. Commutative Law",
+            "C. De Morgan's Theorem",
+            "D. Distributive Law"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "Convert the Boolean expression Y = AB + C into its equivalent POS form using the distributive law.",
+        "choices": [
+            "A. (A + C)(B + C)",
+            "B. (A + B)(A + C)",
+            "C. (A + B)C",
+            "D. A(B + C)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 100,
+        "question": "In Karnaugh map simplification, grouping the 1s inherently yields a simplified expression in which specific format?",
+        "choices": [
+            "A. POS",
+            "B. SOP",
+            "C. Canonical POS",
+            "D. Exclusive-OR"
+        ],
+        "correct_answer": "B"
+    }
+]

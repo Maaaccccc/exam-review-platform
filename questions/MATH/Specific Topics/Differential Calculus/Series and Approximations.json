@@ -1,0 +1,1080 @@
+[
+    {
+        "number": 1,
+        "question": "A point in the domain of f where f'(x) = 0 or f'(x) is undefined is called a:",
+        "choices": [
+            "A. Critical point",
+            "B. Inflection point",
+            "C. Boundary point",
+            "D. Limit point"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "Which rule is used to evaluate indeterminate limits of the form 0/0 or inf/inf?",
+        "choices": [
+            "A. Cramer's Rule",
+            "B. L'Hopital's Rule",
+            "C. Simpson's Rule",
+            "D. Leibniz's Rule"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "The Newton-Raphson iterative formula for finding roots of f(x) = 0 is given by:",
+        "choices": [
+            "A. x - f'(x)/f(x)",
+            "B. x + f(x)/f'(x)",
+            "C. x - f(x)/f'(x)",
+            "D. x + f'(x)/f(x)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "Find the critical point of f(x) = x^2 - 4x + 5.",
+        "choices": [
+            "A. x = -2",
+            "B. x = -4",
+            "C. x = 4",
+            "D. x = 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "Evaluate limit as x->0 of (sin 2x)/x.",
+        "choices": [
+            "A. 2",
+            "B. 1",
+            "C. 0",
+            "D. infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "If f''(x) < 0 on an interval, the curve is:",
+        "choices": [
+            "A. Concave upward",
+            "B. Concave downward",
+            "C. Increasing",
+            "D. Decreasing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "Find the inflection point of y = x^3 - 6x^2.",
+        "choices": [
+            "A. (0,0)",
+            "B. (3,-27)",
+            "C. (2,-16)",
+            "D. (4,-32)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "The Maclaurin series is a special case of the Taylor series expanded at what value of x?",
+        "choices": [
+            "A. x = 1",
+            "B. x = e",
+            "C. x = infinity",
+            "D. x = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "The Taylor series expansion of f(x) about x = a is given by the sum of:",
+        "choices": [
+            "A. f^(n)(a)*(x-a)^n / n!",
+            "B. f^(n)(x)*(x-a)^n / n!",
+            "C. f^(n)(a)*(x+a)^n / n!",
+            "D. f^(n)(x)*(x+a)^n / n!"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "What is the first term (n=0) of the Maclaurin series for f(x) = sin x?",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. x",
+            "D. -1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "What is the first term (n=0) of the Maclaurin series for f(x) = cos x?",
+        "choices": [
+            "A. 0",
+            "B. x",
+            "C. 1",
+            "D. -1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "What factor appears in the denominator of the nth term of a Taylor series?",
+        "choices": [
+            "A. n",
+            "B. 2n!",
+            "C. n-1!",
+            "D. n!"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "The definition of the differential dy is:",
+        "choices": [
+            "A. f'(x)dx",
+            "B. f(x)dx",
+            "C. f''(x)dx",
+            "D. dx/f'(x)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "The linear approximation formula L(x) for f(x) near x = a is:",
+        "choices": [
+            "A. f(a) + f(x)(x-a)",
+            "B. f(a) + f'(a)(x-a)",
+            "C. f'(a) + f(a)(x-a)",
+            "D. f(a) - f'(a)(x-a)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "The approximation f(x) ~ f(a) + f'(a)(x-a) is essentially finding the:",
+        "choices": [
+            "A. Secant line",
+            "B. Normal line",
+            "C. Tangent line",
+            "D. Asymptote"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "The error in linear approximation is the difference between the true value and the:",
+        "choices": [
+            "A. Differential",
+            "B. Function",
+            "C. Derivative",
+            "D. Linearization"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "Relative error is defined as:",
+        "choices": [
+            "A. Absolute error / True value",
+            "B. True value / Absolute error",
+            "C. Absolute error * True value",
+            "D. True value - Absolute error"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "Percentage error is relative error multiplied by:",
+        "choices": [
+            "A. 10",
+            "B. 100",
+            "C. 1000",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Absolute error in measuring x is typically represented by the magnitude of:",
+        "choices": [
+            "A. dx/x",
+            "B. x/dx",
+            "C. dx",
+            "D. dx*x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "If dx is the error in measuring x, the propagated error in f(x) is approximated by:",
+        "choices": [
+            "A. f(x)dx",
+            "B. f''(x)dx",
+            "C. dx/f'(x)",
+            "D. f'(x)dx"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "In economics, the marginal cost is the derivative of the:",
+        "choices": [
+            "A. Total cost function",
+            "B. Average cost function",
+            "C. Profit function",
+            "D. Revenue function"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Marginal revenue is approximately the revenue gained from selling:",
+        "choices": [
+            "A. Ten more units",
+            "B. One additional unit",
+            "C. Zero units",
+            "D. All units"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "Profit function P(x) is defined as:",
+        "choices": [
+            "A. Revenue / Cost",
+            "B. Cost - Revenue",
+            "C. Revenue - Cost",
+            "D. Revenue * Cost"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "Maximum profit occurs when Marginal Revenue equals:",
+        "choices": [
+            "A. Marginal Profit",
+            "B. Total Cost",
+            "C. Zero",
+            "D. Marginal Cost"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "The Maclaurin series for e^x is given by:",
+        "choices": [
+            "A. sum(x^n / n!)",
+            "B. sum(x^n)",
+            "C. sum((-1)^n x^n / n!)",
+            "D. sum(x^(2n) / (2n)!)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "Which function has only odd powers of x in its Maclaurin series?",
+        "choices": [
+            "A. cos(x)",
+            "B. e^x",
+            "C. sin(x)",
+            "D. cosh(x)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Which function has only even powers of x in its Maclaurin series?",
+        "choices": [
+            "A. sin(x)",
+            "B. e^x",
+            "C. sinh(x)",
+            "D. cos(x)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "The term -x^3/3! appears in the Maclaurin expansion of:",
+        "choices": [
+            "A. sin(x)",
+            "B. cos(x)",
+            "C. e^x",
+            "D. sinh(x)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "The radius of convergence for the Maclaurin series of e^x is:",
+        "choices": [
+            "A. 1",
+            "B. Infinity",
+            "C. 0",
+            "D. e"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Evaluate the differential dy if y = x^3, x = 2, and dx = 0.1.",
+        "choices": [
+            "A. 1.0",
+            "B. 0.8",
+            "C. 1.2",
+            "D. 1.4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "Use differentials to approximate the change in y = x^2 when x changes from 3 to 3.05.",
+        "choices": [
+            "A. 0.15",
+            "B. 0.20",
+            "C. 0.45",
+            "D. 0.30"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "Approximate sqrt(16.2) using linear approximation at x = 16.",
+        "choices": [
+            "A. 4.025",
+            "B. 4.050",
+            "C. 4.015",
+            "D. 4.100"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "The Maclaurin series for ln(1+x) starts with:",
+        "choices": [
+            "A. 1 - x",
+            "B. x - x^2/2",
+            "C. x + x^2/2",
+            "D. 1 + x"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Find the 3rd degree Taylor polynomial of f(x) = ln x centered at x = 1.",
+        "choices": [
+            "A. (x-1) - (x-1)^2/2 + (x-1)^3/6",
+            "B. (x-1) + (x-1)^2/2 + (x-1)^3/3",
+            "C. (x-1) - (x-1)^2/2 + (x-1)^3/3",
+            "D. (x-1) + (x-1)^2/2 - (x-1)^3/6"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "The radius of a circle is measured as 5 cm with a possible error of 0.1 cm. Estimate the maximum error in the calculated area.",
+        "choices": [
+            "A. 0.5 pi",
+            "B. 2.5 pi",
+            "C. 5.0 pi",
+            "D. 1.0 pi"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "The side of a cube is measured to be 10 cm with a relative error of 1%. What is the approximate relative error in its volume?",
+        "choices": [
+            "A. 3%",
+            "B. 1%",
+            "C. 0.3%",
+            "D. 10%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "If the cost function is C(x) = 100 + 5x + 0.01x^2, find the marginal cost at x = 50.",
+        "choices": [
+            "A. 5.5",
+            "B. 6.0",
+            "C. 5.0",
+            "D. 6.5"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Given the revenue function R(x) = 50x - 0.5x^2, find the marginal revenue when x = 20.",
+        "choices": [
+            "A. 20",
+            "B. 40",
+            "C. 30",
+            "D. 10"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "A manufacturer's profit is P(x) = -2x^2 + 400x - 5000. How many units x maximize profit?",
+        "choices": [
+            "A. 50",
+            "B. 200",
+            "C. 150",
+            "D. 100"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Estimate cos(61 degrees) using differentials (1 degree = pi/180 radians).",
+        "choices": [
+            "A. 0.5 - pi/360 * sqrt(3)",
+            "B. 0.5 + pi/360 * sqrt(3)",
+            "C. 0.5 - pi/180 * sqrt(3)",
+            "D. 0.5 - pi/360"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "Determine the coefficient of x^3 in the Maclaurin series of f(x) = e^(2x).",
+        "choices": [
+            "A. 8/3",
+            "B. 4/3",
+            "C. 2/3",
+            "D. 4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Evaluate the first three non-zero terms of the Maclaurin series for f(x) = x cos x.",
+        "choices": [
+            "A. x - x^2/2 + x^4/24",
+            "B. x - x^3/6 + x^5/120",
+            "C. x - x^3/2 + x^5/24",
+            "D. x + x^3/2 + x^5/24"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "Use differentials to approximate (1.02)^3.",
+        "choices": [
+            "A. 1.04",
+            "B. 1.08",
+            "C. 1.02",
+            "D. 1.06"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Find the coefficient of (x-2)^2 in the Taylor series of f(x) = 1/x centered at x = 2.",
+        "choices": [
+            "A. 1/8",
+            "B. -1/4",
+            "C. 1/4",
+            "D. -1/8"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "What is the coefficient of x^4 in the Maclaurin series for f(x) = sin(x^2)?",
+        "choices": [
+            "A. -1/6",
+            "B. 0",
+            "C. 1/24",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "The voltage across a resistor is V = IR. If I is measured as 5A with 2% error and R as 10 ohms with 3% error, what is the maximum percentage error in V?",
+        "choices": [
+            "A. 1%",
+            "B. 6%",
+            "C. 5%",
+            "D. 1.5%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "A spherical balloon is inflated so its radius increases from 10 cm to 10.2 cm. Approximate the increase in volume.",
+        "choices": [
+            "A. 40 pi",
+            "B. 60 pi",
+            "C. 100 pi",
+            "D. 80 pi"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "Approximate the value of sin(0.1) using the linear approximation of sin x at x = 0.",
+        "choices": [
+            "A. 0.01",
+            "B. 0.1",
+            "C. 0",
+            "D. 0.11"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "What is the linear approximation L(x) for f(x) = e^(2x) near x = 0?",
+        "choices": [
+            "A. L(x) = 1 + x",
+            "B. L(x) = 2x",
+            "C. L(x) = 1 + 2x",
+            "D. L(x) = e + 2x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "The period of a pendulum is T = 2 pi sqrt(L/g). If L increases by 2%, by what percentage does T approximately increase?",
+        "choices": [
+            "A. 2%",
+            "B. 4%",
+            "C. 0.5%",
+            "D. 1%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "Find the coefficient of x^3 in the Maclaurin series of f(x) = 1/(1+x).",
+        "choices": [
+            "A. -1",
+            "B. 1",
+            "C. -1/3",
+            "D. 1/6"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "Using differentials, approximate the change in f(x) = x^4 - 3x^2 when x changes from 2 to 1.99.",
+        "choices": [
+            "A. -0.1",
+            "B. -0.2",
+            "C. 0.2",
+            "D. 0.1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "The demand function is p = 100 - 2x. Find the marginal revenue.",
+        "choices": [
+            "A. 100 - 2x",
+            "B. 100x - 2x^2",
+            "C. 100 - 4x",
+            "D. -2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "The Taylor polynomial of degree 1 for f(x) = sqrt(x) at a = 9 is:",
+        "choices": [
+            "A. 3 + 1/3 (x-9)",
+            "B. 3 + (x-9)",
+            "C. 3 + 1/2 (x-9)",
+            "D. 3 + 1/6 (x-9)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "What is the second term of the Taylor series for f(x) = e^x centered at x = 2?",
+        "choices": [
+            "A. e^2 (x-2)",
+            "B. e (x-2)",
+            "C. e^2 (x-2)^2 / 2",
+            "D. (x-2) / e"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Approximate the area of a ring with inner radius 10 cm and width 0.1 cm using differentials.",
+        "choices": [
+            "A. pi sq cm",
+            "B. 2 pi sq cm",
+            "C. 0.1 pi sq cm",
+            "D. 4 pi sq cm"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "A manufacturer's total cost is C(x) = x^3 - 6x^2 + 15x. Find the marginal cost when x = 3.",
+        "choices": [
+            "A. 12",
+            "B. 15",
+            "C. 6",
+            "D. 24"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "The Maclaurin series for e^(-x^2) is:",
+        "choices": [
+            "A. 1 - x^2 + x^4 - ...",
+            "B. 1 + x^2 + x^4/2 + ...",
+            "C. 1 - x + x^2/2 - ...",
+            "D. 1 - x^2 + x^4/2 - x^6/6 + ..."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "The absolute error is 0.05 m in a measurement of 20 m. Find the percentage error.",
+        "choices": [
+            "A. 0.25%",
+            "B. 2.5%",
+            "C. 0.0025%",
+            "D. 5%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "Find the coefficient of x^5 in the Maclaurin series of sinh(x).",
+        "choices": [
+            "A. 1/5",
+            "B. 1/120",
+            "C. -1/120",
+            "D. 1/24"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "Given C(x) = 500 + 10x + 0.2x^2, find the approximate cost of producing the 11th unit using marginal cost.",
+        "choices": [
+            "A. 12",
+            "B. 16",
+            "C. 14",
+            "D. 18"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "Use a linear approximation to estimate ln(1.05).",
+        "choices": [
+            "A. 0.025",
+            "B. 0.1",
+            "C. 0.5",
+            "D. 0.05"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "What is the Maclaurin series for 1/(1+x^2)?",
+        "choices": [
+            "A. 1 - x^2 + x^4 - x^6 + ...",
+            "B. 1 + x^2 + x^4 + x^6 + ...",
+            "C. 1 - x + x^2 - x^3 + ...",
+            "D. 1 + x + x^2 + x^3 + ..."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "The power dissipated by a resistor is P = V^2 / R. If V has a 1% error and R is exact, the percentage error in P is:",
+        "choices": [
+            "A. 1%",
+            "B. 2%",
+            "C. 0.5%",
+            "D. 4%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Find the differential dy for y = ln(cos x).",
+        "choices": [
+            "A. sec x dx",
+            "B. cot x dx",
+            "C. -tan x dx",
+            "D. tan x dx"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Find the linear approximation of f(x) = (1+x)^k for x near 0.",
+        "choices": [
+            "A. 1 + x",
+            "B. 1 + k/x",
+            "C. k + x",
+            "D. 1 + kx"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "Find the marginal average cost if total cost is C(x) = 100 + 5x, at x = 10.",
+        "choices": [
+            "A. -1",
+            "B. -5",
+            "C. 1",
+            "D. 0.5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "A measurement of a side of a square has an error of at most 0.5%. What is the maximum percentage error in the calculated area?",
+        "choices": [
+            "A. 0.5%",
+            "B. 1.0%",
+            "C. 2.0%",
+            "D. 0.25%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "Find the coefficient of x^3 in the Maclaurin series of f(x) = e^x sin x.",
+        "choices": [
+            "A. 5/6",
+            "B. 1/2",
+            "C. 1/3",
+            "D. 1/6"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "Use a 2nd-degree Taylor polynomial to approximate sqrt(4.2) centered at a=4.",
+        "choices": [
+            "A. 2.0500",
+            "B. 2.0485",
+            "C. 2.0488",
+            "D. 2.0494"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "Evaluate the limit as x->0 of (e^x - 1 - x - x^2/2) / x^3 using Maclaurin series.",
+        "choices": [
+            "A. 1/6",
+            "B. 1/3",
+            "C. 1/2",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "Find the coefficient of x^4 in the Maclaurin series of f(x) = ln(cos x).",
+        "choices": [
+            "A. -1/2",
+            "B. -1/12",
+            "C. 1/12",
+            "D. 1/24"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "A cylindrical tank has radius 5m and height 10m. If the radius is measured with a maximum error of 0.2m and height with 0.1m, what is the maximum propagated error in the volume?",
+        "choices": [
+            "A. 20.0 pi",
+            "B. 25.5 pi",
+            "C. 22.5 pi",
+            "D. 27.0 pi"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "The radius of convergence of the series sum( (x-3)^n / n ) is:",
+        "choices": [
+            "A. 0",
+            "B. 3",
+            "C. infinity",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "Find the approximate value of the root of x^3 + x - 1 = 0 near x=0.5 using one iteration of Newton's method.",
+        "choices": [
+            "A. 0.714",
+            "B. 0.682",
+            "C. 0.750",
+            "D. 0.612"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "Find the coefficient of x^5 in the expansion of f(x) = (1-x)^(-2).",
+        "choices": [
+            "A. 5",
+            "B. 6",
+            "C. -5",
+            "D. -6"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "Evaluate the sum of the infinite series 1 - 1/2! + 1/4! - 1/6! + ...",
+        "choices": [
+            "A. 1",
+            "B. e",
+            "C. cos(1)",
+            "D. sin(1)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "Determine the interval of convergence for sum( (x^n) / (n * 2^n) ).",
+        "choices": [
+            "A. (-2, 2)",
+            "B. (-1, 1)",
+            "C. [-2, 2]",
+            "D. [-2, 2)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "A manufacturer estimates the demand equation as p = 1000 - 5x. If cost is C(x) = 3000 + 20x, find the production level x that maximizes profit.",
+        "choices": [
+            "A. 98",
+            "B. 100",
+            "C. 120",
+            "D. 80"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "Find the Maclaurin series for f(x) = x^2 e^(-x).",
+        "choices": [
+            "A. sum( (-1)^n x^n / n! )",
+            "B. sum( (-1)^n x^(n+2) / n! )",
+            "C. sum( x^(n+2) / n! )",
+            "D. sum( (-1)^n x^(2n) / n! )"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "Given f(x) = x^(1/3). Use the differential to approximate (8.06)^(1/3).",
+        "choices": [
+            "A. 2.015",
+            "B. 2.025",
+            "C. 2.005",
+            "D. 2.010"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "Use a third-degree Maclaurin polynomial to approximate integral from 0 to 1 of sin(x^2) dx.",
+        "choices": [
+            "A. 0.40",
+            "B. 0.38",
+            "C. 0.31",
+            "D. 0.33"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "The exact error in linear approximation of f(x) at x=a is given by the remainder term R_1(x) from Taylor's Theorem. This term is:",
+        "choices": [
+            "A. f''(c)(x-a)^2 / 2",
+            "B. f'(c)(x-a)",
+            "C. f''(a)(x-a)^2 / 2",
+            "D. f'''(c)(x-a)^3 / 6"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Find the coefficient of x^3 in the Taylor series for f(x) = ln(x) about x = 2.",
+        "choices": [
+            "A. 1/12",
+            "B. 1/24",
+            "C. -1/8",
+            "D. -1/24"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "Evaluate the limit as x->0 of (x - sin x) / (x^3) using series expansion.",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 1/6",
+            "D. 1/3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "What is the marginal revenue for the demand function p = 50 / sqrt(x) when x = 25?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 4",
+            "D. 5"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "Using the Binomial Series expansion, what is the coefficient of x^2 in sqrt(1+x)?",
+        "choices": [
+            "A. -1/8",
+            "B. 1/8",
+            "C. -1/4",
+            "D. 1/2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "The volume of a right circular cone is V = pi/3 r^2 h. If r is measured with a 2% error and h with a 1% error, the max percentage error in V is:",
+        "choices": [
+            "A. 3%",
+            "B. 5%",
+            "C. 1%",
+            "D. 6%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "Determine the first non-zero term in the Maclaurin expansion of f(x) = tan x - x.",
+        "choices": [
+            "A. x^2/2",
+            "B. -x^3/3",
+            "C. x^3/3",
+            "D. x^5/15"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Approximate the value of e^(0.2) using a second-degree Maclaurin polynomial.",
+        "choices": [
+            "A. 1.200",
+            "B. 1.225",
+            "C. 1.210",
+            "D. 1.220"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "Evaluate the limit as x->0 of (1 - cos 2x) / (x * sin x) using Maclaurin series.",
+        "choices": [
+            "A. 2",
+            "B. 1",
+            "C. 0",
+            "D. 1/2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "A company's marginal cost is MC(x) = 4x + 10. If fixed costs are 50, find the total cost function C(x).",
+        "choices": [
+            "A. 4x^2 + 10x + 50",
+            "B. 2x^2 + 10x + 50",
+            "C. 2x^2 + 10x",
+            "D. 4x^2 + 10x"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "The power series for f(x) = arctan(x) is sum( (-1)^n x^(2n+1) / (2n+1) ). What is the radius of convergence?",
+        "choices": [
+            "A. 0",
+            "B. infinity",
+            "C. 1",
+            "D. pi/2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "The error in measuring the radius of a sphere is dr. If the relative error in volume must not exceed 6%, what is the maximum relative error in the radius?",
+        "choices": [
+            "A. 6%",
+            "B. 3%",
+            "C. 1%",
+            "D. 2%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "Find the coefficient of x^2 in the Maclaurin expansion of f(x) = e^x * cos x.",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. -1",
+            "D. 1/2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "Approximate the integral of e^(-x^2) from 0 to 1 using the first three terms of its Maclaurin series.",
+        "choices": [
+            "A. 0.833",
+            "B. 0.767",
+            "C. 0.743",
+            "D. 0.667"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "Using differentials, estimate the change in z = x^2 y if x changes from 2 to 2.01 and y changes from 3 to 2.98.",
+        "choices": [
+            "A. 0.16",
+            "B. 0.08",
+            "C. 0.04",
+            "D. 0.12"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "Evaluate sum_n=1^infinity n*(0.5)^(n-1) using the fact that it is the derivative of the geometric series evaluated at x=0.5.",
+        "choices": [
+            "A. 2",
+            "B. 1",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "D"
+    }
+]

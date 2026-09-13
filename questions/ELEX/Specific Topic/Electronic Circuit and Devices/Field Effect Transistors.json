@@ -1,0 +1,1157 @@
+[
+    {
+        "number": 1,
+        "question": "What is the fundamental mathematical relationship connecting the common-emitter current gain (Beta) and the common-base current gain (Alpha) of a BJT?",
+        "choices": [
+            "A. Beta = Alpha / (Alpha + 1)",
+            "B. Beta = (1 - Alpha) / Alpha",
+            "C. Alpha = Beta / (Beta + 1)",
+            "D. Alpha = (Beta - 1) / Beta"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "For a BJT operating strictly in the saturation region (acting as a closed switch), how are its internal PN junctions biased?",
+        "choices": [
+            "A. Both EBJ and CBJ are reverse-biased",
+            "B. Both EBJ and CBJ are forward-biased",
+            "C. EBJ is forward-biased, CBJ is reverse-biased",
+            "D. EBJ is reverse-biased, CBJ is forward-biased"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "A basic NPN common-emitter amplifier has a DC base current of 25 microamperes. If the transistor has a Beta of 120, what is the expected collector current?",
+        "choices": [
+            "A. 3.0 mA",
+            "B. 2.5 mA",
+            "C. 4.8 mA",
+            "D. 1.2 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 4,
+        "question": "Worded circuit: A basic CE switching circuit uses an NPN transistor powered by Vcc = 15V. The collector resistor Rc is 1.5 k-ohms. If the transistor is driven into hard saturation (assume Vce(sat) = 0.2V), what is the approximate saturation current?",
+        "choices": [
+            "A. 10.0 mA",
+            "B. 15.0 mA",
+            "C. 9.87 mA",
+            "D. 12.5 mA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 5,
+        "question": "In BJT physics, an increase in collector-to-base voltage causes the effective width of the neutral base region to decrease, slightly increasing the collector current. This is known as the:",
+        "choices": [
+            "A. Zener effect",
+            "B. Avalanche effect",
+            "C. Early effect",
+            "D. Miller effect"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "Worded circuit: A BJT voltage-divider bias network uses Vcc = 24V, R1 = 56 k-ohms (connected to Vcc), and R2 = 12 k-ohms (connected to ground). Using the approximate method, what is the DC base voltage Vb?",
+        "choices": [
+            "A. 6.42 V",
+            "B. 4.24 V",
+            "C. 5.14 V",
+            "D. 3.65 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "Among the three standard BJT amplifier configurations, which one is characterized by having a very low input impedance and a current gain slightly less than unity?",
+        "choices": [
+            "A. Common-Collector",
+            "B. Common-Emitter",
+            "C. Common-Drain",
+            "D. Common-Base"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "The potentially destructive physical condition in a BJT where an increase in junction temperature leads to higher leakage current, causing even more heating, is termed:",
+        "choices": [
+            "A. Secondary breakdown",
+            "B. Thermal runaway",
+            "C. Avalanche multiplication",
+            "D. Punch-through"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "In standard electronics terminology, what does the acronym JFET stand for?",
+        "choices": [
+            "A. Junction Field Effect Thyristor",
+            "B. Junction Field Emitter Transistor",
+            "C. Junction Field Effect Transistor",
+            "D. Junction Forward Effect Transistor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "In an n-channel JFET, the main conductive channel is composed of n-type semiconductor material. What constitutes the majority charge carriers flowing through this channel?",
+        "choices": [
+            "A. Holes",
+            "B. Electrons",
+            "C. Positrons",
+            "D. Both electrons and holes"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "A p-channel JFET physically consists of a p-type semiconductor channel bounded by two gate regions. What material type are these gate regions made of?",
+        "choices": [
+            "A. Intrinsic silicon",
+            "B. N-type material",
+            "C. P-type material",
+            "D. Silicon dioxide"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "Unlike Bipolar Junction Transistors (BJTs) which are current-controlled, Field Effect Transistors (FETs) like the JFET are fundamentally classified as:",
+        "choices": [
+            "A. Voltage-controlled devices",
+            "B. Power-controlled devices",
+            "C. Resistance-controlled devices",
+            "D. Frequency-controlled devices"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "BJTs are termed \"bipolar\" because conduction relies on both electrons and holes. JFETs are termed \"unipolar\" because their conduction relies strictly on:",
+        "choices": [
+            "A. Minority carriers only",
+            "B. Both majority and minority carriers",
+            "C. Holes only",
+            "D. Majority carriers only"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "A JFET inherently possesses an exceptionally high input impedance (typically in the megohm range). This is physically because its gate-to-source PN junction is normally operated in:",
+        "choices": [
+            "A. Avalanche breakdown",
+            "B. Forward bias",
+            "C. Reverse bias",
+            "D. Zero bias only"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "To ensure normal, controlled operation in the active region, the gate-to-source voltage (Vgs) applied to an n-channel JFET must be:",
+        "choices": [
+            "A. Strictly zero or negative",
+            "B. Strictly positive",
+            "C. Highly oscillating",
+            "D. Exactly equal to Vdd"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 16,
+        "question": "To properly control the channel conductivity in a p-channel JFET, the applied gate-to-source voltage (Vgs) must typically be:",
+        "choices": [
+            "A. Zero or positive",
+            "B. Zero or negative",
+            "C. Equal to the pinch-off voltage always",
+            "D. Greater than the drain supply voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "What are the standard terminal designations for a standard JFET device?",
+        "choices": [
+            "A. Emitter, Base, Collector",
+            "B. Anode, Cathode, Gate",
+            "C. Drain, Source, Gate",
+            "D. Source, Drain, Substrate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 18,
+        "question": "In a standard n-channel JFET bias setup, the drain terminal is made electrically positive with respect to the source. This is done to attract which specific charge carriers from the source to the drain?",
+        "choices": [
+            "A. Electrons",
+            "B. Holes",
+            "C. Acceptor ions",
+            "D. Donor ions"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "For any given JFET, the maximum possible drain current under normal operating conditions occurs precisely when the gate-to-source voltage (Vgs) is equal to:",
+        "choices": [
+            "A. Vp / 2",
+            "B. 0 V",
+            "C. Vgs(off)",
+            "D. +5 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "The standard datasheet parameter defined as the maximum drain current flowing when the gate is shorted to the source is mathematically denoted by the symbol:",
+        "choices": [
+            "A. Id(max)",
+            "B. Igss",
+            "C. Ids",
+            "D. Idss"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "The specific negative gate-to-source voltage (in an n-channel JFET) that causes the drain current to drop to approximately zero is formally called the:",
+        "choices": [
+            "A. Breakdown voltage",
+            "B. Gate-to-source cutoff voltage",
+            "C. Knee voltage",
+            "D. Threshold voltage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "The Pinch-off Voltage (Vp) of a JFET is strictly defined as the drain-to-source voltage (Vds) at which the drain current reaches a constant, saturated maximum value when Vgs is exactly:",
+        "choices": [
+            "A. 0 V",
+            "B. Cutoff",
+            "C. Infinity",
+            "D. Vp/2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "Mathematically, the magnitude of the pinch-off voltage",
+        "choices": [
+            "A. Vp",
+            "B. is universally equal to the magnitude of which other critical JFET parameter?",
+            "C. Breakdown voltage",
+            "D. Thermal voltage"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 24,
+        "question": "If a specific n-channel JFET datasheet specifies a pinch-off voltage (Vp) of 5V, what is its strict theoretical gate cutoff voltage (Vgs(off))?",
+        "choices": [
+            "A. +5 V",
+            "B. -5 V",
+            "C. 0 V",
+            "D. -2.5 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "If a specific p-channel JFET datasheet specifies a pinch-off voltage (Vp) of -4V, what is its strict theoretical gate cutoff voltage (Vgs(off))?",
+        "choices": [
+            "A. -4 V",
+            "B. +4 V",
+            "C. +2 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "The broad, flat region of the JFET drain characteristic curve where the drain current is relatively constant and independent of changes in Vds is formally called the:",
+        "choices": [
+            "A. Ohmic region",
+            "B. Cutoff region",
+            "C. Triode region",
+            "D. Active or Saturation region"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "The distinct region of the JFET drain characteristic curve where Vds is very low (less than Vp) and the channel physically acts like a voltage-controlled variable resistor is the:",
+        "choices": [
+            "A. Ohmic region",
+            "B. Active region",
+            "C. Breakdown region",
+            "D. Saturation region"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "As the gate-to-source voltage (Vgs) of an n-channel JFET is made increasingly negative, what physical change happens to the depletion region within the device?",
+        "choices": [
+            "A. It completely disappears",
+            "B. It narrows, increasing the channel conductivity",
+            "C. It widens, restricting the conductive channel",
+            "D. It converts into a p-type material"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "The fundamental non-linear mathematical relationship between the drain current (Id) and the gate-to-source voltage (Vgs) in the active region of a JFET is governed by:",
+        "choices": [
+            "A. Maxwell's equation",
+            "B. Shockley's equation",
+            "C. The Ebers-Moll equation",
+            "D. The continuity equation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "Which of the following represents the exact standard mathematical formulation of Shockley's equation for a JFET?",
+        "choices": [
+            "A. Id = Idss * (1 + Vgs/Vp)^2",
+            "B. Id = Idss * (1 - Vp/Vgs)^2",
+            "C. Id = Idss * (1 - Vgs/Vp)^2",
+            "D. Id = Idss * (Vgs/Vp - 1)^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "A given n-channel JFET possesses an Idss of 12 mA and a Vgs(off) of -6V. If it is biased such that Vgs is exactly -3V, what is the resulting drain current?",
+        "choices": [
+            "A. 6.0 mA",
+            "B. 3.0 mA",
+            "C. 9.0 mA",
+            "D. 1.5 mA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "A standard p-channel JFET has an Idss of 16 mA and a pinch-off voltage Vp of -4V (meaning Vgs(off) = +4V). If Vgs is biased at +2V, calculate the exact drain current.",
+        "choices": [
+            "A. 8.0 mA",
+            "B. 12.0 mA",
+            "C. 2.0 mA",
+            "D. 4.0 mA"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "According to Shockley's equation, if a JFET is biased exactly at Vgs = Vp / 2, the resulting drain current will be precisely what percentage of Idss?",
+        "choices": [
+            "A. 50%",
+            "B. 75%",
+            "C. 25%",
+            "D. 12.5%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "For an n-channel JFET, at what specific applied Vgs does the theoretical drain current reach exactly Idss?",
+        "choices": [
+            "A. Vp",
+            "B. 0 V",
+            "C. Vp / 2",
+            "D. +Vdd"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "To bias a JFET such that its drain current is exactly 50% of its maximum saturated current (Idss), the required Vgs must be approximately:",
+        "choices": [
+            "A. 0.5 * Vp",
+            "B. 0.707 * Vp",
+            "C. 0.293 * Vp",
+            "D. 0.15 * Vp"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "The forward transconductance (gm) of a JFET is a highly critical AC parameter. It mathematically defines the rate of change of:",
+        "choices": [
+            "A. Gate current with respect to drain voltage",
+            "B. Drain current with respect to drain-source voltage",
+            "C. Drain current with respect to gate-source voltage",
+            "D. Gate voltage with respect to drain current"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "An n-channel JFET has datasheet parameters Idss = 10 mA and Vgs(off) = -5V. What is its maximum transconductance (gm0) at Vgs = 0V?",
+        "choices": [
+            "A. 4 mS",
+            "B. 2 mS",
+            "C. 5 mS",
+            "D. 1 mS"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "The mathematical formula relating the transconductance (gm) at a specific operating Vgs to the maximum transconductance (gm0) is:",
+        "choices": [
+            "A. gm = gm0 * (1 - Vgs/Vp)^2",
+            "B. gm = gm0 * (1 - Vp/Vgs)",
+            "C. gm = gm0 * (1 - Vgs/Vp)",
+            "D. gm = gm0 / (1 - Vgs/Vp)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "If an n-channel JFET is biased such that its drain current is exactly one-fourth (25%) of its Idss, its corresponding transconductance (gm) will be exactly:",
+        "choices": [
+            "A. 25% of gm0",
+            "B. 50% of gm0",
+            "C. 70.7% of gm0",
+            "D. Equal to gm0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "Worded circuit: An n-channel JFET uses a fixed-bias setup where a DC battery Vgg of 3V is connected via a 1 Megohm resistor to the gate. The positive terminal of Vgg is grounded, and the negative terminal faces the gate. What is the DC voltage Vgs?",
+        "choices": [
+            "A. +3 V",
+            "B. 0 V",
+            "C. -3 V",
+            "D. -1.5 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "Worded circuit: An n-channel JFET with Idss = 8 mA and Vp = -4V is configured in a fixed-bias circuit. The gate is connected to a -2V DC source. The drain is connected to a 12V supply via a 2.2 k-ohm resistor. Calculate the exact drain current (Id).",
+        "choices": [
+            "A. 4.0 mA",
+            "B. 6.0 mA",
+            "C. 2.0 mA",
+            "D. 8.0 mA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "Based on the previous fixed-bias circuit (Id = 2.0 mA, Vdd = 12V, Rd = 2.2 k-ohms, Source grounded), determine the exact drain-to-source voltage (Vds).",
+        "choices": [
+            "A. 12.0 V",
+            "B. 4.4 V",
+            "C. 7.6 V",
+            "D. 9.8 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "In standard JFET biasing circuits, a very large resistor (e.g., 1 to 10 Megohms) is almost always placed in series with the gate. The primary physical purpose of this resistor is to:",
+        "choices": [
+            "A. Drop the DC bias voltage significantly",
+            "B. Maintain the extremely high AC input impedance of the amplifier",
+            "C. Limit the massive DC gate current",
+            "D. Protect the JFET from avalanche breakdown"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "Worded circuit: A p-channel JFET fixed-bias circuit has its gate connected to a positive battery Vgg = 2.5V through a 2.2 Megohm resistor. The source is tied directly to ground. If Idss = 10 mA and Vp = +5V (meaning Vgs(off) = 5V), find the drain current.",
+        "choices": [
+            "A. 2.5 mA",
+            "B. 5.0 mA",
+            "C. 7.5 mA",
+            "D. 10.0 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "Worded circuit: An n-channel JFET is placed in a self-bias configuration. A resistor Rs is connected between the source and ground. The gate is connected directly to ground through a large 1 Megohm resistor Rg. What is the theoretical DC voltage at the gate terminal (Vg) with respect to ground?",
+        "choices": [
+            "A. Equal to Vdd",
+            "B. 0 V",
+            "C. Equal to Vgs(off)",
+            "D. -0.7 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "Worded circuit: In the standard n-channel JFET self-bias configuration (gate grounded through Rg, source to ground through Rs), the strict mathematical expression for the gate-to-source voltage (Vgs) is:",
+        "choices": [
+            "A. Vgs = Vdd - Id*Rs",
+            "B. Vgs = Id*Rs",
+            "C. Vgs = -Id*Rs",
+            "D. Vgs = Vg + Id*Rs"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "Worded circuit: An n-channel JFET self-bias circuit has a source resistor Rs = 1.2 k-ohms. If an ammeter measures the operating drain current Id to be 2.5 mA, what is the exact operating gate-to-source voltage Vgs?",
+        "choices": [
+            "A. -3.0 V",
+            "B. +3.0 V",
+            "C. -1.2 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "To graphically solve for the exact Q-point in a complex JFET self-bias circuit, one must plot the non-linear Shockley transfer curve and intersect it directly with the:",
+        "choices": [
+            "A. AC load line",
+            "B. DC load line representing Vds",
+            "C. Self-bias line representing Vgs = -Id*Rs",
+            "D. Maximum power dissipation curve"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "On the Id vs Vgs transfer characteristic graph, the mathematical equation for the self-bias line (Vgs = -Id*Rs) graphs strictly as a:",
+        "choices": [
+            "A. Parabola",
+            "B. Straight line passing through the origin with a slope of -1/Rs",
+            "C. Straight line intersecting the Vgs axis at Vp",
+            "D. Logarithmic curve"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "Worded circuit: An n-channel JFET (Idss = 8 mA, Vp = -4V) is configured in a self-bias circuit with Rs = 1 k-ohm. Calculate the exact operating drain current Id by mathematically solving the Shockley equation.",
+        "choices": [
+            "A. 3.5 mA",
+            "B. 2.0 mA",
+            "C. 4.0 mA",
+            "D. 1.0 mA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "Worded circuit: From the previous self-bias computation (Id = 2.0 mA, Rs = 1 k-ohm), what is the exact corresponding gate-to-source voltage Vgs at this Q-point?",
+        "choices": [
+            "A. -4.0 V",
+            "B. -1.0 V",
+            "C. -2.0 V",
+            "D. -0.5 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "Worded circuit: An n-channel JFET is biased using a voltage-divider network. R1 (2 Megohms) connects from Vdd (+24V) to the gate. R2 (330 k-ohms) connects from the gate to ground. What is the theoretical DC voltage at the gate (Vg)?",
+        "choices": [
+            "A. 4.12 V",
+            "B. 3.40 V",
+            "C. 5.25 V",
+            "D. 2.40 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Worded circuit: In a standard JFET voltage-divider bias circuit (with Vg established by R1 and R2, and source resistor Rs), the fundamental loop equation relating Vgs, Vg, and Id is strictly:",
+        "choices": [
+            "A. Vgs = Vg + Id*Rs",
+            "B. Vgs = Vg - Id*Rs",
+            "C. Vgs = Id*Rs - Vg",
+            "D. Vgs = Vdd - Vg - Id*Rs"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "Worded circuit: A voltage-divider biased n-channel JFET establishes a Vg of 4.0V. The source resistor Rs is 2.2 k-ohms. If the operating drain current Id is 3.0 mA, calculate the exact gate-to-source voltage Vgs.",
+        "choices": [
+            "A. -2.6 V",
+            "B. +2.6 V",
+            "C. -6.6 V",
+            "D. +4.0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 57,
+        "question": "In a JFET voltage-divider bias circuit, utilizing a significantly larger value for the source resistor Rs mathematically forces the self-bias load line to become flatter. This design choice strictly makes the Q-point:",
+        "choices": [
+            "A. Highly unstable and prone to oscillation",
+            "B. Push deeper into the ohmic region",
+            "C. More stable and less dependent on the massive variations in Idss and Vp among devices",
+            "D. Severely sensitive to temperature changes"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "In the physical structure of an operating n-channel JFET, as the drain-to-source voltage Vds increases from zero, the internal depletion region dynamically becomes noticeably wider near the:",
+        "choices": [
+            "A. Source terminal",
+            "B. Center of the channel",
+            "C. Gate terminal",
+            "D. Drain terminal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 59,
+        "question": "The critical physical condition where the widening depletion regions from opposite sides of the JFET channel virtually touch, thus restricting any further massive increase in drain current, is universally known as:",
+        "choices": [
+            "A. Avalanche",
+            "B. Pinch-off",
+            "C. Cutoff",
+            "D. Saturation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "Once Vds exceeds the pinch-off voltage, the drain current Id remains nearly constant despite further increases in Vds. This specific JFET operating region is physically equivalent to the BJT's:",
+        "choices": [
+            "A. Active region",
+            "B. Cutoff region",
+            "C. Saturation region",
+            "D. Breakdown region"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "A unique geometric feature of JFETs is that the gate-channel PN junction intrinsically acts as a variable capacitor. As the reverse bias across this junction is increased, the internal transition capacitance strictly:",
+        "choices": [
+            "A. Increases exponentially",
+            "B. Decreases",
+            "C. Remains perfectly constant",
+            "D. Drops to exactly zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "If an n-channel JFET has its gate strictly shorted to its source (Vgs = 0V) and Vds is gradually increased to an extreme level, the device will eventually succumb to avalanche breakdown. The specific breakdown voltage at which this occurs is denoted on datasheets as:",
+        "choices": [
+            "A. Vgs(off)",
+            "B. BV_DSO or V_DS(max)",
+            "C. V_P",
+            "D. V_Zener"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "The AC drain resistance (rd) of a JFET operating strictly in the constant-current (active) region is mathematically defined by taking the partial derivative:",
+        "choices": [
+            "A. delta Vds / delta Id (at constant Vgs)",
+            "B. delta Id / delta Vgs (at constant Vds)",
+            "C. delta Vgs / delta Id (at constant Vds)",
+            "D. delta Vds / delta Vgs (at constant Id)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "In high-performance analog circuit design, a JFET is fundamentally superior to a standard BJT in applications that critically require:",
+        "choices": [
+            "A. Extremely high current gain",
+            "B. Very low forward voltage drop",
+            "C. High input impedance and extremely low electrical noise",
+            "D. High power dissipation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "JFETs are highly susceptible to ambient thermal effects. As the temperature of the semiconductor crystal increases, the carrier mobility strictly decreases, which fundamentally causes the maximum drain current (Idss) to:",
+        "choices": [
+            "A. Increase",
+            "B. Decrease",
+            "C. Fluctuate sinusoidally",
+            "D. Remain unchanged"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "In a standard p-channel JFET, the physical flow of majority holes through the conductive channel is heavily restricted by applying a gate-to-source voltage (Vgs) that is:",
+        "choices": [
+            "A. Highly negative",
+            "B. Exactly zero",
+            "C. Positive",
+            "D. Equal to Vdd"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Worded circuit computation: A specific n-channel JFET has datasheet values of Idss = 16 mA and Vgs(off) = -8V. At what exact gate-to-source voltage (Vgs) will the drain current perfectly equal 4.0 mA?",
+        "choices": [
+            "A. -6.0 V",
+            "B. -2.0 V",
+            "C. -4.0 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "Worded circuit computation: A p-channel JFET has a specified pinch-off voltage Vp = +5V (meaning Vgs(off) = +5V) and Idss = 20 mA. If the circuit biases the JFET such that the measured drain current is 5 mA, what is the precise value of Vgs?",
+        "choices": [
+            "A. +3.5 V",
+            "B. +2.5 V",
+            "C. -2.5 V",
+            "D. +1.0 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "Worded circuit computation: An n-channel JFET features Idss = 9 mA and Vp = -3V. Find the exact operating drain current when the gate-to-source voltage Vgs is biased at -2V.",
+        "choices": [
+            "A. 3.0 mA",
+            "B. 4.0 mA",
+            "C. 1.0 mA",
+            "D. 2.0 mA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "For any ideal JFET, plotting the normalized transconductance curve (gm / gm0 versus Vgs) yields a mathematical shape that is strictly:",
+        "choices": [
+            "A. A perfect parabola",
+            "B. An exponential decay",
+            "C. A straight linear line",
+            "D. A logarithmic curve"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "According to the transconductance equations, if a JFET is biased exactly at Vgs = Vp / 2, its operating transconductance gm will be exactly what percentage of its maximum transconductance gm0?",
+        "choices": [
+            "A. 25%",
+            "B. 70.7%",
+            "C. 50%",
+            "D. 100%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "Worded circuit computation: An n-channel JFET (Idss = 10 mA, Vp = -4V) is self-biased with a source resistor Rs = 200 ohms. Calculate the exact operating drain current Id by solving the resulting quadratic Shockley equation.",
+        "choices": [
+            "A. 8.24 mA",
+            "B. 2.36 mA",
+            "C. 5.36 mA",
+            "D. 4.12 mA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "Based on the previous rigorous self-bias calculation (Id = 5.36 mA, Rs = 200 ohms), what is the precise magnitude of the transconductance gm at this specific Q-point? (Recall gm0 = 5 mS).",
+        "choices": [
+            "A. 3.66 mS",
+            "B. 2.50 mS",
+            "C. 4.12 mS",
+            "D. 1.83 mS"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "Worded circuit computation: A JFET voltage-divider bias circuit utilizes Vdd = 20V, R1 = 1.5 Megohms, R2 = 0.5 Megohms. R1 and R2 form a divider from Vdd to ground, feeding the gate. What is the exact DC gate voltage Vg?",
+        "choices": [
+            "A. 10.0 V",
+            "B. 15.0 V",
+            "C. 2.5 V",
+            "D. 5.0 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 76,
+        "question": "Using the parameters from the previous voltage-divider circuit (Vg = 5V) with a source resistor Rs = 2 k-ohms, and a JFET with Idss = 10 mA, Vp = -5V. What is the approximate operating drain current Id?",
+        "choices": [
+            "A. 3.52 mA",
+            "B. 5.00 mA",
+            "C. 1.25 mA",
+            "D. 7.10 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "From the same voltage-divider circuit (Vdd = 20V, Rd = 1.5 k-ohms, Rs = 2.0 k-ohms, Id = 3.52 mA), calculate the exact drain-to-source voltage Vds.",
+        "choices": [
+            "A. 12.32 V",
+            "B. 7.68 V",
+            "C. 5.50 V",
+            "D. 14.50 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "To rigorously verify that a JFET is operating in the active (constant current) region and not the ohmic region, the calculated drain-to-source voltage Vds must strictly satisfy which mathematical inequality?",
+        "choices": [
+            "A. Vds > Vgs - Vp",
+            "B. Vds < Vgs - Vp",
+            "C. Vds > Vp",
+            "D. Vds < Vp / 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "When operating purely in the deep ohmic region (Vds approx 0V), the JFET acts as a voltage-controlled resistor. The approximate channel resistance rd is mathematically given by the formula:",
+        "choices": [
+            "A. rdo * (1 - Vgs/Vp)^2",
+            "B. rdo / (1 - Vgs/Vp)",
+            "C. rdo / (1 - Vgs/Vp)^2",
+            "D. rdo * (1 - Vgs/Vp)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "For any given JFET acting as a voltage-controlled resistor, the absolute minimum possible channel resistance (rdo) occurs exactly when the bias condition is:",
+        "choices": [
+            "A. Vgs = Vgs(off)",
+            "B. Vgs = Vp/2",
+            "C. Vgs = 0 V",
+            "D. Vds = Vp"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 81,
+        "question": "Worded circuit computation: An n-channel JFET is used as an electronic variable resistor. It has Idss = 8 mA and Vp = -4V. The minimum on-resistance (rdo), evaluated exactly at Vgs = 0, is approximately:",
+        "choices": [
+            "A. 500 ohms",
+            "B. 250 ohms",
+            "C. 125 ohms",
+            "D. 1000 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "If the same JFET used as a variable resistor (rdo = 250 ohms, Vp = -4V) is now biased precisely at Vgs = -2V, what does its effective AC channel resistance rd strictly become?",
+        "choices": [
+            "A. 500 ohms",
+            "B. 750 ohms",
+            "C. 250 ohms",
+            "D. 1000 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "In the standardized small-signal AC equivalent model of a JFET operating in the active region, the output current mechanism is represented by a dependent current source whose mathematical magnitude is strictly:",
+        "choices": [
+            "A. gm * Vds",
+            "B. gm * Vgs",
+            "C. Beta * Ib",
+            "D. Alpha * Ie"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "The intrinsic AC output impedance of a JFET (denoted as rd) is caused by channel length modulation. Its value in a typical small-signal JFET is normally in the range of:",
+        "choices": [
+            "A. Tens to hundreds of ohms",
+            "B. A few ohms",
+            "C. Tens to hundreds of kilo-ohms",
+            "D. Less than one ohm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "A JFET is fundamentally classified as a \"depletion-mode\" semiconductor device. This physical designation implies that an intrinsic conductive channel:",
+        "choices": [
+            "A. Is induced only when Vgs exceeds a threshold",
+            "B. Exists and is fully open at zero gate bias",
+            "C. Is strictly p-type",
+            "D. Requires avalanche breakdown to conduct"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "In a standard common-source JFET amplifier circuit, the phase relationship between the AC input signal at the gate and the amplified AC output signal at the drain is strictly:",
+        "choices": [
+            "A. 90 degrees out of phase",
+            "B. 0 degrees (in phase)",
+            "C. 180 degrees out of phase",
+            "D. 360 degrees out of phase"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "In a standard common-drain JFET amplifier (also known as a source follower), the overall voltage gain is theoretically and practically:",
+        "choices": [
+            "A. Very high (typically > 50)",
+            "B. Slightly less than 1 (unity)",
+            "C. Exactly zero",
+            "D. Negative and very large"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "Worded circuit computation: A JFET common-source amplifier incorporates a drain resistor Rd = 3.3 k-ohms. If the device transconductance gm = 2.5 mS and the internal drain resistance rd is ignored (assumed infinite), the approximate magnitude of the voltage gain",
+        "choices": [
+            "A. Av",
+            "B. is:",
+            "C. 8.25",
+            "D. 1.32"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 89,
+        "question": "If the source bypass capacitor is completely removed or fails open in a standard self-biased JFET common-source amplifier, the AC voltage gain of the circuit will strictly:",
+        "choices": [
+            "A. Become infinite",
+            "B. Increase significantly",
+            "C. Decrease significantly",
+            "D. Remain entirely unchanged"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "The specific term \"Field Effect\" in the name FET physically refers to the core operational mechanism where:",
+        "choices": [
+            "A. A strong magnetic field induces channel current",
+            "B. An applied electric field transversally modulates the channel's cross-sectional conductivity",
+            "C. Gravity affects the minority carriers",
+            "D. Light photons generate an electromotive force"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "For a standard n-channel JFET, if the gate-to-source voltage is mistakenly made aggressively positive (e.g., +2.0V), what physical consequence will strictly occur?",
+        "choices": [
+            "A. The device enters deep cutoff",
+            "B. The gate-channel PN junction becomes forward-biased, destroying the high input impedance",
+            "C. The transconductance becomes perfectly infinite",
+            "D. The pinch-off voltage reverses polarity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "Which of the following exact mathematical formulas correctly models the total continuous DC power dissipated by a JFET under static operating conditions?",
+        "choices": [
+            "A. Pd = Vgs * Ig",
+            "B. Pd = Vds * Id",
+            "C. Pd = (Vds)^2 / rd",
+            "D. Pd = Idss * Vp"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "A \"symmetrical\" JFET is distinct from an asymmetrical JFET in its physical construction because:",
+        "choices": [
+            "A. It uses both n-type and p-type channels simultaneously",
+            "B. Its transconductance curve is a perfect circle",
+            "C. The source and drain terminals can be physically interchanged in a circuit without altering electrical characteristics",
+            "D. It requires a dual-polarity power supply"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "When referencing a manufacturer's datasheet for a JFET, which specific listed parameter corresponds directly to the theoretical gate-to-source cutoff voltage Vgs(off)?",
+        "choices": [
+            "A. V_DS(max)",
+            "B. I_GSS",
+            "C. g_fs",
+            "D. V_GS(th) or V_P (Pinch-off voltage magnitude)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 95,
+        "question": "Worded circuit computation: Two absolutely identical n-channel JFETs are connected perfectly in parallel (gates tied together, drains tied together, sources tied together). If a single original device had Idss = 10 mA and Vp = -5V, the equivalent new composite JFET will rigorously exhibit:",
+        "choices": [
+            "A. Idss = 20 mA and Vp = -10V",
+            "B. Idss = 10 mA and Vp = -5V",
+            "C. Idss = 20 mA and Vp = -5V",
+            "D. Idss = 5 mA and Vp = -2.5V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "In standard JFET micro-fabrication, the main semiconductor channel is usually grown using an epitaxial process. The controlling gate regions are then typically formed precisely by:",
+        "choices": [
+            "A. Sputtering aluminum",
+            "B. Diffusion of opposite-type impurities into the channel",
+            "C. Oxidizing the surface",
+            "D. Etching with hydrofluoric acid"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "Worded circuit: A highly stable constant current source is required for a timing circuit, using only a single n-channel JFET. The simplest configuration is to tie the gate directly to the source terminal. The resulting constant current provided to the load (placed at the drain) will be exactly:",
+        "choices": [
+            "A. Zero",
+            "B. Idss (assuming Vds >",
+            "C. Vp",
+            "D. )"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 98,
+        "question": "The overall temperature coefficient of a JFET's drain current can theoretically be reduced to exactly zero at a specific bias point because two temperature-dependent physical effects perfectly cancel each other out. These two opposing effects are:",
+        "choices": [
+            "A. Decreasing carrier mobility and decreasing built-in barrier potential",
+            "B. Increasing channel width and decreasing capacitance",
+            "C. Decreasing thermal voltage and increasing avalanche current",
+            "D. Increasing gate leakage and decreasing bulk resistance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "In evaluating the small-signal parameters on a JFET datasheet, the forward transadmittance parameter (y_fs) is often listed instead of gm. A datasheet value of \"5000 micro-Siemens\" for y_fs exactly corresponds to a gm of:",
+        "choices": [
+            "A. 0.5 mS",
+            "B. 50 mS",
+            "C. 5 mS",
+            "D. 500 mS"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "To guarantee a JFET operates strictly as a constant current source (in the active region), the drain-to-source voltage must physically satisfy the condition:",
+        "choices": [
+            "A. Vds < Vgs(off)",
+            "B. Vds >",
+            "C. Vp",
+            "D. (more accurately, Vds > Vgs - Vp)"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 101,
+        "question": "Compared to standard Bipolar Junction Transistors, a massive inherent advantage of JFETs in the design of audio preamplifiers is their exceptionally:",
+        "choices": [
+            "A. High voltage gain",
+            "B. Low frequency flicker (1/f) noise and high thermal stability",
+            "C. High current output capacity",
+            "D. Low input impedance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 102,
+        "question": "When plotting the transfer characteristic curve (Id vs Vgs) for a standard p-channel JFET on a Cartesian coordinate system, the active curve strictly resides in the:",
+        "choices": [
+            "A. First quadrant (Positive Vgs, Positive Id)",
+            "B. Second quadrant (Negative Vgs, Positive Id)",
+            "C. Third quadrant (Negative Vgs, Negative Id)",
+            "D. Fourth quadrant (Positive Vgs, Negative Id)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 103,
+        "question": "If an n-channel JFET is subjected to a massive Vds that exceeds its maximum absolute rating, the physical mechanism that rapidly destroys the device is:",
+        "choices": [
+            "A. Zener tunneling",
+            "B. Avalanche breakdown across the reverse-biased gate-drain junction",
+            "C. Dielectric punch-through",
+            "D. Electromigration"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 104,
+        "question": "The mathematical non-linear transfer characteristic curve of a JFET (defined by Shockley's equation) is formally a specific geometric segment of a:",
+        "choices": [
+            "A. Hyperbola",
+            "B. Parabola",
+            "C. Circle",
+            "D. Sine wave"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 105,
+        "question": "In an ideal JFET operating under normal DC conditions, the magnitude of the gate current (Ig) is theoretically treated as:",
+        "choices": [
+            "A. Infinite",
+            "B. Equal to the drain current",
+            "C. Zero",
+            "D. Equal to the source current"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 106,
+        "question": "If the channel doping concentration of a theoretical JFET is significantly increased during manufacturing, the magnitude of the pinch-off voltage",
+        "choices": [
+            "A. Vp",
+            "B. will mathematically:",
+            "C. Decrease",
+            "D. Increase"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 107,
+        "question": "On a detailed JFET datasheet, the parameter C_iss refers to the common-source input capacitance. This capacitance is physically dominated by the:",
+        "choices": [
+            "A. Drain-to-source stray capacitance",
+            "B. Gate-to-channel reverse-biased transition capacitance",
+            "C. Source-to-ground bypass capacitance",
+            "D. Gate-to-drain diffusion capacitance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 108,
+        "question": "Although JFETs are highly favored for their input characteristics, their high-frequency cutoff limit is fundamentally heavily restricted by the inherent:",
+        "choices": [
+            "A. Large gate-to-channel transition capacitances (Miller effect)",
+            "B. Massive transit time of minority carriers",
+            "C. Large physical mass of the die",
+            "D. Low thermal conductivity"
+        ],
+        "correct_answer": "A"
+    }
+]

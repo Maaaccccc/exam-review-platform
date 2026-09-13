@@ -1,0 +1,1069 @@
+[
+    {
+        "number": 1,
+        "question": "The polarization of a transverse electromagnetic wave is determined by the direction of its:",
+        "choices": [
+            "A. Electric field",
+            "B. Magnetic field",
+            "C. Poynting vector",
+            "D. Propagation path"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "According to the Inverse Square Law, the power density of an electromagnetic wave spreading from a point source decreases proportionally to:",
+        "choices": [
+            "A. Distance",
+            "B. Square of the distance",
+            "C. Cube of the distance",
+            "D. Square root of the distance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "What is the standard SI unit of power density in free space?",
+        "choices": [
+            "A. Watts per meter",
+            "B. Volts per meter",
+            "C. Watts per square meter",
+            "D. Decibels per milliwatt"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 4,
+        "question": "Calculate the power density at a distance of 10 meters from an isotropic source radiating a total power of 12.56 Watts.",
+        "choices": [
+            "A. 0.10 W/m^2",
+            "B. 0.01 W/m^2",
+            "C. 0.05 W/m^2",
+            "D. 1.00 W/m^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "The standard Free Space Path Loss formula expressed in decibels using frequency f in MHz and distance d in kilometers is:",
+        "choices": [
+            "A. FSPL (dB) = 32.44 + 20 log(d) + 20 log(f)",
+            "B. FSPL (dB) = 92.4 + 20 log(d) + 20 log(f)",
+            "C. FSPL (dB) = 36.6 + 20 log(d) + 20 log(f)",
+            "D. FSPL (dB) = 20 log(d) + 20 log(f)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "A microwave receiver has a threshold sensitivity of -80 dBm. If the calculated nominal received power level is -65 dBm, what is the available fade margin for this link?",
+        "choices": [
+            "A. 15 dB",
+            "B. 5 dB",
+            "C. 10 dB",
+            "D. 25 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "The effective aperture A_e of an isotropic antenna operating at wavelength λ is mathematically given by:",
+        "choices": [
+            "A. lambda^2 / 4pi",
+            "B. lambda / 4pi",
+            "C. 4pi / lambda^2",
+            "D. lambda^2 / 2pi"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "The fundamental theorem stating that an antenna's transmission and reception properties, such as its radiation pattern and impedance, are identical in both directions is known as:",
+        "choices": [
+            "A. Antenna Reciprocity Theorem",
+            "B. Poynting's Theorem",
+            "C. Friis Transmission Theorem",
+            "D. The Superposition Theorem"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "The ratio of the radiation intensity in a given direction to the radiation intensity that would be obtained if the power accepted by the antenna were radiated isotropically is known as:",
+        "choices": [
+            "A. Directivity",
+            "B. Gain",
+            "C. Efficiency",
+            "D. Beamwidth"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "Antenna directivity differs from antenna gain primarily because directivity does not account for:",
+        "choices": [
+            "A. Ohmic and dielectric losses within the antenna structure",
+            "B. The antenna's physical length",
+            "C. The operating frequency",
+            "D. The radiation pattern lobes"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "The radiation efficiency of an antenna is mathematically defined as the ratio of the total radiated power to the:",
+        "choices": [
+            "A. Net power accepted by the antenna from the transmission line",
+            "B. Reflected power",
+            "C. Input voltage squared",
+            "D. Effective aperture area"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "A graphical representation of the radiation properties of an antenna as a function of space coordinates is called a:",
+        "choices": [
+            "A. Radiation pattern",
+            "B. Smith Chart",
+            "C. Constellation diagram",
+            "D. Trellis diagram"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "In an antenna radiation pattern, the sections of the pattern bound by regions of weak radiation intensity are called:",
+        "choices": [
+            "A. Minor lobes (side lobes or back lobes)",
+            "B. Main beams",
+            "C. Effective apertures",
+            "D. Phase centers"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "The angular separation between the half-power (-3 dB) points on the major lobe of an antenna radiation pattern is formally defined as the:",
+        "choices": [
+            "A. Beamwidth (HPBW)",
+            "B. Front-to-back ratio",
+            "C. Directivity index",
+            "D. Side lobe level"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "The front-to-back ratio of a directional antenna is expressed in decibels as the ratio of the power radiated in the major lobe direction to the power radiated in the:",
+        "choices": [
+            "A. Exact opposite direction (180 degrees)",
+            "B. Side lobes",
+            "C. Perpendicular plane",
+            "D. Ground reflection path"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 16,
+        "question": "A half-wave dipole antenna (Hertz antenna) operating in free space has a theoretical radiation resistance of approximately:",
+        "choices": [
+            "A. 73.2 ohms",
+            "B. 36.5 ohms",
+            "C. 50 ohms",
+            "D. 300 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "A quarter-wave monopole antenna operating over an infinite, perfectly conducting ground plane (Marconi antenna) has a theoretical radiation resistance of approximately:",
+        "choices": [
+            "A. 36.5 ohms",
+            "B. 73.2 ohms",
+            "C. 50 ohms",
+            "D. 120 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "The total input impedance of an antenna terminals is composed of the radiation resistance plus the:",
+        "choices": [
+            "A. Loss resistance (ohmic resistance associated with losses)",
+            "B. Characteristic impedance",
+            "C. Free space impedance",
+            "D. Surge impedance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "In multi-element antenna systems, elements connected directly to the transmission line source are formally designated as:",
+        "choices": [
+            "A. Driven elements",
+            "B. Parasitic elements",
+            "C. Reflectors",
+            "D. Directors"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 20,
+        "question": "Elements in an array that are not connected directly to the transmission line but are energized via mutual electromagnetic coupling from a driven element are called:",
+        "choices": [
+            "A. Parasitic elements",
+            "B. Driven elements",
+            "C. Active dipoles",
+            "D. Coaxial stubs"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "A classic Yagi-Uda antenna consists of a driven element, a reflector (which is slightly longer and placed behind), and one or more:",
+        "choices": [
+            "A. Directors (which are shorter and placed in front)",
+            "B. Attenuators",
+            "C. Phase inverters",
+            "D. Terminating resistors"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "A Log-Periodic antenna is characterized fundamentally by its ability to maintain nearly constant radiation resistance, beamwidth, and gain over a:",
+        "choices": [
+            "A. Very wide logarithmic frequency band",
+            "B. Single fixed frequency",
+            "C. Zero bandwidth",
+            "D. Narrow guard band"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "A helical antenna operating in the axial (end-fire) mode radiates a wave that possesses:",
+        "choices": [
+            "A. Circular polarization",
+            "B. Linear horizontal polarization",
+            "C. Linear vertical polarization",
+            "D. Elliptical polarization with zero axial ratio"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "Parabolic reflector antennas (dish antennas) achieve extremely high directivity and gain by utilizing a geometric reflector that focuses parallel incoming rays onto a feed horn placed at the:",
+        "choices": [
+            "A. Focal point",
+            "B. Center of curvature",
+            "C. Phase inversion node",
+            "D. Node of the ground plane"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "Horn antennas are commonly used as feeds for parabolic reflectors or as standard gain horns at microwave frequencies because they provide:",
+        "choices": [
+            "A. A smooth, gradual transition from a waveguide to free space, minimizing reflections",
+            "B. Zero directivity",
+            "C. Purely circular polarization only",
+            "D. Infinite bandwidth"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "According to the Inverse Square Law, the power density of an electromagnetic wave spreading from a point source decreases proportionally to:",
+        "choices": [
+            "A. Square of the distance",
+            "B. Distance",
+            "C. Cube of the distance",
+            "D. Square root of the distance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "Antenna directivity differs from antenna gain primarily because directivity does not account for:",
+        "choices": [
+            "A. Ohmic and dielectric losses within the antenna structure",
+            "B. The antenna's physical length",
+            "C. The operating frequency",
+            "D. The radiation pattern lobes"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "The angular separation between the half-power (-3 dB) points on the major lobe of an antenna radiation pattern is formally defined as the:",
+        "choices": [
+            "A. Beamwidth (HPBW)",
+            "B. Front-to-back ratio",
+            "C. Directivity index",
+            "D. Side lobe level"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "The front-to-back ratio of a directional antenna is expressed in decibels as the ratio of the power radiated in the major lobe direction to the power radiated in the:",
+        "choices": [
+            "A. Exact opposite direction (180 degrees)",
+            "B. Side lobes",
+            "C. Perpendicular plane",
+            "D. Ground reflection path"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "The total input impedance of an antenna terminals is composed of the radiation resistance plus the:",
+        "choices": [
+            "A. Loss resistance (ohmic resistance associated with losses)",
+            "B. Characteristic impedance",
+            "C. Free space impedance",
+            "D. Surge impedance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Elements in an array that are not connected directly to the transmission line but are energized via mutual electromagnetic coupling from a driven element are called:",
+        "choices": [
+            "A. Parasitic elements",
+            "B. Driven elements",
+            "C. Active dipoles",
+            "D. Coaxial stubs"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "A Log-Periodic antenna is characterized fundamentally by its ability to maintain nearly constant radiation resistance, beamwidth, and gain over a:",
+        "choices": [
+            "A. Very wide logarithmic frequency band",
+            "B. Single fixed frequency",
+            "C. Zero bandwidth",
+            "D. Narrow guard band"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "Parabolic reflector antennas (dish antennas) achieve extremely high directivity and gain by utilizing a geometric reflector that focuses parallel incoming rays onto a feed horn placed at the:",
+        "choices": [
+            "A. Focal point",
+            "B. Center of curvature",
+            "C. Phase inversion node",
+            "D. Node of the ground plane"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "An antenna array where multiple identical radiating elements are spaced along a line and fed in phase such that maximum radiation is emitted perpendicular to the axis of the array is called a:",
+        "choices": [
+            "A. Broadside array",
+            "B. End-fire array",
+            "C. Log-periodic array",
+            "D. Parasitic array"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "An antenna array where the individual elements are fed with progressive phase shifts such that the maximum radiation is directed along the axis of the array itself is called a:",
+        "choices": [
+            "A. End-fire array",
+            "B. Broadside array",
+            "C. Collinear array",
+            "D. Circular array"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "Calculate the effective aperture area of an antenna with a gain of 100 (20 dBi) operating at a frequency of 3 GHz (λ = 0.1 m). (4π ≈ 12.57).",
+        "choices": [
+            "A. 0.0796 m^2",
+            "B. 0.796 m^2",
+            "C. 7.96 m^2",
+            "D. 0.00796 m^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "An antenna has an effective aperture area of 0.5 square meters at a frequency of 2 GHz. Calculate its approximate directivity/gain. (λ = 0.15 m).",
+        "choices": [
+            "A. 279",
+            "B. 100",
+            "C. 50",
+            "D. 500"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "Calculate the physical length in free space of a half-wave dipole resonant at exactly 100 MHz.",
+        "choices": [
+            "A. 1.5 meters",
+            "B. 3.0 meters",
+            "C. 0.75 meters",
+            "D. 1.425 meters"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "A quarter-wave Marconi antenna is mounted over a ground plane. What is its approximate physical length if operating at 300 MHz in free space?",
+        "choices": [
+            "A. 0.25 meters",
+            "B. 0.5 meters",
+            "C. 1.0 meter",
+            "D. 0.125 meters"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "The radiation resistance of a half-wave dipole is 73.2 ohms, and its loss resistance is 2.7 ohms. What is the radiation efficiency of this antenna?",
+        "choices": [
+            "A. 96.4%",
+            "B. 73.2%",
+            "C. 90.0%",
+            "D. 50.0%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "An antenna accepts 50 Watts of power from a feedline and radiates 45 Watts into space. What is its percentage efficiency?",
+        "choices": [
+            "A. 90%",
+            "B. 80%",
+            "C. 100%",
+            "D. 45%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "If an antenna has a directivity of 20 (approx 13 dBi) and an efficiency of 75% (0.75), calculate its actual antenna gain (G).",
+        "choices": [
+            "A. 15",
+            "B. 20",
+            "C. 26.7",
+            "D. 10"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "The beamwidth of a standard parabolic reflector antenna is inversely proportional to:",
+        "choices": [
+            "A. The physical diameter of the dish relative to the operating wavelength",
+            "B. The transmitter power",
+            "C. The feedline impedance",
+            "D. The directivity index squared"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "A parabolic dish antenna has a diameter D = 2 meters and operates at a frequency of 10 GHz (λ = 0.03 m). Estimate its half-power beamwidth (θ ≈ 70 λ / D).",
+        "choices": [
+            "A. 1.05 degrees",
+            "B. 3.50 degrees",
+            "C. 7.00 degrees",
+            "D. 0.50 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "In a broadside antenna array consisting of isotropic elements spaced by one-half wavelength (λ/2), the beamwidth of the major lobe becomes narrower as the:",
+        "choices": [
+            "A. Total number of elements in the array is increased",
+            "B. Operating frequency is decreased",
+            "C. Spacing between elements is reduced to zero",
+            "D. Efficiency is lowered"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "A collinear antenna array consists of half-wave dipoles stacked end-to-end vertically. This array configuration is primarily designed to concentrate radiation into:",
+        "choices": [
+            "A. A omnidirectional pattern in the horizontal azimuth plane while narrowing the vertical beamwidth",
+            "B. A directional end-fire beam",
+            "C. A conical upward beam",
+            "D. A hemispherical pattern"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "The directivity of an idealized isotropic antenna, when expressed in decibels relative to isotropic (dBi), is exactly:",
+        "choices": [
+            "A. 0 dBi",
+            "B. 2.15 dBi",
+            "C. 3.00 dBi",
+            "D. 10 dBi"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "Why does a Marconi antenna exhibit a radiation resistance of roughly half that of a Hertz dipole?",
+        "choices": [
+            "A. Because the ground plane creates an image antenna that effectively doubles the radiated power for the same current, halving the apparent input resistance",
+            "B. Because it is half as long",
+            "C. Because it is vertically polarized",
+            "D. Because of skin effect"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "The polarization of a Hertz (half-wave) dipole antenna mounted vertically in free space is:",
+        "choices": [
+            "A. Vertical linear polarization",
+            "B. Horizontal linear polarization",
+            "C. Circular polarization",
+            "D. Elliptical polarization"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "When an antenna is described as having a \"bi-directional\" radiation pattern, it typically radiates maximum energy in:",
+        "choices": [
+            "A. Two opposite directions (180 degrees apart), characteristic of dipoles",
+            "B. All directions equally",
+            "C. One single forward direction",
+            "D. A circular ring"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "What is the standard SI unit of power density in free space?",
+        "choices": [
+            "A. Watts per square meter",
+            "B. Watts per meter",
+            "C. Volts per meter",
+            "D. Decibels per milliwatt"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "The radiation efficiency of an antenna is mathematically defined as the ratio of the total radiated power to the:",
+        "choices": [
+            "A. Net power accepted by the antenna from the transmission line",
+            "B. Reflected power",
+            "C. Input voltage squared",
+            "D. Effective aperture area"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 53,
+        "question": "A graphical representation of the radiation properties of an antenna as a function of space coordinates is called a:",
+        "choices": [
+            "A. Radiation pattern",
+            "B. Smith Chart",
+            "C. Constellation diagram",
+            "D. Trellis diagram"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "A half-wave dipole antenna (Hertz antenna) operating in free space has a theoretical radiation resistance of approximately:",
+        "choices": [
+            "A. 73.2 ohms",
+            "B. 36.5 ohms",
+            "C. 50 ohms",
+            "D. 300 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "A helical antenna operating in the axial (end-fire) mode radiates a wave that possesses:",
+        "choices": [
+            "A. Circular polarization",
+            "B. Linear horizontal polarization",
+            "C. Linear vertical polarization",
+            "D. Elliptical polarization with zero axial ratio"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "A quarter-wave monopole antenna over a ground plane has a directivity that is approximately:",
+        "choices": [
+            "A. Double that of a half-wave dipole in free space (approx 3.28 or 5.15 dBi)",
+            "B. Equal to a half-wave dipole",
+            "C. Half of a dipole",
+            "D. Zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "What is the terminal impedance reactance of a half-wave dipole when it is operating at a frequency slightly lower than its resonant frequency?",
+        "choices": [
+            "A. Inductive (positive reactance)",
+            "B. Capacitive (negative reactance)",
+            "C. Zero",
+            "D. Infinite"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "In an end-fire array of N isotropic elements spaced by λ/4, the directivity is enhanced compared to a single element because of:",
+        "choices": [
+            "A. Constructive interference in the forward direction and destructive interference in the backward direction",
+            "B. Losses in the line",
+            "C. Phase cancellation",
+            "D. Reduced aperture area"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "The effective aperture of a half-wave dipole antenna operating at wavelength λ is given by:",
+        "choices": [
+            "A. 0.13 * lambda^2",
+            "B. 0.119 * lambda^2 (or lambda^2 * 1.64 / (4pi))",
+            "C. lambda^2 / (4pi)",
+            "D. lambda^2 / 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "If the gain of a parabolic reflector antenna is 40 dBi, what is its linear power gain factor?",
+        "choices": [
+            "A. 40",
+            "B. 1000",
+            "C. 10,000 (10^4)",
+            "D. 1,000,000 (10^6)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "The radiation resistance of a folded dipole antenna made of identical conductors is how many times greater than that of a standard single-wire half-wave dipole?",
+        "choices": [
+            "A. 2 times",
+            "B. 3 times",
+            "C. 4 times",
+            "D. 8 times"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "A parasitic element that is cut shorter than the driven element and placed in front of it acts as a:",
+        "choices": [
+            "A. Reflector",
+            "B. Attenuator",
+            "C. Director",
+            "D. Ground plane"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "In antenna arrays, \"spatial tapering\" (such as binomial or Dolph-Chebyshev tapering) is deliberately applied to the element excitation amplitudes primarily to:",
+        "choices": [
+            "A. Increase main beamwidth",
+            "B. Increase side lobe levels",
+            "C. Suppress unwanted side lobes",
+            "D. Eliminate phase shift"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "Calculate the wavelength in free space of a microwave signal operating at 10 GHz.",
+        "choices": [
+            "A. 0.01 meters",
+            "B. 0.05 meters",
+            "C. 0.03 meters",
+            "D. 0.3 meters"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "A horn antenna has a physical aperture area of 0.1 m^2 and an aperture efficiency of 60%. Calculate its effective aperture area.",
+        "choices": [
+            "A. 0.01 m^2",
+            "B. 0.05 m^2",
+            "C. 0.06 m^2",
+            "D. 0.16 m^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "The radiation pattern of an isotropic radiator when plotted in three dimensions is geometrically a:",
+        "choices": [
+            "A. Sphere",
+            "B. Toroid",
+            "C. Flat plane",
+            "D. Hemisphere"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "If an antenna has a front-to-back ratio of 20 dB, it means the power radiated in the forward direction is how many times greater than the power radiated backward?",
+        "choices": [
+            "A. 10 times",
+            "B. 50 times",
+            "C. 100 times",
+            "D. 1000 times"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Antenna bandwidth is typically specified in terms of frequency range over which the antenna maintains acceptable:",
+        "choices": [
+            "A. Radiation pattern, gain, and input impedance match (VSWR <= 2.0)",
+            "B. Physical weight",
+            "C. Directivity exactly equal to zero",
+            "D. Operating temperature"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "The polarization of a standard Yagi-Uda antenna is determined entirely by the physical orientation of its:",
+        "choices": [
+            "A. Reflector only",
+            "B. Driven element",
+            "C. Supporting boom",
+            "D. Mast height"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "Which of the following antenna types is classified as an aperture antenna rather than a wire antenna?",
+        "choices": [
+            "A. Half-wave dipole",
+            "B. Yagi-Uda",
+            "C. Pyramidal Horn",
+            "D. Quarter-wave monopole"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "The radiation resistance of an antenna represents the fictitious resistance that would dissipate a power equal to the radiated power if it were traversed by the antenna's:",
+        "choices": [
+            "A. Terminal current",
+            "B. Voltage standing wave ratio",
+            "C. Dielectric leakage current",
+            "D. Phase constant"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "In a broadside array, if the element spacing is made greater than λ/2 (e.g., λ), what undesirable phenomenon appears in the radiation pattern?",
+        "choices": [
+            "A. Main beam disappearance",
+            "B. Grating lobes (secondary major lobes of equal magnitude to the main beam)",
+            "C. Zero directivity",
+            "D. Complete circular polarization"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "The half-power beamwidth of a parabolic reflector can be approximated by θ_3dB ≈ 70 λ /",
+        "choices": [
+            "D. If λ = 0.06 m and D = 1.2 m, calculate the approximate beamwidth.",
+            "A. 1.5 degrees",
+            "B. 3.5 degrees",
+            "C. 3.5 radians"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "Calculate the power density at a distance of 10 meters from an isotropic source radiating a total power of 12.56 Watts.",
+        "choices": [
+            "A. 0.10 W/m^2",
+            "B. 0.01 W/m^2",
+            "C. 0.05 W/m^2",
+            "D. 1.00 W/m^2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "The polarization of a Hertz (half-wave) dipole antenna mounted vertically in free space is:",
+        "choices": [
+            "A. Vertical linear polarization",
+            "B. Horizontal linear polarization",
+            "C. Circular polarization",
+            "D. Elliptical polarization"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 76,
+        "question": "When an antenna is described as having a \"bi-directional\" radiation pattern, it typically radiates maximum energy in:",
+        "choices": [
+            "A. Two opposite directions (180 degrees apart), characteristic of dipoles",
+            "B. All directions equally",
+            "C. One single forward direction",
+            "D. A circular ring"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "Parasitic elements placed closer to a driven element in a Yagi array primarily affect the array's:",
+        "choices": [
+            "A. Radiation pattern (directivity and front-to-back ratio) and input impedance",
+            "B. Transmitter power output",
+            "C. Carrier frequency",
+            "D. Waveguide cutoff"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "A Log-Periodic antenna is characterized fundamentally by its ability to maintain nearly constant radiation resistance, beamwidth, and gain over a:",
+        "choices": [
+            "A. Very wide logarithmic frequency band",
+            "B. Single fixed frequency",
+            "C. Zero bandwidth",
+            "D. Narrow guard band"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "A helical antenna operating in the axial (end-fire) mode radiates a wave that possesses:",
+        "choices": [
+            "A. Circular polarization",
+            "B. Linear horizontal polarization",
+            "C. Linear vertical polarization",
+            "D. Elliptical polarization with zero axial ratio"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "Parabolic reflector antennas (dish antennas) achieve extremely high directivity and gain by utilizing a geometric reflector that focuses parallel incoming rays onto a feed horn placed at the:",
+        "choices": [
+            "A. Focal point",
+            "B. Center of curvature",
+            "C. Phase inversion node",
+            "D. Node of the ground plane"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "Horn antennas are commonly used as feeds for parabolic reflectors or as standard gain horns at microwave frequencies because they provide:",
+        "choices": [
+            "A. A smooth, gradual transition from a waveguide to free space, minimizing reflections",
+            "B. Zero directivity",
+            "C. Purely circular polarization only",
+            "D. Infinite bandwidth"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 82,
+        "question": "An antenna array where multiple identical radiating elements are spaced along a line and fed in phase such that maximum radiation is emitted perpendicular to the axis of the array is called a:",
+        "choices": [
+            "A. End-fire array",
+            "B. Broadside array",
+            "C. Log-periodic array",
+            "D. Parasitic array"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "An antenna array where the individual elements are fed with progressive phase shifts such that the maximum radiation is directed along the axis of the array itself is called a:",
+        "choices": [
+            "A. End-fire array",
+            "B. Broadside array",
+            "C. Collinear array",
+            "D. Circular array"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 84,
+        "question": "Calculate the effective aperture area of an antenna with a gain of 100 (20 dBi) operating at a frequency of 3 GHz (λ = 0.1 m). (4π ≈ 12.57).",
+        "choices": [
+            "A. 0.0796 m^2",
+            "B. 0.796 m^2",
+            "C. 7.96 m^2",
+            "D. 0.00796 m^2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "An antenna has an effective aperture area of 0.5 square meters at a frequency of 2 GHz. Calculate its approximate directivity/gain. (λ = 0.15 m).",
+        "choices": [
+            "A. 279",
+            "B. 100",
+            "C. 50",
+            "D. 500"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "Calculate the physical length in free space of a half-wave dipole resonant at exactly 100 MHz.",
+        "choices": [
+            "A. 1.5 meters",
+            "B. 3.0 meters",
+            "C. 0.75 meters",
+            "D. 1.425 meters"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "A quarter-wave Marconi antenna is mounted over a ground plane. What is its approximate physical length if operating at 300 MHz in free space?",
+        "choices": [
+            "A. 0.25 meters",
+            "B. 0.5 meters",
+            "C. 1.0 meter",
+            "D. 0.125 meters"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "The radiation resistance of a half-wave dipole is 73.2 ohms, and its loss resistance is 2.7 ohms. What is the radiation efficiency of this antenna?",
+        "choices": [
+            "A. 96.4%",
+            "B. 73.2%",
+            "C. 90.0%",
+            "D. 50.0%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "An antenna accepts 50 Watts of power from a feedline and radiates 45 Watts into space. What is its percentage efficiency?",
+        "choices": [
+            "A. 90%",
+            "B. 80%",
+            "C. 100%",
+            "D. 45%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "If an antenna has a directivity of 20 (approx 13 dBi) and an efficiency of 75% (0.75), calculate its actual antenna gain (G).",
+        "choices": [
+            "A. 15",
+            "B. 20",
+            "C. 26.7",
+            "D. 10"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "The beamwidth of a standard parabolic reflector antenna is inversely proportional to:",
+        "choices": [
+            "A. The physical diameter of the dish relative to the operating wavelength",
+            "B. The transmitter power",
+            "C. The feedline impedance",
+            "D. The directivity index squared"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "A parabolic dish antenna has a diameter D = 2 meters and operates at a frequency of 10 GHz (λ = 0.03 m). Estimate its half-power beamwidth (θ ≈ 70 λ / D).",
+        "choices": [
+            "A. 1.05 degrees",
+            "B. 3.50 degrees",
+            "C. 7.00 degrees",
+            "D. 0.50 degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "In a broadside antenna array consisting of isotropic elements spaced by one-half wavelength (λ/2), the beamwidth of the major lobe becomes narrower as the:",
+        "choices": [
+            "A. Total number of elements in the array is increased",
+            "B. Operating frequency is decreased",
+            "C. Spacing between elements is reduced to zero",
+            "D. Efficiency is lowered"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "A collinear antenna array consists of half-wave dipoles stacked end-to-end vertically. This array configuration is primarily designed to concentrate radiation into:",
+        "choices": [
+            "A. A omnidirectional pattern in the horizontal azimuth plane while narrowing the vertical beamwidth",
+            "B. A directional end-fire beam",
+            "C. A conical upward beam",
+            "D. A hemispherical pattern"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 95,
+        "question": "The directivity of an idealized isotropic antenna, when expressed in decibels relative to isotropic (dBi), is exactly:",
+        "choices": [
+            "A. 0 dBi",
+            "B. 2.15 dBi",
+            "C. 3.00 dBi",
+            "D. 10 dBi"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "Why does a Marconi antenna exhibit a radiation resistance of roughly half that of a Hertz dipole?",
+        "choices": [
+            "A. Because the ground plane creates an image antenna that effectively doubles the radiated power for the same current, halving the apparent input resistance",
+            "B. Because it is half as long",
+            "C. Because it is vertically polarized",
+            "D. Because of skin effect"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "If an antenna's efficiency is 80% and its directivity is 12 dBi, what is its gain in dBi?",
+        "choices": [
+            "A. 12.0 dBi",
+            "B. 11.0 dBi",
+            "C. 12.8 dB",
+            "D. 10.95 dBi"
+        ],
+        "correct_answer": "D"
+    }
+]

@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "A multipoint topology that consists of a single central cable to which all devices attach is called a:",
+        "choices": [
+            "A. Star topology",
+            "B. Bus topology",
+            "C. Ring topology",
+            "D. Mesh topology"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "In a star network with 50 nodes, how many physical point-to-point drop lines are strictly present?",
+        "choices": [
+            "A. 1225",
+            "B. 49",
+            "C. 100",
+            "D. 50"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 3,
+        "question": "A network consisting of a central star hub that branches out to secondary hubs, which then connect to end devices, is classified as a:",
+        "choices": [
+            "A. Tree topology",
+            "B. Mesh topology",
+            "C. Bus topology",
+            "D. Ring topology"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 4,
+        "question": "What is the primary function of a terminator at the ends of a bus topology network?",
+        "choices": [
+            "A. To amplify the signal",
+            "B. To act as a central controller",
+            "C. To absorb signals and prevent reflection",
+            "D. To connect another bus network"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 5,
+        "question": "The general formula for calculating the number of physical links in a fully connected mesh network with N nodes is:",
+        "choices": [
+            "A. N(N-1)/2",
+            "B. N^2",
+            "C. N-1",
+            "D. N(N+1)/2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "In a bus network, a physical break in the main backbone cable will result in:",
+        "choices": [
+            "A. Only the closest node losing connection",
+            "B. Automatic routing through an alternate path",
+            "C. The network switching to half-duplex mode",
+            "D. The entire network partitioning and failing due to signal reflection"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 7,
+        "question": "Fault identification and isolation are straightforward in a star topology primarily because:",
+        "choices": [
+            "A. The tokens can pinpoint the error",
+            "B. Signals bounce off the terminator",
+            "C. Each device is isolated on its own link to the hub",
+            "D. The central hub is immune to faults"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "A Star-Bus hybrid topology features several star networks connected together via a:",
+        "choices": [
+            "A. Dual-ring",
+            "B. Central backbone cable (bus)",
+            "C. Mesh router",
+            "D. Central active hub"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "A fully connected mesh network with 6 devices requires how many dedicated physical links?",
+        "choices": [
+            "A. 6",
+            "B. 30",
+            "C. 15",
+            "D. 36"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "Which basic network topology requires the most extensive physical cabling for a given number of nodes?",
+        "choices": [
+            "A. Mesh",
+            "B. Star",
+            "C. Ring",
+            "D. Bus"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "In data communications, the fundamental transmission mode where bits are sent one after another along a single path is known as:",
+        "choices": [
+            "A. Parallel transmission",
+            "B. Serial transmission",
+            "C. Multipoint transmission",
+            "D. Isochronous transmission"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "In parallel transmission, if an 8-bit character needs to be sent, how many distinct physical wires (excluding ground) are typically utilized to transmit the data bits simultaneously?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 4",
+            "D. 8"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Which transmission mode is generally restricted to very short distances (e.g., inside a computer or to a nearby printer) due to severe clock skew and crosstalk issues?",
+        "choices": [
+            "A. Synchronous serial",
+            "B. Asynchronous serial",
+            "C. Parallel transmission",
+            "D. Isochronous transmission"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "What is \"clock skew\" in the context of high-speed parallel transmission?",
+        "choices": [
+            "A. A phenomenon where the serial bits arrive out of order",
+            "B. The timing difference in the arrival of bits across multiple parallel wires due to slight variations in wire properties",
+            "C. The synchronization of the sender and receiver clocks",
+            "D. The process of delaying a signal intentionally"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "A key advantage of serial transmission over parallel transmission for long-distance communication is:",
+        "choices": [
+            "A. It inherently transmits data eight times faster",
+            "B. It eliminates the need for any synchronization",
+            "C. It uses multiple wires to increase bandwidth",
+            "D. It drastically reduces cabling costs and eliminates inter-wire skew"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 16,
+        "question": "Asynchronous transmission relies on which of the following to alert the receiver that a new character is arriving?",
+        "choices": [
+            "A. A start bit",
+            "B. A preamble of alternating 1s and 0s",
+            "C. A synchronization frame",
+            "D. An external clock signal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "In standard asynchronous transmission, the idle state of the communication line (when no data is being sent) is typically held at:",
+        "choices": [
+            "A. 0 Volts",
+            "B. Logic 0",
+            "C. Alternating Logic 1 and 0",
+            "D. Logic 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 18,
+        "question": "When a start bit is transmitted in an asynchronous serial connection, its logic level is traditionally:",
+        "choices": [
+            "A. Always Logic 1",
+            "B. Alternating logic levels",
+            "C. Logic 0 (Space)",
+            "D. Exactly the same as the stop bit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "What is the primary function of the stop bit(s) in asynchronous transmission?",
+        "choices": [
+            "A. To correct transmission errors",
+            "B. To return the line to the idle state and allow the receiver to reset for the next character",
+            "C. To signal the start of a parity check",
+            "D. To boost the signal voltage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "In asynchronous serial transmission, synchronization between the transmitter and receiver is maintained:",
+        "choices": [
+            "A. Only for the duration of a single character or frame",
+            "B. Over the entire message block continuously",
+            "C. By using a separate dedicated clock wire",
+            "D. By relying on GPS timing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "An 8-bit ASCII character is sent asynchronously using 1 start bit, 1 parity bit, and 2 stop bits. What is the total number of bits transmitted for this single character?",
+        "choices": [
+            "A. 12 bits",
+            "B. 11 bits",
+            "C. 10 bits",
+            "D. 8 bits"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Using the configuration from the previous question (8 data bits, 1 start, 1 parity, 2 stop bits), what is the data efficiency (ratio of payload data bits to total transmitted bits)?",
+        "choices": [
+            "A. 75.0%",
+            "B. 66.7%",
+            "C. 80.0%",
+            "D. 50.0%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "Which transmission mode groups data into large blocks or frames and sends them continuously without individual start and stop bits for each character?",
+        "choices": [
+            "A. Asynchronous",
+            "B. Isochronous",
+            "C. Parallel",
+            "D. Synchronous"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "In synchronous transmission, how does the receiver determine the beginning and end of a data block?",
+        "choices": [
+            "A. By detecting a single start bit",
+            "B. By waiting for an idle period",
+            "C. By recognizing unique synchronization bit patterns (flags or sync characters)",
+            "D. By counting the total number of 1s"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "Which of the following is a strict requirement for synchronous transmission that is not required in asynchronous transmission?",
+        "choices": [
+            "A. Use of a start bit",
+            "B. Use of a parity bit",
+            "C. Multipoint topology",
+            "D. Precise clock synchronization between sender and receiver"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 26,
+        "question": "In synchronous transmission, if the sender and receiver do not have a dedicated separate clock wire, how is timing information typically provided to the receiver?",
+        "choices": [
+            "A. It is pre-programmed manually",
+            "B. It is ignored entirely",
+            "C. It is embedded directly within the data signal using specific line coding techniques (like Manchester encoding)",
+            "D. It is extracted from the start and stop bits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "Which transmission mode is highly preferred for transferring large files efficiently over high-speed networks?",
+        "choices": [
+            "A. Synchronous",
+            "B. Asynchronous",
+            "C. Simplex",
+            "D. Parallel"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "A key characteristic of isochronous transmission is that it guarantees:",
+        "choices": [
+            "A. Zero errors during data transfer",
+            "B. Data is delivered within fixed, predictable time constraints with minimal jitter",
+            "C. Maximum possible bandwidth utilization",
+            "D. Complete encryption of the data stream"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "Which of the following applications strictly requires isochronous transmission to function optimally?",
+        "choices": [
+            "A. Email delivery",
+            "B. Real-time audio and video streaming",
+            "C. File Transfer Protocol (FTP)",
+            "D. Web browsing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "In isochronous transmission, if a packet of data arrives slightly too late to be processed in its designated time slot, what generally happens?",
+        "choices": [
+            "A. It is stored and played back faster",
+            "B. The entire system crashes",
+            "C. The transmitter is asked to retransmit it",
+            "D. It is discarded as it is no longer useful for real-time playback"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 31,
+        "question": "Why is asynchronous transmission generally considered less efficient than synchronous transmission?",
+        "choices": [
+            "A. It travels at a slower physical speed through the cable",
+            "B. It uses more power per bit",
+            "C. It includes heavy overhead with start, stop, and potentially parity bits added to every single character",
+            "D. It is limited strictly to parallel cables"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "If a synchronous transmission frame consists of 1000 data bytes, plus 4 bytes of synchronization flags and 2 bytes of error checking, what is the overhead percentage of the total frame? (Approximate)",
+        "choices": [
+            "A. 0.6%",
+            "B. 1.2%",
+            "C. 5.0%",
+            "D. 10.0%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "A serial link transmits at 9600 bps. Using asynchronous transmission with 1 start bit, 8 data bits, no parity, and 1 stop bit per character, how many characters can be transmitted per second?",
+        "choices": [
+            "A. 960",
+            "B. 1200",
+            "C. 800",
+            "D. 1066"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "A parallel connection transmits 8 bits simultaneously over 8 wires. If each wire operates at 1 Mbps, what is the total theoretical throughput in bits per second?",
+        "choices": [
+            "A. 1 Mbps",
+            "B. 4 Mbps",
+            "C. 8 Mbps",
+            "D. 64 Mbps"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "\"Bit stuffing\" is a technique primarily used in which transmission mode to prevent payload data from being accidentally interpreted as a synchronization flag?",
+        "choices": [
+            "A. Parallel",
+            "B. Isochronous",
+            "C. Asynchronous",
+            "D. Synchronous"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "In asynchronous serial communication, if the receiver's clock is 5% faster than the transmitter's clock, which bit of a standard 10-bit frame is most likely to be sampled incorrectly?",
+        "choices": [
+            "A. The start bit",
+            "B. The stop bit or the last data bit",
+            "C. The first data bit",
+            "D. The parity bit"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "To mitigate the accumulation of timing errors in asynchronous transmission, the receiver resynchronizes its internal clock:",
+        "choices": [
+            "A. After every 100 characters",
+            "B. Once at the beginning of the session",
+            "C. At the leading edge of every start bit",
+            "D. During the stop bit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "Which transmission mode does Universal Serial Bus (USB) predominantly utilize for its data transfer operations?",
+        "choices": [
+            "A. Synchronous serial (packet-based)",
+            "B. Parallel",
+            "C. Asynchronous serial",
+            "D. Simplex"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "Which of the following standards is a classic historical example of asynchronous serial communication?",
+        "choices": [
+            "A. SCSI",
+            "B. RS-232",
+            "C. IEEE 1394 (FireWire)",
+            "D. SDH/SONET"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "In an asynchronous transmission system, the time gap between successive characters:",
+        "choices": [
+            "A. Must be exactly equal to one bit duration",
+            "B. Must be exactly zero",
+            "C. Is strictly determined by the clock speed",
+            "D. Is variable and can be of any length"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "In synchronous transmission, if no useful data is available to be sent, the transmitter must:",
+        "choices": [
+            "A. Turn off completely",
+            "B. Send start and stop bits continuously",
+            "C. Send a continuous stream of logic 0s",
+            "D. Send idle character sequences (sync patterns) to maintain clock synchronization"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 42,
+        "question": "The transmission mode that guarantees a constant bit rate and minimal delay variation, making it ideal for digitized voice channels (like in telecom E1/T1 lines), is:",
+        "choices": [
+            "A. Asynchronous",
+            "B. Isochronous",
+            "C. Parallel",
+            "D. Variable Bit Rate (VBR)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "In a parallel interface (like a legacy Centronics printer port), a separate wire called the \"strobe\" is used to:",
+        "choices": [
+            "A. Inform the receiver that valid data is present on the data lines",
+            "B. Provide power to the peripheral",
+            "C. Transmit parity information",
+            "D. Return acknowledgment"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "What represents a significant engineering challenge when designing very high-speed parallel interfaces (e.g., above 1 Gbps)?",
+        "choices": [
+            "A. The bits travel too slowly",
+            "B. It becomes impossible to generate the data",
+            "C. Electromagnetic interference (crosstalk) and precise timing alignment (skew) between adjacent traces",
+            "D. The inability to use parity bits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "Why have most modern high-speed peripheral connections (e.g., PCIe, SATA, USB) shifted from parallel to serial transmission?",
+        "choices": [
+            "A. Serial links avoid clock skew issues, allowing for vastly higher clock rates that overcome the single-wire limitation",
+            "B. Serial links are inherently immune to all noise",
+            "C. Parallel cables are too expensive",
+            "D. Serial cables can transmit multiple bits simultaneously"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "If an asynchronous receiver encounters a Logic 0 when it expects a stop bit (Logic 1), this specific condition is flagged by the UART as a:",
+        "choices": [
+            "A. Parity error",
+            "B. Overrun error",
+            "C. Underflow error",
+            "D. Framing error"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 47,
+        "question": "Which error occurs in an asynchronous receiver when a new character arrives and overwrites the receiver buffer before the CPU has read the previous character?",
+        "choices": [
+            "A. Framing error",
+            "B. Parity error",
+            "C. Overrun error",
+            "D. Collision error"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "In synchronous data link protocols (like HDLC), the standard flag sequence used to indicate the start and end of a frame is:",
+        "choices": [
+            "A. 11111111",
+            "B. 01111110",
+            "C. 10101010",
+            "D. 00000000"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "If a block of 10,000 bytes needs to be transmitted, which transmission mode will complete the transfer significantly faster over a link with the exact same raw bit rate (e.g., 1 Mbps)?",
+        "choices": [
+            "A. Asynchronous",
+            "B. Isochronous",
+            "C. Synchronous",
+            "D. They will take the exact same time"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "In data communications, \"baud rate\" is strictly defined as the number of:",
+        "choices": [
+            "A. Bits transmitted per second",
+            "B. Signal elements (symbols) transmitted per second",
+            "C. Frames per second",
+            "D. Start bits per second"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "If an asynchronous serial link operates at 19,200 bps, and each character requires 10 bits, how much time is required to transmit one complete character?",
+        "choices": [
+            "A. 1.92 milliseconds",
+            "B. 10.0 microseconds",
+            "C. 19.2 microseconds",
+            "D. 520.8 microseconds"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "In a synchronous transmission system operating at 2.048 Mbps, what is the precise duration of a single bit?",
+        "choices": [
+            "A. 0.488 microseconds",
+            "B. 2.048 microseconds",
+            "C. 4.88 milliseconds",
+            "D. 1.0 microseconds"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "In which of the following scenarios is isochronous transmission utterly unsuitable?",
+        "choices": [
+            "A. Live voice calls",
+            "B. Downloading a critical executable software file where 100% accuracy is strictly required",
+            "C. Video conferencing",
+            "D. Streaming live telemetry"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "The process of converting a parallel stream of bytes inside a computer into a serial bitstream for transmission is typically handled by a hardware component known as a:",
+        "choices": [
+            "A. UART or Shift Register",
+            "B. Multiplexer",
+            "C. Parity Generator",
+            "D. Demodulator"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "If a system transmits 1 megabyte (1,048,576 bytes) of data using asynchronous transmission (8 data bits, 1 start, 1 stop), how many total bits physically travel across the line?",
+        "choices": [
+            "A. 8,388,608 bits",
+            "B. 9,437,184 bits",
+            "C. 10,485,760 bits",
+            "D. 11,534,336 bits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "Isochronous transmission relies heavily on which physical network mechanism to maintain its stringent timing requirements?",
+        "choices": [
+            "A. Acknowledgement packets",
+            "B. Collision detection",
+            "C. Random backoff",
+            "D. Buffering and strict clock synchronization"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "A key metric in isochronous networks is \"jitter,\" which refers to the:",
+        "choices": [
+            "A. Complete loss of synchronization",
+            "B. Variation in the delay of received packets",
+            "C. Attenuation of the analog signal",
+            "D. Rate of bit errors over time"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "In a serial transmission medium, the theoretical maximum data rate is primarily limited by the channel's:",
+        "choices": [
+            "A. Physical length",
+            "B. Termination resistance",
+            "C. Bandwidth and Signal-to-Noise Ratio (Shannon capacity)",
+            "D. Ambient temperature"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "Asynchronous transmission is considered \"character-oriented\" because:",
+        "choices": [
+            "A. Synchronization is established on a character-by-character basis",
+            "B. It can only transmit alphabetical letters",
+            "C. It relies on continuous frames",
+            "D. It utilizes character stuffing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "Which transmission mode is historically associated with legacy mechanical teletypewriters?",
+        "choices": [
+            "A. Isochronous",
+            "B. Parallel",
+            "C. Synchronous",
+            "D. Asynchronous"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "What happens if an asynchronous receiver is set to 9600 bps but the transmitter is sending at 19200 bps?",
+        "choices": [
+            "A. The receiver receives everything perfectly but twice as fast",
+            "B. The receiver automatically adjusts its baud rate",
+            "C. The receiver will sample the incoming bits at the wrong intervals, resulting in widespread framing errors and garbled data",
+            "D. The transmitter physically halts"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "In parallel data transmission over a wide bus, \"crosstalk\" refers to:",
+        "choices": [
+            "A. Electromagnetic interference between adjacent wires in the bus",
+            "B. The varying arrival times of bits",
+            "C. The voltage drop across the cable length",
+            "D. Reflections from a poorly terminated wire"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "Which of the following multiplexing technologies is inherently synchronous, allocating fixed time slots regardless of whether a device has data to send?",
+        "choices": [
+            "A. Statistical TDM",
+            "B. FDM",
+            "C. Asynchronous TDM",
+            "D. Synchronous TDM"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "A synchronous receiver maintains phase lock with the incoming data stream by utilizing a:",
+        "choices": [
+            "A. Dedicated start bit",
+            "B. Phase-Locked Loop (PLL) or clock recovery circuit",
+            "C. Voltage regulator",
+            "D. Parity checker"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "When comparing serial and parallel transmission, cost-effectiveness for long-distance communication (e.g., miles away) overwhelmingly favors:",
+        "choices": [
+            "A. Serial transmission, due to using significantly less wire",
+            "B. Parallel transmission, due to lack of skew",
+            "C. Both are equally cost-effective",
+            "D. Parallel transmission, because it is faster"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Which of the following encoding schemes is widely used in synchronous transmission to guarantee frequent electrical transitions, ensuring the receiver's clock stays synchronized even during long sequences of 0s or 1s?",
+        "choices": [
+            "A. Non-Return to Zero (NRZ)",
+            "B. ASCII",
+            "C. Unicode",
+            "D. Manchester Encoding (or 8B/10B)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 67,
+        "question": "If an isochronous video stream requires a constant 5 Mbps, what is the most critical requirement for the underlying network?",
+        "choices": [
+            "A. It must provide zero bit errors",
+            "B. It must guarantee a minimum sustained throughput of 5 Mbps with bounded jitter",
+            "C. It must use parallel cables",
+            "D. It must send acknowledgment packets for every frame"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "In asynchronous transmission, the \"break\" signal is typically defined as:",
+        "choices": [
+            "A. A continuous string of logic 1s",
+            "B. A sequence of alternating 1s and 0s",
+            "C. A continuous string of logic 0s lasting longer than a full character frame",
+            "D. A high-voltage spike"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "Synchronous transmission frames often contain a CRC field. What does CRC stand for?",
+        "choices": [
+            "A. Constant Rate Character",
+            "B. Clock Recovery Circuit",
+            "C. Cyclic Return Code",
+            "D. Cyclic Redundancy Check"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "The fundamental unit of data in asynchronous transmission is the:",
+        "choices": [
+            "A. Frame",
+            "B. Character (or byte)",
+            "C. Block",
+            "D. Packet"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "The fundamental unit of data in synchronous transmission is the:",
+        "choices": [
+            "A. Bit",
+            "B. Character",
+            "C. Frame (or Block)",
+            "D. Baud"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "In synchronous transmission, the \"preamble\" serves primarily to:",
+        "choices": [
+            "A. Allow the receiver's clock to synchronize with the incoming data stream before the payload arrives",
+            "B. Encrypt the data",
+            "C. Detect errors",
+            "D. Identify the sender"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "A computer sends data to a printer using an old IEEE 1284 (Centronics) cable. This is a classic example of:",
+        "choices": [
+            "A. Parallel transmission",
+            "B. Asynchronous serial transmission",
+            "C. Synchronous serial transmission",
+            "D. Isochronous transmission"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "Why is parity checking in asynchronous transmission considered a weak form of error detection?",
+        "choices": [
+            "A. It requires too much processing power",
+            "B. It cannot detect a single bit error",
+            "C. It cannot detect an even number of bit errors within the same character",
+            "D. It alters the original data"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "In a fully synchronous network (like SDH/SONET), all devices are synchronized to a highly accurate central clock, typically a:",
+        "choices": [
+            "A. Quartz crystal",
+            "B. Primary Reference Clock (e.g., Cesium atomic clock)",
+            "C. GPS satellite",
+            "D. Network Time Protocol (NTP) server"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "An asynchronous transmission uses 1 start bit, 8 data bits, 1 parity bit, and 1 stop bit. If the transmission rate is 115,200 bps, what is the maximum payload data rate?",
+        "choices": [
+            "A. 115,200 bps",
+            "B. 11,520 bps",
+            "C. 96,000 bps",
+            "D. 83,781 bps"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "In a serial transmission system, the device that converts digital signals into analog signals for transmission over an analog medium (like a telephone line) is a:",
+        "choices": [
+            "A. UART",
+            "B. Multiplexer",
+            "C. Modem (Modulator-Demodulator)",
+            "D. Codec"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "In an asynchronous setup, if the logic level is held at 0 for an abnormally long time, it indicates:",
+        "choices": [
+            "A. An idle line",
+            "B. A parity error",
+            "C. A framing error",
+            "D. A break condition"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "Which transmission mode minimizes overhead by eliminating the need for start and stop bits on every byte?",
+        "choices": [
+            "A. Synchronous",
+            "B. Asynchronous",
+            "C. Simplex",
+            "D. Morse code"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "What is the primary technical reason why parallel transmission is faster than serial transmission over extremely short distances (e.g., CPU to RAM)?",
+        "choices": [
+            "A. It uses higher voltages",
+            "B. Multiple bits are transferred simultaneously in a single clock cycle",
+            "C. It travels faster than the speed of light",
+            "D. It does not use copper wires"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "In synchronous transmission, \"character stuffing\" (or byte stuffing) involves adding a special escape character to the data payload to prevent the receiver from:",
+        "choices": [
+            "A. Losing synchronization",
+            "B. Mistaking a data byte for a flag byte",
+            "C. Dropping the connection",
+            "D. Calculating the wrong CRC"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "Asynchronous transmission is highly suitable for which type of data traffic?",
+        "choices": [
+            "A. Sporadic, bursty traffic generated by human typists",
+            "B. Continuous, high-definition video streaming",
+            "C. Massive, high-speed file transfers",
+            "D. Real-time voice calls"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "Isochronous transmission is distinct from synchronous transmission because isochronous specifically enforces:",
+        "choices": [
+            "A. A strict start and stop bit policy",
+            "B. Parity checking on every bit",
+            "C. Transmission over parallel wires only",
+            "D. Strict temporal delivery deadlines and minimal jitter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 84,
+        "question": "An isochronous network handles jitter by utilizing:",
+        "choices": [
+            "A. A parity bit",
+            "B. A start bit",
+            "C. A small elastic buffer at the receiver to smooth out variations in arrival times",
+            "D. Acknowledgement packets"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "Which of the following standards natively supports isochronous data transfer for real-time multimedia?",
+        "choices": [
+            "A. RS-232",
+            "B. Centronics Parallel",
+            "C. USB 1.0 Low Speed",
+            "D. IEEE 1394 (FireWire)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "A serial link transmits continuously without any gaps between characters, using specific flag patterns to delineate blocks. This describes:",
+        "choices": [
+            "A. Asynchronous transmission",
+            "B. Parallel transmission",
+            "C. Synchronous transmission",
+            "D. Simplex transmission"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "If an asynchronous receiver samples the data bits precisely in the middle of each bit period, what is the maximum acceptable clock frequency deviation between transmitter and receiver before a sampling error occurs on the stop bit (assuming a 10-bit frame)?",
+        "choices": [
+            "A. Approximately 1%",
+            "B. Approximately 5%",
+            "C. Approximately 10%",
+            "D. Approximately 20%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "In parallel transmission, the physical length of the cable is strictly limited by:",
+        "choices": [
+            "A. Cross-talk interference and clock skew",
+            "B. The speed of light",
+            "C. The parity bit",
+            "D. The MAC address"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "A 16-bit parallel bus operates at 100 MHz. What is its maximum theoretical data rate in bits per second?",
+        "choices": [
+            "A. 100 Mbps",
+            "B. 1.6 Gbps",
+            "C. 160 Mbps",
+            "D. 16 Gbps"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "To achieve gigabit speeds in modern interfaces (like SATA and PCIe), engineers replaced wide parallel buses with:",
+        "choices": [
+            "A. Slower clock speeds",
+            "B. Purely analog signals",
+            "C. Thicker copper wires",
+            "D. High-speed differential serial transmission"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "\"Flow control\" in serial data transmission ensures that:",
+        "choices": [
+            "A. The transmitting device does not send data faster than the receiving device can process it",
+            "B. The data is encrypted",
+            "C. Errors are automatically corrected",
+            "D. The physical cable does not overheat"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "In hardware flow control for asynchronous serial connections (e.g., RS-232), which specific signal lines are commonly used?",
+        "choices": [
+            "A. TXD and RXD",
+            "B. GND and VCC",
+            "C. RTS (Request to Send) and CTS (Clear to Send)",
+            "D. DTR and DSR"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "In software flow control for asynchronous serial connections, which characters are typically used to pause and resume transmission?",
+        "choices": [
+            "A. ACK and NAK",
+            "B. STX and ETX",
+            "C. XOFF and XON",
+            "D. CR and LF"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "A key feature of a UART (Universal Asynchronous Receiver-Transmitter) is its ability to:",
+        "choices": [
+            "A. Route packets across the internet",
+            "B. Convert parallel data from the computer bus into a serial bitstream for transmission",
+            "C. Generate optical signals",
+            "D. Provide isochronous timing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "In synchronous transmission, if the received CRC does not match the calculated CRC, the receiver typically:",
+        "choices": [
+            "A. Discards the frame and requests retransmission",
+            "B. Ignores the error and passes the data to the user",
+            "C. Corrects the error mathematically",
+            "D. Switches to asynchronous mode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 96,
+        "question": "In isochronous transmission, data that suffers corruption in transit is typically:",
+        "choices": [
+            "A. Corrected using Forward Error Correction",
+            "B. Retransmitted immediately",
+            "C. Stored in an error log",
+            "D. Ignored or interpolated, as retransmission would violate strict real-time delivery constraints"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "Which transmission mode is generally required for the backbone of modern digital telecommunications networks (e.g., SONET/SDH)?",
+        "choices": [
+            "A. Synchronous",
+            "B. Asynchronous",
+            "C. Parallel",
+            "D. Isochronous"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "A standard UART calculates a parity bit for outgoing data. If \"Even Parity\" is selected, and the data byte is 10110010, what will the parity bit be?",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. Alternating",
+            "D. Null"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "If \"Odd Parity\" is selected for the data byte 11001100, what will the parity bit be?",
+        "choices": [
+            "A. Null",
+            "B. 0",
+            "C. 1",
+            "D. Alternating"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "The fundamental distinction between asynchronous and synchronous transmission lies in:",
+        "choices": [
+            "A. The physical voltage levels",
+            "B. The use of copper versus fiber optic cables",
+            "C. Whether the data is digital or analog",
+            "D. The method used to achieve clock synchronization between the sender and receiver"
+        ],
+        "correct_answer": "D"
+    }
+]

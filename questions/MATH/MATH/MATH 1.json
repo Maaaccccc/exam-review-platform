@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "How is the convolution of two signals in the time domain represented in the Laplace domain?",
+        "choices": [
+            "A. By the sum of their Laplace transforms",
+            "B. By the derivative of their Laplace transforms",
+            "C. By the product of their Laplace transforms",
+            "D. By the quotient of their Laplace transforms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "What does the Initial Value Theorem of Laplace transforms allow us to calculate?",
+        "choices": [
+            "A. The steady-state value of a time function as t approaches infinity",
+            "B. The initial value of a time function as t approaches 0, directly from its Laplace transform",
+            "C. The phase crossover frequency",
+            "D. The stable region of the s-plane"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "In the Singular Value Decomposition (SVD) of a matrix A, the singular values are mathematically defined as:",
+        "choices": [
+            "A. The square roots of the non-zero eigenvalues of A^T * A",
+            "B. The diagonal elements of the matrix A itself",
+            "C. The eigenvalues of the inverse matrix A^-1",
+            "D. The trace of the matrix divided by its rank"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 4,
+        "question": "If a simple closed curve C does not enclose any singularities of a function f(z), what is the value of the contour integral of f(z)/z around C?",
+        "choices": [
+            "A. It depends on whether the origin is enclosed by C",
+            "B. Always zero",
+            "C. Always 2 * pi * j",
+            "D. Always equal to the residue at infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "In statistical hypothesis testing, what is a Type I error?",
+        "choices": [
+            "A. Accepting the null hypothesis when it is actually false",
+            "B. Failing to reject the null hypothesis when it is false",
+            "C. Rejecting the null hypothesis when it is actually true",
+            "D. Failing to select a random sample"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "According to the Nyquist-Shannon sampling theorem, what is the minimum sampling rate required to avoid aliasing?",
+        "choices": [
+            "A. At least twice the highest frequency component present in the signal",
+            "B. Exactly equal to the highest frequency component",
+            "C. Half of the highest frequency component",
+            "D. At least four times the highest frequency component"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "According to Liouville's Theorem, any bounded entire function must be which of the following?",
+        "choices": [
+            "A. A constant function",
+            "B. A polynomial of degree n",
+            "C. An exponential function",
+            "D. Equal to zero everywhere"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "In the context of probability, what is a Bernoulli trial?",
+        "choices": [
+            "A. A sequence of independent events with infinite outcomes",
+            "B. A single random trial with exactly two possible outcomes, success and failure",
+            "C. A statistical test used to compare group means",
+            "D. A model of continuous radioactive decay"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "What is the mathematical definition of the radius of curvature R of a curve at a given point?",
+        "choices": [
+            "A. The distance from the origin to the center of the osculating circle",
+            "B. The reciprocal of the absolute value of the curvature",
+            "C. The derivative of the tangent angle with respect to arc length",
+            "D. The double derivative of the curve equation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "Which numerical root-finding method is also commonly known as the method of false position?",
+        "choices": [
+            "A. Secant Method",
+            "B. Bisection Method",
+            "C. Regula-Falsi Method",
+            "D. Newton-Raphson Method"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "For a second-order control system, if the damping ratio is strictly greater than 1, the transient response is classified as:",
+        "choices": [
+            "A. Underdamped",
+            "B. Undamped",
+            "C. Critically damped",
+            "D. Overdamped"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 12,
+        "question": "According to the Maximum Modulus Principle, if f(z) is non-constant and analytic on a bounded domain D and continuous on its closure, where must the maximum of",
+        "choices": [
+            "A. f(z) REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "B. occur?",
+            "C. At the origin of the complex plane",
+            "D. At the critical points where f'(z) = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "Which of the following describes the relationship between the residues of a complex function and its contour integral over a closed path containing multiple poles?",
+        "choices": [
+            "A. The contour integral is zero",
+            "B. The contour integral is pi * j times the sum of the residues",
+            "C. The contour integral is 2 * pi * j times the sum of the residues",
+            "D. The contour integral is the sum of the residues"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "In general, how is the linear convolution of two sequences computed using circular convolution?",
+        "choices": [
+            "A. By padding both sequences with zero to a length of at least L + M - 1",
+            "B. By multiplying their Z-transforms directly without any modifications",
+            "C. By passing the sequences through a high-pass FIR filter",
+            "D. It is not possible to compute linear convolution using circular convolution"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "According to Rouché's Theorem, if two functions f(z) and g(z) are analytic inside and on a closed contour C and satisfy",
+        "choices": [
+            "A. f(z)",
+            "B. >",
+            "C. g(z)",
+            "D. on C, what can be concluded?"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 16,
+        "question": "Under what condition is a complex function f(z) = u + jv analytic?",
+        "choices": [
+            "A. Cauchy-Riemann equations are satisfied",
+            "B. Laplace equation is satisfied",
+            "C. The function is continuous",
+            "D. The function is bounded"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "In experimental design, what does the term 'replication' refer to?",
+        "choices": [
+            "A. The independent run of each treatment combination on multiple experimental units",
+            "B. Repeating the measurements on the same experimental unit multiple times",
+            "C. Using a computer program to duplicate data entries",
+            "D. Varying only one factor at a time"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "A boundary value problem (BVP) differs from an initial value problem (IVP) because:",
+        "choices": [
+            "A. An IVP has no unique solution",
+            "B. A BVP only applies to partial differential equations",
+            "C. A BVP has no auxiliary conditions",
+            "D. Conditions are specified at more than one point in the domain"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 19,
+        "question": "A system is stable in the sense of Bounded-Input Bounded-Output (BIBO) if and only if its impulse response h(t) is:",
+        "choices": [
+            "A. Differentiable",
+            "B. Symmetric",
+            "C. Strictly positive",
+            "D. Absolutely integrable"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 20,
+        "question": "For a stable, causal discrete-time LTI system, the Region of Convergence (ROC) of its Z-transform must always:",
+        "choices": [
+            "A. Exclude the unit circle",
+            "B. Be bounded within the unit circle",
+            "C. Contain only the origin",
+            "D. Include the unit circle"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "What is the primary condition for a bilinear fractional transformation (Möbius transformation) to map the real axis onto itself?",
+        "choices": [
+            "A. The coefficients a, b, c, and d can be chosen to be real numbers",
+            "B. The transformation must be a pure rotation",
+            "C. The determinant ad - bc must be equal to zero",
+            "D. The transformation must have only one fixed point"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Which theorem states that a continuous function on a closed interval must attain its absolute maximum and absolute minimum values?",
+        "choices": [
+            "A. Rolle's Theorem",
+            "B. Intermediate Value Theorem",
+            "C. Mean Value Theorem",
+            "D. Extreme Value Theorem"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 23,
+        "question": "What is the general solution of a linear homogeneous differential equation with constant coefficients whose characteristic equation has real and equal roots r1 = r2 = r? REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+        "choices": [
+            "A. y = C1 * e^(rx) + C2 * e^(rx)",
+            "B. y = (C1 + C2 * x) * e^(rx)",
+            "C. y = C1 * e^(rx) + C2 * x * e^(-rx)",
+            "D. y = C1 * cos(rx) + C2 * sin(rx)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "A first-order differential equation M(x, y)dx + N(x, y)dy = 0 is exact if and only if:",
+        "choices": [
+            "A. M = N",
+            "B. dM/dy + dN/dx = 0",
+            "C. dM/dy = dN/dx",
+            "D. dM/dx = dN/dy"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "In the design of experiments (DOE), what is the primary purpose of 'blocking'?",
+        "choices": [
+            "A. To reduce the required number of replicates to zero",
+            "B. To control and isolate known sources of nuisance variation",
+            "C. To intentionally change the primary factor levels",
+            "D. To increase the random experimental error"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "According to the Leibniz Rule for differentiating under the integral sign, if the limits of integration are functions of x, the derivative involves:",
+        "choices": [
+            "A. Differentiating only the limits of integration",
+            "B. Evaluating the integrand at the average limit",
+            "C. Integrating the derivative of the integrand",
+            "D. Differentiating the integrand and applying the chain rule to the limits"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "What is the primary effect of adding a Derivative (D) control action to a Proportional (P) controller?",
+        "choices": [
+            "A. It increases system damping, thereby reducing overshoot and improving transient stability",
+            "B. It reduces the system bandwidth to zero",
+            "C. It shifts the closed-loop poles to the right",
+            "D. It completely eliminates the steady-state error"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "According to the Routh-Hurwitz stability criterion, the number of unstable closed-loop poles Z is related to the number of open-loop poles P in the right-half plane and the number of clockwise encirclements N of the -1 point by:",
+        "choices": [
+            "A. Z = N - P",
+            "B. Z = P - N",
+            "C. Z = N * P",
+            "D. Z = N + P"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "For any twice-differentiable scalar field V, what is the value of the curl of the gradient of V?",
+        "choices": [
+            "A. The zero vector",
+            "B. The Laplacian of V",
+            "C. The divergence of V",
+            "D. The gradient of V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Under what condition is a critical point (c, f(c)) classified as a local maximum using the second derivative test?",
+        "choices": [
+            "A. f'(c) > 0 and f''(c) < 0",
+            "B. f'(c) = 0 and f''(c) > 0",
+            "C. f''(c) = 0 and f'(c) = 0",
+            "D. f'(c) = 0 and f''(c) < 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 31,
+        "question": "What type of singular point does the Bessel differential equation exhibit at x = 0?",
+        "choices": [
+            "A. Ordinary point",
+            "B. Essential singular point",
+            "C. Regular singular point",
+            "D. Irregular singular point"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "What type of filter is represented by the difference equation y[n] = x[n] - x[n-1]?",
+        "choices": [
+            "A. Low-pass filter",
+            "B. High-pass filter",
+            "C. Band-pass filter",
+            "D. All-pass filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "Which property of Finite Impulse Response (FIR) digital filters makes them highly desirable for data transmission systems?",
+        "choices": [
+            "A. They require an infinite number of delay elements",
+            "B. They have analog passive equivalents",
+            "C. They can be easily designed to have exactly linear phase",
+            "D. They are always unstable"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "Why are window functions (such as Hamming or Kaiser windows) used in the design of FIR filters using the window method?",
+        "choices": [
+            "A. To reduce the spectral leakage and sidelobes caused by truncating the infinite impulse response",
+            "B. To increase the computational speed of the circular convolution",
+            "C. To introduce feedback loops and make the filter recursive REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "D. To shift the poles of the filter inside the unit circle"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "What is the geometric interpretation of the partial derivative df/dx of a surface z = f(x, y) at a given point?",
+        "choices": [
+            "A. The slope of the tangent line to the curve of intersection of the surface and a plane parallel to the xz-plane",
+            "B. The slope of the normal line to the surface",
+            "C. The volume enclosed by the surface",
+            "D. The area under the surface"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 36,
+        "question": "If the curl of a vector field F is zero everywhere in a simply connected region, then the field is:",
+        "choices": [
+            "A. Conservative",
+            "B. Solenoidal",
+            "C. Laplacian",
+            "D. Rotational"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "In set theory, De Morgan's Law states that the complement of the union of two sets A and B is equal to:",
+        "choices": [
+            "A. The intersection of the complements of A and B",
+            "B. The difference of the complements of A and B",
+            "C. The union of the complements of A and B",
+            "D. The symmetric difference of A and B"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "A square matrix A is called symmetric if and only if:",
+        "choices": [
+            "A. A^2 = I",
+            "B. det(A) = 1",
+            "C. A^-1 = A",
+            "D. A^T = A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 39,
+        "question": "For an exponential distribution with parameter lambda = 0.02, find the variance.",
+        "choices": [
+            "A. 2500",
+            "B. 50",
+            "C. 0.02",
+            "D. 0.0004"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 40,
+        "question": "What is the form of a Riccati differential equation?",
+        "choices": [
+            "A. dy/dx + P(x)y = Q(x)y^n",
+            "B. dy/dx = P(x) + Q(x)y + R(x)y^2",
+            "C. y = x y' + f(y')",
+            "D. x^2 y'' + p x y' + q y = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "A square matrix A is called idempotent if and only if:",
+        "choices": [
+            "A. A^2 = I",
+            "B. det(A) = 1",
+            "C. A^T = A",
+            "D. A^2 = A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 42,
+        "question": "Under what condition is a complex function f(z) = u + jv analytic in a domain?",
+        "choices": [
+            "A. du/dx = -dv/dy and du/dy = dv/dx",
+            "B. du/dx = -dv/dx and du/dy = dv/dy",
+            "C. du/dx = dv/dx and du/dy = -dv/dy",
+            "D. du/dx = dv/dy and du/dy = -dv/dx"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 43,
+        "question": "What is the physical significance of the divergence of a vector field at a point?",
+        "choices": [
+            "A. The intensity of rotation of the field about that point",
+            "B. The magnitude of the vector field at that point",
+            "C. The total energy stored in the field at that point",
+            "D. It represents the net outward flux per unit volume of the field from that point"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "A system of n linear equations in n variables, Ax = b, has a unique solution if and only if:",
+        "choices": [
+            "A. Matrix A is non-singular",
+            "B. Vector b is the zero vector",
+            "C. Matrix A is singular",
+            "D. Matrix A is symmetric"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "In state-space system representation, the state vector elements physically represent:",
+        "choices": [
+            "A. The minimal set of variables that completely define the system's internal energy state",
+            "B. Only the output variables",
+            "C. The eigenvalues of the system matrix A",
+            "D. Only the input variables and their derivatives"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "In the Singular Value Decomposition (SVD) of a matrix A, the singular values are mathematically defined as:",
+        "choices": [
+            "A. The square roots of the non-zero eigenvalues of A^T * A",
+            "B. The diagonal elements of the matrix A itself",
+            "C. The eigenvalues of the inverse matrix A^-1",
+            "D. The trace of the matrix divided by its rank"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "The Fourier series of an odd function f(x) of period 2L contains:",
+        "choices": [
+            "A. Only a constant term",
+            "B. Both sine and cosine terms",
+            "C. Only cosine terms REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "D. Only sine terms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 48,
+        "question": "What name is given to the mathematical curve that represents a one-parameter family of solutions geometrically?",
+        "choices": [
+            "A. Isocline",
+            "B. Singularity",
+            "C. Envelope",
+            "D. Branch cut"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "Which numerical root-finding method approximates the integrand with a second-degree polynomial (parabolic arc) over each subinterval?",
+        "choices": [
+            "A. Trapezoidal Rule",
+            "B. Midpoint Rule",
+            "C. Simpson's 3/8 Rule",
+            "D. Simpson's 1/3 Rule"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "The trace of a square matrix is always mathematically equivalent to:",
+        "choices": [
+            "A. Its determinant",
+            "B. The product of its eigenvalues",
+            "C. The rank of the matrix",
+            "D. The sum of its eigenvalues"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 51,
+        "question": "Which theorem states that the line integral of a vector field around a closed loop is equal to the surface integral of its curl over a surface bounded by the loop?",
+        "choices": [
+            "A. Green's Theorem",
+            "B. Divergence Theorem",
+            "C. Cauchy's Theorem",
+            "D. Stokes' Theorem"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "For any real wide-sense stationary (WSS) random process, the autocorrelation function R_xx(tau) has which symmetry property?",
+        "choices": [
+            "A. Even symmetry: R_xx(tau) = R_xx(-tau)",
+            "B. Odd symmetry: R_xx(tau) = -R_xx(-tau)",
+            "C. Asymmetry: R_xx(tau) has no relation to R_xx(-tau)",
+            "D. Rotational symmetry about the origin"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "A square matrix A is called skew-symmetric if and only if:",
+        "choices": [
+            "A. A^T = -A",
+            "B. A^2 = -I",
+            "C. A^-1 = -A",
+            "D. det(A) = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "In experimental design, what is the primary purpose of blocking?",
+        "choices": [
+            "A. To increase random error",
+            "B. To control known sources of nuisance variability",
+            "C. To reduce the number of replicates to zero",
+            "D. To create more treatment combinations"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "In state-space control theory, a system is defined as observable if:",
+        "choices": [
+            "A. It is possible to determine the initial state of the system by observing the output over a finite time interval",
+            "B. All states are directly connected to the input vector",
+            "C. The state transition matrix is a diagonal matrix",
+            "D. The system matrix A has no duplicate eigenvalues"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "What is the mathematical definition of the radius of curvature R of a curve at a given point?",
+        "choices": [
+            "A. The distance from the origin to the center of the osculating circle",
+            "B. The reciprocal of the absolute value of the curvature",
+            "C. The derivative of the tangent angle with respect to arc length",
+            "D. The double derivative of the curve equation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "If a set S has exactly n distinct elements, the number of subsets in its power set is:",
+        "choices": [
+            "A. 2n",
+            "B. n!",
+            "C. n^2",
+            "D. 2^n"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "What is the physical cause of aliasing in a sampled signal system?",
+        "choices": [
+            "A. Under-sampling, where the sampling frequency is less than the Nyquist rate",
+            "B. Phase distortion caused by analog reconstruction filters",
+            "C. Quantization error in the analog-to-digital converter",
+            "D. Over-sampling, which creates redundant frequency terms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "A vector field F is conservative if and only if its curl is:",
+        "choices": [
+            "A. A constant scalar",
+            "B. The zero vector",
+            "C. The identity matrix",
+            "D. Equal to its divergence REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "In boolean algebra, the absorption law states that the expression A + A * B is equivalent to:",
+        "choices": [
+            "A. A",
+            "B. A * B",
+            "C. A + B",
+            "D. B"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "Which of the following functions exhibits a branch point at the origin of the complex plane?",
+        "choices": [
+            "A. f(z) = e^z",
+            "B. f(z) = sin(z)/z",
+            "C. f(z) = 1/z^2",
+            "D. f(z) = ln(z)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 62,
+        "question": "Under what condition is a discontinuity of f(x) at x = c classified as a jump discontinuity?",
+        "choices": [
+            "A. The function value f(c) is undefined",
+            "B. At least one of the one-sided limits is infinite",
+            "C. The limit exists but does not equal f(c)",
+            "D. Both left-hand and right-hand limits exist and are finite, but they are not equal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 63,
+        "question": "Which of the following equations has -i, i, and 0 as its only roots?",
+        "choices": [
+            "A. x^3 - x = 0",
+            "B. x^3 + x^2 = 0",
+            "C. x^2 + 1 = 0",
+            "D. x^3 + x = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "A vector field F is solenoidal in a region if which of the following is true everywhere in that region?",
+        "choices": [
+            "A. The divergence of F is zero",
+            "B. The curl of F is zero",
+            "C. The Laplacian of F is zero",
+            "D. The gradient of F is zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "Under what condition is the boundary value problem for the 1D wave equation solved using the method of separation of variables?",
+        "choices": [
+            "A. The PDE and boundary conditions must both be linear and homogeneous",
+            "B. The initial conditions must be periodic with a period of 2*pi",
+            "C. The PDE must be elliptic in the entire domain",
+            "D. The boundary conditions must be specified at infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "In complex function theory, what is a branch point?",
+        "choices": [
+            "A. A point where the derivative of an analytic function is zero",
+            "B. A singularity that can be removed by defining the function at that point",
+            "C. The point where the Laurent series converges to infinity",
+            "D. A point where a multi-valued function cannot be defined as a single-valued analytic function"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 67,
+        "question": "In the design of experiments, what is an interaction effect?",
+        "choices": [
+            "A. The effect of a factor when all other factors are held constant",
+            "B. The random experimental error that cannot be controlled",
+            "C. The relationship between the sample mean and the population mean",
+            "D. When the effect of one factor on the response variable depends on the level of another factor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 68,
+        "question": "What represents the columns space of a matrix in terms of linear transformations?",
+        "choices": [
+            "A. The kernel or null space of the linear transformation",
+            "B. The set of all eigenvectors of the matrix",
+            "C. The orthogonal complement of the row space",
+            "D. The range or image of the linear transformation associated with the matrix"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "What is the primary effect of adding a Derivative (D) control action to a Proportional (P) controller?",
+        "choices": [
+            "A. It increases system damping, thereby reducing overshoot and improving transient stability",
+            "B. It reduces the system bandwidth to zero",
+            "C. It shifts the closed-loop poles to the right",
+            "D. It completely eliminates the steady-state error"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "According to Abel's Identity, if P(x) is the coefficient of y' in the standard form second-order homogeneous linear DE, the Wronskian satisfies:",
+        "choices": [
+            "A. W(x) = C * e^(integral of Q(x) dx)",
+            "B. W(x) = C * e^(- integral of Q(x) dx)",
+            "C. W(x) = C * e^(- integral of P(x) dx)",
+            "D. W(x) = C * e^(integral of P(x) dx)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "What is the difference between circular convolution and linear convolution of two finite-duration sequences?",
+        "choices": [
+            "A. Circular convolution is performed in the time domain, while linear is in the frequency domain REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "B. Circular convolution is only applicable to analog signals",
+            "C. Linear convolution always results in a periodic signal",
+            "D. Circular convolution involves periodic summation of the linear convolution results"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "Which statistical test is designed to compare the means of more than two groups simultaneously?",
+        "choices": [
+            "A. Student's t-test",
+            "B. Chi-Square test",
+            "C. Pearson correlation",
+            "D. ANOVA (Analysis of Variance)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "For any twice-differentiable vector field A, the divergence of the curl of A is always equal to:",
+        "choices": [
+            "A. The Laplacian of A",
+            "B. The gradient of div A",
+            "C. The curl of A",
+            "D. Zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "What is the physical meaning of the closed line integral of a conservative force field around any closed loop?",
+        "choices": [
+            "A. The total energy generated by the field is maximized",
+            "B. The curl of the field is equal to the enclosed charge",
+            "C. The divergence of the field is equal to the surface area",
+            "D. Zero net work is done along the closed path"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "What name is given to the sum of the diagonal elements of a square matrix A?",
+        "choices": [
+            "A. Wronskian of A",
+            "B. Rank of A",
+            "C. Determinant of A",
+            "D. Trace of A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 76,
+        "question": "What is the primary advantage of the bisection method over the secant method for root-finding?",
+        "choices": [
+            "A. It converges quadratically",
+            "B. It does not require the evaluation of the function signs",
+            "C. It requires fewer iterations to achieve high precision",
+            "D. It is guaranteed to converge if the function is continuous and changes sign on the interval"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "For a causal discrete-time signal, the Region of Convergence (ROC) of its Z-transform H(z) is:",
+        "choices": [
+            "A. The region inside a circle",
+            "B. A circular ring containing no poles",
+            "C. The entire complex plane except the real axis",
+            "D. The region outside a circle of radius equal to the magnitude of the outermost pole"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "For a causal, stable, linear time-invariant (LTI) system, the Region of Convergence (ROC) of its Z-transform H(z) must:",
+        "choices": [
+            "A. Include the unit circle",
+            "B. Be entirely inside the unit circle",
+            "C. Not contain any zeros",
+            "D. Extend inward from the smallest pole"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "What is represented by the state transition matrix, phi(t), of a linear continuous-time system?",
+        "choices": [
+            "A. The matrix that maps the input vector to the output vector",
+            "B. The matrix of eigenvectors of the system matrix A",
+            "C. The transfer function matrix in the Laplace domain",
+            "D. The matrix that maps any initial state x(0) to the state x(t) at time t under zero input conditions"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "According to Rouché's Theorem, if two functions f(z) and g(z) are analytic inside and on a closed contour C and satisfy",
+        "choices": [
+            "A. f(z)",
+            "B. >",
+            "C. g(z)",
+            "D. on C, what can be concluded?"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 82,
+        "question": "For all sets A and B, the identities A U (A n B) = A and A n (A U B) = A are known as:",
+        "choices": [
+            "A. De Morgan's Laws",
+            "B. Set Difference Law",
+            "C. De Moivre's Law",
+            "D. Absorption Laws"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "In state-space representation of a system, which matrix determines the system dynamics and stability?",
+        "choices": [
+            "A. System matrix A",
+            "B. Output matrix C",
+            "C. Input matrix B REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "D. Transmission matrix D"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "What represents the number of elements of a power set of a set with 3 elements?",
+        "choices": [
+            "A. 6",
+            "B. 3",
+            "C. 9",
+            "D. 8"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "In complex analysis, a function f(z) that is analytic everywhere in the entire complex plane is called what type of function?",
+        "choices": [
+            "A. Meromorphic function",
+            "B. Holomorphic function",
+            "C. Conformal function",
+            "D. Entire function"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "The solution to a Cauchy-Euler equation of the form x^2 y'' + p x y' + q y = 0 is found by assuming a solution of the form:",
+        "choices": [
+            "A. y = x^m",
+            "B. y = e^(mx)",
+            "C. y = ln(mx)",
+            "D. y = sin(mx)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "In a Bode plot, how is the 'Gain Margin' defined?",
+        "choices": [
+            "A. The difference between the open-loop phase angle and -180 degrees at the gain crossover frequency",
+            "B. The frequency at which the open-loop gain is 0 dB",
+            "C. The maximum peak of the closed-loop frequency response",
+            "D. The reciprocal of the open-loop gain at the phase crossover frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "Under what condition is a real quadratic form x^T * A * x classified as positive definite?",
+        "choices": [
+            "A. Its determinant is strictly positive",
+            "B. It contains only positive coefficients",
+            "C. All diagonal elements of matrix A are positive",
+            "D. It is strictly positive for all non-zero vectors x"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "What is the primary function of the Integral (I) controller action in a closed-loop feedback system?",
+        "choices": [
+            "A. To increase the speed of the transient response",
+            "B. To reduce the overshoot of the transient response",
+            "C. To stabilize an otherwise unstable system",
+            "D. To eliminate the steady-state error (steady-state offset)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "What is the relationship between the algebraic multiplicity (AM) and geometric multiplicity (GM) of any eigenvalue of a square matrix?",
+        "choices": [
+            "A. GM is always strictly greater than AM",
+            "B. GM is always equal to AM",
+            "C. GM and AM are completely independent and unrelated",
+            "D. GM is always less than or equal to AM"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "What is the main purpose of introducing a phase-lead compensator in a feedback control system?",
+        "choices": [
+            "A. To eliminate the steady-state error completely",
+            "B. To decrease the high-frequency gain and reduce noise",
+            "C. To make the system Type 2 or higher",
+            "D. To increase the system bandwidth and improve the transient response speed and phase margin"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "The partial differential equation u_xx + u_yy = 0 is classified as which type of PDE?",
+        "choices": [
+            "A. Parabolic PDE",
+            "B. Hyperbolic PDE",
+            "C. Laplacian PDE",
+            "D. Elliptic PDE"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "Which of the following logic gates acts as a universal gate?",
+        "choices": [
+            "A. AND gate",
+            "B. OR gate",
+            "C. XOR gate",
+            "D. NAND gate"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "Which of the following logic gates, besides NAND, acts as a universal gate?",
+        "choices": [
+            "A. XOR gate",
+            "B. OR gate",
+            "C. AND gate",
+            "D. NOR gate"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 95,
+        "question": "In designed experiments, what is the primary purpose of blocking?",
+        "choices": [
+            "A. To increase random error",
+            "B. To control known sources of nuisance variability",
+            "C. To reduce the number of replicates to zero",
+            "D. To create more treatment combinations REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "What is the primary purpose of the Chi-Square goodness-of-fit test?",
+        "choices": [
+            "A. To compare the means of two independent samples",
+            "B. To establish a linear regression model between two variables",
+            "C. To control for confounding variables in a designed experiment",
+            "D. To determine if an observed frequency distribution fits a claimed theoretical distribution"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "What is the value of the directional derivative of a scalar field in a direction tangent to a level surface?",
+        "choices": [
+            "A. Maximum",
+            "B. Zero",
+            "C. Minimum",
+            "D. Equal to the magnitude of the gradient"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "A square matrix A is called orthogonal if it satisfies which of the following conditions?",
+        "choices": [
+            "A. A^T * A = I",
+            "B. A^T = A",
+            "C. A^2 = A",
+            "D. det(A) = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "Which theorem states that the line integral of a vector field around a closed loop is equal to the surface integral of its curl over a surface bounded by the loop?",
+        "choices": [
+            "A. Stokes' Theorem",
+            "B. Green's Theorem",
+            "C. Divergence Theorem",
+            "D. Helmholtz Theorem"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 100,
+        "question": "According to the Routh-Hurwitz stability criterion, the number of unstable poles of a system is equal to:",
+        "choices": [
+            "A. The number of columns in the Routh array",
+            "B. The order of the characteristic polynomial",
+            "C. The number of zero rows in the Routh array",
+            "D. The number of sign changes in the first column of the Routh array"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 101,
+        "question": "What is the magnitude of the impedance of an AC circuit with impedance Z = 6 - 8j ohms?",
+        "choices": [
+            "A. 2 ohms",
+            "B. 10 ohms",
+            "C. 14 ohms",
+            "D. 100 ohms REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "B"
+    }
+]

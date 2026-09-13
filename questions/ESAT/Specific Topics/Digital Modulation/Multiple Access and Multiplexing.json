@@ -1,0 +1,948 @@
+[
+    {
+        "number": 1,
+        "question": "An error condition in a digital communication channel where only a single binary bit in a given data unit is altered is formally known as a:",
+        "choices": [
+            "A. Burst error",
+            "B. Single-bit error",
+            "C. Parity error",
+            "D. Quantization error"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "Cyclic Redundancy Check (CRC) error detection is fundamentally based on mathematical division operating within:",
+        "choices": [
+            "A. Real number calculus",
+            "B. Complex number arithmetic",
+            "C. Modulo-2 arithmetic (binary polynomial division)",
+            "D. Floating-point matrix algebra"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "In a standard (7, 4) Hamming code, how many redundant parity bits are appended to every 4-bit data block?",
+        "choices": [
+            "A. 3",
+            "B. 4",
+            "C. 7",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 4,
+        "question": "The optimal decoding algorithm universally utilized to decode convolutional codes by finding the most likely transmitted sequence through a trellis diagram is the:",
+        "choices": [
+            "A. Viterbi algorithm",
+            "B. Huffman decoding algorithm",
+            "C. Euclidean distance search",
+            "D. Fast Fourier transform"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "Which error-control strategy is strictly preferred for real-time, ultra-low-latency two-way voice communications where retransmissions introduce unacceptable audible delays?",
+        "choices": [
+            "A. Stop-and-Wait ARQ",
+            "B. Selective-Repeat ARQ",
+            "C. Forward Error Correction (FEC) alone",
+            "D. Go-Back-N ARQ"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "The multiplexing technique that physically separates multiple user signals by assigning each a distinct, non-overlapping frequency band is called:",
+        "choices": [
+            "A. Time Division Multiplexing (TDM)",
+            "B. Code Division Multiplexing (CDM)",
+            "C. Frequency Division Multiplexing (FDM)",
+            "D. Wavelength Division Multiplexing (WDM)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "The multiplexing technique that allows multiple users to share a single channel by exclusively assigning each user a discrete, repeating time slot is called:",
+        "choices": [
+            "A. Frequency Division Multiplexing (FDM)",
+            "B. Code Division Multiplexing (CDM)",
+            "C. Wavelength Division Multiplexing (WDM)",
+            "D. Time Division Multiplexing (TDM)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "Wavelength Division Multiplexing (WDM) is conceptually identical to FDM, but it is specifically applied to the routing of multiple wavelengths of light within:",
+        "choices": [
+            "A. Optical fiber communications",
+            "B. Satellite uplinks",
+            "C. Coaxial copper networks",
+            "D. Tropospheric scatter links"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "Code Division Multiplexing (CDM) allows users to transmit simultaneously on the exact same frequency by employing mathematical spreading codes that must be perfectly:",
+        "choices": [
+            "A. Symmetrical",
+            "B. Orthogonal (e.g., Walsh-Hadamard codes)",
+            "C. Exponential",
+            "D. Sinusoidal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "In an FDM system, the narrow, unused spectrum space intentionally left between adjacent frequency channels to prevent interference and cross-talk is formally known as the:",
+        "choices": [
+            "A. Squelch band",
+            "B. Blanking interval",
+            "C. Guard band",
+            "D. Parity gap"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "The fundamental engineering purpose of any multiplexing system is to securely and efficiently allow:",
+        "choices": [
+            "A. A single signal to be broadcast to infinite receivers",
+            "B. Analog signals to be converted to digital signals",
+            "C. Signals to travel faster than the speed of light",
+            "D. Multiple independent signals to share a single transmission medium"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 12,
+        "question": "Statistical Time Division Multiplexing (STDM) differs from standard Synchronous TDM primarily because it actively improves channel utilization by:",
+        "choices": [
+            "A. Dynamically allocating time slots strictly based on instantaneous channel demand",
+            "B. Assigning fixed frequency bands to active users",
+            "C. Transmitting data entirely at baseband",
+            "D. Eliminating the need for clock synchronization"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "In synchronous Time Division Multiplexing (TDM), if a user's terminal has no data to transmit during its assigned time slot, the multiplexer will typically:",
+        "choices": [
+            "A. Reallocate the slot to another active user dynamically",
+            "B. Transmit an empty or dummy time slot to maintain frame structure",
+            "C. Terminate the connection immediately",
+            "D. Double the length of the next time slot"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 14,
+        "question": "In the standard CCITT analog Frequency Division Multiplexing hierarchy, exactly 12 standard voice channels are multiplexed together to form a:",
+        "choices": [
+            "A. Mastergroup",
+            "B. Basic Group",
+            "C. Supergroup",
+            "D. Jumbo group"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Assuming each standard analog voice channel requires a 4 kHz allocation, what is the total bandwidth occupied by a standard CCITT FDM Basic Group?",
+        "choices": [
+            "A. 12 kHz",
+            "B. 24 kHz",
+            "C. 48 kHz",
+            "D. 60 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "In high-capacity optical fiber networks, Dense Wavelength Division Multiplexing (DWDM) achieves extreme channel packing by utilizing very narrow spacing between adjacent:",
+        "choices": [
+            "A. Time slots",
+            "B. Spreading codes",
+            "C. Optical carrier wavelengths",
+            "D. RF frequencies"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "In a Synchronous TDM system combining four independent 24 kbps data streams with 1 bit of overhead framing per frame, what is the total frame duration if each source contributes 1 bit per frame?",
+        "choices": [
+            "A. 1 microsecond",
+            "B. 10.42 microseconds",
+            "C. 41.67 microseconds",
+            "D. 125 microseconds"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "The primary disadvantage of Synchronous TDM compared to Asynchronous (Statistical) TDM is that Synchronous TDM:",
+        "choices": [
+            "A. Results in wasted channel capacity when devices are idle",
+            "B. Requires complex microprocessor routing overhead",
+            "C. Cannot handle digital data streams",
+            "D. Strictly requires optical fiber media"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "Dense Wavelength Division Multiplexing (DWDM) systems typically operate within which optical fiber transmission window to take advantage of minimum fiber attenuation?",
+        "choices": [
+            "A. 850 nm window",
+            "B. 1310 nm window",
+            "C. 1550 nm window",
+            "D. 650 nm window"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "In an Asynchronous Time Division Multiplexing (ATDM) frame, each transmitted time slot must explicitly include a piece of overhead data that identifies which user the data belongs to. This overhead is called an:",
+        "choices": [
+            "A. Error check bit",
+            "B. Address tag (or channel identifier)",
+            "C. Framing alignment bit",
+            "D. Guard time"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "The multiple access technique where the total available radio frequency spectrum is sliced into distinct, non-overlapping frequency channels assigned to individual users on demand is:",
+        "choices": [
+            "A. TDMA",
+            "B. CDMA",
+            "C. FDMA",
+            "D. SDMA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "In a standard FDMA cellular system, what prevents adjacent cells from interfering with each other while using the exact same frequency channels?",
+        "choices": [
+            "A. Frequency reuse planning and physical geographic separation",
+            "B. Code orthogonalization",
+            "C. Strict time slot synchronization",
+            "D. Directional beamforming exclusively"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "Time Division Multiple Access (TDMA) allows multiple users to share a single frequency channel by dividing the transmission timeline into rotating, repeating:",
+        "choices": [
+            "A. Frequency bands",
+            "B. Code sequences",
+            "C. Time slots",
+            "D. Wavelengths"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "In a TDMA system, small guard times are intentionally inserted between adjacent time slots to strictly prevent:",
+        "choices": [
+            "A. Frequency drift",
+            "B. Inter-symbol interference and burst overlapping between users",
+            "C. Phase ambiguity",
+            "D. DC baseline wander"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "Code Division Multiple Access (CDMA) is a multiple access technique belonging to the broader category of digital communications known as:",
+        "choices": [
+            "A. Narrowband transmission",
+            "B. Spread spectrum communications",
+            "C. Amplitude modulation",
+            "D. Baseband line coding"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "In a direct sequence CDMA system, each user's data stream is multiplied by a unique, high-rate pseudo-random code sequence officially called a:",
+        "choices": [
+            "A. Guard code",
+            "B. Walsh-Hadamard spreading code (or PN code)",
+            "C. Parity check matrix",
+            "D. Generator polynomial"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "At a CDMA receiver, how is a desired user's signal successfully extracted from the composite background of multiple other users transmitting simultaneously on the exact same frequency?",
+        "choices": [
+            "A. By tuning a narrow bandpass filter",
+            "B. By correlating (multiplying) the received composite signal with a synchronized local copy of that specific user's spreading code",
+            "C. By reading the time slot header tag",
+            "D. By switching off the local oscillator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "Orthogonal Frequency Division Multiple Access (OFDMA) is the multi-user extension of OFDM where different subcarriers are assigned to different users simultaneously in:",
+        "choices": [
+            "A. Both time and frequency (resource blocks)",
+            "B. Pure analog frequency bands",
+            "C. Fixed time slots only",
+            "D. Orthogonal spreading codes"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 29,
+        "question": "Space Division Multiple Access (SDMA) leverages advanced smart antenna array technologies and directional beamforming to isolate multiple users sharing the same frequency and time slot based entirely on their:",
+        "choices": [
+            "A. Physical geographical location",
+            "B. Digital identification code",
+            "C. Transmission amplitude",
+            "D. Phase rotation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "In a classic 2G GSM cellular system utilizing TDMA, each RF carrier of 200 kHz is split into how many repeating time slots per TDMA frame?",
+        "choices": [
+            "A. 1",
+            "B. 4",
+            "C. 8",
+            "D. 16"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "Calculate the total aggregate bit rate of a standard T1 carrier system, which uses Synchronous TDM to multiplex 24 voice channels (each 8 bits) plus 1 framing bit per frame at an 8 kHz sampling rate.",
+        "choices": [
+            "A. 1.544 Mbps",
+            "B. 2.048 Mbps",
+            "C. 64 kbps",
+            "D. 1.536 Mbps"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "In an E1 digital carrier system utilizing Synchronous TDM, how many total time slots are present in a single 125-microsecond frame?",
+        "choices": [
+            "A. 24",
+            "B. 30",
+            "C. 32",
+            "D. 64"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "What is the exact aggregate data bit rate of a standard European E1 carrier system?",
+        "choices": [
+            "A. 1.544 Mbps",
+            "B. 2.048 Mbps",
+            "C. 34.368 Mbps",
+            "D. 8.448 Mbps"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "In Wavelength Division Multiplexing (WDM), individual optical channels are combined and separated using passive optical components known as:",
+        "choices": [
+            "A. Regenerators",
+            "B. Multiplexers and Demultiplexers (using prisms, gratings, or thin-film filters)",
+            "C. Modulators and Demodulators",
+            "D. Waveguide isolators"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "The primary engineering challenge that limits the maximum number of channels in a dense Wavelength Division Multiplexing (DWDM) system is:",
+        "choices": [
+            "A. Fiber attenuation",
+            "B. Optical cross-talk and non-linear optical effects (such as Four-Wave Mixing)",
+            "C. Insufficient electrical power",
+            "D. Slow propagation velocity in glass"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "In a TDMA mobile communication system, propagation delay compensation (timing advance) is critically required because:",
+        "choices": [
+            "A. Mobile users are at varying physical distances from the base station, so their bursts must be timed to arrive precisely within their assigned time slot",
+            "B. The carrier frequency drifts with temperature",
+            "C. Batteries drain faster during calls",
+            "D. Multipath fading distorts the pulse shape"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "Which multiple access technique is inherently most resistant to intentional narrowband jamming and multipath fading due to its wideband signal dispersal?",
+        "choices": [
+            "A. FDMA",
+            "B. TDMA",
+            "C. CDMA (Spread Spectrum)",
+            "D. Standard analog FDM"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "In an FDMA system, if a channel has a total allocated bandwidth of 30 kHz and each user requires 10 kHz (including guard bands), what is the maximum number of simultaneous users supported?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 10"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "A TDMA frame duration is 12 milliseconds, and it is divided equally among 6 active users. What is the duration of a single user's time slot?",
+        "choices": [
+            "A. 72 milliseconds",
+            "B. 2 milliseconds",
+            "C. 12 milliseconds",
+            "D. 6 milliseconds"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "In a CDMA system, if 10 users are transmitting simultaneously on the same frequency, what happens to the noise floor experienced by any single receiver as the number of active users increases?",
+        "choices": [
+            "A. The noise floor decreases",
+            "B. The noise floor remains completely unaffected",
+            "C. The background interference (multiple access interference) increases linearly, gracefully degrading capacity",
+            "D. The system instantly disconnects all users"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "OFDMA combines the principles of Frequency Division Multiplexing and Time Division Multiplexing by allocating a two-dimensional grid of subcarriers and time slots to users. This grid is commonly referred to in modern standards (like LTE and 5G) as a:",
+        "choices": [
+            "A. Frame matrix",
+            "B. Resource block (or time-frequency resource grid)",
+            "C. Channel register",
+            "D. Multiplexing vector"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "In satellite communications, FDMA combined with transponder channelization is traditionally known as:",
+        "choices": [
+            "A. TDMA burst mode",
+            "B. Single Channel Per Carrier (SCPC) or Frequency Division Multiple Access per Transponder",
+            "C. CDMA direct sequence",
+            "D. Space division multiplexing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "The primary advantage of OFDMA in high-speed wireless broadband (such as 4G LTE and WiMAX) is its exceptional robustness against:",
+        "choices": [
+            "A. Thermal noise",
+            "B. Frequency-selective multipath fading and inter-symbol interference",
+            "C. Power amplifier saturation",
+            "D. Doppler shift in stationary environments"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "In SDMA utilizing smart antennas, the base station forms narrow, steerable RF beams directed specifically toward individual mobile users. This specific signal processing technique is known as:",
+        "choices": [
+            "A. Frequency hopping",
+            "B. Adaptive beamforming (or spatial filtering)",
+            "C. Orthogonal coding",
+            "D. Code spreading"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "A Synchronous TDM multiplexer combines 5 independent low-speed channels, each operating at 1000 bits/sec, into a single high-speed link. If each character or frame adds 1 bit of framing overhead per source channel, what is the output bit rate of the multiplexer?",
+        "choices": [
+            "A. 5000 bps",
+            "B. 5100 bps",
+            "C. 5005 bps",
+            "D. 5200 bps"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "Asynchronous TDM (Statistical TDM) is more bandwidth-efficient than Synchronous TDM when the connected input devices exhibit what traffic characteristic?",
+        "choices": [
+            "A. Continuous 100% duty cycle data flow",
+            "B. High burstiness with intermittent activity (low average utilization)",
+            "C. Exactly equal transmission rates",
+            "D. Zero idle time"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "In optical fiber networks, what passive optical device is specifically used to combine multiple discrete optical wavelengths onto a single fiber at the transmitting end?",
+        "choices": [
+            "A. Optical splitter",
+            "B. Optical circulator",
+            "C. Optical multiplexer (MUX)",
+            "D. Photodetector"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "The ITU-T standard spacing for channels in a Dense Wavelength Division Multiplexing (DWDM) system is frequently specified in terms of frequency, such as:",
+        "choices": [
+            "A. 100 GHz (or 50 GHz) spacing",
+            "B. 1 kHz spacing",
+            "C. 10 MHz spacing",
+            "D. 1 GHz spacing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "In a CDMA system using Walsh codes of length 64, what is the absolute maximum number of mutually orthogonal user channels that can be simultaneously supported on the same frequency band without cross-talk?",
+        "choices": [
+            "A. 8",
+            "B. 32",
+            "C. 64",
+            "D. 128"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "The specific multiple access scheme utilized by the classic 2G IS-95 North American cellular standard is:",
+        "choices": [
+            "A. TDMA",
+            "B. FDMA",
+            "C. CDMA",
+            "D. OFDMA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "Which multiple access technique is standardly employed by modern 4G LTE and 5G New Radio (NR) systems for their downlink and uplink physical data channels?",
+        "choices": [
+            "A. FDMA",
+            "B. TDMA",
+            "C. CDMA",
+            "D. OFDMA"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "In satellite communications, Demand Assigned Multiple Access (DAMA) is an intelligent protocol used to dynamically assign satellite transponder channels (using FDMA or TDMA) based on:",
+        "choices": [
+            "A. Fixed pre-assigned subscriber contracts",
+            "B. Real-time traffic demand and active call requests",
+            "C. The satellite's orbital position",
+            "D. Ground station antenna size"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "What physical parameter is kept strictly orthogonal in an OFDM/OFDMA system to allow individual subcarriers to overlap closely in frequency without mutual interference?",
+        "choices": [
+            "A. Amplitude",
+            "B. Phase",
+            "C. Frequency (subcarrier spacing is equal to the inverse of the symbol duration)",
+            "D. Polarization"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "In a TDMA system, if the total frame length is T_f and there are N time slots per frame, the duration of a single time slot (T_s) assuming equal distribution is:",
+        "choices": [
+            "A. T_s = T_f / N",
+            "B. T_s = T_f * N",
+            "C. T_s = N / T_f",
+            "D. T_s = T_f - N"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "A communication system utilizes FDMA to divide a 1 MHz total spectrum into equal channels. If each channel requires 20 kHz, and a 5 kHz guard band is placed between adjacent channels, how many total usable channels can be created? (Assume the first and last channels do not require external guard bands on their outer edges, or use standard partitioning).",
+        "choices": [
+            "A. 40",
+            "B. 50",
+            "C. 33",
+            "D. 41"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "In Asynchronous TDM, if the input data lines are operating faster than the output trunk line, what critical hardware component must be integrated into the multiplexer to prevent data loss during traffic spikes?",
+        "choices": [
+            "A. A high-speed modulator",
+            "B. A buffer memory queue",
+            "C. An optical attenuator",
+            "D. A frequency multiplier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "What is the primary technical limitation of FDMA when applied to modern digital cellular mobile systems compared to TDMA and CDMA?",
+        "choices": [
+            "A. It cannot carry digital data",
+            "B. It requires complex time synchronization",
+            "C. It suffers from poor spectral efficiency and high intermodulation distortion in multi-carrier non-linear power amplifiers",
+            "D. It is completely restricted to optical fibers"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "In a pure ALOHA or slotted ALOHA random access protocol often categorized under medium access control, the maximum theoretical channel throughput efficiency is approximately:",
+        "choices": [
+            "A. 100%",
+            "B. 50% (for slotted ALOHA) and 18.4% (for pure ALOHA)",
+            "C. 10%",
+            "D. 85.6%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "In CDMA spread spectrum, if the chip rate is 1.2288 Mcps and the information data rate is 9.6 kbps, calculate the processing gain in dB.",
+        "choices": [
+            "A. 10 dB",
+            "B. 21 dB",
+            "C. 30 dB",
+            "D. 45 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "Which multiple access technology allows multiple earth stations to share a single satellite transponder by transmitting non-overlapping bursts of data in tightly synchronized time intervals?",
+        "choices": [
+            "A. FDMA",
+            "B. TDMA",
+            "C. CDMA",
+            "D. WDM"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "In a WDM system, \"coarse\" Wavelength Division Multiplexing (CWDM) differs from \"dense\" Wavelength Division Multiplexing (DWDM) primarily because CWDM utilizes:",
+        "choices": [
+            "A. Wider channel spacing, allowing cheaper uncooled lasers",
+            "B. Extremely narrow channel spacing requiring cryogenic cooling",
+            "C. Optical fiber with zero attenuation",
+            "D. Radio frequency carriers instead of light"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "In a TDM hierarchy, the process of interleaving bits or bytes from multiple input sources into a single serial data stream is controlled by a master clock driving a:",
+        "choices": [
+            "A. Low-pass filter",
+            "B. Commutator (electronic switch)",
+            "C. Regenerative repeater",
+            "D. Phase-locked loop"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "What is the primary operational advantage of implementing dynamic channel allocation in an FDMA cellular network?",
+        "choices": [
+            "A. It completely eliminates cell towers",
+            "B. It optimizes frequency spectrum utilization by assigning channels to cells based on real-time traffic demand rather than rigid fixed reuse patterns",
+            "C. It removes the need for mobile phone batteries",
+            "D. It allows analog signals to be transmitted digitally"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "In an OFDMA system, allocating a subset of subcarriers to a specific user for a specific duration of time creates a fundamental allocation unit known as a:",
+        "choices": [
+            "A. Time slot",
+            "B. Resource block",
+            "C. Chip sequence",
+            "D. Parity block"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "Which of the following multiplexing techniques is strictly implemented at the physical optical layer rather than the electrical baseband layer?",
+        "choices": [
+            "A. TDM",
+            "B. FDM",
+            "C. DWDM",
+            "D. CDM"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "In a CDMA system, if two different users' spreading codes have a cross-correlation value of zero, it mathematically guarantees that:",
+        "choices": [
+            "A. The users will experience maximum interference",
+            "B. The signals are completely orthogonal, resulting in zero mutual interference between those users",
+            "C. The transmission speed doubles",
+            "D. The signals will merge into a single data stream"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "When designing an Asynchronous TDM system, statistical multiplexing takes advantage of the \"concentration effect,\" which means that:",
+        "choices": [
+            "A. The output link capacity can be smaller than the sum of the input peak bit rates because not all sources transmit simultaneously",
+            "B. All sources must transmit at the exact same time",
+            "C. The channel bandwidth must be infinite",
+            "D. Packet headers are completely eliminated"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "In a multi-user TDMA network, what catastrophic network failure occurs if two mobile users' time slots overlap due to improper propagation delay compensation?",
+        "choices": [
+            "A. Frequency drift",
+            "B. A collision, resulting in corruption and loss of data packets for both users",
+            "C. The base station antenna rotates",
+            "D. Battery explosion"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "Which multiple access technique intrinsically provides inherent cryptographic security and privacy because an unauthorized receiver cannot demodulate the signal without knowing the exact pseudo-random spreading code?",
+        "choices": [
+            "A. FDMA",
+            "B. TDMA",
+            "C. CDMA (Spread Spectrum)",
+            "D. SDMA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "In standard Synchronous TDM, if the frame structure consists of 8 data sources contributing 1 byte each plus 1 framing byte per frame, what is the total frame size in bits?",
+        "choices": [
+            "A. 64 bits",
+            "B. 72 bits",
+            "C. 8 bits",
+            "D. 10 bits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "Calculate the frame duration for the Synchronous TDM system in the previous question if each data source operates at a bit rate of 8 kbps (contributing 1 bit per source per frame).",
+        "choices": [
+            "A. 125 microseconds",
+            "B. 1 millisecond",
+            "C. 8 microseconds",
+            "D. 500 microseconds"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "In high-capacity long-haul terrestrial and submarine fiber optic routes, DWDM transmission systems frequently incorporate which active optical devices inline to amplify all multiplexed wavelengths simultaneously without optical-to-electrical conversion?",
+        "choices": [
+            "A. Regenerative repeaters",
+            "B. Erbium-Doped Fiber Amplifiers (EDFAs)",
+            "C. Microwave mixers",
+            "D. Phase-locked loops"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "What is the primary reason why Time Division Multiplexing (TDM) is naturally and exceptionally well-suited for digital signals rather than analog signals?",
+        "choices": [
+            "A. Digital bits can be easily interleaved, buffered, and framed in discrete time slots without loss of identity",
+            "B. Analog signals cannot be sampled",
+            "C. TDM requires zero bandwidth for digital signals",
+            "D. Digital signals travel faster in copper cables"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "In cellular network architecture, the reuse factor N (e.g., N=7) dictates how many adjacent cells form a cluster with unique frequency bands. This concept is fundamentally tied to which multiple access technique?",
+        "choices": [
+            "A. CDMA",
+            "B. TDMA",
+            "C. FDMA / OFDMA frequency planning",
+            "D. Pure SDMA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "In a CDMA receiver, the process of compressing the wideband received spread spectrum signal back down to the original narrow baseband data bandwidth is formally called:",
+        "choices": [
+            "A. Modulation",
+            "B. Despreading (Correlation)",
+            "C. Quantization",
+            "D. Equalization"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "Which multiple access scheme is utilized by satellite-based GPS (Global Positioning System) to allow all satellites to transmit positioning data simultaneously on the exact same frequency without interfering with each other?",
+        "choices": [
+            "A. TDMA",
+            "B. FDMA",
+            "C. CDMA (using unique Gold codes)",
+            "D. OFDMA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "In Asynchronous TDM, if the total input data rate temporarily exceeds the capacity of the output trunk line, the system enters a condition known as:",
+        "choices": [
+            "A. Synchronization loss",
+            "B. Buffer overflow (congestion), which can result in dropped packets",
+            "C. Slope overload",
+            "D. Multiplexing resonance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "What is the exact physical medium through which WDM and DWDM multiplexed signals propagate?",
+        "choices": [
+            "A. Coaxial copper cable",
+            "B. Twisted-pair telephone wire",
+            "C. Optical fiber",
+            "D. Free-space atmospheric waveguides"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "In a TDMA system, if the guard time between time slots is made excessively long to be completely safe against propagation delays, what is the direct negative consequence on system performance?",
+        "choices": [
+            "A. Spectral efficiency and channel data throughput decrease",
+            "B. Bit error rate increases to 100%",
+            "C. The carrier frequency shifts",
+            "D. The transmitter power drops to zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "In an OFDMA uplink, maintaining strict time and frequency synchronization among multiple mobile users transmitting simultaneously to the base station is critical to prevent:",
+        "choices": [
+            "A. Loss of power",
+            "B. Inter-Carrier Interference (ICI) and loss of subcarrier orthogonality",
+            "C. Phase ambiguity in the core network",
+            "D. Optical fiber dispersion"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "A communication system utilizes Synchronous TDM to multiplex four 9.6 kbps channels. If 1 framing bit is added per frame, and each channel contributes 1 bit per frame, what is the output bit rate of the multiplexer?",
+        "choices": [
+            "A. 38.4 kbps",
+            "B. 38.448 kbps",
+            "C. 40.0 kbps",
+            "D. 38.404 kbps"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 82,
+        "question": "In an optical fiber communication link utilizing WDM, the individual optical signals are kept completely separate and non-interfering because they operate at different:",
+        "choices": [
+            "A. Frequencies (wavelengths of light)",
+            "B. Time slots",
+            "C. Spreading codes",
+            "D. Polarization angles exclusively"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "Which multiplexing technique assigns unique, repeating time slots to fixed data sources in a round-robin fashion, regardless of whether the source has active data to transmit or is completely idle?",
+        "choices": [
+            "A. Asynchronous TDM",
+            "B. Synchronous TDM",
+            "C. Statistical TDM",
+            "D. WDM"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "In CDMA communications, what specific mathematical property must a set of spreading codes possess to ensure that when any two different codes are correlated, their output is identically zero?",
+        "choices": [
+            "A. Linearity",
+            "B. Orthogonality",
+            "C. Exponential decay",
+            "D. Symmetry"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "In SDMA cellular architectures, if two mobile users are located in completely opposite geographical sectors relative to the central base station tower, the smart antenna system can use spatial processing to:",
+        "choices": [
+            "A. Assign them different time slots",
+            "B. Use the exact same frequency and time slot simultaneously by focusing independent directional beams at each user",
+            "C. Disconnect the weaker user",
+            "D. Force them to use frequency hopping"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "What is the primary operational purpose of the framing bit inserted into a Synchronous TDM data stream?",
+        "choices": [
+            "A. To correct channel bit errors",
+            "B. To enable the receiver to identify the exact boundary of each repeating time frame",
+            "C. To compress the data",
+            "D. To modulate the RF carrier"
+        ],
+        "correct_answer": "B"
+    }
+]

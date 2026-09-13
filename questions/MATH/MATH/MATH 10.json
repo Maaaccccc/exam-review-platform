@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "If y = tan(x), what is dy/dx?",
+        "choices": [
+            "A. sec(x)",
+            "B. sec^2(x)",
+            "C. cos^2(x)",
+            "D. sin(x)/cos(x)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "A ladder 13 ft long rests against a vertical wall. The bottom slides away at 2 ft/s. How fast is the top falling when the bottom is 5 ft from the wall?",
+        "choices": [
+            "A. 0.83 ft/s",
+            "B. 1.0 ft/s",
+            "C. 1.2 ft/s",
+            "D. 1.5 ft/s"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "If f(x) = 3x^2 - x + 4, find the equation of the normal line at x=1.",
+        "choices": [
+            "A. y = -1/5x + 31/5",
+            "B. y = -1/5x + 16/5",
+            "C. y = -1/5x + 18/5",
+            "D. y = -1/5x + 17/5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 4,
+        "question": "Determine the order and degree of the given differential equation: x(d^4y/dx^4) + 5y(d^2y/dx^2) - (dy/dx)^6 = 0.",
+        "choices": [
+            "A. 2, 1",
+            "B. 1, 4",
+            "C. 4, 1",
+            "D. 1, 6"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 5,
+        "question": "Solve for the value of a that will make the differential equation exact: (y^2 - 2xy + 6x)dx - (x^2 - axy + 2)dy = 0.",
+        "choices": [
+            "A. -2",
+            "B. 1",
+            "C. -1",
+            "D. 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 6,
+        "question": "Find the general solution of the given DE: 3x^2 cot(y) dx - (x^3 + 1)csc^2(y) dy = 0.",
+        "choices": [
+            "A. (x^3 - 1)sec(y) = c",
+            "B. (x^3 - 1)csc(y) = c",
+            "C. (x^3 + 1)cot(y) = c",
+            "D. (x^3 + 1)tan(y) = c"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 7,
+        "question": "Find the general solution of the given DE: e^y(5 - x)dx = xydy.",
+        "choices": [
+            "A. 5 ln(x) - x + (y + 1)e^-y = c",
+            "B. 5 ln(x) + x - (y + 1)e^-y = c",
+            "C. 5 ln(x) - x - (y + 1)e^-y = c",
+            "D. 5 ln(x) + x + (y - 1)e^y = c"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "Determine the suitable integrating factor for the given DE: dy/dx + (1/x + tan(x))y = 2sec(x).",
+        "choices": [
+            "A. ln(xcot(x))",
+            "B. ln(xsin(x))",
+            "C. ln(xcos(x))",
+            "D. xsec(x)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "Find the Laplace Transform of f(t) = t^2.",
+        "choices": [
+            "A. 2/s",
+            "B. 2/s^2",
+            "C. 2/s^3",
+            "D. 2/s^4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "Transposing the formula I = V/R for resistance R gives:",
+        "choices": [
+            "A. I - V",
+            "B. V/I",
+            "C. I/V",
+            "D. V I"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "Find the value of 1_1/3 + 1_2/3 / 2_2/3 - 1/3.",
+        "choices": [
+            "A. 1_5/8",
+            "B. 19/24",
+            "C. 2_1/21",
+            "D. 1_2/7"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "Transposing y = f*lambda to make wavelength lambda the subject gives:",
+        "choices": [
+            "A. y/f",
+            "B. y+f",
+            "C. f-y",
+            "D. f/y"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "Four engineers can complete a task in 5 hours. Assuming the rate of work remains constant, six engineers will complete the task in:",
+        "choices": [
+            "A. 126 h",
+            "B. 4 h 48 min",
+            "C. 3 h 20 min",
+            "D. 7 h 30 min REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "In an engineering equation 3^4 / 3^r = 1/9. The value of r is:",
+        "choices": [
+            "A. -6",
+            "B. 2",
+            "C. 6",
+            "D. -2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "Transposing the formula R = R0(1 + alpha*t) for t gives:",
+        "choices": [
+            "A. (R - R0)/(1 + alpha)",
+            "B. (R - R0 - 1)/alpha",
+            "C. (R - R0)/(alpha * R0)",
+            "D. R / (R0 * alpha)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "In a system of pulleys, the effort P required to raise a load W is given by P = aW + b, where a and b are constants. If W = 40 when P = 12 and W = 90 when P = 22, the values of a and b are:",
+        "choices": [
+            "A. a = 5, b = 1/4",
+            "B. a = 1/5, b = 4",
+            "C. a = 1/3, b = -8",
+            "D. a = 1/4, b = 5"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 17,
+        "question": "In the equation 5.0 = 3.0 ln(2.9/x), x has a value correct to 3 significant figures of:",
+        "choices": [
+            "A. 1.59",
+            "B. 0.392",
+            "C. 0.548",
+            "D. 0.0625"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 18,
+        "question": "Current I in an electrical circuit is given by I = (E - e)/(R + r). Transposing for R gives:",
+        "choices": [
+            "A. (E - e - Ir)/I",
+            "B. (E - e)/(I + r)",
+            "C. (E - e)(I + r)",
+            "D. (E - e)/(Ir)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "Which of the following trigonometrical identities is true?",
+        "choices": [
+            "A. cosec(theta) = 1/cos(theta)",
+            "B. cot(theta) = 1/sin(theta)",
+            "C. sin(theta)/cos(theta) = tan(theta)",
+            "D. sec(theta) = 1/sin(theta)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "The Boolean expression F'*G'*H' + F'*G'*H is equivalent to:",
+        "choices": [
+            "A. F*G",
+            "B. F*G'",
+            "C. F'*H",
+            "D. F'*G'"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "The value of the determinant of matrix [[2, -1, 4],, [6, 0, -1]] is:",
+        "choices": [
+            "A. 4",
+            "B. 52",
+            "C. -56",
+            "D. 8"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "Integration is primarily concerned with which of the following?",
+        "choices": [
+            "A. rate of change",
+            "B. accumulation",
+            "C. slope",
+            "D. curvature"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "The indefinite integral represents:",
+        "choices": [
+            "A. a single numerical value",
+            "B. a family of functions",
+            "C. an area only",
+            "D. a slope"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "The constant of integration exists because:",
+        "choices": [
+            "A. derivatives are not unique",
+            "B. integrals are not unique",
+            "C. limits are missing",
+            "D. functions are discontinuous"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "If velocity is integrated with respect to time, the result is:",
+        "choices": [
+            "A. acceleration",
+            "B. displacement",
+            "C. force",
+            "D. jerk"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "The Fundamental Theorem of Calculus links which of the following?",
+        "choices": [
+            "A. limits and continuity",
+            "B. differentiation and integration",
+            "C. slope and concavity",
+            "D. area and volume only"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "An indefinite integral does NOT represent which of the following?",
+        "choices": [
+            "A. a family of curves",
+            "B. accumulated quantity REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "C. a single numeric value",
+            "D. antiderivative"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Work done in physics is commonly calculated using:",
+        "choices": [
+            "A. derivatives",
+            "B. limits",
+            "C. integrals",
+            "D. algebra"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "A rectangular box having a square base and open at the top is to have a capacity of 10000 cc. Find the height of the box to use the least amount of material.",
+        "choices": [
+            "A. 14.64 cm",
+            "B. 13.57 cm",
+            "C. 15.25 cm",
+            "D. 12.75 cm"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "The rate of population growth of a certain city is proportional to the number of inhabitants. If the city population now is 40 million and is expected to double in 25 years, in how many years will the population be three times the present?",
+        "choices": [
+            "A. 40 yrs",
+            "B. 50 yrs",
+            "C. 30 yrs",
+            "D. 20 yrs"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "The equation y^2 = cx is the general equation of which of the following differential equations?",
+        "choices": [
+            "A. y' = x/2y",
+            "B. y' = x/2y^2",
+            "C. y' = y/2x",
+            "D. y' = x/y^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "Solve the differential equation: y' - xy^2 = x.",
+        "choices": [
+            "A. y = tan(x^2/2 + c)",
+            "B. y = sin(x^2/2 + c)",
+            "C. y = cot(x^2/2 + c)",
+            "D. y = cos(x^2/2 + c)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "Find the orthogonal trajectories of the family of curves x^2 - y^2 = C^2.",
+        "choices": [
+            "A. x^2 + y^2 = C^2",
+            "B. xy = C",
+            "C. xy^3 = C",
+            "D. x - y = C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "Evaluate the limit: lim(x->0) (1 - cos(x))/x^2.",
+        "choices": [
+            "A. 0",
+            "B. 1/2",
+            "C. 2",
+            "D. -1/2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Evaluate the limit: lim(x->infinity) (3x^2 + 2x + 1)/(x^2 + x + 1).",
+        "choices": [
+            "A. 2",
+            "B. 3",
+            "C. 4",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "Find the equation of the tangent line to y = x^3 - 2x^2 + 2 at x=1.",
+        "choices": [
+            "A. y = -x + 2",
+            "B. y = x - 2",
+            "C. y = x + 2",
+            "D. y = -x - 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "A balloon is released from the ground 100 meters from an observer. The balloon rises directly upward at the rate of 4 meters per second. How fast is the balloon receding from the observer 10 seconds later?",
+        "choices": [
+            "A. 1.68 m/sec",
+            "B. 1.36 m/sec",
+            "C. 1.55 m/sec",
+            "D. 1.49 m/sec"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 38,
+        "question": "How many committees can be formed by choosing 4 men from an organization of a membership of 15 men?",
+        "choices": [
+            "A. 1390",
+            "B. 1435",
+            "C. 1240",
+            "D. 1365"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 39,
+        "question": "What is the number of permutations of the letters in the word BANANA?",
+        "choices": [
+            "A. 36",
+            "B. 52",
+            "C. 60",
+            "D. 42"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "Determine the probability of drawing either a king or a diamond in a single draw from a pack of 52 playing cards.",
+        "choices": [
+            "A. 2/13",
+            "B. 4/13",
+            "C. 3/13 REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "D. 1/13"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "Find the volume of the solid generated when the region under the curve y = x^2 over the interval is rotated about the line y = -1.",
+        "choices": [
+            "A. 178*pi/13",
+            "B. 176*pi/15",
+            "C. 180*pi/13",
+            "D. 183*pi/15"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "Find the divergence of the vector field F(x,y,z) = x^2*y*i + 2y^3*z*j + 3z*k.",
+        "choices": [
+            "A. 2xy + 6y^2*z + 3",
+            "B. xy + 6y^2*z + 3",
+            "C. x^2 + 6z^2*y + 3x",
+            "D. x + 6y^2*z"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 43,
+        "question": "Stokes' theorem connects which of the following integrals?",
+        "choices": [
+            "A. gradient of a function and its surface integral",
+            "B. a line integral and a surface integral",
+            "C. a surface integral and a volume integral",
+            "D. a line integral and a volume integral"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "Find dy/dx where y = tanh^-1(e^x).",
+        "choices": [
+            "A. e^x / (1 - e^(2x))",
+            "B. e^x / (1 + e^(2x))",
+            "C. -e^x / (1 + e^(2x))",
+            "D. -e^x / (1 - e^(2x))"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "Find the volume of the solid generated when the region enclosed by y = x^(1/2), y = 2 and x = 0 is revolved about the y-axis.",
+        "choices": [
+            "A. 32*pi/5",
+            "B. 32*pi/7",
+            "C. 32*pi/9",
+            "D. 32*pi/11"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "Find the Z-transform of the discrete-time signal sin(k*pi/2).",
+        "choices": [
+            "A. z/(z^2+1)",
+            "B. z^2/(z+1)",
+            "C. 1/z^2",
+            "D. z/(z+1)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "Determine the poles of the unity feedback open loop system transfer function G(s) = (s + 1)/(s(s + 2)).",
+        "choices": [
+            "A. 0, 3",
+            "B. 2",
+            "C. -1",
+            "D. 0, -2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 48,
+        "question": "Find the fourth derivative of the function: f(x) = 3x^4 - 2x^3 + x^2 - 4x + 2.",
+        "choices": [
+            "A. 72",
+            "B. 18",
+            "C. 24",
+            "D. 12"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "If there is a very strong correlation between two variables, then the correlation coefficient must be:",
+        "choices": [
+            "A. any value larger than 1",
+            "B. much larger than 0, regardless of whether the correlation is negative or positive",
+            "C. close to 1 or -1",
+            "D. exactly equal to 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "The system of linear equations 4x + 2y = 7 and 2x + y = 6 has:",
+        "choices": [
+            "A. a unique solution",
+            "B. exactly two distinct solutions",
+            "C. no solution",
+            "D. an infinite number of solutions"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "In a normal distribution, approximately what percentage of data is within one standard deviation of the mean?",
+        "choices": [
+            "A. 32%",
+            "B. 64%",
+            "C. 34%",
+            "D. 68%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "Find the area of the region that is enclosed between the curves y = x^2 and y = x + 6.",
+        "choices": [
+            "A. 120/7",
+            "B. 134/11",
+            "C. 115/8",
+            "D. 125/6"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "At a charter high school, administrators wish to collect a sample of 50 students. The proportions of the student body represented by each class are: 45% freshmen, 28% sophomores, 16% juniors, and 11% seniors. They decide to randomly sample 23 freshmen, 14 sophomores, eight REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS juniors, and five seniors. Which sampling method was used?",
+        "choices": [
+            "A. Stratified",
+            "B. Cluster",
+            "C. Systematic",
+            "D. Random"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "What can you say about the given matrix? A = [[0.4, 0.1, 0.5], [0.4, 0.5, 0.1], [0.2, 0.4, 0.4]]",
+        "choices": [
+            "A. Matrix A is skew-symmetric",
+            "B. Matrix A is singular",
+            "C. Matrix A is orthogonal",
+            "D. Matrix A is stochastic"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 55,
+        "question": "Solve for the trace of the given matrix: [[2, 5, -2],, [-1, 5, -3]]",
+        "choices": [
+            "A. -6",
+            "B. 0",
+            "C. 43",
+            "D. 43/6"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "Solve for x in the equation: arctan(2x) + arctan(x) = pi/4.",
+        "choices": [
+            "A. 0.218",
+            "B. 0.281",
+            "C. 0.182",
+            "D. 0.896"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "Solve the differential equation: y' + 5y = 1.",
+        "choices": [
+            "A. y = 1/5 + C*e^(-5x)",
+            "B. y = 1/4 + C*e^(-5x)",
+            "C. y = 1/3 + C*e^(5x)",
+            "D. y = 1/5 - C*e^(5x)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "The probability is 0.02 that an item produced by a factory is defective. A shipment of 10,000 items is sent to its warehouse. Find the standard deviation of the number of defective items.",
+        "choices": [
+            "A. 200",
+            "B. 14",
+            "C. 20",
+            "D. 12"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Find the value of k if 4x^2 + 6x + k = 0 has equal roots.",
+        "choices": [
+            "A. 8/3",
+            "B. 2",
+            "C. 4",
+            "D. 9/4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "A company manufactures two products, x and y, and the cost of producing x and y units is given by the function: C(x,y) = 5x^2 + 3xy + 2y^2 + 10. What is the marginal cost with respect to x when x = 2 and y = 3?",
+        "choices": [
+            "A. 18",
+            "B. 36",
+            "C. 29",
+            "D. 22"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "Find the volume of the solid generated by revolving the region bounded by y = x^2 and y = 2x about the x-axis.",
+        "choices": [
+            "A. 64*pi/15",
+            "B. 32*pi/15",
+            "C. 16*pi/15",
+            "D. 8*pi/3"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "Evaluate the integral: integral ln(x) dx.",
+        "choices": [
+            "A. x + C",
+            "B. x*ln(x) - x + C",
+            "C. 1/x + C",
+            "D. x*ln(x) + x + C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "What is the derivative of y = x^x?",
+        "choices": [
+            "A. x^x * (1 + ln(x))",
+            "B. x^x * ln(x)",
+            "C. x * (1 - ln(x))",
+            "D. x^x * (1 - ln(x))"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "Find the derivative of y = arctan(x/3).",
+        "choices": [
+            "A. 3/(x^2 + 9)",
+            "B. 1/(x^2 + 9)",
+            "C. 3/(x^2 + 3)",
+            "D. 1/(1 + x^2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "Evaluate: integral_0^(pi/4) sec^2(x) dx.",
+        "choices": [
+            "A. sqrt(2)",
+            "B. 0.5",
+            "C. 1",
+            "D. 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "If f(x) = x^4 - 4x^3, on what interval is the graph concave downward?",
+        "choices": [
+            "A. (0, 2)",
+            "B. (0, 4)",
+            "C. (2, infinity)",
+            "D. (0, 3) REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 67,
+        "question": "Find the radius of curvature of the curve y = 2x^2 at the origin (0,0).",
+        "choices": [
+            "A. 0.25",
+            "B. 0.50",
+            "C. 2.00",
+            "D. 4.00"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "What is the derivative of f(x) = 2^(3x)?",
+        "choices": [
+            "A. 2^(3x) * ln(2)",
+            "B. 3 * 2^(3x) * ln(2)",
+            "C. 3 * 2^(3x)",
+            "D. 2^(3x)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "Find the slope of the tangent line to the polar curve r = 1 + sin(theta) at theta = pi/4.",
+        "choices": [
+            "A. 1 + sqrt(2)",
+            "B. 1 - sqrt(2)",
+            "C. 1",
+            "D. -1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "Evaluate: integral_0^infinity e^(-3x) dx.",
+        "choices": [
+            "A. 1/3",
+            "B. 3",
+            "C. 1",
+            "D. Divergent"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "Find the derivative of the inverse sine function, y = arcsin(x).",
+        "choices": [
+            "A. 1 / sqrt(1 - x^2)",
+            "B. -1 / sqrt(1 - x^2)",
+            "C. 1 / (1 + x^2)",
+            "D. 1 / (abs(x) * sqrt(x^2 - 1))"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "The position of a particle is given by s(t) = 2t^3 - 9t^2 + 12t. When is the particle at rest?",
+        "choices": [
+            "A. t = 1 and t = 2",
+            "B. t = 0 and t = 3",
+            "C. t = 1.5 only",
+            "D. t = 2 and t = 3"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "Determine the limit of x*ln(x) as x approaches 0 from the right.",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. infinity",
+            "D. Does not exist"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "Find the derivative of y = log10(x).",
+        "choices": [
+            "A. 1 / (x * ln(10))",
+            "B. 1/x",
+            "C. ln(10) / x",
+            "D. 10/x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "Find the area between y = x and y = x^3 in the first quadrant.",
+        "choices": [
+            "A. 1/2",
+            "B. 1/4",
+            "C. 1/3",
+            "D. 1/12"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "If x^2 + y^2 = 25, what is y'' at the point (3, 4)?",
+        "choices": [
+            "A. -25/64",
+            "B. -25/16",
+            "C. -3/4",
+            "D. -25/27"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "What does the constant of integration, C, signify in indefinite integrals?",
+        "choices": [
+            "A. It represents the average value of the function",
+            "B. It adjusts the derivative of the function",
+            "C. It determines the limits of integration",
+            "D. It accounts for the family of possible antiderivatives"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "Find the value of integral_0^1 x/(x^2 + 1) dx.",
+        "choices": [
+            "A. pi/4",
+            "B. ln(sqrt(2))",
+            "C. (1/2)*(ln(2) - 1)",
+            "D. 3/2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "Water is leaking from a tank at the rate of R(t) = 5*arctan(t/5) gallons per hour, where t is the number of hours since the leak began. How many gallons will leak out during the first day?",
+        "choices": [
+            "A. 7",
+            "B. 82",
+            "C. 124",
+            "D. 141"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "Evaluate the integral: integral e^x * e^(3x) dx.",
+        "choices": [
+            "A. (1/3)*e^(3x) + C",
+            "B. (1/4)*e^(4x) + C",
+            "C. (1/4)*e^(3x) + C",
+            "D. 4*e^(4x) + C REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "An open-loop system has a transfer function G(s) = 5 / (s(s^2 + 2s + 10)) and is to be controlled by a proportional controller with gain K, using a unity negative feedback loop. What is the range of K that guarantees the stability of the system?",
+        "choices": [
+            "A. K < 4",
+            "B. K > 0",
+            "C. 0 < K < 4",
+            "D. 0 < K < 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "The power dissipation in an amplifier circuit depends on input voltage V and load resistance R, given by P(V,R) = 2V^2/R + 0.1R. What is the rate of change of power with respect to voltage when V=5 V and R=10 ohms?",
+        "choices": [
+            "A. 1.0 W/V",
+            "B. 4.0 W/V",
+            "C. 3.0 W/V",
+            "D. 2.0 W/V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "A robotic arm moves according to x(t) = 3t^2 - 2t and y(t) = 4t + 1. What is the speed of the arm at t=1?",
+        "choices": [
+            "A. sqrt(32) units/s",
+            "B. 6 units/s",
+            "C. 2*sqrt(13) units/s",
+            "D. 4*sqrt(2) units/s"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 84,
+        "question": "An electron beam in an oscilloscope deflects according to x(t) = 5cos(t) and y(t) = 5sin(t). What path does the electron trace?",
+        "choices": [
+            "A. Straight line",
+            "B. Parabola",
+            "C. Circle",
+            "D. Ellipse"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "Find the equation of the tangent line to the curve x = t^3 - t, y = t^2 + 2t at t = 1.",
+        "choices": [
+            "A. y = (2/3)x + 7/3",
+            "B. y = x + 3",
+            "C. y = (1/2)x + 5/2",
+            "D. y = 2x + 3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "The efficiency of a transformer is given by n(x) = 100x / (x + 2 + 50/x) where x is the load current in amperes. What load current maximizes efficiency?",
+        "choices": [
+            "A. 5.0 A",
+            "B. 4.08 A",
+            "C. 10.0 A",
+            "D. 7.07 A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "Find the absolute minimum value of f(x) = x^4 - 8x^2 + 5 on the interval [-2, 3].",
+        "choices": [
+            "A. -11",
+            "B. -9",
+            "C. 5",
+            "D. 14"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "A signal flare is fired from ground level with initial velocity 30 m/s at 60 degrees to horizontal. What is the total time of flight before it returns to ground?",
+        "choices": [
+            "A. 2.65 s",
+            "B. 3.06 s",
+            "C. 4.45 s",
+            "D. 5.30 s"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "For the function g(x) = e^(2x)*sin(x), what is g''(0)?",
+        "choices": [
+            "A. 0",
+            "B. 2",
+            "C. 4",
+            "D. 5"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "Find dy/dx at the point (1,1) for the curve x^2*y + x*y^2 = 2.",
+        "choices": [
+            "A. -1",
+            "B. -2/3",
+            "C. -3/2",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "A signal decays according to f(t) = 6*e^(-0.5t). What is the total area under the curve from t=0 to t=infinity?",
+        "choices": [
+            "A. infinity",
+            "B. 18",
+            "C. 6",
+            "D. 12"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "What technique is MOST appropriate for evaluating the integral: integral 2x * e^(x^2) dx?",
+        "choices": [
+            "A. Integration by parts",
+            "B. Trigonometric substitution",
+            "C. Algebraic substitution",
+            "D. Partial fraction decomposition"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "If p(x,y) represents the density at point (x,y) in a region R, what does double_integral_R p(x,y) dA represent?",
+        "choices": [
+            "A. The volume above region R REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "B. The total mass of the region",
+            "C. The area of region R",
+            "D. The centroid of R"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "Evaluate the integral: integral 6x^2 * cos(x^3) dx.",
+        "choices": [
+            "A. 2*sin(x^3) + C",
+            "B. sin(x^3) + C",
+            "C. 2*cos(x^3) + C",
+            "D. -2*cos(x) + C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "A series RLC circuit has resistance R=4 ohms, inductance L=1 H, and capacitance C=0.25 F. If the initial current is i(0)=0 and the initial derivative is di(0)/dt = 8 A/s, what is the expression for the current i(t)?",
+        "choices": [
+            "A. i(t) = 8*e^(-2t)",
+            "B. i(t) = 4t*e^(-2t)",
+            "C. i(t) = 8t*e^(-2t)",
+            "D. i(t) = (4+4t)*e^(-2t)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "An AC circuit has impedance Z = 6 - 8j ohms. What is the magnitude of the impedance?",
+        "choices": [
+            "A. 2 ohms",
+            "B. 10 ohms",
+            "C. 14 ohms",
+            "D. 100 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "An engineer is digitizing an audio signal with frequency components up to 12 kHz. According to the Nyquist sampling theorem, what is the minimum sampling rate required to avoid aliasing?",
+        "choices": [
+            "A. 12 kHz",
+            "B. 24 kHz",
+            "C. 6 kHz",
+            "D. 48 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "The Mean Time Between Failures (MTBF) of a satellite component is modeled by an exponential distribution. If the MTBF is 50,000 hours, what is the probability that the component fails before 50,000 hours?",
+        "choices": [
+            "A. 0.000",
+            "B. 0.368",
+            "C. 0.500",
+            "D. 0.632"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 99,
+        "question": "Gauss's Law for Magnetism states that the divergence of the magnetic flux density B is always zero. This implies that magnetic field lines:",
+        "choices": [
+            "A. exist only inside magnetic materials",
+            "B. are continuous loops with no sources and sinks",
+            "C. consist of monopoles similar to electric charges",
+            "D. originate from north poles and terminate at south poles"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 100,
+        "question": "Which vector calculus theorem relates the volume integral of the divergence of a vector field to the closed surface integral of the flux of that field?",
+        "choices": [
+            "A. Stokes' Theorem",
+            "B. Green's Theorem",
+            "C. Divergence Theorem",
+            "D. Helmholtz Theorem REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "C"
+    }
+]

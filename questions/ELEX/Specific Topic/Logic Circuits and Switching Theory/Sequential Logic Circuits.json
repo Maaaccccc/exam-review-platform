@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "A 4-variable K-map groups 8 adjacent 1s. How many variables are eliminated?",
+        "choices": [
+            "A. Three",
+            "B. Two",
+            "C. Four",
+            "D. One"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "Worded circuit: A prime implicant covers m1, m3, m5, m7. Minterm m5 is not covered by any other prime implicant. What is this group mathematically called?",
+        "choices": [
+            "A. Non-essential Prime Implicant",
+            "B. Essential Prime Implicant",
+            "C. Redundant Implicant",
+            "D. Maxterm"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Which logic family is characterized by consuming almost zero static power but dissipating power dynamically proportional to the switching frequency?",
+        "choices": [
+            "A. ECL",
+            "B. TTL",
+            "C. CMOS",
+            "D. DTL"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "What is the fundamental architectural difference between a latch and a flip-flop?",
+        "choices": [
+            "A. Latches are edge-triggered, flip-flops are level-triggered",
+            "B. Latches require a clock, flip-flops do not",
+            "C. Latches are level-triggered, flip-flops are edge-triggered",
+            "D. Latches store two bits, flip-flops store one"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 5,
+        "question": "Worded circuit: An active-HIGH SR latch is built using two cross-coupled NOR gates. If both S and R inputs are forced to logic 1 simultaneously, what is the output state of Q and Q'?",
+        "choices": [
+            "A. Both Q and Q' become 0, an invalid state",
+            "B. Q becomes 1 and Q' becomes 0",
+            "C. Q becomes 0 and Q' becomes 1",
+            "D. Both Q and Q' become 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "Which type of counter features flip-flops that are not all clocked simultaneously by the same external master clock signal?",
+        "choices": [
+            "A. Synchronous Counter",
+            "B. Ring Counter",
+            "C. Asynchronous (Ripple) Counter",
+            "D. Johnson Counter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "In a standard JK flip-flop, what happens when both J and K inputs are held at logic 1 during an active clock edge?",
+        "choices": [
+            "A. The output toggles its state",
+            "B. The output resets to 0",
+            "C. The output sets to 1",
+            "D. The output remains unchanged"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "Worded circuit: A digital system takes an 8-bit parallel byte from a microprocessor and converts it into a single continuous serial data stream over one wire. Which specific shift register configuration is strictly required?",
+        "choices": [
+            "A. SISO",
+            "B. PIPO",
+            "C. SIPO",
+            "D. PISO"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "The D flip-flop is often referred to as a \"transparent\" or \"delay\" flip-flop. What is its defining characteristic upon an active clock edge?",
+        "choices": [
+            "A. The output Q takes on the value of the D input",
+            "B. The output Q toggles",
+            "C. The output Q always resets",
+            "D. The output Q takes the complement of D"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "A standard TTL gate has an IOH_max of -400 uA and drives inputs with an IIH_max of 40 uA. What is the guaranteed HIGH-state fan-out?",
+        "choices": [
+            "A. 40",
+            "B. 10",
+            "C. 100",
+            "D. 4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "A T (Toggle) flip-flop can be easily constructed from a generic JK flip-flop by:",
+        "choices": [
+            "A. Connecting J to VCC and K to Ground",
+            "B. Tying J and K together and applying the T input to them",
+            "C. Grounding both J and K",
+            "D. Connecting J to Q' and K to Q"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "Worded circuit: A clocked D latch is enabled by a HIGH clock level. The D input changes rapidly multiple times while the clock is HIGH. What happens to the output Q?",
+        "choices": [
+            "A. Q ignores all changes until the clock goes LOW",
+            "B. Q follows every change of D as long as the clock remains HIGH",
+            "C. Q toggles once per change",
+            "D. Q latches only the first change"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "An edge-triggered flip-flop typically uses a master-slave configuration. When the clock is HIGH, the master is enabled and the slave is disabled. When does the final output Q actually change state?",
+        "choices": [
+            "A. On the rising edge",
+            "B. Continuously while HIGH",
+            "C. On the falling edge of the clock (for a negative-edge triggered FF)",
+            "D. When the clear pin is pulled"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "In the excitation table for an SR flip-flop, if the present state (Qn) is 0 and the next state (Qn+1) must be 1, what must the S and R inputs be?",
+        "choices": [
+            "A. S=1, R=0",
+            "B. S=0, R=1",
+            "C. S=1, R=X (don't care)",
+            "D. S=X, R=0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "According to the standard JK flip-flop excitation table, if the present state is 1 and the desired next state is 0, the inputs must be:",
+        "choices": [
+            "A. J=0, K=1",
+            "B. J=X, K=1",
+            "C. J=1, K=X",
+            "D. J=0, K=0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "Worded circuit: A synchronous counter is built using exactly four cascaded flip-flops. What is the absolute maximum number of distinct states (MOD number) this counter can sequence through?",
+        "choices": [
+            "A. 4",
+            "B. 8",
+            "C. 16",
+            "D. 32"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "In an asynchronous ripple counter comprised of 4 flip-flops, each with a propagation delay of 20 ns, what is the total worst-case propagation delay for the entire counter to settle after a clock pulse?",
+        "choices": [
+            "A. 20 ns",
+            "B. 40 ns",
+            "C. 80 ns",
+            "D. 160 ns"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 18,
+        "question": "A 4-bit Serial-In Parallel-Out (SIPO) shift register is initially cleared. How many discrete clock pulses are strictly required to completely load a new 4-bit nibble into the register?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 4",
+            "D. 8"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "Worded circuit: A Parallel-In Serial-Out (PISO) shift register has a SHIFT/LOAD control line. To load data from the parallel inputs into the internal flip-flops, this control line must be set to the LOAD state for exactly how many clock cycles?",
+        "choices": [
+            "A. Four cycles",
+            "B. One cycle",
+            "C. Two cycles",
+            "D. Zero cycles (it is asynchronous)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "The high-level noise margin (NMH) of a digital logic family is mathematically calculated as:",
+        "choices": [
+            "A. VOH(min) - VIH(min)",
+            "B. VIL(max) - VOL(max)",
+            "C. VIH(min) - VIL(max)",
+            "D. VOH(min) - VOL(max)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "In an active-LOW SR latch constructed exclusively from NAND gates, what is the forbidden (invalid) input condition?",
+        "choices": [
+            "A. S=1, R=1",
+            "B. S=0, R=1",
+            "C. S=1, R=0",
+            "D. S=0, R=0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 22,
+        "question": "Worded circuit: To convert a standard D flip-flop into a T flip-flop, the Q' (Q-NOT) output is fed back directly into the D input. What happens to the Q output if a continuous 1 MHz clock is applied?",
+        "choices": [
+            "A. It outputs a 2 MHz square wave",
+            "B. It outputs a 1 MHz square wave",
+            "C. It outputs a 500 kHz square wave",
+            "D. It remains stuck at logic 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "The primary architectural purpose of a master-slave flip-flop design is to explicitly eliminate which severe timing problem?",
+        "choices": [
+            "A. Propagation delay",
+            "B. Race-around condition",
+            "C. Setup time violations",
+            "D. Clock skew"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "For a T flip-flop, if the present state is 1 and the next state must remain 1, the required T input is strictly:",
+        "choices": [
+            "A. 1",
+            "B. X (Don't care)",
+            "C. High Impedance",
+            "D. 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "A 100 kHz clock is applied to the input of a MOD-16 ripple counter. What is the exact frequency of the digital signal at the output of the final flip-flop?",
+        "choices": [
+            "A. 1.6 MHz",
+            "B. 50 kHz",
+            "C. 6.25 kHz",
+            "D. 12.5 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "What is the primary operational advantage of a synchronous counter over an asynchronous (ripple) counter?",
+        "choices": [
+            "A. It uses fewer flip-flops",
+            "B. It consumes less power",
+            "C. It eliminates cumulative propagation delay since all flip-flops are clocked simultaneously",
+            "D. It does not require a clock"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "Worded circuit: A 4-bit SISO shift register has its final output (Q3) tied directly back to its serial input (D0). If the initial state is 1000, what will the binary state be after exactly two clock pulses?",
+        "choices": [
+            "A. 0100",
+            "B. 0010",
+            "C. 0001",
+            "D. 1000"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "A standard Johnson counter (twisted ring counter) built with N flip-flops will have exactly how many valid states in its counting sequence?",
+        "choices": [
+            "A. N",
+            "B. 2^N",
+            "C. 2N",
+            "D. N^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "You want to implement a D flip-flop using a JK flip-flop. How must you connect the D input to the J and K terminals?",
+        "choices": [
+            "A. J = D, K = D'",
+            "B. J = D', K = D",
+            "C. J = D, K = 1",
+            "D. J = 1, K = D"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Which type of shift register configuration provides the absolute fastest data transfer for a multi-bit word, requiring only a single clock pulse to move the entire word in and out?",
+        "choices": [
+            "A. SISO",
+            "B. PISO",
+            "C. SIPO",
+            "D. PIPO"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 31,
+        "question": "In flip-flop timing specifications, what is the precise definition of \"setup time\" (ts)?",
+        "choices": [
+            "A. The time the clock must be high",
+            "B. The minimum time the data input must remain stable BEFORE the active clock edge",
+            "C. The minimum time the data must remain stable AFTER the active clock edge",
+            "D. The time it takes for output to change"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "In flip-flop timing specifications, what is the precise definition of \"hold time\" (th)?",
+        "choices": [
+            "A. The minimum time the data input must remain stable AFTER the active clock edge",
+            "B. The time the clock must be low",
+            "C. The minimum time the data input must remain stable BEFORE the active clock edge",
+            "D. The propagation delay of the flip-flop"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "Most practical flip-flops feature PRESET and CLEAR pins. These specific control pins are typically classified as:",
+        "choices": [
+            "A. Synchronous inputs dependent on the clock",
+            "B. Asynchronous inputs that override the clock and data inputs immediately",
+            "C. Power supply pins",
+            "D. Ground pins"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "Worded circuit: A POS expression is derived by grouping the 0s on a Karnaugh map. If a group of four 0s (a quad) is formed, the resulting sum term will have how many literals eliminated compared to a single isolated maxterm?",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 2",
+            "D. 3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "To design a MOD-10 (Decade) asynchronous ripple counter, a designer uses four flip-flops (which naturally count to 16). They must add a NAND gate to detect which specific binary count and force a reset (CLEAR)?",
+        "choices": [
+            "A. 1001 (9)",
+            "B. 1010 (10)",
+            "C. 1011 (11)",
+            "D. 1111 (15)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "A BCD decade counter sequentially counts from 0000 to 1001. Upon receiving the 10th clock pulse, what is its immediate next state?",
+        "choices": [
+            "A. 1010",
+            "B. 1111",
+            "C. 0000",
+            "D. 0001"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "Worded circuit: A synchronous counter has an UP/DOWN control pin. When UP/DOWN = 1, it counts up. To achieve this, the combinatorial logic connecting the flip-flops must route the Q outputs to the next stage. What must it route to count DOWN?",
+        "choices": [
+            "A. The Clock signal",
+            "B. The D inputs",
+            "C. The Q' (Q-NOT) outputs",
+            "D. The Clear inputs"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "To mathematically convert an SR flip-flop into a JK flip-flop, feedback is strictly required. The J input is ANDed with which specific output before connecting to S?",
+        "choices": [
+            "A. Q",
+            "B. Q'",
+            "C. Clock",
+            "D. Preset"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "A single T flip-flop configured with T=1 acts as a fundamental frequency divider. It divides the input clock frequency by a factor of:",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 4",
+            "D. 8"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "What is the fundamental architectural difference between a standard register and a standard counter?",
+        "choices": [
+            "A. Registers have no memory",
+            "B. Counters perform arithmetic division, registers perform multiplication",
+            "C. A register stores data without a specific state sequence, a counter sequences through a predefined set of states",
+            "D. Counters are built from latches, registers from flip-flops"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "A Serial-In Serial-Out (SISO) shift register with 8 stages is driven by a 1 kHz clock. If a single 1-bit pulse is applied to the input, how much physical time delay occurs before it appears at the final output?",
+        "choices": [
+            "A. 8 milliseconds",
+            "B. 1 millisecond",
+            "C. 8 microseconds",
+            "D. 125 microseconds"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "Because the flip-flops in a ripple counter change states at slightly different times due to accumulated propagation delays, decoding the output states with logic gates can produce temporary, unwanted voltage spikes known as:",
+        "choices": [
+            "A. Setup violations",
+            "B. Hold violations",
+            "C. Glitches (or decoding spikes)",
+            "D. Race-around conditions"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "Worded circuit: You are designing a synchronous counter that counts 0, 2, 4, 6, 0... using D flip-flops. You draw a state transition table. To determine the boolean logic required for the D1 input, what exact K-map must you solve?",
+        "choices": [
+            "A. The K-map plotting the Present State against the Next State of Q1",
+            "B. The K-map plotting the Next State against the Clock",
+            "C. The K-map plotting the J and K inputs",
+            "D. The K-map of the output divided by two"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "The severe \"race-around condition\" in a level-triggered JK flip-flop (where J=1, K=1) occurs specifically when the clock pulse width (tp) is:",
+        "choices": [
+            "A. Much shorter than the propagation delay of the flip-flop",
+            "B. Exactly equal to the setup time",
+            "C. Much longer than the propagation delay of the flip-flop, causing it to toggle multiple times in one clock cycle",
+            "D. Negative-going"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "The boolean algebraic expression A(B + C) = AB + AC is a direct mathematical demonstration of which fundamental law?",
+        "choices": [
+            "A. Commutative Law",
+            "B. Distributive Law",
+            "C. Associative Law",
+            "D. De Morgan's Law"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "In a standard D latch with an Enable (EN) pin, when EN is LOW, the output Q will strictly:",
+        "choices": [
+            "A. Follow the D input",
+            "B. Toggle constantly",
+            "C. Force to 0",
+            "D. Retain its last latched state regardless of changes on D"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 47,
+        "question": "A highly common practical application for a Serial-In Parallel-Out (SIPO) shift register in digital systems is:",
+        "choices": [
+            "A. Converting parallel bus data to a USB serial stream",
+            "B. Converting a serial UART data stream into a parallel byte for a microprocessor to read",
+            "C. Acting as a binary ripple counter",
+            "D. Dividing a high-frequency clock by 10"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "A highly common practical application for a Parallel-In Serial-Out (PISO) shift register in digital systems is:",
+        "choices": [
+            "A. Reading data from a parallel sensor and transmitting it sequentially over a single I2C or SPI data line",
+            "B. Driving a 7-segment display from a serial input",
+            "C. Generating a hardware interrupt",
+            "D. Decoding a 4-bit memory address"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "A standard Ring Counter is constructed using 5 flip-flops. Exactly how many unique counting states will this counter sequence through before repeating?",
+        "choices": [
+            "A. 32",
+            "B. 10",
+            "C. 5",
+            "D. 16"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "A standard Johnson Counter is constructed using 5 flip-flops. Exactly how many unique counting states will this counter sequence through before repeating?",
+        "choices": [
+            "A. 5",
+            "B. 10",
+            "C. 32",
+            "D. 16"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "A graphical representation showing circles for states and directed arrows for transitions based on clock pulses and inputs is formally known as a:",
+        "choices": [
+            "A. Timing diagram",
+            "B. Karnaugh map",
+            "C. State diagram",
+            "D. Schematic"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "A single, standard digital flip-flop intrinsically stores exactly how many bits of digital information?",
+        "choices": [
+            "A. Four bits",
+            "B. Two bits",
+            "C. Eight bits",
+            "D. One bit"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "Worded circuit: You need a hardware counter that continuously counts from 0 to 45 and then resets to 0. What is the absolute minimum number of flip-flops required to build this MOD-46 counter?",
+        "choices": [
+            "A. 4",
+            "B. 5",
+            "C. 6",
+            "D. 7"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "In a standard D flip-flop, if the present state is 1 and the desired next state is 0, what MUST the D input be before the active clock edge?",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. X (Don't care)",
+            "D. High-Z"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "A shift register that can shift data to the left or to the right depending on the state of a hardware control signal is formally called a:",
+        "choices": [
+            "A. Universal Shift Register",
+            "B. SISO Register",
+            "C. Counter",
+            "D. Bidirectional Shift Register"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 56,
+        "question": "A \"Universal Shift Register\" is a versatile digital IC capable of which of the following combined operations?",
+        "choices": [
+            "A. Only serial shifting",
+            "B. Only parallel loading",
+            "C. SISO, SIPO, PISO, PIPO, and often bidirectional shifting",
+            "D. Analog to digital conversion"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "Worded circuit: In a 3-bit asynchronous (ripple) DOWN counter built with negative-edge triggered T flip-flops, how must the clock inputs of the subsequent stages be connected?",
+        "choices": [
+            "A. To the clock generator directly",
+            "B. To the Q outputs of the preceding flip-flops",
+            "C. To the Q' (Q-NOT) outputs of the preceding flip-flops",
+            "D. To the T inputs of the preceding flip-flops"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "A synchronous counter specifically designed to skip certain states in its natural binary sequence (e.g., counting 0, 1, 5, 6, 0) is generally referred to as a:",
+        "choices": [
+            "A. Full-sequence counter",
+            "B. Johnson counter",
+            "C. Truncated counter",
+            "D. Ring counter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "In Karnaugh Map simplification, a \"Don't Care\" condition is represented by an 'X'. When mathematically grouping, the designer should:",
+        "choices": [
+            "A. Always group all 'X's",
+            "B. Never group any 'X's",
+            "C. Treat 'X' as 0 to maximize the group size",
+            "D. Treat 'X' as 1 ONLY if it helps to create a larger group of 1s, further simplifying the expression"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "A standard D latch is often called \"transparent\" because:",
+        "choices": [
+            "A. It is made of glass",
+            "B. When the enable is HIGH, the Q output dynamically follows every change on the D input immediately",
+            "C. It has no internal logic",
+            "D. It acts as an open circuit"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "Worded circuit: A 1 MHz clock is fed into a cascade of four JK flip-flops, all permanently wired with J=1 and K=1. What is the fundamental frequency at the output of the final flip-flop?",
+        "choices": [
+            "A. 250 kHz",
+            "B. 125 kHz",
+            "C. 62.5 kHz",
+            "D. 16 MHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "If the data on the D input of a flip-flop changes exactly at the same picosecond the active clock edge arrives, violating both setup and hold times, the flip-flop may enter an unpredictable, oscillating state known as:",
+        "choices": [
+            "A. Transparency",
+            "B. Metastability",
+            "C. Saturation",
+            "D. Glitching"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "The engineering term \"Modulo\" (MOD) in a counter circuit specifically refers to:",
+        "choices": [
+            "A. The maximum clock frequency it can handle",
+            "B. The number of flip-flops it contains",
+            "C. The total number of unique states in its counting sequence before it repeats",
+            "D. The number of inputs it has"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "An SR latch built with NOR gates is inherently active-HIGH (inputs S and R). An SR latch built entirely with NAND gates is inherently:",
+        "choices": [
+            "A. Active-LOW (inputs S' and R')",
+            "B. Also active-HIGH",
+            "C. Edge-triggered",
+            "D. Unstable"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "Adding an Enable (EN) or Clock input to a basic unclocked SR latch physically creates a:",
+        "choices": [
+            "A. Flip-flop",
+            "B. Gated SR Latch",
+            "C. D Latch",
+            "D. Multiplexer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "In the excitation table for a standard T flip-flop, what must the T input be if the present state (Qn) is 0 and the desired next state (Qn+1) is 0?",
+        "choices": [
+            "A. 1",
+            "B. X (Don't care)",
+            "C. High Impedance",
+            "D. 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 67,
+        "question": "The fundamental defining characteristic that separates sequential logic circuits from combinational logic circuits is that sequential circuits absolutely require:",
+        "choices": [
+            "A. Memory elements (feedback) to maintain state",
+            "B. NOR gates",
+            "C. Multiple outputs",
+            "D. High voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "In a fully synchronous digital system, all state changes are strictly coordinated by a:",
+        "choices": [
+            "A. Single, global Master Clock signal",
+            "B. Local asynchronous delays",
+            "C. Ripple effect",
+            "D. Master reset pin"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "Worded circuit: In a large PCB layout, a clock signal arrives at Flip-Flop A slightly before it arrives at Flip-Flop B due to trace length differences. This highly problematic timing discrepancy is formally known as:",
+        "choices": [
+            "A. Clock jitter",
+            "B. Clock stretching",
+            "C. Propagation delay",
+            "D. Clock skew"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "To store a massive 64-bit memory word, a parallel-in parallel-out (PIPO) hardware register must physically contain exactly how many flip-flops?",
+        "choices": [
+            "A. 16",
+            "B. 32",
+            "C. 128",
+            "D. 64"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 71,
+        "question": "To configure a JK flip-flop to unconditionally toggle its output on every active clock edge, the J and K inputs must be permanently tied to:",
+        "choices": [
+            "A. Logic 0",
+            "B. Logic 1",
+            "C. The Q output",
+            "D. The Q' output"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "Worded circuit: In a 3-bit synchronous UP counter using T flip-flops, the T input of the first stage (T0) is tied to 1. The T input of the second stage (T1) is tied to Q0. What must the T input of the third stage (T2) be connected to?",
+        "choices": [
+            "A. Q0 AND Q1",
+            "B. Q0",
+            "C. Q1",
+            "D. Q0 OR Q1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "Shifting a binary number one position to the RIGHT in a shift register (assuming unsigned numbers and padding with zeros) is mathematically equivalent to:",
+        "choices": [
+            "A. Dividing the number by 2",
+            "B. Multiplying the number by 2",
+            "C. Subtracting 1",
+            "D. Adding 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "Shifting a binary number one position to the LEFT in a shift register (assuming no overflow) is mathematically equivalent to:",
+        "choices": [
+            "A. Dividing by 2",
+            "B. Subtracting 2",
+            "C. Adding 1",
+            "D. Multiplying by 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "According to De Morgan's theorem, an OR gate with inverted inputs (a bubbled OR gate) is logically equivalent to which standard gate?",
+        "choices": [
+            "A. AND gate",
+            "B. NAND gate",
+            "C. NOR gate",
+            "D. XOR gate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "Which two logic gates are formally classified as \"Universal Gates\" because any boolean function can be implemented using exclusively them?",
+        "choices": [
+            "A. NAND and NOR",
+            "B. AND and OR",
+            "C. XOR and XNOR",
+            "D. NOT and AND"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "A finite state machine (FSM) whose outputs depend BOTH on the current internal state and the current external inputs is formally classified as a:",
+        "choices": [
+            "A. Moore Machine",
+            "B. Mealy Machine",
+            "C. Turing Machine",
+            "D. Johnson Machine"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "A finite state machine whose outputs depend ONLY on the current internal state is formally classified as a:",
+        "choices": [
+            "A. Mealy Machine",
+            "B. Asynchronous Machine",
+            "C. Ripple Machine",
+            "D. Moore Machine"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "A simple D latch can be constructed from an SR latch by adding an inverter between the S input and the R input, effectively ensuring that S and R are always:",
+        "choices": [
+            "A. Logical complements of each other",
+            "B. Both 1",
+            "C. Both 0",
+            "D. Disconnected"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "The most common practical application for a T flip-flop in digital system design is:",
+        "choices": [
+            "A. Data storage (RAM)",
+            "B. Parallel to serial conversion",
+            "C. Serial to parallel conversion",
+            "D. Building binary counters and frequency dividers"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "The primary disadvantage of an asynchronous (ripple) counter in high-speed digital systems is:",
+        "choices": [
+            "A. It requires a very complex clocking scheme",
+            "B. It consumes too much power",
+            "C. It uses twice as many flip-flops",
+            "D. The accumulated propagation delay limits the maximum clock frequency and can cause decoding glitches"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 82,
+        "question": "Worded circuit: A MOD-10 ripple counter uses 4 flip-flops (Q3, Q2, Q1, Q0 where Q3 is MSB). To truncate the count at 10 (1010 binary), a NAND gate clears all flip-flops. Which Q outputs must strictly be connected to the NAND gate inputs?",
+        "choices": [
+            "A. Q3 and Q0",
+            "B. Q3 and Q1",
+            "C. Q2 and Q1",
+            "D. Q2 and Q0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "For a standard Ring Counter to function properly, it must be initialized before the clock starts. What specific pattern must be pre-loaded into the flip-flops?",
+        "choices": [
+            "A. All 0s",
+            "B. All 1s",
+            "C. Alternating 1s and 0s",
+            "D. A single 1 and all other flip-flops 0 (or a single 0 and all others 1)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 84,
+        "question": "A Johnson counter is also known as a twisted ring counter because the feedback connection to the first flip-flop's D input is taken from:",
+        "choices": [
+            "A. The Q' (Q-NOT) output of the last flip-flop",
+            "B. The Q output of the last flip-flop",
+            "C. The Clock input",
+            "D. The clear pin"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "On a logic schematic, a flip-flop's clock input is designated as being edge-triggered by the presence of a:",
+        "choices": [
+            "A. Bubble (circle)",
+            "B. Triangle (dynamic input indicator)",
+            "C. Square",
+            "D. Plus sign"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "On a logic schematic, if a flip-flop's clock input has BOTH a triangle and a bubble (circle), the flip-flop is triggered strictly on the:",
+        "choices": [
+            "A. Rising edge of the clock",
+            "B. High level of the clock",
+            "C. Low level of the clock",
+            "D. Falling edge of the clock"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "The timing diagram window during which data MUST remain absolutely stable to guarantee reliable flip-flop operation is defined by the sum of:",
+        "choices": [
+            "A. Setup time and hold time",
+            "B. Clock high time and clock low time",
+            "C. Rise time and fall time",
+            "D. Propagation delay and clock skew"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "A MOD-6 synchronous counter will sequence through exactly how many distinct internal states before repeating?",
+        "choices": [
+            "A. 3",
+            "B. 12",
+            "C. 5",
+            "D. 6"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "A cross-coupled NOR latch inherently utilizes which electronic principle to maintain its state without a clock?",
+        "choices": [
+            "A. Positive feedback",
+            "B. Negative feedback",
+            "C. Inductive coupling",
+            "D. Capacitive storage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "To determine the required boolean logic for the J and K inputs of a flip-flop based on a desired state transition, the designer must strictly consult the flip-flop's:",
+        "choices": [
+            "A. Truth table",
+            "B. State diagram",
+            "C. Timing diagram",
+            "D. Excitation table"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "Worded circuit: You cascade a MOD-8 counter and a MOD-10 counter by feeding the MSB output of the MOD-8 into the clock of the MOD-10. What is the overall MOD number of the cascaded system?",
+        "choices": [
+            "A. 80",
+            "B. 18",
+            "C. 2",
+            "D. 10"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "The 74HC595 is a highly popular logic IC. It is fundamentally an 8-bit:",
+        "choices": [
+            "A. Asynchronous Counter",
+            "B. Parallel-In, Serial-Out (PISO) Shift Register",
+            "C. Synchronous MOD-16 Counter",
+            "D. Serial-In, Parallel-Out (SIPO) Shift Register with an output latch"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "A 4-bit SISO shift register contains the data 1011. If 4 clock pulses are applied while the serial input is permanently tied to Logic 0, what is the final state of the register?",
+        "choices": [
+            "A. 0000",
+            "B. 1011",
+            "C. 0101",
+            "D. 1111"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "In a 4-variable Karnaugh Map, the cells m0 (0000) and m8 (1000) can be grouped together. This explicitly demonstrates that the K-map geometrically folds:",
+        "choices": [
+            "A. Left to Right",
+            "B. Diagonally",
+            "C. Only in the center",
+            "D. Top to Bottom"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 95,
+        "question": "Worded circuit: A MOD-16 ripple counter uses 4 flip-flops, each with a 10 ns propagation delay. For the output decoder to avoid severe glitching, the clock period MUST be strictly greater than:",
+        "choices": [
+            "A. 10 ns",
+            "B. 20 ns",
+            "C. 100 ns",
+            "D. 40 ns"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "In a synchronous counter built with the exact same flip-flops as the ripple counter in the previous question (10 ns delay), what physically limits the maximum clock frequency?",
+        "choices": [
+            "A. The propagation delay of a single flip-flop plus the delay of the combinational logic feeding the inputs",
+            "B. The sum of all flip-flop delays (40 ns)",
+            "C. Only the setup time",
+            "D. The clock skew"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "A primary advantage of a Ring Counter for sequence generation is that its outputs require absolutely no:",
+        "choices": [
+            "A. Flip-flops",
+            "B. Clock pulses",
+            "C. Power",
+            "D. External combinatorial decoding logic"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 98,
+        "question": "When designing a state machine with 5 distinct states, what is the absolute minimum number of flip-flops required to encode these states in standard binary?",
+        "choices": [
+            "A. 2",
+            "B. 4",
+            "C. 5",
+            "D. 3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 99,
+        "question": "By tying the J and K inputs of a flip-flop permanently to Logic 1, the device functions exactly as a:",
+        "choices": [
+            "A. T Flip-Flop",
+            "B. D Flip-Flop",
+            "C. Transparent Latch",
+            "D. Delay line"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 100,
+        "question": "In which shift register type is data entered into all stages simultaneously and extracted from all stages simultaneously?",
+        "choices": [
+            "A. SISO",
+            "B. SIPO",
+            "C. PISO",
+            "D. PIPO"
+        ],
+        "correct_answer": "D"
+    }
+]

@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "In a source-free RC circuit, what happens to the voltage across the capacitor as time approaches infinity?",
+        "choices": [
+            "A. It decays to zero",
+            "B. It approaches the initial voltage",
+            "C. It oscillates continuously",
+            "D. It increases exponentially"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "A 10-volt DC source is applied to an initially uncharged 2-farad capacitor in series with a 5-ohm resistor at t=0. What is the current flowing in the circuit at t=0+?",
+        "choices": [
+            "A. 0 A",
+            "B. 2 A",
+            "C. 5 A",
+            "D. 10 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "A circuit features a 20V DC source connected via a switch to a series combination of a 4-ohm resistor, a 6-ohm resistor, and a 5-henry inductor. The switch closes at t=0. At what precise time will the energy stored in the inductor reach its maximum steady-state value of 10 Joules?",
+        "choices": [
+            "A. 0.5 seconds",
+            "B. 2.5 seconds",
+            "C. As time approaches infinity",
+            "D. 5.0 seconds"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "An RL circuit has a time constant of 2 seconds. If the resistance is 10 ohms, what is the value of the inductance?",
+        "choices": [
+            "A. 5 H",
+            "B. 0.2 H",
+            "C. 12 H",
+            "D. 20 H"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "A capacitor is charged to 50V and is allowed to discharge through a 100-kiloohm resistor. If the capacitor is 10 microfarads, what is the voltage across the capacitor at t = 1 second?",
+        "choices": [
+            "A. 15.2 V",
+            "B. 10.5 V",
+            "C. 18.4 V",
+            "D. 36.8 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "A multi-interval switching circuit has a capacitor that charges for 1 second with a time constant of 1 second from a 10V source. At t=1s, the source is suddenly removed and the capacitor discharges through a new resistor giving a time constant of 0.5 seconds. What is the voltage at t=1.5 seconds?",
+        "choices": [
+            "A. 3.68 V",
+            "B. 6.32 V",
+            "C. 1.35 V",
+            "D. 2.32 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 7,
+        "question": "To measure the current flowing through a specific branch of a DC circuit, how must an ideal ammeter be connected relative to that branch?",
+        "choices": [
+            "A. In series with the branch",
+            "B. In parallel with the branch",
+            "C. In series-parallel",
+            "D. Across the voltage source"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "An ideal ammeter should ideally have what value of internal resistance to prevent altering the circuit conditions?",
+        "choices": [
+            "A. Infinite resistance",
+            "B. Zero resistance",
+            "C. Equal to the load resistance",
+            "D. Very high resistance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "A galvanometer has a full-scale deflection current of 1 mA and an internal coil resistance of 50 ohms. What value of shunt resistor is required to convert it into an ammeter capable of measuring up to 1 A?",
+        "choices": [
+            "A. 0.500 ohms",
+            "B. 0.050 ohms",
+            "C. 0.005 ohms",
+            "D. 5.000 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "A 0-10 mA meter movement with an internal resistance of 100 ohms is to be used as a 0-100 mA ammeter. What is the current flowing through the shunt resistor when the meter is at full scale?",
+        "choices": [
+            "A. 10 mA",
+            "B. 100 mA",
+            "C. 90 mA",
+            "D. 110 mA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "A moving coil instrument gives full-scale deflection at 50 mV and 10 uA. It is desired to use this instrument as an ammeter of range 0-10",
+        "choices": [
+            "A. What is the exact value of the required shunt resistance?",
+            "A. 5000 ohms",
+            "B. 0.05 ohms",
+            "C. 5 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 12,
+        "question": "To correctly measure the voltage across a resistor in an active DC circuit, how must a voltmeter be connected?",
+        "choices": [
+            "A. In parallel with the resistor",
+            "B. In series with the resistor",
+            "C. In series with the power supply",
+            "D. Between the resistor and ground only"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "What is the ideal internal resistance of a voltmeter to ensure it does not load the circuit being measured?",
+        "choices": [
+            "A. Zero",
+            "B. Equal to the circuit equivalent resistance",
+            "C. 1 megaohm",
+            "D. Infinite"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "A D'Arsonval meter movement has a full-scale deflection of 50 uA and an internal resistance of 2 kiloohms. What value of multiplier resistor is needed to convert it to a 0-100 V voltmeter?",
+        "choices": [
+            "A. 1,998 kiloohms",
+            "B. 2,000 kiloohms",
+            "C. 2,002 kiloohms",
+            "D. 1,998 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "A voltmeter has a sensitivity of 20,000 ohms/volt. What is the full-scale deflection current of its basic meter movement?",
+        "choices": [
+            "A. 100 uA",
+            "B. 50 uA",
+            "C. 20 uA",
+            "D. 10 uA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "A 0-150 V voltmeter has a resistance of 15,000 ohms. It is connected in series with a resistor R across a 120 V DC line. If the voltmeter reads 30 V, what is the value of the unknown resistor R?",
+        "choices": [
+            "A. 15,000 ohms",
+            "B. 30,000 ohms",
+            "C. 45,000 ohms",
+            "D. 60,000 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "In a basic series-type ohmmeter, the zero-ohm mark on the analog scale corresponds to what current condition through the meter movement?",
+        "choices": [
+            "A. Full-scale deflection current",
+            "B. Zero current",
+            "C. Half-scale deflection current",
+            "D. Short-circuit battery current"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "A series ohmmeter uses a 3V battery and a 1 mA full-scale meter movement. What is the internal resistance of the ohmmeter required for proper zeroing?",
+        "choices": [
+            "A. 1,000 ohms",
+            "B. 2,000 ohms",
+            "C. 3,000 ohms",
+            "D. 4,000 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "An ohmmeter is built using a 100 uA meter movement and a 1.5V battery. If the scale is marked with infinite ohms at 0 uA and 0 ohms at 100 uA, at what resistance value will the pointer deflect to exactly mid-scale (50 uA)?",
+        "choices": [
+            "A. 7,500 ohms",
+            "B. 15,000 ohms",
+            "C. 30,000 ohms",
+            "D. 0 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "Voltmeter loading effect is most pronounced and causes the greatest measurement error when measuring voltage across what type of circuit components?",
+        "choices": [
+            "A. Very low resistance components",
+            "B. Components in series with the source",
+            "C. Capacitors in a steady-state DC circuit",
+            "D. Very high resistance components"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "A voltage divider consists of two 100 kOhm resistors in series across a 20V source. A voltmeter with a 100 kOhm internal resistance is used to measure the voltage across one of the resistors. What voltage will the meter read?",
+        "choices": [
+            "A. 10.0 V",
+            "B. 6.67 V",
+            "C. 13.33 V",
+            "D. 5.0 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "Two resistors, R1 = 50 kOhms and R2 = 50 kOhms, are in series across a 100V DC source. A voltmeter with an internal resistance of 50 kOhms is connected across R2. What is the percentage error in the voltage reading caused by the meter's loading effect?",
+        "choices": [
+            "A. 0%",
+            "B. -10.5%",
+            "C. -25.0%",
+            "D. -33.3%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 23,
+        "question": "A 12V battery with an internal resistance of 50 ohms is connected to a 150-ohm load. An ammeter with a 20-ohm internal resistance is inserted in series to measure the current. What is the absolute error in the current reading caused by the ammeter's insertion?",
+        "choices": [
+            "A. -5.45 mA",
+            "B. -2.50 mA",
+            "C. +5.45 mA",
+            "D. -10.0 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "In a DC potentiometer circuit used for measuring an unknown voltage, what condition indicates that the unknown voltage exactly matches the tapped portion of the slide-wire voltage?",
+        "choices": [
+            "A. The galvanometer shows maximum deflection",
+            "B. The standard cell is disconnected",
+            "C. The galvanometer shows zero deflection (null condition)",
+            "D. The rheostat is set to zero resistance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "A 1-meter slide-wire potentiometer is balanced against a 1.018 V standard cell at a wire length of 50.9 cm. What is the voltage gradient along the slide wire?",
+        "choices": [
+            "A. 0.010 V/cm",
+            "B. 0.030 V/cm",
+            "C. 0.020 V/cm",
+            "D. 0.040 V/cm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "Using the potentiometer from the previous question (gradient = 0.02 V/cm), an unknown dry cell produces a null deflection at a length of 78.5 cm. What is the EMF of the dry cell?",
+        "choices": [
+            "A. 1.57 V",
+            "B. 1.45 V",
+            "C. 1.62 V",
+            "D. 1.50 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "A rheostat is primarily used in a circuit to:",
+        "choices": [
+            "A. Store electrical energy",
+            "B. Regulate voltage by parallel division",
+            "C. Provide a fixed known resistance",
+            "D. Vary the current by changing series resistance"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 28,
+        "question": "A circuit requires adjusting the current from 1 A down to 0.2",
+        "choices": [
+            "A. The supply voltage is a constant 20V DC. If the load is a fixed 10-ohm resistor, what is the maximum resistance required from the series rheostat?",
+            "A. 50 ohms",
+            "B. 90 ohms",
+            "C. 100 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "A basic meter movement has an internal resistance of 20 ohms and a full-scale current of 5 mA. It is to be configured as a multi-range ammeter using an Ayrton shunt. What is the primary advantage of an Ayrton (universal) shunt over multiple individual shunt resistors?",
+        "choices": [
+            "A. It increases the meter's sensitivity",
+            "B. It provides higher voltage isolation",
+            "C. It eliminates the loading effect",
+            "D. It prevents the meter movement from being left without a shunt during range switching"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "Which of the following forces in an analog indicating instrument is responsible for opposing the deflecting force to bring the pointer to rest at a steady position?",
+        "choices": [
+            "A. Damping force",
+            "B. Controlling force",
+            "C. Deflecting force",
+            "D. Magnetic force"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "The pointer of an analog meter oscillates before settling down. To prevent this, instruments are equipped with a mechanism that provides:",
+        "choices": [
+            "A. Controlling torque",
+            "B. Deflecting torque",
+            "C. Damping torque",
+            "D. Restoring torque"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "A 15V source is connected to a 100 kOhm and a 200 kOhm resistor in series. A voltmeter with 200 kOhm internal resistance is placed across the 200 kOhm resistor. What is the measured voltage?",
+        "choices": [
+            "A. 7.5 V",
+            "B. 10.0 V",
+            "C. 5.0 V",
+            "D. 12.0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "A 0-10V voltmeter with a 1000 ohms/volt sensitivity is connected in series with a 0-50V voltmeter with a 500 ohms/volt sensitivity. If this series combination is placed across a 40V DC supply, what will the 0-10V voltmeter read?",
+        "choices": [
+            "A. 20.00 V",
+            "B. 10.00 V",
+            "C. 11.43 V",
+            "D. 28.57 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "A series ohmmeter is designed with a 1 mA meter movement and a 9V battery. The internal series resistor is adjusted so the meter zeroes correctly when the test probes are shorted. What unknown resistance Rx will cause the meter to read exactly 25% of full-scale deflection?",
+        "choices": [
+            "A. 2,250 ohms",
+            "B. 9,000 ohms",
+            "C. 18,000 ohms",
+            "D. 27,000 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 35,
+        "question": "In a standard potentiometer circuit, a 2V working battery is connected across a 200 cm slide wire with a resistance of 40 ohms. A standard cell of 1.018V is balanced at 101.8 cm. If a resistor of 10 ohms is accidentally placed in series with the slide wire, where will the new balance point for the standard cell be?",
+        "choices": [
+            "A. 127.25 cm",
+            "B. 81.44 cm",
+            "C. 101.8 cm",
+            "D. 150.5 cm"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 36,
+        "question": "A 50 uA meter movement with a 1000-ohm internal resistance is used to construct a multi-range voltmeter. What is the multiplier resistance required for the 50 V range?",
+        "choices": [
+            "A. 1,000,000 ohms",
+            "B. 999,000 ohms",
+            "C. 99,000 ohms",
+            "D. 100,000 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "An ammeter is configured to measure up to 5 A using a basic meter movement that deflects full scale at 20 mA and has an internal resistance of 5 ohms. What is the total power dissipated by the meter movement itself (not the shunt) at full-scale deflection?",
+        "choices": [
+            "A. 2 mW",
+            "B. 100 W",
+            "C. 5 W",
+            "D. 20 mW"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "The resistance of an ideal shunt used in a high-current ammeter should be:",
+        "choices": [
+            "A. As high as possible",
+            "B. As low as possible",
+            "C. Equal to the meter's internal resistance",
+            "D. Equal to the multiplier resistance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "How many electrical terminals are typically connected when a potentiometer is used exclusively as a variable resistor (rheostat)?",
+        "choices": [
+            "A. Three",
+            "B. Four",
+            "C. Two",
+            "D. One"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "In a shunt-type ohmmeter, the unknown resistor Rx is connected in parallel with the meter movement. Where is the zero ohms marking located on the analog scale?",
+        "choices": [
+            "A. At the extreme right (full scale)",
+            "B. At mid-scale",
+            "C. At the mechanical center",
+            "D. At the extreme left (zero current)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "A 150V voltmeter has an accuracy of +/- 2% of full scale. If it reads 50V, what is the maximum percentage error of the reading?",
+        "choices": [
+            "A. 2%",
+            "B. 4%",
+            "C. 8%",
+            "D. 6%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 42,
+        "question": "A high-resistance DC bridge circuit contains arms in the megaohm range. An analog voltmeter with a 10 megaohm internal resistance is used to measure the imbalance voltage. This setup exemplifies what common measurement error?",
+        "choices": [
+            "A. Parallax error",
+            "B. Calibration error",
+            "C. Loading effect error",
+            "D. Environmental error"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "A circuit consists of a 24V source and a 12-ohm resistor. An ammeter with a 0.5-ohm internal resistance is used to measure the current. What is the measured current?",
+        "choices": [
+            "A. 2.00 A",
+            "B. 1.92 A",
+            "C. 1.85 A",
+            "D. 2.05 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "Why is a series ohmmeter provided with a zero adjust variable resistor?",
+        "choices": [
+            "A. To compensate for the decreasing voltage of the internal battery over time",
+            "B. To adjust the full-scale current capability",
+            "C. To calibrate the infinity ohms marking",
+            "D. To protect the meter from short circuits"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "The primary advantage of using a DC potentiometer to measure an unknown voltage compared to a standard voltmeter is that:",
+        "choices": [
+            "A. It is much faster to read",
+            "B. It draws no current from the circuit under test at null balance",
+            "C. It is less sensitive to temperature variations",
+            "D. It can measure AC voltages natively"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "A galvanometer has a coil resistance of 100 ohms. When a shunt of 1 ohm is connected, the full-scale current is 1.01",
+        "choices": [
+            "A. If the shunt is replaced by a multiplier resistor to make a 10V full-scale voltmeter, what is the value of the multiplier?",
+            "A. 900 ohms",
+            "B. 990 ohms",
+            "C. 1000 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "Two 100V voltmeters are connected in series across a 150V line. Voltmeter A has a sensitivity of 1 kOhm/V and Voltmeter B has a sensitivity of 2 kOhm/V. What is the reading of Voltmeter B?",
+        "choices": [
+            "A. 50 V",
+            "B. 75 V",
+            "C. 90 V",
+            "D. 100 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 48,
+        "question": "A 50-ohm rheostat is connected in series with a 25-ohm load across a 100V DC source. The rheostat is constructed with a linear wire-wound element. If the rheostat's wiper is positioned exactly at its midpoint, what is the voltage across the load?",
+        "choices": [
+            "A. 33.3 V",
+            "B. 40.0 V",
+            "C. 50.0 V",
+            "D. 66.7 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "What material is most commonly used for constructing high-precision ammeter shunts due to its very low temperature coefficient of resistance?",
+        "choices": [
+            "A. Copper",
+            "B. Aluminum",
+            "C. Manganin",
+            "D. Tungsten"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "Multiplier resistors used in voltmeters are typically constructed from wire that has:",
+        "choices": [
+            "A. A high temperature coefficient",
+            "B. A low temperature coefficient",
+            "C. Zero resistance",
+            "D. Infinite conductivity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "A potentiometer wire is 10 meters long and has a resistance of 20 ohms. It is connected in series with a resistance box and a 2V accumulator. If a potential gradient of 0.1 volts per meter is required along the wire, what resistance must be set in the resistance box?",
+        "choices": [
+            "A. 20 ohms",
+            "B. 10 ohms",
+            "C. 40 ohms",
+            "D. 30 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "A 0-1 mA meter movement with an internal resistance of 50 ohms is used to construct a multi-range ammeter with ranges of 10 mA, 50 mA, and 100 mA using an Ayrton shunt. What is the total resistance of the shunt network (Ra + Rb + Rc) connected across the meter movement?",
+        "choices": [
+            "A. 0.50 ohms",
+            "B. 1.11 ohms",
+            "C. 2.50 ohms",
+            "D. 5.55 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "Which instrument relies on the magnetic effect of electric current to produce a deflecting torque, commonly serving as the foundation for DC ammeters and voltmeters?",
+        "choices": [
+            "A. Permanent Magnet Moving Coil (PMMC)",
+            "B. Electrostatic Voltmeter",
+            "C. Thermocouple Meter",
+            "D. Moving Iron Vane"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "An unknown resistor is measured using the Voltmeter-Ammeter method. The voltmeter is connected directly across the resistor, and the ammeter is in series with this parallel combination. The voltmeter reads 100V and has a resistance of 10 kOhms. The ammeter reads 50 mA. What is the true value of the unknown resistor?",
+        "choices": [
+            "A. 2,000 ohms",
+            "B. 2,100 ohms",
+            "C. 1,900 ohms",
+            "D. 2,500 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 55,
+        "question": "A battery has an open-circuit voltage of 9V and an internal resistance of 1 kOhm. A voltmeter with an internal resistance of 9 kOhms is connected across the battery terminals. What is the percentage loading error?",
+        "choices": [
+            "A. 1.11%",
+            "B. 5.0%",
+            "C. 10.0%",
+            "D. 11.1%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "A series ohmmeter is designed with a half-scale deflection representing 2000 ohms. If the internal battery is a standard 3V cell, what is the full-scale current rating of the basic meter movement?",
+        "choices": [
+            "A. 1 mA",
+            "B. 1.5 mA",
+            "C. 2 mA",
+            "D. 3 mA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "The standard cell used in DC potentiometer measurements serves primarily as a:",
+        "choices": [
+            "A. High-current source",
+            "B. Highly stable voltage reference",
+            "C. Variable resistor",
+            "D. Damping mechanism"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "An ammeter has a resistance of 0.2 ohms and a full-scale range of 0-5",
+        "choices": [
+            "A. It is desired to extend the range to 0-25 A by adding a shunt. After adding the shunt, what is the equivalent resistance of the entire instrument?",
+            "A. 0.04 ohms",
+            "B. 0.05 ohms",
+            "C. 0.20 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "A 0-50 V voltmeter requires a 98 kOhm multiplier. Its meter movement has a 2 kOhm internal resistance. What is the sensitivity of the meter?",
+        "choices": [
+            "A. 1,000 ohms/V",
+            "B. 500 ohms/V",
+            "C. 10,000 ohms/V",
+            "D. 2,000 ohms/V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "In a series ohmmeter, the battery voltage drops by 10% due to aging. To compensate, the internal zero-adjust resistor is re-calibrated so the meter reads zero ohms correctly when shorted. How does this adjustment affect the half-scale resistance mark?",
+        "choices": [
+            "A. It remains exactly the same",
+            "B. It increases by 10%",
+            "C. It decreases by 10%",
+            "D. It becomes non-linear and unpredictable"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "A PMMC instrument has a coil resistance of 100 ohms and gives full-scale deflection for a current of 1 mA. It is to be used as a voltmeter to measure up to 100 V. What is the power dissipated by the multiplier resistor at full-scale deflection?",
+        "choices": [
+            "A. 0.1 W",
+            "B. 1.0 W",
+            "C. 0.01 W",
+            "D. 0.0999 W"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 62,
+        "question": "A 100-ohm, 1-ampere continuously variable rheostat is used in series with a 50-ohm fixed resistor and a 50V source. What is the minimum current that can be achieved in this circuit?",
+        "choices": [
+            "A. 1.0 A",
+            "B. 0.5 A",
+            "C. 0.33 A",
+            "D. 0.25 A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "In calibrating a voltmeter using a DC potentiometer, a volt box (a precision voltage divider) is typically used. What is its main purpose?",
+        "choices": [
+            "A. To step down the voltage so it falls within the low measurement range of the potentiometer",
+            "B. To increase the source voltage",
+            "C. To provide a stable reference voltage",
+            "D. To draw maximum current from the source"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "A circuit has a 20V source and two series resistors: R1 = 5 kOhms and R2 = 15 kOhms. Voltmeter A (sensitivity = 1 kOhm/V, 20V range) and Voltmeter B (sensitivity = 20 kOhm/V, 20V range) are available. If both are used sequentially to measure the voltage across R2, what is the difference between their readings?",
+        "choices": [
+            "A. 3.25 V",
+            "B. 2.23 V",
+            "C. 1.50 V",
+            "D. 4.88 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "A 15A ammeter has a guaranteed accuracy of 1% of full-scale reading. The current measured by this instrument is 5A. What is the limiting error in percentage for this specific reading?",
+        "choices": [
+            "A. 1%",
+            "B. 2%",
+            "C. 3%",
+            "D. 5%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "Why is the scale of a basic series-type ohmmeter highly non-linear, with markings crowded at the high-resistance end?",
+        "choices": [
+            "A. Because resistance is directly proportional to voltage",
+            "B. Because current is inversely proportional to the total resistance (I = V/R)",
+            "C. Because the battery voltage decays non-linearly",
+            "D. Because of the internal friction of the PMMC movement"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "A basic meter movement has a sensitivity of 200 ohms/V. It is used as a millivoltmeter measuring up to 100 mV. What is the full-scale deflecting current of this instrument?",
+        "choices": [
+            "A. 1 mA",
+            "B. 2 mA",
+            "C. 4 mA",
+            "D. 5 mA"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 68,
+        "question": "If a 0-10V analog voltmeter with an internal resistance of 20 kOhms is mistakenly used to measure a 10 mA DC current by placing it in series with a circuit, what will the meter theoretically display? (Assuming the source voltage is high enough to drive 10mA)",
+        "choices": [
+            "A. The meter will peg past its full-scale reading and likely be damaged",
+            "B. 10 V",
+            "C. 5 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "An ammeter is calibrated at 20 degrees C and has a brass shunt (temp coeff = 0.002 /deg C) and a copper coil (temp coeff = 0.004 /deg C). If the meter is used at 40 degrees C without temperature compensation, how will it read compared to the true current?",
+        "choices": [
+            "A. It will read lower than the true current",
+            "B. It will read exactly the true current",
+            "C. It will read higher than the true current",
+            "D. It will read zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "When selecting an analog voltmeter to measure voltage across a high-impedance circuit, which specification is most critical to minimize measurement error?",
+        "choices": [
+            "A. High physical weight for stability",
+            "B. Large dial diameter",
+            "C. Low full-scale voltage",
+            "D. High ohms/volt sensitivity rating"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 71,
+        "question": "A wire-wound rheostat has a total resistance of 100 ohms. The resistance element consists of 500 turns of wire. If the wiper moves across 5 turns, what is the change in resistance?",
+        "choices": [
+            "A. 0.5 ohms",
+            "B. 1.0 ohms",
+            "C. 2.5 ohms",
+            "D. 5.0 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "A standard cell of 1.0186 V is used to standardize a potentiometer. The balance is achieved at a slide wire length of 50.93 cm. An unknown EMF is then tested and balances at 75.00 cm. What is the unknown EMF?",
+        "choices": [
+            "A. 1.25 V",
+            "B. 1.45 V",
+            "C. 1.50 V",
+            "D. 1.75 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "An analog voltmeter has a range of 0-300V and a specified accuracy of 1.5% of full scale. If it measures a nominal 120V line, what are the possible limits of the true voltage?",
+        "choices": [
+            "A. 118.2 V to 121.8 V",
+            "B. 115.5 V to 124.5 V",
+            "C. 117.0 V to 123.0 V",
+            "D. 116.4 V to 123.6 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "To increase the range of a 5 A ammeter to 50 A, a shunt is added. If the ammeter has an internal resistance of 0.09 ohms, what is the resistance of the shunt?",
+        "choices": [
+            "A. 0.010 ohms",
+            "B. 0.009 ohms",
+            "C. 0.900 ohms",
+            "D. 0.011 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "A meter movement requires 100 mV for full-scale deflection and has a resistance of 100 ohms. It is converted to a voltmeter. If the multiplier resistor dissipates 0.0999 W at full scale, what is the full-scale voltage range of the instrument?",
+        "choices": [
+            "A. 10 V",
+            "B. 50 V",
+            "C. 100 V",
+            "D. 150 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "In a permanent magnet moving coil (PMMC) instrument, the deflecting torque is directly proportional to the:",
+        "choices": [
+            "A. Voltage across the coil",
+            "B. Resistance of the coil",
+            "C. Magnetic flux density only",
+            "D. Current flowing through the coil"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "A 10V DC source has an internal resistance of 50 ohms. A voltmeter with 950 ohms internal resistance measures the terminal voltage. What does the voltmeter read?",
+        "choices": [
+            "A. 9.0 V",
+            "B. 9.8 V",
+            "C. 10.0 V",
+            "D. 9.5 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "Two series ohmmeters are designed using identical 1 mA meter movements and identical 3V batteries. Meter A uses a simple series resistor. Meter B uses a series resistor plus an Ayrton shunt to change its range. Which meter will have a higher center-scale resistance marking?",
+        "choices": [
+            "A. Meter B",
+            "B. They will have the exact same center-scale marking",
+            "C. Meter A",
+            "D. Cannot be determined"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "A voltmeter has a resistance of 2000 ohms. When connected across a battery, it reads 1.98 V. When a 1000-ohm voltmeter is connected across the same battery, it reads 1.96 V. What is the open-circuit EMF of the battery?",
+        "choices": [
+            "A. 1.99 V",
+            "B. 2.00 V",
+            "C. 2.02 V",
+            "D. 2.05 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "Why is a long slide wire preferred in a DC potentiometer instead of a short one?",
+        "choices": [
+            "A. To increase the resolution and accuracy of the reading",
+            "B. To increase the maximum voltage that can be measured",
+            "C. To reduce the power dissipation of the wire",
+            "D. To allow a larger standard cell to be used"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "A 24V source drives a load that requires exactly 5A. A rheostat is placed in series with the source and load. If the load resistance is 3 ohms, what must the rheostat be set to?",
+        "choices": [
+            "A. 1.2 ohms",
+            "B. 1.5 ohms",
+            "C. 1.8 ohms",
+            "D. 2.4 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "A series ohmmeter is calibrated to read zero ohms when the test leads are shorted. If the 3V battery voltage drops to 2.7V, and the zero-adjust resistor is NOT recalibrated, what will the meter read when the test leads are shorted?",
+        "choices": [
+            "A. Zero ohms",
+            "B. A resistance greater than zero",
+            "C. A resistance less than zero (off scale)",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "A 0-100 uA meter movement is to be used as a voltmeter. To achieve a sensitivity of 10,000 ohms/volt, what must be done?",
+        "choices": [
+            "A. Nothing, the inherent sensitivity is already 10,000 ohms/volt",
+            "B. Add a parallel shunt resistor",
+            "C. Add a series multiplier of 10 kOhms",
+            "D. It cannot be done with this meter movement"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "A meter has a resistance of 100 ohms and requires 1 mA for full-scale deflection. It is shunted by a 1-ohm resistor to form an ammeter. Two such identical ammeters are connected in parallel to measure a total circuit current. What is the maximum total circuit current they can measure together before both peg full scale?",
+        "choices": [
+            "A. 100 mA",
+            "B. 101 mA",
+            "C. 200 mA",
+            "D. 202 mA"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "A simple potentiometer uses a 100-ohm slide wire connected to a 5V source. If the null point for an unknown voltage is found exactly at the 60% mark of the wire, what is the unknown voltage?",
+        "choices": [
+            "A. 3.0 V",
+            "B. 2.5 V",
+            "C. 4.0 V",
+            "D. 6.0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "A 50V supply feeds two 50 kOhm resistors in series. A voltmeter with 50 kOhms internal resistance is used to measure the voltage across one of them. What is the percentage difference between the measured voltage and the voltage that existed before the meter was connected?",
+        "choices": [
+            "A. -11.1%",
+            "B. -25.0%",
+            "C. -33.3%",
+            "D. -16.7%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "An ammeter is inserted into a circuit to measure current. The insertion of the ammeter causes the total circuit current to:",
+        "choices": [
+            "A. Increase slightly",
+            "B. Remain exactly the same",
+            "C. Fluctuate randomly",
+            "D. Decrease slightly"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "A 200-ohm rheostat is connected across a 100V DC source. A 50-ohm load is connected between one end of the rheostat and the wiper. If the wiper is set exactly at the midpoint of the rheostat, what is the current flowing through the load?",
+        "choices": [
+            "A. 0.8 A",
+            "B. 0.5 A",
+            "C. 1.0 A",
+            "D. 1.5 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "For a given meter movement, a higher full-scale voltage range requires a:",
+        "choices": [
+            "A. Smaller multiplier resistor",
+            "B. Larger multiplier resistor",
+            "C. Larger shunt resistor",
+            "D. Smaller shunt resistor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "For a given meter movement, a higher full-scale current range requires a:",
+        "choices": [
+            "A. Larger multiplier resistor",
+            "B. Smaller multiplier resistor",
+            "C. Larger shunt resistor",
+            "D. Smaller shunt resistor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "A meter movement has a full scale deflection of 50 uA. If it is used to build a 0-10 V voltmeter, what is the total resistance of the instrument?",
+        "choices": [
+            "A. 200,000 ohms",
+            "B. 20,000 ohms",
+            "C. 100,000 ohms",
+            "D. 500,000 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "A shunt ohmmeter uses a 10 mA meter movement and a 1.5V battery. What is the value of the current-limiting resistor placed in series with the battery?",
+        "choices": [
+            "A. 100 ohms",
+            "B. 120 ohms",
+            "C. 150 ohms",
+            "D. 200 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "A potentiometer slide wire is 100 cm long and has a resistance of 10 ohms. It is in series with a 990-ohm resistor and a 2V accumulator. What is the voltage measured if the null point is at 40 cm?",
+        "choices": [
+            "A. 0.400 V",
+            "B. 0.080 V",
+            "C. 0.040 V",
+            "D. 0.008 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "In a standard laboratory sliding contact rheostat, which configuration provides the most linear control of voltage across a variable load?",
+        "choices": [
+            "A. Potentiometer connection (using all three terminals)",
+            "B. Series connection (using two terminals)",
+            "C. Parallel connection",
+            "D. Short-circuit connection"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "A 150V, 1000 ohms/V voltmeter is connected across a 100 kOhm resistor. How much current does the voltmeter draw from the circuit if it reads 50V?",
+        "choices": [
+            "A. 0.1 mA",
+            "B. 50 mA",
+            "C. 0.33 mA",
+            "D. 1.5 mA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "To minimize the loading effect when measuring a 5 V drop across a 1 MOhm resistor, a voltmeter should ideally have an internal resistance of:",
+        "choices": [
+            "A. 100 kOhms",
+            "B. 100 MOhms",
+            "C. 1 MOhm",
+            "D. 10 MOhms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "A multi-range ammeter uses a single D'Arsonval movement (Rm = 100 ohms, Ifs = 1 mA) and three individual shunts selectable via a make-before-break rotary switch for ranges 10mA, 100mA, and 1A. What is the value of the shunt for the 1A range?",
+        "choices": [
+            "A. 1.111 ohms",
+            "B. 1.010 ohms",
+            "C. 0.1001 ohms",
+            "D. 0.0101 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 98,
+        "question": "A 20 A ammeter has an internal resistance of 0.05 ohms. How much power is dissipated by the meter (including the internal shunt) when measuring a full-scale current of 20 A?",
+        "choices": [
+            "A. 10 W",
+            "B. 20 W",
+            "C. 40 W",
+            "D. 5 W"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "When measuring high DC voltages, instead of building a voltmeter with an excessively large internal multiplier, what device is often used to scale down the voltage safely?",
+        "choices": [
+            "A. Current transformer",
+            "B. Shunt resistor",
+            "C. Ayrton shunt",
+            "D. Potential divider probe"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "A 100 uF capacitor is charged to 10V. A voltmeter with a sensitivity of 20,000 ohms/V on its 10V range is used to measure the capacitor voltage. At exactly what time after connecting the voltmeter will the reading drop to 3.68V?",
+        "choices": [
+            "A. 20 seconds",
+            "B. 10 seconds",
+            "C. 2 seconds",
+            "D. 36.8 seconds"
+        ],
+        "correct_answer": "A"
+    }
+]

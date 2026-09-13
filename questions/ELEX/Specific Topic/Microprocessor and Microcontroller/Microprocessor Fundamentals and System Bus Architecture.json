@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "What defines the maximum rate of change of an operational amplifier's output voltage?",
+        "choices": [
+            "A. Bandwidth",
+            "B. Gain",
+            "C. Slew Rate",
+            "D. Common-Mode Rejection Ratio"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "For an completely ideal operational amplifier, the theoretical value of the Common-Mode Rejection Ratio (CMRR) is:",
+        "choices": [
+            "A. Infinity",
+            "B. Zero",
+            "C. Unity",
+            "D. 100 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "An amplifier has a strictly small-signal bandwidth of 2 MHz. What is its approximate pulse rise time when subjected to a tiny step input?",
+        "choices": [
+            "A. 100 ns",
+            "B. 1.0 us",
+            "C. 350 ns",
+            "D. 175 ns"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "An op-amp has an open-loop DC gain of 200,000 (106 dB) and a dominant-pole open-loop cutoff frequency of 5 Hz. What is its resulting Gain-Bandwidth Product?",
+        "choices": [
+            "A. 10 MHz",
+            "B. 1 MHz",
+            "C. 100 kHz",
+            "D. 500 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "A pure 1 kHz sine wave is applied to an amplifier. The 1 kHz fundamental output is 20V RMS. The 2 kHz harmonic is 0.6V RMS, and the 3 kHz harmonic is 0.8V RMS. What is the approximate THD?",
+        "choices": [
+            "A. 7.0%",
+            "B. 5.0%",
+            "C. 1.0%",
+            "D. 3.0%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "A worded circuit: An inverting amplifier uses Rin = 5 kOhms and Rf = 50 kOhms. The op-amp has an input offset voltage of 3 mV. Assuming bias currents are perfectly compensated, what is the worst-case DC output offset voltage?",
+        "choices": [
+            "A. 3 mV",
+            "B. 30 mV",
+            "C. 15 mV",
+            "D. 33 mV"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 7,
+        "question": "A worded circuit: A battery-powered op-amp circuit uses a 12V battery. Over time, the battery voltage drops to 9V. If the op-amp has a PSRR of 50 uV/V, how much does the input offset voltage shift?",
+        "choices": [
+            "A. 150 uV",
+            "B. 50 uV",
+            "C. 200 uV",
+            "D. 450 uV"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "A worded circuit: An op-amp is configured as a unity-gain buffer. A 1 MHz large-amplitude sine wave is applied. The output appears as a heavily distorted triangle wave. What operational constraint is actively limiting the circuit?",
+        "choices": [
+            "A. Gain-Bandwidth Product",
+            "B. Input Offset Voltage",
+            "C. Slew Rate",
+            "D. Common-Mode Rejection Ratio"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 9,
+        "question": "Which of the following is considered the central processing unit (CPU) of a computer, fabricated on a single integrated circuit?",
+        "choices": [
+            "A. Microcontroller",
+            "B. Microprocessor",
+            "C. Microcomputer",
+            "D. System-on-Chip"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "Which of the following devices intrinsically contains a CPU, memory (RAM/ROM), and programmable I/O peripherals on a single integrated circuit?",
+        "choices": [
+            "A. Arithmetic Logic Unit",
+            "B. Microprocessor",
+            "C. Microcontroller",
+            "D. Direct Memory Access Controller"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "A microcomputer system fundamentally consists of a microprocessor and which essential external components?",
+        "choices": [
+            "A. Only power supplies",
+            "B. Only logic gates and shift registers",
+            "C. Only mechanical hard drives",
+            "D. Memory and Input/Output (I/O) interfaces"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 12,
+        "question": "In standard embedded system design, which device is inherently optimized to control specific tasks with minimal external components?",
+        "choices": [
+            "A. Microcontroller",
+            "B. Microprocessor",
+            "C. Mainframe",
+            "D. Supercomputer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "If an engineer needs to build a general-purpose personal computer running a massive graphical operating system, the most appropriate core component is a:",
+        "choices": [
+            "A. Programmable Logic Controller",
+            "B. Simple DSP",
+            "C. Microcontroller",
+            "D. Microprocessor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "A worded circuit: A designer is building a simple digital thermometer. They must choose between an 8085 chip and an 8051 chip. If they want to eliminate external RAM, ROM, and I/O chips to save board space, which should they choose?",
+        "choices": [
+            "A. 8085 because it has a wider data bus",
+            "B. 8051 because it is a microcontroller with built-in memory and I/O",
+            "C. 8085 because it is a dedicated microprocessor",
+            "D. Neither, they must use an FPGA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "The term \"System-on-Chip\" (SoC) typically refers to a highly complex IC that integrates a microprocessor alongside advanced peripherals, GPU, and radio modems. How does a basic microprocessor (MPU) compare to an SoC?",
+        "choices": [
+            "A. An MPU has more built-in RAM than an SoC",
+            "B. An MPU includes a GPU",
+            "C. An MPU strictly requires external memory and I/O chips to function as a computer",
+            "D. An SoC requires external memory, while an MPU does not"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "When evaluating flexibility versus cost in mass-produced simple home appliances, why are microcontrollers universally favored over microprocessors?",
+        "choices": [
+            "A. They reduce the overall Bill of Materials (BOM) cost by integrating memory and peripherals into a single low-cost chip",
+            "B. They consume vastly more power, providing better heating",
+            "C. They require complex operating systems",
+            "D. They have infinitely scalable external memory"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "In the context of power consumption for battery-operated IoT devices, microcontrollers often utilize a specific architectural feature absent in traditional desktop microprocessors. What is it?",
+        "choices": [
+            "A. Gigahertz clock speeds",
+            "B. Massive external L3 caches",
+            "C. Liquid cooling requirements",
+            "D. Ultra-low power sleep modes that halt the CPU while keeping basic timers running"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 18,
+        "question": "A worded circuit: An engine control unit (ECU) in a car requires simultaneous processing of high-speed sensor data, massive look-up tables, and complex real-time floating-point math. Which architecture is most appropriate?",
+        "choices": [
+            "A. A basic 8-bit microcontroller",
+            "B. A high-performance 32-bit or 64-bit microprocessor with an FPU",
+            "C. A single timer IC",
+            "D. A discrete logic gate array"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Inside the microprocessor, the specific subunit responsible for performing addition, subtraction, and logical AND/OR operations is the:",
+        "choices": [
+            "A. Stack Pointer",
+            "B. Program Counter",
+            "C. Arithmetic Logic Unit (ALU)",
+            "D. Control Unit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Which fundamental computer architecture physically separates the memory space and buses for instructions (code) from the memory space and buses for data?",
+        "choices": [
+            "A. Harvard Architecture",
+            "B. Von Neumann Architecture",
+            "C. Turing Architecture",
+            "D. CISC Architecture"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "Which two primary blocks constitute the absolute core of a basic microprocessor?",
+        "choices": [
+            "A. RAM and ROM",
+            "B. I/O Ports and Timers",
+            "C. Display Controller and ALU",
+            "D. Arithmetic Logic Unit (ALU) and Control Unit (CU)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 22,
+        "question": "What is the primary function of the Arithmetic Logic Unit (ALU) in a microprocessor?",
+        "choices": [
+            "A. To store the next instruction address",
+            "B. To execute mathematical and Boolean operations",
+            "C. To interface with the keyboard",
+            "D. To generate the system clock"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "Which internal microprocessor block is responsible for decoding fetched instructions and generating the necessary timing signals to route data through the CPU?",
+        "choices": [
+            "A. Accumulator",
+            "B. Instruction Register",
+            "C. Control Unit",
+            "D. ALU"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "Registers within a microprocessor are essentially:",
+        "choices": [
+            "A. Small, ultra-fast memory locations used for temporary data storage and manipulation during execution",
+            "B. Massive magnetic storage devices",
+            "C. External ROM chips",
+            "D. Peripheral I/O ports"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "In many classic 8-bit microprocessors (like the 8085), which specific register is implicitly used as one of the operands in most arithmetic and logic operations, and also stores the result?",
+        "choices": [
+            "A. The Program Counter",
+            "B. The Stack Pointer",
+            "C. The Instruction Register",
+            "D. The Accumulator"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 26,
+        "question": "What is the precise role of the Program Counter (PC) in a microprocessor?",
+        "choices": [
+            "A. To count the number of instructions executed",
+            "B. To hold the memory address of the next instruction to be fetched",
+            "C. To store the current data being processed",
+            "D. To count the clock cycles"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "A worded circuit: A microprocessor is executing a sequential program. A hardware fault causes the Program Counter (PC) to stop incrementing. What is the immediate result?",
+        "choices": [
+            "A. The processor halts and turns off",
+            "B. The processor jumps to a random memory location",
+            "C. The processor endlessly fetches and executes the exact same instruction",
+            "D. The processor skips every other instruction"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "What is the functional difference between the Instruction Register (IR) and the Instruction Decoder?",
+        "choices": [
+            "A. The IR holds the fetched opcode, while the Decoder interprets it to generate control signals",
+            "B. The IR interprets the opcode, while the Decoder fetches it",
+            "C. They are identical components",
+            "D. The IR stores data, while the Decoder stores addresses"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 29,
+        "question": "The Stack Pointer (SP) is a specialized register that holds the memory address of the top of the stack. The stack operates fundamentally on which data structure principle?",
+        "choices": [
+            "A. FIFO (First In, First Out)",
+            "B. Random Access",
+            "C. Sequential Access",
+            "D. LIFO (Last In, First Out)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "In the hierarchy of a microcomputer system, the hard drive is considered secondary storage. What is considered primary storage?",
+        "choices": [
+            "A. The CPU",
+            "B. Main Memory (RAM)",
+            "C. The Keyboard",
+            "D. The System Bus"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "In a microcomputer system, a \"bus\" is formally defined as:",
+        "choices": [
+            "A. A software protocol for data transfer",
+            "B. A mechanical vehicle for moving hard drives",
+            "C. A common set of physical parallel wires connecting multiple components to transfer data, addresses, or control signals",
+            "D. A specific type of RAM"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "The three distinct functional groups of buses comprising the system bus in a standard microcomputer are the:",
+        "choices": [
+            "A. Address Bus, Data Bus, and Control Bus",
+            "B. Serial Bus, Parallel Bus, and USB",
+            "C. Memory Bus, I/O Bus, and Peripheral Bus",
+            "D. Power Bus, Ground Bus, and Signal Bus"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "A worded circuit: An 8085 microprocessor system is failing. Using a logic analyzer, you see that the correct memory addresses are output, and the read control signal activates, but the CPU reads random garbage instead of the opcode. Which bus is likely severed?",
+        "choices": [
+            "A. The Address Bus",
+            "B. The Control Bus",
+            "C. The Power Bus",
+            "D. The Data Bus"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 34,
+        "question": "What does it mean when a microprocessor's buses are \"multiplexed\"?",
+        "choices": [
+            "A. They operate at multiple different clock speeds",
+            "B. The exact same physical pins are time-shared to transmit different types of signals (e.g., address and data) at different phases of the machine cycle",
+            "C. They can connect to multiple different processors",
+            "D. They transmit analog and digital signals simultaneously"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Why do designers of microprocessors like the 8085 or 8086 intentionally multiplex the address and data buses (e.g., AD0-AD7)?",
+        "choices": [
+            "A. To increase the overall processing speed",
+            "B. To decrease the power consumption",
+            "C. To reduce the total number of physical pins required on the IC package",
+            "D. To allow analog signals on the data bus"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Because a multiplexed bus shares pins for address and data, external hardware must separate them. What specific digital component is strictly required to latch and hold the lower address byte during the entire memory cycle?",
+        "choices": [
+            "A. A D-type flip-flop latch (e.g., 74LS373) controlled by the ALE signal",
+            "B. A simple resistor network",
+            "C. A multiplexer IC",
+            "D. A massive capacitor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "\"Bus contention\" is a catastrophic electrical condition that occurs when:",
+        "choices": [
+            "A. No device is transmitting on the bus",
+            "B. The bus clock frequency is too low",
+            "C. The address bus is wider than the data bus",
+            "D. Two or more devices attempt to drive the exact same bus line to different logic levels simultaneously"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 38,
+        "question": "To absolutely prevent bus contention, memory chips and I/O devices must have their data pins internally connected through which specific logic circuitry before attaching to the shared data bus?",
+        "choices": [
+            "A. Open-collector outputs",
+            "B. Tri-state (Three-state) buffers",
+            "C. Schmitt triggers",
+            "D. Analog multiplexers"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "The address bus in a standard microprocessor system is strictly:",
+        "choices": [
+            "A. Bidirectional",
+            "B. Omnidirectional",
+            "C. Unidirectional, flowing outward from the CPU to memory and peripherals",
+            "D. Unidirectional, flowing inward from memory to the CPU"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "If a microprocessor has an address bus that is 'n' bits wide, the maximum number of unique memory locations it can directly address is theoretically:",
+        "choices": [
+            "A. 2^n",
+            "B. n^2",
+            "C. 2 * n",
+            "D. 10^n"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "A vintage microprocessor has exactly 16 address lines (A0 to A15). What is the absolute maximum total memory capacity it can directly address?",
+        "choices": [
+            "A. 16 KB",
+            "B. 32 KB",
+            "C. 1 MB",
+            "D. 65,536 bytes (64 KB)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 42,
+        "question": "A microprocessor requires exactly 1 Megabyte (1 MB) of addressable memory space. How many physical address lines are strictly required?",
+        "choices": [
+            "A. 16 lines",
+            "B. 20 lines",
+            "C. 24 lines",
+            "D. 32 lines"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Modern 32-bit microprocessors (like early Pentium chips) typically have a 32-bit address bus. What is their theoretical maximum direct memory addressing capacity?",
+        "choices": [
+            "A. 1 GB",
+            "B. 2 GB",
+            "C. 4 GB (4,294,967,296 bytes)",
+            "D. 16 GB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "An embedded system engineer is interfacing an 8 KB EPROM to a microprocessor. How many address lines must be directly connected to the EPROM chip to access its entire contents?",
+        "choices": [
+            "A. 13 lines (A0 to A12)",
+            "B. 12 lines (A0 to A11)",
+            "C. 8 lines",
+            "D. 16 lines"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "A modern system uses a 28-bit address bus. What is the total memory capacity it can address?",
+        "choices": [
+            "A. 64 MB",
+            "B. 128 MB",
+            "C. 512 MB",
+            "D. 256 MB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 46,
+        "question": "For a microprocessor with a 16-bit address bus, the memory map conventionally starts at address 0000H. What is the hexadecimal address of the absolute highest memory location?",
+        "choices": [
+            "A. 1000H",
+            "B. FFFFH",
+            "C. 7FFFH",
+            "D. EFFFH"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "A worded circuit: A memory chip must only activate when addresses A15, A14, and A13 are exactly 1, 0, and 1 respectively. A 3-input NAND gate is used for the Chip Select (Active Low). What must be fed into the NAND gate inputs?",
+        "choices": [
+            "A. A15, A14, A13",
+            "B. A15, NOT A14, NOT A13",
+            "C. A15, NOT A14, A13",
+            "D. NOT A15, A14, NOT A13"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "The term \"Address Space\" refers directly to:",
+        "choices": [
+            "A. The total set of valid memory addresses that a microprocessor can uniquely identify",
+            "B. The physical area on the motherboard",
+            "C. The distance between the CPU and the RAM",
+            "D. The empty unused memory"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "An advanced 24-bit address bus can access a maximum of:",
+        "choices": [
+            "A. 1 MB",
+            "B. 4 MB",
+            "C. 8 MB",
+            "D. 16 MB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "A worded circuit: You are adding memory to an 8085 system. You connect address line A15 directly to the active-low Chip Enable (CE') pin of a 32KB RAM chip. Lines A0-A14 go to the RAM address pins. In what hexadecimal address range will this RAM physically respond?",
+        "choices": [
+            "A. 8000H to FFFFH",
+            "B. 0000H to 7FFFH",
+            "C. 4000H to BFFFH",
+            "D. C000H to FFFFH"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "An I/O port is mapped starting at base address 2000H. It requires a block of 4KB of address space. What is the highest hexadecimal address in this block?",
+        "choices": [
+            "A. 3FFFH",
+            "B. 2FFFH",
+            "C. 2FFFH (2000H + 0FFFH)",
+            "D. 4000H"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "A memory block starts at 8000H and is exactly 32KB in size. What is the ending hexadecimal address?",
+        "choices": [
+            "A. FFFFH",
+            "B. BFFFH",
+            "C. 9FFFH",
+            "D. EFFFH"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "Why is the address bus strictly unidirectional?",
+        "choices": [
+            "A. Because memory needs to send addresses to the CPU",
+            "B. Because it saves power",
+            "C. Because bidirectional buses are impossible",
+            "D. Because only the CPU (or a DMA controller) dictates which memory location or I/O port is to be accessed"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 54,
+        "question": "If a system requires more RAM than its address bus can directly access (e.g., needing 128KB on a 64KB system), engineers utilize a hardware technique that switches between different memory chips occupying the same address space. This is called:",
+        "choices": [
+            "A. Overclocking",
+            "B. Memory Paging or Bank Switching",
+            "C. Pipelining",
+            "D. DMA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "A custom microprocessor is designed with exactly 14 address lines. What is its maximum memory addressing capability?",
+        "choices": [
+            "A. 8 KB",
+            "B. 32 KB",
+            "C. 16 KB",
+            "D. 64 KB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "A worded circuit: Due to a manufacturing defect on a PCB, address line A0 is permanently shorted to address line A1. What is the immediate functional consequence?",
+        "choices": [
+            "A. The CPU can only access every other even byte (addresses ending in 00 or 11 binary), skipping alternating memory locations",
+            "B. The data bus will catch fire",
+            "C. The CPU will halt completely",
+            "D. The clock frequency will double"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 57,
+        "question": "If a designer interfaces a 4KB RAM chip into a 64KB address space but fails to decode the upper address lines (A12-A15 are left unconnected to the chip select logic), what happens?",
+        "choices": [
+            "A. The RAM chip explodes",
+            "B. The RAM is completely inaccessible",
+            "C. The system speed doubles",
+            "D. The 4KB of RAM will falsely appear to be repeated (shadowed) 16 times throughout the entire 64KB memory map"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "Convert the 16-bit binary address 1011 0100 1111 0000 into its hexadecimal equivalent.",
+        "choices": [
+            "A. B40F H",
+            "B. B4F0 H",
+            "C. C4E0 H",
+            "D. A4F0 H"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "A system has 128 KB of memory starting from address 00000H. What is the 20-bit hexadecimal address of the absolute last byte?",
+        "choices": [
+            "A. 0FFFF H",
+            "B. 20000 H",
+            "C. 1FFFF H",
+            "D. 10000 H"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "A worded circuit: You must map exactly 64KB of RAM using standard 8Kx8 SRAM chips. How many individual SRAM chips are required, and how many unique chip select signals must the address decoder generate?",
+        "choices": [
+            "A. 8 chips, 8 chip select signals",
+            "B. 4 chips, 4 chip select signals",
+            "C. 16 chips, 8 chip select signals",
+            "D. 8 chips, 1 chip select signal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "Unlike the address bus, the system Data Bus is strictly:",
+        "choices": [
+            "A. Unidirectional (CPU to Memory)",
+            "B. Unidirectional (Memory to CPU)",
+            "C. Analog",
+            "D. Bidirectional"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 62,
+        "question": "When a microprocessor is marketed as an \"8-bit\", \"16-bit\", or \"32-bit\" processor, this designation historically and primarily refers to the physical width of its:",
+        "choices": [
+            "A. Address Bus",
+            "B. Internal Data Bus and ALU registers",
+            "C. Control Bus",
+            "D. Clock frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "Is it possible for a microprocessor to have an internal data bus width that is different from its external data bus width?",
+        "choices": [
+            "A. No, they must always be perfectly identical",
+            "B. Yes, but the internal bus must always be smaller",
+            "C. Yes, it is common for the internal data bus to be wider than the external data bus to handle larger computations while saving external pins",
+            "D. No, this would violate the laws of physics"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "The Intel 8088 microprocessor (used in the original IBM PC) was famously chosen for its cost-effectiveness. It is structurally a 16-bit processor internally, but its external data bus is exactly how many bits wide?",
+        "choices": [
+            "A. 8 bits",
+            "B. 16 bits",
+            "C. 32 bits",
+            "D. 4 bits"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "A worded circuit: A 32-bit microprocessor with an 8-bit external data bus needs to fetch a full 32-bit instruction from memory. How many separate memory read cycles must the CPU perform to fetch this single instruction?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 8",
+            "D. 4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 66,
+        "question": "Increasing the width of the external data bus from 16 bits to 32 bits primarily improves system performance by:",
+        "choices": [
+            "A. Doubling the clock speed",
+            "B. Doubling the amount of data that can be transferred in a single memory cycle, thereby massively increasing data throughput",
+            "C. Halving the power consumption",
+            "D. Increasing the addressing limit"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "During a Memory Write operation, what physically flows on the Data Bus?",
+        "choices": [
+            "A. The address of the memory location",
+            "B. Control signals",
+            "C. Data flowing outward from the CPU to the memory",
+            "D. Data flowing inward from the memory to the CPU"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "To allow multiple devices to share the bidirectional data bus without causing short circuits, the data pins of the CPU, Memory, and I/O devices must feature:",
+        "choices": [
+            "A. Tri-state logic buffers (High, Low, High-Z)",
+            "B. Internal pull-up resistors",
+            "C. Optical isolators",
+            "D. Massive heat sinks"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "A 16-bit microprocessor stores a 16-bit word (e.g., 1234H) in two consecutive 8-bit memory locations. If it stores the least significant byte (34H) at the lower address and the most significant byte (12H) at the higher address, this specific byte-ordering architecture is called:",
+        "choices": [
+            "A. Big Endian",
+            "B. Network Byte Order",
+            "C. Middle Endian",
+            "D. Little Endian"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "A worded circuit: A technician accidentally crosses (swaps) the D0 and D1 data lines on a PCB connecting the CPU to the ROM. If the CPU expects to read the binary instruction 00000010 (02H), what will it actually receive?",
+        "choices": [
+            "A. 02H",
+            "B. 00000001 (01H)",
+            "C. 00H",
+            "D. FFH"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "A worded circuit: Two separate output devices are accidentally enabled simultaneously onto the shared data bus by a faulty address decoder. Device A drives D0 HIGH (5V). Device B drives D0 LOW (0V). This catastrophic event is called:",
+        "choices": [
+            "A. Data latching",
+            "B. Tri-stating",
+            "C. Bus contention (or Bus collision)",
+            "D. Multiplexing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "In an 8-bit data bus labeled D0 to D7, which specific line traditionally carries the Most Significant Bit (MSB)?",
+        "choices": [
+            "A. D7",
+            "B. D0",
+            "C. D8",
+            "D. D1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "If an 8-bit microprocessor uses a multiplexed address/data bus for its lower 8 address lines (AD0-AD7) and has a separate 8 lines for the upper address (A8-A15), what is the total number of physical pins dedicated specifically to transferring addresses and data?",
+        "choices": [
+            "A. 24 pins",
+            "B. 8 pins",
+            "C. 32 pins",
+            "D. 16 pins"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "When a microprocessor interfaces with a very slow memory chip, the memory cannot place data on the bus fast enough before the CPU samples it. To prevent reading garbage, the CPU can be forced to insert blank clock cycles called:",
+        "choices": [
+            "A. Halt states",
+            "B. Wait states",
+            "C. Sleep states",
+            "D. Interrupts"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "A worded circuit: A CPU attempts to read from memory. However, the data bus pull-up resistors are installed, but the memory chip is completely removed. When the CPU executes the read cycle, what binary value will it most likely sample on the data bus?",
+        "choices": [
+            "A. 00H",
+            "B. Random noise",
+            "C. FFH (All 1s due to the pull-up resistors)",
+            "D. AA H"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "The Control Bus in a microcomputer system is fundamentally a collection of:",
+        "choices": [
+            "A. Power lines",
+            "B. Individual discrete timing and control signals used to coordinate the activities of the entire system",
+            "C. Analog feedback loops",
+            "D. Spare data lines"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "Which specific control signal must the CPU activate to instruct a memory chip to place its data onto the data bus?",
+        "choices": [
+            "A. MEMW (Memory Write)",
+            "B. IOR (I/O Read)",
+            "C. INTA (Interrupt Acknowledge)",
+            "D. MEMR (Memory Read)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "Control signals are frequently designated with a bar over the name (e.g., \\overlineWR) or an asterisk (e.g., WR*). This notation strictly indicates that the signal is:",
+        "choices": [
+            "A. Broken",
+            "B. Active-Low (the action occurs when the voltage is 0V)",
+            "C. Active-High (the action occurs when the voltage is 5V)",
+            "D. An analog signal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "In a system utilizing \"Memory-Mapped I/O\", how does the CPU differentiate between accessing a memory chip and accessing an I/O port?",
+        "choices": [
+            "A. It uses separate IOR and IOW control signals",
+            "B. It uses a completely different data bus",
+            "C. It doesn't; I/O ports are assigned specific standard addresses within the single unified memory map, and accessed using standard MEMR/MEMW signals",
+            "D. It relies on interrupts"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "A worded circuit: A hardware bug causes the MEMW (Memory Write) and IOR (I/O Read) control lines to activate absolutely simultaneously. What is the most likely physical result on the system bus?",
+        "choices": [
+            "A. Bus contention, as the I/O device tries to drive the data bus while the CPU is also driving the data bus to write to memory",
+            "B. The system runs twice as fast",
+            "C. The memory chip perfectly reads the I/O device",
+            "D. The clock stops"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "A peripheral device needs urgent attention from the CPU. It pulls the INTR (Interrupt Request) line high. If the CPU's internal Interrupt Enable (IE) flag is cleared (set to 0), what happens?",
+        "choices": [
+            "A. The CPU immediately services the interrupt",
+            "B. The CPU halts",
+            "C. The CPU resets",
+            "D. The CPU ignores the interrupt because it is currently masked"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 82,
+        "question": "In the Intel 8085 architecture, which specific control signal is pulsed HIGH by the CPU to indicate that a valid address is currently present on the multiplexed AD0-AD7 lines, instructing external latches to grab it?",
+        "choices": [
+            "A. HOLD",
+            "B. ALE (Address Latch Enable)",
+            "C. READY",
+            "D. HLDA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "What is the primary function of the READY control input pin on a typical microprocessor?",
+        "choices": [
+            "A. To reset the CPU",
+            "B. To indicate a power failure",
+            "C. To allow slow external memory or I/O devices to pause the CPU (insert Wait States) until they complete their data transfer",
+            "D. To acknowledge an interrupt"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "A critical hardware interrupt that absolutely cannot be ignored or masked by software under any circumstances is called a:",
+        "choices": [
+            "A. Non-Maskable Interrupt (NMI)",
+            "B. Software Interrupt",
+            "C. Maskable Interrupt",
+            "D. Polled Interrupt"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "A worded circuit: A DMA (Direct Memory Access) controller wants to transfer data directly to RAM. It asserts the HOLD signal to the CPU. The CPU finishes its current machine cycle, tri-states its Address, Data, and Control buses, and asserts which signal to tell the DMA controller \"The bus is yours\"?",
+        "choices": [
+            "A. INTA (Interrupt Acknowledge)",
+            "B. READY",
+            "C. ALE",
+            "D. HLDA (Hold Acknowledge)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "When the external RESET pin of a microprocessor is activated, what immediately happens to the Program Counter (PC)?",
+        "choices": [
+            "A. It retains its current value",
+            "B. It is loaded with a specific predetermined startup address (often 0000H or FFFF0H) to begin executing the boot sequence",
+            "C. It jumps to a random address",
+            "D. It increments by 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "The heartbeat of the entire microcomputer system, ensuring all operations occur synchronously in perfect lockstep, is provided by the:",
+        "choices": [
+            "A. ALU",
+            "B. Address bus",
+            "C. Clock signal (CLK)",
+            "D. Power supply"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "In the 8085 microprocessor, there are multiple hardware interrupts. Which of the following has the absolute highest priority and cannot be masked?",
+        "choices": [
+            "A. TRAP (NMI)",
+            "B. RST 7.5",
+            "C. INTR",
+            "D. RST 5.5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "When an interrupt is accepted, the CPU must jump to a specific memory address containing the interrupt service routine (ISR). In many architectures, a table containing these target addresses is located in lower memory. This is called the:",
+        "choices": [
+            "A. Page Table",
+            "B. Stack",
+            "C. Accumulator",
+            "D. Interrupt Vector Table"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "A worded circuit: A system uses generic RD (Read) and WR (Write) control signals, along with an IO/\\overlineM (IO/Memory) status signal. To generate a specific, isolated active-low \\overlineMEMW (Memory Write) signal using logic gates, you must combine:",
+        "choices": [
+            "A. IO/\\overlineM and \\overlineRD using an OR gate",
+            "B. IO/\\overlineM and \\overlineWR using an OR gate",
+            "C. IO/\\overlineM and \\overlineWR using an AND gate",
+            "D. IO/\\overlineM and \\overlineRD using an AND gate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "In microprocessor timing terminology, the most basic unit of time, defined as exactly one complete cycle of the system clock, is officially called a:",
+        "choices": [
+            "A. Machine Cycle",
+            "B. Instruction Cycle",
+            "C. T-state (Timing State)",
+            "D. Wait state"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "The total time required by the microprocessor to completely fetch, decode, and execute a single instruction is comprehensively called the:",
+        "choices": [
+            "A. Instruction Cycle",
+            "B. Machine Cycle",
+            "C. T-state",
+            "D. Clock period"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 93,
+        "question": "An Instruction Cycle is subdivided into smaller operational phases required to access memory or I/O (e.g., Opcode Fetch, Memory Read, Memory Write). Each of these individual memory/IO access operations is called a:",
+        "choices": [
+            "A. T-state",
+            "B. Interrupt",
+            "C. Wait state",
+            "D. Machine Cycle"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "If a specific instruction requires 3 Machine Cycles, and those machine cycles take 4, 3, and 3 T-states respectively, how many total T-states does the complete instruction take to execute?",
+        "choices": [
+            "A. 3",
+            "B. 10",
+            "C. 12",
+            "D. 7"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "A worded circuit: You are analyzing an 8085 timing diagram. The very first machine cycle of ANY instruction is always the \"Opcode Fetch\" cycle. In the standard 8085 architecture, this specific Opcode Fetch machine cycle generally requires how many T-states?",
+        "choices": [
+            "A. 1 T-state",
+            "B. 2 T-states",
+            "C. 4 T-states (sometimes 6)",
+            "D. 10 T-states"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "A microprocessor operates at a clock frequency of 2 MHz. An instruction takes exactly 10 T-states to execute. What is the absolute execution time of this instruction?",
+        "choices": [
+            "A. 5.0 microseconds",
+            "B. 20.0 microseconds",
+            "C. 2.0 microseconds",
+            "D. 10.0 microseconds"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "If a system clock has a period of 100 nanoseconds, what is the operating frequency of the microprocessor?",
+        "choices": [
+            "A. 1 GHz",
+            "B. 100 MHz",
+            "C. 1 MHz",
+            "D. 10 MHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 98,
+        "question": "A software delay loop is written in assembly. The loop block takes 20 T-states to execute. If the loop counter is set to loop 100 times, and the clock frequency is 1 MHz (T=1us), what is the approximate time delay generated?",
+        "choices": [
+            "A. 2 ms",
+            "B. 2000 us (2 ms)",
+            "C. 20 ms",
+            "D. 200 us"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "A worded circuit: A CPU reads from a slow ROM. The standard Memory Read machine cycle takes 3 T-states. Because the ROM is slow, external hardware pulls the READY line low, forcing the CPU to insert 2 Wait states. How many total T-states does this specific Memory Read cycle now take?",
+        "choices": [
+            "A. 3",
+            "B. 6",
+            "C. 5",
+            "D. 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "A system bus where all data transfers are strictly coordinated by and tied to the rising or falling edges of a master clock signal is formally classified as a/an:",
+        "choices": [
+            "A. Synchronous bus",
+            "B. Asynchronous bus",
+            "C. Multiplexed bus",
+            "D. Serial bus"
+        ],
+        "correct_answer": "A"
+    }
+]

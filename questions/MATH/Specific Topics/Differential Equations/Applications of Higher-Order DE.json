@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "The Wronskian of two differentiable functions y_1 and y_2 is strictly defined by the determinant:",
+        "choices": [
+            "A. y_1 y_2' - y_1' y_2",
+            "B. y_1' y_2 - y_1 y_2'",
+            "C. y_1 y_2 - y_1' y_2'",
+            "D. y_1/y_2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "The fundamental substitution used to convert a Cauchy-Euler differential equation into a linear DE with constant coefficients is:",
+        "choices": [
+            "A. y = e^x",
+            "B. x = e^t",
+            "C. x = ln(t)",
+            "D. y = x^m"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "In the Method of Undetermined Coefficients, if the forcing function is g(x) = x^2, the standard assumed particular solution y_p is:",
+        "choices": [
+            "A. A x^2",
+            "B. A x^2 + B",
+            "C. A x^2 + B x + C",
+            "D. A x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "In Variation of Parameters for y'' + P(x)y' + Q(x)y = f(x) with y_p = u_1 y_1 + u_2 y_2, the formula for u_1' is:",
+        "choices": [
+            "A. y_1 f(x) / W",
+            "B. y_2 f(x) / W",
+            "C. -y_1 f(x) / W",
+            "D. -y_2 f(x) / W"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "If the auxiliary equation of a linear homogeneous DE yields distinct real roots m_1 and m_2, the general solution takes the form:",
+        "choices": [
+            "A. C_1 e^m_1 x + C_2 e^m_2 x",
+            "B. (C_1 + C_2 x)e^m_1 x",
+            "C. C_1 cos(m_1 x) + C_2 sin(m_2 x)",
+            "D. C_1 e^m_1 x + C_2 x e^m_2 x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "If the auxiliary equation of a real-coefficient linear homogeneous DE yields complex roots α ± iβ, the general solution is:",
+        "choices": [
+            "A. e^β x(C_1 cos α x + C_2 sin α x)",
+            "B. e^α x(C_1 cos β x + C_2 sin β x)",
+            "C. cos α x (C_1 e^β x + C_2 e^-β x)",
+            "D. C_1 e^α x + C_2 e^β i x"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "The Cauchy-Euler equation x^2 y'' - 2y = 0 has the general solution:",
+        "choices": [
+            "A. C_1 e^2x + C_2 e^-x",
+            "B. C_1 x^2 + C_2 x^-2",
+            "C. C_1 x^2 + C_2 xI¹",
+            "D. C_1 x^2 + C_2 ln x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "Which specific differential operator successfully annihilates the function g(x) = sin 3x?",
+        "choices": [
+            "A. D - 3",
+            "B. D + 3",
+            "C. D^2 - 9",
+            "D. D^2 + 9"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "According to Hooke's Law for a spring, what is the standard SI unit for the spring constant k?",
+        "choices": [
+            "A. N/m",
+            "B. N-m",
+            "C. kg-m/s",
+            "D. Joules"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "The differential equation modeling undamped Simple Harmonic Motion (SHM) for a mass m attached to a spring with constant k is:",
+        "choices": [
+            "A. m x'' - k x = 0",
+            "B. m x'' + k x = 0",
+            "C. m x'' + c x' + k x = 0",
+            "D. x'' + (k/m) x' = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "The natural angular frequency ω_n of an undamped mass-spring system in Simple Harmonic Motion is given by:",
+        "choices": [
+            "A. √( m/k )",
+            "B. m/k",
+            "C. √( k/m )",
+            "D. k/m"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "The period T of an undamped mass-spring system in Simple Harmonic Motion is mathematically given by:",
+        "choices": [
+            "A. 2π √( k/m )",
+            "B. (1/2π) √( m/k )",
+            "C. π √( m/k )",
+            "D. 2π √( m/k )"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "A 2 kg mass is attached to a spring with k = 50 N/m. It is pulled 0.5 m from equilibrium and released from rest. The amplitude of motion is:",
+        "choices": [
+            "A. 0.5 m",
+            "B. 0.25 m",
+            "C. 1.0 m",
+            "D. 5.0 m"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "The general solution to the SHM equation x'' + ω^2 x = 0 can be written as x(t) = C cos(ω t - φ). The angle φ is called the:",
+        "choices": [
+            "A. Phase angle",
+            "B. Angular frequency",
+            "C. Phase shift period",
+            "D. Damping angle"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "In Simple Harmonic Motion described by x(t) = A cos(ω t), the maximum velocity of the mass is:",
+        "choices": [
+            "A. A",
+            "B. A ω^2",
+            "C. A ω",
+            "D. ω / A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "In Simple Harmonic Motion described by x(t) = A cos(ω t), the maximum magnitude of acceleration of the mass is:",
+        "choices": [
+            "A. A ω",
+            "B. ω^2 / A",
+            "C. A / ω^2",
+            "D. A ω^2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "Determine the natural angular frequency ω_n of a mass-spring system where m = 0.5 kg and k = 8 N/m.",
+        "choices": [
+            "A. 4 rad/s",
+            "B. 16 rad/s",
+            "C. 2 rad/s",
+            "D. 0.25 rad/s"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "A mass of 1 kg is attached to a spring with k = 16 N/m. If x(0)=0 and x'(0)=4, the equation of motion is:",
+        "choices": [
+            "A. x(t) = 4 cos(4t)",
+            "B. x(t) = sin(4t)",
+            "C. x(t) = 4 sin(4t)",
+            "D. x(t) = cos(4t)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "For the SHM equation x(t) = 2 cos(3t - π/2), what is the first positive time t when the mass passes through the equilibrium position x=0?",
+        "choices": [
+            "A. π/2 s",
+            "B. π/6 s",
+            "C. π/3 s",
+            "D. π s"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "The total mechanical energy in an undamped Simple Harmonic Motion system (mass m, spring k, amplitude A) is strictly constant and equal to:",
+        "choices": [
+            "A. (1/2) m A^2",
+            "B. (1/2) k ω^2",
+            "C. (1/2) m ω^2",
+            "D. (1/2) k A^2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "An object in SHM has displacement x(t) = 3 sin(2t) + 4 cos(2t). What is the amplitude of the motion?",
+        "choices": [
+            "A. 5",
+            "B. 7",
+            "C. 1",
+            "D. 25"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "The differential equation modeling a simple pendulum of length L for small angle θ oscillations is:",
+        "choices": [
+            "A. θ'' - (g/L)θ = 0",
+            "B. θ'' + (g/L)θ = 0",
+            "C. θ'' + (L/g)θ = 0",
+            "D. θ'' + (g/L)sinθ = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "The natural frequency f (in Hertz) of a simple pendulum of length L is:",
+        "choices": [
+            "A. 2π √( L/g )",
+            "B. (1/2π) √( L/g )",
+            "C. (1/2π) √( g/L )",
+            "D. 2π √( g/L )"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "For a torsional pendulum with moment of inertia J and torsional spring constant κ, the angular frequency ω is:",
+        "choices": [
+            "A. √( J/κ )",
+            "B. J/κ",
+            "C. κ/J",
+            "D. √( κ/J )"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "If two springs with constants k_1 and k_2 are connected in series, the effective equivalent spring constant k_eq is:",
+        "choices": [
+            "A. (k_1 k_2)/(k_1 + k_2)",
+            "B. k_1 + k_2",
+            "C. √( k_1 k_2 )",
+            "D. (k_1 + k_2)/(k_1 k_2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "In SHM, if the amplitude is A and angular frequency is ω, the velocity v at a specific displacement x is given by:",
+        "choices": [
+            "A. v = ω √( x^2 - A^2 )",
+            "B. v = ω √( A^2 - x^2 )",
+            "C. v = ω (A - x)",
+            "D. v = ω^2 √( A^2 - x^2 )"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "A mass m on a spring oscillates with period T. If the mass is quadrupled (4m), the new period becomes:",
+        "choices": [
+            "A. 4T",
+            "B. T/2",
+            "C. 2T",
+            "D. T/4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Simple Harmonic Motion occurs fundamentally because the restoring force is directly proportional to the:",
+        "choices": [
+            "A. Velocity",
+            "B. Acceleration",
+            "C. Time",
+            "D. Displacement"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "In a damped mechanical system modeled by m x'' + c x' + k x = 0, the damping force is typically assumed to be proportional to:",
+        "choices": [
+            "A. Velocity",
+            "B. Displacement",
+            "C. Acceleration",
+            "D. Jerk"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "The characteristic equation for the damped mechanical system m x'' + c x' + k x = 0 is:",
+        "choices": [
+            "A. m λ^2 - c λ + k = 0",
+            "B. m λ^2 + c λ + k = 0",
+            "C. λ^2 + k λ + c = 0",
+            "D. c λ^2 + m λ + k = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "A damped system (m x'' + c x' + k x = 0) is classified as OVERDAMPED if the discriminant of its characteristic equation is:",
+        "choices": [
+            "A. Zero",
+            "B. Negative",
+            "C. Positive",
+            "D. Imaginary"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "A damped system (m x'' + c x' + k x = 0) is classified as CRITICALLY DAMPED if the discriminant of its characteristic equation is:",
+        "choices": [
+            "A. Negative",
+            "B. Positive",
+            "C. Undefined",
+            "D. Zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "A damped system (m x'' + c x' + k x = 0) is classified as UNDERDAMPED if the discriminant of its characteristic equation is:",
+        "choices": [
+            "A. Negative",
+            "B. Positive",
+            "C. Zero",
+            "D. Real"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "The dimensionless damping ratio ζ is defined as the ratio of the actual damping coefficient c to the:",
+        "choices": [
+            "A. Spring constant k",
+            "B. Critical damping coefficient c_c",
+            "C. Mass m",
+            "D. Natural frequency ω_n"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "The damped natural angular frequency ω_d of an underdamped system is related to the undamped natural frequency ω_n by:",
+        "choices": [
+            "A. ω_d = ω_n √( ζ^2 - 1 )",
+            "B. ω_d = ω_n (1 - ζ)",
+            "C. ω_d = ω_n √( 1 - ζ^2 )",
+            "D. ω_d = ω_n √( 1 + ζ^2 )"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "The general solution for the displacement of an OVERDAMPED system takes the mathematical form:",
+        "choices": [
+            "A. C_1 cos(ω t) + C_2 sin(ω t)",
+            "B. (C_1 + C_2 t)e^-rt",
+            "C. e^-at(C_1 cos β t + C_2 sin β t)",
+            "D. C_1 e^r_1 t + C_2 e^r_2 t"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "The general solution for the displacement of a CRITICALLY DAMPED system takes the mathematical form:",
+        "choices": [
+            "A. (C_1 + C_2 t)e^-rt",
+            "B. C_1 e^r_1 t + C_2 e^r_2 t",
+            "C. e^-at(C_1 cos β t + C_2 sin β t)",
+            "D. C_1 cos(ω t) + C_2 sin(ω t)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "The general solution for the displacement of an UNDERDAMPED system takes the mathematical form:",
+        "choices": [
+            "A. (C_1 + C_2 t)e^-rt",
+            "B. e^-at(C_1 cos β t + C_2 sin β t)",
+            "C. C_1 e^r_1 t + C_2 e^r_2 t",
+            "D. C_1 cos(ω t) + C_2 sin(ω t)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "In an underdamped system, the natural logarithm of the ratio of any two successive peak amplitudes is called the:",
+        "choices": [
+            "A. Damping ratio",
+            "B. Decay constant",
+            "C. Logarithmic decrement",
+            "D. Phase shift"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "A system has m = 1 kg, c = 5 N-s/m, and k = 4 N/m. Determine the damping classification.",
+        "choices": [
+            "A. Underdamped",
+            "B. Critically damped",
+            "C. Undamped",
+            "D. Overdamped"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "The critical damping coefficient c_c for a mass-spring-damper system is mathematically given by:",
+        "choices": [
+            "A. 2√( km )",
+            "B. √( k/m )",
+            "C. 2√( k/m )",
+            "D. √( km )"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "Calculate the critical damping coefficient c_c for a system where m = 2 kg and k = 18 N/m.",
+        "choices": [
+            "A. 36 N-s/m",
+            "B. 12 N-s/m",
+            "C. 6 N-s/m",
+            "D. 24 N-s/m"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Find the roots of the characteristic equation for the overdamped system: x'' + 5x' + 6x = 0.",
+        "choices": [
+            "A. -1, -6",
+            "B. 2, 3",
+            "C. -2, -3",
+            "D. -1, 6"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "Find the root(s) of the characteristic equation for the critically damped system: x'' + 8x' + 16x = 0.",
+        "choices": [
+            "A. 4 (repeated)",
+            "B. -4, 4",
+            "C. -4 ± i",
+            "D. -4 (repeated)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "The roots of the characteristic equation for x'' + 2x' + 5x = 0 are -1 ± 2i. What is the form of the solution?",
+        "choices": [
+            "A. e^-x(C_1 cos 2x + C_2 sin 2x)",
+            "B. e^x(C_1 cos 2x + C_2 sin 2x)",
+            "C. e^-2x(C_1 cos x + C_2 sin x)",
+            "D. (C_1 + C_2 x)e^-x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "In the underdamped solution x(t) = A e^-ct/2m cos(ω_d t - φ), the term A e^-ct/2m represents the:",
+        "choices": [
+            "A. Phase angle",
+            "B. Time-varying amplitude envelope",
+            "C. Constant amplitude",
+            "D. Pseudo-period"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "Evaluate the damping ratio ζ for a system with m = 1 kg, c = 2 N-s/m, and k = 100 N/m.",
+        "choices": [
+            "A. 0.2",
+            "B. 0.5",
+            "C. 0.1",
+            "D. 1.0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "For an underdamped system, the time interval between two successive zero crossings is exactly:",
+        "choices": [
+            "A. π / ω_n",
+            "B. 2π / ω_d",
+            "C. π / ω_n",
+            "D. π / ω_d"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "Solve the critically damped IVP: x'' + 4x' + 4x = 0, x(0)=1, x'(0)=0.",
+        "choices": [
+            "A. x(t) = (1 + 2t)e^-2t",
+            "B. x(t) = (1 - 2t)e^-2t",
+            "C. x(t) = e^-2t cos 2t",
+            "D. x(t) = (1 + t)e^-2t"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "In an underdamped system, if the damping coefficient c increases (but remains less than c_c), the frequency of oscillation ω_d will:",
+        "choices": [
+            "A. Increase",
+            "B. Decrease",
+            "C. Remain constant",
+            "D. Become zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Under certain initial conditions, an overdamped mass-spring system can cross the equilibrium position (x=0) a maximum of how many times?",
+        "choices": [
+            "A. Two times",
+            "B. Infinite times",
+            "C. One time",
+            "D. Zero times"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "The pseudo-period of an underdamped system is defined as T_d = 2π / ω_d. How does T_d compare to the undamped period T_n?",
+        "choices": [
+            "A. T_d < T_n",
+            "B. T_d = T_n",
+            "C. T_d = T_n / ζ",
+            "D. T_d > T_n"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "If a steady external harmonic force F(t) = F_0 cos(ω t) is applied to a damped system, the steady-state solution oscillates with angular frequency:",
+        "choices": [
+            "A. ω_n",
+            "B. ω_d",
+            "C. ω_n - ω",
+            "D. ω"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "In mechanical vibrations, resonance strictly occurs when the frequency of the external driving force exactly matches the system's:",
+        "choices": [
+            "A. Damped natural frequency ω_d",
+            "B. Natural undamped frequency ω_n",
+            "C. Critical damping frequency",
+            "D. Phase angle φ"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "For a driven undamped oscillator m x'' + k x = F_0 cos(ω t), if ω = ω_n, the amplitude of the particular solution will mathematically:",
+        "choices": [
+            "A. Become zero",
+            "B. Decay exponentially",
+            "C. Grow linearly with time",
+            "D. Approach a finite constant"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "In a series RLC circuit, applying Kirchhoff's Voltage Law yields a differential equation for the charge q on the capacitor:",
+        "choices": [
+            "A. L q'' + R q' + C q = E(t)",
+            "B. L q'' + R q' + (1/C) q' = E(t)",
+            "C. L q' + R q + (1/C) ∫ q dt = E(t)",
+            "D. L q'' + R q' + (1/C) q = E(t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "By differentiating the charge equation L q'' + R q' + (1/C) q = E(t) with respect to time, the differential equation for the current i(t) is:",
+        "choices": [
+            "A. L i'' + R i' + (1/C) i = E'(t)",
+            "B. L i'' + R i' + C i = E(t)",
+            "C. L i' + R i + (1/C) ∫ i dt = E'(t)",
+            "D. L i'' + R i' + (1/C) i = E(t)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "In the mechanical-electrical analogy, the electrical INDUCTANCE (L) corresponds to the mechanical:",
+        "choices": [
+            "A. Damping coefficient (c)",
+            "B. Mass (m)",
+            "C. Spring constant (k)",
+            "D. Displacement (x)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "In the mechanical-electrical analogy, the electrical RESISTANCE (R) corresponds to the mechanical:",
+        "choices": [
+            "A. Mass (m)",
+            "B. Spring constant (k)",
+            "C. Damping coefficient (c)",
+            "D. External force (F)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "In the mechanical-electrical analogy, the electrical CAPACITANCE (C) corresponds to the mechanical:",
+        "choices": [
+            "A. Inverse of damping (1/c)",
+            "B. Inverse of mass (1/m)",
+            "C. Spring constant (k)",
+            "D. Inverse of spring constant (1/k)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "A series RLC circuit is OVERDAMPED when its components satisfy the inequality:",
+        "choices": [
+            "A. R^2 > 4L/C",
+            "B. R^2 = 4L/C",
+            "C. R^2 < 4L/C",
+            "D. R > 2√( LC )"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "A series RLC circuit is CRITICALLY DAMPED when its components satisfy the equality:",
+        "choices": [
+            "A. R^2 = 4C/L",
+            "B. R^2 = 4L/C",
+            "C. R = 1/√( LC )",
+            "D. R = 2LC"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "A series RLC circuit is UNDERDAMPED when its components satisfy the inequality:",
+        "choices": [
+            "A. R^2 > 4L/C",
+            "B. R^2 = 4C/L",
+            "C. R^2 < 4L/C",
+            "D. R^2 = LC"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "The natural resonant angular frequency ω_0 of an ideal LC circuit (where R=0) is given by:",
+        "choices": [
+            "A. √( L/C )",
+            "B. √( LC )",
+            "C. 1/LC",
+            "D. 1/√( LC )"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "Calculate the natural resonant frequency ω_0 of an LC circuit with L = 0.5 H and C = 2 µ F.",
+        "choices": [
+            "A. 1000 rad/s",
+            "B. 500 rad/s",
+            "C. 2000 rad/s",
+            "D. 100 rad/s"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Determine the damping classification of a series RLC circuit where R = 10 Ω, L = 1 H, and C = 0.01 F.",
+        "choices": [
+            "A. Critically damped",
+            "B. Underdamped",
+            "C. Overdamped",
+            "D. Undamped"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Find the roots of the characteristic equation for an RLC circuit with L=1H, R=5Ω, C=0.25F.",
+        "choices": [
+            "A. -1, -4",
+            "B. -2, -3",
+            "C. -1, -5",
+            "D. -2.5 ± 1.5i"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Find the critical resistance R_c required to make a series RLC circuit critically damped if L = 2 H and C = 0.5 F.",
+        "choices": [
+            "A. 2 Ω",
+            "B. 1 Ω",
+            "C. 8 Ω",
+            "D. 4 Ω"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "The complete solution to an RLC circuit equation i(t) = i_c(t) + i_p(t) consists of two parts. The homogeneous part i_c(t) physically represents the:",
+        "choices": [
+            "A. Transient current",
+            "B. Steady-state current",
+            "C. RMS current",
+            "D. Peak current"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "If a constant DC voltage source E is applied to a series RLC circuit, what is the steady-state current i_p(t) after a long time?",
+        "choices": [
+            "A. E/R",
+            "B. 0",
+            "C. E/L",
+            "D. E C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "A completely uncharged capacitor C and an inductor L with no initial current are connected to a voltage E at t=0. What is the initial condition q'(0)?",
+        "choices": [
+            "A. E/R",
+            "B. 1",
+            "C. 0",
+            "D. E/L"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "Solve for the charge q(t) in a critically damped RLC circuit (L=1, R=4, C=0.25) with a DC source E=10, assuming q(0)=0 and i(0)=0.",
+        "choices": [
+            "A. q(t) = 2.5 - 2.5(1+2t)e^-2t",
+            "B. q(t) = 2.5e^-2t cos 2t",
+            "C. q(t) = 10(1 - e^-2t)",
+            "D. q(t) = 2.5 - 2.5(1+2t)e^-4t"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "When an AC voltage E(t) = E_0 sin(ω t) is applied to a series RLC circuit, the phase angle φ of the steady-state current relates to the components by tan φ = :",
+        "choices": [
+            "A. (ω L - 1/(ω C)/R)",
+            "B. (R/ω L - 1/(ω C))",
+            "C. (ω C - 1/(ω L)/R)",
+            "D. (1/ω RC)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "The total electrical impedance Z of a series RLC circuit driven by an AC frequency ω is given by:",
+        "choices": [
+            "A. √( R^2 + (ω C - 1/(ω L))^2 )",
+            "B. √( R^2 + (ω L - 1/(ω C))^2 )",
+            "C. R + ω L + 1/(ω C)",
+            "D. √( R^2 + (ω L)^2 )"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "For a PARALLEL RLC circuit driven by a current source I(t), the differential equation is analogous to the series case, but the dependent variable is typically the:",
+        "choices": [
+            "A. Inductor current i_L",
+            "B. Capacitor charge q",
+            "C. Voltage v across the components",
+            "D. Total charge Q"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "The Quality factor (Q-factor) of a series RLC circuit at resonance is defined as:",
+        "choices": [
+            "A. (1/R)√( (C/L) )",
+            "B. R√( (L/C) )",
+            "C. (R/Lω_0)",
+            "D. (1/R)√( (L/C) )"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "In an AC-driven series RLC circuit, the steady-state current amplitude I_0 is strictly maximized when the driving frequency ω equals:",
+        "choices": [
+            "A. 1/√( LC )",
+            "B. R/L",
+            "C. 1/(RC)",
+            "D. √( 1/(LC) - (R/2L)^2 )"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "The bandwidth ∆ω of a resonant series RLC circuit is mathematically related to the resistance and inductance by:",
+        "choices": [
+            "A. ∆ω = L/R",
+            "B. ∆ω = R/L",
+            "C. ∆ω = 1/√( LC )",
+            "D. ∆ω = R/(2L)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "In an ideal LC circuit (R=0) with initial charge q_0 and zero initial current, the maximum charge on the capacitor during oscillation is:",
+        "choices": [
+            "A. q_0 / √( 2 )",
+            "B. 2 q_0",
+            "C. q_0",
+            "D. q_0 / 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "The damped oscillation frequency of an underdamped series RLC circuit is given by:",
+        "choices": [
+            "A. √( (1/LC) - ≤ft((R/L)\\right)^2 )",
+            "B. √( (1/LC) + ≤ft((R/2L)\\right)^2 )",
+            "C. √( (R/L) - (1/LC) )",
+            "D. √( (1/LC) - ≤ft((R/2L)\\right)^2 )"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "In the fundamental engineering beam equation E I y'' = M(x), what does the variable y mathematically represent?",
+        "choices": [
+            "A. Shear force",
+            "B. Deflection",
+            "C. Bending moment",
+            "D. Slope"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "In the beam equation E I y'' = M(x), the product EI is a constant property of the beam known as the:",
+        "choices": [
+            "A. Flexural rigidity",
+            "B. Section modulus",
+            "C. Bulk modulus",
+            "D. Moment of inertia"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "By differentiating the fundamental beam equation twice, we obtain the fourth-order differential equation E I y^(4) = :",
+        "choices": [
+            "A. V(x) (Shear Force)",
+            "B. M(x) (Bending Moment)",
+            "C. w(x) (Load distribution)",
+            "D. θ(x) (Slope)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "For a cantilever beam fixed securely (built-in) at the left end x=0, the correct geometric boundary conditions are:",
+        "choices": [
+            "A. y(0) = 0, y''(0) = 0",
+            "B. y(0) = 0, M(0) = 0",
+            "C. y'(0) = 0, y''(0) = 0",
+            "D. y(0) = 0, y'(0) = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "For a simply supported (pinned) beam at x=0, the correct physical boundary conditions are:",
+        "choices": [
+            "A. y(0) = 0, y''(0) = 0",
+            "B. y(0) = 0, y'(0) = 0",
+            "C. y'(0) = 0, y'''(0) = 0",
+            "D. y(0) = 0, y'''(0) = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "For a completely free end of a beam at x=L, which physical quantities must be exactly zero?",
+        "choices": [
+            "A. Bending moment and slope",
+            "B. Bending moment and shear force",
+            "C. Deflection and slope",
+            "D. Shear force and deflection"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "In the differential equations of beam bending, the third derivative term E I y''' mathematically corresponds to the:",
+        "choices": [
+            "A. Load intensity w(x)",
+            "B. Slope θ(x)",
+            "C. Shear force V(x)",
+            "D. Bending moment M(x)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "The bending moment M(x) is mathematically related to the deflection y(x) by the equation:",
+        "choices": [
+            "A. M(x) = E I y'",
+            "B. M(x) = E I y'''",
+            "C. M(x) = E I y^(4)",
+            "D. M(x) = E I y''"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "Calculate the maximum deflection of a cantilever beam of length L subjected to a concentrated point load P at its free end.",
+        "choices": [
+            "A. P L^3 / (3 E I)",
+            "B. P L^3 / (8 E I)",
+            "C. P L^3 / (48 E I)",
+            "D. P L^2 / (2 E I)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Calculate the maximum deflection of a simply supported beam of length L subjected to a concentrated point load P exactly at its midspan.",
+        "choices": [
+            "A. P L^3 / (16 E I)",
+            "B. P L^3 / (48 E I)",
+            "C. 5 P L^4 / (384 E I)",
+            "D. P L^3 / (3 E I)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "Calculate the maximum deflection of a cantilever beam of length L subjected to a uniform distributed load w over its entire length.",
+        "choices": [
+            "A. w L^4 / (48 E I)",
+            "B. 5 w L^4 / (384 E I)",
+            "C. w L^4 / (8 E I)",
+            "D. w L^4 / (3 E I)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Calculate the maximum slope (angle at the free end) of a cantilever beam of length L with a point load P at the free end.",
+        "choices": [
+            "A. P L^3 / (3 E I)",
+            "B. P L^2 / (3 E I)",
+            "C. P L^3 / (2 E I)",
+            "D. P L^2 / (2 E I)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "When integrating E I y'' = M(x) twice to find the deflection curve, the two constants of integration are determined by strictly applying the:",
+        "choices": [
+            "A. Boundary conditions",
+            "B. Equilibrium equations",
+            "C. Material yield strength",
+            "D. Compatibility equations"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "A beam fixed at x=0 and simply supported at x=L is statically indeterminate. What are the boundary conditions at x=L?",
+        "choices": [
+            "A. y(L)=0, y'(L)=0",
+            "B. y(L)=0, y''(L)=0",
+            "C. y'(L)=0, y''(L)=0",
+            "D. y''(L)=0, y'''(L)=0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "For a simply supported beam with a symmetric load, where does the maximum deflection strictly occur?",
+        "choices": [
+            "A. At the supports",
+            "B. At the quarter points",
+            "C. At the midspan",
+            "D. Where the shear is maximum"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "Macaulay's method (using singularity functions) is a mathematical technique designed to simplify the integration of the beam equation when:",
+        "choices": [
+            "A. The beam is statically indeterminate",
+            "B. The beam cross-section varies",
+            "C. The beam material is non-linear",
+            "D. The loading is discontinuous (point loads/moments)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "To solve a statically indeterminate propped cantilever beam (fixed at A, roller at B) with load P, one can remove the roller, calculate the deflection, and then apply a force at B to force the net deflection to zero. This employs the principle of:",
+        "choices": [
+            "A. Superposition",
+            "B. Virtual Work",
+            "C. Least Action",
+            "D. Castigliano"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "A cantilever beam of length L is subjected to a pure concentrated bending moment M_0 applied exactly at its free end. What is the maximum deflection?",
+        "choices": [
+            "A. M_0 L^2 / (3 E I)",
+            "B. M_0 L^2 / (2 E I)",
+            "C. M_0 L / (E I)",
+            "D. M_0 L^2 / (8 E I)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "In beam theory, the internal strain energy U due to bending is mathematically given by the integral over the length of:",
+        "choices": [
+            "A. (M^2/2 E I) dx",
+            "B. (V^2/2 G A) dx",
+            "C. (E I/2) (y')^2 dx",
+            "D. (M/E I) dx"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "The Principle of Superposition for beam deflection is strictly valid only if the material obeys Hooke's Law and the deflections are:",
+        "choices": [
+            "A. Very large",
+            "B. Irreversible",
+            "C. Plastic",
+            "D. Small"
+        ],
+        "correct_answer": "D"
+    }
+]

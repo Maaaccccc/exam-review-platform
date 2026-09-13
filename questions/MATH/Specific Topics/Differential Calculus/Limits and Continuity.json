@@ -1,0 +1,1025 @@
+[
+    {
+        "number": 0,
+        "question": "",
+        "choices": [
+            "A. e",
+            "B. 1",
+            "C. e^-1",
+            "D. 0"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 1,
+        "question": "",
+        "choices": [
+            "A. 1",
+            "B. e",
+            "C. 0",
+            "D. 1/e"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "",
+        "choices": [
+            "A. 4",
+            "B. 8",
+            "C. 12",
+            "D. 16"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "A function f is periodic if there exists a positive number p such that:",
+        "choices": [
+            "A. f(x+p) = f(x)",
+            "B. f(x+p) = -f(x)",
+            "C. f(p) = f(x)",
+            "D. f(x-p) = -f(x)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 4,
+        "question": "What is the limit of a constant 'c' as x approaches any number 'a'?",
+        "choices": [
+            "A. a",
+            "B. c",
+            "C. 0",
+            "D. undefined"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "If the left-hand limit and right-hand limit of f(x) as x approaches 'a' are unequal, the general limit is said to:",
+        "choices": [
+            "A. Be zero",
+            "B. Be infinity",
+            "C. Not exist",
+            "D. Equal the average of the two limits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "The limit of [f(x) + g(x)] as x approaches 'a' is equal to the sum of their individual limits provided that:",
+        "choices": [
+            "A. The limits of both functions exist",
+            "B. f(x) and g(x) are polynomials",
+            "C. The limit is finite",
+            "D. The functions are rational"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "What is the value of the limit of (sin x)/x as x approaches 0?",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. Infinity",
+            "D. Undefined"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "The limit of (1 - cos x)/x as x approaches 0 evaluates to:",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. -1",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "The limit of (1 + 1/n)^n as n approaches infinity is a definition for which mathematical constant?",
+        "choices": [
+            "A. Pi",
+            "B. Euler's number (e)",
+            "C. Golden ratio",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "The theorem which states that if f(x) <= g(x) <= h(x) and the limits of f(x) and h(x) as x approaches 'a' are both L, then the limit of g(x) is also L, is called:",
+        "choices": [
+            "A. Mean Value Theorem",
+            "B. Intermediate Value Theorem",
+            "C. Squeeze Theorem",
+            "D. Rolle's Theorem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "A line x = a is called a vertical asymptote of the curve y = f(x) if the limit of f(x) as x approaches 'a' is:",
+        "choices": [
+            "A. Zero",
+            "B. One",
+            "C. Infinity or negative infinity",
+            "D. Equal to f(a)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "Horizontal asymptotes are determined by evaluating the limit of f(x) as x approaches:",
+        "choices": [
+            "A. Zero",
+            "B. The y-intercept",
+            "C. Positive or negative infinity",
+            "D. The roots of the function"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 13,
+        "question": "If the degree of the numerator of a rational function is exactly one greater than the degree of its denominator, the graph has a:",
+        "choices": [
+            "A. Vertical asymptote",
+            "B. Horizontal asymptote",
+            "C. Slant (oblique) asymptote",
+            "D. Point of discontinuity only"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "A function f(x) is said to be continuous at x = c if:",
+        "choices": [
+            "A. f(c) exists",
+            "B. Limit of f(x) as x approaches c exists",
+            "C. Limit of f(x) as x approaches c equals f(c)",
+            "D. All of the above"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 15,
+        "question": "What type of discontinuity occurs when the two one-sided limits exist but are not equal?",
+        "choices": [
+            "A. Removable",
+            "B. Jump",
+            "C. Infinite",
+            "D. Essential"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "A discontinuity is classified as \"removable\" if:",
+        "choices": [
+            "A. The limit does not exist",
+            "B. The function approaches infinity",
+            "C. The limit exists but does not equal the function's value at that point",
+            "D. The left and right limits are different"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "An infinite discontinuity typically occurs at a point where the graph has a:",
+        "choices": [
+            "A. Horizontal asymptote",
+            "B. Vertical asymptote",
+            "C. Slant asymptote",
+            "D. Hole"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "Essential discontinuities that are neither jump, removable, nor infinite often involve functions that:",
+        "choices": [
+            "A. Oscillate infinitely as they approach a point",
+            "B. Approach a constant value",
+            "C. Are polynomials",
+            "D. Are absolute values"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "Which theorem guarantees that if a function f is continuous on a closed interval [a, b] and N is any number between f(a) and f(b), then there exists a number c in (a, b) such that f(c) = N?",
+        "choices": [
+            "A. Extreme Value Theorem",
+            "B. Squeeze Theorem",
+            "C. Intermediate Value Theorem",
+            "D. Mean Value Theorem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "The limit of a polynomial function P(x) as x approaches 'a' can always be found by:",
+        "choices": [
+            "A. Direct substitution",
+            "B. Factoring",
+            "C. Rationalization",
+            "D. L'Hopital's Rule"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "What is the limit of c*f(x) as x approaches a, if limit of f(x) is L and c is a constant?",
+        "choices": [
+            "A. c + L",
+            "B. c/L",
+            "C. c*L",
+            "D. L^c"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "If limit f(x) as x->a is L and limit g(x) as x->a is M, what is the limit of f(x)/g(x) as x->a?",
+        "choices": [
+            "A. L - M",
+            "B. L*M",
+            "C. L/M provided M is not equal to 0",
+            "D. L/M for all M"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "The limit of (tan x)/x as x approaches 0 is equal to:",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. -1",
+            "D. Undefined"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "Which of the following limits represents the number e?",
+        "choices": [
+            "A. Limit as x->0 of (1+x)^(1/x)",
+            "B. Limit as x->infinity of (1+x)^(1/x)",
+            "C. Limit as x->0 of (1+1/x)^x",
+            "D. Limit as x->1 of (1+x)^x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "If the limit of f(x) as x approaches 3 from the left is 4, and from the right is 5, the function has a:",
+        "choices": [
+            "A. Removable discontinuity",
+            "B. Jump discontinuity",
+            "C. Infinite discontinuity",
+            "D. Continuous graph"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "Which type of function is continuous everywhere on its domain?",
+        "choices": [
+            "A. Rational functions",
+            "B. Polynomial functions",
+            "C. Trigonometric functions",
+            "D. All of the above"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "The Intermediate Value Theorem is particularly useful for proving the existence of:",
+        "choices": [
+            "A. Asymptotes",
+            "B. Limits",
+            "C. Roots or zeroes of an equation",
+            "D. Derivatives"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "A rational function f(x) = p(x)/q(x) has a vertical asymptote at x = a if:",
+        "choices": [
+            "A. p(a) = 0 and q(a) = 0",
+            "B. p(a) = 0 and q(a) != 0",
+            "C. p(a) != 0 and q(a) = 0",
+            "D. It is a slant asymptote"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "To find a horizontal asymptote of a rational function where the numerator and denominator have the same degree, one must:",
+        "choices": [
+            "A. Divide the leading coefficients",
+            "B. Set the denominator to zero",
+            "C. Take the limit as x approaches zero",
+            "D. Find the derivative"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "The Squeeze Theorem is also known as the:",
+        "choices": [
+            "A. Mean Value Theorem",
+            "B. Pinching Theorem or Sandwich Theorem",
+            "C. L'Hopital's Rule",
+            "D. Rolle's Theorem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "If f(x) = 2x + 3 and g(x) = x - 1, find g(f(x)).",
+        "choices": [
+            "A. 2x + 2",
+            "B. 2x + 1",
+            "C. 2x - 2",
+            "D. 2x + 4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "Find the domain of f(x) = 1 / sqrt(x^2 - 4).",
+        "choices": [
+            "A. x > 2 or x < -2",
+            "B. -2 < x < 2",
+            "C. x >= 2 or x <= -2",
+            "D. All real numbers except 2 and -2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "Determine the symmetry of f(x) = x^4 - 2x^2 + 1.",
+        "choices": [
+            "A. Origin",
+            "B. y-axis",
+            "C. x-axis",
+            "D. No symmetry"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "Find the inverse of f(x) = (x - 2) / 3.",
+        "choices": [
+            "A. f^-1(x) = 3x + 2",
+            "B. f^-1(x) = 3x - 2",
+            "C. f^-1(x) = (x + 2) / 3",
+            "D. f^-1(x) = 3 / (x - 2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "Evaluate the limit of (x^2 - 9)/(x - 3) as x approaches 3.",
+        "choices": [
+            "A. 0",
+            "B. 6",
+            "C. 9",
+            "D. Undefined"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "Evaluate the limit of (x^2 - x - 6)/(x^2 - 4) as x approaches 2.",
+        "choices": [
+            "A. 5/4",
+            "B. -5/4",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "Find the limit of [sqrt(x+4) - 2] / x as x approaches 0.",
+        "choices": [
+            "A. 1/2",
+            "B. 1/4",
+            "C. 0",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "Evaluate the limit of (sin 3x) / x as x approaches 0.",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. 3",
+            "D. 1/3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "Find the limit of (1 + 2/x)^x as x approaches infinity.",
+        "choices": [
+            "A. e",
+            "B. e^2",
+            "C. e^(1/2)",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "Evaluate the limit of (1 - 1/x)^x as x approaches infinity.",
+        "choices": [
+            "A. e",
+            "B. 1/e",
+            "C. -e",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Evaluate the one-sided limit of 1/(x-2) as x approaches 2 from the right.",
+        "choices": [
+            "A. Negative infinity",
+            "B. Positive infinity",
+            "C. 0",
+            "D. 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "Evaluate the one-sided limit of",
+        "choices": [
+            "A. x",
+            "B. / x as x approaches 0 from the left.",
+            "C. 1",
+            "D. -1"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 45,
+        "question": "Find the limit of x / sqrt(x^2 + 1) as x approaches negative infinity.",
+        "choices": [
+            "A. 1",
+            "B. -1",
+            "C. 0",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "Find the horizontal asymptote of f(x) = (3x^2 - 2x + 1) / (5x^2 + 4).",
+        "choices": [
+            "A. y = 0",
+            "B. y = 3/5",
+            "C. y = 5/3",
+            "D. None"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "Determine the vertical asymptote(s) of f(x) = (x^2 - 1) / (x^2 - 4x + 3).",
+        "choices": [
+            "A. x = 1 and x = 3",
+            "B. x = 3",
+            "C. x = 1",
+            "D. x = -1 and x = 3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "What is the equation of the slant asymptote for f(x) = (x^2 + 2x - 3) / (x - 2)?",
+        "choices": [
+            "A. y = x",
+            "B. y = x + 4",
+            "C. y = x - 2",
+            "D. y = 2x + 4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "A function is given by f(x) = cx^2 + 2x, x < 2 ; x^3 - cx, x >= 2 . Find 'c' so that f(x) is continuous at x = 2.",
+        "choices": [
+            "A. 1/2",
+            "B. 2/3",
+            "C. 3/2",
+            "D. 4/5"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "Evaluate the limit of (e^x - 1) / x as x approaches 0.",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. e",
+            "D. Undefined"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Evaluate the limit of ln(1+x) / x as x approaches 0.",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. e",
+            "D. Undefined"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "Using the Squeeze Theorem, find the limit of x^2 * sin(1/x) as x approaches 0.",
+        "choices": [
+            "A. 1",
+            "B. -1",
+            "C. 0",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "Find the limit of (1/x - 1/3) / (x - 3) as x approaches 3.",
+        "choices": [
+            "A. 1/9",
+            "B. -1/9",
+            "C. 1/3",
+            "D. -1/3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Evaluate the limit of (tan^2 x) / x as x approaches 0.",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. Infinity",
+            "D. Undefined"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "Find the limit of (x^2 - 25) / (sqrt(x) - sqrt(5)) as x approaches 5.",
+        "choices": [
+            "A. 0",
+            "B. 10*sqrt(5)",
+            "C. 20*sqrt(5)",
+            "D. 5*sqrt(5)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "Evaluate the limit of (4x^3 - 2x^2 + 1) / (3x^4 - x) as x approaches infinity.",
+        "choices": [
+            "A. 4/3",
+            "B. 0",
+            "C. Infinity",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "Evaluate the limit of (2x^2 + x - 1) / (x^2 - 1) as x approaches 1.",
+        "choices": [
+            "A. 3/2",
+            "B. 1/2",
+            "C. 0",
+            "D. Does not exist"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "Find the limit of (x^2 - x - 2) / (x^2 - 2x) as x approaches 2.",
+        "choices": [
+            "A. 0",
+            "B. 1/2",
+            "C. 3/2",
+            "D. Undefined"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "Find the value of k that makes f(x) = (x^2 - k^2)/(x - k) for x != k, and f(k) = 6 continuous at x = k.",
+        "choices": [
+            "A. 2",
+            "B. 3",
+            "C. 4",
+            "D. 6"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "Find the limit of (sqrt(x^2 + 9) - 3) / x^2 as x approaches 0.",
+        "choices": [
+            "A. 1/6",
+            "B. 1/3",
+            "C. 0",
+            "D. 1/9"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "Determine the number of vertical asymptotes for f(x) = x / (x^3 - x).",
+        "choices": [
+            "A. 3",
+            "B. 2",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "At x = 0, the function f(x) = sin(1/x) has what type of discontinuity?",
+        "choices": [
+            "A. Removable",
+            "B. Jump",
+            "C. Infinite",
+            "D. Essential"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 67,
+        "question": "Find the slant asymptote of f(x) = (2x^3 - 5x^2 + x - 1) / (x^2 - x).",
+        "choices": [
+            "A. y = 2x - 3",
+            "B. y = 2x + 3",
+            "C. y = 2x - 1",
+            "D. y = 2x - 5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "The function f(x) = (x^2 - 16) / (x - 4) has a removable discontinuity at x = 4. What value should be assigned to f(4) to make it continuous?",
+        "choices": [
+            "A. 4",
+            "B. 8",
+            "C. 16",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "Let f(x) =",
+        "choices": [
+            "A. x - 3",
+            "B. / (x - 3). Evaluate the limit of f(x) as x approaches 3 from the right.",
+            "C. 1",
+            "D. -1"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 70,
+        "question": "Evaluate the limit of (cos x - 1) / (cos^2 x - 1) as x approaches 0.",
+        "choices": [
+            "A. 0",
+            "B. 1/2",
+            "C. 1",
+            "D. -1/2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "If f(x) = (ax + b) / (cx - a), then f(f(x)) evaluates to:",
+        "choices": [
+            "A. x",
+            "B. -x",
+            "C. 1/x",
+            "D. ax + b"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "Let f(x) = x^2 - 2x. For what values of x is f(f(x)) = 0?",
+        "choices": [
+            "A. 0, 2",
+            "B. 0, 2, 1 + sqrt(3), 1 - sqrt(3)",
+            "C. 1, -1",
+            "D. 0, 2, -1, 3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "Determine the range of f(x) = 3cos(x) - 4sin(x).",
+        "choices": [
+            "A. [-1, 1]",
+            "B. [-5, 5]",
+            "C. [-7, 7]",
+            "D. [-3, 4]"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "Evaluate the limit as x approaches 0 of (x - sin x) / x^3.",
+        "choices": [
+            "A. 1/3",
+            "B. 1/6",
+            "C. 1/24",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "Find the limit of [1/(x-1) - 2/(x^2-1)] as x approaches 1.",
+        "choices": [
+            "A. 1/2",
+            "B. 1",
+            "C. 0",
+            "D. Does not exist"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "Find the limit as x approaches infinity of (sqrt(x^2 + 3x) - x).",
+        "choices": [
+            "A. 0",
+            "B. 3/2",
+            "C. 3",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "Evaluate the limit as x approaches 0 of x^(sin x).",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. e",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "Let f(x) be the greatest integer function. Evaluate the limit of f(x) as x approaches 2 from the left.",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 0",
+            "D. Does not exist"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "Evaluate the limit of [sin(x) - x*cos(x)] / x^3 as x approaches 0.",
+        "choices": [
+            "A. 1/3",
+            "B. 1/6",
+            "C. -1/3",
+            "D. -1/6"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "Find the limit of (cos x)^(1/x^2) as x approaches 0.",
+        "choices": [
+            "A. e^(-1/2)",
+            "B. e^(1/2)",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "Evaluate the limit as n approaches infinity of n * [ln(n+1) - ln(n)].",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. e",
+            "D. Infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "Which of the following limits yields Euler's number e?",
+        "choices": [
+            "A. Limit as x->0 (1+x)^(1/x)",
+            "B. Limit as x->infinity (1-1/x)^-x",
+            "C. Limit as x->infinity (x/(x-1))^x",
+            "D. All of the above"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 84,
+        "question": "Evaluate the limit as x approaches 1 of (x^a - 1) / (x^b - 1), where a and b are non-zero constants.",
+        "choices": [
+            "A. a/b",
+            "B. b/a",
+            "C. a-b",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "Evaluate the limit of [e^(3x) - 3x - 1] / x^2 as x approaches 0.",
+        "choices": [
+            "A. 3/2",
+            "B. 9/2",
+            "C. 9",
+            "D. 3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "Let f(x) = x^3 - 3x + 1. By the Intermediate Value Theorem, f(x) has a root in which of the following intervals?",
+        "choices": [
+            "A. (1, 2)",
+            "B. (-1, 0)",
+            "C. (0, 1)",
+            "D. (2, 3)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "Find the limit as x approaches pi/2 of (sec x - tan x).",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. -1",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "Find the limit of (tan x - x) / x^3 as x approaches 0.",
+        "choices": [
+            "A. 1/3",
+            "B. 1/6",
+            "C. -1/3",
+            "D. -1/6"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "Evaluate the limit as x approaches infinity of x * [arctan(x) - pi/2].",
+        "choices": [
+            "A. -1",
+            "B. 1",
+            "C. 0",
+            "D. -pi/2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Find the limit as x approaches 0 of [ln(cos x)] / x^2.",
+        "choices": [
+            "A. -1/2",
+            "B. 1/2",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "Determine the number of horizontal asymptotes for the function f(x) = (e^x - e^-x) / (e^x + e^-x).",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 2",
+            "D. 3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "Find the limit as x approaches 0 of (a^x - b^x) / x.",
+        "choices": [
+            "A. a/b",
+            "B. ln(a/b)",
+            "C. ln(a) - ln(b)",
+            "D. Both B and C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "Evaluate the limit as x approaches infinity of ( (x^2 + x)/(x^2 - x) )^x.",
+        "choices": [
+            "A. e^2",
+            "B. e",
+            "C. e^-2",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "If f(x) is continuous on [a, b] and changes sign, the Bisection Method uses which theorem to find the root?",
+        "choices": [
+            "A. Mean Value Theorem",
+            "B. Intermediate Value Theorem",
+            "C. Squeeze Theorem",
+            "D. Rolle's Theorem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "Determine the constant a such that limit as x approaches 0 of (sqrt(1+ax) - sqrt(1-ax)) / x = 3.",
+        "choices": [
+            "A. 3",
+            "B. 6",
+            "C. 3/2",
+            "D. 1/3"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "Find the limit as x approaches 0 of (arcsin x - x) / x^3.",
+        "choices": [
+            "A. 1/3",
+            "B. 1/6",
+            "C. 1/2",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "Evaluate the limit of x^(1/(x-1)) as x approaches 1.",
+        "choices": [
+            "A. 1",
+            "B. e",
+            "C. 0",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "Evaluate the limit of (x - x*cos x) / (sin^3 x) as x approaches 0.",
+        "choices": [
+            "A. 1/2",
+            "B. 1/3",
+            "C. 1/6",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 100,
+        "question": "Let limit of f(x)/x as x->0 be 5. Find the limit of f(3x)/x as x->0.",
+        "choices": [
+            "A. 5",
+            "B. 15",
+            "C. 5/3",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    }
+]

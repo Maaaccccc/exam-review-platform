@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "What is the specific Protocol Data Unit (PDU) processed by the OSI Transport layer?",
+        "choices": [
+            "A. Packet",
+            "B. Segment",
+            "C. Frame",
+            "D. Bit"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "Which OSI layer is primarily responsible for logical addressing (e.g., IPv4, IPv6)?",
+        "choices": [
+            "A. Physical",
+            "B. Data Link",
+            "C. Network",
+            "D. Session"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "If a sender uses big-endian byte ordering and the receiver uses little-endian byte ordering, which OSI layer is responsible for the conversion?",
+        "choices": [
+            "A. Transport",
+            "B. Application",
+            "C. Session",
+            "D. Presentation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "The TCP three-way handshake (SYN, SYN-ACK, ACK) used to establish a reliable connection occurs at which OSI layer?",
+        "choices": [
+            "A. Transport Layer",
+            "B. Session Layer",
+            "C. Network Layer",
+            "D. Data Link Layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "During encapsulation, which OSI layer is unique because it typically adds both a header AND a trailer (such as the FCS) to the Protocol Data Unit?",
+        "choices": [
+            "A. Network Layer",
+            "B. Data Link Layer",
+            "C. Transport Layer",
+            "D. Physical Layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "Routing protocols such as OSPF, EIGRP, and BGP are designed to support and populate routing tables at which OSI layer?",
+        "choices": [
+            "A. Data Link Layer",
+            "B. Transport Layer",
+            "C. Network Layer",
+            "D. Presentation Layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "Translating a logical network address (IP) into a physical machine address (MAC) bridges the gap between which two OSI layers?",
+        "choices": [
+            "A. Session and Transport",
+            "B. Transport and Network",
+            "C. Data Link and Physical",
+            "D. Network and Data Link"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "Which layer of the OSI model is responsible for bit synchronization and defining the line voltage levels?",
+        "choices": [
+            "A. Physical Layer",
+            "B. Data Link Layer",
+            "C. Network Layer",
+            "D. Transport Layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "Systems Network Architecture (SNA) is a proprietary, unified networking architecture developed in 1974 by which major technology company?",
+        "choices": [
+            "A. Digital Equipment Corporation",
+            "B. IBM",
+            "C. Hewlett-Packard",
+            "D. Cisco Systems"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "The primary original objective of IBM SNA was to:",
+        "choices": [
+            "A. Eliminate the chaos of incompatible, terminal-specific communication methods by providing a unified, generalized networking architecture",
+            "B. Replace the OSI model entirely",
+            "C. Standardize fiber optic cables for all telecom vendors",
+            "D. Create a global, decentralized wireless network"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "SNA was designed primarily to support which type of network topology historically dominated by corporate mainframes?",
+        "choices": [
+            "A. Peer-to-peer",
+            "B. Hierarchical",
+            "C. Token Ring",
+            "D. Decentralized Mesh"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "In the context of SNA, any hardware or software entity that can act as a source or destination of data on the network is called an NAU. What does NAU stand for?",
+        "choices": [
+            "A. Network Access Unit",
+            "B. Node Attachment Unit",
+            "C. Network Addressable Unit",
+            "D. Native Application Utility"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 13,
+        "question": "Which of the following is NOT one of the three primary types of Network Addressable Units (NAUs) in classical SNA?",
+        "choices": [
+            "A. System Services Control Point (SSCP)",
+            "B. Logical Unit (LU)",
+            "C. Physical Unit (PU)",
+            "D. Front-End Router (FER)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "In an SNA network, an end user or application accesses the network and communicates strictly through a port known as a:",
+        "choices": [
+            "A. Physical Unit (PU)",
+            "B. Logical Unit (LU)",
+            "C. System Services Control Point (SSCP)",
+            "D. Line Control Unit (LCU)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "The concept of a \"Domain\" in a classical SNA network refers specifically to:",
+        "choices": [
+            "A. A single local area network segment",
+            "B. All the PUs, LUs, and communication links controlled by a single SSCP",
+            "C. The physical perimeter of a corporate data center",
+            "D. A group of interconnected, equal mainframes"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "Advanced Peer-to-Peer Networking (APPN) was introduced later as an extension to traditional SNA primarily to:",
+        "choices": [
+            "A. Allow decentralized, peer-to-peer routing without relying on a central mainframe SSCP",
+            "B. Increase the speed of token ring local networks",
+            "C. Convert SNA entirely to the OSI Reference Model",
+            "D. Consolidate all processing into a single host CPU"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "What is the primary software implementation of the SSCP that traditionally runs on the IBM mainframe host operating system?",
+        "choices": [
+            "A. CICS",
+            "B. RACF",
+            "C. VTAM",
+            "D. DB2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 18,
+        "question": "Which specific SNA component is fundamentally responsible for managing the network configuration, coordinating session requests, and providing directory services within its domain?",
+        "choices": [
+            "A. Logical Unit (LU)",
+            "B. Physical Unit (PU)",
+            "C. System Services Control Point (SSCP)",
+            "D. Data Link Control (DLC)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "An SNA Logical Unit (LU) is best described structurally as:",
+        "choices": [
+            "A. A physical hardware router",
+            "B. A port or access point for users and applications to enter the SNA network",
+            "C. The mainframe CPU itself",
+            "D. A modem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "Which LU type is classically utilized for interactive communications with IBM 3270 display terminals?",
+        "choices": [
+            "A. LU Type 0",
+            "B. LU Type 1",
+            "C. LU Type 2",
+            "D. LU Type 6.2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "Which LU type (also known as APPC) was specifically introduced to support advanced program-to-program communication in a distributed processing environment?",
+        "choices": [
+            "A. LU Type 2",
+            "B. LU Type 3",
+            "C. LU Type 4",
+            "D. LU Type 6.2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 22,
+        "question": "In an SNA network, data cannot flow between two LUs until a formal, logical connection is established. This connection is called an:",
+        "choices": [
+            "A. SSCP-PU session",
+            "B. SSCP-LU session",
+            "C. PU-PU session",
+            "D. LU-LU session"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 23,
+        "question": "Before an LU-LU session can be successfully established in classical Subarea SNA, the participating LUs must typically first establish a session with the:",
+        "choices": [
+            "A. SSCP",
+            "B. Adjacent PU",
+            "C. Host operating system",
+            "D. Front-end processor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "The Network Control Program (NCP) is a highly specialized SNA software component that traditionally resides and executes within the:",
+        "choices": [
+            "A. Mainframe Host",
+            "B. Communications Controller (Front-End Processor)",
+            "C. User's desktop computer",
+            "D. Central Ethernet router"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "In SNA terminology, the physical devices (terminals, printers, controllers, hosts) and the control software that specifically manages their physical network resources are represented by:",
+        "choices": [
+            "A. Logical Units (LUs)",
+            "B. System Services Control Points (SSCPs)",
+            "C. Physical Units (PUs)",
+            "D. Network Addressable Units (NAUs)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "Which PU type historically represents the mainframe host computer (subarea node) in a classic hierarchical SNA network?",
+        "choices": [
+            "A. PU Type 1",
+            "B. PU Type 2",
+            "C. PU Type 4",
+            "D. PU Type 5"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "Which PU type is traditionally assigned to a Communications Controller (Front-End Processor) running the Network Control Program (NCP)?",
+        "choices": [
+            "A. PU Type 4",
+            "B. PU Type 5",
+            "C. PU Type 2",
+            "D. PU Type 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "A cluster controller (like the IBM 3274), which manages multiple attached dumb terminals and acts as a peripheral node, is designated as which PU type?",
+        "choices": [
+            "A. PU Type 5",
+            "B. PU Type 2",
+            "C. PU Type 4",
+            "D. PU Type 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "What is the architectural role of a \"subarea\" in classical SNA?",
+        "choices": [
+            "A. A local area network segment utilizing Token Ring",
+            "B. A group of interconnected front-end processors with no hosts",
+            "C. A portion of the network containing a single subarea node (PU 4 or 5) and its attached peripheral nodes",
+            "D. A virtual circuit established between two distant LUs"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 30,
+        "question": "Peripheral nodes in classic SNA (such as PU Type 2) can only communicate directly on the data link layer with:",
+        "choices": [
+            "A. Their attached subarea node (PU 4 or PU 5)",
+            "B. Any other peripheral node on the network",
+            "C. The SSCP by bypassing the subarea node",
+            "D. LU Type 6.2 independent nodes only"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "The original foundational architecture of SNA, prior to the introduction of APPN, is strictly:",
+        "choices": [
+            "A. Token ring based",
+            "B. Mesh routed",
+            "C. Peer-to-peer",
+            "D. Hierarchical"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 32,
+        "question": "In a basic, single-domain SNA network, how many SSCPs are actively controlling the network resources?",
+        "choices": [
+            "A. Zero",
+            "B. Exactly one",
+            "C. Multiple active SSCPs",
+            "D. One for each PU"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "Cross-Domain communication in SNA allows an LU in one domain to communicate with an LU in another domain. This setup requires an initial session setup specifically between:",
+        "choices": [
+            "A. The two respective SSCPs of the domains",
+            "B. The two LUs directly",
+            "C. The PUs of the respective LUs",
+            "D. The front-end processors only"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "The synchronous bit-oriented data link protocol most synonymous with classic wide-area SNA networks is:",
+        "choices": [
+            "A. HDLC",
+            "B. Ethernet",
+            "C. SDLC",
+            "D. Frame Relay"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "Synchronous Data Link Control (SDLC) operates at which equivalent layer of the OSI reference model?",
+        "choices": [
+            "A. Physical",
+            "B. Data Link",
+            "C. Network",
+            "D. Transport"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "In an SDLC multipoint line, a primary station controls the data link. The secondary stations attached to this line:",
+        "choices": [
+            "A. Can only transmit when explicitly polled by the primary station",
+            "B. Can transmit at any time",
+            "C. Compete for token access",
+            "D. Act as independent routers"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "Advanced Peer-to-Peer Networking (APPN) introduces which specific node type that provides routing and directory services without requiring a mainframe SSCP?",
+        "choices": [
+            "A. Peripheral Node (PN)",
+            "B. End Node (EN)",
+            "C. Network Node (NN)",
+            "D. Logical Node (LN)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "An APPN End Node (EN) does not maintain a full network routing topology database. Instead, it relies on which node for network routing services?",
+        "choices": [
+            "A. A mainframe SSCP",
+            "B. A Network Node (NN)",
+            "C. A Physical Unit Type 2",
+            "D. A cluster controller"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "The dynamic protocol used by APPN to automatically distribute network topology information among Network Nodes is called:",
+        "choices": [
+            "A. Open Shortest Path First (OSPF)",
+            "B. Topology and Routing Services (TRS)",
+            "C. Routing Information Protocol (RIP)",
+            "D. Border Gateway Protocol (BGP)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "High-Performance Routing (HPR) was added as a later enhancement to APPN primarily to provide:",
+        "choices": [
+            "A. Encryption",
+            "B. Subarea routing",
+            "C. Direct OSI model integration",
+            "D. Non-disruptive routing and session recovery around link failures"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Similar to the OSI reference model, the IBM SNA architectural model is fundamentally defined by how many structural layers?",
+        "choices": [
+            "A. Five",
+            "B. Six",
+            "C. Seven",
+            "D. Eight"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "Which SNA layer corresponds most closely to the electrical and mechanical specifications of the OSI Physical Layer?",
+        "choices": [
+            "A. Data Link Control",
+            "B. Physical Control",
+            "C. Path Control",
+            "D. Transmission Control"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Which SNA layer, responsible for the reliable transfer of data across a single physical link using protocols like SDLC, corresponds directly to the OSI Data Link Layer?",
+        "choices": [
+            "A. Physical Control",
+            "B. Path Control",
+            "C. Data Flow Control",
+            "D. Data Link Control (DLC)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "The SNA Path Control layer performs routing and flow control functions that are roughly equivalent to which OSI layer?",
+        "choices": [
+            "A. Transport Layer",
+            "B. Data Link Layer",
+            "C. Network Layer",
+            "D. Session Layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "Which function is a primary responsibility of the SNA Path Control layer?",
+        "choices": [
+            "A. Encryption",
+            "B. Flow control within an LU-LU session",
+            "C. Presentation formatting",
+            "D. Routing, explicit route selection, and datagram segmentation/blocking"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 46,
+        "question": "Which SNA layer is responsible for establishing a session, managing session-level pacing (flow control), and cryptography, roughly mapping to the OSI Transport layer?",
+        "choices": [
+            "A. Path Control",
+            "B. Transmission Control",
+            "C. Data Flow Control",
+            "D. Presentation Services"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "The SNA Data Flow Control layer manages the request/response correlation, chains, brackets, and half-duplex/full-duplex dialogs. This aligns closely with the OSI:",
+        "choices": [
+            "A. Transport Layer",
+            "B. Presentation Layer",
+            "C. Application Layer",
+            "D. Session Layer"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 48,
+        "question": "Which SNA layer deals directly with data formatting, data translation (e.g., ASCII to EBCDIC), and screen formatting for 3270 terminals?",
+        "choices": [
+            "A. Data Flow Control",
+            "B. Transaction Services",
+            "C. Transmission Control",
+            "D. Presentation Services"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "The highest layer in the SNA model, which provides distributed services like file transfer (e.g., SNADS) and network management, is called:",
+        "choices": [
+            "A. Application Services",
+            "B. Transaction Services",
+            "C. Presentation Services",
+            "D. User Interface"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "Unlike the OSI model, which was developed as a vendor-neutral international standard, SNA was developed by a single vendor. Which characteristic is a direct result of this origin?",
+        "choices": [
+            "A. SNA uses TCP/IP natively at Layer 3",
+            "B. SNA is highly optimized for centralized, hierarchical mainframe environments",
+            "C. SNA strictly enforces peer-to-peer relationships",
+            "D. SNA has no physical layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "The basic unit of data transferred at the Path Control layer in an SNA network is called a:",
+        "choices": [
+            "A. Basic Information Unit (BIU)",
+            "B. Path Information Unit (PIU)",
+            "C. Basic Transmission Unit (BTU)",
+            "D. Frame"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "The Transmission Control layer takes the Request/Response Unit (RU) from higher layers and appends a Request/Response Header (RH). The combination of the RU and the RH is called the:",
+        "choices": [
+            "A. Basic Information Unit (BIU)",
+            "B. Path Information Unit (PIU)",
+            "C. Basic Link Unit (BLU)",
+            "D. Frame Check Sequence"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "The Path Control layer appends a Transmission Header (TH) to the Basic Information Unit (BIU) to form the:",
+        "choices": [
+            "A. Basic Link Unit (BLU)",
+            "B. Request Unit (RU)",
+            "C. Segment",
+            "D. Path Information Unit (PIU)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 54,
+        "question": "At the Data Link Control layer, the PIU (or multiple PIUs blocked together) is encapsulated with a Link Header and Link Trailer to form a:",
+        "choices": [
+            "A. Basic Link Unit (BLU) or Frame",
+            "B. Packet",
+            "C. Datagram",
+            "D. Cell"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "The standard Local Area Network (LAN) protocol most heavily integrated into IBM SNA environments in the 1980s and 1990s was:",
+        "choices": [
+            "A. Ethernet",
+            "B. Token Ring",
+            "C. FDDI",
+            "D. ATM"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "Which SNA layer formally handles \"pacing\", a critical flow-control mechanism designed to prevent a fast transmitter from overrunning a slow receiver's buffers during an active session?",
+        "choices": [
+            "A. Path Control",
+            "B. Data Flow Control",
+            "C. Transmission Control",
+            "D. Presentation Services"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "In SNA pacing, the receiver grants the transmitter permission to send a specified, finite number of messages before it must wait for another authorization. This number is known as the:",
+        "choices": [
+            "A. Maximum Transmission Unit",
+            "B. Pacing window size",
+            "C. Congestion threshold",
+            "D. Transmission bracket"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "SNA introduces the concept of a \"Bracket\" to group a series of related request and response chains into a single, indivisible transaction. Brackets are strictly managed by which layer?",
+        "choices": [
+            "A. Transmission Control",
+            "B. Path Control",
+            "C. Data Flow Control",
+            "D. Transaction Services"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "Which addressing scheme is traditionally used by the Path Control layer to uniquely identify Network Addressable Units (NAUs) for routing purposes?",
+        "choices": [
+            "A. Network Addresses consisting of Subarea and Element fields",
+            "B. MAC Addresses",
+            "C. IP Addresses",
+            "D. Port Numbers"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "An SNA subarea node (like an FEP) routes long-distance traffic between other subareas based strictly on the:",
+        "choices": [
+            "A. Element field of the Network Address",
+            "B. Subarea field of the Network Address",
+            "C. MAC address",
+            "D. LU name"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "What is the specific function of the \"Element\" field in a classic SNA Network Address?",
+        "choices": [
+            "A. It routes packets between subareas",
+            "B. It uniquely identifies a specific NAU within a given subarea",
+            "C. It specifies the token ring MAC address",
+            "D. It determines the SDLC polling address"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "In classic SNA, a boundary function resides in a subarea node (PU 4 or 5) and is fundamentally responsible for:",
+        "choices": [
+            "A. Translating full network addresses to local addresses for attached peripheral nodes",
+            "B. Providing the physical clock signal",
+            "C. Converting EBCDIC to ASCII",
+            "D. Encrypting the payload"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "An explicit route (ER) in Subarea SNA precisely specifies:",
+        "choices": [
+            "A. A virtual circuit at the transport layer",
+            "B. The physical sequence of subarea nodes and transmission groups between an origin subarea and a destination subarea",
+            "C. The logical session between two LUs",
+            "D. The local MAC address path"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "A virtual route (VR) in SNA is logically mapped onto an explicit route and is primarily responsible for providing:",
+        "choices": [
+            "A. Only physical addressing",
+            "B. Protocol conversion",
+            "C. Class of Service (CoS) and global flow control",
+            "D. Local MAC routing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "Which SNA feature allows network engineers to group multiple physical parallel links between two nodes into a single logical link to increase bandwidth and provide redundancy?",
+        "choices": [
+            "A. Transmission Group (TG)",
+            "B. EtherChannel",
+            "C. Link Aggregation Group",
+            "D. APPN bundle"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Which of the following is a comprehensive network management architecture specifically developed by IBM to monitor and control large-scale SNA networks?",
+        "choices": [
+            "A. SNMP",
+            "B. CMIP",
+            "C. NetView",
+            "D. OpenView"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "The IBM 3270 data stream is a block-oriented protocol used primarily to:",
+        "choices": [
+            "A. Route packets",
+            "B. Transmit formatted screen data between a mainframe and a display terminal",
+            "C. Exchange encryption keys",
+            "D. Synchronize clocks"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "In the 3270 data stream, which specific component dictates the format and attributes (e.g., protected, highlighted, hidden) of a specific field on the terminal screen?",
+        "choices": [
+            "A. Control Unit byte",
+            "B. Field Attribute character",
+            "C. Presentation header",
+            "D. Transmission header"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "A common hardware device used to allow inexpensive ASCII terminals or standard PCs to access an SNA mainframe by translating their keystrokes into the 3270 data stream is called a:",
+        "choices": [
+            "A. Protocol Converter",
+            "B. Multiplexer",
+            "C. Router",
+            "D. CSU/DSU"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "TN3270 is a protocol that allows a modern user to access an IBM mainframe. How does TN3270 differ from traditional 3270 coaxial communication?",
+        "choices": [
+            "A. It operates natively over SDLC",
+            "B. It replaces the LU with an IP address",
+            "C. It removes the need for an SSCP",
+            "D. It encapsulates the 3270 data stream within TCP/IP packets"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 71,
+        "question": "SNA Logical Unit (LU) Type 0 is typically characterized as:",
+        "choices": [
+            "A. A generalized protocol used for application-specific or non-standard device communication",
+            "B. The protocol for IBM 3270 terminals",
+            "C. The protocol for remote printers",
+            "D. The APPC program-to-program protocol"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "LU Type 1 is a classic SNA protocol designed primarily to support:",
+        "choices": [
+            "A. Interactive 3270 displays",
+            "B. Program-to-program file transfers",
+            "C. Printers and remote job entry (RJE) terminals",
+            "D. IBM 5250 displays"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "LU Type 3 is highly specific and is utilized exclusively for:",
+        "choices": [
+            "A. Printers that utilize the 3270 data stream",
+            "B. Modems",
+            "C. Program-to-program communication",
+            "D. Network management consoles"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "Which LU Type is utilized natively for communications with IBM System/3x and AS/400 midrange systems using the 5250 data stream?",
+        "choices": [
+            "A. LU Type 2",
+            "B. LU Type 4",
+            "C. LU Type 1",
+            "D. LU Type 7"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "Advanced Program-to-Program Communication (APPC) is heavily associated with which specific combination of SNA architectural components?",
+        "choices": [
+            "A. LU 2 and PU 2.0",
+            "B. LU 1 and PU 4",
+            "C. LU 0 and PU 5",
+            "D. LU 6.2 and PU 2.1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 76,
+        "question": "What was a major structural limitation of classic hierarchical SNA (Subarea SNA) that drove the development of the APPN architecture?",
+        "choices": [
+            "A. It only supported token ring networks",
+            "B. It had no session-level security",
+            "C. It required manual calculation of explicit routes by the users",
+            "D. It was heavily dependent on the mainframe (SSCP) for session establishment and routing"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "In classic Subarea SNA, if two peripheral nodes connected to the exact same Communications Controller want to communicate, the session setup must strictly involve the:",
+        "choices": [
+            "A. SDLC line protocol",
+            "B. Target LU only",
+            "C. System Services Control Point (SSCP) in the host",
+            "D. End Node"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "The SNA session cryptography mechanism, which operates at the Transmission Control layer, historically provides confidentiality using which standard encryption algorithm?",
+        "choices": [
+            "A. RSA",
+            "B. AES",
+            "C. DES (Data Encryption Standard)",
+            "D. MD5"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "Which of the following statements best defines an SNA \"Session\"?",
+        "choices": [
+            "A. A physical cable between a terminal and a host",
+            "B. A MAC-layer hardware handshake",
+            "C. The time a user spends logged into the mainframe",
+            "D. A logical connection established between two Network Addressable Units (NAUs) for data exchange"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "The process by which an SSCP activates a PU or LU by sending a specific command (such as ACTPU or ACTLU) is handled by a subset of SSCP components called:",
+        "choices": [
+            "A. Network Services",
+            "B. Path Control",
+            "C. Data Flow Control",
+            "D. Presentation Services"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "As TCP/IP became the dominant global networking protocol, IBM introduced a technology to encapsulate SNA APPN traffic natively inside IP packets. This protocol is known as:",
+        "choices": [
+            "A. Enterprise Extender (EE)",
+            "B. Frame Relay",
+            "C. TN3270",
+            "D. Data Link Switching (DLSw)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "Enterprise Extender (EE) specifically encapsulates SNA traffic using which Transport Layer protocol of the TCP/IP suite?",
+        "choices": [
+            "A. TCP",
+            "B. ICMP",
+            "C. UDP",
+            "D. SCTP"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "Why does Enterprise Extender (EE) intentionally use UDP rather than TCP for encapsulating APPN traffic?",
+        "choices": [
+            "A. Because UDP guarantees delivery",
+            "B. Because TCP cannot carry SNA packets",
+            "C. Because APPN/HPR already provides its own reliable transport and error recovery (RTP), making TCP's overhead redundant",
+            "D. Because UDP provides built-in encryption"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "Before Enterprise Extender, a very common router feature used to transport legacy SNA SDLC traffic over IP WANs was DLSw. What does DLSw stand for?",
+        "choices": [
+            "A. Data Link Switching",
+            "B. Dynamic Logical Switching",
+            "C. Digital Line Streaming",
+            "D. Domain Level Security"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "A major disadvantage of encapsulating SDLC traffic inside TCP/IP without local acknowledgment (like in basic tunneling) is:",
+        "choices": [
+            "A. The propagation delay over the IP network can cause SDLC link timeouts",
+            "B. It requires excessive bandwidth",
+            "C. SDLC frames are incompatible with IP MTUs",
+            "D. It decrypts the payload automatically"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "In SNA, when a terminal user presses the \"Enter\" key, the terminal transmits the modified screen data to the host encapsulated as an inbound:",
+        "choices": [
+            "A. Request Unit (RU)",
+            "B. Transmission Header (TH)",
+            "C. Link Trailer",
+            "D. Sequence Number"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "The primary architectural difference between IBM SNA and the OSI model is that SNA is:",
+        "choices": [
+            "A. A connectionless network",
+            "B. Designed primarily for small home networks",
+            "C. An open standard managed by the IEEE",
+            "D. A vendor-specific proprietary architecture"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "An SNA \"Dependent LU\" differs fundamentally from an \"Independent LU\" in that a Dependent LU:",
+        "choices": [
+            "A. Can route traffic independently",
+            "B. Can establish peer-to-peer sessions without the SSCP",
+            "C. Requires an active session with the SSCP before it can establish an LU-LU session",
+            "D. Does not require a PU"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "Independent LUs (typically LU 6.2) were introduced alongside which major SNA enhancement to enable peer-to-peer networking?",
+        "choices": [
+            "A. System/360",
+            "B. Subarea SNA",
+            "C. DLSw",
+            "D. Advanced Peer-to-Peer Networking (APPN)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "The SNA protocol utilizes \"Definite Response\" (DR) and \"Exception Response\" (ER) at the Data Flow Control layer to strictly manage:",
+        "choices": [
+            "A. End-to-end encryption",
+            "B. Routing tables",
+            "C. Terminal screen colors",
+            "D. Session-level acknowledgments"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "In the OSI model, establishing, maintaining, and terminating a logical dialogue is the job of the Session layer. In SNA, this exact functionality is handled by:",
+        "choices": [
+            "A. Physical Control",
+            "B. Path Control",
+            "C. Data Flow Control",
+            "D. Presentation Services"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "IBM's Systems Network Architecture is composed of both hardware and software components. The primary host software that controls the network is VTAM. What does VTAM stand for?",
+        "choices": [
+            "A. Virtual Terminal Access Module",
+            "B. Verified Transmission and Modulation",
+            "C. Visual Terminal Application Manager",
+            "D. Virtual Telecommunications Access Method"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "Which SNA routing feature assigns different priorities to different types of traffic (e.g., interactive terminal sessions vs. massive batch file transfers) across the network routes?",
+        "choices": [
+            "A. Class of Service (CoS)",
+            "B. Transmission Group",
+            "C. Subarea Routing",
+            "D. Boundary Function"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "A transmission group (TG) provides multiple parallel links between SNA nodes. If one link in a TG fails, what immediately happens to the SNA session utilizing that TG?",
+        "choices": [
+            "A. The session is immediately dropped",
+            "B. The mainframe crashes",
+            "C. The session remains active and data is dynamically routed over the remaining active links in the TG",
+            "D. The SSCP must re-establish the PU"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "Which of the following statements correctly compares the layer mapping between SNA and OSI?",
+        "choices": [
+            "A. SNA uses 5 layers while OSI uses 7",
+            "B. SNA has no layer corresponding to OSI Application",
+            "C. SNA was ratified by the IEEE",
+            "D. SNA's Path Control layer maps to the OSI Network layer and parts of the Data Link layer"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "The SNA layer that provides the application programmer with a set of APIs to access network services (similar to the OSI Application layer) is:",
+        "choices": [
+            "A. Transaction Services",
+            "B. Data Flow Control",
+            "C. Physical Control",
+            "D. Path Control"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "Which SNA subarea node component controls the SDLC links, polls the terminals, and offloads the heavy interrupt processing from the mainframe CPU?",
+        "choices": [
+            "A. Communications Controller (Front-End Processor)",
+            "B. Cluster Controller",
+            "C. VTAM",
+            "D. LU 6.2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "In a classic SNA environment, if a remote branch office has 20 dumb terminals, these terminals will connect locally to which specific physical unit type before traversing the WAN?",
+        "choices": [
+            "A. PU Type 4",
+            "B. PU Type 5",
+            "C. PU Type 1",
+            "D. PU Type 2 (Cluster Controller)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 99,
+        "question": "In APPN, a \"Directory Services\" request is broadcast to find a specific resource. Which node type caches this information to minimize future broadcast traffic on the network?",
+        "choices": [
+            "A. End Node (EN)",
+            "B. Peripheral Node",
+            "C. Network Node (NN)",
+            "D. Subarea Node"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "When modernizing an SNA network, translating legacy 3270 data streams into HTML for seamless web browser access is typically performed by a:",
+        "choices": [
+            "A. CSU/DSU",
+            "B. Router",
+            "C. Ethernet Switch",
+            "D. Host Integration Server / Web-to-Host gateway"
+        ],
+        "correct_answer": "D"
+    }
+]

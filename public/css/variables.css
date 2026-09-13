@@ -1,0 +1,89 @@
+:root {
+  /* Default Theme: Dark Mode */
+  --primary-color: #3b82f6;
+  --primary-hover: #60a5fa;
+  --primary-light: #1e293b;
+  --primary-text: #ffffff;
+
+  --background-color: #0f172a;
+  --surface-color: #1e293b;
+  --surface-border: #334155;
+  --surface-hover: #334155;
+
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #64748b;
+
+  /* State & Alert Colors */
+  --success-color: #10b981;
+  --success-bg: #064e3b;
+  --success-border: #047857;
+
+  --error-color: #ef4444;
+  --error-bg: #7f1d1d;
+  --error-border: #b91c1c;
+
+  --warning-color: #f59e0b;
+  --warning-bg: #78350f;
+  --warning-border: #b45309;
+
+  --info-color: #60a5fa;
+  --info-bg: #1e3a8a;
+
+  /* Marked Item Highlight Color (Green) */
+  --marked-border-color: #10b981;
+
+  /* Elevation & Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.5);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.4);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.4);
+
+  /* Layout & Geometry */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  --max-width: 1200px;
+  --header-height: 64px;
+  --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --transition-speed: 0.1s ease-in-out;
+}
+
+/* Light Mode Overrides */
+[data-theme="light"] {
+  --primary-color: #1a56db;
+  --primary-hover: #1e429f;
+  --primary-light: #ebf5ff;
+  --primary-text: #ffffff;
+
+  --background-color: #f8fafc;
+  --surface-color: #ffffff;
+  --surface-border: #e2e8f0;
+  --surface-hover: #f1f5f9;
+
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+
+  --success-color: #059669;
+  --success-bg: #ecfdf5;
+  --success-border: #a7f3d0;
+
+  --error-color: #dc2626;
+  --error-bg: #fef2f2;
+  --error-border: #fecaca;
+
+  --warning-color: #d97706;
+  --warning-bg: #fffbeb;
+  --warning-border: #fde68a;
+
+  --info-color: #2563eb;
+  --info-bg: #eff6ff;
+
+  --marked-border-color: #059669;
+
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+}

@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "In an 8-bit ALU, which specific flag is set to logic 1 when an arithmetic operation results in a carry out of the most significant bit (bit 7)?",
+        "choices": [
+            "A. Zero Flag (Z)",
+            "B. Sign Flag (S)",
+            "C. Carry Flag (CY)",
+            "D. Parity Flag (P)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "The Program Counter (PC) in a standard microprocessor architecture is strictly used to store what information?",
+        "choices": [
+            "A. The 8-bit opcode of the current instruction",
+            "B. The memory address of the next instruction to be fetched",
+            "C. The top address of the stack",
+            "D. The results of the last ALU operation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Worded circuit: A CPU executes a CALL instruction to jump to a subroutine. To ensure the program can return, the hardware automatically saves the current Program Counter (PC) value by writing it to:",
+        "choices": [
+            "A. The Accumulator",
+            "B. The Instruction Register",
+            "C. The external I/O port",
+            "D. The memory stack using the Stack Pointer"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "A microprocessor has a 16-bit address bus. What is the physical width of its Memory Address Register (MAR)?",
+        "choices": [
+            "A. 8 bits",
+            "B. 16 bits",
+            "C. 32 bits",
+            "D. 20 bits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "In a hardwired control unit, the instruction decoding and control signal generation are physically implemented using:",
+        "choices": [
+            "A. A microcode ROM",
+            "B. A secondary microcontroller",
+            "C. Discrete logic gates and flip-flops",
+            "D. Software emulation routines"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "Worded circuit: The ALU processes an ADD instruction. Operand A is 80H and Operand B is 80H. The 8-bit accumulator stores 00H. What are the states of the Zero (Z) and Carry (CY) flags?",
+        "choices": [
+            "A. Z=0, CY=0",
+            "B. Z=0, CY=1",
+            "C. Z=1, CY=0",
+            "D. Z=1, CY=1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 7,
+        "question": "Which internal CPU register is completely inaccessible to the programmer and is exclusively used by the Control Unit to hold the opcode for decoding?",
+        "choices": [
+            "A. Accumulator",
+            "B. Instruction Register (IR)",
+            "C. Status Register",
+            "D. Stack Pointer (SP)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "During the execution of a POP instruction in a standard downward-growing stack, the Stack Pointer is:",
+        "choices": [
+            "A. Incremented after the data is read",
+            "B. Decremented before the data is read",
+            "C. Cleared to zero",
+            "D. Shifted right by one bit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "Which flag in the status register is heavily utilized for Binary Coded Decimal (BCD) arithmetic adjustments?",
+        "choices": [
+            "A. Parity Flag",
+            "B. Zero Flag",
+            "C. Auxiliary Carry Flag",
+            "D. Sign Flag"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "The Memory Buffer Register (MBR) or Memory Data Register (MDR) serves as an isolation buffer strictly between the internal CPU data bus and the:",
+        "choices": [
+            "A. External Address Bus",
+            "B. ALU input",
+            "C. Instruction Decoder",
+            "D. External Data Bus"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "The traditional computer architecture where both program instructions and data share the exact same memory space and are accessed via the same single set of buses is known as the:",
+        "choices": [
+            "A. Harvard Architecture",
+            "B. Von Neumann Architecture",
+            "C. RISC Architecture",
+            "D. Superscalar Architecture"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "What is the primary performance bottleneck inherent in the strict Von Neumann architecture?",
+        "choices": [
+            "A. The inability to fetch an instruction and read/write data simultaneously due to a shared bus",
+            "B. The excessive power consumption of the dual memory modules",
+            "C. The limitation of an 8-bit data bus",
+            "D. The lack of a hardware Arithmetic Logic Unit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "Which computer architecture explicitly utilizes separate memory spaces, separate address buses, and separate data buses for program instructions and data?",
+        "choices": [
+            "A. Harvard Architecture",
+            "B. Princeton Architecture",
+            "C. CISC Architecture",
+            "D. Von Neumann Architecture"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Worded circuit: A digital signal processor (DSP) must fetch a complex multiply-accumulate (MAC) instruction while simultaneously reading a data sample from RAM and a coefficient from ROM in a single clock cycle. This strict timing requirement forces the designer to use which architecture?",
+        "choices": [
+            "A. CISC Architecture",
+            "B. Harvard Architecture",
+            "C. Von Neumann Architecture",
+            "D. Microcoded Architecture"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Modern high-performance PC microprocessors (like Intel Core or AMD Ryzen) externally appear as Von Neumann machines to the main RAM. However, internally within the CPU cache (L1), they utilize which architecture to speed up execution?",
+        "choices": [
+            "A. Modified Harvard Architecture (separate L1 instruction and L1 data caches)",
+            "B. Strict Von Neumann Architecture",
+            "C. Hardwired CISC Architecture",
+            "D. Pure Turing Architecture"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 16,
+        "question": "In a pure Harvard architecture, if the instruction memory is 16 bits wide, must the data memory also be exactly 16 bits wide?",
+        "choices": [
+            "A. Yes, they must always be perfectly matched",
+            "B. No, the data memory must always be 8 bits",
+            "C. No, the instruction and data memories can have completely independent word lengths",
+            "D. Yes, otherwise the ALU will crash"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "Which fundamental concept is the defining characteristic of a \"Stored-Program Computer\"?",
+        "choices": [
+            "A. The program is hardwired using physical switches",
+            "B. Instructions and data are stored electronically in memory and executed sequentially",
+            "C. The processor does not use a clock signal",
+            "D. Memory is strictly read-only"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "Which of the following is a classic hallmark of a Complex Instruction Set Computer (CISC) architecture?",
+        "choices": [
+            "A. A large number of highly specialized, multi-clock instructions and addressing modes",
+            "B. Fixed-length, simple 32-bit instructions",
+            "C. A strict Load/Store architecture",
+            "D. One instruction executed per clock cycle"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "Reduced Instruction Set Computer (RISC) architectures achieve high execution speeds by primarily focusing on:",
+        "choices": [
+            "A. Increasing the number of complex addressing modes",
+            "B. Using microprogrammed control units exclusively",
+            "C. Executing simple, highly optimized, uniform-length instructions that complete in a single clock cycle",
+            "D. Maximizing memory-to-memory operations"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Worded circuit: A programmer writes a single assembly instruction that reads a value from memory location X, adds it to a value in memory location Y, and stores the result back in memory location Z. This highly complex, multi-memory-access instruction is typical of which architecture?",
+        "choices": [
+            "A. RISC",
+            "B. Harvard",
+            "C. CISC",
+            "D. Load/Store"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "A \"Load/Store\" architecture is a defining principle of RISC designs. What does this strictly mean?",
+        "choices": [
+            "A. Data can only be loaded from memory, never stored",
+            "B. Only dedicated LOAD and STORE instructions can access memory; all arithmetic operations occur exclusively between internal CPU registers",
+            "C. The CPU has no internal registers and stores everything in RAM",
+            "D. Instructions are loaded directly into the ALU"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "What is the primary architectural advantage of having uniform, fixed-length instructions in a RISC processor?",
+        "choices": [
+            "A. It reduces power consumption to zero",
+            "B. It requires a microcoded control unit",
+            "C. It severely limits the address space",
+            "D. It vastly simplifies instruction fetching and decoding, facilitating efficient pipelining"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 23,
+        "question": "Which of the following processors is the most famous historical example of a CISC architecture?",
+        "choices": [
+            "A. ARM Cortex",
+            "B. MIPS R2000",
+            "C. Intel x86 (e.g., 8086, Pentium)",
+            "D. SPARC"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "In standard CPU pipelining, the sequential phases of instruction execution (e.g., Fetch, Decode, Execute) are:",
+        "choices": [
+            "A. Skipped if the result is zero",
+            "B. Overlapped in time for multiple consecutive instructions, similar to an assembly line",
+            "C. Handled by completely separate microprocessors",
+            "D. Executed in reverse order"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "Worded circuit: A non-pipelined processor takes 3 clock cycles to complete an instruction. Executing 5 sequential instructions takes 15 cycles. If a perfectly balanced 3-stage pipeline is introduced (ignoring fill time), what is the theoretical throughput?",
+        "choices": [
+            "A. 1 instruction per 3 clock cycles",
+            "B. 3 instructions per clock cycle",
+            "C. 1 instruction per clock cycle",
+            "D. 15 instructions per clock cycle"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "What specific operational hazard severely degrades the performance of a pipelined microprocessor by forcing the pipeline to be flushed and refilled?",
+        "choices": [
+            "A. A conditional branch (Jump) instruction that changes the program flow",
+            "B. A NOP (No Operation) instruction",
+            "C. An arithmetic overflow",
+            "D. A memory read cycle"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "In terms of control unit design, CISC processors heavily rely on ________, while RISC processors heavily rely on ________.",
+        "choices": [
+            "A. Hardwired control ; Microprogrammed control",
+            "B. Microprogrammed control ; Hardwired control",
+            "C. Software control ; DMA control",
+            "D. Analog control ; Digital control"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "An instruction set architecture (ISA) defines:",
+        "choices": [
+            "A. The physical dimensions of the silicon die",
+            "B. The specific clock frequency of the processor",
+            "C. The programmer's visible interface, including instructions, registers, addressing modes, and data types",
+            "D. The operating system kernel"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "Which addressing mode embeds the actual 8-bit or 16-bit operand data directly within the instruction itself?",
+        "choices": [
+            "A. Register Addressing",
+            "B. Direct Addressing",
+            "C. Immediate Addressing",
+            "D. Indexed Addressing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 30,
+        "question": "In the Intel 8085 instruction \"MVI A, 3FH\" (Move Immediate to Accumulator), where is the data \"3FH\" physically located before execution?",
+        "choices": [
+            "A. Inside the general-purpose register C",
+            "B. It is part of the instruction fetched from the program memory",
+            "C. At memory address 003FH",
+            "D. Inside the external I/O port 3FH"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Worded circuit: An instruction is fetched: \"LDA 2050H\". This instruction loads the accumulator with the data stored at the physical memory address 2050H. What specific addressing mode is this?",
+        "choices": [
+            "A. Immediate Addressing",
+            "B. Direct Addressing",
+            "C. Register Indirect Addressing",
+            "D. Implied Addressing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "Which addressing mode specifies the operand by giving the name of the internal CPU register that contains the data?",
+        "choices": [
+            "A. Register Addressing",
+            "B. Indexed Addressing",
+            "C. Immediate Addressing",
+            "D. Relative Addressing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "Worded circuit: An 8085 microprocessor executes \"MOV A, B\", transferring the contents of Register B into the Accumulator. This instruction executes very quickly because it uses which addressing mode?",
+        "choices": [
+            "A. Direct Addressing",
+            "B. Immediate Addressing",
+            "C. Register Addressing",
+            "D. Indirect Addressing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "In \"Register Indirect Addressing\", the operand data is located:",
+        "choices": [
+            "A. Directly within the instruction byte",
+            "B. In memory, and the physical address of that memory location is held in a specified CPU register pair",
+            "C. Inside the Status Register",
+            "D. In an external I/O port"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "In the 8085 instruction \"MOV A, M\", the letter 'M' represents a memory location. The address of this memory location is implicitly held in which specific register pair?",
+        "choices": [
+            "A. BC pair",
+            "B. DE pair",
+            "C. HL pair",
+            "D. PC pair"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Which advanced addressing mode calculates the final effective memory address by adding a constant displacement value to the contents of a base register or index register?",
+        "choices": [
+            "A. Implied Addressing",
+            "B. Immediate Addressing",
+            "C. Indexed (or Base-Indexed) Addressing",
+            "D. Direct Addressing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "What is the primary advantage of Indexed Addressing in writing assembly software?",
+        "choices": [
+            "A. It consumes less power",
+            "B. It eliminates the need for RAM",
+            "C. It makes the CPU clock run faster",
+            "D. It allows for highly efficient accessing and manipulation of arrays, tables, and sequential data structures"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 38,
+        "question": "In \"Implied Addressing\" (or Implicit Addressing), the operand is:",
+        "choices": [
+            "A. Explicitly stated as a 16-bit address",
+            "B. Not specified in the instruction because the opcode itself inherently dictates the register or location to be used (e.g., CMA - Complement Accumulator)",
+            "C. Always located in external RAM",
+            "D. Provided by a hardware interrupt"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "The Intel 8085 microprocessor is fundamentally categorized as a/an:",
+        "choices": [
+            "A. 16-bit CISC microprocessor",
+            "B. 8-bit CISC microprocessor",
+            "C. 8-bit RISC microprocessor",
+            "D. 32-bit microcontroller"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "How many physical pins does the standard Intel 8085 microprocessor IC package have?",
+        "choices": [
+            "A. 20 pins",
+            "B. 24 pins",
+            "C. 40 pins",
+            "D. 68 pins"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "In the 8085 architecture, the lower 8 bits of the address bus and the 8-bit data bus share the exact same physical pins. This configuration is known as a:",
+        "choices": [
+            "A. Multiplexed Address/Data Bus (AD0 - AD7)",
+            "B. Synchronous Serial Bus",
+            "C. Bidirectional Control Bus",
+            "D. Harvard Bus"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "Worded circuit: Because the 8085 multiplexes AD0-AD7, an external latch (like the 74LS373) is required to separate the address from the data. Which control signal from the 8085 specifically triggers this external latch to grab the lower address byte?",
+        "choices": [
+            "A. HOLD",
+            "B. READY",
+            "C. ALE (Address Latch Enable)",
+            "D. INTA (Interrupt Acknowledge)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "When the ALE (Address Latch Enable) signal goes HIGH during the first T-state of a machine cycle, what specific information is guaranteed to be present on the AD0-AD7 pins?",
+        "choices": [
+            "A. The data byte being read from memory",
+            "B. The data byte being written to memory",
+            "C. The lower 8 bits of the memory address (A0-A7)",
+            "D. The processor status word"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "During a Memory Read machine cycle in the 8085, after the ALE signal drops LOW and the address is latched, the AD0-AD7 bus floats to high-impedance. What control signal does the CPU then assert (go active-low) to tell the memory chip to place its data onto the AD0-AD7 bus?",
+        "choices": [
+            "A. WR (Write)",
+            "B. RD (Read)",
+            "C. IO/M (Input/Output / Memory)",
+            "D. HLDA (Hold Acknowledge)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "The 8085 has a dedicated status signal called IO/M (active-low M). If the CPU is currently performing an operation with external RAM, what is the logical state of this pin?",
+        "choices": [
+            "A. HIGH (Logic 1)",
+            "B. Flashing continuously",
+            "C. LOW (Logic 0)",
+            "D. High-Impedance (Tri-state)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "Worded circuit: To execute an \"OUT 55H\" instruction, the 8085 must write data to I/O port 55H. During the execute machine cycle, what will be the states of the IO/M (active-low M) and WR (active-low) control signals?",
+        "choices": [
+            "A. IO/M = 0, WR = 0",
+            "B. IO/M = 1, WR = 1",
+            "C. IO/M = 1, WR = 0",
+            "D. IO/M = 0, WR = 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "The 8085 instruction set features a dedicated instruction to enable the entire maskable interrupt system. What is the mnemonic for this instruction?",
+        "choices": [
+            "A. EI (Enable Interrupts)",
+            "B. DI (Disable Interrupts)",
+            "C. SIM (Set Interrupt Mask)",
+            "D. RIM (Read Interrupt Mask)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "If a device requests service by pulling the INTR pin HIGH on an 8085, and the CPU accepts it, the CPU acknowledges the request by outputting which specific active-low signal?",
+        "choices": [
+            "A. INTA",
+            "B. ALE",
+            "C. READY",
+            "D. HOLD"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "The READY pin on the 8085 microprocessor is an input. It is primarily used by system designers to:",
+        "choices": [
+            "A. Reset the processor",
+            "B. Generate a non-maskable interrupt",
+            "C. Interface with slow memory or I/O devices by forcing the CPU to insert Wait states",
+            "D. Switch between memory banks"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "In 8085 timing, the Opcode Fetch machine cycle typically takes how many T-states?",
+        "choices": [
+            "A. 1 or 2",
+            "B. 4 or 6",
+            "C. 3",
+            "D. 10"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "The Intel 8086 microprocessor is a significant upgrade over the 8085. It is fundamentally classified as a:",
+        "choices": [
+            "A. 8-bit microprocessor",
+            "B. 16-bit microprocessor",
+            "C. 32-bit microprocessor",
+            "D. 64-bit microprocessor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "How many address lines does the 8086 microprocessor have, and what is its maximum physical memory addressing capacity?",
+        "choices": [
+            "A. 16 address lines, 64 KB",
+            "B. 20 address lines, 1 MB",
+            "C. 24 address lines, 16 MB",
+            "D. 32 address lines, 4 GB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "The 8086 internal architecture is divided into two distinct functional units that operate concurrently to create a basic two-stage pipeline. What are these units called?",
+        "choices": [
+            "A. The ALU and the Control Unit",
+            "B. The RAM and the ROM",
+            "C. The Bus Interface Unit (BIU) and the Execution Unit (EU)",
+            "D. The DMA controller and the Interrupt controller"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "What is the primary function of the Bus Interface Unit (BIU) in the 8086 microprocessor?",
+        "choices": [
+            "A. It performs all arithmetic and logical operations",
+            "B. It strictly handles all external bus operations, calculates physical addresses, and fetches instructions into the instruction queue",
+            "C. It manages the internal general-purpose registers",
+            "D. It generates the system clock"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "To significantly speed up execution, the BIU of the 8086 fetches sequential instructions ahead of time and stores them internally in a FIFO register array called the:",
+        "choices": [
+            "A. Instruction Queue (6 bytes deep)",
+            "B. Accumulator",
+            "C. Stack Pointer",
+            "D. Segment Register"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "The 8086 Execution Unit (EU) contains the ALU and general-purpose registers. While the EU is decoding and executing an instruction, what is the BIU typically doing?",
+        "choices": [
+            "A. It is halted, waiting for the EU to finish",
+            "B. It is fetching the next sequential instruction bytes from memory into the queue",
+            "C. It is refreshing the external dynamic RAM",
+            "D. It is resetting the processor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "The Intel 8086 has a 20-bit address bus but only uses 16-bit internal registers. To generate a 20-bit physical address, the 8086 utilizes a technique called:",
+        "choices": [
+            "A. Paging",
+            "B. Virtual Memory",
+            "C. Memory Segmentation",
+            "D. Direct Memory Access"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "In 8086 Memory Segmentation, the 1 MB total memory space is logically divided into overlapping segments. What is the standard size of one memory segment?",
+        "choices": [
+            "A. 16 KB",
+            "B. 64 KB",
+            "C. 256 KB",
+            "D. 1 MB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "The 8086 has four dedicated 16-bit Segment Registers. Which of the following is NOT a valid 8086 segment register?",
+        "choices": [
+            "A. CS (Code Segment)",
+            "B. DS (Data Segment)",
+            "C. SS (Stack Segment)",
+            "D. MS (Math Segment)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "Worded circuit: The 8086 BIU calculates the 20-bit physical address by taking a 16-bit segment register, appending a specific character to the right (shifting left by 4 bits), and adding a 16-bit offset address. What character is effectively appended to the segment address in hexadecimal?",
+        "choices": [
+            "A. F",
+            "B. A",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "A logical address in the 8086 is written in the format \"Segment:Offset\". If the Code Segment (CS) register contains 2000H and the Instruction Pointer (IP) contains 0150H, what is the 20-bit Physical Address generated on the bus?",
+        "choices": [
+            "A. 20150H",
+            "B. 21500H",
+            "C. 02150H",
+            "D. 20015H"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "Calculate the physical address if the Data Segment (DS) is 5000H and the Offset (e.g., in register BX) is 1234H.",
+        "choices": [
+            "A. 62340H",
+            "B. 51234H",
+            "C. 17340H",
+            "D. 50123H"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "If the Stack Segment (SS) register contains 1234H and the Stack Pointer (SP) contains 0010H, what is the 20-bit physical address of the top of the stack?",
+        "choices": [
+            "A. 12350H",
+            "B. 12341H",
+            "C. 12440H",
+            "D. 01244H"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "What is the absolute highest physical address that can be accessed in an 8086 segment if the segment register holds exactly 3000H? (Hint: Max offset is FFFFH).",
+        "choices": [
+            "A. 3000FH",
+            "B. 40000H",
+            "C. 3FFFFH",
+            "D. 3FFFFH"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "The offset used with the Code Segment (CS) register to point to the next instruction is strictly stored in which register?",
+        "choices": [
+            "A. Instruction Pointer (IP)",
+            "B. Base Pointer (BP)",
+            "C. Source Index (SI)",
+            "D. Stack Pointer (SP)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "In the 8086, general-purpose registers AX, BX, CX, and DX are 16 bits wide. They can also be accessed as two separate 8-bit halves. The upper half of the AX register is designated as:",
+        "choices": [
+            "A. AL",
+            "B. AH",
+            "C. AU",
+            "D. AX_H"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "The 8086 BX register is often used as a base register for memory addressing. If a programmer accesses the lower 8 bits of BX, what is the register name?",
+        "choices": [
+            "A. BL",
+            "B. BH",
+            "C. BX_L",
+            "D. B0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "Which 8086 register is specifically designed and implicitly used as the default loop counter in instructions like LOOP, REP, and string operations?",
+        "choices": [
+            "A. AX (Accumulator)",
+            "B. BX (Base)",
+            "C. CX (Count)",
+            "D. DX (Data)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "Worded circuit: An 8086 executes the instruction \"MOV AL, [SI]\". This copies a byte from memory into the AL register. The physical memory address is calculated by combining the offset in the Source Index (SI) register with which default Segment Register?",
+        "choices": [
+            "A. Code Segment (CS)",
+            "B. Stack Segment (SS)",
+            "C. Data Segment (DS)",
+            "D. Extra Segment (ES)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "By default, the Stack Pointer (SP) and Base Pointer (BP) registers are combined with which segment register to calculate physical addresses for stack operations?",
+        "choices": [
+            "A. CS (Code Segment)",
+            "B. DS (Data Segment)",
+            "C. SS (Stack Segment)",
+            "D. ES (Extra Segment)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "The 8086 microprocessor can operate in two distinct hardware modes, selected by strapping a specific pin (MN/MX) to either VCC or Ground. What are these modes called?",
+        "choices": [
+            "A. Master and Slave mode",
+            "B. Minimum and Maximum mode",
+            "C. Real and Protected mode",
+            "D. Synchronous and Asynchronous mode"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "When the 8086 is configured in Minimum Mode (pin tied to VCC), it behaves as:",
+        "choices": [
+            "A. A complex multiprocessor system",
+            "B. A coprocessor",
+            "C. A single-processor system where the 8086 itself generates all system bus control signals (RD, WR, INTA, etc.)",
+            "D. A halted processor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "In Maximum Mode (pin tied to Ground), the 8086 is designed for multiprocessor environments. Because it uses its control pins for bus arbitration, what external IC is strictly required to generate the system bus control signals (like memory read/write)?",
+        "choices": [
+            "A. An 8255 Programmable Peripheral Interface",
+            "B. An 8288 Bus Controller",
+            "C. An 8259 Interrupt Controller",
+            "D. An external 8085 CPU"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "The 8086 microprocessor has a 16-bit external data bus (D0-D15). Because it has a 20-bit address bus, how are the buses multiplexed?",
+        "choices": [
+            "A. Address lines A0-A15 are multiplexed with Data lines D0-D15 (AD0-AD15). A16-A19 are multiplexed with status signals",
+            "B. Only A0-A7 are multiplexed",
+            "C. The entire 20-bit address bus is multiplexed with a 20-bit data bus",
+            "D. There is no multiplexing on the 8086"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "Worded circuit: The 8086 wants to write a single 8-bit byte to an odd memory address (e.g., 00001H). It places the data on the upper half of the data bus (D8-D15). Which specific active-low control signal does the 8086 assert to tell the memory to read from the upper data lines?",
+        "choices": [
+            "A. BHE (Bus High Enable)",
+            "B. ALE (Address Latch Enable)",
+            "C. DEN (Data Enable)",
+            "D. READY"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "In the context of the 8086, the combination of the A0 address line and the BHE (Bus High Enable) signal allows the CPU to:",
+        "choices": [
+            "A. Select between memory and I/O",
+            "B. Access either a single even byte, a single odd byte, or a full 16-bit word in a single memory cycle",
+            "C. Generate interrupts",
+            "D. Reset the system"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "If the 8086 BHE signal is LOW (0) and the A0 signal is HIGH (1), what specific memory access is occurring during the machine cycle?",
+        "choices": [
+            "A. 16-bit word transfer",
+            "B. Read/Write of an even-addressed byte on D0-D7",
+            "C. Read/Write of an odd-addressed byte on D8-D15",
+            "D. No transfer (Bus idle)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "The 8086 flag register is 16 bits wide (though only 9 bits are used). Which flag specifically allows the CPU to automatically single-step through a program for debugging purposes?",
+        "choices": [
+            "A. Direction Flag (DF)",
+            "B. Interrupt Enable Flag (IF)",
+            "C. Trap Flag (TF)",
+            "D. Overflow Flag (OF)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "The Direction Flag (DF) in the 8086 is used exclusively to control the behavior of:",
+        "choices": [
+            "A. Arithmetic additions",
+            "B. Hardware interrupts",
+            "C. String manipulation instructions (e.g., MOVS, CMPS), dictating whether index registers auto-increment or auto-decrement",
+            "D. The memory paging system"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "An 8086 instruction \"ADD AX, BX\" uses which specific addressing mode?",
+        "choices": [
+            "A. Immediate Addressing",
+            "B. Direct Addressing",
+            "C. Register Addressing",
+            "D. Indexed Addressing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 81,
+        "question": "Worded circuit: The 8086 instruction \"MOV AX, [1234H]\" copies the 16-bit word from memory offset 1234H (in the Data Segment) into the AX register. This is a prime example of which addressing mode?",
+        "choices": [
+            "A. Immediate",
+            "B. Register Indirect",
+            "C. Direct",
+            "D. Base-Indexed"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "The 8086 instruction \"MOV CX, 0500H\" places the exact value 0500H into the CX register. This is an example of:",
+        "choices": [
+            "A. Register Addressing",
+            "B. Immediate Addressing",
+            "C. Indirect Addressing",
+            "D. Implied Addressing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "Which 8086 addressing mode uses the contents of a base register (BX or BP) PLUS an index register (SI or DI) PLUS an 8-bit or 16-bit displacement to calculate the effective address?",
+        "choices": [
+            "A. Based Addressing",
+            "B. Indexed Addressing",
+            "C. Base-Indexed with Displacement Addressing",
+            "D. Register Indirect Addressing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "The 8088 microprocessor is almost identical internally to the 8086. What is the single most significant physical hardware difference between the 8088 and the 8086?",
+        "choices": [
+            "A. The 8088 has a 32-bit address bus",
+            "B. The 8088 has no ALU",
+            "C. The 8088 has an 8-bit external data bus, whereas the 8086 has a 16-bit external data bus",
+            "D. The 8088 does not use memory segmentation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "Because the 8088 has an 8-bit external data bus, how many memory read machine cycles are physically required to fetch a 16-bit word from RAM?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 4",
+            "D. 8"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "The term \"Superscalar\" refers to an advanced CPU architecture that:",
+        "choices": [
+            "A. Has no pipeline",
+            "B. Can execute multiple instructions simultaneously in a single clock cycle by dispatching them to redundant parallel execution units (multiple ALUs)",
+            "C. Operates strictly on analog voltages",
+            "D. Uses optical interconnects"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "In modern processors, \"Branch Prediction\" is a complex hardware mechanism designed to minimize the performance penalty of:",
+        "choices": [
+            "A. Power supply ripple",
+            "B. Pipeline stalling/flushing caused by conditional jump instructions",
+            "C. DMA transfers",
+            "D. Cache misses"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "In a hierarchical memory system, the ultra-fast static RAM (SRAM) placed physically very close to the CPU core to temporarily store frequently accessed data and instructions is called:",
+        "choices": [
+            "A. Virtual Memory",
+            "B. Main Memory",
+            "C. Cache Memory",
+            "D. Flash Memory"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "A \"Cache Miss\" occurs when:",
+        "choices": [
+            "A. The CPU attempts to divide by zero",
+            "B. The CPU requests data that is currently not present in the cache, forcing it to fetch the data from the much slower main memory",
+            "C. The cache memory physically burns out",
+            "D. The power supply voltage drops"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "Worded circuit: A microprocessor uses a memory-mapped I/O scheme. An input switch is connected to an 8-bit buffer located at physical address 8000H. To read the state of this switch into the Accumulator, the programmer must use which type of instruction?",
+        "choices": [
+            "A. A standard memory LOAD instruction (e.g., LDA 8000H)",
+            "B. A dedicated IN instruction (e.g., IN 8000H)",
+            "C. A math instruction",
+            "D. An interrupt vector"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "Conversely, if the system uses Isolated I/O (Port-Mapped I/O), the I/O devices have a completely separate address space. To read a switch located at I/O port 80H, the programmer MUST use:",
+        "choices": [
+            "A. A standard memory read (LDA 80H)",
+            "B. A specific input instruction that activates the IO/M (or similar) control line (e.g., IN 80H)",
+            "C. A DMA transfer",
+            "D. A stack POP operation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "Which CPU instruction set design philosophy argues that most programs compiled from high-level languages rely heavily on a small set of simple instructions, and complex microcoded instructions are rarely used efficiently?",
+        "choices": [
+            "A. CISC",
+            "B. RISC",
+            "C. Von Neumann",
+            "D. DSP"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "The technique of dividing a single physical microprocessor chip into multiple independent processing cores (Multi-core architecture) primarily aims to increase performance by maximizing:",
+        "choices": [
+            "A. The clock frequency",
+            "B. The operating voltage",
+            "C. Thread-level parallelism (executing multiple programs or threads simultaneously)",
+            "D. The size of the instruction register"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "A \"Microcontroller\" (MCU) like the 8051 or Arduino ATMega differs from a Microprocessor (MPU) by inherently integrating which components onto the same silicon die?",
+        "choices": [
+            "A. Only the ALU and Control Unit",
+            "B. CPU, RAM, ROM/Flash, Timers, and I/O Ports",
+            "C. Only the CPU and a massive cache",
+            "D. Multiple math coprocessors"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "Worded circuit: An 8086 system uses an 8255 PPI for parallel I/O. The system is designed such that the 8255 is assigned the exact addresses 00H to 03H, completely separate from the 1MB RAM map. This specific configuration is referred to as:",
+        "choices": [
+            "A. Memory-Mapped I/O",
+            "B. Direct Memory Access (DMA)",
+            "C. Isolated I/O (or I/O-Mapped I/O)",
+            "D. Virtual I/O"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "In an 8085 system, the instruction \"LXI H, 2050H\" directly loads the 16-bit value 2050H into the HL register pair. This is an example of which addressing mode?",
+        "choices": [
+            "A. Direct",
+            "B. Immediate",
+            "C. Register Indirect",
+            "D. Indexed"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "The Intel 8086 instruction \"MUL BX\" performs unsigned multiplication. What registers hold the 32-bit result?",
+        "choices": [
+            "A. BX and CX",
+            "B. AX and BX",
+            "C. DX (upper 16 bits) and AX (lower 16 bits)",
+            "D. SI and DI"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 98,
+        "question": "When an 8086 receives a Non-Maskable Interrupt (NMI) on its physical pin, it automatically vectors to which specific interrupt type in its interrupt vector table?",
+        "choices": [
+            "A. Type 0",
+            "B. Type 1",
+            "C. Type 2",
+            "D. Type 3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "Worded circuit: An 8086 processor is connected to external RAM. During a specific T-state, the signals are: IO/M = 0, RD = 1, WR = 0. What operation is the CPU performing?",
+        "choices": [
+            "A. Memory Write",
+            "B. Memory Read",
+            "C. I/O Write",
+            "D. I/O Read"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 100,
+        "question": "What is the fundamental difference between the \"Jump\" (JMP) instruction and the \"Call\" (CALL) instruction?",
+        "choices": [
+            "A. JMP is faster",
+            "B. CALL saves the return address on the stack; JMP does not",
+            "C. JMP requires a 32-bit address; CALL uses 16 bits",
+            "D. CALL is only for hardware interrupts"
+        ],
+        "correct_answer": "B"
+    }
+]

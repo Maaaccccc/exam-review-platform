@@ -1,0 +1,1036 @@
+[
+    {
+        "number": 1,
+        "question": "Linear convolution of two discrete-time sequences of lengths N1 and N2 results in a new sequence of length:",
+        "choices": [
+            "A. N1 + N2 - 1",
+            "B. N1 + N2 + 1",
+            "C. N1 * N2",
+            "D. N1 + N2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "In graphical convolution, the folding or time-reversal operation mathematically replaces the dummy variable h(τ) with:",
+        "choices": [
+            "A. h(t + τ)",
+            "B. h(-τ)",
+            "C. h(τ - t)",
+            "D. h(2τ)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "The cross-correlation of x(t) and y(t) is mathematically equivalent to the linear convolution of x(t) with which modified version of y(t)?",
+        "choices": [
+            "A. y(t)",
+            "B. y(-t)",
+            "C. y*(-t) (time-reversed and conjugated)",
+            "D. y(t - τ)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "If the linear convolution of two length-4 sequences is computed using a circular convolution algorithm, what is the absolute minimum DFT size required to prevent time-aliasing?",
+        "choices": [
+            "A. 4",
+            "B. 5",
+            "C. 6",
+            "D. 7"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "What is the auto-correlation function of a continuous-time rectangular pulse of duration T?",
+        "choices": [
+            "A. Triangular pulse of duration 2T",
+            "B. Sinc function",
+            "C. Gaussian pulse",
+            "D. Rectangular pulse of duration 2T"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "The overall impulse response of a system comprising two LTI systems, h1[n] and h2[n], connected in series (cascade) is given by:",
+        "choices": [
+            "A. h1[n] + h2[n]",
+            "B. h1[n] * h2[n] (convolution)",
+            "C. h1[n] h2[n] (multiplication)",
+            "D. h1[n] / h2[n]"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "The auto-correlation function of a continuous-time energy signal, when evaluated at a time lag of exactly τ = 0, represents the signal's:",
+        "choices": [
+            "A. Average power",
+            "B. Peak amplitude",
+            "C. Total energy",
+            "D. DC offset"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "If x[n] = 1, -1 and h[n] = 2, 1 (both starting at n=0), what is the value of their linear convolution y[n] evaluated at index n=1?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 0",
+            "D. -1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "The two-sided Z-transform of a discrete-time sequence x[n] is defined mathematically as the infinite summation over all n of:",
+        "choices": [
+            "A. x[n] z^(-n)",
+            "B. x[n] z^n",
+            "C. x[n] e^(-jnω)",
+            "D. x[n] e^(jnω)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "The Region of Convergence (ROC) of a Z-transform is strictly defined as the set of values of z in the complex plane for which the summation:",
+        "choices": [
+            "A. exactly equals zero",
+            "B. converges absolutely",
+            "C. converges conditionally",
+            "D. becomes infinitely large"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "For a finite-duration right-sided sequence (strictly causal), the ROC typically encompasses the entire z-plane with the possible exception of:",
+        "choices": [
+            "A. the unit circle",
+            "B. z = infinity",
+            "C. z = 0",
+            "D. the real axis"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "For a finite-duration left-sided sequence (anti-causal), the ROC typically encompasses the entire z-plane with the possible exception of:",
+        "choices": [
+            "A. z = 0",
+            "B. the imaginary axis",
+            "C. the unit circle",
+            "D. z = infinity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 15,
+        "question": "The Region of Convergence for a two-sided infinite-duration sequence, if it exists, takes the shape of:",
+        "choices": [
+            "A. the entire z-plane",
+            "B. the exterior of a circle",
+            "C. an annular ring (intersection of two regions)",
+            "D. a single point at the origin"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "Which of the following statements is a fundamental, invariant rule regarding the Region of Convergence (ROC) of any Z-transform?",
+        "choices": [
+            "A. It must contain at least one pole",
+            "B. It cannot contain any zeros",
+            "C. It is always a perfect unit circle",
+            "D. It cannot contain any poles"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "The Z-transform of the discrete-time unit impulse sequence δ[n] evaluates to:",
+        "choices": [
+            "A. 1",
+            "B. z",
+            "C. z^(-1)",
+            "D. 1/(1 - z^(-1))"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "The Z-transform of the discrete-time unit step sequence u[n] is standardly expressed as:",
+        "choices": [
+            "A. 1",
+            "B. 1 / (1 - z^(-1))",
+            "C. z / (1 - z)",
+            "D. 1 / (1 + z^(-1))"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "The Z-transform of the causal exponential sequence a^n u[n] is mathematically given by:",
+        "choices": [
+            "A. 1 / (1 - a^(-1) z^(-1))",
+            "B. 1 / (1 + a z^(-1))",
+            "C. z / (z + a)",
+            "D. 1 / (1 - a z^(-1))"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 22,
+        "question": "The Z-transforms of the causal sequence a^n u[n] and the anti-causal sequence -(a^n) u[-n-1] have identical algebraic rational expressions. What strictly distinguishes them?",
+        "choices": [
+            "A. Their transmission zeros",
+            "B. Their Region of Convergence (ROC)",
+            "C. Their pole locations",
+            "D. Their constant scaling factors"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "Evaluate the Z-transform of the causal ramp sequence x[n] = n u[n].",
+        "choices": [
+            "A. z^(-1) / (1 - z^(-1))",
+            "B. z / (z - 1)^2",
+            "C. z^(-1) / (1 - z^(-1))^2",
+            "D. 1 / (1 - z^(-1))^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "Determine the Z-transform of the shifted unit impulse sequence δ[n - k], where k is a positive integer.",
+        "choices": [
+            "A. z^k",
+            "B. 1",
+            "C. z",
+            "D. z^(-k)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "According to the time-shifting property of the Z-transform, if x[n] transforms to X(z), then the delayed sequence x[n - n0] transforms to:",
+        "choices": [
+            "A. z^(-n0) X(z)",
+            "B. z^(n0) X(z)",
+            "C. X(z - n0)",
+            "D. X(z / n0)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "If X(z) is the Z-transform of x[n], the operation of scaling in the z-domain by calculating X(a^(-1) z) corresponds to which time-domain sequence?",
+        "choices": [
+            "A. a^(-n) x[n]",
+            "B. a^n x[n]",
+            "C. x[an]",
+            "D. x[n - a]"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "The time-reversal property states that if x[n] has a Z-transform X(z), then the time-reversed sequence x[-n] has the Z-transform:",
+        "choices": [
+            "A. -X(z)",
+            "B. X(-z)",
+            "C. X(z^(-1))",
+            "D. 1 / X(z)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "If the ROC of a sequence X(z) is given by r1 <",
+        "choices": [
+            "A. z",
+            "B. < r2, what is the exact ROC of its time-reversed counterpart x[-n]?",
+            "C. r1 <",
+            "D. z"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 29,
+        "question": "The convolution of two discrete-time sequences x1[n] * x2[n] corresponds to which mathematical operation in the z-domain?",
+        "choices": [
+            "A. X1(z) X2(z)",
+            "B. X1(z) * X2(z)",
+            "C. X1(z) + X2(z)",
+            "D. X1(z) / X2(z)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Multiplying a sequence by its index n (i.e., n x[n]) corresponds to which specific differentiation operation on its Z-transform X(z)?",
+        "choices": [
+            "A. z * dX(z)/dz",
+            "B. -z * dX(z)/dz",
+            "C. -z^(-1) * dX(z)/dz",
+            "D. d/dz X(z)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "If x[n] is a complex-valued sequence with Z-transform X(z), the Z-transform of its complex conjugate x*[n] is given by:",
+        "choices": [
+            "A. X*(z)",
+            "B. X(z*)",
+            "C. X*(z*)",
+            "D. X*(-z)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "According to the Initial Value Theorem, if x[n] is a strictly causal sequence, its initial value x[0] can be found by evaluating the limit of X(z) as:",
+        "choices": [
+            "A. z approaches 0",
+            "B. z approaches 1",
+            "C. z approaches -1",
+            "D. z approaches infinity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "For the Initial Value Theorem to be mathematically applicable, the sequence x[n] must strictly be:",
+        "choices": [
+            "A. Causal (x[n] = 0 for n < 0)",
+            "B. Anti-causal",
+            "C. Two-sided",
+            "D. Finite duration"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "The Final Value Theorem states that if the limit exists, the steady-state value of x[n] as n approaches infinity is equal to the limit as z approaches 1 of:",
+        "choices": [
+            "A. z X(z)",
+            "B. (1 - z^(-1)) X(z)",
+            "C. (z - 1) X(z)",
+            "D. X(z) / (1 - z^(-1))"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "The Final Value Theorem yields a valid result only if all poles of the expression (z - 1)X(z) are located strictly:",
+        "choices": [
+            "A. Inside and on the unit circle",
+            "B. On the real axis",
+            "C. Inside the unit circle",
+            "D. In the left-half of the z-plane"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Determine the initial value x[0] for a causal system whose Z-transform is X(z) = (2 + 3z^(-1)) / (1 - 0.5z^(-1)).",
+        "choices": [
+            "A. 0",
+            "B. 5",
+            "C. 0.5",
+            "D. 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "Which of the following mathematical techniques is NOT a standard method utilized for finding the inverse Z-transform?",
+        "choices": [
+            "A. Root locus plotting",
+            "B. Partial fraction expansion",
+            "C. Power series expansion (Long division)",
+            "D. Complex contour integration"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "In the power series expansion method, performing long division on X(z) to obtain a polynomial in descending powers of z^(-1) is most practical for finding:",
+        "choices": [
+            "A. The exact closed-form expression of x[n]",
+            "B. The first few numerical sample values of a causal sequence",
+            "C. The boundaries of the Region of Convergence",
+            "D. The exact location of the system's poles"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "When preparing to use partial fraction expansion for an inverse Z-transform, the rational function X(z) is typically divided by z to expand the form:",
+        "choices": [
+            "A. X(z) / z^2",
+            "B. z X(z)",
+            "C. X(z) / z",
+            "D. 1 / X(z)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "According to Cauchy's Residue Theorem, the formal inverse Z-transform is evaluated as a complex contour integral traversing:",
+        "choices": [
+            "A. Clockwise directly along the unit circle",
+            "B. Vertically along the imaginary axis",
+            "C. Horizontally along the real axis",
+            "D. Counterclockwise along a closed circular path within the ROC"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Evaluate the inverse Z-transform of X(z) = z^(-2) given the Region of Convergence",
+        "choices": [
+            "A. z",
+            "B. > 0.",
+            "C. δ[n-2]",
+            "D. δ[n+2]"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 42,
+        "question": "Given X(z) = 1 / (1 - 0.5 z^(-1)) with a Region of Convergence",
+        "choices": [
+            "A. z",
+            "B. > 0.5, the corresponding time-domain sequence x[n] is:",
+            "C. -(0.5)^n u[-n-1]",
+            "D. (0.5)^n u[n]"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 43,
+        "question": "Given X(z) = 1 / (1 - 0.5 z^(-1)) but with a Region of Convergence",
+        "choices": [
+            "A. z",
+            "B. < 0.5, the corresponding time-domain sequence x[n] is:",
+            "C. (0.5)^n u[n]",
+            "D. -(2)^n u[-n-1]"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 44,
+        "question": "If you expand X(z) = 1 / (1 - a z^(-1)) using polynomial long division under the assumption that",
+        "choices": [
+            "A. z",
+            "B. >",
+            "C. a",
+            "D. , the resulting sequence nature will be:"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "Using long division on X(z) = 1 / (1 - 0.25 z^(-1)) for a causal system, what are the first two sample values x[0] and x[1]?",
+        "choices": [
+            "A. x[0]=1, x[1]=0.25",
+            "B. x[0]=0, x[1]=0.25",
+            "C. x[0]=1, x[1]=-0.25",
+            "D. x[0]=0.25, x[1]=1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "To evaluate the inverse Z-transform for a strictly non-causal (left-sided) sequence using long division, the numerator and denominator polynomials must be arranged in:",
+        "choices": [
+            "A. Descending powers of z^(-1)",
+            "B. Ascending powers of z^(-1) (or descending powers of z)",
+            "C. Descending powers of z only",
+            "D. Mixed powers of z and z^(-1)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "During the partial fraction expansion of X(z)/z, if the system possesses a distinct, non-repeated pole at p1, the corresponding numerator coefficient A1 is isolated and evaluated as:",
+        "choices": [
+            "A. (z - p1) X(z) evaluated at z = p1",
+            "B. (1 - p1 z^(-1)) X(z) evaluated at z = p1",
+            "C. (z - p1) [X(z)/z] evaluated at z = p1",
+            "D. d/dz X(z) evaluated at z = p1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "The system transfer function H(z) of a discrete-time Linear Time-Invariant (LTI) system is defined fundamentally as the Z-transform of its:",
+        "choices": [
+            "A. Impulse response h[n]",
+            "B. Step response s[n]",
+            "C. Frequency response H(e^jω)",
+            "D. Output sequence y[n]"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "For a discrete LTI system described by the difference equation y[n] - 0.5 y[n-1] = x[n], the transfer function H(z) is:",
+        "choices": [
+            "A. 0.5 / (1 - z^(-1))",
+            "B. 1 / (1 - 0.5 z^(-1))",
+            "C. 1 - 0.5 z^(-1)",
+            "D. 1 / (1 + 0.5 z^(-1))"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Consider a causal system with transfer function H(z) = z^(-1) / (1 - a z^(-1)). What is its time-domain impulse response h[n]?",
+        "choices": [
+            "A. a^(n+1) u[n+1]",
+            "B. a^n u[n-1]",
+            "C. a^(n-1) u[n-1]",
+            "D. a^n u[n]"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "A digital filter has a system function H(z) = 1 + 2z^(-1) + 3z^(-2). By definition, this system is strictly classified as a(n):",
+        "choices": [
+            "A. Infinite Impulse Response (IIR) filter",
+            "B. Continuous analog filter",
+            "C. Non-causal system",
+            "D. Finite Impulse Response (FIR) filter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "Applying the Z-transform to the advanced difference equation y[n+1] + 2y[n] = x[n] under zero initial conditions yields a transfer function H(z) equal to:",
+        "choices": [
+            "A. 1 / (z + 2)",
+            "B. z / (z + 2)",
+            "C. 1 / (1 + 2z^(-1))",
+            "D. z^(-1) / (1 + 2z)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "If a system is completely described by an FIR (Finite Impulse Response) difference equation, its impulse response sequence h[n] inherently possesses:",
+        "choices": [
+            "A. Infinite duration",
+            "B. Finite duration",
+            "C. Unbounded magnitude limit",
+            "D. Exponentially growing amplitude"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Calculate the exact locations of the poles for the rational system function H(z) = (z^2 - 1) / (z^2 + 0.25).",
+        "choices": [
+            "A. z = ± 1",
+            "B. z = ± 0.5",
+            "C. z = ± j0.5",
+            "D. z = ± j0.25"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "Determine the exact locations of the zeros for the system function given by H(z) = (1 - z^(-2)) / (1 + 0.5 z^(-1)).",
+        "choices": [
+            "A. z = -0.5",
+            "B. z = 0 and z = 1",
+            "C. z = ± 0.5",
+            "D. z = 1 and z = -1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "The fundamental mapping equation relating the continuous-time Laplace complex variable s to the discrete-time Z-transform variable z is:",
+        "choices": [
+            "A. z = e^(sT)",
+            "B. z = sT",
+            "C. s = e^(zT)",
+            "D. z = ln(s) / T"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "When mapping from the s-plane to the z-plane using z = e^(sT), the entire imaginary axis (jω-axis) of the s-plane maps perfectly onto which locus in the z-plane?",
+        "choices": [
+            "A. The positive real axis",
+            "B. The unit circle (",
+            "C. z",
+            "D. = 1)"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 59,
+        "question": "In the standard s-to-z mapping, the entire left-half of the s-plane (LHP, where real part σ < 0) maps to which specific region in the z-plane?",
+        "choices": [
+            "A. The upper half-plane",
+            "B. The entire right half-plane",
+            "C. The strict interior of the unit circle (",
+            "D. z"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 60,
+        "question": "Conversely, the entire right-half of the s-plane (RHP, where real part σ > 0) maps to which region in the z-plane?",
+        "choices": [
+            "A. The strict interior of the unit circle",
+            "B. The geometric origin",
+            "C. The real axis",
+            "D. The strict exterior of the unit circle ("
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 61,
+        "question": "A dominant pole located at s = -infinity on the real axis in the continuous-time s-plane maps to which exact point in the z-plane?",
+        "choices": [
+            "A. z = 0",
+            "B. z = 1",
+            "C. z = -1",
+            "D. z = infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "The absolute origin of the continuous-time s-plane (s = 0 + j0) maps to which exact location in the z-plane?",
+        "choices": [
+            "A. z = 0",
+            "B. z = 1",
+            "C. z = -1",
+            "D. z = infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "The continuous-time Nyquist frequencies, defined as ω = ± π/T, map to which specific coordinate on the z-plane's unit circle?",
+        "choices": [
+            "A. z = 1",
+            "B. z = j",
+            "C. z = -1",
+            "D. z = -j"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "As the continuous analog frequency ω linearly increases from 0 up to the folding frequency π/T, the corresponding mapping point z = e^(jωT) travels along the unit circle strictly from:",
+        "choices": [
+            "A. z=1 to z=j",
+            "B. z=1 to z=0",
+            "C. z=-1 to z=1",
+            "D. z=1 to z=-1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "A discrete-time LTI system is universally defined as Bounded-Input Bounded-Output (BIBO) stable if and only if the Region of Convergence (ROC) of its transfer function H(z):",
+        "choices": [
+            "A. Includes the unit circle",
+            "B. Is strictly confined inside the unit circle",
+            "C. Is strictly outside the unit circle",
+            "D. Spans the entire complex z-plane"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "For a discrete-time LTI system to be simultaneously strictly causal AND absolutely stable, all the poles of its transfer function H(z) must geometrically lie:",
+        "choices": [
+            "A. Directly on the unit circle",
+            "B. Strictly inside the unit circle",
+            "C. Strictly outside the unit circle",
+            "D. Exclusively on the real axis"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "If a given discrete-time system is known to be both stable and anti-causal, all of its transfer function poles must be located:",
+        "choices": [
+            "A. On the imaginary axis",
+            "B. Strictly inside the unit circle",
+            "C. Strictly outside the unit circle",
+            "D. Directly on the unit circle"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "A causal LTI system possessing a simple pole located exactly on the unit circle (for instance, at z = 1) is formally classified in control theory as:",
+        "choices": [
+            "A. Asymptotically stable",
+            "B. Strictly stable",
+            "C. Anti-causal",
+            "D. Marginally stable"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "A discrete-time LTI system is deemed causal if the ROC of its system function H(z) is the exterior of a circle of some radius R, extending to and explicitly including:",
+        "choices": [
+            "A. z = infinity",
+            "B. z = 1",
+            "C. z = 0",
+            "D. The entire imaginary axis"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "By mathematical definition, for any discrete-time system to be considered strictly causal, its impulse response sequence h[n] must definitively satisfy:",
+        "choices": [
+            "A. h[n] = h[-n]",
+            "B. h[n] = 0 for all n < 0",
+            "C. h[n] = 0 for all n > 0",
+            "D. Sum of"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 71,
+        "question": "Consider a system with transfer function H(z) = (z^3 - 2z^2 + z) / (z^2 + 0.5z - 0.5). Is it possible for this system to be strictly causal?",
+        "choices": [
+            "A. Yes, provided its ROC is outside a circle",
+            "B. Yes, provided all its poles are inside the unit circle",
+            "C. No, because the polynomial degree of the numerator strictly exceeds that of the denominator",
+            "D. No, because it inherently has a pole located at z = 0.5"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "When a causal discrete-time system is expressed as a rational function H(z) modeled in positive powers of z, what must be true regarding the polynomial degrees?",
+        "choices": [
+            "A. Numerator degree must strictly exceed denominator degree",
+            "B. Numerator degree must exactly equal denominator degree",
+            "C. Numerator degree must be zero",
+            "D. Numerator degree must be less than or equal to the denominator degree"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "Evaluate the stability of a strictly causal system defined by H(z) = z / (z^2 - 1.2z + 0.32). The denominator factors to yield poles at z = 0.8 and z = 0.4.",
+        "choices": [
+            "A. The system is stable",
+            "B. The system is unstable",
+            "C. The system is marginally stable",
+            "D. Stability cannot be determined without the zeros"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "A strictly causal discrete-time system is found to have a pole located at z = 1.5. Based solely on this information, which of the following statements is definitively true?",
+        "choices": [
+            "A. The system is unconditionally stable",
+            "B. The system is mathematically unstable",
+            "C. The system must be an FIR filter",
+            "D. The system's ROC includes the unit circle"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "Following the previous scenario where the system (poles at 0.5 and 2.0) is made stable via the ROC 0.5 <",
+        "choices": [
+            "A. z",
+            "B. < 2.0, what must be the nature of its impulse response h[n]?",
+            "C. Strictly causal",
+            "D. Strictly anti-causal"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 77,
+        "question": "If a discrete-time LTI system possesses a complex conjugate pair of poles at z = r * e^(±jω0), its time-domain impulse response sequence will fundamentally exhibit:",
+        "choices": [
+            "A. Sinusoidal oscillations",
+            "B. Pure monotonic exponential decay without oscillation",
+            "C. A linear amplitude increase",
+            "D. A constant DC steady-state value"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "When a system contains complex conjugate poles at z = r * e^(±jω0), the apparent frequency of oscillation embedded within the time-domain impulse response is determined entirely by:",
+        "choices": [
+            "A. The magnitude parameter r",
+            "B. The angular parameter ω0",
+            "C. The real part of the complex pole",
+            "D. The imaginary part of the complex pole strictly"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "For a causal stable system with complex poles z = r * e^(±jω0), as the pole radius r approaches the unit circle (r -> 1), the exponential envelope of the impulse response will:",
+        "choices": [
+            "A. Decay much faster to zero",
+            "B. Grow exponentially unbounded",
+            "C. Decay slower, resulting in a significantly longer settling time",
+            "D. Collapse to zero instantaneously"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "If a strictly causal discrete-time system has a pair of unrepeated poles located exactly on the unit circle at z = ± j, its impulse response sequence will:",
+        "choices": [
+            "A. Grow unbounded towards infinity",
+            "B. Decay asymptotically to zero",
+            "C. Converge strictly to a positive constant",
+            "D. Oscillate continuously forever without decaying"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "The discrete-time frequency response H(e^jω) of a stable LTI system can be directly evaluated from its Z-transform H(z) by making the complex substitution:",
+        "choices": [
+            "A. z = e^(jω)",
+            "B. z = jω",
+            "C. z = ω",
+            "D. z = 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "Why must an LTI system be strictly stable in order to validly evaluate its steady-state frequency response directly from its Z-transform H(z)?",
+        "choices": [
+            "A. Unstable systems mathematically do not possess zeros",
+            "B. Because the system's ROC must explicitly include the unit circle (",
+            "C. z",
+            "D. =1)"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 83,
+        "question": "If the impulse response h[n] of an LTI system is purely real-valued, its magnitude frequency response",
+        "choices": [
+            "A. H(e^jω)",
+            "B. will automatically exhibit which mathematical property?",
+            "C. It becomes strictly imaginary",
+            "D. It becomes completely complex"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 84,
+        "question": "If the impulse response h[n] of an LTI system is purely real-valued, its phase frequency response angle(H(e^jω)) will automatically exhibit which mathematical symmetry?",
+        "choices": [
+            "A. Even symmetry",
+            "B. Half-wave symmetry",
+            "C. No predictable symmetry",
+            "D. Odd symmetry"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "When evaluating the magnitude response",
+        "choices": [
+            "A. H(e^jω)",
+            "B. graphically via the pole-zero plot, the magnitude at frequency ω is proportional to the product of vector lengths from e^jω to all zeros, divided by:",
+            "C. The product of vector lengths from e^jω to all poles",
+            "D. The geometric sum of vector lengths to all poles"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 86,
+        "question": "In digital filter design, deliberately placing a transmission zero exactly on the unit circle at a specific coordinate z = e^(jω0) will force the magnitude response at frequency ω0 to be:",
+        "choices": [
+            "A. Approaching infinity",
+            "B. Exactly zero",
+            "C. Exactly one",
+            "D. Mathematically undefined"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "To successfully design a digital IIR notch filter intended to completely eliminate a 60 Hz powerline interference, transmission zeros should strictly be placed on the unit circle at angles corresponding to:",
+        "choices": [
+            "A. 0 Hz (DC)",
+            "B. The system's Nyquist frequency",
+            "C. ± 60 Hz",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "In digital filter pole-zero placement, positioning a system pole extremely close to the inside of the unit circle at a specific angle ω0 will result in a frequency response that exhibits:",
+        "choices": [
+            "A. A very deep attenuation null at ω0",
+            "B. A completely flat, constant magnitude everywhere",
+            "C. A perfectly linear phase response",
+            "D. A very sharp, high-gain resonant peak at ω0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "Fundamentally, the Region of Convergence (ROC) of any valid rational Z-transform is geometrically bounded by the locations of its:",
+        "choices": [
+            "A. Poles",
+            "B. Zeros",
+            "C. Origin",
+            "D. Unit circle"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "If X(z) represents the Z-transform of sequence x[n], the Parseval's energy relation evaluated in the z-domain requires integrating the function around a closed contour strictly contained within the:",
+        "choices": [
+            "A. Imaginary axis",
+            "B. Region of Convergence (ROC)",
+            "C. Real axis",
+            "D. Unit circle only"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "For a discrete-time LTI system to be strictly classified as a \"minimum-phase\" system, it is a strict requirement that all of its poles AND all of its zeros must geometrically lie:",
+        "choices": [
+            "A. Outside the unit circle",
+            "B. Exactly on the unit circle",
+            "C. Strictly inside the unit circle",
+            "D. Exclusively on the real axis"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "An \"all-pass\" digital filter is characterized by having a completely flat, constant magnitude response across all frequencies. In the complex z-plane, its poles and zeros must specifically be positioned as:",
+        "choices": [
+            "A. All clustered exactly at the origin",
+            "B. Alternating strictly on the unit circle",
+            "C. Placed randomly as long as they are equal in number",
+            "D. Conjugate reciprocal pairs of each other"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "When solving causal LTI difference equations, the standard assumption of \"initial rest\" implies that if the input x[n] = 0 for all n < 0, then the output strictly satisfies:",
+        "choices": [
+            "A. y[n] = 0 for all n < 0",
+            "B. y[n] = 1 for all n < 0",
+            "C. y[0] = 0 exclusively",
+            "D. y[infinity] = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "When attempting to analytically solve a difference equation that possesses non-zero initial conditions, which specific Z-transform variant is strictly required?",
+        "choices": [
+            "A. The standard two-sided (bilateral) Z-transform",
+            "B. The unilateral (one-sided) Z-transform",
+            "C. The Discrete-Time Fourier Transform (DTFT)",
+            "D. The long division polynomial expansion"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "When employing the unilateral (one-sided) Z-transform, applying the time-shifting property to evaluate the delayed sequence x[n-1] mathematically introduces boundary terms dependent upon:",
+        "choices": [
+            "A. The asymptotic final value x[infinity]",
+            "B. The discrete derivative of x[n]",
+            "C. The specific initial condition x[-1]",
+            "D. The immediate future value x[1]"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "Mathematically, what is the exact expression for the unilateral Z-transform of the single-sample delayed sequence x[n-1] assuming the initial condition x[-1] is strictly non-zero?",
+        "choices": [
+            "A. z^(-1) X(z)",
+            "B. X(z) - x[-1]",
+            "C. z X(z) + x[0]",
+            "D. z^(-1) X(z) + x[-1]"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "Evaluate the pole locations for the Z-transform of the causal sinusoidal sequence x[n] = cos(ω0 n) u[n]. The poles are located strictly at:",
+        "choices": [
+            "A. z = e^(± jω0)",
+            "B. z = ± jω0",
+            "C. z = ± ω0",
+            "D. z = ± 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "Consider a finite-duration discrete sequence that only contains non-zero sample values at indices n = -1, n = 0, and n = 1. What is its exact Region of Convergence?",
+        "choices": [
+            "A. The entire z-plane",
+            "B. The entire z-plane except the points z = 0 and z = infinity",
+            "C. The region",
+            "D. z"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 99,
+        "question": "If the system transfer function H(z) of a given system possesses a valid mathematical pole located at z = infinity, the system must inherently be classified as:",
+        "choices": [
+            "A. Strictly causal",
+            "B. Bounded-Input Bounded-Output stable",
+            "C. Strictly non-causal (or anti-causal)",
+            "D. Marginally stable"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "If a discrete-time sequence x[n] is proven to be absolutely summable (meaning the sum of",
+        "choices": [
+            "A. x[n]",
+            "B. from -infinity to +infinity is finite), this explicitly guarantees that its Z-transform ROC:",
+            "C. Must be an empty set",
+            "D. Is geometrically restricted to exactly"
+        ],
+        "correct_answer": ""
+    }
+]

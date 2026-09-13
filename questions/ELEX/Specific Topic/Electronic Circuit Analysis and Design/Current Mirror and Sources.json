@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "A T-network is topologically identical to which standard electrical connection?",
+        "choices": [
+            "A. Delta",
+            "B. Wye (Star)",
+            "C. Mesh",
+            "D. Lattice"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "When converting a Delta (Pi) network with resistors Ra, Rb, and Rc to a Wye (T) network, the denominator of the conversion formulas is always equal to:",
+        "choices": [
+            "A. Ra * Rb * Rc",
+            "B. Ra + Rb",
+            "C. Ra + Rb + Rc",
+            "D. (Ra * Rb) / Rc"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "A symmetrical Pi-attenuator has identical shunt resistors R1 and R2, and a series resistor R3. If the attenuation approaches infinity, what happens to the value of R3?",
+        "choices": [
+            "A. It approaches zero",
+            "B. It approaches the characteristic impedance",
+            "C. It becomes purely capacitive",
+            "D. It approaches infinity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "A purely resistive L-pad is used to match a 300-ohm source to a 50-ohm load. The series resistor is placed on the 300-ohm side. What is its approximate value?",
+        "choices": [
+            "A. 274 ohms",
+            "B. 137 ohms",
+            "C. 50 ohms",
+            "D. 300 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "Which theorem states that any symmetrical two-port network can be bisected and transformed into an equivalent lattice network?",
+        "choices": [
+            "A. Millman's Theorem",
+            "B. Norton's Theorem",
+            "C. Bartlett's Bisection Theorem",
+            "D. Thevenin's Theorem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "A Twin-T notch filter achieves a theoretically infinite notch depth only if the shunt resistor in the high-pass T-section relates to the series resistors (R) of the low-pass T-section by what value?",
+        "choices": [
+            "A. 2R",
+            "B. R",
+            "C. R/2",
+            "D. R/4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "The characteristic impedance Z0 of a symmetrical T-network with series arms Z1/2 and a shunt arm Z2 is given by:",
+        "choices": [
+            "A. sqrt((Z1^2 / 4) + Z1*Z2)",
+            "B. sqrt(Z1 * Z2)",
+            "C. Z1 + Z2",
+            "D. Z1 / Z2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "A bridged-T attenuator is advantageous in audio systems because adjusting attenuation requires varying how many resistive elements to maintain a constant characteristic impedance?",
+        "choices": [
+            "A. One",
+            "B. Two",
+            "C. Three",
+            "D. Four"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "In a basic BJT current mirror, the \"reference\" transistor is forced to operate in which region by shorting its base to its collector?",
+        "choices": [
+            "A. Saturation",
+            "B. Cutoff",
+            "C. Forward-Active",
+            "D. Reverse-Active"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "A simple BJT current mirror has a reference current I_ref. If the transistors are perfectly matched but have a finite current gain (beta), the output current I_out is given by:",
+        "choices": [
+            "A. I_ref * (1 + 2/beta)",
+            "B. I_ref / (1 + 2/beta)",
+            "C. I_ref / (1 + beta)",
+            "D. I_ref * (1 + beta)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "What is the primary purpose of a current mirror in an integrated circuit?",
+        "choices": [
+            "A. To amplify high-frequency signals",
+            "B. To convert AC to DC",
+            "C. To provide a constant current bias independent of load variations",
+            "D. To act as a voltage regulator"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "A basic BJT current mirror uses two identical NPN transistors. The reference current is 1 mA and beta is 50. What is the approximate output current?",
+        "choices": [
+            "A. 0.962 mA",
+            "B. 0.980 mA",
+            "C. 1.000 mA",
+            "D. 1.040 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "An ideal current mirror has an output resistance of:",
+        "choices": [
+            "A. Zero",
+            "B. Infinity",
+            "C. Equal to the load",
+            "D. Equal to the transistor's r_pi"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 14,
+        "question": "The Early effect in a basic BJT current mirror causes the output current to do what as the output voltage (VCE) increases?",
+        "choices": [
+            "A. Decrease exponentially",
+            "B. Remain perfectly constant",
+            "C. Increase linearly",
+            "D. Oscillate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "A circuit sinks current from a load to ground using an NPN transistor. This configuration is properly referred to as a:",
+        "choices": [
+            "A. Current source",
+            "B. Current sink",
+            "C. Voltage source",
+            "D. Voltage sink"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "To create a current source that pushes current into a load connected to ground, which type of standard bipolar transistor is typically used at the positive supply rail?",
+        "choices": [
+            "A. NPN",
+            "B. JFET",
+            "C. PNP",
+            "D. UJT"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "A worded circuit: A basic BJT current mirror is modified by inserting a resistor (RE) between the emitter of the output transistor and ground. What is the name of this specific current source topology?",
+        "choices": [
+            "A. Wilson Current Mirror",
+            "B. Darlington Current Source",
+            "C. Cascode Current Mirror",
+            "D. Widlar Current Source"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 18,
+        "question": "What is the primary engineering advantage of the Widlar current source over a basic BJT current mirror?",
+        "choices": [
+            "A. It provides significantly higher output currents",
+            "B. It completely eliminates the Early effect",
+            "C. It achieves very small, stable output currents using relatively small resistor values",
+            "D. It operates effectively without a DC power supply"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "In a Widlar current source with reference current I_ref and output current I_out, the voltage drop across the emitter resistor (RE) is exactly equal to:",
+        "choices": [
+            "A. VBE1 + VBE2",
+            "B. The thermal voltage (VT)",
+            "C. The difference in base-emitter voltages (VBE1 - VBE2)",
+            "D. VCC - VBE1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "A Widlar current source operates at room temperature (VT = 26 mV). I_ref is 1 mA and I_out is 10 uA. What is the required value of the emitter resistor RE?",
+        "choices": [
+            "A. 120 ohms",
+            "B. 12.0 kOhms",
+            "C. 11.9 kOhms",
+            "D. 25.8 kOhms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "The standard Wilson current mirror utilizes how many bipolar junction transistors?",
+        "choices": [
+            "A. Two",
+            "B. Three",
+            "C. Four",
+            "D. Five"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "What is a major performance advantage of the Wilson current mirror compared to the basic BJT current mirror?",
+        "choices": [
+            "A. It offers a drastically higher output resistance",
+            "B. It requires much less voltage headroom",
+            "C. It uses fewer transistors",
+            "D. It is unaffected by temperature variations"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "In a basic BJT current mirror, the current transfer ratio error due to finite beta is approximately 2/beta. In a standard Wilson current mirror, this error is reduced to approximately:",
+        "choices": [
+            "A. 1/beta",
+            "B. 2/(beta^2)",
+            "C. 1/(beta^2)",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "A Wilson current mirror is constructed using three identical BJTs with beta = 100. If the reference current is 1 mA, the base current error is extremely small. The output resistance (Ro) of the Wilson mirror is roughly:",
+        "choices": [
+            "A. r_o",
+            "B. beta * r_o",
+            "C. beta * r_o / 2",
+            "D. r_o / beta"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "A disadvantage of the standard Wilson current mirror is that it requires a minimum output voltage compliance (headroom) of approximately:",
+        "choices": [
+            "A. 1 VBE",
+            "B. 2 VBE + VCE(sat)",
+            "C. VCE(sat)",
+            "D. 3 VBE"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "In a basic MOSFET current mirror operating in saturation, the ratio of the output current to the reference current is primarily determined by:",
+        "choices": [
+            "A. The threshold voltages",
+            "B. The Early voltages",
+            "C. The ratio of their transconductances",
+            "D. The ratio of their physical aspect ratios (W/L)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "Unlike BJT current mirrors, basic MOSFET current mirrors do not suffer from error caused by:",
+        "choices": [
+            "A. Finite output resistance",
+            "B. Channel-length modulation",
+            "C. Finite base (gate) currents",
+            "D. Temperature mismatch"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "A basic NMOS current mirror is designed with M1 (reference) having W/L = 10/1 and M2 (output) having W/L = 30/1. If I_ref is 50 uA, what is the ideal I_out?",
+        "choices": [
+            "A. 16.7 uA",
+            "B. 50 uA",
+            "C. 150 uA",
+            "D. 300 uA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "The Early effect in BJTs and its counterpart in MOSFETs cause the output current of a simple mirror to vary with output voltage. In MOSFETs, this phenomenon is called:",
+        "choices": [
+            "A. Velocity saturation",
+            "B. Channel-length modulation",
+            "C. Subthreshold conduction",
+            "D. Body effect"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "To mathematically model the Early effect in a BJT current mirror, the output current equation I_out = I_ref is multiplied by the factor:",
+        "choices": [
+            "A. (1 + VCE/VA)",
+            "B. (1 - VCE/VA)",
+            "C. (1 + VA/VCE)",
+            "D. (1 - VA/VCE)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "To significantly increase the output resistance of a basic current mirror and thus mitigate the Early effect, a designer can place a transistor in series with the output transistor. This topology is called a:",
+        "choices": [
+            "A. Darlington mirror",
+            "B. Sziklai mirror",
+            "C. Cascode current mirror",
+            "D. Peaking current source"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "A simple cascode current mirror uses four transistors. Its output resistance is approximately equal to:",
+        "choices": [
+            "A. r_o",
+            "B. beta * r_o",
+            "C. gm * r_o^2",
+            "D. 1 / gm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "A major drawback of the standard cascode current mirror is:",
+        "choices": [
+            "A. Low output impedance",
+            "B. High power consumption",
+            "C. It reduces the available voltage swing (requires more headroom)",
+            "D. It is highly unstable"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "In analog IC design, a single reference current is often mirrored to multiple different locations in the circuit using various scaling factors. This overarching topology is called:",
+        "choices": [
+            "A. A current steering circuit",
+            "B. A voltage divider",
+            "C. A charge pump",
+            "D. A multiplexer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "A worded circuit: An NPN diode-connected transistor sets a reference voltage. Three other NPN transistors have their bases connected to this reference. Their emitters are grounded. This configuration functions as a:",
+        "choices": [
+            "A. Multiple-output current sink",
+            "B. Multiple-output current source",
+            "C. Current multiplier",
+            "D. Voltage follower"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 36,
+        "question": "A basic BJT current mirror has an output transistor with an Early voltage VA = 50 V. The reference current is 2 mA and VCE of the reference transistor is 0.7 V. What is the approximate output current if the output VCE is 5.7 V? (Assume beta is infinite).",
+        "choices": [
+            "A. 2.00 mA",
+            "B. 2.20 mA",
+            "C. 2.10 mA",
+            "D. 1.80 mA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "The design of a Widlar current source involves solving a transcendental equation. The relationship between the output current (I_out) and the emitter resistor (RE) is:",
+        "choices": [
+            "A. RE = (VT / I_out) * ln(I_ref / I_out)",
+            "B. RE = (I_out / VT) * ln(I_ref / I_out)",
+            "C. RE = VT * I_out * ln(I_ref)",
+            "D. RE = (VT / I_ref) * ln(I_out / I_ref)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "In a MOSFET cascode current mirror, the threshold voltage matching is critical. If the body effect is not ignored, the threshold voltage of the upper cascode transistor will:",
+        "choices": [
+            "A. Decrease",
+            "B. Remain unchanged",
+            "C. Be zero",
+            "D. Increase due to VSB > 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 39,
+        "question": "To balance the drain voltages of a basic MOS Wilson current mirror and eliminate systematic gain errors, a fourth transistor is often added. This improved configuration is known as the:",
+        "choices": [
+            "A. Modified Wilson current mirror",
+            "B. Widlar-Wilson mirror",
+            "C. Folded cascode mirror",
+            "D. Howland current pump"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 40,
+        "question": "Two mismatched BJTs are used in a basic current mirror. Q1 (reference) has saturation current Is1, and Q2 (output) has Is2. The ideal output current I_out relates to I_ref by:",
+        "choices": [
+            "A. I_out = I_ref * (Is1 / Is2)",
+            "B. I_out = I_ref * (Is2 / Is1)",
+            "C. I_out = I_ref * ln(Is2 / Is1)",
+            "D. I_out = I_ref * (Is1 * Is2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "For a JFET current mirror, true mirroring operation relies heavily on the transistors having perfectly matched:",
+        "choices": [
+            "A. Pinch-off voltages and Idss",
+            "B. Base-emitter voltages",
+            "C. Early voltages only",
+            "D. Thermal runaway coefficients"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "In a CMOS current steering circuit, a reference current of 10 uA is mirrored to an NMOS sink with W/L = 20/2, and also mirrored via a PMOS mirror to create a source. If the reference diode-connected NMOS has W/L = 10/2, the sink current is:",
+        "choices": [
+            "A. 5 uA",
+            "B. 10 uA",
+            "C. 20 uA",
+            "D. 40 uA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "A classic discrete constant current source uses a Zener diode in the base circuit of an NPN transistor. The emitter is connected to ground via a resistor Re. The load is connected to the collector. The constant output current is primarily determined by:",
+        "choices": [
+            "A. (Vz - VBE) / Re",
+            "B. Vz / Re",
+            "C. (VCC - Vz) / Re",
+            "D. VBE / Re"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "A worded circuit: An op-amp is configured with a resistor Rs connecting its inverting input to ground. A reference voltage Vref is applied to the non-inverting input. A load connects the op-amp output to the inverting input. This circuit acts as a precise voltage-controlled:",
+        "choices": [
+            "A. Voltage source",
+            "B. Resistance",
+            "C. Capacitance",
+            "D. Current source (Howland pump variation)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "The term \"diode-connected transistor\" refers to a BJT where:",
+        "choices": [
+            "A. The base and emitter are shorted",
+            "B. The collector and base are shorted",
+            "C. The collector and emitter are shorted",
+            "D. A diode is placed in series with the base"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "If a basic BJT mirror uses three output transistors (Q2, Q3, Q4) all connected to the same reference transistor Q1, and all are identical with beta = 100, what is the ratio I_out(Q2) / I_ref?",
+        "choices": [
+            "A. 100 / 101",
+            "B. 100 / 104",
+            "C. 1",
+            "D. 104 / 100"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "In a basic BJT mirror, the output resistance is equal to the Early resistance (r_o). This is calculated as:",
+        "choices": [
+            "A. r_o = VT / IC",
+            "B. r_o = VA / IC",
+            "C. r_o = beta / gm",
+            "D. r_o = IC / VA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "A Widlar current source is highly sensitive to the difference in VBE between the two transistors. This difference (delta VBE) is typically on the order of:",
+        "choices": [
+            "A. Volts",
+            "B. Millivolts",
+            "C. Microvolts",
+            "D. Nanovolts"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "A JFET can be used as a simple, two-terminal constant current source by:",
+        "choices": [
+            "A. Shorting the drain to the gate",
+            "B. Shorting the gate to the source",
+            "C. Connecting a large resistor to the gate",
+            "D. Leaving the gate open"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "In a basic BJT Wilson current mirror, the feedback mechanism that increases output impedance is:",
+        "choices": [
+            "A. Positive voltage feedback",
+            "B. Negative voltage feedback",
+            "C. Negative current feedback",
+            "D. Positive current feedback"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "A basic PMOS current mirror pushes current into a load connected to ground. The source terminals of the PMOS transistors must be connected to:",
+        "choices": [
+            "A. Ground",
+            "B. VDD (Positive Supply)",
+            "C. VSS (Negative Supply)",
+            "D. The Load"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "What is the theoretical output impedance of a BJT cascode current mirror if gm1 = gm2 = 40 mA/V, ro1 = ro2 = 100 kOhms, and beta = 100?",
+        "choices": [
+            "A. 10 MOhms",
+            "B. 100 kOhms",
+            "C. 100 MOhms",
+            "D. 400 MOhms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "When designing current steering circuits for high-precision DACs (Digital-to-Analog Converters), layout symmetry is crucial to minimize errors caused by:",
+        "choices": [
+            "A. Thermal gradients and process variations",
+            "B. Electromagnetic interference",
+            "C. Cosmic rays",
+            "D. Clock jitter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "A basic MOSFET mirror has an output transistor with lambda = 0.02 V^-1. The nominal output current without channel-length modulation is 100 uA at VDS = VGS. If VDS increases by 5V, the output current becomes approximately:",
+        "choices": [
+            "A. 100 uA",
+            "B. 110 uA",
+            "C. 101 uA",
+            "D. 105 uA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "To minimize the base current error in a basic BJT mirror without using a Wilson or cascode topology, one can insert a buffer transistor between the collector of Q1 and the common base line. This topology is called a:",
+        "choices": [
+            "A. Widlar mirror",
+            "B. Emitter-coupled mirror",
+            "C. Base-compensated (or Buffered) current mirror",
+            "D. Peaking mirror"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "In a buffered (base-compensated) current mirror, the base current error term (2/beta) is reduced to approximately:",
+        "choices": [
+            "A. 1/beta",
+            "B. 2/(beta^2)",
+            "C. 1/(beta^2)",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "The feedback loop in a Wilson current mirror includes a reference transistor, an output transistor, and a third transistor. The base of the output transistor is driven by the:",
+        "choices": [
+            "A. Base of the reference transistor",
+            "B. Emitter of the reference transistor",
+            "C. Emitter of the third transistor",
+            "D. Collector of the reference transistor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "An LM317 voltage regulator can be easily configured as a precision constant current source by connecting a single resistor (R) between the Vout and Adjust pins, and drawing the load current from the Adjust pin. The current is given by:",
+        "choices": [
+            "A. I = 1.25 / R",
+            "B. I = R / 1.25",
+            "C. I = 1.25 * R",
+            "D. I = 5.0 / R"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "In a V-I characteristics curve, an ideal current source is represented by a line that is:",
+        "choices": [
+            "A. Perfectly vertical",
+            "B. Perfectly horizontal",
+            "C. Angled at 45 degrees",
+            "D. Exponential"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "A BJT current mirror requires matching of the reverse saturation current (Is) to ensure I_out = I_ref. 'Is' is strongly dependent on which physical parameter of the transistor?",
+        "choices": [
+            "A. The base width",
+            "B. The collector doping concentration",
+            "C. The base-emitter junction area",
+            "D. The Early voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "A worded circuit: In a Widlar source, if the emitter resistor RE is made very large (e.g., approaching infinity), the output current I_out will asymptotically approach:",
+        "choices": [
+            "A. I_ref",
+            "B. Zero",
+            "C. Infinity",
+            "D. VCC / RE"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "In a wide-swing MOS cascode current mirror, a specific bias voltage must be applied to the gates of the cascode transistors to keep the lower transistors exactly at the edge of:",
+        "choices": [
+            "A. Cutoff",
+            "B. The triode (linear) region",
+            "C. Saturation",
+            "D. Breakdown"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "If the Early voltage (VA) of a BJT is infinite, the small-signal output resistance (r_o) of a basic current mirror using this BJT is:",
+        "choices": [
+            "A. Zero",
+            "B. 1 ohm",
+            "C. Infinite",
+            "D. Dependent on beta"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "Current steering logic (like Emitter-Coupled Logic, ECL) uses differential pairs to steer a constant tail current between two branches. This constant tail current is typically generated by a:",
+        "choices": [
+            "A. Resistor to ground",
+            "B. Capacitor to ground",
+            "C. Basic or Cascode Current Source",
+            "D. Voltage regulator"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "Which transistor in a basic 3-transistor Wilson current mirror (NPN) experiences a VCE mismatch compared to the others, leading to a slight systematic current error?",
+        "choices": [
+            "A. The reference diode-connected transistor",
+            "B. The output transistor",
+            "C. The feedback transistor",
+            "D. They all have identical VCE"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "The Modified Wilson current mirror adds a fourth diode-connected transistor in series with the reference branch. This specifically equalizes the:",
+        "choices": [
+            "A. Base currents",
+            "B. Early effect (VDS or VCE mismatch) across the lower transistors",
+            "C. Temperature coefficients",
+            "D. Threshold voltages"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Two MOSFETs in a basic mirror are geometrically identical (same W/L) but are physically separated on the die, causing a 5 mV difference in their threshold voltages (VTH). This mismatch will primarily cause an error in the:",
+        "choices": [
+            "A. Output resistance",
+            "B. Compliance voltage",
+            "C. Output current ratio",
+            "D. Input capacitance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "A worded circuit: An NPN current mirror has resistors (RE) placed in series with both emitters to ground. These resistors are called:",
+        "choices": [
+            "A. Emitter degeneration resistors",
+            "B. Pull-up resistors",
+            "C. Base bias resistors",
+            "D. Load resistors"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "What is the primary purpose of adding identical emitter degeneration resistors to a basic BJT current mirror?",
+        "choices": [
+            "A. To increase the current gain",
+            "B. To reduce the output resistance",
+            "C. To decrease the reference current",
+            "D. To improve current matching by masking VBE mismatches and to increase output resistance"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "A BJT cascode current mirror is constructed. The output resistance is calculated as beta * r_o. If the transistor's beta drops significantly at high frequencies, the output impedance of the mirror will:",
+        "choices": [
+            "A. Increase",
+            "B. Become capacitive and decrease",
+            "C. Remain constant",
+            "D. Become inductive and increase"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "The Widlar current source is specifically classified as a:",
+        "choices": [
+            "A. Peaking current source",
+            "B. Transconductance amplifier",
+            "C. Non-linear current mirror",
+            "D. Logarithmic current source"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "A Peaking Current Source is a variation of the Widlar source where the emitter resistor is moved to the reference transistor side. It is characterized by an output current that:",
+        "choices": [
+            "A. Always equals the reference current",
+            "B. Peaks at a certain reference current and then decreases",
+            "C. Increases exponentially with reference current",
+            "D. Is completely independent of the reference current"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "In a standard CMOS process, matching between current mirror transistors is significantly improved by using:",
+        "choices": [
+            "A. Minimum possible channel length (L)",
+            "B. Different gate materials",
+            "C. Non-rectangular gate geometries",
+            "D. Larger than minimum channel length (L) to reduce channel-length modulation effects"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "The Early voltage (VA) for a typical integrated circuit BJT is on the order of:",
+        "choices": [
+            "A. 0.1 V to 1 V",
+            "B. 50 V to 150 V",
+            "C. 1000 V to 5000 V",
+            "D. 1 mV to 50 mV"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "A PMOS current mirror is used to supply current to a differential amplifier. The drain of the output PMOS connects to the coupled sources of the differential pair. This specific PMOS configuration acts as a:",
+        "choices": [
+            "A. Current sink",
+            "B. Active load",
+            "C. Current source (tail current)",
+            "D. Level shifter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "The fractional error in a basic BJT current mirror due to finite beta is given by (I_out - I_ref) / I_ref. This evaluates to:",
+        "choices": [
+            "A. -2 / (beta + 2)",
+            "B. 2 / beta",
+            "C. -1 / beta",
+            "D. 1 / (beta + 1)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "To ensure the output transistors of a MOS cascode mirror stay in saturation, the minimum output voltage (compliance voltage) must be at least:",
+        "choices": [
+            "A. One overdrive voltage (Vov)",
+            "B. Two overdrive voltages (2*Vov)",
+            "C. One threshold voltage (VTH)",
+            "D. Two threshold voltages (2*VTH)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "The input resistance of a Wilson current mirror (looking into the reference node) is extremely:",
+        "choices": [
+            "A. High",
+            "B. Negative",
+            "C. Low",
+            "D. Reactive"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "The threshold voltage (Vth) mismatch between two adjacent identical MOSFETs on a wafer is primarily inversely proportional to:",
+        "choices": [
+            "A. The square root of the active gate area (sqrt(W*L))",
+            "B. The channel length (L)",
+            "C. The oxide thickness (tox)",
+            "D. The drain current (Id)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "A worded circuit: A Widlar source uses two NPN BJTs. I_ref = 100 uA, I_out = 10 uA. VT = 26 mV. The required RE is (26mV / 10uA) * ln(10). What is ln(10) approximately?",
+        "choices": [
+            "A. 2.30",
+            "B. 0.693",
+            "C. 1.00",
+            "D. 3.14"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "An integrated circuit contains a basic BJT current mirror. Thermal gradients across the chip cause Q2 to be 2 degrees Celsius hotter than Q1. Since VBE drops by about 2 mV/degC, the VBE of Q2 required for the same current is lower. Since they share the same VBE, the actual output current of Q2 will:",
+        "choices": [
+            "A. Be exactly equal to I_ref",
+            "B. Decrease",
+            "C. Oscillate",
+            "D. Increase"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 82,
+        "question": "Fractional current scaling in BJT current mirrors is achieved by altering the:",
+        "choices": [
+            "A. Base doping concentration",
+            "B. Emitter-base junction area ratio",
+            "C. Collector voltage",
+            "D. Power supply voltage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "In an active-load differential amplifier, a current mirror replaces the drain resistors. This topology provides:",
+        "choices": [
+            "A. Lower voltage gain",
+            "B. Single-ended output and very high voltage gain",
+            "C. Differential output only",
+            "D. Very low input impedance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "The \"Howland Current Pump\" is an op-amp circuit that provides a constant current to a grounded load. Its operation relies on:",
+        "choices": [
+            "A. Positive and negative feedback balanced perfectly",
+            "B. A single large inductor",
+            "C. A high-voltage power supply",
+            "D. Operating the op-amp in open-loop"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "If the Early voltage (VA) increases, the output resistance (ro) of the transistor:",
+        "choices": [
+            "A. Decreases",
+            "B. Increases",
+            "C. Remains constant",
+            "D. Becomes negative"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "A Wilson current mirror configuration inherently forms a feedback loop. Analyzing this loop reveals that the loop gain is approximately:",
+        "choices": [
+            "A. beta / 2",
+            "B. 1",
+            "C. beta",
+            "D. 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "The \"fractional error\" of a standard current mirror with multiple outputs (N outputs) changes. If N identical output transistors are connected to the reference, the error term multiplier becomes:",
+        "choices": [
+            "A. N / beta",
+            "B. (N + 1) / beta",
+            "C. 1 / (N * beta)",
+            "D. beta / N"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "For very small required output currents (e.g., 1 uA) from a 1 mA reference, a standard basic current mirror would require extremely large W/L mismatch or emitter area mismatch. The Widlar source solves this by:",
+        "choices": [
+            "A. Using a logarithmic voltage drop across a small resistor",
+            "B. Using a cascaded amplifier",
+            "C. Utilizing the Early effect",
+            "D. Operating the transistors in cutoff"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "A BJT cascode mirror features an output compliance voltage penalty. The minimum output voltage required to keep both output-side transistors out of saturation is approximately:",
+        "choices": [
+            "A. VBE(on) + VCE(sat)",
+            "B. 2 * VBE(on)",
+            "C. VCE(sat)",
+            "D. 2 * VCE(sat)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "A \"Sooch Cascode\" is a specific layout technique for MOSFET current mirrors designed to:",
+        "choices": [
+            "A. Eliminate the body effect",
+            "B. Improve matching by cross-coupling layout segments (common-centroid)",
+            "C. Reduce parasitic capacitance",
+            "D. Increase the transconductance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "In a purely digital CMOS circuit, static current sources are generally avoided. However, in mixed-signal ICs, they are vital for biasing:",
+        "choices": [
+            "A. Logic gates",
+            "B. Analog-to-Digital Converters (ADCs)",
+            "C. ROM memory cells",
+            "D. CPU registers"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "A circuit uses a diode-connected PNP transistor to mirror current to another PNP transistor. The emitters are connected to VCC. This acts as a:",
+        "choices": [
+            "A. Current sink",
+            "B. Voltage reference",
+            "C. Current source",
+            "D. Differential pair"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "A JFET IDSS current source is simple but suffers from poor initial accuracy because:",
+        "choices": [
+            "A. IDSS varies widely from device to device even within the same part number",
+            "B. The pinch-off voltage is always zero",
+            "C. JFETs have high gate leakage",
+            "D. JFETs only operate with AC signals"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "In a BJT, the Early effect is physically caused by:",
+        "choices": [
+            "A. Base-width modulation due to varying collector-base reverse bias",
+            "B. Emitter injection efficiency degradation",
+            "C. High-level injection in the base",
+            "D. Avalanche breakdown in the collector"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "Why does the 4-transistor Modified Wilson mirror have better current matching than the 3-transistor version?",
+        "choices": [
+            "A. It has higher beta",
+            "B. It equalizes the VDS (or VCE) of the two bottom transistors, eliminating Early effect mismatch",
+            "C. It uses less power",
+            "D. It provides a perfectly zero output impedance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "A current mirror must operate with a very low supply voltage (e.g., 1.2V). Which high-output-impedance mirror topology is best suited for this?",
+        "choices": [
+            "A. Standard Cascode",
+            "B. Low-Voltage (Wide-Swing) Cascode",
+            "C. Wilson Mirror",
+            "D. Widlar Mirror"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "In an operational transconductance amplifier (OTA), current mirrors are used to:",
+        "choices": [
+            "A. Reject common-mode signals",
+            "B. Step up the input voltage",
+            "C. Mirror the differential tail current to the output node",
+            "D. Act as a low-pass filter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 98,
+        "question": "The output compliance range of a constant current source is defined as:",
+        "choices": [
+            "A. The maximum current it can output",
+            "B. The range of load resistance it can drive",
+            "C. The range of output voltage over which the current remains relatively constant",
+            "D. The temperature range over which it operates"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "Two BJTs in a current mirror have a VBE mismatch of 26 mV at room temperature. Assuming VT = 26 mV, what is the approximate ratio of their collector currents?",
+        "choices": [
+            "A. 1 : 1",
+            "B. 2 : 1",
+            "C. 2.718 : 1 (or e : 1)",
+            "D. 10 : 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "A Widlar current source is constructed with a PNP transistor array to source current to a grounded load. The reference resistor (R_ref) is connected between the reference collector and:",
+        "choices": [
+            "A. VCC",
+            "B. Ground",
+            "C. The load",
+            "D. The output collector"
+        ],
+        "correct_answer": "B"
+    }
+]

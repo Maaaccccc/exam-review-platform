@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "The incredibly high input impedance of a standard JFET is primarily due to its:",
+        "choices": [
+            "A. Capacitive channel",
+            "B. Forward-biased gate",
+            "C. Reverse-biased gate-source junction",
+            "D. Insulated silicon dioxide gate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "In a JFET, the drain-to-source voltage at which the drain current becomes relatively constant (saturated) while the gate is shorted to the source is called the:",
+        "choices": [
+            "A. Pinch-off voltage",
+            "B. Early voltage",
+            "C. Threshold voltage",
+            "D. Breakdown voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "Which of the following is the correct mathematical expression for Shockley's equation used in JFET analysis?",
+        "choices": [
+            "A. Id = Idss * (1 + Vp/Vgs)^2",
+            "B. Id = Idss / (1 - Vgs/Vp)^2",
+            "C. Id = Idss * (1 - Vp/Vgs)",
+            "D. Id = Idss * (1 - Vgs/Vp)^2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "Worded circuit: An n-channel JFET is self-biased with a source resistor Rs. The gate is grounded via a large resistor Rg. The strict mathematical expression for the gate-to-source voltage Vgs is:",
+        "choices": [
+            "A. Vgs = Vdd - Id*Rs",
+            "B. Vgs = -Id*Rs",
+            "C. Vgs = Id*Rs",
+            "D. Vgs = Vg + Id*Rs"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "Worded circuit: An n-channel JFET (Idss = 10mA, Vp = -4V) uses fixed bias with a gate battery Vgg = 2V (negative to gate). Determine the exact drain current.",
+        "choices": [
+            "A. 2.5 mA",
+            "B. 5.0 mA",
+            "C. 7.5 mA",
+            "D. 10.0 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "To utilize a JFET as a voltage-controlled variable resistor, the device must operate in the ohmic region, which mathematically requires that:",
+        "choices": [
+            "A. Vds > Vgs - Vp",
+            "B. Vds = Vp",
+            "C. Vds < Vgs - Vp",
+            "D. Vds >"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 8,
+        "question": "Compared to standard BJTs, JFETs are often preferred in the design of high-fidelity audio preamplifiers primarily because of their:",
+        "choices": [
+            "A. High voltage gain",
+            "B. Extremely low flicker (1/f) noise and thermal noise",
+            "C. Higher current output capacity",
+            "D. Insusceptibility to static discharge"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "The physical construction of a Depletion-type MOSFET (D-MOSFET) fundamentally differs from an Enhancement-type MOSFET (E-MOSFET) because it has a:",
+        "choices": [
+            "A. Metal substrate",
+            "B. P-type gate",
+            "C. Heavily doped source",
+            "D. Physically pre-constructed continuous channel between drain and source"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 10,
+        "question": "A unique capability of the D-MOSFET is that it can operate seamlessly in:",
+        "choices": [
+            "A. Both the depletion mode and enhancement mode",
+            "B. Only the depletion mode",
+            "C. Only the enhancement mode",
+            "D. Neither; it operates strictly as a diode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "In a MOSFET, the incredibly high input impedance is achieved by physically isolating the metallic gate from the semiconductor channel using a thin layer of:",
+        "choices": [
+            "A. Germanium",
+            "B. Aluminum",
+            "C. Silicon dioxide (SiO2)",
+            "D. Gallium arsenide"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "The mathematical transfer characteristic curve (Id vs Vgs) of a D-MOSFET is fundamentally:",
+        "choices": [
+            "A. An exact straight line",
+            "B. A logarithmic curve",
+            "C. An exponential decay",
+            "D. A parabola crossing the y-axis at Idss"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "When a positive gate-to-source voltage (Vgs) is applied to an n-channel D-MOSFET, the device strictly operates in the:",
+        "choices": [
+            "A. Cutoff mode",
+            "B. Enhancement mode",
+            "C. Depletion mode",
+            "D. Avalanche mode"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 14,
+        "question": "Worded circuit: An n-channel D-MOSFET is configured in a zero-bias circuit where the gate is grounded through a 10-Megohm resistor and the source is grounded directly. The drain current Id will strictly equal:",
+        "choices": [
+            "A. Zero",
+            "B. Idss / 2",
+            "C. Idss",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "The forward transconductance (gm) of a D-MOSFET operating in the depletion mode is modeled by which mathematical equation?",
+        "choices": [
+            "A. gm = gm0 / (1 - Vgs/Vp)",
+            "B. gm = gm0 * (1 + Vgs/Vp)^2",
+            "C. gm = gm0 * (1 - Vgs/Vp)^2",
+            "D. gm = gm0 * (1 - Vgs/Vp)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 16,
+        "question": "An n-channel D-MOSFET has Idss = 12 mA and Vp = -4V. Calculate the exact drain current if the gate-to-source voltage is -2V.",
+        "choices": [
+            "A. 3.0 mA",
+            "B. 6.0 mA",
+            "C. 9.0 mA",
+            "D. 12.0 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "Using the same D-MOSFET (Idss = 12 mA, Vp = -4V), calculate the exact drain current if it operates in the enhancement mode with Vgs = +1V.",
+        "choices": [
+            "A. 12.0 mA",
+            "B. 18.75 mA",
+            "C. 15.0 mA",
+            "D. 24.0 mA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "While a JFET's input impedance decreases if the gate-source PN junction is slightly forward-biased, the input impedance of a D-MOSFET under positive Vgs bias strictly:",
+        "choices": [
+            "A. Remains extremely high due to the SiO2 insulator",
+            "B. Drops to near zero",
+            "C. Equals the channel resistance",
+            "D. Matches a forward-biased diode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "Dual-gate D-MOSFETs are highly favored in RF receiver front-ends (like mixers and AGC amplifiers) primarily because they provide:",
+        "choices": [
+            "A. Extreme power handling capacity",
+            "B. Excellent isolation between the two gates and extremely low feedback capacitance",
+            "C. Perfect zero-temperature coefficient",
+            "D. Absolute immunity to static destruction"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "For an n-channel D-MOSFET to operate strictly in the active (saturation) region acting as a constant current source, the drain-to-source voltage must satisfy:",
+        "choices": [
+            "A. Vds = 0",
+            "B. Vds < Vgs - Vp",
+            "C. Vds = Vgs",
+            "D. Vds > Vgs - Vp"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "In a discrete 4-terminal D-MOSFET, the substrate (or body) terminal is most commonly connected physically to the:",
+        "choices": [
+            "A. Source",
+            "B. Gate",
+            "C. Drain",
+            "D. Power supply ground always"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Unlike the D-MOSFET, the E-MOSFET is physically constructed such that at a gate-to-source voltage of zero (Vgs = 0V), the conductive channel:",
+        "choices": [
+            "A. Is fully wide",
+            "B. Does not exist",
+            "C. Is exactly half of its maximum width",
+            "D. Exhibits negative resistance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "The minimum applied gate-to-source voltage required to physically create (invert) a conductive channel in an E-MOSFET is formally defined as the:",
+        "choices": [
+            "A. Pinch-off voltage",
+            "B. Early voltage",
+            "C. Threshold voltage (Vt or Vgs(th))",
+            "D. Cutoff voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "In standardized electronic schematics, the basic symbol for an E-MOSFET visually differs from a D-MOSFET primarily by having a:",
+        "choices": [
+            "A. Broken or dashed vertical line representing the channel",
+            "B. Solid, thick vertical line",
+            "C. Arrow pointing outward from the drain",
+            "D. Zener diode across the source"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "The physical process by which an n-channel E-MOSFET forms a conductive channel involves the positive gate voltage repelling holes and attracting electrons to the surface, creating an:",
+        "choices": [
+            "A. Avalanche layer",
+            "B. Inversion layer",
+            "C. Epitaxial layer",
+            "D. Intrinsic layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "The non-linear drain current equation for an E-MOSFET operating in the saturation (active) region is strictly given by:",
+        "choices": [
+            "A. Id = k * (Vgs + Vt)^2",
+            "B. Id = Idss * (1 - Vgs/Vt)^2",
+            "C. Id = k / (Vgs - Vt)^2",
+            "D. Id = k * (Vgs - Vt)^2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "In the E-MOSFET saturation current equation, Id = k*(Vgs - Vt)^2, the mathematical unit for the device constant 'k' is strictly:",
+        "choices": [
+            "A. Volts / Ampere^2",
+            "B. Amperes / Volt",
+            "C. Amperes / Volt^2",
+            "D. Siemens"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Worded circuit: An n-channel E-MOSFET utilizes drain-feedback bias, where a large resistor Rg connects the drain directly to the gate. Because the gate draws practically zero current, the DC voltage relationship established is strictly:",
+        "choices": [
+            "A. Vgs = Vdd",
+            "B. Vgs = 0 V",
+            "C. Vgs = Vds / 2",
+            "D. Vgs = Vds"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "An E-MOSFET datasheet specifies a threshold voltage Vt = 2V and an \"on\" state point of Id(on) = 18 mA at Vgs(on) = 5V. Calculate the exact device constant 'k'.",
+        "choices": [
+            "A. 2.0 mA/V^2",
+            "B. 3.6 mA/V^2",
+            "C. 1.0 mA/V^2",
+            "D. 18 mA/V^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Using the exact E-MOSFET from the previous question (k = 2.0 mA/V^2, Vt = 2V), determine the operating drain current if it is biased at Vgs = 4V.",
+        "choices": [
+            "A. 16.0 mA",
+            "B. 4.0 mA",
+            "C. 8.0 mA",
+            "D. 12.0 mA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "Worded circuit: An E-MOSFET uses a voltage divider bias with Vdd = 24V. R1 (to Vdd) is 10 Megohms, R2 (to ground) is 15 Megohms. What is the precise DC voltage at the gate (Vg)?",
+        "choices": [
+            "A. 9.6 V",
+            "B. 14.4 V",
+            "C. 10.0 V",
+            "D. 15.0 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "Worded circuit: An E-MOSFET (k = 0.5 mA/V^2, Vt = 3V) is biased using a drain-feedback resistor. The drain connects to a 15V supply via a 2 k-ohm resistor Rd. Calculate the exact Vds (and Vgs) by solving the resulting quadratic equation.",
+        "choices": [
+            "A. 6 V",
+            "B. 10 V",
+            "C. 8 V",
+            "D. 5 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "For a standard n-channel E-MOSFET to operate strictly in the cutoff region (zero drain current), the gate-to-source voltage must physically satisfy:",
+        "choices": [
+            "A. Vgs < Vt",
+            "B. Vgs > Vt",
+            "C. Vds < Vgs - Vt",
+            "D. Vgs = Vds"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "To ensure an E-MOSFET operates safely as a constant current source (saturation region), the physical biasing conditions must strictly meet Vgs > Vt and:",
+        "choices": [
+            "A. Vds < Vgs - Vt",
+            "B. Vds >= Vgs - Vt",
+            "C. Vds = 0",
+            "D. Vds < Vt"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "When an E-MOSFET is used as a voltage-controlled switch in the perfectly \"ON\" state, it operates in the linear (ohmic/triode) region. This mathematically requires Vgs > Vt and strictly:",
+        "choices": [
+            "A. Vds >= Vgs - Vt",
+            "B. Vds = Vdd",
+            "C. Vds < Vgs - Vt",
+            "D. Vds > Vt"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "The small-signal transconductance (gm) of an E-MOSFET operating in the saturation region is derived by taking the derivative of Id with respect to Vgs, resulting in the exact formula:",
+        "choices": [
+            "A. gm = 2 * k * (Vgs - Vt)",
+            "B. gm = k * (Vgs - Vt)^2",
+            "C. gm = 2 * k / (Vgs - Vt)",
+            "D. gm = k * (Vgs + Vt)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "If the substrate (body) of an n-channel E-MOSFET is biased at a negative voltage relative to the source, the threshold voltage (Vt) will strictly:",
+        "choices": [
+            "A. Decrease",
+            "B. Become zero",
+            "C. Increase",
+            "D. Invert polarity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "Worded circuit: A power E-MOSFET is driven by a logic gate. When the gate signal drops to 0V to turn the MOSFET off, the physical turn-off time is predominantly delayed by the discharging of the:",
+        "choices": [
+            "A. Output load resistor",
+            "B. Source inductance",
+            "C. Internal body diode",
+            "D. Gate-to-source and gate-to-drain capacitances"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 39,
+        "question": "In modern analog E-MOSFET design, the slight increase in drain current as Vds increases in the saturation region is mathematically modeled by adding the factor (1 + lambda*Vds). This physical phenomenon is known as:",
+        "choices": [
+            "A. Channel length modulation",
+            "B. Avalanche multiplication",
+            "C. Velocity saturation",
+            "D. Drain-induced barrier lowering"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 40,
+        "question": "In ultra-low-power digital circuits, the minute current that flows even when Vgs is slightly below Vt is a major concern. This exponential current is technically called:",
+        "choices": [
+            "A. Zener leakage",
+            "B. Transition current",
+            "C. Displacement current",
+            "D. Subthreshold conduction"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "In short-channel E-MOSFETs, as the lateral electric field becomes extremely high, the carrier drift velocity stops increasing linearly with the field. This severely limits the maximum drain current and is known as:",
+        "choices": [
+            "A. Impact ionization",
+            "B. Velocity saturation",
+            "C. Field inversion",
+            "D. Pinch-off limiting"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "The exact mathematical boundary on the output characteristic curve separating the triode (ohmic) region from the saturation (active) region is defined by the locus of points where:",
+        "choices": [
+            "A. Vds = Vgs",
+            "B. Vgs = Vt",
+            "C. Vds = Vgs - Vt",
+            "D. Vds = Vdd / 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "In analog IC design, the quantity (Vgs - Vt) dictates how strongly the MOSFET channel is inverted and is formally referred to as the:",
+        "choices": [
+            "A. Saturation margin",
+            "B. Overdrive voltage (Vov)",
+            "C. Early voltage",
+            "D. Pinch-off differential"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "The ultra-thin silicon dioxide dielectric separating the gate from the channel in a MOSFET is extremely vulnerable to permanent destruction from:",
+        "choices": [
+            "A. Static electricity discharge (ESD)",
+            "B. Low frequency magnetic fields",
+            "C. Moderate thermal cycling",
+            "D. Visible light exposure"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "An ideal complementary MOS (CMOS) digital logic gate, while completely static (not switching), theoretically consumes zero power because:",
+        "choices": [
+            "A. The threshold voltages cancel out",
+            "B. Both transistors conduct equally",
+            "C. One transistor is always in cutoff while the other is fully on",
+            "D. The gate capacitances act as open circuits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "In an n-channel E-MOSFET operating in saturation, the physical inversion layer tapers off and reaches zero thickness at the drain end of the channel. This specific geometric condition is called:",
+        "choices": [
+            "A. Channel truncation",
+            "B. Pinch-off",
+            "C. Drain starvation",
+            "D. Velocity limiting"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "Worded circuit: An E-MOSFET is used as a constant current sink. Its gate is tied to a precise 5V reference. The source is grounded. If Vt = 2V and k = 1 mA/V^2, and Vds is sufficiently high, what is the exact regulated sink current?",
+        "choices": [
+            "A. 3 mA",
+            "B. 1 mA",
+            "C. 5 mA",
+            "D. 9 mA"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 48,
+        "question": "A MOSFET operating in the deep triode region (Vds << Vov) acts as a linear resistor. Its theoretical drain-to-source resistance rds is mathematically inversely proportional to the:",
+        "choices": [
+            "A. Overdrive voltage (Vgs - Vt)",
+            "B. Threshold voltage (Vt)",
+            "C. Supply voltage (Vdd)",
+            "D. Output voltage (Vds)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "Worded circuit: Two n-channel E-MOSFETs are connected in series. M1 is the amplifying device (source grounded). M2 is the cascode device (source connected to M1 drain, drain to load). The primary purpose of adding M2 is to drastically:",
+        "choices": [
+            "A. Increase the current handling capability",
+            "B. Decrease the output impedance",
+            "C. Reduce the Miller effect and increase amplifier bandwidth",
+            "D. Convert the circuit into a digital inverter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "In the small-signal model of a MOSFET, the finite output resistance (ro) resulting from channel length modulation is mathematically evaluated as:",
+        "choices": [
+            "A. 1 / (lambda * Vgs)",
+            "B. 1 / (lambda * Id)",
+            "C. lambda / Id",
+            "D. Id / lambda"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "The physical gate-to-source capacitance (Cgs) in a MOSFET operating in the saturation region is primarily composed of the overlap capacitance and the:",
+        "choices": [
+            "A. Junction depletion capacitance",
+            "B. Diffusion capacitance",
+            "C. Sidewall capacitance",
+            "D. Channel charge capacitance (approx. 2/3 W*L*Cox)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "Worded circuit: An n-channel amplifier uses a p-channel MOSFET as its drain load. The gate of the p-channel device is tied directly to its drain. This configuration specifically creates a/an:",
+        "choices": [
+            "A. Infinite impedance source",
+            "B. Voltage multiplier",
+            "C. Diode-connected active load",
+            "D. Cascode stage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 53,
+        "question": "As the operating temperature of a MOSFET increases, two competing phenomena occur: carrier mobility decreases, and the threshold voltage magnitude decreases. In most standard power MOSFET applications, the dominant effect causes the drain current to:",
+        "choices": [
+            "A. Decrease (negative temperature coefficient)",
+            "B. Increase uncontrollably",
+            "C. Fluctuate randomly",
+            "D. Remain perfectly constant"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "As MOSFET channel lengths scale deep into the nanometer regime, the gate begins to lose control over the channel charge, causing subthreshold leakage to spike. This broad category of non-ideal behavior is collectively termed:",
+        "choices": [
+            "A. Avalanche breakdown",
+            "B. Short-channel effects (SCE)",
+            "C. Thermal runaway",
+            "D. Early effects"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "In extremely short-channel MOSFETs, a high drain voltage can electrostatically force the channel barrier to lower, exponentially increasing leakage current. This specific effect is known as:",
+        "choices": [
+            "A. Velocity saturation",
+            "B. Latch-up",
+            "C. Electromigration",
+            "D. Drain-Induced Barrier Lowering (DIBL)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 56,
+        "question": "The catastrophic short-channel condition where the depletion region of the drain extends completely across the channel and merges with the source depletion region is formally called:",
+        "choices": [
+            "A. Thermal runaway",
+            "B. Zener breakdown",
+            "C. Punch-through",
+            "D. Snapback"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "VMOS gets its name from its unique physical construction, where the gate is formed inside a V-shaped groove etched into the silicon. This vertical geometry primarily allows for a:",
+        "choices": [
+            "A. Wider and much shorter channel, yielding massive current capacity and fast switching",
+            "B. Much higher threshold voltage",
+            "C. Zero internal capacitance",
+            "D. Perfect isolation between gate and source"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Due to its geometry, a typical VMOS transistor is overwhelmingly utilized in electronic applications requiring:",
+        "choices": [
+            "A. Extreme sub-nanoampere leakage",
+            "B. Ultra-dense memory storage",
+            "C. Precision small-signal analog amplification",
+            "D. High-speed power switching and motor control"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 59,
+        "question": "Unlike standard planar MOSFETs where current flows laterally across the chip surface, the physical drain current in a VMOS transistor flows:",
+        "choices": [
+            "A. Radially outward",
+            "B. Vertically from the top surface (source) down to the bottom substrate (drain)",
+            "C. Circularly around the gate",
+            "D. Horizontally between deep trenches"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "In modern RF power amplifiers (e.g., cell tower base stations), the preferred solid-state device is the LDMOS. The acronym LDMOS strictly stands for:",
+        "choices": [
+            "A. Low-Density Metal Oxide Semiconductor",
+            "B. Lateral Drain Metal Oxide Silicon",
+            "C. Laterally Diffused Metal Oxide Semiconductor",
+            "D. Linear Digital MOS"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "LDMOS technology massively dominates the high-power RF amplifier market primarily because it offers highly linear performance and an extremely low:",
+        "choices": [
+            "A. Operating voltage",
+            "B. Feedback capacitance (Cgd), preventing unwanted oscillations",
+            "C. Physical weight",
+            "D. Threshold voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "To sustain high drain voltages without catastrophic breakdown, the LDMOS structure incorporates a specialized, lightly doped physical area called the:",
+        "choices": [
+            "A. Epitaxial gate",
+            "B. Floating well",
+            "C. Zener clamp",
+            "D. Drift region"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 63,
+        "question": "A significant engineering advantage of VMOS power transistors over bipolar power transistors is that VMOS devices possess a negative temperature coefficient for drain current. This inherently prevents:",
+        "choices": [
+            "A. Excessive power loss",
+            "B. Thermal runaway (current hogging)",
+            "C. High-frequency noise",
+            "D. Electrostatic discharge destruction"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "Worded circuit: A VMOS transistor is used to rapidly switch a massive 10A inductive motor load. To prevent destruction from the back-EMF spike when the VMOS turns off, the circuit must include a:",
+        "choices": [
+            "A. Zener diode in series with the gate",
+            "B. Bleeder resistor across the battery",
+            "C. Freewheeling (flyback) diode strictly in parallel with the inductive load",
+            "D. Large bypass capacitor at the source"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "LDMOS structures are explicitly engineered to ground the source terminal directly to the back of the die substrate. This ingenious layout almost completely eliminates the parasitic:",
+        "choices": [
+            "A. Common-source inductance and improves high-frequency stability",
+            "B. Gate-source capacitance",
+            "C. Body diode conduction",
+            "D. Subthreshold leakage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "In integrated circuit technology, the universal acronym CMOS strictly stands for:",
+        "choices": [
+            "A. Cascaded Metal Oxide Silicon",
+            "B. Constant Metal Oxide Semiconductor",
+            "C. Complementary Metal Oxide Semiconductor",
+            "D. Complex Mosfet Output Stage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "The overwhelming dominance of CMOS in digital logic design is fundamentally due to its:",
+        "choices": [
+            "A. Extremely high voltage operation capability",
+            "B. Resistance to cosmic radiation",
+            "C. Superior analog audio fidelity",
+            "D. Near-zero static power dissipation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 68,
+        "question": "A standard CMOS digital logic gate is physically constructed using what specific combination of transistors?",
+        "choices": [
+            "A. Only NMOS transistors",
+            "B. Both NMOS and PMOS transistors",
+            "C. Only PMOS transistors",
+            "D. NPN and PNP bipolar transistors"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "Because NMOS and PMOS transistors require opposite types of substrates, modern CMOS fabrication on a standard p-type silicon wafer requires the creation of localized n-type regions called:",
+        "choices": [
+            "A. N-wells",
+            "B. N-gates",
+            "C. Epitaxial trenches",
+            "D. Ohmic contacts"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "A critical, potentially destructive failure mode unique to bulk CMOS integrated circuits is caused by parasitic bipolar transistors forming an internal SCR. This catastrophic short-circuit condition is formally called:",
+        "choices": [
+            "A. Punch-through",
+            "B. Latch-up",
+            "C. Thermal runaway",
+            "D. Snapback breakdown"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "While CMOS consumes almost zero static power, its dynamic power dissipation increases proportionally with clock frequency. This physical power loss is overwhelmingly caused by the continuous:",
+        "choices": [
+            "A. Leakage current across the substrate",
+            "B. Avalanche breakdown of the drains",
+            "C. Thermal generation of electron-hole pairs",
+            "D. Charging and discharging of parasitic node capacitances"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "Worded circuit: A standard CMOS inverter is built with Vdd at the top and Ground at the bottom. The input signal connects directly to the gates of both an upper PMOS and a lower NMOS. The output is taken exactly at the:",
+        "choices": [
+            "A. PMOS source",
+            "B. Common connection between the PMOS drain and NMOS drain",
+            "C. NMOS source",
+            "D. Common connection between both substrates"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "In a silicon crystal, the mobility of electrons is roughly two to three times greater than the mobility of holes. Consequently, for a CMOS inverter to have roughly symmetric switching times, the physical width of the PMOS transistor must be:",
+        "choices": [
+            "A. Equal to the NMOS",
+            "B. Much smaller than the NMOS",
+            "C. Exactly zero",
+            "D. Two to three times wider than the NMOS"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "To drastically reduce parasitic junction capacitances and completely eliminate latch-up, high-performance modern CMOS chips are built on wafers where an insulating layer of oxide sits immediately below the active silicon. This advanced technology is called:",
+        "choices": [
+            "A. Silicon-On-Insulator (SOI)",
+            "B. Vertical Channel CMOS",
+            "C. FinFET",
+            "D. Bipolar-CMOS (BiCMOS)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "Worded circuit: A CMOS transmission gate (analog switch) is formed by connecting an NMOS and a PMOS transistor directly in parallel. To turn the switch fully ON, the control signals applied to the NMOS and PMOS gates must be:",
+        "choices": [
+            "A. Both High",
+            "B. Complementary (NMOS High, PMOS Low)",
+            "C. Complementary (NMOS Low, PMOS High)",
+            "D. Both Low"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "Modern IC designers mathematically prevent CMOS latch-up by adding heavily doped guard rings around the transistors and utilizing substrate contacts. These physical measures work specifically by:",
+        "choices": [
+            "A. Increasing the parasitic beta",
+            "B. Eliminating the N-well",
+            "C. Increasing the clock frequency",
+            "D. Reducing the parasitic resistance in the substrate and well"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "During the brief physical transition when a CMOS logic gate switches states, there is a tiny moment when both the NMOS and PMOS networks are partially ON. The resulting spike of current directly from Vdd to ground is technically called the:",
+        "choices": [
+            "A. Displacement current",
+            "B. Leakage current",
+            "C. Short-circuit (crowbar) current",
+            "D. Avalanche current"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "In a fundamental CMOS logic gate, the PMOS transistors are exclusively utilized to construct the:",
+        "choices": [
+            "A. Pull-up network (PUN)",
+            "B. Pull-down network (PDN)",
+            "C. Substrate bias network",
+            "D. Clock distribution tree"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "In a fundamental CMOS logic gate, the NMOS transistors are exclusively utilized to construct the:",
+        "choices": [
+            "A. Pull-up network (PUN)",
+            "B. Pull-down network (PDN)",
+            "C. Latch-up guard ring",
+            "D. Transmission gate only"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "To physically implement a standard 2-input CMOS NAND gate, the two NMOS transistors in the pull-down network must be connected strictly in:",
+        "choices": [
+            "A. Parallel",
+            "B. A cross-coupled latch",
+            "C. Series",
+            "D. A differential pair"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 81,
+        "question": "To physically implement a standard 2-input CMOS NOR gate, the two PMOS transistors in the pull-up network must be connected strictly in:",
+        "choices": [
+            "A. Parallel",
+            "B. Anti-parallel",
+            "C. A feedback loop",
+            "D. Series"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 82,
+        "question": "Worded circuit: A CMOS gate features two NMOS transistors in series connecting the output to ground. The corresponding PMOS network features two PMOS transistors in parallel connecting the output to Vdd. This exact physical topology acts as a logic:",
+        "choices": [
+            "A. NAND gate",
+            "B. NOR gate",
+            "C. XOR gate",
+            "D. XNOR gate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "Worded circuit: A CMOS gate features two NMOS transistors in parallel connecting the output to ground. The corresponding PMOS network features two PMOS transistors in series connecting the output to Vdd. This exact physical topology acts as a logic:",
+        "choices": [
+            "A. NAND gate",
+            "B. NOR gate",
+            "C. AND gate",
+            "D. OR gate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "Assuming a 5V Vdd, an ideal CMOS inverter has perfectly symmetric threshold characteristics. The exact logic transition point (V_inv), where input voltage equals output voltage, is theoretically designed to be exactly:",
+        "choices": [
+            "A. 0.7 V",
+            "B. 5.0 V",
+            "C. 0 V",
+            "D. 2.5 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Worded circuit: A custom IC requires a 4-input CMOS NAND gate. What is the exact total number of MOSFETs (both NMOS and PMOS combined) required to physically build this logic gate?",
+        "choices": [
+            "A. 4",
+            "B. 6",
+            "C. 8",
+            "D. 16"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 86,
+        "question": "In a 3-input CMOS NOR gate, the three PMOS transistors are in series. To maintain an equivalent rise time equal to a standard inverter, the physical width (W) of each PMOS transistor must mathematically be:",
+        "choices": [
+            "A. Three times wider than the inverter's PMOS",
+            "B. Exactly the same as the inverter's PMOS",
+            "C. One-third the width of the inverter's PMOS",
+            "D. Nine times wider"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "Worded circuit: A CMOS pull-down network consists of NMOS 'A' in series with a parallel combination of NMOS 'B' and NMOS 'C'. This entire block connects the output to ground. The logic function Y implemented by this entire CMOS gate is:",
+        "choices": [
+            "A. Y = A + (B * C)",
+            "B. Y = (A * B) + C",
+            "C. Y = A * (B + C)",
+            "D. Y = NOT( A * (B + C) )"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "While a basic NAND or NOR gate takes 4 transistors, a standard fully static CMOS implementation of a 2-input XOR gate (without using pass-transistor logic) typically requires a minimum of how many transistors?",
+        "choices": [
+            "A. 4",
+            "B. 10 to 12",
+            "C. 2",
+            "D. 6"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "A major design alternative to standard static CMOS is Pass-Transistor Logic (PTL). A known significant drawback of purely NMOS PTL is that it:",
+        "choices": [
+            "A. Consumes massive static power",
+            "B. Cannot transmit a strong logic '0'",
+            "C. Suffers from a threshold voltage drop (Vt) when transmitting a logic '1'",
+            "D. Requires three power supplies"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "Dynamic CMOS logic circuits rely on precharging a parasitic capacitance during one clock phase and conditionally discharging it in the next. A critical requirement for this logic family is that it must strictly:",
+        "choices": [
+            "A. Operate with a continuous, high-speed clock to prevent charge leakage",
+            "B. Use only PMOS transistors",
+            "C. Consume zero dynamic power",
+            "D. Run perfectly on DC signals without a clock"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "A notorious reliability problem inherent in dynamic CMOS logic gates, where the precharged output voltage drops inadvertently due to internal parasitic capacitances within the evaluation network, is formally known as:",
+        "choices": [
+            "A. Electromigration",
+            "B. Hot-electron injection",
+            "C. Alpha-particle disruption",
+            "D. Charge sharing"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "To combat extreme short-channel effects at nodes below 22nm, the industry transitioned from standard planar MOSFETs to 3D transistor structures where the gate wraps around three sides of the channel. This device is known universally as the:",
+        "choices": [
+            "A. BJT",
+            "B. FinFET",
+            "C. LDMOS",
+            "D. T-gate FET"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "In MOSFET fabrication, a layer of heavily doped silicon (n+ or p+) is placed directly beneath the metal source and drain terminals. The primary physical purpose of this is to guarantee the formation of a low-resistance:",
+        "choices": [
+            "A. Ohmic contact",
+            "B. Schottky barrier",
+            "C. Tunneling junction",
+            "D. Depletion region"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "As the physical thickness of the SiO2 gate dielectric in modern MOSFETs scales down below 2 nanometers, the gate begins to draw a severe leakage current primarily governed by which quantum mechanical effect?",
+        "choices": [
+            "A. Impact ionization",
+            "B. Avalanche multiplication",
+            "C. Thermionic emission",
+            "D. Direct quantum tunneling"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 95,
+        "question": "A fundamental metric defining the robustness of a CMOS logic gate is the maximum amount of voltage noise that can be superimposed on the input signal without causing an erroneous output state. This exact metric is the:",
+        "choices": [
+            "A. Slew rate",
+            "B. Noise margin",
+            "C. Propagation delay",
+            "D. Logic swing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "When designing with power MOSFETs, engineers must strictly ensure that the device's simultaneous voltage and current excursions remain safely confined within a specific graphical region provided in the datasheet known as the:",
+        "choices": [
+            "A. B-H curve",
+            "B. Smith chart",
+            "C. Forward-Bias Safe Operating Area (FBSOA)",
+            "D. Transconductance envelope"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 97,
+        "question": "In a standard positive-logic CMOS system operating at Vdd = 3.3V, a voltage measured exactly at 3.3V represents a boolean state mathematically defined as:",
+        "choices": [
+            "A. Logic '1' (High)",
+            "B. Logic '0' (Low)",
+            "C. High-Z (Floating)",
+            "D. Undefined"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "In advanced CMOS design, manipulating the body terminal voltage independent of the source to actively change the threshold voltage (Vt) during operation is a technique known as:",
+        "choices": [
+            "A. Overdriving",
+            "B. Clock gating",
+            "C. Body biasing",
+            "D. Level shifting"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "To drastically reduce gate tunneling leakage in advanced MOSFETs while maintaining excellent capacitive control over the channel, manufacturers replaced standard SiO2 with materials like Hafnium Oxide. These advanced insulating materials are universally called:",
+        "choices": [
+            "A. Low-k dielectrics",
+            "B. Ferroelectrics",
+            "C. Piezoelectrics",
+            "D. High-k dielectrics"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "Fundamentally, an NMOS transistor is preferred over a PMOS transistor of the exact same physical dimensions for high-frequency switching operations because electrons mathematically possess a significantly higher:",
+        "choices": [
+            "A. Effective mass than holes",
+            "B. Mobility than holes",
+            "C. Electric charge than holes",
+            "D. Recombination rate than holes"
+        ],
+        "correct_answer": "B"
+    }
+]

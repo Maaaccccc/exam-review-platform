@@ -1,0 +1,1014 @@
+[
+    {
+        "number": 1,
+        "question": "In a standard Time Division Multiplexing (TDM) system, multiple channels share a single transmission medium by being allocated distinct:",
+        "choices": [
+            "A. Time slots on a single frequency",
+            "B. Frequency bands simultaneously",
+            "C. Orthogonal spreading codes",
+            "D. Wavelengths of light"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "The fundamental concept in modern cellular networks that multiplies overall system capacity by reassigning the exact same radio channels to non-adjacent geographical areas is called:",
+        "choices": [
+            "A. Handoff",
+            "B. Frequency reuse",
+            "C. Cell sectoring",
+            "D. Multiplexing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "To perfectly approximate free-space propagation conditions on a terrestrial line-of-sight microwave link, the physical path obstacle clearance must be at least 60% of the:",
+        "choices": [
+            "A. Earth's curvature",
+            "B. Skip distance",
+            "C. First Fresnel zone",
+            "D. Radio horizon"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "In fiber optic communications, chromatic dispersion causes optical pulses to broaden over long distances primarily because:",
+        "choices": [
+            "A. The fiber is physically bent too sharply",
+            "B. The core diameter is too large",
+            "C. The core contains microscopic physical impurities",
+            "D. Different wavelengths of light travel at slightly different velocities"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "The standard, most utilized satellite orbit for global communications, located approximately 35,786 km above the Earth's equator, is formally known as:",
+        "choices": [
+            "A. Geostationary Earth Orbit (GEO)",
+            "B. Low Earth Orbit (LEO)",
+            "C. Medium Earth Orbit (MEO)",
+            "D. Highly Elliptical Orbit (HEO)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "The Processing Gain of a Direct Sequence Spread Spectrum (DSSS) system is strictly mathematically defined as the ratio of the:",
+        "choices": [
+            "A. Transmitted power to the receiver noise figure",
+            "B. Spread RF bandwidth to the original baseband data bandwidth",
+            "C. Baseband data rate to the chipping rate",
+            "D. Symbol rate to the bit rate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "A standard European CEPT E1 carrier system multiplexes exactly how many individual 64-kbps voice channels?",
+        "choices": [
+            "A. 24",
+            "B. 32",
+            "C. 30",
+            "D. 128"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "Calculate the Equivalent Isotropic Radiated Power (EIRP) of a microwave transmitter outputting 10 W (+40 dBm) connected to an antenna with 20 dBi gain, assuming no feedline loss.",
+        "choices": [
+            "A. +20 dBm",
+            "B. +40 dBm",
+            "C. +50 dBm",
+            "D. +60 dBm"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "Which of the following is a primary, fundamental advantage of digital communication systems over analog communication systems?",
+        "choices": [
+            "A. Near-perfect immunity to cumulative noise using regenerative repeaters",
+            "B. Significantly narrower transmission bandwidth requirements",
+            "C. Elimination of the need for synchronization",
+            "D. Inability to be encrypted"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "Digital communication systems can perfectly restore a degraded transmitted signal periodically along a transmission line by utilizing circuits called:",
+        "choices": [
+            "A. Linear amplifiers",
+            "B. Regenerative repeaters",
+            "C. Analog companders",
+            "D. Variable attenuators"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "Digital communication systems easily allow the combining of various signal types (voice, video, data) onto a single link. This highly efficient process is known as:",
+        "choices": [
+            "A. Frequency modulation",
+            "B. Amplitude shifting",
+            "C. Time-division multiplexing",
+            "D. Superheterodyning"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "Which of the following represents the most significant technical disadvantage of utilizing a digital communication system instead of an analog one?",
+        "choices": [
+            "A. Extremely high vulnerability to thermal noise",
+            "B. Inability to use forward error correction",
+            "C. Extreme difficulty in integrating with modern computers",
+            "D. Considerably larger transmission bandwidth required for the same information"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Because digital signals consist of discrete states, they are uniquely well-suited for high-level security applications through the direct application of:",
+        "choices": [
+            "A. Cryptographic encryption algorithms",
+            "B. Frequency modulation",
+            "C. Analog pre-emphasis",
+            "D. High-power RF amplifiers"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "The ability of a digital receiver to automatically detect and correct bit errors introduced by a noisy channel is achieved through:",
+        "choices": [
+            "A. Analog filtering",
+            "B. Forward Error Correction (FEC)",
+            "C. Slope detection",
+            "D. Automatic Gain Control (AGC)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "When comparing the performance degradation of analog versus digital systems as the Signal-to-Noise Ratio (SNR) decreases, the digital system's Bit Error Rate (BER) characteristically:",
+        "choices": [
+            "A. Degrades linearly and proportionally",
+            "B. Improves as noise increases",
+            "C. Exhibits a sudden, catastrophic \"waterfall\" failure at a specific threshold",
+            "D. Remains perfectly zero regardless of the noise level"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "The overall cost and physical footprint of complex digital communication equipment have drastically decreased over the decades primarily due to advancements in:",
+        "choices": [
+            "A. Vacuum tube technology",
+            "B. Antenna design",
+            "C. Lead-acid battery miniaturization",
+            "D. Large Scale Integration (LSI) and VLSI digital circuits"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "In the standard block diagram of a digital communication system, which specific block is primarily responsible for converting the continuous analog input into a discrete digital bit stream?",
+        "choices": [
+            "A. Source Encoder (A/D Converter)",
+            "B. Channel Encoder",
+            "C. Modulator",
+            "D. Multiplexer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "In a digital communication system, the Channel Encoder specifically improves system reliability by deliberately:",
+        "choices": [
+            "A. Removing all redundancy from the source data",
+            "B. Introducing structured redundancy (parity bits) to enable error correction",
+            "C. Modulating the baseband signal onto an RF carrier",
+            "D. Amplifying the signal voltage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "The Modulator in a digital communication transmitter is explicitly tasked with mathematically converting the baseband digital sequence into:",
+        "choices": [
+            "A. A purely analog voice signal",
+            "B. A lower-frequency subcarrier",
+            "C. A continuous-time waveform suitable for the specific transmission channel",
+            "D. A compressed data file"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "In the receiver portion of a digital communication system, which block strictly performs the inverse operation of the Modulator?",
+        "choices": [
+            "A. Channel Decoder",
+            "B. Source Decoder",
+            "C. Equalizer",
+            "D. Demodulator"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "The Source Decoder in a digital communication receiver fundamentally serves to:",
+        "choices": [
+            "A. Reconstruct the original continuous analog signal from the binary data",
+            "B. Correct errors using Viterbi decoding",
+            "C. Downconvert the RF signal to the intermediate frequency (IF)",
+            "D. Extract the clock timing from the carrier"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Which block in a digital transmission system is explicitly engineered to compress the data by removing inherent redundancy from the original message?",
+        "choices": [
+            "A. Modulator",
+            "B. Source Encoder",
+            "C. Channel Encoder",
+            "D. Line Coder"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "The physical medium that bridges the transmitter and receiver and introduces unavoidable thermal noise, attenuation, and distortion is formally known as the:",
+        "choices": [
+            "A. Equalizer",
+            "B. Modulator",
+            "C. Communication Channel",
+            "D. Multiplexer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "In a highly noisy digital channel, the receiver block that utilizes redundant parity bits to detect and fix corrupted data bits is the:",
+        "choices": [
+            "A. Source Decoder",
+            "B. Modulator",
+            "C. Multiplexer",
+            "D. Channel Decoder"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "In evaluating digital link models, Additive White Gaussian Noise (AWGN) is theoretically injected into the system exactly at the:",
+        "choices": [
+            "A. Channel",
+            "B. Source Encoder",
+            "C. Modulator",
+            "D. Destination"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "The mathematical theorem that fundamentally establishes the maximum data compression limit (entropy) of a source encoder is:",
+        "choices": [
+            "A. Nyquist Sampling Theorem",
+            "B. Shannon's Source Coding Theorem",
+            "C. Friis Transmission Formula",
+            "D. Hartley's Law"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "The mathematical theorem that fundamentally dictates the maximum error-free data rate achievable through a noisy channel utilizing ideal channel coding is:",
+        "choices": [
+            "A. Bessel's Equation",
+            "B. Nyquist's Bandwidth Theorem",
+            "C. Shannon's Channel Coding Theorem (Shannon-Hartley Theorem)",
+            "D. Parseval's Theorem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "At the very end of the digital communication receiver chain, the hardware component strictly responsible for generating the final physical output (e.g., sound or picture) is the:",
+        "choices": [
+            "A. Channel Decoder",
+            "B. Demodulator",
+            "C. Baseband Processor",
+            "D. Destination (Output Transducer)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "In digital receiver design, the highly critical process of synchronizing the receiver's timing to perfectly match the transmitter's symbol transitions is called:",
+        "choices": [
+            "A. Clock recovery (Symbol synchronization)",
+            "B. Forward error correction",
+            "C. Companding",
+            "D. Baseband mixing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "To efficiently combat burst errors caused by severe fading, digital communication transmitters frequently scramble the order of encoded bits before modulation using a block known as an:",
+        "choices": [
+            "A. Equalizer",
+            "B. Interleaver",
+            "C. Integrator",
+            "D. Oscillator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "At the receiver, the block that puts the scrambled bits back into their original chronological sequence before channel decoding is the:",
+        "choices": [
+            "A. Demodulator",
+            "B. Source Decoder",
+            "C. De-interleaver",
+            "D. Digital-to-Analog Converter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "A digital modulator converts the discrete bits into physical electrical waveforms. If it strictly maps the bits into different phase shifts of a sinusoidal carrier, it is known as a:",
+        "choices": [
+            "A. Frequency Modulator (FSK)",
+            "B. Amplitude Modulator (ASK)",
+            "C. Pulse Width Modulator (PWM)",
+            "D. Phase Modulator (PSK)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "In digital communications, the precise number of discrete signaling events or symbol transitions transmitted per second across the channel is formally defined as the:",
+        "choices": [
+            "A. Baud rate (Symbol rate)",
+            "B. Bit rate",
+            "C. Nyquist rate",
+            "D. Channel capacity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "The precise number of actual binary information bits transmitted per second across a digital communication channel is formally defined as the:",
+        "choices": [
+            "A. Baud rate",
+            "B. Bit rate",
+            "C. Symbol rate",
+            "D. Nyquist rate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "In a digital modulation scheme featuring M discrete signaling states (M-ary), the mathematical relationship between the bit rate (fb) and the baud rate (fs) is strictly:",
+        "choices": [
+            "A. fs = fb * log2(M)",
+            "B. fs = fb * 2M",
+            "C. fs = fb / log2(M)",
+            "D. fs = fb / M"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "According to the Shannon-Hartley theorem, the theoretical maximum channel capacity (C) in bits per second is calculated using the formula:",
+        "choices": [
+            "A. C = B * log10(1 + S/N)",
+            "B. C = 2B * log2(M)",
+            "C. C = 2B * (S/N)",
+            "D. C = B * log2(1 + S/N)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "For standard Binary Phase Shift Keying (BPSK) where M=2, the mathematical relationship between the baud rate and the bit rate is:",
+        "choices": [
+            "A. The baud rate is exactly equal to the bit rate",
+            "B. The baud rate is half the bit rate",
+            "C. The baud rate is twice the bit rate",
+            "D. The baud rate is four times the bit rate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "For Quadrature Phase Shift Keying (QPSK) where M=4, how does the baud rate relate to the baseband bit rate?",
+        "choices": [
+            "A. The baud rate equals the bit rate",
+            "B. The baud rate is exactly half the bit rate",
+            "C. The baud rate is exactly twice the bit rate",
+            "D. The baud rate is exactly one-quarter the bit rate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "If a digital transmission system utilizes 16-QAM, how many discrete binary bits are uniquely encoded into every single transmitted symbol?",
+        "choices": [
+            "A. 2 bits",
+            "B. 8 bits",
+            "C. 4 bits",
+            "D. 16 bits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "The critical metric formally defined as the ratio of the total bit rate to the utilized transmission bandwidth (measured in bps/Hz) is called:",
+        "choices": [
+            "A. The Signal-to-noise ratio",
+            "B. The Baud rate",
+            "C. The Shannon limit",
+            "D. Spectral efficiency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Calculate the theoretical spectral efficiency of a standard 64-QAM digital microwave link, assuming ideal Nyquist filtering (roll-off factor alpha = 0).",
+        "choices": [
+            "A. 6 bps/Hz",
+            "B. 8 bps/Hz",
+            "C. 64 bps/Hz",
+            "D. 32 bps/Hz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "A high-speed digital subscriber line uses 256-QAM modulation. If the system operates at a baud rate of 5 Mbaud, what is the total aggregate bit rate?",
+        "choices": [
+            "A. 1280 Mbps",
+            "B. 40 Mbps",
+            "C. 20 Mbps",
+            "D. 256 Mbps"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "A modern Wi-Fi system needs to transmit a 150 Mbps data stream. If it utilizes 1024-QAM modulation, what is the strict minimum required baud rate?",
+        "choices": [
+            "A. 1024 Mbaud",
+            "B. 150 Mbaud",
+            "C. 15 Mbaud",
+            "D. 30 Mbaud"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "What is the theoretical minimum Nyquist transmission bandwidth strictly required to transmit a 20 Mbps data stream using standard BPSK?",
+        "choices": [
+            "A. 5 MHz",
+            "B. 40 MHz",
+            "C. 10 MHz",
+            "D. 20 MHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "What is the theoretical minimum Nyquist transmission bandwidth strictly required to transmit the exact same 20 Mbps data stream using QPSK?",
+        "choices": [
+            "A. 10 MHz",
+            "B. 5 MHz",
+            "C. 20 MHz",
+            "D. 40 MHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "According to Shannon's limit, if a communication channel has absolutely infinite bandwidth, the maximum achievable capacity is fundamentally constrained by:",
+        "choices": [
+            "A. The speed of light",
+            "B. The total signal power divided by the noise power spectral density (1.44 S/N0)",
+            "C. The physical size of the transmitting antenna",
+            "D. The maximum clock frequency of the processor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "A standard analog telephone channel has a bandwidth of approximately 3 kHz. If the measured Signal-to-Noise Ratio (SNR) is strictly 30 dB, calculate the approximate theoretical Shannon capacity.",
+        "choices": [
+            "A. 9.96 kbps",
+            "B. 60.0 kbps",
+            "C. 29.9 kbps",
+            "D. 90.0 kbps"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "Nyquist's formula for a noiseless channel states that the absolute maximum data rate (C) for a channel of bandwidth B using M discrete signal levels is:",
+        "choices": [
+            "A. C = B * log2(M)",
+            "B. C = B * M",
+            "C. C = B * log10(M)",
+            "D. C = 2B * log2(M)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "If an ideal noiseless channel has a bandwidth of 5 MHz, what is the maximum achievable data rate according to Nyquist if a 64-QAM signaling scheme is employed?",
+        "choices": [
+            "A. 60 Mbps",
+            "B. 120 Mbps",
+            "C. 30 Mbps",
+            "D. 320 Mbps"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "Practical pulse shaping filters (like the raised cosine filter) utilize a roll-off factor (alpha) to prevent Intersymbol Interference. For a given baud rate (fs), the actual required bandwidth is:",
+        "choices": [
+            "A. B = fs / 2",
+            "B. B = (fs / 2) * (1 + alpha)",
+            "C. B = fs * (1 + alpha)",
+            "D. B = (fs / 2) * (1 - alpha)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Calculate the required transmission bandwidth for a 10 Mbaud QPSK signal if the system utilizes a raised cosine pulse shaping filter with a roll-off factor of 0.5.",
+        "choices": [
+            "A. 15 MHz",
+            "B. 10 MHz",
+            "C. 7.5 MHz",
+            "D. 5 MHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "In standard digital communication terminology, the duration of time that a single discrete signaling state occupies the channel is technically known as the:",
+        "choices": [
+            "A. Bit period",
+            "B. Nyquist interval",
+            "C. Sampling period",
+            "D. Symbol period"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "If a digital system utilizes an 8-PSK modulation scheme, the duration of a single symbol period (Ts) is exactly equal to how many bit periods (Tb)?",
+        "choices": [
+            "A. 3",
+            "B. 8",
+            "C. 1/3",
+            "D. 1/8"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "A heavily degraded channel has an SNR of 0 dB (Signal power equals Noise power). What is the theoretical Shannon capacity of this channel if its bandwidth is 1 MHz?",
+        "choices": [
+            "A. 0 bps",
+            "B. 1 Mbps",
+            "C. 2 Mbps",
+            "D. 0.5 Mbps"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "If a communication system must transmit 100 Mbps over a strictly limited 20 MHz channel (assuming ideal Nyquist filtering), what is the minimum required number of bits per symbol?",
+        "choices": [
+            "A. 2",
+            "B. 4",
+            "C. 5",
+            "D. 10"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "Based on the previous question (requiring 5 bits per symbol), what is the absolute minimum standard M-ary modulation order (M) required?",
+        "choices": [
+            "A. 16-QAM",
+            "B. 64-QAM",
+            "C. 128-QAM",
+            "D. 32-QAM"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "In analyzing digital system link budgets, the energy per bit (Eb) is mathematically defined as the total received signal power (P) divided by the:",
+        "choices": [
+            "A. Receiver noise figure",
+            "B. System bandwidth",
+            "C. Baud rate",
+            "D. Bit rate (fb)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "The noise power spectral density (N0) present in a receiver is mathematically defined as the total thermal noise power (N) divided by the:",
+        "choices": [
+            "A. System bandwidth (B)",
+            "B. Bit rate",
+            "C. Absolute temperature",
+            "D. Boltzmann constant"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "The highly critical digital system parameter Eb/N0 can be mathematically calculated from the standard Signal-to-Noise Ratio (S/N) using which exact formula?",
+        "choices": [
+            "A. Eb/N0 = (S/N) * (B / fb)",
+            "B. Eb/N0 = (S/N) / (B * fb)",
+            "C. Eb/N0 = (S/N) * (fb / B)",
+            "D. Eb/N0 = (S/N) + (fb / B)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "A digital receiver operating at 2 Mbps receives a total signal power of 1 microwatt (10^-6 W). Calculate the exact Energy per bit (Eb) in Joules.",
+        "choices": [
+            "A. 2.0 x 10^-12 J",
+            "B. 1.0 x 10^-6 J",
+            "C. 2.0 x 10^-6 J",
+            "D. 5.0 x 10^-13 J"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "A receiver sits at a standard equivalent noise temperature of 290 K. Calculate the one-sided noise power spectral density (N0) in Watts/Hz. (k = 1.38 x 10^-23 J/K).",
+        "choices": [
+            "A. 4.0 x 10^-21 W/Hz",
+            "B. 1.38 x 10^-23 W/Hz",
+            "C. 4.0 x 10^-14 W/Hz",
+            "D. 290 W/Hz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "If a BPSK digital system operates with a transmission bandwidth exactly equal to its bit rate (B = fb), the numerical value of Eb/N0 is exactly equal to the:",
+        "choices": [
+            "A. Signal power",
+            "B. Signal-to-Noise Ratio (S/N)",
+            "C. Bit Error Rate",
+            "D. Channel capacity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "A QPSK system transmits at 10 Mbps over a channel bandwidth of 5 MHz. If the measured S/N ratio is 12 dB, what is the calculated value of Eb/N0 in dB?",
+        "choices": [
+            "A. 12 dB",
+            "B. 15 dB",
+            "C. 9 dB",
+            "D. 6 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "A digital receiver requires a minimum Eb/N0 of 10 dB to achieve an acceptable BER. If the noise power spectral density N0 is 10^-20 W/Hz and the bit rate is 1 Mbps, what is the minimum required received signal power?",
+        "choices": [
+            "A. 10^-13 W",
+            "B. 10^-10 W",
+            "C. 10^-15 W",
+            "D. 10^-14 W"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "According to Shannon's limit theorems, the absolute minimum theoretical Eb/N0 required to achieve error-free transmission (as bandwidth approaches infinity) is formally known as the Shannon Limit and evaluates exactly to:",
+        "choices": [
+            "A. -1.59 dB",
+            "B. 0 dB",
+            "C. 3.01 dB",
+            "D. -3.01 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "In digital radio engineering, why is the parameter Eb/N0 heavily preferred over the standard S/N ratio when comparing the performance of different digital modulation schemes?",
+        "choices": [
+            "A. It perfectly accounts for all analog distortions",
+            "B. It normalizes performance completely independent of the system's bit rate and filter bandwidth",
+            "C. It completely ignores thermal noise",
+            "D. It is much easier to measure on an oscilloscope"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "The Energy per bit (Eb) is measured in fundamental SI units of:",
+        "choices": [
+            "A. Watts",
+            "B. Watts per Hertz",
+            "C. Joules",
+            "D. Volts"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "The noise power spectral density (N0) is measured in fundamental SI units of:",
+        "choices": [
+            "A. Joules",
+            "B. Joules per second",
+            "C. Watts",
+            "D. Watts per Hertz (or Joules)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "On a standard waterfall graph analyzing digital receiver performance, the y-axis typically represents the Bit Error Rate (BER), while the x-axis explicitly represents the:",
+        "choices": [
+            "A. Eb/N0 ratio in dB",
+            "B. Transmitter power in dBm",
+            "C. Baud rate in symbols/sec",
+            "D. Channel bandwidth in Hz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "A satellite receiver measures an N0 of -170 dBm/Hz. If the received signal power is -100 dBm and the data rate is 1 Mbps (which is 60 dB-Hz), what is the calculated Eb/N0?",
+        "choices": [
+            "A. 10 dB",
+            "B. 270 dB",
+            "C. -30 dB",
+            "D. 70 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "If a digital system's bit rate is strictly doubled while the total received signal power and noise density remain absolutely constant, the Energy per bit (Eb) will:",
+        "choices": [
+            "A. Double",
+            "B. Quadruple",
+            "C. Halve",
+            "D. Remain unchanged"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "The Energy per symbol (Es) is related to the Energy per bit (Eb) for an M-ary modulation system by which exact mathematical expression?",
+        "choices": [
+            "A. Es = Eb / log2(M)",
+            "B. Es = Eb",
+            "C. Es = Eb / M",
+            "D. Es = Eb * log2(M)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "A fundamental trade-off in digital communication systems states that as a modulation scheme becomes highly bandwidth-efficient (e.g., moving from QPSK to 64-QAM), it inherently requires a significantly higher:",
+        "choices": [
+            "A. Eb/N0 to maintain the exact same Bit Error Rate (BER)",
+            "B. Symbol rate",
+            "C. Transmit antenna size",
+            "D. Forward error correction overhead"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "The absolute reduction in the required Eb/N0 to achieve a specific Bit Error Rate (e.g., 10^-6) gained purely by implementing a specific Forward Error Correction (FEC) algorithm is formally called the:",
+        "choices": [
+            "A. Processing gain",
+            "B. Coding gain",
+            "C. System margin",
+            "D. Shannon limit"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "When calculating the noise power spectral density N0 = k * Te, the parameter Te explicitly represents the system's:",
+        "choices": [
+            "A. Effective transmitted energy",
+            "B. Total environmental temperature",
+            "C. Equivalent noise temperature in Kelvin",
+            "D. Thermal efficiency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "Calculate the total thermal noise power present in a digital receiver operating with an equivalent noise temperature of 500 K over a Nyquist bandwidth of 20 MHz.",
+        "choices": [
+            "A. 6.9 x 10^-14 W",
+            "B. 1.38 x 10^-20 W",
+            "C. 4.0 x 10^-21 W",
+            "D. 1.38 x 10^-13 W"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "Digital transmission where the signal's spectral energy is concentrated heavily around zero frequency (DC) and is sent without an RF carrier is technically defined as:",
+        "choices": [
+            "A. Baseband transmission",
+            "B. Passband transmission",
+            "C. Broadband transmission",
+            "D. Carrier-modulated transmission"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "Digital transmission where the baseband signal explicitly modulates a high-frequency RF carrier to shift its spectrum for wireless propagation is technically defined as:",
+        "choices": [
+            "A. Baseband transmission",
+            "B. Passband transmission",
+            "C. Line coding",
+            "D. Baseband multiplexing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "In baseband digital transmission over copper cables, transforming the raw binary 1s and 0s into specific voltage pulse formats (like NRZ, Manchester, or AMI) to ensure proper synchronization and DC balance is called:",
+        "choices": [
+            "A. Passband modulation",
+            "B. Source encoding",
+            "C. Line coding",
+            "D. Forward error correction"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "Which of the following physical channels strictly requires passband digital transmission because it physically cannot propagate DC or very low frequency signals?",
+        "choices": [
+            "A. A short printed circuit board trace",
+            "B. A local twisted-pair Ethernet cable",
+            "C. A standard coaxial baseband video cable",
+            "D. A free-space wireless radio link"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "A major engineering challenge with transmitting standard unipolar NRZ line codes over long-haul baseband telephone cables is a phenomenon causing the baseline voltage to drift, known strictly as:",
+        "choices": [
+            "A. DC wander (or baseline wander)",
+            "B. Phase ambiguity",
+            "C. Aliasing",
+            "D. Cross-modulation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "Passband digital modulation schemes (like BPSK, QAM, and FSK) directly alter the characteristics of a high-frequency sinusoidal carrier. These schemes are mathematically equivalent to:",
+        "choices": [
+            "A. Analog sampling",
+            "B. Analog continuous-wave modulation",
+            "C. Line coding",
+            "D. Baseband filtering"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "Which highly popular baseband line coding scheme ensures perfect DC balance and eliminates baseline wander by alternating the polarity of successive logic '1' pulses?",
+        "choices": [
+            "A. Unipolar NRZ",
+            "B. Manchester coding",
+            "C. Alternate Mark Inversion (AMI) or Bipolar",
+            "D. Differential Manchester"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "Which of the following physical media is predominantly and traditionally utilized for baseband digital transmission in local area networks (LANs)?",
+        "choices": [
+            "A. Free space",
+            "B. The ionosphere",
+            "C. Microwave waveguides",
+            "D. Unshielded Twisted Pair (UTP) copper cables"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Manchester line coding is heavily used in standard 10Base-T Ethernet baseband transmission because it forces a voltage transition exactly in the middle of every bit period. This brilliant characteristic inherently guarantees:",
+        "choices": [
+            "A. Absolute zero transmission bandwidth",
+            "B. Exceptional resistance to thermal noise",
+            "C. Easy and reliable clock recovery directly from the data stream",
+            "D. Infinite data rates"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "What is a major technical disadvantage of utilizing Manchester line coding compared to standard NRZ coding in a baseband transmission system?",
+        "choices": [
+            "A. It requires double the transmission bandwidth for the exact same bit rate",
+            "B. It causes massive baseline wander",
+            "C. It cannot be used on copper wires",
+            "D. It strictly requires an RF carrier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "When a digital signal is transmitted using Passband modulation (e.g., a 2.4 GHz QPSK Wi-Fi signal), its primary frequency spectrum is geometrically centered exactly at the:",
+        "choices": [
+            "A. Nyquist frequency",
+            "B. Baseband zero frequency (DC)",
+            "C. Carrier frequency",
+            "D. Symbol rate frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "Passband digital transmission systems are frequently referred to as \"carrier-modulated\" systems. The analog equivalent of a Passband Amplitude Shift Keying (ASK) signal is formally:",
+        "choices": [
+            "A. Frequency Modulation (FM)",
+            "B. Phase Modulation (PM)",
+            "C. Single Sideband (SSB)",
+            "D. Amplitude Modulation (AM)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "Passband digital transmission allows multiple completely independent data streams to share the exact same physical wireless medium without interference by utilizing:",
+        "choices": [
+            "A. Frequency Division Multiplexing (FDM)",
+            "B. Time Division Multiplexing (TDM)",
+            "C. Baseband line coding",
+            "D. Manchester encoding"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Baseband digital signals theoretically contain frequency components extending down to exactly 0 Hz. A physical transmission medium that strictly blocks 0 Hz (like a transformer-coupled telephone line) is technically characterized as an:",
+        "choices": [
+            "A. All-pass channel",
+            "B. AC-coupled channel",
+            "C. Ideal Nyquist channel",
+            "D. RF passband channel"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "In advanced digital passband theory, a QAM signal mathematically consists of two independent baseband signals (I and Q) that modulate two orthogonal carriers. The resulting combined RF signal is often analyzed mathematically using its:",
+        "choices": [
+            "A. Baseband DC offset",
+            "B. Fourier series",
+            "C. Complex envelope",
+            "D. Hartley transform"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "The critical transmitter component that mathematically and physically translates the shaped baseband digital pulses up to the final RF passband frequency for wireless transmission is the:",
+        "choices": [
+            "A. Source encoder",
+            "B. Channel encoder",
+            "C. Forward error corrector",
+            "D. Up-converter (Mixer)"
+        ],
+        "correct_answer": "D"
+    }
+]

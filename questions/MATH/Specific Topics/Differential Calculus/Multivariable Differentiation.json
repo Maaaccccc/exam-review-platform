@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "According to Leibniz's rule, the nth derivative of a product (uv) involves coefficients that correspond to what mathematical sequence?",
+        "choices": [
+            "A. Binomial coefficients",
+            "B. Prime numbers",
+            "C. Fibonacci sequence",
+            "D. Factorial inverses"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "If x^3 + y^3 = 6xy, what is dy/dx evaluated at the point (3,3)?",
+        "choices": [
+            "A. 1",
+            "B. -1",
+            "C. 0",
+            "D. Undefined"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Use logarithmic differentiation to find the derivative of y = x^x.",
+        "choices": [
+            "A. x^x ln x",
+            "B. x * x^(x-1)",
+            "C. x^x (1 + ln x)",
+            "D. x^x (1 - ln x)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "For parametric equations x = cos t and y = sin t, what is dy/dx?",
+        "choices": [
+            "A. tan t",
+            "B. cot t",
+            "C. -tan t",
+            "D. -cot t"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "What is the fourth derivative of y = sin x?",
+        "choices": [
+            "A. sin x",
+            "B. cos x",
+            "C. -sin x",
+            "D. -cos x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "If f(x) = x^3 + x and g is the inverse of f, find g'(2).",
+        "choices": [
+            "A. 1/2",
+            "B. 1/4",
+            "C. 1/13",
+            "D. 1/5"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "Find d^2y/dx^2 for the parametric equations x = t^2, y = t^3.",
+        "choices": [
+            "A. 3t/4",
+            "B. 3/2",
+            "C. 3/(4t)",
+            "D. 3t/2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "Find the second derivative y'' implicitly for the circle x^2 + y^2 = r^2.",
+        "choices": [
+            "A. r^2 / y^3",
+            "B. -r^2 / x^3",
+            "C. -r / y^3",
+            "D. -r^2 / y^3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "In multivariable calculus, the partial derivative of f(x,y) with respect to x geometrically represents:",
+        "choices": [
+            "A. The slope of the tangent line in the x-direction",
+            "B. The area under the surface",
+            "C. The slope of the tangent line in the y-direction",
+            "D. The volume enclosed by the surface"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "Which of the following is the standard notation for the partial derivative of z with respect to y?",
+        "choices": [
+            "A. dz/dy",
+            "B. partial z / partial y",
+            "C. z_x",
+            "D. D_x z"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "Clairaut's Theorem states that for a function f(x,y), the mixed partial derivatives f_xy and f_yx are equal provided that:",
+        "choices": [
+            "A. They exist and are zero",
+            "B. They exist and are polynomials",
+            "C. They exist and are continuous",
+            "D. They are evaluated at the origin"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "The total differential dz of a function z = f(x,y) is given by which formula?",
+        "choices": [
+            "A. f_x dx - f_y dy",
+            "B. f_y dx + f_x dy",
+            "C. f_x dy + f_y dx",
+            "D. f_x dx + f_y dy"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "The gradient vector of a scalar function f(x,y,z) is denoted by which symbol?",
+        "choices": [
+            "A. Del (Nabla)",
+            "B. Sigma",
+            "C. Delta",
+            "D. Gamma"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "What does the direction of the gradient vector at a point indicate?",
+        "choices": [
+            "A. The direction of minimum rate of change",
+            "B. The direction of maximum rate of change",
+            "C. The direction of zero rate of change",
+            "D. The direction of the level curve"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "What is the magnitude of the maximum rate of change of a function f at a given point?",
+        "choices": [
+            "A. Zero",
+            "B. 1",
+            "C. The magnitude of the gradient vector",
+            "D. The dot product of the gradient and the unit vector"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "The directional derivative of a function f(x,y) in the direction of a unit vector u is calculated using:",
+        "choices": [
+            "A. Gradient of f cross u",
+            "B. Gradient of f plus u",
+            "C. Gradient of f divided by u",
+            "D. Gradient of f dot u"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "For a directional derivative, the vector u specifying the direction must be:",
+        "choices": [
+            "A. A unit vector",
+            "B. A zero vector",
+            "C. A position vector",
+            "D. A normal vector"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "In what direction is the rate of change of a function f(x,y) equal to zero?",
+        "choices": [
+            "A. Parallel to the gradient",
+            "B. Orthogonal to the gradient",
+            "C. In the direction of the x-axis",
+            "D. In the direction of the y-axis"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "If z = f(x,y), x = g(t), and y = h(t), the chain rule for dz/dt is:",
+        "choices": [
+            "A. (partial z / partial x)(dt / dx) + (partial z / partial y)(dt / dy)",
+            "B. (dx / dt)(partial y / partial x) + (dy / dt)(partial x / partial y)",
+            "C. (partial z / partial x)(dx / dt) + (partial z / partial y)(dy / dt)",
+            "D. (partial z / partial t)(dx / dt) + (partial z / partial t)(dy / dt)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "The concept of relative error in multivariable functions is defined as:",
+        "choices": [
+            "A. dz - z",
+            "B. dz * z",
+            "C. z / dz",
+            "D. dz / z"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "What is the first-order partial derivative f_x of f(x,y) = x^2 y?",
+        "choices": [
+            "A. 2xy",
+            "B. x^2",
+            "C. 2y",
+            "D. y"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "What is the first-order partial derivative f_y of f(x,y) = x y^3?",
+        "choices": [
+            "A. x^3",
+            "B. 3xy^2",
+            "C. y^3",
+            "D. xy^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "The gradient of a scalar field yields what type of mathematical entity?",
+        "choices": [
+            "A. A scalar",
+            "B. A constant",
+            "C. A vector field",
+            "D. A matrix"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "If f_xy(a,b) is calculated, it means taking the derivative of f with respect to:",
+        "choices": [
+            "A. x then x",
+            "B. y then y",
+            "C. y then x",
+            "D. x then y"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "Level curves of a function f(x,y) = c are always:",
+        "choices": [
+            "A. Orthogonal to the gradient",
+            "B. Parallel to the gradient",
+            "C. Tangent to the gradient",
+            "D. Coincident with the gradient"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "What condition must hold for M(x,y)dx + N(x,y)dy to be an exact differential?",
+        "choices": [
+            "A. M_x = N_y",
+            "B. M_y = N_x",
+            "C. M_y = -N_x",
+            "D. M_x = -N_y"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "The direction of minimum rate of change of f(x,y) is given by:",
+        "choices": [
+            "A. The unit vector",
+            "B. The gradient vector",
+            "C. The negative gradient vector",
+            "D. The zero vector"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "What is the total differential dw for w = f(x,y,z)?",
+        "choices": [
+            "A. w_x dx",
+            "B. w_x dx + w_y dy",
+            "C. w_x dx + w_z dz",
+            "D. w_x dx + w_y dy + w_z dz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "Find f_x for f(x,y) = e^(xy).",
+        "choices": [
+            "A. y e^(xy)",
+            "B. x e^(xy)",
+            "C. e^(xy)",
+            "D. xy e^(xy)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Find f_y for f(x,y) = sin(x^2 + y).",
+        "choices": [
+            "A. 2x cos(x^2 + y)",
+            "B. cos(x^2 + y)",
+            "C. -cos(x^2 + y)",
+            "D. sin(x^2 + y)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Determine the mixed partial derivative f_xy for f(x,y) = 3x^2 y^4.",
+        "choices": [
+            "A. 12xy^3",
+            "B. 6x y^4",
+            "C. 24x y^3",
+            "D. 12x^2 y^3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "For f(x,y) = ln(xy), evaluate f_yx.",
+        "choices": [
+            "A. 1/x",
+            "B. 1/y",
+            "C. -1/(xy)^2",
+            "D. 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "Calculate the total differential dz for z = 5x^3 y^2.",
+        "choices": [
+            "A. 15x^2 y^2 dx + 10x^3 y dy",
+            "B. 15x^2 y dx + 10x^2 y dy",
+            "C. 5x^2 y^2 dx + 5x^3 y dy",
+            "D. 15x^2 y^2 dx + 5x^3 y dy"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Evaluate the gradient vector of f(x,y) = x^2 - y^2 at the point (2,1).",
+        "choices": [
+            "A. 2i - j",
+            "B. 4i - 2j",
+            "C. 4i + 2j",
+            "D. 2i - 2j"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Find the directional derivative of f(x,y) = x y in the direction of the vector v = i + j at the point (1,1).",
+        "choices": [
+            "A. 1",
+            "B. 1/sqrt(2)",
+            "C. sqrt(2)",
+            "D. 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Given z = x^2 + y^2, x = t, and y = t^2. Evaluate dz/dt using the chain rule.",
+        "choices": [
+            "A. 2t + 2t^2",
+            "B. 2t + 4t^3",
+            "C. 2t + 2t^3",
+            "D. 2t + 4t^3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "Calculate the maximum rate of change of f(x,y) = 3x + 4y at any point.",
+        "choices": [
+            "A. 5",
+            "B. 7",
+            "C. 12",
+            "D. 25"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "A rectangle has length 10 cm and width 5 cm. If the length and width are both increased by 0.1 cm, approximate the change in area using the total differential.",
+        "choices": [
+            "A. 1.0 cm^2",
+            "B. 1.5 cm^2",
+            "C. 2.0 cm^2",
+            "D. 0.5 cm^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Verify Clairaut's theorem for f(x,y) = x^3 y^2. What is f_xy?",
+        "choices": [
+            "A. 3x^2 y",
+            "B. 6xy",
+            "C. 6x^2 y",
+            "D. 2x^3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "Find the gradient of f(x,y,z) = 2x^2 + 3y^2 + z^2 at (1, -1, 2).",
+        "choices": [
+            "A. 4i - 6j + 2k",
+            "B. 2i - 3j + k",
+            "C. 4i + 6j + 4k",
+            "D. 4i - 6j + 4k"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Find the directional derivative of f(x,y) = e^x cos y at (0,0) in the direction of angle theta = pi/4.",
+        "choices": [
+            "A. 1/sqrt(2)",
+            "B. 1",
+            "C. sqrt(2)",
+            "D. 1/2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "By implicit differentiation, if F(x,y,z) = x^2 + y^2 + z^2 - 9 = 0, find partial z / partial x.",
+        "choices": [
+            "A. x/z",
+            "B. -x/z",
+            "C. z/x",
+            "D. -z/x"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "What vector is normal to the surface F(x,y,z) = c at a point P?",
+        "choices": [
+            "A. The tangent vector",
+            "B. The unit normal vector",
+            "C. The gradient vector of F at P",
+            "D. The directional vector"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "Approximate the hypotenuse of a right triangle with legs 3.01 and 3.98 using the total differential (base legs 3 and 4).",
+        "choices": [
+            "A. 5.010",
+            "B. 5.025",
+            "C. 4.995",
+            "D. 4.990"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Calculate f_xx for f(x,y) = ln(x^2 + y^2).",
+        "choices": [
+            "A. 2(y^2 - x^2) / (x^2 + y^2)^2",
+            "B. 2x / (x^2 + y^2)^2",
+            "C. (y^2 - x^2) / (x^2 + y^2)^2",
+            "D. 2(y^2 - x^2) / (x^2 + y^2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "Let w = f(x,y,z) and x,y,z be functions of u and v. How many terms are in the chain rule expression for partial w / partial u?",
+        "choices": [
+            "A. 2",
+            "B. 3",
+            "C. 4",
+            "D. 6"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "The directional derivative of f(x,y) at a point is maximum when the direction vector is:",
+        "choices": [
+            "A. Perpendicular to the gradient",
+            "B. Opposite to the gradient",
+            "C. Parallel to the gradient",
+            "D. At a 45-degree angle to the gradient"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "Estimate the maximum error in calculating the volume of a cylinder (V = pi r^2 h) if r=2 cm and h=5 cm, with measurement errors dr=0.1 cm and dh=0.1 cm.",
+        "choices": [
+            "A. 1.4 pi",
+            "B. 1.6 pi",
+            "C. 2.0 pi",
+            "D. 2.4 pi"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "Find the mixed partial derivative f_xy of f(x,y) = arctan(y/x).",
+        "choices": [
+            "A. (y^2 - x^2) / (x^2 + y^2)^2",
+            "B. -y / (x^2 + y^2)^2",
+            "C. (x^2 - y^2) / (x^2 + y^2)^2",
+            "D. -x / (x^2 + y^2)^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "Calculate the gradient of f(x,y) = x / y at the point (1, 1).",
+        "choices": [
+            "A. i + j",
+            "B. i - j",
+            "C. -i + j",
+            "D. -i - j"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Find dz/dt at t=0 for z = ln(x+y), where x = e^t, y = e^(-t).",
+        "choices": [
+            "A. 1",
+            "B. 1/2",
+            "C. 0",
+            "D. -1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "Find the directional derivative of f(x,y) = x^2 + 2y^2 at (1, 1) in the direction of the vector 3i - 4j.",
+        "choices": [
+            "A. 2",
+            "B. 10/5",
+            "C. 4",
+            "D. -2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "What is the equation of the tangent plane to the paraboloid z = x^2 + y^2 at the point (1, 1, 2)?",
+        "choices": [
+            "A. 2x + 2y - z = 2",
+            "B. 2x - 2y + z = 2",
+            "C. 2x + 2y + z = 6",
+            "D. x + y - z = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "If the radius of a sphere is measured as 10 cm with a possible error of 0.1 cm, use the total differential to estimate the maximum percentage error in its volume.",
+        "choices": [
+            "A. 1%",
+            "B. 3%",
+            "C. 0.3%",
+            "D. 10%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Find the second partial derivative f_yy of f(x,y) = e^(x/y).",
+        "choices": [
+            "A. (x^2/y^4) e^(x/y)",
+            "B. e^(x/y)",
+            "C. e^(x/y)(x^2/y^4 + 2x/y^3)",
+            "D. (2x/y^3) e^(x/y)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "Find the partial derivative of z with respect to x if x^2 y + y^2 z + z^2 x = 5.",
+        "choices": [
+            "A. (2xy + z^2) / (y^2 + 2zx)",
+            "B. -(x^2 + 2yz) / (y^2 + 2zx)",
+            "C. -(2xy + y^2) / (y^2 + 2zx)",
+            "D. -(2xy + z^2) / (y^2 + 2zx)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "Given w = x y z, with x = t, y = t^2, z = t^3, find dw/dt.",
+        "choices": [
+            "A. 6t^5",
+            "B. 3t^4",
+            "C. t^6",
+            "D. 6t^4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "In which direction does the function f(x,y) = x^2 - y^2 decrease the fastest at the point (2,1)?",
+        "choices": [
+            "A. 4i - 2j",
+            "B. -4i + 2j",
+            "C. -2i + j",
+            "D. 2i - j"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Evaluate the gradient of f(x,y,z) = x y z at (1, 2, 3).",
+        "choices": [
+            "A. 2i + 3j + 6k",
+            "B. 3i + 6j + 2k",
+            "C. 6i + 3j + 2k",
+            "D. i + 2j + 3k"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "Let z = f(x,y), x = r cos(t), y = r sin(t). What is partial z / partial r?",
+        "choices": [
+            "A. (partial z / partial x) cos(t) - (partial z / partial y) sin(t)",
+            "B. (partial z / partial x) sin(t) + (partial z / partial y) cos(t)",
+            "C. (partial z / partial x) r cos(t) + (partial z / partial y) r sin(t)",
+            "D. (partial z / partial x) cos(t) + (partial z / partial y) sin(t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "For the same transformation (polar coordinates), what is partial z / partial t?",
+        "choices": [
+            "A. (partial z / partial x)(-r sin t) + (partial z / partial y)(r cos t)",
+            "B. r (partial z / partial x) cos(t) + r (partial z / partial y) sin(t)",
+            "C. - (partial z / partial x) sin(t) + (partial z / partial y) cos(t)",
+            "D. r (partial z / partial x) sin(t) - r (partial z / partial y) cos(t)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "Find the second-order mixed partial f_xyz for f(x,y,z) = x^3 y^2 z.",
+        "choices": [
+            "A. 6xy^2",
+            "B. 6x^2 y",
+            "C. 3x^2 y^2",
+            "D. 6x^2 z"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "If z is implicitly defined as a function of x and y by F(x,y,z) = 0, then partial y / partial x is given by:",
+        "choices": [
+            "A. -F_x / F_z",
+            "B. F_x / F_y",
+            "C. -F_x / F_y",
+            "D. -F_y / F_x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "Find the direction (as a unit vector) in which f(x,y) = x^2 y has a directional derivative of zero at the point (1,2).",
+        "choices": [
+            "A. (1/sqrt(5))(i - 2j)",
+            "B. (1/sqrt(5))(2i + j)",
+            "C. (1/sqrt(5))(i + 2j)",
+            "D. (1/sqrt(17))(i - 4j)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "What is the equation of the tangent plane to the surface x^2 + 2y^2 + 3z^2 = 6 at the point (1, 1, 1)?",
+        "choices": [
+            "A. 2x + 4y + 6z = 12",
+            "B. 2x + 2y + 3z = 7",
+            "C. x + 2y + 3z = 6",
+            "D. x + y + z = 3"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "The power dissipated by a resistor is P = V^2 / R. If V has a 2% error and R has a 1% error, what is the maximum percentage error in P?",
+        "choices": [
+            "A. 2%",
+            "B. 5%",
+            "C. 3%",
+            "D. 4%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Find the maximum error in measuring the density (rho = M / V) of a sphere, where mass M has a 1% error and radius r has a 1% error.",
+        "choices": [
+            "A. 1%",
+            "B. 2%",
+            "C. 4%",
+            "D. 3%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Does the function f(x,y) = (xy(x^2-y^2))/(x^2+y^2) for (x,y)!=(0,0) and 0 otherwise satisfy Clairaut's theorem at (0,0)?",
+        "choices": [
+            "A. Yes, because all functions do",
+            "B. Yes, f_xy = f_yx = 0",
+            "C. Yes, f_xy = f_yx = 1",
+            "D. No, f_xy != f_yx at the origin"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "A function f(x,y) satisfies Laplace's equation if:",
+        "choices": [
+            "A. f_xx + f_yy = 0",
+            "B. f_xx - f_yy = 0",
+            "C. f_xy = f_yx",
+            "D. f_x + f_y = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "Find the directional derivative of f(x,y,z) = xy + yz + zx at (1,-1,2) in the direction towards the origin.",
+        "choices": [
+            "A. -1/sqrt(6)",
+            "B. 2/sqrt(6)",
+            "C. 1/sqrt(6)",
+            "D. -2/sqrt(6)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "For what unit vector u does f(x,y) = x^2 - y^2 have the maximum directional derivative at (1,1)?",
+        "choices": [
+            "A. (1/sqrt(2))(j)",
+            "B. (1/sqrt(2))(i + j)",
+            "C. (1/sqrt(2))(i - j)",
+            "D. (-1/sqrt(2))(i - j)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "Calculate the total differential of z = arctan(y/x).",
+        "choices": [
+            "A. (x dx + y dy) / (x^2 + y^2)",
+            "B. (x dx - y dy) / (x^2 + y^2)",
+            "C. (y dx - x dy) / (x^2 + y^2)",
+            "D. (-y dx + x dy) / (x^2 + y^2)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "Determine the equation of the normal line to the surface z = x^2 + y^2 at (1,1,2).",
+        "choices": [
+            "A. (x-1)/2 = (y-1)/2 = (z-2)/-1",
+            "B. (x-1)/1 = (y-1)/1 = (z-2)/2",
+            "C. (x-2)/2 = (y-2)/2 = (z+1)/-1",
+            "D. (x-1)/2 = (y-1)/2 = (z-2)/1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "Two resistors R1 = 100 ohms and R2 = 400 ohms are connected in parallel. If each has a 1% tolerance, what is the maximum percentage error in the equivalent resistance Req?",
+        "choices": [
+            "A. 0.5%",
+            "B. 1.0%",
+            "C. 1.5%",
+            "D. 2.0%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "The 1D wave equation is given by f_tt = c^2 f_xx. Which of the following functions satisfies this equation?",
+        "choices": [
+            "A. f(x,t) = e^(x-t)",
+            "B. f(x,t) = sin(xt)",
+            "C. f(x,t) = sin(x - ct)",
+            "D. f(x,t) = ln(x+t)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "Find the rate of change df/dt of f(x,y,z) = x^2 y z along the curve r(t) = (t, t^2, t^3) at t=1.",
+        "choices": [
+            "A. 4",
+            "B. 5",
+            "C. 6",
+            "D. 7"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "Find the value of n for which f(x,y) = x^3 + x^2 y is a homogeneous function of degree n.",
+        "choices": [
+            "A. 3",
+            "B. 2",
+            "C. 4",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "According to Euler's Theorem for homogeneous functions of degree n, x f_x + y f_y is equal to:",
+        "choices": [
+            "A. f(x,y)",
+            "B. n f(x,y)",
+            "C. n^2 f(x,y)",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "What is the angle between the gradients of f(x,y) = x^2 + y^2 and g(x,y) = x^2 - y^2 at the point (1,1)?",
+        "choices": [
+            "A. 0 degrees",
+            "B. 45 degrees",
+            "C. 90 degrees",
+            "D. 180 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "Check if the differential dz = (3x^2 y) dx + (x^3) dy is exact. What is the relation between M_y and N_x?",
+        "choices": [
+            "A. M_y = x^3; Not exact",
+            "B. M_y = x^2; Exact",
+            "C. M_y = 0; Not exact",
+            "D. M_y = 3x^2, N_x = 3x^2; Exact"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "Determine the second-order directional derivative D_u^2 f for f(x,y) = x^2 + y^2 in the direction of u = (i+j)/sqrt(2).",
+        "choices": [
+            "A. 2",
+            "B. 1",
+            "C. 4",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "If w = f(u) and u = x^2 + y^2, then the partial derivative w_x is:",
+        "choices": [
+            "A. f'(u)",
+            "B. 2x f'(u)",
+            "C. 2y f'(u)",
+            "D. x f'(u)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "For the ideal gas law PV = nRT, find the partial derivative of P with respect to V.",
+        "choices": [
+            "A. -nR/V",
+            "B. nR/V",
+            "C. -P/V",
+            "D. P/V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "The volume of a cone is V = (1/3) pi r^2 h. Using differentials, find the approximate change in V when r changes from 3 to 3.1 and h changes from 4 to 3.9.",
+        "choices": [
+            "A. 0.8 pi",
+            "B. 0.9 pi",
+            "C. 1.0 pi",
+            "D. 0.5 pi"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Find the minimum rate of change of f(x,y) = e^(xy) at (1,0).",
+        "choices": [
+            "A. -1",
+            "B. -e",
+            "C. 0",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Given f(x,y) = sin(xy), find f_xx.",
+        "choices": [
+            "A. -x^2 sin(xy)",
+            "B. -y^2 sin(xy)",
+            "C. -sin(xy)",
+            "D. -xy sin(xy)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "Calculate the Jacobian determinant J(x,y)/(u,v) if x = u + v, y = u - v.",
+        "choices": [
+            "A. 2",
+            "B. 0",
+            "C. -2",
+            "D. 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "Use implicit differentiation to find dy/dx for x^3 + y^3 - 3axy = 0.",
+        "choices": [
+            "A. (x^2 - ay)/(y^2 - ax)",
+            "B. (ax - y^2)/(x^2 - ay)",
+            "C. (y^2 - ax)/(ay - x^2)",
+            "D. (ay - x^2)/(y^2 - ax)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "Which of the following is true for the gradient of a function evaluated at a local maximum?",
+        "choices": [
+            "A. It is the zero vector",
+            "B. It points towards the origin",
+            "C. It is infinite",
+            "D. It is a unit vector"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Determine the directional derivative of f(x,y) = ln(x^2 + y^2) at (1,1) in the direction of the origin.",
+        "choices": [
+            "A. sqrt(2)",
+            "B. -sqrt(2)",
+            "C. 1",
+            "D. -1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "If z = x f(y/x), then x(partial z / partial x) + y(partial z / partial y) equals:",
+        "choices": [
+            "A. 0",
+            "B. z^2",
+            "C. z",
+            "D. xz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Evaluate the gradient of f(x,y,z) = e^(x+y+z) at the origin.",
+        "choices": [
+            "A. 0",
+            "B. 3",
+            "C. e(i + j + k)",
+            "D. i + j + k"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "If F(x,y) = x^y, what is F_y?",
+        "choices": [
+            "A. x^y ln x",
+            "B. x^y",
+            "C. y x^(y-1)",
+            "D. y ln x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "For a level surface F(x,y,z) = k, the differential dF is equal to:",
+        "choices": [
+            "A. k",
+            "B. 0",
+            "C. 1",
+            "D. F"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "Let z = f(x,y) and x = r cos(theta), y = r sin(theta). Calculate (partial x / partial r)^2 + (partial y / partial r)^2.",
+        "choices": [
+            "A. r^2",
+            "B. r",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "A point where the gradient of a scalar function f(x,y) is zero is called a:",
+        "choices": [
+            "A. Inflection point",
+            "B. Boundary point",
+            "C. Limit point",
+            "D. Critical point"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "Find the total differential df for f(x,y,z) = x y z.",
+        "choices": [
+            "A. yz dx + xz dy + xy dz",
+            "B. x dx + y dy + z dz",
+            "C. xyz (dx + dy + dz)",
+            "D. dx dy dz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "If f(x,y) = x^2 y, find the value of the mixed partial derivative f_xy at (-2, 3).",
+        "choices": [
+            "A. 4",
+            "B. -4",
+            "C. -12",
+            "D. 12"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "The method of finding partial derivatives by implicitly differentiating an equation F(x,y,z)=0 is based on the:",
+        "choices": [
+            "A. Mean Value Theorem",
+            "B. Inverse Function Theorem",
+            "C. Implicit Function Theorem",
+            "D. Fundamental Theorem of Calculus"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "Calculate the mixed partial f_yxx for f(x,y) = e^x sin y.",
+        "choices": [
+            "A. e^x sin y",
+            "B. -e^x sin y",
+            "C. -e^x cos y",
+            "D. e^x cos y"
+        ],
+        "correct_answer": "D"
+    }
+]

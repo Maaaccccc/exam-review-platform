@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "In a Signal Flow Graph (SFG), a node that has strictly only outgoing branches is defined as a:",
+        "choices": [
+            "A. Source (or Input) node",
+            "B. Sink (or Output) node",
+            "C. Mixed node",
+            "D. Chain node"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "Two loops in a Signal Flow Graph are mathematically defined as \"non-touching\" if and only if they:",
+        "choices": [
+            "A. Do not belong to the same forward path",
+            "B. Do not share any common nodes",
+            "C. Have different loop gains",
+            "D. Do not connect to the input node"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "When moving a take-off point strictly AHEAD of a generic block G in a block diagram, the signal branch being moved must be mathematically modified by adding a block with a transfer function of:",
+        "choices": [
+            "A. G",
+            "B. 1",
+            "C. 1/G",
+            "D. -G"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "In Mason's Gain Formula, T = (1/∆) * Σ(Pk * ∆k), the term Pk explicitly represents the:",
+        "choices": [
+            "A. kth loop gain",
+            "B. Cofactor of the kth forward path",
+            "C. System determinant",
+            "D. Path gain of the kth forward path"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "Worded circuit: A control system has a forward path block G and a negative feedback block H. The basic closed-loop transfer function mapping input R to output C is strictly given by:",
+        "choices": [
+            "A. G / (1 - GH)",
+            "B. G / (1 + GH)",
+            "C. GH / (1 + GH)",
+            "D. (G + H) / (1 + GH)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "Worded circuit: An SFG has one forward path P1 = G1, and two non-touching loops L1 and L2. Neither loop touches P1. What is the cofactor ∆1 for the forward path P1?",
+        "choices": [
+            "A. 1",
+            "B. 1 - L1",
+            "C. 1 - L1 - L2 + L1*L2",
+            "D. 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "When moving a summing point strictly BEHIND a generic block G in a block diagram, the signal path being moved must be mathematically modified by adding a block with a transfer function of:",
+        "choices": [
+            "A. 1/G",
+            "B. 1 - G",
+            "C. -G",
+            "D. G"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "Worded circuit: An SFG has nodes X1, X2, X3. A branch goes from X1 to X2 with gain 'a'. A branch goes from X2 to X3 with gain 'b'. A branch goes from X3 to X2 with gain 'c'. The loop gain in this specific graph is:",
+        "choices": [
+            "A. bc",
+            "B. abc",
+            "C. a+b+c",
+            "D. ac"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "For a system to be mathematically classified as \"Linear\", it must strictly satisfy the principles of homogeneity (scaling) and:",
+        "choices": [
+            "A. Time-invariance",
+            "B. Causality",
+            "C. Superposition (additivity)",
+            "D. Stability"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "However, if the input exceeds 1.5V, the output strictly clips at 15V due to the power supply rails. This saturation effect physically renders the system:",
+        "choices": [
+            "A. Non-linear",
+            "B. Time-variant",
+            "C. Non-causal",
+            "D. Unstable"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "The output y(t) of a continuous Linear Time-Invariant (LTI) system to any arbitrary input x(t) can be completely determined by evaluating the convolution integral of x(t) and the system's:",
+        "choices": [
+            "A. Impulse response h(t)",
+            "B. Step response s(t)",
+            "C. Transfer function H(s)",
+            "D. Steady-state error"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "An LTI system is mathematically defined as \"causal\" if its impulse response h(t) satisfies which specific condition?",
+        "choices": [
+            "A. h(t) = 0 for t > 0",
+            "B. h(t) = 0 for t < 0",
+            "C. h(t) is absolutely integrable",
+            "D. h(t) converges to zero as t approaches infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "A continuous LTI system is Bounded-Input Bounded-Output (BIBO) stable if and only if its impulse response h(t) is:",
+        "choices": [
+            "A. Symmetrical around t=0",
+            "B. A unit step function",
+            "C. Equal to zero at t=0",
+            "D. Absolutely integrable from zero to infinity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 15,
+        "question": "Consider the system described by the input-output relationship y(t) = x(t) * cos(3t). Mathematically, this system is explicitly classified as:",
+        "choices": [
+            "A. Linear and Time-Invariant",
+            "B. Linear and Time-Variant",
+            "C. Non-linear and Time-Invariant",
+            "D. Non-linear and Time-Variant"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "An LTI system whose output at any instant depends strictly ONLY on the input at that exact same instant (e.g., y(t) = 5*x(t)) is formally called a:",
+        "choices": [
+            "A. Dynamic system",
+            "B. Causal system",
+            "C. Memoryless (or static) system",
+            "D. Unstable system"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "When a complex exponential signal e^(st) is applied to an LTI system, the steady-state output is strictly the same exponential signal multiplied by a complex constant H(s). In this context, e^(st) is mathematically known as the system's:",
+        "choices": [
+            "A. Eigenfunction",
+            "B. Impulse response",
+            "C. Characteristic polynomial",
+            "D. State variable"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "What is the exact Laplace transform of the standard continuous unit step function u(t)?",
+        "choices": [
+            "A. 1",
+            "B. 1 / s^2",
+            "C. 1 / s",
+            "D. s"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "What is the exact Laplace transform of the standard continuous unit ramp function r(t) = t * u(t)?",
+        "choices": [
+            "A. 1 / s",
+            "B. 1 / s^2",
+            "C. 1 / s^3",
+            "D. s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "What is the exact Laplace transform of the ideal Dirac delta (unit impulse) function δ(t)?",
+        "choices": [
+            "A. 1 / s",
+            "B. 1 / s^2",
+            "C. s",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "A standard parabolic test signal is defined as p(t) = (t^2 / 2) * u(t). Its corresponding Laplace transform is strictly:",
+        "choices": [
+            "A. 1 / s^2",
+            "B. 2 / s^3",
+            "C. 1 / s^3",
+            "D. 1 / s^4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "Mathematically, the standard unit ramp function r(t) is strictly the exact time integral of the:",
+        "choices": [
+            "A. Unit impulse function",
+            "B. Unit step function",
+            "C. Unit parabolic function",
+            "D. Sine function"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "Mathematically, the ideal unit impulse function δ(t) is strictly the exact time derivative of the:",
+        "choices": [
+            "A. Unit parabolic function",
+            "B. Sine function",
+            "C. Unit ramp function",
+            "D. Unit step function"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "The Laplace transform of a system's impulse response h(t) exactly yields the system's:",
+        "choices": [
+            "A. Transfer function H(s)",
+            "B. Step response",
+            "C. Characteristic equation",
+            "D. Steady-state error"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "Worded circuit: A control system has a measured unit step response denoted as c(t). If an engineer needs to determine the system's impulse response h(t), what mathematical operation must be strictly performed on c(t)?",
+        "choices": [
+            "A. Integrate c(t) with respect to time",
+            "B. Differentiate c(t) with respect to time",
+            "C. Multiply c(t) by time 't'",
+            "D. Divide c(t) by time 't'"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "In position control systems (like a robotic arm), a constant velocity tracking command is mathematically simulated by applying which standard test signal?",
+        "choices": [
+            "A. Unit step",
+            "B. Unit impulse",
+            "C. Parabolic",
+            "D. Ramp"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "What is the exact Laplace transform of a unit step function delayed by 'a' seconds, mathematically defined as u(t-a)?",
+        "choices": [
+            "A. (1/s) * e^(-as)",
+            "B. e^(-as)",
+            "C. (1/s) * e^(as)",
+            "D. 1 / (s-a)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "A linear time-invariant system is described by the differential equation dy/dt + 5y = 2x(t). Assuming zero initial conditions, what is the exact system transfer function Y(s)/X(s)?",
+        "choices": [
+            "A. 5 / (s + 2)",
+            "B. 1 / (s + 5)",
+            "C. 2 / (s + 5)",
+            "D. 2s / (s + 5)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "The standard generic form of a first-order system transfer function is strictly written as:",
+        "choices": [
+            "A. K / (s^2 + Ts + 1)",
+            "B. K * (Ts + 1)",
+            "C. K / s",
+            "D. K / (Ts + 1)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "For a standard first-order system, the parameter 'T' or 'τ' is the time constant. Physically, it is the exact time required for the unit step response to reach approximately what percentage of its final steady-state value?",
+        "choices": [
+            "A. 50.0%",
+            "B. 63.2%",
+            "C. 86.5%",
+            "D. 98.0%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "For a generic first-order system, what is the widely accepted engineering approximation for the time required to reach and stay within 2% of the final steady-state value (the settling time)?",
+        "choices": [
+            "A. 1 time constant (1τ)",
+            "B. 2 time constants (2τ)",
+            "C. 4 time constants (4τ)",
+            "D. 10 time constants (10τ)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "Worded circuit: A basic series RC low-pass filter is driven by a voltage step. The output is taken across the capacitor. If R = 10 kΩ and C = 100 µF, what is the exact physical time constant (τ) of this circuit?",
+        "choices": [
+            "A. 1.0 second",
+            "B. 0.1 seconds",
+            "C. 10 seconds",
+            "D. 100 milliseconds"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "Worded circuit: A basic series RL circuit is driven by a voltage step. The output is the current through the inductor. The mathematical time constant (τ) for this specific first-order circuit is strictly:",
+        "choices": [
+            "A. R * L",
+            "B. R / L",
+            "C. 1 / (R*L)",
+            "D. L / R"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 34,
+        "question": "Worded circuit: A liquid-in-glass thermometer initially at 20°C is plunged into a 100°C water bath. The thermometer dictates a first-order response. If it reads 70.5°C after 5 seconds, what is the approximate thermal time constant of the thermometer?",
+        "choices": [
+            "A. 5 seconds",
+            "B. 10 seconds",
+            "C. 2 seconds",
+            "D. 1 second"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "The exact mathematical equation for the unit step response c(t) of a standard first-order system with DC gain K and time constant τ is:",
+        "choices": [
+            "A. c(t) = K * e^(-t/τ)",
+            "B. c(t) = K * (1 - e^(-τt))",
+            "C. c(t) = K * (1 - e^(-t/τ))",
+            "D. c(t) = K * t * e^(-t/τ)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "If you draw a tangent line to the step response curve of a first-order system at strictly t=0, this tangent line will intersect the final steady-state value line exactly at time:",
+        "choices": [
+            "A. t = 0.5τ",
+            "B. t = τ",
+            "C. t = 2.2τ",
+            "D. t = 4τ"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "The standard mathematical approximation for the 10% to 90% rise time (Tr) of a classic first-order system with time constant τ is strictly:",
+        "choices": [
+            "A. 0.632τ",
+            "B. 2.2τ",
+            "C. 3τ",
+            "D. 4τ"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "A first-order control system has a transfer function G(s) = 10 / (0.5s + 1). What is the exact 10% to 90% rise time of this system?",
+        "choices": [
+            "A. 1.1 seconds",
+            "B. 0.5 seconds",
+            "C. 2.2 seconds",
+            "D. 10 seconds"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "A first-order system transfer function is given as G(s) = 20 / (4s + 5). What is the exact steady-state DC gain of this system?",
+        "choices": [
+            "A. 20",
+            "B. 5",
+            "C. 0.25",
+            "D. 4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "Worded circuit: A first-order sensor has a DC gain of 5 and a time constant of 0.2 seconds. What is its exact transfer function in the s-domain?",
+        "choices": [
+            "A. 5 / (s + 0.2)",
+            "B. 1 / (0.2s + 5)",
+            "C. 5 / (0.2s + 1)",
+            "D. 0.2 / (5s + 1)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "What is the exact impulse response h(t) of a first-order system with transfer function H(s) = 1 / (τs + 1)?",
+        "choices": [
+            "A. (1/τ) * e^(-τt) * u(t)",
+            "B. e^(-t/τ) * u(t)",
+            "C. (1/τ) * e^(-t/τ) * u(t)",
+            "D. (1/τ) * (1 - e^(-t/τ)) * u(t)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "When a unit ramp input r(t)=t is applied to a standard first-order system G(s) = 1 / (τs + 1), the steady-state tracking error ess mathematically evaluates to:",
+        "choices": [
+            "A. 0",
+            "B. Infinity",
+            "C. 1/τ",
+            "D. τ"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 43,
+        "question": "Worded circuit: Two identical RC low-pass filters (each with time constant τ = RC) are cascaded without a buffer amplifier. Why does the overall system strictly NOT have a transfer function of 1 / (τs + 1)^2?",
+        "choices": [
+            "A. The second stage electrically loads the first stage, changing the node impedances",
+            "B. The capacitors block all DC signals",
+            "C. The system becomes an active filter",
+            "D. The time constant simply doubles"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "Worded circuit: In modeling a DC motor, if the armature inductance La is assumed to be exactly zero, the electrical transfer function from armature voltage to motor speed strictly drops in order. The motor physically acts as a:",
+        "choices": [
+            "A. Second-order underdamped system",
+            "B. First-order system",
+            "C. Pure integrator",
+            "D. Pure differentiator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "The -3dB cutoff frequency (or bandwidth) ω_c of a standard first-order low-pass system with time constant τ is exactly:",
+        "choices": [
+            "A. 1 / τ rad/s",
+            "B. τ rad/s",
+            "C. 2π / τ rad/s",
+            "D. 0.707 / τ rad/s"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "The universally recognized standard form of the closed-loop transfer function for a generic second-order system is strictly:",
+        "choices": [
+            "A. K / (s^2 + 2ζωns + 1)",
+            "B. ωn^2 / (s^2 + 2ζωns + ωn^2)",
+            "C. (s + ωn) / (s^2 + 2ζωns + ωn^2)",
+            "D. ωn / (s^2 + 2ζωn + ωn^2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "In the standard second-order system equation, the parameter ωn (omega-n) strictly represents the system's:",
+        "choices": [
+            "A. Damped frequency of oscillation",
+            "B. Resonant frequency",
+            "C. Damping ratio",
+            "D. Undamped natural frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 48,
+        "question": "In the standard second-order system equation, the unitless parameter ζ (zeta) strictly represents the:",
+        "choices": [
+            "A. Undamped natural frequency",
+            "B. Time constant",
+            "C. Damping ratio",
+            "D. Attenuation factor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "If a second-order control system has a damping ratio ζ exactly equal to 0, the system's dynamic step response is mathematically classified as:",
+        "choices": [
+            "A. Critically damped",
+            "B. Undamped (sustained oscillations)",
+            "C. Underdamped",
+            "D. Overdamped"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "If a second-order control system has a damping ratio strictly bounded between 0 and 1 (0 < ζ < 1), the system's transient response is mathematically classified as:",
+        "choices": [
+            "A. Undamped",
+            "B. Overdamped",
+            "C. Underdamped",
+            "D. Critically damped"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "If a second-order control system has a damping ratio exactly equal to 1 (ζ = 1), the system's transient response is mathematically classified as:",
+        "choices": [
+            "A. Underdamped",
+            "B. Overdamped",
+            "C. Undamped",
+            "D. Critically damped"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "If a second-order control system has a damping ratio strictly greater than 1 (ζ > 1), the system's transient response is mathematically classified as:",
+        "choices": [
+            "A. Overdamped",
+            "B. Underdamped",
+            "C. Critically damped",
+            "D. Marginally stable"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "The two closed-loop poles of a strictly underdamped second-order system (0 < ζ < 1) are mathematically located on the complex s-plane as:",
+        "choices": [
+            "A. Complex conjugates in the left-half plane",
+            "B. Distinct real roots in the left-half plane",
+            "C. Repeated real roots in the left-half plane",
+            "D. Complex conjugates on the jω-axis"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "The two closed-loop poles of a strictly overdamped second-order system (ζ > 1) are mathematically located on the complex s-plane as:",
+        "choices": [
+            "A. Repeated real roots in the left-half plane",
+            "B. Complex conjugates in the left-half plane",
+            "C. Distinct real roots in the left-half plane",
+            "D. Distinct real roots in the right-half plane"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "The two closed-loop poles of a strictly critically damped second-order system (ζ = 1) are mathematically located on the complex s-plane as:",
+        "choices": [
+            "A. Distinct real roots in the left-half plane",
+            "B. Repeated real roots in the left-half plane",
+            "C. Complex conjugates on the jω-axis",
+            "D. One real root at the origin, one in the left-half plane"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "A second-order control system has a closed-loop transfer function T(s) = 25 / (s^2 + 6s + 25). What is the exact undamped natural frequency (ωn) of this system?",
+        "choices": [
+            "A. 25 rad/s",
+            "B. 6 rad/s",
+            "C. 3 rad/s",
+            "D. 5 rad/s"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "Using the same transfer function T(s) = 25 / (s^2 + 6s + 25), what is the exact damping ratio (ζ) of the system?",
+        "choices": [
+            "A. 1.2",
+            "B. 0.8",
+            "C. 0.4",
+            "D. 0.6"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "Worded circuit: A classic RLC series circuit acts as a second-order system. The transfer function for capacitor voltage has a denominator s^2 + (R/L)s + 1/(LC). The exact damping ratio ζ is mathematically given by:",
+        "choices": [
+            "A. (R/2) * √(L/C)",
+            "B. (R/2) * √(C/L)",
+            "C. R * √(C/L)",
+            "D. R * √(L/C)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "For a standard underdamped second-order system, the maximum Percent Overshoot (%OS) is uniquely and mathematically determined by the formula:",
+        "choices": [
+            "A. 100 * e^(-ζπ)",
+            "B. 100 * e^(-π / √(1-ζ^2))",
+            "C. 100 * e^(-ζπ / √(1-ζ^2))",
+            "D. 100 * e^(-ζ / √(1-ζ^2))"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "The exact physical time required for an underdamped second-order system's step response to reach its first maximum peak (Peak Time, Tp) is given by:",
+        "choices": [
+            "A. π / (ωn * √(1-ζ^2))",
+            "B. π / (ζ * ωn)",
+            "C. 2π / ωn",
+            "D. 4 / (ζ * ωn)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "For a generic underdamped second-order system, the widely accepted mathematical approximation for the 2% settling time (Ts) is strictly:",
+        "choices": [
+            "A. 1 / (ζ * ωn)",
+            "B. π / ωd",
+            "C. 4 / (ζ * ωn)",
+            "D. 2.2 / (ζ * ωn)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "The frequency at which an underdamped second-order system physically oscillates as the transient response decays is called the damped natural frequency (ωd). Its formula is:",
+        "choices": [
+            "A. ωn * √(1-ζ^2)",
+            "B. ωn * √(ζ^2-1)",
+            "C. ωn / √(1-ζ^2)",
+            "D. ζ * ωn"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "If an underdamped second-order system has a damping ratio ζ = 0.5, what is its approximate Percent Overshoot (%OS)?",
+        "choices": [
+            "A. 5.0%",
+            "B. 25.4%",
+            "C. 10.8%",
+            "D. 16.3%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "A second-order system has T(s) = 100 / (s^2 + 8s + 100). What is the exact Peak Time (Tp) of the step response?",
+        "choices": [
+            "A. π / 8 seconds",
+            "B. π / √84 seconds",
+            "C. π / 10 seconds",
+            "D. π / 6 seconds"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "Using the exact same transfer function T(s) = 100 / (s^2 + 8s + 100), what is the approximate 2% settling time (Ts)?",
+        "choices": [
+            "A. 1.0 second",
+            "B. 2.0 seconds",
+            "C. 0.5 seconds",
+            "D. 4.0 seconds"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Worded mechanical system: A translational mass-spring-damper system has mass M = 1 kg, spring constant K = 100 N/m, and viscous damper B = 4 N-s/m. The undamped natural frequency ωn is strictly:",
+        "choices": [
+            "A. 5 rad/s",
+            "B. 10 rad/s",
+            "C. 100 rad/s",
+            "D. 4 rad/s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Using the exact same mechanical system (M = 1 kg, K = 100 N/m, B = 4 N-s/m), what is the exact damping ratio ζ?",
+        "choices": [
+            "A. 0.4",
+            "B. 0.8",
+            "C. 0.2",
+            "D. 0.1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "In a standard second-order system, as the damping ratio ζ is physically increased from 0.1 towards 0.9, what happens to the Percent Overshoot of the step response?",
+        "choices": [
+            "A. It increases exponentially",
+            "B. It remains completely constant",
+            "C. It oscillates wildly",
+            "D. It strictly decreases"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "If the undamped natural frequency ωn of a system is doubled while the damping ratio ζ remains exactly constant, the peak time Tp of the step response will mathematically:",
+        "choices": [
+            "A. Double",
+            "B. Remain unchanged",
+            "C. Be halved",
+            "D. Quadruple"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "The unit step response of an ideal, strictly undamped second-order system (ζ = 0) takes the mathematical form of a:",
+        "choices": [
+            "A. Purely exponentially decaying curve",
+            "B. Decaying sinusoid",
+            "C. Linearly increasing ramp",
+            "D. Continuous, sustained sinusoidal oscillation around the steady-state value"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 71,
+        "question": "Mathematically, why is critical damping (ζ = 1) considered a crucial boundary in system design?",
+        "choices": [
+            "A. It provides the absolute fastest transient response without any physical oscillation (overshoot)",
+            "B. It represents the point of maximum instability",
+            "C. It consumes the least electrical power",
+            "D. It yields a zero steady-state error for ramp inputs"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "A closed-loop system has the characteristic equation s^2 + 4s + 13 = 0. What are the exact locations of the closed-loop poles?",
+        "choices": [
+            "A. -4 ± j13",
+            "B. -2 ± j3",
+            "C. -2 ± j9",
+            "D. -4 ± j3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "Worded circuit: A passenger elevator utilizes a position control system. To guarantee maximum passenger comfort, the control system is specifically tuned so that the elevator never passes the target floor before stopping. This strictly requires the system to be tuned as:",
+        "choices": [
+            "A. Underdamped",
+            "B. Critically damped or Overdamped",
+            "C. Undamped",
+            "D. Marginally stable"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "On the complex s-plane, if you plot the loci of closed-loop poles for a second-order system where the damping ratio ζ is kept perfectly constant but ωn varies, the poles will strictly lie on:",
+        "choices": [
+            "A. Radial lines originating from the origin",
+            "B. Vertical lines parallel to the jω-axis",
+            "C. A perfect circle centered at the origin",
+            "D. Horizontal lines parallel to the real axis"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "On the complex s-plane, if you plot the loci of closed-loop poles where the undamped natural frequency ωn is kept perfectly constant but ζ varies between 0 and 1, the poles will strictly lie on:",
+        "choices": [
+            "A. Radial lines originating from the origin",
+            "B. Vertical lines parallel to the jω-axis",
+            "C. Horizontal lines parallel to the real axis",
+            "D. A semicircle centered at the origin in the left-half plane"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 76,
+        "question": "On the complex s-plane, if you plot the loci of closed-loop poles where the settling time (Ts) is kept perfectly constant, the poles will strictly lie on:",
+        "choices": [
+            "A. A semicircle",
+            "B. Radial lines",
+            "C. Vertical lines parallel to the jω-axis",
+            "D. Horizontal lines"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "In higher-order control systems, the \"dominant poles\" are strictly defined as the closed-loop poles that:",
+        "choices": [
+            "A. Have the highest imaginary frequency",
+            "B. Are located in the right-half of the s-plane",
+            "C. Are closest to the origin and effectively dictate the overall transient response",
+            "D. Have the largest real negative values"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "For a higher-order pole to be safely ignored using the dominant pole approximation, it must be located on the real axis at least how many times further to the left than the dominant complex poles?",
+        "choices": [
+            "A. 2 times",
+            "B. 100 times",
+            "C. 5 times",
+            "D. It must be on the right side"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "Mathematically, adding an extra physical pole in the left-half plane to a standard second-order system generally has what effect on the step response?",
+        "choices": [
+            "A. It drastically decreases the rise time",
+            "B. It makes the system more sluggish (increases rise time) and generally reduces overshoot",
+            "C. It increases the peak overshoot significantly",
+            "D. It makes the system unconditionally unstable"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "Conversely, mathematically adding a real zero in the left-half plane to a standard second-order system generally has what physical effect on the step response?",
+        "choices": [
+            "A. It increases the peak overshoot and decreases the rise time (makes it jump faster)",
+            "B. It perfectly eliminates all oscillations",
+            "C. It increases the steady-state error",
+            "D. It slows the system down dramatically"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "Worded circuit: An engineer adds a Proportional-Integral (PI) controller to a plant. The PI controller introduces a pole exactly at the origin and a finite zero. If the zero is placed very close to the jω-axis, the system's step response will physically exhibit:",
+        "choices": [
+            "A. Extreme sluggishness",
+            "B. A massive, potentially damaging transient peak overshoot",
+            "C. Perfect critical damping",
+            "D. A sustained infinite oscillation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "If a control system possesses a zero strictly located in the right-half of the complex s-plane, the system is mathematically classified as a:",
+        "choices": [
+            "A. Non-minimum phase system",
+            "B. Minimum phase system",
+            "C. Unstable system",
+            "D. Marginally stable system"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "A 3rd-order system has closed-loop poles exactly at s = -1 ± j2, and s = -20. Which pole(s) are strictly considered the dominant poles?",
+        "choices": [
+            "A. s = -20",
+            "B. All three poles are equally dominant",
+            "C. s = -1 ± j2",
+            "D. There are no dominant poles"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "When simplifying a higher-order transfer function, an engineer can mathematically cancel a pole and a zero if they are physically located very close to each other on the s-plane. This cancellation is generally considered valid ONLY IF:",
+        "choices": [
+            "A. They are both in the right-half plane",
+            "B. The pole is at the origin",
+            "C. The zero is exactly zero",
+            "D. They are located relatively far to the left of the dominant poles"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "What is the defining physical characteristic of the step response of a Non-Minimum Phase system (a system with a Right-Half Plane zero)?",
+        "choices": [
+            "A. The output initially dips in the opposite (negative) direction before rising to the final positive value",
+            "B. The output reaches steady state instantly",
+            "C. The output oscillates endlessly",
+            "D. The output has absolutely no overshoot"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Evaluate this statement: \"If a third pole is added to an underdamped second-order system, and it is moved closer to the dominant poles, the system's actual settling time will strictly decrease.\"",
+        "choices": [
+            "A. True, more poles always speed up the system",
+            "B. True, the system becomes more stable",
+            "C. False, settling time is unaffected by third poles",
+            "D. False, bringing the third pole closer actually increases the settling time, making it more sluggish"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "Worded circuit: A slow thermal plant (τ = 10s) is monitored by an ultra-fast electronic sensor (τ = 1ms). When mathematically deriving the overall system step response, the sensor's pole can be safely ignored because:",
+        "choices": [
+            "A. The sensor has no DC gain",
+            "B. It is located extremely far to the left on the s-plane, satisfying the dominant pole approximation",
+            "C. It is located exactly at the origin",
+            "D. It cancels out the plant's pole"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "A second-order system has a zero located extremely close to the origin in the left-half plane (e.g., s = -0.01). What severe distortion will this strictly cause to the step response?",
+        "choices": [
+            "A. The system will become unstable",
+            "B. The rise time will become infinite",
+            "C. It will introduce a massive, slow-decaying overshoot (a long \"tail\" to reach steady state)",
+            "D. It will completely eliminate the steady-state error"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "Worded circuit: A motor position controller is designed with three closed-loop poles: s = -2 ± j5, and s = -3. Will this system accurately follow the standard second-order approximation formulas (like %OS and Tp)?",
+        "choices": [
+            "A. Yes, the complex poles are dominant",
+            "B. Yes, 3rd order systems always act like 2nd order systems",
+            "C. No, because the real pole at -3 is too close to the complex poles' real part (-2), significantly altering the dynamics",
+            "D. No, because the system is overdamped"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "In the transient response equation of any strictly stable LTI system, the physical rate at which the transient terms decay to zero is dictated exclusively by the:",
+        "choices": [
+            "A. Numerator polynomial (Zeros)",
+            "B. Real parts of the closed-loop poles",
+            "C. Imaginary parts of the closed-loop poles",
+            "D. System DC gain"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "If a closed-loop pole is located mathematically on the positive real axis of the s-plane, the corresponding time-domain transient term strictly takes the form of:",
+        "choices": [
+            "A. An exponentially growing function (e^+at)",
+            "B. An exponentially decaying function (e^-at)",
+            "C. A sustained sine wave",
+            "D. A decaying sine wave"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "Worded circuit: An active Sallen-Key low-pass filter is designed. The component values dictate ωn = 1000 rad/s and ζ = 0.707. This specific damping ratio (1/√2) creates a frequency response known mathematically as a:",
+        "choices": [
+            "A. Chebyshev response",
+            "B. Bessel response",
+            "C. Elliptic response",
+            "D. Butterworth (maximally flat) response"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "For a Type 1 system, the steady-state error for a unit step input is strictly:",
+        "choices": [
+            "A. Infinity",
+            "B. 1 / Kv",
+            "C. 1 / (1+Kp)",
+            "D. Zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "For a Type 0 system, the steady-state error for a unit step input is strictly:",
+        "choices": [
+            "A. 1 / Kv",
+            "B. Zero",
+            "C. 1 / (1 + Kp)",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "The mathematical property stating that the Laplace transform of e^(-at)f(t) is F(s+a) is formally known as the:",
+        "choices": [
+            "A. First Translation (or Shifting) Theorem",
+            "B. Final Value Theorem",
+            "C. Convolution Theorem",
+            "D. Second Translation Theorem"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 96,
+        "question": "The Second Translation (Shifting) Theorem is strictly used to evaluate the Laplace transform of time-domain signals that are:",
+        "choices": [
+            "A. Differentiated",
+            "B. Delayed in time (shifted by a constant t-a)",
+            "C. Multiplied by an exponential",
+            "D. Integrated"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "A transfer function is strictly and exclusively defined under the mathematical assumption that:",
+        "choices": [
+            "A. All initial conditions are exactly zero",
+            "B. The system is non-linear",
+            "C. The input is a sine wave",
+            "D. The system operates in discrete time"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "According to the Convolution Theorem, convolution of two signals in the time domain is perfectly mathematically equivalent to what operation in the Laplace s-domain?",
+        "choices": [
+            "A. Addition",
+            "B. Direct multiplication",
+            "C. Division",
+            "D. Integration"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "To mathematically guarantee complete absolute stability using the Routh-Hurwitz criterion, all elements in the first column of the Routh array must strictly:",
+        "choices": [
+            "A. Be exactly zero",
+            "B. Be negative",
+            "C. Have the exact same algebraic sign",
+            "D. Be strictly greater than 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "In the Routh-Hurwitz array, if an entire row evaluates to exactly zero, it mathematically indicates that the characteristic equation strictly possesses:",
+        "choices": [
+            "A. Poles in the right-half plane",
+            "B. Only real poles",
+            "C. No poles at all",
+            "D. Roots that are symmetrically located about the origin (e.g., purely imaginary conjugate pairs)"
+        ],
+        "correct_answer": "D"
+    }
+]

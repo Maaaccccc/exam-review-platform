@@ -1,0 +1,1113 @@
+[
+    {
+        "number": 1,
+        "question": "In a standard electronic oscillator, the Barkhausen criterion dictates that for sustained oscillations to occur, the total loop phase shift must be exactly:",
+        "choices": [
+            "A. 90 degrees",
+            "B. 180 degrees",
+            "C. 360 (or 0) degrees",
+            "D. 270 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "What is the mathematical formula for the intrinsic standoff ratio (eta) of a Unijunction Transistor (UJT) used in relaxation oscillators?",
+        "choices": [
+            "A. Rb1 * Rb2",
+            "B. Rb2 / (Rb1 + Rb2)",
+            "C. Rb1 + Rb2",
+            "D. Rb1 / (Rb1 + Rb2)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 3,
+        "question": "In high-frequency LC oscillator design, what specifically distinguishes a Colpitts oscillator from a Hartley oscillator?",
+        "choices": [
+            "A. The Colpitts utilizes a tapped capacitive voltage divider in its tank circuit",
+            "B. The Colpitts requires a piezoelectric crystal",
+            "C. The Colpitts uses a tapped inductor",
+            "D. The Colpitts operates exclusively at audio frequencies"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 4,
+        "question": "The equivalent electrical model of a piezoelectric quartz crystal consists of which combination of components?",
+        "choices": [
+            "A. A series RLC branch connected in parallel with a mounting capacitance (Cp)",
+            "B. A purely resistive network",
+            "C. A single inductor and capacitor in parallel",
+            "D. Three capacitors in series"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "When a 555 timer is configured in standard astable mode without any external steering diodes, the duty cycle of the output waveform will always be:",
+        "choices": [
+            "A. Exactly 50%",
+            "B. Less than 50%",
+            "C. Greater than 50%",
+            "D. Exactly 33.3%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "For a Wien bridge oscillator utilizing standard identical RC components in its lead-lag network, the frequency of oscillation is given by:",
+        "choices": [
+            "A. f = 1 / (2*pi*sqrt(RC))",
+            "B. f = 1 / (pi*R*C)",
+            "C. f = 1 / (R*C)",
+            "D. f = 1 / (2*pi*R*C)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 7,
+        "question": "How does the Clapp oscillator fundamentally differ from the standard Colpitts oscillator?",
+        "choices": [
+            "A. It uses an op-amp instead of a BJT",
+            "B. It adds a third capacitor in parallel with the inductor",
+            "C. It removes the inductor entirely",
+            "D. It features an additional series capacitor in the inductor branch of the tank circuit"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "What is the minimum number of high-pass RC sections required in an RC phase shift oscillator to produce the necessary 180-degree phase shift without infinite signal attenuation?",
+        "choices": [
+            "A. 1 section",
+            "B. 2 sections",
+            "C. 3 sections",
+            "D. 4 sections"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 9,
+        "question": "In filter terminology, the cutoff frequency (fc) of a standard filter response is defined as the frequency where the output power drops to half, which corresponds to a voltage attenuation of:",
+        "choices": [
+            "A. -6 dB",
+            "B. -1 dB",
+            "C. -3 dB (or 0.707)",
+            "D. -20 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "A worded circuit: A passive filter is constructed by placing a resistor in series with the input signal and a capacitor in shunt (parallel) to ground across the output. What type of filter is this?",
+        "choices": [
+            "A. High-Pass Filter",
+            "B. Band-Pass Filter",
+            "C. Notch Filter",
+            "D. Low-Pass Filter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "What is a primary advantage of active filters over passive filters?",
+        "choices": [
+            "A. Active filters can provide voltage gain in addition to filtering",
+            "B. Active filters require no power supply",
+            "C. Active filters can handle much higher load currents",
+            "D. Active filters operate efficiently at microwave frequencies"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "A passive LC low-pass filter features a single inductor and a single capacitor. In the stopband, what is the theoretical asymptotic roll-off rate of this filter?",
+        "choices": [
+            "A. -20 dB/decade",
+            "B. -40 dB/decade",
+            "C. -60 dB/decade",
+            "D. -10 dB/decade"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "For a series RLC band-pass filter, the resonant center frequency (f0) is calculated using which formula?",
+        "choices": [
+            "A. f0 = 1 / (2*pi*R*C)",
+            "B. f0 = 1 / (pi*sqrt(LC))",
+            "C. f0 = 1 / (2*pi*sqrt(LC))",
+            "D. f0 = R / (2*pi*L)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "A worded circuit: A passive filter is constructed by placing a capacitor in series with the input signal and a resistor in shunt to ground across the output. What type of filter is this?",
+        "choices": [
+            "A. Low-Pass Filter",
+            "B. Band-Stop Filter",
+            "C. Band-Pass Filter",
+            "D. High-Pass Filter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 15,
+        "question": "What is the Quality factor (Q) formula for a standard series RLC resonant circuit?",
+        "choices": [
+            "A. Q = (1/R) * sqrt(L/C)",
+            "B. Q = R * sqrt(C/L)",
+            "C. Q = (1/L) * sqrt(R/C)",
+            "D. Q = (1/C) * sqrt(L/R)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 16,
+        "question": "In RF filter engineering, \"insertion loss\" refers to:",
+        "choices": [
+            "A. The shift in phase caused by the filter",
+            "B. The loss of signal power resulting from the insertion of a filter into a transmission line",
+            "C. The bandwidth of the filter",
+            "D. The power consumed by the active op-amps"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 17,
+        "question": "A worded circuit problem: If two identical passive RC low-pass filters (same R, same C) are simply cascaded in series without an active buffer between them, what happens to the overall response?",
+        "choices": [
+            "A. The cutoff frequency shifts lower and the response is overdamped due to loading effects",
+            "B. It becomes a perfect Butterworth 2nd-order filter",
+            "C. The cutoff frequency doubles exactly",
+            "D. The filter oscillates"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "Which of the following is a major advantage of passive LC filters compared to active RC filters?",
+        "choices": [
+            "A. They can provide unlimited voltage gain",
+            "B. They are easily integrated into standard CMOS microchips",
+            "C. They can operate at significantly higher frequencies and power levels",
+            "D. They do not require inductors"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "A worded circuit: A passive filter consists of an inductor placed in series with the input signal, and a resistor in shunt to ground at the output. What type of filter is this?",
+        "choices": [
+            "A. High-Pass Filter",
+            "B. Low-Pass Filter",
+            "C. Notch Filter",
+            "D. Band-Pass Filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "For an RLC band-pass filter, the total bandwidth (BW) is mathematically related to the center frequency (f0) and Quality factor (Q) by:",
+        "choices": [
+            "A. BW = f0 * Q",
+            "B. BW = Q / f0",
+            "C. BW = f0 + Q",
+            "D. BW = f0 / Q"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "When a heavy resistive load is connected to the output of a passive RC low-pass filter, what is the primary consequence?",
+        "choices": [
+            "A. The filter becomes a high-pass filter",
+            "B. The roll-off rate becomes +20 dB/decade",
+            "C. The cutoff frequency shifts and the passband signal is attenuated",
+            "D. The cutoff frequency remains perfectly unchanged"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "For a standard 1st-order passive RC low-pass filter, what is the exact phase shift between the input and output voltages at the cutoff frequency?",
+        "choices": [
+            "A. 0 degrees",
+            "B. -45 degrees",
+            "C. -90 degrees",
+            "D. -180 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "A worded circuit: A passive band-stop (notch) filter can be constructed by placing which type of network in series with the signal path?",
+        "choices": [
+            "A. A parallel LC resonant circuit",
+            "B. A series LC resonant circuit",
+            "C. A single capacitor",
+            "D. A single inductor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "Which active filter approximation is characterized by a maximally flat magnitude response in the passband with no ripples?",
+        "choices": [
+            "A. Bessel",
+            "B. Chebyshev",
+            "C. Elliptic",
+            "D. Butterworth"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "Which active filter approximation allows for magnitude ripples in the passband to achieve a steeper initial roll-off rate in the transition band?",
+        "choices": [
+            "A. Bessel",
+            "B. Elliptic",
+            "C. Butterworth",
+            "D. Chebyshev"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 26,
+        "question": "If a system requires a filter that maintains linear phase shift and constant group delay to preserve the shape of pulsed waveforms, which approximation is best?",
+        "choices": [
+            "A. Butterworth",
+            "B. Chebyshev",
+            "C. Bessel",
+            "D. Cauer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "What is the ultimate stopband roll-off rate for a 3rd-order Butterworth low-pass filter?",
+        "choices": [
+            "A. -20 dB/decade",
+            "B. -60 dB/decade",
+            "C. -40 dB/decade",
+            "D. -80 dB/decade"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "A worded circuit: An active filter utilizes an op-amp with the input signal passing through two series resistors. A capacitor connects the node between the resistors to ground, and a second capacitor connects the op-amp output back to the node between the first resistor and the signal source. What topology is this?",
+        "choices": [
+            "A. Sallen-Key",
+            "B. Multiple Feedback (MFB)",
+            "C. State Variable",
+            "D. Biquad"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 29,
+        "question": "To achieve a Butterworth response in a 2nd-order Sallen-Key low-pass filter, the damping factor (DF) must be precisely set to:",
+        "choices": [
+            "A. 1.414",
+            "B. 0.707",
+            "C. 2.000",
+            "D. 1.000"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "What is the required Quality factor (Q) for a 2nd-order Butterworth filter response?",
+        "choices": [
+            "A. 0.500",
+            "B. 1.414",
+            "C. 2.000",
+            "D. 0.707"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 31,
+        "question": "A frequency response plot shows a low-pass filter rolling off at a rate of -80 dB/decade. What is the order of this filter?",
+        "choices": [
+            "A. 2nd order",
+            "B. 3rd order",
+            "C. 4th order",
+            "D. 8th order"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "How does a Chebyshev Type I filter differ from a Chebyshev Type II filter?",
+        "choices": [
+            "A. Type I is an active filter, Type II is a passive filter",
+            "B. Type I has ripples in the passband, Type II has ripples in the stopband",
+            "C. Type I has linear phase, Type II has nonlinear phase",
+            "D. Type I is low-pass only, Type II is high-pass only"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "Which filter approximation exhibits magnitude ripples in both the passband and the stopband, offering the steepest possible transition between the two?",
+        "choices": [
+            "A. Chebyshev",
+            "B. Elliptic (Cauer)",
+            "C. Bessel",
+            "D. Butterworth"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "In high-speed digital communications, preserving the exact shape of a square wave pulse through a filter is critical. Which filter type is preferred to minimize overshoot and ringing?",
+        "choices": [
+            "A. Bessel",
+            "B. Butterworth",
+            "C. Chebyshev",
+            "D. Elliptic"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "In a standard unity-gain Sallen-Key low-pass filter, the op-amp is configured such that its output is connected directly to its:",
+        "choices": [
+            "A. Non-inverting input",
+            "B. Inverting input through a capacitor",
+            "C. Ground",
+            "D. Inverting input"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "Which active filter topology utilizes an op-amp specifically in an inverting configuration with multiple feedback paths?",
+        "choices": [
+            "A. Sallen-Key",
+            "B. VCVS",
+            "C. Multiple Feedback (MFB)",
+            "D. Emitter Follower"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "In the complex s-plane, the poles of a Butterworth low-pass filter are located on a:",
+        "choices": [
+            "A. Vertical line in the left half-plane",
+            "B. Ellipse in the left half-plane",
+            "C. Circle in the left half-plane",
+            "D. Circle in the right half-plane"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 38,
+        "question": "In the complex s-plane, the poles of a Chebyshev low-pass filter are located on a:",
+        "choices": [
+            "A. Circle in the left half-plane",
+            "B. Ellipse in the left half-plane",
+            "C. Parabola",
+            "D. Rectangle"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "In 2nd-order active filter design, how is the Damping Factor (DF) mathematically related to the Quality Factor (Q)?",
+        "choices": [
+            "A. DF = Q",
+            "B. DF = Q^2",
+            "C. DF = 1 / Q",
+            "D. DF = 1 - Q"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "When comparing the transient step response of a Chebyshev filter to a Butterworth filter of the same order, the Chebyshev filter will generally exhibit:",
+        "choices": [
+            "A. More overshoot and ringing",
+            "B. Less overshoot and ringing",
+            "C. A perfectly smooth exponential rise",
+            "D. Exact linear phase"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "What is the formula for the cutoff frequency of a standard 1st-order active RC low-pass filter?",
+        "choices": [
+            "A. f = 1 / (2*pi*sqrt(RC))",
+            "B. f = R*C",
+            "C. f = 1 / (2*pi*R*C)",
+            "D. f = 2*pi*R*C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "If you have a functional Sallen-Key low-pass filter circuit and wish to convert it to a Sallen-Key high-pass filter, what is the primary component modification required?",
+        "choices": [
+            "A. Reverse the op-amp power supply pins",
+            "B. Add an inductor to the input",
+            "C. Change the op-amp to an inverting configuration",
+            "D. Swap the positions of all the frequency-determining resistors and capacitors"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 43,
+        "question": "A worded circuit: An active filter consists of a non-inverting op-amp configuration. The input signal passes through a series resistor, with a capacitor in shunt to ground at the non-inverting terminal. Feedback is provided via two resistors to set a gain > 1. What is this?",
+        "choices": [
+            "A. A 1st-order active low-pass filter with voltage gain",
+            "B. A State Variable filter",
+            "C. A Multiple Feedback high-pass filter",
+            "D. A 2nd-order Sallen-Key low-pass filter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "In a standard 2nd-order Multiple Feedback (MFB) low-pass filter, the two components forming the feedback loops connected to the inverting op-amp terminal are:",
+        "choices": [
+            "A. Two capacitors",
+            "B. A resistor and a capacitor",
+            "C. Two resistors",
+            "D. An inductor and a capacitor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "For a 2nd-order active low-pass filter, what is the theoretical phase shift at frequencies far above the cutoff frequency (f >> fc)?",
+        "choices": [
+            "A. 0 degrees",
+            "B. -90 degrees",
+            "C. -180 degrees",
+            "D. +90 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "In a Sallen-Key equal-component (R1=R2, C1=C2) low-pass filter design, to achieve a Butterworth response, the inner non-inverting amplifier gain must be set to precisely:",
+        "choices": [
+            "A. 1.000",
+            "B. 2.000",
+            "C. 3.000",
+            "D. 1.586"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 47,
+        "question": "A standard 2nd-order active high-pass filter exhibits a low-frequency roll-off (stopband slope) of:",
+        "choices": [
+            "A. +40 dB/decade",
+            "B. -20 dB/decade",
+            "C. +20 dB/decade",
+            "D. -40 dB/decade"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "If you cascade two identical 1st-order active Butterworth low-pass filters (each with cutoff fc), the overall resulting 2nd-order filter will:",
+        "choices": [
+            "A. Be a perfect 2nd-order Butterworth filter at fc",
+            "B. Have an overdamped response with a cutoff frequency lower than fc",
+            "C. Oscillate",
+            "D. Become a band-pass filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "A worded circuit: An active high-pass filter is built using the Multiple Feedback (MFB) topology. How many capacitors and resistors are required in the frequency-determining network around the op-amp?",
+        "choices": [
+            "A. 2 capacitors, 2 resistors",
+            "B. 1 capacitor, 2 resistors",
+            "C. 3 capacitors, 2 resistors",
+            "D. 2 capacitors, 3 resistors"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "What is the primary practical limitation of an active high-pass filter at extremely high frequencies?",
+        "choices": [
+            "A. The capacitors become open circuits",
+            "B. The resistors overheat",
+            "C. The inductors saturate",
+            "D. The op-amp's finite Gain-Bandwidth Product (GBW) limits high-frequency gain"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 51,
+        "question": "A 1st-order active low-pass filter uses a 15.9 kOhm resistor and a 10 nF capacitor. What is its approximate cutoff frequency?",
+        "choices": [
+            "A. 1 kHz",
+            "B. 10 kHz",
+            "C. 15.9 kHz",
+            "D. 100 Hz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "When comparing the Sallen-Key unity-gain topology to the Sallen-Key equal-component topology, a major advantage of the unity-gain configuration is that it is:",
+        "choices": [
+            "A. Capable of much higher Q factors",
+            "B. Less sensitive to op-amp gain variations and component tolerances",
+            "C. An inverting amplifier",
+            "D. Able to use inductors"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "If a system requires a 3rd-order active Butterworth low-pass filter, what is the minimum number of op-amps required using standard cascaded Sallen-Key/1st-order building blocks?",
+        "choices": [
+            "A. One",
+            "B. Four",
+            "C. Two",
+            "D. Three"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "In the standard Multiple Feedback (MFB) active filter topology, the operational amplifier is fundamentally configured as an:",
+        "choices": [
+            "A. Emitter follower",
+            "B. Integrator",
+            "C. Non-inverting amplifier",
+            "D. Inverting amplifier"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 55,
+        "question": "To increase the cutoff frequency of an existing active RC low-pass filter, a designer must:",
+        "choices": [
+            "A. Decrease the value of the frequency-determining resistors or capacitors",
+            "B. Add an inductor",
+            "C. Increase the value of the frequency-determining resistors or capacitors",
+            "D. Decrease the power supply voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "A worded circuit: An active low-pass filter features an op-amp. The input signal feeds through R1 in series with R2 to the non-inverting input. C1 connects from the output to the node between R1 and R2. C2 connects the non-inverting input to ground. What topology is this?",
+        "choices": [
+            "A. Multiple Feedback (MFB)",
+            "B. Sallen-Key",
+            "C. Biquad",
+            "D. Twin-T"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "The voltage gain (K) of the inner amplifier in a Sallen-Key equal-component filter is related to the required Quality factor (Q) by the equation K = 3 - (1/Q). For a Butterworth response, K evaluates to:",
+        "choices": [
+            "A. 1.414",
+            "B. 2.000",
+            "C. 1.586",
+            "D. 0.707"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "For a 1st-order active high-pass filter, what is the exact phase shift between input and output at the -3 dB cutoff frequency?",
+        "choices": [
+            "A. 0 degrees",
+            "B. -45 degrees",
+            "C. -90 degrees",
+            "D. +45 degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 59,
+        "question": "At frequencies extremely close to DC (0 Hz), a standard 2nd-order active high-pass filter produces a phase shift approaching:",
+        "choices": [
+            "A. +180 degrees",
+            "B. +90 degrees",
+            "C. 0 degrees",
+            "D. -180 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "Which of the following is a significant limitation of standard active RC filters when compared to passive RLC filters?",
+        "choices": [
+            "A. They require large, heavy inductors",
+            "B. They cannot handle high load currents or high voltages",
+            "C. They cannot provide voltage gain",
+            "D. They are difficult to tune"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "A filter that passes a specific range of frequencies while heavily attenuating frequencies both above and below this range is called a:",
+        "choices": [
+            "A. Band-Stop Filter",
+            "B. Low-Pass Filter",
+            "C. High-Pass Filter",
+            "D. Band-Pass Filter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 62,
+        "question": "A filter designed to heavily attenuate a very specific, narrow band of frequencies while passing all other frequencies is called a:",
+        "choices": [
+            "A. Band-Pass Filter",
+            "B. Notch Filter",
+            "C. Bessel Filter",
+            "D. State Variable Filter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "In a band-pass filter, the total bandwidth (BW) is simply defined as the difference between:",
+        "choices": [
+            "A. The center frequency and the lower cutoff frequency",
+            "B. The upper cutoff frequency and the lower cutoff frequency",
+            "C. The highest frequency and zero",
+            "D. The upper cutoff frequency and the center frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "For a symmetrical band-pass filter, the center frequency (f0) relates to the lower (fL) and upper (fH) cutoff frequencies by which specific mathematical relationship?",
+        "choices": [
+            "A. f0 = fH - fL",
+            "B. f0 = (fL + fH) / 2",
+            "C. f0 = sqrt(fL * fH)",
+            "D. f0 = (fL * fH) / 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "A band-pass filter is generally classified as \"narrowband\" if its Quality factor (Q) is strictly greater than:",
+        "choices": [
+            "A. 0.707",
+            "B. 1",
+            "C. 10",
+            "D. 100"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "A wideband band-pass filter is most easily constructed by cascading which two types of filters?",
+        "choices": [
+            "A. Two Low-Pass Filters",
+            "B. Two High-Pass Filters",
+            "C. A Low-Pass Filter and a High-Pass Filter",
+            "D. A Notch Filter and an All-Pass Filter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 67,
+        "question": "A wideband band-stop filter can be constructed by connecting the inputs of which two filters together and summing their outputs?",
+        "choices": [
+            "A. A Low-Pass Filter and a Band-Pass Filter",
+            "B. A Low-Pass Filter and a High-Pass Filter",
+            "C. Two Low-Pass Filters",
+            "D. Two Notch Filters"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "A worded circuit: A specialized notch filter is built using two T-networks connected in parallel between input and output. One T-network consists of two series resistors and a shunt capacitor. The other consists of two series capacitors and a shunt resistor. This is known as a:",
+        "choices": [
+            "A. Wien Bridge Filter",
+            "B. Twin-T Notch Filter",
+            "C. Sallen-Key Notch Filter",
+            "D. State Variable Filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "For a standard Twin-T notch filter using components R, R, R/2 and C, C, 2C, what is the formula for the notch frequency (f0)?",
+        "choices": [
+            "A. f0 = 1 / (pi*R*C)",
+            "B. f0 = 1 / (2*pi*R*C)",
+            "C. f0 = 1 / (sqrt(2)*pi*R*C)",
+            "D. f0 = R / (2*pi*C)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "In a standard Twin-T notch filter, the Q factor is typically low (around 0.25). A common technique to drastically increase the Q factor and deepen the notch is to:",
+        "choices": [
+            "A. Connect the ground node of the shunt components to the output of an op-amp voltage follower driven by the filter output (bootstrapping)",
+            "B. Add a large inductor in series with the input",
+            "C. Replace the capacitors with larger values",
+            "D. Cool the circuit to cryogenic temperatures"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "The Multiple Feedback (MFB) topology is highly popular for constructing active band-pass filters, but it is generally limited to applications requiring a Q factor of less than:",
+        "choices": [
+            "A. 0.707",
+            "B. 1000",
+            "C. 100",
+            "D. 10 to 20"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "The \"fractional bandwidth\" of a band-pass filter is a dimensionless quantity defined as:",
+        "choices": [
+            "A. BW / f0",
+            "B. f0 / BW",
+            "C. fH / fL",
+            "D. (fH - fL) / f0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "A band-pass filter has a center frequency of 2 kHz and a bandwidth of 100 Hz. What is its Quality factor (Q)?",
+        "choices": [
+            "A. 20",
+            "B. 10",
+            "C. 200",
+            "D. 0.05"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "When designing high-Q active band-pass filters operating at high frequencies, the actual center frequency often shifts lower than the calculated theoretical value. This is primarily caused by:",
+        "choices": [
+            "A. Resistor aging",
+            "B. The op-amp's finite Gain-Bandwidth Product (GBW)",
+            "C. Temperature fluctuations in the capacitors",
+            "D. Power supply ripple"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "A worded circuit: An active band-pass filter uses a single inverting op-amp. The signal enters via series resistor R1. Capacitor C1 connects the op-amp input to output. Capacitor C2 and resistor R2 connect the op-amp input to the node between R1 and the signal. What topology is this?",
+        "choices": [
+            "A. State Variable",
+            "B. Sallen-Key",
+            "C. Multiple Feedback (MFB) Band-Pass",
+            "D. Twin-T"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "At the exact center frequency (f0) of an ideal notch (band-stop) filter, the signal attenuation theoretically reaches:",
+        "choices": [
+            "A. 3 dB",
+            "B. Minimum attenuation (0 dB)",
+            "C. Maximum attenuation (ideally infinite)",
+            "D. 6 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "If two identical band-pass filters are cascaded in series, what happens to the overall passband of the resulting system?",
+        "choices": [
+            "A. It becomes a low-pass filter",
+            "B. The overall bandwidth decreases (shrinks)",
+            "C. The overall bandwidth doubles",
+            "D. It becomes a notch filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "Which specific type of filter is overwhelmingly used in audio recording equipment to eliminate 60 Hz (or 50 Hz) electromagnetic interference hum from power lines?",
+        "choices": [
+            "A. Low-Pass Filter",
+            "B. High-Pass Filter",
+            "C. Notch Filter",
+            "D. Band-Pass Filter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "At the exact center frequency (f0) of a resonant band-pass filter, the phase shift between the input and output is typically:",
+        "choices": [
+            "A. -90 degrees",
+            "B. +90 degrees",
+            "C. +45 degrees",
+            "D. 0 degrees (or 180 degrees, depending on inverting/non-inverting topology)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "For a narrowband band-pass filter, if the center frequency (f0) and the lower cutoff frequency (fL) are known, the upper cutoff frequency (fH) can be accurately calculated using:",
+        "choices": [
+            "A. fH = f0^2 / fL",
+            "B. fH = 2*f0 - fL",
+            "C. fH = f0 + fL",
+            "D. fH = sqrt(f0 * fL)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "In a broadband band-pass filter created by cascading a Low-Pass Filter (LPF) and a High-Pass Filter (HPF), which critical frequency condition must be met to create a passband?",
+        "choices": [
+            "A. The cutoff frequency of the HPF must be equal to the LPF",
+            "B. The cutoff frequency of the HPF must be strictly lower than the cutoff frequency of the LPF",
+            "C. The cutoff frequency of the HPF must be strictly higher than the LPF",
+            "D. Both filters must have the exact same cutoff frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "A standard 3-op-amp State Variable active filter provides which of the following outputs simultaneously?",
+        "choices": [
+            "A. Only Low-Pass and High-Pass",
+            "B. Low-Pass, High-Pass, and Band-Pass",
+            "C. Only Band-Pass",
+            "D. Low-Pass, Band-Pass, and Notch"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "How many operational amplifiers are typically utilized in a standard, fully-featured State Variable filter circuit?",
+        "choices": [
+            "A. One",
+            "B. Two",
+            "C. Three or four",
+            "D. Six"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "What is the primary architectural advantage of the State Variable filter topology over simple Sallen-Key or MFB designs?",
+        "choices": [
+            "A. It requires no capacitors",
+            "B. It operates without a power supply",
+            "C. It allows independent adjustment of the center frequency, Q factor, and gain",
+            "D. It uses only one op-amp"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "A worded circuit: An active filter circuit begins with a summing amplifier. The output of the summing amp feeds into a first inverting integrator, whose output feeds into a second inverting integrator. Feedback is routed from the integrators back to the summer. This is a:",
+        "choices": [
+            "A. Sallen-Key filter",
+            "B. Multiple Feedback filter",
+            "C. Biquad filter",
+            "D. State Variable filter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "How does the popular Tow-Thomas Biquad filter physically differ from the classic State Variable filter?",
+        "choices": [
+            "A. It uses no op-amps",
+            "B. It uses only non-inverting integrators",
+            "C. It uses two inverting integrators and an inverting amplifier in a ring, providing LPF and BPF outputs but no direct HPF",
+            "D. It requires inductors"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "When a filter topology is described as \"Biquadratic\" or a \"Biquad\", this mathematically signifies that the circuit implements a transfer function of what order?",
+        "choices": [
+            "A. 1st order",
+            "B. 2nd order",
+            "C. 3rd order",
+            "D. 4th order"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "Compared to Sallen-Key filters, State Variable and Biquad filters exhibit extremely low sensitivity to:",
+        "choices": [
+            "A. Power supply voltage",
+            "B. Component tolerance variations and op-amp non-idealities",
+            "C. Input signal amplitude",
+            "D. Temperature extremes"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "In a switched-capacitor filter, the equivalent resistance (Req) simulated by a capacitor (C) switched at a clock frequency (f_clk) is given by the formula:",
+        "choices": [
+            "A. Req = f_clk * C",
+            "B. Req = 1 / (f_clk * C)",
+            "C. Req = f_clk / C",
+            "D. Req = C / f_clk"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "What is the most significant operational advantage of a switched-capacitor active filter over a continuous-time active RC filter?",
+        "choices": [
+            "A. It requires inductors for higher Q",
+            "B. It handles much higher power",
+            "C. The cutoff or center frequency can be precisely and dynamically controlled by altering an external digital clock frequency",
+            "D. It generates absolutely no internal noise"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "A worded circuit: An integrated circuit (e.g., UAF42 or MF10) contains multiple operational amplifiers pre-configured internally with precision capacitors to allow a user to easily build LPF, HPF, BPF, or Notch responses by adding a few external resistors. This is known as a:",
+        "choices": [
+            "A. DSP microprocessor",
+            "B. Digital-to-Analog Converter",
+            "C. Universal Active Filter IC",
+            "D. 555 Timer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "In a standard State Variable filter, if a designer wishes to change the center frequency (f0) without altering the Q factor or the gain, they must:",
+        "choices": [
+            "A. Change the input summing resistor",
+            "B. Vary the integration resistors (R) of both integrators simultaneously",
+            "C. Change the damping resistor",
+            "D. Vary only one integration capacitor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "To realize an elliptic (Cauer) or complex notch response using a standard Biquad or State Variable filter block, the designer must:",
+        "choices": [
+            "A. Cascade two Low-Pass filters",
+            "B. Remove all feedback loops",
+            "C. Sum the Low-Pass and High-Pass outputs together",
+            "D. Ground the Band-Pass output"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "In a standard 3-op-amp State Variable filter, the Q factor is strictly determined by:",
+        "choices": [
+            "A. The capacitors in the integrators",
+            "B. The input coupling capacitor",
+            "C. The value of the damping feedback resistor connected to the input summing amplifier",
+            "D. The op-amp power supply voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "The standard integrators utilized in both the classic State Variable filter and the Tow-Thomas Biquad filter are configured as:",
+        "choices": [
+            "A. Non-inverting integrators",
+            "B. Inverting integrators",
+            "C. Differentiators",
+            "D. Logarithmic amplifiers"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "Commercial switched-capacitor filter ICs (such as the MF10) typically fix the ratio of the external clock frequency to the filter's cutoff frequency to specific precision values, most commonly:",
+        "choices": [
+            "A. 1:1 or 2:1",
+            "B. 1000:1",
+            "C. 3.14:1",
+            "D. 50:1 or 100:1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "The Akerberg-Mossberg biquad topology is a popular variation of the Tow-Thomas biquad. Its primary advantage is:",
+        "choices": [
+            "A. It uses only one op-amp",
+            "B. Improved high-frequency performance due to inherent compensation for the op-amps' finite Gain-Bandwidth Product",
+            "C. It requires no capacitors",
+            "D. It can handle high-voltage AC power"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "If a design requires a highly stable, very narrow active band-pass filter with a Q factor of 100, which topology is the most appropriate and reliable choice?",
+        "choices": [
+            "A. Sallen-Key",
+            "B. Multiple Feedback (MFB)",
+            "C. State Variable or Biquad",
+            "D. 1st-order RC cascade"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "A single standard biquad circuit block intrinsically provides a transfer function with how many poles?",
+        "choices": [
+            "A. One pole",
+            "B. Two poles",
+            "C. Three poles",
+            "D. Four poles"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 100,
+        "question": "In a classic 3-op-amp State Variable filter, the output of the very first op-amp (the summing amplifier) intrinsically provides which filter response?",
+        "choices": [
+            "A. High-Pass",
+            "B. Low-Pass",
+            "C. Band-Pass",
+            "D. Notch"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 101,
+        "question": "In a classic 3-op-amp State Variable filter, the output of the middle op-amp (the first integrator) intrinsically provides which filter response?",
+        "choices": [
+            "A. Notch",
+            "B. High-Pass",
+            "C. Low-Pass",
+            "D. Band-Pass"
+        ],
+        "correct_answer": "D"
+    }
+]

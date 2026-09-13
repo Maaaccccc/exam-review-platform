@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "What is the approximate ripple factor of an ideal half-wave rectifier without any filter?",
+        "choices": [
+            "A. 1.11",
+            "B. 1.414",
+            "C. 1.21",
+            "D. 0.48"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "In a standard full-wave bridge rectifier circuit, what is the theoretical Peak Inverse Voltage (PIV) rating required for each diode?",
+        "choices": [
+            "A. Vm",
+            "B. 2Vm",
+            "C. Vm / 2",
+            "D. 3Vm"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "For a full-wave center-tapped rectifier, if the peak voltage across exactly half of the secondary winding is Vm, the theoretical DC output voltage is:",
+        "choices": [
+            "A. Vm / pi",
+            "B. Vm",
+            "C. Vm / sqrt(2)",
+            "D. 2Vm / pi"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "A full-wave voltage doubler operates from a standard 60 Hz AC supply. What is the fundamental frequency of its output ripple?",
+        "choices": [
+            "A. 30 Hz",
+            "B. 120 Hz",
+            "C. 60 Hz",
+            "D. 240 Hz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "What is the primary advantage of a choke-input (LC) filter over a simple capacitor filter in a power supply?",
+        "choices": [
+            "A. Its ripple factor is highly independent of the load resistance",
+            "B. It is significantly cheaper and smaller",
+            "C. It produces a higher no-load DC voltage",
+            "D. It completely eliminates all ripple harmonics"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "The theoretical maximum rectification efficiency of an ideal half-wave rectifier is exactly:",
+        "choices": [
+            "A. 100%",
+            "B. 81.2%",
+            "C. 40.6%",
+            "D. 48%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "The peak-to-peak ripple voltage of a capacitor-filtered full-wave rectifier is mathematically approximated by the formula:",
+        "choices": [
+            "A. Idc / (f * C)",
+            "B. Vdc / (f * C)",
+            "C. Idc / (3 * f * C)",
+            "D. Idc / (2 * f * C)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "A Cockcroft-Walton voltage multiplier is used extensively in electronic applications requiring:",
+        "choices": [
+            "A. High alternating currents",
+            "B. Very high DC voltages at very low currents",
+            "C. High frequency AC signal amplification",
+            "D. Direct conversion of DC to AC"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "A major advantage of the bridge rectifier over the center-tapped full-wave rectifier is that:",
+        "choices": [
+            "A. It requires a center-tapped transformer",
+            "B. It requires a lower PIV rating per diode",
+            "C. It strictly uses fewer diodes",
+            "D. It produces a completely ripple-free output"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "The form factor of a perfectly rectified full-wave sinusoidal signal without any filter is mathematically evaluated as:",
+        "choices": [
+            "A. 1.11",
+            "B. 1.414",
+            "C. 1.21",
+            "D. 1.57"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "A circuit that fundamentally removes either the positive or negative extremity of a waveform is technically called a:",
+        "choices": [
+            "A. Clamper",
+            "B. Rectifier",
+            "C. Clipper",
+            "D. DC restorer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "Another highly common industry term for a clipping circuit is a:",
+        "choices": [
+            "A. DC restorer",
+            "B. Limiter",
+            "C. Voltage multiplier",
+            "D. Slicer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "In a standard series clipper circuit, the diode is positioned physically:",
+        "choices": [
+            "A. In series with the load",
+            "B. In parallel with the load",
+            "C. In series with the DC bias",
+            "D. In parallel with the source"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "In a basic shunt (parallel) clipper circuit, the diode is positioned physically:",
+        "choices": [
+            "A. In series with the source",
+            "B. In series with the load",
+            "C. In parallel with the load",
+            "D. In parallel with the DC bias"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "Circuit: An AC source feeds a series combination of an ideal diode and a resistor. The anode connects to the source, and the cathode connects to the resistor. Output is taken across the resistor. What does this circuit do?",
+        "choices": [
+            "A. Clips the positive half-cycle",
+            "B. Clips the negative half-cycle",
+            "C. Clips both half-cycles",
+            "D. Acts as a clamper"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "Circuit: An AC source feeds a resistor in series with a parallel branch containing a diode. The diode's anode is grounded, and cathode is connected to the resistor. Output is taken across the diode. This ideal circuit strictly:",
+        "choices": [
+            "A. Clips the negative half-cycle",
+            "B. Clips the positive half-cycle",
+            "C. Clamps the signal to zero",
+            "D. Doubles the voltage amplitude"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "A double-ended clipper circuit is specifically designed to limit the output voltage at:",
+        "choices": [
+            "A. Only the positive peak",
+            "B. Only the negative peak",
+            "C. A specific DC reference level",
+            "D. Both the positive and negative voltage peaks"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 18,
+        "question": "Two ideal Zener diodes connected back-to-back in series, placed in parallel with a load, will function fundamentally as a:",
+        "choices": [
+            "A. Single-ended clipper",
+            "B. DC restorer",
+            "C. Double-ended clipper",
+            "D. Voltage doubler"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "Circuit: An AC source of 20V peak is applied to a series resistor. In parallel with the load is an ideal diode with its anode grounded and cathode facing the input. What is the exact peak output voltage during the negative half-cycle?",
+        "choices": [
+            "A. -20 V",
+            "B. 0 V",
+            "C. 20 V",
+            "D. -0.7 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "What is the primary physical purpose of adding a DC voltage source in series with the diode in a clipper circuit?",
+        "choices": [
+            "A. To increase the input voltage amplitude",
+            "B. To act as an active filter",
+            "C. To accurately adjust the clipping level",
+            "D. To convert the AC signal to pure DC"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "Circuit: A 15V peak AC source feeds a series resistor. In parallel with the load is an ideal diode (anode up) in series with a 5V DC battery (positive terminal up, negative to ground). What is the maximum positive output voltage?",
+        "choices": [
+            "A. 5 V",
+            "B. 15 V",
+            "C. 10 V",
+            "D. 20 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "In the exact same circuit (15V AC, ideal diode anode up, 5V battery positive up), what is the maximum negative output voltage?",
+        "choices": [
+            "A. -5 V",
+            "B. -10 V",
+            "C. -15 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "Circuit: A 12V peak AC source feeds a series resistor. In parallel is a practical silicon diode (anode to ground) in series with a 4V DC battery (positive terminal up, negative to ground). Output is across the parallel branch. The negative peak is clipped at approximately:",
+        "choices": [
+            "A. -4.7 V",
+            "B. -3.3 V",
+            "C. -4.0 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "A series clipper consists of a 10V peak AC source, a 3V DC battery (positive terminal facing the diode anode), an ideal diode, and a load resistor. The diode cathode faces the load. What is the peak positive voltage exactly across the load?",
+        "choices": [
+            "A. 10 V",
+            "B. 7 V",
+            "C. 13 V",
+            "D. 3 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "In the exact same series biased clipper (10V AC, 3V battery aiding, ideal diode), what is the exact minimum output voltage across the load during the negative half-cycle?",
+        "choices": [
+            "A. 0 V",
+            "B. -13 V",
+            "C. -10 V",
+            "D. -3 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "A biased parallel clipper is designed to clip off any voltage strictly above +6V and strictly below -6V. Using ideal components, this configuration requires:",
+        "choices": [
+            "A. Two diodes in series",
+            "B. Two parallel branches, each with a diode and a 6V battery",
+            "C. One diode and two 6V batteries",
+            "D. Two back-to-back ideal Zener diodes rated at 6V each"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "When using a practical silicon diode in a standard parallel clipper circuit, the physical clipping level shifts from the ideal theoretical level by approximately:",
+        "choices": [
+            "A. 0.3 V",
+            "B. 0.7 V",
+            "C. 1.0 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "Circuit: A 20V peak sine wave is applied to a resistor in series with a parallel branch. The branch has a silicon diode (cathode up) and a 5V battery (positive up). What is the exact maximum positive output voltage?",
+        "choices": [
+            "A. 5 V",
+            "B. 5.7 V",
+            "C. 20 V",
+            "D. 4.3 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "In a biased parallel clipper, if the biasing DC battery is completely reversed in polarity, the new clipping level will:",
+        "choices": [
+            "A. Remain perfectly unchanged",
+            "B. Shift to the opposite polarity region",
+            "C. Become exactly zero",
+            "D. Double in overall magnitude"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "Which of the following electronic components is absolutely NOT required to construct a basic, functional double-ended biased clipper?",
+        "choices": [
+            "A. Diodes",
+            "B. Resistors",
+            "C. DC voltage sources",
+            "D. Capacitors"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 31,
+        "question": "Circuit: A 5V peak square wave (0V average) is applied to a series ideal diode (anode to source). The output is taken across a parallel resistor. What is the exact DC average value of the output waveform?",
+        "choices": [
+            "A. 5 V",
+            "B. 2.5 V",
+            "C. 0 V",
+            "D. 1.25 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "Circuit: An AC signal feeds a resistor Rs. A parallel branch contains an ideal diode D1 (anode up, cathode to ground). Another parallel branch contains ideal diode D2 (cathode up, anode to ground). The output across the diodes is strictly:",
+        "choices": [
+            "A. A full-wave rectified signal",
+            "B. A completely clipped signal (0V)",
+            "C. A half-wave rectified signal",
+            "D. An unclipped pure AC signal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "In a series clipper circuit, if the load resistance is completely removed (making it an open circuit), the output voltage waveform will theoretically:",
+        "choices": [
+            "A. Mirror the input waveform exactly",
+            "B. Be perfectly clipped to zero",
+            "C. Double in amplitude",
+            "D. Disappear entirely"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "A standard parallel clipper circuit uses a resistor Rs in series with the source, and a diode in parallel with the load RL. For proper and effective clipping action to occur, Rs must strictly be:",
+        "choices": [
+            "A. Equal to RL",
+            "B. Much less than RL",
+            "C. Much greater than the diode's forward resistance",
+            "D. Equal to the diode's forward resistance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "If the instantaneous input voltage is less than the specified clipping level in a parallel clipper, the ideal diode functionally acts as a/an:",
+        "choices": [
+            "A. Short circuit",
+            "B. Open circuit",
+            "C. Voltage source",
+            "D. Current source"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "Circuit: An 8V peak sine wave. A parallel clipper uses a 3V Zener diode (anode to ground). Assuming a standard 0.7V forward drop for the Zener, what is the output voltage during the positive half-cycle?",
+        "choices": [
+            "A. 8 V",
+            "B. 0.7 V",
+            "C. 3 V",
+            "D. 3.7 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "In the exact same Zener clipper circuit (8V peak, 3V Zener with anode to ground), what is the output voltage heavily clipped at during the negative half-cycle?",
+        "choices": [
+            "A. -8 V",
+            "B. -3 V",
+            "C. -0.7 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "Slicing circuits, which transmit only a specific internal portion of an input waveform, are a highly specialized category of:",
+        "choices": [
+            "A. Voltage multipliers",
+            "B. DC clampers",
+            "C. Active filters",
+            "D. Double-ended clippers"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 39,
+        "question": "Circuit: An input signal ranging from -10V to +10V is applied. A series combination of two opposing ideal diodes (anode to anode) is placed in parallel with the load. What is the exact output?",
+        "choices": [
+            "A. Clipped at 0V",
+            "B. Unclipped (-10V to +10V)",
+            "C. Clipped at +10V",
+            "D. Clipped at -10V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "To physically prevent a sensitive analog-to-digital converter (ADC) input from exceeding its 5V maximum rating, which specific wave-shaping circuit is most appropriate?",
+        "choices": [
+            "A. High-pass filter",
+            "B. DC restorer",
+            "C. Clamper",
+            "D. Clipper"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "A clamping circuit is frequently and formally referred to in television and electronic engineering as a:",
+        "choices": [
+            "A. DC restorer",
+            "B. Signal limiter",
+            "C. Envelope clipper",
+            "D. Precision rectifier"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "The primary mathematical and physical function of a clamper circuit is to:",
+        "choices": [
+            "A. Remove specific portions of a waveform",
+            "B. Add a specific DC level to an AC waveform",
+            "C. Multiply the peak voltage logarithmically",
+            "D. Filter out high frequency transients"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Which of the following physical components is absolutely essential in a standard clamping circuit but generally absent in a basic clipping circuit?",
+        "choices": [
+            "A. Semiconductor diode",
+            "B. Load resistor",
+            "C. DC battery",
+            "D. Capacitor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "In a fundamental clamper circuit, the capacitor is physically situated:",
+        "choices": [
+            "A. In parallel with the rectifying diode",
+            "B. In parallel with the output load",
+            "C. In series with the signal source",
+            "D. In series with the load resistor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "During the initial brief charging phase of the capacitor in a clamper circuit, the diode must strictly be:",
+        "choices": [
+            "A. Reverse-biased",
+            "B. Forward-biased",
+            "C. In avalanche breakdown",
+            "D. Completely open-circuited"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "Circuit: An AC source feeds a series capacitor. The other side of the capacitor connects to the anode of an ideal diode (cathode to ground) and the output. This configuration is formally a:",
+        "choices": [
+            "A. Positive clamper",
+            "B. Peak clipper",
+            "C. Negative clamper",
+            "D. Voltage doubler"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "In the previous circuit (series C, diode anode to C, cathode to ground), to what exact DC level does the capacitor charge if the input is a 10V peak sine wave?",
+        "choices": [
+            "A. 0 V",
+            "B. +10 V",
+            "C. -10 V",
+            "D. 20 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "A standard negative clamper will strictly shift the input AC waveform so that its:",
+        "choices": [
+            "A. Positive peak aligns with zero (or a reference level)",
+            "B. Negative peak aligns with zero",
+            "C. Average DC value becomes exactly zero",
+            "D. Peak-to-peak value is perfectly doubled"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "For a clamping circuit to function properly without significantly distorting the waveform during the non-conducting phase, the RC discharge time constant must strictly be:",
+        "choices": [
+            "A. Much smaller than the signal period",
+            "B. Exactly equal to the signal period",
+            "C. Much larger than the signal period",
+            "D. Equal to the initial charging time constant"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "If the RC time constant of a clamper is too small relative to the input signal's period, the output waveform will primarily suffer from:",
+        "choices": [
+            "A. Severe signal clipping",
+            "B. Complete phase inversion",
+            "C. Voltage doubling",
+            "D. Unwanted exponential decay (tilt)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 51,
+        "question": "Circuit: A 20V peak-to-peak square wave (alternating from +10V to -10V) is applied to a positive clamper using an ideal diode. What is the maximum positive voltage of the exact output?",
+        "choices": [
+            "A. 10 V",
+            "B. 0 V",
+            "C. -20 V",
+            "D. 20 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "In the exact same ideal positive clamper (20V p-p input), what is the strict minimum voltage of the output waveform?",
+        "choices": [
+            "A. -10 V",
+            "B. 10 V",
+            "C. 20 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "Circuit: A 12V peak sine wave is applied to a negative clamper using a practical silicon diode (0.7V drop). The capacitor initially charges to what approximate DC voltage?",
+        "choices": [
+            "A. 12 V",
+            "B. 11.3 V",
+            "C. -11.3 V",
+            "D. 12.7 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "In the exact same practical negative clamper (12V peak sine, 0.7V diode), what is the maximum positive peak of the steady-state output waveform?",
+        "choices": [
+            "A. 0 V",
+            "B. 12 V",
+            "C. -0.7 V",
+            "D. 0.7 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 55,
+        "question": "A biased clamper incorporates a DC voltage source exactly in series with the:",
+        "choices": [
+            "A. Input AC signal",
+            "B. Coupling capacitor",
+            "C. Output load resistor",
+            "D. Clamping diode"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 56,
+        "question": "Circuit: An AC source (10V peak) feeds a series capacitor. The other side connects to a diode's cathode. The diode's anode connects to a +3V DC battery (positive terminal up, negative to ground). This circuit is a:",
+        "choices": [
+            "A. Positive clamper biased at +3V",
+            "B. Negative clamper biased at -3V",
+            "C. Positive clamper biased at -3V",
+            "D. Negative clamper biased at +3V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "In the previous biased circuit (10V peak AC, C in series, diode cathode to C, anode to +3V), to what exact voltage does the capacitor charge? (Assume ideal diode).",
+        "choices": [
+            "A. 7 V",
+            "B. 13 V",
+            "C. -7 V",
+            "D. -13 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "In the exact same biased clamper circuit (charging to 7V), what is the theoretical maximum positive peak of the output waveform?",
+        "choices": [
+            "A. 10 V",
+            "B. 17 V",
+            "C. 3 V",
+            "D. 13 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "The Clamping Circuit Theorem strictly dictates that for a steady-state periodic waveform, the ratio of the forward area to the reverse area (Af / Ar) is mathematically equal to:",
+        "choices": [
+            "A. Rf / R",
+            "B. C / R",
+            "C. R / Rf",
+            "D. Rs / R"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "In the Clamping Circuit Theorem equation (Af / Ar = Rf / R), the variable 'Rf' mathematically and physically represents the:",
+        "choices": [
+            "A. Forward resistance of the diode",
+            "B. Total load resistance",
+            "C. Internal source resistance",
+            "D. Feedback loop resistance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "If a clamping circuit causes the output waveform to shift downwards such that its highest positive peak rests at a specific negative DC value, the circuit is definitively classified as a:",
+        "choices": [
+            "A. Positive clamper",
+            "B. Peak clipper",
+            "C. Integrator",
+            "D. Biased negative clamper"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 62,
+        "question": "The discharging time constant of a standard practical clamper circuit is mathematically defined as:",
+        "choices": [
+            "A. Rs * C",
+            "B. Rf * C",
+            "C. (Rs + Rf) * C",
+            "D. R * C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 63,
+        "question": "The initial charging time constant of a practical clamper circuit, which determines how fast the capacitor charges during the first few cycles, is primarily dictated by the capacitor and the:",
+        "choices": [
+            "A. Sum of source resistance Rs and diode forward resistance Rf",
+            "B. Total load resistance R",
+            "C. Diode reverse resistance Rr",
+            "D. Internal transition capacitance of the diode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "To guarantee a clamper charges quickly and tracks the input properly during initial turn-on, the charging time constant should strictly be:",
+        "choices": [
+            "A. Equal to the signal period",
+            "B. Much larger than the signal period",
+            "C. Exactly zero",
+            "D. Much smaller than the signal period"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "Circuit: A 5V peak sine wave is fed to a positive clamper. However, during assembly, the diode is mistakenly installed in series with the capacitor rather than in parallel with the load. The resulting circuit will strictly function as a:",
+        "choices": [
+            "A. DC restorer",
+            "B. Double-ended clipper",
+            "C. Voltage doubler",
+            "D. Half-wave rectifier"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 66,
+        "question": "In television transmission technology, a DC restorer circuit is crucially used in the receiver to:",
+        "choices": [
+            "A. Filter out high-frequency ghosting noise",
+            "B. Establish a stable reference black level for the video signal",
+            "C. Amplify the audio subcarrier envelope",
+            "D. Clip the synchronization pulses"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "If a clamper's load resistance (R) is accidentally removed (creating an open circuit), the coupling capacitor will theoretically:",
+        "choices": [
+            "A. Discharge immediately",
+            "B. Form a highly resonant tank",
+            "C. Act as an ideal low-pass filter",
+            "D. Charge to the peak voltage and hold it forever"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 68,
+        "question": "Circuit: An AC input of 15V peak is applied to a biased positive clamper. The diode (anode to C, cathode to +5V source) is ideal. The minimum output voltage is clamped exactly at:",
+        "choices": [
+            "A. 0 V",
+            "B. 10 V",
+            "C. 20 V",
+            "D. 5 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "In the exact same circuit (15V peak AC, ideal positive clamper biased at +5V), what is the theoretical maximum positive output voltage?",
+        "choices": [
+            "A. 15 V",
+            "B. 20 V",
+            "C. 30 V",
+            "D. 35 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "A standard clamper circuit does not mathematically change the peak-to-peak voltage of the input waveform; it strictly modifies the waveform's:",
+        "choices": [
+            "A. DC average value",
+            "B. Fundamental frequency",
+            "C. Phase angle",
+            "D. Harmonic content"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "Which wave-shaping circuit is commonly employed in early FM receivers to completely remove unwanted amplitude variations from the received signal before demodulation?",
+        "choices": [
+            "A. Precision clamper",
+            "B. DC restorer",
+            "C. Voltage multiplier",
+            "D. Limiter (Clipper)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "A clamper circuit effectively acts as a DC restorer primarily because it re-introduces a DC component that was lost when the original signal passed through a:",
+        "choices": [
+            "A. Series inductor",
+            "B. Rectifier diode",
+            "C. Coupling capacitor",
+            "D. Voltage divider network"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "Circuit: A 10V peak sine wave. A series clipper uses an ideal diode. The diode's cathode is connected to the source, anode to the load resistor. The output waveform is strictly a:",
+        "choices": [
+            "A. Positive half-wave rectified signal",
+            "B. Sine wave shifted by -10V",
+            "C. Sine wave shifted by +10V",
+            "D. Negative half-wave rectified signal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "A double-ended clipper is formed by placing two practical silicon diodes in parallel with the load. Diode 1 has anode up. Diode 2 has cathode up. For a 5V peak AC input, the output voltage swings strictly between:",
+        "choices": [
+            "A. -5V and +5V",
+            "B. 0V and 5V",
+            "C. -0.7V and +0.7V",
+            "D. -4.3V and +4.3V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "To construct a double-ended clipper that limits exactly at +5.7V and -5.7V using standard 0.7V silicon diodes, one must strictly use:",
+        "choices": [
+            "A. Two parallel diodes, each in series with a 5V battery",
+            "B. Two back-to-back Zener diodes rated at 5.7V",
+            "C. Two diodes in series",
+            "D. One diode and a single 5.7V battery"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "The major distinct physical difference between a biased clipper and a biased clamper is the necessary presence of a/an:",
+        "choices": [
+            "A. Large series inductor in the clipper",
+            "B. Bleeder resistor in the clamper",
+            "C. Series coupling capacitor in the clamper",
+            "D. Avalanche Zener diode in the clipper"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "Circuit: A 6V peak square wave. A negative clamper uses a practical 0.7V silicon diode. What is the exact peak-to-peak voltage of the output waveform?",
+        "choices": [
+            "A. 6 V",
+            "B. 12 V",
+            "C. 11.3 V",
+            "D. 5.3 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "In a practical clamper, the output waveform often exhibits a slight \"tilt\" or exponential decay during the non-conducting phase of the diode. This tilt is mathematically minimized by ensuring:",
+        "choices": [
+            "A. R * C is very small",
+            "B. The input frequency is very low",
+            "C. Rs is very large",
+            "D. R * C is very large"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "In a standard clamping circuit, if the input signal's peak amplitude suddenly decreases, the capacitor must shed its excess charge to adjust to the new level. This discharge strictly occurs through the:",
+        "choices": [
+            "A. Source resistance",
+            "B. Load resistance",
+            "C. Diode's forward resistance",
+            "D. Internal dielectric leakage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "Circuit: A 10V peak-to-peak AC signal (alternating from +5V to -5V). A positive clamper uses an ideal diode. What is the exact DC average value of the resulting output waveform?",
+        "choices": [
+            "A. 5 V",
+            "B. 10 V",
+            "C. 0 V",
+            "D. -5 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "Circuit: A 20V peak sine wave feeds a series resistor. In parallel with the load is a Zener diode (rated 8V) with its cathode to ground. Output is across the Zener. What is the maximum positive output voltage?",
+        "choices": [
+            "A. 8 V",
+            "B. 20 V",
+            "C. 0 V",
+            "D. 8.7 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "In the exact same Zener clipper circuit (Zener cathode to ground), what is the maximum negative output voltage? (Assume standard 0.7V forward drop).",
+        "choices": [
+            "A. -8 V",
+            "B. -0.7 V",
+            "C. -20 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "If a clipper circuit is designed to perfectly transmit a signal between -3V and +3V and clip absolutely everything outside this region, it is fundamentally classified as a:",
+        "choices": [
+            "A. Slicer",
+            "B. DC restorer",
+            "C. Positive clamper",
+            "D. Voltage multiplier"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "Circuit: An AC signal feeds a resistor Rs. Two parallel branches follow. Branch 1: Silicon diode (anode up) and 2V battery (positive up). Branch 2: Silicon diode (cathode up) and 4V battery (positive down). The output is strictly clipped between:",
+        "choices": [
+            "A. +2.7V and -4.7V",
+            "B. +2V and -4V",
+            "C. +2.7V and -3.3V",
+            "D. -2.7V and +4.7V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "A DC restorer circuit relies on the diode acting strictly as a:",
+        "choices": [
+            "A. Linear amplifier element",
+            "B. Voltage-controlled oscillator",
+            "C. Unidirectional short-circuiting switch",
+            "D. Constant current source"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 86,
+        "question": "In the Clamping Circuit Theorem, if the load resistance R is significantly increased, the ratio of the forward area to the reverse area (Af / Ar) mathematically:",
+        "choices": [
+            "A. Increases",
+            "B. Decreases",
+            "C. Remains equal to 1",
+            "D. Approaches infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "Circuit: A 12V peak sine wave. A positive clamper has a series capacitor. In parallel with the load is a diode (cathode to capacitor, anode to a 2V battery positive terminal). The battery negative is grounded. Assuming an ideal diode, the output minimum is clamped exactly at:",
+        "choices": [
+            "A. 0 V",
+            "B. -2 V",
+            "C. +2 V",
+            "D. -12 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "In a series biased clipper, if the biasing DC voltage is made perfectly equal to the peak amplitude of the input AC signal (opposing polarity), the ideal output waveform will be:",
+        "choices": [
+            "A. Exactly zero at all times",
+            "B. A perfect square wave",
+            "C. A continuous DC level",
+            "D. Doubled in overall amplitude"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "Which of the following extreme conditions will cause a standard clamper circuit to completely fail to hold its DC level effectively?",
+        "choices": [
+            "A. The load resistance is infinite",
+            "B. The capacitor is perfectly ideal",
+            "C. The input frequency is extremely high",
+            "D. The input frequency is extremely low"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "The steady-state output waveform shape of an ideal clamping circuit is theoretically independent of the:",
+        "choices": [
+            "A. Input peak voltage",
+            "B. Source resistance (if Rs << R)",
+            "C. Load resistance (if R >> Rs)",
+            "D. Initial charge state of the capacitor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "Circuit: A 10V peak sine wave feeds a clamper circuit. The load resistor is 10 kOhms. To properly clamp a 60 Hz signal, the capacitor should have a minimum value closest to:",
+        "choices": [
+            "A. 1 nF",
+            "B. 100 nF",
+            "C. 16.6 uF",
+            "D. 1 pF"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "A clipping circuit strictly modifies the actual shape of the waveform, whereas a clamping circuit strictly modifies the:",
+        "choices": [
+            "A. Amplitude",
+            "B. Frequency",
+            "C. DC offset",
+            "D. Phase"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "Circuit: An ideal diode is in series with the load. A 5V DC battery is in parallel with the diode (positive to anode, negative to cathode). An AC signal of 10V peak is applied. This specific configuration acts as a:",
+        "choices": [
+            "A. Dead short",
+            "B. Biased clipper",
+            "C. Clamper",
+            "D. Full-wave rectifier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "In a practical negative clamper using a 0.7V silicon diode, if the input is a 10V peak square wave (0V average), the DC average of the output waveform is exactly:",
+        "choices": [
+            "A. -10 V",
+            "B. -9.3 V",
+            "C. 0 V",
+            "D. 9.3 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "Circuit: A 15V peak AC signal feeds a parallel clipper using two back-to-back Zener diodes. Zener 1 (rated 5V) has its cathode up. Zener 2 (rated 6V) is in series, cathode down. Assuming a 0.7V forward drop, what are the approximate positive and negative clipping levels?",
+        "choices": [
+            "A. +5.7V and -6.7V",
+            "B. +5.0V and -6.0V",
+            "C. +6.7V and -5.7V",
+            "D. +0.7V and -0.7V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 96,
+        "question": "When mathematically analyzing a diode clipper circuit with an applied sinusoidal voltage, the exact point in time where the diode transitions from off to on (or vice versa) is formally called the:",
+        "choices": [
+            "A. Saturation point",
+            "B. Cutoff frequency",
+            "C. Transition angle",
+            "D. Breakdown phase"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 97,
+        "question": "In a biased positive clamper circuit, if the DC bias battery is replaced with a perfectly ideal short circuit to ground, the circuit functionally reverts to a:",
+        "choices": [
+            "A. Standard negative clamper",
+            "B. Standard positive clamper (DC restorer biased at zero)",
+            "C. Half-wave rectifier",
+            "D. Clipper"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "Circuit: A +10V to -10V square wave is passed through an ideal positive clamper. The resulting output is then directly passed through an ideal negative clamper. The final steady-state output is:",
+        "choices": [
+            "A. +20V to 0V",
+            "B. 0V to -20V",
+            "C. +10V to -10V",
+            "D. 0V flatline"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "The principal reason practical clamping circuits are almost always implemented with a relatively large resistor R in parallel with the load is to:",
+        "choices": [
+            "A. Allow the capacitor to discharge slightly so it can follow a decreasing input peak",
+            "B. Ensure the capacitor charges instantly upon power-up",
+            "C. Prevent the rectifying diode from burning out",
+            "D. Drastically increase the output peak-to-peak voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 100,
+        "question": "A given wave-shaping circuit completely suppresses the positive half-cycle of an AC wave and then shifts the entire remaining waveform upwards by a fixed DC amount. This specific complex operation fundamentally requires a cascading of a:",
+        "choices": [
+            "A. Clamper followed by a clipper",
+            "B. Rectifier followed by an LC filter",
+            "C. Clipper followed by a clamper",
+            "D. Voltage doubler followed by a slicer"
+        ],
+        "correct_answer": "C"
+    }
+]

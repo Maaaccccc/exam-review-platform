@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "In an ASM chart, which specific block dictates the next state transition path based strictly on the current logic level of external input variables?",
+        "choices": [
+            "A. Decision Box",
+            "B. State Box",
+            "C. Output Box",
+            "D. Transition Arrow"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "Worded circuit: A Mealy machine detects a specific sequence. Upon detection, output Z=1. If the input changes asynchronously, Z changes immediately. This demonstrates that Mealy outputs are valid:",
+        "choices": [
+            "A. Only exactly on the clock edge",
+            "B. Continuously during the clock cycle while the specific input and state condition holds true",
+            "C. Only during the setup time",
+            "D. Only when the state changes"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "A state table has states A, B, C,",
+        "choices": [
+            "D. State A goes to C on 0, D on 1 (outputs 0, 1). State B goes to C on 0, D on 1 (outputs 0, 1). Using an implication table, what can be definitively concluded about A and B?",
+            "A. They are mutually exclusive",
+            "B. They form an infinite loop",
+            "C. They are completely equivalent states"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "A \"One-Hot\" state assignment encoding for a digital machine with exactly 8 states strictly requires how many physical flip-flops?",
+        "choices": [
+            "A. 3",
+            "B. 4",
+            "C. 7",
+            "D. 8"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "The \"Conditional Output Box\" in an ASM chart is represented by a rectangle with rounded corners. Outputs inside this box are explicitly characteristic of which type of state machine?",
+        "choices": [
+            "A. Turing",
+            "B. Moore",
+            "C. Ripple",
+            "D. Mealy"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 6,
+        "question": "If an ASM chart contains a path that passes through a state box, then a decision box, and loops directly back to the exact same state box, this represents a machine that is:",
+        "choices": [
+            "A. Resetting",
+            "B. Powered off",
+            "C. Waiting for an input condition to change before proceeding",
+            "D. In a race condition"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "Worded circuit: An ASM chart uses a decision box to check variable 'C'. Both True and False paths immediately go into another decision box checking variable 'D'. How many clock cycles are required to evaluate both C and D and reach the next state?",
+        "choices": [
+            "A. Two",
+            "B. One",
+            "C. Three",
+            "D. Four"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "In completely specified sequential machines, state equivalence is transitive. Therefore, if State A = State B, and State B = State C, then mathematically:",
+        "choices": [
+            "A. State A = State C",
+            "B. State B = State A'",
+            "C. State A is complement of C",
+            "D. State A != State C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "An asynchronous sequential circuit is formally defined as one that does NOT utilize a:",
+        "choices": [
+            "A. Global clock signal to synchronize internal state changes",
+            "B. Feedback loop",
+            "C. Logic gate",
+            "D. Power supply"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "In asynchronous logic design, what defines the strict \"Fundamental Mode\" of operation?",
+        "choices": [
+            "A. Inputs are allowed to change only simultaneously",
+            "B. Inputs must be high-frequency pulses",
+            "C. Only one input variable is allowed to change at a time, and it must not change again until the circuit has reached a stable state",
+            "D. The circuit must operate below 1 MHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "This specific configuration purposely allows a race but ensures both paths lead to 11. This is explicitly a:",
+        "choices": [
+            "A. Critical race",
+            "B. Non-critical race by design",
+            "C. Static hazard",
+            "D. Pulse mode operation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "In Pulse Mode asynchronous circuits, the external input variables are strictly characterized as:",
+        "choices": [
+            "A. Alternating currents",
+            "B. Only allowed to change when the output is zero",
+            "C. Unclocked pulses, where only one pulse occurs at a time and is short enough to be removed before the circuit enters the next state",
+            "D. Constant DC voltage levels"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Worded circuit: An asynchronous circuit has a feedback loop with a total propagation delay of 20 ns. In fundamental mode, what is the strict restriction on the input signal duration and frequency?",
+        "choices": [
+            "A. Input must change every 10 ns",
+            "B. Input must change exactly at 20 ns",
+            "C. Input can change as fast as desired",
+            "D. Input must remain stable for significantly longer than 20 ns to ensure the internal state fully settles"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "Unlike synchronous circuits that rely heavily on flip-flops, asynchronous circuits primarily use which fundamental element to store state information?",
+        "choices": [
+            "A. Microprocessors",
+            "B. Unclocked latches or simple combinational feedback loops",
+            "C. Capacitors",
+            "D. Crystal oscillators"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "In an asynchronous circuit's mathematical model, the state variables are typically defined by the:",
+        "choices": [
+            "A. Clock edges",
+            "B. Input pulses only",
+            "C. Outputs of the internal feedback delay elements",
+            "D. External pull-up resistors"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "Worded circuit: A fundamental mode asynchronous machine has states represented by variables y1 and y2. If the external input changes, causing the excitation variables Y1 and Y2 to change, a state transition occurs. The machine reaches a stable state strictly when:",
+        "choices": [
+            "A. Y1 = y1 and Y2 = y2",
+            "B. Y1 != y1 and Y2 != y2",
+            "C. The clock ticks",
+            "D. The inputs return to zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "Which of the following is considered a primary architectural advantage of asynchronous circuits over synchronous circuits?",
+        "choices": [
+            "A. Easier to design and analyze",
+            "B. No clock distribution problems (clock skew) and potentially faster operation since they operate at the bare physical speed of the logic gates",
+            "C. Immune to all hazards and race conditions",
+            "D. They use standard edge-triggered flip-flops"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "What is the primary disadvantage that makes asynchronous circuits notoriously difficult to design compared to their synchronous counterparts?",
+        "choices": [
+            "A. High susceptibility to timing hazards, race conditions, and instability due to unequal gate delays",
+            "B. They consume significantly more static power",
+            "C. They require a very fast master clock",
+            "D. They cannot perform binary arithmetic"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "In strict fundamental mode operation, what is the absolute maximum number of input variables that are permitted to change logic state simultaneously?",
+        "choices": [
+            "A. Two",
+            "B. All of them",
+            "C. Three",
+            "D. Exactly one"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 20,
+        "question": "A pulse-mode asynchronous circuit is designed. The input pulses are labeled x1 and x2. What is a strict, mandatory rule regarding these inputs?",
+        "choices": [
+            "A. They must be perfectly synchronized",
+            "B. They must be pure sine waves",
+            "C. x1 and x2 cannot be logic 1 simultaneously",
+            "D. They must be wider than the state transition time"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "In the formal mathematical model of an asynchronous sequential circuit, the physical propagation delays of the logic gates are typically modeled as:",
+        "choices": [
+            "A. Resistor-capacitor networks",
+            "B. Infinite delays",
+            "C. Lumped ideal delay elements placed strategically in the feedback paths",
+            "D. Zero delays"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "When formally analyzing an asynchronous circuit, the boolean algebraic functions derived at the input of the feedback delay elements are officially called:",
+        "choices": [
+            "A. Stable equations",
+            "B. Output equations",
+            "C. Transition equations",
+            "D. Excitation equations"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 23,
+        "question": "Worded circuit: An asynchronous circuit has excitation equations Y1 = x*y2 + x'*y1 and Y2 = x'*y1. The secondary variables are y1, y2. If x=1, y1=1, y2=1, the next state (Y1, Y2) evaluates to (1, 0). Because (Y1, Y2) is not equal to (y1, y2), the current internal state (1,1) is:",
+        "choices": [
+            "A. Unstable",
+            "B. Stable",
+            "C. Essential",
+            "D. Critical"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "A temporary, unwanted glitch or spike at the output of a combinational logic circuit caused specifically by unequal propagation delays along different signal paths is formally known as a:",
+        "choices": [
+            "A. Race condition",
+            "B. Hazard",
+            "C. Metastability",
+            "D. Clock skew"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "A logic circuit output is designed to remain at a steady logic 1 when an input changes, but it momentarily drops to 0 and returns to 1. This specific phenomenon is strictly called a:",
+        "choices": [
+            "A. Static-1 hazard",
+            "B. Static-0 hazard",
+            "C. Dynamic hazard",
+            "D. Essential hazard"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "A logic circuit output is supposed to remain at a steady logic 0, but due to propagation delays, it momentarily spikes to 1 and returns to 0. This is explicitly classified as a:",
+        "choices": [
+            "A. Essential hazard",
+            "B. Dynamic hazard",
+            "C. Static-1 hazard",
+            "D. Static-0 hazard"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "Worded circuit: A combinational circuit implements Y = AB + A'C. If B=1 and C=1, and input A transitions from 1 to 0. Because the inverter for A' has a delay, there is a brief microsecond where A=0 and A'=0 internally. What happens to output Y?",
+        "choices": [
+            "A. Y transitions smoothly",
+            "B. Y experiences a static-1 hazard (momentary glitch to 0)",
+            "C. Y experiences a dynamic hazard",
+            "D. Y experiences a static-0 hazard"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "How can static hazards be systematically identified and completely eliminated in a two-level Sum of Products (SOP) combinational circuit?",
+        "choices": [
+            "A. By increasing the clock frequency",
+            "B. By removing all inverters",
+            "C. By adding redundant prime implicants (consensus terms) to the Karnaugh map to overlap all adjacent groups of 1s",
+            "D. By converting it to a POS circuit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "Looking at a standard Karnaugh map, a static-1 hazard can strictly occur during a transition between two adjacent 1s ONLY if:",
+        "choices": [
+            "A. They are grouped together",
+            "B. The map is completely full",
+            "C. They belong to different groups and are not covered by a single common group",
+            "D. They are diagonal to each other"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 30,
+        "question": "Worded circuit: To eliminate a static-1 hazard in the boolean equation Y = AB + A'C, a designer adds a redundant logic gate. According to the consensus theorem, what specific product term must be added to the equation?",
+        "choices": [
+            "A. AC",
+            "B. BC",
+            "C. A'B",
+            "D. AB'"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "An output is designed to change state from 0 to 1. However, due to unequal internal delays in a multi-level circuit, it transitions 0 -> 1 -> 0 -> 1 before settling. This multiple-transition glitch is known as a:",
+        "choices": [
+            "A. Static-1 hazard",
+            "B. Static-0 hazard",
+            "C. Essential hazard",
+            "D. Dynamic hazard"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 32,
+        "question": "Dynamic hazards strictly occur only in combinational logic circuits that physically possess:",
+        "choices": [
+            "A. Three or more levels of logic",
+            "B. Two levels of logic (SOP or POS)",
+            "C. Only NAND gates",
+            "D. No feedback loops"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "A dynamic hazard is inherently caused by a signal taking multiple paths through a multi-level circuit, where some paths invert the signal and others do not. To completely prevent dynamic hazards, a designer must:",
+        "choices": [
+            "A. Use only XOR gates",
+            "B. Add delay lines to all inputs",
+            "C. Reduce the clock speed",
+            "D. Ensure the circuit is strictly designed as a two-level SOP or POS and is completely free of static hazards"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 34,
+        "question": "Which highly specific type of hazard is unique to asynchronous sequential logic circuits and depends inherently on the specific state assignment rather than just the combinational logic delays?",
+        "choices": [
+            "A. Essential hazard",
+            "B. Static hazard",
+            "C. Dynamic hazard",
+            "D. Metastable hazard"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "An essential hazard explicitly occurs in an asynchronous circuit when:",
+        "choices": [
+            "A. Two inputs change simultaneously",
+            "B. The combinational logic has a static-1 glitch",
+            "C. The delay of an internal feedback loop (state variable) is shorter than the delay of an input signal propagating through the combinational logic, causing the circuit to falsely jump to a wrong state",
+            "D. The power supply dips momentarily"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Worded circuit: In a fundamental mode circuit, input x changes. State variable y1 updates rapidly and feeds back. If the new y1 arrives at the logic for y2 BEFORE the new x has fully propagated to y2's logic, y2 might evaluate incorrectly. This exact timing failure defines an:",
+        "choices": [
+            "A. Essential race",
+            "B. Essential hazard",
+            "C. Critical race",
+            "D. Static-0 hazard"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "Can an essential hazard be systematically eliminated merely by adding redundant logic gates (like fixing a static hazard)?",
+        "choices": [
+            "A. Yes, adding consensus terms fixes it",
+            "B. No, essential hazards must be eliminated by carefully placing physical delay elements in the feedback paths to ensure input changes propagate completely before state changes feed back",
+            "C. Yes, by changing to a Mealy machine",
+            "D. No, they are mathematically impossible to eliminate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "A circuit is analyzed using a Karnaugh map. To eliminate static-0 hazards, the designer must focus on carefully grouping and overlapping the:",
+        "choices": [
+            "A. Don't cares",
+            "B. 1s",
+            "C. 0s",
+            "D. Input variables"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "Static-1 hazards are notoriously characteristic of which specific standard two-level logic implementation?",
+        "choices": [
+            "A. Sum of Products (AND-OR)",
+            "B. Product of Sums (OR-AND)",
+            "C. NAND-NAND",
+            "D. NOR-NOR"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 40,
+        "question": "Static-0 hazards are primarily a major design concern in which specific standard two-level logic implementation?",
+        "choices": [
+            "A. Sum of Products (AND-OR)",
+            "B. NAND-NAND",
+            "C. XOR-XNOR",
+            "D. Product of Sums (OR-AND)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "A boolean function is given as f(A,B,C) = A'B' + AC. What specific redundant term must be added to eliminate the static-1 hazard when A changes while B=0 and C=1?",
+        "choices": [
+            "A. B'C",
+            "B. A'C'",
+            "C. AB",
+            "D. BC"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "In asynchronous design, an essential hazard can only be found by rigorously tracking signal paths and analyzing the:",
+        "choices": [
+            "A. K-map groupings",
+            "B. Input frequency",
+            "C. Flow table (or State transition diagram)",
+            "D. Output equations"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "If an asynchronous sequential circuit inherently contains an essential hazard, the circuit will theoretically fail to operate correctly:",
+        "choices": [
+            "A. Only at low temperatures",
+            "B. Never",
+            "C. Only when powered off",
+            "D. If the feedback delay is too short relative to the input logic propagation delay"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "Worded circuit: You are implementing an SR latch using two cross-coupled NOR gates. Can this specific fundamental asynchronous circuit exhibit an essential hazard?",
+        "choices": [
+            "A. Yes, because it has feedback",
+            "B. No, because a simple SR latch does not have enough internal states to form the specific three-transition path required for an essential hazard",
+            "C. Yes, if the NOR gates are extremely slow",
+            "D. No, because it is inherently edge-triggered"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "What physical hardware component is deliberately inserted into a feedback loop of an asynchronous circuit by a designer to permanently cure an essential hazard?",
+        "choices": [
+            "A. A pull-up resistor",
+            "B. A delay line (or buffer gates)",
+            "C. A bypass capacitor",
+            "D. A heat sink"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "A system has multiple inputs but only one is allowed to change at a time. A static hazard causes a momentary glitch. If this glitch feeds directly into the clock input of a flip-flop in another part of the system, what is the consequence?",
+        "choices": [
+            "A. It has no effect",
+            "B. The system runs faster",
+            "C. It resets the system",
+            "D. It can falsely trigger the flip-flop, causing catastrophic sequential failure in a mixed asynchronous/synchronous system"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 47,
+        "question": "A circuit is implemented as Y = (A+B)(A'+C). To successfully eliminate the static-0 hazard, which redundant sum term must be explicitly added to the boolean equation?",
+        "choices": [
+            "A. (A+C)",
+            "B. (A'+B)",
+            "C. (B+C)",
+            "D. (A+B+C)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "True or False: Dynamic hazards can readily occur in a perfectly minimized, simple two-level SOP combinational circuit.",
+        "choices": [
+            "A. False (they strictly require 3 or more logic levels)",
+            "B. True",
+            "C. Only if the clock is fast",
+            "D. Only in CMOS architecture"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "In an asynchronous sequential circuit, a \"race condition\" strictly occurs when a single input variable change forces:",
+        "choices": [
+            "A. The power supply to spike",
+            "B. The output to oscillate",
+            "C. Two or more internal state variables to change simultaneously",
+            "D. The clock to halt"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "Because perfectly identical propagation delays are physically impossible in real semiconductor logic gates, when two state variables are instructed to change simultaneously (e.g., from 00 to 11):",
+        "choices": [
+            "A. They will change at exactly the same microsecond",
+            "B. One variable will inevitably change before the other",
+            "C. The circuit will freeze",
+            "D. The inputs will be ignored"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "Worded circuit: An asynchronous circuit is instructed to transition directly from state 00 to state 11. Due to unequal gate delays, the state variables transition as 00 -> 01 -> 11. What is this intermediate, momentary state (01) formally called?",
+        "choices": [
+            "A. A stable state",
+            "B. A transient state",
+            "C. An essential state",
+            "D. A metastable state"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "A race condition is explicitly classified as a \"Non-Critical Race\" if the unequal propagation delays cause the circuit to pass through an intermediate transient state, but the circuit ultimately:",
+        "choices": [
+            "A. Oscillates forever",
+            "B. Resets to 00",
+            "C. Enters the wrong stable state",
+            "D. Settles in the correct, intended final stable state regardless of which state variable changed first"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "A race condition is explicitly classified as a \"Critical Race\" if the order in which the state variables change causes the circuit to:",
+        "choices": [
+            "A. Overheat",
+            "B. Consume extra power",
+            "C. Stabilize in the correct state",
+            "D. Settle in an incorrect, unintended stable state"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 54,
+        "question": "Worded circuit: An asynchronous flow table requires a transition from state 00 to 11. If y2 changes first, the path is 00 -> 01, which is stable. If y1 changes first, the path is 00 -> 10, which leads to 11. This specific scenario describes a:",
+        "choices": [
+            "A. Non-critical race",
+            "B. Critical race (because if y2 changes first, it gets stuck in 01; if y1 changes first, it reaches 11)",
+            "C. Essential hazard",
+            "D. Static hazard"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "To absolutely prevent ANY race conditions (critical or non-critical) in an asynchronous sequential circuit, the designer must strictly ensure that during any valid state transition:",
+        "choices": [
+            "A. Only one state variable changes logic state",
+            "B. The clock is very fast",
+            "C. All gates are manufactured by the same company",
+            "D. The power supply is decoupled"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "The strict engineering technique used to assign binary codes to abstract states so that every valid transition requires only a single bit change is formally called:",
+        "choices": [
+            "A. One-hot encoding",
+            "B. Binary encoding",
+            "C. Shared row assignment (or adjacent state assignment / Gray coding)",
+            "D. ASCII encoding"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "If a flow table dictates transitions between three states in a triangle (A->B, B->C, C->A), it is physically impossible to assign 2-bit binary codes such that all transitions involve only one bit change. To solve this and prevent critical races, the designer must:",
+        "choices": [
+            "A. Use a microcontroller",
+            "B. Use an analog circuit",
+            "C. Add additional identical states (equivalent states or extra rows) to route the transitions indirectly",
+            "D. Ignore the race condition entirely"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "Worded circuit: A flow table requires transitions from State A to State",
+        "choices": [
+            "D. The assignments are A=00, D=11. To avoid a race, the designer routes the transition A(00) -> transient state(01) -> D(11). For this to work flawlessly, the flow table must be programmed such that state 01 under the given input unconditionally transitions to:",
+            "A. 00",
+            "B. 10",
+            "C. 01"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 59,
+        "question": "What type of map is universally used by engineers to visualize state assignments and geometrically ensure physically adjacent states differ by only one bit?",
+        "choices": [
+            "A. World map",
+            "B. Karnaugh map (or Transition map)",
+            "C. Topographic map",
+            "D. Bode plot"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "A shared-row state assignment is strictly used when an asynchronous machine requires more transitions than can be accommodated by physically adjacent cells in a K-map. This technique deliberately utilizes:",
+        "choices": [
+            "A. Multiple rows in the flow table to represent the exact same logical state",
+            "B. A very high clock speed",
+            "C. Tri-state buffers",
+            "D. Multiple power supplies"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "Worded circuit: You must assign binary codes to states in an asynchronous machine to prevent critical races. If two states MUST transition to each other but cannot be assigned geometrically adjacent codes on a K-map, you must deliberately introduce a:",
+        "choices": [
+            "A. Cycle through an unstable intermediate state",
+            "B. Delay line",
+            "C. Clock pulse",
+            "D. Flip-flop"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "When a circuit deliberately transitions through an intermediate unstable state to successfully reach its final intended stable state (e.g., 00 -> 01 -> 11), the sequence of states is formally known as a:",
+        "choices": [
+            "A. Hazard",
+            "B. Race",
+            "C. Cycle",
+            "D. Loop"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "If a cycle in an asynchronous circuit never reaches a stable state but instead continuously transitions between unstable states (e.g., 00 -> 01 -> 11 -> 10 -> 00...), this is a catastrophic hardware failure known as:",
+        "choices": [
+            "A. A critical race",
+            "B. Metastability",
+            "C. A delay hazard",
+            "D. Instability (or Oscillation)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "A critical race in an asynchronous flow table can always be successfully resolved by:",
+        "choices": [
+            "A. Removing all feedback",
+            "B. Proper state assignment ensuring only one variable changes, or utilizing carefully directed cycles through intermediate states",
+            "C. Adding a global clock",
+            "D. Using only NOR gates"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "What is the absolute defining characteristic of a \"stable state\" in an asynchronous flow table?",
+        "choices": [
+            "A. The next state is mathematically identical to the present state",
+            "B. The outputs are all zero",
+            "C. The inputs are alternating",
+            "D. The circuit uses flip-flops"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 67,
+        "question": "In a state transition table, stable states are conventionally identified and visually marked by the designer by:",
+        "choices": [
+            "A. Drawing a triangle",
+            "B. Crossing them out",
+            "C. Circling the next-state entry",
+            "D. Highlighting them in red"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Worded circuit: An asynchronous circuit is evaluated. The excitation equations are Y1 = x1*x2 + y1, Y2 = x1'*y2. If current state is y1=0, y2=1 and inputs are x1=0, x2=1. What is the next state Y1, Y2?",
+        "choices": [
+            "A. (1, 1)",
+            "B. (0, 0)",
+            "C. (1, 0)",
+            "D. (0, 1)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "The primary tool used to capture the sequential behavior and map all state transitions of an asynchronous logic circuit is the:",
+        "choices": [
+            "A. Truth table",
+            "B. Bode plot",
+            "C. Timing diagram",
+            "D. Flow table"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "A \"primitive flow table\" is specifically and strictly characterized by having exactly:",
+        "choices": [
+            "A. No stable states",
+            "B. Two stable states per row",
+            "C. One stable state per row",
+            "D. One stable state per column"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "In the rigorous design of an asynchronous circuit, after creating the primitive flow table, the very next engineering step is usually to:",
+        "choices": [
+            "A. Reduce the number of states by finding equivalent states to minimize hardware",
+            "B. Assign binary codes to the states",
+            "C. Build the physical circuit",
+            "D. Identify static hazards"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "Two stable states in a primitive flow table can be rigorously merged into the same row if they have the exact same next-state transitions and outputs for all inputs, AND:",
+        "choices": [
+            "A. They have different inputs",
+            "B. They do not have conflicting next states in any given column",
+            "C. They are in different columns",
+            "D. They are both unstable"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "When mathematically merging rows in an asynchronous flow table, an unspecified next state (a don't care condition) can be seamlessly merged with:",
+        "choices": [
+            "A. Any state",
+            "B. Only a stable state",
+            "C. Only an unstable state",
+            "D. Only a logic 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "An Implication Table is used in asynchronous sequential design primarily to:",
+        "choices": [
+            "A. Find essential hazards",
+            "B. Systematically identify equivalent states for row reduction",
+            "C. Determine the clock frequency",
+            "D. Design the power supply"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "Worded circuit: In a primitive flow table, Row 1 has a stable state in column 00 and a 'don't care' in column 01. Row 2 has a 'don't care' in column 00 and a stable state in column 01. Their outputs are identical. Can these rows be rigorously merged?",
+        "choices": [
+            "A. No, rows can never be merged",
+            "B. No, because they have stable states in different columns",
+            "C. Yes, but the outputs will glitch",
+            "D. Yes, because they do not have conflicting state entries in any given column"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 76,
+        "question": "After a primitive flow table is fully reduced by eliminating equivalent states, the resulting smaller, optimized table is formally called a:",
+        "choices": [
+            "A. Transition table",
+            "B. Excitation table",
+            "C. Merged flow table",
+            "D. Truth table"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "A transition table is generated directly from the merged flow table by:",
+        "choices": [
+            "A. Adding flip-flops",
+            "B. Inverting all inputs",
+            "C. Replacing the abstract state letters (A, B, C) with their assigned binary state variable codes (e.g., 00, 01, 11)",
+            "D. Adding clock pulses"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "Worded circuit: A merged flow table has 3 rows (A, B, C). A requires 00, B requires 01. If C is assigned 11, the transition from A to C requires both bits to change. To avoid a critical race, the transition from A to C must be routed through the unused code 10. The state 10 is acting as an:",
+        "choices": [
+            "A. Error state",
+            "B. Output state",
+            "C. Essential hazard",
+            "D. Unstable intermediate state (cycle)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "Once the transition table is complete, the designer uses Karnaugh maps to derive the final boolean logic expressions. These specific expressions are formally called the:",
+        "choices": [
+            "A. Power equations",
+            "B. Excitation equations and Output equations",
+            "C. Hazard equations",
+            "D. State equations"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "When deriving excitation equations from a transition table Karnaugh map for an asynchronous circuit, what is the absolute most critical rule the designer must follow?",
+        "choices": [
+            "A. All adjacent 1s must be covered by redundant overlapping groups (consensus terms) to prevent static hazards",
+            "B. The map must be minimized to the absolute fewest gates regardless of hazards",
+            "C. All 0s must be grouped",
+            "D. Flip-flops must be added to the design"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "Worded circuit: A designer is building an asynchronous latch. The excitation equation is Y = S + R'y. If S=0, R=0, and present state y=1. The next state Y evaluates to 1. Since Y = y, the circuit is currently:",
+        "choices": [
+            "A. Stable",
+            "B. Unstable",
+            "C. Metastable",
+            "D. Oscillating"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "The primary reason synchronous circuits are overwhelmingly preferred over asynchronous circuits in modern VLSI design (like computer CPUs) is:",
+        "choices": [
+            "A. Synchronous circuits are faster",
+            "B. Asynchronous circuits cannot perform addition",
+            "C. Synchronous design tools (EDA) and timing analysis are vastly simpler and more reliable because the clock guarantees setup/hold times, avoiding complex race and hazard analysis",
+            "D. Asynchronous circuits use too much power"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "In what specific niche application do asynchronous circuits still hold a significant architectural advantage over synchronous circuits?",
+        "choices": [
+            "A. High-density memory (DRAM)",
+            "B. Ultra-low power and extremely low electromagnetic interference (EMI) applications, because there is no massive clock tree switching constantly",
+            "C. High-frequency RF amplifiers",
+            "D. Arithmetic Logic Units"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "An asynchronous sequential circuit has two internal state variables, y1 and y2. A transition from y1y2 = 00 to 11 is required. The flow table is explicitly configured so that the intermediate states 01 and 10 BOTH lead unconditionally to the final stable state 11. What has the designer successfully created?",
+        "choices": [
+            "A. An essential hazard",
+            "B. A critical race",
+            "C. A static hazard",
+            "D. A non-critical race"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "In a completely stable fundamental mode asynchronous circuit, what is the mathematical relationship between the excitation variables (Y) and the secondary variables (y)?",
+        "choices": [
+            "A. Y > y",
+            "B. Y < y",
+            "C. Y is the complement of y",
+            "D. Y exactly equals y"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "The total number of state variables (n) required to physically implement an asynchronous flow table with 'S' states must satisfy the mathematical inequality:",
+        "choices": [
+            "A. 2^n < S",
+            "B. 2^n >= S",
+            "C. n^2 >= S",
+            "D. n = S"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "Worded circuit: You are designing an asynchronous control circuit. The inputs x1, x2 change randomly. To prevent undefined behavior, you enforce a strict design rule that x1 and x2 can never change their logic states at the exact same physical microsecond. This specifically enforces the:",
+        "choices": [
+            "A. Mealy machine rule",
+            "B. Pulse mode assumption",
+            "C. Fundamental mode assumption",
+            "D. Synchronous timing rule"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "What specific boolean algebraic theorem is heavily utilized by designers to identify the required redundant logic term to fix a static hazard?",
+        "choices": [
+            "A. Consensus Theorem",
+            "B. De Morgan's Theorem",
+            "C. Involution Theorem",
+            "D. Commutative Theorem"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "An asynchronous machine has a state transition from state A (assigned 00) to state B (assigned 10). Because only one state variable changes (y1 goes 0->1, y2 stays 0), this transition is mathematically guaranteed to be:",
+        "choices": [
+            "A. A critical race",
+            "B. Race-free",
+            "C. An essential hazard",
+            "D. Unstable"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "Worded circuit: A flow table row for State A shows that for input 0, the next state is B; for input 1, the next state is",
+        "choices": [
+            "C. Neither is stable. This violates fundamental mode rules if the input can change before the state settles. To fix this, the input must be restricted such that when the input changes to 0, it must remain 0 until:",
+            "A. The power is cycled",
+            "B. The clock ticks",
+            "C. The output changes"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "A latch is fundamentally an asynchronous sequential circuit. The most basic SR latch is constructed using two cross-coupled:",
+        "choices": [
+            "A. NOR gates or NAND gates",
+            "B. AND gates",
+            "C. XOR gates",
+            "D. NOT gates"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "In an asynchronous circuit lacking a clock, the actual physical time it takes for a state transition to complete is strictly determined by the:",
+        "choices": [
+            "A. User's reaction time",
+            "B. Power supply voltage",
+            "C. Cumulative propagation delays of the specific combinational logic gates in the feedback path",
+            "D. The frequency of the input signal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "A system has 5 stable states. A designer uses a 3-bit state assignment. They map the states to 000, 001, 011, 111, 101. Is it mathematically possible for this machine to transition directly from 101 to 000 without a race condition?",
+        "choices": [
+            "A. Yes, by changing the clock",
+            "B. Yes, they are adjacent",
+            "C. No, because it requires two bits to change simultaneously (101 -> 000 changes the MSB and LSB), risking a race condition",
+            "D. No, because 5 states require 4 bits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "Which of the following is a classic textbook example of an essential hazard?",
+        "choices": [
+            "A. A state variable changing too fast and feeding back before the input logic fully propagates",
+            "B. An output glitching from 1 to 0 and back to 1",
+            "C. A race between two state variables",
+            "D. A power supply short circuit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "To physically analyze the stability of an asynchronous circuit from its logic schematic, the engineer must mathematically break the feedback loops and derive the:",
+        "choices": [
+            "A. Truth table",
+            "B. Output capacitance",
+            "C. Current draw",
+            "D. Excitation equations"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "Worded circuit: An engineer builds an asynchronous circuit with Y = x'y + xy'. If input x is held at 1, the equation becomes Y = y'. Since next state Y is always the complement of present state y, the circuit will:",
+        "choices": [
+            "A. Burn out",
+            "B. Violently oscillate (astable)",
+            "C. Stabilize at 0",
+            "D. Stabilize at 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "In a primitive flow table, the main diagonal (or one specific designated cell per row) is typically assigned as the:",
+        "choices": [
+            "A. Unstable state",
+            "B. Stable state",
+            "C. Don't care",
+            "D. Output state"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "When minimizing an asynchronous machine, if two rows are merged, their corresponding outputs for each input state must be:",
+        "choices": [
+            "A. Complements of each other",
+            "B. Both zero",
+            "C. Identical (or one must be a don't care)",
+            "D. Both one"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "Worded circuit: An asynchronous circuit operates in fundamental mode. It is currently in a stable state. The user flips two switches simultaneously (inputs change from 00 to 11). According to strict asynchronous theory, this physical operation is:",
+        "choices": [
+            "A. Completely normal and will result in a predictable transition",
+            "B. Allowed if the switches are debounced",
+            "C. A dynamic hazard",
+            "D. Strictly prohibited, as fundamental mode requires only one input variable to change at a time"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "What basic digital hardware component is effectively a 1-bit fundamental mode asynchronous memory element?",
+        "choices": [
+            "A. A flip-flop",
+            "B. A latch",
+            "C. A multiplexer",
+            "D. A decoder"
+        ],
+        "correct_answer": "A"
+    }
+]

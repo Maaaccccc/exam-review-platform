@@ -1,0 +1,937 @@
+[
+    {
+        "number": 1,
+        "question": "In a constellation diagram, the vector length from the origin to any specific symbol point represents that symbol's:",
+        "choices": [
+            "A. Frequency deviation",
+            "B. Peak instantaneous amplitude",
+            "C. Phase angle exclusively",
+            "D. Average power"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "Which digital modulation technique is technically a hybrid scheme combining both amplitude and phase modulation?",
+        "choices": [
+            "A. BPSK",
+            "B. FSK",
+            "C. QAM",
+            "D. MSK"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "For coherent BPSK in an AWGN channel, the exact probability of bit error (Pe) is given by which standard formula?",
+        "choices": [
+            "A. Q(sqrt(Eb/N0))",
+            "B. Q(sqrt(2Eb/N0))",
+            "C. 0.5 * exp(-Eb/N0)",
+            "D. erfc(Eb/N0)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 4,
+        "question": "In a standard square 16-QAM constellation diagram, how many distinct amplitude levels (concentric rings from the origin) are typically present?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 5,
+        "question": "In a Costas Loop, if the loop is perfectly locked in phase, the voltage output of the Q-arm multiplier ideally approaches:",
+        "choices": [
+            "A. Maximum positive voltage",
+            "B. Maximum negative voltage",
+            "C. Zero volts",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "In an M-ary FSK system, as the number of discrete frequencies M increases while holding symbol duration constant, the required transmission bandwidth:",
+        "choices": [
+            "A. Increases",
+            "B. Decreases",
+            "C. Remains constant",
+            "D. Drops to zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "The self-information or amount of surprise associated with a message event x_i having a probability of occurrence P(x_i) is mathematically defined as:",
+        "choices": [
+            "A. - log_2 P(x_i)",
+            "B. log_2 P(x_i)",
+            "C. - ln P(x_i)",
+            "D. P(x_i) log_2 P(x_i)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "Calculate the self-information in bits of a highly unexpected message event that has a probability of occurrence of 0.125.",
+        "choices": [
+            "A. 1 bit",
+            "B. 2 bits",
+            "C. 3 bits",
+            "D. 4 bits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 9,
+        "question": "If a message event occurs with a probability of 1.0 (absolute certainty), its self-information content is:",
+        "choices": [
+            "A. 1 bit",
+            "B. Infinite",
+            "C. 0.5 bit",
+            "D. 0 bits"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 10,
+        "question": "In information theory, the formal measure of the average uncertainty or information content per message from a discrete memoryless source is called:",
+        "choices": [
+            "A. Bandwidth efficiency",
+            "B. Entropy (H)",
+            "C. Mutual information",
+            "D. Redundancy"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "What is the theoretical maximum entropy (H_max) of a discrete memoryless source that generates message symbols with 4 equally likely outcomes?",
+        "choices": [
+            "A. 1 bit/symbol",
+            "B. 3 bits/symbol",
+            "C. 2 bits/symbol",
+            "D. 4 bits/symbol"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "A binary memoryless source generates symbols A and B with probabilities P(A) = 0.75 and P(B) = 0.25. What is the entropy of this source?",
+        "choices": [
+            "A. 0.811 bits/symbol",
+            "B. 1.000 bit/symbol",
+            "C. 0.500 bit/symbol",
+            "D. 0.922 bits/symbol"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "As the probability distribution of a discrete source's messages approaches uniform equality, the total entropy of the source:",
+        "choices": [
+            "A. Reaches an absolute minimum",
+            "B. Drops to zero",
+            "C. Reaches a strict maximum",
+            "D. Becomes negative"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "According to Shannon's Source Coding Theorem, the average number of bits per symbol (L) achievable by any source coding scheme can be made arbitrarily close to, but can never be strictly less than:",
+        "choices": [
+            "A. The channel capacity (C)",
+            "B. The source entropy (H)",
+            "C. The bit rate (fb)",
+            "D. The signal-to-noise ratio"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "What is the fundamental primary purpose of implementing a source coding algorithm like Huffman or Shannon-Fano?",
+        "choices": [
+            "A. To protect data against channel noise",
+            "B. To match the baseband signal to an RF passband",
+            "C. To compress data by removing statistical redundancy, thereby reducing average word length",
+            "D. To synchronize receiver clock timing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "Huffman coding is classified as an optimal prefix-free code because no codeword can be:",
+        "choices": [
+            "A. Longer than 8 bits",
+            "B. Shorter than 2 bits",
+            "C. A prefix of any other codeword",
+            "D. Used in error-correcting channels"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "In constructing a standard Huffman tree, symbols are combined recursively by pairing the two nodes possessing the:",
+        "choices": [
+            "A. Highest probabilities",
+            "B. Lowest probabilities",
+            "C. Median probabilities",
+            "D. Longest codewords"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "Calculate the coding efficiency (η) of a source code if the source entropy (H) is 2.4 bits/symbol and the average codeword length (L) achieved by a Huffman encoder is 2.5 codes/symbol.",
+        "choices": [
+            "A. 80.0%",
+            "B. 96.0%",
+            "C. 90.0%",
+            "D. 75.0%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Redundancy (R) in a discrete source coding system is mathematically defined and calculated using the entropy (H) and average codeword length (L) as:",
+        "choices": [
+            "A. R = H / L",
+            "B. R = 1 - (H / L)",
+            "C. R = L - H",
+            "D. R = L / H"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "A source code is constructed such that the average codeword length L equals the source entropy H. What is the exact resulting coding efficiency?",
+        "choices": [
+            "A. 50%",
+            "B. 75%",
+            "C. 90%",
+            "D. 100%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "In Shannon-Fano source coding, probabilities of the message symbols are first arranged in:",
+        "choices": [
+            "A. Alphabetical order",
+            "B. Ascending order of probability",
+            "C. Descending order of probability",
+            "D. Random order"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "A discrete memoryless source emits four symbols with probabilities 0.4, 0.3, 0.2, and 0.1. What is the exact entropy (H) of this source in bits/symbol?",
+        "choices": [
+            "A. 1.846",
+            "B. 2.000",
+            "C. 1.500",
+            "D. 2.322"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "The Shannon-Hartley theorem expresses the absolute maximum data rate C (channel capacity) of a continuous communication channel of bandwidth B subjected to Additive White Gaussian Noise as:",
+        "choices": [
+            "A. C = B log_2(1 + S/N)",
+            "B. C = 2B log_2(M)",
+            "C. C = B ln(S/N)",
+            "D. C = B log_10(1 + S/N)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "Calculate the theoretical channel capacity of a telephone channel with a bandwidth of 3.1 kHz and a Signal-to-Noise Ratio (SNR) of 1023 (linear ratio).",
+        "choices": [
+            "A. 15.5 kbps",
+            "B. 31.0 kbps",
+            "C. 6.2 kbps",
+            "D. 24.8 kbps"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "If the bandwidth of an AWGN channel is doubled while keeping the signal power and noise spectral density strictly constant, the Shannon channel capacity will:",
+        "choices": [
+            "A. Exactly double",
+            "B. Increase, but by less than double due to the logarithmic term",
+            "C. Remain completely unchanged",
+            "D. Quadruple"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "According to the Shannon-Hartley theorem, as the Signal-to-Noise Ratio (S/N) approaches zero, the channel capacity C approaches:",
+        "choices": [
+            "A. Zero",
+            "B. B",
+            "C. Infinity",
+            "D. 1.44 B"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "A Discrete Memoryless Channel (DMC) is formally characterized mathematically by a matrix of:",
+        "choices": [
+            "A. Transition probabilities P(y_j \\vert x_i)",
+            "B. Self-information values",
+            "C. Power spectral densities",
+            "D. Autocorrelation functions"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "In a Discrete Memoryless Channel, the conditional probability that symbol y_j is received given that symbol x_i was transmitted must satisfy the condition that the sum of probabilities across any row of the transition matrix equals:",
+        "choices": [
+            "A. Infinity",
+            "B. 0",
+            "C. 1",
+            "D. The channel capacity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "Mutual information I(X;Y) between input X and output Y in a communication channel represents the reduction in uncertainty about X after observing Y, and it is mathematically symmetric such that I(X;Y) equals:",
+        "choices": [
+            "A. H(X) + H(Y)",
+            "B. H(Y \\vert X)",
+            "C. I(Y;X)",
+            "D. H(X) - H(Y)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 30,
+        "question": "The channel capacity (C) of a Discrete Memoryless Channel is formally defined mathematically as the maximum mutual information I(X;Y) optimized over all possible:",
+        "choices": [
+            "A. Channel bandwidths",
+            "B. Transmit power levels",
+            "C. Input probability distributions P(X)",
+            "D. Noise variances"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "A Binary Symmetric Channel (BSC) has a crossover (error) probability p. What is the mutual information capacity of this channel if p = 0.5?",
+        "choices": [
+            "A. 1 bit per transmission",
+            "B. 0.5 bit per transmission",
+            "C. 0 bits per transmission",
+            "D. 2 bits per transmission"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "When a Binary Symmetric Channel has a bit error probability p = 0, its channel capacity for binary input symbols is:",
+        "choices": [
+            "A. 0 bits/symbol",
+            "B. 1 bit/symbol",
+            "C. 2 bits/symbol",
+            "D. 0.5 bit/symbol"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "Bandwidth efficiency is formally measured and expressed in units of:",
+        "choices": [
+            "A. Decibels (dB)",
+            "B. Watts per Hertz",
+            "C. Bits per second per Hertz (bps/Hz)",
+            "D. Joules per bit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "Power efficiency in digital communication systems is typically quantified by the required ratio of:",
+        "choices": [
+            "A. Signal-to-noise ratio to bandwidth",
+            "B. Energy per bit to noise power spectral density (Eb/N_0)",
+            "C. Bandwidth to bit rate",
+            "D. Peak-to-average power ratio"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "As a digital modulation scheme increases its bandwidth efficiency by packing more bits per symbol (e.g., upgrading from QPSK to 64-QAM), its required power efficiency:",
+        "choices": [
+            "A. Improves (requires less Eb/N_0)",
+            "B. Remains completely unaffected",
+            "C. Degrades (requires a significantly higher Eb/N_0 for the same BER)",
+            "D. Drops to zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "The Shannon Limit states that for reliable, error-free digital communication over an AWGN channel at any given data rate, the minimum required Eb/N_0 is approximately:",
+        "choices": [
+            "A. 0 dB",
+            "B. +3.01 dB",
+            "C. -1.59 dB",
+            "D. -10 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "In the context of bandwidth efficiency versus power efficiency trade-offs, which of the following modulation techniques is classified as having high power efficiency but relatively low bandwidth efficiency?",
+        "choices": [
+            "A. 64-QAM",
+            "B. Orthogonal M-ary FSK",
+            "C. 256-QAM",
+            "D. 16-PSK"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "A source generates three symbols with probabilities 0.5, 0.25, and 0.25. What is the exact entropy (H) of this source?",
+        "choices": [
+            "A. 1.0 bit/symbol",
+            "B. 1.5 bits/symbol",
+            "C. 2.0 bits/symbol",
+            "D. 0.5 bit/symbol"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Given the symbol probabilities 0.5, 0.25, and 0.25, if you construct a Huffman code, what is the resulting average codeword length (L)?",
+        "choices": [
+            "A. 1.0 bit",
+            "B. 1.5 bits",
+            "C. 2.0 bits",
+            "D. 1.25 bits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "For the Huffman code from the previous question (H = 1.5, L = 1.5), what is the exact coding efficiency (η)?",
+        "choices": [
+            "A. 75%",
+            "B. 50%",
+            "C. 100%",
+            "D. 90%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "If a binary source emits independent symbols with a probability p for '1' and 1-p for '0', at what value of p does the entropy reach its absolute maximum value of 1.0 bit/symbol?",
+        "choices": [
+            "A. p = 0",
+            "B. p = 1",
+            "C. p = 0.5",
+            "D. p = 0.25"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "In information theory, joint entropy H(X,Y) of two discrete random variables X and Y is related to individual and conditional entropies by the fundamental rule:",
+        "choices": [
+            "A. H(X,Y) = H(X) + H(Y \\vert X)",
+            "B. H(X,Y) = H(X) - H(Y)",
+            "C. H(X,Y) = H(X) * H(Y)",
+            "D. H(X,Y) = H(X \\vert Y) / H(Y)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 43,
+        "question": "Conditional entropy H(Y \\vert X) mathematically represents the remaining uncertainty of Y given that X has been:",
+        "choices": [
+            "A. Unknown",
+            "B. Received",
+            "C. Transmitted (known)",
+            "D. Encoded"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "If X and Y are completely independent random variables, the mutual information I(X;Y) between them evaluates strictly to:",
+        "choices": [
+            "A. H(X)",
+            "B. H(Y)",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "A discrete memoryless source has an alphabet of 8 equally likely symbols. What is the entropy of this source?",
+        "choices": [
+            "A. 2 bits/symbol",
+            "B. 3 bits/symbol",
+            "C. 8 bits/symbol",
+            "D. 1 bit/symbol"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "If the source alphabet size is M and all symbols are equally likely, the entropy H is always equal to:",
+        "choices": [
+            "A. M",
+            "B. log_2 M",
+            "C. M / 2",
+            "D. log_10 M"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "A binary source has P(0) = 0.9 and P(1) = 0.1. Calculate its entropy.",
+        "choices": [
+            "A. 0.469 bit/symbol",
+            "B. 1.000 bit/symbol",
+            "C. 0.881 bit/symbol",
+            "D. 0.256 bit/symbol"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "What is the primary consequence of violating the Shannon-Hartley theorem by attempting to transmit data at a rate higher than the channel capacity C through an AWGN channel?",
+        "choices": [
+            "A. The transmitter overheats",
+            "B. The Bit Error Rate (BER) cannot be kept arbitrarily low regardless of channel coding",
+            "C. The carrier frequency shifts automatically",
+            "D. The signal amplitude drops to zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "In communication system design, trading bandwidth for power efficiency means that a system can achieve the same data rate and error performance with lower transmitted power if it is willing to:",
+        "choices": [
+            "A. Use a wider channel bandwidth",
+            "B. Decrease its carrier frequency",
+            "C. Use non-linear amplifiers",
+            "D. Reduce its operating temperature"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "Which of the following coding theorems guarantees that lossless data compression can approach the source entropy limit arbitrarily closely as the codeword block length approaches infinity?",
+        "choices": [
+            "A. Shannon-Hartley Theorem",
+            "B. Nyquist Sampling Theorem",
+            "C. Shannon's First Theorem (Source Coding Theorem)",
+            "D. Friis Transmission Equation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "A channel capacity of a continuous bandlimited AWGN channel depends directly on bandwidth B and signal-to-noise ratio S/N. If S/N I 1, doubling the signal power while holding bandwidth constant will increase channel capacity by approximately:",
+        "choices": [
+            "A. Double the capacity",
+            "B. B bits per second",
+            "C. A factor of B log_2 2 (adding roughly B bps if S/N is large)",
+            "D. Exactly 3 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "In a Binary Erasure Channel (BEC) with erasure probability e, the channel capacity is mathematically given by:",
+        "choices": [
+            "A. 1 - e",
+            "B. 1 - 2e",
+            "C. e",
+            "D. log_2(1-e)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "What is the mutual information I(X;Y) if the input X and output Y of a channel are identical (a completely lossless channel)?",
+        "choices": [
+            "A. 0",
+            "B. H(Y)",
+            "C. H(X \\vert Y)",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "If a source code is uniquely decodable, it means that:",
+        "choices": [
+            "A. Every codeword has the same length",
+            "B. Any string of encoded symbols can be decoded into one and only one sequence of source symbols",
+            "C. It has zero redundancy",
+            "D. It can correct 1-bit errors automatically"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "The Kraft Inequality provides a necessary and sufficient condition for the existence of a:",
+        "choices": [
+            "A. Prefix-free (instantaneous) code with given codeword lengths",
+            "B. Channel coding theorem limit",
+            "C. Continuous-time sampling rate",
+            "D. Binary symmetric channel capacity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "According to the Kraft Inequality for instantaneous codes, if a code has lengths l_1, l_2, ..., l_n for an alphabet size r, the sum Σ r^-l_i must be:",
+        "choices": [
+            "A. Exactly equal to 1",
+            "B. Less than or equal to 1",
+            "C. Greater than 1",
+            "D. Equal to the source entropy H"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "A source emits symbols with probabilities 0.5, 0.25, 0.125, and 0.125. The entropy of this source is:",
+        "choices": [
+            "A. 1.75 bits/symbol",
+            "B. 2.00 bits/symbol",
+            "C. 1.50 bits/symbol",
+            "D. 1.25 bits/symbol"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "For the source in the previous question with probabilities 0.5, 0.25, 0.125, and 0.125, what are the exact optimum Huffman codeword lengths?",
+        "choices": [
+            "A. 1, 2, 3, 3 bits",
+            "B. 2, 2, 2, 2 bits",
+            "C. 1, 1, 2, 3 bits",
+            "D. 2, 3, 3, 3 bits"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "Using the Huffman lengths (1, 2, 3, 3) for the probabilities (0.5, 0.25, 0.125, 0.125), what is the average codeword length L?",
+        "choices": [
+            "A. 1.75 bits/symbol",
+            "B. 2.00 bits/symbol",
+            "C. 1.50 bits/symbol",
+            "D. 1.85 bits/symbol"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "Because the average codeword length L (1.75) matches the source entropy H (1.75) in that specific Huffman example, the coding efficiency is:",
+        "choices": [
+            "A. 50%",
+            "B. 90%",
+            "C. 100%",
+            "D. 75%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "In digital communications, if an information source has an entropy of 3.2 bits/symbol and we encode it with an average length of 3.5 bits/symbol, what is the redundancy?",
+        "choices": [
+            "A. 3.2 bits",
+            "B. 0.3 bit/symbol",
+            "C. 0.5 bit/symbol",
+            "D. 3.5 bits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "Which of the following statements concerning source coding and channel coding is strictly true?",
+        "choices": [
+            "A. Source coding adds redundancy for error correction, while channel coding compresses data.",
+            "B. Source coding removes redundancy for compression, while channel coding adds structured redundancy for error protection.",
+            "C. Both source and channel coding perform identical mathematical operations.",
+            "D. Channel coding is only used for analog signals."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "In information theory, if a discrete memoryless source has an alphabet size of 16, what is its absolute maximum possible entropy?",
+        "choices": [
+            "A. 8 bits/symbol",
+            "B. 16 bits/symbol",
+            "C. 4 bits/symbol",
+            "D. 2 bits/symbol"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "When evaluating channel capacity via the Shannon-Hartley theorem, if the signal power S is increased to a very massive level while noise power N remains constant, the channel capacity:",
+        "choices": [
+            "A. Approaches a strict upper limit proportional to B log_2(S/N) (grows logarithmically without bound)",
+            "B. Drops to zero",
+            "C. Becomes equal to the bandwidth B",
+            "D. Remains constant"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "In a Discrete Memoryless Channel, the joint entropy H(X,Y) of input X and output Y can be expressed in terms of marginal and conditional entropies as H(X) + H(Y \\vert X) or equivalently as:",
+        "choices": [
+            "A. H(Y) + H(X \\vert Y)",
+            "B. H(X) - H(Y)",
+            "C. H(X \\vert Y) + H(Y \\vert X)",
+            "D. H(X) * H(Y)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "The capacity of an AWGN channel is specified as 50 kbps with a bandwidth of 10 kHz. If the bandwidth is increased to 20 kHz while keeping the received signal power and noise density constant, the new capacity will:",
+        "choices": [
+            "A. Exactly double to 100 kbps",
+            "B. Increase, but will be less than double",
+            "C. Remain exactly 50 kbps",
+            "D. Quadruple to 200 kbps"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Entropy is measured in units of:",
+        "choices": [
+            "A. Bits per second",
+            "B. Decibels",
+            "C. Bits per symbol (or bits/message)",
+            "D. Watts per Hertz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "A binary source emits a '1' with probability p and a '0' with probability 1-p. The derivative of its entropy H(p) with respect to p equals zero when p is:",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 0.5",
+            "D. 0.25"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "In the context of the Shannon-Hartley theorem, power efficiency is often evaluated by how efficiently a system converts signal power into data rate relative to the noise level. A system that achieves a high data rate at very low Eb/N_0 is described as being:",
+        "choices": [
+            "A. Bandwidth-efficient",
+            "B. Power-efficient",
+            "C. Noise-limited",
+            "D. Attenuation-limited"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "Which modulation scheme is the textbook example of a system that is highly power-efficient but very poor in bandwidth efficiency?",
+        "choices": [
+            "A. 256-QAM",
+            "B. Orthogonal M-ary FSK with very large M",
+            "C. 64-QAM",
+            "D. Standard BPSK"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "According to the Shannon Channel Capacity theorem, as bandwidth B → ∞, the maximum capacity C_∞ of an AWGN channel with received signal power S and noise power spectral density N_0 evaluates to:",
+        "choices": [
+            "A. S / N_0",
+            "B. 1.44 (S/N_0)",
+            "C. ∞",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "If the actual data rate R of a communication system is strictly less than the channel capacity C (R < C), Shannon's theorem guarantees that the probability of error can be made arbitrarily small by:",
+        "choices": [
+            "A. Increasing the transmitter power infinitely",
+            "B. Using sufficiently complex and long channel coding",
+            "C. Using a narrower bandwidth",
+            "D. Eliminating the source encoder"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "Which of the following codes is guaranteed to be uniquely decodable and instantaneous (prefix-free)?",
+        "choices": [
+            "A. A code where codewords have identical lengths",
+            "B. A Huffman code",
+            "C. A code where shorter codewords are prefixes of longer codewords",
+            "D. A standard ASCII code"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "Consider a DMS with two symbols having probabilities 0.99 and 0.01. The entropy is very low because:",
+        "choices": [
+            "A. The source is extremely noisy",
+            "B. The symbols occur with nearly equal probability",
+            "C. There is very little uncertainty about which symbol will be emitted",
+            "D. The channel capacity is zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "In a digital link budget analysis, if a channel engineer manages to improve the receiver's noise figure by 3 dB, this directly improves the system's:",
+        "choices": [
+            "A. Bandwidth efficiency",
+            "B. Power efficiency (Eb/N_0)",
+            "C. Source entropy",
+            "D. Codeword redundancy"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "What is the mutual information I(X;X) of a discrete random variable X with itself?",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. H(X)",
+            "D. ∞"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "If the transition probability matrix of a Binary Symmetric Channel has an error probability p = 0.5, the mutual information I(X;Y) for any input probability distribution is:",
+        "choices": [
+            "A. 1 bit",
+            "B. 0.5 bit",
+            "C. 0 bits",
+            "D. Indeterminate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "The concept of \"Equivocation\" in information theory refers to the conditional entropy H(X \\vert Y), which represents the uncertainty of the:",
+        "choices": [
+            "A. Output given the input",
+            "B. Input given the output",
+            "C. Channel noise variance",
+            "D. Source entropy rate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "If a channel is both noiseless and lossless, the mutual information I(X;Y) is equal to:",
+        "choices": [
+            "A. 0",
+            "B. H(X) and H(Y)",
+            "C. 2 H(X)",
+            "D. H(X \\vert Y)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "In information theory, the \"Noisy-Channel Coding Theorem\" was originally formulated and published by:",
+        "choices": [
+            "A. Harry Nyquist",
+            "B. Claude Shannon",
+            "C. Ralph Hartley",
+            "D. Ludwig Boltzmann"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "When constructing a Huffman code, if two nodes being combined have identical probabilities, how are they handled?",
+        "choices": [
+            "A. They cannot be combined",
+            "B. Their placement does not affect the optimality of the prefix code as long as probabilities are grouped correctly",
+            "C. The code becomes invalid",
+            "D. The entropy doubles"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "A source alphabet consists of 3 symbols with probabilities 0.7, 0.2, and 0.1. The entropy is approximately 1.156 bits/symbol. If we use a simple fixed-length binary code to represent these 3 symbols, how many bits per symbol are required?",
+        "choices": [
+            "A. 1 bit",
+            "B. 2 bits",
+            "C. 3 bits",
+            "D. 1.5 bits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "For the 3-symbol source in the previous question (H ≈ 1.156 bits/symbol), if a fixed-length code of 2 bits/symbol is used, what is the resulting coding efficiency of that fixed-length code?",
+        "choices": [
+            "A. 100%",
+            "B. 57.8%",
+            "C. 85.0%",
+            "D. 40.0%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "As the block length N of a block source code increases, Shannon's source coding theorem proves that the minimum average number of bits per symbol required to represent the source symbols approaches:",
+        "choices": [
+            "A. Zero",
+            "B. Infinity",
+            "C. The source entropy H(X)",
+            "D. The channel capacity C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "Which information theory metric serves as the theoretical upper bound on the data transmission rate for error-free communication over a given physical channel?",
+        "choices": [
+            "A. Entropy",
+            "B. Source Redundancy",
+            "C. Channel Capacity",
+            "D. Mutual Information"
+        ],
+        "correct_answer": "C"
+    }
+]

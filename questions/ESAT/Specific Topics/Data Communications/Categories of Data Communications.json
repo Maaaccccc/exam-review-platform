@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "In a basic data communication system, the set of rules that govern the exchange of information is formally called a:",
+        "choices": [
+            "A. Protocol",
+            "B. Transmission medium",
+            "C. Codec",
+            "D. Digital signal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "Which of the following components acts as the physical highway for data travel in a communication system?",
+        "choices": [
+            "A. The protocol",
+            "B. The sender",
+            "C. The transmission medium",
+            "D. The receiver"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "Data communication systems require data to arrive in the exact order they were sent without excessive delay. This fundamental characteristic is known as:",
+        "choices": [
+            "A. Accuracy",
+            "B. Timeliness",
+            "C. Jitter",
+            "D. Bandwidth"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 4,
+        "question": "In data communications, variation in the packet arrival time which causes uneven delays is formally known as:",
+        "choices": [
+            "A. Latency",
+            "B. Attenuation",
+            "C. Interference",
+            "D. Jitter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "The five basic components of any data communication system are the sender, receiver, transmission medium, message, and:",
+        "choices": [
+            "A. Operating system",
+            "B. Analog modem",
+            "C. Protocol",
+            "D. Parity bit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "Which element of a communication protocol refers strictly to the meaning of each section of bits and how they should be interpreted?",
+        "choices": [
+            "A. Semantics",
+            "B. Syntax",
+            "C. Timing",
+            "D. Synchronization"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "Data communication standards that have been officially legislated and approved by an officially recognized body are known as:",
+        "choices": [
+            "A. Proprietary standards",
+            "B. Open source standards",
+            "C. De facto standards",
+            "D. De jure standards"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "Data delivery to the exact intended device without any corruption satisfies which two fundamental characteristics of data communications?",
+        "choices": [
+            "A. Timeliness and Jitter",
+            "B. Delivery and Accuracy",
+            "C. Bandwidth and Latency",
+            "D. Security and Throughput"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "An analog signal is fundamentally characterized by having:",
+        "choices": [
+            "A. Only two discrete voltage states",
+            "B. Continuously varying values over time",
+            "C. Perfect immunity to electrical noise",
+            "D. A strictly infinite bandwidth"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "A digital signal is fundamentally defined as a signal that:",
+        "choices": [
+            "A. Has an infinite number of amplitude levels",
+            "B. Can only be transmitted over fiber optic cables",
+            "C. Has discrete values or states",
+            "D. Suffers from cumulative degradation through repeaters"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "Which of the following communication systems is inherently more resistant to the accumulation of noise over long distances?",
+        "choices": [
+            "A. Digital communication",
+            "B. Analog baseband communication",
+            "C. Amplitude modulation broadcasting",
+            "D. Frequency modulation broadcasting"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "The process of converting an analog signal to a digital signal typically involves three main steps: sampling, quantizing, and:",
+        "choices": [
+            "A. Amplifying",
+            "B. Attenuating",
+            "C. Modulating",
+            "D. Encoding"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "According to the Nyquist theorem, to properly reconstruct an analog signal, the minimum sampling rate must be:",
+        "choices": [
+            "A. Equal to the lowest frequency",
+            "B. Equal to the highest frequency",
+            "C. Twice the lowest frequency",
+            "D. Twice the highest frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "If a standard analog voice signal has a maximum frequency component of 4 kHz, what is the absolute minimum Nyquist sampling rate required for digitization?",
+        "choices": [
+            "A. 4,000 samples/sec",
+            "B. 8,000 samples/sec",
+            "C. 16,000 samples/sec",
+            "D. 2,000 samples/sec"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "In a digital communication system, repeaters are used instead of amplifiers because repeaters:",
+        "choices": [
+            "A. Boost the signal and the accumulated noise equally",
+            "B. Convert the digital signal back to analog for transmission",
+            "C. Regenerate the original discrete signal without amplifying the accumulated noise",
+            "D. Require less electrical power to operate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "Which of the following is a strict characteristic of an analog transmission over a long distance?",
+        "choices": [
+            "A. Attenuation degrades the signal, and amplifiers boost the noise along with the signal, making perfect reconstruction impossible",
+            "B. The signal is immune to electromagnetic interference",
+            "C. Repeaters can strip away the noise perfectly",
+            "D. It always requires a larger bandwidth than its digital equivalent"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "What strictly determines the number of available quantization levels in a Pulse Code Modulation (PCM) system?",
+        "choices": [
+            "A. The number of bits assigned per sample",
+            "B. The sampling rate of the analog-to-digital converter",
+            "C. The physical length of the transmission medium",
+            "D. The carrier frequency of the analog signal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "If a digital transmission system uses 8 bits per sample to encode an analog signal, how many discrete quantization levels exist?",
+        "choices": [
+            "A. 8",
+            "B. 16",
+            "C. 64",
+            "D. 256"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 19,
+        "question": "The fundamental engineering trade-off when converting an analog signal to a digital format is:",
+        "choices": [
+            "A. Lower noise immunity versus lower cost",
+            "B. Slower transmission speed versus less secure data",
+            "C. Higher bandwidth requirements versus vastly improved noise immunity",
+            "D. Reduced power consumption versus shorter transmission range"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Which of the following statements comparing analog and digital communication is fundamentally true?",
+        "choices": [
+            "A. Analog circuits are generally much easier to integrate on a single VLSI chip than digital circuits",
+            "B. Digital circuits are much easier to integrate on a single IC chip than analog circuits, leading to lower costs",
+            "C. Digital signals require strictly less bandwidth than their original analog counterparts",
+            "D. Analog signals are easier to encrypt using complex mathematical algorithms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "In data communications, the term \"baud rate\" specifically refers to:",
+        "choices": [
+            "A. The number of individual bits transmitted per second",
+            "B. The number of signal elements (or symbols) transmitted per second",
+            "C. The maximum frequency of the carrier wave",
+            "D. The speed of light in the transmission medium"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "In a digital system where each transmitted signal element (symbol) represents exactly 2 bits, if the bit rate is 4000 bps, what is the baud rate?",
+        "choices": [
+            "A. 2000 baud",
+            "B. 4000 baud",
+            "C. 8000 baud",
+            "D. 1000 baud"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "What specific type of noise inherently arises during the analog-to-digital conversion process due to the rounding of continuous values to discrete levels?",
+        "choices": [
+            "A. Thermal noise",
+            "B. Intermodulation noise",
+            "C. Quantization noise",
+            "D. Impulse noise"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "If the number of bits per sample is increased from 8 to 10 in a digital voice system, what is the direct effect on quantization noise?",
+        "choices": [
+            "A. It increases slightly",
+            "B. It doubles",
+            "C. It remains completely unaffected",
+            "D. It decreases significantly, improving the signal-to-quantization-noise ratio"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "A continuous-time, continuous-amplitude signal is strictly categorized as:",
+        "choices": [
+            "A. An analog signal",
+            "B. A discrete digital signal",
+            "C. A quantized symbol",
+            "D. A binary bitstream"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "A discrete-time, discrete-amplitude signal is strictly categorized as:",
+        "choices": [
+            "A. An analog baseband signal",
+            "B. A continuous wave signal",
+            "C. A digital signal",
+            "D. An unmodulated carrier"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "For the exact same baseband information signal, which transmission method generally requires strictly less bandwidth?",
+        "choices": [
+            "A. Digital baseband transmission",
+            "B. Analog baseband transmission",
+            "C. Pulse Code Modulation",
+            "D. Quadrature Amplitude Modulation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "Why does digital communication allow for highly effective error detection and correction compared to analog?",
+        "choices": [
+            "A. Because digital signals travel faster than analog signals",
+            "B. Because digital signals operate at infinite bandwidths",
+            "C. Because digital cables are inherently shielded from all interference",
+            "D. Because redundant parity bits and block codes can be easily computed and appended to discrete bit streams"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "An analog signal carries 4 bits of information per signal unit. If 1000 signal units are sent per second, calculate the bit rate.",
+        "choices": [
+            "A. 1000 bps",
+            "B. 250 bps",
+            "C. 8000 bps",
+            "D. 4000 bps"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "Which standard modulation technique directly translates an analog message into a digital pulse stream by sampling and quantizing?",
+        "choices": [
+            "A. Frequency Modulation (FM)",
+            "B. Amplitude Modulation (AM)",
+            "C. Pulse Code Modulation (PCM)",
+            "D. Phase Modulation (PM)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "The degradation of an analog signal over long distances is strictly cumulative primarily because:",
+        "choices": [
+            "A. Amplifiers boost both the information signal and the accumulated noise equally",
+            "B. Analog signals lose their frequency components randomly",
+            "C. The transmission medium absorbs low frequencies faster than high frequencies",
+            "D. Repeaters invert the phase of the signal at every hop"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "In terms of data security, digital communication is overwhelmingly superior to analog because:",
+        "choices": [
+            "A. Digital signals are completely invisible to wiretaps",
+            "B. Digital signals can be easily and rigorously encrypted using standard cryptographic algorithms",
+            "C. Analog signals cannot travel through secure fiber optic cables",
+            "D. Hackers do not understand binary code"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "A 16-QAM digital signal transmits 4 bits per symbol. If the baud rate is 1200 baud, what is the data bit rate?",
+        "choices": [
+            "A. 1200 bps",
+            "B. 4800 bps",
+            "C. 300 bps",
+            "D. 2400 bps"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "The fundamental difference between a continuous analog signal and a discrete digital signal is that discrete signals:",
+        "choices": [
+            "A. Have infinite amplitude levels",
+            "B. Change values instantaneously at all times",
+            "C. Only carry audio information",
+            "D. Are defined and evaluated only at specific, distinct instants of time"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 35,
+        "question": "What is typically the primary engineering disadvantage of replacing an analog communication system with a digital one?",
+        "choices": [
+            "A. Increased susceptibility to thermal noise",
+            "B. Inability to use multiplexing",
+            "C. It generally requires a significantly higher transmission bandwidth",
+            "D. Higher distortion over extremely long distances"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "An analog audio channel is digitized using a high bit rate. The primary benefit of this digitization at the receiver end is:",
+        "choices": [
+            "A. Consistent, exact reproduction quality regardless of transmission distance, provided the bit error rate remains low",
+            "B. A massive reduction in the required channel bandwidth",
+            "C. Elimination of all propagation delay",
+            "D. The ability to transmit without any physical medium"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "Which of the following statements provides the best technical description of \"Quantization Error\"?",
+        "choices": [
+            "A. The jitter introduced by a fluctuating clock signal",
+            "B. The loss of high-frequency components due to the Nyquist limit",
+            "C. The difference between the actual continuous analog value and the nearest assigned discrete step value",
+            "D. The error caused by bit flips during transmission over a noisy channel"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "In a baseband digital system, a \"0\" is represented by 0V and a \"1\" by +5V. If the receiver detects a corrupted level of +2.5V, it must:",
+        "choices": [
+            "A. Make a threshold decision to interpret it strictly as either a 0 or a 1",
+            "B. Output exactly +2.5V to the speaker",
+            "C. Crash and wait for a reset",
+            "D. Treat the signal as an analog sine wave"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "A system transmits analog video using standard AM. If this same raw video is converted to digital without any compression, the required transmission bandwidth will:",
+        "choices": [
+            "A. Decrease significantly",
+            "B. Remain exactly the same",
+            "C. Drop to zero",
+            "D. Increase significantly"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "A data communication mode where data can only travel in one single direction permanently is called:",
+        "choices": [
+            "A. Half-duplex",
+            "B. Simplex",
+            "C. Full-duplex",
+            "D. Multiplex"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "A communication mode where data can travel in both directions, but only one direction at a time, is called:",
+        "choices": [
+            "A. Half-duplex",
+            "B. Simplex",
+            "C. Full-duplex",
+            "D. Synchronous"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "A communication mode where data can travel in both directions simultaneously across the link is called:",
+        "choices": [
+            "A. Simplex",
+            "B. Half-duplex",
+            "C. Full-duplex",
+            "D. Auto-duplex"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "Commercial FM radio broadcasting from a transmission tower to car radios is a classic example of which transmission mode?",
+        "choices": [
+            "A. Half-duplex",
+            "B. Simplex",
+            "C. Full-duplex",
+            "D. Asynchronous"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "A standard push-to-talk Walkie-Talkie operates in which communication mode?",
+        "choices": [
+            "A. Simplex",
+            "B. Full-duplex",
+            "C. Multiplex",
+            "D. Half-duplex"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "A modern smartphone cellular call, where both parties can speak and hear each other at the exact same time, operates in which mode?",
+        "choices": [
+            "A. Simplex",
+            "B. Full-duplex",
+            "C. Half-duplex",
+            "D. Isochronous"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "In a simplex data link, if Device A is configured to transmit to Device B, what kind of data can Device B transmit back to Device A?",
+        "choices": [
+            "A. Only error correction codes",
+            "B. Only acknowledgment (ACK) packets",
+            "C. Voice data only",
+            "D. Nothing, the channel is strictly unidirectional"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 47,
+        "question": "How does a full-duplex system technically manage simultaneous two-way transmission over a medium?",
+        "choices": [
+            "A. By rapidly switching the channel direction back and forth so fast the user doesn't notice",
+            "B. By ensuring only one device powers on at a time",
+            "C. By using two separate physical paths or by dividing the channel bandwidth/frequency for each direction",
+            "D. By transmitting the signals at exactly the same frequency on a single wire and ignoring collisions"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "The entire theoretical bandwidth of a transmission medium is available for a single direction of data flow in which of the following configurations?",
+        "choices": [
+            "A. Simplex and Half-Duplex",
+            "B. Half-Duplex and Full-Duplex",
+            "C. Full-Duplex only",
+            "D. Simplex only"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "In a half-duplex system, the specific delay required to switch the transceiver equipment from transmit mode to receive mode is defined as the:",
+        "choices": [
+            "A. Propagation delay",
+            "B. Transmission time",
+            "C. Turnaround time",
+            "D. Processing delay"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "A standard computer keyboard connected to a desktop monitor via the CPU typically exhibits which directional data flow?",
+        "choices": [
+            "A. Half-duplex",
+            "B. Simplex",
+            "C. Full-duplex",
+            "D. Multiplex"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Citizen's Band (CB) radio, where users must say \"Over\" to indicate they have finished speaking and are ready to listen, perfectly illustrates:",
+        "choices": [
+            "A. Half-duplex",
+            "B. Simplex",
+            "C. Full-duplex",
+            "D. Baseband"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "Which transmission mode generally requires the most complex channel multiplexing techniques or additional physical cabling to implement properly?",
+        "choices": [
+            "A. Simplex",
+            "B. Half-duplex",
+            "C. Unidirectional",
+            "D. Full-duplex"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "In which communication mode does the maximum available channel capacity effectively get cut in half per direction if it utilizes Frequency Division Duplexing (FDD)?",
+        "choices": [
+            "A. Simplex",
+            "B. Half-duplex",
+            "C. Multicast",
+            "D. Full-duplex"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 54,
+        "question": "A remote fire alarm sensor that only sends temperature data to a central monitoring hub and physically lacks a receiver is operating in:",
+        "choices": [
+            "A. Simplex mode",
+            "B. Half-duplex mode",
+            "C. Full-duplex mode",
+            "D. Isochronous mode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "Which of the following ARQ (Automatic Repeat reQuest) error-control protocols strictly requires an acknowledgment to travel back, proving the link is at least half-duplex?",
+        "choices": [
+            "A. Forward Error Correction (FEC)",
+            "B. Hamming Code Transmission",
+            "C. Stop-and-Wait ARQ",
+            "D. Unacknowledged Connectionless Protocol"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "When two devices in a standard half-duplex link attempt to transmit data at the exact same millisecond, what inherently occurs?",
+        "choices": [
+            "A. The data merges into a full-duplex stream perfectly",
+            "B. A data collision occurs, leading to corrupted signals",
+            "C. The channel physically melts down",
+            "D. The receiver sorts the packets automatically"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "To convert a single-pair half-duplex copper telephone line into a full-duplex line without adding more wire, telecom engineers typically implement:",
+        "choices": [
+            "A. Voltage boosting",
+            "B. Echo cancellation or Frequency Division Multiplexing",
+            "C. Adding a simplex router",
+            "D. Cutting the wire in half"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "A standard 100Base-TX Ethernet cable uses two dedicated pairs of wires: one strictly for receiving and one strictly for transmitting. This physical design natively supports:",
+        "choices": [
+            "A. Simplex",
+            "B. Half-duplex",
+            "C. Full-duplex",
+            "D. Carrier Sense Multiple Access"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "A traditional television broadcast transmitted from a central antenna tower to thousands of home TV sets is an example of:",
+        "choices": [
+            "A. Full-duplex",
+            "B. Half-duplex",
+            "C. Asynchronous duplex",
+            "D. Simplex"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "If a full-duplex fiber optic link has a stated capacity of 100 Mbps in each direction, what is its maximum theoretical aggregate (combined) throughput?",
+        "choices": [
+            "A. 200 Mbps",
+            "B. 100 Mbps",
+            "C. 50 Mbps",
+            "D. 0 Mbps"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "If a half-duplex wireless link has a total channel capacity of 100 Mbps, what is the maximum theoretical aggregate throughput between the two devices?",
+        "choices": [
+            "A. 200 Mbps",
+            "B. 50 Mbps",
+            "C. 100 Mbps",
+            "D. 400 Mbps"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "Which data flow direction configuration offers the most efficient use of a single frequency channel if the communication traffic is heavily asymmetrical (e.g., 99% download, 1% upload)?",
+        "choices": [
+            "A. Half-duplex using dynamic Time Division Duplexing",
+            "B. Full-duplex using rigid Frequency Division Duplexing",
+            "C. Simplex (upload only)",
+            "D. Simplex (download only)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "A traditional numeric paging system, where a user carries a pager that only receives messages and cannot reply, is classified as:",
+        "choices": [
+            "A. Half-duplex",
+            "B. Simplex",
+            "C. Full-duplex",
+            "D. Multipoint-duplex"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "What is a primary operational disadvantage of half-duplex transmission when compared directly to full-duplex?",
+        "choices": [
+            "A. It requires double the amount of cabling",
+            "B. It cannot be used for voice communication",
+            "C. It uses more electrical power per bit",
+            "D. It introduces latency due to the channel turnaround time required during two-way conversations"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "An infrared remote control transmitting channel-change signals to a television set is a classic everyday example of:",
+        "choices": [
+            "A. Full-duplex",
+            "B. Half-duplex",
+            "C. Baseband duplex",
+            "D. Simplex"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 66,
+        "question": "In a standard full-duplex fiber optic link, two separate strands of fiber are often used. What is this physical configuration called?",
+        "choices": [
+            "A. Wavelength Division Multiplexing",
+            "B. Time Division Duplexing",
+            "C. Space Division Duplexing (Dual-fiber connection)",
+            "D. Half-duplex channeling"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "If a single strand of fiber optic cable must be used for full-duplex communication simultaneously, it must utilize:",
+        "choices": [
+            "A. Time Division Multiplexing exclusively",
+            "B. Wavelength Division Multiplexing using two different wavelengths of light",
+            "C. Space Division Multiplexing",
+            "D. Simplex routing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "A legacy computer terminal connected to a mainframe requires the user to press \"Enter\" before the mainframe can reply, physically locking the keyboard during processing. This mimics:",
+        "choices": [
+            "A. Half-duplex operation",
+            "B. Full-duplex operation",
+            "C. Simplex operation",
+            "D. Multiplex operation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "Which communication mode intrinsically provides the absolute highest physical security against \"man-in-the-middle\" reply attacks on the exact same channel?",
+        "choices": [
+            "A. Simplex, because the receiver physically lacks the hardware to send a reply",
+            "B. Half-duplex, because it uses turnaround time",
+            "C. Full-duplex, because it sends continuously",
+            "D. Time Division Duplexing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "A network connection that provides a dedicated, exclusive link between exactly two devices is called:",
+        "choices": [
+            "A. Multipoint",
+            "B. Point-to-Point",
+            "C. Multidrop",
+            "D. Broadcast"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "A network connection where more than two specific devices share a single physical communication link is called:",
+        "choices": [
+            "A. Point-to-Point",
+            "B. Unicast",
+            "C. Simplex",
+            "D. Multipoint (or Multidrop)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "In a pure point-to-point connection, the entire capacity of the communication channel is:",
+        "choices": [
+            "A. Divided equally among all users on the internet",
+            "B. Shared temporally with neighbor networks",
+            "C. Reserved exclusively for transmission between the two connected devices",
+            "D. Limited to half-duplex operation only"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "In a multipoint connection, the available channel capacity is:",
+        "choices": [
+            "A. Reserved for the fastest device only",
+            "B. Always infinite",
+            "C. Shared either spatially or temporally among multiple connected devices",
+            "D. Used only for simplex transmission"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "A standard microwave radio link focused precisely between two dish antennas on separate mountain peaks is an example of:",
+        "choices": [
+            "A. Multipoint communication",
+            "B. Multidrop broadcast",
+            "C. Spatial multiplexing",
+            "D. Point-to-Point communication"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "A classic bus topology network, such as early 10Base5 thicknet Ethernet, is a prime example of:",
+        "choices": [
+            "A. Multipoint communication",
+            "B. Point-to-Point communication",
+            "C. Star topology",
+            "D. Ring topology"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "Which physical connection type strictly requires a Medium Access Control (MAC) protocol to prevent data collisions on the wire?",
+        "choices": [
+            "A. Point-to-Point",
+            "B. Multipoint",
+            "C. Simplex",
+            "D. Full-duplex leased line"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "Point-to-point links are generally considered more secure at the physical layer than multipoint links because:",
+        "choices": [
+            "A. They encrypt data automatically",
+            "B. The physical medium is not shared with unauthorized listener nodes",
+            "C. They operate at lower voltages",
+            "D. They always use fiber optics"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "A network consisting entirely of dedicated point-to-point links connecting every single node directly to every other node is called a:",
+        "choices": [
+            "A. Fully connected mesh topology",
+            "B. Bus topology",
+            "C. Star topology",
+            "D. Ring topology"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "In a multipoint environment using temporal sharing, devices take turns using the link. This is commonly achieved via:",
+        "choices": [
+            "A. Space Division Multiplexing",
+            "B. Wavelength Division Multiplexing",
+            "C. Time Division Multiplexing or Token Passing",
+            "D. Frequency hopping"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "Spatial sharing in a multipoint connection implies that:",
+        "choices": [
+            "A. Devices must take turns transmitting based on a master clock",
+            "B. Only one device can ever transmit on the wire",
+            "C. The cable is cut into multiple physical pieces",
+            "D. Multiple devices can transmit simultaneously using different frequencies or channels on the same shared medium"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "The primary commercial advantage of implementing a multipoint connection instead of multiple point-to-point connections is:",
+        "choices": [
+            "A. Increased security against wiretapping",
+            "B. Guaranteed zero collisions",
+            "C. Infinite bandwidth allocation per user",
+            "D. Reduced cabling cost and significantly simplified installation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 82,
+        "question": "A simple television remote control transmitting infrared signals to a single TV is fundamentally operating as a:",
+        "choices": [
+            "A. Multipoint half-duplex connection",
+            "B. Point-to-Point simplex connection",
+            "C. Multipoint full-duplex connection",
+            "D. Point-to-Point full-duplex connection"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "A central bank mainframe connected to 50 remote teller terminals using a single continuous coaxial cable is utilizing a:",
+        "choices": [
+            "A. Multipoint multidrop configuration",
+            "B. Point-to-Point mesh configuration",
+            "C. Star topology",
+            "D. Simplex point-to-point link"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "In a pure point-to-point connection using a 10 km underwater cable, if the cable is accidentally cut in the exact middle:",
+        "choices": [
+            "A. The data reroutes automatically",
+            "B. Only half the data is lost",
+            "C. The entire communication between the two nodes is completely lost",
+            "D. The connection converts to wireless"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "In a standard multipoint bus network, if the main backbone cable suffers a physical break in the middle, what generally happens?",
+        "choices": [
+            "A. Only the node exactly at the break loses connection",
+            "B. The network continues operating normally",
+            "C. The entire network is partitioned and goes down due to signal reflection and loss of proper termination",
+            "D. The network switches to token ring mode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 86,
+        "question": "Which of the following perfectly describes a point-to-point connection?",
+        "choices": [
+            "A. A Wi-Fi access point serving ten laptops",
+            "B. An Ethernet hub connecting five printers",
+            "C. A single radio tower broadcasting to a city",
+            "D. A dedicated T1 leased line connecting a branch office directly to headquarters"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "To connect 5 computers in a pure point-to-point fully connected mesh topology, how many dedicated physical links are mathematically required?",
+        "choices": [
+            "A. 5",
+            "B. 10",
+            "C. 20",
+            "D. 25"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "If a multipoint network relies on a single central controller polling each node sequentially to ask if they have data to send, the sharing method is classified as:",
+        "choices": [
+            "A. Temporal sharing",
+            "B. Spatial sharing",
+            "C. Frequency division",
+            "D. Simplex"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "Point-to-Point Protocol (PPP) is heavily utilized in which of the following scenarios?",
+        "choices": [
+            "A. Direct connections between two routers or a home computer and an ISP via dial-up",
+            "B. Broadcasting video over a LAN",
+            "C. Token passing in a ring network",
+            "D. Managing collisions on a shared bus"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "In a standard wireless Wi-Fi network (BSS), the connection between multiple laptops and a single access point operating on the same frequency channel is fundamentally:",
+        "choices": [
+            "A. A point-to-point full-duplex configuration",
+            "B. A point-to-point simplex configuration",
+            "C. A multipoint half-duplex configuration",
+            "D. A multipoint full-duplex configuration"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "Which connection configuration inherently has a much higher likelihood of experiencing traffic congestion and data collisions on the physical medium?",
+        "choices": [
+            "A. Point-to-Point",
+            "B. Dedicated leased line",
+            "C. Simplex",
+            "D. Multipoint"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "A dedicated, private fiber optic link between two major data centers spanning 100 miles operates structurally as a:",
+        "choices": [
+            "A. Multipoint link",
+            "B. Point-to-Point link",
+            "C. Broadcast link",
+            "D. Multicast link"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "In a multipoint connection, because the medium is shared, every transmitted packet must strictly contain:",
+        "choices": [
+            "A. A parity bit for the preamble",
+            "B. A destination address to identify which specific node should process it",
+            "C. An encryption key",
+            "D. A video frame"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "Do packets in a pure point-to-point direct physical link necessarily need a complex MAC destination address to prevent processing by the wrong devices on that wire?",
+        "choices": [
+            "A. Yes, otherwise the packets will leak into the air",
+            "B. Yes, to prevent collisions",
+            "C. No, because there is only one possible recipient device on the other end of the wire",
+            "D. No, because point-to-point links do not use packets"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "A cellular base station transmitting a broadcast emergency alert to all phones in its cell simultaneously is utilizing:",
+        "choices": [
+            "A. Multipoint simplex communication",
+            "B. Point-to-point full-duplex communication",
+            "C. Point-to-point half-duplex communication",
+            "D. Multipoint full-duplex communication"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 96,
+        "question": "If three computers are connected sequentially in a physical ring topology (A to B, B to C, C to A), the individual links between adjacent computers are:",
+        "choices": [
+            "A. Multipoint links",
+            "B. Broadcast links",
+            "C. Simplex-only links",
+            "D. Point-to-Point links forming the ring"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "A star topology network features a central hub or switch. Structurally, the physical link between the hub and any individual end device is:",
+        "choices": [
+            "A. Multipoint",
+            "B. Multidrop",
+            "C. Ring",
+            "D. Point-to-Point"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 98,
+        "question": "Which connection type is inherently less scalable when trying to connect thousands of devices directly on a single shared physical wire?",
+        "choices": [
+            "A. Multipoint, due to extreme collision domains and signal degradation",
+            "B. Point-to-Point, due to collision domains",
+            "C. Point-to-Point, due to infinite bandwidth limits",
+            "D. Simplex, because data cannot flow"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "When evaluating massive cabling costs, connecting 100 devices to a single server is cheapest using which physical line configuration?",
+        "choices": [
+            "A. Point-to-Point star configuration",
+            "B. Multipoint bus configuration",
+            "C. Point-to-Point mesh configuration",
+            "D. Full-duplex dedicated lines"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 100,
+        "question": "If a network uses a single long coaxial cable to which multiple devices attach via tap connectors, it is an example of a:",
+        "choices": [
+            "A. Star topology with point-to-point links",
+            "B. Mesh topology",
+            "C. Bus topology with multipoint links",
+            "D. Ring topology with point-to-point links"
+        ],
+        "correct_answer": "C"
+    }
+]

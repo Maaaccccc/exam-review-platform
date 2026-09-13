@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "The center of a standard normalized Smith Chart represents a normalized impedance of:",
+        "choices": [
+            "A. 0 + j0",
+            "B. 1 + j0",
+            "C. Infinity",
+            "D. 0.5 + j0.5"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "On a standard Smith Chart, the outer perimeter circle represents a reflection coefficient magnitude of:",
+        "choices": [
+            "A. 0",
+            "B. 0.5",
+            "C. 1.0",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "On the Smith Chart, the upper half of the chart represents impedances that are:",
+        "choices": [
+            "A. Capacitive",
+            "B. Inductive",
+            "C. Purely resistive",
+            "D. Open-circuited"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 4,
+        "question": "The point representing a short circuit on a standard impedance Smith Chart is located at:",
+        "choices": [
+            "A. Extreme right",
+            "B. Exact center",
+            "C. Extreme left",
+            "D. Top-most point"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 5,
+        "question": "Movement along a constant VSWR circle on a Smith Chart toward the generator corresponds to moving:",
+        "choices": [
+            "A. Counter-clockwise",
+            "B. Clockwise",
+            "C. Radially inward",
+            "D. Radially outward"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "A load impedance of 75 + j75 ohms connected to a 75-ohm line has a normalized load impedance of:",
+        "choices": [
+            "A. 1 + j1",
+            "B. 0.5 + j0.5",
+            "C. 1 - j1",
+            "D. 2 + j2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "On a Smith Chart, constant resistance circles are:",
+        "choices": [
+            "A. Concentric circles at the origin",
+            "B. Non-concentric circles with centers on the horizontal axis passing through the right-hand point",
+            "C. Straight vertical lines",
+            "D. Straight horizontal lines"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "What is the graphical equivalent on a Smith Chart of adding a pure series reactance +jX to a load impedance z_L?",
+        "choices": [
+            "A. Moving along a constant resistance circle upward",
+            "B. Moving along a constant VSWR circle",
+            "C. Moving across the center by 180 degrees",
+            "D. Moving along the outer boundary"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "The polarization of a transverse electromagnetic wave is determined by the direction of its:",
+        "choices": [
+            "A. Magnetic field",
+            "B. Electric field",
+            "C. Poynting vector",
+            "D. Propagation path"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "Circular polarization requires two orthogonal electric field components of equal magnitude to have a phase difference of:",
+        "choices": [
+            "A. 0 degrees",
+            "B. 45 degrees",
+            "C. 90 degrees",
+            "D. 180 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "Ground wave propagation is most effective at frequencies:",
+        "choices": [
+            "A. Below 2 MHz",
+            "B. 30 MHz to 300 MHz",
+            "C. Above 1 GHz",
+            "D. 10 MHz to 20 MHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "The lowest layer of the ionosphere that forms only during the day and absorbs medium wave signals is the:",
+        "choices": [
+            "A. F1 layer",
+            "B. E layer",
+            "C. D layer",
+            "D. F2 layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 13,
+        "question": "The highest regular region of ionization in the ionosphere, responsible for long-distance HF night communication, is the:",
+        "choices": [
+            "A. D layer",
+            "B. E layer",
+            "C. F1 layer",
+            "D. F layer (F2)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "The absolute highest frequency that will be returned to earth when transmitted straight up into the ionosphere is called the:",
+        "choices": [
+            "A. MUF",
+            "B. LUF",
+            "C. Critical frequency",
+            "D. FOT"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "The geographical distance from a transmitter to the point where the first sky wave returns to earth is the:",
+        "choices": [
+            "A. Radio horizon",
+            "B. Skip distance",
+            "C. Fresnel zone",
+            "D. Free space path"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "The dead region between the outer limit of ground wave coverage and the point where the first sky wave returns is called the:",
+        "choices": [
+            "A. Skip zone",
+            "B. Tropospheric duct",
+            "C. Twilight zone",
+            "D. Fresnel zone"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "Fading caused by the transmitted signal arriving via two or more paths with varying phase differences is known as:",
+        "choices": [
+            "A. Shadow fading",
+            "B. Absorption fading",
+            "C. Polarization fading",
+            "D. Multipath fading"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 18,
+        "question": "To mitigate multipath fading, systems frequently use multiple antennas to receive independent signals, a technique called:",
+        "choices": [
+            "A. Frequency diversity",
+            "B. Space diversity",
+            "C. Polarization diversity",
+            "D. Time diversity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "An electromagnetic wave whose electric field vector traces an ellipse in space is said to have:",
+        "choices": [
+            "A. Linear polarization",
+            "B. Circular polarization",
+            "C. Elliptical polarization",
+            "D. Transverse polarization"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "When a radio wave travels along the earth's surface, the wavefront tilts forward due to energy absorption by the lossy ground. This is called:",
+        "choices": [
+            "A. Wave tilt",
+            "B. Ground reflection",
+            "C. Tropospheric scatter",
+            "D. Faraday rotation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "Ground waves require which type of polarization to prevent the earth from short-circuiting the electric field?",
+        "choices": [
+            "A. Horizontal polarization",
+            "B. Circular polarization",
+            "C. Vertical polarization",
+            "D. Elliptical polarization"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "The ionospheric layer that is primarily responsible for daytime reflection of medium-frequency signals is the:",
+        "choices": [
+            "A. D layer",
+            "B. E layer",
+            "C. F1 layer",
+            "D. F2 layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "Which ionospheric layer merges with the F2 layer during nighttime hours?",
+        "choices": [
+            "A. D layer",
+            "B. E layer",
+            "C. F1 layer",
+            "D. Stratosphere"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "The phenomenon where the critical frequency varies in an 11-year cycle corresponds directly to:",
+        "choices": [
+            "A. The sunspot cycle",
+            "B. The lunar cycle",
+            "C. The earth's axial tilt",
+            "D. Tidal forces"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "Diversity reception technique that transmits the same information on two or more distinct carrier frequencies is called:",
+        "choices": [
+            "A. Space diversity",
+            "B. Frequency diversity",
+            "C. Polarization diversity",
+            "D. Time diversity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "Interference fading caused by the combination of direct and ground-reflected waves is a classic example of:",
+        "choices": [
+            "A. Selective fading",
+            "B. Flat fading",
+            "C. Rayleigh fading",
+            "D. Multipath interference fading"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "Selective fading affects signals by:",
+        "choices": [
+            "A. Attenuating all frequencies equally",
+            "B. Attenuating different frequency components of a wideband signal by different amounts",
+            "C. Shifting the carrier frequency",
+            "D. Increasing transmitter power"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "The optical or radio horizon distance is extended beyond the true geometric horizon due to:",
+        "choices": [
+            "A. Atmospheric refraction",
+            "B. Ionospheric reflection",
+            "C. Ground wave attenuation",
+            "D. Wave tilt"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 29,
+        "question": "The equivalent earth radius factor (K-factor) traditionally used to account for standard atmospheric refraction is:",
+        "choices": [
+            "A. 1.0",
+            "B. 4/3",
+            "C. 0.5",
+            "D. 2.0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "The highest frequency that can be successfully used for sky wave propagation between two specific points under given ionospheric conditions is the:",
+        "choices": [
+            "A. Critical frequency",
+            "B. Maximum Usable Frequency (MUF)",
+            "C. Lowest Usable Frequency (LUF)",
+            "D. Optimum Working Frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Calculate the critical frequency of an ionospheric layer if its maximum electron density is 10^12 electrons/m^3:",
+        "choices": [
+            "A. 3 MHz",
+            "B. 9 MHz",
+            "C. 90 MHz",
+            "D. 81 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "If the measured critical frequency of an ionospheric layer is 6 MHz and the angle of incidence is 60 degrees, calculate the MUF using the Secant Law:",
+        "choices": [
+            "A. 6.0 MHz",
+            "B. 10.4 MHz",
+            "C. 12.0 MHz",
+            "D. 3.0 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "An HF communication link has a calculated MUF of 18 MHz. What is the typical Optimum Working Frequency (OWF or FOT) chosen by engineers to ensure reliability?",
+        "choices": [
+            "A. 18 MHz",
+            "B. 22 MHz",
+            "C. 15.3 MHz",
+            "D. 9 MHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "Calculate the approximate radio horizon in miles for an antenna 144 feet high:",
+        "choices": [
+            "A. 14.76 miles",
+            "B. 10.0 miles",
+            "C. 20.5 miles",
+            "D. 7.4 miles"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "Two antennas have heights of 64 feet and 100 feet. Calculate the maximum line-of-sight distance in miles:",
+        "choices": [
+            "A. 15.3 miles",
+            "B. 22.1 miles",
+            "C. 20.3 miles",
+            "D. 24.5 miles"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "A microwave transmission path requires clearance of at least what percentage of the first Fresnel zone to approximate free space?",
+        "choices": [
+            "A. 50%",
+            "B. 60%",
+            "C. 80%",
+            "D. 100%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "If an ionospheric layer has a maximum electron density 4 x 10^11 electrons/m^3, what is its critical frequency?",
+        "choices": [
+            "A. 3.6 MHz",
+            "B. 5.69 MHz",
+            "C. 18 MHz",
+            "D. 7.2 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "Calculate the MUF for a circuit where the critical frequency is 8 MHz and the angle of incidence is 45 degrees:",
+        "choices": [
+            "A. 8.0 MHz",
+            "B. 11.31 MHz",
+            "C. 16.0 MHz",
+            "D. 5.66 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "If the Earth's radius is 6370 km, what is the effective earth radius when considering standard atmospheric refraction with a K-factor of 4/3?",
+        "choices": [
+            "A. 6370 km",
+            "B. 8493 km",
+            "C. 4777 km",
+            "D. 12740 km"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "Space wave propagation is limited primarily by the:",
+        "choices": [
+            "A. Ionosphere",
+            "B. Troposphere",
+            "C. Radio horizon",
+            "D. Ground conductivity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "In a sky wave path, if the virtual height of reflection is 200 km and the critical frequency is 5 MHz with an operating frequency of 10 MHz, what is the angle of incidence theta?",
+        "choices": [
+            "A. 30 degrees",
+            "B. 45 degrees",
+            "C. 60 degrees",
+            "D. 90 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "The refractive index n of the ionosphere is given approximately by n = sqrt(1 - 81N/f^2). If N = 10^12 and f = 10 MHz, calculate n:",
+        "choices": [
+            "A. 0.436",
+            "B. 0.810",
+            "C. 1.000",
+            "D. 0.190"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 43,
+        "question": "Diversity reception combining technique where the receiver dynamically selects the antenna branch with the highest instantaneous signal-to-noise ratio is called:",
+        "choices": [
+            "A. Equal-gain combining",
+            "B. Maximal-ratio combining",
+            "C. Selection combining",
+            "D. Frequency combining"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "Diversity combining technique where all receiver branch signals are added together in phase with equal weight is:",
+        "choices": [
+            "A. Selection combining",
+            "B. Equal-gain combining",
+            "C. Maximal-ratio combining",
+            "D. Switching diversity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "The optimal diversity combining technique that weights each incoming signal branch proportional to its signal voltage and inversely proportional to its noise power is:",
+        "choices": [
+            "A. Selection combining",
+            "B. Equal-gain combining",
+            "C. Maximal-ratio combining",
+            "D. Space diversity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "If the operating frequency of a sky wave link exceeds the Maximum Usable Frequency (MUF), what happens to the wave?",
+        "choices": [
+            "A. It is reflected back to the transmitter",
+            "B. It penetrates the ionosphere and escapes into space",
+            "C. It travels as a surface wave",
+            "D. It suffers extreme attenuation along the ground"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "The skip distance for a given ionospheric reflection increases when:",
+        "choices": [
+            "A. The operating frequency decreases",
+            "B. The operating frequency increases closer to the transmitter power limit",
+            "C. The operating frequency increases closer to the MUF",
+            "D. The antenna height is raised"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "A radio transmitter operates at 15 MHz with an angle of incidence of 30 degrees. What is the critical frequency of the layer supporting this transmission?",
+        "choices": [
+            "A. 15 MHz",
+            "B. 12.99 MHz",
+            "C. 17.32 MHz",
+            "D. 7.5 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "Calculate the maximum line-of-sight distance between two identical antennas of height 50 meters each, using d = 4.12(sqrt(h1) + sqrt(h2)) in kilometers:",
+        "choices": [
+            "A. 41.2 km",
+            "B. 58.3 km",
+            "C. 82.4 km",
+            "D. 29.1 km"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "Polarization fading occurs primarily when:",
+        "choices": [
+            "A. The transmitter power fluctuates",
+            "B. The receiving antenna orientation or the polarization of the incoming wave rotates dynamically along the propagation path",
+            "C. The frequency drifts",
+            "D. The earth's magnetic field stops"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "In sky wave propagation, high-frequency signals experience absorption that is inversely proportional to:",
+        "choices": [
+            "A. The square of the frequency",
+            "B. The frequency itself",
+            "C. The square root of frequency",
+            "D. The electron density"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "A vertically polarized wave traveling over a highly conductive seawater surface experiences:",
+        "choices": [
+            "A. Severe wave tilt and high attenuation",
+            "B. Minimal wave tilt and low ground attenuation compared to dry soil",
+            "C. Instantaneous reflection",
+            "D. Complete depolarization"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "The presence of the Earth's magnetic field splits an ionospheric wave into two components with different polarizations and velocities, a phenomenon known as:",
+        "choices": [
+            "A. Doppler shift",
+            "B. Magneto-ionic splitting",
+            "C. Faraday rotation",
+            "D. Tropospheric ducting"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "The lowest usable frequency (LUF) for a sky wave communication link is determined by:",
+        "choices": [
+            "A. Maximum electron density",
+            "B. Ionospheric absorption at lower frequencies and transmitter power limits",
+            "C. The skip distance limit",
+            "D. The critical frequency of the E layer only"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "If a signal is transmitted at a frequency below the LUF, the communication link fails primarily because of:",
+        "choices": [
+            "A. Severe ionospheric absorption",
+            "B. Complete penetration into space",
+            "C. Multipath cancellation",
+            "D. Excessive skip distance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "Calculate the skip distance for a flat earth approximation where virtual height h = 100 km, angle of incidence theta = 45 degrees, and reflection geometry gives D_s = 2h tan(theta):",
+        "choices": [
+            "A. 100 km",
+            "B. 200 km",
+            "C. 141 km",
+            "D. 300 km"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "A radar or radio link has a target at a line-of-sight distance of 40 km. What is the minimum single identical antenna height h required for both transmit and receive ends?",
+        "choices": [
+            "A. 15 meters",
+            "B. 23.6 meters",
+            "C. 50 meters",
+            "D. 10 meters"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "Space wave propagation is heavily affected by tropospheric conditions. Under standard atmospheric conditions, the effective earth radius multiplier (K-factor) accounts for:",
+        "choices": [
+            "A. Bending of waves away from the earth",
+            "B. Bending of waves toward the earth, effectively flattening the earth's apparent curvature",
+            "C. Complete absorption of VHF signals",
+            "D. Temperature inversions only"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "A wave is circularly polarized with the electric field vector rotating clockwise when viewed along the direction of propagation. This specific polarization is designated as:",
+        "choices": [
+            "A. Left-Hand Circular",
+            "B. Right-Hand Circular",
+            "C. Linear vertical",
+            "D. Elliptical horizontal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "The axial ratio of an elliptically polarized wave is defined as the ratio of:",
+        "choices": [
+            "A. The major axis to the minor axis of the polarization ellipse",
+            "B. Electric field to magnetic field intensity",
+            "C. Frequency to wavelength",
+            "D. Power to voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "For a circularly polarized wave, the axial ratio is equal to:",
+        "choices": [
+            "A. Infinity",
+            "B. Zero",
+            "C. 1 (or 0 dB)",
+            "D. 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "For a linearly polarized wave, the axial ratio is theoretically:",
+        "choices": [
+            "A. 1",
+            "B. Zero",
+            "C. Infinity",
+            "D. 0.5"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "The phenomenon of Faraday rotation experienced by satellite signals passing through the ionosphere involves:",
+        "choices": [
+            "A. The rotation of the plane of polarization of a linearly polarized wave due to the Earth's magnetic field",
+            "B. Frequency shifting",
+            "C. Amplitude fading",
+            "D. Phase inversion"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "In ground wave propagation, the ground behaves as a lossy dielectric. The tilt of the wavefront near the ground is caused by:",
+        "choices": [
+            "A. The slower propagation velocity of the lower edge of the wave front due to ground resistance and losses",
+            "B. High-altitude winds",
+            "C. Ionospheric refraction",
+            "D. Magnetic storms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "Ground wave coverage distance is significantly greater over oceans than over dry rocky terrain because seawater has:",
+        "choices": [
+            "A. Lower conductivity",
+            "B. Extremely high conductivity and high relative permittivity",
+            "C. Lower permittivity",
+            "D. Zero dielectric constant"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "If an antenna is mounted on a tower of height h and is used to communicate with a receiver at ground level, the maximum line-of-sight distance is calculated as:",
+        "choices": [
+            "A. d = 4.12 sqrt(h)",
+            "B. d = 2 * 4.12 sqrt(h)",
+            "C. d = 1.23 * h",
+            "D. d = sqrt(h)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 67,
+        "question": "The critical frequency of an ionospheric layer is directly measured using an instrument called an:",
+        "choices": [
+            "A. Spectrum analyzer",
+            "B. Ionosonde",
+            "C. Oscilloscope",
+            "D. Field strength meter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "Fading caused by rapid multi-path phase interference in mobile radio environments is commonly modeled statistically using:",
+        "choices": [
+            "A. Rayleigh distribution",
+            "B. Gaussian distribution",
+            "C. Poisson distribution",
+            "D. Binomial distribution"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "When a dominant line-of-sight path is present alongside multipath reflections in a fading mobile channel, the fading statistics are modeled using:",
+        "choices": [
+            "A. Rayleigh distribution",
+            "B. Rician distribution",
+            "C. Exponential distribution",
+            "D. Uniform distribution"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "In diversity reception, space diversity antenna separation for horizontally mounted antennas on a tower is typically recommended to be at least:",
+        "choices": [
+            "A. 10 wavelengths",
+            "B. 50 to 100 wavelengths",
+            "C. Exactly 1 wavelength",
+            "D. 0.5 wavelength"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "The maximum usable frequency (MUF) is always equal to the critical frequency:",
+        "choices": [
+            "A. True under all conditions",
+            "B. False, MUF is equal to the critical frequency divided by the cosine of the angle of incidence, making MUF always greater than or equal to the critical frequency",
+            "C. True when angle of incidence is zero",
+            "D. False, MUF is always lower than critical frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "A sky wave link has a critical frequency of 5 MHz and a virtual reflection height of 300 km. If the distance between transmitter and receiver is 800 km, calculate the angle of incidence and the MUF:",
+        "choices": [
+            "A. 5.0 MHz",
+            "B. 6.5 MHz",
+            "C. 8.33 MHz",
+            "D. 10.0 MHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "Evaluate the effect of solar flares on radio wave propagation:",
+        "choices": [
+            "A. They cause complete absorption of HF sky waves due to intense ionization of the D layer by X-rays, while improving VLF propagation",
+            "B. They enhance HF sky wave communication globally",
+            "C. They have zero effect on radio waves",
+            "D. They cause permanent destruction of the ionosphere"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "In space wave propagation, sub-refraction occurs when atmospheric conditions cause the K-factor to be less than 1. What is the practical operational consequence for VHF/UHF communications?",
+        "choices": [
+            "A. The effective radio horizon is extended significantly",
+            "B. The effective radio horizon is shortened, making the radio horizon closer than standard refraction",
+            "C. Frequencies above 30 MHz are reflected back to earth",
+            "D. Ducting is enhanced"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "Consider a multi-hop sky wave link operating via the F2 layer with a virtual height of 300 km and a ground distance of 2000 km in a single hop. If the angle of incidence has a secant value of 2.2, and the critical frequency is 7 MHz, calculate the operational MUF:",
+        "choices": [
+            "A. 7.0 MHz",
+            "B. 15.4 MHz",
+            "C. 14.0 MHz",
+            "D. 21.0 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "A microwave link experiences severe flat fading due to atmospheric ducting breakdown. Which diversity scheme is fundamentally incapable of improving this specific link's reliability if the fading is entirely flat across the entire channel bandwidth?",
+        "choices": [
+            "A. Space diversity",
+            "B. Frequency diversity",
+            "C. Polarization diversity",
+            "D. None of the above"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "Explain why circular polarization is heavily preferred over linear polarization for satellite communications passing through the ionosphere:",
+        "choices": [
+            "A. Circular polarization completely avoids signal loss and severe degradation caused by Faraday rotation of the polarization plane",
+            "B. Circular polarization travels faster than light",
+            "C. Linear polarization cannot penetrate the troposphere",
+            "D. Circular polarization eliminates free space path loss"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "A high-frequency radio signal is transmitted at a frequency well above the calculated Maximum Usable Frequency (MUF) but below the critical frequency. What happens?",
+        "choices": [
+            "A. It returns to earth normally",
+            "B. It penetrates the ionosphere because the angle of incidence does not provide sufficient secant factor to bend it back",
+            "C. It is absorbed entirely by the D layer",
+            "D. It travels as a surface wave"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "Calculate the critical frequency of an ionospheric layer given that the maximum electron density is 2.5 x 10^12 electrons/m^3:",
+        "choices": [
+            "A. 7.11 MHz",
+            "B. 14.23 MHz",
+            "C. 22.5 MHz",
+            "D. 4.5 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "In evaluating tropospheric scatter links, why are dual-diversity or quadruple-diversity receivers mandatory?",
+        "choices": [
+            "A. Because troposcatter signals suffer from deep, rapid signal fading caused by continuous phase interference of millions of randomly scattered wavelets",
+            "B. To increase transmitter power",
+            "C. To eliminate line-of-sight requirements",
+            "D. To reduce antenna size"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "An amateur radio operator attempts to communicate via sky wave using a frequency of 28 MHz. The local ionosonde reports a critical frequency of 7 MHz. What minimum secant of the angle of incidence is strictly required for this wave to be returned to earth?",
+        "choices": [
+            "A. 2.0",
+            "B. 4.0",
+            "C. 0.25",
+            "D. 1.0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "A transmission path has a skip distance of 500 km. If the operating frequency is increased closer to the MUF, what happens to the skip distance?",
+        "choices": [
+            "A. It decreases to zero",
+            "B. It increases significantly",
+            "C. It remains static",
+            "D. The signal disappears"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "Why does the D layer of the ionosphere disappear almost entirely shortly after sunset?",
+        "choices": [
+            "A. Because solar ultraviolet radiation ceases, causing rapid electron-ion recombination",
+            "B. Because the earth's magnetic field reverses",
+            "C. Because of severe tropospheric cooling",
+            "D. Because the F2 layer absorbs it"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "In space wave propagation, if an obstacle obstructs the line-of-sight path such that the clearance is less than 0.6 of the first Fresnel zone, the diffraction loss introduces signal attenuation that:",
+        "choices": [
+            "A. Approximates free space loss",
+            "B. Can be worse than a complete knife-edge obstruction due to phase cancellation",
+            "C. Completely amplifies the signal",
+            "D. Has zero effect"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "A mobile receiver moving through an urban multipath environment experiences a maximum Doppler shift of 150 Hz at 900 MHz. Calculate the velocity of the vehicle:",
+        "choices": [
+            "A. 50 m/s (180 km/h)",
+            "B. 25 m/s (90 km/h)",
+            "C. 100 m/s (360 km/h)",
+            "D. 10 m/s (36 km/h)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Evaluate the statement: \"The Optimum Working Frequency (OWF) is chosen below the MUF to ensure that minor, unpredictable fluctuations in ionospheric electron density do not cause the signal frequency to exceed the MUF.\" Is this statement valid?",
+        "choices": [
+            "A. False",
+            "B. True",
+            "C. False, OWF should always be above MUF",
+            "D. True, but only at night"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "If an electromagnetic wave is elliptically polarized with the electric field vector rotating counter-clockwise, and its phase difference between orthogonal components is 45 degrees with unequal amplitudes, how is it classified?",
+        "choices": [
+            "A. Left-Hand Elliptical Polarization",
+            "B. Right-Hand Circular Polarization",
+            "C. Linear Polarization",
+            "D. Pure Transverse Magnetic Wave"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "Consider two antennas of heights h1 = 25 meters and h2 = 81 meters. Calculate the maximum line-of-sight distance in kilometers:",
+        "choices": [
+            "A. 41.2 km",
+            "B. 57.7 km",
+            "C. 65.2 km",
+            "D. 35.4 km"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "In ionospheric sounding, if a sweep frequency radar observes a sharp cutoff frequency above which no echoes return from any layer, that frequency represents:",
+        "choices": [
+            "A. The LUF",
+            "B. The Critical Frequency of the highest ionization layer (F2)",
+            "C. The MUF for a 3000 km path",
+            "D. The gyro frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "Super-refraction in the troposphere occurs when the refractive index decreases rapidly with height. This can lead to:",
+        "choices": [
+            "A. Complete signal blockage",
+            "B. Ducting of VHF/UHF waves over extended horizons",
+            "C. Massive ionospheric absorption",
+            "D. Ground wave tilt cancellation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "A sky wave is transmitted at an angle of incidence of 60 degrees. If the MUF for this path is 20 MHz, what is the critical frequency of the layer?",
+        "choices": [
+            "A. 10 MHz",
+            "B. 20 MHz",
+            "C. 40 MHz",
+            "D. 5 MHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "In diversity combining, Selection Combining results in an output signal-to-noise ratio that is:",
+        "choices": [
+            "A. Equal to the sum of all branch SNRs",
+            "B. Equal to the SNR of the single best active branch at any instant",
+            "C. Lower than any individual branch",
+            "D. Exactly zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "Maximal-Ratio Combining is mathematically proven to achieve the optimum output signal-to-noise ratio because it weights each branch signal:",
+        "choices": [
+            "A. Equally",
+            "B. Proportional to its signal voltage and inversely proportional to its noise power variance",
+            "C. Randomly",
+            "D. Inversely to its signal strength"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "The skip zone is bounded on the inner side by the limit of reliable ground wave propagation and on the outer side by:",
+        "choices": [
+            "A. The radio horizon",
+            "B. The point where the first sky wave returns to earth",
+            "C. The maximum usable frequency limit",
+            "D. The magnetic equator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "If the operating frequency of a shortwave radio link is set equal to the Lowest Usable Frequency (LUF), it means that:",
+        "choices": [
+            "A. Ionospheric absorption has made signal strength drop to the minimum acceptable threshold for intelligible reception",
+            "B. The signal will escape into space",
+            "C. The skip distance is zero",
+            "D. Multipath fading is completely eliminated"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 96,
+        "question": "A vertically polarized ground wave propagating over land induces currents in the earth, causing wave tilt. As frequency increases, ground attenuation:",
+        "choices": [
+            "A. Decreases",
+            "B. Increases rapidly",
+            "C. Remains constant",
+            "D. Reaches zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "In a radar or communication system, if the ducting layer acts as a natural waveguide, frequencies that can be successfully trapped must be:",
+        "choices": [
+            "A. Below the cutoff frequency of the duct",
+            "B. Above a certain minimum cutoff frequency determined by the duct thickness and refractive index profile",
+            "C. Exactly equal to the critical frequency",
+            "D. Restricted strictly to the HF band"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "A high-frequency communication circuit has a skip distance of 800 km. If the transmitter power is increased by a factor of 10, what happens to the skip distance?",
+        "choices": [
+            "A. It increases by 10 times",
+            "B. It decreases by a factor of 10",
+            "C. It remains unchanged",
+            "D. It drops to zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "Evaluate the following statement regarding ionospheric absorption: \"Ionospheric absorption is maximum at night in the F2 layer.\" Is this statement accurate?",
+        "choices": [
+            "A. Accurate",
+            "B. Inaccurate, absorption is primarily concentrated during daytime in the lower D layer where collision frequency is high",
+            "C. Accurate for VHF signals only",
+            "D. Accurate during solar eclipses"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 100,
+        "question": "In designing a space wave link over a smooth spherical earth, the presence of the ground-reflected wave can cause severe signal cancellation if the direct and reflected waves arrive with a phase difference of:",
+        "choices": [
+            "A. 0 degrees",
+            "B. 90 degrees",
+            "C. 180 degrees (anti-phase)",
+            "D. 360 degrees"
+        ],
+        "correct_answer": "C"
+    }
+]

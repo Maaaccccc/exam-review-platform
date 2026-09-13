@@ -1,0 +1,1036 @@
+[
+    {
+        "number": 1,
+        "question": "In information theory, the formal measure of the average uncertainty or information content per message from a discrete memoryless source is called:",
+        "choices": [
+            "A. Bandwidth efficiency",
+            "B. Entropy",
+            "C. Mutual information",
+            "D. Redundancy"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "According to Shannon's Source Coding Theorem, the average number of bits per symbol achieved by any source coding scheme can be made arbitrarily close to, but can never be strictly less than:",
+        "choices": [
+            "A. The channel capacity",
+            "B. The source entropy",
+            "C. The bit rate",
+            "D. The signal-to-noise ratio"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "The Shannon-Hartley theorem expresses the absolute maximum data rate (channel capacity) of a continuous communication channel of bandwidth B subjected to Additive White Gaussian Noise as:",
+        "choices": [
+            "A. C = B log2(1 + S/N)",
+            "B. C = 2B log2(M)",
+            "C. C = B ln(S/N)",
+            "D. C = B log10(1 + S/N)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 4,
+        "question": "Huffman coding is classified as an optimal prefix-free code because no codeword can be:",
+        "choices": [
+            "A. Longer than 8 bits",
+            "B. Shorter than 2 bits",
+            "C. A prefix of any other codeword",
+            "D. Used in error-correcting channels"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 5,
+        "question": "Bandwidth efficiency is formally measured and expressed in units of:",
+        "choices": [
+            "A. Decibels",
+            "B. Watts per Hertz",
+            "C. Bits per second per Hertz (bps/Hz)",
+            "D. Joules per bit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "When a Binary Symmetric Channel has a bit error probability p = 0, its channel capacity for binary input symbols is:",
+        "choices": [
+            "A. 0 bits/symbol",
+            "B. 1 bit/symbol",
+            "C. 2 bits/symbol",
+            "D. 0.5 bit/symbol"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "An error condition in a digital communication channel where only a single binary bit in a given data unit (such as a byte or block) is altered is formally known as a:",
+        "choices": [
+            "A. Burst error",
+            "B. Single-bit error",
+            "C. Parity error",
+            "D. Quantization error"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "An error condition where two or more bits in a data sequence are corrupted during transmission is referred to as a:",
+        "choices": [
+            "A. Single-bit error",
+            "B. Parity error",
+            "C. Burst error",
+            "D. Quantization error"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 9,
+        "question": "In data communications over physical channels, burst errors are statistically much more difficult to handle than single-bit errors primarily because:",
+        "choices": [
+            "A. They affect a contiguous span of multiple bits, destroying large blocks of data",
+            "B. They only occur at high frequencies",
+            "C. They cannot be detected by checksums",
+            "D. They eliminate the need for parity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "The simplest error detection method that appends a single redundant bit to a data block to make the total number of 1s either always even or always odd is called a:",
+        "choices": [
+            "A. Checksum",
+            "B. Cyclic redundancy check",
+            "C. Parity check",
+            "D. Hamming code"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "In an even parity checking scheme, if a data byte contains an odd number of 1s, the parity bit is set to:",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. -1",
+            "D. Indeterminate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "A major limitation of a simple single-bit parity check is its complete inability to detect:",
+        "choices": [
+            "A. Single-bit errors",
+            "B. Any odd number of bit errors",
+            "C. Any even number of bit errors",
+            "D. No errors at all"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 13,
+        "question": "An error detection technique that calculates an arithmetic sum or modulo-2 sum of the data words and appends the resulting value to the end of the packet is known as a:",
+        "choices": [
+            "A. Checksum",
+            "B. Hamming code",
+            "C. Convolutional code",
+            "D. Reed-Solomon code"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Cyclic Redundancy Check (CRC) error detection is fundamentally based on mathematical division operating within:",
+        "choices": [
+            "A. Real number calculus",
+            "B. Complex number arithmetic",
+            "C. Modulo-2 arithmetic (binary polynomial division)",
+            "D. Floating-point matrix algebra"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "In a standard CRC error detection scheme, the transmitted bit stream is treated mathematically as a polynomial, and it is divided by a predefined binary divisor polynomial known as the:",
+        "choices": [
+            "A. Generator polynomial",
+            "B. Parity matrix",
+            "C. Weight polynomial",
+            "D. Codeword vector"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 16,
+        "question": "If a CRC generator polynomial has a degree of k, the resulting CRC checksum appended to the data frame will consist of exactly how many bits?",
+        "choices": [
+            "A. k - 1 bits",
+            "B. k bits",
+            "C. 2k bits",
+            "D. k + 1 bits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 17,
+        "question": "Cyclic Redundancy Check (CRC) codes are exceptionally powerful in data networks because they can reliably detect all burst errors of length equal to or less than:",
+        "choices": [
+            "A. The total block length",
+            "B. The degree of the generator polynomial (k)",
+            "C. Half the block length",
+            "D. One single bit"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "Forward Error Correction (FEC) differs fundamentally from error detection with ARQ (Automatic Repeat Request) because FEC:",
+        "choices": [
+            "A. Requires a return communication channel",
+            "B. Enables the receiver to automatically detect and correct errors without retransmission",
+            "C. Only works on analog signals",
+            "D. Eliminates the need for parity bits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "The Hamming Distance between two valid code words is formally defined as:",
+        "choices": [
+            "A. The number of bits by which the two code words differ (determined via XOR)",
+            "B. The physical distance between transmitting antennas",
+            "C. The mathematical ratio of data rate to baud rate",
+            "D. The time delay between transmitted pulses"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 20,
+        "question": "To guarantee the detection of up to e bit errors in a block coding scheme, the minimum Hamming distance (d_min) of the code must be at least:",
+        "choices": [
+            "A. e",
+            "B. e + 1",
+            "C. 2e",
+            "D. e / 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "To guarantee the successful correction of up to t bit errors in a block coding scheme, the minimum Hamming distance (d_min) of the code must satisfy the strict mathematical inequality:",
+        "choices": [
+            "A. d_min ≥ t + 1",
+            "B. d_min ≥ 2t + 1",
+            "C. d_min ≥ t",
+            "D. d_min ≥ 3t"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "What is the minimum Hamming distance of a linear block code capable of simultaneously detecting up to 3 errors (e=3) and correcting up to 1 error (t=1)?",
+        "choices": [
+            "A. 3",
+            "B. 4",
+            "C. 5",
+            "D. 7"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "A systematic linear block code is specifically structured such that each codeword consists of:",
+        "choices": [
+            "A. Parity bits only",
+            "B. Information bits followed immediately by the parity bits (or vice-versa)",
+            "C. Alternating data and parity bits",
+            "D. Randomly scrambled bits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "For an (n, k) linear block code, the parameter n represents the total length of the codeword, while k represents the:",
+        "choices": [
+            "A. Number of parity bits",
+            "B. Number of data information bits",
+            "C. Hamming distance",
+            "D. Constraint length"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "In a valid (7, 4) Hamming code, how many redundant parity bits are appended to every 4-bit data block?",
+        "choices": [
+            "A. 3",
+            "B. 4",
+            "C. 7",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "What is the exact minimum Hamming distance (d_min) of a standard (7, 4) Hamming code designed for single-bit error correction?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "A (7, 4) Hamming code is capable of correcting how many single-bit errors per block?",
+        "choices": [
+            "A. Up to 2 errors",
+            "B. Up to 3 errors",
+            "C. Exactly 1 error",
+            "D. Up to 4 errors"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "In Hamming code decoding, the calculated vector resulting from multiplying the received word by the parity check matrix is called the:",
+        "choices": [
+            "A. Generator vector",
+            "B. Syndrome",
+            "C. Codeword index",
+            "D. Weight vector"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "If the calculated syndrome vector during Hamming decoding evaluates to all zeros (000), it indicates that:",
+        "choices": [
+            "A. A severe burst error has occurred",
+            "B. The received codeword contains a single uncorrectable error",
+            "C. The received codeword is entirely free of detectable errors",
+            "D. The generator polynomial is invalid"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 30,
+        "question": "Convolutional codes are classified as continuous coding schemes where the parity bits are generated by passing the data stream through a:",
+        "choices": [
+            "A. Block interleaver",
+            "B. Shift register combined with modulo-2 adders",
+            "C. Feedback shift register with non-linear multipliers",
+            "D. Low-pass filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "The \"constraint length\" (K) of a convolutional code explicitly defines:",
+        "choices": [
+            "A. The total number of bits in a single transmission block",
+            "B. The number of shift register stages (memory) involved in generating the output bits",
+            "C. The maximum burst error length correctable",
+            "D. The number of parity bits per symbol"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "Reed-Solomon (RS) codes are a specialized subset of non-binary linear block codes that operate on blocks of multiple bits (symbols) rather than individual bits. They are exceptionally powerful for correcting:",
+        "choices": [
+            "A. Single-bit errors exclusively",
+            "B. Random thermal noise errors",
+            "C. Severe burst errors",
+            "D. Phase jitter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "A standard Reed-Solomon RS(n, k) code operating over Galois Field GF(2^m) takes symbols of size m bits and encodes k data symbols into a total codeword of n symbols. How many redundant parity symbols are appended?",
+        "choices": [
+            "A. n - k",
+            "B. n + k",
+            "C. k",
+            "D. n"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Turbo Codes, invented in 1993, achieve near-Shannon-limit error performance by utilizing parallel concatenated convolutional codes separated by a:",
+        "choices": [
+            "A. Low-pass filter",
+            "B. Pseudorandom interleaver",
+            "C. Feedback loop",
+            "D. Multi-level compander"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "The optimal decoding algorithm universally utilized to decode convolutional codes by finding the most likely transmitted sequence through a trellis diagram is the:",
+        "choices": [
+            "A. Viterbi algorithm",
+            "B. Huffman decoding algorithm",
+            "C. Euclidean distance search",
+            "D. Fast Fourier transform"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 36,
+        "question": "In Viterbi decoding, the primary metric calculated at each trellis node to compare incoming paths against the received signal sequence is the:",
+        "choices": [
+            "A. Hamming distance or Euclidean distance (branch metric / path metric)",
+            "B. Carrier phase error",
+            "C. Signal-to-noise ratio",
+            "D. Parity check matrix determinant"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "What is the primary operational advantage of convolutional codes decoded via the Viterbi algorithm over standard block codes in continuous data streaming applications?",
+        "choices": [
+            "A. They require zero memory",
+            "B. They provide superior bit error rate performance at low signal-to-noise ratios with continuous data streams",
+            "C. They eliminate the need for clock synchronization",
+            "D. They operate exclusively without parity bits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "In designing a linear block code, if the generator matrix G is in standard systematic form G = [I_k \\vert P], what does the sub-matrix P represent?",
+        "choices": [
+            "A. The identity matrix",
+            "B. The parity generation matrix",
+            "C. The syndrome lookup table",
+            "D. The received error vector"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "A linear block code has a generator matrix G of dimensions 4 × 7. What are the dimensions of its corresponding parity check matrix H?",
+        "choices": [
+            "A. 4 × 7",
+            "B. 3 × 4",
+            "C. 3 × 7",
+            "D. 7 × 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "For a linear block code, the minimum Hamming distance is equal to the minimum weight of any non-zero:",
+        "choices": [
+            "A. Codeword",
+            "B. Syndrome vector",
+            "C. Generator matrix row",
+            "D. Parity check matrix column"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "If a linear block code has a minimum Hamming distance d_min = 7, what is the maximum number of guaranteed random errors (t) this code can correct?",
+        "choices": [
+            "A. 7",
+            "B. 3",
+            "C. 6",
+            "D. 14"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "What is the absolute maximum number of errors (e) that a linear block code with d_min = 7 can reliably detect without correction?",
+        "choices": [
+            "A. 3",
+            "B. 6",
+            "C. 7",
+            "D. 8"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "In a Cyclic Redundancy Check (CRC-16) standard, the generator polynomial degree is 16. What is the total length of the remainder shift register required in hardware to calculate the CRC?",
+        "choices": [
+            "A. 8 bits",
+            "B. 16 bits",
+            "C. 32 bits",
+            "D. 64 bits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "Which of the following CRC polynomials is universally known as CRC-CCITT and is widely used in data communications?",
+        "choices": [
+            "A. x^4 + x + 1",
+            "B. x^16 + x^12 + x^5 + 1",
+            "C. x^32 + x^26 + x^23 + ... + 1",
+            "D. x^8 + x^2 + x + 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "An ARQ (Automatic Repeat Request) error control system that continuously transmits data blocks without stopping, and only retransmits the specific erroneous block when a negative acknowledgment (NACK) is received, is called:",
+        "choices": [
+            "A. Stop-and-Wait ARQ",
+            "B. Go-Back-N ARQ",
+            "C. Selective-Repeat ARQ",
+            "D. Continuous Parity ARQ"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "In Go-Back-N ARQ error control, if a single data block is corrupted and detected as erroneous at the receiver, the transmitter must:",
+        "choices": [
+            "A. Retransmit only that specific corrupted block",
+            "B. Retransmit that block and all subsequent blocks sent in the window",
+            "C. Stop all transmission permanently",
+            "D. Ignore the error and proceed"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "Reed-Solomon codes are famously and heavily deployed in deep-space probes, compact discs (CDs), and QR codes primarily because they are extremely efficient at correcting:",
+        "choices": [
+            "A. High-frequency noise",
+            "B. Burst errors caused by scratches or atmospheric fades",
+            "C. Phase ambiguity",
+            "D. Carrier frequency drift"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "A Reed-Solomon code denoted as RS(255, 223) operates over 8-bit symbols (m=8). How many total symbol errors can this specific code correct in a single codeword?",
+        "choices": [
+            "A. 8 symbols",
+            "B. 16 symbols",
+            "C. 32 symbols",
+            "D. 223 symbols"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "In Turbo Codes, the iterative decoding process passing soft information back and forth between two constituent decoders is commonly referred to as:",
+        "choices": [
+            "A. Hard-decision slicing",
+            "B. Viterbi tracing",
+            "C. Turbo decoding (or Extrinsic information transfer)",
+            "D. Syndrome scaling"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "The \"soft-decision\" decoding approach utilized in advanced FEC decoders (like Viterbi and Turbo decoders) differs from \"hard-decision\" decoding because soft-decision decoding:",
+        "choices": [
+            "A. Retains multi-bit quantized confidence information about the received voltage levels, yielding a 2 dB coding gain",
+            "B. Ignores noise completely",
+            "C. Uses simple parity checks",
+            "D. Operates only on analog signals"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "In a convolutional code described by rate 1/2, for every 1 data input bit entering the encoder, exactly how many output encoded symbols are generated?",
+        "choices": [
+            "A. 1 symbol",
+            "B. 2 symbols",
+            "C. 4 symbols",
+            "D. 0.5 symbol"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "The constraint length K=3 convolutional encoder has 2 shift register memory elements. How many total states does the encoder's finite state machine possess?",
+        "choices": [
+            "A. 2 states",
+            "B. 4 states",
+            "C. 8 states",
+            "D. 16 states"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "In a trellis diagram used for Viterbi decoding, each transition between states corresponds to a specific:",
+        "choices": [
+            "A. Branch metric",
+            "B. Codeword output branch",
+            "C. Syndrome vector",
+            "D. Parity check row"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "Truncated path history in a practical hardware Viterbi decoder means that the decoder does not trace back through the entire trellis to the beginning of time, but instead limits the traceback depth to approximately:",
+        "choices": [
+            "A. 1 to 2 bits",
+            "B. 5 to 10 bits",
+            "C. 4 to 5 times the constraint length (5K to 6K)",
+            "D. Exactly 1000 bits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "A linear block code has k=4 message bits and n=7 total codeword bits. How many total valid codewords exist in this codebook?",
+        "choices": [
+            "A. 7",
+            "B. 14",
+            "C. 16",
+            "D. 128"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "The Hamming weight of a binary codeword vector is defined as:",
+        "choices": [
+            "A. The total number of 1s present in the vector",
+            "B. The total number of 0s present in the vector",
+            "C. The length of the vector",
+            "D. The parity sum"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 57,
+        "question": "If two binary code vectors V_1 = 10110 and V_2 = 11010 are compared, what is the Hamming distance between them?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "Which of the following error detection methods is computationally the simplest to implement in hardware using basic shift registers and XOR gates?",
+        "choices": [
+            "A. Reed-Solomon Code",
+            "B. Checksum",
+            "C. Cyclic Redundancy Check (CRC)",
+            "D. Hamming Code"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "Internet Checksum (used in IP, TCP, and UDP headers) is calculated using 16-bit words and arithmetic based on:",
+        "choices": [
+            "A. Modulo-2 polynomial division",
+            "B. 1's complement addition (or 2's complement sum with wrap around)",
+            "C. Galois field multiplication",
+            "D. Hamming matrix algebra"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "In a Hamming code designed to correct single-bit errors, if the data block size is k, the minimum number of parity bits (p) required must satisfy the famous Hamming inequality:",
+        "choices": [
+            "A. 2^p ≥ k + p + 1",
+            "B. p ≥ k^2",
+            "C. 2^k ≥ p + 1",
+            "D. p = k - 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "What is the minimum number of parity bits required for a Hamming code to encode an 11-bit data message (k=11)?",
+        "choices": [
+            "A. 3 bits",
+            "B. 4 bits",
+            "C. 5 bits",
+            "D. 6 bits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "For the 11-bit data message from the previous question (k=11, p=4), what is the total codeword length n?",
+        "choices": [
+            "A. 11 bits",
+            "B. 12 bits",
+            "C. 15 bits",
+            "D. 16 bits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "In a systematic block code, if the parity check matrix H is structured as H = [P^T \\vert I_n-k], what does I_n-k represent?",
+        "choices": [
+            "A. The identity matrix of dimension (n-k)",
+            "B. The data message matrix",
+            "C. The generator matrix",
+            "D. The transpose error vector"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "The dual code of a linear block code defined by parity check matrix H has H acting as its:",
+        "choices": [
+            "A. Parity check matrix",
+            "B. Generator matrix G",
+            "C. Syndrome calculator",
+            "D. Error correction mask"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "If the minimum Hamming distance of a linear block code is d_min = 5, what is the exact error-detecting capability (e) of this code?",
+        "choices": [
+            "A. 2",
+            "B. 4",
+            "C. 5",
+            "D. 10"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "Can a linear block code with d_min = 5 correct 2 errors (t=2)? And can it correct 3 errors (t=3)?",
+        "choices": [
+            "A. Yes to both 2 and 3 errors",
+            "B. Yes for 2 errors (t=2), but No for 3 errors",
+            "C. No for 2 errors, but Yes for 3 errors",
+            "D. No for both"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "In convolutional encoding, a rate 3/4 encoder means that for every 3 input data bits, the encoder outputs:",
+        "choices": [
+            "A. 3 encoded symbols",
+            "B. 4 encoded symbols",
+            "C. 7 encoded symbols",
+            "D. 12 encoded symbols"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "Convolutional encoders are classified as either systematic or non-systematic. A systematic convolutional encoder is one where:",
+        "choices": [
+            "A. The output contains the exact original input data bits alongside the parity bits",
+            "B. The output contains only parity bits",
+            "C. The shift registers are bypassed entirely",
+            "D. The code has zero memory"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "What is the primary function of an interleaver in a communication system employing convolutional or turbo codes?",
+        "choices": [
+            "A. To compress the data",
+            "B. To spread burst errors out in time so they appear as independent random errors to the FEC decoder",
+            "C. To encrypt the data stream for security",
+            "D. To synchronize the carrier frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "At the receiver, the component placed immediately before the FEC decoder to reverse the bit scrambling performed by the channel interleaver is called a:",
+        "choices": [
+            "A. De-interleaver",
+            "B. Slicer",
+            "C. Demodulator",
+            "D. Equalizer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "Which advanced error-correction coding scheme heavily utilizes large sparse parity-check matrices and graph-based message-passing (belief propagation) decoding algorithms to approach the Shannon capacity limit?",
+        "choices": [
+            "A. Hamming codes",
+            "B. Low-Density Parity-Check (LDPC) codes",
+            "C. Simple Parity checks",
+            "D. Single-bit checksums"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "LDPC (Low-Density Parity-Check) codes are prominently featured in modern communications standards such as 5G NR, Wi-Fi (802.11n/ac), and DVB-S2 primarily because of their:",
+        "choices": [
+            "A. High complexity decoding",
+            "B. Excellent near-capacity performance and massively parallelizable decoding architecture",
+            "C. Inability to handle burst errors",
+            "D. Requirement for analog companding"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "In a standard Binary Symmetric Channel with crossover probability p, the probability of a single-bit error is p. If a packet consists of N bits, what is the exact probability that the entire packet is received completely free of any errors?",
+        "choices": [
+            "A. 1 - p^N",
+            "B. (1 - p)^N",
+            "C. N(1 - p)",
+            "D. p^N"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "If a packet consists of 1000 bits (N=1000) and the channel bit error rate is p = 10^-4, calculate the approximate probability that the packet contains zero errors (using (1-p)^N ≈ 1 - Np for small p).",
+        "choices": [
+            "A. 0.90",
+            "B. 0.99",
+            "C. 0.50",
+            "D. 0.01"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "What is the primary operational penalty paid when implementing Forward Error Correction (FEC) codes in a digital communication link?",
+        "choices": [
+            "A. Loss of carrier lock",
+            "B. Expansion of transmission bandwidth or increase in required symbol rate due to redundant parity bits",
+            "C. Complete elimination of channel noise",
+            "D. Massive increase in thermal noise temperature"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "The ratio of message bits to total transmitted bits (k/n) in a block coding scheme is formally and universally known as the:",
+        "choices": [
+            "A. Coding gain",
+            "B. Code rate",
+            "C. Modulation index",
+            "D. Spectral efficiency ratio"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "If a block code has a code rate of 0.8 and the system transmits raw data at 80 Mbps, what is the total aggregate channel bit rate including parity?",
+        "choices": [
+            "A. 64 Mbps",
+            "B. 80 Mbps",
+            "C. 100 Mbps",
+            "D. 160 Mbps"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "In evaluating block code performance, the \"Hamming Bound\" (or sphere-packing bound) establishes a strict theoretical upper limit on the:",
+        "choices": [
+            "A. Maximum possible number of parity bits for a given block length and error-correcting capability",
+            "B. Channel capacity in an AWGN channel",
+            "C. Minimum frequency separation in FSK",
+            "D. Maximum transmission distance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "A linear block code that achieves the absolute equality limit of the Hamming Bound is given a special classification in coding theory as a:",
+        "choices": [
+            "A. Systematic code",
+            "B. Perfect code",
+            "C. Convolutional code",
+            "D. Cyclic code"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "Which of the following classical linear block codes is a well-known example of a \"Perfect Code\"?",
+        "choices": [
+            "A. (7, 4) Hamming code",
+            "B. (8, 4) Block code",
+            "C. (15, 11) Reed-Solomon code",
+            "D. Standard parity check"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "In Viterbi decoding of convolutional codes, the \"Free Distance\" (d_f) of the convolutional code plays the exact same fundamental role as d_min does for:",
+        "choices": [
+            "A. Block codes (determining error correction capability)",
+            "B. Source entropy calculations",
+            "C. Carrier recovery loops",
+            "D. Quantization step sizes"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "When comparing hard-decision Viterbi decoding to soft-decision Viterbi decoding, soft-decision decoding typically provides a coding gain advantage of approximately:",
+        "choices": [
+            "A. 0.5 dB",
+            "B. 2 dB to 3 dB",
+            "C. 6 dB",
+            "D. 10 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "In Automatic Repeat Request (ARQ) error control protocols, the term \"piggybacking\" refers to the efficient technique of:",
+        "choices": [
+            "A. Combining parity bits directly with data bits",
+            "B. Attaching acknowledgment (ACK/NACK) control information onto outgoing data frames traveling in the reverse direction",
+            "C. Multiplexing voice and video channels",
+            "D. Using multiple antennas for diversity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "A Block Interleaver operates by writing incoming encoded data rows-wise into a memory matrix of size R × C and reading the data out:",
+        "choices": [
+            "A. Row-wise",
+            "B. Column-wise",
+            "C. Randomly",
+            "D. Diagonally"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "If a burst error corrupts 5 consecutive symbols in the transmission channel, and a Block Interleaver of depth R=10 is used, how will those 5 errors appear to the FEC decoder after de-interleaving?",
+        "choices": [
+            "A. As a single massive burst of 50 errors",
+            "B. As 5 isolated, single-symbol errors separated by clean data",
+            "C. They will completely disappear",
+            "D. As a continuous block of 5 errors"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "In CRC error detection hardware, the division operation is physically realized using a feedback shift register containing XOR gates positioned precisely at the tap locations dictated by the:",
+        "choices": [
+            "A. Parity check matrix",
+            "B. Generator polynomial coefficients",
+            "C. Hamming distance",
+            "D. Code rate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "If a received codeword R differs from a transmitted codeword V such that the error vector E = R \\oplus V contains non-zero entries, the syndrome calculation depends:",
+        "choices": [
+            "A. Entirely on the error vector E and is independent of the transmitted codeword V",
+            "B. Entirely on the transmitted codeword V",
+            "C. On the channel noise temperature",
+            "D. On the carrier frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "In the analysis of linear block codes, every valid codeword V satisfies the fundamental matrix equation:",
+        "choices": [
+            "A. V · H^T = 0",
+            "B. V · G = 0",
+            "C. H · G = 1",
+            "D. V · P = I"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "The row space of the generator matrix G and the row space of the parity check matrix H in a linear block code are:",
+        "choices": [
+            "A. Orthogonal complements of each other",
+            "B. Identical",
+            "C. Parallel vectors",
+            "D. Linearly dependent"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "What is the primary reason why Reed-Solomon codes are non-binary?",
+        "choices": [
+            "A. They operate on symbols composed of multiple bits grouped together, making them exceptionally efficient against symbol-level burst errors",
+            "B. They cannot be processed by digital computers",
+            "C. They use analog waveforms",
+            "D. They require zero parity bits"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "In a convolutional encoder with a constraint length K=7 (commonly used in legacy deep-space and satellite standards like CCSDS), how many shift register memory stages are active?",
+        "choices": [
+            "A. 7 stages",
+            "B. 6 stages",
+            "C. 14 stages",
+            "D. 49 stages"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "The Viterbi decoder complexity scales exponentially with which encoder parameter?",
+        "choices": [
+            "A. The code rate",
+            "B. The constraint length (K)",
+            "C. The block length n",
+            "D. The number of message bits k"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "Which error-control strategy is strictly preferred for real-time, ultra-low-latency two-way voice communications (like cellular phone calls) where retransmissions (ARQ) introduce unacceptable audible delays?",
+        "choices": [
+            "A. Stop-and-Wait ARQ",
+            "B. Selective-Repeat ARQ",
+            "C. Forward Error Correction (FEC) alone",
+            "D. Go-Back-N ARQ"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "In digital storage systems (like hard disk drives and solid-state memory), data corruption over time due to magnetic degradation or charge leakage is heavily protected using powerful error correction codes, predominantly:",
+        "choices": [
+            "A. Simple parity checks",
+            "B. Checksums",
+            "C. Reed-Solomon and LDPC codes",
+            "D. Hamming single-bit codes"
+        ],
+        "correct_answer": "C"
+    }
+]

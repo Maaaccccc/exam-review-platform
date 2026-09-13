@@ -1,0 +1,992 @@
+[
+    {
+        "number": 1,
+        "question": "The multiplexing technique that physically separates multiple user signals by assigning each a distinct, non-overlapping frequency band is called:",
+        "choices": [
+            "A. Time Division Multiplexing",
+            "B. Code Division Multiplexing",
+            "C. Frequency Division Multiplexing",
+            "D. Wavelength Division Multiplexing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "In a CDMA system, what specific mathematical property must a set of spreading codes possess to ensure zero cross-talk between users?",
+        "choices": [
+            "A. Linearity",
+            "B. Orthogonality",
+            "C. Exponential decay",
+            "D. Symmetry"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Which multiple access technique is standardly employed by modern 4G LTE and 5G New Radio (NR) systems for their downlink and uplink physical data channels?",
+        "choices": [
+            "A. FDMA",
+            "B. TDMA",
+            "C. CDMA",
+            "D. OFDMA"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "In Asynchronous TDM, if the input data lines temporarily exceed the capacity of the output trunk, the system enters a condition known as:",
+        "choices": [
+            "A. Synchronization loss",
+            "B. Buffer overflow (congestion)",
+            "C. Slope overload",
+            "D. Multiplexing resonance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "What is the exact physical medium through which WDM and DWDM multiplexed signals propagate?",
+        "choices": [
+            "A. Coaxial copper cable",
+            "B. Twisted-pair wire",
+            "C. Optical fiber",
+            "D. Free-space waveguide"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "Which transmission line type consists of a single central conductor surrounded by a dielectric insulator and an outer metallic braid or shield?",
+        "choices": [
+            "A. Two-wire open line",
+            "B. Coaxial cable",
+            "C. Microstrip line",
+            "D. Stripline"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "The characteristic impedance (Z_0) of a completely lossless transmission line is mathematically expressed in terms of its primary distributed parameters per unit length as:",
+        "choices": [
+            "A. √( R/G )",
+            "B. √( L/C )",
+            "C. √( LC )",
+            "D. √( RC/LG )"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "What is the standard nominal characteristic impedance of a typical coaxial cable utilized extensively in cable television (CATV) and RF distribution systems?",
+        "choices": [
+            "A. 50 ohms",
+            "B. 75 ohms",
+            "C. 300 ohms",
+            "D. 600 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "What is the standard nominal characteristic impedance typically specified for coaxial cables used in radio frequency (RF) laboratory equipment and two-way radio systems?",
+        "choices": [
+            "A. 75 ohms",
+            "B. 300 ohms",
+            "C. 50 ohms",
+            "D. 600 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "The distributed parameter representing the opposition to current flow in the conductors of a transmission line per unit length is:",
+        "choices": [
+            "A. Inductance (L)",
+            "B. Capacitance (C)",
+            "C. Resistance (R)",
+            "D. Conductance (G)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "The distributed parameter representing the leakage current through the dielectric insulator between the conductors of a transmission line per unit length is:",
+        "choices": [
+            "A. Resistance (R)",
+            "B. Conductance (G)",
+            "C. Inductance (L)",
+            "D. Capacitance (C)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "Which of the following printed transmission line structures consists of a single conductive strip separated from a single ground plane by a dielectric substrate?",
+        "choices": [
+            "A. Stripline",
+            "B. Coaxial cable",
+            "C. Microstrip line",
+            "D. Two-wire line"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 13,
+        "question": "Which printed transmission line structure consists of a central conductive strip sandwiched symmetrically between two parallel ground planes within a dielectric substrate?",
+        "choices": [
+            "A. Microstrip line",
+            "B. Coaxial cable",
+            "C. Two-wire open line",
+            "D. Stripline"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "The velocity factor (VF) of a transmission line is strictly dependent on the:",
+        "choices": [
+            "A. Physical length of the line",
+            "B. Operating frequency",
+            "C. Relative permittivity (dielectric constant, ε_r) of the insulating material",
+            "D. Characteristic impedance (Z_0)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "If the relative dielectric constant (ε_r) of the solid polyethylene dielectric inside a coaxial cable is 2.25, what is the velocity factor of the line?",
+        "choices": [
+            "A. 0.50",
+            "B. 0.67",
+            "C. 0.75",
+            "D. 0.85"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "Calculate the velocity of propagation (v) of an electromagnetic wave along a transmission line whose velocity factor is 0.66 in a vacuum (c = 3 × 10^8 m/s).",
+        "choices": [
+            "A. 1.5 × 10^8 m/s",
+            "B. 2.0 × 10^8 m/s",
+            "C. 2.5 × 10^8 m/s",
+            "D. 3.0 × 10^8 m/s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 17,
+        "question": "The propagation constant (γ) of a transmission line is a complex quantity expressed mathematically as:",
+        "choices": [
+            "A. α + jβ",
+            "B. R + jω L",
+            "C. G + jω C",
+            "D. √( LC )"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "In the propagation constant γ = α + jβ, what physical property does the attenuation constant (α) quantify?",
+        "choices": [
+            "A. The phase shift per unit length",
+            "B. The reduction in signal amplitude per unit length as the wave travels down the line",
+            "C. The velocity of the wave",
+            "D. The characteristic impedance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "In the propagation constant γ = α + jβ, what physical property does the phase constant (β) quantify?",
+        "choices": [
+            "A. Signal amplitude loss",
+            "B. Rate of phase shift per unit length along the line",
+            "C. Dielectric breakdown limit",
+            "D. Characteristic impedance angle"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "The electrical length of a transmission line is fundamentally measured in terms of:",
+        "choices": [
+            "A. Ohms or decibels",
+            "B. Meters or feet",
+            "C. Degrees or radians (or fractions of a wavelength)",
+            "D. Hertz per second"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "A transmission line has a physical length of 1.5 meters and operates at a frequency where the wavelength (λ) on the line is 2.0 meters. What is its electrical length in degrees?",
+        "choices": [
+            "A. 180 degrees",
+            "B. 270 degrees",
+            "C. 360 degrees",
+            "D. 540 degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 22,
+        "question": "If a transmission line is exactly one-half wavelength (λ/2) long at the operating frequency, its electrical length expressed in radians is:",
+        "choices": [
+            "A. π / 2",
+            "B. π",
+            "C. 2π",
+            "D. 4π"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "The characteristic impedance of a lossless coaxial cable with inner conductor radius a, outer conductor inner radius b, and relative dielectric constant ε_r is given by the classic formula:",
+        "choices": [
+            "A. Z_0 = (138/√( ε_r) ) log_10(b/a)",
+            "B. Z_0 = (120/π) ln(b/a)",
+            "C. Z_0 = 120π √( ε_r )",
+            "D. Z_0 = (60/√( ε_r) ) ln(a/b)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "The characteristic impedance of a two-wire open-wire transmission line with wire radius a and center-to-center spacing D in free space is approximated by:",
+        "choices": [
+            "A. Z_0 = 120 ln(D/a)",
+            "B. Z_0 = 276 log_10(D/a)",
+            "C. Z_0 = 138 log_10(a/D)",
+            "D. Z_0 = 60 ln(2D/a)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "For a completely lossless transmission line (R=0 and G=0), the attenuation constant (α) is equal to:",
+        "choices": [
+            "A. Infinity",
+            "B. 1",
+            "C. Zero",
+            "D. β"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "For a lossless transmission line, the phase constant (β) is mathematically related to angular frequency (ω) and propagation velocity (v) by:",
+        "choices": [
+            "A. β = ω / v",
+            "B. β = v / ω",
+            "C. β = ω v",
+            "D. β = √( ω v )"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "The wavelength (λ) of a signal traveling on a transmission line is related to the phase constant (β) by the formula:",
+        "choices": [
+            "A. λ = β / 2π",
+            "B. λ = 2π / β",
+            "C. λ = π β",
+            "D. λ = β^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "If the frequency of operation on a transmission line is doubled, assuming the velocity of propagation remains constant, the phase constant (β):",
+        "choices": [
+            "A. Halves",
+            "B. Remains constant",
+            "C. Doubles",
+            "D. Quadruples"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "A balanced two-wire transmission line is generally more susceptible to external electromagnetic interference and radiates more energy at high frequencies compared to a coaxial cable primarily because:",
+        "choices": [
+            "A. It has zero characteristic impedance",
+            "B. It lacks an outer grounded shielding conductor",
+            "C. Its dielectric constant is too high",
+            "D. It operates only at DC"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "Microstrip and stripline transmission lines are predominantly utilized in which branch of electronic engineering?",
+        "choices": [
+            "A. Audio amplifier design",
+            "B. High-frequency RF and microwave printed circuit board (PCB) design",
+            "C. Power distribution grids",
+            "D. Digital microcontroller programming"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "The distributed resistance (R) of a transmission line increases significantly at high frequencies due to:",
+        "choices": [
+            "A. Dielectric breakdown",
+            "B. Skin effect, which restricts current flow to a thin outer layer of the conductor",
+            "C. Thermal expansion of copper",
+            "D. Radiation loss into free space"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "As the operating frequency approaches infinity on a practical transmission line, the characteristic impedance (Z_0) approaches a real (purely resistive) value equal to:",
+        "choices": [
+            "A. √( R/G )",
+            "B. √( L/C )",
+            "C. Zero",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "If the distributed capacitance (C) of a transmission line is increased while its distributed inductance (L) remains constant, its characteristic impedance (Z_0) will:",
+        "choices": [
+            "A. Increase",
+            "B. Remain unchanged",
+            "C. Decrease",
+            "D. Drop to zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "The velocity factor (VF) of a transmission line can also be defined mathematically as the ratio of the actual propagation velocity (v) on the line to:",
+        "choices": [
+            "A. The speed of light in a vacuum (c)",
+            "B. The cutoff frequency",
+            "C. The phase constant (β)",
+            "D. The attenuation constant (α)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "A transmission line has a physical length of 75 cm and a velocity factor of 0.75. What is the electrical length of this line at a frequency of 100 MHz?",
+        "choices": [
+            "A. 90 degrees",
+            "B. 180 degrees",
+            "C. 270 degrees",
+            "D. 360 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "In high-frequency transmission lines, the dielectric material separating the conductors introduces dielectric losses. These losses are directly accounted for in the lumped equivalent circuit by the parameter:",
+        "choices": [
+            "A. R",
+            "B. L",
+            "C. C",
+            "D. G (conductance)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "Which of the following transmission line types is unbalanced?",
+        "choices": [
+            "A. Two-wire open line",
+            "B. Coaxial cable",
+            "C. Twisted pair wire",
+            "D. Balanced twin-lead"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "Which of the following transmission line types is balanced?",
+        "choices": [
+            "A. Coaxial cable",
+            "B. Microstrip",
+            "C. Two-wire open-wire line",
+            "D. Stripline"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "The characteristic impedance of a transmission line is independent of its:",
+        "choices": [
+            "A. Physical length",
+            "B. Distributed inductance (L)",
+            "C. Distributed capacitance (C)",
+            "D. Operating frequency (at high frequencies)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 40,
+        "question": "If a transmission line is infinitely long, the impedance measured at its input terminals is:",
+        "choices": [
+            "A. Zero",
+            "B. Equal to its characteristic impedance (Z_0)",
+            "C. Purely reactive",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "A transmission line has distributed parameters L = 250 nH/m and C = 100 pF/m. Assuming it is lossless, calculate its characteristic impedance (Z_0).",
+        "choices": [
+            "A. 25 ohms",
+            "B. 50 ohms",
+            "C. 75 ohms",
+            "D. 100 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "Using the parameters from the previous question (L = 250 nH/m, C = 100 pF/m), calculate the velocity of propagation (v) on this line.",
+        "choices": [
+            "A. 1.5 × 10^8 m/s",
+            "B. 2.0 × 10^8 m/s",
+            "C. 2.5 × 10^8 m/s",
+            "D. 3.0 × 10^8 m/s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "For the transmission line in the previous two questions, calculate its velocity factor (VF). (c = 3 × 10^8 m/s).",
+        "choices": [
+            "A. 0.50",
+            "B. 0.67",
+            "C. 0.75",
+            "D. 0.85"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "The attenuation constant (α) of a transmission line is standardly measured and expressed in units of:",
+        "choices": [
+            "A. Decibels per meter (dB/m) or Nepers per meter (Np/m)",
+            "B. Hertz",
+            "C. Ohms per meter",
+            "D. Farads per meter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "The phase constant (β) of a transmission line is standardly measured in units of:",
+        "choices": [
+            "A. Radians per meter (rad/m)",
+            "B. Decibels",
+            "C. Ohms",
+            "D. Watts"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "If a coaxial cable has a velocity factor of 0.8, what is the relative dielectric constant (ε_r) of its insulating dielectric?",
+        "choices": [
+            "A. 1.25",
+            "B. 1.56",
+            "C. 0.64",
+            "D. 2.50"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "The skin depth (δ) in a transmission line conductor varies inversely with the square root of the:",
+        "choices": [
+            "A. Permittivity",
+            "B. Conductivity and frequency",
+            "C. Physical length",
+            "D. Characteristic impedance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "A high-frequency signal travels down a transmission line. If the skin depth decreases due to an increase in frequency, the effective alternating current resistance (R) of the conductor will:",
+        "choices": [
+            "A. Decrease",
+            "B. Remain unchanged",
+            "C. Increase",
+            "D. Drop to zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "In the rigorous derivation of transmission line equations from the lumped-element model, the voltage and current waves along the line are governed by second-order differential equations known as the:",
+        "choices": [
+            "A. Maxwell equations",
+            "B. Telegrapher's equations",
+            "C. Friis transmission formulas",
+            "D. Nyquist criteria"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "If the primary parameters of a transmission line satisfy the Heaviside distortionless condition (R/L = G/C), what is the resulting mathematical consequence for attenuation (α) and phase velocity (v)?",
+        "choices": [
+            "A. Attenuation becomes zero, and velocity depends heavily on frequency",
+            "B. Attenuation becomes constant (independent of frequency), and phase velocity becomes dispersionless (ω-independent)",
+            "C. Characteristic impedance becomes imaginary",
+            "D. Phase constant becomes zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "A transmission line is operating at a frequency where its physical length is exactly one full wavelength (λ). What is its electrical length in degrees?",
+        "choices": [
+            "A. 90 degrees",
+            "B. 180 degrees",
+            "C. 270 degrees",
+            "D. 360 degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "What is the primary physical reason why twin-lead two-wire lines are rarely used for microwave frequencies above 3 GHz?",
+        "choices": [
+            "A. They are too heavy",
+            "B. Severe radiation losses and susceptibility to external pickup",
+            "C. They have zero characteristic impedance",
+            "D. They cannot handle DC power"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "If the outer diameter of the outer conductor (b) and the outer diameter of the inner conductor (a) of an air-filled coaxial cable are modified such that their ratio b/a yields the exact minimum attenuation, what is the theoretical characteristic impedance of that coaxial cable?",
+        "choices": [
+            "A. 50 ohms",
+            "B. 77 ohms",
+            "C. 300 ohms",
+            "D. 120 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "If the ratio b/a of a coaxial cable is instead designed to yield maximum breakdown voltage handling capacity, what is the resulting characteristic impedance?",
+        "choices": [
+            "A. 50 ohms",
+            "B. 75 ohms",
+            "C. 133 ohms",
+            "D. 300 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "The phase velocity (v_p) of an electromagnetic wave on a lossless transmission line is given by:",
+        "choices": [
+            "A. √( LC )",
+            "B. 1 / √( LC )",
+            "C. L/C",
+            "D. C/L"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "A transmission line has a phase constant β = 0.2 rad/m at a frequency of 10 MHz. Calculate the phase velocity (v_p) of the wave on this line.",
+        "choices": [
+            "A. 5.0 × 10^7 m/s",
+            "B. 1.5 × 10^8 m/s",
+            "C. 3.14 × 10^8 m/s",
+            "D. 2.0 × 10^7 m/s"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "A lossless transmission line has Z_0 = 50 ohms and is driven at a frequency of 1 GHz. If its distributed capacitance C is 100 pF/m, calculate its distributed inductance L per meter.",
+        "choices": [
+            "A. 25 nH/m",
+            "B. 250 nH/m",
+            "C. 0.25 nH/m",
+            "D. 50 nH/m"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Which of the following distributed parameters of a transmission line is considered a series parameter in the lumped equivalent circuit model?",
+        "choices": [
+            "A. Conductance (G) and Capacitance (C)",
+            "B. Resistance (R) and Inductance (L)",
+            "C. Capacitance (C) and Inductance (L)",
+            "D. Resistance (R) and Conductance (G)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Which of the following distributed parameters of a transmission line is considered a shunt parameter in the lumped equivalent circuit model?",
+        "choices": [
+            "A. Resistance (R) and Inductance (L)",
+            "B. Resistance (R) and Conductance (G)",
+            "C. Inductance (L) and Capacitance (C)",
+            "D. Conductance (G) and Capacitance (C)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "The propagation constant γ is a complex propagation coefficient. Its real part represents attenuation, while its imaginary part represents:",
+        "choices": [
+            "A. Characteristic impedance",
+            "B. Phase shift",
+            "C. Reflection coefficient",
+            "D. Standing wave ratio"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "If a transmission line is completely lossless, the input impedance of a very short segment of the line depends entirely on:",
+        "choices": [
+            "A. The characteristic impedance, phase constant, and physical length",
+            "B. Only the distributed resistance",
+            "C. Only the operating temperature",
+            "D. The dielectric breakdown voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "In a microstrip transmission line, why is the effective dielectric constant (\\varepsilon_eff) always less than the relative dielectric constant (\\varepsilon_r) of the underlying substrate board?",
+        "choices": [
+            "A. Because part of the electric field lines exist in the air above the strip and part exist within the dielectric substrate",
+            "B. Because microstrips are made of gold",
+            "C. Because the ground plane cancels the permittivity",
+            "D. Because of skin effect"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "The characteristic impedance of a transmission line is a complex number when the line is:",
+        "choices": [
+            "A. Lossless (R=0, G=0)",
+            "B. Lossy (R ≠ 0 or G ≠ 0)",
+            "C. Infinite in length",
+            "D. Short-circuited at the load"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "When evaluating a lossy transmission line at extremely high radio frequencies where ω L I R and ω C I G, the characteristic impedance Z_0 simplifies approximately to:",
+        "choices": [
+            "A. √( R/G )",
+            "B. √( L/C )",
+            "C. R + jω L",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "A transmission line section has a physical length of 10 cm and a velocity factor of 0.6. What is its electrical length in wavelengths at a frequency of 1 GHz?",
+        "choices": [
+            "A. 0.2 wavelengths",
+            "B. 0.5 wavelengths",
+            "C. 1.0 wavelength",
+            "D. 2.0 wavelengths"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "If a transmission line has an attenuation constant α = 0.05 Np/m, what is the voltage attenuation in decibels (dB) per meter? (\\textdB = 8.686 × \\textNp)",
+        "choices": [
+            "A. 0.05 dB/m",
+            "B. 0.434 dB/m",
+            "C. 8.686 dB/m",
+            "D. 1.737 dB/m"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "The attenuation of a transmission line typically increases as the operating frequency increases primarily due to:",
+        "choices": [
+            "A. Decreasing skin effect",
+            "B. The combined effects of increasing skin-effect resistance and increasing dielectric conductance losses",
+            "C. A decrease in the phase constant",
+            "D. An increase in the velocity factor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "A coaxial cable has an outer conductor inner radius b = 3.5 mm and an inner conductor radius a = 0.5 mm, with air dielectric (ε_r = 1). Calculate its approximate characteristic impedance.",
+        "choices": [
+            "A. 50 ohms",
+            "B. 75 ohms",
+            "C. 138 ohms",
+            "D. 276 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "The unit of the propagation constant's real part (α) when expressed in Nepers per meter represents the natural logarithm of the ratio of:",
+        "choices": [
+            "A. Input voltage to output voltage",
+            "B. Output voltage to input voltage",
+            "C. Power to frequency",
+            "D. Capacitance to inductance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "If the voltage of a wave drops to 1/e (approx. 36.8%) of its initial value after traveling a distance of 1 meter down a transmission line, what is the attenuation constant α of the line?",
+        "choices": [
+            "A. 1 Np/m",
+            "B. 0.5 Np/m",
+            "C. 8.686 Np/m",
+            "D. 2 Np/m"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "In distributed equivalent circuit analysis, each incremental length ∆ z of a transmission line contains series impedance Z ∆ z and shunt admittance Y ∆ z. What are the fundamental SI units of Z and Y per unit length?",
+        "choices": [
+            "A. Ohms and Siemens",
+            "B. Ohms/m and Siemens/m",
+            "C. Farads and Henries",
+            "D. Decibels and Nepers"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "Which parameter of a transmission line remains completely constant regardless of changes in the operating frequency (assuming the material properties do not disperse)?",
+        "choices": [
+            "A. Skin-effect resistance (R)",
+            "B. Distributed inductance (L) of a non-magnetic coaxial line",
+            "C. Attenuation constant (α)",
+            "D. Phase constant (β)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "If the physical length of a transmission line is scaled to be exactly one-quarter wavelength (λ/4) at a given frequency, its electrical length in degrees is:",
+        "choices": [
+            "A. 45 degrees",
+            "B. 90 degrees",
+            "C. 180 degrees",
+            "D. 360 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "A transmission line is specified to have a characteristic impedance of 50 ohms and a propagation velocity of 2 × 10^8 m/s. What is its distributed capacitance C per meter if the distributed resistance and conductance are zero?",
+        "choices": [
+            "A. 100 pF/m",
+            "B. 50 pF/m",
+            "C. 25 pF/m",
+            "D. 200 pF/m"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "Using the values from the previous question (Z_0 = 50 ohms, v = 2 × 10^8 m/s), calculate its distributed inductance L per meter.",
+        "choices": [
+            "A. 100 nH/m",
+            "B. 250 nH/m",
+            "C. 0.25 nH/m",
+            "D. 0.50 nH/m"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "What is the primary physical advantage of stripline over microstrip construction on microwave printed circuit boards?",
+        "choices": [
+            "A. Stripline is completely enclosed between two ground planes, eliminating radiation loss and external interference",
+            "B. Stripline is much cheaper to manufacture",
+            "C. Microstrip cannot support high frequencies",
+            "D. Microstrip has zero characteristic impedance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "When comparing the phase constant β of a transmission line to its physical length l, the total phase shift accumulated by the wave from input to load is given by:",
+        "choices": [
+            "A. β / l",
+            "B. β + l",
+            "C. β l",
+            "D. β - l"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "The velocity factor of an air-insulated transmission line (where conductors are supported by sparse dielectric beads) is approximately:",
+        "choices": [
+            "A. 0.5",
+            "B. 0.7",
+            "C. 1.0",
+            "D. 2.0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "If a coaxial cable's polyethylene dielectric (ε_r = 2.25) is replaced entirely with Teflon (ε_r = 2.1), the velocity factor of the cable will:",
+        "choices": [
+            "A. Decrease",
+            "B. Remain unchanged",
+            "C. Increase slightly",
+            "D. Drop to zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "In analysis, the characteristic impedance Z_0 can also be defined mathematically as the square root of the ratio of:",
+        "choices": [
+            "A. Series impedance (Z) to shunt admittance (Y) per unit length",
+            "B. Shunt admittance to series impedance",
+            "C. Voltage to power",
+            "D. Attenuation to phase constant"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "If a transmission line's distributed resistance R and conductance G are both zero, the line is classified strictly as:",
+        "choices": [
+            "A. A lossy line",
+            "B. A distortionless line",
+            "C. A lossless line",
+            "D. A dispersive line"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "The phase constant β of a lossless transmission line operating at a frequency of 50 MHz with a propagation velocity of 2.5 × 10^8 m/s is:",
+        "choices": [
+            "A. 0.2 rad/m",
+            "B. 1.256 rad/m",
+            "C. 3.14 rad/m",
+            "D. 6.28 rad/m"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "The wavelength of a 1 GHz signal propagating on a transmission line with a velocity factor of 0.5 is:",
+        "choices": [
+            "A. 0.3 meters",
+            "B. 0.15 meters",
+            "C. 0.6 meters",
+            "D. 1.0 meter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "Which of the following statements regarding the equivalent lumped circuit of a transmission line is strictly true?",
+        "choices": [
+            "A. The parameters R, L, G, C are lumped at a single point at the end of the line",
+            "B. The parameters R, L, G, C are uniformly distributed continuously along the entire length of the line",
+            "C. The shunt conductance G represents wire resistance",
+            "D. The series inductance L represents dielectric leakage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "If the phase constant β of a transmission line is 1.5 rad/m, what is the wavelength (λ) of the signal on the line?",
+        "choices": [
+            "A. 1.5 meters",
+            "B. 3.14 meters",
+            "C. 4.19 meters",
+            "D. 6.28 meters"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 86,
+        "question": "In standard coaxial cable manufacturing, if the inner conductor diameter is increased while keeping the outer conductor diameter fixed, the characteristic impedance (Z_0) of the cable will:",
+        "choices": [
+            "A. Increase",
+            "B. Decrease",
+            "C. Remain completely unchanged",
+            "D. Approach infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "The attenuation due to conductor losses in a transmission line is proportional to which power of the operating frequency f at high frequencies (due to skin effect)?",
+        "choices": [
+            "A. f^1",
+            "B. f^0.5 (square root of frequency)",
+            "C. f^2",
+            "D. Independent of frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "The attenuation due to dielectric losses in a transmission line is directly proportional to which power of the operating frequency f?",
+        "choices": [
+            "A. f^1 (directly proportional to frequency)",
+            "B. f^0.5",
+            "C. f^2",
+            "D. Independent of frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "A transmission line has a characteristic impedance of 75 ohms and is terminated in a generator with an internal impedance of 75 ohms. If the line is infinitely long, what is the input impedance seen by the generator?",
+        "choices": [
+            "A. 0 ohms",
+            "B. 75 ohms",
+            "C. Infinity",
+            "D. 150 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "The velocity factor of a transmission line is mathematically related to the wavelength in the medium (λ_m) and the wavelength in a vacuum (λ_0) by:",
+        "choices": [
+            "A. λ_0 / λ_m",
+            "B. λ_m / λ_0",
+            "C. λ_m × λ_0",
+            "D. λ_0 + λ_m"
+        ],
+        "correct_answer": "B"
+    }
+]

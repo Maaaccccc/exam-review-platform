@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "Worded circuit: A system designer maps a peripheral UART to physical address 0x3F8, using standard memory pointers in C to read its data buffer. This design explicitly utilizes which interfacing method?",
+        "choices": [
+            "A. Isolated I/O",
+            "B. Memory-Mapped I/O",
+            "C. Direct Memory Access",
+            "D. Interrupt-Driven I/O"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "Worded circuit: Two standard UART modules are communicating at 115200 Baud with an 8-N-1 configuration. What is the precise time duration required to transmit one single bit over the physical wire?",
+        "choices": [
+            "A. 11.52 ms",
+            "B. 104.2 us",
+            "C. 1.04 ms",
+            "D. 8.68 us"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 3,
+        "question": "The I2C protocol allows multiple master devices to coexist on the same two-wire bus. To prevent data corruption during simultaneous transmissions, the physical bus utilizes open-drain outputs with pull-up resistors to enforce a mechanism known as:",
+        "choices": [
+            "A. Clock Stretching and Arbitration",
+            "B. Token Passing",
+            "C. Carrier Sense Multiple Access",
+            "D. Hardware Handshaking"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 4,
+        "question": "During a Direct Memory Access (DMA) transfer, which specific hardware component is completely disconnected from the system's address and data buses while the transfer is actively occurring?",
+        "choices": [
+            "A. The Hard Drive Controller",
+            "B. The System RAM",
+            "C. The Central Processing Unit (CPU)",
+            "D. The Memory Management Unit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 5,
+        "question": "Worded circuit: An Intel 8255 PPI is configured in BSR (Bit Set/Reset) mode. The programmer sends a specific control word to toggle a single output pin. Which of the following ports is exclusively manipulated by this specific mode?",
+        "choices": [
+            "A. Port A",
+            "B. Port B",
+            "C. Port C",
+            "D. The Control Register"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "When comparing standard embedded serial communication protocols, what is the most significant hardware advantage of the SPI bus over the I2C bus?",
+        "choices": [
+            "A. It requires fewer physical wires for multiple devices",
+            "B. It supports significantly higher absolute data transfer rates",
+            "C. It has built-in device addressing in the software protocol",
+            "D. It guarantees perfectly deterministic packet delivery times"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "A CPU continuously executes a tight software loop to check a status flag on a peripheral device, wasting significant processing cycles while waiting for the device to become ready. This notoriously inefficient I/O methodology is called:",
+        "choices": [
+            "A. Interrupt-driven I/O",
+            "B. Direct Memory Access",
+            "C. Asynchronous I/O",
+            "D. Programmed I/O (Polling)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "To correctly initialize an Intel 8259 Programmable Interrupt Controller (PIC), the programmer must explicitly send a specific sequence of configuration bytes known as:",
+        "choices": [
+            "A. Initialization Command Words (ICWs)",
+            "B. Operation Command Words (OCWs)",
+            "C. Status Configuration Bytes (SCBs)",
+            "D. Device Control Blocks (DCBs)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "What fundamental architectural difference clearly distinguishes a microcontroller (MCU) from a standard microprocessor (MPU)?",
+        "choices": [
+            "A. MCUs run at significantly higher clock frequencies",
+            "B. MCUs integrate the CPU core, memory (RAM/ROM), and peripheral I/O on a single silicon chip",
+            "C. MPUs consume less power",
+            "D. MPUs do not contain an internal Arithmetic Logic Unit (ALU)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "For designing a low-cost, battery-powered digital thermostat, an engineer chooses an 8-bit microcontroller over a 32-bit microprocessor primarily because the microcontroller:",
+        "choices": [
+            "A. Requires an external operating system",
+            "B. Features a massive L3 cache",
+            "C. Drastically reduces the overall circuit board footprint and Bill of Materials (BOM) cost",
+            "D. Operates natively using Harvard architecture"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "Most modern microcontrollers store their permanent user application code (firmware) internally using which specific non-volatile memory technology?",
+        "choices": [
+            "A. Mask ROM",
+            "B. UV-EPROM",
+            "C. Static RAM (SRAM)",
+            "D. Electrically Erasable Flash Memory"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 12,
+        "question": "Inside a standard microcontroller, what type of memory is primarily utilized to implement the CPU's general-purpose registers and the physical data stack?",
+        "choices": [
+            "A. Static RAM (SRAM)",
+            "B. Dynamic RAM (DRAM)",
+            "C. EEPROM",
+            "D. Flash Memory"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "Worded circuit: A smart meter must periodically save cumulative energy usage data so it isn't lost during power outages. Since this specific data is small but changes frequently (e.g., every 5 minutes), which on-chip memory is best suited for storing it?",
+        "choices": [
+            "A. EEPROM",
+            "B. Flash Memory",
+            "C. SRAM",
+            "D. Mask ROM"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Many 8-bit microcontrollers (like AVR and PIC) utilize a modified Harvard architecture. This specifically allows them to:",
+        "choices": [
+            "A. Connect to external hard drives",
+            "B. Execute instructions without a clock",
+            "C. Fetch an instruction from Flash and access data from SRAM simultaneously during a single clock cycle",
+            "D. Eliminate the need for an ALU"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "To configure a specific pin on a microcontroller as either a digital input or a digital output, the programmer must write a specific bit value to the port's corresponding:",
+        "choices": [
+            "A. Status Register",
+            "B. Data Direction Register (DDR or TRIS)",
+            "C. Output Latch Register",
+            "D. Analog Select Register"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "Worded circuit: A mechanical push-button connects a microcontroller input pin directly to ground. To prevent the pin from floating to an unpredictable logic state when the button is open, the internal port configuration must enable the:",
+        "choices": [
+            "A. Open-drain output",
+            "B. Schmitt trigger",
+            "C. Analog multiplexer",
+            "D. Internal pull-up resistor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "An internal microcontroller I/O pin is configured as \"open-drain\". To successfully drive a logic HIGH signal to an external circuit, this pin strictly requires:",
+        "choices": [
+            "A. An external pull-up resistor",
+            "B. An external pull-down resistor",
+            "C. A high-voltage charge pump",
+            "D. An inverting buffer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "Worded circuit: An LED is connected to a 5V source through a current-limiting resistor, and its cathode is tied to a microcontroller pin. To turn the LED ON, the microcontroller pin must be driven LOW. In this specific configuration, the microcontroller pin is acting to:",
+        "choices": [
+            "A. Source current",
+            "B. Sink current",
+            "C. Block current",
+            "D. Amplify current"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "A common programming hazard occurs when multiple individual bits on the same physical I/O port are toggled rapidly by different software threads, causing unexpected pin states. This is caused by the non-atomic nature of which implicit port operation?",
+        "choices": [
+            "A. Direct Memory Access",
+            "B. Polling",
+            "C. Read-Modify-Write (RMW)",
+            "D. Masking"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "A 10-bit analog-to-digital converter (ADC) integrated into a microcontroller has a reference voltage (Vref) of 3.3V. What is the approximate minimum analog voltage change required to increment the digital output by 1 LSB?",
+        "choices": [
+            "A. 33 mV",
+            "B. 1.61 mV",
+            "C. 10 mV",
+            "D. 3.22 mV"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "Worded circuit: A microcontroller uses an internal ADC to read a temperature sensor. The sensor outputs exactly 1.0V. If the ADC reference voltage (Vref) is accidentally changed from 5.0V to 2.5V, what happens to the resulting numerical digital value stored in the ADC register?",
+        "choices": [
+            "A. It decreases by half",
+            "B. It doubles exactly",
+            "C. It remains exactly the same",
+            "D. It drops to zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "Most mid-range 8-bit and 16-bit microcontrollers incorporate an internal ADC that utilizes which specific conversion architecture to balance moderate speed with low power and silicon area?",
+        "choices": [
+            "A. Successive Approximation Register (SAR)",
+            "B. Flash (Parallel)",
+            "C. Sigma-Delta",
+            "D. Dual-Slope Integrating"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "To prevent aliasing errors when sampling an analog signal using a microcontroller's internal ADC, an external hardware filter should be placed before the pin. What type of filter is strictly required?",
+        "choices": [
+            "A. Digital band-pass filter",
+            "B. High-pass filter",
+            "C. Notch filter",
+            "D. Analog low-pass filter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "Worded circuit: Before starting an ADC conversion on a microcontroller, the internal analog multiplexer connects the input pin to a small internal sampling capacitor. The specific software delay required to fully charge this capacitor before initiating the actual conversion is formally called the:",
+        "choices": [
+            "A. Conversion time",
+            "B. Holding time",
+            "C. Acquisition time",
+            "D. Settling time"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "Instead of integrating complex, expensive true digital-to-analog converters (DACs), most microcontrollers simulate analog output voltages strictly by using:",
+        "choices": [
+            "A. Pulse Width Modulation (PWM) modules combined with an external low-pass filter",
+            "B. Delta-Sigma decimation",
+            "C. Successive approximation registers",
+            "D. High-speed op-amps"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "A microcontroller generates a PWM signal with a frequency of 10 kHz. If the signal is logic HIGH for 25 microseconds and logic LOW for 75 microseconds, what is the exact duty cycle?",
+        "choices": [
+            "A. 75%",
+            "B. 33%",
+            "C. 25%",
+            "D. 100%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "Worded circuit: A 5V microcontroller outputs a PWM signal with a 60% duty cycle. This signal is passed through a simple RC low-pass filter. What is the approximate steady-state DC analog voltage measured at the output of the filter?",
+        "choices": [
+            "A. 2.5 V",
+            "B. 3.0 V",
+            "C. 3.5 V",
+            "D. 2.0 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "Worded circuit: A microcontroller uses two complementary PWM outputs to drive an external MOSFET H-bridge for motor control. To prevent catastrophic shoot-through currents that would short the power supply, the PWM module must explicitly inject a small, programmable delay between turning one transistor off and the other on. This is called:",
+        "choices": [
+            "A. Phase shifting",
+            "B. Aliasing",
+            "C. Slew rate limiting",
+            "D. Dead-band (or Dead-time) insertion"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "An 8-bit hardware timer is used to generate a PWM signal. What is the maximum number of distinct duty cycle steps (resolutions) this specific PWM configuration can produce?",
+        "choices": [
+            "A. 256",
+            "B. 128",
+            "C. 1024",
+            "D. 65536"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Some advanced microcontrollers include a true integrated DAC. A highly common, area-efficient internal resistor network architecture used for these embedded DACs is the:",
+        "choices": [
+            "A. Binary-weighted resistor network",
+            "B. R-2R ladder network",
+            "C. Flash converter network",
+            "D. Switched-capacitor network"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "A fundamental internal peripheral in a microcontroller is the Timer/Counter module. When this module is clocked strictly by the internal CPU system clock, it acts as a ________; when it is clocked by external asynchronous pulses on a specific pin, it acts as a ________.",
+        "choices": [
+            "A. Counter; Timer",
+            "B. Prescaler; Postscaler",
+            "C. Timer; Counter",
+            "D. Watchdog; Timer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "Worded circuit: A microcontroller operates at 16 MHz. An internal 8-bit timer needs to overflow exactly every 1.024 milliseconds. To achieve this, the 16 MHz clock is fed into a hardware divider circuit before reaching the timer. This specific hardware divider is known as a:",
+        "choices": [
+            "A. Multiplexer",
+            "B. PLL",
+            "C. Postscaler",
+            "D. Prescaler"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "A 16-bit timer in a microcontroller is clocked at 1 MHz (1 microsecond per tick). Assuming it counts up from 0x0000 to 0xFFFF, exactly how long will it take to overflow and trigger an interrupt?",
+        "choices": [
+            "A. 65.536 milliseconds",
+            "B. 1.024 milliseconds",
+            "C. 6.55 seconds",
+            "D. 256 microseconds"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Worded circuit: An engineer needs to precisely measure the frequency of an external unknown square wave. They route the signal to a specific microcontroller pin. The internal module is configured to automatically record the exact value of a running 16-bit timer the instant a rising edge occurs on the pin. This specific hardware feature is called:",
+        "choices": [
+            "A. Output Compare",
+            "B. Input Capture",
+            "C. PWM Generation",
+            "D. Watchdog Reset"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Conversely, to generate a precise pulse or trigger an ADC reading at an exact predetermined future time, a programmer loads a specific target value into a register. When the running hardware timer perfectly matches this register, an event is triggered. This module is called:",
+        "choices": [
+            "A. Input Capture",
+            "B. Pulse Accumulator",
+            "C. Baud Rate Generator",
+            "D. Output Compare (or Compare Match)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "Which specialized ultra-low-power internal hardware timer is explicitly designed to keep track of accurate calendar time (hours, minutes, seconds) even when the main CPU is in deep sleep mode, typically using an external 32.768 kHz crystal?",
+        "choices": [
+            "A. Watchdog Timer",
+            "B. Prescaler",
+            "C. Real-Time Clock (RTC)",
+            "D. SysTick Timer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "An 8-bit timer is currently holding the value 250 (decimal). If it receives 10 more clock pulses, and it is a simple up-counter with no automatic reload, what will its new value be? (Assume standard rollover).",
+        "choices": [
+            "A. 4",
+            "B. 260",
+            "C. 255",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "When a peripheral triggers an interrupt, the microcontroller's hardware interrupt controller forces the Program Counter (PC) to jump to a specific predefined memory address that holds the start of the Interrupt Service Routine (ISR). This predefined address is formally known as the:",
+        "choices": [
+            "A. Stack Pointer",
+            "B. Interrupt Vector",
+            "C. Return Address",
+            "D. Opcode"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Worded circuit: An external interrupt triggers an ISR. Before the microcontroller executes the very first instruction of the ISR, the hardware architecture automatically preserves the main program's location by pushing which specific register onto the stack?",
+        "choices": [
+            "A. The Program Counter (PC)",
+            "B. The Accumulator",
+            "C. The Status Register",
+            "D. The General Purpose Registers"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 40,
+        "question": "In a modern microcontroller, if a UART receive interrupt and a Timer overflow interrupt occur simultaneously on the exact same clock cycle, how does the hardware explicitly determine which ISR to execute first?",
+        "choices": [
+            "A. The CPU halts and requires a reset",
+            "B. It always executes the Timer first",
+            "C. It executes them simultaneously using dual cores",
+            "D. It relies on a hardwired or software-configurable Interrupt Priority scheme"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "A programmer wants to prevent the ADC interrupt from firing during a highly critical timing loop, but still wants the Timer interrupt to function perfectly. To achieve this, the programmer must manipulate the:",
+        "choices": [
+            "A. Global Interrupt Enable bit",
+            "B. Main Power Supply",
+            "C. Specific Local Interrupt Enable (Mask) bit for the ADC",
+            "D. System Clock"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "Worded circuit: An external INT0 pin is connected to a mechanical limit switch. To ensure the microcontroller only registers an interrupt exactly when the switch is initially pressed, and not continuously while it is held down, the external interrupt must be explicitly configured as:",
+        "choices": [
+            "A. Level-triggered",
+            "B. Edge-triggered",
+            "C. Software-triggered",
+            "D. Masked"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "When writing firmware for an embedded system, it is a universally recognized best practice to ensure that Interrupt Service Routines (ISRs) are:",
+        "choices": [
+            "A. Extremely long and complex",
+            "B. Filled with software delay loops",
+            "C. Used for complex floating-point math",
+            "D. As short and fast as physically possible to prevent blocking other critical system events"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "Some simpler microcontrollers (like older PICs) use a single, unified interrupt vector for all peripherals. Inside the ISR, the programmer must manually check various peripheral status flags to determine which device caused the interrupt. This specific software architecture is called a:",
+        "choices": [
+            "A. Polled Interrupt system",
+            "B. Vectored Interrupt system",
+            "C. Non-Maskable system",
+            "D. Nested Interrupt system"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "What is the primary, fundamental purpose of a Watchdog Timer (WDT) in a deeply embedded microcontroller application?",
+        "choices": [
+            "A. To keep track of the real-world calendar time",
+            "B. To automatically reset the entire microcontroller if the software enters an infinite loop or hangs due to a glitch",
+            "C. To generate highly precise PWM signals for motor control",
+            "D. To protect the memory from unauthorized access"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "To prevent the Watchdog Timer from resetting a perfectly healthy system, the main firmware loop must periodically execute a specific instruction to reset the WDT's internal counter back to zero. In industry terminology, this action is colloquially known as:",
+        "choices": [
+            "A. Masking the timer",
+            "B. Strobing the port",
+            "C. Kicking (or clearing) the dog",
+            "D. Biting the timer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "To ensure maximum system reliability, the Watchdog Timer typically derives its clock signal from:",
+        "choices": [
+            "A. The external USB bus",
+            "B. A completely independent, dedicated internal low-power RC oscillator, ensuring it runs even if the main crystal fails",
+            "C. The main CPU system clock",
+            "D. The Real-Time Clock (RTC) crystal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "Worded circuit: A battery-powered microcontroller circuit is draining its batteries. As the voltage slowly drops below a critical threshold (e.g., 2.7V), the CPU might execute instructions incorrectly. To prevent corruption, a built-in hardware circuit forces the chip into a permanent reset state until the voltage rises again. This specific circuit is the:",
+        "choices": [
+            "A. Power-On Reset (POR)",
+            "B. Watchdog Timer (WDT)",
+            "C. Analog Comparator",
+            "D. Brown-Out Reset (BOR) (or Brown-Out Detector)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "Which internal reset mechanism ensures that the microcontroller initializes its internal registers to known default states and begins executing code strictly from the beginning of the boot vector the exact moment physical power is first applied?",
+        "choices": [
+            "A. Power-On Reset (POR)",
+            "B. Software Reset",
+            "C. Watchdog Reset",
+            "D. Pin Reset"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "When an embedded device runs on a small coin-cell battery, programmers utilize \"Sleep\" or \"Idle\" modes. What is the fundamental mechanism these modes use to drastically reduce electrical power consumption?",
+        "choices": [
+            "A. They reduce the physical size of the silicon die",
+            "B. They disable all non-volatile memory",
+            "C. They halt the main CPU clock and disable unused peripheral modules, reducing dynamic CMOS switching losses",
+            "D. They short-circuit the power supply"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "Worded circuit: A microcontroller is placed into a \"Deep Sleep\" mode where the main oscillator is completely turned off. Which of the following hardware events can typically still be configured to \"wake up\" the processor?",
+        "choices": [
+            "A. An external asynchronous pin change (external interrupt)",
+            "B. An internal UART receive buffer filling up",
+            "C. The internal high-speed ADC completing a conversion",
+            "D. A standard software delay loop expiring"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "Advanced 32-bit microcontrollers can dynamically change their core clock frequency and operating voltage on the fly to save power during low-workload periods. This advanced power management technique is known as:",
+        "choices": [
+            "A. Watchdog scaling",
+            "B. Pulse Width Modulation",
+            "C. Dynamic Voltage and Frequency Scaling (DVFS)",
+            "D. Sleep mode switching"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 53,
+        "question": "The capability to program the internal Flash memory of a microcontroller while it is physically soldered directly onto the final target printed circuit board, without needing to remove it, is called:",
+        "choices": [
+            "A. In-Circuit Emulation (ICE)",
+            "B. In-System Programming (ISP) (or ICSP)",
+            "C. Over-The-Air (OTA) updating",
+            "D. Joint Test Action Group (JTAG)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "Which industry-standard 4-wire interface is heavily utilized in modern 32-bit microcontrollers (like ARM Cortex) not only for programming but also for deep hardware-level boundary scanning and real-time on-chip debugging?",
+        "choices": [
+            "A. I2C",
+            "B. SPI",
+            "C. RS-232 UART",
+            "D. JTAG (Joint Test Action Group)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 55,
+        "question": "ARM specifically developed a lower-pin-count alternative to JTAG that requires only two physical pins (Data and Clock) for comprehensive programming and debugging. This interface is known as:",
+        "choices": [
+            "A. SWD (Serial Wire Debug)",
+            "B. I2C (Inter-Integrated Circuit)",
+            "C. ISP (In-System Programming)",
+            "D. USB (Universal Serial Bus)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "In the classic Intel 8051 microcontroller architecture, hardware peripherals (like timers, serial ports, and I/O ports) are configured and controlled strictly by writing to specific memory locations known as:",
+        "choices": [
+            "A. The Stack",
+            "B. General Purpose Registers (GPR)",
+            "C. Special Function Registers (SFR)",
+            "D. Cache Memory"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "A unique and highly powerful feature of the 8051 memory architecture is that certain areas of RAM and specific SFRs are:",
+        "choices": [
+            "A. Physically located outside the chip",
+            "B. Strictly read-only",
+            "C. Shared with the hard drive",
+            "D. Bit-addressable, meaning instructions can manipulate single bits without read-modify-write software overhead"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "In the 8051 microcontroller, which dedicated 16-bit register is explicitly used by the programmer to hold a physical memory address for fetching data from external ROM or external RAM?",
+        "choices": [
+            "A. Stack Pointer (SP)",
+            "B. Data Pointer (DPTR)",
+            "C. Program Counter (PC)",
+            "D. Accumulator (A)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "The 8051 internal RAM allocates the first 32 bytes to four Register Banks (Bank 0 to Bank 3), containing R0 through R7. How does a programmer switch the active hardware register bank?",
+        "choices": [
+            "A. By executing a dedicated JUMP instruction",
+            "B. By modifying two specific bits (RS0 and RS1) inside the Program Status Word (PSW) register",
+            "C. By changing the clock frequency",
+            "D. By triggering a hardware interrupt"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "Worded circuit: An 8051 microcontroller has a pin labeled EA (External Access, active-low). If this pin is permanently tied directly to Ground (Logic 0), how does the 8051 execute code upon reset?",
+        "choices": [
+            "A. It executes code strictly from its internal Flash memory",
+            "B. It halts permanently",
+            "C. It ignores its internal ROM entirely and fetches all instructions exclusively from an external memory chip",
+            "D. It enters bootloader mode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "Microchip's PIC microcontrollers fundamentally differ from the Von Neumann 8051 by utilizing a strict:",
+        "choices": [
+            "A. CISC architecture",
+            "B. Stack-based architecture",
+            "C. Turing architecture",
+            "D. Harvard architecture with separate instruction and data buses"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 62,
+        "question": "In a standard PIC microcontroller, the primary working register used for almost all mathematical and logical ALU operations is explicitly named the:",
+        "choices": [
+            "A. Accumulator (A)",
+            "B. W (Working) Register",
+            "C. D (Data) Register",
+            "D. R0 Register"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "Worded circuit: A mid-range PIC microcontroller executes instructions using a 4-clock-cycle machine cycle. However, because it utilizes a basic 2-stage instruction pipeline (Fetch and Execute), the effective throughput (ignoring branches) is exactly:",
+        "choices": [
+            "A. One instruction every 4 machine cycles",
+            "B. Four instructions per machine cycle",
+            "C. One instruction every 2 machine cycles",
+            "D. One instruction per single machine cycle"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "The Atmel (now Microchip) AVR microcontroller architecture, famously used in the Arduino Uno (ATmega328P), is characterized as an 8-bit RISC core. How many 8-bit general-purpose registers (GPRs) are directly connected to its ALU?",
+        "choices": [
+            "A. 32",
+            "B. 16",
+            "C. 8",
+            "D. 256"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "In the AVR architecture, the last six general-purpose registers (R26 through R31) are mathematically paired together to form three 16-bit pointer registers used for indirect memory addressing. What are these specific register pairs called?",
+        "choices": [
+            "A. A, B, and C registers",
+            "B. AX, BX, and CX registers",
+            "C. X, Y, and Z registers",
+            "D. PC, SP, and DP registers"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "A major architectural advantage of the AVR RISC core over older CISC architectures like the 8051 is its clock efficiency. Most standard AVR instructions execute in exactly:",
+        "choices": [
+            "A. 4 clock cycles",
+            "B. 1 clock cycle",
+            "C. 12 clock cycles",
+            "D. 2 clock cycles"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "The ARM Cortex-M processor family (widely used in STM32 microcontrollers) is strictly a 32-bit RISC architecture. Which highly optimized, dense instruction set does it exclusively execute to save memory space?",
+        "choices": [
+            "A. The 16-bit/32-bit Thumb-2 instruction set",
+            "B. The x86 instruction set",
+            "C. The standard 8-bit 8051 instruction set",
+            "D. The 64-bit ARMv8 instruction set"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "In ARM Cortex-M microcontrollers, all hardware interrupts and system exceptions are centrally managed by a highly advanced, ultra-low-latency internal peripheral called the:",
+        "choices": [
+            "A. Programmable Interrupt Controller (PIC)",
+            "B. Advanced APIC",
+            "C. System Control Block (SCB)",
+            "D. Nested Vectored Interrupt Controller (NVIC)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "The ARM Cortex architecture is divided into three main profiles: A, R, and M. What does the \"M\" profile specifically designate?",
+        "choices": [
+            "A. Mainframe (High performance)",
+            "B. Real-time (Deterministic)",
+            "C. Microcontroller (Embedded, low-cost, low-power)",
+            "D. Mobile (Cell phones)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "An ARM Cortex-M3 processor features how many core 32-bit general-purpose registers (excluding special registers like SP, LR, PC)?",
+        "choices": [
+            "A. 32",
+            "B. 13 (R0 to R12)",
+            "C. 8",
+            "D. 16"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "In the ARM architecture, when a subroutine (function) is called using a Branch with Link (BL) instruction, the hardware automatically saves the return address into which specific core register instead of pushing it to RAM?",
+        "choices": [
+            "A. The Link Register (LR / R14)",
+            "B. The Program Counter (PC)",
+            "C. The Stack Pointer (SP)",
+            "D. The Status Register"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "Worded circuit: An engineer is using an ARM Cortex-M3. They need to rapidly flip a single specific bit in a peripheral register without using read-modify-write code. They write a full 32-bit word to a specific, separate \"alias\" memory region, which the hardware automatically translates into a single bit flip at the target address. This powerful Cortex-M feature is called:",
+        "choices": [
+            "A. Masking",
+            "B. Paging",
+            "C. Vectoring",
+            "D. Bit-banding"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "A digital input pin requires a logic HIGH (1) to register a button press. If the button connects the pin to VCC, what passive component must be wired to the pin to ensure it reads LOW (0) when the button is untouched?",
+        "choices": [
+            "A. A decoupling capacitor",
+            "B. A pull-down resistor to ground",
+            "C. A series inductor",
+            "D. An external crystal oscillator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "A 16-bit timer running at 8 MHz is configured for Fast PWM mode. The timer counts from 0 to a fixed \"Top\" value of 39,999, then resets. What is the fundamental frequency of the resulting PWM output signal?",
+        "choices": [
+            "A. 100 Hz",
+            "B. 500 Hz",
+            "C. 200 Hz",
+            "D. 1 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "A small, specialized piece of software permanently stored in a microcontroller's protected Flash memory that listens to a serial port (like USB or UART) upon reset, allowing new application firmware to be downloaded into the chip without needing an external hardware programmer, is called a:",
+        "choices": [
+            "A. Bootloader",
+            "B. Kernel",
+            "C. Device Driver",
+            "D. RTOS"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "Standardized across all ARM Cortex-M processors is a simple, 24-bit down-counting hardware timer explicitly designed to provide a periodic interrupt for RTOS context switching or general timekeeping. This timer is called the:",
+        "choices": [
+            "A. Watchdog Timer",
+            "B. Real-Time Clock (RTC)",
+            "C. SysTick Timer",
+            "D. Programmable Interval Timer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "Worded circuit: A modern 32-bit microcontroller operates internally at 120 MHz, but the physical crystal soldered to the PCB is only 8 MHz. The internal hardware subsystem responsible for multiplying the 8 MHz input up to the 120 MHz system clock is the:",
+        "choices": [
+            "A. Prescaler",
+            "B. Arithmetic Logic Unit (ALU)",
+            "C. Charge Pump",
+            "D. Phase-Locked Loop (PLL)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "To heavily conserve power, advanced microcontrollers separate their internal clock distribution into a high-speed core clock and slower peripheral clocks (e.g., APB1, APB2 in STM32). What must a programmer explicitly do before they can communicate with a peripheral module like a UART or ADC on these architectures?",
+        "choices": [
+            "A. Connect a separate power supply to the peripheral",
+            "B. Enable the specific clock signal routed to that peripheral module via a power control register",
+            "C. Send an initialization string",
+            "D. Tie the peripheral's ground pin"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "The ARM Cortex-M architecture generally stores 32-bit words in memory such that the least significant byte is stored at the lowest memory address. This specific byte-ordering scheme is universally known as:",
+        "choices": [
+            "A. Little-Endian",
+            "B. Big-Endian",
+            "C. Middle-Endian",
+            "D. Harvard-Endian"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "Because high-performance microcontroller CPUs (e.g., 100 MHz) run significantly faster than the access time of their internal Flash memory (typically around 30 MHz), the memory controller must insert what during instruction fetches to prevent crashing?",
+        "choices": [
+            "A. NOP instructions",
+            "B. Hardware interrupts",
+            "C. Branch predictions",
+            "D. Wait states"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "A microcontroller Watchdog Timer (WDT) is configured with a 1-second timeout. If the software successfully \"kicks\" the dog every 500 milliseconds, what happens?",
+        "choices": [
+            "A. The microcontroller resets after 1 second",
+            "B. The microcontroller resets after 1.5 seconds",
+            "C. The microcontroller never resets and continues executing normally",
+            "D. The WDT disables itself"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "What is a distinct operational advantage of EEPROM memory over standard Flash memory inside a microcontroller?",
+        "choices": [
+            "A. EEPROM has infinite read/write endurance",
+            "B. EEPROM can typically be erased and written at the single-byte level, whereas Flash must usually be erased in large blocks or pages",
+            "C. EEPROM executes code faster than Flash",
+            "D. EEPROM consumes less physical silicon area per bit"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "A 12-bit Digital-to-Analog Converter (DAC) has a reference voltage of 3.3V. If the digital input register is loaded with the decimal value 2048 (exactly mid-scale), what is the theoretical analog output voltage?",
+        "choices": [
+            "A. 1.65 V",
+            "B. 3.3 V",
+            "C. 0.825 V",
+            "D. 0.0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "Worded circuit: A microcontroller UART receives a byte. The hardware checks the line state exactly when the Stop Bit is supposed to arrive. If the line is read as a logic LOW (0) instead of the expected logic HIGH (1), the UART hardware will set a specific error flag. This error is known as a:",
+        "choices": [
+            "A. Parity Error",
+            "B. Overrun Error",
+            "C. Baud Error",
+            "D. Framing Error"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "In the SPI protocol, if Clock Polarity (CPOL) is set to 0, the idle state of the SCK line is LOW. If Clock Phase (CPHA) is set to 1, data is sampled on the trailing edge of the clock pulse. In this specific configuration, data is sampled on the:",
+        "choices": [
+            "A. Rising edge",
+            "B. Idle edge",
+            "C. Falling edge",
+            "D. High level"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 86,
+        "question": "The inherent, unavoidable error introduced by a microcontroller's ADC when converting a continuous, infinitely variable analog voltage into a discrete digital staircase value is formally called:",
+        "choices": [
+            "A. Offset Error",
+            "B. Quantization Error",
+            "C. Gain Error",
+            "D. Differential Non-Linearity (DNL)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "Worded circuit: An engineer builds an I2C sensor network but forgets to install the pull-up resistors on the SDA and SCL lines. When the microcontroller attempts to communicate, what electrical state will the bus lines remain in?",
+        "choices": [
+            "A. They will float unpredictably or remain stuck at logic LOW",
+            "B. They will remain stuck at logic HIGH",
+            "C. They will output a 1 MHz square wave",
+            "D. They will short the microcontroller to ground"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "Due to the limited size of the instruction opcode in early 8-bit PIC microcontrollers, the entire RAM cannot be addressed directly. To access variables in higher memory, the programmer must strictly manipulate specific hardware bits to switch the:",
+        "choices": [
+            "A. ROM page",
+            "B. Clock frequency",
+            "C. Interrupt vector",
+            "D. RAM Bank (using the STATUS register)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "The \"Thumb\" instruction set used in ARM microcontrollers was specifically designed to:",
+        "choices": [
+            "A. Increase floating-point math speed",
+            "B. Dramatically increase code density (reduce compiled program size) by using 16-bit wide instructions instead of 32-bit",
+            "C. Allow the CPU to run on 8-bit buses",
+            "D. Provide direct memory access capabilities"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "When a Real-Time Operating System (RTOS) running on a microcontroller decides to pause one task and start another, it must meticulously save all CPU registers of the paused task into RAM and load the registers of the new task. This intensive operation is known as a:",
+        "choices": [
+            "A. Page Fault",
+            "B. Interrupt Vectoring",
+            "C. Context Switch",
+            "D. Polling Event"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "Worded circuit: A mechanical button is connected to a microcontroller pin. When pressed, the metal contacts bounce, causing the microcontroller to register hundreds of false rapid presses. While this can be fixed in software, the most common purely passive hardware fix involves adding a:",
+        "choices": [
+            "A. High-power Zener diode",
+            "B. Ferrite bead",
+            "C. Series inductor",
+            "D. Resistor-Capacitor (RC) low-pass filter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "A microcontroller drives a DC motor using a PWM signal and a MOSFET. To increase the speed of the DC motor, the microcontroller firmware must:",
+        "choices": [
+            "A. Increase the PWM duty cycle",
+            "B. Increase the PWM frequency",
+            "C. Decrease the PWM duty cycle",
+            "D. Decrease the PWM frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 93,
+        "question": "A microcontroller timer is configured in \"Toggle on Compare Match\" mode. If the timer matches the compare register every 5 milliseconds, the output pin will toggle every 5 milliseconds. What is the fundamental frequency of the resulting square wave on the pin?",
+        "choices": [
+            "A. 200 Hz",
+            "B. 50 Hz",
+            "C. 100 Hz (10 ms period)",
+            "D. 10 Hz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "A typical 8-bit microcontroller I/O pin has an absolute maximum current rating (e.g., 20 mA). Exceeding this limit by connecting a high-power load directly to the pin will result in:",
+        "choices": [
+            "A. A software exception",
+            "B. Thermal destruction (burning out) of the internal pin driver transistors",
+            "C. The pin automatically tri-stating",
+            "D. The clock frequency dropping"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "In standard 7-bit I2C addressing, how many unique slave device addresses are theoretically possible on a single bus? (Ignoring reserved addresses).",
+        "choices": [
+            "A. 256",
+            "B. 65536",
+            "C. 1024",
+            "D. 128"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "Some advanced microcontrollers feature an External Memory Interface (EMI or FMC). To connect an external parallel SRAM chip to this interface, the microcontroller must sacrifice numerous GPIO pins to specifically provide:",
+        "choices": [
+            "A. A multiplexed Address and Data bus, along with Read/Write control strobes",
+            "B. High-voltage power rails",
+            "C. Multiple SPI clock lines",
+            "D. A dedicated USB connection"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "A microcontroller data logger writes to its internal Flash memory once every minute. If the Flash memory block has an endurance of 10,000 erase/write cycles, approximately how long will it take to wear out that specific block?",
+        "choices": [
+            "A. 10,000 minutes (about 7 hours)",
+            "B. 10,000 minutes (about 7 days)",
+            "C. 10 years",
+            "D. 1 year"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "ARM provides a standardized software interface layer for Cortex-M processors to ensure code portability across different manufacturers (like ST, NXP, Texas Instruments). This standard is known as:",
+        "choices": [
+            "A. POSIX",
+            "B. HAL (Hardware Abstraction Layer)",
+            "C. CMSIS (Cortex Microcontroller Software Interface Standard)",
+            "D. JNI (Java Native Interface)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "In the classic PIC16 microcontroller architecture, the internal oscillator frequency is divided by what integer factor to establish the basic instruction execution cycle time?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 8",
+            "D. 4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "Worded circuit: A microcontroller unexpectedly resets in the field. Upon rebooting, the firmware needs to determine why it reset. The programmer reads a specific internal hardware status register. Which flag in this register will explicitly indicate that the software froze and failed to clear the timer?",
+        "choices": [
+            "A. The Power-On Reset (POR) flag",
+            "B. The Brown-Out Reset (BOR) flag",
+            "C. The Watchdog Timer Reset (WDRF) flag",
+            "D. The External Pin Reset (EXTRF) flag"
+        ],
+        "correct_answer": "C"
+    }
+]

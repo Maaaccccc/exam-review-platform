@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "For a strictly causal and stable discrete-time LTI system, where must all poles of its transfer function H(z) be located?",
+        "choices": [
+            "A. Strictly inside the unit circle",
+            "B. On the unit circle",
+            "C. Strictly outside the unit circle",
+            "D. On the imaginary axis"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "To design a digital IIR notch filter that rejects exactly 60 Hz, transmission zeros must be placed on the unit circle at angles corresponding to:",
+        "choices": [
+            "A. DC",
+            "B. ± 60 Hz",
+            "C. Infinity",
+            "D. The Nyquist frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "A digital filter whose difference equation relies on past output values (feedback) is strictly classified as:",
+        "choices": [
+            "A. Non-causal",
+            "B. Non-recursive (FIR)",
+            "C. Infinite Impulse Response (IIR)",
+            "D. All-pass filter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "In the Bilinear Transformation, the entire left-half of the continuous-time s-plane maps to which region in the z-plane?",
+        "choices": [
+            "A. The entire upper half of the z-plane",
+            "B. The exterior of the unit circle",
+            "C. The positive real axis",
+            "D. The interior of the unit circle"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "The zero-input response of a linear constant-coefficient difference equation strictly corresponds to the system's:",
+        "choices": [
+            "A. Natural response (Transient)",
+            "B. Forced response",
+            "C. Steady-state response",
+            "D. Unit step response"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "An FIR filter can easily achieve strictly linear phase if its impulse response sequence h[n] is designed to be:",
+        "choices": [
+            "A. Infinite and exponentially decaying",
+            "B. Symmetrical or anti-symmetrical",
+            "C. Completely causal with all poles at z=1",
+            "D. Exactly matching a Butterworth polynomial"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "A discrete-time LTI system is bounded-input bounded-output (BIBO) stable if the Region of Convergence (ROC) of its transfer function explicitly includes the:",
+        "choices": [
+            "A. Origin (z = 0)",
+            "B. Real axis",
+            "C. Unit circle (",
+            "D. z"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 8,
+        "question": "For an Nth-order IIR system, how many delay elements (z^-1 blocks) are strictly required in a standard Direct Form II (canonical) realization?",
+        "choices": [
+            "A. 2N",
+            "B. N^2",
+            "C. 2N + 1",
+            "D. N"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "Which FIR windowing method yields the narrowest main lobe but has the poorest side-lobe attenuation?",
+        "choices": [
+            "A. Rectangular window",
+            "B. Hanning window",
+            "C. Blackman window",
+            "D. Kaiser window"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "The DC gain of a digital filter can be evaluated by substituting which exact value into the transfer function H(z)?",
+        "choices": [
+            "A. z = 0",
+            "B. z = 1",
+            "C. z = -1",
+            "D. z = infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "In a basic communication system, which fundamental element is positioned immediately after the transmitter and before the receiver?",
+        "choices": [
+            "A. Transducer",
+            "B. Modulator",
+            "C. Communication channel",
+            "D. Information source"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "Which of the following is the primary function of the receiver in a communication block diagram?",
+        "choices": [
+            "A. To generate the carrier frequency",
+            "B. To add noise to the signal to increase bandwidth",
+            "C. To convert the non-electrical signal into an electrical signal",
+            "D. To amplify, demodulate, and decode the received signal back to its original form"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "At the destination of a communication system, a device like a speaker or monitor that converts electrical signals back into a human-perceivable form is technically a(n):",
+        "choices": [
+            "A. Output transducer",
+            "B. Modulator",
+            "C. RF Amplifier",
+            "D. Envelope detector"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Which element in a communication system generates the original message or baseband signal that needs to be transmitted?",
+        "choices": [
+            "A. Transmitter",
+            "B. Information Source",
+            "C. Channel",
+            "D. Demodulator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "In a practical communication system, where is external noise (like atmospheric or cosmic noise) primarily introduced into the signal path?",
+        "choices": [
+            "A. At the information source",
+            "B. Inside the modulator",
+            "C. In the communication channel",
+            "D. At the destination transducer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "What are the two fundamental, most restrictive limitations placed on the performance of any electronic communication system?",
+        "choices": [
+            "A. Transmitter power and physical antenna size",
+            "B. Receiver sensitivity and selectivity",
+            "C. Modulation index and carrier frequency",
+            "D. Noise and channel bandwidth"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "What is the primary purpose of the transmitter in an electronic communication system?",
+        "choices": [
+            "A. To process the baseband signal and modulate it onto a higher-frequency carrier for efficient transmission",
+            "B. To decode the message back to baseband",
+            "C. To eliminate all thermal noise in the channel",
+            "D. To convert sound waves directly into electromagnetic waves without electrical conversion"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "A communication channel that utilizes a physical medium like a coaxial cable or optical fiber is classified as a:",
+        "choices": [
+            "A. Free-space channel",
+            "B. Guided transmission medium",
+            "C. Unguided transmission medium",
+            "D. Wireless channel"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Which process at the transmitter shifts the baseband signal's spectrum to a higher frequency range suitable for passband transmission?",
+        "choices": [
+            "A. Filtering",
+            "B. Demodulation",
+            "C. Modulation",
+            "D. Attenuation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "The inverse process of modulation, performed at the receiver to recover the original baseband signal, is known as:",
+        "choices": [
+            "A. Rectification",
+            "B. Multiplexing",
+            "C. Amplification",
+            "D. Demodulation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "In the standard radio frequency spectrum, the Very Low Frequency (VLF) band encompasses which frequency range?",
+        "choices": [
+            "A. 3 kHz to 30 kHz",
+            "B. 30 kHz to 300 kHz",
+            "C. 300 kHz to 3 MHz",
+            "D. 3 MHz to 30 MHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "The High Frequency (HF) band, often used for long-distance skywave communication, covers the range of:",
+        "choices": [
+            "A. 300 kHz to 3 MHz",
+            "B. 3 MHz to 30 MHz",
+            "C. 30 MHz to 300 MHz",
+            "D. 300 MHz to 3 GHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "The Very High Frequency (VHF) band is officially allocated across which frequencies?",
+        "choices": [
+            "A. 3 MHz to 30 MHz",
+            "B. 300 MHz to 3 GHz",
+            "C. 30 MHz to 300 MHz",
+            "D. 3 GHz to 30 GHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "Frequencies ranging strictly from 300 MHz to 3 GHz are designated by the ITU as the:",
+        "choices": [
+            "A. Super High Frequency (SHF) band",
+            "B. Very High Frequency (VHF) band",
+            "C. Extremely High Frequency (EHF) band",
+            "D. Ultra High Frequency (UHF) band"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "Calculate the approximate wavelength of a radio signal transmitting at exactly 150 MHz in free space.",
+        "choices": [
+            "A. 2 meters",
+            "B. 0.5 meters",
+            "C. 20 meters",
+            "D. 5 meters"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "If a microwave signal has a free-space wavelength of exactly 3 centimeters, what is its operating frequency?",
+        "choices": [
+            "A. 1 GHz",
+            "B. 10 GHz",
+            "C. 3 GHz",
+            "D. 100 GHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "According to the International Telecommunication Union (ITU), the Philippines is geographically located in which standard radio regulatory region?",
+        "choices": [
+            "A. Region 1",
+            "B. Region 2",
+            "C. Region 3",
+            "D. Region 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Which radio frequency band includes wavelengths that range from 1 millimeter to 10 millimeters, often utilized in advanced radar and 5G communications?",
+        "choices": [
+            "A. UHF (Ultra High Frequency)",
+            "B. VHF (Very High Frequency)",
+            "C. SHF (Super High Frequency)",
+            "D. EHF (Extremely High Frequency)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "Standard AM radio broadcasting in the Philippines predominantly utilizes which specific RF band?",
+        "choices": [
+            "A. Medium Frequency (MF)",
+            "B. High Frequency (HF)",
+            "C. Very High Frequency (VHF)",
+            "D. Low Frequency (LF)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Standard FM radio broadcasting globally generally falls within the bounds of which RF band?",
+        "choices": [
+            "A. High Frequency (HF)",
+            "B. Very High Frequency (VHF)",
+            "C. Ultra High Frequency (UHF)",
+            "D. Medium Frequency (MF)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "A radar system operates in the C-band. This typically corresponds to frequencies roughly in the range of:",
+        "choices": [
+            "A. 1 to 2 GHz",
+            "B. 2 to 4 GHz",
+            "C. 4 to 8 GHz",
+            "D. 8 to 12 GHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "The standard human voice frequency range utilized for telephone communication design (the voice channel passband) is typically limited to:",
+        "choices": [
+            "A. 20 Hz to 20 kHz",
+            "B. 0 Hz to 4 MHz",
+            "C. 100 Hz to 10 kHz",
+            "D. 300 Hz to 3.4 kHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "What is the absolute bandwidth of a communication channel that operates between a lower cutoff frequency of 88 MHz and an upper cutoff frequency of 108 MHz?",
+        "choices": [
+            "A. 20 MHz",
+            "B. 108 MHz",
+            "C. 88 MHz",
+            "D. 196 MHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "According to Hartley's Law, the information capacity of a communication system is directly proportional to:",
+        "choices": [
+            "A. The transmitter power and the distance squared",
+            "B. The system bandwidth and the transmission time",
+            "C. The noise figure and the signal-to-noise ratio",
+            "D. The carrier frequency and the modulation index"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "The Shannon-Hartley theorem states that the theoretical maximum information capacity (C) of a noisy channel is given by the formula:",
+        "choices": [
+            "A. C = B * log10(1 + S/N)",
+            "B. C = 2B * log2(M)",
+            "C. C = B * log2(1 + S/N)",
+            "D. C = B * ln(1 + S/N)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "What is the theoretical maximum channel capacity in bits per second (bps) for a channel with a bandwidth of 3 kHz and a Signal-to-Noise ratio of exactly 1 (which is 0 dB)?",
+        "choices": [
+            "A. 6000 bps",
+            "B. 0 bps",
+            "C. 1500 bps",
+            "D. 3000 bps"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "Calculate the Shannon capacity of a standard telephone channel with a bandwidth of 3.4 kHz and a signal-to-noise power ratio of 1000 (roughly 30 dB). (Assume log2(1001) ≈ 9.96)",
+        "choices": [
+            "A. 33,864 bps",
+            "B. 10,200 bps",
+            "C. 6,800 bps",
+            "D. 340,000 bps"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Nyquist's theorem for a noiseless channel states that the maximum bit rate for a channel of bandwidth B using an M-ary signaling scheme is:",
+        "choices": [
+            "A. C = B * log2(1 + S/N)",
+            "B. C = 2B * log2(M)",
+            "C. C = B * log10(M)",
+            "D. C = 2B * M"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "According to Nyquist, if you have a noiseless channel with a bandwidth of 4 kHz, what is the maximum possible bit rate if you use a 16-level (M=16) signaling scheme?",
+        "choices": [
+            "A. 16 kbps",
+            "B. 8 kbps",
+            "C. 32 kbps",
+            "D. 64 kbps"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "In digital communications, what term describes the fundamental rate at which the signal state (or symbols) changes on the transmission medium?",
+        "choices": [
+            "A. Bit rate",
+            "B. Nyquist rate",
+            "C. Information capacity",
+            "D. Baud rate"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "If a digital transmission system has a baud rate of 2400 symbols per second and uses 8-PSK (which has 8 distinct phases), what is the effective bit rate?",
+        "choices": [
+            "A. 7200 bps",
+            "B. 2400 bps",
+            "C. 4800 bps",
+            "D. 19200 bps"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "What does the term \"Baseband transmission\" mean in communication systems?",
+        "choices": [
+            "A. The signal is transmitted entirely via skywaves",
+            "B. The original information signal is transmitted directly without shifting its frequencies to a higher carrier",
+            "C. The signal is strictly digital and contains no analog components",
+            "D. The signal is modulated onto a very high frequency carrier before transmission"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Which of the following is a classic example of purely baseband transmission?",
+        "choices": [
+            "A. A standard FM radio broadcast",
+            "B. A satellite TV link",
+            "C. Sending digital pulses directly over a local Ethernet cable (e.g., 10Base-T)",
+            "D. A 5G cellular phone call"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "\"Passband transmission\" (or broadband transmission) inherently requires which mathematical signal processing step at the transmitter?",
+        "choices": [
+            "A. Quantization",
+            "B. Analog-to-Digital Conversion",
+            "C. Rectification",
+            "D. Modulation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "One of the primary reasons for shifting a baseband signal to a passband frequency (via modulation) is to:",
+        "choices": [
+            "A. Reduce the required physical size of the transmitting antenna",
+            "B. Eliminate all thermal noise in the receiver",
+            "C. Decrease the speed of the electromagnetic wave",
+            "D. Make the signal inherently digital"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "Frequency Division Multiplexing (FDM) allows multiple users to share a single physical medium. FDM fundamentally relies on which transmission mode?",
+        "choices": [
+            "A. Strictly baseband transmission",
+            "B. Passband transmission (modulating signals to different carrier frequencies)",
+            "C. Time Division Multiplexing",
+            "D. Simplex baseband signaling"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "In power measurements, the decibel (dB) is fundamentally a measure of:",
+        "choices": [
+            "A. Absolute voltage",
+            "B. Absolute power",
+            "C. A relative ratio between two power or voltage levels",
+            "D. The frequency bandwidth of a signal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "The mathematical formula for calculating the power gain or loss in decibels (dB) given input power Pin and output power Pout is:",
+        "choices": [
+            "A. 20 log10(Pout / Pin)",
+            "B. 10 ln(Pout / Pin)",
+            "C. 20 ln(Pout / Pin)",
+            "D. 10 log10(Pout / Pin)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "If the output power of an amplifier is exactly twice its input power, the power gain in decibels is approximately:",
+        "choices": [
+            "A. 3 dB",
+            "B. 6 dB",
+            "C. 10 dB",
+            "D. 2 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "If an amplifier has a voltage gain of exactly 10, what is its gain in decibels (dB), assuming input and output impedances are identical?",
+        "choices": [
+            "A. 10 dB",
+            "B. 20 dB",
+            "C. 100 dB",
+            "D. 3 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "The unit \"dBm\" is an absolute power measurement referenced to:",
+        "choices": [
+            "A. 1 Watt",
+            "B. 1 microWatt",
+            "C. 1 milliWatt",
+            "D. 1 Volt"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "A transmitter outputs an absolute power of exactly 1 Watt. What is this power level expressed in dBm?",
+        "choices": [
+            "A. 0 dBm",
+            "B. 10 dBm",
+            "C. 20 dBm",
+            "D. 30 dBm"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "Convert an absolute power level of 0 dBW (decibel-Watts) into the equivalent dBm value.",
+        "choices": [
+            "A. 30 dBm",
+            "B. 0 dBm",
+            "C. 10 dBm",
+            "D. 100 dBm"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "A receiver specifies a minimum sensitivity of -100 dBm. Convert this absolute power level into Watts.",
+        "choices": [
+            "A. 10 picoWatts",
+            "B. 0.1 picoWatts",
+            "C. 1 nanoWatt",
+            "D. 0.1 microWatts"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "In a cascaded communication system, an amplifier with a gain of +20 dB is followed by a cable with a loss of 5 dB (-5 dB), and then another amplifier with a gain of +15 dB. What is the total system gain in dB?",
+        "choices": [
+            "A. 300 dB",
+            "B. 150 dB",
+            "C. +30 dB",
+            "D. +40 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "If a signal enters the cascaded system from the previous question (total gain +30 dB) at an absolute power level of 0 dBm, what is the absolute output power?",
+        "choices": [
+            "A. 30 Watts",
+            "B. 1 Watt (0 dBW)",
+            "C. 30 mW",
+            "D. 30 dBm (or 1 Watt)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "The unit \"dBuV\" is commonly used in receiver measurements. It expresses a voltage level referenced to:",
+        "choices": [
+            "A. 1 microVolt",
+            "B. 1 milliVolt",
+            "C. 1 Volt",
+            "D. 1 nanoVolt"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "If you combine the output of two separate, non-coherent 10-Watt transmitters into a single ideal antenna, what is the total resulting power in dBW?",
+        "choices": [
+            "A. 20 dBW",
+            "B. 13 dBW",
+            "C. 10 dBW",
+            "D. 100 dBW"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "A negative dBm value (e.g., -20 dBm) explicitly indicates that the absolute power level is:",
+        "choices": [
+            "A. Mathematically imaginary",
+            "B. Less than 0 Watts",
+            "C. Less than 1 milliWatt",
+            "D. Below the absolute thermal noise floor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "A 50-ohm system measures a signal voltage of exactly 1 microVolt. What is this voltage expressed in dBuV?",
+        "choices": [
+            "A. -10 dBuV",
+            "B. 10 dBuV",
+            "C. 1 dBuV",
+            "D. 0 dBuV"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "Which mode of transmission allows communication in only one direction, with no capability for the receiver to reply?",
+        "choices": [
+            "A. Simplex",
+            "B. Half-Duplex",
+            "C. Full-Duplex",
+            "D. Multiplex"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "A standard FM radio broadcast from a station to your car radio is a classic example of which transmission mode?",
+        "choices": [
+            "A. Full-Duplex",
+            "B. Simplex",
+            "C. Half-Duplex",
+            "D. Baseband"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "In which mode of transmission can communication occur in both directions, but strictly only one direction at a time?",
+        "choices": [
+            "A. Simplex",
+            "B. Full-Duplex",
+            "C. Half-Duplex",
+            "D. Asynchronous"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "A standard push-to-talk \"walkie-talkie\" or two-way radio operates using which transmission mode?",
+        "choices": [
+            "A. Simplex",
+            "B. Full-Duplex",
+            "C. Broadcast",
+            "D. Half-Duplex"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "Which mode of transmission allows simultaneous two-way communication, enabling both parties to transmit and receive at the exact same time?",
+        "choices": [
+            "A. Full-Duplex",
+            "B. Half-Duplex",
+            "C. Simplex",
+            "D. Baseband"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "A standard cellular phone call or landline telephone conversation inherently utilizes which mode of transmission?",
+        "choices": [
+            "A. Half-Duplex",
+            "B. Full-Duplex",
+            "C. Simplex",
+            "D. Time-Division Simplex"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Full-Duplex systems often utilize Frequency Division Duplexing (FDD) to achieve simultaneous two-way communication. What does FDD do?",
+        "choices": [
+            "A. It allocates different time slots for transmit and receive",
+            "B. It alternates the direction of transmission randomly",
+            "C. It allocates entirely separate frequency bands for the uplink and downlink",
+            "D. It uses a single frequency but encrypts the signals differently"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Alternatively, Time Division Duplexing (TDD) achieves full-duplex functionality by:",
+        "choices": [
+            "A. Using entirely separate frequency bands for transmit and receive",
+            "B. Sending all data simultaneously on one frequency using orthogonal codes",
+            "C. Using separate physical cables for transmit and receive",
+            "D. Rapidly alternating transmit and receive time slots on the exact same frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "The specific time required for a half-duplex system to switch its circuitry from receive mode to transmit mode (and vice-versa) is known as the:",
+        "choices": [
+            "A. Turnaround time",
+            "B. Propagation delay",
+            "C. Latency",
+            "D. Group delay"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "An Ethernet network connected via a modern network switch typically allows devices to send and receive data packets simultaneously. This connection is operating in:",
+        "choices": [
+            "A. Half-Duplex",
+            "B. Full-Duplex",
+            "C. Simplex",
+            "D. Carrier Sense Multiple Access"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "What happens to the Shannon channel capacity if the available channel bandwidth is hypothetically doubled, while the signal and noise powers remain constant?",
+        "choices": [
+            "A. It increases by a factor of 4",
+            "B. It remains exactly the same",
+            "C. It increases, but not necessarily doubled due to the logarithmic term",
+            "D. It exactly doubles"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "As the bandwidth B approaches infinity, the Shannon capacity C of a channel with additive white Gaussian noise does not reach infinity, but instead approaches a theoretical limit proportional to:",
+        "choices": [
+            "A. The transmitter's physical size",
+            "B. The square root of the signal power",
+            "C. The logarithm of the noise power",
+            "D. 1.44 * (Signal Power / Noise Power Spectral Density)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "Convert an absolute power of 2 Watts into dBm.",
+        "choices": [
+            "A. +33 dBm",
+            "B. +30 dBm",
+            "C. +3 dBm",
+            "D. +20 dBm"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "Convert -30 dBW to dBm.",
+        "choices": [
+            "A. +10 dBm",
+            "B. 0 dBm",
+            "C. -30 dBm",
+            "D. -60 dBm"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "If the voltage of a signal is halved (divided by 2), the corresponding change in decibels is approximately:",
+        "choices": [
+            "A. -3 dB",
+            "B. +6 dB",
+            "C. -6 dB",
+            "D. -10 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "In a spectrum analyzer, the noise floor is often given in dBm/Hz. This measurement is an expression of:",
+        "choices": [
+            "A. Voltage",
+            "B. Absolute power",
+            "C. Relative power gain",
+            "D. Power spectral density"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "A transmission line has a power loss of 10 dB. If exactly 10 Watts is injected at the input, what is the absolute power at the output?",
+        "choices": [
+            "A. 1 Watt",
+            "B. 0 dBW",
+            "C. 10 dBm",
+            "D. 0.1 Watts"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "Which component in the receiver block diagram is directly responsible for isolating the desired frequency band from all the other signals picked up by the antenna?",
+        "choices": [
+            "A. The audio amplifier",
+            "B. The RF bandpass filter or tuner",
+            "C. The demodulator",
+            "D. The local oscillator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "Which of the following equations correctly relates bit rate (fb) and baud rate (fs) in a digital modulation scheme with M states?",
+        "choices": [
+            "A. fs = fb * log2(M)",
+            "B. fb = fs / M",
+            "C. fb = fs * log2(M)",
+            "D. fb = fs * 2M"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "If an amplifier increases a 2 mV input signal to a 2 V output signal across the same impedance, what is its voltage gain in dB?",
+        "choices": [
+            "A. 30 dB",
+            "B. 20 dB",
+            "C. 40 dB",
+            "D. 60 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "Which of the following best defines the term \"Spectrum Management\" in communication systems?",
+        "choices": [
+            "A. The administrative process of regulating and allocating the RF spectrum to avoid interference",
+            "B. The physical design of wideband antennas",
+            "C. The mathematical analysis of a signal's frequency components",
+            "D. The method of adding noise to a channel to secure it"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "In the Philippines, the government agency strictly responsible for spectrum management and allocating radio frequencies is the:",
+        "choices": [
+            "A. IEEE",
+            "B. NTC (National Telecommunications Commission)",
+            "C. FCC",
+            "D. KBP"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "An analog signal has a continuous range of values, whereas a digital signal:",
+        "choices": [
+            "A. Is strictly confined to baseband frequencies",
+            "B. Cannot be transmitted over radio waves",
+            "C. Takes on only a discrete, finite set of values",
+            "D. Has infinite bandwidth"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "A fundamental trade-off in communication systems theory, as derived from the Hartley-Shannon law, allows a designer to trade bandwidth for:",
+        "choices": [
+            "A. Carrier frequency",
+            "B. Simplex operation",
+            "C. Transducer size",
+            "D. Signal-to-noise ratio (Power)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "What is the absolute power in Watts of a signal that measures +40 dBm?",
+        "choices": [
+            "A. 10 Watts",
+            "B. 40 Watts",
+            "C. 100 Watts",
+            "D. 1000 Watts"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "A signal-to-noise ratio (SNR) of 20 dB corresponds to a linear power ratio of:",
+        "choices": [
+            "A. 20",
+            "B. 100",
+            "C. 10",
+            "D. 200"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "If a receiver's total internal noise is measured as 1 microWatt, and the desired signal received is 1 milliWatt, what is the signal-to-noise ratio in dB?",
+        "choices": [
+            "A. 10 dB",
+            "B. 20 dB",
+            "C. 30 dB",
+            "D. 40 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "In terms of communication system structure, a \"transceiver\" is a device that:",
+        "choices": [
+            "A. Only transmits data",
+            "B. Only receives data",
+            "C. Translates frequencies",
+            "D. Combines both a transmitter and a receiver in a single unit"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "The \"Baseband\" of a composite video signal, before any RF modulation, spans roughly:",
+        "choices": [
+            "A. 0 to 4.5 MHz (or 6 MHz depending on standard)",
+            "B. 54 MHz to 60 MHz",
+            "C. 88 MHz to 108 MHz",
+            "D. 2.4 GHz to 2.5 GHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "What is the primary operational advantage of passband transmission over baseband transmission in wireless applications?",
+        "choices": [
+            "A. It requires less bandwidth",
+            "B. It allows for Frequency Division Multiplexing (FDM) and reduces required antenna size",
+            "C. It completely eliminates the need for filters",
+            "D. It makes the signal immune to thermal noise"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "If you modulate a 5 kHz baseband audio signal onto a 1 MHz AM carrier, the resulting signal spans from 995 kHz to 1005 kHz. This resulting signal is strictly classified as a:",
+        "choices": [
+            "A. Multiplexed baseband signal",
+            "B. Unmodulated signal",
+            "C. Passband (or RF) signal",
+            "D. Digital baseband signal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Two identical antennas receive the exact same signal. Antenna 1 outputs 10 uW. Antenna 2 has a better gain and outputs 20 uW. What is the power difference between Antenna 2 and Antenna 1 expressed in dB?",
+        "choices": [
+            "A. 2 dB",
+            "B. 10 dB",
+            "C. 6 dB",
+            "D. 3 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "The absolute threshold of hearing for humans is generally referenced to an acoustic intensity corresponding to a specific sound pressure level. In RF electrical power, what absolute power level does 0 dBW represent?",
+        "choices": [
+            "A. 1 Watt",
+            "B. 1 milliWatt",
+            "C. 0 Watts",
+            "D. 10 Watts"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "A standard RS-232 serial cable connects a computer to a device, transmitting bits sequentially as voltage levels without a carrier. This is a form of:",
+        "choices": [
+            "A. Passband transmission",
+            "B. Baseband transmission",
+            "C. Frequency-modulated transmission",
+            "D. Broadband transmission"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "For a strictly baseband digital transmission system utilizing NRZ (Non-Return to Zero) line coding at 10 Mbps, the bulk of the signal's spectral energy is concentrated:",
+        "choices": [
+            "A. At exactly 10 MHz",
+            "B. At exactly 5 MHz",
+            "C. Around DC (0 Hz) up to the bit rate",
+            "D. Around a very high carrier frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "The theoretical minimum bandwidth required to transmit baseband pulses at a rate of R pulses per second without Inter-Symbol Interference (ISI) is mathematically defined as:",
+        "choices": [
+            "A. R",
+            "B. 2R",
+            "C. R/4",
+            "D. R/2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "If a passband signal occupies the frequency range from 2.400 GHz to 2.420 GHz, what is the absolute bandwidth of the channel?",
+        "choices": [
+            "A. 20 MHz",
+            "B. 2.4 GHz",
+            "C. 40 MHz",
+            "D. 2.42 GHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "In an ideal, noiseless channel with a bandwidth of 10 MHz, using a simple binary (M=2) baseband transmission scheme, what is the maximum achievable bit rate according to Nyquist?",
+        "choices": [
+            "A. 10 Mbps",
+            "B. 20 Mbps",
+            "C. 40 Mbps",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "A communication link is established with a received signal power of -60 dBm and a noise floor of -80 dBm. What is the Signal-to-Noise Ratio (SNR) in dB?",
+        "choices": [
+            "A. 140 dB",
+            "B. -140 dB",
+            "C. 20 dB",
+            "D. -20 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "Which of the following is NOT typically considered a fundamental component of the generic communication system model?",
+        "choices": [
+            "A. Channel",
+            "B. Receiver",
+            "C. Transmitter",
+            "D. Cryptocurrency ledger"
+        ],
+        "correct_answer": "D"
+    }
+]

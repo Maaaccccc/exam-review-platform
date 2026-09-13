@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "Which of the following defines the imaginary unit in complex numbers?",
+        "choices": [
+            "A. sqrt(-1)",
+            "B. sqrt(1)",
+            "C. -1",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "What is the complex conjugate of a complex number a + bi?",
+        "choices": [
+            "A. a + bi",
+            "B. a - bi",
+            "C. -a + bi",
+            "D. -a - bi"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Evaluate the sum of the complex numbers (2 + 3i) and (1 - 4i).",
+        "choices": [
+            "A. 3 + i",
+            "B. 1 - i",
+            "C. 3 - i",
+            "D. 1 + i"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "What is the polar form of the complex number 1 + i?",
+        "choices": [
+            "A. 2 cis 45°",
+            "B. sqrt(2) cis 90°",
+            "C. 2 cis 90°",
+            "D. sqrt(2) cis 45°"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "Evaluate the expression (1 + i)^2.",
+        "choices": [
+            "A. 2i",
+            "B. -2i",
+            "C. 2",
+            "D. -2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "What are the roots of the quadratic equation x^2 + 1 = 0?",
+        "choices": [
+            "A. 1, -1",
+            "B. i, -i",
+            "C. 1, i",
+            "D. -1, -i"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "According to Euler's formula, what is the value of e^(i*pi)?",
+        "choices": [
+            "A. 1",
+            "B. i",
+            "C. -1",
+            "D. -i"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "What is the principal value of the natural logarithm of i, ln(i)?",
+        "choices": [
+            "A. pi/2",
+            "B. i(pi)",
+            "C. -i(pi/2)",
+            "D. i(pi/2)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "Which principle states that if one event can occur in m ways and another independent event in n ways, the two can occur in m*n ways?",
+        "choices": [
+            "A. Fundamental Counting Principle",
+            "B. Principle of Inclusion-Exclusion",
+            "C. Pigeonhole Principle",
+            "D. Addition Principle"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "When is the Addition Principle of counting appropriately applied?",
+        "choices": [
+            "A. When events occur simultaneously",
+            "B. When events are mutually exclusive",
+            "C. When events are dependent",
+            "D. When dealing with permutations"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "If a student has 3 different shirts and 4 different pants, how many unique outfits can be formed?",
+        "choices": [
+            "A. 7",
+            "B. 10",
+            "C. 12",
+            "D. 14"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "How many ways can a person travel from City A to City C if there are 3 routes from A to B and 2 routes from B to C?",
+        "choices": [
+            "A. 3",
+            "B. 5",
+            "C. 8",
+            "D. 6"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "If a fair coin is tossed 4 times, how many possible outcomes are there in the sample space?",
+        "choices": [
+            "A. 16",
+            "B. 8",
+            "C. 12",
+            "D. 24"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "When two standard six-sided dice are rolled simultaneously, how many possible outcomes exist?",
+        "choices": [
+            "A. 12",
+            "B. 36",
+            "C. 24",
+            "D. 48"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "How many passwords can be made using 3 English letters followed by 2 digits if repetition is allowed?",
+        "choices": [
+            "A. 1,500,000",
+            "B. 1,250,000",
+            "C. 1,757,600",
+            "D. 1,800,000"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "How many passwords can be made using 3 English letters followed by 2 digits if repetition is strictly not allowed?",
+        "choices": [
+            "A. 1,757,600",
+            "B. 1,200,000",
+            "C. 1,560,000",
+            "D. 1,404,000"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "What is the mathematical value of 0! (zero factorial)?",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. Undefined",
+            "D. Infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "How is the factorial of a positive integer n defined mathematically?",
+        "choices": [
+            "A. Sum of integers up to n",
+            "B. Product of all positive integers up to n",
+            "C. Product of all prime numbers up to n",
+            "D. Square of n"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Calculate the exact numerical value of 5!.",
+        "choices": [
+            "A. 60",
+            "B. 100",
+            "C. 120",
+            "D. 150"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Evaluate the factorial expression: 6! / 4!.",
+        "choices": [
+            "A. 15",
+            "B. 20",
+            "C. 25",
+            "D. 30"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "Which of the following describes an arrangement of objects where the order is strictly important?",
+        "choices": [
+            "A. Permutation",
+            "B. Combination",
+            "C. Partition",
+            "D. Intersection"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "What is the standard formula for the number of permutations of n distinct objects taken r at a time, P(n,r)?",
+        "choices": [
+            "A. n! / r!",
+            "B. n! / (n-r)!",
+            "C. n! / (r!(n-r)!)",
+            "D. (n-r)! / n!"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "What is the formula for the number of circular permutations of n distinct objects?",
+        "choices": [
+            "A. n!",
+            "B. n! / 2",
+            "C. (n-1)!",
+            "D. (n-1)! / 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "What is the formula for the number of permutations of n distinct objects arranged in a ring (where clockwise and counterclockwise are indistinguishable)?",
+        "choices": [
+            "A. n!",
+            "B. (n-1)!",
+            "C. n! / 2",
+            "D. (n-1)! / 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "Calculate the value of P(5,3).",
+        "choices": [
+            "A. 60",
+            "B. 20",
+            "C. 120",
+            "D. 15"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "Calculate the value of P(6,2).",
+        "choices": [
+            "A. 15",
+            "B. 30",
+            "C. 60",
+            "D. 120"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "In how many ways can 5 distinct books be arranged on a horizontal shelf?",
+        "choices": [
+            "A. 24",
+            "B. 60",
+            "C. 120",
+            "D. 720"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "In how many different ways can 4 people be seated around a circular table?",
+        "choices": [
+            "A. 24",
+            "B. 12",
+            "C. 8",
+            "D. 6"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "How many ways can 5 distinct keys be arranged on a circular key ring?",
+        "choices": [
+            "A. 12",
+            "B. 24",
+            "C. 60",
+            "D. 120"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "How many distinct permutations can be formed using all the letters in the word \"MATH\"?",
+        "choices": [
+            "A. 12",
+            "B. 24",
+            "C. 48",
+            "D. 64"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "How many distinct permutations can be formed using all the letters in the word \"BOOK\"?",
+        "choices": [
+            "A. 24",
+            "B. 18",
+            "C. 12",
+            "D. 6"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "How many distinct permutations can be formed using all the letters in the word \"BEEF\"?",
+        "choices": [
+            "A. 24",
+            "B. 18",
+            "C. 6",
+            "D. 12"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "How many distinct permutations can be formed using all the letters in the word \"MISSISSIPPI\"?",
+        "choices": [
+            "A. 34,650",
+            "B. 39,916,800",
+            "C. 3,150",
+            "D. 100,500"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "How many distinct permutations can be formed using all the letters in the word \"ENGINEERING\"?",
+        "choices": [
+            "A. 100,000",
+            "B. 277,200",
+            "C. 150,500",
+            "D. 39,916,800"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "In how many ways can 6 people be seated around a circular table if two specific people insist on sitting next to each other?",
+        "choices": [
+            "A. 24",
+            "B. 72",
+            "C. 48",
+            "D. 120"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "In how many ways can 6 people be seated around a circular table if two specific people refuse to sit next to each other?",
+        "choices": [
+            "A. 48",
+            "B. 120",
+            "C. 96",
+            "D. 72"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "In how many ways can 4 boys and 3 girls be arranged in a row if all 3 girls must sit strictly together?",
+        "choices": [
+            "A. 720",
+            "B. 5040",
+            "C. 144",
+            "D. 48"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "In how many ways can 4 boys and 3 girls be arranged in a row if they must alternate (no two boys and no two girls sit together)?",
+        "choices": [
+            "A. 720",
+            "B. 144",
+            "C. 48",
+            "D. 288"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Using the digits 1, 2, 3, 4, 5 without repetition, how many 3-digit even numbers can be formed?",
+        "choices": [
+            "A. 12",
+            "B. 18",
+            "C. 24",
+            "D. 60"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "Using the digits 1, 2, 3, 4, 5 without repetition, how many 3-digit odd numbers can be formed?",
+        "choices": [
+            "A. 18",
+            "B. 24",
+            "C. 30",
+            "D. 36"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "What is the number of ways to arrange n distinct objects in a row?",
+        "choices": [
+            "A. n!",
+            "B. n",
+            "C. n^2",
+            "D. (n-1)!"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "What is the mathematical equivalent of P(n,n)?",
+        "choices": [
+            "A. n",
+            "B. n!",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "What is the numerical value of P(7,0)?",
+        "choices": [
+            "A. 0",
+            "B. 7",
+            "C. 1",
+            "D. Undefined"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "If P(n,2) = 20, what is the value of n?",
+        "choices": [
+            "A. 3",
+            "B. 4",
+            "C. 6",
+            "D. 5"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "How many distinct permutations can be formed using all the letters in the word \"STATISTICS\"?",
+        "choices": [
+            "A. 50,400",
+            "B. 100,800",
+            "C. 25,200",
+            "D. 3,628,800"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "Which of the following describes a selection of objects where the order is completely irrelevant?",
+        "choices": [
+            "A. Permutation",
+            "B. Combination",
+            "C. Variation",
+            "D. Arrangement"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "What is the standard formula for the number of combinations of n distinct objects taken r at a time, C(n,r)?",
+        "choices": [
+            "A. n! / (n-r)!",
+            "B. n! / r!",
+            "C. n! / (r!(n-r)!)",
+            "D. r! / (n!(n-r)!)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "What is the mathematical value of C(n,0)?",
+        "choices": [
+            "A. 0",
+            "B. n",
+            "C. n!",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "What is the mathematical value of C(n,n)?",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. n",
+            "D. n!"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "What is the mathematical value of C(n,1)?",
+        "choices": [
+            "A. 1",
+            "B. n",
+            "C. n!",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Calculate the exact numerical value of C(5,2).",
+        "choices": [
+            "A. 5",
+            "B. 20",
+            "C. 10",
+            "D. 15"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "Calculate the exact numerical value of C(6,3).",
+        "choices": [
+            "A. 15",
+            "B. 18",
+            "C. 120",
+            "D. 20"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "In how many ways can a teacher select a group of 3 students from a class of 10 students?",
+        "choices": [
+            "A. 120",
+            "B. 720",
+            "C. 90",
+            "D. 60"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "If 8 people attend a meeting and every person shakes hands exactly once with every other person, how many handshakes occur?",
+        "choices": [
+            "A. 56",
+            "B. 28",
+            "C. 16",
+            "D. 64"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "How many diagonals can be drawn in a regular hexagon?",
+        "choices": [
+            "A. 6",
+            "B. 12",
+            "C. 9",
+            "D. 15"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "How many diagonals can be drawn in a regular octagon?",
+        "choices": [
+            "A. 16",
+            "B. 24",
+            "C. 28",
+            "D. 20"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "How many distinct triangles can be formed by connecting 5 non-collinear points on a plane?",
+        "choices": [
+            "A. 10",
+            "B. 20",
+            "C. 5",
+            "D. 15"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "How many distinct straight lines can be drawn through 6 non-collinear points on a plane?",
+        "choices": [
+            "A. 30",
+            "B. 15",
+            "C. 12",
+            "D. 20"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "In how many ways can a committee of 3 men and 2 women be chosen from a group of 5 men and 4 women?",
+        "choices": [
+            "A. 120",
+            "B. 45",
+            "C. 60",
+            "D. 90"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "In how many ways can a committee of 4 be chosen from 6 men and 5 women if it must contain exactly 2 men?",
+        "choices": [
+            "A. 75",
+            "B. 100",
+            "C. 120",
+            "D. 150"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "Which formula represents the number of combinations of n distinct types of objects taken r at a time with repetition allowed?",
+        "choices": [
+            "A. C(n+r-1, r)",
+            "B. C(n+r, r)",
+            "C. C(n, r)",
+            "D. P(n+r-1, r)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "How many ways can a person buy 5 scoops of ice cream if there are 3 distinct flavors available and repetition is allowed?",
+        "choices": [
+            "A. 15",
+            "B. 21",
+            "C. 35",
+            "D. 10"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "In how many distinct ways can 10 identical apples be distributed among 3 children?",
+        "choices": [
+            "A. 45",
+            "B. 55",
+            "C. 66",
+            "D. 78"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "How many total subsets can be formed from a set containing exactly 5 distinct elements?",
+        "choices": [
+            "A. 10",
+            "B. 25",
+            "C. 120",
+            "D. 32"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "How many proper subsets can be formed from a set containing exactly 4 distinct elements?",
+        "choices": [
+            "A. 15",
+            "B. 16",
+            "C. 14",
+            "D. 8"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "If the combination C(n,2) equals 15, what is the integer value of n?",
+        "choices": [
+            "A. 5",
+            "B. 6",
+            "C. 7",
+            "D. 8"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Which of the following combinatorial identities is strictly true for all valid integers n and r?",
+        "choices": [
+            "A. C(n,r) = P(n,r)",
+            "B. C(n,r) = C(r,n)",
+            "C. C(n,r) = C(n, n-r)",
+            "D. C(n,r) = 1/P(n,r)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Evaluate the combination C(10,8).",
+        "choices": [
+            "A. 90",
+            "B. 100",
+            "C. 55",
+            "D. 45"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "How many ways can a committee of 5 be formed from 7 men and 6 women if the committee must include at least 1 woman?",
+        "choices": [
+            "A. 1266",
+            "B. 1287",
+            "C. 1250",
+            "D. 1240"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "How many non-negative integer solutions exist for the algebraic equation x + y + z = 8?",
+        "choices": [
+            "A. 21",
+            "B. 45",
+            "C. 36",
+            "D. 28"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "How many strictly positive integer solutions exist for the algebraic equation x + y + z = 8?",
+        "choices": [
+            "A. 45",
+            "B. 36",
+            "C. 21",
+            "D. 15"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "What is the mathematical relationship between P(n,r) and C(n,r)?",
+        "choices": [
+            "A. C(n,r) = r! P(n,r)",
+            "B. P(n,r) = C(n,r) / r!",
+            "C. P(n,r) = C(n,r)",
+            "D. P(n,r) = r! C(n,r)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "If P(5,r) = 60, what is the exact value of r?",
+        "choices": [
+            "A. 3",
+            "B. 4",
+            "C. 2",
+            "D. 5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "If C(8,r) = 28 and r > 3, what is the exact value of r?",
+        "choices": [
+            "A. 4",
+            "B. 6",
+            "C. 5",
+            "D. 7"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "If 5 cards are drawn from a standard deck of 52 cards, in how many ways can they all be hearts?",
+        "choices": [
+            "A. 2598960",
+            "B. 1024",
+            "C. 1287",
+            "D. 5148"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "In the expansion of the binomial (x + y)^n, how many distinct terms are there?",
+        "choices": [
+            "A. n",
+            "B. n-1",
+            "C. n^2",
+            "D. n+1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "What is the exact sum of all binomial coefficients in the expansion of (x + y)^n?",
+        "choices": [
+            "A. 2^n",
+            "B. n^2",
+            "C. 2n",
+            "D. n!"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "What is the general r-th term in the binomial expansion of (x + y)^n, starting from k=0?",
+        "choices": [
+            "A. C(n,k) x^k y^(n-k)",
+            "B. C(n,k) x^(n-k) y^k",
+            "C. P(n,k) x^(n-k) y^k",
+            "D. C(n,k) x^(n+k) y^(n-k)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "Which mathematical array of numbers directly provides the coefficients for binomial expansion?",
+        "choices": [
+            "A. Fibonacci sequence",
+            "B. Euler's array",
+            "C. Pascal's triangle",
+            "D. Gauss's matrix"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "How many distinct terms are generated in the full expansion of (x + y)^10?",
+        "choices": [
+            "A. 9",
+            "B. 10",
+            "C. 12",
+            "D. 11"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "What is the exact sum of the coefficients in the full expansion of (x + y)^5?",
+        "choices": [
+            "A. 32",
+            "B. 16",
+            "C. 64",
+            "D. 10"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "What is the specific coefficient of the term containing x^2 y^2 in the expansion of (x + y)^4?",
+        "choices": [
+            "A. 4",
+            "B. 6",
+            "C. 8",
+            "D. 12"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "Identify the completely simplified 3rd term in the binomial expansion of (x + y)^4.",
+        "choices": [
+            "A. 4x^3y",
+            "B. 4xy^3",
+            "C. 6x^2y^2",
+            "D. y^4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "Identify the completely simplified 2nd term in the binomial expansion of (a + b)^5.",
+        "choices": [
+            "A. 10a^3b^2",
+            "B. 10a^2b^3",
+            "C. 5ab^4",
+            "D. 5a^4b"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "What is the specific numerical coefficient of x^3 in the expansion of (1 + x)^5?",
+        "choices": [
+            "A. 10",
+            "B. 5",
+            "C. 15",
+            "D. 20"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Which term represents the exact geometric middle term in the expansion of (x + y)^6?",
+        "choices": [
+            "A. 3rd term",
+            "B. 4th term",
+            "C. 5th term",
+            "D. 2nd term"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "What is the exact sum of the algebraic coefficients in the expansion of (2x - y)^3?",
+        "choices": [
+            "A. 8",
+            "B. -1",
+            "C. 1",
+            "D. 27"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "What is the exact sum of the algebraic coefficients in the expansion of (3x - 2y)^4?",
+        "choices": [
+            "A. 16",
+            "B. -1",
+            "C. 5",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "Identify the completely simplified 4th term in the expansion of (2x - y)^5.",
+        "choices": [
+            "A. -40x^2y^3",
+            "B. 40x^2y^3",
+            "C. -80x^2y^3",
+            "D. 80x^2y^3"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "What is the specific numerical coefficient of x^5 in the expansion of (x - 2)^8?",
+        "choices": [
+            "A. 448",
+            "B. -448",
+            "C. 56",
+            "D. -56"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "Determine the exact numerical value of the term completely independent of x in the expansion of (x + 1/x)^4.",
+        "choices": [
+            "A. 4",
+            "B. 1",
+            "C. 6",
+            "D. 12"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Determine the exact numerical value of the term completely independent of x in the expansion of (x^2 - 1/x)^6.",
+        "choices": [
+            "A. -15",
+            "B. -20",
+            "C. 20",
+            "D. 15"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "Determine the exact numerical value of the constant term in the expansion of (2x - 1/x^2)^9.",
+        "choices": [
+            "A. -5376",
+            "B. 5376",
+            "C. -4032",
+            "D. 4032"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "What is the mathematically exact value of the alternating sum C(n,0) - C(n,1) + C(n,2) - ... + (-1)^n C(n,n)?",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. -1",
+            "D. 2^n"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "Using the first two terms of the binomial theorem, what is the best linear approximation of (1.01)^5?",
+        "choices": [
+            "A. 1.01",
+            "B. 1.10",
+            "C. 1.05",
+            "D. 1.005"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "What is the algebraic exponent of y in the generic r-th term (where r starts at 1) of the expansion of (x + y)^n?",
+        "choices": [
+            "A. r",
+            "B. r+1",
+            "C. n-r",
+            "D. r-1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "If the sum of all binomial coefficients in the expansion of (x + y)^n is exactly 64, what is the value of n?",
+        "choices": [
+            "A. 6",
+            "B. 5",
+            "C. 7",
+            "D. 8"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "The sum of the coefficients in the expansion of (ax + by)^n is always strictly equal to which of the following?",
+        "choices": [
+            "A. False always",
+            "B. (a+b)^n",
+            "C. Sometimes zero",
+            "D. Invalid expression"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "What is the specific coefficient of x^4 in the algebraic expansion of (1 + 2x + x^2)^3?",
+        "choices": [
+            "A. 12",
+            "B. 10",
+            "C. 15",
+            "D. 20"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "If the completely simplified 3rd term in the expansion of (1 + x)^n is 36x^2, what is the integer value of n?",
+        "choices": [
+            "A. 6",
+            "B. 7",
+            "C. 8",
+            "D. 9"
+        ],
+        "correct_answer": "D"
+    }
+]

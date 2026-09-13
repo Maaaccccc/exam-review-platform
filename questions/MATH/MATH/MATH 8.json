@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "What is the name of the theorem that states that every non-constant polynomial with complex coefficients has at least one complex root?",
+        "choices": [
+            "A. Cauchy's Integral Theorem",
+            "B. Fundamental Theorem of Algebra",
+            "C. De Moivre's Theorem",
+            "D. Fundamental Theorem of Calculus"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "In complex analysis, a function that is differentiable at every point in a region is referred to as:",
+        "choices": [
+            "A. Bounded function",
+            "B. Analytic function",
+            "C. Symmetric function",
+            "D. Harmonic function"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "For any analytic function, the real and imaginary components must satisfy which of the following equations?",
+        "choices": [
+            "A. Heat Equation",
+            "B. Wave Equation",
+            "C. Poisson's Equation",
+            "D. Laplace's Equation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "A complex number z is multiplied by j. Geometrically, this represents a counter-clockwise rotation of:",
+        "choices": [
+            "A. 90 degrees",
+            "B. 45 degrees",
+            "C. 270 degrees",
+            "D. 180 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "Which of the following describes the relationship between the residues of a complex function and its contour integral over a closed path containing multiple poles?",
+        "choices": [
+            "A. The contour integral is zero",
+            "B. The contour integral is pi * j times the sum of the residues",
+            "C. The contour integral is 2 * pi * j times the sum of the residues",
+            "D. The contour integral is the sum of the residues"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "The Cauchy-Riemann equations in polar coordinates (r, theta) are represented as:",
+        "choices": [
+            "A. du/dr = r*dv/dtheta and dv/dr = -r*du/dtheta",
+            "B. du/dr = dv/dtheta and dv/dr = -du/dtheta",
+            "C. du/dr = (1/r)*dv/dtheta and dv/dr = -(1/r)*du/dtheta",
+            "D. du/dr = -(1/r)*dv/dtheta and dv/dr = (1/r)*du/dtheta"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "Which type of singularity does the function f(z) = sin(z)/z have at z = 0?",
+        "choices": [
+            "A. Removable singularity",
+            "B. Pole of order 2",
+            "C. Essential singularity",
+            "D. Simple pole"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "The mapping w = e^z maps the vertical lines in the z-plane into what shapes in the w-plane?",
+        "choices": [
+            "A. Straight lines passing through the origin",
+            "B. Parabolas",
+            "C. Concentric circles centered at the origin",
+            "D. Hyperbolas"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 9,
+        "question": "The mapping w = e^z maps the horizontal lines in the z-plane into what shapes in the w-plane?",
+        "choices": [
+            "A. Straight rays starting from the origin",
+            "B. Ellipses",
+            "C. Vertical lines",
+            "D. Concentric circles"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "If a function f(z) is analytic within and on a simple closed curve C, what does Cauchy's Integral Theorem say about the closed path integral of f(z) dz?",
+        "choices": [
+            "A. It is equal to 2*pi*j",
+            "B. It depends on the length of C",
+            "C. It is equal to the value of the function at the center",
+            "D. It is always equal to zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "According to L'Hopital's Rule, which of the following indeterminate forms allows direct application of the rule?",
+        "choices": [
+            "A. 0^0",
+            "B. 1^infinity",
+            "C. 0/0 or infinity/infinity",
+            "D. 0 * infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "What is the geometric interpretation of the partial derivative df/dx of a surface z = f(x, y) at a given point?",
+        "choices": [
+            "A. The slope of the tangent line to the curve of intersection of the surface and a plane parallel to the xz-plane",
+            "B. The slope of the normal line to the surface",
+            "C. The volume enclosed by the surface REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "D. The area under the surface"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "If a function f(x) is continuous on a closed interval [a, b], which theorem guarantees that f(x) takes on every value between f(a) and f(b)?",
+        "choices": [
+            "A. Extreme Value Theorem",
+            "B. Mean Value Theorem",
+            "C. Intermediate Value Theorem",
+            "D. Rolle's Theorem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "Which of the following conditions is necessary for Rolle's Theorem to be applicable on [a, b]?",
+        "choices": [
+            "A. The function must be a polynomial",
+            "B. f(a) must be equal to zero",
+            "C. f(a) must be equal to f(b)",
+            "D. f'(a) must be equal to f'(b)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "In multivariable calculus, if the partial derivatives f_xy and f_yx are continuous, then they are equal. This is known as:",
+        "choices": [
+            "A. Taylor's Theorem",
+            "B. Green's Theorem",
+            "C. Clairaut's Theorem",
+            "D. Euler's Theorem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "The derivative of an even function is always:",
+        "choices": [
+            "A. A periodic function",
+            "B. An odd function",
+            "C. A constant function",
+            "D. An even function"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 17,
+        "question": "The derivative of an odd function is always:",
+        "choices": [
+            "A. A periodic function",
+            "B. An even function",
+            "C. A constant function",
+            "D. An odd function"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "If a function is continuous on a closed and bounded interval, it must have an absolute maximum and an absolute minimum. This is known as:",
+        "choices": [
+            "A. Mean Value Theorem",
+            "B. Intermediate Value Theorem",
+            "C. Rolle's Theorem",
+            "D. Extreme Value Theorem"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 19,
+        "question": "Under what condition is a critical point (c, f(c)) classified as a local maximum using the second derivative test?",
+        "choices": [
+            "A. f'(c) > 0 and f''(c) < 0",
+            "B. f'(c) = 0 and f''(c) > 0",
+            "C. f''(c) = 0 and f'(c) = 0",
+            "D. f'(c) = 0 and f''(c) < 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 20,
+        "question": "Under what condition is a critical point (c, f(c)) classified as a local minimum using the second derivative test?",
+        "choices": [
+            "A. f''(c) = 0 and f'(c) = 0",
+            "B. f'(c) = 0 and f''(c) > 0",
+            "C. f'(c) < 0 and f''(c) > 0",
+            "D. f'(c) = 0 and f''(c) < 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "A vector field F is conservative if and only if its curl is:",
+        "choices": [
+            "A. A constant scalar",
+            "B. The zero vector",
+            "C. The identity matrix",
+            "D. Equal to its divergence"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "The divergence of the curl of any twice-differentiable vector field is always:",
+        "choices": [
+            "A. Zero",
+            "B. The Laplacian of the field",
+            "C. A constant vector",
+            "D. The gradient of the divergence"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "The curl of the gradient of any twice-differentiable scalar field is always:",
+        "choices": [
+            "A. The Laplacian of the field",
+            "B. The zero vector",
+            "C. The divergence of the field",
+            "D. A constant scalar"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "Which theorem relates the line integral of a vector field around a closed loop to the surface integral of the curl of that field?",
+        "choices": [
+            "A. Cauchy's Theorem",
+            "B. Divergence Theorem",
+            "C. Green's Theorem",
+            "D. Stokes' Theorem"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "Which theorem relates the surface integral of the flux of a vector field through a closed surface to the volume integral of its divergence?",
+        "choices": [
+            "A. Stokes' Theorem",
+            "B. Cauchy's Theorem",
+            "C. Green's Theorem REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "D. Divergence Theorem"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 26,
+        "question": "A vector field whose divergence is zero everywhere is referred to as:",
+        "choices": [
+            "A. Harmonic",
+            "B. Solenoidal",
+            "C. Conservative",
+            "D. Irrotational"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "A vector field whose curl is the zero vector everywhere is referred to as:",
+        "choices": [
+            "A. Solenoidal",
+            "B. Rotational",
+            "C. Laplacian",
+            "D. Irrotational"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 28,
+        "question": "The Laplacian of a scalar field is equivalent to:",
+        "choices": [
+            "A. The curl of the curl of the scalar field",
+            "B. The divergence of the gradient of the scalar field",
+            "C. The gradient of the divergence of the scalar field",
+            "D. The curl of the gradient of the scalar field"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "The directional derivative of a scalar field is at its maximum in which direction?",
+        "choices": [
+            "A. In the direction opposite to the gradient vector",
+            "B. Along the tangent to the level surface",
+            "C. In the direction perpendicular to the gradient vector",
+            "D. In the direction of the gradient vector"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "What is the value of the directional derivative of a scalar field in a direction tangent to a level surface?",
+        "choices": [
+            "A. Maximum",
+            "B. Zero",
+            "C. Minimum",
+            "D. Equal to the magnitude of the gradient"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "What is the order of a differential equation?",
+        "choices": [
+            "A. The order of the highest derivative appearing in the equation",
+            "B. The number of independent variables",
+            "C. The number of arbitrary constants",
+            "D. The power of the highest derivative appearing in the equation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "What is the degree of a differential equation?",
+        "choices": [
+            "A. The number of terms in the equation",
+            "B. The power to which the highest-order derivative is raised, after removing radical signs and fractions",
+            "C. The order of the highest derivative",
+            "D. The highest power of the dependent variable"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "A first-order differential equation M(x, y)dx + N(x, y)dy = 0 is exact if and only if:",
+        "choices": [
+            "A. M = N",
+            "B. dM/dy + dN/dx = 0",
+            "C. dM/dy = dN/dx",
+            "D. dM/dx = dN/dy"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "Which substitution is commonly used to solve a homogeneous first-order differential equation of the form dy/dx = f(y/x)?",
+        "choices": [
+            "A. y = u/x",
+            "B. y = e^u",
+            "C. y = ux",
+            "D. x = uy"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "A Bernoulli differential equation has the general form dy/dx + P(x)y = Q(x)y^n. For which values of n is this equation already linear?",
+        "choices": [
+            "A. Any integer value of n",
+            "B. n = 0 and n = -1",
+            "C. n = 0 and n = 1",
+            "D. n = 1 and n = 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "The general solution of a linear homogeneous differential equation with constant coefficients whose characteristic equation has real and equal roots r1 = r2 = r is:",
+        "choices": [
+            "A. y = C1 * e^(rx) + C2 * e^(rx)",
+            "B. y = (C1 + C2 * x) * e^(rx)",
+            "C. y = C1 * e^(rx) + C2 * x * e^(-rx)",
+            "D. y = C1 * cos(rx) + C2 * sin(rx)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "The Wronskian of two solutions y1(x) and y2(x) of a second-order linear homogeneous differential equation is defined as:",
+        "choices": [
+            "A. y1 * y1' - y2 * y2'",
+            "B. y1 * y2' + y2 * y1'",
+            "C. y1 * y2 + y1' * y2'",
+            "D. y1 * y2' - y2 * y1'"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 38,
+        "question": "According to Abel's Identity, if P(x) is the coefficient of y' in the standard form second-order homogeneous linear DE, the Wronskian satisfies:",
+        "choices": [
+            "A. W(x) = C * e^(integral of Q(x) dx) REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "B. W(x) = C * e^(- integral of Q(x) dx)",
+            "C. W(x) = C * e^(- integral of P(x) dx)",
+            "D. W(x) = C * e^(integral of P(x) dx)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "A boundary value problem (BVP) differs from an initial value problem (IVP) because:",
+        "choices": [
+            "A. An IVP has no unique solution",
+            "B. A BVP only applies to partial differential equations",
+            "C. A BVP has no auxiliary conditions",
+            "D. A BVP specifies conditions at different points in the domain, whereas an IVP specifies conditions at a single point"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "Which type of partial differential equation is Laplace's equation u_xx + u_yy = 0?",
+        "choices": [
+            "A. Elliptic",
+            "B. Hyperbolic",
+            "C. Parabolic",
+            "D. Linear Algebraic"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "Which type of partial differential equation is the one-dimensional heat equation u_t = c^2 * u_xx?",
+        "choices": [
+            "A. Homogeneous",
+            "B. Parabolic",
+            "C. Hyperbolic",
+            "D. Elliptic"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "Which type of partial differential equation is the one-dimensional wave equation u_tt = c^2 * u_xx?",
+        "choices": [
+            "A. Hyperbolic",
+            "B. Solenoidal",
+            "C. Parabolic",
+            "D. Elliptic"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 43,
+        "question": "The Laplace transform is a linear operator that maps a time-domain function into:",
+        "choices": [
+            "A. A real frequency omega-domain function",
+            "B. A complex frequency s-domain function",
+            "C. A discrete Z-domain function",
+            "D. A phase angle domain function"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "According to the Final Value Theorem of Laplace transforms, the steady-state value of a system response f(t) as t approaches infinity is given by:",
+        "choices": [
+            "A. Limit as s approaches 0 of F(s)",
+            "B. Limit as s approaches 0 of s * F(s)",
+            "C. Limit as s approaches infinity of s * F(s)",
+            "D. Limit as s approaches infinity of F(s)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "According to the Initial Value Theorem of Laplace transforms, the initial value of a function f(t) as t approaches 0 from the right is given by:",
+        "choices": [
+            "A. Limit as s approaches infinity of s * F(s)",
+            "B. Limit as s approaches 0 of F(s)",
+            "C. Limit as s approaches 0 of s * F(s)",
+            "D. Limit as s approaches infinity of F(s)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "In Laplace transforms, a translation in the s-domain, F(s - a), corresponds to which operation in the time domain?",
+        "choices": [
+            "A. Time shift by a",
+            "B. Multiplication by t^a",
+            "C. Multiplication by e^(at)",
+            "D. Time scaling by a"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "In Laplace transforms, a time-shift, f(t - a) * u(t - a), where u is the unit step function, corresponds to which operation in the s-domain?",
+        "choices": [
+            "A. Frequency translation F(s - a)",
+            "B. Division of F(s) by s^a",
+            "C. Multiplication of F(s) by e^(-as)",
+            "D. Multiplication of F(s) by e^(as)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "The convolution of two functions in the time domain is equivalent to which operation in the s-domain?",
+        "choices": [
+            "A. The derivative of their Laplace transforms",
+            "B. The sum of their Laplace transforms",
+            "C. The product of their Laplace transforms",
+            "D. The quotient of their Laplace transforms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "The Z-transform is primarily used for the analysis of:",
+        "choices": [
+            "A. Discrete-time linear systems",
+            "B. Stochastic continuous processes",
+            "C. Continuous-time linear systems",
+            "D. Non-linear analog circuits"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "For a causal discrete-time signal, the Region of Convergence (ROC) of its Z-transform H(z) is:",
+        "choices": [
+            "A. The region inside a circle",
+            "B. The region outside a circle of radius equal to the magnitude of the outermost pole",
+            "C. A circular ring containing no poles",
+            "D. The entire complex plane REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "For a stable, causal discrete-time LTI system, the Region of Convergence (ROC) of its Z-transform must always:",
+        "choices": [
+            "A. Exclude the unit circle",
+            "B. Be bounded within the unit circle",
+            "C. Contain only the origin",
+            "D. Include the unit circle"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "According to the Nyquist-Shannon sampling theorem, to prevent aliasing, the sampling rate must be:",
+        "choices": [
+            "A. Half of the highest frequency component",
+            "B. At least twice the highest frequency component present in the signal",
+            "C. Exactly equal to the highest frequency component",
+            "D. At least four times the highest frequency component"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "What is the physical cause of aliasing in a sampled signal system?",
+        "choices": [
+            "A. Under-sampling, where the sampling frequency is less than the Nyquist rate",
+            "B. Phase distortion caused by analog filters",
+            "C. Quantization error in the analog-to-digital converter",
+            "D. Over-sampling, which creates redundant frequency terms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "Which property of Finite Impulse Response (FIR) filters makes them highly desirable for data transmission systems?",
+        "choices": [
+            "A. They require an infinite number of delay elements",
+            "B. They have analog passive equivalents",
+            "C. They can be easily designed to have exactly linear phase",
+            "D. They are always unstable"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "The autocorrelation function of a wide-sense stationary (WSS) random process at lag zero is equal to:",
+        "choices": [
+            "A. The total average power (or total energy) of the signal",
+            "B. The mean value of the signal",
+            "C. The standard deviation of the signal",
+            "D. Zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "The Fourier transform of a unit impulse function delta(t) is:",
+        "choices": [
+            "A. 2 * pi",
+            "B. 1",
+            "C. delta(omega)",
+            "D. 1/(j * omega)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "The Fourier transform of a constant function x(t) = 1 is:",
+        "choices": [
+            "A. delta(omega)",
+            "B. 1 / (j * omega)",
+            "C. 2 * pi * delta(omega)",
+            "D. 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "A control system is classified as stable if and only if all poles of its closed-loop transfer function lie in which region of the s-plane?",
+        "choices": [
+            "A. Inside the unit circle",
+            "B. On the imaginary axis",
+            "C. The left-half plane (LHP)",
+            "D. The right-half plane (RHP)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "A discrete-time control system is stable if and only if all poles of its closed-loop transfer function lie in which region of the z-plane?",
+        "choices": [
+            "A. Inside the unit circle",
+            "B. On the imaginary axis",
+            "C. Outside the unit circle",
+            "D. In the left-half plane"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "What is the primary function of the Integral (I) controller action in a closed-loop system?",
+        "choices": [
+            "A. To increase the speed of the transient response",
+            "B. To reduce the overshoot of the transient response",
+            "C. To eliminate the steady-state error (steady-state offset)",
+            "D. To stabilize an otherwise unstable system"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "What is the primary effect of adding a Derivative (D) control action to a Proportional (P) controller?",
+        "choices": [
+            "A. It increases system damping, thereby reducing overshoot and improving transient speed",
+            "B. It reduces the system bandwidth to zero",
+            "C. It shifts the closed-loop poles to the right",
+            "D. It completely eliminates the steady-state error"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "The 'Gain Margin' in a Bode plot is defined as the reciprocal of the open-loop gain at which frequency?",
+        "choices": [
+            "A. The phase crossover frequency (where the phase angle is -180 degrees)",
+            "B. The natural undamped frequency",
+            "C. The system bandwidth frequency",
+            "D. The gain crossover frequency (where the gain is 0 dB) REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "The 'Phase Margin' in a Bode plot is measured as the difference between the open-loop phase angle and -180 degrees at which frequency?",
+        "choices": [
+            "A. The gain crossover frequency (where the open-loop gain is 0 dB)",
+            "B. The natural resonant peak frequency",
+            "C. The bandwidth frequency",
+            "D. The phase crossover frequency (where the phase angle is -180 degrees)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "A system is classified as Type 1 if its open-loop transfer function G(s) has:",
+        "choices": [
+            "A. One zero at the origin",
+            "B. Exactly two poles at the origin",
+            "C. Exactly one pole at the origin (one integrator)",
+            "D. No poles at the origin"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "According to the Routh-Hurwitz stability criterion, the number of unstable poles of a system is equal to:",
+        "choices": [
+            "A. The number of columns in the Routh array",
+            "B. The order of the characteristic polynomial",
+            "C. The number of zero rows in the Routh array",
+            "D. The number of sign changes in the first column of the Routh array"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 66,
+        "question": "In state-space system representation, the state vector elements physically represent:",
+        "choices": [
+            "A. The minimal set of variables that completely define the system's internal energy state",
+            "B. Only the output variables",
+            "C. The eigenvalues of the system matrix A",
+            "D. Only the input variables and their derivatives"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 67,
+        "question": "For a second-order system, if the damping ratio is strictly between 0 and 1, the system's transient response is:",
+        "choices": [
+            "A. Overdamped",
+            "B. Critically damped",
+            "C. Undamped",
+            "D. Underdamped"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 68,
+        "question": "For a second-order system, if the damping ratio is exactly equal to 1, the transient response is:",
+        "choices": [
+            "A. Undamped",
+            "B. Critically damped",
+            "C. Overdamped",
+            "D. Underdamped"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "For a second-order system, if the damping ratio is strictly greater than 1, the transient response is:",
+        "choices": [
+            "A. Underdamped",
+            "B. Undamped",
+            "C. Critically damped",
+            "D. Overdamped"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "In statistical hypothesis testing, a Type I error occurs when:",
+        "choices": [
+            "A. The null hypothesis is rejected when it is actually true",
+            "B. The sample size is too small to draw conclusions",
+            "C. The null hypothesis is accepted when it is actually false",
+            "D. The alternative hypothesis is rejected when it is true"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "In statistical hypothesis testing, a Type II error occurs when:",
+        "choices": [
+            "A. The null hypothesis is not rejected when it is actually false",
+            "B. The level of significance is chosen incorrectly",
+            "C. The alternative hypothesis is accepted when it is false",
+            "D. The null hypothesis is rejected when it is true"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "The level of significance, alpha, in a hypothesis test is equivalent to:",
+        "choices": [
+            "A. The confidence level of the test",
+            "B. The probability of committing a Type II error",
+            "C. The power of the test",
+            "D. The probability of committing a Type I error"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "The power of a statistical test (1 - beta) represents:",
+        "choices": [
+            "A. The probability of making a Type I error",
+            "B. The probability of rejecting the null hypothesis when it is true",
+            "C. The probability of rejecting the null hypothesis when it is false",
+            "D. The probability of accepting the null hypothesis when it is false"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "If a dataset's distribution has a mean that is strictly greater than its median, the histogram is:",
+        "choices": [
+            "A. Normally distributed",
+            "B. Skewed to the left (negative skew)",
+            "C. Symmetric",
+            "D. Skewed to the right (positive skew)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "If a dataset's distribution has a mean that is strictly less than its median, the histogram is: REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+        "choices": [
+            "A. Skewed to the right (positive skew)",
+            "B. Normally distributed",
+            "C. Skewed to the left (negative skew)",
+            "D. Symmetric"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "Which statistical test is designed to compare the means of more than two groups simultaneously?",
+        "choices": [
+            "A. Student's t-test",
+            "B. Chi-Square test",
+            "C. Pearson correlation",
+            "D. ANOVA (Analysis of Variance)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "In the design of experiments (DOE), what is the primary purpose of 'blocking'?",
+        "choices": [
+            "A. To reduce the required number of replicates to zero",
+            "B. To control and isolate known sources of nuisance variation",
+            "C. To intentionally change the primary factor levels",
+            "D. To increase the random experimental error"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "In experimental design, what does 'replication' refer to?",
+        "choices": [
+            "A. Using a computer program to duplicate data entries",
+            "B. Varying only one factor at a time",
+            "C. The independent run of each treatment combination on multiple experimental units",
+            "D. Repeating the measurements on the same experimental unit multiple times"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "A probability distribution commonly used to model the number of rare events occurring in a fixed interval of time or space is:",
+        "choices": [
+            "A. Exponential Distribution",
+            "B. Binomial Distribution",
+            "C. Normal Distribution",
+            "D. Poisson Distribution"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "The thermal noise voltage across a resistor is most commonly modeled using which probability distribution?",
+        "choices": [
+            "A. Binomial Distribution",
+            "B. Poisson Distribution",
+            "C. Normal (Gaussian) Distribution",
+            "D. Uniform Distribution"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "A probability distribution that is frequently used to model the time between independent Poisson events (such as the lifetime of a semiconductor component) is:",
+        "choices": [
+            "A. Hypergeometric Distribution",
+            "B. Exponential Distribution",
+            "C. Binomial Distribution",
+            "D. Normal Distribution"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "The trace of a square matrix is mathematically defined as:",
+        "choices": [
+            "A. The product of the diagonal elements",
+            "B. The sum of the diagonal elements of the matrix",
+            "C. The sum of all elements in the first row",
+            "D. The determinant of the matrix"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "The trace of a square matrix is always equal to:",
+        "choices": [
+            "A. Its determinant",
+            "B. The product of its eigenvalues",
+            "C. The rank of the matrix",
+            "D. The sum of its eigenvalues"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "The determinant of a square matrix is always equal to:",
+        "choices": [
+            "A. The sum of its eigenvalues",
+            "B. Its rank",
+            "C. The trace of the matrix",
+            "D. The product of its eigenvalues"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "According to the Cayley-Hamilton Theorem, every square matrix:",
+        "choices": [
+            "A. Satisfies its own characteristic equation",
+            "B. Is diagonalizable",
+            "C. Has a non-zero determinant",
+            "D. Is equal to its own transpose"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "A square matrix A is called orthogonal if and only if:",
+        "choices": [
+            "A. A^T = A",
+            "B. A^2 = A",
+            "C. A^T * A = I",
+            "D. det(A) = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "A square matrix A is called symmetric if and only if:",
+        "choices": [
+            "A. A^2 = I",
+            "B. det(A) = 1",
+            "C. A^-1 = A REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "D. A^T = A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "A square matrix A is called skew-symmetric if and only if:",
+        "choices": [
+            "A. A^T = -A",
+            "B. A^2 = -I",
+            "C. A^-1 = -A",
+            "D. det(A) = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "A square matrix A is called involutory if and only if:",
+        "choices": [
+            "A. det(A) = 0",
+            "B. A^2 = A",
+            "C. A^2 = I",
+            "D. A^T = A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "A square matrix A is called idempotent if and only if:",
+        "choices": [
+            "A. A^2 = I",
+            "B. det(A) = 1",
+            "C. A^T = A",
+            "D. A^2 = A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "A system of n linear equations in n variables, Ax = b, has a unique solution if and only if:",
+        "choices": [
+            "A. Matrix A is non-singular (det(A) is non-zero)",
+            "B. Vector b is the zero vector",
+            "C. Matrix A is singular (det(A) is zero)",
+            "D. Matrix A is symmetric"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 93,
+        "question": "In boolean algebra, the absorption law states that the expression A + A * B is equivalent to:",
+        "choices": [
+            "A. A",
+            "B. A * B",
+            "C. A + B",
+            "D. B"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "For any set A, the intersection of A with the null set is:",
+        "choices": [
+            "A. The universal set",
+            "B. The null set",
+            "C. The complement of A",
+            "D. Set A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "For any set A, the union of A with its complement is:",
+        "choices": [
+            "A. The complement of A",
+            "B. The universal set",
+            "C. Set A",
+            "D. The null set"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "For any set A, the intersection of A with its complement is:",
+        "choices": [
+            "A. The universal set",
+            "B. The null set",
+            "C. Set A",
+            "D. The complement of A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "If a set S has exactly n distinct elements, the number of subsets in its power set is:",
+        "choices": [
+            "A. 2n",
+            "B. n!",
+            "C. n^2",
+            "D. 2^n"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 98,
+        "question": "Which of the following logic gates acts as a universal gate?",
+        "choices": [
+            "A. NAND gate",
+            "B. AND gate",
+            "C. OR gate",
+            "D. XOR gate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "Which of the following logic gates, besides NAND, acts as a universal gate?",
+        "choices": [
+            "A. NOR gate",
+            "B. XOR gate",
+            "C. OR gate",
+            "D. AND gate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 100,
+        "question": "In digital logic, which gate output is true only when an odd number of inputs are true?",
+        "choices": [
+            "A. NOR gate",
+            "B. AND gate",
+            "C. NAND gate",
+            "D. XOR gate REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "D"
+    }
+]

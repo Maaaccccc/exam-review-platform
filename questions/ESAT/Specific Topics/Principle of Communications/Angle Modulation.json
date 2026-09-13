@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "Double-Sideband Suppressed Carrier (DSB-SC) eliminates which component to save transmission power?",
+        "choices": [
+            "A. The RF Carrier",
+            "B. The Upper Sideband",
+            "C. The Lower Sideband",
+            "D. The Modulating Signal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "The ITU emission designator specifically assigned to Single-Sideband Full Carrier (SSB-FC) is:",
+        "choices": [
+            "A. A3E",
+            "B. H3E",
+            "C. J3E",
+            "D. R3E"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "For an ISB transmission with two independent 4-kHz voice channels, what is the absolute minimum RF bandwidth required?",
+        "choices": [
+            "A. 4 kHz",
+            "B. 16 kHz",
+            "C. 8 kHz",
+            "D. 2 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "An SSB-SC transmitter is modulated by a two-tone test signal. If the Peak Envelope Power (PEP) is 200 W, what is the average dissipated power?",
+        "choices": [
+            "A. 200 W",
+            "B. 50 W",
+            "C. 141.4 W",
+            "D. 100 W"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "Which SSB generation method strictly utilizes a wideband 90-degree audio phase-shifting network?",
+        "choices": [
+            "A. Phase-Shift Method",
+            "B. Filter Method",
+            "C. Weaver Method",
+            "D. Crosby Method"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "In the Weaver (Third) method of SSB generation, an imbalance in the final modulators typically results in:",
+        "choices": [
+            "A. Severe diagonal clipping",
+            "B. A spurious mid-band audio whistle",
+            "C. Total loss of the upper sideband",
+            "D. Excessive RF carrier leakage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "An SSB transmitter produces 100 W of PEP when modulated by a pure single-tone audio signal. What is its average output power?",
+        "choices": [
+            "A. 50 W",
+            "B. 70.7 W",
+            "C. 100 W",
+            "D. 25 W"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "Which modulation technique transmits one full sideband and only a fractional portion of the other sideband?",
+        "choices": [
+            "A. DSB-SC",
+            "B. ISB",
+            "C. SSB-SC",
+            "D. VSB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "In frequency modulation, the instantaneous frequency of the carrier is varied in direct proportion to the modulating signal's:",
+        "choices": [
+            "A. Amplitude",
+            "B. Frequency",
+            "C. Phase",
+            "D. Wavelength"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "In phase modulation (PM), the instantaneous phase of the carrier varies proportionally with the modulating signal's:",
+        "choices": [
+            "A. Frequency",
+            "B. Amplitude",
+            "C. Bandwidth",
+            "D. Deviation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "Which mathematical operation relates frequency modulation and phase modulation?",
+        "choices": [
+            "A. Addition",
+            "B. Subtraction",
+            "C. Integration/Differentiation",
+            "D. Multiplication"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "If a phase modulator is preceded by a low-pass filter (integrator), the resulting output is:",
+        "choices": [
+            "A. Amplitude Modulation",
+            "B. Single Sideband",
+            "C. Phase Modulation",
+            "D. Frequency Modulation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "The maximum change in the instantaneous frequency of an FM carrier from its unmodulated center frequency is called:",
+        "choices": [
+            "A. Frequency deviation",
+            "B. Modulation index",
+            "C. Phase deviation",
+            "D. Frequency swing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "In FM, what is the total frequency swing if the maximum frequency deviation is strictly 75 kHz?",
+        "choices": [
+            "A. 75 kHz",
+            "B. 150 kHz",
+            "C. 37.5 kHz",
+            "D. 0 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Unlike AM, the total transmitted power of an FM signal when modulated is:",
+        "choices": [
+            "A. Proportional to the modulation index",
+            "B. Inversely proportional to frequency deviation",
+            "C. Exactly the same as the unmodulated carrier power",
+            "D. Halved due to the limiter stage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "The modulation index in FM is mathematically defined as the ratio of maximum frequency deviation to the:",
+        "choices": [
+            "A. Carrier frequency",
+            "B. Bandwidth",
+            "C. Total frequency swing",
+            "D. Modulating frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "Calculate the modulation index of an FM signal with a frequency deviation of 50 kHz and a modulating frequency of 10 kHz.",
+        "choices": [
+            "A. 5",
+            "B. 10",
+            "C. 0.2",
+            "D. 500"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "In Phase Modulation (PM), the modulation index is strictly proportional to the modulating signal's:",
+        "choices": [
+            "A. Frequency",
+            "B. Amplitude",
+            "C. Phase angle",
+            "D. Deviation ratio"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "In an FM system, if the amplitude of the modulating signal is doubled and its frequency is halved, the modulation index will:",
+        "choices": [
+            "A. Remain the same",
+            "B. Double",
+            "C. Quadruple",
+            "D. Halve"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "In a PM system, if the amplitude of the modulating signal is doubled and its frequency is halved, the phase modulation index will:",
+        "choices": [
+            "A. Halve",
+            "B. Remain the same",
+            "C. Quadruple",
+            "D. Double"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "What is the formal unit of the modulation index in frequency modulation?",
+        "choices": [
+            "A. Unitless (or Radians)",
+            "B. Hertz",
+            "C. Watts",
+            "D. Degrees/Hertz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "For standard FM broadcasting in the VHF band, what is the maximum permitted frequency deviation?",
+        "choices": [
+            "A. 25 kHz",
+            "B. 75 kHz",
+            "C. 50 kHz",
+            "D. 150 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "What is the standard Deviation Ratio for a commercial FM broadcast station if the maximum audio frequency is 15 kHz?",
+        "choices": [
+            "A. 10",
+            "B. 1",
+            "C. 5",
+            "D. 7.5"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "The Deviation Ratio is formally defined as the ratio of the maximum system frequency deviation to the:",
+        "choices": [
+            "A. Carrier frequency",
+            "B. Center frequency",
+            "C. Nyquist rate",
+            "D. Maximum modulating frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "An FM signal is governed by Bessel functions of the first kind. The number of significant sideband pairs generated is primarily determined by the:",
+        "choices": [
+            "A. Modulation index",
+            "B. Modulating frequency",
+            "C. Carrier power",
+            "D. Unmodulated center frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "According to Bessel function tables, an FM signal with a modulation index of zero consists solely of:",
+        "choices": [
+            "A. One sideband pair",
+            "B. The unmodulated carrier",
+            "C. Infinite sidebands",
+            "D. Zero power"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "In FM, there are specific modulation indices where the carrier component drops exactly to zero. These points are known as:",
+        "choices": [
+            "A. Carrier pinch-offs",
+            "B. Zero crossings",
+            "C. Carrier nulls (or eigenvalues)",
+            "D. Bessel voids"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "The first carrier null in an FM spectrum mathematically occurs when the modulation index is approximately:",
+        "choices": [
+            "A. 1.00",
+            "B. 5.52",
+            "C. 3.83",
+            "D. 2.40"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "An FM transmitter has a 100 W carrier. If the modulation index is adjusted to the first carrier null, how much power is in the carrier?",
+        "choices": [
+            "A. 0 W",
+            "B. 50 W",
+            "C. 100 W",
+            "D. 25 W"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Using Bessel functions, if J0=0, J1=0.52, J2=0.43, J3=0.20, and carrier power is 1 kW, what is the approximate power in the first pair of sidebands?",
+        "choices": [
+            "A. 270 W",
+            "B. 540 W",
+            "C. 520 W",
+            "D. 1040 W"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Carson's Rule provides a practical approximation for the:",
+        "choices": [
+            "A. Modulation index",
+            "B. Carrier power",
+            "C. Transmission bandwidth",
+            "D. Phase deviation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "According to Carson's Rule, the bandwidth of an FM signal is approximately BW = 2(Dev + fm). What does Dev represent?",
+        "choices": [
+            "A. Deviation ratio",
+            "B. Modulating frequency",
+            "C. Center frequency",
+            "D. Peak frequency deviation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "Apply Carson's Rule to find the bandwidth of an FM signal with a deviation of 25 kHz and an audio frequency of 5 kHz.",
+        "choices": [
+            "A. 60 kHz",
+            "B. 50 kHz",
+            "C. 30 kHz",
+            "D. 75 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Calculate the Carson's Rule bandwidth for a standard FM broadcast station transmitting a 15 kHz audio signal with maximum allowable deviation.",
+        "choices": [
+            "A. 150 kHz",
+            "B. 180 kHz",
+            "C. 195 kHz",
+            "D. 225 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "If an FM system operates with a very low modulation index, its bandwidth approaches:",
+        "choices": [
+            "A. Infinity",
+            "B. Exactly the frequency deviation",
+            "C. 2fm",
+            "D. Deviation / fm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "An FM signal with a modulation index less than approximately 0.25 is strictly classified as:",
+        "choices": [
+            "A. Wideband FM",
+            "B. Commercial FM",
+            "C. Direct FM",
+            "D. Narrowband FM (NBFM)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "Narrowband FM (NBFM) has a frequency spectrum most similar to which other modulation scheme?",
+        "choices": [
+            "A. AM DSB-FC",
+            "B. SSB-SC",
+            "C. ISB",
+            "D. VSB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "While the magnitude spectrum of NBFM resembles standard AM, it differs fundamentally in that its lower sideband is:",
+        "choices": [
+            "A. Completely suppressed",
+            "B. Phase-shifted by 180 degrees",
+            "C. Twice the amplitude",
+            "D. In-phase with the carrier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Standard commercial two-way radios and analog cellular telephones typically utilize which type of FM to conserve spectrum?",
+        "choices": [
+            "A. Wideband FM",
+            "B. Stereo FM",
+            "C. Narrowband FM",
+            "D. Frequency Shift Keying"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "In Wideband FM (WBFM), the transmission bandwidth is primarily dictated by the:",
+        "choices": [
+            "A. Modulating frequency",
+            "B. Modulating signal's phase",
+            "C. Unmodulated carrier frequency",
+            "D. Peak frequency deviation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Direct FM generation requires a voltage-controlled oscillator (VCO). Which solid-state component is most commonly used in the LC tank circuit for this purpose?",
+        "choices": [
+            "A. Varactor diode",
+            "B. Tunnel diode",
+            "C. Zener diode",
+            "D. PIN diode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "A varactor diode changes its internal capacitance in direct response to changes in its:",
+        "choices": [
+            "A. Forward bias current",
+            "B. Reverse bias voltage",
+            "C. Operating temperature",
+            "D. Illumination"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "In a direct FM modulator using a varactor diode, if the applied reverse-bias voltage is dynamically increased by the audio signal, the diode's capacitance:",
+        "choices": [
+            "A. Decreases, decreasing frequency",
+            "B. Increases, decreasing frequency",
+            "C. Decreases, increasing the oscillator frequency",
+            "D. Increases, increasing the oscillator frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "A Crosby direct FM transmitter utilizes a specific circuit to ensure the master oscillator's center frequency remains perfectly stable. This is called the:",
+        "choices": [
+            "A. Phase-locked loop",
+            "B. Pre-emphasis network",
+            "C. Discriminator",
+            "D. Automatic Frequency Control (AFC) loop"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "In the Crosby direct FM transmitter, the AFC loop takes a sample of the output, mixes it with a crystal oscillator reference, and feeds the error voltage back to the:",
+        "choices": [
+            "A. Reactance modulator",
+            "B. Power amplifier",
+            "C. Audio preamplifier",
+            "D. Multiplier chain"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "Which frequency generation method produces FM indirectly by first producing phase modulation?",
+        "choices": [
+            "A. Crosby method",
+            "B. Armstrong method",
+            "C. Colpitts method",
+            "D. Hartley method"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "The Armstrong method utilizes a low-frequency crystal oscillator to generate a highly stable carrier. To produce NBFM, the carrier is split, shifted by 90 degrees, and fed into a:",
+        "choices": [
+            "A. High-pass filter",
+            "B. Frequency multiplier",
+            "C. Balanced modulator",
+            "D. Limiter circuit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "In the Armstrong indirect FM modulator, the output of the balanced modulator is recombined with the 90-degree shifted carrier to strictly produce:",
+        "choices": [
+            "A. A wideband FM signal",
+            "B. A purely AM signal",
+            "C. An SSB signal",
+            "D. A narrowband PM/FM signal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "Why does the Armstrong method require a heavily cascaded chain of frequency multipliers?",
+        "choices": [
+            "A. To increase the inherently small modulation index to a wideband value",
+            "B. To boost the RF power to transmission levels",
+            "C. To stabilize the crystal oscillator",
+            "D. To eliminate amplitude variations"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "If an initial NBFM signal in an Armstrong transmitter has a deviation of 25 Hz, and is passed through a x3 and a x4 multiplier, what is the new deviation?",
+        "choices": [
+            "A. 25 Hz",
+            "B. 300 Hz",
+            "C. 175 Hz",
+            "D. 75 Hz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "An FM signal with a center frequency of 10 MHz and a deviation of 10 kHz is passed through a frequency tripler. The new carrier frequency and deviation are:",
+        "choices": [
+            "A. 10 MHz, 30 kHz",
+            "B. 30 MHz, 10 kHz",
+            "C. 30 MHz, 30 kHz",
+            "D. 10 MHz, 10 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "Frequency multipliers in an FM transmitter increase the frequency deviation and carrier frequency, but they do NOT affect the:",
+        "choices": [
+            "A. Modulation index",
+            "B. Bandwidth",
+            "C. Phase deviation",
+            "D. Modulating signal frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "In an FM receiver, high-frequency audio components suffer from a degraded Signal-to-Noise Ratio (SNR). This noise characteristic of FM is technically known as the:",
+        "choices": [
+            "A. FM noise triangle (or triangular noise spectrum)",
+            "B. Shot noise effect",
+            "C. Transit-time noise",
+            "D. Flicker noise"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "To compensate for the severe high-frequency noise in FM reception, transmitters boost high audio frequencies before modulation. This process is called:",
+        "choices": [
+            "A. Companding",
+            "B. Pre-emphasis",
+            "C. De-emphasis",
+            "D. Equalization"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Correspondingly, the FM receiver must attenuate the high audio frequencies after demodulation to restore a flat frequency response. This is called:",
+        "choices": [
+            "A. Squelch",
+            "B. Pre-emphasis",
+            "C. De-emphasis",
+            "D. Limiting"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "The standard pre-emphasis time constant used for commercial FM broadcasting in North America and the Philippines is:",
+        "choices": [
+            "A. 50 us",
+            "B. 150 us",
+            "C. 25 us",
+            "D. 75 us"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "A pre-emphasis network is essentially a high-pass filter. What is the approximate 3-dB cutoff frequency for a 75 us time constant network?",
+        "choices": [
+            "A. 2122 Hz",
+            "B. 3183 Hz",
+            "C. 1061 Hz",
+            "D. 4244 Hz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "A de-emphasis network in an FM receiver is physically constructed as a simple:",
+        "choices": [
+            "A. LC band-pass filter",
+            "B. RC low-pass filter",
+            "C. Active high-pass filter",
+            "D. LR notch filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Which receiver stage removes unwanted amplitude variations and noise spikes from the FM signal before it reaches the discriminator?",
+        "choices": [
+            "A. Mixer",
+            "B. RF Amplifier",
+            "C. Limiter",
+            "D. De-emphasis network"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "The ratio of the maximum carrier frequency deviation to the highest modulating frequency is explicitly called the:",
+        "choices": [
+            "A. Modulation index",
+            "B. Peak swing",
+            "C. Carson's ratio",
+            "D. Deviation ratio"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "An FM signal is given by v(t) = 10 sin(10^8 t + 5 sin(10^4 t)). What is the peak frequency deviation?",
+        "choices": [
+            "A. 7.96 kHz",
+            "B. 50 kHz",
+            "C. 15.9 kHz",
+            "D. 5 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "From the previous FM signal v(t) = 10 sin(10^8 t + 5 sin(10^4 t)), what is the unmodulated carrier power assuming a 1-ohm load?",
+        "choices": [
+            "A. 100 W",
+            "B. 50 W",
+            "C. 10 W",
+            "D. 5 W"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "In angle modulation, the mathematical function describing the instantaneous phase angle for FM is the integral of the modulating signal. What is it for PM?",
+        "choices": [
+            "A. The derivative of the modulating signal",
+            "B. The logarithm of the modulating signal",
+            "C. Directly proportional to the modulating signal",
+            "D. The inverse of the modulating signal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "Compared to Amplitude Modulation (AM), which of the following is a primary, inherent advantage of Frequency Modulation (FM)?",
+        "choices": [
+            "A. Smaller bandwidth requirement",
+            "B. Simpler receiver circuitry",
+            "C. Lower transmitter power",
+            "D. Superior noise immunity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "An FM broadcast requires a total channel bandwidth of 200 kHz. How many such channels can theoretically fit into a 20 MHz frequency allocation?",
+        "choices": [
+            "A. 100",
+            "B. 50",
+            "C. 200",
+            "D. 20"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "A reactance modulator is a classic circuit utilized to generate which type of modulation?",
+        "choices": [
+            "A. Direct PM",
+            "B. Direct FM",
+            "C. Indirect FM",
+            "D. SSB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "The FM capture effect describes a phenomenon in an FM receiver where:",
+        "choices": [
+            "A. The receiver perfectly locks onto the carrier phase",
+            "B. It receives both of two competing signals simultaneously",
+            "C. The stronger of two co-channel signals completely suppresses the weaker",
+            "D. The AFC circuit drifts off-frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "If two FM signals occupy the exact same frequency, what minimum difference in signal strength (capture ratio) is typically required for the receiver to completely suppress the weaker signal?",
+        "choices": [
+            "A. 10 to 20 dB",
+            "B. 20 to 30 dB",
+            "C. 0 dB",
+            "D. 1 to 3 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "A Phase-Locked Loop (PLL) can be elegantly used as an FM demodulator. Which specific part of the PLL provides the demodulated audio output?",
+        "choices": [
+            "A. The output of the Loop Filter",
+            "B. The output of the VCO",
+            "C. The Phase Detector RF input",
+            "D. The feedback path"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "Which classic circuit is a well-known FM demodulator that uses a double-tuned transformer to convert frequency variations into amplitude variations?",
+        "choices": [
+            "A. Envelope detector",
+            "B. Foster-Seeley discriminator",
+            "C. Product detector",
+            "D. Ring modulator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "The Ratio Detector is an improvement over the Foster-Seeley discriminator primarily because it:",
+        "choices": [
+            "A. Requires fewer components",
+            "B. Provides higher audio output",
+            "C. Is largely insensitive to amplitude variations, reducing the need for a strict limiter",
+            "D. Can demodulate SSB signals"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "In a stereo FM broadcast, the Left and Right audio channels are matrixed. The L+R main channel modulates the carrier directly, while the L-R subchannel utilizes:",
+        "choices": [
+            "A. Frequency Modulation",
+            "B. Phase Modulation",
+            "C. VSB",
+            "D. DSB-SC AM"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "What is the frequency of the standard pilot tone transmitted in a commercial stereo FM broadcast to synchronize the receiver's demodulator?",
+        "choices": [
+            "A. 19 kHz",
+            "B. 38 kHz",
+            "C. 67 kHz",
+            "D. 57 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "The L-R stereo subchannel in a commercial FM broadcast is centered exactly at which frequency in the baseband spectrum?",
+        "choices": [
+            "A. 19 kHz",
+            "B. 38 kHz",
+            "C. 53 kHz",
+            "D. 75 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "An FM transmitter has a sensitivity of 5 kHz/V. A modulating signal v(t) = 2sin(2000pi t) + 3cos(4000pi t) is applied. What is the peak frequency deviation?",
+        "choices": [
+            "A. 10 kHz",
+            "B. 15 kHz",
+            "C. 25 kHz",
+            "D. 5 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "A carrier is frequency modulated with a peak deviation of 10 kHz. If the modulating frequency is 2.5 kHz, what is the bandwidth using Carson's rule?",
+        "choices": [
+            "A. 15 kHz",
+            "B. 20 kHz",
+            "C. 12.5 kHz",
+            "D. 25 kHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "The SCA (Subsidiary Communications Authorization) subcarrier in an FM broadcast, often used for background music, is typically centered around:",
+        "choices": [
+            "A. 67 kHz",
+            "B. 38 kHz",
+            "C. 19 kHz",
+            "D. 15 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "When an FM signal is passed through a frequency multiplier, which specific parameter remains completely unchanged?",
+        "choices": [
+            "A. Center frequency",
+            "B. Modulating frequency",
+            "C. Peak deviation",
+            "D. Modulation index"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "If the modulation index of an FM signal is 2.4, the carrier component ideally drops to zero. What happens if the amplitude of the modulating signal is increased further?",
+        "choices": [
+            "A. The carrier stays at zero",
+            "B. The carrier remains zero and sidebands disappear",
+            "C. The carrier amplitude increases and reappears",
+            "D. The signal becomes AM"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "The theoretical number of sidebands in an FM spectrum is infinite. However, for a given modulation index, sidebands where the Bessel function value is less than what percentage are typically considered negligible?",
+        "choices": [
+            "A. 10%",
+            "B. 5%",
+            "C. 0.1%",
+            "D. 1%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "Determine the peak phase deviation if a phase modulator has a sensitivity of 2.5 rad/V and the modulating signal is 4 V peak.",
+        "choices": [
+            "A. 10 rad",
+            "B. 6.5 rad",
+            "C. 1.5 rad",
+            "D. 10 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "A frequency modulator has a sensitivity of 10 kHz/V. To achieve a maximum deviation of 75 kHz, the peak voltage of the modulating signal must be:",
+        "choices": [
+            "A. 10 V",
+            "B. 7.5 V",
+            "C. 75 V",
+            "D. 0.75 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "In PM, the frequency deviation is proportional to both the modulating signal's amplitude AND its frequency. If a 2 V, 1 kHz tone causes a 5 kHz deviation, what deviation will a 2 V, 3 kHz tone cause?",
+        "choices": [
+            "A. 5 kHz",
+            "B. 10 kHz",
+            "C. 15 kHz",
+            "D. 45 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "Under the exact same conditions as the previous question (2 V, 1 kHz causes 5 kHz deviation), if the modulator was FM instead of PM, what deviation would the 2 V, 3 kHz tone cause?",
+        "choices": [
+            "A. 15 kHz",
+            "B. 1.67 kHz",
+            "C. 45 kHz",
+            "D. 5 kHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "The standard intermediate frequency (IF) for commercial FM radio receivers is:",
+        "choices": [
+            "A. 10.7 MHz",
+            "B. 455 kHz",
+            "C. 21.4 MHz",
+            "D. 4.5 MHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "What circuit is fundamentally utilized in a receiver to strictly limit the amplitude of the FM signal, thereby stripping away AM noise?",
+        "choices": [
+            "A. Envelope detector",
+            "B. Clipper / Limiter",
+            "C. AGC",
+            "D. Squelch"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "Which FM demodulator utilizes a dual-input logic gate (typically an XOR gate) to compare the phase of the received signal against a delayed version of itself?",
+        "choices": [
+            "A. Ratio detector",
+            "B. Foster-Seeley",
+            "C. Quadrature detector",
+            "D. Slope detector"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "In a standard PLL FM demodulator, the VCO's free-running frequency must be carefully designed to perfectly match the receiver's:",
+        "choices": [
+            "A. RF Carrier frequency",
+            "B. Audio frequency",
+            "C. Local Oscillator frequency",
+            "D. Intermediate Frequency (IF)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "Which of the following is a prominent characteristic of the Bessel function representing FM sidebands?",
+        "choices": [
+            "A. It oscillates and decays like a damped sine wave as the modulation index increases",
+            "B. It is a strictly increasing exponential function",
+            "C. It remains exactly constant for all sideband pairs",
+            "D. It strictly equals zero for all odd harmonics"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "An FM transmitter has a peak deviation of 20 kHz. It utilizes a x12 frequency multiplier chain (e.g., x3 and x4). What must be the peak deviation at the output of the original modulator BEFORE multiplication?",
+        "choices": [
+            "A. 20 kHz",
+            "B. 1.667 kHz",
+            "C. 240 kHz",
+            "D. 6.67 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "In the mathematical expression for an FM wave, what does the modulation index geometrically represent?",
+        "choices": [
+            "A. Peak amplitude",
+            "B. Carrier frequency",
+            "C. Peak phase deviation in radians",
+            "D. Wavelength"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "To calculate the bandwidth of a wideband FM signal accurately using the Bessel function table, one must determine the number of significant sideband pairs (n) and multiply it by:",
+        "choices": [
+            "A. Carrier frequency",
+            "B. Twice the frequency deviation",
+            "C. Frequency deviation",
+            "D. Twice the modulating frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "If an FM signal has 4 significant sideband pairs and is modulated by a 3 kHz tone, what is its absolute bandwidth?",
+        "choices": [
+            "A. 24 kHz",
+            "B. 12 kHz",
+            "C. 6 kHz",
+            "D. 48 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "Which theorem mathematically proves that any angle-modulated wave can be resolved into a carrier and an infinite number of sideband pairs?",
+        "choices": [
+            "A. Fourier Theorem",
+            "B. Bessel's Equation",
+            "C. Nyquist Theorem",
+            "D. Shannon's Law"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "Because an FM signal possesses a perfectly constant amplitude envelope, its RF power amplifiers can operate efficiently in:",
+        "choices": [
+            "A. Class A",
+            "B. Class AB",
+            "C. Class C",
+            "D. Class B"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "In a practical FM receiver, the \"Squelch\" circuit is specifically designed to:",
+        "choices": [
+            "A. Increase the audio volume",
+            "B. Boost high frequencies",
+            "C. Improve the Signal-to-Noise Ratio",
+            "D. Mute the audio output when no RF carrier is received"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "Slope detection is the simplest form of FM demodulation. It operates by feeding the FM signal into a tuned circuit whose resonant frequency is deliberately offset from the:",
+        "choices": [
+            "A. Carrier (IF) frequency",
+            "B. Audio frequency",
+            "C. Local Oscillator",
+            "D. Image frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "In an Armstrong indirect FM transmitter, what crucial circuit element is placed immediately BEFORE the phase modulator to convert it into a frequency modulator?",
+        "choices": [
+            "A. Differentiator",
+            "B. Integrator (Low-pass filter)",
+            "C. Limiter",
+            "D. High-pass filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "If the audio modulating signal in an FM system is a pure square wave, the instantaneous frequency of the transmitted RF carrier will:",
+        "choices": [
+            "A. Linearly sweep back and forth",
+            "B. Be perfectly constant",
+            "C. Abruptly shift between two discrete frequencies (FSK)",
+            "D. Become a sawtooth wave"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "According to the concept of FM Threshold, an FM receiver provides a drastic improvement in SNR only if the incoming carrier-to-noise ratio (CNR) strictly exceeds:",
+        "choices": [
+            "A. 0 dB",
+            "B. 100 dB",
+            "C. 3 dB",
+            "D. Approximately 10 to 12 dB"
+        ],
+        "correct_answer": "D"
+    }
+]

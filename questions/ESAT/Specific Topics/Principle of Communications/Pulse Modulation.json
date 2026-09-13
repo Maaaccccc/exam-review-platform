@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "In a microwave communication link, Fresnel zone clearance is critical. What percentage of the first Fresnel zone must be kept clear of obstacles to approximate free space propagation?",
+        "choices": [
+            "A. 60%",
+            "B. 100%",
+            "C. 10%",
+            "D. 30%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "A theoretical isotropic radiator emits energy equally in all directions. What is its directive gain in dB?",
+        "choices": [
+            "A. 2.15 dB",
+            "B. 0 dB",
+            "C. 3 dB",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Which ionospheric layer strictly disappears during the night, significantly improving the propagation of medium wave AM broadcast signals?",
+        "choices": [
+            "A. F2 layer",
+            "B. E layer",
+            "C. D layer",
+            "D. F1 layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "If the maximum usable frequency (MUF) for a given sky wave path is 20 MHz, what is the Optimum Working Frequency (OWF or FOT) typically chosen by engineers?",
+        "choices": [
+            "A. 20 MHz",
+            "B. 10 MHz",
+            "C. 23.5 MHz",
+            "D. 17 MHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "Calculate the approximate visual (optical) horizon distance for an antenna situated 100 feet above completely flat terrain.",
+        "choices": [
+            "A. 12.2 miles",
+            "B. 14.1 miles",
+            "C. 10.0 miles",
+            "D. 20.0 miles"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "In free space, what is the exact intrinsic impedance relating the electric field and magnetic field magnitudes?",
+        "choices": [
+            "A. 300 ohms",
+            "B. 120 pi ohms",
+            "C. 75 ohms",
+            "D. 50 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "An electromagnetic wave is propagating through a dielectric medium with a relative permittivity of 4. What is the velocity of the wave in this medium?",
+        "choices": [
+            "A. 3 x 10^8 m/s",
+            "B. 0.75 x 10^8 m/s",
+            "C. 1.5 x 10^8 m/s",
+            "D. 6 x 10^8 m/s"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "A transmitter outputs 5 Watts of power into a feedline with 1 dB of loss. The antenna has a gain of 6 dBi. Calculate the Effective Isotropic Radiated Power (EIRP).",
+        "choices": [
+            "A. 10 Watts",
+            "B. 50 Watts",
+            "C. 100 Watts",
+            "D. 15.8 Watts"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "According to the Nyquist Sampling Theorem, to perfectly reconstruct a continuous-time baseband signal, the minimum sampling frequency must be:",
+        "choices": [
+            "A. Exactly twice the maximum frequency component of the signal",
+            "B. Equal to the maximum frequency component",
+            "C. Exactly half the maximum frequency component",
+            "D. Four times the maximum frequency component"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "The highly undesirable distortion phenomenon that occurs when a continuous-time signal is sampled at a rate lower than the Nyquist rate is known as:",
+        "choices": [
+            "A. Quantization error",
+            "B. Aliasing",
+            "C. Cross-talk",
+            "D. Fold-over jitter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "To strictly prevent aliasing before the sampling process in an analog-to-digital converter, which essential component is placed at the input?",
+        "choices": [
+            "A. High-pass filter",
+            "B. Squelch circuit",
+            "C. Low-pass anti-aliasing filter",
+            "D. Compander"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "What is the absolute minimum Nyquist sampling rate for a standard human voice telephone channel strictly bandlimited from 300 Hz to 3400 Hz?",
+        "choices": [
+            "A. 3400 Hz",
+            "B. 600 Hz",
+            "C. 3100 Hz",
+            "D. 6800 Hz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "An analog signal defined by x(t) = 5 cos(1000πt) + 2 sin(3000πt) is to be sampled. What is its corresponding Nyquist rate?",
+        "choices": [
+            "A. 3000 Hz",
+            "B. 1500 Hz",
+            "C. 6000 Hz",
+            "D. 1000 Hz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "What is the Nyquist sampling interval for an analog signal strictly bandlimited to 10 kHz?",
+        "choices": [
+            "A. 100 microseconds",
+            "B. 50 microseconds",
+            "C. 200 microseconds",
+            "D. 10 microseconds"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "In a practical sampling system, a guard band is provided by sampling slightly above the Nyquist rate. If a 15 kHz signal is sampled at 40 kHz, what is the width of the guard band?",
+        "choices": [
+            "A. 15 kHz",
+            "B. 25 kHz",
+            "C. 10 kHz",
+            "D. 5 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "A 4 kHz sinusoidal signal is intentionally undersampled at 5 kHz. The signal will mathematically alias and appear at the receiver output as a false frequency of:",
+        "choices": [
+            "A. 4 kHz",
+            "B. 9 kHz",
+            "C. 5 kHz",
+            "D. 1 kHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "The distortion that manifests as an attenuation of high frequencies due to the finite width of the sampling pulses in flat-top sampling is formally known as the:",
+        "choices": [
+            "A. Aperture effect",
+            "B. Aliasing effect",
+            "C. Scalloping loss",
+            "D. Jitter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "Which specific analog pulse modulation technique varies the amplitude of a constant-width pulse train in direct proportion to the modulating signal's amplitude?",
+        "choices": [
+            "A. PWM",
+            "B. PAM",
+            "C. PPM",
+            "D. PCM"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Which analog pulse modulation technique maintains a constant pulse amplitude but dynamically varies the time duration of the individual pulses?",
+        "choices": [
+            "A. PAM",
+            "B. PPM",
+            "C. PWM (or PDM)",
+            "D. Delta Modulation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Which pulse modulation technique varies the temporal location of a constant-width, constant-amplitude pulse relative to its unmodulated time slot?",
+        "choices": [
+            "A. PWM",
+            "B. PAM",
+            "C. PCM",
+            "D. PPM"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "Among the fundamental analog pulse modulation schemes, which one is intrinsically the most susceptible to additive amplitude noise during transmission?",
+        "choices": [
+            "A. PAM",
+            "B. PWM",
+            "C. PPM",
+            "D. All are equally susceptible"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Pulse Width Modulation (PWM) can be easily and classically generated by feeding the analog modulating signal and a reference sawtooth waveform into a:",
+        "choices": [
+            "A. Multiplier",
+            "B. Voltage comparator",
+            "C. Integrator",
+            "D. Differentiator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "A Pulse Position Modulation (PPM) signal can be derived by passing a Pulse Width Modulated (PWM) signal directly through a:",
+        "choices": [
+            "A. Voltage controlled oscillator",
+            "B. Low-pass filter",
+            "C. Differentiator followed by a monostable multivibrator",
+            "D. Precision rectifier"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "In terms of transmitted power, which analog pulse modulation scheme exhibits a strictly constant average power regardless of the modulating signal amplitude?",
+        "choices": [
+            "A. PAM",
+            "B. PWM",
+            "C. PDM",
+            "D. PPM"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "A major technical advantage of PPM and PWM over PAM is their superior noise immunity. However, this advantage comes at the direct cost of:",
+        "choices": [
+            "A. Significantly wider transmission bandwidth requirement",
+            "B. Extreme circuit complexity at the modulator",
+            "C. Lower peak transmission power",
+            "D. Inability to be multiplexed"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "Standard Time-Division Multiplexing (TDM) of multiple analog telephone channels historically utilized which specific analog pulse modulation technique prior to digitization?",
+        "choices": [
+            "A. PWM",
+            "B. PAM",
+            "C. PPM",
+            "D. PCM"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "Demodulation of a standard Pulse Amplitude Modulated (PAM) signal can be achieved fundamentally by passing the pulse train through a simple:",
+        "choices": [
+            "A. Envelope detector",
+            "B. High-pass filter",
+            "C. Low-pass filter",
+            "D. PLL discriminator"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Which of the following modulation schemes is strictly classified as a digital modulation system rather than an analog pulse modulation system?",
+        "choices": [
+            "A. PAM",
+            "B. PPM",
+            "C. PWM",
+            "D. PCM"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "In a Pulse Code Modulation (PCM) system, the fundamental process of converting continuous analog sample values into discrete, assigned numerical values is called:",
+        "choices": [
+            "A. Quantization",
+            "B. Sampling",
+            "C. Companding",
+            "D. Encoding"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "For an n-bit linear PCM system, the total number of discrete quantization levels (L) available is mathematically given by:",
+        "choices": [
+            "A. L = n^2",
+            "B. L = 2^n",
+            "C. L = 2n",
+            "D. L = 10^n"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "A linear PCM system utilizes exactly 256 distinct quantization levels. How many bits per sample (n) does the encoder produce?",
+        "choices": [
+            "A. 16 bits",
+            "B. 4 bits",
+            "C. 8 bits",
+            "D. 256 bits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "A standard telecommunications voice channel is strictly bandlimited to 3.4 kHz and mathematically sampled at a standard 8 kHz rate. If each sample is encoded into 8 bits, what is the output bit rate of a single PCM channel?",
+        "choices": [
+            "A. 27.2 kbps",
+            "B. 32 kbps",
+            "C. 8 kbps",
+            "D. 64 kbps"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "The theoretical minimum absolute Nyquist transmission bandwidth required for a baseband PCM signal transmitting 'n' bits per sample at a sampling rate 'fs' is:",
+        "choices": [
+            "A. n * fs / 2",
+            "B. n * fs",
+            "C. fs / 2",
+            "D. 2 * n * fs"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Calculate the theoretical minimum baseband transmission bandwidth required for an 8-bit PCM system sampling an analog signal at exactly 10 kHz.",
+        "choices": [
+            "A. 80 kHz",
+            "B. 40 kHz",
+            "C. 10 kHz",
+            "D. 20 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "The inherent error introduced during the PCM process because the exact analog sample value is rounded off to the nearest discrete level is officially known as:",
+        "choices": [
+            "A. Aliasing",
+            "B. Aperture error",
+            "C. Quantization noise",
+            "D. Phase jitter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "For a linear PCM quantizer with a uniform step size of 'V_step', what is the absolute maximum possible quantization error?",
+        "choices": [
+            "A. V_step",
+            "B. V_step / 4",
+            "C. Zero",
+            "D. V_step / 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "An analog signal with a peak-to-peak voltage range of 5 V is applied to a 10-bit linear PCM encoder. Calculate the uniform step size (resolution) of the quantizer.",
+        "choices": [
+            "A. 4.88 mV",
+            "B. 9.77 mV",
+            "C. 1.22 mV",
+            "D. 19.53 mV"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "The mathematical formula for the Signal-to-Quantization-Noise Ratio (SQNR) in decibels for a full-scale sinusoidal input in a linear n-bit PCM system is approximately:",
+        "choices": [
+            "A. SQNR = 3.01n + 1.76 dB",
+            "B. SQNR = 6.02n + 1.76 dB",
+            "C. SQNR = 20 log(n) dB",
+            "D. SQNR = 10 log(2n) dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Adding exactly one additional bit of resolution to a linear PCM encoder improves its Signal-to-Quantization-Noise Ratio (SQNR) and dynamic range by approximately:",
+        "choices": [
+            "A. 3 dB",
+            "B. 10 dB",
+            "C. 6 dB",
+            "D. 1 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "Calculate the theoretical maximum SQNR for a standard 8-bit linear PCM system subjected to a full-scale sinusoidal input.",
+        "choices": [
+            "A. 25.8 dB",
+            "B. 32.1 dB",
+            "C. 72.5 dB",
+            "D. 49.9 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "In uniform (linear) quantization, the Signal-to-Quantization-Noise Ratio is exceptionally good for strong signals but degrades significantly for weak signals. This problem is explicitly solved in modern telecommunications by using:",
+        "choices": [
+            "A. Non-linear quantization (Companding)",
+            "B. Higher sampling rates",
+            "C. Analog amplification before sampling",
+            "D. Delta modulation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "\"Companding\" in a PCM system is a portmanteau representing which two successive signal processing operations?",
+        "choices": [
+            "A. Computing and Padding",
+            "B. Compressing and Expanding",
+            "C. Compensating and Encoding",
+            "D. Commutating and Phasing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "In non-linear quantization utilizing companding, the quantization step sizes are deliberately made:",
+        "choices": [
+            "A. Uniform across the entire dynamic range",
+            "B. Larger for weak signals and smaller for strong signals",
+            "C. Smaller for weak signals and larger for strong signals",
+            "D. Completely random to dither the noise"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "The specific companding standard mathematically defined by the parameter µ (mu) and heavily utilized in North America and Japan is the:",
+        "choices": [
+            "A. A-law",
+            "B. Shannon-law",
+            "C. Nyquist-law",
+            "D. µ-law"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "The standard numerical value used for the compression parameter 'µ' in commercial North American PCM telephone systems is:",
+        "choices": [
+            "A. 255",
+            "B. 87.6",
+            "C. 100",
+            "D. 128"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "The alternative companding standard heavily utilized in Europe and the rest of the world is mathematically known as the:",
+        "choices": [
+            "A. µ-law",
+            "B. A-law",
+            "C. Bell-law",
+            "D. CCITT-law"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "The standard numerical parameter 'A' specified for the A-law companding characteristic used in E1 carrier systems is:",
+        "choices": [
+            "A. 255",
+            "B. 100",
+            "C. 87.6",
+            "D. 15.6"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "In digital companding, the non-linear compression curve is closely approximated by a piecewise linear chord sequence. For standard µ-law encoding, the 8-bit output code essentially compresses an equivalent linear resolution of:",
+        "choices": [
+            "A. 8 bits",
+            "B. 10 bits",
+            "C. 16 bits",
+            "D. 12 bits"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "What specific component in a PCM receiver precisely performs the inverse mathematical operation of the compressor found in the transmitter?",
+        "choices": [
+            "A. Expander",
+            "B. Integrator",
+            "C. Quantizer",
+            "D. Digital-to-Analog Converter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "Delta Modulation (DM) is the absolute simplest form of predictive coding. It fundamentally transmits how many bits per analog sample?",
+        "choices": [
+            "A. 8 bits",
+            "B. 1 bit",
+            "C. 4 bits",
+            "D. 2 bits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "In Delta Modulation, if the analog input signal increases in amplitude faster than the modulator's internal staircase reference can climb, a severe distortion occurs formally known as:",
+        "choices": [
+            "A. Granular noise",
+            "B. Aliasing",
+            "C. Slope overload",
+            "D. Peak clipping"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "Conversely, when the analog input signal in a Delta Modulator remains perfectly constant (DC), the staircase reference hunts back and forth across the signal level, creating a specific noise called:",
+        "choices": [
+            "A. Slope overload",
+            "B. Jitter",
+            "C. Phase noise",
+            "D. Granular noise (or idle noise)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "To mathematically prevent slope overload in a standard Delta Modulator, the product of the step size (delta) and the sampling frequency (fs) must be greater than or equal to the:",
+        "choices": [
+            "A. Maximum absolute derivative (slope) of the input signal",
+            "B. Maximum amplitude of the input signal",
+            "C. Nyquist rate of the input signal",
+            "D. Average power of the input signal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "Which advanced variant of Delta Modulation dynamically adjusts its internal step size based on the recent history of the input signal to simultaneously combat both slope overload and granular noise?",
+        "choices": [
+            "A. Differential PCM (DPCM)",
+            "B. Adaptive Delta Modulation (ADM)",
+            "C. Sigma-Delta Modulation",
+            "D. Linear Predictive Coding"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "In a standard Delta Modulation receiver, the core component utilized to perfectly reconstruct the analog staircase waveform from the incoming 1-bit digital stream is a simple:",
+        "choices": [
+            "A. Differentiator",
+            "B. High-pass filter",
+            "C. Integrator",
+            "D. Envelope detector"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "Sigma-Delta Modulation is an extremely popular technique for high-resolution ADCs. Its primary engineering advantage is a phenomenon that pushes quantization noise into very high frequencies, known strictly as:",
+        "choices": [
+            "A. Frequency hopping",
+            "B. Noise amplification",
+            "C. Pre-emphasis",
+            "D. Noise shaping"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "The standard primary multiplexing hierarchy used in North America is the T1 carrier. How many individual 64 kbps PCM voice channels does a single T1 line carry?",
+        "choices": [
+            "A. 24",
+            "B. 30",
+            "C. 32",
+            "D. 48"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "What is the exact total aggregate bit rate of a standard North American T1 carrier system?",
+        "choices": [
+            "A. 2.048 Mbps",
+            "B. 1.544 Mbps",
+            "C. 1.536 Mbps",
+            "D. 8.448 Mbps"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "In a standard T1 carrier frame, exactly how many overhead framing bits are appended to the multiplexed channel data per frame?",
+        "choices": [
+            "A. 8 bits",
+            "B. 24 bits",
+            "C. 1 bit",
+            "D. 0 bits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "The CEPT standard E1 carrier system used in Europe and elsewhere strictly multiplexes how many total 64 kbps time slots (including voice, framing, and signaling)?",
+        "choices": [
+            "A. 24",
+            "B. 30",
+            "C. 256",
+            "D. 32"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "What is the exact total aggregate bit rate of a standard CEPT E1 carrier system?",
+        "choices": [
+            "A. 2.048 Mbps",
+            "B. 1.544 Mbps",
+            "C. 8.448 Mbps",
+            "D. 2.000 Mbps"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "In an E1 frame, Time Slot 0 (TS0) is specifically and exclusively reserved for:",
+        "choices": [
+            "A. Out-of-band signaling",
+            "B. Frame alignment (Synchronization) and alarms",
+            "C. The first voice channel",
+            "D. Error correction parity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "In an E1 frame, Time Slot 16 (TS16) is typically reserved for which specific telecommunications function?",
+        "choices": [
+            "A. Frame alignment",
+            "B. In-band signaling",
+            "C. Out-of-band channel associated signaling (CAS)",
+            "D. Spare voice channel"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "A fundamental, massive advantage of digital PCM transmission over any analog pulse modulation method over long distances is the ability to place what devices periodically along the line to perfectly restore the digital signal?",
+        "choices": [
+            "A. Linear amplifiers",
+            "B. Low-pass filters",
+            "C. Transformers",
+            "D. Digital regenerators (Repeaters)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "The process of deliberately adding a tiny amount of randomized analog noise to a signal prior to PCM quantization to eliminate low-level granular distortion and harmonic spurs is strictly called:",
+        "choices": [
+            "A. Dithering",
+            "B. Companding",
+            "C. Pre-emphasis",
+            "D. Aliasing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "If a PCM system utilizes 12 bits per sample and the sampling rate is 44.1 kHz, what is the exact bit rate for a single channel?",
+        "choices": [
+            "A. 352.8 kbps",
+            "B. 529.2 kbps",
+            "C. 705.6 kbps",
+            "D. 44.1 kbps"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Calculate the theoretical dynamic range in decibels for a 16-bit linear PCM audio system (such as a standard CD).",
+        "choices": [
+            "A. 48 dB",
+            "B. 72 dB",
+            "C. 96 dB",
+            "D. 120 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Differential Pulse Code Modulation (DPCM) significantly reduces the required bit rate for a given quality level by explicitly encoding and transmitting only the:",
+        "choices": [
+            "A. Most significant bit of the sample",
+            "B. Polarity of the sample",
+            "C. Integral of the sample",
+            "D. Difference between the current sample and a predicted value"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "In Delta Modulation, a transmitted bit of '1' universally instructs the receiver's integrator to:",
+        "choices": [
+            "A. Step up (increase the reference voltage)",
+            "B. Step down (decrease the reference voltage)",
+            "C. Hold the previous value exactly",
+            "D. Reset to zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "The mathematical ratio of the transmission bit rate to the theoretical minimum Nyquist bandwidth required to transmit that bit rate is defined as the channel's:",
+        "choices": [
+            "A. Signal-to-noise ratio",
+            "B. Spectral efficiency (in bits/sec/Hz)",
+            "C. Baud rate",
+            "D. Coding gain"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "Continuously Variable Slope Delta Modulation (CVSD) is a very highly robust form of Adaptive Delta Modulation heavily used in military communications. What parameter does CVSD actively adjust based on the bit stream history?",
+        "choices": [
+            "A. Sampling frequency",
+            "B. Number of bits per sample",
+            "C. Step size",
+            "D. Carrier frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "A voice signal is sampled at 8 kHz and Delta Modulated. What is the strictly resulting transmission bit rate?",
+        "choices": [
+            "A. 64 kbps",
+            "B. 32 kbps",
+            "C. 16 kbps",
+            "D. 8 kbps"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "The theoretical quantization noise power (Nq) for a uniform quantizer with step size S is derived from the variance of a uniform distribution and is equal to:",
+        "choices": [
+            "A. S^2 / 12",
+            "B. S / 2",
+            "C. S^2 / 4",
+            "D. S^2 / 6"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "An analog signal ranges from -4V to +4V. If it is quantized using 8-bit linear PCM, calculate the exact quantization step size.",
+        "choices": [
+            "A. 15.6 mV",
+            "B. 31.25 mV",
+            "C. 62.5 mV",
+            "D. 3.9 mV"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "Assuming standard sampling (fs = 8 kHz), which of the following pulse modulation techniques strictly requires the absolute highest transmission bandwidth?",
+        "choices": [
+            "A. PAM",
+            "B. DM",
+            "C. PCM (8-bit)",
+            "D. PPM"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "The time gap inserted between individual pulses in a Time-Division Multiplexed PAM system to strictly prevent cross-talk due to filter smearing is called the:",
+        "choices": [
+            "A. Blanking interval",
+            "B. Sync pulse",
+            "C. Squelch tail",
+            "D. Guard time"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "When a continuous-time signal is sampled by mathematically multiplying it with a periodic train of Dirac delta impulses, the process is officially known as:",
+        "choices": [
+            "A. Ideal impulse sampling",
+            "B. Flat-top sampling",
+            "C. Natural sampling",
+            "D. Aliased sampling"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "When a continuous-time signal is sampled by multiplying it with a periodic train of rectangular pulses, where the top of each pulse perfectly follows the shape of the analog signal, the process is known as:",
+        "choices": [
+            "A. Flat-top sampling",
+            "B. Natural sampling",
+            "C. Practical sampling",
+            "D. Holding sampling"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "When flat-top sampling is used, the amplitude of the pulse remains perfectly constant during the pulse width. The receiver must compensate for the resulting frequency distortion (aperture effect) using a mathematical inverse filter called an:",
+        "choices": [
+            "A. Integrator",
+            "B. Antialiasing filter",
+            "C. Equalizer (x/sin x filter)",
+            "D. Expander"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "Which fundamental electronic circuit physically performs the core operation required for flat-top sampling prior to an Analog-to-Digital Converter?",
+        "choices": [
+            "A. Phase-locked loop",
+            "B. Astable multivibrator",
+            "C. Precision rectifier",
+            "D. Sample-and-Hold (S/H) circuit"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "A standard Sample-and-Hold circuit is primarily composed of a solid-state switch and a single passive component used to store the sampled voltage. This critical component is a:",
+        "choices": [
+            "A. Capacitor",
+            "B. Inductor",
+            "C. Resistor",
+            "D. Diode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "The extremely brief time required for a Sample-and-Hold circuit to accurately charge its holding capacitor to the new input voltage level is technically specified as its:",
+        "choices": [
+            "A. Hold time",
+            "B. Acquisition time",
+            "C. Aperture time",
+            "D. Decay time"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "The minute voltage change or \"droop\" that occurs across the holding capacitor during the hold interval of a Sample-and-Hold circuit is primarily caused by:",
+        "choices": [
+            "A. Infinite input impedance of the ADC",
+            "B. Inductive kickback",
+            "C. Leakage currents in the capacitor and switch",
+            "D. The sampling clock jitter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "In an ADC, the time uncertainty or exact physical variance in the opening and closing of the sampling switch is officially defined as:",
+        "choices": [
+            "A. Acquisition time",
+            "B. Slew rate",
+            "C. Droop rate",
+            "D. Aperture jitter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "To correctly encode an analog signal with a maximum frequency of 20 kHz into a digital stereo audio format (like CD), what is the accepted minimum industry standard sampling rate to provide an adequate guard band for the anti-aliasing filter?",
+        "choices": [
+            "A. 44.1 kHz",
+            "B. 40.0 kHz",
+            "C. 48.0 kHz",
+            "D. 20.0 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "In a full-duplex PCM telecommunications system utilizing the T1 standard, the duration of one complete T1 frame is precisely:",
+        "choices": [
+            "A. 1.544 ms",
+            "B. 125 microseconds",
+            "C. 8 milliseconds",
+            "D. 250 microseconds"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "Based on the 125 microsecond frame duration, exactly how many total bits are transmitted in a single T1 frame?",
+        "choices": [
+            "A. 8 bits",
+            "B. 24 bits",
+            "C. 193 bits",
+            "D. 256 bits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "Calculate the absolute maximum frequency component that a Delta Modulator operating at 32 kbps can track without slope overload if the step size is 0.1 V and the peak signal amplitude is 1 V. (Formula: fmax = (step * fs) / (2 * pi * Vpeak)).",
+        "choices": [
+            "A. 10.1 kHz",
+            "B. 1.6 kHz",
+            "C. 3.2 kHz",
+            "D. 509 Hz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "The theoretical probability density function (PDF) of the quantization error in a uniform linear PCM system is strictly modeled as being:",
+        "choices": [
+            "A. Uniform",
+            "B. Gaussian",
+            "C. Rayleigh",
+            "D. Poisson"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Companding achieves a nearly constant Signal-to-Quantization-Noise Ratio (SQNR) over a wide dynamic range by intentionally making the quantization noise strictly proportional to the:",
+        "choices": [
+            "A. Sampling frequency",
+            "B. Analog signal amplitude",
+            "C. Transmitter power",
+            "D. Bit rate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "Which digital line coding scheme is standardly used for transmitting T1 carrier PCM data over physical copper lines to ensure DC balance and timing recovery?",
+        "choices": [
+            "A. NRZ-L",
+            "B. Manchester",
+            "C. Alternate Mark Inversion (AMI)",
+            "D. 2B1Q"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "In Delta Modulation, granular noise can be theoretically minimized by making the internal step size exceptionally small. However, doing so without changing the sampling rate will immediately worsen:",
+        "choices": [
+            "A. Aliasing",
+            "B. Aperture jitter",
+            "C. Phase noise",
+            "D. Slope overload"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "An analog signal possesses a total dynamic range of 48 dB. If a PCM system is designed using the rule-of-thumb that 1 bit equals 6 dB of dynamic range, what is the absolute minimum number of bits required to encode this signal without clipping?",
+        "choices": [
+            "A. 8 bits",
+            "B. 10 bits",
+            "C. 12 bits",
+            "D. 16 bits"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "If a uniform quantizer has an operating range from -10V to +10V and utilizes exactly 1024 discrete levels, what is the maximum possible theoretical quantization error?",
+        "choices": [
+            "A. 19.5 mV",
+            "B. 9.77 mV",
+            "C. 39.1 mV",
+            "D. 4.88 mV"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "A specific Delta Modulator is sampled at 64 kHz. The step size is fixed at 10 mV. If a DC voltage of 0 V is applied to the input, what will the resulting output digital bit stream theoretically look like?",
+        "choices": [
+            "A. All 1s",
+            "B. All 0s",
+            "C. Alternating 101010...",
+            "D. Completely random"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "The digital companding process used in telephony compresses a 12-bit linear PCM word into an 8-bit companded word. The very first bit of this 8-bit word strictly indicates the:",
+        "choices": [
+            "A. Chord (Segment)",
+            "B. Step within the chord",
+            "C. LSB of the sample",
+            "D. Polarity (Sign) of the sample"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "In the digital implementation of µ-law companding, the segmented compression curve consists of a total of how many distinct linear chords or segments across the entire positive and negative voltage range?",
+        "choices": [
+            "A. 15 (or 16 counting zero twice)",
+            "B. 8",
+            "C. 12",
+            "D. 255"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "In an ideal Pulse Amplitude Modulation (PAM) system, the bandwidth of the transmitted pulses is technically infinite because the pulses have:",
+        "choices": [
+            "A. Infinite amplitude",
+            "B. Zero rise and fall times",
+            "C. Zero duration",
+            "D. Infinite energy"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "The primary factor that completely dictates the physical transmission bandwidth required to send a standard PWM signal over a channel is the:",
+        "choices": [
+            "A. Amplitude of the modulating signal",
+            "B. Sampling rate",
+            "C. Rise time of the pulses",
+            "D. Carrier frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "Which advanced modulation scheme drastically reduces bit rate by dynamically establishing a mathematical model of the human vocal tract and transmitting only the coefficients of this model rather than the quantized waveform?",
+        "choices": [
+            "A. ADPCM",
+            "B. CVSD",
+            "C. Sigma-Delta",
+            "D. Linear Predictive Coding (LPC)"
+        ],
+        "correct_answer": "D"
+    }
+]

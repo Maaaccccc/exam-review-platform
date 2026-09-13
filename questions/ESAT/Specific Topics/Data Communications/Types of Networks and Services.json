@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "In start/stop framing, how does the receiver accurately identify the beginning of a new character?",
+        "choices": [
+            "A. By a transition from the idle state (logic 1) to the start bit (logic 0)",
+            "B. By the preamble sequence",
+            "C. By a parity error",
+            "D. By the stop bit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "Which ASCII control character specifically signifies the start of the message header in the BISYNC protocol?",
+        "choices": [
+            "A. STX",
+            "B. SOH",
+            "C. ETX",
+            "D. ENQ"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "To achieve data transparency when sending binary payloads, character-oriented protocols utilize which specific technique?",
+        "choices": [
+            "A. Bit stuffing",
+            "B. Pulse amplitude modulation",
+            "C. Character stuffing (Byte stuffing)",
+            "D. Wavelength multiplexing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "Which character is universally used as the control escape character in byte stuffing algorithms to differentiate payload from control signals?",
+        "choices": [
+            "A. SYN",
+            "B. STX",
+            "C. EOT",
+            "D. DLE"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "If a BISYNC receiver successfully receives a block of data without any CRC errors, it formally responds with which control character?",
+        "choices": [
+            "A. ACK",
+            "B. NAK",
+            "C. EOT",
+            "D. SYN"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "In BISYNC, the protocol uses Alternating Acknowledgments to definitively prevent duplicated or lost blocks. These acknowledgments are represented as:",
+        "choices": [
+            "A. WACK and RVI",
+            "B. ACK0 and ACK1",
+            "C. ACK and NAK",
+            "D. SYN and DLE"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "Which legacy framing method delineates frames by counting characters, but is highly vulnerable to catastrophic failure if the count field is corrupted?",
+        "choices": [
+            "A. Flag-based framing",
+            "B. Start/stop framing",
+            "C. Character count framing",
+            "D. Token passing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "A major engineering disadvantage of BISYNC is that it fundamentally operates in which transmission mode, requiring highly inefficient turnaround times for every acknowledgment?",
+        "choices": [
+            "A. Full-duplex",
+            "B. Simplex",
+            "C. Multiplex",
+            "D. Half-duplex"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "A network spanning a single building or a small campus under a single administrative domain is known as a:",
+        "choices": [
+            "A. WAN",
+            "B. MAN",
+            "C. GAN",
+            "D. LAN"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 10,
+        "question": "The IEEE 802.3 standard defines the specifications for which prominent LAN technology?",
+        "choices": [
+            "A. Ethernet",
+            "B. Token Ring",
+            "C. Wi-Fi",
+            "D. FDDI"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "Which medium access control method is traditionally used by standard half-duplex Ethernet LANs?",
+        "choices": [
+            "A. CSMA/CD",
+            "B. Token Passing",
+            "C. CSMA/CA",
+            "D. Polling"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "In a traditional star-topology LAN, the central physical connection point for all nodes is typically a:",
+        "choices": [
+            "A. Router",
+            "B. Multiplexer",
+            "C. Gateway",
+            "D. Switch or Hub"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Wireless LANs (WLANs), commonly known as Wi-Fi, are standardized under which IEEE 802 committee?",
+        "choices": [
+            "A. 802.11",
+            "B. 802.3",
+            "C. 802.15",
+            "D. 802.16"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "What strictly limits the maximum physical length of a collision domain in a half-duplex CSMA/CD LAN?",
+        "choices": [
+            "A. MAC address length",
+            "B. Minimum frame size and propagation delay",
+            "C. IP address space",
+            "D. Number of physical hosts"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "A legacy LAN utilizes a physical bus topology. If the main coaxial backbone cable suffers a complete break in the middle, what is the consequence?",
+        "choices": [
+            "A. It automatically switches to a star topology",
+            "B. Only the node directly at the break fails",
+            "C. Redundant wireless links activate",
+            "D. The network partitions into two un-terminated segments and completely fails due to signal reflection"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 16,
+        "question": "Which network device is primarily used to connect multiple LAN segments and filter traffic dynamically based on Layer 2 MAC addresses?",
+        "choices": [
+            "A. Bridge/Switch",
+            "B. Repeater",
+            "C. Hub",
+            "D. Router"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "The IEEE 802.5 standard defines the specifications for which type of legacy Local Area Network?",
+        "choices": [
+            "A. Ethernet",
+            "B. ArcNet",
+            "C. FDDI",
+            "D. Token Ring"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 18,
+        "question": "In a legacy 10Base-T Ethernet LAN, what does the specific number \"10\" signify in the designation?",
+        "choices": [
+            "A. Maximum cable length in meters",
+            "B. Bandwidth capacity in Mbps",
+            "C. Maximum number of allowable nodes",
+            "D. Transceiver connector type"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Which of the following represents the primary operational advantage of implementing a LAN?",
+        "choices": [
+            "A. Sharing local peripheral resources and facilitating high-speed data transfer",
+            "B. Achieving global reach without internet",
+            "C. Inducing extremely high propagation delay for security",
+            "D. Exclusively utilizing public telecommunications infrastructure"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 20,
+        "question": "Virtual LANs (VLANs) improve network performance and security on a switch by logically isolating and separating:",
+        "choices": [
+            "A. IP protocol versions",
+            "B. Collision domains",
+            "C. Broadcast domains",
+            "D. Physical cables"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "If an Ethernet switch learns MAC addresses by examining incoming frames, which specific field in the frame header does it inspect to populate its MAC address table?",
+        "choices": [
+            "A. Source IP",
+            "B. Destination MAC",
+            "C. Destination IP",
+            "D. Source MAC"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 22,
+        "question": "What is the typical aggregate data rate range for early, legacy Local Area Networks like standard Ethernet and original Token Ring?",
+        "choices": [
+            "A. 1-10 Kbps",
+            "B. 1-10 Gbps",
+            "C. 10-16 Mbps",
+            "D. 100-1000 Gbps"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "A corporate building has 5 floors, each equipped with its own Ethernet switch. These switches are connected to a central high-speed router in the basement. This entire localized setup constitutes a:",
+        "choices": [
+            "A. LAN",
+            "B. GAN",
+            "C. WAN",
+            "D. MAN"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "A network that covers a geographic area such as a large municipality, city, or a vast university campus is best described as a:",
+        "choices": [
+            "A. LAN",
+            "B. MAN",
+            "C. WAN",
+            "D. PAN"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "Which standard is historically associated with the Distributed Queue Dual Bus (DQDB) architecture, heavily used in early MAN implementations?",
+        "choices": [
+            "A. 802.3",
+            "B. 802.11",
+            "C. 802.15",
+            "D. 802.6"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 26,
+        "question": "What was the primary architectural purpose of the DQDB protocol in early Metropolitan Area Networks?",
+        "choices": [
+            "A. Route traffic across oceans",
+            "B. Connect two adjacent PCs",
+            "C. Provide a high-speed backbone linking multiple LANs within a city",
+            "D. Establish satellite communications links"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "Fiber Distributed Data Interface (FDDI) uses which highly resilient physical topology, often deployed as a campus or metropolitan backbone?",
+        "choices": [
+            "A. Dual Ring",
+            "B. Star",
+            "C. Bus",
+            "D. Mesh"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "FDDI strictly relies on which type of transmission medium to achieve its standard 100 Mbps data rate over long metropolitan distances?",
+        "choices": [
+            "A. Unshielded Twisted Pair",
+            "B. Fiber Optic Cable",
+            "C. Microwave",
+            "D. Coaxial Cable"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "In a standard FDDI dual-ring MAN, what is the primary engineering function of the secondary ring?",
+        "choices": [
+            "A. Doubles the bandwidth during normal operation",
+            "B. Carries voice traffic exclusively",
+            "C. Provides electrical power to the nodes",
+            "D. Serves as a backup path that automatically wraps the ring in case of a primary link failure"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "WiMAX is a wireless broadband technology designed to provide internet access over a metropolitan area. What is its official IEEE standard designation?",
+        "choices": [
+            "A. 802.11",
+            "B. 802.20",
+            "C. 802.16",
+            "D. 802.3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "Which modern technology has largely replaced legacy MAN protocols (like FDDI and DQDB) by extending standard, inexpensive LAN protocols directly across city-wide fiber networks?",
+        "choices": [
+            "A. X.25",
+            "B. Analog Modems",
+            "C. Frame Relay",
+            "D. Metro Ethernet"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 32,
+        "question": "A defining functional characteristic of a MAN compared to a large-scale WAN is that a MAN:",
+        "choices": [
+            "A. Generally does not contain complex switching nodes and highly dynamic routing, acting more like a massive extended LAN",
+            "B. Spans across multiple continents",
+            "C. Uses satellites exclusively",
+            "D. Operates at much lower speeds"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "Cable television (CATV) hybrid fiber-coaxial networks that offer high-speed broadband internet access across an entire municipality are practical examples of a:",
+        "choices": [
+            "A. PAN",
+            "B. GAN",
+            "C. MAN",
+            "D. LAN"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "Standard FDDI networks utilize a deterministic token-passing mechanism. What exactly happens when a station needs to transmit data?",
+        "choices": [
+            "A. It waits for a polling command from a master node",
+            "B. It senses the carrier line for silence",
+            "C. It intentionally jams the network",
+            "D. It captures the token, transmits its frame, and releases a new token"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 35,
+        "question": "The concept of \"Dark Fiber\" is frequently associated with modern MAN deployments. What does this term technically refer to?",
+        "choices": [
+            "A. Unlit, unused optical fiber infrastructure that can be leased by organizations",
+            "B. Fiber optic cables that are physically damaged",
+            "C. Fiber that transmits data in the invisible ultraviolet spectrum",
+            "D. Copper cables buried underground without proper conduits"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 36,
+        "question": "Which network class physically spans a larger geographical area than a LAN but a smaller, more restricted area than a WAN?",
+        "choices": [
+            "A. GAN",
+            "B. MAN",
+            "C. SAN",
+            "D. PAN"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "In a Distributed Queue Dual Bus (DQDB) network, how are the two independent buses structurally configured?",
+        "choices": [
+            "A. They transmit in opposite directions to form full-duplex communication",
+            "B. They form a closed physical loop",
+            "C. They transmit in the exact same direction",
+            "D. They cross at right angles forming a mesh"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "In a modern Metro Ethernet deployment, customer LANs are typically connected to the service provider's MAN edge using which physical interface?",
+        "choices": [
+            "A. V.35 synchronous serial",
+            "B. Standard Ethernet RJ-45 or optical Fiber port",
+            "C. RS-232 serial",
+            "D. ISDN Basic Rate Interface"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "A network that connects smaller networks and hosts over vast geographical distances, such as country-wide or continent-wide, is known as a:",
+        "choices": [
+            "A. LAN",
+            "B. MAN",
+            "C. PAN",
+            "D. WAN"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "Which of the following is a classic packet-switched WAN technology that provided early, reliable long-haul connections using complex virtual circuits with heavy error checking?",
+        "choices": [
+            "A. Ethernet",
+            "B. Token Ring",
+            "C. X.25",
+            "D. FDDI"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "Frame Relay was developed as an upgrade to X.25. It achieves significantly higher speeds primarily by eliminating which feature at the core network layer?",
+        "choices": [
+            "A. Hop-by-hop error correction and flow control",
+            "B. Frame boundaries",
+            "C. Addressing fields",
+            "D. Virtual circuits entirely"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "The global public internet is the largest and most prominent example of which specific type of network?",
+        "choices": [
+            "A. LAN",
+            "B. GAN (Global Area Network)",
+            "C. MAN",
+            "D. SAN"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "In WAN terminology, the specialized equipment located at the customer premises (like a router or CSU/DSU) that connects directly to the provider's network is referred to as:",
+        "choices": [
+            "A. DCE",
+            "B. CO",
+            "C. POP",
+            "D. DTE"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "A traditional WAN connection that provides a dedicated, fixed-bandwidth, point-to-point link securely between two locations is known as a:",
+        "choices": [
+            "A. Leased line",
+            "B. Packet-switched network",
+            "C. Switched virtual circuit",
+            "D. Broadband cable"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "Which underlying switching technology establishes a dedicated, physical path between the sender and receiver for the entire duration of the communication, similar to legacy analog telephone networks?",
+        "choices": [
+            "A. Packet switching",
+            "B. Circuit switching",
+            "C. Message switching",
+            "D. Cell switching"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "The transition from legacy X.25 to faster Frame Relay in WANs was made possible primarily due to what physical infrastructure advancement?",
+        "choices": [
+            "A. The invention of the telegraph",
+            "B. The shift from digital to analog transmission",
+            "C. The massive improvement in reliability and drastically lower error rates of physical transmission media like optical fiber",
+            "D. The widespread introduction of copper twisted-pair"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "In a WAN packet-switched network, a virtual circuit that is permanently established by the service provider, remains always active, and requires no call setup, is called a:",
+        "choices": [
+            "A. SVC (Switched Virtual Circuit)",
+            "B. ISDN link",
+            "C. Datagram",
+            "D. PVC (Permanent Virtual Circuit)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 48,
+        "question": "A Global Area Network (GAN) differs from a traditional enterprise WAN primarily by:",
+        "choices": [
+            "A. Encompassing global satellite coverage and intercontinental submarine cables to provide seamless worldwide mobility and connectivity",
+            "B. Using only localized copper cables",
+            "C. Being restricted strictly to a single corporate entity",
+            "D. Operating without any IP addresses"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "Which WAN technology utilizes a strict, fixed 53-byte cell size to seamlessly multiplex and transport voice, video, and data over the same infrastructure?",
+        "choices": [
+            "A. Frame Relay",
+            "B. ATM (Asynchronous Transfer Mode)",
+            "C. X.25",
+            "D. SMDS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "A major financial and operational disadvantage of dedicated leased lines for WAN connectivity, when compared directly to packet-switched networks, is:",
+        "choices": [
+            "A. Unacceptably low security",
+            "B. Extremely high variable latency",
+            "C. The inability to transmit continuous real-time data",
+            "D. Extreme cost-inefficiency, as the user pays continuously even for completely idle bandwidth"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 51,
+        "question": "If a corporate WAN connects offices in New York, London, and Tokyo using secure IPsec VPN tunnels routed over the public internet, the internet serves exactly as the:",
+        "choices": [
+            "A. Local loop",
+            "B. Access point",
+            "C. Underlay transport network",
+            "D. Frame relay switch"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "What does the acronym DLCI stand for in a Frame Relay WAN environment?",
+        "choices": [
+            "A. Digital Line Circuit Interface",
+            "B. Direct Link Channel Indicator",
+            "C. Data Loss Control Information",
+            "D. Data Link Connection Identifier"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "VSAT (Very Small Aperture Terminal) is a radio technology typically used to provide which type of high-speed network connectivity to extremely remote geographical areas?",
+        "choices": [
+            "A. WAN/GAN",
+            "B. MAN",
+            "C. PAN",
+            "D. LAN"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "ISDN stands for:",
+        "choices": [
+            "A. Internal System Digital Network",
+            "B. Integrated Services Digital Network",
+            "C. International Standard Data Node",
+            "D. Interconnected Switching Nodes"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "The primary original engineering goal of ISDN was to seamlessly provide:",
+        "choices": [
+            "A. An analog voice-only network",
+            "B. A global fiber-optic backbone exclusively",
+            "C. An all-digital network capable of transmitting voice, video, and data concurrently over existing standard telephone copper wires",
+            "D. A completely wireless cellular network"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "In ISDN architecture, which specific channel is strictly utilized for out-of-band signaling and control data (e.g., call setup and teardown)?",
+        "choices": [
+            "A. B channel",
+            "B. H channel",
+            "C. E channel",
+            "D. D channel"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "What is the standard, uncompressed payload data rate of a single ISDN Bearer (B) channel?",
+        "choices": [
+            "A. 64 kbps",
+            "B. 32 kbps",
+            "C. 16 kbps",
+            "D. 128 kbps"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Which specific ISDN interface configuration provides exactly 2 B channels and 1 D channel?",
+        "choices": [
+            "A. PRI",
+            "B. B-ISDN",
+            "C. BRI",
+            "D. SS7"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "What is the exact data rate of the D channel utilized in an ISDN Basic Rate Interface (BRI) connection?",
+        "choices": [
+            "A. 64 kbps",
+            "B. 16 kbps",
+            "C. 8 kbps",
+            "D. 4 kbps"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "Calculate the total user payload data rate provided by the B channels in a standard ISDN BRI.",
+        "choices": [
+            "A. 144 kbps",
+            "B. 128 kbps",
+            "C. 64 kbps",
+            "D. 192 kbps"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "An ISDN Primary Rate Interface (PRI) designed to operate over North American T1 infrastructure consists precisely of:",
+        "choices": [
+            "A. 30 B channels + 1 D channel",
+            "B. 2 B channels + 1 D channel",
+            "C. 23 B channels + 1 D channel",
+            "D. 24 B channels exclusively"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "An ISDN Primary Rate Interface (PRI) designed to operate over European E1 infrastructure consists precisely of:",
+        "choices": [
+            "A. 23 B channels + 1 D channel",
+            "B. 2 B channels + 1 D channel",
+            "C. 32 B channels + 1 D channel",
+            "D. 30 B channels + 1 D channel"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 63,
+        "question": "What is the exact data rate of the D channel in a standard ISDN Primary Rate Interface (PRI) connection?",
+        "choices": [
+            "A. 64 kbps",
+            "B. 16 kbps",
+            "C. 128 kbps",
+            "D. 1.544 Mbps"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "In the official ISDN functional grouping model, standard ISDN-compatible terminal equipment (like a native digital ISDN telephone) is formally referred to as:",
+        "choices": [
+            "A. TE2",
+            "B. TE1",
+            "C. TA",
+            "D. NT1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "Non-ISDN equipment (like a standard analog telephone or a legacy PC with an RS-232 serial interface) is designated in the ISDN functional model as:",
+        "choices": [
+            "A. TE1",
+            "B. LT",
+            "C. TE2",
+            "D. NT2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "To successfully connect a legacy TE2 device to a fully digital ISDN network, which specific functional grouping device is strictly required?",
+        "choices": [
+            "A. NT1",
+            "B. LT",
+            "C. TE1",
+            "D. TA (Terminal Adapter)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 67,
+        "question": "In the ISDN reference model, the logical boundary or interface point located strictly between a TE1 (or TA) and an NT2 is officially known as the:",
+        "choices": [
+            "A. S reference point",
+            "B. R reference point",
+            "C. T reference point",
+            "D. U reference point"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "The logical interface defined specifically between non-ISDN equipment (TE2) and a Terminal Adapter (TA) is the:",
+        "choices": [
+            "A. U reference point",
+            "B. R reference point",
+            "C. S reference point",
+            "D. T reference point"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "The physical 2-wire copper local loop connecting the customer premises directly to the telecommunications central office in an ISDN architecture corresponds to the:",
+        "choices": [
+            "A. T reference point",
+            "B. S reference point",
+            "C. U reference point",
+            "D. R reference point"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "Which ISDN functional group performs essential physical layer operations like 2-wire to 4-wire conversion, timing, and line maintenance testing at the customer premises?",
+        "choices": [
+            "A. NT2",
+            "B. TA",
+            "C. TE1",
+            "D. NT1 (Network Termination 1)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 71,
+        "question": "Which ISDN device typically acts as a customer-premises PBX (Private Branch Exchange) or LAN router, providing localized switching and concentration?",
+        "choices": [
+            "A. NT2 (Network Termination 2)",
+            "B. NT1",
+            "C. TE1",
+            "D. LT"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "The ISDN T reference point defines the strict logical boundary between which two functional groups?",
+        "choices": [
+            "A. TE1 and NT2",
+            "B. NT2 and NT1",
+            "C. NT1 and the local loop",
+            "D. TE2 and TA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "If a customer connects an ISDN router directly to the provider's NT1 device, entirely bypassing a PBX (NT2), the combined reference point is commonly referred to in the industry as the:",
+        "choices": [
+            "A. R interface",
+            "B. U interface",
+            "C. S/T interface",
+            "D. V interface"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "An ISDN B channel transports user payload by operating strictly using which underlying switching technology?",
+        "choices": [
+            "A. Packet switching",
+            "B. Message switching",
+            "C. Cell switching",
+            "D. Circuit switching"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "The out-of-band signaling protocol heavily used over the ISDN D channel to set up, maintain, and clear calls is:",
+        "choices": [
+            "A. LAPD (Link Access Procedure on the D channel)",
+            "B. SS7",
+            "C. PPP",
+            "D. X.25"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "Which ISDN channel is explicitly designed to carry network signaling information, but is also permitted to carry low-speed X.25 packet data when not actively signaling?",
+        "choices": [
+            "A. B channel",
+            "B. D channel",
+            "C. H channel",
+            "D. E channel"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "In ISDN provisioning terminology, the acronym SPID, which identifies a specific endpoint on the network, stands for:",
+        "choices": [
+            "A. Switching Protocol Interface Data",
+            "B. System Parameter Index Descriptor",
+            "C. Service Profile Identifier",
+            "D. Synchronous Payload Indicator Data"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "What was a massive primary market driver for the widespread adoption of ISDN PRI in corporate environments?",
+        "choices": [
+            "A. It was slower than analog modems",
+            "B. It required absolutely no NT1 device",
+            "C. It was exclusively a wireless protocol",
+            "D. It provided high-capacity digital trunks for PBX systems, efficiently replacing massive bundles of individual analog lines"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "While Narrowband ISDN (N-ISDN) relies on fundamental 64 kbps channels, Broadband ISDN (B-ISDN) was developed to support applications requiring data rates strictly above:",
+        "choices": [
+            "A. 1.544 Mbps or 2.048 Mbps",
+            "B. 56 kbps",
+            "C. 1 Gbps",
+            "D. 10 Gbps"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "The core switching and multiplexing technology universally standardized and adopted to implement B-ISDN is:",
+        "choices": [
+            "A. Ethernet",
+            "B. Asynchronous Transfer Mode (ATM)",
+            "C. X.25",
+            "D. Frame Relay"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "B-ISDN was primarily designed from its inception to operate over which highly reliable underlying physical transport network?",
+        "choices": [
+            "A. Unshielded Twisted Pair",
+            "B. Coaxial cable",
+            "C. SONET/SDH fiber optic networks",
+            "D. Microwave links"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "Asynchronous Transfer Mode (ATM) technology transmits all data, voice, and video in small, fixed-size units known formally as:",
+        "choices": [
+            "A. Frames",
+            "B. Packets",
+            "C. Datagrams",
+            "D. Cells"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "What is the exact, unvarying length of a standard ATM cell?",
+        "choices": [
+            "A. 53 bytes",
+            "B. 64 bytes",
+            "C. 48 bytes",
+            "D. 1500 bytes"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "The 53-byte ATM cell is structurally composed of which two distinct fields?",
+        "choices": [
+            "A. An 8-byte header and a 45-byte payload",
+            "B. A 5-byte header and a 48-byte payload",
+            "C. A 3-byte header and a 50-byte payload",
+            "D. A 10-byte header and a 43-byte payload"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "Why did the original designers of ATM explicitly choose a very small, fixed-length cell size rather than large variable packets?",
+        "choices": [
+            "A. To increase overall network bandwidth overhead",
+            "B. To allow standard Ethernet frames to fit perfectly without fragmentation",
+            "C. To minimize processing delay and jitter, ensuring real-time voice and video traffic is not queued behind massive data packets",
+            "D. Because fiber optics cannot physically handle large packets"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 86,
+        "question": "In ATM architecture, a Virtual Path (VP) is best described logically as:",
+        "choices": [
+            "A. A single physical fiber optic cable",
+            "B. A single 53-byte cell",
+            "C. The payload section of an ATM cell",
+            "D. A bundle of Virtual Channels (VCs) that share the same endpoints and follow the exact same route"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "The ATM cell header contains two specific identifiers used exclusively for routing cells through the ATM switch fabric. These are:",
+        "choices": [
+            "A. VPI (Virtual Path Identifier) and VCI (Virtual Channel Identifier)",
+            "B. Source and Destination ports",
+            "C. MAC and IP addresses",
+            "D. DLCI and LCN"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "Which specific B-ISDN service class is intended for constant bit rate (CBR) applications like uncompressed real-time voice and video, requiring strict timing synchronization between source and destination?",
+        "choices": [
+            "A. Class B",
+            "B. Class A",
+            "C. Class C",
+            "D. Class D"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "Which B-ISDN service class natively supports Variable Bit Rate (VBR) applications that still strictly require timing synchronization, such as compressed packetized video?",
+        "choices": [
+            "A. Class A",
+            "B. Class C",
+            "C. Class B",
+            "D. Class D"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "The ATM Adaptation Layer (AAL) is fundamentally responsible for:",
+        "choices": [
+            "A. Routing the ATM cells through the optical switches",
+            "B. Generating the laser light for transmission",
+            "C. Error-correcting the cell header",
+            "D. Translating upper-layer data (like IP packets or continuous voice streams) into the standardized 48-byte ATM payloads"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "Which specific AAL type is explicitly designed for Constant Bit Rate (CBR) traffic, effectively emulating a dedicated digital leased line?",
+        "choices": [
+            "A. AAL1",
+            "B. AAL2",
+            "C. AAL3/4",
+            "D. AAL5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "Which AAL type is highly optimized, simplified, and widely used for transporting bursty data traffic, particularly encapsulating IP packets over ATM (IP-over-ATM)?",
+        "choices": [
+            "A. AAL1",
+            "B. AAL5",
+            "C. AAL3/4",
+            "D. AAL2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "Unlike IP networks which are inherently connectionless datagram networks, an ATM network architecture is strictly:",
+        "choices": [
+            "A. A broadcast network",
+            "B. A shared bus topology",
+            "C. Connection-oriented, strictly requiring a virtual circuit setup phase before any data transfer can occur",
+            "D. A simplex network"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "What is the fundamental architectural difference between Synchronous Transfer Mode (STM), used in traditional TDM networks, and Asynchronous Transfer Mode (ATM)?",
+        "choices": [
+            "A. ATM assigns fixed time slots regardless of traffic",
+            "B. STM uses fixed 53-byte cells",
+            "C. ATM is inherently slower than STM",
+            "D. ATM generates cells on demand based on actual traffic, eliminating wasted empty time slots"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 95,
+        "question": "In the B-ISDN reference model, the layer strictly equivalent to the OSI physical layer is divided into two sublayers: the Physical Medium (PM) sublayer and the:",
+        "choices": [
+            "A. Transmission Convergence (TC) sublayer",
+            "B. Convergence (CS) sublayer",
+            "C. Segmentation and Reassembly (SAR) sublayer",
+            "D. Data Link (DL) sublayer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 96,
+        "question": "In the ATM 5-byte header, the HEC (Header Error Control) field is mathematically utilized to:",
+        "choices": [
+            "A. Encrypt the cell payload",
+            "B. Detect and correct bit errors solely within the 5-byte header, providing no protection for the payload",
+            "C. Detect errors in the 48-byte payload",
+            "D. Route the cell to the destination switch"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "Which ATM service category provides a guaranteed minimum capacity but dynamically allows the user to burst up to a maximum rate if unutilized network resources are available?",
+        "choices": [
+            "A. CBR (Constant Bit Rate)",
+            "B. UBR (Unspecified Bit Rate)",
+            "C. ABR (Available Bit Rate)",
+            "D. VBR (Variable Bit Rate)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 98,
+        "question": "An organization needs to connect its remote branches using a highly deterministic protocol that manages varying sizes of data bursts but ensures real-time voice traffic receives strict priority and minimal delay. Which wide area technology was historically built exactly for this?",
+        "choices": [
+            "A. Basic Ethernet",
+            "B. X.25",
+            "C. Token Ring",
+            "D. ATM"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 99,
+        "question": "The theoretical maximum bandwidth of an early standard B-ISDN connection utilizing an STM-1 (OC-3) physical interface is approximately:",
+        "choices": [
+            "A. 155 Mbps",
+            "B. 45 Mbps",
+            "C. 1.544 Mbps",
+            "D. 622 Mbps"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 100,
+        "question": "Despite its technical superiority in handling Quality of Service (QoS), why did B-ISDN/ATM eventually lose market dominance to Gigabit Ethernet and IP networks?",
+        "choices": [
+            "A. ATM could not physically transmit voice",
+            "B. High complexity, high equipment costs, \"cell tax\" overhead, and the rapid, cheap improvement of Ethernet speeds",
+            "C. ATM cells were too large for fast processors",
+            "D. ATM lacked a recognized international standardization body"
+        ],
+        "correct_answer": "B"
+    }
+]

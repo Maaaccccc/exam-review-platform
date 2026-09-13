@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "The 8085 instruction \"MOV A, M\" utilizes which specific addressing mode?",
+        "choices": [
+            "A. Immediate",
+            "B. Direct",
+            "C. Register Indirect",
+            "D. Indexed"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "In a software development toolchain, which tool is responsible for translating human-readable Assembly Language mnemonics into relocatable machine code?",
+        "choices": [
+            "A. Linker",
+            "B. Assembler",
+            "C. Compiler",
+            "D. Debugger"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Worded circuit: An 8086 microprocessor calculates a 20-bit physical address. If the Code Segment (CS) is 2000H and the Instruction Pointer (IP) is 0050H, what is the exact physical address placed on the bus?",
+        "choices": [
+            "A. 20500H",
+            "B. 02050H",
+            "C. 25000H",
+            "D. 20050H"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "Which bitwise logical instruction is standardly used with a specific mask to force designated bits in the accumulator to zero while leaving others unchanged?",
+        "choices": [
+            "A. ANA (AND)",
+            "B. ORA (OR)",
+            "C. XRA (XOR)",
+            "D. CMA (Complement)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "What instruction must be placed at the end of a subroutine to pop the return address from the stack and resume the main program?",
+        "choices": [
+            "A. RET",
+            "B. HLT",
+            "C. JMP",
+            "D. POP"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "In microprocessor programming, what is the primary operational difference between a compiler and an interpreter?",
+        "choices": [
+            "A. Compilers are hardware, interpreters are software",
+            "B. Compilers generate assembly, interpreters generate binary",
+            "C. A compiler translates the entire source code into an executable file beforehand, while an interpreter translates and executes line-by-line in real-time",
+            "D. A compiler is only for low-level languages"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "The Assembly directive 'ORG 1000H' is used specifically to:",
+        "choices": [
+            "A. Define a subroutine",
+            "B. Instruct the assembler to place the subsequent machine code starting at physical memory address 1000H",
+            "C. Clear the memory at 1000H",
+            "D. Move 1000H to the accumulator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "Worded scenario: The CPU executes an unconditional CALL instruction. What happens to the Stack Pointer?",
+        "choices": [
+            "A. It is incremented after pushing the target address",
+            "B. It is cleared to 0000H",
+            "C. It pops the return address",
+            "D. It is decremented before the current Program Counter is pushed onto the memory stack"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "In the standard computer memory hierarchy, which storage type provides the absolute fastest access time for the CPU?",
+        "choices": [
+            "A. L1 Cache",
+            "B. Internal CPU Registers",
+            "C. Main Memory (SRAM)",
+            "D. Solid State Drive"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "As you move down the memory hierarchy from CPU registers towards secondary storage, which of the following statements is universally true?",
+        "choices": [
+            "A. Access time decreases and cost per bit increases",
+            "B. Capacity decreases and access time increases",
+            "C. Capacity increases, access time increases, and cost per bit decreases",
+            "D. Both capacity and cost per bit increase"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "A memory device is classified as \"Volatile\" if it:",
+        "choices": [
+            "A. Completely loses its stored data when electrical power is removed",
+            "B. Can only be read from, never written to",
+            "C. Consumes power continuously even when turned off",
+            "D. Retains its data indefinitely without power"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "Which of the following memory technologies is strictly non-volatile?",
+        "choices": [
+            "A. Static RAM (SRAM)",
+            "B. Dynamic RAM (DRAM)",
+            "C. CPU L1 Cache",
+            "D. Electrically Erasable Programmable ROM (EEPROM)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Magnetic hard disk drives (HDDs) and Solid-State Drives (SSDs) are categorized within the microcomputer architecture as:",
+        "choices": [
+            "A. Primary Memory",
+            "B. Cache Memory",
+            "C. Secondary (or Auxiliary) Storage",
+            "D. Firmware"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "\"Locality of Reference\" is the foundational principle behind which memory subsystem?",
+        "choices": [
+            "A. Cache Memory",
+            "B. Virtual Memory",
+            "C. Direct Memory Access",
+            "D. Magnetic Storage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "Which type of primary memory is directly addressable by the CPU and typically holds the active programs and data currently being processed?",
+        "choices": [
+            "A. EPROM",
+            "B. Main Memory (RAM)",
+            "C. Flash Drive",
+            "D. Magnetic Tape"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "Worded scenario: A system loses power unexpectedly. Upon rebooting, the BIOS configuration settings are still present, but the word processor document that was open is gone. This proves that:",
+        "choices": [
+            "A. The BIOS is stored in RAM",
+            "B. The document was stored in ROM",
+            "C. The RAM is non-volatile",
+            "D. The RAM is volatile and the BIOS settings are stored in non-volatile memory (like CMOS with a battery or Flash)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "In terms of physical memory interfacing, what is the primary purpose of the Memory Address Register (MAR)?",
+        "choices": [
+            "A. To store the data fetched from memory",
+            "B. To hold the memory address temporarily while it is being decoded and accessed on the external bus",
+            "C. To point to the top of the stack",
+            "D. To dictate the clock speed"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "A memory hierarchy aims to combine the speed of the fastest memory with the capacity of the largest memory. Which of the following represents the correct order from fastest/smallest to slowest/largest?",
+        "choices": [
+            "A. Cache, Registers, Main Memory, SSD",
+            "B. Registers, Main Memory, Cache, SSD",
+            "C. Registers, Cache, Main Memory, SSD",
+            "D. Main Memory, Cache, Registers, SSD"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "If a CPU requests data and finds it immediately in the cache, this event is formally known as a:",
+        "choices": [
+            "A. Cache Flush",
+            "B. Page Fault",
+            "C. Cache Tag",
+            "D. Cache Hit"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 20,
+        "question": "What is the consequence of a \"Cache Miss\"?",
+        "choices": [
+            "A. The CPU must fetch the required data from the slower main memory (RAM), temporarily stalling execution",
+            "B. The system crashes",
+            "C. The cache is permanently disabled",
+            "D. The data is retrieved from the ROM"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "The fundamental memory cell of a Static RAM (SRAM) chip is constructed using:",
+        "choices": [
+            "A. A bistable flip-flop (latch) circuit typically made of 4 to 6 transistors",
+            "B. A single microscopic capacitor and one access transistor",
+            "C. A floating-gate MOSFET",
+            "D. A tiny magnetic core"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Why is SRAM termed \"Static\"?",
+        "choices": [
+            "A. It cannot be erased",
+            "B. It only operates on DC power",
+            "C. Its contents never change",
+            "D. It holds its data indefinitely as long as DC power is applied, without needing periodic refresh pulses"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 23,
+        "question": "The fundamental memory cell of a Dynamic RAM (DRAM) chip stores a single bit of data as:",
+        "choices": [
+            "A. A magnetic polarity",
+            "B. An active flip-flop state",
+            "C. An electrical charge on a microscopic capacitor",
+            "D. A permanently blown microscopic fuse"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "Because the microscopic capacitors in a DRAM cell naturally leak their electrical charge over time, DRAM strictly requires:",
+        "choices": [
+            "A. Very high operating voltages",
+            "B. Periodic refresh cycles to read and rewrite the data before it degrades",
+            "C. A constant supply of liquid nitrogen",
+            "D. Ultraviolet light to erase it"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "When comparing standard SRAM to standard DRAM, which of the following statements is technically accurate?",
+        "choices": [
+            "A. SRAM is much denser and cheaper than DRAM",
+            "B. DRAM consumes significantly more standby power because of the flip-flops",
+            "C. DRAM is faster than SRAM",
+            "D. SRAM is physically larger per bit (lower density), more expensive, but significantly faster than DRAM"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 26,
+        "question": "Worded circuit: A designer needs to implement a large 16 Gigabyte main memory for a desktop PC. Cost and physical board space (density) are the primary constraints. Which technology must be chosen?",
+        "choices": [
+            "A. SRAM",
+            "B. DRAM (specifically Synchronous DRAM / DDR)",
+            "C. EEPROM",
+            "D. Flash Memory"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "Cache memory inside a microprocessor (L1/L2) is almost universally implemented using which memory technology due to its extreme speed?",
+        "choices": [
+            "A. SRAM",
+            "B. SDRAM",
+            "C. DRAM",
+            "D. EPROM"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "What specific operation occurs during a DRAM \"Refresh\" cycle?",
+        "choices": [
+            "A. The data is permanently erased",
+            "B. The entire memory is backed up to the hard drive",
+            "C. The memory controller reads the data from a row of capacitors and immediately writes the exact same data back to recharge them",
+            "D. The power supply voltage is doubled"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "The address bus for a DRAM chip is typically multiplexed to save physical pins on the IC package. This requires the memory controller to send the address in two halves, strobed by which two specific active-low control signals?",
+        "choices": [
+            "A. ALE and BHE",
+            "B. RAS (Row Address Strobe) and CAS (Column Address Strobe)",
+            "C. RD and WR",
+            "D. CS and OE"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "An asynchronous SRAM chip operates independently of the system clock, relying entirely on input signal propagation delays. Conversely, what defines a Synchronous DRAM (SDRAM) chip?",
+        "choices": [
+            "A. It operates entirely on analog signals",
+            "B. It uses only one address pin",
+            "C. It does not require refresh cycles",
+            "D. All its inputs and outputs are strictly synchronized to the rising or falling edge of a master system clock"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 31,
+        "question": "Double Data Rate (DDR) SDRAM achieves vastly higher bandwidth than standard SDRAM by specifically transferring data on:",
+        "choices": [
+            "A. Both the rising and falling edges of the clock signal",
+            "B. Multiple separate data buses simultaneously",
+            "C. A fiber optic link",
+            "D. Only the rising edge, but at twice the clock frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "Worded circuit: A 1 Megabit (1 Mb) SRAM chip is organized as 128K words x 8 bits. How many address lines are physically required on this chip?",
+        "choices": [
+            "A. 8",
+            "B. 16",
+            "C. 17",
+            "D. 20"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "Worded circuit: A DRAM chip has 12 multiplexed address pins. This means it receives a 12-bit Row Address and a 12-bit Column Address. What is the total internal storage capacity in bits (assuming a x1 organization)?",
+        "choices": [
+            "A. 4 Kilobits",
+            "B. 24 Megabits",
+            "C. 16 Megabits (2^24)",
+            "D. 12 Megabits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "What is the primary disadvantage of using DRAM in embedded systems compared to SRAM?",
+        "choices": [
+            "A. It requires a complex, dedicated memory controller to constantly manage the multiplexed addressing and strict periodic refresh timing",
+            "B. It is too fast for simple microcontrollers",
+            "C. It consumes too much silicon area",
+            "D. It is strictly read-only"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "In standard SRAM ICs, the Output Enable (OE) control pin is primarily used to:",
+        "choices": [
+            "A. Turn on the power supply",
+            "B. Erase the memory",
+            "C. Select the row address",
+            "D. Tri-state the data output buffers to prevent bus contention when the chip is not actively being read"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "If the Write Enable (WE) pin of a generic RAM chip is pulsed active-low while the Chip Select (CS) is also active-low, what internal operation occurs?",
+        "choices": [
+            "A. A read cycle",
+            "B. A write cycle, where the data on the external bus is stored into the addressed memory location",
+            "C. A refresh cycle",
+            "D. A chip erase"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "In DRAM memory arrays, a \"Sense Amplifier\" is a critical analog circuit specifically designed to:",
+        "choices": [
+            "A. Increase the clock speed",
+            "B. Convert digital signals to analog",
+            "C. Detect and amplify the minuscule voltage change on a bitline when a storage capacitor is accessed, converting it to a full logic level",
+            "D. Generate the RAS and CAS strobes"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "Volatile memory retains its data as long as power is applied. What happens to standard DRAM if the power is maintained, but the refresh cycles are completely stopped?",
+        "choices": [
+            "A. The data becomes permanently burned in",
+            "B. The data is lost within milliseconds as the capacitors fully discharge through leakage currents",
+            "C. The RAM converts to SRAM",
+            "D. The speed doubles"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Which of the following RAM types retains its state without power by utilizing magnetic states rather than electrical charge, acting as a non-volatile RAM?",
+        "choices": [
+            "A. NVMe",
+            "B. SDRAM",
+            "C. SRAM",
+            "D. MRAM (Magnetoresistive RAM)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "The access time of a memory chip is formally defined as the time delay between:",
+        "choices": [
+            "A. The application of a valid address and the appearance of valid data at the output pins",
+            "B. The power-on event and the first instruction fetch",
+            "C. The Write Enable pulse and the Chip Select pulse",
+            "D. The CPU issuing an interrupt and the memory responding"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "A Mask-Programmed ROM is characterized by the fact that its data is:",
+        "choices": [
+            "A. Written by the user using a special programmer",
+            "B. Erased using ultraviolet light",
+            "C. Programmed dynamically by the CPU during boot",
+            "D. Permanently physically imprinted into the silicon metallization layer during the factory manufacturing process"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 42,
+        "question": "Which ROM technology allows the user to program it exactly once in the field by blowing microscopic internal nichrome or polysilicon fuses?",
+        "choices": [
+            "A. PROM (Programmable ROM)",
+            "B. EEPROM",
+            "C. Flash",
+            "D. EPROM"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 43,
+        "question": "A UV-EPROM (Erasable Programmable ROM) chip is easily identified physically by:",
+        "choices": [
+            "A. Its massive heat sink",
+            "B. A transparent quartz window on top of the IC package",
+            "C. Its complete lack of a data bus",
+            "D. Its 8-pin package"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "To completely erase a standard UV-EPROM, the user must:",
+        "choices": [
+            "A. Execute a software erase command",
+            "B. Apply a negative voltage to the Vpp pin",
+            "C. Expose the quartz window to intense ultraviolet (UV) light for 15-30 minutes",
+            "D. Heat the chip to 100 degrees Celsius"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "How is data stored internally in an EPROM, EEPROM, or Flash memory cell?",
+        "choices": [
+            "A. By trapping electrons on an insulated \"floating gate\" of a specialized MOSFET",
+            "B. By blowing a physical fuse",
+            "C. By charging a standard capacitor",
+            "D. By polarizing a magnetic domain"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "Which of the following is the primary advantage of EEPROM over UV-EPROM?",
+        "choices": [
+            "A. It is significantly cheaper to manufacture",
+            "B. It operates infinitely faster",
+            "C. It can be erased and reprogrammed electrically in-circuit, byte-by-byte, without needing to remove the chip or use UV light",
+            "D. It has infinite write cycles"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "Flash memory is essentially a highly optimized variation of which previous memory technology?",
+        "choices": [
+            "A. SRAM",
+            "B. DRAM",
+            "C. Mask ROM",
+            "D. EEPROM"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 48,
+        "question": "What is the fundamental operational difference between standard EEPROM and Flash memory regarding erasure?",
+        "choices": [
+            "A. Flash requires UV light, EEPROM does not",
+            "B. Standard EEPROM can be erased byte-by-byte, while Flash memory must be erased in large contiguous blocks (or sectors) simultaneously",
+            "C. Flash memory cannot be erased",
+            "D. Standard EEPROM is erased in blocks, Flash is erased byte-by-byte"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "A microcontroller has 32 KB of on-chip Flash memory used for storing firmware. Due to the physics of floating-gate transistors, this memory suffers from which specific physical limitation?",
+        "choices": [
+            "A. It loses data if the clock stops",
+            "B. It requires constant refresh cycles",
+            "C. It cannot be read more than 10,000 times",
+            "D. It has a finite \"endurance,\" meaning it will eventually wear out and fail after a certain number of erase/write cycles (e.g., 10,000 to 100,000 cycles)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "NAND Flash and NOR Flash are the two dominant Flash architectures. Which is typically used for executing code directly (XIP - eXecute In Place) due to its full address bus and fast random read access?",
+        "choices": [
+            "A. NAND Flash",
+            "B. NOR Flash",
+            "C. Both equally",
+            "D. Neither"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Which Flash architecture is universally used in USB drives and SSDs due to its massive storage density, faster write/erase times, but slower random access?",
+        "choices": [
+            "A. NOR Flash",
+            "B. EEPROM",
+            "C. NAND Flash",
+            "D. EPROM"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "The process of programming an EEPROM or Flash cell requires a significantly higher voltage than standard reading (e.g., 12V vs 5V). In modern 3.3V Flash chips, this high programming voltage is generated entirely on-chip using a:",
+        "choices": [
+            "A. Charge pump circuit",
+            "B. Step-down transformer",
+            "C. Large external capacitor",
+            "D. Zener diode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "During the startup sequence (boot) of a standard microcomputer, the very first instructions executed by the CPU are universally fetched from a non-volatile memory chip containing the:",
+        "choices": [
+            "A. Operating System Kernel",
+            "B. BIOS or Bootloader firmware (ROM/Flash)",
+            "C. Primary RAM",
+            "D. Virtual Memory"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "\"Shadow RAM\" is a BIOS optimization technique where:",
+        "choices": [
+            "A. Slow ROM contents are copied into faster RAM during boot, and the CPU is re-mapped to execute from the RAM copy",
+            "B. The RAM physically shadows the ROM",
+            "C. The ROM is completely disabled permanently",
+            "D. The RAM acts as a backup for the hard drive"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "A worded circuit: An engineer attempts to write data to an EPROM using standard memory write instructions (MEMW). What is the result?",
+        "choices": [
+            "A. The data is permanently written",
+            "B. The chip overheats",
+            "C. The write is ignored because EPROMs require a specialized high-voltage programming sequence, not a standard bus write cycle",
+            "D. The memory addresses are scrambled"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "In a 27C256 EPROM (which is a 256 Kilobit chip organized as 32K x 8), what is the total number of physical address pins required?",
+        "choices": [
+            "A. 8 pins",
+            "B. 16 pins",
+            "C. 12 pins",
+            "D. 15 pins (since 2^15 = 32,768)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "A specific pin on a memory chip is labeled \"Vpp\". In the context of EPROMs and older Flash memory, what is this pin used for?",
+        "choices": [
+            "A. Supplying the high programming voltage required to force electrons onto the floating gate",
+            "B. Vcc power supply",
+            "C. Ground",
+            "D. Output Enable"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Solid-State Drives (SSDs) utilize advanced memory controllers that spread out write operations evenly across all physical flash blocks to prevent premature failure of any single block. This crucial algorithm is known as:",
+        "choices": [
+            "A. Defragmentation",
+            "B. Refreshing",
+            "C. Wear Leveling",
+            "D. Error Correction"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "When writing to a previously used sector in a Flash memory chip, the memory controller must strictly perform which operation first?",
+        "choices": [
+            "A. A Read operation",
+            "B. An Erase operation on the entire block to reset the bits to logic 1 before programming the new 0s",
+            "C. A Refresh operation",
+            "D. A formatting sequence"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "Which ROM type provides the absolute highest security against reverse engineering and tampering, as its code is physically hardwired into the silicon during fabrication?",
+        "choices": [
+            "A. EEPROM",
+            "B. Flash",
+            "C. PROM",
+            "D. Mask ROM"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "In a microprocessor system, what is the fundamental purpose of \"Address Decoding\" logic?",
+        "choices": [
+            "A. To decrypt the data bus",
+            "B. To increase the clock speed of the memory",
+            "C. To generate a unique, active-low Chip Select (CS) signal for a specific memory IC only when the CPU outputs an address within that IC's designated memory map",
+            "D. To multiplex the address bus"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "An \"Absolute\" or \"Full\" address decoding scheme is implemented when:",
+        "choices": [
+            "A. Only the lower address lines are connected",
+            "B. Every single address line of the CPU (e.g., all A0-A15) is utilized either by connecting directly to the memory chip or to the decoding logic, ensuring the chip responds to only one specific contiguous address range",
+            "C. The address bus is multiplexed",
+            "D. The chip select is wired directly to ground"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "\"Partial\" address decoding occurs when some of the upper address lines are completely ignored by the decoding logic. What is the defining characteristic and major drawback of partial decoding?",
+        "choices": [
+            "A. It creates \"memory aliasing\" or \"shadowing,\" where the exact same physical memory chip falsely appears to the CPU at multiple different address ranges",
+            "B. It requires infinitely more logic gates",
+            "C. It prevents the CPU from booting",
+            "D. It makes the memory perfectly secure"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "Worded circuit: An 8085 system (16-bit address bus) uses a 4KB RAM chip (requires 12 address lines A0-A11). The Chip Select (CS) is tied to A15 (inverted). A12, A13, and A14 are completely unconnected. This is partial decoding. The RAM will correctly respond to addresses 8000H-8FFFH. It will ALSO falsely respond to:",
+        "choices": [
+            "A. 0000H-0FFFH",
+            "B. 1000H-1FFFH",
+            "C. Only 8000H-8FFFH",
+            "D. 9000H-9FFFH, A000H-AFFFH, etc., creating multiple \"shadows\" in the upper 32KB space"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "Which standard logic IC is universally used by engineers to easily decode multiple blocks of memory, taking an n-bit input and generating 2^n mutually exclusive active-low outputs?",
+        "choices": [
+            "A. 74LS373 Latch",
+            "B. 74LS138 3-to-8 Line Decoder",
+            "C. 74LS245 Transceiver",
+            "D. 555 Timer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "A typical RAM memory chip contains three primary control pins: CS (Chip Select), OE (Output Enable), and WE (Write Enable). To read data from the RAM, the CPU must assert:",
+        "choices": [
+            "A. Only WE",
+            "B. Only CS",
+            "C. CS and WE simultaneously",
+            "D. CS and OE simultaneously (both active-low)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 67,
+        "question": "Worded circuit: You must interface an 8 KB EPROM to an 8085 CPU starting exactly at address 0000H. 8 KB requires 13 address lines (A0-A12). The Chip Select (active-low) must activate ONLY when A13, A14, and A15 are all LOW. What basic logic gate achieves this?",
+        "choices": [
+            "A. A 3-input OR gate",
+            "B. A 3-input AND gate",
+            "C. A 3-input NAND gate",
+            "D. A 3-input NOR gate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "A memory chip has a capacity of 16K x 8. What does \"x 8\" specifically indicate?",
+        "choices": [
+            "A. The chip requires 8 address lines",
+            "B. The chip operates at 8 MHz",
+            "C. The physical width of the data bus on this specific IC is 8 bits (1 byte)",
+            "D. The chip has 8 chip select pins"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "Calculate the memory capacity: A chip has 14 address lines and 8 data lines. What is its capacity in Bytes?",
+        "choices": [
+            "A. 14 Bytes",
+            "B. 8 KB",
+            "C. 32 KB",
+            "D. 16 KB (since 2^14 = 16,384)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "Worded circuit: A memory map specifies that a 32 KB RAM chip must occupy the space from 8000H to FFFFH. 32 KB requires 15 address lines (A0-A14). To generate the active-low Chip Select, which CPU address line should be directly connected to the active-high CS pin (or inverted to an active-low CS pin)?",
+        "choices": [
+            "A. A15",
+            "B. A14",
+            "C. A0",
+            "D. A7"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "If a memory map shows a ROM chip occupying the hexadecimal address range 2000H to 3FFFH, what is the exact physical size of this ROM?",
+        "choices": [
+            "A. 4 KB",
+            "B. 8 KB",
+            "C. 16 KB",
+            "D. 32 KB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "An address decoder uses a 74LS138 (3-to-8 decoder). The inputs A, B, C are connected to CPU address lines A13, A14, A15 respectively. Output Y4 (active-low) connects to a RAM chip. 8 KB blocks are being decoded. What is the starting address of this RAM chip? (Note: Y4 corresponds to input binary 100).",
+        "choices": [
+            "A. 0000H",
+            "B. 4000H",
+            "C. 8000H",
+            "D. C000H"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "A microprocessor has a 16-bit address bus. You want to completely fill its memory space with 16 KB RAM chips. How many 16 KB RAM chips are required?",
+        "choices": [
+            "A. 2",
+            "B. 8",
+            "C. 4",
+            "D. 16"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "The Active-Low Output Enable (OE) pin on a memory IC is typically connected directly to which CPU control signal?",
+        "choices": [
+            "A. WR (Memory Write)",
+            "B. RD (Memory Read)",
+            "C. ALE",
+            "D. CLK"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "In a standard 8-bit microcomputer, if a memory write cycle occurs, the CPU asserts the MEMW signal. This signal is routed to which pin on the target RAM chip?",
+        "choices": [
+            "A. OE (Output Enable)",
+            "B. Vcc",
+            "C. CS (Chip Select)",
+            "D. WE (Write Enable)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 76,
+        "question": "A worded circuit: A system requires 4K of RAM starting at 4000H. 4K requires A0-A11. The address is 0100 0000 0000 0000. Therefore, A14=1, A15=0, A13=0, A12=0. The decoding logic must activate when this condition is met. This ensures the RAM responds starting at 4000H and ending at:",
+        "choices": [
+            "A. 4FFFH",
+            "B. 5000H",
+            "C. 7FFFH",
+            "D. 4000H"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "What severe electrical problem occurs if the address decoding logic is flawed and allows two different memory chips to be selected (CS=0) simultaneously during a Memory Read cycle?",
+        "choices": [
+            "A. The clock stops",
+            "B. The data bus becomes high impedance",
+            "C. Both chips read perfectly",
+            "D. Bus contention (a short circuit on the data bus as both chips try to drive the same lines)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "A ROM chip has 11 address lines (A0-A10) and 8 data lines. It is fully decoded to start at address 0000H. What is the address of its very last byte?",
+        "choices": [
+            "A. 03FFH",
+            "B. FFFFH",
+            "C. 07FFH",
+            "D. 0800H"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "Worded circuit: To design an address decoder that enables a peripheral strictly at physical address 3F8H (11 1111 1000 binary), how many input lines must the decoding logic gate evaluate?",
+        "choices": [
+            "A. 10 lines (A0-A9)",
+            "B. 8 lines",
+            "C. 16 lines",
+            "D. 3 lines"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "In a 16-bit microprocessor system like the 8086, memory is organized into \"Even\" and \"Odd\" banks. To access a single byte at an odd address, the CPU asserts which specific control signal alongside the decoding logic?",
+        "choices": [
+            "A. A0",
+            "B. BHE (Bus High Enable)",
+            "C. ALE",
+            "D. M/IO"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "The concept of \"Virtual Memory\" allows a computer to execute programs larger than the physical RAM. It achieves this by utilizing a portion of the ________ as an extension of main memory.",
+        "choices": [
+            "A. Secondary Storage (Hard Drive/SSD)",
+            "B. L1 Cache",
+            "C. CPU Registers",
+            "D. BIOS ROM"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "In a virtual memory system, the process of moving fixed-size blocks of data between the physical RAM and the hard drive is called:",
+        "choices": [
+            "A. Compiling",
+            "B. Refreshing",
+            "C. Formatting",
+            "D. Paging or Swapping"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "A Cache memory system uses a \"Write-Through\" policy. This means that when the CPU writes data to the cache:",
+        "choices": [
+            "A. The data is only written to main memory",
+            "B. The cache immediately clears",
+            "C. The data is simultaneously written to both the cache and the main memory to ensure data consistency",
+            "D. The data is written to cache, and main memory is updated only when the cache line is evicted"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "Conversely, in a \"Write-Back\" cache policy:",
+        "choices": [
+            "A. The CPU writes directly to the hard drive",
+            "B. Data is written only to the cache; main memory is updated later only when the modified (dirty) cache line is replaced",
+            "C. The cache refuses write operations",
+            "D. Main memory updates the cache"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "Interleaved Memory is a structural technique used primarily to:",
+        "choices": [
+            "A. Decrease the power consumption of RAM",
+            "B. Increase overall memory bandwidth by dividing memory into multiple independent banks that can be accessed simultaneously or in overlapping cycles",
+            "C. Convert ROM into RAM",
+            "D. Eliminate the need for an address bus"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "Worded circuit: A microcontroller uses a 10-bit Analog-to-Digital Converter (ADC). The resulting 10-bit digital value must be stored in standard 8-bit byte-organized RAM. How many memory addresses are required to store one single ADC reading?",
+        "choices": [
+            "A. 1",
+            "B. 8",
+            "C. 2",
+            "D. 10"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "Memory mapping an I/O device means that the I/O device is treated exactly like a memory location. The primary advantage of this is:",
+        "choices": [
+            "A. The CPU can use all standard memory instructions (e.g., MOV, ADD, CMP) directly on the I/O ports without needing special IN/OUT instructions",
+            "B. It makes the I/O device run at cache speed",
+            "C. It frees up the entire address bus",
+            "D. It prevents the I/O device from causing interrupts"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "The time taken by the hard disk controller to mechanically position the read/write head over the correct track on the magnetic platter is known as the:",
+        "choices": [
+            "A. Rotational Latency",
+            "B. Transfer Rate",
+            "C. Settling Time",
+            "D. Seek Time"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "In a CD-ROM or standard optical disk, digital data is permanently recorded as a continuous spiral track containing microscopic:",
+        "choices": [
+            "A. Pits and Lands (which reflect the laser differently)",
+            "B. Magnetic domains",
+            "C. Burned fuses",
+            "D. Capacitors"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Direct Memory Access (DMA) massively improves system performance during large data transfers (e.g., loading a file from a disk to RAM) by:",
+        "choices": [
+            "A. Increasing the CPU clock speed",
+            "B. Completely bypassing the CPU, allowing the DMA controller to directly drive the address and data buses to transfer data between the I/O and RAM",
+            "C. Using the ALU to compress the data",
+            "D. Disabling all hardware interrupts"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "A 32-bit microprocessor (with a 32-bit data bus) interfaces with standard 8-bit wide SRAM chips. To achieve the full 32-bit width, how many 8-bit SRAM chips must be connected in parallel?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 8",
+            "D. 4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "Worded circuit: An engineer connects the A0 pin of a CPU to the A1 pin of a memory chip, A1 to A2, etc. (shifting all addresses by one bit). This effectively means the CPU can only access memory addresses that are:",
+        "choices": [
+            "A. Odd numbers",
+            "B. Prime numbers",
+            "C. Even multiples of 2",
+            "D. Multiples of 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "The Memory Management Unit (MMU) is a critical hardware component primarily responsible for:",
+        "choices": [
+            "A. Generating the system clock",
+            "B. Translating virtual (logical) addresses generated by the CPU into physical addresses in main RAM",
+            "C. Cooling the processor",
+            "D. Refreshing the DRAM"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "A \"Page Fault\" is a hardware exception that is triggered by the MMU specifically when:",
+        "choices": [
+            "A. The CPU divides by zero",
+            "B. A RAM chip physically burns out",
+            "C. The power supply voltage drops",
+            "D. The CPU attempts to access a virtual memory page that is currently not loaded in physical RAM, but resides on the hard drive"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 95,
+        "question": "EPROM chips typically consume significant power during read operations. To conserve power, engineers utilize the Chip Enable (CE) pin. When CE is driven HIGH (inactive), the EPROM enters a low-power:",
+        "choices": [
+            "A. Programming mode",
+            "B. Erase mode",
+            "C. Standby mode",
+            "D. Refresh mode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "In modern PC architectures, the legacy \"Northbridge\" chip (often integrated into the CPU now) was historically responsible for interfacing the CPU directly to the:",
+        "choices": [
+            "A. High-speed Main Memory (RAM) and graphics card",
+            "B. Slow USB ports",
+            "C. Hard drives",
+            "D. BIOS ROM"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "A Flash memory chip datasheet specifies an \"Endurance\" of 100,000 cycles. This metric specifically indicates:",
+        "choices": [
+            "A. The maximum clock frequency in Hz",
+            "B. The number of hours the data will be retained without power",
+            "C. The maximum read speed",
+            "D. The guaranteed maximum number of times a single block can be erased and reprogrammed before wearing out"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 98,
+        "question": "The \"Data Retention\" specification of a non-volatile memory (like EEPROM) describes:",
+        "choices": [
+            "A. How many years the chip will hold its data reliably without any power applied (e.g., 10 to 100 years)",
+            "B. The time required to read one byte",
+            "C. The physical size of the memory cell",
+            "D. The maximum voltage it can withstand"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "To expand the DATA BUS width of a memory system from 8 bits to 16 bits using 8-bit wide memory chips, the chips must be connected in:",
+        "choices": [
+            "A. Series",
+            "B. Parallel (Address and Control lines shared, Data lines split into upper and lower bytes)",
+            "C. A ring topology",
+            "D. A daisy chain"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 100,
+        "question": "To expand the overall memory CAPACITY (e.g., from 16 KB to 32 KB) while keeping the data bus width the same, the memory chips must be connected such that:",
+        "choices": [
+            "A. Their data pins are connected in series",
+            "B. They share the exact same Chip Select signal",
+            "C. Their Data, Address, and R/W control lines are wired in parallel, but their Chip Select (CS) pins are driven by mutually exclusive outputs of an address decoder",
+            "D. They use completely different address buses"
+        ],
+        "correct_answer": "C"
+    }
+]

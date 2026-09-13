@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "Evaluate the principal value of the complex expression ln(-5).",
+        "choices": [
+            "A. 1.609 - j*pi",
+            "B. 1.609",
+            "C. j*pi",
+            "D. 1.609 + j*pi"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 2,
+        "question": "Find the value of the complex number expression (1 - j)^4.",
+        "choices": [
+            "A. 4",
+            "B. 4j",
+            "C. -4",
+            "D. -4j"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "Evaluate: sinh(j * pi/4).",
+        "choices": [
+            "A. sqrt(2)/2",
+            "B. j * sqrt(2)/2",
+            "C. j / 2",
+            "D. 1/2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 4,
+        "question": "Simplify the complex expression: (3 - j) / (2 + j).",
+        "choices": [
+            "A. 1 + j",
+            "B. 2 - j",
+            "C. 1 - j",
+            "D. 1 - 2j"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 5,
+        "question": "Determine the modulus of the complex number z = 5 - j12.",
+        "choices": [
+            "A. 17",
+            "B. 7",
+            "C. 13",
+            "D. 11"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "What is the principal argument Arg(z) of the complex number z = -1 + j * sqrt(3)?",
+        "choices": [
+            "A. 2*pi/3",
+            "B. pi/3",
+            "C. -pi/3",
+            "D. 5*pi/6"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "Using Euler's formula, express the complex number z = 2 * e^(j * pi/6) in rectangular form.",
+        "choices": [
+            "A. sqrt(3) + j",
+            "B. 1 + j*sqrt(3)",
+            "C. sqrt(3) - j",
+            "D. 1 - j*sqrt(3)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "Evaluate the infinite complex series sum: Sum_n=0^infinity (j/2)^n.",
+        "choices": [
+            "A. 0.8 - j0.4",
+            "B. 1.2 + j0.6",
+            "C. 1.0 + j0.5",
+            "D. 0.8 + j0.4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "Determine the residue of the complex function f(z) = e^z / (z^2 + pi^2) at the pole z = j*pi.",
+        "choices": [
+            "A. -j / (2*pi)",
+            "B. j / (2*pi)",
+            "C. 1 / (2*pi)",
+            "D. j * pi"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "Evaluate the contour integral of cos(z)/z dz around the circle abs(z) = 1 in the counter-clockwise direction.",
+        "choices": [
+            "A. 0",
+            "B. pi * j",
+            "C. 1",
+            "D. 2 * pi * j"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "Find the limit: lim (x -> 0) [x * cot(x)].",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. infinity",
+            "D. Does not exist"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "Determine the limit of f(x) = (e^x - 1) / x as x approaches 0.",
+        "choices": [
+            "A. 0",
+            "B. e",
+            "C. infinity",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Find the equation of the normal line to the curve y = ln(x) at x = 1.",
+        "choices": [
+            "A. y = -x + 1",
+            "B. y = x - 1",
+            "C. y = -x",
+            "D. y = x REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "If x^2 * y + y^2 * x = 6, find the value of dy/dx at the point (1, 2).",
+        "choices": [
+            "A. -5/8",
+            "B. -8/5",
+            "C. -4/3",
+            "D. -3/4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "A circular metal plate expands under heat so that its radius increases at 0.01 cm/s. At what rate is the area increasing when the radius is 10 cm?",
+        "choices": [
+            "A. 0.1 * pi sq.cm/s",
+            "B. 0.01 * pi sq.cm/s",
+            "C. 2.0 * pi sq.cm/s",
+            "D. 0.2 * pi sq.cm/s"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 16,
+        "question": "Find the critical points of the function f(x) = 2x^3 - 3x^2 - 12x + 5.",
+        "choices": [
+            "A. x = 1 and x = -2",
+            "B. x = -1 and x = 2",
+            "C. x = 0 and x = 3",
+            "D. x = -1 and x = 3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 17,
+        "question": "Determine the curvature of the curve y = ln(sec x) at x = 0.",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. 0.5",
+            "D. 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "Find the slope of the tangent line to the curve y = arctan(e^x) at x = 0.",
+        "choices": [
+            "A. 1",
+            "B. 1/2",
+            "C. 1/4",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Evaluate the derivative of the function f(x) = ln(x^2 + 1) at x = 1.",
+        "choices": [
+            "A. 1/2",
+            "B. 1",
+            "C. 2",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "Determine the value of c that satisfies the Mean Value Theorem for f(x) = x^3 - x on.",
+        "choices": [
+            "A. 2 / sqrt(3)",
+            "B. 1",
+            "C. sqrt(2)",
+            "D. 4/3"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "Evaluate: the integral of dx / (x * (ln x)^2).",
+        "choices": [
+            "A. 1 / ln(x) + C",
+            "B. -1 / ln(x) + C",
+            "C. ln(ln x) + C",
+            "D. -ln(x) + C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "Find the area bounded by the curve y = e^(2x), the coordinate axes, and the vertical line x = 1.",
+        "choices": [
+            "A. (e^2 - 1) / 2",
+            "B. e^2 - 1",
+            "C. e^2 / 2",
+            "D. (e^2 + 1) / 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "Find the volume of the solid generated by revolving the region bounded by y = x and y = x^2 about the x-axis.",
+        "choices": [
+            "A. pi / 15",
+            "B. 4*pi / 15",
+            "C. 2*pi / 5",
+            "D. 2*pi / 15"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "Evaluate the double integral of e^(x+y) dy dx over the region 0 <= x <= 1, 0 <= y <= 1.",
+        "choices": [
+            "A. e^2 - 1",
+            "B. (e - 1)^2",
+            "C. e^2 - 2e",
+            "D. e^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "Find the arc length of the curve y = (2/3) * (x - 1)^(3/2) from x = 1 to x = 4.",
+        "choices": [
+            "A. 16/3",
+            "B. 11/3",
+            "C. 13/3",
+            "D. 14/3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 26,
+        "question": "Determine the centroid x-coordinate of the area in the first quadrant bounded by the curve y = 4 - x^2.",
+        "choices": [
+            "A. 5/8",
+            "B. 3/8",
+            "C. 1/2",
+            "D. 3/4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "Evaluate the improper integral: the integral from 0 to infinity of x * e^(-x) dx.",
+        "choices": [
+            "A. 0",
+            "B. infinity REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "C. 1/2",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 28,
+        "question": "Using Simpson's 1/3 Rule with n = 4 intervals, approximate the integral of x^2 dx from 0 to 2. (h = 0.5).",
+        "choices": [
+            "A. 2.62",
+            "B. 2.67",
+            "C. 2.75",
+            "D. 2.50"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "Determine the moment of inertia of a uniform thin circular disk of mass M and radius R about its central axis perpendicular to the disk.",
+        "choices": [
+            "A. M * R^2 / 2",
+            "B. M * R^2 / 4",
+            "C. M * R^2 / 12",
+            "D. M * R^2 / 3"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Find the value of the definite integral of x * e^(-x^2) dx from 0 to infinity.",
+        "choices": [
+            "A. 1",
+            "B. 1/2",
+            "C. 1/4",
+            "D. Divergent"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Determine the integrating factor of the differential equation: dy/dx - (3/x)*y = x^4.",
+        "choices": [
+            "A. x^-3",
+            "B. x^3",
+            "C. e^(-3x)",
+            "D. e^(3x)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "Find the general solution of dy/dx = (x^2 + 1) / (y^2).",
+        "choices": [
+            "A. y^3 = x^3 + x + C",
+            "B. y^2 = x^2 + 2x + C",
+            "C. y^3 = x^3 + 3x + C",
+            "D. y^3 = 3x^3 + 3x + C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "What is the general solution of the differential equation: y'' - 6y' + 9y = 0?",
+        "choices": [
+            "A. y = C1 * e^(3x) + C2 * e^(-3x)",
+            "B. y = (C1 + C2 * x) * e^(3x)",
+            "C. y = C1 * cos(3x) + C2 * sin(3x)",
+            "D. y = (C1 + C2 * x) * e^(-3x)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "Classify the differential equation: (x^2 + y^2) dx - 2xy dy = 0.",
+        "choices": [
+            "A. Exact differential equation",
+            "B. Separable differential equation",
+            "C. Homogeneous differential equation",
+            "D. Linear differential equation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "Using the method of undetermined coefficients, state the form of the particular solution yp for: y'' - 4y = e^(2x).",
+        "choices": [
+            "A. A * e^(2x)",
+            "B. A * x^2 * e^(2x)",
+            "C. A * x * e^(2x)",
+            "D. A * x * e^(-2x)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Find the particular solution of dy/dx = 4x^3 with boundary condition y(1) = 5.",
+        "choices": [
+            "A. y = x^4 + 5",
+            "B. y = 4x^4 + 1",
+            "C. y = x^4 + C",
+            "D. y = x^4 + 4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "Determine the orthogonal trajectories of the family of curves y^2 = C * x^3.",
+        "choices": [
+            "A. 3x^2 + 2y^2 = K",
+            "B. x^2 + y^2 = K",
+            "C. 2x^2 + 3y^2 = K",
+            "D. x*y = K"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "Evaluate the Laplace transform of the second derivative, Ly''(t), given y(0) = 1 and y'(0) = 2.",
+        "choices": [
+            "A. s^2 * Y(s) - 2s - 1",
+            "B. s^2 * Y(s) - s + 2",
+            "C. s^2 * Y(s) + s + 2",
+            "D. s^2 * Y(s) - s - 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 39,
+        "question": "Solve the initial value problem of the first-order linear differential equation: dy/dt + y = e^t, y(0) = 1.",
+        "choices": [
+            "A. y = e^t",
+            "B. y = 0.5 * e^t - 0.5 * e^(-t)",
+            "C. y = e^t + e^(-t)",
+            "D. y = 0.5 * e^t + 0.5 * e^(-t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "A bacterial population grows at a rate proportional to its current size. If the population doubles in 5 hours, what is the growth constant k?",
+        "choices": [
+            "A. 0.2000 hr^-1",
+            "B. 0.0500 hr^-1",
+            "C. 0.6931 hr^-1",
+            "D. 0.1386 hr^-1 REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "A box contains 5 red balls and 7 white balls. If 2 balls are drawn in succession with replacement, what is the probability that both are red?",
+        "choices": [
+            "A. 5/33",
+            "B. 25/144",
+            "C. 25/132",
+            "D. 5/14"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "The mean time to failure (MTTF) of an electronic component is 5,000 hours, modeled by an exponential distribution. What is the probability that it fails within the first 5,000 hours?",
+        "choices": [
+            "A. 0.368",
+            "B. 0.632",
+            "C. 0.500",
+            "D. 0.000"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "A quality control engineer tests a sample of 64 chips and finds a mean resistance of 10.2 ohms with standard deviation 0.4 ohms. What is the 95% confidence interval for the true mean? (Z = 1.96).",
+        "choices": [
+            "A. 10.2 ± 0.196 ohms",
+            "B. 10.2 ± 0.049 ohms",
+            "C. 10.2 ± 0.098 ohms",
+            "D. 10.2 ± 0.012 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "Calculate the number of permutations of the letters in the word PROBABILITY.",
+        "choices": [
+            "A. 4,989,600",
+            "B. 39,916,800",
+            "C. 9,979,200",
+            "D. 11,088,000"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "What is the probability of rolling a total of exactly 7 on two fair six-sided dice?",
+        "choices": [
+            "A. 1/12",
+            "B. 5/36",
+            "C. 1/18",
+            "D. 1/6"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 46,
+        "question": "In a group of 100 students, 60 like programming, 50 like hardware, and 20 like both. How many students do not like either?",
+        "choices": [
+            "A. 30",
+            "B. 20",
+            "C. 10",
+            "D. 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "Which sampling technique selects every k-th element from a listed population?",
+        "choices": [
+            "A. Stratified Sampling",
+            "B. Systematic Sampling",
+            "C. Cluster Sampling",
+            "D. Simple Random Sampling"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "In hypothesis testing, what type of error is committed by failing to reject the null hypothesis when it is actually false?",
+        "choices": [
+            "A. Type II Error",
+            "B. Type I Error",
+            "C. Standard Error",
+            "D. Sampling Error"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "For a Poisson distribution with parameter lambda = 4, find the standard deviation.",
+        "choices": [
+            "A. 4",
+            "B. 16",
+            "C. 1",
+            "D. 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "If the correlation coefficient between two variables is r = 0.05, what does this indicate?",
+        "choices": [
+            "A. A strong positive relationship",
+            "B. A perfect positive relationship",
+            "C. An extremely weak or negligible positive linear relationship",
+            "D. No relationship of any kind"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "What is the natural undamped frequency of a system described by the characteristic equation: s^2 + 8s + 16 = 0?",
+        "choices": [
+            "A. 4 rad/s",
+            "B. 16 rad/s",
+            "C. 8 rad/s",
+            "D. 2 rad/s"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "Determine the steady-state error of a unity feedback system with open-loop transfer function G(s) = 10 / (s + 2) for a unit step input.",
+        "choices": [
+            "A. 0.0",
+            "B. 0.167",
+            "C. 1.0",
+            "D. 0.5"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "Determine the poles of the unity feedback open loop system transfer function G(s) = s / (s^2 + 3s + 2).",
+        "choices": [
+            "A. 1 and 2 REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "B. -1 and -2",
+            "C. 0 and -3",
+            "D. -1 and -3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "Using the Routh-Hurwitz criterion, find the range of K for stability of s^3 + 2s^2 + s + K = 0.",
+        "choices": [
+            "A. 0 < K < 2",
+            "B. K > 0",
+            "C. K > 2",
+            "D. 0 < K < 4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "In control systems, which component is specifically designed to improve the transient response speed?",
+        "choices": [
+            "A. Integral action",
+            "B. Derivative action",
+            "C. Proportional action",
+            "D. Feedforward action"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "A discrete-time LTI system is stable if and only if all poles of its transfer function H(z) lie in which region of the z-plane?",
+        "choices": [
+            "A. Inside the unit circle",
+            "B. Outside the unit circle",
+            "C. Left-Half Plane (LHP)",
+            "D. On the unit circle"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 57,
+        "question": "Determine the overall transfer function of a negative feedback system with forward path gain G(s) and feedback path gain H(s).",
+        "choices": [
+            "A. G(s) / (1 + G(s)*H(s))",
+            "B. G(s) / (1 - G(s)*H(s))",
+            "C. G(s)*H(s) / (1 + G(s)*H(s))",
+            "D. G(s) + H(s)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "In state-space representation, which matrix determines the system dynamics and stability?",
+        "choices": [
+            "A. System matrix A",
+            "B. Input matrix B",
+            "C. Output matrix C",
+            "D. Transmission matrix D"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "For a first-order system with transfer function H(s) = 1 / (tau * s + 1), what is the time constant of the system?",
+        "choices": [
+            "A. 1 / tau",
+            "B. 1",
+            "C. 2 * tau",
+            "D. tau"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "For a second-order system with damping ratio zeta = 1.0, describe the transient response.",
+        "choices": [
+            "A. Underdamped",
+            "B. Overdamped",
+            "C. Critically damped",
+            "D. Undamped"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "Find the Z-transform of the discrete unit step signal, u[n].",
+        "choices": [
+            "A. 1 / (1 - z^-1)",
+            "B. 1",
+            "C. z",
+            "D. z^-1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "According to the Nyquist theorem, what is the minimum sampling rate required to avoid aliasing for a signal with maximum frequency of 20 kHz?",
+        "choices": [
+            "A. 20 kHz",
+            "B. 10 kHz",
+            "C. 40 kHz",
+            "D. 80 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "Evaluate the 4-point Circular Convolution of x[n] = 1, 0, 1, 0 and h[n] = 1, 0, 1, 0.",
+        "choices": [
+            "A. 1, 1, 1, 1",
+            "B. 2, 0, 2, 0",
+            "C. 2, 2, 0, 0",
+            "D. 4, 0, 0, 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "Calculate the linear convolution y[n] of x[n] = 1, 1 and h[n] = 1, -1.",
+        "choices": [
+            "A. 1, 1, -1",
+            "B. 1, 2, -1",
+            "C. 1, 0, -1",
+            "D. 1, -1, 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "What type of filter is represented by the difference equation y[n] = 0.5*x[n] + 0.5*x[n-1]?",
+        "choices": [
+            "A. Low-pass filter",
+            "B. High-pass filter",
+            "C. Band-pass filter",
+            "D. All-pass filter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Find the Fourier transform of x(t) = delta(t) where delta is the unit impulse function.",
+        "choices": [
+            "A. 1",
+            "B. 2 * pi",
+            "C. 1 / (j * omega) REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "D. delta(omega)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 67,
+        "question": "Find the inverse Fourier transform of X(omega) = 2*pi * delta(omega).",
+        "choices": [
+            "A. 1",
+            "B. delta(t)",
+            "C. e^(j * omega)",
+            "D. 2 * pi"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "Determine the poles of the Z-transform expression: H(z) = z / (z - 0.8).",
+        "choices": [
+            "A. 0.8",
+            "B. 0",
+            "C. 1",
+            "D. -0.8"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "State the Region of Convergence (ROC) for a stable causal LTI discrete-time system with poles at z = 0.5 and z = 0.9.",
+        "choices": [
+            "A. abs(z) > 0.9",
+            "B. abs(z) < 0.5",
+            "C. 0.5 < abs(z) < 0.9",
+            "D. Includes the origin"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "Using the convolution property of Laplace transforms, find L^-1 2 / (s * (s + 2)) .",
+        "choices": [
+            "A. e^(-2t) - 1",
+            "B. 2 * (1 - e^(-2t))",
+            "C. 1 - e^(-2t)",
+            "D. 1 + e^(-2t)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "Calculate the dot product of vectors A = and B = [2, -1, 5].",
+        "choices": [
+            "A. 7",
+            "B. 5",
+            "C. 3",
+            "D. 11"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "Determine the magnitude of the cross product of A = [2, 1, -1] and B = [1, -2, 1].",
+        "choices": [
+            "A. sqrt(27)",
+            "B. sqrt(35)",
+            "C. 5",
+            "D. sqrt(14)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "A ladder 10 ft long rests against a vertical wall. If the bottom slides away at 3 ft/s, how fast is the top falling when the bottom is 6 ft from the wall?",
+        "choices": [
+            "A. 1.50 ft/s",
+            "B. 2.00 ft/s",
+            "C. 3.00 ft/s",
+            "D. 2.25 ft/s"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "Find the equation of the normal line to the curve y = x^2 + 2x + 1 at x = 1.",
+        "choices": [
+            "A. y = -1/4x + 13/4",
+            "B. y = -1/4x + 15/4",
+            "C. y = -1/4x + 17/4",
+            "D. y = -1/4x + 19/4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "Transposing the formula P = V^2 / R for resistance R gives:",
+        "choices": [
+            "A. R = P / V^2",
+            "B. R = V^2 / P",
+            "C. R = P * V^2",
+            "D. R = V / P"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "Transposing the formula S = u*t + 0.5*a*t^2 to make acceleration a the subject gives:",
+        "choices": [
+            "A. a = (S - u*t) / t^2",
+            "B. a = 2 * (S + u*t) / t^2",
+            "C. a = (S + u*t) / 2*t^2",
+            "D. a = 2 * (S - u*t) / t^2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "Three engineers can complete a task in 8 hours. Assuming the rate of work remains constant, four engineers will complete the task in:",
+        "choices": [
+            "A. 10 hours 40 min",
+            "B. 5 hours 20 min",
+            "C. 7 hours",
+            "D. 6 hours"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "In an engineering equation 2^5 / 2^r = 1/4. The value of r is:",
+        "choices": [
+            "A. 3",
+            "B. -7",
+            "C. 7",
+            "D. 9"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "The Boolean expression A'*B'*C' + A'*B'*C is equivalent to:",
+        "choices": [
+            "A. A*B",
+            "B. A*B'",
+            "C. A'*B'",
+            "D. A'*C REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "Evaluate the determinant of the matrix: [,].",
+        "choices": [
+            "A. 2",
+            "B. 10",
+            "C. -2",
+            "D. -10"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 81,
+        "question": "The curl of a conservative electric field E is always equal to:",
+        "choices": [
+            "A. 1",
+            "B. infinity",
+            "C. 0",
+            "D. Does not exist"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "What is the physical meaning of the divergence of a vector field at a point?",
+        "choices": [
+            "A. The intensity of rotation",
+            "B. The magnitude of the field",
+            "C. The total energy storage",
+            "D. The net outward flux per unit volume"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "If the electric flux density is given by D = 2x*i + 3y*j + z*k C/m^2, find the volume charge density pv at any point.",
+        "choices": [
+            "A. 1 C/m^3",
+            "B. 2 C/m^3",
+            "C. 3 C/m^3",
+            "D. 6 C/m^3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 84,
+        "question": "Find the directional derivative of f(x, y, z) = x^2 * y * z at (1, 1, 1) in the direction of the vector.",
+        "choices": [
+            "A. 2 / sqrt(3)",
+            "B. 3 / sqrt(3)",
+            "C. 5 / sqrt(3)",
+            "D. 4 / sqrt(3)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Which vector calculus theorem relates a line integral around a closed loop to a surface integral of the curl of the vector field?",
+        "choices": [
+            "A. Stokes' Theorem",
+            "B. Divergence Theorem",
+            "C. Green's Theorem",
+            "D. Helmholtz Theorem"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "For a vector field A, what is the divergence of the curl of A?",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. grad(div A)",
+            "D. curl(grad A)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "Determine the Laplacian of the scalar potential field V = x^2 + y^2 + z^2.",
+        "choices": [
+            "A. 0",
+            "B. 6",
+            "C. 2",
+            "D. 3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "Evaluate the line integral of F = [y, -x] along the circle x^2 + y^2 = 1 in the clockwise direction.",
+        "choices": [
+            "A. 2 * pi",
+            "B. -2 * pi",
+            "C. pi",
+            "D. -pi"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "According to Gauss's Law, the total outward electric flux through any closed surface is equal to:",
+        "choices": [
+            "A. The total enclosed charge",
+            "B. The divergence of the field",
+            "C. Zero",
+            "D. The total potential energy"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "For any set A, the intersection of A with the complement of A is equal to:",
+        "choices": [
+            "A. The universal set",
+            "B. Set A",
+            "C. The complement of A",
+            "D. The null set"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "The set of all subsets of a given set S is called the:",
+        "choices": [
+            "A. Universal set",
+            "B. Complementary set",
+            "C. Power set",
+            "D. Empty set"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "If set A has 3 elements, how many elements does the power set of A contain?",
+        "choices": [
+            "A. 3",
+            "B. 6",
+            "C. 9",
+            "D. 8 REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "In boolean algebra, the absorption law states that A + A * B is equal to:",
+        "choices": [
+            "A. B",
+            "B. A * B",
+            "C. A",
+            "D. A + B"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "A conditional statement 'If P then Q' is false only when:",
+        "choices": [
+            "A. P is false and Q is true",
+            "B. P and Q are both false",
+            "C. P is true and Q is false",
+            "D. P and Q are both true"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "If two sets A and B are disjoint, then their intersection is:",
+        "choices": [
+            "A. Set A",
+            "B. Set B",
+            "C. The universal set",
+            "D. The null set"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "The logical proposition 'P or not P' is an example of a:",
+        "choices": [
+            "A. Tautology",
+            "B. Contradiction",
+            "C. Fallacy",
+            "D. Implication"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "For all sets A and B, the statement (A U B)' is equivalent to:",
+        "choices": [
+            "A. A' U B'",
+            "B. A n B",
+            "C. A' n B'",
+            "D. A U B"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "If n(A) = 15, n(B) = 25, and n(A n B) = 5, find n(A U B).",
+        "choices": [
+            "A. 40",
+            "B. 30",
+            "C. 45",
+            "D. 35"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "The Cartesian product A x B for A = 1 and B = x, y is:",
+        "choices": [
+            "A. (x, 1), (y, 1)",
+            "B. 1, x, y",
+            "C. (1, x), (1, y)",
+            "D. (1, 1), (x, y) REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "C"
+    }
+]

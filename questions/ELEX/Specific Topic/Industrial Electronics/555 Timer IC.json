@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "What component in a PLC input module provides critical galvanic isolation between harsh field wiring and sensitive CPU logic?",
+        "choices": [
+            "A. Relay",
+            "B. Transistor",
+            "C. Optocoupler",
+            "D. Transformer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "Worded circuit: An AC Solid State Relay switching a large solenoid fails catastrophically due to massive thermal overload. What is the most common state of the failed SSR?",
+        "choices": [
+            "A. Oscillating",
+            "B. Open circuit",
+            "C. High impedance",
+            "D. Short circuit, permanently energizing the load"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 3,
+        "question": "Overload relays are rated by \"Trip Class\". What does a \"Class 20\" rating specifically mean?",
+        "choices": [
+            "A. The relay will trip within 20 seconds when carrying 600% of its full load amp (FLA) rating",
+            "B. The relay will trip exactly at 20 Amps",
+            "C. The relay can withstand a 20kV surge",
+            "D. The relay is rated for a 20 Horsepower motor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 4,
+        "question": "In standard PLC ladder logic, which symbol represents an \"Examine If Closed\" (XIC) instruction?",
+        "choices": [
+            "A. -( )-",
+            "B. -] [-",
+            "C. -]/[-",
+            "D. -(L)-"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "AC magnetic contactors emit a loud buzzing noise as the magnetic field drops to zero. To prevent this, what component is embedded in the pole face of the electromagnet?",
+        "choices": [
+            "A. A shading coil (copper ring)",
+            "B. A permanent magnet",
+            "C. A large capacitor",
+            "D. An internal snubber circuit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "A \"Zero-Crossing\" AC Solid State Relay is highly recommended for which type of load to prevent massive inrush currents and electromagnetic interference (EMI)?",
+        "choices": [
+            "A. Small DC logic relays",
+            "B. Fast switching PWM heaters",
+            "C. Low-power DC logic gates",
+            "D. High-power tungsten incandescent lamps and resistive heaters"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 7,
+        "question": "A severe ladder logic programming error where the exact same Output Energize (OTE) address is written in two separate active rungs is known as:",
+        "choices": [
+            "A. Cross-talking",
+            "B. Double coiling (or Destructive bit conflict)",
+            "C. Bit shifting",
+            "D. Over-addressing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "Worded circuit: A reversing motor starter uses Forward (F) and Reverse (R) contactors. To absolutely prevent a phase-to-phase short, the NC auxiliary of F is wired in series with the R coil, and vice versa. This technique is called:",
+        "choices": [
+            "A. Mechanical bypassing",
+            "B. Sequence control",
+            "C. Electrical interlocking",
+            "D. Holding logic"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 9,
+        "question": "Inside the standard 555 timer IC, how many analog voltage comparators are utilized to monitor the capacitor voltage?",
+        "choices": [
+            "A. One",
+            "B. Four",
+            "C. Two",
+            "D. Three"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "The internal voltage divider of a standard 555 timer consists of three equal-value resistors. What is the typical resistance value of each resistor?",
+        "choices": [
+            "A. 5 kOhms",
+            "B. 10 kOhms",
+            "C. 1 kOhm",
+            "D. 555 Ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "What is the internal reference voltage for the inverting input of the UPPER comparator in a 555 timer when the Control Voltage pin is left open?",
+        "choices": [
+            "A. 1/3 Vcc",
+            "B. 1/2 Vcc",
+            "C. Vcc",
+            "D. 2/3 Vcc"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 12,
+        "question": "What is the internal reference voltage for the non-inverting input of the LOWER comparator in a 555 timer?",
+        "choices": [
+            "A. 2/3 Vcc",
+            "B. 1/3 Vcc",
+            "C. 1/2 Vcc",
+            "D. Vcc"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "The digital logic core of the 555 timer that remembers its current state and drives the output buffer is a:",
+        "choices": [
+            "A. D-type Flip-Flop",
+            "B. RS (Reset-Set) Flip-Flop",
+            "C. JK Flip-Flop",
+            "D. T-type Flip-Flop"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 14,
+        "question": "Pin 5 of the 555 timer is designated as the Control Voltage. What is its primary internal connection?",
+        "choices": [
+            "A. The output of the lower comparator",
+            "B. The base of the discharge transistor",
+            "C. The inverting input of the upper comparator",
+            "D. The reset pin of the flip-flop"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "Pin 7 (Discharge) of the 555 timer is internally connected to the collector of an NPN transistor. The emitter of this transistor is connected to:",
+        "choices": [
+            "A. Ground",
+            "B. Vcc",
+            "C. Pin 3 (Output)",
+            "D. Pin 6 (Threshold)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 16,
+        "question": "Pin 4 (Reset) of the 555 timer is an active-low input. What does it override when pulled to ground?",
+        "choices": [
+            "A. Only the output buffer",
+            "B. Only the discharge transistor",
+            "C. The analog comparators only",
+            "D. The entire internal flip-flop, immediately forcing the output LOW"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "What internal action occurs when the external voltage at Pin 2 (Trigger) falls below 1/3 Vcc?",
+        "choices": [
+            "A. The lower comparator outputs LOW, resetting the flip-flop",
+            "B. The upper comparator outputs HIGH, setting the flip-flop",
+            "C. The upper comparator outputs LOW, resetting the flip-flop",
+            "D. The lower comparator outputs HIGH, setting the flip-flop"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 18,
+        "question": "What internal action occurs when the external voltage at Pin 6 (Threshold) rises above 2/3 Vcc?",
+        "choices": [
+            "A. The lower comparator outputs HIGH, resetting the flip-flop",
+            "B. The upper comparator outputs HIGH, resetting the flip-flop",
+            "C. The upper comparator outputs HIGH, setting the flip-flop",
+            "D. The lower comparator outputs HIGH, setting the flip-flop"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "When the output (Pin 3) of the 555 timer is HIGH, what is the operational state of the internal discharge transistor (Pin 7)?",
+        "choices": [
+            "A. Conducting (ON)",
+            "B. In active region",
+            "C. Cutoff (OFF)",
+            "D. Saturated"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "The standard bipolar 555 timer output stage uses a totem-pole configuration. What is its approximate maximum sourcing or sinking current capability?",
+        "choices": [
+            "A. 200 mA",
+            "B. 20 mA",
+            "C. 1 A",
+            "D. 500 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "Connecting Pin 5 (Control Voltage) directly to ground without a capacitor will:",
+        "choices": [
+            "A. Force the upper comparator threshold to 0V, disrupting normal operation",
+            "B. Destroy the IC immediately",
+            "C. Force the timer permanently into astable mode",
+            "D. Have absolutely no effect on the timing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "The widely accepted origin of the name \"555\" timer is derived from:",
+        "choices": [
+            "A. The maximum theoretical frequency of 555 kHz",
+            "B. The original 5-pin metal can package design",
+            "C. The three 5 kOhm resistors used in its internal voltage divider",
+            "D. The exact year of its commercial invention"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "Which fundamental mode of the 555 timer produces a single, fixed-duration output pulse in response to a momentary input trigger?",
+        "choices": [
+            "A. Bistable mode",
+            "B. Astable mode",
+            "C. Schmitt Trigger mode",
+            "D. Monostable mode"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "In standard monostable mode, what is the mathematical formula for the output pulse width (T)?",
+        "choices": [
+            "A. T = 0.693 * R * C",
+            "B. T = 1.1 * R * C",
+            "C. T = 1.44 * R * C",
+            "D. T = R * C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "Worded circuit: A 555 monostable circuit uses a timing resistor R = 10 kOhms and a capacitor C = 10 uF. What is the duration of the output HIGH pulse?",
+        "choices": [
+            "A. 69.3 ms",
+            "B. 144 ms",
+            "C. 110 ms",
+            "D. 1.1 ms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "To initiate the timing cycle in monostable mode, the Trigger pin (Pin 2) must experience a:",
+        "choices": [
+            "A. Positive-going edge exceeding 2/3 Vcc",
+            "B. Negative-going pulse falling below 1/3 Vcc",
+            "C. Continuous DC high signal",
+            "D. Continuous DC low signal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "During the active monostable timing cycle (when Output is HIGH), how does the external capacitor charge?",
+        "choices": [
+            "A. Through the external timing resistor towards Vcc",
+            "B. Through the internal discharge transistor to ground",
+            "C. Through the trigger pin towards Vcc",
+            "D. It does not charge; it discharges"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "In a standard monostable configuration, what happens if the trigger pulse applied to Pin 2 is held LOW for a duration longer than the designed output pulse width (1.1 * RC)?",
+        "choices": [
+            "A. The IC will overheat and fail",
+            "B. The output will go LOW at the exact designed time regardless of the trigger",
+            "C. The timer will automatically retrigger itself",
+            "D. The output will remain HIGH until the trigger is released HIGH"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "Worded circuit: A 555 monostable circuit is triggered by a manual pushbutton. To prevent the output from staying high indefinitely due to a long, sustained button press, what is commonly placed between the switch and Pin 2?",
+        "choices": [
+            "A. A pull-up resistor only",
+            "B. An RC differentiator network (a capacitor in series with the trigger line)",
+            "C. A clamping diode",
+            "D. An isolation inductor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "At the exact end of the monostable timing cycle, just before the output switches LOW, the voltage across the external capacitor theoretically reaches:",
+        "choices": [
+            "A. 1/3 Vcc",
+            "B. Vcc",
+            "C. 0 V",
+            "D. 2/3 Vcc"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 31,
+        "question": "Monostable multivibrators, such as the 555 timer in monostable mode, are frequently referred to in digital logic terminology as:",
+        "choices": [
+            "A. Flip-flops",
+            "B. Astable clocks",
+            "C. One-shots",
+            "D. Multiplexers"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "Worded circuit: A monostable 555 circuit is powered by Vcc = 15V. The timing components are R = 50 kOhms and C = 100 nF. Calculate the precise pulse width.",
+        "choices": [
+            "A. 5.5 ms",
+            "B. 5.5 us",
+            "C. 3.4 ms",
+            "D. 3.4 us"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "Applying a steady external DC voltage higher than 2/3 Vcc to Pin 5 (Control Voltage) in a monostable circuit will cause the output pulse width to:",
+        "choices": [
+            "A. Increase",
+            "B. Decrease",
+            "C. Remain completely unchanged",
+            "D. Drop to zero immediately"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "If Pin 4 (Reset) is abruptly pulled LOW during an active monostable timing cycle, what immediately occurs?",
+        "choices": [
+            "A. The timing cycle is extended by 1.1 RC",
+            "B. The capacitor charges instantly to Vcc",
+            "C. The timer permanently converts to astable mode",
+            "D. The output goes LOW immediately and the timing capacitor rapidly discharges"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 35,
+        "question": "Worded circuit: A 555 timer is configured with an external transistor that discharges the timing capacitor every time an input pulse arrives. If the pulses stop, the capacitor fully charges and the 555 output drops. This circuit fundamentally operates as a:",
+        "choices": [
+            "A. Free-running astable",
+            "B. Retriggerable monostable (missing-pulse detector)",
+            "C. Basic bistable latch",
+            "D. Schmitt trigger"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "Before a trigger pulse is applied in a standard monostable circuit, what is the steady-state DC voltage across the external timing capacitor?",
+        "choices": [
+            "A. 1/3 Vcc",
+            "B. 2/3 Vcc",
+            "C. 0 V",
+            "D. Vcc"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "What specific internal component discharges the timing capacitor at the very end of the monostable cycle?",
+        "choices": [
+            "A. The external timing resistor",
+            "B. A negative pulse generated on Pin 2",
+            "C. The connected output load",
+            "D. The internal discharge transistor (Pin 7) turning ON and shorting the capacitor to ground"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 38,
+        "question": "Why is it standard engineering practice to bypass Pin 5 to ground with a 0.01 uF capacitor when the pin is not externally modulated?",
+        "choices": [
+            "A. To prevent high-frequency noise on the power rail from false-triggering the internal comparators",
+            "B. To precisely set the oscillation frequency",
+            "C. To increase the output current capacity of Pin 3",
+            "D. To act as the main timing capacitor for the circuit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "Worded circuit: A designer needs exactly a 1-second delay from a monostable 555 timer. They select a capacitor C = 10 uF. What must the approximate value of resistor R be?",
+        "choices": [
+            "A. 100 kOhms",
+            "B. 69.3 kOhms",
+            "C. 90.9 kOhms",
+            "D. 144 kOhms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "For reliable, predictable monostable operation, the input trigger pulse width must strictly be:",
+        "choices": [
+            "A. Longer than the designed output pulse width",
+            "B. Shorter than the designed output pulse width",
+            "C. Exactly 1.1 seconds long",
+            "D. A pure sine wave"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "Astable mode operation of a 555 timer is uniquely characterized by having:",
+        "choices": [
+            "A. One stable state",
+            "B. No stable states (it produces continuous free-running oscillation)",
+            "C. Two stable states",
+            "D. A strict external trigger requirement to operate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "In a standard astable 555 circuit with resistors Ra, Rb and capacitor C, the charge time (output HIGH time, t_high) formula is:",
+        "choices": [
+            "A. 0.693 * Rb * C",
+            "B. 1.1 * (Ra + Rb) * C",
+            "C. 0.693 * (Ra + Rb) * C",
+            "D. 1.44 * Ra * C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "In the same standard astable circuit, the discharge time (output LOW time, t_low) formula is purely dependent on:",
+        "choices": [
+            "A. 0.693 * (Ra + Rb) * C",
+            "B. 0.693 * Ra * C",
+            "C. 1.1 * Rb * C",
+            "D. 0.693 * Rb * C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "The standard formula for the total time period (T) of one complete cycle in a basic 555 astable circuit is:",
+        "choices": [
+            "A. 0.693 * (Ra + 2Rb) * C",
+            "B. 1.1 * (Ra + Rb) * C",
+            "C. 1.44 * (Ra + 2Rb) * C",
+            "D. 0.693 * (2Ra + Rb) * C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "The widely used, simplified approximation formula for the oscillation frequency (f) of a standard 555 astable circuit is:",
+        "choices": [
+            "A. 1 / (1.1 * R * C)",
+            "B. 0.693 / ((Ra + 2Rb) * C)",
+            "C. 1.44 / ((Ra + 2Rb) * C)",
+            "D. 1.44 / ((Ra + Rb) * C)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "Worded circuit: A 555 is in standard astable mode. Ra = 1 kOhm, Rb = 2 kOhms, C = 1 uF. Find the exact charge time (t_high).",
+        "choices": [
+            "A. 2.079 ms",
+            "B. 1.386 ms",
+            "C. 3.465 ms",
+            "D. 288 us"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "Using the same astable circuit (Ra = 1k, Rb = 2k, C = 1uF), find the exact discharge time (t_low).",
+        "choices": [
+            "A. 2.079 ms",
+            "B. 1.386 ms",
+            "C. 3.465 ms",
+            "D. 288 us"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "Using the same astable circuit (Ra = 1k, Rb = 2k, C = 1uF), what is the approximate oscillation frequency?",
+        "choices": [
+            "A. 480 Hz",
+            "B. 144 Hz",
+            "C. 720 Hz",
+            "D. 288 Hz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "Without adding any external steering diodes, the duty cycle of a standard 555 astable circuit will practically always be:",
+        "choices": [
+            "A. Less than 50%",
+            "B. Exactly 50%",
+            "C. Exactly 33.3%",
+            "D. Greater than 50%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "To achieve an exact 50% duty cycle, or a duty cycle specifically less than 50%, what simple component modification is typically made to the standard astable circuit?",
+        "choices": [
+            "A. Connect Pin 5 directly to Vcc",
+            "B. Remove resistor Ra entirely from the circuit",
+            "C. Place a diode in parallel with Rb (anode to Pin 7, cathode to Pin 6) to bypass it during charging",
+            "D. Ground Pin 4 permanently"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "Worded circuit: An astable 555 circuit has a steering diode placed across Rb to bypass it completely during the charging phase. What is the newly modified formula for t_high?",
+        "choices": [
+            "A. 0.693 * Ra * C",
+            "B. 0.693 * Rb * C",
+            "C. 1.1 * Ra * C",
+            "D. 0.693 * (Ra + Rb) * C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "The standard theoretical duty cycle (D) formula for a 555 astable circuit (without diodes), expressed as a fraction, is:",
+        "choices": [
+            "A. Rb / (Ra + 2Rb)",
+            "B. (Ra + Rb) / (Ra + 2Rb)",
+            "C. Ra / (Ra + Rb)",
+            "D. (Ra + 2Rb) / (Ra + Rb)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "Worded circuit: A standard astable circuit operates with Ra = 10 kOhms, Rb = 10 kOhms, and C = 0.1 uF. What is the calculated duty cycle?",
+        "choices": [
+            "A. 66.7%",
+            "B. 50.0%",
+            "C. 75.0%",
+            "D. 33.3%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "During steady-state astable operation, the voltage across the timing capacitor continuously sweeps back and forth exactly between:",
+        "choices": [
+            "A. 0 V and Vcc",
+            "B. 1/3 Vcc and 2/3 Vcc",
+            "C. 0 V and 2/3 Vcc",
+            "D. 1/3 Vcc and Vcc"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "In a standard astable circuit, if charging resistor Ra is made extremely small (approaching 0) compared to discharging resistor Rb, the duty cycle will approach:",
+        "choices": [
+            "A. 100%",
+            "B. 0%",
+            "C. 33.3%",
+            "D. 50%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 56,
+        "question": "Worded circuit: If Ra is chosen to be exactly equal to Rb in a standard astable circuit, what is the resulting fixed duty cycle?",
+        "choices": [
+            "A. 50.0%",
+            "B. 33.3%",
+            "C. 66.7%",
+            "D. 75.0%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "To configure the 555 timer in its free-running astable mode, which two pins are typically tied directly together to continuously monitor the capacitor voltage?",
+        "choices": [
+            "A. Pin 2 and Pin 4",
+            "B. Pin 5 and Pin 6",
+            "C. Pin 2 and Pin 6",
+            "D. Pin 3 and Pin 7"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "In astable mode, when the timing capacitor voltage hits 2/3 Vcc, the internal discharge transistor turns ON. What does this transistor physically do to the circuit?",
+        "choices": [
+            "A. It pulls Pin 3 (Output) to Vcc",
+            "B. It connects Pin 2 directly to Vcc",
+            "C. It pulls Pin 5 to ground",
+            "D. It provides a low-resistance path from Pin 7 to ground, allowing the capacitor to discharge through Rb"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 59,
+        "question": "If a varying external analog voltage signal is applied to Pin 5 (Control Voltage) of an oscillating astable 555 timer, the resulting output waveform is:",
+        "choices": [
+            "A. Amplitude Modulated (AM)",
+            "B. Frequency Modulated (FM)",
+            "C. Purely DC",
+            "D. A perfect sine wave"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "Worded circuit: A 555 timer is configured as a Voltage Controlled Oscillator (VCO) in a synthesizer. The modulating analog control signal must be applied to which specific pin?",
+        "choices": [
+            "A. Pin 5 (Control Voltage)",
+            "B. Pin 2 (Trigger)",
+            "C. Pin 4 (Reset)",
+            "D. Pin 6 (Threshold)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "Why must resistor Ra NEVER be replaced with a dead short (0 ohms) in a standard astable circuit?",
+        "choices": [
+            "A. The capacitor will fail to charge entirely",
+            "B. When Pin 7 grounds during discharge, it would create a direct, dead short circuit from Vcc to ground, likely destroying the internal discharge transistor",
+            "C. The oscillation frequency would drop to zero",
+            "D. The output would remain permanently LOW"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "A highly linear voltage ramp generator can be built using a 555 timer by replacing the standard charging resistor (Ra) with a:",
+        "choices": [
+            "A. Constant current source (e.g., a PNP bipolar transistor circuit)",
+            "B. Large inductor",
+            "C. Zener diode",
+            "D. High-power voltage regulator"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "Worded circuit: An astable 555 timer uses Ra = 4.7 kOhms, Rb = 10 kOhms, and C = 47 nF. Calculate the approximate oscillation frequency.",
+        "choices": [
+            "A. 5.23 kHz",
+            "B. 840 Hz",
+            "C. 1.24 kHz",
+            "D. 2.48 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "Worded circuit: You are designing a 50% duty cycle oscillator. You use the steering diode method across Rb. If Ra = 10 kOhms, what must the value of Rb be to achieve exactly a 50% duty cycle?",
+        "choices": [
+            "A. 5 kOhms",
+            "B. 20 kOhms",
+            "C. 0 ohms",
+            "D. 10 kOhms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "In a standard astable 555 circuit, how does significantly increasing the power supply voltage (Vcc) from 5V to 15V affect the fundamental oscillation frequency?",
+        "choices": [
+            "A. It has almost no effect, because the internal 1/3 and 2/3 comparator thresholds track Vcc proportionally",
+            "B. It perfectly triples the frequency",
+            "C. It cuts the frequency to exactly one-third",
+            "D. It stops the oscillation entirely"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Pulse Position Modulation (PPM) waveforms can be generated by applying a modulating signal to Pin 5 of a 555 timer configured in which specific operating mode?",
+        "choices": [
+            "A. Astable",
+            "B. Monostable",
+            "C. Bistable",
+            "D. Schmitt Trigger"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "The typical maximum reliable operating frequency of a standard bipolar NE555 timer is generally considered to be approximately:",
+        "choices": [
+            "A. 100 MHz",
+            "B. 10 MHz",
+            "C. 500 kHz to 1 MHz",
+            "D. 1 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "A major disadvantage of using the standard bipolar NE555 compared to its modern CMOS counterpart (like the TLC555 or LMC555) is:",
+        "choices": [
+            "A. The CMOS version cannot operate in astable mode",
+            "B. The bipolar version has a much lower output current capability",
+            "C. The CMOS version is strictly limited to 5V",
+            "D. The bipolar version draws a high quiescent current and creates large, destructive current spikes on the supply rail during output transitions"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "Bistable mode operation of a 555 timer is uniquely characterized by having:",
+        "choices": [
+            "A. No stable states",
+            "B. One stable state",
+            "C. Continuous high-frequency oscillation",
+            "D. Two stable states"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "Does the basic bistable configuration of a 555 timer utilize an RC timing network?",
+        "choices": [
+            "A. No, it operates strictly on logic level inputs without timing components",
+            "B. Yes, it uses a very large capacitor",
+            "C. Yes, but only a resistor is needed",
+            "D. Yes, it requires an external inductor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "Worded circuit: A basic bistable 555 circuit uses 10k pull-up resistors on Pin 2 and Pin 4. Momentary pushbuttons connect these pins to ground. Which pin acts as the active-low SET input?",
+        "choices": [
+            "A. Pin 4 (Reset)",
+            "B. Pin 2 (Trigger)",
+            "C. Pin 6 (Threshold)",
+            "D. Pin 5 (Control Voltage)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "In the same basic bistable circuit, pressing the pushbutton that pulls which pin to ground will manually RESET the output LOW?",
+        "choices": [
+            "A. Pin 2 (Trigger)",
+            "B. Pin 6 (Threshold)",
+            "C. Pin 4 (Reset)",
+            "D. Pin 5 (Control Voltage)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "In a typical, minimalist basic bistable configuration, what is typically done with Pin 6 (Threshold)?",
+        "choices": [
+            "A. It is connected to Vcc",
+            "B. It is connected directly to the output",
+            "C. It is directly grounded to prevent it from accidentally resetting the flip-flop due to noise",
+            "D. It is left floating"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "Functionally, the 555 timer configured in bistable mode acts exactly like a fundamental digital logic:",
+        "choices": [
+            "A. J-K flip-flop",
+            "B. T flip-flop",
+            "C. D flip-flop",
+            "D. S-R (Set-Reset) latch"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "Worded circuit: A mechanical switch exhibits severe \"bouncing,\" causing multiple erratic logic transitions. A 555 timer in bistable mode is connected to the SPDT switch contacts. What is the primary purpose of this specific circuit?",
+        "choices": [
+            "A. Switch debouncing",
+            "B. Frequency multiplication",
+            "C. Voltage regulation",
+            "D. Current amplification"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "In a standard bistable 555 circuit, what happens if both the Trigger (Pin 2) and Reset (Pin 4) are simultaneously pulled LOW?",
+        "choices": [
+            "A. The output oscillates uncontrollably",
+            "B. The Reset pin dominates internally, forcing the output LOW",
+            "C. The Trigger pin dominates internally, forcing the output HIGH",
+            "D. The IC undergoes thermal runaway"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "A primary industrial advantage of using a 555 timer as a simple S-R latch over a standard 74-series logic gate latch is:",
+        "choices": [
+            "A. It operates at much higher frequencies",
+            "B. It has a significantly higher output drive current capability (up to 200mA) and tolerates a much wider supply voltage range",
+            "C. It uses virtually zero power",
+            "D. It features more input pins"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "Worded circuit: An astable 555 timer oscillates at exactly 1 kHz with a 25% duty cycle. A diode bypasses Rb during the charging phase. If Ra = 1 kOhm, what is the approximate required value of C? (Note: T = 1ms, t_high = 0.25ms).",
+        "choices": [
+            "A. 0.036 uF",
+            "B. 3.6 uF",
+            "C. 0.36 uF",
+            "D. 36 uF"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "Using the exact parameters from the previous question (f = 1kHz, 25% Duty Cycle, C = 0.36uF, diode used), what is the required value of Rb for the discharge phase? (Note: t_low = 0.75ms).",
+        "choices": [
+            "A. 1 kOhm",
+            "B. 6 kOhms",
+            "C. 10 kOhms",
+            "D. 3 kOhms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "When powered by a standard 5V logic supply, the guaranteed output high voltage (Voh) of a standard bipolar NE555 sourcing a 100mA load is typically:",
+        "choices": [
+            "A. Around 3.3V, significantly lower than Vcc due to Darlington transistor voltage drops",
+            "B. Exactly 5.0V",
+            "C. 0V",
+            "D. 1.5V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "The absolute minimum recommended operating supply voltage (Vcc) for a standard bipolar NE555 timer is typically:",
+        "choices": [
+            "A. 4.5 V",
+            "B. 1.5 V",
+            "C. 9.0 V",
+            "D. 12.0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "Worded circuit: A 555 timer output (Pin 3) drives an LED. The LED anode is connected to Vcc, and the cathode connects to a current-limiting resistor, which then connects to Pin 3. The 555 timer is therefore:",
+        "choices": [
+            "A. Sourcing current to the LED when the output is HIGH",
+            "B. Rectifying AC current for the LED",
+            "C. Amplifying current for the LED",
+            "D. Sinking current from the LED when the output is LOW"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "If the Control Voltage (Pin 5) is externally forced to exactly 1/2 Vcc using a voltage divider, what becomes the new trigger threshold voltage for the internal LOWER comparator?",
+        "choices": [
+            "A. 1/3 Vcc",
+            "B. 1/4 Vcc",
+            "C. 1/2 Vcc",
+            "D. 2/3 Vcc"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "Modulating Pin 5 with a low-frequency sine wave in an active astable 555 circuit directly alters the:",
+        "choices": [
+            "A. Output voltage amplitude",
+            "B. Internal flip-flop logic architecture",
+            "C. Upper comparator threshold, thereby sweeping the oscillation frequency",
+            "D. Discharge transistor's maximum current rating"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "A monostable 555 circuit has Vcc = 5V. Pin 5 is externally forced to exactly 4V. The generic pulse width formula T = -RC ln(1 - Vc/Vcc) applies. What is the new pulse width multiplier (replacing the standard 1.1)?",
+        "choices": [
+            "A. 0.693",
+            "B. 1.100",
+            "C. 1.61",
+            "D. 2.30"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 86,
+        "question": "Which standard IC package contains two completely independent 555 timers sharing only the Vcc and Ground pins?",
+        "choices": [
+            "A. NE555",
+            "B. NE556",
+            "C. NE558",
+            "D. LM324"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "In a standard astable circuit, power dissipation occurs in the external resistors Ra and Rb. During which operational phase does resistor Ra actually carry current?",
+        "choices": [
+            "A. During both the charge and discharge phases",
+            "B. Only during the charge phase",
+            "C. Only during the discharge phase",
+            "D. Never"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "Worded circuit: An astable 555 generates Frequency Shift Keying (FSK). A digital signal switches an external NPN transistor ON and OFF. This transistor connects a resistor Rx in parallel with Ra. When the transistor turns ON, the oscillation frequency will:",
+        "choices": [
+            "A. Drop to zero",
+            "B. Decrease",
+            "C. Remain exactly the same",
+            "D. Increase"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "The TLC555 is a highly popular modern variant of the classic NE555. The primary technological difference is that the TLC555 uses:",
+        "choices": [
+            "A. Vacuum tube topology",
+            "B. CMOS technology, allowing much lower power consumption and rail-to-rail output voltage swing",
+            "C. Mechanical micro-relays",
+            "D. Optical isolation barriers"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "Worded circuit: An astable 555 uses extreme resistor values: Ra = 1 MegaOhm and Rb = 1 kOhm. Because Ra is massively larger than Rb, the duty cycle will be extremely close to:",
+        "choices": [
+            "A. 50%",
+            "B. 0%",
+            "C. 100%",
+            "D. 33%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "If an astable 555 timer is explicitly designed to output a precise frequency of 50 kHz, what is the total period (T) of one complete cycle?",
+        "choices": [
+            "A. 50 ms",
+            "B. 2 ms",
+            "C. 50 us",
+            "D. 20 us"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "An astable 555 timer exhibits an output HIGH time (t_high) of 2 ms and an output LOW time (t_low) of 8 ms. What is the precise duty cycle?",
+        "choices": [
+            "A. 20%",
+            "B. 25%",
+            "C. 80%",
+            "D. 40%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 93,
+        "question": "In the standard, unmodified astable configuration, the external timing capacitor strictly charges through:",
+        "choices": [
+            "A. Resistor Rb only",
+            "B. Pin 7",
+            "C. Pin 3",
+            "D. Resistor Ra and Resistor Rb in series"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "In the standard, unmodified astable configuration, the external timing capacitor strictly discharges through:",
+        "choices": [
+            "A. Resistor Rb and Pin 7 to ground",
+            "B. Resistor Ra",
+            "C. Pin 3",
+            "D. Pin 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "A 555 timer astable circuit has components Ra = 2.2 kOhms, Rb = 4.7 kOhms, and C = 0.022 uF. What is the approximate discharge time (t_low)?",
+        "choices": [
+            "A. 33.5 us",
+            "B. 176 us",
+            "C. 71.6 us",
+            "D. 105 us"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "Using the identical components (Ra = 2.2 kOhms, Rb = 4.7 kOhms, C = 0.022 uF), what is the total period (T) of the waveform?",
+        "choices": [
+            "A. 105 us",
+            "B. 176 us",
+            "C. 71.6 us",
+            "D. 248 us"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "Using the identical components (Ra = 2.2 kOhms, Rb = 4.7 kOhms, C = 0.022 uF), what is the Duty Cycle of the output waveform?",
+        "choices": [
+            "A. 47.5%",
+            "B. 59.5%",
+            "C. 68.2%",
+            "D. 31.8%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "What happens to a standard 555 monostable circuit if the timing capacitor C fails and becomes internally shorted to ground?",
+        "choices": [
+            "A. The output stays permanently LOW",
+            "B. The output stays permanently HIGH",
+            "C. The circuit oscillates violently",
+            "D. The IC repeatedly resets"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "What is the primary engineering reason an electrolytic capacitor is often avoided for the timing capacitor C in precision, high-frequency 555 timer astable circuits?",
+        "choices": [
+            "A. It has too high of a voltage rating",
+            "B. Its physical size is too small",
+            "C. It is incapable of holding a DC charge",
+            "D. High leakage current and poor tolerance severely degrade timing accuracy"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "Worded circuit: A 555 timer is used to generate a massive 1-minute delay. Monostable mode is selected. The chosen capacitor C is 1000 uF. What is the required approximate value for resistor R?",
+        "choices": [
+            "A. 10 kOhms",
+            "B. 100 kOhms",
+            "C. 54.5 kOhms",
+            "D. 1 MegaOhm"
+        ],
+        "correct_answer": "C"
+    }
+]

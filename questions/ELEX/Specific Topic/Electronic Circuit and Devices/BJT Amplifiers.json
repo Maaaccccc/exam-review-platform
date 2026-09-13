@@ -1,0 +1,1047 @@
+[
+    {
+        "number": 1,
+        "question": "In the basic small-signal model of a BJT, the dynamic emitter resistance (r_e) is mathematically evaluated at room temperature (300 K) using which exact formula?",
+        "choices": [
+            "A. r_e = I_E / 26mV",
+            "B. r_e = 26mV / I_E",
+            "C. r_e = 0.7V / I_E",
+            "D. r_e = 26mV * I_E"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "The hybrid parameter h_ie used in a two-port BJT network model is mathematically and physically equivalent to which parameter in the basic r_e model?",
+        "choices": [
+            "A. r_e",
+            "B. r_o",
+            "C. Beta * r_e",
+            "D. Alpha * r_e"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "A BJT is biased at a DC collector current of 2 mA. Using the hybrid-pi model at room temperature (V_T = 26 mV), what is the approximate theoretical transconductance (g_m)?",
+        "choices": [
+            "A. 52.0 mS",
+            "B. 1.0 mS",
+            "C. 26.0 mS",
+            "D. 76.9 mS"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "The Miller effect theorem mathematically demonstrates that a feedback capacitance between the input and inverting output of an amplifier appears at the input multiplied by a factor of:",
+        "choices": [
+            "A. (1 - Av)",
+            "B. (1 + Av)",
+            "C. Av",
+            "D. (Av - 1)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "In the hybrid-pi equivalent circuit model, if a BJT has a Beta of 100 and is biased such that its g_m is 38.46 mS, calculate the exact value of the input resistance r_pi.",
+        "choices": [
+            "A. 260 ohms",
+            "B. 2.6 k-ohms",
+            "C. 26 k-ohms",
+            "D. 38.5 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "In the standard common-emitter hybrid parameter model, the parameter denoted as h_fe represents the:",
+        "choices": [
+            "A. Short-circuit input impedance",
+            "B. Open-circuit reverse voltage ratio",
+            "C. Open-circuit output admittance",
+            "D. Short-circuit forward AC current gain"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 7,
+        "question": "The internal small-signal output resistance (r_o) of a BJT is derived from the slope of the active region characteristic curves. It is mathematically equivalent to the Early voltage (V_A) divided by the:",
+        "choices": [
+            "A. DC collector current (I_C)",
+            "B. DC base current (I_B)",
+            "C. Transconductance (g_m)",
+            "D. Base-emitter voltage (V_BE)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "For a BJT operating in the active region where the current gain Alpha is approximately exactly 1, the transconductance g_m is mathematically related to the dynamic emitter resistance r_e by:",
+        "choices": [
+            "A. g_m = r_e",
+            "B. g_m = Beta * r_e",
+            "C. g_m = 1 / r_e",
+            "D. g_m = r_e / Beta"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 9,
+        "question": "For a basic, unloaded Common-Emitter fixed-bias amplifier, what is the theoretical mathematical formula for the AC voltage gain (Av)?",
+        "choices": [
+            "A. -R_C / r_e",
+            "B. -Beta * R_C",
+            "C. -R_C / R_B",
+            "D. r_e / R_C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "In a basic Common-Emitter fixed-bias amplifier, the total AC input impedance (Z_i) looking into the circuit is mathematically the parallel combination of:",
+        "choices": [
+            "A. R_C and r_e",
+            "B. R_B and R_C",
+            "C. R_B and (Beta * r_e)",
+            "D. Beta and r_e"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "Worded circuit: A CE Fixed Bias amplifier utilizes a 12V DC supply (Vcc). The base resistor Rb is 470 k-ohms, and the collector resistor Rc is 3 k-ohms. If the transistor Beta is 100, calculate the approximate unloaded voltage gain. (Assume Vbe = 0.7V and V_T = 26mV).",
+        "choices": [
+            "A. -150",
+            "B. -277",
+            "C. -300",
+            "D. -185"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "Worded circuit: A CE voltage-divider biased amplifier has Vcc=22V, R1=39k, R2=3.9k, Rc=10k, and Re=1.5k. The transistor has Beta=140. Assuming the exact equivalent base voltage is 2V and Vbe=0.7V, calculate the exact unloaded voltage gain if the emitter resistor Re is completely UNBYPASSED. (Use V_T=26mV).",
+        "choices": [
+            "A. -315",
+            "B. -22.5",
+            "C. -15.4",
+            "D. -6.53"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "In a standard Common-Emitter amplifier, removing the bypass capacitor across the emitter resistor drastically alters the circuit's performance by:",
+        "choices": [
+            "A. Increasing voltage gain and increasing stability",
+            "B. Increasing voltage gain and decreasing stability",
+            "C. Decreasing voltage gain and increasing stability",
+            "D. Decreasing voltage gain and decreasing stability"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "Worded circuit: A CE amplifier operates with an unbypassed emitter resistor Re = 1.2 k-ohms and a collector resistor Rc = 4.7 k-ohms. The transistor has Beta = 100 and dynamic resistance r_e = 15 ohms. What is the exact theoretical voltage gain?",
+        "choices": [
+            "A. -13.5",
+            "B. -3.87",
+            "C. -4.70",
+            "D. -313"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "In a standard Common-Base (CB) amplifier configuration, the phase relationship between the AC input signal at the emitter and the AC output signal at the collector is strictly:",
+        "choices": [
+            "A. 180 degrees out of phase",
+            "B. 0 degrees (in-phase)",
+            "C. 90 degrees out of phase",
+            "D. 270 degrees out of phase"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "Worded circuit: A Common-Base amplifier is biased such that its DC emitter current is exactly 2 mA. The collector resistor Rc is 2.2 k-ohms. What is the approximate unloaded AC voltage gain? (Assume V_T = 26mV).",
+        "choices": [
+            "A. +169.2",
+            "B. -169.2",
+            "C. +84.6",
+            "D. -84.6"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "The Common-Collector (CC) amplifier, frequently termed an emitter follower, provides a characteristic theoretical unloaded AC voltage gain of:",
+        "choices": [
+            "A. Exactly Beta",
+            "B. Negative and very large",
+            "C. Approximately 1 (unity)",
+            "D. Exactly zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "Worded circuit: A Common-Collector (emitter follower) amplifier uses a fixed bias with Rb = 100 k-ohms and an emitter resistor Re = 2 k-ohms. If the transistor Beta is 100 and it operates at a DC emitter current of 1 mA, what is the approximate total AC input impedance (Z_i)?",
+        "choices": [
+            "A. 100 k-ohms",
+            "B. 66.7 k-ohms",
+            "C. 200 k-ohms",
+            "D. 2 k-ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "If a Common-Emitter amplifier uses a partially bypassed emitter network (e.g., Re1 is unbypassed, Re2 is in series with Re1 but bypassed by a capacitor), the magnitude of the AC voltage gain is mathematically evaluated as approximately:",
+        "choices": [
+            "A. R_C / r_e",
+            "B. R_C / R_E",
+            "C. R_C / (r_e + Re1)",
+            "D. R_C / (r_e + Re1 + Re2)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "When an external load resistor (R_L) is physically connected to the output of a standard CE amplifier, the overall AC voltage gain of the circuit will strictly:",
+        "choices": [
+            "A. Decrease",
+            "B. Increase",
+            "C. Remain completely unchanged",
+            "D. Spike to infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "Worded circuit: A basic CE amplifier possesses a collector resistor Rc = 3 k-ohms and an internal r_e = 10 ohms. If a load resistor R_L = 3 k-ohms is connected to the output through a coupling capacitor, calculate the exact loaded voltage gain.",
+        "choices": [
+            "A. -300",
+            "B. -150",
+            "C. -75",
+            "D. -100"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "Worded circuit: An amplifier has a measured input impedance Z_i = 1 k-ohm and an unloaded voltage gain of -100. It is driven by an AC signal source possessing an internal series resistance R_s = 1 k-ohm. What is the overall system voltage gain (V_out / V_source)?",
+        "choices": [
+            "A. -100",
+            "B. -75",
+            "C. -50",
+            "D. -25"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "If a Common-Emitter amplifier is overdriven by a massive input signal causing the positive peak of the output voltage waveform to be severely clipped, this physically indicates that the transistor is being driven deep into the:",
+        "choices": [
+            "A. Active region",
+            "B. Saturation region",
+            "C. Reverse breakdown region",
+            "D. Cutoff region"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "The input coupling capacitor placed strictly between an AC signal source and a BJT amplifier's base terminal fundamentally acts mathematically as a:",
+        "choices": [
+            "A. High-pass filter",
+            "B. Low-pass filter",
+            "C. Band-pass filter",
+            "D. Notch filter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "In a Common-Collector (emitter follower) amplifier, what is the fundamental physical reason why the unloaded voltage gain can approach but never strictly reach exactly 1.0?",
+        "choices": [
+            "A. The source resistance R_s attenuates the input",
+            "B. The output capacitor blocks low frequencies",
+            "C. The base resistor Rb shunts current",
+            "D. The small but finite internal emitter resistance r_e causes a slight voltage drop"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "Worded circuit: A Common-Base amplifier is biased exactly at I_C = 1 mA. It uses a collector resistor Rc = 5 k-ohms and feeds a load resistor R_L = 5 k-ohms. Find the approximate loaded voltage gain. (Assume V_T = 26mV and Alpha = 1).",
+        "choices": [
+            "A. +192.3",
+            "B. -96.1",
+            "C. +96.1",
+            "D. -192.3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 30,
+        "question": "Worded circuit: A Darlington pair is utilized in an emitter follower configuration. Transistor Q1 has Beta_1 = 50, and transistor Q2 has Beta_2 = 100. If the emitter resistor Re is 1 k-ohm, what is the approximate input impedance strictly looking into the base of Q1?",
+        "choices": [
+            "A. 50 k-ohms",
+            "B. 5.0 M-ohms",
+            "C. 100 k-ohms",
+            "D. 150 k-ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "To successfully minimize unwanted signal attenuation (loading effect) when drawing a signal from a previous amplifier stage, the receiving amplifier must possess a theoretically:",
+        "choices": [
+            "A. High input impedance",
+            "B. Low input impedance",
+            "C. High output impedance",
+            "D. Zero input impedance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "According to the Maximum Power Transfer Theorem, to deliver the absolute maximum AC power to a specific load resistor, the amplifier's output impedance (Z_o) must mathematically be:",
+        "choices": [
+            "A. Infinite",
+            "B. Exactly zero",
+            "C. Equal to the load impedance",
+            "D. Much less than the load impedance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "In standard analog amplifier design terminology, a \"swamped\" amplifier specifically refers to a Common-Emitter circuit that incorporates a/an:",
+        "choices": [
+            "A. Massive coupling capacitor",
+            "B. Darlington pair",
+            "C. Active current mirror",
+            "D. Unbypassed emitter resistor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 35,
+        "question": "In the advanced small-signal hybrid-pi model, which specific mathematical parameter directly corresponds to the standard h-parameter h_ie?",
+        "choices": [
+            "A. g_m",
+            "B. r_o",
+            "C. r_e",
+            "D. r_pi"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 36,
+        "question": "Among the primary BJT configurations, which one is uniquely capable of providing both significant voltage gain and significant current gain simultaneously?",
+        "choices": [
+            "A. Common-Base",
+            "B. Common-Emitter",
+            "C. Common-Collector",
+            "D. Differential amplifier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "In an operating Emitter Follower circuit, an increase in the instantaneous AC voltage applied to the base will strictly cause the instantaneous AC voltage at the emitter to:",
+        "choices": [
+            "A. Increase identically (in-phase)",
+            "B. Decrease identically (180 degrees out of phase)",
+            "C. Shift by 90 degrees",
+            "D. Remain perfectly constant"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "In any standard JFET amplifier circuit, the magnitude of the physical drain current is fundamentally controlled by varying the:",
+        "choices": [
+            "A. Drain-to-source voltage (Vds)",
+            "B. Gate current (Ig)",
+            "C. Gate-to-source voltage (Vgs)",
+            "D. Substrate bias voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "The standard Common-Source (CS) JFET amplifier configuration is electrically and operationally analogous to which specific BJT amplifier configuration?",
+        "choices": [
+            "A. Common-Collector",
+            "B. Common-Base",
+            "C. Common-Emitter",
+            "D. Common-Drain"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "For a standard, unloaded Common-Source (CS) JFET amplifier employing a drain resistor R_D, the theoretical AC voltage gain (Av) is mathematically formulated as:",
+        "choices": [
+            "A. g_m * R_D",
+            "B. -g_m * R_D",
+            "C. -R_D / g_m",
+            "D. 1 / (g_m * R_D)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "Worded circuit: A JFET Common-Source amplifier utilizes fixed bias, resulting in a Vgs of -2V. The device has an operating transconductance g_m of 3 mS. If the drain resistor Rd is 2.2 k-ohms, what is the exact unloaded voltage gain?",
+        "choices": [
+            "A. -3.3",
+            "B. 6.6",
+            "C. -2.2",
+            "D. -6.6"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 43,
+        "question": "In a standard Common-Source JFET fixed bias circuit, the total AC input impedance (Z_i) is mathematically and practically defined by the:",
+        "choices": [
+            "A. JFET internal gate capacitance",
+            "B. Value of the bias resistor R_G",
+            "C. Reciprocal of transconductance (1/g_m)",
+            "D. Drain resistor R_D"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "Worded circuit: A JFET Common-Source self-bias circuit utilizes a source resistor R_S that is completely bypassed by a massive capacitor. If g_m = 4 mS and R_D = 3.3 k-ohms, calculate the exact AC voltage gain.",
+        "choices": [
+            "A. -0.75",
+            "B. -13.2",
+            "C. 13.2",
+            "D. -1.21"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Worded circuit: A JFET Common-Source self-bias amplifier utilizes a drain resistor R_D = 4 k-ohms and a source resistor R_S = 1 k-ohm. Crucially, R_S is UNBYPASSED. If g_m = 2 mS, what is the exact theoretical voltage gain?",
+        "choices": [
+            "A. -8.00",
+            "B. -2.67",
+            "C. -4.00",
+            "D. -0.375"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "The Common-Drain JFET amplifier is widely utilized as a highly effective voltage buffer. In standard engineering terminology, it is universally referred to as a:",
+        "choices": [
+            "A. Gain booster",
+            "B. Base follower",
+            "C. Source follower",
+            "D. Gate limiter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "For a Common-Drain JFET amplifier (source follower) using a source resistor R_S, the rigorous mathematical formula for its AC voltage gain (Av) is:",
+        "choices": [
+            "A. g_m * R_S / (1 + g_m * R_S)",
+            "B. -g_m * R_S",
+            "C. (1 + g_m * R_S) / (g_m * R_S)",
+            "D. g_m / R_S"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "Worded circuit: A JFET operates as a Common-Drain (source follower) amplifier with a source resistor R_S = 2 k-ohms. If the operating transconductance g_m is 2.5 mS, calculate the exact AC voltage gain.",
+        "choices": [
+            "A. 5.0",
+            "B. -0.833",
+            "C. 0.833",
+            "D. 1.0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "The standard Common-Gate (CG) JFET amplifier configuration is heavily utilized in RF engineering. A major defining characteristic of the CG amplifier is its input impedance, which is mathematically approximated by:",
+        "choices": [
+            "A. R_G",
+            "B. 1 / g_m",
+            "C. g_m * R_D",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "In a standard Common-Gate JFET amplifier, the phase relationship strictly between the applied AC input signal at the source and the output AC signal at the drain is:",
+        "choices": [
+            "A. 0 degrees (in-phase)",
+            "B. 90 degrees out of phase",
+            "C. 180 degrees out of phase",
+            "D. 270 degrees out of phase"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "The theoretical AC voltage gain (Av) formula for an unloaded Common-Gate JFET amplifier utilizing a drain resistor R_D is strictly given by:",
+        "choices": [
+            "A. -g_m * R_D",
+            "B. g_m / R_D",
+            "C. R_D / g_m",
+            "D. g_m * R_D"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "Worded circuit: A Common-Gate JFET amplifier is biased with an operating g_m = 5 mS. It uses a drain resistor R_D = 2 k-ohms and a source resistor R_S = 500 ohms. What is the approximate AC input impedance (Z_in) looking strictly into the source terminal?",
+        "choices": [
+            "A. 500 ohms",
+            "B. 142.8 ohms",
+            "C. 200 ohms",
+            "D. 2.0 k-ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "When constructing the small-signal AC equivalent model of any JFET at low frequencies, the physical pathway strictly between the gate terminal and the source terminal is modeled as:",
+        "choices": [
+            "A. A dependent current source",
+            "B. A low-value resistor",
+            "C. An open circuit",
+            "D. A short circuit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "In standard JFET theory, the transconductance parameter (g_m) reaches its absolute maximum theoretical value (denoted as g_m0) exactly when the gate-to-source voltage (Vgs) is mathematically equal to:",
+        "choices": [
+            "A. Vp / 2",
+            "B. Vp",
+            "C. Infinity",
+            "D. 0 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 55,
+        "question": "The intrinsic small-signal AC output resistance (r_d) of a JFET is mathematically evaluated as the exact reciprocal of which specific datasheet parameter?",
+        "choices": [
+            "A. Output admittance (y_os)",
+            "B. Forward transadmittance (y_fs)",
+            "C. Input capacitance (C_iss)",
+            "D. Drain saturation current (Idss)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "Worded circuit: A Common-Source JFET amplifier operates with g_m = 3 mS and a drain resistor R_D = 4 k-ohms. If a physical external load resistor R_L = 4 k-ohms is capacitively coupled to the output, what is the exact loaded AC voltage gain?",
+        "choices": [
+            "A. -12.0",
+            "B. -6.0",
+            "C. -24.0",
+            "D. -3.0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "In a standard Common-Drain JFET amplifier (source follower), if the internal output resistance (r_d) is ignored, the total AC output impedance (Z_o) looking back into the source terminal is strictly the parallel combination of:",
+        "choices": [
+            "A. R_G and R_S",
+            "B. R_D and 1/g_m",
+            "C. R_S and 1/g_m",
+            "D. R_S and g_m"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "Unlike the standard BJT Common-Emitter amplifier, the JFET Common-Source amplifier is universally preferred in certain sensor applications strictly because it intrinsically provides a much higher:",
+        "choices": [
+            "A. Input impedance",
+            "B. Voltage gain",
+            "C. Output capacitance",
+            "D. Supply voltage requirement"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "Worded circuit: A JFET Common-Source amplifier provides a measured AC voltage gain of -10. If the bias network is altered such that the DC Q-point perfectly doubles the transconductance (g_m), what will the new theoretical voltage gain be?",
+        "choices": [
+            "A. -5",
+            "B. -10 (Unchanged)",
+            "C. -40",
+            "D. -20"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "Worded circuit: A JFET uses a self-bias circuit with an unbypassed source resistor. Vdd = 20V, R_D = 2 k-ohms, R_S = 500 ohms, and the gate is grounded strictly through a 1 Megohm resistor (R_G). What is the exact total AC input impedance (Z_i) of this amplifier?",
+        "choices": [
+            "A. 2 k-ohms",
+            "B. 1 M-ohm",
+            "C. 500 ohms",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "For an Enhancement-type MOSFET operating purely in the saturation (active) region, the small-signal transconductance g_m is mathematically directly proportional to the:",
+        "choices": [
+            "A. Threshold voltage (Vt)",
+            "B. Oxide thickness (tox)",
+            "C. Overdrive voltage (Vgs - Vt)",
+            "D. Drain-to-source voltage (Vds)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "Worded circuit: An n-channel E-MOSFET has a device constant k = 0.5 mA/V^2 and a threshold voltage Vt = 2V. If it is DC biased precisely at Vgs = 5V, what is its theoretical small-signal transconductance (g_m)?",
+        "choices": [
+            "A. 3.0 mS",
+            "B. 1.5 mS",
+            "C. 5.0 mS",
+            "D. 2.5 mS"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "In the advanced small-signal model of a MOSFET, the intrinsic output resistance (r_o) is caused by channel length modulation. It is mathematically related to the channel length modulation parameter (lambda) by the exact formula:",
+        "choices": [
+            "A. r_o = lambda / I_D",
+            "B. r_o = I_D / lambda",
+            "C. r_o = 1 / (lambda * I_D)",
+            "D. r_o = 1 / lambda"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "An E-MOSFET Common-Source amplifier employs a drain resistor R_D and operates with a transconductance g_m. Assuming internal r_o is infinite, the theoretical unloaded AC voltage gain is simply:",
+        "choices": [
+            "A. g_m * R_D",
+            "B. 1 / (g_m * R_D)",
+            "C. -R_D / g_m",
+            "D. -g_m * R_D"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "The Common-Gate MOSFET amplifier configuration is heavily utilized in high-frequency cascode circuits primarily because it inherently provides:",
+        "choices": [
+            "A. High input impedance and low voltage gain",
+            "B. Low input impedance and high voltage gain",
+            "C. Infinite current gain",
+            "D. Zero phase shift and infinite bandwidth"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "When conducting a low-frequency small-signal AC analysis of a standard E-MOSFET amplifier, the physical gate terminal is modeled as being connected to the source terminal strictly via:",
+        "choices": [
+            "A. An open circuit",
+            "B. A short circuit",
+            "C. A resistor equal to 1/g_m",
+            "D. A dependent voltage source"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 67,
+        "question": "Worded circuit: An E-MOSFET Common-Source amplifier operates at a DC drain current I_D = 2 mA. The channel length modulation parameter lambda is given as 0.02 V^-1. Find the exact small-signal output resistance (r_o) of the transistor.",
+        "choices": [
+            "A. 100 k-ohms",
+            "B. 25 ohms",
+            "C. 25 k-ohms",
+            "D. 50 k-ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Worded circuit: A Depletion-type MOSFET (Idss = 10 mA, Vp = -4V) is configured as a Common-Source amplifier. It is biased exactly at Vgs = -2V. If the drain resistor R_D is 2 k-ohms, what is the exact unloaded AC voltage gain? (Calculate g_m first).",
+        "choices": [
+            "A. -2.5",
+            "B. -10.0",
+            "C. -7.5",
+            "D. -5.0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "In modern CMOS integrated circuit amplifier design, standard passive resistors are rarely used as drain loads. Instead, active loads (like diode-connected MOSFETs) are exclusively used primarily to:",
+        "choices": [
+            "A. Decrease the voltage gain and increase bandwidth",
+            "B. Save physical silicon area and drastically increase theoretical voltage gain",
+            "C. Increase power dissipation for thermal stability",
+            "D. Decrease input impedance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "If a pure AC sinusoidal signal is applied to the gate of a standard PMOS Common-Source amplifier, the amplified AC output signal taken at the drain will be strictly:",
+        "choices": [
+            "A. 180 degrees out of phase with the input",
+            "B. 90 degrees out of phase with the input",
+            "C. In-phase (0 degrees) with the input",
+            "D. Rectified"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "In a purely theoretical, single-stage MOSFET amplifier loaded by a perfectly ideal constant current source, the maximum possible AC voltage gain (known as intrinsic gain) is mathematically equal to:",
+        "choices": [
+            "A. g_m * r_o",
+            "B. g_m / r_o",
+            "C. r_o / g_m",
+            "D. -g_m"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "For an NMOS Source Follower (Common-Drain) amplifier, if the internal output resistance (r_o) is considered, the exact total AC output impedance looking back into the source terminal is strictly the parallel combination of:",
+        "choices": [
+            "A. R_S and r_o",
+            "B. 1/g_m and r_o",
+            "C. 1/g_m, R_S, and r_o",
+            "D. g_m, R_S, and r_o"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "Worded circuit: An NMOS Source Follower has an operating g_m = 5 mS. It uses a source resistor R_S = 1 k-ohm. Neglecting the internal r_o, calculate the approximate total AC output impedance (Z_o) of this stage.",
+        "choices": [
+            "A. 166.7 ohms",
+            "B. 200.0 ohms",
+            "C. 1000 ohms",
+            "D. 500 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "In a real-world MOSFET amplifier, if the source terminal is not physically tied directly to the bulk (substrate), the threshold voltage shifts dynamically. This physically models as a secondary dependent current source related to a parameter called:",
+        "choices": [
+            "A. g_m",
+            "B. g_mb (body transconductance)",
+            "C. C_gs",
+            "D. V_early"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "When performing high-frequency AC analysis of a MOSFET amplifier using the small-signal model, which specific parasitic capacitance is most heavily responsible for bandwidth limitation due to the Miller effect?",
+        "choices": [
+            "A. C_gs (gate-to-source capacitance)",
+            "B. C_gd (gate-to-drain capacitance)",
+            "C. C_db (drain-to-bulk capacitance)",
+            "D. C_sb (source-to-bulk capacitance)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "When two independent amplifier stages are mathematically cascaded, the overall total system voltage gain is strictly defined as the:",
+        "choices": [
+            "A. Sum of their individual loaded voltage gains",
+            "B. Product of their unloaded voltage gains",
+            "C. Product of their individual loaded voltage gains",
+            "D. Ratio of their voltage gains"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "In telecommunications, when individual cascaded stage gains are expressed logarithmically in decibels (dB), the overall total cascaded system gain is mathematically found by:",
+        "choices": [
+            "A. Multiplying the individual dB gains",
+            "B. Subtracting the dB gains",
+            "C. Squaring the dB gains",
+            "D. Adding the individual dB gains"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "Worded circuit: A two-stage cascade. Stage 1 has an unloaded gain Av1(NL) = -50 and output impedance Zo1 = 1 k-ohm. Stage 2 has an unloaded gain Av2(NL) = -100, input impedance Zi2 = 4 k-ohms, and output impedance Zo2 = 2 k-ohms. There is no external load on Stage 2. What is the EXACT loaded voltage gain strictly of Stage 1?",
+        "choices": [
+            "A. -50",
+            "B. -40",
+            "C. -10",
+            "D. -12.5"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "Based on the exact same cascaded system described above (Stage 1 loaded gain = -40, Stage 2 unloaded gain = -100), what is the total overall system voltage gain (V_out2 / V_in1)?",
+        "choices": [
+            "A. +4000",
+            "B. -5000",
+            "C. +5000",
+            "D. -4000"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "Worded circuit: Three completely identical Common-Emitter (CE) amplifier stages are cascaded in series. If each individual stage provides a loaded voltage gain of -10, what is the exact total phase shift of the AC signal from the initial input to the final output?",
+        "choices": [
+            "A. 0 degrees",
+            "B. 90 degrees",
+            "C. 180 degrees (Out of phase)",
+            "D. 360 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 81,
+        "question": "A precision instrumentation amplifier has a cascaded overall voltage gain of +1500 (in-phase). If a pure 10 mV peak AC sinusoidal signal is applied to the input, what is the exact peak voltage of the output waveform?",
+        "choices": [
+            "A. 1500 V",
+            "B. 15 V",
+            "C. 1.5 V",
+            "D. 150 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 82,
+        "question": "A standard audio power amplifier heavily features a cascaded topology consisting of a Common-Emitter (CE) stage directly followed by a Common-Collector (CC) stage. The primary engineering purpose of adding the CC stage at the end is strictly to:",
+        "choices": [
+            "A. Provide a massive low output impedance to successfully drive a heavy speaker load",
+            "B. Invert the phase of the audio signal",
+            "C. Provide additional massive voltage gain",
+            "D. Filter out high-frequency RF noise"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "The famous Cascode amplifier configuration physically consists of a Common-Emitter stage driving a Common-Base stage. In this setup, the collector of the CE transistor is connected directly and exclusively to the CB transistor's:",
+        "choices": [
+            "A. Collector",
+            "B. Emitter",
+            "C. Base",
+            "D. Substrate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "The primary physical and operational advantage of utilizing the Cascode amplifier configuration in RF receiver design is its:",
+        "choices": [
+            "A. Massive current handling capacity",
+            "B. Zero phase shift",
+            "C. Extremely high bandwidth due to the near elimination of the Miller effect in the CE stage",
+            "D. Ability to operate on microscopic voltage supplies"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "Worded circuit: A physical AC signal generator has an internal source resistance R_s = 500 ohms. It drives an amplifier possessing an input impedance Z_in = 1.5 k-ohms and an unloaded voltage gain of 100. Calculate the exact attenuation factor (V_in / V_source) at the amplifier's input terminals.",
+        "choices": [
+            "A. 0.25",
+            "B. 1.33",
+            "C. 0.66",
+            "D. 0.75"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "Using the exact same circuit parameters from the previous question (Attenuation factor = 0.75, unloaded gain = 100), what is the overall system voltage gain (V_out / V_source) if no external load is attached?",
+        "choices": [
+            "A. 100",
+            "B. 75",
+            "C. 25",
+            "D. 133"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "In any practical voltage amplifier design, the overall system voltage gain will be severely and mathematically reduced if the AC signal source resistance (R_s) is:",
+        "choices": [
+            "A. Much greater than the amplifier's input impedance (Z_in)",
+            "B. Exactly equal to zero",
+            "C. Much less than the amplifier's input impedance (Z_in)",
+            "D. Equal to the amplifier's output impedance (Z_out)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "In multi-stage amplifier design, direct coupling (omitting coupling capacitors entirely) is the absolute mandatory choice when the system is required to accurately amplify:",
+        "choices": [
+            "A. RF microwave signals",
+            "B. High-voltage pulses",
+            "C. Audio frequencies above 20 kHz",
+            "D. Very low frequency signals down to pure DC (0 Hz)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "A severe and highly destructive disadvantage of employing direct-coupled BJT multistage amplifiers without feedback stabilization is that:",
+        "choices": [
+            "A. The overall voltage gain is strictly limited to 1",
+            "B. High frequency signals are entirely blocked",
+            "C. Temperature-induced DC drift in the first stage is heavily amplified by all subsequent stages",
+            "D. It requires massive physically sized inductors"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "In standard multi-stage audio amplifier circuits, RC coupling (using series capacitors) is universally utilized primarily to:",
+        "choices": [
+            "A. Strictly block DC bias voltages from interfering between adjacent stages",
+            "B. Convert the AC signal into a DC level",
+            "C. Drastically increase the overall system bandwidth",
+            "D. Act as a low-pass filter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "Worded circuit: A cascade contains two stages. Stage 1 is a CE amplifier (Z_in1 = 2k, Z_out1 = 3k, unloaded gain = -40). Stage 2 is a CE amplifier (Z_in2 = 1k, Z_out2 = 2k, unloaded gain = -50). What is the exact total overall unloaded voltage gain (V_out2 / V_in1) of this specific cascaded system?",
+        "choices": [
+            "A. -2000",
+            "B. +2000",
+            "C. +500",
+            "D. -500"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "In vintage multi-stage RF and audio amplifier designs, transformer coupling was highly advantageous and frequently utilized primarily for its unique ability to provide:",
+        "choices": [
+            "A. Perfect DC isolation and exact impedance matching between stages",
+            "B. Extremely wide frequency bandwidth",
+            "C. Zero phase shift across all frequencies",
+            "D. The lowest possible component cost"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "When mathematically analyzing a complex multi-stage cascaded amplifier system as a single \"black box\" equivalent, the total input impedance of the entire system is strictly dictated by the input impedance of the:",
+        "choices": [
+            "A. Final stage alone",
+            "B. Sum of all stages",
+            "C. First stage alone",
+            "D. Average of all stages"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "When mathematically analyzing a complex multi-stage cascaded amplifier system as a single \"black box\" equivalent, the total output impedance of the entire system is strictly dictated by the output impedance of the:",
+        "choices": [
+            "A. First stage alone",
+            "B. Sum of all stages",
+            "C. Final stage alone",
+            "D. Reciprocal of the final stage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "Worded circuit: An integrated circuit cascade consists of a JFET Common-Source stage (Av1 = -10, Zo1 = 5 k-ohms) directly driving a BJT Common-Emitter stage (Av2(NL) = -50, Zin2 = 5 k-ohms). What is the exact overall system voltage gain (V_out / V_in)?",
+        "choices": [
+            "A. +500",
+            "B. +250",
+            "C. -250",
+            "D. -500"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "When mathematically determining the lower cutoff frequency (f_L) of an RC-coupled cascaded amplifier composed of two completely identical stages (each with a cutoff frequency of f_c), the overall combined system lower cutoff frequency will rigorously be:",
+        "choices": [
+            "A. Higher than f_c",
+            "B. Exactly equal to f_c",
+            "C. Lower than f_c",
+            "D. Exactly zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "When mathematically determining the upper cutoff frequency (f_H) of an RC-coupled cascaded amplifier composed of two completely identical stages (each with a high cutoff frequency of f_H), the overall combined system upper cutoff frequency will rigorously be:",
+        "choices": [
+            "A. Higher than f_H",
+            "B. Lower than f_H",
+            "C. Exactly equal to f_H",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "Worded circuit: A radio receiver features two cascaded RF amplifier stages. Stage 1 provides a power gain of +20 dB, and Stage 2 provides +30 dB. If a faint antenna signal of -40 dBV is applied to the input, what is the exact output signal level in dBV?",
+        "choices": [
+            "A. +10 dBV",
+            "B. -90 dBV",
+            "C. +50 dBV",
+            "D. -10 dBV"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "The Darlington pair configuration is extraordinarily popular as the final output stage in multi-stage power amplifiers primarily because its overall effective AC current gain is mathematically given by:",
+        "choices": [
+            "A. Beta_1 + Beta_2",
+            "B. Beta_1 / Beta_2",
+            "C. Beta_2 - Beta_1",
+            "D. Beta_1 * Beta_2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "In a standard integrated circuit two-stage cascade where the first stage provides a massive voltage gain and the second stage is a source follower (Common-Drain), the complete system's primary electrical characteristic is strictly:",
+        "choices": [
+            "A. Low voltage gain and high output impedance",
+            "B. Low voltage gain and low output impedance",
+            "C. High voltage gain and low output impedance",
+            "D. High voltage gain and high output impedance"
+        ],
+        "correct_answer": "C"
+    }
+]

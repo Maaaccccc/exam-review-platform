@@ -1,0 +1,1256 @@
+[
+    {
+        "number": 1,
+        "question": "In a standard data communication network, any end-user device that generates or consumes digital data, such as a computer or video terminal, is officially classified as:",
+        "choices": [
+            "A. Data Circuit-terminating Equipment (DCE)",
+            "B. Data Terminal Equipment (DTE)",
+            "C. A Front-End Processor (FEP)",
+            "D. A Line Control Unit (LCU)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "Which of the following devices acts strictly as Data Circuit-terminating Equipment (DCE) in a wide-area network connection?",
+        "choices": [
+            "A. Application Server",
+            "B. Enterprise Router",
+            "C. CSU/DSU (Channel Service Unit/Data Service Unit)",
+            "D. Desktop Computer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "The process of combining multiple lower-speed data streams into a single high-speed data stream for transmission over a shared physical medium is known as:",
+        "choices": [
+            "A. Concentration",
+            "B. Inverse Multiplexing",
+            "C. Modulation",
+            "D. Multiplexing"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "Unlike a standard multiplexer, a concentrator has a total aggregate output capacity that is:",
+        "choices": [
+            "A. Exactly equal to the sum of its inputs",
+            "B. Less than the sum of its peak input capacities, relying on statistical probability",
+            "C. Always infinite",
+            "D. Greater than the sum of its inputs"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "Because a concentrator has fewer output channels than input channels, it must deal with multiple inputs attempting to access the output simultaneously, a phenomenon called:",
+        "choices": [
+            "A. Contention",
+            "B. Aliasing",
+            "C. Crosstalk",
+            "D. Dispersion"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "In a Statistical Time Division Multiplexer (STDM), what component is strictly necessary to handle periods of peak traffic when the aggregate input rate temporarily exceeds the output link capacity?",
+        "choices": [
+            "A. A faster clock",
+            "B. A higher frequency carrier",
+            "C. A buffer memory queue",
+            "D. An analog filter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "In standard RS-232 serial communication between a DTE and a DCE, the DTE transmits data on Pin 2 of a DB-25 connector. On which pin does the DCE receive this data?",
+        "choices": [
+            "A. Pin 4",
+            "B. Pin 3",
+            "C. Pin 7",
+            "D. Pin 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "When connecting two DTE devices directly without a DCE in between, what specific type of cable configuration is required?",
+        "choices": [
+            "A. Null modem (crossover) cable",
+            "B. Straight-through cable",
+            "C. Coaxial trunk cable",
+            "D. Patch cable"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "What is the primary function of a Line Control Unit (LCU) in a data communications system?",
+        "choices": [
+            "A. To act as the main host processor for database queries",
+            "B. To perform the actual modulation of digital signals into analog waves",
+            "C. To interface a computer's parallel bus to a serial communications line, handling data formatting and synchronization",
+            "D. To route IP packets across a global WAN"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "Which specific integrated circuit is the core component of a Line Control Unit designed for asynchronous data transmission?",
+        "choices": [
+            "A. Digital Signal Processor (DSP)",
+            "B. Universal Asynchronous Receiver-Transmitter (UART)",
+            "C. Phase-Locked Loop (PLL)",
+            "D. Analog-to-Digital Converter (ADC)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "Inside an LCU, the UART performs parallel-to-serial conversion on data traveling in which direction?",
+        "choices": [
+            "A. From the DCE to the DTE",
+            "B. From the communications line to the host CPU",
+            "C. From the terminal's keyboard to the terminal's screen",
+            "D. From the host CPU's parallel bus to the serial communications line"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 12,
+        "question": "In an LCU, when receiving data from a communication line, the UART must convert the incoming serial bitstream into:",
+        "choices": [
+            "A. An analog signal",
+            "B. A parallel data format suitable for the host computer's bus",
+            "C. A synchronous optical frame",
+            "D. A higher voltage differential signal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "Which of the following error detection tasks is traditionally handled directly by the hardware of a basic Line Control Unit (UART)?",
+        "choices": [
+            "A. Cyclic Redundancy Check (CRC) verification",
+            "B. Cryptographic hashing",
+            "C. Parity generation and checking",
+            "D. Forward Error Correction (FEC)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "If a Line Control Unit receives a new serial character from the line before the host CPU has read the previous character from the LCU's receive register, what specific error occurs?",
+        "choices": [
+            "A. Framing error",
+            "B. Overrun error",
+            "C. Parity error",
+            "D. Break condition"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "To prevent overrun errors and reduce the interrupt load on the host CPU, modern LCUs (like the 16550 UART) incorporate:",
+        "choices": [
+            "A. Analog filters",
+            "B. Optical isolators",
+            "C. First-In-First-Out (FIFO) buffer memory",
+            "D. High-voltage amplifiers"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "A basic LCU UART receives a 10-bit asynchronous frame (1 start, 8 data, 1 stop) at 9600 bps. How much time does the host CPU have to read the character from the receiver holding register before the next character begins overwriting it, assuming no FIFO buffer?",
+        "choices": [
+            "A. 1.04 milliseconds",
+            "B. 10.4 milliseconds",
+            "C. 104 microseconds",
+            "D. 833 microseconds"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "An LCU features a 16-byte receive FIFO buffer. If data arrives continuously at 115,200 bps (10 bits per frame) and the CPU ignores interrupts, approximately how long will it take for the FIFO to completely fill and overflow?",
+        "choices": [
+            "A. 13.9 milliseconds",
+            "B. 1.39 milliseconds",
+            "C. 139 microseconds",
+            "D. 139 milliseconds"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "Which hardware control lines in an LCU interface are primarily used to implement physical flow control (hardware handshaking)?",
+        "choices": [
+            "A. TXD and RXD",
+            "B. RTS and CTS",
+            "C. DTR and DSR",
+            "D. RI and CD"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "In the context of Line Control Units, \"character framing\" refers to:",
+        "choices": [
+            "A. The addition of start and stop bits to each byte of data",
+            "B. Encrypting the payload",
+            "C. Converting the data to ASCII",
+            "D. Synchronizing the clock phase"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 20,
+        "question": "If a Line Control Unit (UART) is programmed for 7 data bits, even parity, and 1 stop bit, how many total bits are transmitted per character frame?",
+        "choices": [
+            "A. 8 bits",
+            "B. 9 bits",
+            "C. 10 bits",
+            "D. 11 bits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "A Line Control Unit detects a logic 0 when it expects a logic 1 for the stop bit. This indicates that the receiver has lost synchronization with the transmitter and flags a:",
+        "choices": [
+            "A. Parity error",
+            "B. Overrun error",
+            "C. Framing error",
+            "D. Buffer underflow"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "What is the primary architectural purpose of a Front-End Processor (FEP) in a legacy mainframe environment?",
+        "choices": [
+            "A. To replace the mainframe CPU entirely",
+            "B. To modulate digital data into analog telephone signals",
+            "C. To act as a terminal multiplexer without any intelligence",
+            "D. To relieve the mainframe host computer of the heavy processing overhead associated with managing data communications"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 23,
+        "question": "Unlike a simple Line Control Unit or multiplexer, a Front-End Processor (FEP) is a fully programmable computer equipped with its own:",
+        "choices": [
+            "A. Magnetic tape drives",
+            "B. Screen and keyboard",
+            "C. Memory, CPU, and specialized communication channel adapters",
+            "D. Power generation unit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "Which of the following is a classic historical example of a widely deployed IBM Front-End Processor?",
+        "choices": [
+            "A. IBM 360",
+            "B. IBM 3705 or 3745",
+            "C. IBM PC/AT",
+            "D. IBM AS/400"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "In a network utilizing a Front-End Processor, which device is strictly responsible for polling remote terminals to ask if they have data to send?",
+        "choices": [
+            "A. The mainframe host CPU",
+            "B. The Front-End Processor (FEP)",
+            "C. The local Line Control Unit",
+            "D. The modem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "By handling polling, error checking, and character assembly, a Front-End Processor reduces the number of interrupts presented to the host mainframe from thousands per second to:",
+        "choices": [
+            "A. Millions per second",
+            "B. Zero",
+            "C. Only a few per message block or file transfer",
+            "D. Exactly one per byte"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "If a remote terminal transmits data using the EBCDIC character set, but the mainframe strictly uses ASCII, which component traditionally performs the necessary code translation?",
+        "choices": [
+            "A. The modem",
+            "B. The Front-End Processor (FEP)",
+            "C. The Line Control Unit",
+            "D. The terminal itself"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "A Front-End Processor (FEP) connects to the mainframe host computer via a:",
+        "choices": [
+            "A. Very high-speed parallel block multiplexer channel",
+            "B. Slow serial RS-232 link",
+            "C. Standard telephone line",
+            "D. Wireless infrared link"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 29,
+        "question": "In an FEP architecture, the process of assembling incoming asynchronous characters from multiple slow terminals into larger contiguous message blocks before sending them to the host is called:",
+        "choices": [
+            "A. Data concentration (or message assembly)",
+            "B. Modulation",
+            "C. Polling",
+            "D. Inverse multiplexing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Which of the following statements comparing a Front-End Processor (FEP) and a standard Multiplexer is strictly true?",
+        "choices": [
+            "A. A multiplexer provides protocol conversion, whereas an FEP does not",
+            "B. An FEP provides programmable intelligence, message buffering, and protocol routing, whereas a basic multiplexer is purely a transparent transport device",
+            "C. A multiplexer connects to the host via a high-speed channel, whereas an FEP uses slow serial links",
+            "D. An FEP uses less memory than a multiplexer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "A Front-End Processor is tasked with polling 50 remote terminals. If each terminal requires 5 milliseconds for a poll and negative response (no data), what is the minimum total time required to poll all terminals once if none have data?",
+        "choices": [
+            "A. 50 milliseconds",
+            "B. 250 milliseconds",
+            "C. 500 milliseconds",
+            "D. 2.5 seconds"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "During a polling cycle, 5 out of 50 terminals have a 100-byte message to send. Polling an idle terminal takes 5 ms. Polling and receiving a message from an active terminal takes 50 ms. Calculate the total time for one complete polling cycle of all 50 terminals.",
+        "choices": [
+            "A. 250 ms",
+            "B. 475 ms",
+            "C. 500 ms",
+            "D. 2500 ms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "If the Front-End Processor (FEP) fails completely, what is the immediate consequence for the mainframe's data communications?",
+        "choices": [
+            "A. The mainframe automatically takes over polling",
+            "B. The terminals connect directly to the mainframe",
+            "C. All external data communications to the mainframe are severed",
+            "D. The network switches to half-duplex"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "Modern networking architectures have largely rendered the traditional mainframe Front-End Processor obsolete by distributing its functions into:",
+        "choices": [
+            "A. Analog modems",
+            "B. Simple UARTs",
+            "C. Telephones",
+            "D. Local Area Network (LAN) switches, routers, and edge gateways"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 35,
+        "question": "A Serial Interface Unit conforms to the EIA RS-232 standard. According to this standard, a logic '1' (Mark) is represented by a voltage level in the range of:",
+        "choices": [
+            "A. -3V to -15V",
+            "B. +3V to +15V",
+            "C. 0V to +5V",
+            "D. -1V to +1V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 36,
+        "question": "According to the RS-232 standard, a logic '0' (Space) is represented by a voltage level in the range of:",
+        "choices": [
+            "A. -3V to -15V",
+            "B. +3V to +15V",
+            "C. 0V to +5V",
+            "D. -1V to +1V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "The RS-232 interface defines a \"dead zone\" or transition region where voltage levels are technically undefined and may lead to unpredictable logic states. This region is between:",
+        "choices": [
+            "A. -15V and -3V",
+            "B. +3V and +15V",
+            "C. -3V and +3V",
+            "D. 0V and +5V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "Why is the maximum cable length of a standard RS-232 connection practically limited to approximately 50 feet (15 meters) at 19.2 kbps?",
+        "choices": [
+            "A. Because the cable melts due to high current",
+            "B. Because it uses differential signaling",
+            "C. Because it uses unbalanced (single-ended) signaling, making it highly susceptible to noise and capacitive degradation over distance",
+            "D. Because the protocol limits the address field"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "In RS-232, the term \"unbalanced signaling\" refers to the fact that:",
+        "choices": [
+            "A. Data is transmitted on a single wire referenced to a common signal ground",
+            "B. Data is transmitted on two wires with opposite voltages",
+            "C. The transmitter and receiver operate at different speeds",
+            "D. The baud rate does not match the bit rate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 40,
+        "question": "Which serial interface standard was developed specifically to overcome the distance and speed limitations of RS-232 by utilizing balanced (differential) signaling?",
+        "choices": [
+            "A. RS-422 (and RS-485)",
+            "B. Centronics Parallel",
+            "C. USB 1.0",
+            "D. IEEE 802.11"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "In balanced (differential) signaling like RS-422, a logic state is determined by:",
+        "choices": [
+            "A. The voltage on a single wire relative to ground",
+            "B. The absolute voltage on both wires",
+            "C. The voltage difference between two complementary signal wires",
+            "D. The current flow to ground"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "What is the primary technical advantage of differential signaling over single-ended signaling in Serial Interface Units?",
+        "choices": [
+            "A. It uses fewer wires",
+            "B. It consumes less power",
+            "C. It provides high immunity to common-mode noise, allowing for higher speeds and much longer cable distances",
+            "D. It allows for analog data transmission"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "The EIA RS-485 standard is an enhancement of RS-422 that specifically allows for:",
+        "choices": [
+            "A. Higher voltages",
+            "B. Multipoint (multi-drop) bus topologies with multiple transmitters and receivers",
+            "C. Full-duplex communication on a single wire",
+            "D. Wireless serial transmission"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "While RS-422 is typically limited to point-to-point or one-transmitter-multiple-receivers configurations, RS-485 allows up to how many standard unit load devices on a single bus?",
+        "choices": [
+            "A. 10",
+            "B. 32",
+            "C. 128",
+            "D. 256"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "For an RS-485 multi-drop serial network, what physical component is strictly required at both extreme ends of the main cable bus to prevent signal reflections?",
+        "choices": [
+            "A. A signal amplifier",
+            "B. A common ground wire",
+            "C. A terminating resistor matching the cable's characteristic impedance",
+            "D. An active hub"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "Which ITU-T standard specifies a high-speed serial interface that uses unbalanced signaling for control lines but balanced signaling for data and clock lines, commonly used with V.35 physical connectors?",
+        "choices": [
+            "A. V.24",
+            "B. X.21",
+            "C. V.35 (electrical specification)",
+            "D. RS-232"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "The ITU-T X.21 interface standard is distinct from RS-232 because it relies heavily on:",
+        "choices": [
+            "A. Massive 50-pin connectors",
+            "B. Digital encoding of control information on the data lines, drastically reducing the number of physical control pins required",
+            "C. Analog signaling",
+            "D. Fiber optic cables"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "In an RS-232 connection, which pin on a standard DB-9 connector is dedicated to Transmit Data (TxD)?",
+        "choices": [
+            "A. Pin 2",
+            "B. Pin 3",
+            "C. Pin 5",
+            "D. Pin 7"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "In an RS-232 connection using a DB-9 connector, Pin 5 is designated for:",
+        "choices": [
+            "A. Receive Data (RxD)",
+            "B. Transmit Data (TxD)",
+            "C. Request to Send (RTS)",
+            "D. Signal Ground (SG)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "A Line Control Unit is evaluating the noise margin of an RS-232 link. If the transmitter outputs +9V for a logic '0', and the receiver requires a minimum of +3V to detect a logic '0', what is the noise margin?",
+        "choices": [
+            "A. 3V",
+            "B. 6V",
+            "C. 9V",
+            "D. 12V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "In a differential RS-422 serial interface, wire A is at +2.5V and wire B is at -2.5V relative to ground. What is the differential voltage (V_A - V_B)?",
+        "choices": [
+            "A. 0V",
+            "B. 2.5V",
+            "C. 5.0V",
+            "D. -5.0V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "If a common-mode noise spike of +10V hits the RS-422 cable from the previous question, the voltages become V_A = +12.5V and V_B = +7.5V. What is the new differential voltage (V_A - V_B)?",
+        "choices": [
+            "A. 5.0V",
+            "B. 10.0V",
+            "C. 20.0V",
+            "D. 0V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "Which hardware handshaking signal in the RS-232 standard is typically asserted by the DTE to request permission to transmit data to the DCE?",
+        "choices": [
+            "A. Clear to Send (CTS)",
+            "B. Request to Send (RTS)",
+            "C. Data Terminal Ready (DTR)",
+            "D. Data Carrier Detect (DCD)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "Upon receiving an RTS signal, a DCE (modem) that is ready to receive data will reply to the DTE by asserting which signal?",
+        "choices": [
+            "A. Data Terminal Ready (DTR)",
+            "B. Ring Indicator (RI)",
+            "C. Clear to Send (CTS)",
+            "D. Transmit Data (TxD)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "In a Front-End Processor (FEP) architecture, what is a \"channel program\"?",
+        "choices": [
+            "A. The software that runs on the remote terminals",
+            "B. The radio frequency assigned to the modem",
+            "C. A sequence of specific I/O commands executed by the mainframe's channel controller to transfer data between the mainframe memory and the FEP",
+            "D. The operating system of the FEP"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "Which specific metric dictates the maximum number of asynchronous terminals a basic Line Control Unit can effectively multiplex without data loss?",
+        "choices": [
+            "A. The baud rate of the terminals",
+            "B. The capacity of the host CPU's memory",
+            "C. The total aggregate input bit rate compared to the throughput of the LCU-to-Host bus interface and buffer size",
+            "D. The length of the RS-232 cables"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "In a Line Control Unit, \"Baudot code\" is a legacy 5-bit character set. If an LCU receives a Baudot transmission at 50 baud (1 start bit, 5 data, 1.5 stop), what is the exact duration of a single complete character frame?",
+        "choices": [
+            "A. 150 ms",
+            "B. 100 ms",
+            "C. 50 ms",
+            "D. 200 ms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "A synchronous Serial Interface Unit receives data at 2.048 Mbps. What is the required bandwidth of the Phase-Locked Loop (PLL) tracking filter if it must respond to jitter frequencies up to 100 Hz?",
+        "choices": [
+            "A. Approximately 100 Hz",
+            "B. 2.048 MHz",
+            "C. 1.024 MHz",
+            "D. 10 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "When interfacing a 3.3V UART (LCU) to a legacy 12V RS-232 line, which critical component must be placed between them?",
+        "choices": [
+            "A. A crossover cable",
+            "B. A level-shifting line driver/receiver IC (such as a MAX232)",
+            "C. A terminating resistor",
+            "D. A null modem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "The MAX232 integrated circuit is heavily used in Line Control Unit designs because it:",
+        "choices": [
+            "A. Converts parallel data to serial data",
+            "B. Generates RS-232 compliant voltage levels (+/- 10V) from a single +5V supply using internal charge pumps",
+            "C. Filters out all common-mode noise",
+            "D. Increases the baud rate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "A Front-End Processor uses an interrupt-driven architecture to communicate with its communication line adapters. If an adapter interrupts the FEP CPU 1000 times per second, and the interrupt service routine takes 100 microseconds to execute, what percentage of the FEP CPU time is spent strictly handling these interrupts?",
+        "choices": [
+            "A. 1%",
+            "B. 5%",
+            "C. 10%",
+            "D. 50%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "An RS-485 serial interface is rated for a maximum distance of 4000 feet at 100 kbps. If the baud rate is increased to 10 Mbps, the maximum reliable cable distance will:",
+        "choices": [
+            "A. Remain 4000 feet",
+            "B. Increase to 8000 feet",
+            "C. Decrease significantly (e.g., to less than 50 feet)",
+            "D. Drop strictly to zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "Which specific type of buffer architecture allows a Line Control Unit to receive data at a fast burst rate while the host CPU reads it at a slower, steady rate?",
+        "choices": [
+            "A. LIFO (Last-In-First-Out) stack",
+            "B. Shift register",
+            "C. Ring buffer or FIFO (First-In-First-Out) queue",
+            "D. Flash ROM"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "In a Front-End Processor, \"blocking\" refers to the process of:",
+        "choices": [
+            "A. Preventing unauthorized access to the network",
+            "B. Grouping multiple logical messages or records into a single large physical transmission frame to reduce overhead",
+            "C. Stopping data transmission due to errors",
+            "D. Terminating the polling cycle"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "If an FEP blocks 10 messages of 100 bytes each into a single frame, and the frame overhead (header/trailer) is 50 bytes, what is the data efficiency of the transmission?",
+        "choices": [
+            "A. 50%",
+            "B. 90%",
+            "C. 95.2%",
+            "D. 100%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "Which of the following functions is typically NOT offloaded to a Front-End Processor, remaining the strict responsibility of the mainframe host?",
+        "choices": [
+            "A. Polling remote terminals",
+            "B. Terminal protocol conversion",
+            "C. Executing the primary business application logic (e.g., database updates)",
+            "D. Assembling characters into messages"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "A Universal Synchronous/Asynchronous Receiver-Transmitter (USART) is an LCU component that can handle synchronous data. To do this, it requires:",
+        "choices": [
+            "A. Only a start and stop bit",
+            "B. An internal modem",
+            "C. Clock input/output pins to synchronize with the external DCE",
+            "D. A parallel port"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "In a synchronous serial interface (e.g., V.35), the clock signal generated by the DCE and provided to the DTE to time the transmitted data is called the:",
+        "choices": [
+            "A. Receive Clock (RxC)",
+            "B. Transmit Clock (TxC)",
+            "C. External Clock (EXTC)",
+            "D. Data Carrier Detect (DCD)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "If a Serial Interface Unit is configured for local loopback testing, the hardware internally connects:",
+        "choices": [
+            "A. Its TxD line to the remote DCE's RxD line",
+            "B. Its TxD line directly to its own RxD line",
+            "C. Its RTS line to its DTR line",
+            "D. Its ground to its Vcc line"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "A Front-End Processor is actively polling a multipoint line with 8 terminals. Terminal A responds with 200 bytes of data, which takes 20 ms. Terminal B responds with 0 bytes (5 ms). If this pattern alternates (Active, Idle, Active, Idle...) for all 8 terminals, what is the total polling cycle time?",
+        "choices": [
+            "A. 100 ms",
+            "B. 40 ms",
+            "C. 200 ms",
+            "D. 80 ms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "An RS-232 line has a stray capacitance of 2500 pF. The standard limits the maximum slew rate to prevent crosstalk. Which electrical parameter strictly limits the maximum baud rate achievable on this specific capacitive line?",
+        "choices": [
+            "A. The minimum voltage of the mark state",
+            "B. The resistance of the ground wire",
+            "C. The maximum current output capability of the line driver charging the capacitance",
+            "D. The length of the stop bit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "In modern microcontrollers, the functional equivalent of the classic Line Control Unit (LCU) is integrated directly onto the silicon chip and is commonly referred to as the:",
+        "choices": [
+            "A. Arithmetic Logic Unit (ALU)",
+            "B. Universal Asynchronous Receiver-Transmitter (UART) peripheral",
+            "C. Direct Memory Access (DMA) controller",
+            "D. Graphics Processing Unit (GPU)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "When an LCU asserts the \"Break\" condition on an asynchronous serial line, it forces the transmit line to:",
+        "choices": [
+            "A. Logic 1 (Mark) continuously",
+            "B. Logic 0 (Space) continuously for longer than a full character frame",
+            "C. Alternate between Logic 0 and 1 rapidly",
+            "D. A high-impedance state"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "What is the primary operational consequence if the terminating resistors are missing from the ends of a high-speed RS-485 serial bus?",
+        "choices": [
+            "A. The voltage level drops to zero",
+            "B. The bus immediately converts to RS-232",
+            "C. Signal reflections from the unterminated ends will cause severe data corruption and standing waves",
+            "D. The data rate automatically halves"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "A Line Control Unit utilizes a Direct Memory Access (DMA) controller. What is the distinct advantage of this architecture?",
+        "choices": [
+            "A. It eliminates the need for parity bits",
+            "B. It allows the LCU to transfer received data directly into the host system's RAM without interrupting the CPU for every single byte",
+            "C. It converts serial data to analog",
+            "D. It increases the voltage levels of the RS-232 port"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "If an FEP utilizes \"Statistical Polling\" rather than \"Round-Robin Polling,\" it means the FEP will:",
+        "choices": [
+            "A. Poll all terminals in a strict sequential loop regardless of activity",
+            "B. Poll terminals based on their historical activity or priority, polling active terminals more frequently",
+            "C. Randomly guess which terminal has data",
+            "D. Never poll terminals, waiting for them to interrupt"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "The V.24 standard is the ITU-T equivalent of which EIA serial interface standard?",
+        "choices": [
+            "A. RS-422",
+            "B. RS-485",
+            "C. RS-232",
+            "D. V.35"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "Which pin on a standard RS-232 DB-25 connector is designated for Protective Ground (Chassis Ground), distinct from Signal Ground?",
+        "choices": [
+            "A. Pin 7",
+            "B. Pin 2",
+            "C. Pin 1",
+            "D. Pin 20"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "A Serial Interface Unit utilizing RS-422 is transmitting a 1 MHz clock signal over 1000 feet of twisted pair cable. To ensure signal integrity at the receiver, the receiver input should ideally be terminated with a resistor matching the cable's characteristic impedance, typically around:",
+        "choices": [
+            "A. 10 ohms",
+            "B. 50 ohms",
+            "C. 100 to 120 ohms",
+            "D. 10,000 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "In an FEP, \"Line Conditioning\" refers to software algorithms that:",
+        "choices": [
+            "A. Boost the physical voltage of the line",
+            "B. Check for parity errors",
+            "C. Format data to accommodate the physical characteristics of specific terminal types (e.g., inserting carriage returns or padding characters)",
+            "D. Terminate the physical cable"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 81,
+        "question": "An LCU UART receiver samples the incoming bit stream at a rate significantly higher than the baud rate to accurately detect the center of each bit. A common oversampling rate is:",
+        "choices": [
+            "A. 2x",
+            "B. 4x",
+            "C. 16x",
+            "D. 1x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "If a UART receiver uses a 16x oversampling clock and the desired baud rate is 9600 bps, what must be the frequency of the internal UART clock?",
+        "choices": [
+            "A. 9600 Hz",
+            "B. 19.2 kHz",
+            "C. 76.8 kHz",
+            "D. 153.6 kHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "During the 16x oversampling of a start bit, the UART typically verifies the start bit by reading a logic '0' at which sample counts after the initial falling edge?",
+        "choices": [
+            "A. Samples 1, 2, and 3",
+            "B. Samples 7, 8, and 9 (near the center of the bit)",
+            "C. Samples 14, 15, and 16",
+            "D. Only sample 16"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "A legacy Front-End Processor (e.g., IBM 3705) utilized specialized software called the Network Control Program (NCP). Where did the NCP reside and execute?",
+        "choices": [
+            "A. In the Mainframe Host CPU",
+            "B. In the remote terminals",
+            "C. Entirely within the memory of the Front-End Processor",
+            "D. In the analog modem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "In an RS-232 link, if the DTE is not ready to receive data, it drops its RTS line. However, some systems use software flow control instead, where the DTE sends a specific ASCII character to the DCE to pause transmission. This character is known as:",
+        "choices": [
+            "A. XON",
+            "B. XOFF",
+            "C. ACK",
+            "D. NAK"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "Which ASCII hexadecimal value corresponds to the XOFF software flow control character?",
+        "choices": [
+            "A. 0x11 (DC1)",
+            "B. 0x13 (DC3)",
+            "C. 0x06 (ACK)",
+            "D. 0x15 (NAK)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "A Serial Interface Unit utilizes RS-485 for a factory automation network. There are 10 devices on the bus. If Device A transmits, which devices receive the signal at their physical transceiver pins?",
+        "choices": [
+            "A. Only the master controller",
+            "B. Only Device A's nearest neighbor",
+            "C. All 10 devices on the bus (though typically only the addressed device processes it)",
+            "D. Only the terminating resistors"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "If two devices on an RS-485 bus attempt to transmit simultaneously, what electrical condition occurs on the differential pair?",
+        "choices": [
+            "A. Perfect synchronization",
+            "B. Bus collision (contention), resulting in scrambled voltage levels and corrupted data",
+            "C. The voltages double",
+            "D. The bus switches to full-duplex"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "To prevent collisions on an RS-485 bus, the network protocol must strictly enforce:",
+        "choices": [
+            "A. Frequency Division Multiplexing",
+            "B. A single master-slave polling architecture or a token-passing MAC protocol",
+            "C. Full-duplex cabling",
+            "D. A 16x oversampling clock"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "A Line Control Unit (LCU) is transmitting an 8-bit character (01010101). Including 1 start bit, 1 parity bit (Even), and 1 stop bit, calculate the total percentage of overhead in this transmission frame.",
+        "choices": [
+            "A. 25.0%",
+            "B. 27.3%",
+            "C. 37.5%",
+            "D. 11.1%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "If the LCU in the previous question changes its parity setting to 'Odd', what will the parity bit be for the data byte 01010101?",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. Null",
+            "D. Alternating"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "The V.35 serial interface standard utilizes a massive, rectangular 34-pin block connector. It was originally designed specifically for:",
+        "choices": [
+            "A. 300 baud dial-up modems",
+            "B. High-speed 48 kbps group-band modems combining multiple telephone circuits",
+            "C. RS-232 printers",
+            "D. Fiber optic connections"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "In a Front-End Processor, \"store-and-forward\" capability means the FEP can:",
+        "choices": [
+            "A. Delete messages instantly",
+            "B. Receive a complete message from a slow terminal, store it in its local memory, and then forward it to the host at very high speed",
+            "C. Only send data forward, never receive",
+            "D. Store data permanently on a hard drive"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "A Serial Interface Unit is specified to have a minimum driver output voltage swing of ±5V (RS-232) into a 3kΩ load. What is the minimum power delivered to the load during a continuous mark state?",
+        "choices": [
+            "A. 1.67 mW",
+            "B. 8.33 mW",
+            "C. 15.0 mW",
+            "D. 25.0 mW"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "An RS-232 receiver has an input resistance of 5kΩ. If the transmit line is held at +10V, how much current flows into the receiver pin?",
+        "choices": [
+            "A. 2 mA",
+            "B. 5 mA",
+            "C. 10 mA",
+            "D. 50 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 96,
+        "question": "The EIA-530 standard was developed to serve as a high-speed replacement for RS-232 while utilizing the same 25-pin DB-25 connector. It achieves higher speeds by mapping which type of signals onto the pins?",
+        "choices": [
+            "A. RS-422 balanced differential signals",
+            "B. Optical signals",
+            "C. 120V AC power",
+            "D. Audio tones"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "Which component inside a Line Control Unit is responsible for raising the interrupt flag when the transmit holding register is empty and ready for another byte from the CPU?",
+        "choices": [
+            "A. The baud rate generator",
+            "B. The UART status register/logic",
+            "C. The parity generator",
+            "D. The shift register"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "If an FEP's buffer memory becomes completely full due to the mainframe host being temporarily unresponsive, the FEP will typically:",
+        "choices": [
+            "A. Explode",
+            "B. Overwrite the oldest data silently",
+            "C. Assert hardware or software flow control to tell the remote terminals to pause transmission",
+            "D. Send the data to a printer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "A Line Control Unit must generate a 19200 baud clock from a 1.8432 MHz master crystal oscillator. What integer division factor must the baud rate generator use if the UART requires a 16x oversampling clock?",
+        "choices": [
+            "A. 6",
+            "B. 12",
+            "C. 96",
+            "D. 16"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 100,
+        "question": "In RS-232, the Data Carrier Detect (DCD) signal is strictly an output from the:",
+        "choices": [
+            "A. DTE",
+            "B. UART",
+            "C. DCE",
+            "D. Terminating resistor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 101,
+        "question": "An RS-485 transceiver chip has a \"Driver Enable\" (DE) pin. What is the operational purpose of this pin in a half-duplex multi-drop network?",
+        "choices": [
+            "A. To increase the voltage",
+            "B. To enable the transmitter only when this specific node has permission to send, keeping it in high-impedance mode otherwise",
+            "C. To turn on the receiver",
+            "D. To switch to full-duplex"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 102,
+        "question": "What is the theoretical maximum data rate specified by the original RS-232-C standard for a 50-foot cable?",
+        "choices": [
+            "A. 9600 bps",
+            "B. 19.2 kbps",
+            "C. 20.0 kbps",
+            "D. 115.2 kbps"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 103,
+        "question": "Which of the following serial interface standards is electrically identical to RS-422 but is specified as an ITU-T recommendation?",
+        "choices": [
+            "A. V.11",
+            "B. X.21",
+            "C. V.24",
+            "D. V.35"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 104,
+        "question": "A Line Control Unit receives a character where the calculated parity bit does not match the received parity bit. The UART immediately sets the Parity Error (PE) flag. Does the basic UART hardware automatically request retransmission?",
+        "choices": [
+            "A. Yes, it sends a NAK",
+            "B. Yes, it pauses the clock",
+            "C. No, standard basic UART hardware only sets the flag; error handling and retransmission requests are purely software functions",
+            "D. No, it automatically corrects the error"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 105,
+        "question": "A Front-End Processor executes a \"read\" command to a terminal. The terminal responds with an ACK, indicating it has no data. This specific type of polling transaction is completely processed by the FEP. How many interrupts does the host mainframe experience?",
+        "choices": [
+            "A. Zero",
+            "B. One",
+            "C. Two",
+            "D. Three"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 106,
+        "question": "The Universal Synchronous Receiver-Transmitter (USRT) differs from a UART because it lacks the hardware to:",
+        "choices": [
+            "A. Generate interrupts",
+            "B. Handle start and stop bits, relying instead on a clock line and sync characters",
+            "C. Shift data sequentially",
+            "D. Check parity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 107,
+        "question": "If a Serial Interface Unit uses RS-422 to transmit data at 10 Mbps over 10 meters, and the propagation velocity of the cable is 2 × 10^8 m/s, what is the propagation delay of the cable?",
+        "choices": [
+            "A. 50 ns",
+            "B. 100 ns",
+            "C. 10 ns",
+            "D. 5 ns"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 108,
+        "question": "In the previous scenario, a single bit lasts 100 ns (1/10 Mbps). Because the propagation delay (50 ns) is a significant fraction of the bit time, the cable MUST be:",
+        "choices": [
+            "A. Properly terminated to prevent reflections from corrupting the bit",
+            "B. Left unterminated to save power",
+            "C. Shielded with lead",
+            "D. Converted to RS-232"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 109,
+        "question": "An RS-232 line analyzer shows the TxD line transitioning from -10V to +10V. This represents a logical transition from:",
+        "choices": [
+            "A. Space to Mark",
+            "B. 1 to 0",
+            "C. 0 to 1",
+            "D. Mark to Space"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 110,
+        "question": "In serial communications, \"autobauding\" is a feature where the Line Control Unit:",
+        "choices": [
+            "A. Automatically dials a telephone number",
+            "B. Measures the duration of the first received pulse (often a 'return' character) to mathematically deduce and set its own matching baud rate",
+            "C. Continuously shifts its clock frequency up and down",
+            "D. Corrects parity errors"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 111,
+        "question": "A Serial Interface Unit is built using a UART with a 64-byte FIFO. If the CPU checks the UART exactly every 10 milliseconds, what is the maximum continuous baud rate (using 10-bit frames) the UART can receive without overflowing the FIFO?",
+        "choices": [
+            "A. 19,200 baud",
+            "B. 38,400 baud",
+            "C. 57,600 baud",
+            "D. 64,000 baud"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 112,
+        "question": "A Front-End Processor is acting as a protocol converter, connecting IBM SNA terminals to a TCP/IP network. The FEP must strip the SNA headers and encapsulate the data in IP packets. This translation requires the FEP to operate at which OSI layer(s)?",
+        "choices": [
+            "A. Layer 1 only",
+            "B. Layers 1 and 2",
+            "C. Up through Layer 3 (and potentially higher depending on protocol depth)",
+            "D. Layer 7 only"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 113,
+        "question": "Which specific pin on the RS-232 DB-25 connector is utilized as the Secondary Transmit Data (STxD) channel for a low-speed reverse diagnostic channel in older modems?",
+        "choices": [
+            "A. Pin 2",
+            "B. Pin 14",
+            "C. Pin 20",
+            "D. Pin 22"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 114,
+        "question": "If an RS-485 network spans multiple buildings with different ground potentials, the common-mode voltage could exceed the transceiver's maximum rating (typically -7V to +12V). The standard engineering solution to this problem is to use:",
+        "choices": [
+            "A. Thicker ground wires",
+            "B. Optically or galvanically isolated RS-485 transceivers",
+            "C. RS-232 instead",
+            "D. Higher supply voltages"
+        ],
+        "correct_answer": "B"
+    }
+]

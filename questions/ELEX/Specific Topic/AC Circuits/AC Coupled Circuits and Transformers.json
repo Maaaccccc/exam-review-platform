@@ -1,0 +1,992 @@
+[
+    {
+        "number": 1,
+        "question": "Worded circuit: A planar AC network has 5 principal nodes and 8 branches. To fully solve the circuit using nodal analysis, what is the exact mathematically minimum number of independent nodal equations required?",
+        "choices": [
+            "A. 4",
+            "B. 5",
+            "C. 7",
+            "D. 8"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "In AC network analysis, the Norton equivalent impedance (Z_n) is mathematically derived and strictly equal to which of the following?",
+        "choices": [
+            "A. The reciprocal of the Thevenin impedance",
+            "B. The complex conjugate of the Thevenin impedance",
+            "C. The exact Thevenin equivalent impedance (Z_th)",
+            "D. The reciprocal of the short-circuit current"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "When systematically applying the AC Superposition Theorem, an ideal independent AC voltage source is mathematically deactivated by completely replacing it with a/an:",
+        "choices": [
+            "A. Open circuit",
+            "B. Internal admittance",
+            "C. Capacitor",
+            "D. Short circuit"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "Worded circuit: An AC source has a Thevenin impedance Z_th = 6 + j8 ohms. To mathematically achieve absolute maximum active power transfer, the load impedance Z_L must strictly be:",
+        "choices": [
+            "A. 6 + j8 ohms",
+            "B. 6 - j8 ohms",
+            "C. 10 + j0 ohms",
+            "D. 6 + j0 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "Worded circuit: A complex AC circuit has two ideal voltage sources. Source 1 acting alone causes a branch current of 3 - j4",
+        "choices": [
+            "A. Source 2 acting alone causes a branch current of -1 + j2 A in the same branch. The exact total complex current is:",
+            "A. 4 - j6 A",
+            "B. 2 - j6 A",
+            "C. 2 - j2 A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "Worded circuit: A Millman's network consists of three parallel branches. The total short-circuit current sum is exactly 12 + j16 A, and the total equivalent admittance of the branches is 0.4 + j0.3 S. The exact common Millman voltage across the network is:",
+        "choices": [
+            "A. 40 + j0 V",
+            "B. 24 - j18 V",
+            "C. 30 + j40 V",
+            "D. 38.4 + j4.8 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "In mesh analysis of an AC circuit, if an ideal AC current source is shared strictly between two adjacent meshes, the standard mathematical procedure requires the creation of a/an:",
+        "choices": [
+            "A. Thevenin equivalent",
+            "B. Supermesh",
+            "C. Supernode",
+            "D. Norton equivalent"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "Worded circuit: An AC circuit features a purely resistive 10-ohm load. For maximum power transfer, the driving source internal impedance Z_th must mathematically be:",
+        "choices": [
+            "A. 0 - j10 ohms",
+            "B. 10 - j10 ohms",
+            "C. 10 + j10 ohms",
+            "D. 10 + j0 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "Which of the following standard symbols is universally used to represent the mutual inductance between two magnetically coupled coils?",
+        "choices": [
+            "A. L_m",
+            "B. M",
+            "C. k",
+            "D. mu"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "The mathematical coefficient of coupling (k) between two distinct coils having self-inductances L1 and L2 and a mutual inductance M is strictly given by the formula:",
+        "choices": [
+            "A. k = M / (L1 * L2)",
+            "B. k = M^2 / (L1 * L2)",
+            "C. k = (L1 * L2) / M",
+            "D. k = M / sqrt(L1 * L2)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "The theoretical coefficient of coupling (k) for two magnetically coupled coils is mathematically constrained to strictly fall within the range of:",
+        "choices": [
+            "A. 0 to 1",
+            "B. -1 to +1",
+            "C. 1 to infinity",
+            "D. 0 to infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "Worded circuit: Coil 1 has an inductance of 16 mH and Coil 2 has an inductance of 9 mH. If the coefficient of coupling is exactly 0.5, the mathematically exact mutual inductance is:",
+        "choices": [
+            "A. 12 mH",
+            "B. 72 mH",
+            "C. 6 mH",
+            "D. 3 mH"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 13,
+        "question": "Worded circuit: Two magnetically coupled coils, L1 and L2, are physically connected in series such that their magnetic fields mutually aid each other. The mathematically exact total equivalent inductance (L_eq) is:",
+        "choices": [
+            "A. L1 + L2 + M",
+            "B. L1 + L2 - 2M",
+            "C. L1 + L2 - M",
+            "D. L1 + L2 + 2M"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "Worded circuit: Two coupled coils, L1 = 12 mH and L2 = 12 mH, are connected in series-opposing. If the mutual inductance is M = 4 mH, the exact total equivalent inductance is:",
+        "choices": [
+            "A. 32 mH",
+            "B. 16 mH",
+            "C. 24 mH",
+            "D. 8 mH"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Worded circuit: Two coils are perfectly coupled (k = 1.0). If L1 = 5 H and L2 = 5 H are connected in series-aiding, what is the exact equivalent inductance?",
+        "choices": [
+            "A. 20 H",
+            "B. 10 H",
+            "C. 15 H",
+            "D. 0 H"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 16,
+        "question": "Worded circuit: Two coupled coils are connected in parallel such that their magnetic fluxes aid each other. The exact theoretical formula for their total equivalent inductance is:",
+        "choices": [
+            "A. (L1*L2 + M^2) / (L1 + L2 + 2M)",
+            "B. (L1*L2 - M^2) / (L1 + L2 + 2M)",
+            "C. (L1*L2 - M^2) / (L1 + L2 - 2M)",
+            "D. (L1*L2 + M^2) / (L1 + L2 - 2M)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "The total magnetic energy (W) instantaneously stored in a pair of linearly coupled inductors with currents i1 and i2 is mathematically exactly:",
+        "choices": [
+            "A. 0.5*L1*i1^2 + 0.5*L2*i2^2 +/- M*i1*i2",
+            "B. 0.5*L1*i1^2 + 0.5*L2*i2^2 +/- 0.5*M*i1*i2",
+            "C. L1*i1^2 + L2*i2^2 +/- 2M*i1*i2",
+            "D. 0.5*(L1+L2)*i1*i2 +/- M*(i1^2+i2^2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "Worded circuit: Two unknown coupled coils in series yield a measured total inductance of 60 mH when aiding and 40 mH when opposing. What is the mathematically exact mutual inductance M?",
+        "choices": [
+            "A. 10 mH",
+            "B. 5 mH",
+            "C. 20 mH",
+            "D. 2.5 mH"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "In standard transformer analysis, the induced EMF in the secondary coil directly caused by a time-varying current in the primary coil is mathematically expressed as:",
+        "choices": [
+            "A. v2 = L2 * (di1/dt)",
+            "B. v2 = M * (di1/dt)",
+            "C. v2 = (M/L1) * (di1/dt)",
+            "D. v2 = L1 * (di2/dt)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "Worded circuit: A primary coil experiences a current changing precisely at a rate of 200 A/s. If the mutual inductance to the secondary coil is 50 mH, the exact induced secondary voltage is:",
+        "choices": [
+            "A. 5 V",
+            "B. 2 V",
+            "C. 4000 V",
+            "D. 10 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "The fundamental principle of mutual inductance physically heavily relies on magnetic flux linkage. A coefficient of coupling k = 0 mathematically strictly implies that:",
+        "choices": [
+            "A. The coils are perfectly coupled",
+            "B. The coils are physically identical",
+            "C. None of the magnetic flux from one coil links the other",
+            "D. The mutual inductance is exactly 1 Henry"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "Worded circuit: Coil A has 100 turns and Coil B has 200 turns. If 2 Amperes in Coil A produces a mutual flux of 5 milliWebers linking Coil B, what is the mathematically exact mutual inductance?",
+        "choices": [
+            "A. 0.10 H",
+            "B. 0.50 H",
+            "C. 2.5 H",
+            "D. 1.0 H"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "In the standard dot convention for coupled coils, if instantaneous currents enter the dotted terminals of both coils simultaneously, the resulting mutual magnetic fluxes will physically:",
+        "choices": [
+            "A. Cancel perfectly",
+            "B. Oppose each other",
+            "C. Aid each other",
+            "D. Create a short circuit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "Worded circuit: In a dual-coil circuit, current I1 enters the dotted terminal of L1, and current I2 leaves the dotted terminal of L2. The mathematically exact sign of the mutual voltage term in the KVL equation for coil 1 is:",
+        "choices": [
+            "A. Positive (+j*w*M*I2)",
+            "B. Zero",
+            "C. Negative (-j*w*M*I2)",
+            "D. Completely undefined"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "Worded circuit: Coil 1 and Coil 2 are in series. Current enters the dot of Coil 1 and enters the dot of Coil 2. The exact AC voltage drop across this entire series combination is strictly mathematically:",
+        "choices": [
+            "A. I * (j*w*L1 + j*w*L2 - 2*j*w*M)",
+            "B. I * (j*w*L1 + j*w*L2)",
+            "C. I * (j*w*L1 - j*w*L2 + 2*j*w*M)",
+            "D. I * (j*w*L1 + j*w*L2 + 2*j*w*M)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 26,
+        "question": "The primary engineering purpose of marking magnetic components with the dot convention on a schematic is strictly to indicate the:",
+        "choices": [
+            "A. Relative phase polarity of mutually induced voltages",
+            "B. Maximum voltage rating of the windings",
+            "C. Exact physical orientation of the core lamination",
+            "D. Direction of the physical DC resistance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "Worded circuit: Two mutually coupled coils L1 and L2 are in parallel. Their dotted terminals are connected to the exact same top node. An AC current enters this top node and splits into both coils. The mutually induced voltages will physically:",
+        "choices": [
+            "A. Oppose the self-induced voltages",
+            "B. Aid the self-induced voltages",
+            "C. Generate infinite impedance",
+            "D. Have absolutely no effect"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "Worded circuit: In a specific mesh equation, the self-induced voltage across L1 is V_L1 = j*10*I1. If I2 enters the undotted terminal of L2 while I1 enters the dotted terminal of L1, and w*M = 4, the exact mutual voltage term added to V_L1 is:",
+        "choices": [
+            "A. -j*4*I2",
+            "B. +j*4*I2",
+            "C. -j*8*I2",
+            "D. +j*2*I2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 29,
+        "question": "Worded circuit: A transformer schematic shows a dot on the top primary terminal and a dot on the bottom secondary terminal. If the primary voltage is positive at the top, the induced secondary voltage is mathematically strictly positive at the:",
+        "choices": [
+            "A. Top terminal",
+            "B. Center tap",
+            "C. Core",
+            "D. Bottom terminal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "In AC steady-state analysis involving coupled coils, the mutual impedance between coil 1 and coil 2 is mathematically formally defined as:",
+        "choices": [
+            "A. Z_M = w * M",
+            "B. Z_M = j * w * M",
+            "C. Z_M = -w * M",
+            "D. Z_M = M / (j*w)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Worded circuit: L1 = 4H, L2 = 5H, M = 2H. They are in series. Current enters the dot of L1 and leaves the dot of L2. What is the total mathematical equivalent inductance?",
+        "choices": [
+            "A. 5 H",
+            "B. 9 H",
+            "C. 13 H",
+            "D. 7 H"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "Worded circuit: A tightly wound auto-transformer has a single continuous winding with a tap. If viewed as two coupled coils L1 and L2 connected exactly at the tap, the total inductance from end to end is maximizing, indicating the dots are placed:",
+        "choices": [
+            "A. At the very same tap connection point",
+            "B. On opposite extreme ends of the entire winding",
+            "C. On adjacent ends (one at the tap, one at an extreme end)",
+            "D. Nowhere, auto-transformers lack mutual inductance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "In a standard two-winding ideal transformer, the theoretical magnetic permeability of the core material is mathematically assumed to be exactly:",
+        "choices": [
+            "A. Zero",
+            "B. 1.0",
+            "C. 4*pi*10^-7",
+            "D. Infinite"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 34,
+        "question": "The turns ratio (a) of an ideal transformer is mathematically rigorously defined as the ratio of the:",
+        "choices": [
+            "A. Secondary turns to primary turns",
+            "B. Primary turns to secondary turns",
+            "C. Primary current to secondary current",
+            "D. Secondary voltage to primary voltage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Worded circuit: An ideal transformer has a primary winding of 500 turns and a secondary winding of 100 turns. If 120V AC RMS is applied to the primary, the exact mathematically secondary voltage is:",
+        "choices": [
+            "A. 600 V",
+            "B. 120 V",
+            "C. 24 V",
+            "D. 50 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Worded circuit: An ideal step-up transformer has a turns ratio a = Np/Ns = 0.2. If the secondary current is strictly 5A RMS, the exact mathematically primary current is:",
+        "choices": [
+            "A. 25 A",
+            "B. 1.0 A",
+            "C. 0.04 A",
+            "D. 5.0 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "For a completely ideal transformer, the real average active power delivered physically to the primary winding by the source is mathematically strictly:",
+        "choices": [
+            "A. Greater than the power delivered to the load",
+            "B. Equal to the power delivered to the load",
+            "C. Less than the power delivered to the load",
+            "D. Exactly zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "When an impedance Zs is physically connected across the secondary of an ideal transformer, the mathematically exact equivalent impedance (Zp) seen looking strictly into the primary is:",
+        "choices": [
+            "A. Zp = a * Zs",
+            "B. Zp = Zs / a^2",
+            "C. Zp = a^2 * Zs",
+            "D. Zp = Zs / a"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "Worded circuit: An audio amplifier requires an 800-ohm load for optimum performance. It is driving an 8-ohm speaker through an ideal matching transformer. The exact required turns ratio (Np/Ns) is:",
+        "choices": [
+            "A. 100",
+            "B. 10",
+            "C. 1000",
+            "D. 0.1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "An ideal transformer operating in steady-state AC mathematically and physically cannot step up or step down which of the following electrical quantities?",
+        "choices": [
+            "A. Current",
+            "B. Impedance",
+            "C. Voltage",
+            "D. Frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Worded circuit: An ideal transformer has Vp = 100V, Vs = 20V. If a 4-ohm resistive load is connected to the secondary, the mathematically exact primary current Ip is:",
+        "choices": [
+            "A. 5.0 A",
+            "B. 1.0 A",
+            "C. 0.2 A",
+            "D. 25.0 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "An ideal isolation transformer is specifically designed mathematically and physically to have a strict turns ratio (Np/Ns) of exactly:",
+        "choices": [
+            "A. 0.1",
+            "B. 1.0",
+            "C. 10",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Worded circuit: A power transformer has a strictly 120V primary and a 24V center-tapped secondary. The mathematically exact RMS voltage measured from the center tap to either outer secondary terminal is:",
+        "choices": [
+            "A. 24 V",
+            "B. 48 V",
+            "C. 6 V",
+            "D. 12 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "Worded circuit: An ideal transformer has a complex load Zs = 3 + j4 ohms. If the turns ratio is a = 2, the exact mathematically reflected primary admittance (Yp) is:",
+        "choices": [
+            "A. 0.12 - j0.16 S",
+            "B. 0.04 + j0.03 S",
+            "C. 0.015 - j0.02 S",
+            "D. 12 + j16 S"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "The theoretical no-load primary current (excitation current) of a perfectly ideal transformer is mathematically strictly:",
+        "choices": [
+            "A. Infinite",
+            "B. Equal to full-load current",
+            "C. Zero",
+            "D. Dependent on the core loss"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "Worded circuit: A transformer has three separate ideal windings. Np = 100, Ns1 = 50, Ns2 = 10. Vp = 100V. Load 1 on Ns1 is 10 ohms. Load 2 on Ns2 is 2 ohms. What is the mathematically exact primary current Ip?",
+        "choices": [
+            "A. 3.0 A",
+            "B. 2.5 A",
+            "C. 10.0 A",
+            "D. 1.5 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "In an ideal transformer, the primary and secondary amp-turns (MMF) mathematically strictly satisfy which exact equation?",
+        "choices": [
+            "A. Np*Ip + Ns*Is = 0",
+            "B. Np*Ip = Ns*Is",
+            "C. Np/Ip = Ns/Is",
+            "D. Ip/Np = Is/Ns"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "If a DC voltage is inadvertently applied directly to the primary of an ideal transformer, the theoretical mathematically exact steady-state secondary voltage will be:",
+        "choices": [
+            "A. Stepped up DC",
+            "B. Zero",
+            "C. Stepped down DC",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "Worded circuit: An ideal transformer has a = 4. A purely capacitive load XC = 16 ohms is on the secondary. The exact mathematically reflected primary impedance is:",
+        "choices": [
+            "A. j256 ohms",
+            "B. -j1 ohms",
+            "C. -j256 ohms",
+            "D. -j64 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "The phase angle difference exactly between the primary voltage and the induced secondary voltage in a perfectly ideal transformer (ignoring winding polarities) is mathematically:",
+        "choices": [
+            "A. 90 degrees",
+            "B. 45 degrees",
+            "C. 0 degrees (or 180 depending strictly on dot convention)",
+            "D. 270 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "In a practical physical transformer, the core losses are fundamentally comprised strictly of which two specific phenomena?",
+        "choices": [
+            "A. Copper loss and leakage",
+            "B. Hysteresis and eddy current losses",
+            "C. Dielectric and radiation losses",
+            "D. Friction and windage losses"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "The copper losses in a practical transformer are physically caused exclusively by the:",
+        "choices": [
+            "A. Leakage flux in the air",
+            "B. Magnetic saturation of the core",
+            "C. Ohmic resistance of the primary and secondary wire windings",
+            "D. High operating frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 53,
+        "question": "In the standard equivalent circuit of a practical transformer, the physical leakage flux that fails to link both windings is mathematically modeled exactly as a/an:",
+        "choices": [
+            "A. Parallel capacitor",
+            "B. Ideal transformer",
+            "C. Series inductor",
+            "D. Shunt resistor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "The no-load excitation branch in a practical transformer equivalent circuit mathematically consists of a core-loss resistor (Rc) and a magnetizing reactance (Xm) connected strictly in:",
+        "choices": [
+            "A. Series",
+            "B. Parallel",
+            "C. Delta",
+            "D. A Wheatstone bridge"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Worded circuit: An open-circuit (OC) test is performed on a transformer. This specific test is mathematically utilized primarily to physically determine the:",
+        "choices": [
+            "A. Core losses and excitation branch parameters",
+            "B. Full-load copper losses",
+            "C. Equivalent series leakage reactance",
+            "D. Voltage regulation at full load"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "Worded circuit: A short-circuit (SC) test is performed on a transformer. This specific test is mathematically utilized primarily to physically determine the:",
+        "choices": [
+            "A. Shunt magnetizing reactance",
+            "B. No-load core losses",
+            "C. Equivalent series resistance and leakage reactance",
+            "D. Turns ratio"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "Worded circuit: An open-circuit test on a 240V primary draws 1A and exactly 48W of real power. What is the mathematically exact value of the core-loss resistance (Rc)?",
+        "choices": [
+            "A. 48 ohms",
+            "B. 240 ohms",
+            "C. 1200 ohms",
+            "D. 2400 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "Worded circuit: A short-circuit test on a transformer primary (with secondary shorted) requires 20V to drive the rated 10A current, drawing 100W of real power. The mathematically exact equivalent series resistance (Req) referred to the primary is:",
+        "choices": [
+            "A. 2.0 ohms",
+            "B. 0.5 ohms",
+            "C. 20.0 ohms",
+            "D. 1.0 ohm"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 59,
+        "question": "In practical transformer design, the physical core is constructed using thin, insulated steel laminations strictly to mathematically minimize which specific loss?",
+        "choices": [
+            "A. Hysteresis loss",
+            "B. Copper loss",
+            "C. Eddy current loss",
+            "D. Flux leakage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "The mathematical hysteresis loss (Ph) in a practical transformer core is directly proportional strictly to the:",
+        "choices": [
+            "A. Inverse of frequency",
+            "B. Operating frequency (f)",
+            "C. Square of the operating frequency (f^2)",
+            "D. Load current squared"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "The mathematical eddy current loss (Pe) in a practical transformer core is directly proportional strictly to the:",
+        "choices": [
+            "A. Square of the operating frequency (f^2)",
+            "B. Operating frequency (f)",
+            "C. Inverse of the load current",
+            "D. Square root of the frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "Worded circuit: A standard 60 Hz transformer is safely operated at 50 Hz while strictly maintaining the exact same maximum core flux density. The physical hysteresis loss mathematically will:",
+        "choices": [
+            "A. Decrease",
+            "B. Increase",
+            "C. Remain unchanged",
+            "D. Become exactly zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "In a large practical power transformer, the typical no-load excitation current mathematically ranges approximately from:",
+        "choices": [
+            "A. 20% to 30% of rated current",
+            "B. 50% to 60% of rated current",
+            "C. 2% to 5% of rated current",
+            "D. 90% to 100% of rated current"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "Worded circuit: When mathematically shifting the secondary series impedance (Rs + jXs) to the primary side of the equivalent circuit, the exact algebraic transformation is:",
+        "choices": [
+            "A. (Rs + jXs) / a^2",
+            "B. a^2 * (Rs + jXs)",
+            "C. a * (Rs + jXs)",
+            "D. (Rs + jXs) / a"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "For maximum safety and precise instrumentation accuracy, the Open-Circuit (OC) test on a standard power transformer is routinely performed physically on the:",
+        "choices": [
+            "A. High-voltage side",
+            "B. Center tap",
+            "C. Low-voltage side",
+            "D. Secondary strictly regardless of voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "For maximum safety and precise instrumentation accuracy, the Short-Circuit (SC) test on a standard power transformer is routinely performed physically on the:",
+        "choices": [
+            "A. Low-voltage side",
+            "B. High-voltage side",
+            "C. Primary strictly regardless of voltage",
+            "D. Excitation branch"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "In the \"approximate\" equivalent circuit of a practical transformer, a major mathematical simplification is made by physically moving the shunt excitation branch directly to the:",
+        "choices": [
+            "A. Secondary load terminals",
+            "B. Middle of the series impedance",
+            "C. Primary source terminals",
+            "D. Completely out of the circuit (ignored)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "The real phase angle exactly between the primary voltage and the primary current in a practical transformer completely unloaded is mathematically strictly:",
+        "choices": [
+            "A. Very close to 90 degrees lagging",
+            "B. Exactly 0 degrees",
+            "C. Exactly 180 degrees",
+            "D. Very close to 90 degrees leading"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "Transformer cooling oil physically serves two critical engineering functions inside a large power transformer. These are strictly:",
+        "choices": [
+            "A. Lubrication and magnetic shielding",
+            "B. Core lamination and mechanical support",
+            "C. Voltage regulation and efficiency boosting",
+            "D. Electrical insulation and heat dissipation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "Worded circuit: A transformer operates at full load. The equivalent series impedance causes a physical voltage drop. As the load current increases, the magnetic core losses mathematically strictly:",
+        "choices": [
+            "A. Increase proportionally",
+            "B. Remain virtually constant",
+            "C. Decrease proportionally",
+            "D. Increase exponentially"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "The mathematically exact formula for the commercial energy efficiency of a practical transformer is defined strictly as the ratio of:",
+        "choices": [
+            "A. Active power output to Active power input",
+            "B. Apparent power output to Apparent power input",
+            "C. Reactive power output to Reactive power input",
+            "D. Voltage output to Voltage input"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "A practical power transformer mathematically operates at its absolute maximum efficiency exactly when which specific physical condition is met?",
+        "choices": [
+            "A. Core losses equal zero",
+            "B. Total losses are minimized to zero",
+            "C. Copper losses exactly equal Core losses",
+            "D. Load power factor is perfectly zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "Worded circuit: A 20 kVA transformer has a tested constant core loss of 200W and a full-load copper loss of 800W. At what exact mathematical fraction of full load does this transformer achieve maximum efficiency?",
+        "choices": [
+            "A. 25%",
+            "B. 100%",
+            "C. 50%",
+            "D. 75%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "Worded circuit: A 10 kVA transformer operates at unity power factor. Its core loss is 100W and full-load copper loss is 400W. What is the exact mathematical efficiency strictly at full load?",
+        "choices": [
+            "A. 95.2%",
+            "B. 98.0%",
+            "C. 91.5%",
+            "D. 96.3%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "Worded circuit: A 50 kVA transformer has a core loss of 500W and a full-load copper loss of 2000W. What is its mathematically exact efficiency when operating at half-load (25 kVA) with a 0.8 lagging power factor?",
+        "choices": [
+            "A. 94.0%",
+            "B. 92.5%",
+            "C. 96.2%",
+            "D. 95.2%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 76,
+        "question": "The \"All-Day Efficiency\" of a distribution transformer is a specialized mathematical metric strictly defined as the ratio of the total:",
+        "choices": [
+            "A. Power output to power input at noon",
+            "B. Energy output in kWh to total energy input in kWh over 24 hours",
+            "C. kVA output to kVA input over a year",
+            "D. Copper loss to core loss"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "For a standard residential distribution transformer, the mathematically calculated all-day efficiency is typically strictly lower than its full-load commercial efficiency primarily because:",
+        "choices": [
+            "A. Copper losses are constant 24/7",
+            "B. The load is strictly always purely inductive",
+            "C. Core losses continuously occur 24 hours a day regardless of load",
+            "D. The transformer is severely overloaded at night"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "Worded circuit: A practical transformer is designed to achieve maximum efficiency exactly at 80% of its full rated load. If the full-load copper loss is strictly 1000 W, what is the exact mathematical value of the constant core loss?",
+        "choices": [
+            "A. 800 W",
+            "B. 1000 W",
+            "C. 640 W",
+            "D. 1250 W"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "The total mathematical copper loss (P_cu) in a practical transformer varies strictly directly proportional to the:",
+        "choices": [
+            "A. Square of the load current",
+            "B. Operating frequency",
+            "C. Applied primary voltage",
+            "D. Inverse of the load impedance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "Worded circuit: A transformer supplies a constant apparent power (kVA) to a load. If the real load power factor mathematically drops from 1.0 to 0.5, the overall theoretical efficiency of the transformer will strictly:",
+        "choices": [
+            "A. Remain completely unchanged",
+            "B. Decrease",
+            "C. Increase slightly",
+            "D. Increase significantly"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "Voltage Regulation in a power transformer is a critical performance metric mathematically strictly defined by the precise formula:",
+        "choices": [
+            "A. (V_FL - V_NL) / V_NL * 100%",
+            "B. (V_NL - V_FL) / V_FL * 100%",
+            "C. (V_NL + V_FL) / V_NL * 100%",
+            "D. (V_FL) / (V_NL) * 100%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "For a perfectly theoretical ideal transformer having absolutely no internal series impedance, the mathematically exact voltage regulation is strictly:",
+        "choices": [
+            "A. 100%",
+            "B. Infinite",
+            "C. 0%",
+            "D. Dependent on the load"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "Worded circuit: A transformer's secondary voltage precisely measures 240V when completely unloaded. When the rated full load is applied, the voltage strictly drops to 230V. The exact mathematically calculated percentage voltage regulation is:",
+        "choices": [
+            "A. 4.35%",
+            "B. 4.17%",
+            "C. -4.35%",
+            "D. 10.0%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "Worded circuit: Under a highly specific load condition, a practical transformer mathematically exhibits a NEGATIVE voltage regulation (i.e., V_FL > V_NL). This physical phenomenon strictly implies that the load is predominantly:",
+        "choices": [
+            "A. Purely Resistive",
+            "B. Inductive (Lagging PF)",
+            "C. Capacitive (Leading PF)",
+            "D. A dead short circuit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "Worded circuit: A transformer has an equivalent secondary impedance of Req = 1 ohm and Xeq = 3 ohms. It supplies 10A to a strictly 0.8 leading power factor load. The mathematically approximate voltage drop (I*Req*cos(th) - I*Xeq*sin(th)) is:",
+        "choices": [
+            "A. +26 V",
+            "B. -10 V",
+            "C. +10 V",
+            "D. -26 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "If the mathematical voltage regulation of a practical transformer is precisely zero percent, the load power factor must physically strictly be:",
+        "choices": [
+            "A. Lagging",
+            "B. Unity (1.0)",
+            "C. Zero",
+            "D. Leading"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "In the strict mathematical analysis of transformer voltage regulation, which specific physical parameters of the equivalent circuit directly dictate the magnitude of the internal voltage drop?",
+        "choices": [
+            "A. Core loss resistance (Rc)",
+            "B. Magnetizing reactance (Xm)",
+            "C. Equivalent series resistance (Req) and leakage reactance (Xeq)",
+            "D. Primary turns (Np)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "An industrial power transformer with a numerically smaller percentage voltage regulation physically indicates that the transformer possesses:",
+        "choices": [
+            "A. High core losses",
+            "B. Poor voltage stability",
+            "C. Superior voltage stability (stiffer output)",
+            "D. Very high equivalent series impedance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "Worded circuit: A transformer has Zeq = 0.02 + j0.06 per unit (pu). It operates at 1.0 pu current and 0.8 lagging PF. The exact mathematical approximate per-unit voltage drop is:",
+        "choices": [
+            "A. 0.052 pu",
+            "B. 0.020 pu",
+            "C. 0.080 pu",
+            "D. 0.100 pu"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "To mathematically compute the exact, rigorous secondary full-load voltage V2_FL given the no-load voltage V2_NL and load current I_load, one must strictly perform a full complex phasor calculation using the precise equation:",
+        "choices": [
+            "A. V2_NL = V2_FL - I_load * Zeq",
+            "B. V2_NL = V2_FL + I_load * Zeq",
+            "C. V2_FL = V2_NL + I_load / Zeq",
+            "D. V2_FL = V2_NL * (1 + Zeq)"
+        ],
+        "correct_answer": "B"
+    }
+]

@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "In VHF/UHF line-of-sight propagation, why is the first Fresnel zone kept clear of obstacles by at least 60%?",
+        "choices": [
+            "A. To allow the receiving antenna to utilize its maximum directive aperture area.",
+            "B. To prevent significant signal attenuation and phase cancellation caused by diffraction from obstacles near the path.",
+            "C. To eliminate the need for automatic gain control in the receiver.",
+            "D. To ensure that the ground-reflected wave arrives in phase with the direct wave to double the power."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "In microwave tube technology, what is the main advantage of a Traveling-Wave Tube (TWT) over a multicavity klystron?",
+        "choices": [
+            "A. It does not require an external magnetic focusing field.",
+            "B. It can function as both a high-power transmitter and an extremely low-noise receiver.",
+            "C. It operates with much higher power conversion efficiency.",
+            "D. It provides a much wider operating bandwidth due to its non-resonant slow-wave structure."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 3,
+        "question": "What does a positive reflection coefficient at the load end of a transmission line imply?",
+        "choices": [
+            "A. The load is purely reactive, causing a 90-degree phase shift in the reflected wave.",
+            "B. The load impedance is purely resistive and less than the characteristic impedance of the line.",
+            "C. The load is a perfect short circuit, reflecting all voltage 180 degrees out of phase.",
+            "D. The load impedance is purely resistive and greater than the characteristic impedance of the line."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "What is the primary purpose of an Automatic Gain Control (AGC) circuit in a radio receiver?",
+        "choices": [
+            "A. To filter out impulse noise and lightning strikes from the antenna feed line.",
+            "B. To dynamically shift the local oscillator frequency to track a drifting transmitter.",
+            "C. To increase the receiver's selectivity by narrowing the IF stage bandpass filter.",
+            "D. To maintain a relatively constant audio/signal output level despite variations in the strength of the received RF signal."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "Which programming language is text-based, resembles Pascal, and is standardized under IEC 61131-3 for Programmable Logic Controllers (PLCs)?",
+        "choices": [
+            "A. Structured Text (ST)",
+            "B. Instruction List (IL)",
+            "C. Ladder Logic (LD)",
+            "D. Sequential Function Chart (SFC)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "What is the key characteristic of Quadrature Amplitude Modulation (QAM)?",
+        "choices": [
+            "A. It suppresses one sideband and the carrier, transmitting only the phase information of the signal.",
+            "B. It converts analog voice signals directly into binary code words without sampling.",
+            "C. It independently modulates two orthogonal carrier signals that are 90 degrees out of phase using amplitude-shift keying.",
+            "D. It varies the frequency of the carrier signal in discrete steps according to a pseudo-random code."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "What is the critical angle in ionospheric radio wave propagation?",
+        "choices": [
+            "A. The angle between the electric and magnetic fields in an electromagnetic wave.",
+            "B. The angle of incidence at which the reflection coefficient becomes equal to zero.",
+            "C. The tilt angle of a vertical antenna's radials required to achieve maximum gain.",
+            "D. The maximum angle of radiation at which a wave of a given frequency will still be reflected back to Earth by an ionospheric layer."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "What causes the 'Seebeck effect' in a thermocouple?",
+        "choices": [
+            "A. Subjecting a crystal to mechanical stress generates an electrical charge across its faces.",
+            "B. A temperature difference between two dissimilar electrical conductors produces a voltage difference between them.",
+            "C. A magnetic field changes the electrical resistance of a semiconductor device.",
+            "D. An electric current passing through dissimilar conductors causes heat to be absorbed or released. REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "In wave propagation, what is the effect of an intense burst of solar ultraviolet light on HF radio communications?",
+        "choices": [
+            "A. It shifts the polarization of all sky-wave signals from linear to circular.",
+            "B. It completely eliminates the skip zone, allowing ground-wave signals to travel further.",
+            "C. It increases D-layer ionization, causing severe absorption of signals (sudden ionospheric disturbance).",
+            "D. It temporarily increases the F2-layer critical frequency, enabling VHF propagation."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "Which theorem establishes that any complex periodic waveform can be decomposed into a sum of harmonically related sine waves?",
+        "choices": [
+            "A. Shannon's theorem",
+            "B. Nyquist's theorem",
+            "C. Parseval's theorem",
+            "D. Fourier's theorem"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "What does a Voltage Standing Wave Ratio (VSWR) of 1:1 on an RF transmission line indicate?",
+        "choices": [
+            "A. The load impedance is perfectly matched to the characteristic impedance of the transmission line.",
+            "B. The line is completely open at the far end, resulting in zero power transfer.",
+            "C. The power reflection coefficient at the load is equal to one.",
+            "D. The line is short-circuited at the far end, resulting in maximum voltage reflection."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "What physical phenomenon occurs when a transmission line is terminated in a short circuit and has a length of exactly one-quarter wavelength?",
+        "choices": [
+            "A. The line absorbs all incident power from the generator.",
+            "B. The voltage at the input terminals reaches its maximum theoretical value.",
+            "C. The input impedance of the line appears as a short circuit (series resonant circuit).",
+            "D. The input impedance of the line appears as an open circuit (parallel resonant circuit)."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "What does a propagation 'K-factor' greater than 1 (typically 4/3) represent in link budget and path profile planning?",
+        "choices": [
+            "A. The ratio of the maximum usable frequency to the optimum working frequency.",
+            "B. A standard atmosphere that bends radio waves downward, making the Earth appear flatter than it actually is.",
+            "C. The attenuation constant of rain at frequencies above 10 GHz.",
+            "D. The percentage of first Fresnel zone clearance required for line-of-sight propagation."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 14,
+        "question": "Which type of symmetry is exhibited by a signal if \\\\(f(t) = -f(-t)\\\\)?",
+        "choices": [
+            "A. Odd symmetry",
+            "B. Quarter-wave symmetry",
+            "C. Half-wave symmetry",
+            "D. Even symmetry"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "Which of the following is a key advantage of utilizing a peer-to-peer (P2P) network model?",
+        "choices": [
+            "A. Extremely low latency since all traffic must pass through a high-speed central hub.",
+            "B. Centralized control and management, which simplifies overall security auditing.",
+            "C. Decentralized resource sharing, where all participating nodes have equal roles and no dedicated server is required.",
+            "D. High scalability that makes it perfect for managing thousands of enterprise databases."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "What is the typical characteristic impedance of a standard television antenna twin-lead transmission line?",
+        "choices": [
+            "A. 75 ohms",
+            "B. 600 ohms",
+            "C. 300 ohms",
+            "D. 50 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "What is the primary advantage of a superheterodyne receiver compared to a tuned radio frequency (TRF) receiver?",
+        "choices": [
+            "A. It provides constant selectivity and sensitivity across its entire tuning range by mixing the RF signal to a fixed IF.",
+            "B. It does not require a local oscillator or mixer stage, reducing cost.",
+            "C. It is completely immune to image frequency interference.",
+            "D. It operates without any active amplification stages, preventing internal noise. REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "Why is single-mode optical fiber preferred over multi-mode optical fiber for long-haul, high-capacity telecommunication links?",
+        "choices": [
+            "A. It has an extremely small core diameter that allows only a single propagation path, completely eliminating modal dispersion.",
+            "B. It is much cheaper and easier to splice and install in the field.",
+            "C. It operates efficiently without a cladding layer, reducing overall cable diameter.",
+            "D. It can accept light from low-cost incoherent LED sources instead of expensive lasers."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "In wireless communications, what is co-channel interference?",
+        "choices": [
+            "A. Interference caused by two different transmitters operating on the same frequency channel in nearby cells.",
+            "B. Interference caused by signals from adjacent channels overlapping into the desired band.",
+            "C. The phase distortion caused by the signal reflecting off multiple obstacles.",
+            "D. Noise generated by the internal amplifiers and mixers of the receiver."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 20,
+        "question": "In Building Management Systems (BMS), what is the function of a network firewall?",
+        "choices": [
+            "A. To synchronize the HVAC temperature sensors across different floors.",
+            "B. To monitor and filter incoming and outgoing network traffic based on security rules, protecting the system from cyber threats.",
+            "C. To automatically shut off water and gas lines during an active fire event.",
+            "D. To provide emergency backup power to the central controllers during blackouts."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "In digital communications, what is 'bit rate'?",
+        "choices": [
+            "A. The number of bits transmitted per second.",
+            "B. The ratio of the user data bits to the total transmitted overhead bits.",
+            "C. The number of symbol changes or signal transitions per second.",
+            "D. The frequency at which the analog signal is sampled in an ADC."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Which line coding scheme has a transition in the middle of every bit interval, providing strong self-synchronization and timing information?",
+        "choices": [
+            "A. Unipolar Return-to-Zero (RZ)",
+            "B. Alternate Mark Inversion (AMI)",
+            "C. Non-Return-to-Zero (NRZ)",
+            "D. Manchester coding"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 23,
+        "question": "Why is the TEM mode unable to propagate in a standard hollow, single-conductor rectangular waveguide?",
+        "choices": [
+            "A. The cutoff frequency for the TEM mode in any rectangular waveguide is infinitely high.",
+            "B. It would require an axial component of either the electric or magnetic field to exist within a single conductor, violating boundary conditions.",
+            "C. A single conductor cannot support a transverse electric field without a central return wire.",
+            "D. The electric and magnetic fields would have to be parallel to the direction of wave propagation."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "In a star network topology, what is the immediate impact if the central switch fails?",
+        "choices": [
+            "A. All communication between the connected devices is completely lost.",
+            "B. Only the workstation that was actively transmitting at the moment of failure is affected.",
+            "C. The network remains fully functional, but data transfer speeds are halved.",
+            "D. The network automatically reconfigures into a logical bus topology and continues operating."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "Which multiplexing technique is most commonly used in optical fiber links, where multiple signals at different wavelengths are combined onto a single fiber?",
+        "choices": [
+            "A. Time Division Multiplexing (TDM)",
+            "B. Wavelength Division Multiplexing (WDM)",
+            "C. Code Division Multiplexing (CDM)",
+            "D. Frequency Division Multiplexing (FDM)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "What is the primary advantage of a folded dipole antenna over a standard half-wave dipole?",
+        "choices": [
+            "A. It radiates circularly polarized waves instead of linearly polarized waves.",
+            "B. It has a much higher feed-point impedance (approximately 300 ohms) and a wider operating bandwidth.",
+            "C. It has a much narrower beamwidth, providing significantly higher directive gain.",
+            "D. It does not require a ground plane or radials to REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS operate efficiently."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "Which type of wave propagation mode is most effective for reliable long-distance communications in the very-low-frequency (VLF) range?",
+        "choices": [
+            "A. Earth-ionosphere waveguide mode (ground wave)",
+            "B. Troposcatter propagation",
+            "C. Line-of-sight space-wave propagation",
+            "D. Sky-wave propagation via the F2 region"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "Which atmospheric layer is primarily responsible for reflecting high-frequency (HF) sky waves back to Earth for long-distance communication?",
+        "choices": [
+            "A. Mesosphere",
+            "B. Stratosphere",
+            "C. Ionosphere",
+            "D. Troposphere"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "Which layer of the ionosphere completely disappears at night due to the rapid recombination of ions and electrons in the absence of sunlight?",
+        "choices": [
+            "A. F1 layer",
+            "B. D layer",
+            "C. F2 layer",
+            "D. E layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "Which term describes the maximum frequency at which a sky wave will be reflected back to Earth when radiated at a vertical angle (incidence of 90 degrees)?",
+        "choices": [
+            "A. Gyrofrequency",
+            "B. Critical frequency",
+            "C. Optimum working frequency",
+            "D. Maximum usable frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "What does a directive antenna gain of 3 dB with respect to a half-wave dipole represent in dBi?",
+        "choices": [
+            "A. 0.85 dBi",
+            "B. 5.15 dBi",
+            "C. 3.00 dBi",
+            "D. 1.15 dBi"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "What is the main purpose of a Cyclic Redundancy Check (CRC) in data communications?",
+        "choices": [
+            "A. To encrypt the data frame payload to prevent unauthorized eavesdropping.",
+            "B. To detect transmission errors by dividing the data frame with a generator polynomial and verifying the remainder.",
+            "C. To establish session synchronization between the transmitter and receiver clocks.",
+            "D. To compress the transmitted data block to improve overall network throughput."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "What does the reciprocity theorem state regarding antennas?",
+        "choices": [
+            "A. An antenna will only radiate vertically polarized waves if it is installed vertically.",
+            "B. The electrical characteristics of an antenna, such as impedance and radiation pattern, are identical for both transmitting and receiving.",
+            "C. The radiation resistance of an antenna is inversely proportional to its efficiency.",
+            "D. The directive gain of an antenna is proportional to its physical length."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "Which antenna characteristic is defined as the ratio of the power density radiated in the direction of maximum radiation to the average power density?",
+        "choices": [
+            "A. Radiation resistance",
+            "B. Power gain",
+            "C. Directive gain",
+            "D. Aperture efficiency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "What is the physical significance of the numerical aperture (NA) of an optical fiber?",
+        "choices": [
+            "A. It determines the optimum operating wavelength of the fiber-optic link.",
+            "B. It defines the ratio of the core diameter to the cladding thickness.",
+            "C. It represents the light-gathering capability of the fiber and defines the maximum acceptance angle for light entering the core.",
+            "D. It specifies the maximum tensile strength of the fiber cable under physical stress."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "What is the polarization of a helical antenna operating in its axial (end-fire) mode?",
+        "choices": [
+            "A. Elliptical with major axis horizontal",
+            "B. Horizontal",
+            "C. Vertical",
+            "D. Circular"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "Which TCP/IP transport layer protocol is connectionless, does not guarantee packet delivery, and has REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS minimal overhead, making it ideal for real-time video streaming?",
+        "choices": [
+            "A. SCTP",
+            "B. IP",
+            "C. TCP",
+            "D. UDP"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 38,
+        "question": "What does a return loss of 0 dB on a transmission line indicate?",
+        "choices": [
+            "A. The load is purely resistive and equal to the line's impedance.",
+            "B. Perfect impedance matching (zero reflected power).",
+            "C. All incident power is reflected back to the generator (complete mismatch).",
+            "D. The line is infinitely long and absorbs all power."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "In computer networks, what is the purpose of the Address Resolution Protocol (ARP)?",
+        "choices": [
+            "A. To assign dynamic IP addresses to client hosts upon joining a network.",
+            "B. To establish a secure, encrypted tunnel between a remote client and a private server.",
+            "C. To translate human-readable domain names into machine-readable IP addresses.",
+            "D. To map a known logical IP address (Layer 3) to a physical MAC address (Layer 2) on a local network."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "Which layer of the OSI model handles error recovery, flow control, and packet sequencing across a single physical link?",
+        "choices": [
+            "A. Physical Layer",
+            "B. Transport Layer",
+            "C. Data Link Layer",
+            "D. Network Layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "Why is pre-emphasis used in FM transmitters prior to modulation?",
+        "choices": [
+            "A. To limit the maximum frequency deviation to prevent overmodulation and adjacent-channel spillover.",
+            "B. To match the impedance of the audio microphone to the input stage of the modulator.",
+            "C. To boost the high-frequency components of the modulating signal to improve the signal-to-noise ratio in the presence of high-frequency noise.",
+            "D. To compress the dynamic range of the audio signal to increase the average radiated power."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "What is the function of the network layer in the OSI model?",
+        "choices": [
+            "A. It handles routing, logical addressing, and forwarding of packets across a network of networks.",
+            "B. It provides synchronization and dialog control between session entities.",
+            "C. It formats and structures data into frames and handles local access control.",
+            "D. It handles physical connections and the transmission of raw bits over a medium."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 43,
+        "question": "Which active microwave device is a two-terminal semiconductor that exhibits negative resistance due to the transfer of electrons from a high-mobility valley to a low-mobility valley?",
+        "choices": [
+            "A. Gunn diode",
+            "B. PIN diode",
+            "C. IMPATT diode",
+            "D. Schottky barrier diode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "Which of the following is true regarding a lossless transmission line terminated in its characteristic impedance?",
+        "choices": [
+            "A. There are no standing waves on the line, and the input impedance is purely resistive and equal to the characteristic impedance.",
+            "B. All of the supplied power is reflected back to the generator.",
+            "C. The line acts as a series-resonant circuit at all operating frequencies.",
+            "D. The voltage reflection coefficient is equal to negative one."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "In a BMS fire alarm integration, what is the 'fail-safe' behavior of secure access control doors during a power failure?",
+        "choices": [
+            "A. They lock permanently to secure the building assets until power is manually restored.",
+            "B. They unlock automatically to ensure safe, unobstructed egress for occupants.",
+            "C. They remain in their last state and require a software reset from the BMS console.",
+            "D. They sound a local alarm and lock all entrance gates while keeping exit gates open."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "What does the capture effect in FM receivers refer to?",
+        "choices": [
+            "A. The automatic charging of the receiver's backup REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS battery during peak signal reception.",
+            "B. The suppression of audio output when no carrier signal is detected by the squelch circuit.",
+            "C. The process where the local oscillator locks onto the incoming carrier frequency.",
+            "D. The receiver's ability to completely suppress the weaker of two signals on the same frequency, demodulating only the stronger one."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 47,
+        "question": "What is the primary advantage of a log-periodic antenna compared to a Yagi-Uda antenna?",
+        "choices": [
+            "A. It has a much higher directive gain for a given physical size.",
+            "B. It requires no impedance matching network or balun transformer.",
+            "C. It offers an extremely wide frequency bandwidth with relatively constant gain and impedance.",
+            "D. It radiates exclusively circularly polarized waves across its entire range."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "What is the polarization of a standard AM broadcast signal?",
+        "choices": [
+            "A. Circular",
+            "B. Horizontal",
+            "C. Elliptical",
+            "D. Vertical"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "What is the main purpose of a balun (balanced-to-unbalanced) transformer in an antenna system?",
+        "choices": [
+            "A. To convert vertical wave polarization to horizontal wave polarization.",
+            "B. To connect a balanced transmission line, like a twin-lead, to an unbalanced load, like a coaxial cable, preventing shield radiation.",
+            "C. To increase the directive gain and front-to-back ratio of a dipole antenna.",
+            "D. To match a high SWR line to a low impedance transmitter output stage."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "In fiber optics, what does 'Responsivity' of a photodetector describe?",
+        "choices": [
+            "A. The minimum amount of optical power needed to detect a signal with low error rate.",
+            "B. The range of wavelengths that the detector can efficiently convert.",
+            "C. The speed at which the detector reacts to changes in light intensity.",
+            "D. The ratio of the generated photocurrent to the incident optical power, typically expressed in Amperes per Watt."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 51,
+        "question": "Which digital modulation technique is characterized by a constant-envelope signal, continuous phase, and is widely used in GSM cellular networks?",
+        "choices": [
+            "A. Differential Phase Shift Keying (DPSK)",
+            "B. Quadrature Amplitude Modulation (QAM)",
+            "C. Gaussian Minimum Shift Keying (GMSK)",
+            "D. Orthogonal Frequency Division Multiplexing (OFDM)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "In satellite communications, what is a 'geostationary' orbit?",
+        "choices": [
+            "A. An orbit at low altitude that allows the satellite to circle the Earth in less than 90 minutes.",
+            "B. An elliptical orbit that passes over the Earth's north and south poles every 12 hours.",
+            "C. A highly inclined orbit used to provide continuous coverage to the polar regions.",
+            "D. A circular orbit directly above the Earth's equator with an orbital period of exactly 24 hours, making the satellite appear stationary."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "In antenna parameters, what does 'effective height' represent?",
+        "choices": [
+            "A. The distance above the ground where the antenna's radiation pattern is strongest.",
+            "B. The physical height of the antenna vertical radiator measured from sea level.",
+            "C. The ratio of the open-circuit voltage induced in the antenna to the electric field strength of the incident wave.",
+            "D. The height of the antenna vertical radiator relative to its ground plane radials."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "In ISDN Basic Rate Interface (BRI), what are the channel configurations and their respective purposes?",
+        "choices": [
+            "A. Twenty-three 64-kbps B-channels for data and one 64-kbps D-channel for signaling.",
+            "B. One 1.544-Mbps B-channel for voice and one 64-kbps D-channel for data.",
+            "C. Two 16-kbps B-channels for control and one 64-kbps D-channel for data.",
+            "D. Two 64-kbps B-channels for user data and one 16-kbps D-channel for signaling and control. REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 55,
+        "question": "What is the relationship between the E (electric) and H (magnetic) fields of a radiated electromagnetic wave in free space?",
+        "choices": [
+            "A. They are in phase and perpendicular to each other, and both are perpendicular to the direction of propagation.",
+            "B. They are in phase and parallel to the direction of wave propagation.",
+            "C. They are 90 degrees out of phase and parallel to each other.",
+            "D. They are 180 degrees out of phase and perpendicular to each other."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "What causes the phenomenon of fading in sky-wave radio propagation?",
+        "choices": [
+            "A. The permanent absorption of electromagnetic waves by the D-region of the ionosphere.",
+            "B. The gradual reduction of transmitter output power due to component heating.",
+            "C. The destructive interference of multiple signal paths arriving at the receiver with different phase shifts.",
+            "D. The rotation of the Earth, which constantly shifts the angle of radiation."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "What physical property of the transmission medium determines the velocity factor of an electrical cable?",
+        "choices": [
+            "A. The physical length of the cable and the frequency of the transmitted signal.",
+            "B. The type of metal used for the conductors (e.g., copper vs. aluminum).",
+            "C. The diameter of the inner conductor relative to the outer shield conductor.",
+            "D. The relative dielectric constant (permittivity) of the insulating material surrounding the conductors."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "In waveguides, what happens to the attenuation of a mode as the operating frequency drops below the cutoff frequency?",
+        "choices": [
+            "A. It increases rapidly, and the wave decays exponentially as an evanescent wave.",
+            "B. It oscillates, causing a standing wave pattern along the guide.",
+            "C. It drops to zero, allowing the wave to propagate without loss.",
+            "D. It becomes frequency-independent, maintaining a constant signal level."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "What is the function of the local oscillator in a superheterodyne receiver?",
+        "choices": [
+            "A. To amplify the weak audio signal before it is sent to the speaker.",
+            "B. To generate a stable sinusoidal signal that mixes with the incoming RF signal to produce a constant intermediate frequency (IF).",
+            "C. To demodulate the frequency-modulated wave directly to baseband.",
+            "D. To automatically adjust the antenna's impedance to match the feed line."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "Which parameter of a transmission line indicates the reduction in signal amplitude as it travels along the line, typically expressed in dB per unit length?",
+        "choices": [
+            "A. Attenuation constant",
+            "B. Velocity factor",
+            "C. Propagation constant",
+            "D. Phase constant"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "In a standard AM signal with a modulation index of exactly 1.0 (100% modulation), what percentage of the total transmitted power is contained in the sidebands?",
+        "choices": [
+            "A. 25.0%",
+            "B. 33.3%",
+            "C. 50.0%",
+            "D. 66.7%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "In fiber optics, what is 'modal dispersion'?",
+        "choices": [
+            "A. The loss of optical power due to light scattering off microscopic impurities in the glass.",
+            "B. The absorption of light energy by hydroxyl ions present in the core material.",
+            "C. The pulse broadening caused by different wavelengths of light traveling at different speeds.",
+            "D. A dispersion mechanism where different propagation paths (modes) of light travel different lengths through a fiber, causing pulse spreading."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 63,
+        "question": "In telephony, what does 'DTMF' stand for?",
+        "choices": [
+            "A. Dual-Tone Multi-Frequency",
+            "B. Digital Transmission Multiplexing Format",
+            "C. Digital Telephone Management Framework",
+            "D. Dual-Transmitter Modulation Frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "Which standard UTP cable category is rated for data transmission rates up to 1 Gbps at 100 MHz, commonly REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS used in modern LANs?",
+        "choices": [
+            "A. Category 5",
+            "B. Category 5e",
+            "C. Category 4",
+            "D. Category 3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "What is the typical impedance of a folded dipole antenna in free space?",
+        "choices": [
+            "A. 36 ohms",
+            "B. 300 ohms",
+            "C. 73 ohms",
+            "D. 50 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "What is the primary advantage of optical fiber over copper coaxial cable for high-speed data transmission?",
+        "choices": [
+            "A. It does not require a cladding layer to propagate signals over long distances.",
+            "B. It can carry electrical power along with the signal to run remote equipment.",
+            "C. It is much cheaper to manufacture, install, and splice in the field.",
+            "D. It has extremely low attenuation, very high bandwidth capacity, and is completely immune to electromagnetic interference."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 67,
+        "question": "In wave propagation, what is the 'critical frequency' of an ionospheric layer?",
+        "choices": [
+            "A. The highest frequency that will be reflected back to Earth when transmitted at a vertical angle of incidence.",
+            "B. The frequency at which the atmospheric absorption of the signal reaches its maximum.",
+            "C. The frequency above which ground-wave propagation becomes completely ineffective.",
+            "D. The frequency at which the phase velocity of the sky wave equals the speed of light."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "In waveguides, what happens to the guide wavelength as the operating frequency increases further above the cutoff frequency?",
+        "choices": [
+            "A. It becomes imaginary, indicating evanescent propagation.",
+            "B. It decreases, approaching the free-space wavelength.",
+            "C. It remains constant regardless of the frequency.",
+            "D. It increases, approaching infinity."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "What type of noise in optical detectors is caused by the current that flows even when no incident light is present?",
+        "choices": [
+            "A. Thermal noise",
+            "B. Flicker noise",
+            "C. Dark current noise",
+            "D. Quantum noise"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "Which optical fiber dispersion is caused by the different wavelengths of light traveling at different velocities through the glass core?",
+        "choices": [
+            "A. Modal dispersion",
+            "B. Intermodal wave dispersion",
+            "C. Chromatic dispersion",
+            "D. Polarization mode dispersion"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "What is the term for the minimum distance from a transmitter to the nearest point where a sky wave is reflected back to Earth?",
+        "choices": [
+            "A. Fresnel zone clearance",
+            "B. Skip distance",
+            "C. Radio horizon",
+            "D. Skip zone"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "Which index profile in multi-mode optical fibers is designed to minimize modal dispersion by continuously bending light rays back toward the core axis?",
+        "choices": [
+            "A. Step-index profile",
+            "B. Graded-index profile",
+            "C. Single-mode step-index profile",
+            "D. Coaxial index profile"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "Which device is used to connect balanced lines to unbalanced lines in antenna installations?",
+        "choices": [
+            "A. Balun",
+            "B. Loading coil",
+            "C. Antenna coupler",
+            "D. Impedance stub"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "In FM receivers, which circuit stage is responsible for recovering the original audio signal from the frequency-modulated IF carrier?",
+        "choices": [
+            "A. Limiter",
+            "B. RF amplifier",
+            "C. Local oscillator",
+            "D. Discriminator (or detector)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "What occurs in an AM receiver when 'overmodulation' (modulation index greater than 1.0) takes place?",
+        "choices": [
+            "A. The envelope of the modulated carrier drops to zero REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS and remains there, causing envelope clipping and severe harmonic distortion.",
+            "B. The sidebands shift further away from the carrier frequency, requiring wider filter bandwidths.",
+            "C. The carrier power increases exponentially, which can damage the transmitter's output stage.",
+            "D. The receiver's automatic gain control circuit completely saturates, blocking all audio output."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "How does the characteristic impedance of a coaxial transmission line change if the dielectric material's relative permittivity increases?",
+        "choices": [
+            "A. It decreases.",
+            "B. It becomes dependent on the line length.",
+            "C. It remains completely unchanged.",
+            "D. It increases."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "What is the polarization of a wave radiated by a vertical quarter-wave monopole antenna?",
+        "choices": [
+            "A. Vertical",
+            "B. Circular",
+            "C. Elliptical",
+            "D. Horizontal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "What phenomenon causes radio waves to bend around the physical curvature of the Earth within the troposphere, extending the line-of-sight distance?",
+        "choices": [
+            "A. Refraction",
+            "B. Reflection",
+            "C. Diffraction",
+            "D. Scattering"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "In an AM wave, what happens to the carrier power when the modulation index increases from 0 to 0.5?",
+        "choices": [
+            "A. It remains constant.",
+            "B. It increases by 12.5%.",
+            "C. It is reduced by half.",
+            "D. It increases by 25.0%."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "What is the function of the Beat Frequency Oscillator (BFO) in an SSB or CW receiver?",
+        "choices": [
+            "A. To filter out high-frequency noise and adjacent channel interference before detection.",
+            "B. To automatically adjust the receiver's gain based on the strength of the incoming signal.",
+            "C. To synchronize the receiver's clock with the transmitter's frame timing.",
+            "D. To generate a local carrier frequency that beats with the received signal to reinsert the missing carrier and produce an audible output."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "In telephony, what does 'loop resistance' refer to?",
+        "choices": [
+            "A. The AC impedance of the telephone's internal speech-hybrid network.",
+            "B. The resistance of the telephone ringer circuit when the phone is on-hook.",
+            "C. The total DC resistance of the local loop conductors from the central office to the subscriber's telephone set and back.",
+            "D. The grounding resistance of the central office main distribution frame."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "In standard AM, if the carrier is modulated simultaneously by multiple sinusoidal waves, how is the effective modulation index calculated?",
+        "choices": [
+            "A. The maximum value among the individual modulation indices.",
+            "B. The product of the individual modulation indices.",
+            "C. The sum of the individual modulation indices divided by the number of signals.",
+            "D. The square root of the sum of the squares of the individual modulation indices."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "In fiber optics, what is 'cladding' relative permittivity condition compared to the core?",
+        "choices": [
+            "A. The relative permittivity of the cladding must be higher than that of the core.",
+            "B. The relative permittivity of the cladding must be lower than that of the core.",
+            "C. The relative permittivity of the cladding must be equal to that of the core.",
+            "D. The relative permittivity of the cladding must be equal to unity (vacuum)."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "What is 'aliasing' in digital signal processing?",
+        "choices": [
+            "A. The synchronization of a receiver's clock with the incoming data frame preamble.",
+            "B. An effect that causes different continuous-time signals to become indistinguishable when sampled, introducing distortion.",
+            "C. The process of representing sampled analog values with a finite number of bits.",
+            "D. The phase shift that occurs when a digital signal REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS passes through a recursive filter."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "Which networking device operates at Layer 3 of the OSI model and uses logical IP addresses to make routing decisions?",
+        "choices": [
+            "A. Bridge",
+            "B. Hub",
+            "C. Router",
+            "D. Switch"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 86,
+        "question": "Which line coding format represents a binary '1' with alternating positive and negative pulses and a binary '0' with zero voltage, ensuring zero DC offset?",
+        "choices": [
+            "A. Unipolar Return-to-Zero (RZ)",
+            "B. Non-Return-to-Zero (NRZ)",
+            "C. Manchester coding",
+            "D. Alternate Mark Inversion (AMI)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "What is the primary advantage of a graded-index multimode fiber over a step-index multimode fiber?",
+        "choices": [
+            "A. It does not require a cladding layer, making the cable much thinner and more flexible.",
+            "B. It is immune to Rayleigh scattering, resulting in lower overall attenuation.",
+            "C. It significantly reduces intermodal dispersion, allowing for a much higher bandwidth-distance product.",
+            "D. It has a larger core diameter, making it much easier to couple with light sources."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "In telephony, what DTMF tones are generated when the number 5 is pressed on a telephone keypad?",
+        "choices": [
+            "A. 770 Hz and 1477 Hz",
+            "B. 852 Hz and 1336 Hz",
+            "C. 770 Hz and 1336 Hz",
+            "D. 697 Hz and 1209 Hz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "What is the primary function of the repeller electrode in a reflex klystron tube?",
+        "choices": [
+            "A. To extract the high-frequency RF output from the resonant cavity.",
+            "B. To focus the electron beam onto a collector electrode.",
+            "C. To accelerate the electron beam from the cathode to the anode.",
+            "D. To reflect the electron beam back through the cavity grids, causing velocity modulation and bunching."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "Which parameter defines the bandwidth of a resonant band-pass filter?",
+        "choices": [
+            "A. The ratio of the resonant frequency to the quality factor of the circuit.",
+            "B. The peak amplitude of the filter's output at its resonant frequency.",
+            "C. The difference between the upper and lower half-power frequencies (3-dB points).",
+            "D. The total phase shift introduced by the filter across its passband."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "What distinguishes an Infinite Impulse Response (IIR) digital filter from a Finite Impulse Response (FIR) digital filter?",
+        "choices": [
+            "A. An IIR filter can only be implemented using analog operational amplifiers.",
+            "B. An IIR filter is always inherently stable, while an FIR filter can easily become unstable.",
+            "C. An IIR filter uses feedback (recursive coefficients), meaning its output depends on past output values, whereas an FIR filter has no feedback.",
+            "D. An IIR filter provides a perfectly linear phase response across its passband."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Which antenna type consists of nonresonant, terminated conductors arranged in a diamond shape and exhibits high directivity and wide bandwidth?",
+        "choices": [
+            "A. Folded dipole antenna",
+            "B. Rhombic antenna",
+            "C. Marconi antenna",
+            "D. Yagi-Uda antenna"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "Which parameter describes the ratio of the maximum forward power in the major lobe of an antenna to the power radiated in the opposite direction?",
+        "choices": [
+            "A. Front-to-back ratio",
+            "B. Aperture efficiency",
+            "C. Directive gain",
+            "D. SWR matching factor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "What is the primary function of a duplexer in microwave radar systems?",
+        "choices": [
+            "A. To automatically adjust the beamwidth of a phased array antenna.",
+            "B. To allow a single antenna to be shared for both transmitting and receiving, protecting the receiver from high transmitter power.",
+            "C. To combine two separate frequency bands into a REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS single antenna feed line.",
+            "D. To shift the phase of the transmitted pulse by 90 degrees to achieve circular polarization."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "Which digital signal has a Z-transform with a region of convergence (ROC) that is the entire z-plane except at z = 0?",
+        "choices": [
+            "A. A finite-duration causal signal",
+            "B. An unstable continuous-time signal",
+            "C. An infinite-duration stable signal",
+            "D. A finite-duration anti-causal signal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 96,
+        "question": "Why is Quadrature Phase Shift Keying (QPSK) preferred over Binary Phase Shift Keying (BPSK) in bandwidth-constrained communication systems?",
+        "choices": [
+            "A. QPSK simplifies the receiver design by eliminating the need for coherent demodulation.",
+            "B. QPSK is significantly less susceptible to phase noise and frequency drift.",
+            "C. QPSK transmits two bits per symbol instead of one, doubling the data rate within the same transmission bandwidth.",
+            "D. QPSK requires less signal power to achieve the same bit error rate."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 97,
+        "question": "What is the main role of a squelch circuit in a communications receiver?",
+        "choices": [
+            "A. To provide fine-tuning adjustments for adjacent-channel interference rejection.",
+            "B. To limit the maximum frequency deviation of the demodulated FM signal.",
+            "C. To automatically track and lock onto a drifting carrier frequency.",
+            "D. To mute the audio output of the receiver when no carrier signal is present, preventing loud background noise."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 98,
+        "question": "In waveguides, what is the dominant mode?",
+        "choices": [
+            "A. The mode that propagates without reflecting off the internal walls of the guide.",
+            "B. The mode that has the highest group velocity at any given operating frequency.",
+            "C. The lowest-order mode that has the lowest cutoff frequency and propagates most easily.",
+            "D. The mode that contains the greatest amount of electric field energy in the center."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "In digital communications, what does 'intersymbol interference' (ISI) refer to?",
+        "choices": [
+            "A. The phase jitter caused by the instability of the receiver's recovered clock.",
+            "B. The crosstalk between adjacent frequency channels in a frequency-division multiplexed link.",
+            "C. A form of distortion where consecutive transmitted symbols overlap and interfere with each other, making them difficult to distinguish.",
+            "D. The noise introduced into a digital signal by the quantization process in an ADC."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "Which type of transducer generates an electrical charge across its faces when subjected to mechanical stress or vibration?",
+        "choices": [
+            "A. Strain gauge",
+            "B. Thermocouple",
+            "C. Photoelectric cell",
+            "D. Piezoelectric transducer REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "D"
+    }
+]

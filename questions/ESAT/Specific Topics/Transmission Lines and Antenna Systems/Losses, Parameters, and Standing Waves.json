@@ -1,0 +1,1014 @@
+[
+    {
+        "number": 1,
+        "question": "The characteristic impedance (Z_0) of a completely lossless transmission line is mathematically expressed in terms of its primary distributed parameters per unit length as:",
+        "choices": [
+            "A. √( R/G )",
+            "B. √( L/C )",
+            "C. √( LC )",
+            "D. √( RC/LG )"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "What is the standard nominal characteristic impedance of a typical coaxial cable utilized extensively in cable television (CATV) and RF distribution systems?",
+        "choices": [
+            "A. 50 ohms",
+            "B. 75 ohms",
+            "C. 300 ohms",
+            "D. 600 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Which transmission line type consists of a single central conductor surrounded by a dielectric insulator and an outer metallic braid or shield?",
+        "choices": [
+            "A. Two-wire open line",
+            "B. Coaxial cable",
+            "C. Microstrip line",
+            "D. Stripline"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 4,
+        "question": "The velocity factor (VF) of a transmission line is strictly dependent on the:",
+        "choices": [
+            "A. Physical length of the line",
+            "B. Operating frequency",
+            "C. Relative permittivity (dielectric constant, ε_r) of the insulating material",
+            "D. Characteristic impedance (Z_0)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 5,
+        "question": "The propagation constant (γ) of a transmission line is a complex quantity expressed mathematically as:",
+        "choices": [
+            "A. α + jβ",
+            "B. R + jω L",
+            "C. G + jω C",
+            "D. √( LC )"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "Microstrip and stripline transmission lines are predominantly utilized in which branch of electronic engineering?",
+        "choices": [
+            "A. Audio amplifier design",
+            "B. High-frequency RF and microwave printed circuit board (PCB) design",
+            "C. Power distribution grids",
+            "D. Digital microcontroller programming"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "Which of the following transmission line types is unbalanced?",
+        "choices": [
+            "A. Two-wire open line",
+            "B. Coaxial cable",
+            "C. Twisted pair wire",
+            "D. Balanced twin-lead"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "The wavelength (λ) of a signal traveling on a transmission line is related to the phase constant (β) by the formula:",
+        "choices": [
+            "A. λ = β / 2π",
+            "B. λ = 2π / β",
+            "C. λ = π β",
+            "D. λ = β^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "The power loss in a transmission line caused by the finite conductivity and resistance of the metallic conductors is formally known as:",
+        "choices": [
+            "A. Dielectric loss",
+            "B. Copper loss (Ohmic loss)",
+            "C. Radiation loss",
+            "D. Induction loss"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "The phenomenon where high-frequency alternating current is forced to flow primarily along the outer surface of a conductor, increasing effective resistance, is called:",
+        "choices": [
+            "A. Corona effect",
+            "B. Skin effect",
+            "C. Hall effect",
+            "D. Piezoelectric effect"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "The transmission line loss caused by leakage currents and molecular friction within the insulating material separating the conductors is called:",
+        "choices": [
+            "A. Copper loss",
+            "B. Radiation loss",
+            "C. Dielectric loss",
+            "D. Induction loss"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "Power lost from an open-wire transmission line because the lines act as unintentional antennas emitting electromagnetic energy into space is called:",
+        "choices": [
+            "A. Copper loss",
+            "B. Dielectric loss",
+            "C. Radiation loss",
+            "D. Skin effect"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 13,
+        "question": "The transmission line power loss resulting from the magnetic field of the line inducing currents in nearby metallic structures or objects is known as:",
+        "choices": [
+            "A. Induction loss",
+            "B. Dielectric loss",
+            "C. Corona loss",
+            "D. Ohmic loss"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "The depth at which the current density in a conductor drops to 1/e (approx. 36.8%) of its surface value is defined as the:",
+        "choices": [
+            "A. Wavelength",
+            "B. Skin depth (δ)",
+            "C. Penetration factor",
+            "D. Attenuation limit"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Calculate the skin depth (δ) of a copper conductor at 1 GHz, given that its conductivity is approximately 5.8 × 10^7 S/m and permeability is µ_0.",
+        "choices": [
+            "A. 2.06 micrometers",
+            "B. 66.1 micrometers",
+            "C. 2.06 millimeters",
+            "D. 1.5 centimeters"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "As the operating frequency of a transmission line is increased, the copper loss per unit length typically:",
+        "choices": [
+            "A. Decreases linearly",
+            "B. Remains constant",
+            "C. Increases due to the skin effect",
+            "D. Drops to zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "When a transmission line is terminated in a load impedance (Z_L) that is not equal to its characteristic impedance (Z_0), part of the incident wave is reflected back toward the generator. This creates:",
+        "choices": [
+            "A. A purely travelling wave",
+            "B. Standing waves",
+            "C. Total power absorption",
+            "D. Zero phase shift"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "The complex reflection coefficient (Γ) at the load is mathematically defined as the ratio of:",
+        "choices": [
+            "A. Reflected voltage to incident voltage",
+            "B. Incident voltage to reflected voltage",
+            "C. Load impedance to characteristic impedance",
+            "D. Forward power to reflected power"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "Calculate the voltage reflection coefficient (Γ) for a 50-ohm transmission line terminated in a load impedance of 25 - j25 ohms.",
+        "choices": [
+            "A. 0.447 at -63.4 degrees",
+            "B. 0.50 at 0 degrees",
+            "C. 1.0 at 180 degrees",
+            "D. 0.333 at 45 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 20,
+        "question": "Return Loss (RL) in a transmission line system is expressed in decibels and is mathematically related to the magnitude of the reflection coefficient (\\vertΓ\\vert) by:",
+        "choices": [
+            "A. \\textRL = -20 log_10\\vertΓ\\vert",
+            "B. \\textRL = 10 log_10\\vertΓ\\vert",
+            "C. \\textRL = 20 log_10(1/\\vertΓ\\vert)",
+            "D. Both A and C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "If the reflection coefficient magnitude \\vertΓ\\vert on a transmission line is 0.1, what is the resulting Return Loss in decibels?",
+        "choices": [
+            "A. 10 dB",
+            "B. 20 dB",
+            "C. 6 dB",
+            "D. 40 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "Voltage Standing Wave Ratio (VSWR) is mathematically related to the magnitude of the reflection coefficient (\\vertΓ\\vert) by the formula:",
+        "choices": [
+            "A. \\textVSWR = \\frac1 + \\vertΓ\\vert1 - \\vertΓ\\vert",
+            "B. \\textVSWR = \\frac1 - \\vertΓ\\vert1 + \\vertΓ\\vert",
+            "C. \\textVSWR = \\frac\\vertΓ\\vert1 - \\vertΓ\\vert",
+            "D. \\textVSWR = \\vertΓ\\vert^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "What is the theoretical minimum possible value of VSWR on a transmission line?",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. Infinity",
+            "D. -1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "If a transmission line is perfectly matched to its load (Z_L = Z_0), what is the resulting VSWR?",
+        "choices": [
+            "A. Infinity",
+            "B. 0",
+            "C. 1",
+            "D. 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "Calculate the VSWR on a 50-ohm transmission line terminated in a pure resistance load of 150 ohms.",
+        "choices": [
+            "A. 1.5",
+            "B. 2.0",
+            "C. 3.0",
+            "D. 4.0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "If the VSWR on a transmission line is measured to be 2.0, calculate the magnitude of the voltage reflection coefficient (\\vertΓ\\vert).",
+        "choices": [
+            "A. 0.111",
+            "B. 0.333",
+            "C. 0.500",
+            "D. 0.666"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "The maximum voltage on a mismatched transmission line is measured at 150 volts, and the minimum voltage is 50 volts. What is the VSWR?",
+        "choices": [
+            "A. 1.5",
+            "B. 2.0",
+            "C. 2.5",
+            "D. 3.0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 28,
+        "question": "The input impedance (Z_in) of a lossless transmission line of length l terminated in a short circuit (Z_L = 0) is purely:",
+        "choices": [
+            "A. Resistive",
+            "B. Capacitive or inductive (reactive)",
+            "C. Equal to characteristic impedance",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "The input impedance (Z_in) of a lossless short-circuited transmission line that is less than a quarter-wavelength long (l < λ/4) is:",
+        "choices": [
+            "A. Inductive",
+            "B. Capacitive",
+            "C. Purely resistive",
+            "D. Zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "The input impedance (Z_in) of a lossless short-circuited transmission line whose length is between λ/4 and λ/2 (λ/4 < l < λ/2) is:",
+        "choices": [
+            "A. Inductive",
+            "B. Capacitive",
+            "C. Resistive",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "What is the input impedance of an ideal lossless transmission line that is exactly one-quarter wavelength (λ/4) long and terminated in a short circuit?",
+        "choices": [
+            "A. Zero",
+            "B. 50 ohms",
+            "C. Purely reactive inductive",
+            "D. Infinite (open circuit)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 32,
+        "question": "What is the input impedance of an ideal lossless transmission line that is exactly one-quarter wavelength (λ/4) long and terminated in an open circuit (Z_L = ∞)?",
+        "choices": [
+            "A. Infinite",
+            "B. Zero (short circuit)",
+            "C. Equal to Z_0",
+            "D. Purely capacitive"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "A quarter-wave transmission line acts fundamentally as an impedance inverter. If its characteristic impedance is Z_0 and it is terminated in a load impedance Z_L, its input impedance (Z_in) is given by:",
+        "choices": [
+            "A. Z_in = Z_0 Z_L",
+            "B. Z_in = Z_0^2 / Z_L",
+            "C. Z_in = Z_L / Z_0^2",
+            "D. Z_in = √( Z_0 Z_L )"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "A quarter-wave transformer with a characteristic impedance Z_0 is used to match a purely resistive load Z_L = 100 ohms to a source line of Z_S = 25 ohms. What should be the characteristic impedance (Z_0) of the quarter-wave matching section?",
+        "choices": [
+            "A. 50 ohms",
+            "B. 75 ohms",
+            "C. 35.35 ohms",
+            "D. 62.5 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "An ideal lossless transmission line has a physical length of exactly one-half wavelength (λ/2). When terminated in any arbitrary load impedance Z_L, its input impedance (Z_in) is equal to:",
+        "choices": [
+            "A. Z_0",
+            "B. Zero",
+            "C. Infinity",
+            "D. Z_L"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "A half-wave transmission line acts effectively as an:",
+        "choices": [
+            "A. Impedance transformer (inverter)",
+            "B. 1:1 impedance transformer (repeater)",
+            "C. Short circuit",
+            "D. Open circuit"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "The input impedance of a lossless open-circuited transmission line that is less than a quarter-wavelength long (l < λ/4) is:",
+        "choices": [
+            "A. Inductive",
+            "B. Capacitive",
+            "C. Infinite",
+            "D. Resistive"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "A lossless transmission line is terminated in its characteristic impedance (Z_0). What is the magnitude of the reflection coefficient (Γ)?",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. -1",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "In a mismatched transmission line, voltage maximums (anti-nodes) and voltage minimums (nodes) occur along the line separated by what physical distance?",
+        "choices": [
+            "A. λ",
+            "B. λ/2",
+            "C. λ/4",
+            "D. λ/8"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "The distance between two adjacent voltage minimums on a mismatched transmission line is always equal to:",
+        "choices": [
+            "A. λ",
+            "B. λ/2",
+            "C. λ/4",
+            "D. λ/8"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "If the skin depth of a copper wire at 4 MHz is 0.033 mm, what will approximately be the skin depth if the frequency is increased to 16 MHz?",
+        "choices": [
+            "A. 0.066 mm",
+            "B. 0.033 mm",
+            "C. 0.0165 mm",
+            "D. 0.00825 mm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "A transmission line has a characteristic impedance of 50 ohms and is terminated in a load Z_L = 50 + j50 ohms. Calculate the magnitude of the reflection coefficient \\vertΓ\\vert.",
+        "choices": [
+            "A. 0.316",
+            "B. 0.447",
+            "C. 0.500",
+            "D. 0.707"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Using the reflection coefficient magnitude \\vert\\gammma\\vert = 0.447 from the previous question, calculate the resulting VSWR on the line.",
+        "choices": [
+            "A. 1.5",
+            "B. 2.0",
+            "C. 2.62",
+            "D. 3.0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "Which of the following line terminations results in a reflection coefficient Γ = -1 (voltage reflection of -1, meaning a 180-degree phase inversion)?",
+        "choices": [
+            "A. Open circuit (Z_L = ∞)",
+            "B. Short circuit (Z_L = 0)",
+            "C. Matched load (Z_L = Z_0)",
+            "D. Purely reactive load"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "Which line termination results in a reflection coefficient Γ = +1 (voltage reflection with zero phase shift)?",
+        "choices": [
+            "A. Short circuit (Z_L = 0)",
+            "B. Matched load (Z_L = Z_0)",
+            "C. Open circuit (Z_L = ∞)",
+            "D. Pure resistance equal to Z_0/2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "A lossless transmission line is open-circuited at the load. If its length is exactly λ/2, what is its input impedance?",
+        "choices": [
+            "A. Zero (short circuit)",
+            "B. Infinite (open circuit)",
+            "C. Equal to Z_0",
+            "D. Purely reactive"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "A lossless transmission line is short-circuited at the load. If its length is exactly λ/2, what is its input impedance?",
+        "choices": [
+            "A. Zero (short circuit)",
+            "B. Infinite (open circuit)",
+            "C. Equal to Z_0",
+            "D. Purely reactive"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "In a slotted line measurement setup, the ratio of the maximum voltage to the minimum voltage is read as 4.0. What is the reflection coefficient magnitude \\vertΓ\\vert?",
+        "choices": [
+            "A. 0.2",
+            "B. 0.6",
+            "C. 0.5",
+            "D. 0.333"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "If the Return Loss of an antenna feedline is measured to be 9.54 dB, what is the approximate VSWR on the line?",
+        "choices": [
+            "A. 1.5",
+            "B. 2.0",
+            "C. 2.5",
+            "D. 3.0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "The skin effect resistance (R_s) of a metallic conductor is directly proportional to:",
+        "choices": [
+            "A. Frequency (f)",
+            "B. Square root of frequency (√( f ))",
+            "C. Frequency squared (f^2)",
+            "D. It is independent of frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "At extremely low frequencies (near DC), the current distribution across the cross-section of a solid cylindrical conductor is:",
+        "choices": [
+            "A. Concentrated entirely on the outer skin",
+            "B. Uniformly distributed across the entire cross-section",
+            "C. Zero",
+            "D. Concentrated at the exact geometric center"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "Radiation loss from a transmission line becomes significant primarily when:",
+        "choices": [
+            "A. The physical dimensions of the line spacing become a substantial fraction of a wavelength (λ)",
+            "B. The operating frequency is below 1 kHz",
+            "C. The line is completely shielded inside a copper pipe",
+            "D. The dielectric constant is very high"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "Induction loss in a transmission line represents energy transferred to:",
+        "choices": [
+            "A. Free space as electromagnetic radiation",
+            "B. Nearby conducting objects via magnetic or electric field coupling",
+            "C. The dielectric material as heat",
+            "D. The generator source"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "Dielectric hysteresis losses in transmission line insulators increase as the:",
+        "choices": [
+            "A. Operating frequency and voltage increase",
+            "B. Frequency drops to zero",
+            "C. Conductor diameter increases",
+            "D. Length of the line decreases"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "A lossless transmission line of characteristic impedance Z_0 = 75 ohms is terminated in a load Z_L = 75 - j75 ohms. What is the VSWR?",
+        "choices": [
+            "A. 1.0",
+            "B. 2.62",
+            "C. 2.0",
+            "D. 3.5"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "A generator outputs power into a transmission line. Due to a mismatch, 10% of the incident power is reflected back toward the generator. What is the Return Loss in decibels?",
+        "choices": [
+            "A. 3 dB",
+            "B. 10 dB",
+            "C. 20 dB",
+            "D. 25 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "If a transmission line has a VSWR of 3.0, what percentage of the incident power is reflected back from the load?",
+        "choices": [
+            "A. 10%",
+            "B. 25%",
+            "C. 6.25%",
+            "D. 50%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "A short-circuited stub of length l < λ/4 exhibits an input reactance that is:",
+        "choices": [
+            "A. Capacitive",
+            "B. Inductive",
+            "C. Zero",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "An open-circuited stub of length l < λ/4 exhibits an input reactance that is:",
+        "choices": [
+            "A. Inductive",
+            "B. Capacitive",
+            "C. Zero",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "A lossless transmission line has Z_0 = 50 ohms. A short-circuited stub of this line is cut to a length of exactly λ/8. What is its input impedance?",
+        "choices": [
+            "A. j50 ohms (inductive)",
+            "B. -j50 ohms (capacitive)",
+            "C. Zero",
+            "D. Infinite"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "A lossless transmission line has Z_0 = 50 ohms. An open-circuited stub of this line is cut to a length of exactly λ/8. What is its input impedance?",
+        "choices": [
+            "A. j50 ohms",
+            "B. -j50 ohms (capacitive)",
+            "C. Zero",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "Which of the following transmission line lengths can be used as a DC block (passing RF while blocking DC) if configured appropriately, or acts as a half-wave transformer?",
+        "choices": [
+            "A. λ/4",
+            "B. λ/2",
+            "C. λ/8",
+            "D. 3λ/8"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "If a quarter-wave transmission line is terminated in a capacitive load, its input impedance will appear:",
+        "choices": [
+            "A. Capacitive",
+            "B. Inductive",
+            "C. Purely resistive",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "If a quarter-wave transmission line is terminated in an inductive load, its input impedance will appear:",
+        "choices": [
+            "A. Inductive",
+            "B. Capacitive",
+            "C. Purely resistive",
+            "D. Zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "The envelope of voltage along a mismatched transmission line oscillates between a maximum (V_max) and minimum (V_min). The standing wave ratio is defined strictly as:",
+        "choices": [
+            "A. V_min / V_max",
+            "B. V_max × V_min",
+            "C. V_max / V_min",
+            "D. (V_max + V_min) / 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "When a transmission line is terminated in a pure resistance load R_L that is greater than the characteristic impedance (R_L > Z_0), the voltage standing wave has a:",
+        "choices": [
+            "A. Voltage maximum at the load",
+            "B. Voltage minimum at the load",
+            "C. Zero reflection coefficient",
+            "D. Purely reactive input impedance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 67,
+        "question": "When a transmission line is terminated in a pure resistance load R_L that is less than the characteristic impedance (R_L < Z_0), the voltage standing wave has a:",
+        "choices": [
+            "A. Voltage maximum at the load",
+            "B. Voltage minimum at the load",
+            "C. Reflection coefficient of +1",
+            "D. Infinite input impedance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "In high-frequency measurements, Return Loss is always expressed as a positive decibel value. Mathematically, it represents the ratio of:",
+        "choices": [
+            "A. Reflected power to incident power",
+            "B. Incident power to reflected power",
+            "C. Load power to source power",
+            "D. Transmitted power to dissipated power"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "The skin depth (δ) in a good conductor is inversely proportional to:",
+        "choices": [
+            "A. The square root of conductivity (√( σ ))",
+            "B. The square root of permeability (√( µ ))",
+            "C. The frequency (f)",
+            "D. The physical length of the line"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "Copper loss in a coaxial cable is minimized by making the conductors thicker and selecting materials with high:",
+        "choices": [
+            "A. Dielectric constant",
+            "B. Conductivity",
+            "C. Permeability",
+            "D. Inductance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "If the incident voltage wave on a transmission line has an amplitude of 10 volts and the reflected voltage wave has an amplitude of 2 volts, what is the magnitude of the reflection coefficient \\vertΓ\\vert?",
+        "choices": [
+            "A. 0.1",
+            "B. 0.2",
+            "C. 0.5",
+            "D. 5.0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "Using the values from the previous question (\\vertΓ\\vert = 0.2), calculate the VSWR on the line.",
+        "choices": [
+            "A. 1.25",
+            "B. 1.5",
+            "C. 2.0",
+            "D. 3.0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "A transmission line of Z_0 = 50 ohms is terminated in an unknown load. The measured VSWR is 1.5. Assuming the load is purely resistive, what are the two possible values of Z_L?",
+        "choices": [
+            "A. 25 ohms or 100 ohms",
+            "B. 33.3 ohms or 75 ohms",
+            "C. 50 ohms or 150 ohms",
+            "D. 10 ohms or 250 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "The input impedance of a lossless transmission line of length l, characteristic impedance Z_0, and terminated in load Z_L is given by the general transmission line equation:",
+        "choices": [
+            "A. Z_in = Z_0 (Z_L + j Z_0 tan(β l)/Z_0 + j Z_L tan(β l))",
+            "B. Z_in = Z_L + Z_0",
+            "C. Z_in = Z_0^2 / Z_L",
+            "D. Z_in = √( Z_L Z_0 )"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "If the length l of a lossless transmission line equals a quarter wavelength (λ/4), what does the general input impedance formula simplify to?",
+        "choices": [
+            "A. Z_in = Z_0^2 / Z_L",
+            "B. Z_in = Z_L",
+            "C. Z_in = Z_0",
+            "D. Z_in = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "If the length l of a lossless transmission line equals a half wavelength (λ/2), what does the general input impedance formula simplify to?",
+        "choices": [
+            "A. Z_in = Z_0^2 / Z_L",
+            "B. Z_in = Z_L",
+            "C. Z_in = 0",
+            "D. Z_in = ∞"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "A lossless transmission line is terminated in a short circuit. If its physical length is l = 0.125λ (λ/8), what is the electrical length in degrees and its input reactance character?",
+        "choices": [
+            "A. 45 degrees, inductive",
+            "B. 90 degrees, open circuit",
+            "C. 45 degrees, capacitive",
+            "D. 180 degrees, short circuit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "At frequencies where skin depth is much smaller than the conductor thickness, the high-frequency resistance of a round wire is proportional to:",
+        "choices": [
+            "A. 1 / r (where r is radius)",
+            "B. r^2",
+            "C. r",
+            "D. Independent of radius"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "Radiation loss in twin-lead transmission lines can be significantly reduced by twisting the two wires together, creating what type of specialized line?",
+        "choices": [
+            "A. Coaxial cable",
+            "B. Twisted-pair cable",
+            "C. Stripline",
+            "D. Microstrip"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "Which of the following conditions guarantees that a transmission line is operating with flat lines (no standing waves, VSWR = 1.0)?",
+        "choices": [
+            "A. Z_L = 0",
+            "B. Z_L = ∞",
+            "C. Z_L = jX",
+            "D. Z_L = Z_0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "In microwave engineering, a slotted line is an instrument traditionally used to measure:",
+        "choices": [
+            "A. Frequency directly",
+            "B. VSWR and impedance by locating voltage maximums and minimums",
+            "C. Transmitter output power",
+            "D. Noise figure"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "The phase of the reflection coefficient Γ at the position of a voltage maximum on a mismatched transmission line is always equal to:",
+        "choices": [
+            "A. 0 degrees (or a multiple of 360^\\circ)",
+            "B. 90 degrees",
+            "C. 180 degrees",
+            "D. 270 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "The phase of the reflection coefficient Γ at the position of a voltage minimum on a mismatched transmission line is always equal to:",
+        "choices": [
+            "A. 0 degrees",
+            "B. 90 degrees",
+            "C. 180 degrees (or an odd multiple of 180^\\circ)",
+            "D. 270 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "If a transmission line has a characteristic impedance of 50 ohms and is terminated in an open circuit, what is the reflection coefficient Γ at the load?",
+        "choices": [
+            "A. -1",
+            "B. 0",
+            "C. +1",
+            "D. ∞"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "If a transmission line of Z_0 = 50 ohms is terminated in a short circuit (Z_L = 0), what is the reflection coefficient Γ at the load?",
+        "choices": [
+            "A. +1",
+            "B. 0",
+            "C. -1",
+            "D. 0.5"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 86,
+        "question": "The phenomenon where a standing wave pattern exhibits zero voltage at the nodes and double the incident voltage at the anti-nodes is characteristic of:",
+        "choices": [
+            "A. A completely matched line",
+            "B. A purely traveling wave",
+            "C. A total reflection (pure standing wave, VSWR = ∞)",
+            "D. Lossless attenuation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "A transmission line section of length λ/4 placed in parallel across a transmission line can act as a resonant tuning stub. If it is short-circuited at the far end, it presents what type of impedance at the main line connection point?",
+        "choices": [
+            "A. Open circuit (very high impedance)",
+            "B. Short circuit (zero impedance)",
+            "C. Purely capacitive reactance",
+            "D. Purely resistive impedance equal to Z_0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "A quarter-wave short-circuited stub connected in parallel across a transmission line is commonly utilized in RF engineering as a:",
+        "choices": [
+            "A. DC blocking capacitor",
+            "B. Lightning arrestor or bandpass/bandstop filter element providing a high impedance parallel trap",
+            "C. Phase inverter",
+            "D. Step-down transformer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "The term \"crest factor\" or peak-to-average ratio in the context of transmission line voltage standing waves is directly represented by:",
+        "choices": [
+            "A. VSWR",
+            "B. Return Loss",
+            "C. Reflection Coefficient",
+            "D. Velocity Factor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "When measuring Return Loss, a higher positive decibel value (e.g., 25 dB vs 10 dB) indicates:",
+        "choices": [
+            "A. A worse match and higher reflection",
+            "B. A better match, lower reflection, and closer to 1.0 VSWR",
+            "C. Higher transmission line losses",
+            "D. A longer physical line length"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "If the frequency of a signal traveling down a short-circuited transmission line stub is varied, the input impedance switches periodically between inductive and capacitive reactance. Specifically, it acts as a parallel resonant circuit (anti-resonance) when its length is an odd multiple of:",
+        "choices": [
+            "A. λ/4",
+            "B. λ/2",
+            "C. λ/8",
+            "D. λ"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "The input impedance of a short-circuited transmission line stub acts as a series resonant circuit (zero impedance) when its length is an integer multiple of:",
+        "choices": [
+            "A. λ/4",
+            "B. λ/2",
+            "C. λ/8",
+            "D. λ/3"
+        ],
+        "correct_answer": "B"
+    }
+]

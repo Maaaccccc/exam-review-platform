@@ -1,0 +1,1168 @@
+[
+    {
+        "number": 1,
+        "question": "The polarization of a transverse electromagnetic wave is determined by the direction of its:",
+        "choices": [
+            "A. Magnetic field",
+            "B. Electric field",
+            "C. Poynting vector",
+            "D. Propagation path"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "Ground wave propagation is most effective at frequencies:",
+        "choices": [
+            "A. Below 2 MHz",
+            "B. 30 MHz to 300 MHz",
+            "C. Above 1 GHz",
+            "D. 10 MHz to 20 MHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "The absolute highest frequency that will be returned to earth when transmitted straight up into the ionosphere is called the:",
+        "choices": [
+            "A. MUF",
+            "B. LUF",
+            "C. Critical frequency",
+            "D. FOT"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "Fading caused by the transmitted signal arriving via two or more paths with varying phase differences is known as:",
+        "choices": [
+            "A. Shadow fading",
+            "B. Absorption fading",
+            "C. Polarization fading",
+            "D. Multipath fading"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "The equivalent earth radius factor (K-factor) traditionally used to account for standard atmospheric refraction is:",
+        "choices": [
+            "A. 1.0",
+            "B. 4/3",
+            "C. 0.5",
+            "D. 2.0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "Calculate the approximate radio horizon in miles for an antenna 144 feet high:",
+        "choices": [
+            "A. 14.76 miles",
+            "B. 10.0 miles",
+            "C. 20.5 miles",
+            "D. 7.4 miles"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "Diversity reception combining technique where the receiver dynamically selects the antenna branch with the highest instantaneous signal-to-noise ratio is called:",
+        "choices": [
+            "A. Equal-gain combining",
+            "B. Maximal-ratio combining",
+            "C. Selection combining",
+            "D. Frequency combining"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "An isotropic radiator is defined theoretically as a point source that radiates power:",
+        "choices": [
+            "A. Uniformly in all directions in three-dimensional space",
+            "B. Exclusively in the horizontal plane",
+            "C. In a highly directional narrow beam",
+            "D. Only vertically"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "According to the Inverse Square Law, the power density of an electromagnetic wave spreading from a point source decreases proportionally to:",
+        "choices": [
+            "A. Distance (d)",
+            "B. Square of the distance (d^2)",
+            "C. Cube of the distance (d^3)",
+            "D. Square root of the distance (√( d ))"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "What is the standard SI unit of power density (P_d) in free space?",
+        "choices": [
+            "A. Watts per meter (W/m)",
+            "B. Volts per meter (V/m)",
+            "C. Watts per square meter (W/m^2)",
+            "D. Decibels per milliwatt (dBm)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "The power density (P_d) at a distance d from an isotropic radiator transmitting total power P_t is mathematically expressed as:",
+        "choices": [
+            "A. P_d = (P_t/4π d^2)",
+            "B. P_d = (P_t/2π d)",
+            "C. P_d = (P_t · d^2/4π)",
+            "D. P_d = (4π P_t/d^2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "Calculate the power density at a distance of 10 meters from an isotropic source radiating a total power of 12.56 Watts (π ≈ 3.14).",
+        "choices": [
+            "A. 0.01\\text W/m^2",
+            "B. 0.05\\text W/m^2",
+            "C. 0.10\\text W/m^2",
+            "D. 1.00\\text W/m^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 13,
+        "question": "If the distance from a transmitting antenna to a receiver is doubled, the power density at the receiver location decreases by a factor of:",
+        "choices": [
+            "A. 2",
+            "B. 4",
+            "C. 8",
+            "D. 16"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 14,
+        "question": "In free space, the relationship between the electric field strength E (in V/m) and the power density P_d (in W/m^2) is given by:",
+        "choices": [
+            "A. P_d = (E^2/120π)",
+            "B. P_d = E · 120π",
+            "C. P_d = (120π/E^2)",
+            "D. P_d = E^2 · 377"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "What is the exact numerical value of the intrinsic impedance of free space (η_0 = 120π ohms)?",
+        "choices": [
+            "A. 376.99 ohms",
+            "B. 50 ohms",
+            "C. 75 ohms",
+            "D. 300 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 16,
+        "question": "Calculate the electric field strength (E) in V/m if the power density at a given point in free space is 0.0265\\text W/m^2 (knowing 120π ≈ 377).",
+        "choices": [
+            "A. 1 V/m",
+            "B. 3.16 V/m",
+            "C. 10 V/m",
+            "D. 31.6 V/m"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 17,
+        "question": "The magnetic field strength H (in A/m) and electric field strength E (in V/m) of a TEM wave in free space are related by:",
+        "choices": [
+            "A. H = E · 377",
+            "B. H = (E/377)",
+            "C. H = E^2 / 377",
+            "D. H = √( E )"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "Effective Isotropic Radiated Power (EIRP) is formally defined as the product of the transmitter output power and the:",
+        "choices": [
+            "A. Isotropic antenna gain",
+            "B. Half-wave dipole gain",
+            "C. Feedline loss",
+            "D. Ground reflection factor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "Effective Radiated Power (ERP) is referenced to a half-wave dipole antenna rather than an isotropic radiator. The mathematical relationship between EIRP and ERP in decibels is:",
+        "choices": [
+            "A. \\textEIRP = \\textERP + 2.15\\text dB",
+            "B. \\textERP = \\textEIRP + 2.15\\text dB",
+            "C. \\textEIRP = \\textERP - 5\\text dB",
+            "D. \\textEIRP = \\textERP"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 20,
+        "question": "A transmitter outputs 10 Watts (+40 dBm) and is connected to an antenna with a gain of 16 dBi (relative to isotropic). Calculate the EIRP in dBm.",
+        "choices": [
+            "A. +40 dBm",
+            "B. +56 dBm",
+            "C. +50 dBm",
+            "D. +60 dBm"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "Using the parameters from the previous question (\\textEIRP = +56\\text dBm), calculate the corresponding ERP referenced to a dipole antenna.",
+        "choices": [
+            "A. +58.15 dBm",
+            "B. +53.85 dBm",
+            "C. +56.00 dBm",
+            "D. +51.50 dBm"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "The standard Free Space Path Loss (FSPL) formula expressed in decibels using frequency f in MHz and distance d in kilometers is:",
+        "choices": [
+            "A. \\textFSPL (dB) = 32.44 + 20log_10(d) + 20log_10(f)",
+            "B. \\textFSPL (dB) = 92.4 + 20log_10(d) + 20log_10(f)",
+            "C. \\textFSPL (dB) = 36.6 + 20log_10(d) + 20log_10(f)",
+            "D. \\textFSPL (dB) = 20log_10(d) + 20log_10(f)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "If frequency f is expressed in GHz and distance d in kilometers, the Free Space Path Loss formula in dB evaluates to:",
+        "choices": [
+            "A. 32.44 + 20log_10(d) + 20log_10(f)",
+            "B. 92.44 + 20log_10(d) + 20log_10(f)",
+            "C. 124.4 + 20log_10(d) + 20log_10(f)",
+            "D. 36.6 + 20log_10(d) + 20log_10(f)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "Calculate the Free Space Path Loss for a microwave link operating at 2 GHz over a distance of 10 km.",
+        "choices": [
+            "A. 98.44 dB",
+            "B. 108.44 dB",
+            "C. 88.44 dB",
+            "D. 118.44 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "In free space, if the distance between a transmitter and receiver is tripled, the Free Space Path Loss in decibels increases by approximately:",
+        "choices": [
+            "A. 6 dB",
+            "B. 9.54 dB",
+            "C. 14.0 dB",
+            "D. 19.08 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "A link budget analysis is a systematic accounting of all power gains and losses from the transmitter, through the medium, to the receiver. The primary goal of a link budget calculation is to determine the:",
+        "choices": [
+            "A. Transmitter operating frequency",
+            "B. Received signal power (or received power level at the antenna terminals)",
+            "C. Velocity factor of the feedline",
+            "D. Characteristic impedance of the antenna"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "Fade margin is an explicit allowance built into a communication link budget to account for:",
+        "choices": [
+            "A. Unpredicted transmission line aging",
+            "B. Atmospheric signal degradation and multipath fading outages",
+            "C. Transmitter warm-up time",
+            "D. Antenna physical weight"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "A microwave receiver has a threshold sensitivity of -80 dBm. If the calculated nominal received power level is -65 dBm, what is the available fade margin for this link?",
+        "choices": [
+            "A. 5 dB",
+            "B. 10 dB",
+            "C. 15 dB",
+            "D. 25 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "In link budget equations, received power P_r is calculated using the Friis transmission equation. If EIRP is 50 dBm, FSPL is 120 dB, and both Tx and Rx antennas have gains, the received power depends directly on:",
+        "choices": [
+            "A. \\textEIRP - \\textFSPL + G_r",
+            "B. \\textEIRP + \\textFSPL - G_r",
+            "C. \\textEIRP × \\textFSPL",
+            "D. \\textFSPL - \\textEIRP"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Which of the following terms is NOT subtracted in a standard power link budget equation?",
+        "choices": [
+            "A. Transmitter output power",
+            "B. Feedline and connector losses",
+            "C. Free Space Path Loss",
+            "D. Atmospheric absorption losses"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "A transmitting antenna has an effective aperture (capture area) A_e, and the incident power density is P_d. The total power extracted by the receiving antenna is:",
+        "choices": [
+            "A. P_r = P_d · A_e",
+            "B. P_r = P_d / A_e",
+            "C. P_r = A_e / P_d",
+            "D. P_r = √( P_d · A_e )"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "The effective aperture A_e of an isotropic antenna operating at wavelength λ is mathematically given by:",
+        "choices": [
+            "A. λ^2 / 4π",
+            "B. λ / 4π",
+            "C. 4π / λ^2",
+            "D. λ^2 / 2π"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "Calculate the effective aperture of an antenna operating at a frequency of 3 GHz (λ = 0.1 m) assuming an isotropic gain of 1. (4π ≈ 12.57).",
+        "choices": [
+            "A. 7.96 × 10^-4\\text m^2",
+            "B. 0.01\\text m^2",
+            "C. 3.14 × 10^-3\\text m^2",
+            "D. 1.25\\text m^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "If an antenna's physical physical size remains constant while its operating frequency is doubled, its effective aperture will:",
+        "choices": [
+            "A. Quadruple",
+            "B. Double",
+            "C. Remain unchanged",
+            "D. Halve"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "The electric field intensity E at a distance d from a half-wave dipole radiator with radiated power P_t is proportional to:",
+        "choices": [
+            "A. 1 / d",
+            "B. 1 / d^2",
+            "C. 1 / √( d )",
+            "D. d"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 36,
+        "question": "What is the electric field strength E in microvolts per meter (µ\\textV/m) at a distance of 1 km from an isotropic radiator producing a power density of 10^-9\\text W/m^2?",
+        "choices": [
+            "A. 0.614\\text mV/m",
+            "B. 6.14\\text mV/m",
+            "C. 61.4\\text mV/m",
+            "D. 614\\text mV/m"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "A transmitter has a power output of 50 W, feedline loss of 3 dB, and antenna gain of 12 dBi. Calculate the EIRP in watts.",
+        "choices": [
+            "A. 500 Watts",
+            "B. 250 Watts",
+            "C. 100 Watts",
+            "D. 50 Watts"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "Using the parameters from the previous question (\\textEIRP = 250\\text W or +54\\text dBm), calculate the power density at a distance of 5 km in free space.",
+        "choices": [
+            "A. 7.96 × 10^-7\\text W/m^2",
+            "B. 3.18 × 10^-6\\text W/m^2",
+            "C. 1.59\\text W/m^2",
+            "D. 5.00 × 10^-8\\text W/m^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "In free space path loss calculations, if the distance is expressed in miles and frequency in MHz, the constant 32.44 is replaced by:",
+        "choices": [
+            "A. 36.6",
+            "B. 92.4",
+            "C. 52.2",
+            "D. 20.0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 40,
+        "question": "Calculate the FSPL in dB for a 1-mile link operating at 900 MHz using the formula \\textFSPL = 36.6 + 20log_10(d_\\textmi) + 20log_10(f_\\textMHz).",
+        "choices": [
+            "A. 95.68\\text dB",
+            "B. 105.68\\text dB",
+            "C. 85.68\\text dB",
+            "D. 75.68\\text dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "A microwave radio path has a total path loss of 135 dB. The transmitter output is +30 dBm, coax loss is 2 dB, Tx antenna gain is 25 dBi, and Rx antenna gain is 25 dBi. Calculate the received power level (P_r).",
+        "choices": [
+            "A. -77 dBm",
+            "B. -57 dBm",
+            "C. -81 dBm",
+            "D. -65 dBm"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "If the receiver threshold sensitivity in the previous question is -90 dBm, what is the resulting fade margin?",
+        "choices": [
+            "A. 13 dB",
+            "B. 25 dB",
+            "C. 33 dB",
+            "D. 8 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "Why is path profile analysis critical before finalizing a link budget for a terrestrial microwave hop?",
+        "choices": [
+            "A. To ensure sufficient clearance over obstacles (such as hills and buildings) to prevent excessive knife-edge diffraction and shadowing loss",
+            "B. To determine the transmitter color",
+            "C. To select the audio codec",
+            "D. To calculate battery weight"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "In calculating electric field strength from power density, if P_d = 5\\text mW/m^2, calculate E in V/m.",
+        "choices": [
+            "A. 1.37 V/m",
+            "B. 0.434 V/m",
+            "C. 4.34 V/m",
+            "D. 13.7 V/m"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "The power flux density P_d and the electric field E are related by P_d = E^2 / η. If the medium is not free space but a dielectric with relative permittivity ε_r = 4, the wave impedance η becomes:",
+        "choices": [
+            "A. 377 ohms",
+            "B. 188.5 ohms",
+            "C. 754 ohms",
+            "D. 50 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "If wave impedance in a dielectric medium is 188.5 ohms, how does the power density compare to free space for the same electric field strength E?",
+        "choices": [
+            "A. It is doubled",
+            "B. It is halved",
+            "C. It remains identical",
+            "D. It is quadrupled"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "Effective Radiated Power (ERP) is related to EIRP by the equation \\textERP = \\textEIRP - X, where X in decibels is:",
+        "choices": [
+            "A. 2.15 dB",
+            "B. 3.00 dB",
+            "C. 0 dB",
+            "D. 6.00 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "A broadcast station is licensed with an ERP of 50 kW. What is its equivalent EIRP in kW?",
+        "choices": [
+            "A. 82.2 kW",
+            "B. 50.0 kW",
+            "C. 30.5 kW",
+            "D. 100.0 kW"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "If a transmitting antenna radiates power equally in all directions within a horizontal plane but has directivity in the vertical plane, it is referred to as:",
+        "choices": [
+            "A. Isotropic radiator",
+            "B. Omnidirectional antenna (in azimuth)",
+            "C. Directional patch antenna",
+            "D. Point source"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "The Friis Transmission Equation explicitly incorporates antenna gains G_t and G_r alongside wavelength λ and distance d as:",
+        "choices": [
+            "A. P_r = P_t G_t G_r ≤ft((λ/4π d)\\right)^2",
+            "B. P_r = (P_t G_t G_r d^2/λ)",
+            "C. P_r = P_t + G_t + G_r - \\textFSPL",
+            "D. P_r = (P_t/4π d^2 λ)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "In the Friis equation, if the operating frequency is doubled while keeping distance constant, the received power will decrease by a factor of:",
+        "choices": [
+            "A. 2",
+            "B. 4 (6 dB)",
+            "C. 8",
+            "D. 16"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "A receiver is connected to an antenna with a gain of 18 dBi. If the incident power density at the antenna is 10^-8\\text W/m^2 at a frequency of 10 GHz (λ = 0.03 m), calculate the received power P_r. (4π ≈ 12.57).",
+        "choices": [
+            "A. 1.29 × 10^-10\\text W",
+            "B. 7.16 × 10^-12\\text W",
+            "C. 5.00 × 10^-9\\text W",
+            "D. 1.00 × 10^-8\\text W"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "In link budget calculations, multi-path fading margins are often estimated using empirical models such as the:",
+        "choices": [
+            "A. Vigants-Barnett method",
+            "B. Nyquist formula",
+            "C. Shannon-Hartley theorem",
+            "D. Fourier transform"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "If a system requires a minimum fade margin of 30 dB for 99.99% reliability, and the calculated nominal received signal is -50 dBm, what is the maximum allowable receiver threshold sensitivity?",
+        "choices": [
+            "A. -20 dBm",
+            "B. -50 dBm",
+            "C. -80 dBm",
+            "D. -90 dBm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "The electric field strength E of a radio wave is standardly measured in units of:",
+        "choices": [
+            "A. Watts per square meter",
+            "B. Volts per meter (or dB(µV/m))",
+            "C. Amperes per meter squared",
+            "D. Decibels relative to one milliwatt"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "Magnetic field strength H is standardly measured in units of:",
+        "choices": [
+            "A. Volts per meter",
+            "B. Amperes per meter (A/m)",
+            "C. Watts per meter",
+            "D. Tesla"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "If the electric field strength of a wave is 50 mV/m in free space, calculate the magnetic field strength H.",
+        "choices": [
+            "A. 132.6\\text µ\\textA/m",
+            "B. 50\\text A/m",
+            "C. 18.85\\text A/m",
+            "D. 3.77\\text A/m"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Calculate the power density P_d corresponding to an electric field strength of 37.7 V/m in free space.",
+        "choices": [
+            "A. 3.77\\text W/m^2",
+            "B. 1.0\\text W/m^2",
+            "C. 37.7\\text W/m^2",
+            "D. 10.0\\text W/m^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "When designing a wireless link, \"system gain\" is defined as the positive decibel sum of:",
+        "choices": [
+            "A. Transmitter power minus total losses",
+            "B. Transmitting antenna gain plus receiving antenna gain minus path loss",
+            "C. Maximum transmitter output power minus receiver threshold sensitivity",
+            "D. Free space path loss plus fade margin"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "A transmitter has a maximum output of +40 dBm, and the receiver threshold is -90 dBm. What is the total system gain (excluding antenna gains)?",
+        "choices": [
+            "A. 50 dB",
+            "B. 130 dB",
+            "C. -50 dB",
+            "D. 90 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "If antenna gains of 15 dBi each are added to the system from the previous question, what is the total overall link system gain?",
+        "choices": [
+            "A. 130 dB",
+            "B. 145 dB",
+            "C. 160 dB",
+            "D. 100 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "The inverse square law assumes that the wave propagates in an unbounded, uniform, lossless medium. In real-world terrestrial environments, path loss exponents often range from:",
+        "choices": [
+            "A. 1.0 to 1.5",
+            "B. 2.0 to 4.0 (or higher in urban environments)",
+            "C. 0.5 to 1.0",
+            "D. Exactly 2.0 always"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "If a real-world urban channel has a path loss exponent n = 3.5 instead of free space n = 2, doubling the distance will increase path loss by:",
+        "choices": [
+            "A. 6 dB",
+            "B. 10.5 dB",
+            "C. 21 dB",
+            "D. 3.5 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "Which antenna parameter directly relates gain to its physical or effective aperture?",
+        "choices": [
+            "A. Beamwidth",
+            "B. Directivity and Effective Area (A_e)",
+            "C. Polarization",
+            "D. Characteristic impedance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "An antenna has a directivity of 20 dB (linear gain G = 100) at a frequency of 5 GHz. Calculate its effective aperture A_e. (λ = 0.06 m).",
+        "choices": [
+            "A. 0.286\\text m^2",
+            "B. 0.0286\\text m^2",
+            "C. 1.0\\text m^2",
+            "D. 0.00286\\text m^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "In calculating ERP, if a half-wave dipole is used as the reference, its gain relative to an isotropic radiator (G_i) is expressed in dBi as:",
+        "choices": [
+            "A. 0 dBi",
+            "B. 2.15 dBi",
+            "C. 3.00 dBi",
+            "D. 5.15 dBi"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "A transmitter has an EIRP of +50 dBm. What is its ERP in dBm?",
+        "choices": [
+            "A. +52.15 dBm",
+            "B. +47.85 dBm",
+            "C. +50.00 dBm",
+            "D. +45.00 dBm"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "If a system operates with a high fade margin, it implies that the link is designed to be:",
+        "choices": [
+            "A. Highly reliable and resistant to unexpected signal drops",
+            "B. Highly vulnerable to rain fade",
+            "C. Operating at maximum possible data rate with zero redundancy",
+            "D. Extremely low power"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "Rain attenuation is a significant factor in link budgets operating at frequencies above:",
+        "choices": [
+            "A. 1 GHz",
+            "B. 10 GHz",
+            "C. 100 MHz",
+            "D. 30 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "In link budgets, branch losses (connectors, jumpers, filters) are handled by:",
+        "choices": [
+            "A. Adding them to the receiver power",
+            "B. Subtracting them as positive dB losses",
+            "C. Ignoring them if they are under 10 dB",
+            "D. Multiplying them by the frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "The term \"Isotropic\" literally means:",
+        "choices": [
+            "A. Equal in all directions",
+            "B. Directional",
+            "C. Polarized",
+            "D. Lossless"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "If an isotropic radiator radiates 100 Watts of power, what is the power density at a distance of 1 kilometer?",
+        "choices": [
+            "A. 7.96 × 10^-6\\text W/m^2",
+            "B. 3.18 × 10^-5\\text W/m^2",
+            "C. 1.00 × 10^-4\\text W/m^2",
+            "D. 5.00 × 10^-6\\text W/m^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "Using the power density from the previous question (7.96 × 10^-6\\text W/m^2), calculate the electric field strength E at that 1 km distance.",
+        "choices": [
+            "A. 0.0548\\text V/m",
+            "B. 0.0173\\text V/m",
+            "C. 1.000\\text V/m",
+            "D. 5.48\\text V/m"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "Why does free space path loss depend on frequency even though free space is a vacuum with no attenuation?",
+        "choices": [
+            "A. Because the effective aperture of the receiving antenna is a function of wavelength (λ^2), making collection area frequency-dependent",
+            "B. Because high frequencies travel slower",
+            "C. Because air molecules absorb high frequencies",
+            "D. Because of the inverse square law"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "A microwave radio system operates at 6 GHz over a 40 km path. Calculate the Free Space Path Loss (FSPL).",
+        "choices": [
+            "A. 120.0 dB",
+            "B. 140.0 dB",
+            "C. 139.98 dB",
+            "D. 150.2 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "If the total link loss (including FSPL and feeder losses) is 145 dB, and the total EIRP is +60 dBm, what is the received power level P_r?",
+        "choices": [
+            "A. -85 dBm",
+            "B. -75 dBm",
+            "C. -105 dBm",
+            "D. -95 dBm"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "A satellite transponder link has a downlink frequency of 12 GHz and a slant range of 38,000 km. Calculate the Free Space Path Loss.",
+        "choices": [
+            "A. 185.6 dB",
+            "B. 205.6 dB",
+            "C. 195.6 dB",
+            "D. 215.6 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "In power density calculations, if power is measured in dBm and distance in meters, the power density in dBm/m^2 at distance d from an isotropic source of P_t (dBm) is:",
+        "choices": [
+            "A. P_t - 20log_10(d) - 11.0",
+            "B. P_t + 10log_10(d)",
+            "C. P_t - 10log_10(4π d^2)",
+            "D. P_t - FSPL"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "Calculate the power density in dBm/m^2 at a distance of 100 meters from a source radiating +30 dBm isotropically. (\\textdBm/m^2 = 30 - 20log(100) - 11 = 30 - 40 - 11 = -21).",
+        "choices": [
+            "A. -21 dBm/m^2",
+            "B. -10 dBm/m^2",
+            "C. -31 dBm/m^2",
+            "D. +10 dBm/m^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "If a receiving antenna has a gain of 10 dBi, what is its linear gain factor?",
+        "choices": [
+            "A. 5",
+            "B. 10",
+            "C. 100",
+            "D. 20"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "The electric field vector E and magnetic field vector H of a plane wave in free space are oriented such that they are:",
+        "choices": [
+            "A. Parallel to each other",
+            "B. Mutually orthogonal to each other and to the direction of propagation",
+            "C. Parallel to the direction of propagation",
+            "D. 45 degrees apart"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "The Poynting vector S, which represents the directional energy flux density of an electromagnetic field, is mathematically defined as the cross product of:",
+        "choices": [
+            "A. E × H",
+            "B. H × E",
+            "C. E / H",
+            "D. E^2 · H"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "The magnitude of the Poynting vector in a free-space TEM wave is numerically equal to:",
+        "choices": [
+            "A. The power density (P_d)",
+            "B. The electric field strength",
+            "C. The magnetic field strength squared",
+            "D. The attenuation constant"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "In a link budget, if a fade margin of 40 dB is implemented, the probability of link outage due to fading is:",
+        "choices": [
+            "A. Maximized",
+            "B. Minimized significantly (providing extremely high availability)",
+            "C. Unaffected",
+            "D. Set to 100%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "A link budget analysis reveals that the received power exactly equals the receiver threshold sensitivity (P_r = P_\\textth). What is the fade margin of this link?",
+        "choices": [
+            "A. 10 dB",
+            "B. 0 dB",
+            "C. 20 dB",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "Why are high-gain antennas heavily utilized in satellite and long-distance microwave link budgets?",
+        "choices": [
+            "A. To dramatically increase EIRP on transmission and effective aperture on reception, overcoming massive free space path losses",
+            "B. To reduce transmitter frequency",
+            "C. To eliminate the need for modulation",
+            "D. To make the antennas lighter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "Calculate the Free Space Path Loss for a 5.8 GHz Wi-Fi link spanning a distance of 500 meters (0.5 km).",
+        "choices": [
+            "A. 61.7 dB",
+            "B. 71.7 dB",
+            "C. 51.7 dB",
+            "D. 81.7 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "If the transmitting power is 1 watt (+30 dBm), and losses are 0 dB, what is the EIRP of an antenna with 13 dBi gain?",
+        "choices": [
+            "A. +30 dBm",
+            "B. +43 dBm",
+            "C. +16 dBm",
+            "D. +56 dBm"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "A mobile cellular receiver operates at 1900 MHz. The base station transmits with an ERP of 40 Watts. Calculate the EIRP in Watts.",
+        "choices": [
+            "A. 40.0 W",
+            "B. 65.9 W",
+            "C. 24.2 W",
+            "D. 80.0 W"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "If the electric field intensity E of a wave is doubled, the corresponding power density P_d will:",
+        "choices": [
+            "A. Double",
+            "B. Quadruple",
+            "C. Triple",
+            "D. Remain unchanged"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "The ratio of electric field strength E to magnetic field strength H in any homogeneous, isotropic medium is known as the:",
+        "choices": [
+            "A. Propagation constant",
+            "B. Intrinsic impedance (η) of the medium",
+            "C. Reflection coefficient",
+            "D. Dielectric constant"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "Calculate the intrinsic impedance of a lossless non-magnetic dielectric medium having a relative permittivity ε_r = 9 and relative permeability µ_r = 1. (η_0 ≈ 377).",
+        "choices": [
+            "A. 377 ohms",
+            "B. 125.6 ohms",
+            "C. 1131 ohms",
+            "D. 50 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "If an electromagnetic wave travels from air (ε_r = 1) into a dielectric medium where ε_r = 4, the velocity of the wave in that medium is:",
+        "choices": [
+            "A. Unchanged",
+            "B. Halved",
+            "C. Doubled",
+            "D. Quadrupled"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "In free space path loss equations, doubling the path distance d results in an FSPL increase of:",
+        "choices": [
+            "A. 3 dB",
+            "B. 6 dB",
+            "C. 10 dB",
+            "D. 20 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "Which of the following parameters does NOT directly affect the Free Space Path Loss calculation?",
+        "choices": [
+            "A. Operating frequency",
+            "B. Distance between antennas",
+            "C. Transmitted power",
+            "D. None of the above (all affect FSPL or power received, but FSPL itself depends strictly on frequency and distance)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "A microwave link operates over a 50 km path at 4 GHz. What is the approximate Free Space Path Loss?",
+        "choices": [
+            "A. 128.4 dB",
+            "B. 138.4 dB",
+            "C. 118.4 dB",
+            "D. 148.4 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "If a receiver has a noise figure of 5 dB and a thermal noise floor of -104 dBm, its total sensitivity threshold for a specific required SNR is calculated during:",
+        "choices": [
+            "A. Power density derivation",
+            "B. Link budget analysis",
+            "C. Skin depth calculations",
+            "D. VSWR tuning"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "The concept of \"Effective Isotropic Radiated Power\" implies that the transmitting antenna:",
+        "choices": [
+            "A. Radiates more total energy than the transmitter provides",
+            "B. Focuses power in a specific direction such that it appears to radiate a higher power level if it were an isotropic radiator",
+            "C. Has zero efficiency",
+            "D. Operates only at isotropic frequencies"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "In free space, if the electric field intensity is 10\\text V/m, calculate the power density P_d in \\textmW/m^2. (120π ≈ 377).",
+        "choices": [
+            "A. 265\\text mW/m^2",
+            "B. 100\\text mW/m^2",
+            "C. 377\\text mW/m^2",
+            "D. 26.5\\text mW/m^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 100,
+        "question": "A high-frequency link has an EIRP of +70 dBm. If the free space path loss is 140 dB, and the receiving antenna gain is 30 dBi with 2 dB feeder loss, calculate the received power P_r.",
+        "choices": [
+            "A. -38 dBm",
+            "B. -42 dBm",
+            "C. -50 dBm",
+            "D. -60 dBm"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 101,
+        "question": "What is the primary operational consequence of having a negative fade margin in a link budget?",
+        "choices": [
+            "A. The link will experience frequent outages and fail to meet availability requirements under nominal operating conditions",
+            "B. The transmitter will burn out instantly",
+            "C. The path loss becomes zero",
+            "D. The frequency doubles"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 102,
+        "question": "In free space, the electric field E and magnetic field H are in time phase, and their amplitudes are related strictly by the constant:",
+        "choices": [
+            "A. 377 ohms",
+            "B. 50 ohms",
+            "C. 75 ohms",
+            "D. 600 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 103,
+        "question": "A point source radiates 1000 Watts of total power uniformly in all directions. What is the power density at a distance of 5 meters?",
+        "choices": [
+            "A. 3.18\\text W/m^2",
+            "B. 12.57\\text W/m^2",
+            "C. 6.37\\text W/m^2",
+            "D. 1.00\\text W/m^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 104,
+        "question": "If a transmitting antenna has a directivity of 15 dBi and 80% radiation efficiency, what is its antenna gain in dBi?",
+        "choices": [
+            "A. 15.0 dBi",
+            "B. 13.9 dBd",
+            "C. 14.0 dBi",
+            "D. 12.85 dBi"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 105,
+        "question": "Calculate the Free Space Path Loss for a 2.4 GHz ISM band Wi-Fi link over a distance of 100 meters (0.1 km).",
+        "choices": [
+            "A. 80.0 dB",
+            "B. 60.0 dB",
+            "C. 70.0 dB",
+            "D. 90.0 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 106,
+        "question": "The Inverse Square Law strictly applies to:",
+        "choices": [
+            "A. Power density spreading spherically from a point source in a uniform medium",
+            "B. Guided waves inside a coaxial cable",
+            "C. Baseband digital line coding",
+            "D. Waveguide cutoff frequencies"
+        ],
+        "correct_answer": "A"
+    }
+]

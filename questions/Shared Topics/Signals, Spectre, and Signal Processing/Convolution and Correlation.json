@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "What is the relationship between the convolution of two sequences in the time domain and their Discrete-Time Fourier Transforms?",
+        "choices": [
+            "A. Multiplication in the frequency domain",
+            "B. Addition in the frequency domain",
+            "C. Convolution in the frequency domain",
+            "D. Division in the frequency domain"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "If a discrete-time signal has a length of 5 and another has a length of 4, what is the minimum DFT length N required to compute their linear convolution using circular convolution?",
+        "choices": [
+            "A. 7",
+            "B. 8",
+            "C. 9",
+            "D. 10"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 4,
+        "question": "The power spectral density (PSD) of a wide-sense stationary random process is the Fourier transform of its:",
+        "choices": [
+            "A. Mean value",
+            "B. Cross-correlation",
+            "C. Energy spectral density",
+            "D. Auto-correlation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "If the twiddle factor for an 8-point DFT is W_8, what is the value of W_8^4?",
+        "choices": [
+            "A. -1",
+            "B. 1",
+            "C. j",
+            "D. -j"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "The Fast Fourier Transform (FFT) reduces the number of complex multiplications for an N-point DFT from O(N^2) to approximately:",
+        "choices": [
+            "A. O((N/2)log10(N))",
+            "B. O((N/2)log2(N))",
+            "C. O(N^2/2)",
+            "D. O(2^N)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "Which of the following continuous-time signals has an energy spectral density that takes the shape of a sinc-squared function?",
+        "choices": [
+            "A. Gaussian pulse",
+            "B. Triangular pulse",
+            "C. Rectangular pulse",
+            "D. Impulse"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "The Fast Fourier Transform (FFT) algorithm mathematically produces:",
+        "choices": [
+            "A. An approximation of the DFT",
+            "B. A truncated version of the DTFT",
+            "C. Only the even harmonics",
+            "D. The exact same result as the DFT formula"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "The commutative property of continuous-time convolution states that x(t) * h(t) is equal to:",
+        "choices": [
+            "A. h(t) * x(t)",
+            "B. x(-t) * h(-t)",
+            "C. x(t)h(t)",
+            "D. h(t)x(-t)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "The distributive property of convolution indicates that x[n] * (h1[n] + h2[n]) simplifies to:",
+        "choices": [
+            "A. x[n] * h1[n] * h2[n]",
+            "B. x[n] * h1[n] + x[n] * h2[n]",
+            "C. (x[n] + h1[n]) * h2[n]",
+            "D. x[n] + h1[n] + h2[n]"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "The associative property of convolution, x(t) * (h1(t) * h2(t)) = (x(t) * h1(t)) * h2(t), implies that for cascaded LTI systems:",
+        "choices": [
+            "A. The overall output depends on the input order",
+            "B. The systems cannot be swapped in sequence",
+            "C. The order of systems in series does not affect the overall impulse response",
+            "D. The systems must be strictly parallel"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "The convolution of any signal x(t) with the unit impulse function δ(t) results in:",
+        "choices": [
+            "A. δ(t)",
+            "B. 1",
+            "C. 0",
+            "D. x(t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "For two discrete-time sequences x[n] of length L and h[n] of length M, the length of their linear convolution y[n] is:",
+        "choices": [
+            "A. L + M - 1",
+            "B. L + M",
+            "C. Max(L, M)",
+            "D. L * M"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "If x[n] is non-zero for 0 <= n <= 3 and h[n] is non-zero for -2 <= n <= 2, what is the range of indices where y[n] = x[n] * h[n] is potentially non-zero?",
+        "choices": [
+            "A. -2 <= n <= 4",
+            "B. -2 <= n <= 5",
+            "C. 0 <= n <= 5",
+            "D. -2 <= n <= 3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Two continuous-time rectangular pulses, both of duration T and amplitude A, are convolved. The resulting waveform is a:",
+        "choices": [
+            "A. Sinc function",
+            "B. Gaussian pulse",
+            "C. Triangular pulse of duration 2T",
+            "D. Rectangular pulse of duration 2T"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "Convolving a signal x(t) with a shifted impulse function δ(t - t0) results in:",
+        "choices": [
+            "A. x(t) / t0",
+            "B. x(t + t0)",
+            "C. t0 * x(t)",
+            "D. x(t - t0)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "The continuous-time convolution integral is defined as the integral from -∞ to ∞ of:",
+        "choices": [
+            "A. x(τ) h(t - τ) dτ",
+            "B. x(t) h(τ - t) dt",
+            "C. x(t - τ) h(t) dτ",
+            "D. x(τ) h(τ) dτ"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "In the graphical method of convolution, the first step after replacing the independent variable with a dummy variable τ is to:",
+        "choices": [
+            "A. Multiply the signals",
+            "B. Time-reverse one of the signals (fold it)",
+            "C. Shift the signal to infinity",
+            "D. Integrate the signals directly"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "During graphical convolution of x(τ) and h(t - τ), the variable 't' dictates the:",
+        "choices": [
+            "A. Folding axis",
+            "B. Amplitude scaling",
+            "C. Amount of shift applied to the folded signal",
+            "D. Integration limits exclusively"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Determine the value at n=0 of the convolution of x[n] = 1, 2, 3 (origin at 1) and h[n] = 1, -1 (origin at 1).",
+        "choices": [
+            "A. 2",
+            "B. 3",
+            "C. 0",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "The impulse response h[n] of a Discrete-Time LTI system is the system's output when the input is the:",
+        "choices": [
+            "A. Unit impulse sequence δ[n]",
+            "B. Unit step sequence u[n]",
+            "C. Sinusoidal sequence",
+            "D. DC sequence"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "A discrete-time LTI system is causal if and only if its impulse response h[n] satisfies:",
+        "choices": [
+            "A. h[n] = 0 for n > 0",
+            "B. h[n] = 0 for n < 0",
+            "C. h[n] = h[-n]",
+            "D. Sum of"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 23,
+        "question": "A continuous-time LTI system is Bounded-Input Bounded-Output (BIBO) stable if its impulse response h(t) is:",
+        "choices": [
+            "A. Strictly positive",
+            "B. Causal",
+            "C. Absolutely integrable",
+            "D. Zero for t < 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "A system has impulse response h(t) = e^(-2t) u(t). Find the output y(t) for input x(t) = u(t).",
+        "choices": [
+            "A. (1/2)(1 + e^(-2t)) u(t)",
+            "B. e^(-2t) u(t)",
+            "C. (1 - e^(-2t)) u(t)",
+            "D. (1/2)(1 - e^(-2t)) u(t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "If the impulse response of a system is an ideal integrator, convolving a signal with it is equivalent to:",
+        "choices": [
+            "A. Integrating the signal over time",
+            "B. Differentiating the signal",
+            "C. Amplifying the signal",
+            "D. Delaying the signal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "What is the impulse response of an ideal delay system that shifts an input signal by T seconds?",
+        "choices": [
+            "A. u(t - T)",
+            "B. δ(t - T)",
+            "C. e^(-sT)",
+            "D. rect((t-T)/T)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "Two LTI systems with impulse responses h1[n] = δ[n] - δ[n-1] and h2[n] = u[n] are connected in cascade. What is the overall impulse response?",
+        "choices": [
+            "A. δ[n-1]",
+            "B. u[n-1]",
+            "C. δ[n]",
+            "D. u[n] - u[n-1]"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "The operation y[n] = x[n] * h[n] signifies that the system output is a linear combination of shifted input samples weighted by:",
+        "choices": [
+            "A. The input signal itself",
+            "B. The time index n",
+            "C. Constant coefficients",
+            "D. The impulse response values"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "If x(t) = e^(-at)u(t) and h(t) = e^(-bt)u(t) with a ≠ b, their convolution y(t) evaluates to:",
+        "choices": [
+            "A. (e^(-at) - e^(-bt)) / (b - a) * u(t)",
+            "B. (e^(-at) + e^(-bt)) / (b - a) * u(t)",
+            "C. e^(-(a+b)t) * u(t)",
+            "D. (1/(a+b)) (e^(-at) - e^(-bt)) * u(t)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "If a discrete-time LTI system has h[n] = (0.5)^n u[n] and the input is x[n] = (0.5)^n u[n], what is the output y[n]?",
+        "choices": [
+            "A. n(0.5)^n u[n]",
+            "B. (n+1)(0.5)^n u[n]",
+            "C. (0.5)^(2n) u[n]",
+            "D. (0.5)^n u[n]"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "The step response s(t) of a continuous-time LTI system is related to its impulse response h(t) by:",
+        "choices": [
+            "A. s(t) = dh(t)/dt",
+            "B. s(t) = h(t) * h(t)",
+            "C. s(t) = integral of h(τ) from -∞ to t",
+            "D. s(t) = h(t) * δ(t)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "Which of the following defines a system as being strictly Time-Invariant?",
+        "choices": [
+            "A. The output only depends on present inputs",
+            "B. The impulse response decays to zero",
+            "C. A scaled input results in a scaled output",
+            "D. A time shift in the input causes an identical time shift in the output"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "Circular convolution fundamentally applies to signals that are:",
+        "choices": [
+            "A. Periodic or assumed to be periodic",
+            "B. Strictly non-periodic",
+            "C. Continuous and infinite",
+            "D. Random and non-deterministic"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "The N-point circular convolution of two N-point sequences x1[n] and x2[n] is equivalent to multiplying their:",
+        "choices": [
+            "A. N-point DCTs",
+            "B. N-point DFTs",
+            "C. Z-transforms",
+            "D. Laplace transforms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "In matrix formulation of 4-point circular convolution y = Hx, the matrix H is constructed as a:",
+        "choices": [
+            "A. Identity matrix",
+            "B. Toeplitz matrix",
+            "C. Circulant matrix",
+            "D. Diagonal matrix"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Let x[n] = 1, 2, 3 and h[n] = 1, 1, 1. Find their 3-point circular convolution y[n].",
+        "choices": [
+            "A. 3, 3, 3",
+            "B. 1, 2, 3",
+            "C. 2, 4, 6",
+            "D. 6, 6, 6"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "To avoid time-aliasing when using N-point circular convolution to compute linear convolution of lengths L and M, N must be at least:",
+        "choices": [
+            "A. L + M - 1",
+            "B. L * M",
+            "C. Max(L, M)",
+            "D. L + M + 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Zero-padding is applied to sequences prior to computing circular convolution via DFT in order to:",
+        "choices": [
+            "A. Increase frequency domain energy",
+            "B. Equalize their lengths and avoid time-aliasing",
+            "C. Decrease the computational load",
+            "D. Force the signal to be strictly causal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Two sequences of length 4 are linearly convolved to produce a sequence of length 7. If a 4-point circular convolution is performed instead, how many points in the result will suffer from time-aliasing?",
+        "choices": [
+            "A. 0",
+            "B. 2",
+            "C. 4",
+            "D. 3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "Graphically, circular convolution can be performed using the method of:",
+        "choices": [
+            "A. Root locus",
+            "B. Flow graphs",
+            "C. Right triangles",
+            "D. Concentric circles"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "If the 4-point DFTs of x[n] and h[n] are X[k] = 2, 0, 2, 0 and H[k] = 1, 1, 1, 1, what is the 4-point circular convolution output in the frequency domain Y[k]?",
+        "choices": [
+            "A. 2, 0, 2, 0",
+            "B. 3, 1, 3, 1",
+            "C. 2, 1, 2, 1",
+            "D. 0, 0, 0, 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "Compute the 4-point circular convolution of x[n] = 1, 0, 0, 0 and h[n] = 1, 2, 3, 4.",
+        "choices": [
+            "A. 1, 2, 3, 0",
+            "B. 1, 2, 3, 4",
+            "C. 4, 3, 2, 1",
+            "D. 0, 0, 0, 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "The cross-correlation between two signals x(t) and y(t) is primarily used to measure:",
+        "choices": [
+            "A. Their sum",
+            "B. Their bandwidth",
+            "C. Their similarity as a function of time lag",
+            "D. Their total power"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "The auto-correlation function Rxx(τ) reaches its maximum value exactly at lag τ equal to:",
+        "choices": [
+            "A. Infinity",
+            "B. -1",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Unlike linear convolution, the cross-correlation operation is generally NOT:",
+        "choices": [
+            "A. Commutative",
+            "B. Distributive",
+            "C. Integrable",
+            "D. Measurable"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "For a continuous-time energy signal x(t), the auto-correlation Rxx(0) is equal to the signal's:",
+        "choices": [
+            "A. Average power",
+            "B. Total energy",
+            "C. Peak amplitude",
+            "D. Variance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "The cross-correlation Rxy(τ) of real signals x(t) and y(t) relates to Ryx(τ) by which symmetry property?",
+        "choices": [
+            "A. Rxy(τ) = Ryx(τ)",
+            "B. Rxy(τ) = -Ryx(τ)",
+            "C. Rxy(τ) = Ryx(-τ)",
+            "D. Rxy(τ) = Ryx(τ) * δ(τ)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "If a signal x(t) is periodic with period T, its auto-correlation function Rxx(τ) will be:",
+        "choices": [
+            "A. Zero everywhere",
+            "B. A sinc function",
+            "C. An exponentially decaying function",
+            "D. Periodic with period T"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "Mathematically, the cross-correlation Rxy(τ) for continuous, real energy signals is the integral from -∞ to ∞ of:",
+        "choices": [
+            "A. x(t) y(t - τ) dt",
+            "B. x(t) y(-t) dt",
+            "C. x(t - τ) y(t - τ) dt",
+            "D. x(t) / y(t) dt"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "The cross-correlation of a signal x(t) with a time-delayed version of itself, y(t) = x(t - t0), will have a positive peak at lag τ equal to:",
+        "choices": [
+            "A. -t0",
+            "B. t0",
+            "C. 0",
+            "D. 2t0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "A random white noise process has an ideal auto-correlation function in the shape of a(n):",
+        "choices": [
+            "A. Constant line",
+            "B. Sinc function",
+            "C. Impulse function at τ=0",
+            "D. Decaying exponential"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "If the Fourier transform of the auto-correlation function Rxx(τ) is taken, the result is the:",
+        "choices": [
+            "A. Phase spectrum",
+            "B. Cross-correlation",
+            "C. Cepstrum",
+            "D. Power Spectral Density (PSD) or Energy Spectral Density"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "Auto-correlation measures the correlation of a signal with:",
+        "choices": [
+            "A. A delayed version of itself",
+            "B. A unit impulse",
+            "C. A generic noise signal",
+            "D. A sine wave"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "In discrete-time, the auto-correlation sequence rxx[l] of a real sequence x[n] is always an:",
+        "choices": [
+            "A. Odd sequence",
+            "B. Even sequence",
+            "C. Anti-causal sequence",
+            "D. Unbounded sequence"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Given x[n] = 1, 1 for n=0,1. Find the discrete auto-correlation sequence rxx[l] for l = -1, 0, 1.",
+        "choices": [
+            "A. 2, 1, 2",
+            "B. 0, 2, 0",
+            "C. 1, 2, 1",
+            "D. -1, 2, -1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "To compute the cross-correlation Rxy(t) using the continuous convolution operator, one must evaluate:",
+        "choices": [
+            "A. x(t) * y(t)",
+            "B. x(-t) * y(t)",
+            "C. x(t) * y(t - τ)",
+            "D. x(t) * y(-t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "In radar and sonar systems, cross-correlation is fundamentally used to estimate the:",
+        "choices": [
+            "A. Time of arrival (time delay) of a reflected target echo",
+            "B. Amplitude of the transmitted wave",
+            "C. Frequency of the local oscillator",
+            "D. Power of the background noise"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "The optimal receiver filter used in radar to maximize the Signal-to-Noise Ratio (SNR) for a known signal in white noise is called a:",
+        "choices": [
+            "A. Envelope detector",
+            "B. Matched filter",
+            "C. Notch filter",
+            "D. Phase-locked loop"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "The impulse response of a matched filter for a known signal s(t) of duration T is proportional to:",
+        "choices": [
+            "A. s(t)",
+            "B. s(t - T)",
+            "C. s(T - t)",
+            "D. 1 / s(t)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "In digital image processing, a template matching operation to find a specific object within a larger image is mathematically equivalent to 2D:",
+        "choices": [
+            "A. Differentiation",
+            "B. Auto-correlation",
+            "C. Fourier Transform",
+            "D. Cross-correlation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "In a pulsed radar system, if the auto-correlation function of the transmitted pulse is very narrow (like a sharp spike), the system will have high:",
+        "choices": [
+            "A. Range resolution",
+            "B. Velocity resolution",
+            "C. Antenna gain",
+            "D. Transmit power"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "Sonar systems transmit a chirp signal instead of a simple pulse to improve resolution. The process of collapsing this chirp at the receiver using cross-correlation is called:",
+        "choices": [
+            "A. Pulse broadening",
+            "B. Pulse compression",
+            "C. Frequency hopping",
+            "D. Amplitude modulation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "In pattern recognition, if the template and the image are both normalized to have zero mean and unit variance, the cross-correlation evaluates to the:",
+        "choices": [
+            "A. Covariance matrix",
+            "B. Euclidean distance",
+            "C. Pearson correlation coefficient",
+            "D. Chi-square statistic"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "A radar transmits a pulse p(t). The received signal is r(t) = a*p(t - td) + n(t). The matched filter output achieves its maximum peak at time:",
+        "choices": [
+            "A. t = 0",
+            "B. t = T",
+            "C. t = td/2",
+            "D. t = td + T"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "An application of auto-correlation in speech processing is the robust estimation of the:",
+        "choices": [
+            "A. Pitch period (fundamental frequency)",
+            "B. Formant bandwidth",
+            "C. Speech volume",
+            "D. Spectral leakage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "In biomedical engineering, cross-correlation of EEG signals from different parts of the brain can indicate:",
+        "choices": [
+            "A. The absolute intelligence of the subject",
+            "B. The degree of functional connectivity or synchronization",
+            "C. The exact physical size of the brain",
+            "D. The chemical composition of cerebrospinal fluid"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Convolution is a mathematical operation that describes the relationship between the input, impulse response, and output of what type of systems?",
+        "choices": [
+            "A. Non-linear Time-Variant (NLTV)",
+            "B. Linear Time-Variant (LTV)",
+            "C. Linear Time-Invariant (LTI)",
+            "D. Non-linear Time-Invariant (NLTI)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "The convolution of two causal signals results in a signal that is:",
+        "choices": [
+            "A. Anti-causal",
+            "B. Non-causal",
+            "C. Symmetrical",
+            "D. Causal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "Let x[n] = δ[n] - δ[n-1] and h[n] = u[n]. The convolution y[n] = x[n] * h[n] evaluates to:",
+        "choices": [
+            "A. δ[n]",
+            "B. u[n]",
+            "C. r[n] (ramp)",
+            "D. δ[n] - δ[n-2]"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "A linear convolution of a 100-sample audio segment with a 20-sample room impulse response will yield a sequence of how many samples?",
+        "choices": [
+            "A. 100",
+            "B. 119",
+            "C. 120",
+            "D. 2000"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "When computing y[n] = x[n] * h[n] graphically, if x[n] is of length 3 and h[n] is of length 3, how many shift positions result in partial overlap (edge effects)?",
+        "choices": [
+            "A. 2",
+            "B. 3",
+            "C. 4",
+            "D. 5"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "The identity element for the convolution operator in continuous time is the:",
+        "choices": [
+            "A. Unit step",
+            "B. Unit doublet",
+            "C. Sine wave",
+            "D. Unit impulse"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "Consider two sequences x[n] = 1, 2 and h[n] = -1, 1. Find the full linear convolution y[n].",
+        "choices": [
+            "A. -1, -1, 2",
+            "B. 0, 3",
+            "C. 1, 3, 2",
+            "D. -1, 2, -1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "If the Fourier Transform of x(t) is X(w) and h(t) is H(w), the convolution x(t)*h(t) in the frequency domain is represented by:",
+        "choices": [
+            "A. X(w) / H(w)",
+            "B. X(w) H(w)",
+            "C. X(w) + H(w)",
+            "D. X(w) * H(w) (convolution)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "The cross-correlation of x[n] and y[n] in the frequency domain (using DTFT) is equal to:",
+        "choices": [
+            "A. X(e^jw) Y(e^jw)",
+            "B. X(e^-jw) Y(e^jw)",
+            "C. X(e^jw) Y*(e^jw)",
+            "D. X*(e^jw) Y*(e^jw)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "Which of the following mathematical operations essentially involves time-reversing (folding) one of the signals?",
+        "choices": [
+            "A. Cross-correlation",
+            "B. Addition",
+            "C. Multiplication",
+            "D. Convolution"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "Let x(t) = rect(t/2) and h(t) = rect(t/2). The convolution y(t) is a triangle extending from:",
+        "choices": [
+            "A. -2 to 2",
+            "B. -1 to 1",
+            "C. 0 to 2",
+            "D. -4 to 4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "The Overlap-Add and Overlap-Save methods are used to computationally optimize:",
+        "choices": [
+            "A. Circular convolution of two very long sequences",
+            "B. Linear convolution of a long sequence with a short FIR filter",
+            "C. Cross-correlation of periodic signals",
+            "D. Auto-correlation of random noise"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "In the Overlap-Add method, the resulting blocks of circular convolutions are combined by:",
+        "choices": [
+            "A. Discarding overlapping parts",
+            "B. Multiplying them",
+            "C. Adding the overlapping tail of the previous block to the head of the current block",
+            "D. Subtracting the overlapping regions"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "Circular convolution is a direct consequence of multiplying signals in the:",
+        "choices": [
+            "A. Continuous time domain",
+            "B. S-domain",
+            "C. Laplace domain",
+            "D. Discrete Fourier domain (DFT)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "If a discrete LTI system has a step response s[n], its impulse response h[n] can be found via:",
+        "choices": [
+            "A. s[n] - s[n-1]",
+            "B. s[n] + s[n-1]",
+            "C. s[n] * s[n-1]",
+            "D. s[n] / s[n-1]"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "Find the continuous-time convolution of e^(-3t)u(t) and δ(t-2).",
+        "choices": [
+            "A. e^(-3t)u(t-2)",
+            "B. e^(-3(t-2))u(t-2)",
+            "C. e^(-3t)u(t)",
+            "D. δ(t-2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "The cross-correlation Rxy(τ) gives a peak at τ = 5 ms. This indicates that:",
+        "choices": [
+            "A. y(t) is delayed by 5 ms relative to x(t)",
+            "B. x(t) and y(t) are orthogonal",
+            "C. x(t) is delayed by 5 ms relative to y(t)",
+            "D. The signals have a fundamental period of 5 ms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "A matched filter is specifically matched to:",
+        "choices": [
+            "A. The local oscillator",
+            "B. The channel bandwidth",
+            "C. The noise distribution",
+            "D. The specific transmitted waveform"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "What property of the delta function makes convolution with it yield the original signal?",
+        "choices": [
+            "A. Sifting property",
+            "B. Scaling property",
+            "C. Duality property",
+            "D. Periodicity property"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Two causal LTI systems with impulse responses h1[n] and h2[n] are connected in parallel. The equivalent overall impulse response is:",
+        "choices": [
+            "A. h1[n] * h2[n]",
+            "B. h1[n] + h2[n]",
+            "C. h1[n] - h2[n]",
+            "D. h1[n] / h2[n]"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "Convolve x[n] = u[n] with h[n] = u[n]. The result y[n] evaluates to:",
+        "choices": [
+            "A. u[n]",
+            "B. n u[n]",
+            "C. (n + 1) u[n]",
+            "D. n^2 u[n]"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "Correlation is fundamentally a measure of:",
+        "choices": [
+            "A. Frequency bandwidth",
+            "B. Signal power",
+            "C. Signal energy",
+            "D. Similarity between two signals"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "Evaluate the convolution of a step function u(t) with a shifted step function u(t-2).",
+        "choices": [
+            "A. (t-2)u(t-2)",
+            "B. tu(t)",
+            "C. (t-2)u(t)",
+            "D. tu(t-2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "In discrete-time convolution, the operation of replacing h[k] with h[-k] is called:",
+        "choices": [
+            "A. Shifting",
+            "B. Folding / Reversal",
+            "C. Scaling",
+            "D. Padding"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "The convolution of a signal x(t) with a unit doublet δ'(t) yields the:",
+        "choices": [
+            "A. Integral of x(t)",
+            "B. Second derivative of x(t)",
+            "C. First derivative of x(t)",
+            "D. Original signal x(t)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "If convolution in the time domain corresponds to multiplication in the frequency domain, what does multiplication in the time domain correspond to?",
+        "choices": [
+            "A. Multiplication in the frequency domain",
+            "B. Addition in the frequency domain",
+            "C. Integration in the frequency domain",
+            "D. Convolution in the frequency domain"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "Let x[n] = 1, -1, 1, -1 and h[n] = 1, 1, 1, 1. The 4-point circular convolution is:",
+        "choices": [
+            "A. 0, 0, 0, 0",
+            "B. 1, 1, 1, 1",
+            "C. 4, -4, 4, -4",
+            "D. 2, 0, 2, 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "To correctly evaluate the true linear convolution of the sequences in the previous question (both of length 4) using circular convolution, what minimum FFT size N should be used?",
+        "choices": [
+            "A. 4",
+            "B. 7",
+            "C. 6",
+            "D. 8"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "The auto-correlation of a periodic square wave results in a:",
+        "choices": [
+            "A. Square wave",
+            "B. Sine wave",
+            "C. Triangular wave",
+            "D. Sawtooth wave"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "A system whose output at any instant depends only on the present and past values of the input is called:",
+        "choices": [
+            "A. Time-varying",
+            "B. Unstable",
+            "C. Non-causal",
+            "D. Causal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "Consider the convolution y(t) = x(t)*h(t). If x(t) has a duration of 3 secs and h(t) has a duration of 4 secs, the duration of y(t) is:",
+        "choices": [
+            "A. 7 secs",
+            "B. 12 secs",
+            "C. 4 secs",
+            "D. 1 sec"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "The maximum value of the normalized cross-correlation coefficient between any two non-zero signals is:",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 0.5",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "Which operation is widely used in convolutional neural networks (CNNs) for image feature extraction, technically functioning without the 'folding' step?",
+        "choices": [
+            "A. Circular convolution",
+            "B. Linear convolution",
+            "C. Cross-correlation",
+            "D. Auto-correlation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "The Fourier transform of the continuous-time cross-correlation function is known as the:",
+        "choices": [
+            "A. Autocorrelation spectrum",
+            "B. Energy spectral density",
+            "C. Phase spectrum",
+            "D. Cross-power spectral density"
+        ],
+        "correct_answer": "D"
+    }
+]

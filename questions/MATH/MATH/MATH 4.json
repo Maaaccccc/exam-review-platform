@@ -1,0 +1,1476 @@
+[
+    {
+        "number": 1,
+        "question": "Given a scalar field g = 3x^2*y - y^3*z^2, determine the gradient of g at point (1, -2, -1).",
+        "choices": [
+            "A. -12i - 9j - 16k",
+            "B. -12i + 9j - 16k",
+            "C. 12i + 9j + 16k",
+            "D. 12i - 9j + 16k"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "Given the vector field A = [x^2*z, -2y^3*z^2, x*y^2*z], determine the divergence of A at point (1, -1, 1).",
+        "choices": [
+            "A. 3",
+            "B. 2",
+            "C. -3",
+            "D. -2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "Determine the volume charge density pv at the point (1, 1, 1) if the electric flux density is given by D = 4x^3*i + 2y*j + z*k C/m^2.",
+        "choices": [
+            "A. 14 C/m^3",
+            "B. 12 C/m^3",
+            "C. 10 C/m^3",
+            "D. 15 C/m^3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "If the magnetic vector potential is A = -y/2*i + x/2*j, what is the magnetic flux density B?",
+        "choices": [
+            "A. k T",
+            "B. -k T",
+            "C. (i + j) T",
+            "D. 0 T"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "",
+        "choices": [
+            "A. a = 4, b = 10",
+            "B. a = 2, b = 5",
+            "C. a = 3, b = 8",
+            "D. a = 5, b = 12"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "Given the scalar potential field V = 2x^2*y - 5z, determine the electric field intensity E at point P(1, 1, 0).",
+        "choices": [
+            "A. -4i - 2j + 5k V/m",
+            "B. 4i + 2j - 5k V/m",
+            "C. -4i - 2j - 5k V/m",
+            "D. 4i - 2j + 5k V/m"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "Gauss's Law for Magnetism states that divergence of the magnetic flux density B is always zero. This implies that magnetic field lines:",
+        "choices": [
+            "A. exist only inside magnetic materials",
+            "B. are continuous loops with no sources and sinks",
+            "C. consist of monopoles similar to electric charges",
+            "D. originate from north poles and terminate at south poles"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "Which vector calculus theorem relates the volume integral of the divergence of a vector field to the closed surface integral of the flux of that field?",
+        "choices": [
+            "A. Stokes' Theorem",
+            "B. Green's Theorem",
+            "C. Divergence Theorem",
+            "D. Helmholtz Theorem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 9,
+        "question": "A continuous-time signal is given by x(t) = 10*cos(400*pi*t) + 5*sin(1000*pi*t). What is the minimum sampling frequency required to recover this signal without aliasing?",
+        "choices": [
+            "A. 400 Hz",
+            "B. 500 Hz",
+            "C. 1000 Hz",
+            "D. 2000 Hz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "Perform the 4-point Circular Convolution of the two sequences x[n] = 1, 1, 0, 0 and h[n] = 1, 1, 0, 0.",
+        "choices": [
+            "A. 1, 2, 1, 0",
+            "B. 1, 2, 2, 1",
+            "C. 1, 2, 1, 2",
+            "D. 2, 1, 0, 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "Calculate the Linear convolution y[n] of the two finite sequences: x[n] = 1, 2 and h[n] = 1, -1.",
+        "choices": [
+            "A. 1, 1, -2",
+            "B. 1, 3, -2",
+            "C. 1, 1, -2, 0",
+            "D. 1, 1, 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "Calculate the total energy of the discrete-time signal x[n] = (0.5)^n * u[n].",
+        "choices": [
+            "A. 1.33",
+            "B. 2.00",
+            "C. 0.75 REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "D. 4.00"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "The Fast Fourier Transform (FFT) algorithm reduces the computational complexity of computing an N-point DFT from O(N^2) to:",
+        "choices": [
+            "A. O(N * log N)",
+            "B. O(log N)",
+            "C. O(N^3)",
+            "D. O(N)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "In discrete-time systems, what type of filter does the system described by the difference equation y[n] = x[n] - x[n-1] represent?",
+        "choices": [
+            "A. Low-pass filter",
+            "B. High-pass filter",
+            "C. Band-pass filter",
+            "D. All-pass filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "For a causal, stable, linear time-invariant (LTI) system, the Region of Convergence (ROC) of its Z-transform H(z) must:",
+        "choices": [
+            "A. Include the unit circle",
+            "B. Be entirely inside the unit circle",
+            "C. Not contain any zeros",
+            "D. Extend inward from the smallest pole"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 16,
+        "question": "If two signals are orthogonal, their cross-correlation at all shifts is:",
+        "choices": [
+            "A. Maximum",
+            "B. Minimum",
+            "C. Zero",
+            "D. Infinite"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "A second-order control system is described by the characteristic equation s^2 + 6s + 25 = 0. What is the natural undamped frequency of this system?",
+        "choices": [
+            "A. 6 rad/s",
+            "B. 25 rad/s",
+            "C. 5 rad/s",
+            "D. 3 rad/s"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 18,
+        "question": "Calculate the steady-state error for a unity-feedback system with open-loop transfer function G(s) = 5 / (s + 5) subjected to a unit step input.",
+        "choices": [
+            "A. 0.5",
+            "B. 0.0",
+            "C. 1.0",
+            "D. 0.2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "Using the Routh-Hurwitz criterion, determine the range of K for which the system with characteristic equation s^3 + 3s^2 + 2s + K = 0 is stable.",
+        "choices": [
+            "A. K > 0",
+            "B. 0 < K < 6",
+            "C. K > 6",
+            "D. 0 < K < 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "In a Bode plot, at which frequency is the 'Gain Margin' measured?",
+        "choices": [
+            "A. The frequency where the phase is -180 degrees",
+            "B. The frequency where the gain is 0 dB",
+            "C. The frequency where the phase is 0 degrees",
+            "D. The bandwidth frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "If the first column of the Routh array contains a sign change, what does this indicate about the system?",
+        "choices": [
+            "A. The system is marginally stable",
+            "B. The system is absolutely stable",
+            "C. The system is overdamped",
+            "D. The system is unstable"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 22,
+        "question": "Which type of controller action is specifically used to eliminate steady-state error in a control system?",
+        "choices": [
+            "A. Proportional (P) action",
+            "B. Derivative (D) action",
+            "C. Integral (I) action",
+            "D. On-Off action"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "An open-loop system has a transfer function G(s) = 5 / (s(s^2 + 2s + 10)) and is to be controlled by a proportional controller with gain K, using a unity negative feedback loop. What is the range of K that guarantees the stability of the system?",
+        "choices": [
+            "A. K < 4",
+            "B. K > 0",
+            "C. 0 < K < 4",
+            "D. 0 < K < 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "Evaluate the contour integral I [z / (z - 2)] dz around the circle abs(z) = 3 in the counter-clockwise direction.",
+        "choices": [
+            "A. 2*pi*j",
+            "B. 4*pi*j",
+            "C. 0",
+            "D. pi*j REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "Calculate the residue of the complex function f(z) = 1 / (z^2 + 1) at the pole z = j.",
+        "choices": [
+            "A. 1/2",
+            "B. -j/2",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "Using Euler's Identity, determine the value of the expression e^(j*pi) + 1.",
+        "choices": [
+            "A. 2",
+            "B. 3",
+            "C. 0",
+            "D. 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "Which of the following is equal to (1 + i)^12?",
+        "choices": [
+            "A. -8",
+            "B. -16",
+            "C. -64",
+            "D. -128"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Find the Wronskian of the two functions f(x) = e^x and g(x) = x*e^x.",
+        "choices": [
+            "A. e^x",
+            "B. e^-x",
+            "C. e^(-2x)",
+            "D. e^(2x)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "Find the Wronskian of f(x) = cos(x) and g(x) = sin(x).",
+        "choices": [
+            "A. 0",
+            "B. -2",
+            "C. 1",
+            "D. -1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 30,
+        "question": "If A, B, and C are matrices, which of the following is equal to the transpose of (A * B * C)?",
+        "choices": [
+            "A. B^T * A^T * C^T",
+            "B. A^T * C^T * B^T",
+            "C. C^T * B^T * A^T",
+            "D. A^T * B^T * C^T"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "Simplify the complex expression: i^29 + i^21 + i.",
+        "choices": [
+            "A. 2i",
+            "B. -2i",
+            "C. 3i",
+            "D. -3i"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "What is (1 + i) raised to the power of 10?",
+        "choices": [
+            "A. 23i",
+            "B. 32i",
+            "C. 52i",
+            "D. 36i"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "Find log10(3 + j4).",
+        "choices": [
+            "A. 0.7 + j0.4",
+            "B. 0.4 + j0.7",
+            "C. 0.7 - j0.4",
+            "D. 0.4 - j0.7"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Evaluate log10(2 - 5i).",
+        "choices": [
+            "A. 0.7 - 0.5i",
+            "B. 0.7 + 0.5i",
+            "C. 0.7 - 0.4i",
+            "D. 0.4 - j0.7"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "Find the general solution of the equation: sin(x)*y' + cos(x)*y = ln(x).",
+        "choices": [
+            "A. y = csc(x) * (x*ln(x) - x + C)",
+            "B. y = cos(x) * (x*ln(x) - x + C)",
+            "C. y = csc(x) * (x*ln(x) + x + C)",
+            "D. y = cos(x) * (x*ln(x) + x + C)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 36,
+        "question": "The Laplace transform of (1/4)*e^t * sinh(t) is:",
+        "choices": [
+            "A. 1 / (4s^2 - 4)",
+            "B. 1 / (4s^2 + 4)",
+            "C. 1 / (4s^2 - 8s)",
+            "D. 1 / (4s^2 + 8s)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "A box contains 5 defective and 195 non-defective cell phones. A quality control engineer selects two cell phones at random with replacement. What is the probability that both are defective?",
+        "choices": [
+            "A. 0.000625",
+            "B. 0.000450",
+            "C. 0.000550",
+            "D. 0.000725"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "A box contains 5 defective and 195 non-defective cell phones. A quality control engineer selects two cell phones at random with replacement. What is the probability that neither is defective?",
+        "choices": [
+            "A. 0.950625",
+            "B. 0.974932",
+            "C. 0.967200",
+            "D. 0.944800 REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "A couple has three children, and it is known that at least one of the children is a girl. What is the probability that the couple has at least one boy, assuming that having a boy or girl is equally likely?",
+        "choices": [
+            "A. 0.875",
+            "B. 0.857",
+            "C. 0.750",
+            "D. 0.500"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "In a group of 80 children, there are 22 more girls than boys. How many girls are there in the group?",
+        "choices": [
+            "A. 36",
+            "B. 43",
+            "C. 48",
+            "D. 51"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "How many even four-digit numbers can be formed from the digits 0, 1, 2, 5, 6, and 9 if each digit can be used only once?",
+        "choices": [
+            "A. 300",
+            "B. 156",
+            "C. 160",
+            "D. 42"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "Which probability distribution is most commonly used to model the thermal noise voltage in a resistor?",
+        "choices": [
+            "A. Poisson Distribution",
+            "B. Binomial Distribution",
+            "C. Normal Distribution",
+            "D. Uniform Distribution"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "A batch of 100 Zener diodes is tested, and the mean breakdown voltage is found to be 5.1 V with a standard deviation of 0.2 V. Calculate the 95% confidence interval for the true mean voltage of the production line (Z-score for 95% is 1.96).",
+        "choices": [
+            "A. 5.1 ± 0.0392 V",
+            "B. 5.1 ± 0.0932 V",
+            "C. 5.1 ± 0.0422 V",
+            "D. 5.1 ± 0.0196 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "A telecommunications system receives data packets at an average rate of 5 packets per millisecond, following a Poisson distribution. What is the probability of receiving exactly 3 packets in a given millisecond?",
+        "choices": [
+            "A. 0.140",
+            "B. 0.175",
+            "C. 0.265",
+            "D. 0.125"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "A solid has an elliptical base with a major axis of 18 inches and a minor axis of 12 inches. Find the volume of the solid if every section perpendicular to the major axis is a square.",
+        "choices": [
+            "A. 1728",
+            "B. 432",
+            "C. 2304",
+            "D. 1152"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "Find log(3 + j4) based on complex numbers in mathematics.",
+        "choices": [
+            "A. 0.7 + j0.4",
+            "B. 0.4 + j0.7",
+            "C. 0.7 - j0.4",
+            "D. 0.4 - j0.7"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "The Wronskian of two functions f and g is not zero. What does this indicate about the functions?",
+        "choices": [
+            "A. They are linearly independent",
+            "B. They are linearly dependent",
+            "C. They are identical",
+            "D. They are orthogonal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "The differential equation of the form dy/dx = P(x) + Q(x)*y + R(x)*y^2 is termed as a:",
+        "choices": [
+            "A. Legendre equation",
+            "B. Clairaut equation",
+            "C. Bernoulli equation",
+            "D. Riccati equation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "Find the value of k if 4x^2 + 6x + k = 0 has equal roots.",
+        "choices": [
+            "A. 8/3",
+            "B. 2",
+            "C. 4",
+            "D. 9/4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "In a statistical distribution of data, we can say that the histogram is skewed to the right if:",
+        "choices": [
+            "A. the mean is greater than the median",
+            "B. the median is greater than the mean",
+            "C. the mean is equal to the median",
+            "D. the mode is greater than the mean REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "Solve for the value of k that would make the given DE exact: (2x^3 - x*y^2 - k*y + 3)dx - (x^2*y + 2x)dy = 0.",
+        "choices": [
+            "A. 4",
+            "B. 3",
+            "C. 2",
+            "D. 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "A spherical balloon is inflated so that its radius increases at a rate of 2/r cm/sec. How fast is the volume of the balloon increasing when the radius is 4 cm?",
+        "choices": [
+            "A. 16*pi",
+            "B. 8*pi",
+            "C. 32*pi",
+            "D. 64*pi"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "In a system of forces, the relationship between two forces F1 and F2 is given by: 5F1 + 3F2 + 6 = 0 and 3F1 + 5F2 + 18 = 0. Solve for F1 and F2.",
+        "choices": [
+            "A. F1 = 1.5, F2 = -4.5",
+            "B. F1 = -1.5, F2 = 4.5",
+            "C. F1 = 2.0, F2 = -5.0",
+            "D. F1 = 1.0, F2 = -3.0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "An approximate relationship between the number of teeth T on a milling cutter, the diameter of the cutter D and the depth of cut d is T = 12.5D / (D + 4d). Determine the value of D when T = 10 and d = 4 mm.",
+        "choices": [
+            "A. 64 mm",
+            "B. 32 mm",
+            "C. 80 mm",
+            "D. 48 mm"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "The modulus of elasticity E is given by E = FL / (xA). Evaluate A, in square centimeters, when E = 80 x 10^9 N/m^2, x = 2 mm, F = 100 x 10^3 N, and L = 2.0 m.",
+        "choices": [
+            "A. 12.5",
+            "B. 1.25",
+            "C. 25.0",
+            "D. 6.25"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 57,
+        "question": "Find the orthogonal trajectories of the family of curves x^2 - y^2 = C^2.",
+        "choices": [
+            "A. x^2 + y^2 = C^2",
+            "B. xy = C",
+            "C. x - y = C",
+            "D. xy^3 = C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "Solve the linear differential equation: dy/dx + y/x = x^2.",
+        "choices": [
+            "A. x*y^2 = x^3/4 + C",
+            "B. x*y = x^4/4 + C",
+            "C. x^2*y = x^4/4 + C",
+            "D. y = x^3/4 + C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Determine the differential equation of the family of straight lines passing through the origin.",
+        "choices": [
+            "A. x dx + y dy = 0",
+            "B. x dx - y dy = 0",
+            "C. x dy + y dx = 0",
+            "D. x dy - y dx = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "The differential equation y' + P(x)y = R(x)*y^alpha (where alpha is not 0 or 1) is called a:",
+        "choices": [
+            "A. Wave equation",
+            "B. Elliptic equation",
+            "C. Bernoulli equation",
+            "D. Laplacian equation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "If y = arcsin(e^x), then find the derivative y'.",
+        "choices": [
+            "A. 2e^x / sqrt(1 - e^(2x))",
+            "B. e^x / sqrt(1 - e^(2x))",
+            "C. e^x / (2*sqrt(1 - e^(2x)))",
+            "D. e^x / sqrt(1 + e^(2x))"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "Transpose the engineering formula m = mu * L / (L + r * C * R) to make the inductance L the subject.",
+        "choices": [
+            "A. L = m * r * C * R / (mu - m)",
+            "B. L = m * r * C * R / (mu + m)",
+            "C. L = (mu - m) / (m * r * C * R)",
+            "D. L = mu * r * C * R / m"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "Evaluate: tanh [j*(pi/3)].",
+        "choices": [
+            "A. j*sqrt(3)",
+            "B. j*sqrt(2)",
+            "C. j*sqrt(5) REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "D. j"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "Evaluate: sin(3 + j4).",
+        "choices": [
+            "A. 2.85 - j28.02",
+            "B. 1.85 - j26.02",
+            "C. 4.85 + j25.02",
+            "D. 3.85 - j27.02"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "In flipping a coin, a single trial with two possible outcomes (head or tail) is called a:",
+        "choices": [
+            "A. Bernoulli trial",
+            "B. Archimedes trial",
+            "C. Sterling trial",
+            "D. Fibonacci trial"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Determine the radius of convergence of the power series: Sum_n=0^infinity 0.5^n * (x-3)^n.",
+        "choices": [
+            "A. 1",
+            "B. 3",
+            "C. 2",
+            "D. -3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "Evaluate the Laplace transform of: L (1 - e^-2t) / t .",
+        "choices": [
+            "A. ln[(s+3)/s]",
+            "B. ln[(s+4)/s]",
+            "C. ln[(s+1)/s]",
+            "D. ln[(s+2)/s]"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 68,
+        "question": "Find the inverse Laplace transform of I(s) = 200 / (s^2 - 50s + 10625).",
+        "choices": [
+            "A. 2e^(25t)*cos(100t)",
+            "B. 2e^(25t)*sin(100t)",
+            "C. 2e^(-25t)*sin(100t)",
+            "D. 2e^(-25t)*cos(100t)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "Find the binomial coefficient of the term involving x^4 of the series expansion of sqrt(1 + 2x).",
+        "choices": [
+            "A. 1",
+            "B. -5/8",
+            "C. 1/2",
+            "D. -1/2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "For what values of x is the series expansion of sqrt(1 + 2x) valid?",
+        "choices": [
+            "A. abs(x) < 1",
+            "B. abs(x) < 2",
+            "C. x > 0",
+            "D. abs(x) < 1/2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 71,
+        "question": "Perform the inverse Laplace transform: L^-1 (4s + 1) / (s^2 + 9) .",
+        "choices": [
+            "A. 4*cos(3t) + (1/3)*sin(3t)",
+            "B. 2*cos(3t) + (1/3)*sin(3t)",
+            "C. 3*cos(3t) + (1/3)*sin(3t)",
+            "D. 5*cos(3t) + (1/3)*sin(3t)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "If f(t) = t and g(t) = e^t, find the convolution (f * g)(t).",
+        "choices": [
+            "A. e^t - t + 1",
+            "B. e^t + t - 1",
+            "C. e^t - t - 1",
+            "D. e^t + t + 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "The formula for the Laplace transform has the integrand e^(-st)*f(t). What is the term e^(-st) called?",
+        "choices": [
+            "A. Transform",
+            "B. Kernel",
+            "C. Variable",
+            "D. Function"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "Find the interval of convergence for the series: Sum_n=0^infinity 2^n * (x - 1)^n.",
+        "choices": [
+            "A. (-0.5, 0.5)",
+            "B. (-infinity, -0.5) U (0.5, +infinity)",
+            "C. (0.5, 1.5)",
+            "D. (-infinity, 0.5) U (1.5, +infinity)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "Find the inverse Laplace transform of H(s) = 1 / [s(s - a)].",
+        "choices": [
+            "A. [e^(at) + 1]/a",
+            "B. [e^(-at) - 1]/a",
+            "C. [e^(at) - 1]/a",
+            "D. [e^(at) + 1]/a"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "Suppose 1% of parts have type 1 defect and 2% have type 2 defect and 0.5% have both. A part has type 2 defect. What is the probability that it also has type 1 defect?",
+        "choices": [
+            "A. 0.25",
+            "B. 0.50",
+            "C. 0.10",
+            "D. 0.05"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "In how many different ways can a laboratory director choose 2 chemical engineers from 5 and 2 industrial engineers from 4 applicants? REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+        "choices": [
+            "A. 30",
+            "B. 60",
+            "C. 120",
+            "D. 240"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "If a die is rolled 5 times, what is the probability of obtaining five 6s in a row?",
+        "choices": [
+            "A. 0.000129",
+            "B. 0.00129",
+            "C. 0.0129",
+            "D. 0.129"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "Given h(x) = sqrt(x + 7) and j(x) = 7x^2 - 3. Express the composite function (j o h)(x) in terms of x.",
+        "choices": [
+            "A. 6x + 32",
+            "B. 8x + 48",
+            "C. 7x + 46",
+            "D. 5x + 53"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "What is the Cartesian product of the sets A = 1, 2 and B = a, b?",
+        "choices": [
+            "A. (1, a), (1, b), (2, a), (b, b)",
+            "B. (1, 1), (2, 2), (a, a), (b, b)",
+            "C. (1, a), (2, a), (1, b), (2, b)",
+            "D. (1, 1), (a, a), (2, a), (1, b)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 81,
+        "question": "If n(A) = 20, n(B) = 30, and n(A U B) = 40, what is n(A n B)?",
+        "choices": [
+            "A. 9",
+            "B. 10",
+            "C. 11",
+            "D. 12"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "Using the midpoint rule with four subintervals, estimate the integral of x^2 dx from 0 to 1.",
+        "choices": [
+            "A. 0.3281",
+            "B. 0.3219",
+            "C. 0.3333",
+            "D. 0.3379"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "The Laplace transform of (a + bt)^2 where a and b are constants is given by:",
+        "choices": [
+            "A. a^2/s + 2ab/s^2 + 2b^2/s^3",
+            "B. 1 / (a + bs)^2",
+            "C. (a + bs)^2",
+            "D. a^2/s + ab/s^2 + b^2/s^3"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "Find the magnitude of the vector cross product: (i + 3j - 2k) x (-i + 3k).",
+        "choices": [
+            "A. 91",
+            "B. sqrt(91)",
+            "C. sqrt(70)",
+            "D. sqrt(83)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "What is the value of the integral of ln(x)/x^2 dx from 1 to 2?",
+        "choices": [
+            "A. 1/2 * ln(2)",
+            "B. 1/2 * ln(e/2)",
+            "C. ln(e)",
+            "D. ln(2e)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "Solve the differential equation: (2x - y + 1)dx + (2y - x - 1)dy = 0.",
+        "choices": [
+            "A. x^2 + y^2 + x - y + xy = C",
+            "B. x^2 - y^2 + x + y - xy = C",
+            "C. x^2 - y^2 + x - y - xy = C",
+            "D. x^2 + y^2 + x - y - xy = C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "The Laplace transform of t*e^t is:",
+        "choices": [
+            "A. s / (s+1)^2",
+            "B. s / (s-1)^2",
+            "C. s / (s-1)",
+            "D. 1 / (s-1)^2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "Determine the inverse Laplace transform of F(s) = (2s + 4) / (s^2 + 4s + 3).",
+        "choices": [
+            "A. e^-3t - e^-t",
+            "B. e^-3t + e^-t",
+            "C. e^3t + e^-t",
+            "D. e^3t - e^-t"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "The transfer function of the system described by 5 d^2y/dt^2 + 4 dy/dt = 2 du/dt + 4u, with u as input and y as output is:",
+        "choices": [
+            "A. (2s + 4) / (5s^2 + 4s)",
+            "B. (2s + 2) / (5s^2 + 4s)",
+            "C. (2s + 4) / (5s + 4)",
+            "D. (2s + 2) / (5s + 4)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Find the z-transform of the signal x[n] = [3(2^n) - 4(3^n)]u(n).",
+        "choices": [
+            "A. 3/(1 - 2z^-1) + 4/(1 - 3z^-1)",
+            "B. 3/(1 - 2z^-1) - 4/(1 - 3z^-1)",
+            "C. 3/(1 + 2z^-1) + 4/(1 + 3z^-1)",
+            "D. 3/(1 + 2z^-1) - 4/(1 + 3z^-1) REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "Determine the cofactor matrix of the matrix [[1, -4], [5, -3]].",
+        "choices": [
+            "A. [,]",
+            "B. [[2, -3],]",
+            "C. [[-3, -5],]",
+            "D. [,]"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Which of the following equations has -i, i, and 0 as its only roots?",
+        "choices": [
+            "A. x^3 - x = 0",
+            "B. x^3 + x^2 = 0",
+            "C. x^2 + 1 = 0",
+            "D. x^3 + x = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "Determine the rank of the matrix A = [,,].",
+        "choices": [
+            "A. 1",
+            "B. 3",
+            "C. 2",
+            "D. 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "Find the z-transform of the discrete signal: x[n] = delta[n - 5].",
+        "choices": [
+            "A. z^(-1/5)",
+            "B. z^5",
+            "C. z^-5",
+            "D. z^-1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "If A = [[-2, 5],] and B = [, [3, -5]], evaluate the matrix product B *",
+        "choices": [
+            "A. A. [[-12, 30], [-11, 0]]",
+            "B. [[-12, 20], [-11, 0]]",
+            "C. [[-12, 30], [-11, -29]]",
+            "D. [[-12, 30],]"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 96,
+        "question": "Find the integrating factor of the differential equation: (y^2 - x)dx + 2y dy = 0.",
+        "choices": [
+            "A. x^2",
+            "B. e^-x",
+            "C. e^(x^2)",
+            "D. e^x"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "A population of bacteria grows at a rate proportional to the number present. After two hours, the population has tripled. After four hours, the population will have increased by what factor?",
+        "choices": [
+            "A. 9",
+            "B. 6",
+            "C. 8",
+            "D. 7"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "The solution to the differential equation dy/dt + 2y = 1, with initial condition y(0)=1, is:",
+        "choices": [
+            "A. y = (1/2)*e^(-2t) + 1/2",
+            "B. y = (1/2)*e^(-2t) - 1/2",
+            "C. y = (1/2)*e^(2t) + 1/2",
+            "D. y = (1/2)*e^(2t) - 1/2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "Find the inverse Fourier transform of the signal X(omega) = 1 / (a + j*omega)^2.",
+        "choices": [
+            "A. t^2 * e^(-at) * u(t)",
+            "B. t * e^(at) * u(t)",
+            "C. t^2 * e^(at) * u(t)",
+            "D. t * e^(-at) * u(t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "Solve for the trace of the given matrix: [[2, 5, -2],, [-1, 5, -3]].",
+        "choices": [
+            "A. -6",
+            "B. 0",
+            "C. 43",
+            "D. 43/6"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 101,
+        "question": "In hypothesis testing concerning the gain of an amplifier, a Type I error occurs when:",
+        "choices": [
+            "A. The engineer concludes the gain is correct when it is actually out of spec",
+            "B. The engineer concludes the gain is out of spec when it is actually correct",
+            "C. The testing equipment is faulty",
+            "D. The sample size is insufficient"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 102,
+        "question": "An electronics engineer performs a linear regression analysis to calibrate a temperature sensor. The resulting equation is V = 0.01T + 0.5. What is the predicted voltage at 25 degrees Celsius?",
+        "choices": [
+            "A. 0.25 V",
+            "B. 0.50 V",
+            "C. 0.75 V",
+            "D. 0.65 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 103,
+        "question": "In the Design of Experiments (DOE) for optimizing an IC fabrication process, what is the term for a variable that is changed intentionally to observe its effect on the response variable?",
+        "choices": [
+            "A. Response",
+            "B. Factor REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "C. Replicate",
+            "D. Block"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 104,
+        "question": "Under what condition is a square matrix A considered involutory?",
+        "choices": [
+            "A. A^-1 = A",
+            "B. A^T = A",
+            "C. det(A) = 0",
+            "D. A^2 = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 105,
+        "question": "What name is given to the differential equation of the form (1 - x^2)*y'' - 2x*y' + n(n + 1)*y = 0?",
+        "choices": [
+            "A. Chebyshev Differential Equation",
+            "B. Hermite Differential Equation",
+            "C. Laguerre Differential Equation",
+            "D. Legendre Differential Equation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 106,
+        "question": "Find the principal root of (1 + sqrt(3)*i)^(1/3).",
+        "choices": [
+            "A. 0.234 + 0.115i",
+            "B. 1.184 + 0.431i",
+            "C. 0.442 + 0.113i",
+            "D. 0.349 + 0.156i"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 107,
+        "question": "If y = arcsin(x) + x*sqrt(1 - x^2), find the derivative y'.",
+        "choices": [
+            "A. 2*sqrt(1 - x^2)",
+            "B. 2 - 2x^2",
+            "C. 2 / sqrt(1 - x^2)",
+            "D. arcsin(x) - 2x^2 / sqrt(1 - x^2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 108,
+        "question": "Find the Fourier transform of x(t) = e^(-a*",
+        "choices": [
+            "A. t",
+            "B. ) where a > 0.",
+            "C. 2a / (a^2 - omega^2)",
+            "D. 2omega / (a^2 + omega^2)"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 109,
+        "question": "Solve for the general solution of the differential equation: dy/dx = y/x + tan(y/x).",
+        "choices": [
+            "A. sin(y/x) = kx",
+            "B. cos(y/x) = kx",
+            "C. tan(y/x) = kx",
+            "D. tan(y/x) = ky"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 110,
+        "question": "Find the coordinates of the points on the curve y^2 - 4xy = x^2 + 5 for which the tangent is horizontal.",
+        "choices": [
+            "A. (2, -1) and (-2, 1)",
+            "B. (2, 1) and (-2, -1)",
+            "C. (-1, 2) and (1, -2)",
+            "D. (1, 2) and (-1, -2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 111,
+        "question": "Evaluate: integral_0^1 (1 / sqrt(x)) dx.",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. Divergent"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 112,
+        "question": "Evaluate: integral_(-2)^2 (1 / x^2) dx.",
+        "choices": [
+            "A. -1",
+            "B. 0",
+            "C. 3",
+            "D. Divergent"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 113,
+        "question": "For all sets A and B, the identities A U (A n B) = A and A n (A U B) = A are known as:",
+        "choices": [
+            "A. De Morgan's Laws",
+            "B. Absorption Laws",
+            "C. Set Difference Law",
+            "D. De Moivre's Law"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 114,
+        "question": "Determine the volume of the solid obtained by rotating the region bounded by y = 2*sqrt(x - 1) and y = x - 1 about the line x = 6.",
+        "choices": [
+            "A. 136*pi / 15",
+            "B. 163*pi / 15",
+            "C. 272*pi / 15",
+            "D. 326*pi / 15"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 115,
+        "question": "The rise-time of a pulse is normally measured between which levels?",
+        "choices": [
+            "A. 0% and 100% levels",
+            "B. 10% and 90% levels",
+            "C. 30% and 70% levels",
+            "D. 50% levels of the leading and trailing edges"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 116,
+        "question": "What is the inverse Laplace transform of 1?",
+        "choices": [
+            "A. Unit step function",
+            "B. Delta Dirac function",
+            "C. Heaviside function",
+            "D. Beta function"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 117,
+        "question": "Find the z-transform of x[n] = 0.5^n * u[n].",
+        "choices": [
+            "A. 1 / (1 - 0.5*z^-1)",
+            "B. 1 / (1 - 0.5*z)",
+            "C. z^-1 / (1 - 0.5*z^-1) REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "D. 1 / (1 + 0.5*z^-1)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 119,
+        "question": "An open box is to be constructed from a 12- by 12-inch piece of cardboard by cutting away squares of equal size from the four corners and folding up the sides. Determine the size of the cutout that maximizes the volume of the box.",
+        "choices": [
+            "A. 1 inch",
+            "B. 1.33 inches",
+            "C. 2 inches",
+            "D. 2.33 inches"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 120,
+        "question": "If two propositions are false, then the disjunction statement is:",
+        "choices": [
+            "A. true",
+            "B. false",
+            "C. partially true",
+            "D. invalid"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 121,
+        "question": "Evaluate: cosh [j*(pi/4)].",
+        "choices": [
+            "A. sqrt(4) / 4",
+            "B. sqrt(1) / 3",
+            "C. sqrt(3) / 1",
+            "D. sqrt(2) / 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 122,
+        "question": "What is the inverse Laplace transform of s*(s^2 + 27) / (s^2 + 9)^2?",
+        "choices": [
+            "A. cos(3t) - 3t*sin(3t)",
+            "B. sin(3t) - 3t*cos(3t)",
+            "C. cos(3t) + 3t*sin(3t)",
+            "D. sin(3t) + 3t*cos(3t)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 123,
+        "question": "Determine the order and degree of the given differential equation: 2x*(d^4y/dx^4) + 5x^2*(dy/dx)^3 - xy = 0.",
+        "choices": [
+            "A. fourth order, first degree",
+            "B. third order, first degree",
+            "C. first order, fourth degree",
+            "D. first order, third degree"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 124,
+        "question": "In designed experiments, what is the primary purpose of blocking?",
+        "choices": [
+            "A. Control known sources of nuisance variability",
+            "B. Increase random error",
+            "C. Create more treatment combinations",
+            "D. Reduce the number of replicates to zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 125,
+        "question": "What is the physical meaning of the closed line integral I F • dr around a closed curve C?",
+        "choices": [
+            "A. Net flux through C",
+            "B. Circulation of F around C",
+            "C. Divergence of F in the region",
+            "D. Gradient of F along C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 126,
+        "question": "The circular convolution of two N-point sequences is equivalent in the frequency domain to:",
+        "choices": [
+            "A. The sum of their N-point DFTs",
+            "B. The pointwise product of their N-point DFTs",
+            "C. The linear convolution of their N-point DFTs",
+            "D. The quotient of their N-point DFTs"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 127,
+        "question": "A system is Type 1 in a unity feedback loop if its open-loop transfer function has:",
+        "choices": [
+            "A. No integrators",
+            "B. Exactly one integrator (a single pole at the origin)",
+            "C. Two integrators",
+            "D. A zero at the origin"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 128,
+        "question": "Which numerical root-finding method requires calculating the derivative of the function?",
+        "choices": [
+            "A. Bisection Method",
+            "B. Secant Method",
+            "C. Newton-Raphson Method",
+            "D. Gauss-Seidel Method"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 129,
+        "question": "By the divergence theorem, the net outward flux of a vector field F through a closed surface S is equal to:",
+        "choices": [
+            "A. The volume integral of the divergence of F over the region enclosed by S",
+            "B. The line integral of F along the boundary of S",
+            "C. The surface integral of the curl of F over S",
+            "D. The volume integral of the curl of F over the region enclosed by S"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 130,
+        "question": "An LC tank circuit is described by the equation d^2v/dt^2 = -100v. What is the natural resonant frequency of this circuit in rad/s?",
+        "choices": [
+            "A. 10 rad/s REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "B. 100 rad/s",
+            "C. 50 rad/s",
+            "D. 25 rad/s"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 131,
+        "question": "The current response of an RLC circuit is given by the solution to i'' + 6i' + 9i = 0. This response is classified as:",
+        "choices": [
+            "A. Overdamped",
+            "B. Underdamped",
+            "C. Oscillatory",
+            "D. Critically Damped"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 132,
+        "question": "A radioactive isotope has a half-life of 2 hours. What fraction of the initial amount remains after 6 hours?",
+        "choices": [
+            "A. 1/16",
+            "B. 1/4",
+            "C. 1/6",
+            "D. 1/8"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 133,
+        "question": "Determine the integrating factor for the linear differential equation dy/dx + (2/x)y = x^3.",
+        "choices": [
+            "A. e^(2x)",
+            "B. 2 ln(x)",
+            "C. x^2",
+            "D. x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 134,
+        "question": "Which of the following defines the order of a differential equation?",
+        "choices": [
+            "A. The power to which the highest derivative is raised",
+            "B. The highest derivative that appears in the equation",
+            "C. The number of arbitrary constants in the general solution",
+            "D. The degree of the polynomial coefficient of the highest derivative"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 135,
+        "question": "In a data set with n=1292, it is found that the mean is 125,000 and the median is \\50,000. This information suggests that the distribution is:",
+        "choices": [
+            "A. Symmetric",
+            "B. Skewed to the left",
+            "C. Skewed to the right",
+            "D. Uniform"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 136,
+        "question": "Evaluate: cosh [j*(pi/4)].",
+        "choices": [
+            "A. sqrt(4) / 4",
+            "B. sqrt(1) / 3",
+            "C. sqrt(3) / 1",
+            "D. sqrt(2) / 2 REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "D"
+    }
+]

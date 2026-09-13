@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "What is the ideal CMRR of a differential amplifier?",
+        "choices": [
+            "A. Infinite",
+            "B. Zero",
+            "C. Unity",
+            "D. Negative"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "A diff amp has a differential gain of 2000 and a CMRR of 10,000. What is the common-mode gain?",
+        "choices": [
+            "A. 5",
+            "B. 0.2",
+            "C. 0.5",
+            "D. 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Worded circuit: A BJT differential pair is biased by a 2 mA tail current. What is the quiescent collector current per transistor if perfectly matched?",
+        "choices": [
+            "A. 2 mA",
+            "B. 4 mA",
+            "C. 1 mA",
+            "D. 0.5 mA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "To reduce the output offset voltage due to input bias currents, the DC resistance seen by both inputs should be:",
+        "choices": [
+            "A. Zero",
+            "B. Infinite",
+            "C. Unequal",
+            "D. Equal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "The \"tail current\" of a differential amplifier flows through the:",
+        "choices": [
+            "A. Common emitter connection",
+            "B. Base terminals",
+            "C. Collector load",
+            "D. Power supply directly"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "A diff amp outputs 10 V for a 1 V diff input, and 0.01 V for a 1 V common-mode input. What is the CMRR in dB?",
+        "choices": [
+            "A. 40 dB",
+            "B. 60 dB",
+            "C. 80 dB",
+            "D. 100 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "Worded circuit: An NMOS diff amp uses a current mirror active load to provide a single-ended output. This configuration inherently converts a differential signal into a single-ended signal while providing:",
+        "choices": [
+            "A. High common-mode gain",
+            "B. Low output resistance",
+            "C. High differential voltage gain",
+            "D. Zero transconductance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "What is the primary advantage of a differential amplifier over a single-ended amplifier?",
+        "choices": [
+            "A. Higher power output",
+            "B. Simpler biasing",
+            "C. Wider bandwidth",
+            "D. Rejection of common-mode noise"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "In a vacuum tube, the electrode that emits electrons when heated is called the:",
+        "choices": [
+            "A. Cathode",
+            "B. Grid",
+            "C. Anode",
+            "D. Plate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "Which vacuum tube incorporates a control grid between the cathode and anode to control the electron flow?",
+        "choices": [
+            "A. Diode",
+            "B. Triode",
+            "C. Tetrode",
+            "D. Pentode"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "In a tetrode vacuum tube, a screen grid is added primarily to:",
+        "choices": [
+            "A. Increase electron emission",
+            "B. Provide secondary emission",
+            "C. Reduce interelectrode capacitance",
+            "D. Act as a heater"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "The phenomenon where electrons are emitted from a heated metal surface in a vacuum tube is called:",
+        "choices": [
+            "A. Photoelectric emission",
+            "B. Field emission",
+            "C. Secondary emission",
+            "D. Thermionic emission"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "A vacuum diode acts as a one-way valve for current. During the positive half cycle of an AC input at the plate, the tube is:",
+        "choices": [
+            "A. Forward biased (conducting)",
+            "B. Cutoff",
+            "C. Reverse biased",
+            "D. Saturated"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "An SCR is a solid-state device made of how many alternating layers of P and N type semiconductor materials?",
+        "choices": [
+            "A. Two",
+            "B. Four",
+            "C. Three",
+            "D. Five"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "What are the three terminals of a Silicon Controlled Rectifier (SCR)?",
+        "choices": [
+            "A. Base, Emitter, Collector",
+            "B. Gate, Source, Drain",
+            "C. Anode, Cathode, Gate",
+            "D. Main Terminal 1, Main Terminal 2, Gate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "The Shockley diode is essentially a thyristor without a:",
+        "choices": [
+            "A. Anode",
+            "B. P-N junction",
+            "C. Cathode",
+            "D. Gate"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "In the two-transistor model of an SCR, the device is represented by a complementary pair of transistors which are:",
+        "choices": [
+            "A. One NPN and one PNP",
+            "B. Two NPNs",
+            "C. Two PNPs",
+            "D. Two JFETs"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "Once an SCR is triggered into conduction by a gate pulse, how can it be turned off?",
+        "choices": [
+            "A. By applying a negative gate pulse",
+            "B. By dropping the anode current below the holding current",
+            "C. By increasing the anode voltage",
+            "D. By applying a positive gate pulse"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Worded circuit: An SCR is in series with a 100-ohm DC load. The supply is 50V DC. If latching current is 50 mA and holding current is 20 mA, will the SCR stay on after a momentary gate trigger?",
+        "choices": [
+            "A. No, because anode current > holding current",
+            "B. No, because the supply is DC",
+            "C. Yes, because anode current (500 mA) > latching current",
+            "D. Yes, because gate current is continuous"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "The minimum anode current required to maintain the SCR in the ON state immediately after the gate signal is removed is called the:",
+        "choices": [
+            "A. Latching current",
+            "B. Forward breakover current",
+            "C. Reverse recovery current",
+            "D. Holding current"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "In an SCR, the holding current (Ih) is generally:",
+        "choices": [
+            "A. Less than the latching current (Il)",
+            "B. Greater than the latching current (Il)",
+            "C. Equal to the latching current",
+            "D. Zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "If the forward voltage across an SCR exceeds its forward breakover voltage (VBO) with zero gate current, the SCR will:",
+        "choices": [
+            "A. Be destroyed immediately",
+            "B. Turn ON and conduct",
+            "C. Remain OFF",
+            "D. Act as an open circuit"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "To prevent false triggering of an SCR due to a high rate of rise of anode voltage (dv/dt), what protective circuit is commonly used?",
+        "choices": [
+            "A. Crowbar circuit",
+            "B. Freewheeling diode",
+            "C. Snubber circuit",
+            "D. Bleeder resistor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "An SCR conducts current in how many directions?",
+        "choices": [
+            "A. Bidirectional",
+            "B. Omnidirectional",
+            "C. Tridirectional",
+            "D. Unidirectional"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "When the SCR is in the reverse blocking mode, which junctions are reverse-biased?",
+        "choices": [
+            "A. J1 and J3",
+            "B. J2 and J3",
+            "C. J1 and J2",
+            "D. All three junctions"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "Increasing the gate current of an SCR has what effect on its forward breakover voltage?",
+        "choices": [
+            "A. It increases the forward breakover voltage",
+            "B. It decreases the forward breakover voltage",
+            "C. It has no effect on the breakover voltage",
+            "D. It makes the breakover voltage infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "A device that behaves like two SCRs connected in inverse-parallel with a common gate is the:",
+        "choices": [
+            "A. DIAC",
+            "B. PUT",
+            "C. TRIAC",
+            "D. GTO"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "In an AC circuit, an SCR can control power delivery to a load for a maximum of how many degrees per cycle?",
+        "choices": [
+            "A. 90 degrees",
+            "B. 270 degrees",
+            "C. 360 degrees",
+            "D. 180 degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "A TRIAC is a bidirectional thyristor that has how many terminals?",
+        "choices": [
+            "A. Three",
+            "B. Two",
+            "C. Four",
+            "D. Five"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "The terminals of a TRIAC are typically labeled as:",
+        "choices": [
+            "A. Anode, Cathode, Gate",
+            "B. MT1, MT2, Gate",
+            "C. Emitter, Base, Collector",
+            "D. Source, Drain, Gate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "A DIAC is basically a:",
+        "choices": [
+            "A. Bidirectional diode with a gate",
+            "B. Unidirectional thyristor without a gate",
+            "C. Bidirectional thyristor without a gate",
+            "D. Voltage regulator"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "The primary application of a DIAC in power electronics is:",
+        "choices": [
+            "A. As a main power switch",
+            "B. As an amplifier",
+            "C. As a rectifier",
+            "D. As a triggering device for a TRIAC"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "A TRIAC can be triggered into conduction in how many different operating modes (quadrants)?",
+        "choices": [
+            "A. Four",
+            "B. Two",
+            "C. Three",
+            "D. One"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Which triggering mode (quadrant) of a TRIAC is generally the least sensitive, requiring the highest gate current?",
+        "choices": [
+            "A. MT2+, G+ (Quadrant I)",
+            "B. MT2-, G+ (Quadrant IV)",
+            "C. MT2+, G- (Quadrant II)",
+            "D. MT2-, G- (Quadrant III)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "A standard DIAC typically breaks over and conducts when the applied voltage reaches approximately:",
+        "choices": [
+            "A. 0.7 V",
+            "B. 5 V",
+            "C. 30 V",
+            "D. 100 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Worded circuit: A TRIAC controls an AC load. A DIAC is in series with the TRIAC's gate. An RC network across the AC line feeds the DIAC. What is the DIAC's purpose?",
+        "choices": [
+            "A. To rectify the AC for the gate",
+            "B. To act as a snubber for the TRIAC",
+            "C. To limit the maximum load current",
+            "D. To provide a sharp, high-current pulse to the TRIAC gate when the capacitor reaches the breakover voltage"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "Commutation of a TRIAC in standard 50/60 Hz AC phase control applications occurs naturally at:",
+        "choices": [
+            "A. The zero-crossing of the load current",
+            "B. The peak of the AC wave",
+            "C. When a negative gate pulse is applied",
+            "D. When the capacitor fully charges"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "One disadvantage of a TRIAC compared to two inverse-parallel SCRs is:",
+        "choices": [
+            "A. The TRIAC has a higher current rating",
+            "B. The TRIAC has a lower dv/dt commutating capability",
+            "C. The TRIAC cannot be used for AC phase control",
+            "D. The TRIAC requires two separate gate drive circuits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "TRIAC stands for:",
+        "choices": [
+            "A. Thyristor Rectifier In AC",
+            "B. Tetrode for Alternating Current",
+            "C. Triode for Alternating Current",
+            "D. Triggered Rectifier In AC"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "The V-I characteristic curve of a DIAC most closely resembles that of:",
+        "choices": [
+            "A. An SCR",
+            "B. A Zener diode",
+            "C. A standard P-N junction diode",
+            "D. Two Shockley diodes in inverse-parallel"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "A Silicon Controlled Switch (SCS) differs from a standard SCR because it has:",
+        "choices": [
+            "A. Two gates",
+            "B. No gates",
+            "C. Five layers",
+            "D. A built-in snubber"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "The two gates of an SCS are designated as the:",
+        "choices": [
+            "A. Gate 1 and Gate 2",
+            "B. Anode gate and Cathode gate",
+            "C. Positive gate and Negative gate",
+            "D. Main gate and Sub gate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "In an SCS, applying a negative pulse to the anode gate will:",
+        "choices": [
+            "A. Turn the device OFF",
+            "B. Have no effect",
+            "C. Turn the device ON",
+            "D. Destroy the device"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "A Gate Turn-Off (GTO) thyristor is special because it can be turned off by:",
+        "choices": [
+            "A. Reversing the anode voltage",
+            "B. Dropping the load current",
+            "C. Shorting the anode to the cathode",
+            "D. Applying a negative pulse to the gate"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Compared to an SCR of similar rating, the negative gate current required to turn off a GTO is typically:",
+        "choices": [
+            "A. Very large (often 20% to 30% of the anode current)",
+            "B. Zero",
+            "C. Extremely small (microamps)",
+            "D. Equal to the anode current"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "GTOs are highly favored over standard SCRs in which type of circuits?",
+        "choices": [
+            "A. AC phase control rectifiers",
+            "B. DC-to-DC choppers and DC-to-AC inverters where natural commutation does not occur",
+            "C. Simple crowbar overvoltage protection",
+            "D. Very low power audio amplifiers"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "A Shockley diode conducts when the forward voltage exceeds the:",
+        "choices": [
+            "A. Zener voltage",
+            "B. Threshold voltage",
+            "C. Breakover voltage",
+            "D. Peak inverse voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "Worded circuit: An SCS is placed in a low-power logic circuit. A positive pulse at the cathode gate turns it on. To turn it off without interrupting the main power, a trigger circuit sends a pulse to the anode gate. What polarity must this turn-off pulse be?",
+        "choices": [
+            "A. Negative",
+            "B. Ground",
+            "C. AC",
+            "D. Positive"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "Which parameter is generally poorer (lower) in a GTO compared to a conventional SCR?",
+        "choices": [
+            "A. Surge current capability and reverse blocking voltage",
+            "B. Turn-off time",
+            "C. Forward voltage drop",
+            "D. Gate trigger sensitivity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "The Shockley diode is a p-n-p-n device. When forward biased below the breakover voltage, the middle junction (J2) is:",
+        "choices": [
+            "A. Forward biased",
+            "B. Reverse biased",
+            "C. Avalanche broken down",
+            "D. Shorted"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "The Unijunction Transistor (UJT) has how many P-N junctions?",
+        "choices": [
+            "A. Three",
+            "B. Two",
+            "C. One",
+            "D. Four"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "The terminals of a UJT are named:",
+        "choices": [
+            "A. Base, Emitter, Collector",
+            "B. Anode, Cathode, Gate",
+            "C. Source, Drain, Gate",
+            "D. Emitter, Base 1, Base 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "In a UJT, the intrinsic standoff ratio (eta) is mathematically defined as:",
+        "choices": [
+            "A. Rb1 / (Rb1 + Rb2)",
+            "B. Rb2 / (Rb1 + Rb2)",
+            "C. Rb1 / Rb2",
+            "D. Rb1 * Rb2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "A UJT has an intrinsic standoff ratio of 0.6. If VBB = 15V and the diode voltage drop is 0.7V, what is the peak-point voltage (Vp) required to trigger the UJT?",
+        "choices": [
+            "A. 9.0 V",
+            "B. 9.7 V",
+            "C. 10.7 V",
+            "D. 15.7 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Between the peak point and the valley point on a UJT's V-I characteristic curve, the device exhibits:",
+        "choices": [
+            "A. Constant current",
+            "B. Positive resistance",
+            "C. Negative resistance",
+            "D. Zero resistance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "PUT stands for:",
+        "choices": [
+            "A. Power Unijunction Transistor",
+            "B. Pulsed Unijunction Thyristor",
+            "C. Positive Unijunction Transistor",
+            "D. Programmable Unijunction Transistor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "Unlike the UJT, the intrinsic standoff ratio of a PUT is determined by:",
+        "choices": [
+            "A. An external resistor voltage divider connected to its gate",
+            "B. The temperature",
+            "C. The internal physical geometry of the device",
+            "D. The power supply voltage solely"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "A PUT is essentially a four-layer thyristor similar to an SCR, but with the gate connected to the:",
+        "choices": [
+            "A. P-region near the cathode (Cathode Gate)",
+            "B. N-region near the anode (Anode Gate)",
+            "C. Main Anode",
+            "D. Main Cathode"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Worded circuit: A UJT relaxation oscillator uses a timing resistor R and capacitor",
+        "choices": [
+            "C. The capacitor charges to Vp, then discharges rapidly. The output waveform taken across Base 1 is a:",
+            "A. Sine wave",
+            "B. Sawtooth wave",
+            "C. Sharp voltage spike"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "In the same UJT relaxation oscillator, the waveform across the timing capacitor is a:",
+        "choices": [
+            "A. Sharp voltage spike",
+            "B. Sine wave",
+            "C. Square wave",
+            "D. Exponential sweep (Sawtooth-like)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "Worded circuit: A PUT relaxation oscillator has an external voltage divider R1=10k and R2=10k setting the gate voltage. VBB = 12V. Assuming a 0.7V diode drop, at what anode voltage will the PUT fire?",
+        "choices": [
+            "A. 6.7 V",
+            "B. 12.7 V",
+            "C. 6.0 V",
+            "D. 0.7 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "The primary application of UJTs and PUTs in power electronics is:",
+        "choices": [
+            "A. Amplifying audio signals",
+            "B. Generating trigger pulses for SCRs and TRIACs",
+            "C. Rectifying AC to DC",
+            "D. Power inversion"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "SITH stands for:",
+        "choices": [
+            "A. Silicon Integrated Thyristor",
+            "B. Switching Induction Transistor",
+            "C. Static Induction Thyristor",
+            "D. Serial Input Thyristor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "A SITH is a normally-ON device. To turn it off, what must be applied to the gate?",
+        "choices": [
+            "A. A positive voltage",
+            "B. A zero voltage",
+            "C. An AC voltage",
+            "D. A negative voltage"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "Compared to a standard GTO, a SITH generally possesses:",
+        "choices": [
+            "A. Faster switching speeds and higher dv/dt capability",
+            "B. Slower switching speeds and higher conduction losses",
+            "C. Inability to be turned off via the gate",
+            "D. A completely different 5-layer structure"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "The process of turning on an SCR is commonly referred to as:",
+        "choices": [
+            "A. Commutating",
+            "B. Firing or Triggering",
+            "C. Latching",
+            "D. Snubbing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Which of the following is NOT a valid method to turn on an SCR?",
+        "choices": [
+            "A. Exceeding the forward breakover voltage",
+            "B. Gate triggering",
+            "C. Reversing the anode-cathode polarity",
+            "D. Applying a high rate of change of voltage (dv/dt)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "To reliably trigger an SCR with a noisy trigger signal, what is typically placed between the gate and cathode?",
+        "choices": [
+            "A. A capacitor in series",
+            "B. A large inductor",
+            "C. A battery",
+            "D. A gate-to-cathode bypass resistor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "Worded circuit: A pulse transformer is used to trigger an SCR. The main purpose of the pulse transformer is to:",
+        "choices": [
+            "A. Provide electrical isolation between the low-voltage control circuit and the high-voltage power circuit",
+            "B. Step up the main AC line voltage",
+            "C. Convert DC to AC for the gate",
+            "D. Increase the holding current"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "What type of trigger signal is generally preferred for SCRs to minimize gate power dissipation while ensuring reliable firing?",
+        "choices": [
+            "A. A continuous DC current",
+            "B. A train of short-duration pulses",
+            "C. A high-frequency AC current",
+            "D. A slow-rising ramp current"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "When triggering an SCR, the gate voltage and gate current must fall within a specific operational area on the graph bounded by the:",
+        "choices": [
+            "A. Latching current limit",
+            "B. Breakdown voltage of the anode",
+            "C. Maximum average gate power dissipation curve",
+            "D. Minimum holding current line"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "Turning on a thyristor using a beam of light is utilized in which specific device?",
+        "choices": [
+            "A. TRIAC",
+            "B. GTO",
+            "C. DIAC",
+            "D. LASCR"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "In a UJT trigger circuit for an SCR, the pulse output from the UJT's Base 1 is usually coupled to the SCR gate via a:",
+        "choices": [
+            "A. Pulse transformer or direct connection",
+            "B. Series resistor only",
+            "C. Large capacitor",
+            "D. Low-pass filter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "Thermal triggering of an SCR occurs when:",
+        "choices": [
+            "A. The gate is heated with a soldering iron",
+            "B. High junction temperature increases leakage current enough to initiate regenerative switching",
+            "C. A heat sink is removed",
+            "D. The snubber circuit overheats"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "False triggering of an SCR can occur if the anode voltage rises too quickly. This is known as:",
+        "choices": [
+            "A. di/dt triggering",
+            "B. Light triggering",
+            "C. dv/dt triggering",
+            "D. Gate triggering"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "The process of turning OFF a conducting thyristor is called:",
+        "choices": [
+            "A. Triggering",
+            "B. Latching",
+            "C. Blanking",
+            "D. Commutation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "In AC circuits, an SCR automatically turns off when the AC sine wave crosses zero and the anode current drops below the holding current. This is called:",
+        "choices": [
+            "A. Natural (or Line) commutation",
+            "B. Resonant commutation",
+            "C. Forced commutation",
+            "D. Gate turn-off"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "In DC circuits, SCRs do not turn off naturally. A separate circuit must momentarily force the anode current to zero or reverse the anode-cathode voltage. This is known as:",
+        "choices": [
+            "A. Phase control",
+            "B. Forced commutation",
+            "C. Natural commutation",
+            "D. Snubber action"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "A common forced commutation technique connects a pre-charged capacitor across the conducting SCR via an auxiliary switch to reverse-bias it. This is generally termed:",
+        "choices": [
+            "A. Natural commutation",
+            "B. Line commutation",
+            "C. Voltage commutation (Forced)",
+            "D. Current commutation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "The \"turn-off time\" (t_q) of an SCR is the time interval between the instant anode current becomes zero and the instant when:",
+        "choices": [
+            "A. The next trigger pulse is applied",
+            "B. The gate current reaches zero",
+            "C. The snubber capacitor fully discharges",
+            "D. The SCR can block forward voltage without turning on"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "Forced commutation is absolutely essential for standard SCRs operating in which type of circuits?",
+        "choices": [
+            "A. DC choppers and inverters",
+            "B. Controlled half-wave rectifiers",
+            "C. AC voltage controllers",
+            "D. AC switches"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "Worded circuit: An SCR is commutated by an LC resonant circuit placed in parallel with the load. As the LC circuit rings, its reversing current forces the total SCR current to zero. This is an example of:",
+        "choices": [
+            "A. Natural commutation",
+            "B. Current commutation (Forced)",
+            "C. Phase control",
+            "D. Light triggering"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "If forward voltage is re-applied to an SCR before the device has fully recovered (i.e., time < t_q), what will happen?",
+        "choices": [
+            "A. The SCR will block the voltage",
+            "B. The SCR will permanently fail",
+            "C. The SCR will conduct without a gate pulse",
+            "D. The SCR will turn into a DIAC"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "In a single-phase fully controlled bridge rectifier feeding a highly inductive load, the commutation of the SCRs relies on:",
+        "choices": [
+            "A. A forced commutation capacitor",
+            "B. Gate turn-off pulses",
+            "C. The load's back EMF",
+            "D. Natural line commutation from the AC source"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Which thyristor device specifically eliminates the need for bulky forced commutation circuits in DC applications?",
+        "choices": [
+            "A. Gate Turn-Off (GTO) thyristor",
+            "B. DIAC",
+            "C. Shockley Diode",
+            "D. Standard SCR"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Phase control is a method used to control the average power delivered to a load by varying the:",
+        "choices": [
+            "A. Amplitude of the AC supply",
+            "B. Firing angle (delay angle) of the thyristors",
+            "C. Frequency of the AC supply",
+            "D. Resistance of the load"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "In a single-phase half-wave SCR circuit with a resistive load, if the firing angle is 90 degrees, the SCR conducts for how many degrees?",
+        "choices": [
+            "A. 180 degrees",
+            "B. 45 degrees",
+            "C. 90 degrees",
+            "D. 0 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "For the same half-wave SCR circuit with a purely resistive load, the average DC output voltage V_dc as a function of peak AC voltage Vm and firing angle alpha is given by:",
+        "choices": [
+            "A. V_dc = (Vm / pi) * (1 + cos(alpha))",
+            "B. V_dc = (2*Vm / pi) * cos(alpha)",
+            "C. V_dc = Vm * sin(alpha)",
+            "D. V_dc = (Vm / (2*pi)) * (1 + cos(alpha))"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "A standard snubber circuit for an SCR consists of:",
+        "choices": [
+            "A. A resistor and a capacitor in series, placed across the SCR",
+            "B. An inductor and a capacitor in parallel",
+            "C. A diode and a resistor in series",
+            "D. Two back-to-back Zener diodes"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "The primary function of the capacitor in an RC snubber circuit is to:",
+        "choices": [
+            "A. Limit the maximum anode current",
+            "B. Protect the SCR against high dv/dt by absorbing transient energy",
+            "C. Protect the SCR against high di/dt",
+            "D. Provide a triggering pulse"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "In an RC snubber circuit placed across an SCR, the resistor is included primarily to:",
+        "choices": [
+            "A. Bleed off the AC line voltage",
+            "B. Increase the dv/dt rating of the SCR",
+            "C. Limit the di/dt of the discharge current from the snubber capacitor when the SCR turns on",
+            "D. Protect against overcurrent from the load"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Worded circuit: An AC light dimmer uses a TRIAC. A variable resistor and capacitor form a phase-shift network triggering a DIAC. Turning the variable resistor increases the resistance. What happens to the light bulb?",
+        "choices": [
+            "A. It gets brighter because the firing angle decreases",
+            "B. It flashes rapidly",
+            "C. It turns off immediately",
+            "D. It gets dimmer because the firing angle increases"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "In a full-wave controlled rectifier with a highly inductive load (continuous conduction), if the firing angle is greater than 90 degrees, the average DC output voltage is:",
+        "choices": [
+            "A. Negative (acting as an inverter if a DC source is present)",
+            "B. Positive",
+            "C. Zero",
+            "D. Infinite"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "To protect an SCR against excessively high rates of change of current (di/dt), what is typically placed in series with the SCR?",
+        "choices": [
+            "A. A small resistor",
+            "B. A small inductor",
+            "C. A small capacitor",
+            "D. A Zener diode"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "The angle between the zero-crossing of the AC supply and the instant the SCR is triggered is called the:",
+        "choices": [
+            "A. Conduction angle",
+            "B. Commutation angle",
+            "C. Firing angle (delay angle)",
+            "D. Extinction angle"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "The sum of the firing angle (alpha) and the conduction angle (theta) for a half-wave SCR circuit with a resistive load is always equal to:",
+        "choices": [
+            "A. 90 degrees",
+            "B. 270 degrees",
+            "C. 360 degrees (2*pi radians)",
+            "D. 180 degrees (pi radians)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "When an SCR is used for AC phase control with a purely inductive load, conduction continues past the 180-degree zero-crossing point. Why?",
+        "choices": [
+            "A. Because the inductor's magnetic field collapses, inducing a forward voltage that keeps the SCR conducting",
+            "B. Due to the snubber capacitor discharging",
+            "C. Due to the SCR's holding current being infinite",
+            "D. Because of the gate pulse remains active"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "In a fully controlled bridge rectifier (4 SCRs), how many SCRs must be triggered simultaneously for current to flow to the load?",
+        "choices": [
+            "A. One",
+            "B. Two",
+            "C. Three",
+            "D. Four"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "Overvoltage protection for thyristors is commonly provided by placing which device in parallel with the thyristor?",
+        "choices": [
+            "A. Inductor",
+            "B. Transistor",
+            "C. Metal Oxide Varistor (MOV)",
+            "D. Transformer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "If a single-phase full-converter (bridge) has a firing angle of 0 degrees, it essentially behaves like a:",
+        "choices": [
+            "A. Half-wave rectifier",
+            "B. DC-to-AC inverter",
+            "C. Chopper",
+            "D. Uncontrolled diode bridge rectifier"
+        ],
+        "correct_answer": "D"
+    }
+]

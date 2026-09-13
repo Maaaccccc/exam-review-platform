@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "Inside a Line Control Unit (LCU), the UART performs parallel-to-serial conversion on data traveling in which specific direction?",
+        "choices": [
+            "A. From the DCE to the DTE",
+            "B. From the communications line to the host CPU",
+            "C. From the host CPU's parallel bus to the serial communications line",
+            "D. From the terminal's keyboard to its own screen"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "What is the primary architectural purpose of a Front-End Processor (FEP) in a legacy mainframe network?",
+        "choices": [
+            "A. To relieve the mainframe host computer of the heavy processing overhead associated with managing data communications",
+            "B. To act as a passive terminal multiplexer without any intelligence",
+            "C. To modulate digital data into analog telephone signals",
+            "D. To replace the mainframe CPU entirely"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "According to the EIA RS-232 serial interface standard, a logic '0' (Space) is strictly represented by a voltage level in the range of:",
+        "choices": [
+            "A. -3V to -15V",
+            "B. +3V to +15V",
+            "C. 0V to +5V",
+            "D. -1V to +1V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 4,
+        "question": "What is the primary technical advantage of using differential (balanced) signaling in an RS-422 interface compared to the unbalanced signaling of RS-232?",
+        "choices": [
+            "A. It utilizes only a single wire referenced to ground",
+            "B. It requires less power to operate",
+            "C. It allows for analog data transmission over short distances",
+            "D. It provides high immunity to common-mode noise, allowing for higher speeds and much longer cable distances"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "When connecting two DTE devices directly together (e.g., PC to PC) without utilizing a DCE in between, what specific type of RS-232 cable configuration is strictly required?",
+        "choices": [
+            "A. Null modem (crossover) cable",
+            "B. Straight-through patch cable",
+            "C. Coaxial trunk cable",
+            "D. Rollover console cable"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "For an RS-485 multi-drop serial network, what physical component is strictly required at both extreme ends of the main cable bus to prevent signal reflections and data corruption?",
+        "choices": [
+            "A. An active optical hub",
+            "B. A signal amplifier or repeater",
+            "C. A terminating resistor matching the cable's characteristic impedance",
+            "D. A common ground loop wire"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "If a UART receiver utilizes a 16x oversampling clock and the desired baud rate is 19,200 bps, what must be the exact operating frequency of the internal UART clock?",
+        "choices": [
+            "A. 19.2 kHz",
+            "B. 307.2 kHz",
+            "C. 153.6 kHz",
+            "D. 1.2 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "Which hardware handshaking signals in the RS-232 standard are traditionally used together to implement physical flow control between a DTE and a DCE?",
+        "choices": [
+            "A. TxD and RxD",
+            "B. RI and CD",
+            "C. DTR and DSR",
+            "D. RTS and CTS"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "In information security, the foundational \"CIA Triad\" stands for which three core objectives?",
+        "choices": [
+            "A. Confidentiality, Integrity, and Availability",
+            "B. Cryptography, Identity, and Authorization",
+            "C. Confidentiality, Integrity, and Authentication",
+            "D. Control, Information, and Access"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "Which data security objective specifically ensures that sensitive information is not disclosed to or accessed by unauthorized individuals, processes, or systems?",
+        "choices": [
+            "A. Integrity",
+            "B. Confidentiality",
+            "C. Availability",
+            "D. Non-repudiation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "Which data security objective guarantees that data has not been altered, tampered with, or corrupted during storage or transmission?",
+        "choices": [
+            "A. Availability",
+            "B. Confidentiality",
+            "C. Integrity",
+            "D. Authentication"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "Which core security principle ensures that network systems, data, and applications are accessible and operational for authorized users whenever they are needed?",
+        "choices": [
+            "A. Non-repudiation",
+            "B. Integrity",
+            "C. Confidentiality",
+            "D. Availability"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "A Distributed Denial of Service (DDoS) attack primarily compromises which specific objective of the CIA Triad?",
+        "choices": [
+            "A. Availability",
+            "B. Confidentiality",
+            "C. Integrity",
+            "D. Authentication"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "If a man-in-the-middle attacker successfully intercepts a financial transaction packet and changes the deposit amount from 100 to 10,000 before forwarding it, which security objective has been fundamentally breached?",
+        "choices": [
+            "A. Confidentiality",
+            "B. Availability",
+            "C. Integrity",
+            "D. Non-repudiation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "Which security concept ensures that a sender cannot deny having sent a specific message, and the recipient cannot deny having received it?",
+        "choices": [
+            "A. Authentication",
+            "B. Non-repudiation",
+            "C. Integrity",
+            "D. Confidentiality"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "An attacker uses a network sniffer to passively capture unencrypted FTP traffic and reads user passwords. Which security principle is directly violated?",
+        "choices": [
+            "A. Integrity",
+            "B. Availability",
+            "C. Non-repudiation",
+            "D. Confidentiality"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "In cryptography, what is the primary security objective fulfilled by utilizing a cryptographic hash function (e.g., SHA-256) on a file?",
+        "choices": [
+            "A. Securing the data against unauthorized reading",
+            "B. Ensuring the system remains available",
+            "C. Verifying the integrity of the data",
+            "D. Guaranteeing the sender's identity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 18,
+        "question": "The process of encryption—converting plaintext into unreadable ciphertext—primarily addresses which core component of the CIA triad?",
+        "choices": [
+            "A. Confidentiality",
+            "B. Integrity",
+            "C. Availability",
+            "D. Authorization"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "Implementing redundant power supplies, RAID storage arrays, and backup internet links are physical controls primarily designed to ensure data:",
+        "choices": [
+            "A. Integrity",
+            "B. Availability",
+            "C. Confidentiality",
+            "D. Non-repudiation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "A database administrator replaces the middle digits of customer credit card numbers with asterisks (e.g., 4111-**-**-1111) on a display screen. This practice of data masking primarily preserves:",
+        "choices": [
+            "A. Non-repudiation",
+            "B. Integrity",
+            "C. Availability",
+            "D. Confidentiality"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "In cryptographic terminology, the original, readable message is referred to as:",
+        "choices": [
+            "A. Plaintext",
+            "B. Ciphertext",
+            "C. The initialization vector",
+            "D. The hash digest"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "The mathematical study and practice of analyzing information systems to study hidden aspects, often aimed at breaching cryptographic security systems and decrypting ciphertext without the key, is called:",
+        "choices": [
+            "A. Steganography",
+            "B. Cryptography",
+            "C. Cryptanalysis",
+            "D. Data obfuscation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "Which foundational cryptographic principle states that a cryptosystem should remain secure even if everything about the system, except the secret key, is public knowledge?",
+        "choices": [
+            "A. Shannon's Maxim",
+            "B. Kerckhoffs's Principle",
+            "C. Moore's Law",
+            "D. The Diffie-Hellman Postulate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "The ancient Caesar cipher, which replaces each letter in a message with a letter a fixed number of positions down the alphabet, is a classic example of a:",
+        "choices": [
+            "A. Transposition cipher",
+            "B. Stream cipher",
+            "C. Hash function",
+            "D. Substitution cipher"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "A cipher that rearranges the order of the characters in a plaintext message without changing the actual characters themselves (e.g., writing the message in a grid and reading it by columns) is called a:",
+        "choices": [
+            "A. Substitution cipher",
+            "B. Block cipher",
+            "C. Transposition cipher",
+            "D. Stream cipher"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "While cryptography hides the meaning of a message, which related practice involves hiding the very existence of the message itself (e.g., embedding a secret text file within the pixels of a digital image)?",
+        "choices": [
+            "A. Steganography",
+            "B. Obfuscation",
+            "C. Hashing",
+            "D. Watermarking"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "An encryption algorithm that divides the plaintext into fixed-size chunks (e.g., 64 bits or 128 bits) and encrypts each chunk as a single unit is known as a:",
+        "choices": [
+            "A. Stream cipher",
+            "B. Block cipher",
+            "C. Hash function",
+            "D. Public key cryptosystem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "Stream ciphers encrypt plaintext digits one at a time. To ensure security, a stream cipher heavily relies on generating a long, unpredictable sequence of bits known as a:",
+        "choices": [
+            "A. Hash digest",
+            "B. Block pad",
+            "C. Digital signature",
+            "D. Keystream"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "In many encryption modes, a random or pseudo-random block of data is combined with the first block of plaintext before encryption to ensure that identical plaintexts produce different ciphertexts. This block is called the:",
+        "choices": [
+            "A. Initialization Vector (IV)",
+            "B. Message Authentication Code (MAC)",
+            "C. Public Key",
+            "D. Hash Digest"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "In the context of cryptographic key generation, the measure of randomness, unpredictability, and uncertainty in a generated number or key is referred to as:",
+        "choices": [
+            "A. Diffusion",
+            "B. Confusion",
+            "C. Entropy",
+            "D. Redundancy"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "The \"One-Time Pad\" is a theoretically unbreakable encryption scheme. Which of the following is a strict requirement for a one-time pad to achieve perfect secrecy?",
+        "choices": [
+            "A. The key must be shorter than the message to save memory",
+            "B. The key must be completely random, exactly the same length as the plaintext, and never reused",
+            "C. The key must be generated using an asymmetric algorithm",
+            "D. The ciphertext must be transmitted over a secure channel"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "Which prominent mathematician formally proved that the One-Time Pad cipher provides \"perfect secrecy\" and is mathematically unbreakable if implemented correctly?",
+        "choices": [
+            "A. Whitfield Diffie",
+            "B. Ron Rivest",
+            "C. Alan Turing",
+            "D. Claude Shannon"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "An attacker attempts to decrypt a ciphertext by systematically trying every single possible key combination until the correct one is found. This is known as a:",
+        "choices": [
+            "A. Dictionary attack",
+            "B. Meet-in-the-middle attack",
+            "C. Brute-force (exhaustive search) attack",
+            "D. Frequency analysis attack"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "Which classical cryptanalysis technique relies on the fact that certain letters (like 'E' or 'T') appear much more often than others in standard English text, making it highly effective against simple monoalphabetic substitution ciphers?",
+        "choices": [
+            "A. Frequency analysis",
+            "B. Chosen-plaintext attack",
+            "C. Birthday attack",
+            "D. Differential cryptanalysis"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "Modern stream ciphers encrypt data by combining the plaintext bitstream with a pseudo-random keystream. Which bitwise logical operation is almost universally used for this combination because it is perfectly reversible?",
+        "choices": [
+            "A. AND",
+            "B. XOR (Exclusive OR)",
+            "C. OR",
+            "D. NAND"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "A plaintext nibble is 1010 and the keystream nibble is 1100. Using the standard XOR encryption operation, what is the resulting ciphertext nibble?",
+        "choices": [
+            "A. 1110",
+            "B. 1000",
+            "C. 0111",
+            "D. 0110"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "In a block cipher, if an error in a single bit of the ciphertext causes exactly one corresponding block of plaintext to be corrupted upon decryption, plus a single bit error in the next block, the cipher is likely operating in which mode?",
+        "choices": [
+            "A. Electronic Codebook (ECB)",
+            "B. Output Feedback (OFB)",
+            "C. Cipher Block Chaining (CBC)",
+            "D. Counter (CTR)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "If a plaintext message is not an exact multiple of the block size required by a block cipher (e.g., AES requires 128-bit blocks), what cryptographic mechanism must be applied before encryption?",
+        "choices": [
+            "A. Padding (e.g., PKCS#7)",
+            "B. Hashing",
+            "C. Key stretching",
+            "D. Stream conversion"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "An encryption system where the sender and receiver both use the exact same secret key for both encryption and decryption is classified as:",
+        "choices": [
+            "A. Asymmetric cryptography",
+            "B. Symmetric (secret-key) cryptography",
+            "C. Public-key cryptography",
+            "D. Quantum cryptography"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "The Data Encryption Standard (DES), adopted as a federal standard in 1977, uses a block size of 64 bits. What is its effective secret key length?",
+        "choices": [
+            "A. 128 bits",
+            "B. 64 bits",
+            "C. 112 bits",
+            "D. 56 bits"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "The Advanced Encryption Standard (AES), which replaced DES, processes data in fixed block sizes of exactly:",
+        "choices": [
+            "A. 128 bits",
+            "B. 256 bits",
+            "C. 64 bits",
+            "D. 512 bits"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "Which of the following represents the three valid, standard key lengths supported by the Advanced Encryption Standard (AES) algorithm?",
+        "choices": [
+            "A. 64, 128, and 256 bits",
+            "B. 112, 128, and 192 bits",
+            "C. 128, 192, and 256 bits",
+            "D. 128, 256, and 512 bits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "In a purely symmetric cryptosystem, if N users need to communicate securely with every other user in the network on a direct, peer-to-peer basis, what is the mathematical formula for the total number of unique secret keys required?",
+        "choices": [
+            "A. 2^N",
+            "B. N(N-1)/2",
+            "C. N^2",
+            "D. 2N"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "A corporate department has 10 employees. If they rely strictly on symmetric encryption for secure pairwise email communication between any two employees, how many total unique secret keys must be managed?",
+        "choices": [
+            "A. 10",
+            "B. 20",
+            "C. 100",
+            "D. 45"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Triple DES (3DES) applies the DES algorithm three times to each data block. In the strongest 3-key configuration (3TDEA), what is the effective length of the aggregate secret key?",
+        "choices": [
+            "A. 168 bits",
+            "B. 56 bits",
+            "C. 128 bits",
+            "D. 256 bits"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "What is the primary operational advantage of symmetric encryption algorithms (like AES) when compared directly to asymmetric encryption algorithms (like RSA)?",
+        "choices": [
+            "A. They do not require a secret key",
+            "B. They provide built-in non-repudiation",
+            "C. They are computationally less intensive and operate at significantly faster processing speeds",
+            "D. They completely eliminate the key distribution problem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "What is the fundamental engineering disadvantage or challenge associated with implementing a purely symmetric encryption system over a large, geographically dispersed public network?",
+        "choices": [
+            "A. Symmetric ciphers are easily broken by quantum computers",
+            "B. The secure distribution and management of the shared secret keys between communicating parties",
+            "C. The inability to encrypt files larger than 1 megabyte",
+            "D. The encryption process is thousands of times slower than asymmetric encryption"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "Many classical symmetric block ciphers, including DES, utilize a design architecture where the plaintext block is split into two halves, and a round function is applied to one half and XORed with the other half before swapping. This architecture is called a:",
+        "choices": [
+            "A. Merkle-Damgård construction",
+            "B. Substitution-Permutation Network",
+            "C. Galois/Counter Mode",
+            "D. Feistel network"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "Unlike DES, the Advanced Encryption Standard (AES) does not use a Feistel structure. Instead, AES is based on a design principle that applies multiple alternating layers of substitution and permutation. This is known as a:",
+        "choices": [
+            "A. Substitution-Permutation Network (SPN)",
+            "B. Shift-Register Network",
+            "C. Sponge function",
+            "D. Hash-based Message Authentication Code (HMAC)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "Which mode of operation for block ciphers is considered highly insecure for encrypting large amounts of structured data because identical plaintext blocks are always encrypted into identical ciphertext blocks, revealing data patterns?",
+        "choices": [
+            "A. Cipher Block Chaining (CBC) mode",
+            "B. Counter (CTR) mode",
+            "C. Electronic Codebook (ECB) mode",
+            "D. Output Feedback (OFB) mode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "In Cipher Block Chaining (CBC) mode, what is required to initiate the encryption of the very first block of plaintext to ensure uniqueness?",
+        "choices": [
+            "A. A secondary encryption key",
+            "B. An Initialization Vector (IV)",
+            "C. A digital certificate",
+            "D. A hash digest of the entire message"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "Which symmetric algorithm is a widely known software-based stream cipher that was historically used in early wireless security protocols like WEP, but is now considered insecure due to statistical biases in its keystream?",
+        "choices": [
+            "A. AES",
+            "B. DES",
+            "C. RSA",
+            "D. RC4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "If an encryption algorithm utilizes a 128-bit symmetric key, how many mathematically possible keys exist in its total key space?",
+        "choices": [
+            "A. 2^128",
+            "B. 128^2",
+            "C. 128 × 2",
+            "D. 10^128"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "A supercomputer can test 2^50 keys per second. Roughly how long would it take in the worst-case scenario to exhaustively brute-force a standard 56-bit DES key?",
+        "choices": [
+            "A. 2^50 seconds",
+            "B. 2^6 seconds",
+            "C. 2^6 seconds (approx 64 seconds)",
+            "D. 2^3 seconds"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "Why was \"Double DES\" (encrypting plaintext twice with two 56-bit keys) never widely adopted as a standard upgrade to DES, forcing the industry to adopt Triple DES instead?",
+        "choices": [
+            "A. It doubled the encryption speed, violating export laws",
+            "B. It is vulnerable to a \"Meet-in-the-Middle\" attack, making its effective security strength far less than 112 bits",
+            "C. It requires an initialization vector of 112 bits",
+            "D. It only works on 32-bit blocks"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "The number of internal rounds performed by the AES algorithm depends on the length of the secret key. How many rounds are executed when using a 256-bit AES key?",
+        "choices": [
+            "A. 10 rounds",
+            "B. 12 rounds",
+            "C. 16 rounds",
+            "D. 14 rounds"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "In block ciphers like AES, what is the primary cryptographic purpose of the Substitution boxes (S-boxes) during the round transformations?",
+        "choices": [
+            "A. To introduce non-linearity into the cipher, obscuring the algebraic relationship between the key and the ciphertext",
+            "B. To increase the speed of the encryption algorithm",
+            "C. To ensure the ciphertext is exactly the same length as the plaintext",
+            "D. To distribute the key securely"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "In a Substitution-Permutation Network, the Permutation boxes (P-boxes) primarily serve to scatter the bits of the modified data across the block. This scattering specifically fulfills which cryptographic principle?",
+        "choices": [
+            "A. Confusion",
+            "B. Non-repudiation",
+            "C. Diffusion",
+            "D. Forward secrecy"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "According to Claude Shannon, the property that makes the relationship between the statistics of the ciphertext and the value of the encryption key as complex as possible is called:",
+        "choices": [
+            "A. Diffusion",
+            "B. Confusion",
+            "C. Entropy",
+            "D. Obfuscation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "In asymmetric cryptography, each user is assigned a mathematically linked pair of cryptographic keys. These are specifically referred to as the:",
+        "choices": [
+            "A. Master key and Session key",
+            "B. Symmetric key and Hash key",
+            "C. Primary key and Foreign key",
+            "D. Public key and Private key"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "If Bob wants to send a strictly confidential message to Alice using an asymmetric encryption system, which specific key must Bob use to encrypt the plaintext message?",
+        "choices": [
+            "A. Alice's public key",
+            "B. Bob's private key",
+            "C. Alice's private key",
+            "D. Bob's public key"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "The security of the RSA asymmetric algorithm fundamentally relies on the extreme computational difficulty of which mathematical problem?",
+        "choices": [
+            "A. Computing discrete logarithms",
+            "B. Solving the traveling salesperson problem",
+            "C. Factoring the product of two very large prime numbers",
+            "D. Calculating elliptic curve discrete logarithms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "Which of the following asymmetric cryptographic algorithms was revolutionary because it allowed two parties with no prior arrangement to securely establish a shared secret key over an insecure, eavesdropped channel?",
+        "choices": [
+            "A. RSA Algorithm",
+            "B. Diffie-Hellman Key Exchange",
+            "C. Advanced Encryption Standard (AES)",
+            "D. Digital Signature Algorithm (DSA)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "Elliptic Curve Cryptography (ECC) is highly favored in modern mobile and IoT security applications primarily because it:",
+        "choices": [
+            "A. Relies on symmetric encryption",
+            "B. Cannot be broken by quantum computers",
+            "C. Is the oldest and most trusted algorithm",
+            "D. Provides equivalent security to RSA but requires significantly shorter key lengths, reducing processing overhead"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "What is a major operational disadvantage of asymmetric encryption algorithms compared to symmetric algorithms?",
+        "choices": [
+            "A. They are computationally intensive and operate significantly slower, making them unsuitable for encrypting large volumes of data",
+            "B. They require a secure channel to exchange the public key",
+            "C. They cannot provide digital signatures",
+            "D. They require N(N-1)/2 keys for a network of N users"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "In a purely asymmetric cryptosystem network with N users, where each user has their own key pair, how many total cryptographic keys exist in the system?",
+        "choices": [
+            "A. N^2",
+            "B. N(N-1)/2",
+            "C. 2N",
+            "D. N"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "An organization has 10 users. If they implement a purely asymmetric cryptosystem for secure email, how many total keys (public and private combined) will exist in the organization?",
+        "choices": [
+            "A. 10",
+            "B. 20",
+            "C. 45",
+            "D. 100"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "Alice needs to send a sensitive contract to Bob. To ensure that only Bob can read the contract, Alice encrypts it using:",
+        "choices": [
+            "A. Alice's private key",
+            "B. Alice's public key",
+            "C. Bob's private key",
+            "D. Bob's public key"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "Following the previous scenario, Bob receives the encrypted contract from Alice. To decrypt and read the contract, Bob must use:",
+        "choices": [
+            "A. Bob's private key",
+            "B. Bob's public key",
+            "C. Alice's private key",
+            "D. Alice's public key"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "In the RSA algorithm key generation process, the user selects two large distinct prime numbers, p and q. The system modulus n, which is part of both the public and private keys, is calculated as:",
+        "choices": [
+            "A. n = p + q",
+            "B. n = p^q",
+            "C. n = p × q",
+            "D. n = (p-1) × (q-1)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "In RSA key generation, Euler's totient function, denoted as φ(n), determines the number of positive integers less than n that are relatively prime to n. For primes p and q, what is the formula for φ(n)?",
+        "choices": [
+            "A. φ(n) = p × q",
+            "B. φ(n) = (p-1) × (q-1)",
+            "C. φ(n) = p + q - 1",
+            "D. φ(n) = (p+1) × (q+1)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "An engineering student generates a miniature RSA key pair using primes p=5 and q=11. Calculate the public modulus n and Euler's totient φ(n).",
+        "choices": [
+            "A. n=16, φ(n)=16",
+            "B. n=55, φ(n)=55",
+            "C. n=55, φ(n)=54",
+            "D. n=55, φ(n)=40"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "Because public keys are distributed openly, an attacker could substitute their own public key for a legitimate user's. To prevent this, public keys are bound to a verified identity using a cryptographic document called a:",
+        "choices": [
+            "A. Digital Certificate",
+            "B. Key Escrow",
+            "C. Hash Digest",
+            "D. Initialization Vector"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "The comprehensive framework of hardware, software, policies, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates is collectively known as a:",
+        "choices": [
+            "A. Virtual Private Network (VPN)",
+            "B. Key Distribution Center (KDC)",
+            "C. Public Key Infrastructure (PKI)",
+            "D. Web of Trust"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "In a Public Key Infrastructure (PKI), which specific entity is trusted to verify identities and digitally sign and issue digital certificates?",
+        "choices": [
+            "A. Registration Authority (RA)",
+            "B. Certificate Authority (CA)",
+            "C. Key Escrow Agent",
+            "D. Validation Authority (VA)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "Because asymmetric encryption is slow, modern secure protocols like HTTPS utilize a two-step process: asymmetric encryption is used to securely exchange a temporary session key, and then symmetric encryption is used for the actual data transfer. This approach is called:",
+        "choices": [
+            "A. Double Encryption",
+            "B. Stream Encryption",
+            "C. Quantum Cryptography",
+            "D. Hybrid Encryption"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "The basic (unauthenticated) Diffie-Hellman key exchange algorithm is highly vulnerable to which specific type of cryptographic attack if used on a public network?",
+        "choices": [
+            "A. Man-in-the-Middle (MitM) attack",
+            "B. Ciphertext-only attack",
+            "C. Brute-force attack",
+            "D. Birthday attack"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "Which asymmetric encryption system relies on the computational difficulty of finding discrete logarithms in a cyclic group, rather than factoring prime numbers?",
+        "choices": [
+            "A. RSA",
+            "B. Knapsack",
+            "C. ElGamal",
+            "D. MD5"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "Which theoretical algorithm, designed to run on a sufficiently powerful quantum computer, poses an existential threat to RSA by rapidly factoring large integers?",
+        "choices": [
+            "A. Grover's algorithm",
+            "B. Shor's algorithm",
+            "C. Euclidean algorithm",
+            "D. Viterbi algorithm"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "In data security, the process of verifying the identity of a user, device, or system entity before granting access is formally known as:",
+        "choices": [
+            "A. Authorization",
+            "B. Auditing",
+            "C. Non-repudiation",
+            "D. Authentication"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "Multi-Factor Authentication (MFA) requires the user to provide two or more verification factors. \"A smart card\" and \"a fingerprint scan\" correspond to which two standard authentication factors, respectively?",
+        "choices": [
+            "A. Something you have; Something you are",
+            "B. Something you know; Something you are",
+            "C. Something you are; Something you have",
+            "D. Something you know; Something you have"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "A digital signature applied to an electronic document primarily provides which three security guarantees?",
+        "choices": [
+            "A. Confidentiality, Availability, and Authentication",
+            "B. Encryption, Hashing, and Compression",
+            "C. Authentication, Data Integrity, and Non-repudiation",
+            "D. Authorization, Auditing, and Accounting"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "If Alice wants to send a digitally signed message to Bob, ensuring that Bob knows it definitively came from her, which key must Alice use to create the signature?",
+        "choices": [
+            "A. Alice's public key",
+            "B. Alice's private key",
+            "C. Bob's public key",
+            "D. Bob's private key"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "Upon receiving the digitally signed message from Alice, Bob must verify the signature. Which key must Bob use to perform this verification?",
+        "choices": [
+            "A. Bob's private key",
+            "B. Alice's private key",
+            "C. Bob's public key",
+            "D. Alice's public key"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "A cryptographic hash function takes an arbitrary-length input message and produces a fixed-length string of characters. This output is formally referred to as a:",
+        "choices": [
+            "A. Message Digest (or Hash Value)",
+            "B. Digital Certificate",
+            "C. Ciphertext block",
+            "D. Keystream"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "A critical requirement for a secure cryptographic hash function is that it must be computationally infeasible to find two different input messages that produce the exact same output hash. This property is known as:",
+        "choices": [
+            "A. Pre-image resistance",
+            "B. Reversibility",
+            "C. Collision resistance",
+            "D. Perfect secrecy"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "The SHA-256 cryptographic hash function, widely used in blockchain technology and digital certificates, produces a fixed-length message digest of exactly how many bits?",
+        "choices": [
+            "A. 128 bits",
+            "B. 256 bits",
+            "C. 512 bits",
+            "D. 2048 bits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "While a standard hash function provides integrity checking, it does not provide authentication because anyone can compute a hash. What construct combines a hash function with a secret cryptographic key to provide both data integrity and authenticity?",
+        "choices": [
+            "A. Public Key Infrastructure (PKI)",
+            "B. Initialization Vector (IV)",
+            "C. Digital Certificate",
+            "D. Message Authentication Code (MAC)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "Which specific type of Message Authentication Code utilizes a cryptographic hash function (like SHA-2) in combination with a secret symmetric key?",
+        "choices": [
+            "A. HMAC (Hash-based Message Authentication Code)",
+            "B. CBC-MAC",
+            "C. CMAC",
+            "D. Digital Signature"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Because asymmetric encryption is computationally slow, how is a digital signature typically generated for a large 10-megabyte PDF document?",
+        "choices": [
+            "A. The entire 10MB document is encrypted with the sender's private key",
+            "B. The document is encrypted with a symmetric key, which is then encrypted with a private key",
+            "C. A hash digest of the document is calculated, and only that small digest is encrypted with the sender's private key",
+            "D. The document is zipped and then hashed"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "In cryptography, the mathematical principle stating that in a relatively small group of people, it is highly probable that two share the same birthday, is used to exploit which cryptographic vulnerability?",
+        "choices": [
+            "A. RSA key factoring",
+            "B. Hash function collisions",
+            "C. AES key recovery",
+            "D. PRNG predictability"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "A server sends a random nonce to a client. The client hashes the nonce together with its password and sends the hash back to prove its identity. This \"challenge-response\" mechanism primarily prevents:",
+        "choices": [
+            "A. Brute-force attacks",
+            "B. Dictionary attacks",
+            "C. SQL injection attacks",
+            "D. Replay attacks"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "To protect stored user passwords from pre-computed rainbow table attacks, modern systems append a random string of characters to the password before hashing it. This random string is known as a:",
+        "choices": [
+            "A. Salt",
+            "B. Pepper",
+            "C. Initialization Vector",
+            "D. Nonce"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "When a user connects to a secure banking website, the user verifies the server's certificate, and the server simultaneously verifies a certificate installed on the user's smart card. This bidirectional identity verification is called:",
+        "choices": [
+            "A. Single Sign-On (SSO)",
+            "B. Public Key Infrastructure (PKI)",
+            "C. Mutual Authentication",
+            "D. Two-Factor Authentication (2FA)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "In biometric authentication systems (e.g., fingerprint scanners), increasing the sensitivity of the scanner to prevent unauthorized access reduces the False Acceptance Rate (FAR). However, this directly causes an undesirable increase in the:",
+        "choices": [
+            "A. Cross-Error Rate (CER)",
+            "B. False Rejection Rate (FRR)",
+            "C. True Acceptance Rate (TAR)",
+            "D. Enrollment Time"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "Which international ITU-T standard specifies the rigid format, structure, and required data fields for digital certificates used in Public Key Infrastructure (PKI)?",
+        "choices": [
+            "A. IEEE 802.1X",
+            "B. RFC 1918",
+            "C. FIPS 140-2",
+            "D. X.509"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "If an employee loses their smart card containing their private key, the Certificate Authority (CA) must invalidate their digital certificate before its expiration date. The CA publishes the serial number of this invalidated certificate on a:",
+        "choices": [
+            "A. Certificate Revocation List (CRL)",
+            "B. Key Escrow Database",
+            "C. Root CA Roster",
+            "D. Domain Name System (DNS) record"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "Which of the following sets of protocols is predominantly used to implement Single Sign-On (SSO) and federated identity management across web applications?",
+        "choices": [
+            "A. IPsec and L2TP",
+            "B. WPA3 and EAP",
+            "C. SAML and OAuth",
+            "D. SNMP and Syslog"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "While symmetric cryptography can provide confidentiality and integrity, it cannot legally provide non-repudiation. Which type of cryptography is strictly required to achieve undeniable non-repudiation?",
+        "choices": [
+            "A. Quantum cryptography",
+            "B. Asymmetric (Public Key) cryptography",
+            "C. Hash functions",
+            "D. Steganography"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 100,
+        "question": "If a cryptographic analyst successfully discovers a \"hash collision\" in the MD5 algorithm, what exactly has the analyst found?",
+        "choices": [
+            "A. A way to decrypt MD5 ciphertexts without the key",
+            "B. A master key that works for all MD5 hashes",
+            "C. The original plaintext message that generated a specific hash digest",
+            "D. Two completely different input messages that produce the exact same MD5 output hash digest"
+        ],
+        "correct_answer": "D"
+    }
+]

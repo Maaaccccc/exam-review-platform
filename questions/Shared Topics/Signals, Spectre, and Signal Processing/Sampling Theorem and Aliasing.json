@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "A signal defined at every instant of time is known as a:",
+        "choices": [
+            "A. continuous-time signal",
+            "B. discrete-time signal",
+            "C. digital signal",
+            "D. quantized signal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "The fundamental period of x(t) = cos(4πt) is:",
+        "choices": [
+            "A. 0.25 s",
+            "B. 0.5 s",
+            "C. 2 s",
+            "D. 4 s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "A signal has finite energy and zero average power. It is classified as:",
+        "choices": [
+            "A. power signal",
+            "B. deterministic signal",
+            "C. energy signal",
+            "D. periodic signal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "The unit impulse function δ(t) has an area equal to:",
+        "choices": [
+            "A. zero",
+            "B. undefined",
+            "C. infinity",
+            "D. one"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "Time scaling a signal by a factor of 2, x(2t), results in:",
+        "choices": [
+            "A. time compression",
+            "B. time expansion",
+            "C. time reversal",
+            "D. frequency division"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "The even part of x(t) is given by:",
+        "choices": [
+            "A. x(t) - x(-t)",
+            "B. (x(t) + x(-t))/2",
+            "C. (x(t) - x(-t))/2",
+            "D. x(t) + x(-t)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "A deterministic signal is one that:",
+        "choices": [
+            "A. is strictly periodic",
+            "B. has random noise",
+            "C. can be exactly predicted",
+            "D. has finite power"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "The signal x(t) = e^(-at)u(t) for a>0 is an example of a(n):",
+        "choices": [
+            "A. aperiodic power signal",
+            "B. power signal",
+            "C. periodic signal",
+            "D. energy signal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "According to the Nyquist-Shannon Sampling Theorem, to perfectly reconstruct a bandlimited signal, the sampling frequency must be:",
+        "choices": [
+            "A. at least twice the maximum frequency",
+            "B. equal to half the maximum frequency",
+            "C. strictly less than the maximum frequency",
+            "D. equal to the maximum frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "The Nyquist rate for a signal with a maximum frequency component of 5 kHz is:",
+        "choices": [
+            "A. 5 kHz",
+            "B. 10 kHz",
+            "C. 7.5 kHz",
+            "D. 2.5 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "If a continuous-time signal is sampled exactly at its Nyquist rate, ideal reconstruction is possible only if the spectrum contains:",
+        "choices": [
+            "A. infinite bandwidth",
+            "B. discrete amplitude levels",
+            "C. no energy at the maximum frequency",
+            "D. only cosine waves"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "What is the Nyquist interval for a signal bandlimited to 4 kHz?",
+        "choices": [
+            "A. 0.25 ms",
+            "B. 250 ms",
+            "C. 125 ms",
+            "D. 0.125 ms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "A signal x(t) = 10 sin(2000πt) is sampled. What is its Nyquist rate?",
+        "choices": [
+            "A. 2000 Hz",
+            "B. 4000 Hz",
+            "C. 1000 Hz",
+            "D. 3000 Hz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "For a signal bandlimited to B Hz, the Nyquist sampling interval Ts is given by:",
+        "choices": [
+            "A. 1 / B",
+            "B. 1 / (2B)",
+            "C. 2B",
+            "D. B / 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "A signal consists of three sinusoids with frequencies 100 Hz, 300 Hz, and 700 Hz. The Nyquist rate is:",
+        "choices": [
+            "A. 600 Hz",
+            "B. 700 Hz",
+            "C. 1400 Hz",
+            "D. 2200 Hz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "The sampling theorem strictly applies to which class of continuous-time signals?",
+        "choices": [
+            "A. Non-deterministic signals",
+            "B. Infinite-duration signals",
+            "C. Time-limited signals",
+            "D. Bandlimited signals"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "If a signal has a bandwidth of 15 kHz, what is the maximum time allowed between samples for perfect reconstruction?",
+        "choices": [
+            "A. 33.33 µs",
+            "B. 66.67 µs",
+            "C. 15 µs",
+            "D. 30 µs"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "The Nyquist frequency is defined mathematically as:",
+        "choices": [
+            "A. Twice the sampling frequency",
+            "B. Half of the sampling frequency",
+            "C. The maximum frequency of the signal",
+            "D. The inverse of the sampling period"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "What is the Nyquist rate for the signal x(t) = sinc(100t)? (Note: sinc(x) = sin(πx)/(πx)).",
+        "choices": [
+            "A. 200 Hz",
+            "B. 50 Hz",
+            "C. 100 Hz",
+            "D. 150 Hz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "What is the Nyquist rate for x(t) = sinc^2(100t)?",
+        "choices": [
+            "A. 100 Hz",
+            "B. 400 Hz",
+            "C. 50 Hz",
+            "D. 200 Hz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "If two signals with Nyquist rates of 10 kHz and 20 kHz are multiplied in the time domain, what is the Nyquist rate of the resulting signal?",
+        "choices": [
+            "A. 30 kHz",
+            "B. 20 kHz",
+            "C. 10 kHz",
+            "D. 15 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "For the signal x(t) = cos(100πt) + sin(200πt) + cos(300πt), the Nyquist rate is:",
+        "choices": [
+            "A. 150 Hz",
+            "B. 300 Hz",
+            "C. 450 Hz",
+            "D. 600 Hz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "A low-pass signal has a maximum frequency of fm. If it is sampled at fs = 1.5 fm, the condition is referred to as:",
+        "choices": [
+            "A. critical sampling",
+            "B. oversampling",
+            "C. undersampling",
+            "D. ideal sampling"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "Ideal sampling is mathematically represented by multiplying the continuous-time signal with a:",
+        "choices": [
+            "A. square wave",
+            "B. sinusoidal train",
+            "C. sawtooth train",
+            "D. train of impulse functions"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "The spectrum of an ideally sampled signal consists of:",
+        "choices": [
+            "A. copies of the original spectrum shifted by multiples of the sampling frequency",
+            "B. only the original baseband spectrum",
+            "C. only high-frequency components",
+            "D. discrete frequency lines only"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "Ideal reconstruction of a sampled baseband signal involves passing it through an ideal:",
+        "choices": [
+            "A. high-pass filter",
+            "B. low-pass filter",
+            "C. band-pass filter",
+            "D. all-pass filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "The impulse response of an ideal reconstruction low-pass filter is mathematically a:",
+        "choices": [
+            "A. Gaussian function",
+            "B. rectangular pulse",
+            "C. sinc function",
+            "D. triangular pulse"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "In the frequency domain, ideal sampling causes the original signal spectrum X(f) to be:",
+        "choices": [
+            "A. perfectly attenuated",
+            "B. shifted to DC only",
+            "C. inverted",
+            "D. periodically replicated"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "The transfer function of an ideal reconstruction filter H(f) for a signal sampled at fs is a rectangular window with cutoff frequency at:",
+        "choices": [
+            "A. fs/2",
+            "B. 2fs",
+            "C. fs",
+            "D. fs/4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Which of the following is true regarding the ideal interpolation formula (sinc interpolation) for signal reconstruction?",
+        "choices": [
+            "A. It employs polynomial fitting",
+            "B. It requires infinite past and future samples",
+            "C. It uses purely causal filters",
+            "D. It uses a finite number of samples"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "The time-domain reconstruction of a bandlimited signal from its samples involves summing shifted and scaled versions of which mathematical function?",
+        "choices": [
+            "A. step function",
+            "B. impulse function",
+            "C. sinc function",
+            "D. exponential function"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "In ideal impulse sampling, if the original signal spectrum has amplitude A, the spectral copies of the baseband signal will have amplitude scaled by:",
+        "choices": [
+            "A. Ts",
+            "B. fs*A",
+            "C. 2fs",
+            "D. 1/Ts"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "Which practical sampling method holds the sample value constant for the duration of the sample pulse?",
+        "choices": [
+            "A. Flat-top sampling",
+            "B. Impulse sampling",
+            "C. Natural sampling",
+            "D. Delta sampling"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Flat-top sampling introduces a distortion in the frequency response of the reconstructed signal known as:",
+        "choices": [
+            "A. Aliasing",
+            "B. Aperture effect",
+            "C. Quantization noise",
+            "D. Jitter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "The aperture effect in flat-top sampling can be compensated by using an equalizer filter with a magnitude response proportional to:",
+        "choices": [
+            "A. sinc(f Ts)",
+            "B. cos(f Ts)",
+            "C. 1 / sinc(f Ts)",
+            "D. 1 / cos(f Ts)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "In natural sampling, the sampling waveform multiplied with the baseband signal is a:",
+        "choices": [
+            "A. sinusoid",
+            "B. train of impulses",
+            "C. sequence of step functions",
+            "D. periodic train of rectangular pulses"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "The spectrum of a naturally sampled signal differs from an ideally sampled signal in that the spectral copies are:",
+        "choices": [
+            "A. weighted by the Fourier series coefficients of the pulse train",
+            "B. overlapping",
+            "C. non-existent",
+            "D. shifted to different center frequencies"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "To recover the baseband signal from a flat-top sampled signal without distortion, the reconstruction filter block should ideally contain:",
+        "choices": [
+            "A. A band-pass filter",
+            "B. An ideal low-pass filter cascaded with an equalizer",
+            "C. A simple RC low-pass filter",
+            "D. An ideal low-pass filter only"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Aliasing occurs when a continuous-time signal is sampled at a rate:",
+        "choices": [
+            "A. equal to the Nyquist rate",
+            "B. greater than the Nyquist rate",
+            "C. less than the Nyquist rate",
+            "D. equal to twice the Nyquist rate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "The frequency fs/2, which acts as the mirror boundary for aliasing, is commonly known as the:",
+        "choices": [
+            "A. Cutoff frequency",
+            "B. Resonant frequency",
+            "C. Corner frequency",
+            "D. Folding frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "If a 6 kHz sine wave is sampled at 8 kHz, the principal alias frequency will appear at:",
+        "choices": [
+            "A. 2 kHz",
+            "B. 6 kHz",
+            "C. 4 kHz",
+            "D. 8 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "A signal has a maximum frequency of 15 kHz. It is sampled at 20 kHz. What is the lowest alias frequency produced that falls into the baseband?",
+        "choices": [
+            "A. 15 kHz",
+            "B. 5 kHz",
+            "C. 0 kHz",
+            "D. 10 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Aliasing in the frequency domain is represented graphically by:",
+        "choices": [
+            "A. the spectrum shifting to infinity",
+            "B. complete cancellation of the spectrum",
+            "C. overlapping of adjacent spectral replicas",
+            "D. the appearance of phase noise"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "A 100 Hz sinusoid is sampled at 140 Hz. Assuming an ideal low-pass reconstruction filter with cutoff at 70 Hz, the output will be a sinusoid of frequency:",
+        "choices": [
+            "A. 100 Hz",
+            "B. 60 Hz",
+            "C. 70 Hz",
+            "D. 40 Hz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Which of the following is a direct, irreversible consequence of aliasing in a sampled system?",
+        "choices": [
+            "A. High frequencies take the identity of lower frequencies",
+            "B. Perfect signal reconstruction is delayed",
+            "C. Signal bandwidth increases indefinitely",
+            "D. Phase distortion occurs without amplitude changes"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "To completely prevent aliasing, the spectrum of the continuous-time signal prior to sampling must be:",
+        "choices": [
+            "A. perfectly rectangular",
+            "B. strictly bandlimited",
+            "C. infinite in extent",
+            "D. time-limited"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "If an 8 kHz continuous-time signal is sampled at 10 kHz, what is the frequency of the alias closest to DC?",
+        "choices": [
+            "A. 4 kHz",
+            "B. 8 kHz",
+            "C. 2 kHz",
+            "D. 10 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "If aliasing has already occurred during the sampling process, can the original signal be perfectly recovered by ideal filtering in the digital domain?",
+        "choices": [
+            "A. Yes, using a high-pass filter",
+            "B. Yes, by increasing the cutoff frequency",
+            "C. Yes, using an adaptive filter",
+            "D. No, the information is permanently lost"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "A 20 kHz signal is sampled at 35 kHz. What is the only alias frequency that falls within the baseband (0 to 17.5 kHz)?",
+        "choices": [
+            "A. 15 kHz",
+            "B. 5 kHz",
+            "C. 10 kHz",
+            "D. 20 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "In the context of sampling, the term \"fold-over\" visually refers to:",
+        "choices": [
+            "A. Doubling the sampling rate",
+            "B. Higher frequencies reflecting across the Nyquist frequency into the baseband",
+            "C. Reversing the signal in time",
+            "D. Folding the spectrum at DC"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "A signal consisting of 2 kHz and 5 kHz components is sampled at 7 kHz. What frequencies are present in the output of an ideal reconstruction LPF cutting off at 3.5 kHz?",
+        "choices": [
+            "A. 2 kHz and 5 kHz",
+            "B. 2 kHz and 3.5 kHz",
+            "C. 2 kHz only",
+            "D. 5 kHz only"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "In a digital audio system, a 25 kHz tone is accidentally recorded with a 44.1 kHz sample rate. What apparent frequency will be reconstructed?",
+        "choices": [
+            "A. 25 kHz",
+            "B. 44.1 kHz",
+            "C. 4.1 kHz",
+            "D. 19.1 kHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "The phenomenon of rotating wagon wheels appearing to spin backwards in a movie (temporal aliasing) is known as the:",
+        "choices": [
+            "A. Stroboscopic effect",
+            "B. Aperture effect",
+            "C. Motion blur",
+            "D. Quantization error"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "In a standard digital signal processing chain, an anti-aliasing filter is placed:",
+        "choices": [
+            "A. after the analog-to-digital converter",
+            "B. before the analog-to-digital converter",
+            "C. after the digital-to-analog converter",
+            "D. at the output of the reconstruction filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "The primary purpose of an anti-aliasing filter is to:",
+        "choices": [
+            "A. amplify high frequencies",
+            "B. reduce quantization noise",
+            "C. restrict the bandwidth of the continuous-time signal before sampling",
+            "D. reconstruct the analog signal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "To attenuate frequencies above the folding frequency, an anti-aliasing filter is designed as a:",
+        "choices": [
+            "A. band-reject filter",
+            "B. high-pass filter",
+            "C. all-pass filter",
+            "D. low-pass filter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "In a practical system, if the sampling frequency is fs, the continuous-time anti-aliasing filter is typically designed with a passband cutoff frequency:",
+        "choices": [
+            "A. slightly less than fs/2",
+            "B. exactly fs",
+            "C. slightly greater than fs/2",
+            "D. equal to fs/4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Which analog filter type is often preferred for anti-aliasing audio applications due to its maximally flat passband response?",
+        "choices": [
+            "A. Chebyshev",
+            "B. Butterworth",
+            "C. Elliptic",
+            "D. Bessel"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "If a practical anti-aliasing filter has a wide transition band (slow roll-off), to prevent aliasing we must generally:",
+        "choices": [
+            "A. decrease the sampling rate",
+            "B. use flat-top sampling",
+            "C. increase the sampling rate",
+            "D. add quantization noise"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "An effective anti-aliasing filter heavily attenuates frequency components that are:",
+        "choices": [
+            "A. at exactly the Nyquist rate",
+            "B. lower than the folding frequency",
+            "C. at DC",
+            "D. higher than the folding frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "Why is an ideal \"brick-wall\" filter impossible to use for anti-aliasing in real physical systems?",
+        "choices": [
+            "A. They are non-causal and physically unrealizable",
+            "B. They cause excessive aliasing",
+            "C. They have too much passband ripple",
+            "D. They amplify high-frequency noise"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "An anti-aliasing filter fails to block a 50 kHz noise component. If the sampling rate is 40 kHz, at what frequency will this noise alias in the sampled signal?",
+        "choices": [
+            "A. 20 kHz",
+            "B. 10 kHz",
+            "C. 50 kHz",
+            "D. 30 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "For applications sensitive to the shape of the time-domain waveform, the anti-aliasing filter must have linear phase to avoid:",
+        "choices": [
+            "A. Amplitude distortion",
+            "B. Aliasing",
+            "C. Phase distortion (group delay variation)",
+            "D. Thermal noise enhancement"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "A system has a desired maximum signal frequency of 20 kHz. If the anti-aliasing filter requires a 4 kHz transition band to fully attenuate, what is the minimum sampling rate required to avoid aliasing?",
+        "choices": [
+            "A. 24 kHz",
+            "B. 44 kHz",
+            "C. 40 kHz",
+            "D. 48 kHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "In digital telephony, voice is bandlimited to 3.4 kHz and sampled at 8 kHz. What is the width of the transition band available for the anti-aliasing filter (from passband edge to the folding frequency)?",
+        "choices": [
+            "A. 0.6 kHz",
+            "B. 1.2 kHz",
+            "C. 2.6 kHz",
+            "D. 4.6 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "A guard band is deliberately introduced in sampling systems to:",
+        "choices": [
+            "A. increase the signal bandwidth",
+            "B. allow the use of practical, non-ideal transition filters",
+            "C. amplify the baseband signal",
+            "D. reduce quantization error"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "The width of the guard band (GB) between the baseband spectrum and the first aliased image is given by the formula:",
+        "choices": [
+            "A. fs - fm",
+            "B. 2fs - fm",
+            "C. fs - 2fm",
+            "D. 2fm - fs"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "If a signal with a maximum frequency fm = 15 kHz is sampled at fs = 40 kHz, what is the width of the guard band?",
+        "choices": [
+            "A. 5 kHz",
+            "B. 15 kHz",
+            "C. 25 kHz",
+            "D. 10 kHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "Increasing the sampling rate while maintaining the same maximum signal frequency will effectively:",
+        "choices": [
+            "A. increase the guard band",
+            "B. decrease the guard band",
+            "C. cause aliasing",
+            "D. limit the signal bandwidth"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "A sampling system operates at 100 ksamples/s. If the required guard band for the filter is 20 kHz, what is the highest allowable signal frequency fm?",
+        "choices": [
+            "A. 60 kHz",
+            "B. 40 kHz",
+            "C. 50 kHz",
+            "D. 20 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "The transition band of a practical reconstruction low-pass filter must be designed to fall completely within the:",
+        "choices": [
+            "A. passband",
+            "B. baseband",
+            "C. guard band",
+            "D. stopband"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "Why is a standard Audio CD sampled at 44.1 kHz instead of exactly 40 kHz for a 20 kHz audio bandwidth?",
+        "choices": [
+            "A. To match video frame rates perfectly",
+            "B. Because 44.1 is an even multiple",
+            "C. To save optical storage space",
+            "D. To provide a 4.1 kHz transition/guard band for practical filters"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "If the guard band is exactly zero, the system requires filters that are:",
+        "choices": [
+            "A. ideal \"brick-wall\" filters",
+            "B. passive RC filters",
+            "C. standard Butterworth filters",
+            "D. active Chebyshev filters"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "A signal bandlimited to 10 kHz is sampled at 24 kHz. The reconstruction filter must pass 10 kHz and strictly reach the stopband before what frequency to block the first image?",
+        "choices": [
+            "A. 12 kHz",
+            "B. 14 kHz",
+            "C. 24 kHz",
+            "D. 10 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "A guard band of 2 kHz is specified for a signal with fm = 5 kHz. The minimum required sampling rate is:",
+        "choices": [
+            "A. 10 kHz",
+            "B. 14 kHz",
+            "C. 12 kHz",
+            "D. 7 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "Oversampling refers to sampling a continuous-time signal at a rate:",
+        "choices": [
+            "A. equal to the Nyquist rate",
+            "B. less than the Nyquist rate",
+            "C. exactly at twice the maximum frequency",
+            "D. significantly greater than the Nyquist rate"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "One of the primary hardware advantages of oversampling in Analog-to-Digital Converters is that it:",
+        "choices": [
+            "A. relaxes the design constraints of the analog anti-aliasing filter",
+            "B. increases quantization noise density",
+            "C. narrows the guard band",
+            "D. reduces the required clock speed"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "While easing analog filter design, oversampling inherently increases the:",
+        "choices": [
+            "A. aliasing effect",
+            "B. amount of digital data generated per second",
+            "C. quantization error",
+            "D. baseband signal bandwidth"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "Undersampling refers to sampling a signal at a rate that is:",
+        "choices": [
+            "A. strictly greater than the Nyquist rate",
+            "B. equal to the Nyquist rate",
+            "C. strictly less than the Nyquist rate",
+            "D. equal to the maximum frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "Undersampling a strictly baseband signal (starting from DC) will universally result in:",
+        "choices": [
+            "A. Perfect reconstruction",
+            "B. Decreased data size without loss",
+            "C. Signal enhancement",
+            "D. Destructive aliasing"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "Undersampling can be used intentionally without losing information if the signal being sampled is a:",
+        "choices": [
+            "A. bandpass signal",
+            "B. baseband signal",
+            "C. DC signal",
+            "D. low-frequency signal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "In bandpass sampling, the theoretical minimum sampling rate is primarily dependent on the:",
+        "choices": [
+            "A. carrier frequency",
+            "B. signal bandwidth",
+            "C. Nyquist rate of the highest frequency",
+            "D. phase shift of the carrier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "A bandpass signal spans from 20 kHz to 25 kHz. According to strict bandpass sampling theory, the absolute minimum sampling rate can be as low as:",
+        "choices": [
+            "A. 50 kHz",
+            "B. 25 kHz",
+            "C. 10 kHz",
+            "D. 40 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "In multirate digital signal processing, the process of reducing the sampling rate of a discrete-time signal is called:",
+        "choices": [
+            "A. Interpolation",
+            "B. Modulation",
+            "C. Multiplexing",
+            "D. Decimation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "To prevent aliasing, decimation must strictly involve which two steps in order?",
+        "choices": [
+            "A. Low-pass filtering and Downsampling",
+            "B. Upsampling and High-pass filtering",
+            "C. High-pass filtering and Downsampling",
+            "D. Upsampling and Low-pass filtering"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Interpolation (upsampling) requires a digital filter to remove unwanted spectral images created by zero-stuffing. What type of filter is this?",
+        "choices": [
+            "A. High-pass filter",
+            "B. Low-pass filter",
+            "C. Band-stop filter",
+            "D. All-pass filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "Modern delta-sigma ADCs achieve high effective resolution by heavily utilizing which sampling technique?",
+        "choices": [
+            "A. Undersampling",
+            "B. Successive approximation",
+            "C. Oversampling",
+            "D. Flash conversion"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "The folded frequency (principal alias) f_fold of an input frequency f_in sampled at f_s can be computed by the formula:",
+        "choices": [
+            "A. f_fold = f_in + f_s",
+            "B. f_fold = f_s / f_in",
+            "C. f_fold = f_in / f_s",
+            "D. f_fold ="
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 89,
+        "question": "An input signal of 12 kHz is sampled at 10 kHz. The folded frequency residing in the baseband is:",
+        "choices": [
+            "A. 2 kHz",
+            "B. 12 kHz",
+            "C. 10 kHz",
+            "D. 8 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "A 22 kHz sinusoidal signal is sampled at 8 kHz. What is its resulting folded frequency?",
+        "choices": [
+            "A. 4 kHz",
+            "B. 2 kHz",
+            "C. 6 kHz",
+            "D. 8 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "A 50 Hz sine wave is sampled at 60 Hz. The resulting apparent frequency after ideal low-pass reconstruction is:",
+        "choices": [
+            "A. 50 Hz",
+            "B. 60 Hz",
+            "C. 10 Hz",
+            "D. 20 Hz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "A high-frequency signal of 4.5 MHz is sampled by an ADC operating at 2 MS/s. What is the principal alias frequency?",
+        "choices": [
+            "A. 2 MHz",
+            "B. 1.5 MHz",
+            "C. 1 MHz",
+            "D. 0.5 MHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "If a continuous frequency f continuously sweeps from 0 upwards past fs, the apparent folded frequency sweeps from 0 to fs/2, and then:",
+        "choices": [
+            "A. sweeps back down to 0",
+            "B. stays at fs/2",
+            "C. jumps to 0",
+            "D. sweeps up to fs"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "A 150 Hz signal and a 250 Hz signal are simultaneously sampled at 200 Hz. The resulting folded frequencies are respectively:",
+        "choices": [
+            "A. 100 Hz and 150 Hz",
+            "B. 50 Hz and 50 Hz",
+            "C. 150 Hz and 50 Hz",
+            "D. 50 Hz and 100 Hz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "What is the highest input frequency strictly less than fs that will fold to exactly fs/4?",
+        "choices": [
+            "A. fs/8",
+            "B. fs/2",
+            "C. 3fs/4",
+            "D. fs"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "For a given sampling rate fs, any input frequency f_in = k*fs (where k is a positive integer) will invariably alias to:",
+        "choices": [
+            "A. fs/2",
+            "B. fs",
+            "C. infinity",
+            "D. 0 Hz (DC)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "A digital oscilloscope has a sampling rate of 1 GS/s. If a user inputs a 1.2 GHz sine wave without an anti-aliasing filter, what frequency will the oscilloscope display?",
+        "choices": [
+            "A. 200 MHz",
+            "B. 1.2 GHz",
+            "C. 800 MHz",
+            "D. 1 GHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "You observe a 3 kHz signal on a spectrum analyzer for a digital system sampled at 10 kHz. Which of the following original analog frequencies could NOT have folded into this 3 kHz signal?",
+        "choices": [
+            "A. 13 kHz",
+            "B. 5 kHz",
+            "C. 7 kHz",
+            "D. 23 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "An ADC samples at 1000 Hz. To ensure that a 600 Hz noise source aliases exactly to 400 Hz, what condition must be met?",
+        "choices": [
+            "A. The noise must be amplified",
+            "B. The anti-aliasing filter must have a sharp roll-off",
+            "C. This is a mathematical certainty if the noise reaches the sampler unattenuated",
+            "D. The noise must be phase-shifted by 90 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "In a sampled-data system with fs = 8 kHz, an analog tone is swept continuously from 0 to 12 kHz. How many distinct times will the apparent digital frequency pass through exactly 2 kHz?",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 2",
+            "D. 3"
+        ],
+        "correct_answer": "D"
+    }
+]

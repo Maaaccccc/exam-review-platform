@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "",
+        "choices": [
+            "A. infinity",
+            "B. 0",
+            "C. 3/5",
+            "D. 1/11"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 2,
+        "question": "What type of discontinuity is exhibited by the function f(x) = cos(x) for x < 0, 0 for x = 0, and 1 - x^2 for x > 0 at the point x=0?",
+        "choices": [
+            "A. essential",
+            "B. removable",
+            "C. point",
+            "D. jump"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "Evaluate the limit: lim (x -> pi/2) [cos(x) / (x - pi/2)].",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. -1",
+            "D. 1/2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "If f(x) = sqrt(2*cos(2*pi*sin(x))), find f(pi/2).",
+        "choices": [
+            "A. -1",
+            "B. 1",
+            "C. 0",
+            "D. sqrt(2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "A given function f: X -> Y is said to be onto (surjective) if and only if:",
+        "choices": [
+            "A. Each element y in Y has a corresponding element x in X such that f(x)=y",
+            "B. Each element x in X maps to a unique element in Y",
+            "C. No two elements in X map to the same element in Y",
+            "D. The domain equals the codomain"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "What type of function is both one-to-one (injective) and onto (surjective)?",
+        "choices": [
+            "A. Bijective",
+            "B. Injective only",
+            "C. Surjective only",
+            "D. Homogeneous"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "Which of the following describes a removable discontinuity for a function f(x) at x=c?",
+        "choices": [
+            "A. The one-sided limits exist and are equal, but do not equal f(c)",
+            "B. The one-sided limits exist but are not equal",
+            "C. One or both of the one-sided limits are infinite",
+            "D. The function is continuous at x=c"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "Evaluate the limit: lim (x -> 0) [sin(1/x)].",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. Does not exist",
+            "D. infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "Find the y-intercept of the normal line to the curve x^2 + y^2 - 18 = 0 at the point (3, 3).",
+        "choices": [
+            "A. 0",
+            "B. 3",
+            "C. -3",
+            "D. 6"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "The power dissipation in an amplifier circuit is given by P(V,R) = 2V^2/R + 0.1R. What is the rate of change of power with respect to voltage when V=5 V and R=10 ohms?",
+        "choices": [
+            "A. 1.0 W/V",
+            "B. 4.0 W/V",
+            "C. 3.0 W/V",
+            "D. 2.0 W/V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 12,
+        "question": "If the second derivative f''(x) > 0 over an interval, what can be concluded about the function?",
+        "choices": [
+            "A. The function is concave up",
+            "B. The function is concave down",
+            "C. The function has a local maximum",
+            "D. The function is decreasing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "A robotic arm moves according to x(t) = 3t^2 - 2t and y(t) = 4t + 1. What is the speed of the arm at t=1?",
+        "choices": [
+            "A. sqrt(32) units/s",
+            "B. 6 units/s REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "C. 2*sqrt(13) units/s",
+            "D. 4*sqrt(2) units/s"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "An electron beam in an oscilloscope deflects according to x(t) = 5cos(t) and y(t) = 5sin(t). What path does the electron trace?",
+        "choices": [
+            "A. Straight line",
+            "B. Parabola",
+            "C. Circle",
+            "D. Ellipse"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "Find the equation of the tangent line to the curve x = t^3 - t, y = t^2 + 2t at t = 1.",
+        "choices": [
+            "A. y = 2x + 1",
+            "B. y = x + 3",
+            "C. y = (1/2)x + 5/2",
+            "D. y = 2x + 3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 16,
+        "question": "The efficiency of a transformer is given by n(x) = 100x / (x + 2 + 50/x) where x is the load current in amperes. What load current maximizes efficiency?",
+        "choices": [
+            "A. 5.0 A",
+            "B. 4.08 A",
+            "C. 10.0 A",
+            "D. 7.07 A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "The electric potential in a region is V(x,y) = 3x^2 - 2xy + y^2. Find the x-component of electric field Ex = -dV/dx at point (1,2).",
+        "choices": [
+            "A. 4 V/m",
+            "B. 2 V/m",
+            "C. -2 V/m",
+            "D. -4 V/m"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 18,
+        "question": "An open top rectangular box is formed by cutting squares of equal size from the corners of a 24 by 15-inch piece of sheet metal and folding up the sides. Determine the maximum volume of the box.",
+        "choices": [
+            "A. 400",
+            "B. 486",
+            "C. 386",
+            "D. 300"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "The sum of two positive numbers is 10. Find the larger number if the product of the square of one by the cube of the other is at the maximum?",
+        "choices": [
+            "A. 3",
+            "B. 4",
+            "C. 5",
+            "D. 6"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 20,
+        "question": "A thermometer reading 18 degrees Celsius is brought into a room where the temperature is 70 degrees Celsius. One minute later, the thermometer reading is 31 degrees Celsius. Determine the thermometer reading 5 minutes after it is brought into the room.",
+        "choices": [
+            "A. 62.33 degrees C",
+            "B. 56.55 degrees C",
+            "C. 58.99 degrees C",
+            "D. 50.25 degrees C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "Find the coordinates of the points on the curve y^2 - 4xy = x^2 + 5 for which the tangent is horizontal.",
+        "choices": [
+            "A. (2, -1) and (-2, 1)",
+            "B. (2, 1) and (-2, -1)",
+            "C. (-1, 2) and (1, -2)",
+            "D. (1, 2) and (-1, -2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "Find the slope of the tangent line to the spiral r = theta at theta = pi/3.",
+        "choices": [
+            "A. 1.73",
+            "B. 3.14",
+            "C. -3.42",
+            "D. -1.73"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "Determine the second derivative of y = x * ln(x) with respect to x.",
+        "choices": [
+            "A. ln(x)",
+            "B. x",
+            "C. ln(x) / x",
+            "D. 1 / x"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "This refers to a line perpendicular to the tangent line at a given point on a curve.",
+        "choices": [
+            "A. normal line",
+            "B. tangent line",
+            "C. slant line",
+            "D. Euler line"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "What name is given to the point on a curve where the concavity changes sign?",
+        "choices": [
+            "A. Critical point",
+            "B. Inflection point",
+            "C. Stationary point REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "D. Saddle point"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "Find dy/dx implicitly for the equation: e^(x/y) = x - y.",
+        "choices": [
+            "A. y(y - e^(x/y)) / (y^2 - x*e^(x/y))",
+            "B. x(x - e^(x/y)) / (x^2 - y*e^(x/y))",
+            "C. y(x - e^(x/y)) / (x^2 - y*e^(x/y))",
+            "D. x(y - e^(x/y)) / (y^2 - x*e^(x/y))"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "Find the number that satisfies the conclusion of the Mean Value Theorem on the interval for f(x) = sqrt(x).",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "The top and bottom margins of a poster are each 6 cm, and the side margins are each 4 cm. If the area of printed material on the poster is fixed at 384 sq.cm., find the dimensions of the poster with the smallest total area.",
+        "choices": [
+            "A. 24 cm and 36 cm",
+            "B. 20 cm and 44 cm",
+            "C. 40 cm and 24 cm",
+            "D. 32 cm and 28 cm"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "A pressure sensor has the following errors from true value: +0.3 kPa, -0.2 kPa, +0.4 kPa, -0.5 kPa, +0.2 kPa. What is the mean absolute error (MAE)?",
+        "choices": [
+            "A. 0.32 kPa",
+            "B. 0.12 kPa",
+            "C. 0.40 kPa",
+            "D. 0.24 kPa"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "For the multi-variable function f(x,y) = arctan(y/x), solve for the partial derivative f_x(2,3).",
+        "choices": [
+            "A. 3/13",
+            "B. -3/13",
+            "C. 2/13",
+            "D. -2/13"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Find the volume of the solid generated when the region under the curve y = x^2 over the interval is rotated about the line y = -1.",
+        "choices": [
+            "A. 178*pi/13",
+            "B. 176*pi/15",
+            "C. 180*pi/13",
+            "D. 183*pi/15"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "Evaluate the integral: integral of [x / (x^2 + x + 1)] dx using the Trapezoidal Rule with n=8 subintervals from x=0 to x=2.",
+        "choices": [
+            "A. 0.8288",
+            "B. 0.8319",
+            "C. 0.8444",
+            "D. 0.8241"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "Find the volume of the solid generated when the region enclosed by y = sqrt(x), y = 2, and x = 0 is revolved about the y-axis.",
+        "choices": [
+            "A. 32*pi/5",
+            "B. 32*pi/7",
+            "C. 32*pi/9",
+            "D. 32*pi/11"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Find the area bounded by the curve y = 2x - x^2 and the x-axis.",
+        "choices": [
+            "A. 4/3",
+            "B. 2/3",
+            "C. 5/3",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "Find the value of the definite integral of ln(x) / x^2 dx from 1 to 2.",
+        "choices": [
+            "A. (1/2) * ln(2)",
+            "B. (1/2) * ln(e/2)",
+            "C. ln(e)",
+            "D. ln(2e)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "Find the area bounded by the curve sqrt(x) + sqrt(y) = sqrt(a) and the coordinate axes.",
+        "choices": [
+            "A. a^2 / 3",
+            "B. a^2 / 6",
+            "C. a^2",
+            "D. a^2 / 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "Find the area bounded by the curves y = x^2 - c^2 and y = c^2 - x^2 if the total enclosed area is 576. Find the value of c.",
+        "choices": [
+            "A. 4",
+            "B. 5",
+            "C. 7",
+            "D. 6"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 38,
+        "question": "Find the volume of the solid generated when the region bounded by y = x^2, x = 2, and y = 0 is rotated about the line x = 2. REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+        "choices": [
+            "A. 8*pi/3",
+            "B. 2*pi/3",
+            "C. 4*pi/3",
+            "D. pi/3"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "Evaluate: the integral from -2 to 2 of (1/x^2) dx.",
+        "choices": [
+            "A. -1",
+            "B. 0",
+            "C. 3",
+            "D. Divergent"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "Find the average value of the function f(x) = 2x^2 on the interval (0, c) if the average value is 6.",
+        "choices": [
+            "A. 3",
+            "B. 6",
+            "C. 9",
+            "D. 27"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "Evaluate the integral: integral of e^x * e^(3x) dx.",
+        "choices": [
+            "A. (1/3)*e^(3x) + C",
+            "B. (1/4)*e^(4x) + C",
+            "C. (1/4)*e^(3x) + C",
+            "D. 4*e^(4x) + C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "An automobile head reflector in the form of a parabola having an equation of y^2 = 9x is cut by a plane x = 4 through its axis and revolved about the x-axis. Determine the lateral surface area of the reflector.",
+        "choices": [
+            "A. 76.97",
+            "B. 153.94",
+            "C. 230.90",
+            "D. 307.88"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Find the area bounded by the parabolas y = 6x - x^2 and y = x^2 - 2x.",
+        "choices": [
+            "A. 44/3",
+            "B. 64/3",
+            "C. 54/3",
+            "D. 74/3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "Find the area bounded by the curves y = sin(x) and y = cos(x) from x = pi/4 to x = 5*pi/4.",
+        "choices": [
+            "A. 2.33 sq. units",
+            "B. 2.67 sq. units",
+            "C. 2.47 sq. units",
+            "D. 2.83 sq. units"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Evaluate: integral from 0 to 1 of (1 / sqrt(x)) dx.",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. Divergent"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "Evaluate: double integral of (x - 3y^2) dA over the region R defined by 0 <= x <= 2, 1 <= y <= 2.",
+        "choices": [
+            "A. 14",
+            "B. 13",
+            "C. -12",
+            "D. -14"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "Evaluate the line integral of (x + y) ds along the straight line segment from (0,0) to (3,4).",
+        "choices": [
+            "A. 15",
+            "B. 17.5",
+            "C. 20",
+            "D. 35"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "Find the volume of a conoid constructed with a circular base of radius 1 m such that every plane section perpendicular to a certain diameter of the base is an isosceles triangle of altitude 2 m.",
+        "choices": [
+            "A. 2.67 cubic m",
+            "B. 2.00 cubic m",
+            "C. 1.67 cubic m",
+            "D. 3.33 cubic m"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "A round hole of radius 2 m is drilled through the center of a solid sphere of radius 4 m. Find the volume cut out.",
+        "choices": [
+            "A. 93 cubic m",
+            "B. 94 cubic m",
+            "C. 95 cubic m",
+            "D. 96 cubic m"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "Find the total surface area generated by revolving a rectangle of sides a and b about side a.",
+        "choices": [
+            "A. pi*b*(a + b)",
+            "B. 2*pi*a*(a + b)",
+            "C. pi*a*(a + b)",
+            "D. 2*pi*b*(a + b)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 51,
+        "question": "Determine the order and degree of the given DE: x*(d^4y/dx^4) + 5y*(d^2y/dx^2) - (dy/dx)^6 = 0.",
+        "choices": [
+            "A. 2, 1",
+            "B. 1, 4",
+            "C. 4, 1 REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "D. 1, 6"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "Determine the solution set of the linear inequality: x + 7 < 3x - 15.",
+        "choices": [
+            "A. x < 11",
+            "B. x > 11",
+            "C. x = 11",
+            "D. x != 11"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "Two cylinders of equal radius 3 m have their axes at right angles. Find the volume of the common part.",
+        "choices": [
+            "A. 144 cubic m",
+            "B. 123 cubic m",
+            "C. 156 cubic m",
+            "D. 112 cubic m"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "This refers to a mathematical constant which is the unique real solution of the cubic equation x^3 = x + 1.",
+        "choices": [
+            "A. iron number",
+            "B. Tribonacci constant",
+            "C. plastic number",
+            "D. Conway's constant"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "A pole casts a shadow of 15 meters long when the angle of elevation of the sun is 61 degrees. If the pole has leaned 15 degrees from the vertical directly toward the sun, what is the length of the pole?",
+        "choices": [
+            "A. 53.24 m",
+            "B. 54.23 m",
+            "C. 53.32 m",
+            "D. 52.43 m"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "A group of 3 people enter a masquerade hall after the lights had dimmed. They are shown to the correct group of 3 seats by the usher. Each person holds a number stub. What is the probability that each is in the correct seat according to the numbers on seat and stub?",
+        "choices": [
+            "A. 1/6",
+            "B. 1/4",
+            "C. 1/2",
+            "D. 1/8"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 57,
+        "question": "Find the speed of a particle at t=2 if its parametric equations are x = t^3 and y = 2t^2.",
+        "choices": [
+            "A. 14.42",
+            "B. 16.25",
+            "C. 12.74",
+            "D. 18.63"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Given the triangle with vertices at A(6,2), B(-4,4) and C(2,-4). Find the distance of the midpoint D of side AB to vertex",
+        "choices": [
+            "C. A. 5*sqrt(2)",
+            "B. 5",
+            "C. 3",
+            "D. 3*sqrt(2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "Between 90 degrees and 180 degrees, the cotangent of an angle is always:",
+        "choices": [
+            "A. negative",
+            "B. positive",
+            "C. can be negative or positive",
+            "D. always less than 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "The base of a right prism is a rhombus whose sides are 12 inches and whose longer diagonal is 15 inches. If the altitude of the prism is 8 inches, find its volume.",
+        "choices": [
+            "A. 1,181.10 cu in",
+            "B. 2,181.10 cu in",
+            "C. 1,124.10 cu in",
+            "D. 2,124.10 cu in"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "The number of inflection points of the curve f(x) = x^4 - 4x^2 has:",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 2",
+            "D. 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "Find the radius of a circle if a sector in it with an angle of 1.2 radians has a perimeter of 48 cm.",
+        "choices": [
+            "A. 12 cm",
+            "B. 16 cm",
+            "C. 15 cm",
+            "D. 18 cm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "The Newton-Raphson method for solving non-linear equations converges quadratically near the root when which condition is satisfied?",
+        "choices": [
+            "A. The initial guess is far from the root",
+            "B. The function is linear",
+            "C. The derivative at the root is non-zero",
+            "D. The second derivative is zero REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "The improper integral from 0 to 1 of x^(-p) dx converges if and only if:",
+        "choices": [
+            "A. p < 0",
+            "B. p = 1",
+            "C. p < 1",
+            "D. p > 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "The trapezoidal rule for numerical integration is exact for which class of functions?",
+        "choices": [
+            "A. Constant and linear functions",
+            "B. Quadratic and cubic functions",
+            "C. Exponential functions",
+            "D. All polynomial functions"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "What is secondary data in the context of engineering research?",
+        "choices": [
+            "A. Data collected firsthand by the researcher",
+            "B. Data obtained from previously published sources",
+            "C. Data observed over time",
+            "D. Data analyzed using ANOVA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "An engineer classifies materials as 'low strength,' 'medium strength,' or 'high strength.' This data is classified as:",
+        "choices": [
+            "A. Quantitative, continuous",
+            "B. Quantitative, discrete",
+            "C. Qualitative, nominal",
+            "D. Qualitative, ordinal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 68,
+        "question": "Mutually exclusive events are events that:",
+        "choices": [
+            "A. cannot happen at the same time",
+            "B. are independent of each other",
+            "C. have a probability of 1",
+            "D. have a joint probability of 0.5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "For the wave equation u_tt = c^2 * u_xx on [0, L] with fixed ends u(0,t) = u(L,t) = 0, the separated time factors correspond to:",
+        "choices": [
+            "A. Exponential growth",
+            "B. Purely sinusoidal oscillations in time",
+            "C. Linear drift in time",
+            "D. Constant steady values only"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "The time-shift property of the continuous-time Fourier transform states that x(t - t_0) has the transform:",
+        "choices": [
+            "A. X(w + t_0)",
+            "B. e^(+jw*t_0) * X(w)",
+            "C. e^(-jw*t_0) * X(w)",
+            "D. X(w) / t_0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "The divergence of the gradient of a scalar field is equivalent to which vector operator?",
+        "choices": [
+            "A. Gradient",
+            "B. Divergence",
+            "C. Curl",
+            "D. Laplacian"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "Cauchy's integral theorem asserts that for a function f(z) analytic on and inside a simple closed contour C:",
+        "choices": [
+            "A. The integral depends only on the contour length",
+            "B. The integral equals zero",
+            "C. The integral equals 2*pi*j times the residue at infinity",
+            "D. The integral equals the average value of the function"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "In the Design of Experiments (DOE), blocking is primarily used to:",
+        "choices": [
+            "A. Increase random error",
+            "B. Control known sources of nuisance variability",
+            "C. Reduce the number of replicates to zero",
+            "D. Create more treatment combinations"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "For wide-sense stationary (WSS) random processes x[n] and y[n], the cross-correlation R_xy[k] depends on:",
+        "choices": [
+            "A. absolute time n but not on lag k",
+            "B. lag k but not on absolute time n",
+            "C. both absolute time n and lag k",
+            "D. neither absolute time n nor lag k"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "In transmission line theory, the voltage V(x, t) on a lossy line is governed by a PDE. Which type of PDE generally describes this wave propagation?",
+        "choices": [
+            "A. Elliptic PDE",
+            "B. Hyperbolic PDE",
+            "C. Parabolic PDE",
+            "D. Linear Algebraic Equation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "In the design of digital filters for data transmission, Finite Impulse Response (FIR) filters are often preferred over Infinite Impulse Response (IIR) filters primarily because:",
+        "choices": [
+            "A. They have higher throughput",
+            "B. They have analog equivalents",
+            "C. They require fewer coefficients for sharp cutoffs",
+            "D. They can be easily designed to have exactly linear phase REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "This plot encloses the interquartile range of the data in a box that has the median displayed within.",
+        "choices": [
+            "A. histogram",
+            "B. scatter plot",
+            "C. box-and-whisker plot",
+            "D. stem and leaf plot"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "Suppose a box contains 9 red balls, 6 white balls, and 5 blue balls. If a ball is drawn at random, what is the probability that it is blue?",
+        "choices": [
+            "A. 0.25",
+            "B. 0.30",
+            "C. 0.45",
+            "D. 0.20"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "For a conservative vector field F, what is the value of the closed line integral of F dot dr around any closed curve?",
+        "choices": [
+            "A. Infinity",
+            "B. Zero",
+            "C. The surface area",
+            "D. The volume"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "Find the height of a right circular cylinder of maximum volume which can be inscribed in a sphere of radius 10 cm.",
+        "choices": [
+            "A. 11.55 cm",
+            "B. 14.55 cm",
+            "C. 12.55 cm",
+            "D. 18.55 cm"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "What is the physical meaning of the closed line integral of F dot dr around a closed curve C?",
+        "choices": [
+            "A. Net flux through C",
+            "B. Circulation of F around C",
+            "C. Divergence of F in the region",
+            "D. Gradient of F along C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "Under what condition is a square matrix A considered involutory?",
+        "choices": [
+            "A. A^-1 = A",
+            "B. A^T = A",
+            "C. det(A) = 0",
+            "D. A^2 = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "What name is given to the differential equation of the form (1 - x^2)*y'' - 2x*y' + n(n + 1)*y = 0?",
+        "choices": [
+            "A. Chebyshev Differential Equation",
+            "B. Hermite Differential Equation",
+            "C. Laguerre Differential Equation",
+            "D. Legendre Differential Equation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 84,
+        "question": "Find the principal root of (1 + sqrt(3)*i)^(1/3).",
+        "choices": [
+            "A. 0.234 + 0.115i",
+            "B. 1.184 + 0.431i",
+            "C. 0.442 + 0.113i",
+            "D. 0.349 + 0.156i"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "If y = arcsin(x) + x*sqrt(1 - x^2), find the derivative y'.",
+        "choices": [
+            "A. 2*sqrt(1 - x^2)",
+            "B. 2 - 2x^2",
+            "C. 2 / sqrt(1 - x^2)",
+            "D. arcsin(x) - 2x^2 / sqrt(1 - x^2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Find the Fourier transform of x(t) = e^(-a*abs(t)) where a > 0.",
+        "choices": [
+            "A. 2a / (a^2 - omega^2)",
+            "B. 2omega / (a^2 + omega^2)",
+            "C. 2a / (a^2 + omega^2)",
+            "D. 2omega / (a^2 - omega^2)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "Solve for the general solution of the differential equation: dy/dx = y/x + tan(y/x).",
+        "choices": [
+            "A. sin(y/x) = kx",
+            "B. cos(y/x) = kx",
+            "C. tan(y/x) = kx",
+            "D. tan(y/x) = ky"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "For all sets A and B, the identities A U (A n B) = A and A n (A U B) = A are known as:",
+        "choices": [
+            "A. De Morgan's Laws",
+            "B. Absorption Laws",
+            "C. Set Difference Law",
+            "D. De Moivre's Law"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "Determine the volume of the solid obtained by rotating the region bounded by y = 2*sqrt(x - 1) and y = x - 1 about the line x = 6.",
+        "choices": [
+            "A. 136*pi / 15",
+            "B. 163*pi / 15",
+            "C. 272*pi / 15",
+            "D. 326*pi / 15"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "The rise-time of a pulse is normally measured between which levels?",
+        "choices": [
+            "A. 0% and 100% levels REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "B. 10% and 90% levels",
+            "C. 30% and 70% levels",
+            "D. 50% levels of the leading and trailing edges"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "In the context of IC manufacturing, which of the following variables is considered discrete?",
+        "choices": [
+            "A. The voltage breakdown of a capacitor",
+            "B. The length of a copper wire",
+            "C. The switching time of a transistor",
+            "D. The number of defective solder joints on a PCB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "In hypothesis testing concerning the gain of an amplifier, a Type I error occurs when:",
+        "choices": [
+            "A. The engineer concludes the gain is correct when it is actually out of spec",
+            "B. The engineer concludes the gain is out of spec when it is actually correct",
+            "C. The testing equipment is faulty",
+            "D. The sample size is insufficient"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "An electronics engineer performs a linear regression analysis to calibrate a temperature sensor. The resulting equation is V = 0.01T + 0.5. What is the predicted voltage at 25 degrees Celsius?",
+        "choices": [
+            "A. 0.25 V",
+            "B. 0.50 V",
+            "C. 0.75 V",
+            "D. 0.65 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "In the Design of Experiments (DOE) for optimizing an IC fabrication process, what is the term for a variable that is changed intentionally to observe its effect on the response variable?",
+        "choices": [
+            "A. Response",
+            "B. Factor",
+            "C. Replicate",
+            "D. Block"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "If there is a very strong correlation between two variables, then the correlation coefficient must be:",
+        "choices": [
+            "A. any value larger than 1",
+            "B. much larger than 0, regardless of whether the correlation is negative or positive",
+            "C. close to 1 or -1",
+            "D. exactly equal to 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "The system of linear equations 4x + 2y = 7 and 2x + y = 6 has:",
+        "choices": [
+            "A. a unique solution",
+            "B. exactly two distinct solutions",
+            "C. no solution",
+            "D. an infinite number of solutions"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 97,
+        "question": "In a normal distribution, approximately what percentage of data is within one standard deviation of the mean?",
+        "choices": [
+            "A. 32%",
+            "B. 64%",
+            "C. 34%",
+            "D. 68%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 98,
+        "question": "At a charter high school, administrators wish to collect a sample of 50 students. The proportions of the student body represented by each class are: 45% freshmen, 28% sophomores, 16% juniors, and 11% seniors. They decide to randomly sample 23 freshmen, 14 sophomores, eight juniors, and five seniors. Which sampling method was used?",
+        "choices": [
+            "A. Stratified",
+            "B. Cluster",
+            "C. Systematic",
+            "D. Random"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "What can you say about the given matrix? A = [[0.4, 0.1, 0.5], [0.4, 0.5, 0.1], [0.2, 0.4, 0.4]]",
+        "choices": [
+            "A. Matrix A is skew-symmetric",
+            "B. Matrix A is singular",
+            "C. Matrix A is orthogonal",
+            "D. Matrix A is stochastic"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "Solve for the trace of the given matrix: [[2, 5, -2],, [-1, 5, -3]]",
+        "choices": [
+            "A. -6",
+            "B. 0",
+            "C. 43",
+            "D. 43/6 REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "B"
+    }
+]

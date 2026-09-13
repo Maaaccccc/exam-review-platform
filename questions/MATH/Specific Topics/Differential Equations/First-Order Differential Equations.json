@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 0,
+        "question": "",
+        "choices": [
+            "A. x",
+            "B. y",
+            "C. 1/x",
+            "D. 1/y"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 1,
+        "question": "",
+        "choices": [
+            "A. y = e^(2x)",
+            "B. y = e^(x^2)",
+            "C. y = x^2 + 1",
+            "D. y = e^x"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "Determine the degree of the differential equation (y'')^2 + (y')^4 = e^x.",
+        "choices": [
+            "A. 1",
+            "B. 3",
+            "C. 2",
+            "D. 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "Which of the following is a non-linear differential equation?",
+        "choices": [
+            "A. y'' + 4y = 0",
+            "B. x y' + y = x^2",
+            "C. y' + x = y",
+            "D. y' + y^2 = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "Eliminate the arbitrary constant C from the equation y = C/x.",
+        "choices": [
+            "A. x y' + y = 0",
+            "B. x y' - y = 0",
+            "C. y' + x = 0",
+            "D. y' - y = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "A solution that can be obtained from the general solution by assigning a specific value to the arbitrary constant is called a:",
+        "choices": [
+            "A. Singular solution",
+            "B. Particular solution",
+            "C. Trivial solution",
+            "D. Homogeneous solution"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "What condition defines an Initial Value Problem (IVP)?",
+        "choices": [
+            "A. Conditions given at two different points",
+            "B. Conditions given at infinity",
+            "C. Conditions given at a single point",
+            "D. Equation is set to zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "Eliminate the arbitrary constants A and B from y = Ax +",
+        "choices": [
+            "B. A. y'' = 0",
+            "B. y' = A",
+            "C. y'' = 1",
+            "D. y' = x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "The graphical representation showing short line segments with slopes f(x,y) for the equation y' = f(x,y) is called a:",
+        "choices": [
+            "A. Level curve",
+            "B. Contour map",
+            "C. Direction field",
+            "D. Phase plane"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 9,
+        "question": "The standard form of a variable separable first-order differential equation is:",
+        "choices": [
+            "A. M(x,y)dx + N(x,y)dy = 0",
+            "B. y' + P(x)y = Q(x)",
+            "C. M(x)dx + N(y)dy = 0",
+            "D. y' = f(x/y)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "Solve the differential equation dy/dx = y/x.",
+        "choices": [
+            "A. y = x + C",
+            "B. y = C/x",
+            "C. y = C e^x",
+            "D. y = Cx"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "Solve the variable separable equation x dx + y dy = 0.",
+        "choices": [
+            "A. x^2 + y^2 = C",
+            "B. x^2 - y^2 = C",
+            "C. y^2 = x^2 + C",
+            "D. xy = C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "Solve dy/dx = -x/y with the initial condition y(0) = 3.",
+        "choices": [
+            "A. x^2 + y^2 = 9",
+            "B. x^2 - y^2 = 9",
+            "C. y^2 - x^2 = 9",
+            "D. x^2 + y^2 = 3"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "Find the general solution of y' = e^(x-y).",
+        "choices": [
+            "A. e^y = e^x + C",
+            "B. e^-y = e^x + C",
+            "C. e^y = e^-x + C",
+            "D. e^-y = e^-x + C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Solve the differential equation dr/d(theta) = r tan(theta).",
+        "choices": [
+            "A. r = C cos(theta)",
+            "B. r = C sec(theta)",
+            "C. r = C sin(theta)",
+            "D. r = C csc(theta)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Which of the following differential equations is separable?",
+        "choices": [
+            "A. dy/dx = x + y",
+            "B. dy/dx = x y",
+            "C. dy/dx = sin(x+y)",
+            "D. dy/dx = x^2 + y^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "Solve dy/dx = e^x y^2.",
+        "choices": [
+            "A. 1/y = e^x + C",
+            "B. y = e^x + C",
+            "C. -1/y = e^x + C",
+            "D. -y = e^x + C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "Solve the differential equation (x^2 + 1) dy = (y^2 + 1) dx.",
+        "choices": [
+            "A. arctan(y) + arctan(x) = C",
+            "B. arcsin(y) - arcsin(x) = C",
+            "C. arctan(y) - arctan(x) = C",
+            "D. tan(y) - tan(x) = C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 18,
+        "question": "Solve dy/dx = x^2 / y.",
+        "choices": [
+            "A. y^2 = (2/3)x^3 + C",
+            "B. y^2 = x^3 + C",
+            "C. y = x^3/3 + C",
+            "D. 2y = 3x^2 + C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "The general solution of dy/dx = x/y represents a family of:",
+        "choices": [
+            "A. Circles",
+            "B. Parabolas",
+            "C. Ellipses",
+            "D. Hyperbolas"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 20,
+        "question": "Solve the equation dy/dx = 1 + x + y + xy.",
+        "choices": [
+            "A. ln(1+y) = x + x^2/2 + C",
+            "B. ln(1+x) = y + y^2/2 + C",
+            "C. ln(1+y) = x - x^2/2 + C",
+            "D. ln(1+x) = y - y^2/2 + C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "A function f(x,y) is homogeneous of degree n if f(tx, ty) equals:",
+        "choices": [
+            "A. t f(x,y)",
+            "B. f(x,y) / t^n",
+            "C. t^n f(x,y)",
+            "D. t^(n-1) f(x,y)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "What is the standard substitution used to solve a homogeneous first-order differential equation?",
+        "choices": [
+            "A. y = v/x",
+            "B. x = vy",
+            "C. u = x+y",
+            "D. z = x*y"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "What is the degree of homogeneity of the function f(x,y) = x^3 - 3xy^2 + y^3?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "Which of the following differential equations is homogeneous?",
+        "choices": [
+            "A. (x^2 + y)dx + y^2 dy = 0",
+            "B. (x^3 + y^3)dx - 3xy^2 dy = 0",
+            "C. (x+y+1)dx + x dy = 0",
+            "D. dy/dx = x^2 + y"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "Solve the homogeneous equation (x+y)dx + x dy = 0.",
+        "choices": [
+            "A. x^2 + xy = C",
+            "B. x^2 + 2xy = C",
+            "C. x^2 - 2xy = C",
+            "D. xy + y^2 = C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "Solve the equation dy/dx = (y/x) + (y/x)^2.",
+        "choices": [
+            "A. y = x / (C - ln x)",
+            "B. y = x(C - ln x)",
+            "C. x = y / (C - ln x)",
+            "D. y = x ln x + C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "When the substitution y = vx is applied to a homogeneous DE M(x,y)dx + N(x,y)dy = 0, the resulting equation is always:",
+        "choices": [
+            "A. Exact",
+            "B. Linear",
+            "C. Bernoulli",
+            "D. Variable separable"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "Solve the differential equation x dy - y dx = sqrt(x^2 + y^2) dx.",
+        "choices": [
+            "A. y + sqrt(x^2+y^2) = C x^2",
+            "B. y - sqrt(x^2+y^2) = C x^2",
+            "C. x + sqrt(x^2+y^2) = C y^2",
+            "D. x - sqrt(x^2+y^2) = C y^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Determine the degree of homogeneity of f(x,y) = sin(y/x).",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 2",
+            "D. Undefined"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "Solve the homogeneous DE (x-y)dx + (x+y)dy = 0.",
+        "choices": [
+            "A. x^2 - xy - y^2 = C",
+            "B. x^2 + 2xy - y^2 = C",
+            "C. x^2 - 2xy - y^2 = C",
+            "D. x^2 + 2xy + y^2 = C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "Solve the differential equation xy y' = x^2 + y^2.",
+        "choices": [
+            "A. y^2 = x^2(2ln x + C)",
+            "B. y^2 = x^2(ln x + C)",
+            "C. x^2 = y^2(2ln y + C)",
+            "D. y^2 = 2x^2 ln x + C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "Solve dy/dx = (x^2 + y^2) / xy.",
+        "choices": [
+            "A. y^2 = x^2(2ln x + C)",
+            "B. y^2 = x^2 ln x + C",
+            "C. y^2 = 2x^2 ln x + C",
+            "D. x^2 = y^2(2ln y + C)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "If f(x,y) = (x^2 + y^2) / (x - y), what is its degree of homogeneity?",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 2",
+            "D. 3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "What is the condition for the differential equation M(x,y)dx + N(x,y)dy = 0 to be exact?",
+        "choices": [
+            "A. del(M)/del(x) = del(N)/del(y)",
+            "B. del(M)/del(y) = -del(N)/del(x)",
+            "C. del(M)/del(y) = del(N)/del(x)",
+            "D. del(M)/del(x) = -del(N)/del(y)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "If M dx + N dy = 0 is an exact differential equation, its general solution is given by a function F(x,y) = C where:",
+        "choices": [
+            "A. F = int M dx + int N dy",
+            "B. dF = M dx + N dy",
+            "C. dF = M dy + N dx",
+            "D. F = M/N"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "Determine if the equation (2xy + 3)dx + (x^2 - 1)dy = 0 is exact.",
+        "choices": [
+            "A. Yes, exact",
+            "B. No, not exact",
+            "C. Homogeneous but not exact",
+            "D. Separable"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Solve the exact differential equation (2xy)dx + (x^2)dy = 0.",
+        "choices": [
+            "A. x y^2 = C",
+            "B. x^2 y^2 = C",
+            "C. x^2 y = C",
+            "D. x y = C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "Solve (y cos x)dx + (sin x)dy = 0.",
+        "choices": [
+            "A. y cos x = C",
+            "B. y sin x = C",
+            "C. x sin y = C",
+            "D. x cos y = C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "Solve the exact equation (2x+y)dx + (x-2y)dy = 0.",
+        "choices": [
+            "A. x^2 + xy - y^2 = C",
+            "B. x^2 - xy - y^2 = C",
+            "C. x^2 + xy + y^2 = C",
+            "D. x^2 - xy + y^2 = C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "If an equation is not exact (M_y != N_x), it can often be made exact by multiplying by a(n):",
+        "choices": [
+            "A. Singular factor",
+            "B. Differentiating factor",
+            "C. Homogeneous factor",
+            "D. Integrating factor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 42,
+        "question": "Solve (e^x + y)dx + (x + e^y)dy = 0.",
+        "choices": [
+            "A. e^x + xy - e^y = C",
+            "B. e^x - xy + e^y = C",
+            "C. e^x + xy + e^y = C",
+            "D. e^x + e^y = C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "Find the value of k that makes (3x^2 y + 2x)dx + (k x^3 + 2y)dy = 0 exact.",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 2",
+            "D. 3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "Solve (2x y^2 - 3)dx + (2x^2 y + 4)dy = 0.",
+        "choices": [
+            "A. x^2 y^2 - 3x + 4y = C",
+            "B. x^2 y^2 + 3x - 4y = C",
+            "C. 2x^2 y^2 - 3x + 4y = C",
+            "D. x^2 y^2 - 3y + 4x = C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "The solution of an exact differential equation dF(x,y) = 0 is represented as:",
+        "choices": [
+            "A. F(x,y) = 0",
+            "B. F(x,y) = C",
+            "C. F(x,y) = f(x)",
+            "D. F(x,y) = g(y)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "Solve (1/x + y)dx + (x - 1/y)dy = 0.",
+        "choices": [
+            "A. ln(x) + xy + ln(y) = C",
+            "B. ln(x) - xy - ln(y) = C",
+            "C. ln(x) + xy - ln(y) = C",
+            "D. -ln(x) + xy - ln(y) = C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "Is the equation (x^2 + y^2)dx - (2xy)dy = 0 exact?",
+        "choices": [
+            "A. Yes",
+            "B. No",
+            "C. Exact only if x=0",
+            "D. Exact only if y=0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "Find the particular solution of (2xy)dx + (x^2)dy = 0 with initial condition y(1)=2.",
+        "choices": [
+            "A. x^2 y = 1",
+            "B. x^2 y = 2",
+            "C. x y^2 = 2",
+            "D. x^2 y = 4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "The formula for the integrating factor if (M_y - N_x)/N is a function of x alone, say f(x), is:",
+        "choices": [
+            "A. e^(int f(x) dx)",
+            "B. e^(-int f(x) dx)",
+            "C. e^(int f(x) dy)",
+            "D. e^(int y dx)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "The formula for the integrating factor if (N_x - M_y)/M is a function of y alone, say g(y), is:",
+        "choices": [
+            "A. e^(-int g(y) dy)",
+            "B. e^(int g(x) dx)",
+            "C. e^(int g(y) dy)",
+            "D. int g(y) dy"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "Find the integrating factor for dy/dx + (2/x)y = 3.",
+        "choices": [
+            "A. 2/x",
+            "B. x^2",
+            "C. ln(x)",
+            "D. e^x"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "The integrating factor for the linear differential equation y' + P(x)y = Q(x) is given by:",
+        "choices": [
+            "A. e^(int Q(x) dx)",
+            "B. e^(int P(x) dx)",
+            "C. int P(x) dx",
+            "D. e^(-int P(x) dx)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "Find the integrating factor for (2y^2 + 3x)dx + 2xy dy = 0.",
+        "choices": [
+            "A. x",
+            "B. 1/x",
+            "C. y",
+            "D. 1/y"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "Which of the following is a standard integrating factor for y dx - x dy = 0?",
+        "choices": [
+            "A. 1/x",
+            "B. 1/y",
+            "C. 1/x^2",
+            "D. xy"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "If M dx + N dy = 0 is a non-exact homogeneous equation, a possible integrating factor is:",
+        "choices": [
+            "A. 1/(xM - yN)",
+            "B. 1/(xM + yN)",
+            "C. 1/(xN - yM)",
+            "D. 1/(xN + yM)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "Find the integrating factor for y' - y = e^x.",
+        "choices": [
+            "A. e^x",
+            "B. e^-x",
+            "C. x",
+            "D. -x"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "Solve (y^2)dx + (xy)dy = 0 by finding an appropriate integrating factor.",
+        "choices": [
+            "A. x y^2 = C",
+            "B. x^2 y^2 = C",
+            "C. x^2 y = C",
+            "D. x y = C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "If the equation is y f(xy) dx + x g(xy) dy = 0, a standard integrating factor is:",
+        "choices": [
+            "A. 1/(xM + yN)",
+            "B. 1/(xM - yN)",
+            "C. 1/(xN - yM)",
+            "D. 1/(xy)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "Find the integrating factor for the equation dy/dx - (2/x)y = x^2.",
+        "choices": [
+            "A. x^2",
+            "B. x^-2",
+            "C. e^x",
+            "D. e^-x"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "Determine the integrating factor of dx/dy - (2/y)x = y^2.",
+        "choices": [
+            "A. y^2",
+            "B. y^-2",
+            "C. e^y",
+            "D. e^-y"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "The standard form of a linear first-order differential equation is:",
+        "choices": [
+            "A. dy/dx + P(x)y = Q(x)",
+            "B. dy/dx + P(y)x = Q(y)",
+            "C. M(x,y)dx + N(x,y)dy = 0",
+            "D. dy/dx = f(x)g(y)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "The general solution to a linear DE y' + P(x)y = Q(x) with integrating factor IF is:",
+        "choices": [
+            "A. y = int(Q(x)*IF)dx + C",
+            "B. y*IF = int(Q(x)*IF)dx + C",
+            "C. y = IF * int(Q(x))dx + C",
+            "D. y*IF = Q(x) + C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "Solve the linear equation dy/dx + y = e^-x.",
+        "choices": [
+            "A. y = (x+C)e^-x",
+            "B. y = C e^-x",
+            "C. y = x e^-x + C",
+            "D. y = (x+C)e^x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "Solve x(dy/dx) + y = 3x^2.",
+        "choices": [
+            "A. y = x^2 + C/x",
+            "B. y = x^3 + C/x",
+            "C. y = 3x^2 + C/x",
+            "D. y = x^2 + C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Solve dy/dx + 2x y = x.",
+        "choices": [
+            "A. y = 1/2 + C e^(x^2)",
+            "B. y = 1/2 + C e^(-x^2)",
+            "C. y = 1 + C e^(-x^2)",
+            "D. y = x + C e^(-x^2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Solve y' + (1/x)y = sin(x) for x > 0.",
+        "choices": [
+            "A. xy = -x cos(x) + sin(x) + C",
+            "B. xy = x cos(x) - sin(x) + C",
+            "C. xy = -x sin(x) + cos(x) + C",
+            "D. xy = x sin(x) + cos(x) + C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "Mixture problems involving a tank where the rate of change of salt is (Rate In - Rate Out) are primarily modeled using:",
+        "choices": [
+            "A. Exact equations",
+            "B. Homogeneous equations",
+            "C. Linear 1st order equations",
+            "D. Riccati equations"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "Solve dy/dx - y tan(x) = sec(x).",
+        "choices": [
+            "A. y cos(x) = x + C",
+            "B. y sin(x) = x + C",
+            "C. y sec(x) = x + C",
+            "D. y tan(x) = x + C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "Solve (x^2 + 1)y' + 2x y = 4x^2.",
+        "choices": [
+            "A. y(x^2+1) = 4/3 x^3 + C",
+            "B. y(x^2+1) = x^3 + C",
+            "C. y(x^2+1) = 4x^3 + C",
+            "D. y(x^2+1) = 2/3 x^3 + C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "Solve dy/dx + 3y = 6.",
+        "choices": [
+            "A. y = 2 + C e^(3x)",
+            "B. y = 3 + C e^(-3x)",
+            "C. y = 2 + C e^(-3x)",
+            "D. y = 6 + C e^(-3x)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "Solve y' + (2/x)y = x^2 with initial condition y(1) = 1.",
+        "choices": [
+            "A. y = x^3/5 + 4/(5x^2)",
+            "B. y = x^3/5 + 1/(5x^2)",
+            "C. y = x^2/5 + 4/(5x^3)",
+            "D. y = x^4/5 + 1/5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "A simple RL circuit governed by L di/dt + Ri = E(t) is mathematically classified as a:",
+        "choices": [
+            "A. 2nd order linear DE",
+            "B. 1st order nonlinear DE",
+            "C. Variable separable DE",
+            "D. 1st order linear DE"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "Solve dx/dy + x = y.",
+        "choices": [
+            "A. x = y - 1 + C e^-y",
+            "B. x = y + 1 + C e^-y",
+            "C. x = y - 1 + C e^y",
+            "D. x = y + 1 + C e^y"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "Solve y' - 2y = e^(2x).",
+        "choices": [
+            "A. y = (x+C)e^(-2x)",
+            "B. y = C e^(2x)",
+            "C. y = (x+C)e^(2x)",
+            "D. y = x e^(2x) + C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "What is the integrating factor of the linear equation y' + y = 2?",
+        "choices": [
+            "A. e^x",
+            "B. e^-x",
+            "C. x",
+            "D. ln(x)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "The standard form of a Bernoulli differential equation is:",
+        "choices": [
+            "A. dy/dx + P(x)y = Q(x)y^n",
+            "B. dy/dx + P(x)y = Q(x)",
+            "C. dy/dx = f(y/x)",
+            "D. M dx + N dy = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "What substitution is used to transform a Bernoulli equation into a linear differential equation?",
+        "choices": [
+            "A. z = y^n",
+            "B. z = y^(1-n)",
+            "C. z = y^(n-1)",
+            "D. z = y / x"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "For the Bernoulli equation y' + (1/x)y = x y^2, what is the appropriate substitution?",
+        "choices": [
+            "A. z = y^2",
+            "B. z = y",
+            "C. z = y^-1",
+            "D. z = y^-2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "When the substitution z = y^(1-n) is applied to a Bernoulli equation, the new linear equation is:",
+        "choices": [
+            "A. dz/dx + P(x)z = Q(x)",
+            "B. dz/dx + (1-n)P(x)z = (1-n)Q(x)",
+            "C. dz/dx + (n-1)P(x)z = (n-1)Q(x)",
+            "D. dz/dx - P(x)z = Q(x)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "Solve y' + y = y^2.",
+        "choices": [
+            "A. 1/y = 1 + C e^x",
+            "B. y = 1 + C e^x",
+            "C. 1/y = 1 + C e^-x",
+            "D. y = 1 + C e^-x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "To solve dy/dx - y = x y^5, the substitution z = y^-4 transforms it into which linear equation?",
+        "choices": [
+            "A. dz/dx + 4z = -4x",
+            "B. dz/dx - 4z = 4x",
+            "C. dz/dx + 4z = 4x",
+            "D. dz/dx - 4z = -4x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "Solve 2x y y' = x^2 + y^2 using a Bernoulli approach.",
+        "choices": [
+            "A. y^2 = x^2(ln x + C)",
+            "B. y^2 = x^2(2ln x + C)",
+            "C. y^2 = x(ln x + C)",
+            "D. y = x^2(ln x + C)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "Solve x y' + y = x^2 y^2.",
+        "choices": [
+            "A. 1/(xy) = -x + C",
+            "B. 1/y = -x^2 + C",
+            "C. 1/(xy) = x + C",
+            "D. xy = -x + C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "Which of the following is a Bernoulli differential equation?",
+        "choices": [
+            "A. dy/dx + 3y = sin(x)",
+            "B. dy/dx + 2y = x y^3",
+            "C. dy/dx + y^2 = x^2",
+            "D. dy/dx = (x+y)/x"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "If a Bernoulli equation has n = 0, the equation is already:",
+        "choices": [
+            "A. Separable",
+            "B. Homogeneous",
+            "C. Exact",
+            "D. Linear"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "If a Bernoulli equation has n = 1, the equation can be solved immediately as a:",
+        "choices": [
+            "A. Variable separable DE",
+            "B. Exact DE",
+            "C. Riccati DE",
+            "D. 2nd order DE"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "Solve dy/dx + (1/3)y = (1/3)e^x y^4.",
+        "choices": [
+            "A. y^-3 = (x+C)e^x",
+            "B. y^3 = (x+C)e^x",
+            "C. y^-3 = (x+C)e^-x",
+            "D. y^3 = (x+C)e^-x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "The differential equation dx/dy + P(y)x = Q(y)x^n is a Bernoulli equation where the dependent variable is:",
+        "choices": [
+            "A. y",
+            "B. x",
+            "C. n",
+            "D. P"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "Solve y' = y(x y^3 - 1).",
+        "choices": [
+            "A. y^-3 = x + 1/3 + C e^(3x)",
+            "B. y^3 = x + 1/3 + C e^(3x)",
+            "C. y^-3 = x - 1/3 + C e^(3x)",
+            "D. y^3 = x - 1/3 + C e^(3x)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "For y' + P(x)y = Q(x)y^n, the integrating factor for the transformed linear equation in z is:",
+        "choices": [
+            "A. e^(int P(x) dx)",
+            "B. e^(int (1-n)P(x) dx)",
+            "C. e^(int (n-1)P(x) dx)",
+            "D. e^(int Q(x) dx)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "The standard form of a Riccati differential equation is:",
+        "choices": [
+            "A. dy/dx = P(x) + Q(x)y",
+            "B. dy/dx + P(x)y = Q(x)y^n",
+            "C. dy/dx = P(x) + Q(x)y + R(x)y^2",
+            "D. M(x,y)dx + N(x,y)dy = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "To solve a Riccati equation, one typically must know at least one:",
+        "choices": [
+            "A. Integrating factor",
+            "B. General solution",
+            "C. Particular solution",
+            "D. Boundary condition"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "If y1 is a known particular solution of a Riccati equation, what substitution reduces it to a linear differential equation?",
+        "choices": [
+            "A. y = y1 * u",
+            "B. y = y1 + u",
+            "C. y = y1 + 1/u",
+            "D. y = 1 / (y1 + u)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "A Riccati equation y' = P(x) + Q(x)y + R(x)y^2 reduces to a Bernoulli equation if which term is identically zero?",
+        "choices": [
+            "A. P(x)",
+            "B. Q(x)",
+            "C. R(x)",
+            "D. y^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 96,
+        "question": "Identify the Riccati equation among the following:",
+        "choices": [
+            "A. y' + 2y = y^3",
+            "B. y' = 1 + x - 2xy + y^2",
+            "C. y' = x^2 + y",
+            "D. y' = (x+y)/x"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "If y1 = x is a particular solution to y' = 1 - x^2 + y^2, the substitution to find the general solution is:",
+        "choices": [
+            "A. y = x + u",
+            "B. y = x * u",
+            "C. y = x + 1/u",
+            "D. y = 1/(x+u)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 98,
+        "question": "Given the Riccati equation y' = e^x - (1 + 2e^x)y + e^x y^2, and a known solution y1 = 1. What is the transformed DE for u using y = 1 + 1/u?",
+        "choices": [
+            "A. u' + u = -e^x",
+            "B. u' - u = e^x",
+            "C. u' + u = e^x",
+            "D. u' - u = -e^x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "Riccati differential equations are inherently classified as:",
+        "choices": [
+            "A. Linear 1st order DEs",
+            "B. Non-linear 1st order DEs",
+            "C. Linear 2nd order DEs",
+            "D. Exact DEs"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 100,
+        "question": "If the substitution y = -u' / (R(x)*u) is applied to a Riccati equation, it transforms into a:",
+        "choices": [
+            "A. Linear 1st order DE",
+            "B. Variable separable DE",
+            "C. Homogeneous DE",
+            "D. Linear 2nd order DE"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 101,
+        "question": "If y1, y2, y3 are three distinct particular solutions of a Riccati equation, the general solution can be expressed using a constant:",
+        "choices": [
+            "A. Sum",
+            "B. Cross ratio",
+            "C. Product",
+            "D. Difference"
+        ],
+        "correct_answer": "B"
+    }
+]

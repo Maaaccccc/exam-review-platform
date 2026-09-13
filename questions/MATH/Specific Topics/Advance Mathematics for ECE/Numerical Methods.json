@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "The Laplace transform of the Dirac delta impulse function δ(t) evaluates exactly to:",
+        "choices": [
+            "A. 1",
+            "B. s",
+            "C. 1/s",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "According to the First Shifting Theorem, if \\mathcalL\\f(t)\\ = F(s), then \\mathcalL\\e^atf(t)\\ translates to:",
+        "choices": [
+            "A. e^-as F(s)",
+            "B. F(s-a)",
+            "C. F(s+a)",
+            "D. e^as F(s)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "The Initial Value Theorem states that the time limit \\lim_t → 0^+ f(t) is mathematically equal to which s-domain limit?",
+        "choices": [
+            "A. \\lim_s → 0 s F(s)",
+            "B. \\lim_s → ∞ F(s)",
+            "C. \\lim_s → ∞ s F(s)",
+            "D. \\lim_s → 0 F(s)/s"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "The Convolution Theorem states that \\mathcalLI¹\\F(s)G(s)\\ evaluates in the time domain to:",
+        "choices": [
+            "A. f(t) + g(t)",
+            "B. f(t) g(t)",
+            "C. ∫_0^∞ f(τ) g(t-τ) dτ",
+            "D. ∫_0^t f(τ) g(t-τ) dτ"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "Evaluate the exact inverse Laplace transform of the function s / (s^2 + ω^2).",
+        "choices": [
+            "A. cos(ω t)",
+            "B. sin(ω t)",
+            "C. cosh(ω t)",
+            "D. sinh(ω t)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "A periodic function exhibits half-wave symmetry if it strictly satisfies the exact mathematical condition:",
+        "choices": [
+            "A. f(t) = f(-t)",
+            "B. f(t) = -f(t ± T/2)",
+            "C. f(t) = -f(-t)",
+            "D. f(t) = f(t ± T/2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "According to the Duality Property of Fourier transforms, if \\mathcalF\\f(t)\\ = F(ω), then the transform \\mathcalF\\F(t)\\ exactly equals:",
+        "choices": [
+            "A. f(ω)/2π",
+            "B. f(-ω)",
+            "C. 2π f(-ω)",
+            "D. 2π f(ω)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "Applying a pure time shift to a signal, giving f(t - t_0), modifies its Fourier transform F(ω) by multiplying it strictly by:",
+        "choices": [
+            "A. e^jω t_0",
+            "B. cos(ω t_0)",
+            "C. δ(ω - ω_0)",
+            "D. e^-jω t_0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "The Continuous Fourier Transform of an ideal DC signal f(t) = 1 is:",
+        "choices": [
+            "A. 2π δ(ω)",
+            "B. δ(ω)",
+            "C. 1/jω",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "If the 4-point DFT of the digital sequence x[n] = \\1, 0, 0, 0\\ is computed, the resulting sequence X[k] is:",
+        "choices": [
+            "A. \\4, 0, 0, 0\\",
+            "B. \\1, 1, 1, 1\\",
+            "C. \\1, j, -1, -j\\",
+            "D. \\0, 0, 0, 0\\"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "The absolute error of a numerical approximation is formally defined as:",
+        "choices": [
+            "A. The ratio of the true value to the approximate value",
+            "B. The approximate value divided by the true value",
+            "C. The absolute difference between the true value and the approximate value",
+            "D. The percentage difference of the true value"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "The relative error of a numerical approximation is calculated mathematically as:",
+        "choices": [
+            "A. Absolute Error / Approximate Value",
+            "B. Approximate Value / True Value",
+            "C. True Value / Absolute Error",
+            "D. Absolute Error / True Value"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "If a true value is 50 and the measured value is 49, the percentage error is exactly:",
+        "choices": [
+            "A. 2.0%",
+            "B. 1.0%",
+            "C. 4.9%",
+            "D. 5.0%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "In Gradient Descent optimization, the algorithm iteratively steps in the direction mathematically defined by the:",
+        "choices": [
+            "A. Positive gradient of the function",
+            "B. Negative gradient of the function",
+            "C. Second derivative of the function",
+            "D. Global minimum of the function"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "If the true value is π and the approximation is 3.14, the absolute error is:",
+        "choices": [
+            "A. 0.0015",
+            "B. 0.0159",
+            "C. π - 3.14",
+            "D. 3.14 / π"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "Which specific type of error arises directly from stopping a mathematical process or infinite series after a finite number of steps?",
+        "choices": [
+            "A. Round-off error",
+            "B. Measurement error",
+            "C. Human error",
+            "D. Truncation error"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "Which specific type of error arises due to the inability of computers to represent real numbers with infinite precision?",
+        "choices": [
+            "A. Round-off error",
+            "B. Truncation error",
+            "C. Absolute error",
+            "D. Formulation error"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "The gradient descent update rule for finding a minimum of f(x) with learning rate α is:",
+        "choices": [
+            "A. x_n+1 = x_n + α f'(x_n)",
+            "B. x_n+1 = x_n - α f'(x_n)",
+            "C. x_n+1 = x_n - f'(x_n) / α",
+            "D. x_n+1 = x_n + f'(x_n) / α"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "In gradient descent, a learning rate α that is set excessively high will most likely cause the algorithm to:",
+        "choices": [
+            "A. Converge too quickly to a suboptimal local minimum",
+            "B. Stop prematurely due to lack of gradients",
+            "C. Diverge or endlessly oscillate around the minimum",
+            "D. Require significantly more iterations to converge"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "If a measured value is 10.5 and the true value is 10.0, the relative error is:",
+        "choices": [
+            "A. 0.0476",
+            "B. 0.5",
+            "C. 5.0",
+            "D. 0.05"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "The Bisection Method guarantees convergence to a root if the initial interval [a, b] satisfies which condition?",
+        "choices": [
+            "A. f(a)f(b) < 0",
+            "B. f(a)f(b) > 0",
+            "C. f'(a)f'(b) < 0",
+            "D. f(a) + f(b) = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "The Newton-Raphson iterative formula for finding the roots of f(x) = 0 is:",
+        "choices": [
+            "A. x_n+1 = x_n + f(x_n)/f'(x_n)",
+            "B. x_n+1 = x_n - f(x_n)/f'(x_n)",
+            "C. x_n+1 = x_n - f'(x_n)/f(x_n)",
+            "D. x_n+1 = x_n + f'(x_n)/f(x_n)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "A severe limitation of the Newton-Raphson method is that it fails entirely if, during any iteration, the derivative f'(x_n) evaluates to:",
+        "choices": [
+            "A. A negative number",
+            "B. Infinity",
+            "C. Zero",
+            "D. A complex number"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "The Regula Falsi (False Position) method approximates the root by connecting f(a) and f(b) with a:",
+        "choices": [
+            "A. Parabola",
+            "B. Tangent line",
+            "C. Secant curve",
+            "D. Straight secant line"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "The Secant Method differs conceptually from the Newton-Raphson method primarily because it:",
+        "choices": [
+            "A. Approximates the derivative using two previous points",
+            "B. Brackets the root at every step",
+            "C. Only works for polynomial equations",
+            "D. Requires the calculation of the second derivative"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "The theoretical rate of convergence of the Bisection Method is classified as:",
+        "choices": [
+            "A. Quadratic",
+            "B. Linear",
+            "C. Superlinear",
+            "D. Cubic"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "The theoretical rate of convergence of the Newton-Raphson method for a simple root is classified as:",
+        "choices": [
+            "A. Linear",
+            "B. Superlinear",
+            "C. Quadratic",
+            "D. Cubic"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "The Secant Method exhibits a rate of convergence that is strictly:",
+        "choices": [
+            "A. Quadratic (2.0)",
+            "B. Linear (1.0)",
+            "C. Cubic (3.0)",
+            "D. Superlinear (approx 1.618)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "Find the first bisection approximation (midpoint) c_1 for the root of f(x) = x^2 - 3 on the interval [1, 2].",
+        "choices": [
+            "A. 1.5",
+            "B. 1.25",
+            "C. 1.75",
+            "D. 1.732"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Apply one iteration of the Newton-Raphson method to find the root of f(x) = x^2 - 4 = 0 using an initial guess x_0 = 3.",
+        "choices": [
+            "A. 2.0",
+            "B. 2.167",
+            "C. 2.5",
+            "D. 2.333"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "The Secant Method iterative formula uses x_n-1 and x_n to find x_n+1. The denominator in this formula is:",
+        "choices": [
+            "A. f'(x_n)",
+            "B. x_n - x_n-1",
+            "C. f(x_n) - f(x_n-1)",
+            "D. f(x_n) + f(x_n-1)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "Which of the following numerical methods is mathematically guaranteed to converge for any continuous function, provided the initial points bracket a root?",
+        "choices": [
+            "A. Newton-Raphson Method",
+            "B. Secant Method",
+            "C. Modified Newton Method",
+            "D. Bisection Method"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "To find the square root of a positive number N using the Newton-Raphson method, the iterative formula simplifies to:",
+        "choices": [
+            "A. x_n+1 = (1/2)(x_n + (N/x_n))",
+            "B. x_n+1 = x_n - (N/x_n)",
+            "C. x_n+1 = (1/2)(x_n - (N/x_n))",
+            "D. x_n+1 = x_n + (x_n/N)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "If f(x) has a multiple root at x = r, the convergence of the standard Newton-Raphson method deteriorates from quadratic to:",
+        "choices": [
+            "A. Divergent",
+            "B. Linear",
+            "C. Superlinear",
+            "D. Cubic"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "The Regula Falsi method calculates the next approximation c from the interval [a, b] using the formula:",
+        "choices": [
+            "A. c = (a+b)/2",
+            "B. c = a - f(a) (b-a/f(b)+f(a))",
+            "C. c = a - f(a) (b-a/f(b)-f(a))",
+            "D. c = b - f(a) (b-a/f(b)-f(a))"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "If the Bisection Method is applied to [0, 1], what is the absolute error bound of the root approximation after exactly 3 iterations (where c_3 is the third midpoint)?",
+        "choices": [
+            "A. 0.5",
+            "B. 0.25",
+            "C. 0.0625",
+            "D. 0.125"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "In the Newton-Raphson method, geometrically, the next approximation x_n+1 is the x-intercept of the:",
+        "choices": [
+            "A. Tangent line to f(x) at x_n",
+            "B. Secant line between x_n-1 and x_n",
+            "C. Normal line to f(x) at x_n",
+            "D. Chord connecting the endpoints"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Determine x_1 using the Secant Method for f(x) = x^3 - 2 = 0 with x_-1 = 0 and x_0 = 1.",
+        "choices": [
+            "A. 2.0",
+            "B. 3.0",
+            "C. 1.5",
+            "D. 1.25"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Determine c_1 using the Regula Falsi method for f(x) = x^2 - 4 = 0 with interval [0, 3].",
+        "choices": [
+            "A. 1.0",
+            "B. 1.5",
+            "C. 1.2",
+            "D. 2.0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "The Modified Newton-Raphson method, designed to restore quadratic convergence for roots of multiplicity m, uses the iterative formula:",
+        "choices": [
+            "A. x_n+1 = x_n - (f(x_n)/m f'(x_n))",
+            "B. x_n+1 = x_n - m (f'(x_n)/f(x_n))",
+            "C. x_n+1 = m x_n - (f(x_n)/f'(x_n))",
+            "D. x_n+1 = x_n - m (f(x_n)/f'(x_n))"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Which technique is sometimes combined with the Bisection Method to create a hybrid, fast-converging, completely safe algorithm like Brent's Method?",
+        "choices": [
+            "A. Inverse Quadratic Interpolation",
+            "B. Gradient Descent",
+            "C. Runge-Kutta Integration",
+            "D. Gaussian Elimination"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "The minimum number of iterations n required by the Bisection Method to guarantee an absolute error less than ε for an initial interval of length L is bounded by:",
+        "choices": [
+            "A. n > (ln(L/ε)/ln(10))",
+            "B. n > (ln(L/ε)/ln(2))",
+            "C. n > (ln(ε/L)/ln(2))",
+            "D. n > (L/ε)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Using the Newton-Raphson method, find the first iteration x_1 for f(x) = cos(x) - x = 0 given x_0 = 0.",
+        "choices": [
+            "A. -1",
+            "B. 0",
+            "C. 1",
+            "D. π/2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "While Bisection perfectly brackets a root, Newton-Raphson is considered an \"open\" method because it:",
+        "choices": [
+            "A. Cannot be programmed easily",
+            "B. Finds all roots simultaneously",
+            "C. Requires an interval to start",
+            "D. Requires only a single starting point"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "In difference tables, the first forward difference of a sequence y_n is mathematically defined by the operator ∆ y_n which equals:",
+        "choices": [
+            "A. y_n+1 - y_n",
+            "B. y_n - y_n-1",
+            "C. y_n+1 - y_n-1",
+            "D. y_n - y_n+1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "The backward difference operator ∇ y_n is mathematically defined as:",
+        "choices": [
+            "A. y_n+1 - y_n",
+            "B. y_n - y_n-1",
+            "C. y_n - y_n+1",
+            "D. y_n-1 - y_n-2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "The central difference operator δ y_n is rigorously defined as:",
+        "choices": [
+            "A. y_n+1 - y_n",
+            "B. y_n+1 - y_n-1",
+            "C. y_n+1/2 - y_n-1/2",
+            "D. (1/2)(y_n+1 - y_n-1)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "The shift operator E is defined such that E y_n = y_n+1. The forward difference operator ∆ relates to E by the exact equation:",
+        "choices": [
+            "A. ∆ = 1 - E",
+            "B. ∆ = E + 1",
+            "C. ∆ = EI¹ - 1",
+            "D. ∆ = E - 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "If y(x) is a polynomial of degree n, its n-th forward difference ∆^n y(x) with a constant step size h is strictly:",
+        "choices": [
+            "A. A constant",
+            "B. Zero",
+            "C. A polynomial of degree 1",
+            "D. Variable"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "Given the data points f(0)=2, f(1)=5, f(2)=10. What is the first forward difference ∆ f(0)?",
+        "choices": [
+            "A. -3",
+            "B. 3",
+            "C. 5",
+            "D. 8"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Using the same data f(0)=2, f(1)=5, f(2)=10, what is the second forward difference ∆^2 f(0)?",
+        "choices": [
+            "A. 1",
+            "B. 3",
+            "C. 2",
+            "D. 5"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "Newton's Forward Difference Interpolation formula is best utilized when the interpolation point x is located near the:",
+        "choices": [
+            "A. Middle of the tabulated data",
+            "B. End of the tabulated data",
+            "C. Exact median of the data set",
+            "D. Beginning of the tabulated data"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "To interpolate a value near the end of a given set of equally spaced data points, the most accurate classical method to apply is:",
+        "choices": [
+            "A. Newton's Backward Interpolation",
+            "B. Newton's Forward Interpolation",
+            "C. Lagrange Interpolation",
+            "D. Trapezoidal Rule"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "The central difference approximation for the first derivative f'(x) using step size h is given by:",
+        "choices": [
+            "A. (f(x+h) - f(x)/h)",
+            "B. (f(x+h) - f(x-h)/2h)",
+            "C. (f(x) - f(x-h)/h)",
+            "D. (f(x+h) - 2f(x) + f(x-h)/h^2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "The truncation error of the standard forward difference approximation for the first derivative is strictly of order:",
+        "choices": [
+            "A. O(h^3)",
+            "B. O(h^2)",
+            "C. O(h)",
+            "D. O(h^4)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "The truncation error of the standard central difference approximation for the first derivative is strictly of order:",
+        "choices": [
+            "A. O(h)",
+            "B. O(h^3)",
+            "C. O(h^4)",
+            "D. O(h^2)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "The second derivative f''(x) can be numerically approximated using the central difference formula:",
+        "choices": [
+            "A. (f(x+h) - 2f(x) + f(x-h)/h^2)",
+            "B. (f(x+h) - f(x-h)/2h)",
+            "C. (f(x+2h) - 2f(x+h) + f(x)/h^2)",
+            "D. (f(x) - 2f(x-h) + f(x-2h)/h^2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Which specific interpolation technique is formulated without requiring the independent variable to be equally spaced?",
+        "choices": [
+            "A. Newton's Forward Difference",
+            "B. Lagrange Interpolation",
+            "C. Gregory-Newton Formula",
+            "D. Stirling's Central Difference"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Given two points (x_0, y_0) and (x_1, y_1), the unique polynomial that interpolates these points is strictly of degree:",
+        "choices": [
+            "A. 2",
+            "B. 0",
+            "C. 1",
+            "D. 3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "Find the linearly interpolated value of y at x = 1.5 given the points (1, 2) and (2, 4).",
+        "choices": [
+            "A. 2.5",
+            "B. 3.5",
+            "C. 4.0",
+            "D. 3.0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "The Trapezoidal Rule mathematically approximates the definite integral by replacing the integrand f(x) with a sequence of:",
+        "choices": [
+            "A. Straight line segments",
+            "B. Parabolic arcs",
+            "C. Cubic splines",
+            "D. Horizontal step functions"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "The basic Trapezoidal Rule formula for a single segment evaluating ∫_a^b f(x) dx is strictly:",
+        "choices": [
+            "A. (b-a/3) [f(a) + f(b)]",
+            "B. (b-a/2) [f(a) + f(b)]",
+            "C. (b-a) f((a+b/2))",
+            "D. (b-a/2) [f(a) - f(b)]"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "Simpson's 1/3 Rule mathematically approximates the definite integral by replacing the integrand f(x) with consecutive:",
+        "choices": [
+            "A. Straight lines",
+            "B. Cubic polynomials",
+            "C. Parabolic (quadratic) curves",
+            "D. Step functions"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "The standard application of Simpson's 1/3 Rule strictly requires the total number of intervals (segments) n to be:",
+        "choices": [
+            "A. A multiple of 3",
+            "B. Any positive integer",
+            "C. An odd integer",
+            "D. An even integer"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "The basic Simpson's 1/3 Rule formula evaluating ∫_a^b f(x) dx over two intervals with step size h is:",
+        "choices": [
+            "A. (h/3) [f(x_0) + 4f(x_1) + f(x_2)]",
+            "B. (h/3) [f(x_0) + 2f(x_1) + f(x_2)]",
+            "C. (3h/8) [f(x_0) + 3f(x_1) + 3f(x_2) + f(x_3)]",
+            "D. (h/2) [f(x_0) + f(x_2)]"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Simpson's 3/8 Rule mathematically approximates the definite integral by fitting the integrand to consecutive:",
+        "choices": [
+            "A. Straight lines",
+            "B. Cubic polynomials",
+            "C. Parabolic curves",
+            "D. Quartic polynomials"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "The standard application of Simpson's 3/8 Rule strictly requires the total number of segments n to be:",
+        "choices": [
+            "A. An even integer",
+            "B. An odd integer",
+            "C. A multiple of 3",
+            "D. A power of 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "The basic Simpson's 3/8 Rule formula evaluating an integral over three intervals with step size h is:",
+        "choices": [
+            "A. (h/3) [f(x_0) + 4f(x_1) + f(x_2)]",
+            "B. (3h/8) [f(x_0) + 4f(x_1) + 4f(x_2) + f(x_3)]",
+            "C. (h/8) [f(x_0) + 3f(x_1) + 3f(x_2) + f(x_3)]",
+            "D. (3h/8) [f(x_0) + 3f(x_1) + 3f(x_2) + f(x_3)]"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "Evaluate the integral ∫_0^2 x dx exactly using the single-segment Trapezoidal Rule.",
+        "choices": [
+            "A. 2.0",
+            "B. 4.0",
+            "C. 1.0",
+            "D. 3.0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "Evaluate the integral ∫_0^2 x^2 dx numerically using the single-segment Trapezoidal Rule.",
+        "choices": [
+            "A. 8/3",
+            "B. 4.0",
+            "C. 2.0",
+            "D. 2.667"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "Evaluate the integral ∫_0^2 x^2 dx exactly using Simpson's 1/3 Rule with two intervals (h=1).",
+        "choices": [
+            "A. 3.0",
+            "B. 2.0",
+            "C. 2.667",
+            "D. 4.0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "The local truncation error for a single segment of the Trapezoidal rule is proportional to the step size h raised to what power?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 4",
+            "D. 3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "The global truncation error of the composite Trapezoidal Rule applied over the entire domain is strictly of order:",
+        "choices": [
+            "A. O(h^2)",
+            "B. O(h^3)",
+            "C. O(h^4)",
+            "D. O(h)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "The global truncation error of the composite Simpson's 1/3 Rule applied over the entire domain is strictly of order:",
+        "choices": [
+            "A. O(h^2)",
+            "B. O(h^4)",
+            "C. O(h^3)",
+            "D. O(h^5)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "Simpson's 1/3 Rule computes the integral with absolutely zero theoretical truncation error for polynomials of degree up to:",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "The Newton-Cotes integration formulas are fundamentally derived by replacing the integrand with an exact:",
+        "choices": [
+            "A. Transcendental function",
+            "B. Exponential curve",
+            "C. Fourier series",
+            "D. Interpolating polynomial"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "Use the Trapezoidal Rule with h=1 to approximate ∫_1^3 (1/x) dx. What is the numerical result?",
+        "choices": [
+            "A. 1.167",
+            "B. 1.099",
+            "C. 1.250",
+            "D. 1.500"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "Use Simpson's 1/3 Rule with h=1 to approximate ∫_1^3 (1/x) dx. What is the exact numerical result?",
+        "choices": [
+            "A. 1.099",
+            "B. 1.111",
+            "C. 1.167",
+            "D. 1.333"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "If the step size h in the composite Trapezoidal Rule is exactly halved, the global error is approximately reduced by a factor of:",
+        "choices": [
+            "A. 2",
+            "B. 8",
+            "C. 4",
+            "D. 16"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "If the step size h in the composite Simpson's 1/3 Rule is exactly halved, the global error is approximately reduced by a factor of:",
+        "choices": [
+            "A. 4",
+            "B. 8",
+            "C. 32",
+            "D. 16"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "The Trapezoidal Rule computes the integral with absolutely zero theoretical truncation error for polynomials of degree up to:",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "Gauss Quadrature drastically differs from Newton-Cotes formulas because it mathematically optimizes the location of the:",
+        "choices": [
+            "A. Limits of integration",
+            "B. Sampling points (nodes)",
+            "C. Function derivatives",
+            "D. Polynomial exponents"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "The standard iterative formula for Euler's method for solving an Initial Value Problem y' = f(x,y) with step size h is:",
+        "choices": [
+            "A. y_n+1 = y_n + f(x_n+1, y_n+1)h",
+            "B. y_n+1 = y_n - f(x_n, y_n)h",
+            "C. y_n+1 = y_n + f(x_n, y_n)h",
+            "D. y_n+1 = y_n-1 + 2f(x_n, y_n)h"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "The geometrical interpretation of Euler's method is that it approximates the solution curve over the interval [x_n, x_n+1] using a:",
+        "choices": [
+            "A. Parabola",
+            "B. Secant line",
+            "C. Spline curve",
+            "D. Tangent line"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "The local truncation error (error per step) of the standard Euler's method is strictly proportional to:",
+        "choices": [
+            "A. h^2",
+            "B. h",
+            "C. h^3",
+            "D. h^4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "The global truncation error (accumulated error) of the standard Euler's method over the entire integration domain is strictly proportional to:",
+        "choices": [
+            "A. h^2",
+            "B. h",
+            "C. h^3",
+            "D. 1/h"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "Improved Euler's Method, also widely known as Heun's Method, fundamentally belongs to the class of:",
+        "choices": [
+            "A. Implicit multistep methods",
+            "B. Spectral methods",
+            "C. Predictor-corrector methods",
+            "D. Finite element methods"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "The classical 4th Order Runge-Kutta Method (RK4) accumulates a global truncation error that is strictly proportional to:",
+        "choices": [
+            "A. h^2",
+            "B. h^3",
+            "C. h^5",
+            "D. h^4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "In Heun's Method, the preliminary \"predictor\" step mathematically computes a tentative value for y_n+1 using precisely:",
+        "choices": [
+            "A. Euler's Method",
+            "B. Backward Euler Method",
+            "C. Midpoint Method",
+            "D. Runge-Kutta 2nd Order"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Use Euler's method to approximate y(1) for the ODE y' = y with y(0) = 1 using a single step h=1.",
+        "choices": [
+            "A. 1.0",
+            "B. 2.0",
+            "C. 2.718",
+            "D. 2.5"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "Use Euler's method to find y(0.1) for the ODE y' = x + y given y(0) = 1, with step size h=0.1.",
+        "choices": [
+            "A. 1.0",
+            "B. 1.01",
+            "C. 1.10",
+            "D. 1.11"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "The standard 4th Order Runge-Kutta Method (RK4) evaluates the derivative function f(x,y) exactly how many times per integration step?",
+        "choices": [
+            "A. 2",
+            "B. 3",
+            "C. 5",
+            "D. 4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "In the RK4 algorithm, the slope estimates k_2 and k_3 are evaluated exactly at the:",
+        "choices": [
+            "A. Midpoint of the step interval",
+            "B. End of the step interval",
+            "C. Beginning of the step interval",
+            "D. Previous step interval"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "Evaluate the predictor value y^0_1 using Heun's Method for y' = x - y, y(0) = 1, with h = 0.5.",
+        "choices": [
+            "A. 1.0",
+            "B. 0.5",
+            "C. 0.75",
+            "D. 1.5"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "An explicit Runge-Kutta method completely eliminates the need to analytically derive and evaluate the:",
+        "choices": [
+            "A. First derivative f(x,y)",
+            "B. Step size h",
+            "C. Higher-order derivatives of y(x)",
+            "D. Initial conditions"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "The standard Euler method is mathematically identical to an exact Taylor Series method truncated strictly after the:",
+        "choices": [
+            "A. Constant term",
+            "B. Second derivative term",
+            "C. Third derivative term",
+            "D. First derivative term"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "The absolute stability of Euler's numerical solution to a differential equation is heavily dependent on the chosen:",
+        "choices": [
+            "A. Step size h",
+            "B. Number of iterations",
+            "C. Degree of the polynomial",
+            "D. Order of the differential equation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "In the classical 4th Order Runge-Kutta (RK4) update formula y_n+1 = y_n + (h/6)(k_1 + 2k_2 + 2k_3 + k_4), the weights applied to the slopes are:",
+        "choices": [
+            "A. 1, 1, 1, 1",
+            "B. 1, 2, 2, 1",
+            "C. 1, 3, 3, 1",
+            "D. 1, 4, 1, 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "A differential equation problem featuring y' = f(x,y) coupled with a given starting state y(x_0) = y_0 is universally known as an:",
+        "choices": [
+            "A. Boundary Value Problem",
+            "B. Optimization Problem",
+            "C. Initial Value Problem",
+            "D. Eigenvalue Problem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "If the derivative function f(x,y) in the classical RK4 method is independent of y, the method mathematically simplifies exactly to:",
+        "choices": [
+            "A. Euler's Method",
+            "B. Trapezoidal Rule",
+            "C. Heun's Method",
+            "D. Simpson's 1/3 Rule"
+        ],
+        "correct_answer": "D"
+    }
+]

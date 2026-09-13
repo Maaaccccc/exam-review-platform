@@ -1,0 +1,1135 @@
+[
+    {
+        "number": 1,
+        "question": "This output Z is visually represented by a:",
+        "choices": [
+            "A. State Box",
+            "B. Decision Box",
+            "C. Unconditional Output Box",
+            "D. Conditional Output Box"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "Worded circuit: To construct a synchronous MOD-12 counter using standard flip-flops, what is the absolute minimum number of flip-flops strictly required?",
+        "choices": [
+            "A. 4",
+            "B. 3",
+            "C. 12",
+            "D. 5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "Which standard shift register architecture inherently allows a digital word to be loaded one bit at a time and then read simultaneously across multiple pins?",
+        "choices": [
+            "A. PISO",
+            "B. SISO",
+            "C. PIPO",
+            "D. SIPO"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "Worded circuit: A JK flip-flop has its J input connected to Q' and its K input permanently tied to Logic 1. If the initial state is Q=0, what is the output sequence (Q) for the first three active clock edges?",
+        "choices": [
+            "A. 0, 1, 0",
+            "B. 1, 1, 1",
+            "C. 0, 0, 0",
+            "D. 1, 0, 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "A basic SR latch constructed exclusively from NOR gates has S=1 and R=1 applied. This specific input combination represents which condition?",
+        "choices": [
+            "A. Hold state",
+            "B. Set state",
+            "C. Invalid (Forbidden) state",
+            "D. Reset state"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "Worded circuit: A 4-bit asynchronous (ripple) UP counter is constructed using negative-edge triggered T flip-flops (T permanently tied to 1). The main system clock is fed to FF0. The clock input of FF1 must be connected directly to:",
+        "choices": [
+            "A. The Clock input of FF0",
+            "B. The Q' output of FF0",
+            "C. The T input of FF0",
+            "D. The Q output of FF0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 7,
+        "question": "Worded circuit: A 4-bit Johnson counter is initialized to the state 0000. After exactly three clock pulses, what will be the binary state of the register?",
+        "choices": [
+            "A. 1000",
+            "B. 1110",
+            "C. 0111",
+            "D. 0001"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "In digital timing specifications, the \"setup time\" of a flip-flop strictly defines the minimum time that the data input must remain absolutely stable:",
+        "choices": [
+            "A. Before the active clock edge",
+            "B. After the active clock edge",
+            "C. During the entire clock high period",
+            "D. While the clock is low"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "What geometric shape is universally used to represent a \"State Box\" in an Algorithmic State Machine (ASM) chart?",
+        "choices": [
+            "A. Diamond",
+            "B. Rectangle",
+            "C. Oval",
+            "D. Hexagon"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "In an ASM chart, a \"Decision Box\" is standardly represented by which geometric shape?",
+        "choices": [
+            "A. Diamond",
+            "B. Circle",
+            "C. Rectangle",
+            "D. Parallelogram"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "The \"Conditional Output Box\" in an ASM chart is represented by a rectangle with rounded corners. Outputs inside this box are explicitly characteristic of which type of state machine?",
+        "choices": [
+            "A. Turing",
+            "B. Moore",
+            "C. Mealy",
+            "D. Ripple"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "Inside an ASM State Box, what information is fundamentally and conventionally written by the designer?",
+        "choices": [
+            "A. The clock frequency and propagation delay",
+            "B. The input variables to be evaluated",
+            "C. The next state conditions",
+            "D. The state name and the unconditional (Moore) outputs"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Worded circuit: An ASM block consists of one State Box and all the decision and conditional output boxes connected to its exit path. In a fully synchronous digital system, executing all operations within one complete ASM block physically takes exactly:",
+        "choices": [
+            "A. Half a clock cycle",
+            "B. Two clock cycles",
+            "C. One clock cycle",
+            "D. A variable amount of time depending on the decisions"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "Which specific block in an ASM chart dictates the next state transition path based strictly on the current logic level of external input variables?",
+        "choices": [
+            "A. State Box",
+            "B. Decision Box",
+            "C. Conditional Output Box",
+            "D. Delay Box"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "In an ASM chart, unconditional outputs are asserted during the entire duration the system resides in that state. These outputs strictly define a:",
+        "choices": [
+            "A. Mealy machine",
+            "B. Asynchronous machine",
+            "C. Von Neumann machine",
+            "D. Moore machine"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 16,
+        "question": "Worded circuit: An ASM chart shows State S1 with an unconditional output Z=1. The exit path goes to a decision box checking input X. If X=1, the path goes through a conditional output box Y=1 before reaching State S2. Which of these outputs is explicitly a Mealy output?",
+        "choices": [
+            "A. Z",
+            "B. Both Y and Z",
+            "C. Neither Y nor Z",
+            "D. Y"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "How does an Algorithmic State Machine (ASM) chart fundamentally differ from a standard software programmer's flowchart?",
+        "choices": [
+            "A. ASM charts cannot contain any loops",
+            "B. ASM charts imply strict hardware clock-cycle timing, where one ASM block perfectly equates to one state transition",
+            "C. ASM charts do not use decision diamonds",
+            "D. Software flowcharts are purely asynchronous"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "When designing an ASM chart, if two different decision boxes follow a state box sequentially (one immediately after the other in the diagram), the hardware evaluates these conditions:",
+        "choices": [
+            "A. On two separate, consecutive clock edges",
+            "B. Simultaneously within the exact same clock cycle",
+            "C. Randomly based on gate propagation delays",
+            "D. Only when a hardware interrupt occurs"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Worded circuit: An ASM chart transitions from State T1. It evaluates input 'GO'. If GO=0, it loops back to T1. If GO=1, it evaluates input 'STOP'. If STOP=1, it goes to T2. What is the strict Boolean next-state equation to reach T2 from T1?",
+        "choices": [
+            "A. T2_next = T1 * GO' * STOP",
+            "B. T2_next = T1 * GO + STOP",
+            "C. T2_next = T1 * GO * STOP",
+            "D. T2_next = T1 * GO' * STOP'"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "A Conditional Output Box in a valid ASM chart architecture must ALWAYS immediately follow a:",
+        "choices": [
+            "A. Decision Box",
+            "B. Unconditional Output Box",
+            "C. State Box",
+            "D. Clock pulse"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "The logic values of outputs specified inside a State Box (Moore outputs) depend strictly on:",
+        "choices": [
+            "A. Both the present state and external inputs",
+            "B. External inputs only",
+            "C. Neither state nor inputs",
+            "D. The present state only"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 22,
+        "question": "The logic values of outputs specified inside a Conditional Output Box (Mealy outputs) depend strictly on:",
+        "choices": [
+            "A. Neither state nor inputs",
+            "B. External inputs only",
+            "C. The present state only",
+            "D. Both the present state and external inputs"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 23,
+        "question": "Worded circuit: You are synthesizing an ASM chart into a physical hardware circuit. The chart contains exactly 7 distinct states. What is the absolute minimum number of D flip-flops required to encode these states in standard binary?",
+        "choices": [
+            "A. 4",
+            "B. 2",
+            "C. 3",
+            "D. 7"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "Worded circuit: In an ASM chart, State A leads to a decision box checking input 'M'. If M=0, it goes to State",
+        "choices": [
+            "B. If M=1, it goes to a decision box checking 'N'. If N=0, it goes to State",
+            "C. If N=1, it goes to State",
+            "D. What is the specific Boolean condition to reach State D from State A?",
+            "A. M + N"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "A finite state machine where the outputs are mathematically a function of both the current internal state and the current external inputs is formally classified as a:",
+        "choices": [
+            "A. Mealy machine",
+            "B. Moore machine",
+            "C. Turing machine",
+            "D. Harvard machine"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "A finite state machine where the outputs depend strictly and exclusively on the current internal state is formally classified as a:",
+        "choices": [
+            "A. Mealy machine",
+            "B. Moore machine",
+            "C. Asynchronous machine",
+            "D. DSP machine"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "What is a primary, recognized hardware advantage of utilizing a Mealy machine instead of a Moore machine to detect a specific sequence?",
+        "choices": [
+            "A. It requires absolutely zero power",
+            "B. It is completely immune to input noise glitches",
+            "C. It uses significantly less wire routing",
+            "D. It often requires fewer states because outputs can respond to inputs immediately without waiting for a new state"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 28,
+        "question": "Worded circuit: A digital controller opens a valve (Z=1) only when the input sequence 1-1-0 is detected. In a classic Moore machine, the output Z=1 is assigned to:",
+        "choices": [
+            "A. The master reset pin",
+            "B. The clock signal",
+            "C. A specific state (e.g., State S3)",
+            "D. The transition arc between S2 and S3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "Because Mealy machine outputs are combinationally connected directly to the external inputs, they are highly susceptible to which severe timing issue during a valid clock cycle?",
+        "choices": [
+            "A. False output glitches if the input signals fluctuate asynchronously",
+            "B. Severe clock skew",
+            "C. Thermal runaway",
+            "D. Infinite loops"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Moore machine outputs are generally considered safer and more stable than Mealy outputs specifically because:",
+        "choices": [
+            "A. They require fewer combinational logic gates",
+            "B. They only change synchronously after the active clock edge updates the state flip-flops, isolating them from input noise",
+            "C. They operate at higher voltage logic levels",
+            "D. They do not require a clock"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Worded circuit: A Moore machine is designed to detect a specific 4-bit sequence. Assuming it starts in a reset state, what is the absolute minimum number of clock cycles required to output a 1 after the first valid bit arrives?",
+        "choices": [
+            "A. 3",
+            "B. 5",
+            "C. 2",
+            "D. 4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "For a basic sequence detector, a Moore machine typically requires how many more states than an equivalent Mealy machine to detect a sequence of length N?",
+        "choices": [
+            "A. N states",
+            "B. 0 states",
+            "C. 1 state",
+            "D. 2 states"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "Which type of state machine typically provides a faster physical output response to a sudden change in an external input signal?",
+        "choices": [
+            "A. Both respond equally",
+            "B. Mealy machine",
+            "C. Moore machine",
+            "D. Neither"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "Worded circuit: A state machine's output combinational logic is designed using K-maps. The K-map for output 'Z' includes the state variables (Q1, Q0) but explicitly excludes all external input variables. What type of machine is definitively being designed?",
+        "choices": [
+            "A. Turing",
+            "B. Mealy",
+            "C. Asynchronous",
+            "D. Moore"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 35,
+        "question": "In a standard Mealy state diagram, how is the output value conventionally annotated?",
+        "choices": [
+            "A. Written inside the state circle",
+            "B. Written in a separate floating box",
+            "C. Not written; it is implied",
+            "D. Written alongside the directed transition arrow, separated from the input condition by a slash (Input/Output)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "In a standard Moore state diagram, how is the output value conventionally annotated?",
+        "choices": [
+            "A. Written on the transition arrows",
+            "B. Written inside the state circle, typically separated from the state name by a slash (State/Output)",
+            "C. Written as a separate Boolean equation below the diagram",
+            "D. Implied by the clock frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "Is it mathematically and logically possible to convert any valid Mealy machine into an equivalent Moore machine?",
+        "choices": [
+            "A. Yes, but the equivalent Moore machine will likely require more internal states",
+            "B. No, only Moore can be converted to Mealy",
+            "C. No, they are fundamentally logically incompatible",
+            "D. Yes, and they will always possess the exact same number of states"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Worded circuit: A Vending Machine controller must actuate the dispenser motor the exact physical microsecond the final coin validates, without waiting for the next clock edge to enter a \"Dispense\" state. Which architecture strictly achieves this asynchronous output response?",
+        "choices": [
+            "A. Shift Register",
+            "B. Counter",
+            "C. Mealy Machine",
+            "D. Moore Machine"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "A state diagram utilizes circles to represent states. What do the directed lines (arrows) between the circles explicitly represent?",
+        "choices": [
+            "A. The clock signal routing",
+            "B. The power supply connections",
+            "C. The allowed state transitions and their conditions",
+            "D. The physical PCB traces"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "A State Table is essentially a specialized, sequential form of a:",
+        "choices": [
+            "A. Timing diagram",
+            "B. Block diagram",
+            "C. Truth table",
+            "D. Karnaugh map"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "Worded circuit: A state diagram has state S0. An arrow points from S0 back to S0 labeled 'x=0'. An arrow points from S0 to S1 labeled 'x=1'. If the current state is S0 and input x=0, what is the definitive next state?",
+        "choices": [
+            "A. S2",
+            "B. S1",
+            "C. Unknown",
+            "D. S0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 42,
+        "question": "The complete behavioral description of any synchronous sequential circuit can be defined by its output logic and its:",
+        "choices": [
+            "A. Next-state logic",
+            "B. Clock frequency",
+            "C. Power dissipation",
+            "D. Propagation delay"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 43,
+        "question": "What is the fundamental engineering purpose of \"State Assignment\" in the design of sequential circuits?",
+        "choices": [
+            "A. To minimize the power supply voltage",
+            "B. To choose the appropriate clock speed",
+            "C. To assign the external input variables",
+            "D. To assign unique binary bit codes to the abstract states defined in a state diagram"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "Worded circuit: A state machine has states A, B, C,",
+        "choices": [
+            "D. A designer assigns binary codes: A=00, B=01, C=11, D=10. This specific assignment technique, ensuring adjacent states in a sequence differ by only one bit, is called:",
+            "A. One-hot assignment",
+            "B. Binary assignment",
+            "C. Gray code assignment"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "A \"One-Hot\" state assignment encoding for a digital machine with exactly 6 states strictly requires how many physical flip-flops?",
+        "choices": [
+            "A. 6",
+            "B. 4",
+            "C. 3",
+            "D. 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "What is a primary architectural advantage of utilizing One-Hot state encoding over standard binary encoding in FPGA designs?",
+        "choices": [
+            "A. It perfectly prevents all metastability issues",
+            "B. It significantly simplifies the next-state combinational logic, allowing for faster operational clock speeds",
+            "C. It consumes the absolute lowest possible power",
+            "D. It uses the minimum number of flip-flops"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "In a standard state transition table, the columns typically represent the external Inputs and the rows typically represent the:",
+        "choices": [
+            "A. Clock pulses",
+            "B. Outputs",
+            "C. Next states",
+            "D. Present states"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 48,
+        "question": "Worded circuit: A sequential circuit utilizes 2 D flip-flops (Q1, Q0). The derived next-state equation for Q0 is D0 = Q0 XOR X. If the present state Q0=1 and input X=1, what will be the state of Q0 immediately after the next active clock edge?",
+        "choices": [
+            "A. 1",
+            "B. High-Z",
+            "C. 0",
+            "D. It toggles continuously"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "\"State transition tables\" map the present state and inputs to the next state. To determine the actual flip-flop input equations (e.g., J and K), you must mathematically combine the state transition table with the flip-flop's:",
+        "choices": [
+            "A. Excitation table",
+            "B. Characteristic table",
+            "C. Clock frequency",
+            "D. Characteristic equation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "An \"unused state\" in a state machine is a valid binary combination that is never intended to be reached during normal operation. To minimize the combinational logic required, how are the next-state transitions for unused states typically handled in K-maps?",
+        "choices": [
+            "A. Assigned to immediately halt the clock",
+            "B. Assigned to jump to the reset state",
+            "C. Treated as Logic 0",
+            "D. Treated as don't care (X) conditions"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 51,
+        "question": "Worded circuit: A state machine enters an unused state due to a severe power glitch. Because the unused states were treated as don't cares, the machine loops endlessly. A robust, fail-safe design technique to prevent this is to:",
+        "choices": [
+            "A. Explicitly force all unused states to transition back to the reset state (e.g., S0) in the logic equations",
+            "B. Lower the system clock frequency",
+            "C. Use only T flip-flops",
+            "D. Use a one-hot encoding scheme"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "The characteristic equation of a standard D flip-flop is Q(t+1) =",
+        "choices": [
+            "D. What is the specific characteristic equation of a standard T flip-flop?",
+            "A. Q(t+1) = TQ + T'Q'",
+            "B. Q(t+1) = T'",
+            "C. Q(t+1) = TQ' + T'Q (or T XOR Q)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 53,
+        "question": "Worded circuit: A designer analyzes a state diagram. State 'S' has two exiting transitions based on input 'X'. Arrow 1 is labeled X=0, Arrow 2 is labeled X=1. Are there any ambiguous conditions for leaving State S?",
+        "choices": [
+            "A. Yes, if X is high impedance",
+            "B. Yes, if X fluctuates wildly",
+            "C. Yes, if X is a Don't Care",
+            "D. No, because X covers all possible binary conditions (mutually exclusive and collectively exhaustive)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 54,
+        "question": "What is the primary engineering objective of applying rigorous state reduction techniques to a state table?",
+        "choices": [
+            "A. To convert a Moore machine to a Mealy machine",
+            "B. To reduce the number of flip-flops and combinational logic gates required, minimizing hardware cost and physical space",
+            "C. To completely eliminate circuit glitches",
+            "D. To increase the clock speed"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Two states in a sequential machine are considered \"equivalent\" and can be merged into a single state if, for every possible input combination, they produce the exact same output and:",
+        "choices": [
+            "A. Their next states are identical or are also equivalent states",
+            "B. They use the exact same flip-flops",
+            "C. They transition to each other sequentially",
+            "D. They have the exact same binary assignment"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "Worded circuit: In a state table, State A goes to State C on input 0 (output 0) and State D on input 1 (output 1). State B goes to State C on input 0 (output 0) and State D on input 1 (output 1). What can be definitively concluded about State A and State B?",
+        "choices": [
+            "A. They form an infinite loop",
+            "B. They are mutually exclusive",
+            "C. They are completely equivalent states and one can be eliminated",
+            "D. They are complementary states"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "A highly systematic, tabular method commonly used to rigorously identify and eliminate equivalent states in complex state machines is known as the:",
+        "choices": [
+            "A. Karnaugh Map method",
+            "B. Quine-McCluskey method",
+            "C. State Assignment method",
+            "D. Implication Table (or Staircase) method"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "When constructing an Implication Table for state reduction, an 'X' or cross is placed in a cell comparing two states (e.g., Si, Sj) immediately on the first pass if:",
+        "choices": [
+            "A. Their outputs for any given input are different",
+            "B. Their next states are different",
+            "C. They are both final states",
+            "D. They transition to each other"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "In an implication table, if a cell (Si, Sj) contains the pair (Sm, Sn), it strictly signifies that Si and Sj are equivalent ONLY IF:",
+        "choices": [
+            "A. Sm and Sn are opposite states",
+            "B. Sm and Sn are equivalent states",
+            "C. Sm and Sn are different",
+            "D. Sm and Sn are both 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "Worded circuit: After fully evaluating an implication table for a 6-state machine (A-F), you find that the cells for (A,B), (C,D), and (D,E) are NOT crossed out. This implies D and E are equivalent, and C and D are equivalent. Therefore, C, D, and E form a:",
+        "choices": [
+            "A. Redundant loop",
+            "B. Race condition",
+            "C. Single equivalent state class",
+            "D. Hazard"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "If a state table is completely specified (no don't care conditions), the equivalence of states mathematically forms an equivalence relation. This means the relation is reflexive, symmetric, and:",
+        "choices": [
+            "A. Transitive",
+            "B. Associative",
+            "C. Distributive",
+            "D. Commutative"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "A state machine initially requires 12 states. After rigorous state reduction, it is minimized to 7 states. Exactly how many physical flip-flops were saved by this reduction process? (Hint: calculate flip-flops needed before and after).",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 2",
+            "D. 3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "State reduction is most effectively and properly applied BEFORE which specific step in the sequential circuit design process?",
+        "choices": [
+            "A. Assigning binary codes to the states (State Assignment)",
+            "B. Drawing the block diagram",
+            "C. Determining the inputs",
+            "D. Creating the initial state diagram"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "Worded circuit: You are designing an overlapping sequence detector for '1011'. The machine reaches state S3 after detecting '101'. If the next input is '0', the sequence fails. To handle overlapping, recognizing that this '0' could be the '0' in a new '10', state S3 should optimally transition to which state on input '0'?",
+        "choices": [
+            "A. S3",
+            "B. S0",
+            "C. S2 (The state representing prefix '10')",
+            "D. S1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "An algorithmic state machine (ASM) chart is essentially a specialized flowchart, but it is rigorously governed by the strict rules of:",
+        "choices": [
+            "A. Analog voltages",
+            "B. Software compilation",
+            "C. Asynchronous delays",
+            "D. Digital hardware clock timing"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 66,
+        "question": "The concept of \"algorithmic\" in ASM inherently implies that the chart describes:",
+        "choices": [
+            "A. A parallel processing array",
+            "B. A random noise sequence",
+            "C. An analog filter",
+            "D. A step-by-step procedure or sequence of operations for digital hardware"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 67,
+        "question": "In ASM terminology, a \"Data Path\" circuit (containing ALUs, registers, counters) is typically governed by control signals generated directly from the:",
+        "choices": [
+            "A. Memory",
+            "B. I/O ports",
+            "C. ASM Control Logic (Control Unit)",
+            "D. Clock generator"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Which of the following is NOT a standard, recognized component block of an Algorithmic State Machine (ASM) chart?",
+        "choices": [
+            "A. Decision Box",
+            "B. Conditional Output Box",
+            "C. Delay Box",
+            "D. State Box"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "In a completely specified digital state machine, the Boolean sum of all transition conditions leaving a single decision box must evaluate to:",
+        "choices": [
+            "A. -1",
+            "B. High-Z",
+            "C. 0 (False)",
+            "D. 1 (True)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "Worded circuit: An ASM chart decision box tests variable 'A'. If A=1, it transitions to State 2. If A=0, it transitions to State 3. Are these two transition paths mutually exclusive?",
+        "choices": [
+            "A. Yes, because variable 'A' cannot logically be 1 and 0 simultaneously",
+            "B. Only if A is floating",
+            "C. Only on the rising clock edge",
+            "D. No, they can both occur simultaneously"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "If a State Box in an ASM chart has absolutely no conditional output boxes and no decision boxes attached to its exit path, it strictly means:",
+        "choices": [
+            "A. The machine halts permanently",
+            "B. On the next active clock cycle, it unconditionally transitions to the next designated state",
+            "C. It is a Mealy machine",
+            "D. The clock stops"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "In an ASM block, what physical action occurs precisely at the active edge of the master system clock?",
+        "choices": [
+            "A. The state variables update, moving the machine to the next state",
+            "B. Conditional outputs are asserted",
+            "C. Inputs are disconnected",
+            "D. Unconditional outputs are asserted"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "Worded circuit: An ASM state box defines an unconditional output EN=1. This signal EN drives the enable pin of a hardware counter in the data path. When does the counter actually physically increment?",
+        "choices": [
+            "A. When the machine leaves the state",
+            "B. As soon as EN goes HIGH asynchronously",
+            "C. On the falling edge of EN",
+            "D. On the next active clock edge while EN is HIGH"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "An ASM chart can be directly translated into a hardware implementation utilizing a ROM (Read Only Memory). In this specific architecture, the ROM address lines are connected to:",
+        "choices": [
+            "A. Ground",
+            "B. The outputs",
+            "C. The present state variables and external inputs",
+            "D. The clock"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "When implementing an ASM chart utilizing a Multiplexer (MUX) approach, the MUXes are primarily used to implement the:",
+        "choices": [
+            "A. Next-state logic based on decision box conditions",
+            "B. State flip-flops",
+            "C. Clock distribution",
+            "D. Moore outputs"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "What is the fundamental architectural difference between a traditional state graph and an ASM chart?",
+        "choices": [
+            "A. An ASM chart explicitly separates the control flow (states/decisions) and datapath operations into clear geometric blocks synchronized to a clock, whereas a state graph represents them as annotated circles",
+            "B. State graphs only apply to software",
+            "C. A state graph shows exact hardware timing, ASM does not",
+            "D. There is no difference"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "Worded circuit: An overlapping sequence detector looks for '11' in the input stream '111'. An overlapping detector will output a 1 for how many distinct clock cycles during this stream?",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 3",
+            "D. 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "Worded circuit: A Mealy machine detects sequence \"10\". Upon receiving \"10\", output Z=1. If the input remains 0, output Z immediately drops to 0. This physically demonstrates that Mealy outputs are valid:",
+        "choices": [
+            "A. Only during the setup time",
+            "B. Only when the state changes",
+            "C. Only exactly on the clock edge",
+            "D. Continuously during the clock cycle while the specific input and state condition holds true"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "When using the Implication Table method, if cell (A,B) has an 'X' (crossed out) and another cell (C,D) contains the pair (A,B) as an implied condition, what must happen to cell (C,D)?",
+        "choices": [
+            "A. It becomes a prime implicant",
+            "B. It is circled",
+            "C. It must also be crossed out ('X')",
+            "D. It is left alone"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "The critical process of mapping abstract states (like S0, S1) to physical flip-flop binary values (like 00, 01) is formally called:",
+        "choices": [
+            "A. State reduction",
+            "B. State assignment",
+            "C. Logic minimization",
+            "D. Flow mapping"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "Worded circuit: A state machine has 3 states. It is assigned Gray codes: S0=00, S1=01, S2=11. This specific assignment minimizes logic hazards primarily because:",
+        "choices": [
+            "A. It maximizes power dissipation",
+            "B. Multiple bits flip simultaneously",
+            "C. It uses all available codes",
+            "D. Only one bit changes state during a valid transition between adjacent states"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 82,
+        "question": "In an ASM chart, can a single State Box legally have multiple entry points from several different states?",
+        "choices": [
+            "A. Yes",
+            "B. No, it must have only one",
+            "C. Only if the clock is halted",
+            "D. Only if it's a Moore machine"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "Can an ASM chart block legally contain multiple consecutive decision boxes evaluating different inputs in series?",
+        "choices": [
+            "A. Yes, allowing complex branching based on multiple input variables within a single clock cycle",
+            "B. Only in Mealy machines",
+            "C. No, only one decision per state is allowed",
+            "D. Only if they check the exact same input"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "Which of the following Boolean equations accurately represents the characteristic equation of a JK flip-flop?",
+        "choices": [
+            "A. Q(next) = J",
+            "B. Q(next) = J'Q + KQ'",
+            "C. Q(next) = K'",
+            "D. Q(next) = JQ' + K'Q"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "The characteristic equation of a standard D flip-flop is:",
+        "choices": [
+            "A. Q(next) = Q",
+            "B. Q(next) = D",
+            "C. Q(next) = D'",
+            "D. Q(next) = DQ' + D'Q"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "If a flip-flop has a setup time of 4 ns and a hold time of 3 ns, the data input must remain completely stable for a minimum \"window\" of:",
+        "choices": [
+            "A. 4 ns",
+            "B. 12 ns",
+            "C. 7 ns",
+            "D. 1 ns"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "Which specific flip-flop is famously known as the \"transparent\" or \"data\" flip-flop because its output simply reflects its input after one clock cycle?",
+        "choices": [
+            "A. T",
+            "B. JK",
+            "C. D",
+            "D. SR"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "Worded circuit: An ASM chart indicates that output Y is 1 whenever the machine is in state S1, regardless of any external inputs. This output Y is visually represented by a:",
+        "choices": [
+            "A. Decision Box",
+            "B. Conditional Output Box",
+            "C. State Box",
+            "D. Transition arrow"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "In hardware implementation of ASM charts, the \"One-Hot\" method utilizes exactly one physical flip-flop per:",
+        "choices": [
+            "A. Output variable",
+            "B. Input variable",
+            "C. Decision box",
+            "D. State"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "A standard sequence detector for \"1101\" is designed using a Moore machine. What is the absolute minimum number of states required?",
+        "choices": [
+            "A. 5",
+            "B. 6",
+            "C. 4",
+            "D. 3"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "A standard sequence detector for \"1101\" is designed using a Mealy machine. What is the absolute minimum number of states required?",
+        "choices": [
+            "A. 5",
+            "B. 3",
+            "C. 4",
+            "D. 6"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "Worded circuit: You are designing a controller. A specific mathematical operation requires exactly 3 consecutive clock cycles to complete. In an ASM chart, this physical timing requirement is strictly modeled by:",
+        "choices": [
+            "A. Using three sequential state boxes",
+            "B. Using a conditional output box",
+            "C. Using three decision boxes",
+            "D. Using a single state box and a 3-input decision box"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "State assignment critically impacts the complexity of the resulting combinational logic. Which assignment often yields the simplest next-state equations but requires the absolute most flip-flops?",
+        "choices": [
+            "A. One-Hot",
+            "B. BCD",
+            "C. Binary",
+            "D. Gray Code"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "When using the Quine-McCluskey tabular method for logic reduction, the very first step groups minterms based strictly on:",
+        "choices": [
+            "A. Their alphabetical order",
+            "B. The decimal value",
+            "C. The number of 0s",
+            "D. The number of 1s in their binary representation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "In completely specified sequential machines, state equivalence is transitive. Therefore, if State A = State B, and State B = State C, then mathematically:",
+        "choices": [
+            "A. State A is complement of C",
+            "B. State B = State A'",
+            "C. State A = State C",
+            "D. State A != State C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 97,
+        "question": "A state machine has a hardware reset input. Upon reset, it should immediately and asynchronously enter an initial state S0. This is typically implemented hardware-wise by tying the reset signal directly to the flip-flops':",
+        "choices": [
+            "A. J and K inputs",
+            "B. D inputs",
+            "C. Asynchronous Clear/Preset pins",
+            "D. Clock pins"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 98,
+        "question": "Worded circuit: A state table has states S0, S1, S2, S3. If we apply the implication table method and cross out all cells except the cell for (S0, S2), the fully reduced machine will have exactly how many states?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "A Mealy machine output glitch physically occurs when:",
+        "choices": [
+            "A. The power supply voltage spikes",
+            "B. The state changes synchronously",
+            "C. An asynchronous external input changes momentarily while the machine is in a state where the output depends on that input",
+            "D. The clock frequency is too low"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "In complex digital design, why are Algorithmic State Machine (ASM) charts generally preferred over traditional state diagrams for controllers?",
+        "choices": [
+            "A. ASM charts provide a clearer, more rigorous translation into hardware data-path and control-logic architecture",
+            "B. ASM charts require fewer states",
+            "C. ASM charts can represent analog signals",
+            "D. ASM charts consume less power"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 101,
+        "question": "Worded circuit: An ASM chart uses a decision box to check variable 'C'. Both the True and False paths immediately go into another decision box checking variable 'D'. How many clock cycles are required to evaluate both C and D and reach the next state?",
+        "choices": [
+            "A. Four",
+            "B. Two",
+            "C. One",
+            "D. Three"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 102,
+        "question": "In a Mealy machine, the outputs can change asynchronously with the inputs. To prevent these asynchronous changes from propagating through the rest of a synchronous system, the Mealy outputs are often:",
+        "choices": [
+            "A. Passed through a low-pass filter",
+            "B. Ignored",
+            "C. Latched by a flip-flop on the next clock edge",
+            "D. Tied to ground"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 103,
+        "question": "If an ASM chart contains a path that passes through a state box, then a decision box, and loops directly back to the exact same state box, this represents a machine that is:",
+        "choices": [
+            "A. Waiting for an input condition to change before proceeding",
+            "B. Resetting",
+            "C. Powered off",
+            "D. In a race condition"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 104,
+        "question": "When implementing a state machine using a PLA (Programmable Logic Array), the AND array generates the:",
+        "choices": [
+            "A. Minterms or Product terms of the next-state and output equations",
+            "B. Unconditional outputs only",
+            "C. Clock signal",
+            "D. State assignments"
+        ],
+        "correct_answer": "A"
+    }
+]

@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "An FIR filter is inherently stable because",
+        "choices": [
+            "A. it has poles outside the unit circle",
+            "B. it has feedback loops",
+            "C. it has no feedback loops and all its poles are at the origin",
+            "D. its impulse response is infinite"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "Which of the following is a key characteristic of an Infinite Impulse Response (IIR) filter?",
+        "choices": [
+            "A. It is always non-recursive",
+            "B. It can only have poles at the origin",
+            "C. Its difference equation includes feedback terms",
+            "D. Its impulse response is zero after a finite number of samples"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "According to Parseval's theorem, the energy of a discrete-time signal is equal to",
+        "choices": [
+            "A. the sum of the signal amplitudes",
+            "B. the sum of squared magnitudes of its samples in the time domain",
+            "C. the integral of its phase spectrum",
+            "D. the product of its bandwidth and transmission time"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 4,
+        "question": "An FIR Filter has the difference equation y[n] = 0.3x[n] + 0.6x[n-1] + 0.1x[n-2]. What is the length of its impulse response?",
+        "choices": [
+            "A. 3",
+            "B. Infinite",
+            "C. 4",
+            "D. 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "A digital filter has a transfer function H(z) with a pole at z = 1.1. What is the stability condition of this filter?",
+        "choices": [
+            "A. The filter is stable because the pole is on the real axis",
+            "B. The filter is unstable because the pole lies outside the unit circle",
+            "C. The filter is marginally stable because the pole is positive",
+            "D. The filter is stable regardless of the pole location"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "The convolution of two signals in the time domain corresponds to what mathematical operation in the frequency domain?",
+        "choices": [
+            "A. Division",
+            "B. Multiplication",
+            "C. Convolution",
+            "D. Addition"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "A system is said to be time-invariant if",
+        "choices": [
+            "A. a shift in the input signal results in a corresponding shift in the output signal",
+            "B. shifting the input has no effect on the output",
+            "C. the output is constant over time",
+            "D. the output depends only on the present input"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "In poles and zeros of network transfer functions, the scale factor is traditionally denoted by what letter?",
+        "choices": [
+            "A. J",
+            "B. H",
+            "C. I",
+            "D. G"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "Which type of digital filter is characterized by having no feedback loops in its architecture?",
+        "choices": [
+            "A. Finite Impulse Response (FIR) filter",
+            "B. Infinite Impulse Response (IIR) filter",
+            "C. Continuous Impulse Response (CIR) filter",
+            "D. Recursive filter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "In digital signal processing, the process of aliasing can be best described as",
+        "choices": [
+            "A. amplitude overlapping",
+            "B. peaks overlapping",
+            "C. spectral overlapping",
+            "D. phase overlapping"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "For a given probability of error, binary coherent FSK is inferior to binary coherent PSK by approximately how many decibels?",
+        "choices": [
+            "A. 2 dB",
+            "B. 6 dB",
+            "C. 0 dB",
+            "D. 3 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 12,
+        "question": "16-QAM uses 4 different amplitude levels and 4 different phase shifts. How many bits are transmitted per baud (symbol) in this modulation scheme?",
+        "choices": [
+            "A. 2 bits",
+            "B. 4 bits",
+            "C. 8 bits REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "D. 16 bits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "Which digital modulation scheme is used for satellite communications due to its constant envelope, allowing high-efficiency amplifiers to operate in saturation?",
+        "choices": [
+            "A. QAM",
+            "B. ASK",
+            "C. PSK",
+            "D. FSK"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "The maximum rate of information transmission over a channel is limited by which theorem?",
+        "choices": [
+            "A. Hartley-Shannon Theorem",
+            "B. Nyquist Theorem",
+            "C. Fourier Theorem",
+            "D. Carson's Rule"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "Which modulation technique is most suitable for high-speed data transmission in modern Wi-Fi and cable networks because it varies both amplitude and phase?",
+        "choices": [
+            "A. Amplitude Shift Keying (ASK)",
+            "B. Frequency Shift Keying (FSK)",
+            "C. Quadrature Amplitude Modulation (QAM)",
+            "D. Differential Phase Shift Keying (DPSK)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "If the transmitter antenna gain is doubled while all other parameters remain constant, the received power in free space will",
+        "choices": [
+            "A. remain unchanged",
+            "B. be halved",
+            "C. be doubled",
+            "D. be quadrupled"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "In Pulse-Amplitude Modulation (PAM), which parameter of the pulse is varied in accordance with the modulating signal?",
+        "choices": [
+            "A. Pulse width",
+            "B. Pulse position",
+            "C. Pulse amplitude",
+            "D. Pulse frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 18,
+        "question": "In Pulse-Position Modulation (PPM), what is the key parameter that changes relative to a reference?",
+        "choices": [
+            "A. The pulse width",
+            "B. The pulse position",
+            "C. The pulse amplitude",
+            "D. The number of pulses"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Compared to PAM, why is Pulse-Width Modulation (PWM) more resistant to noise?",
+        "choices": [
+            "A. It uses digital error correction",
+            "B. It has a constant pulse amplitude",
+            "C. It uses a higher frequency carrier",
+            "D. It does not require synchronization"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "What bits are utilized to allow synchronization of the receivers between different slots and frames in TDMA?",
+        "choices": [
+            "A. Preamble bits",
+            "B. Data bits",
+            "C. Guard bits",
+            "D. Trail bits"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "A receiver has a noise figure of 6 dB. By what factor is the noise power increased at the receiver compared to an ideal noiseless receiver?",
+        "choices": [
+            "A. 2",
+            "B. 10",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 22,
+        "question": "Two amplifiers are compared at 300 K. Amplifier A has an equivalent noise temperature of 60 K, and Amplifier B has 120 K. Which statement is correct?",
+        "choices": [
+            "A. Amplifier A has a higher noise figure",
+            "B. Amplifier B has a lower noise figure",
+            "C. Amplifier A has a lower noise figure",
+            "D. Both have equal noise factor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "Which type of noise is generated by the random arrival of charge carriers across a semiconductor junction?",
+        "choices": [
+            "A. Thermal noise",
+            "B. Shot noise",
+            "C. Flicker noise",
+            "D. Impulse noise"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "Which type of noise is most dominant at very low frequencies in electronic circuits and is also known as 1/f noise?",
+        "choices": [
+            "A. Thermal noise",
+            "B. Shot noise",
+            "C. Flicker noise",
+            "D. Impulse noise"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "What type of noise in communication systems is caused by the random motion of electrons in a conductor due to temperature? REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+        "choices": [
+            "A. Impulse noise",
+            "B. Thermal noise",
+            "C. Atmospheric noise",
+            "D. Intermodulation noise"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "An amplifier has an equivalent noise temperature of 100 K at room temperature of 300 K. What is its noise figure in decibels?",
+        "choices": [
+            "A. 1.25 dB",
+            "B. 1.58 dB",
+            "C. 2.15 dB",
+            "D. 1.29 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "Which type of noise is characterized by high-amplitude, short-duration pulses that are highly disruptive to digital data?",
+        "choices": [
+            "A. Thermal noise",
+            "B. Shot noise",
+            "C. Flicker noise",
+            "D. Impulse noise"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 28,
+        "question": "What is a key characteristic of white noise in a communication system?",
+        "choices": [
+            "A. It is caused by human interference",
+            "B. It has a narrow frequency range",
+            "C. It has equal power spectral density at all frequencies",
+            "D. It only affects digital signals"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "If the temperature of a resistor is doubled, its thermal noise power over a given bandwidth will",
+        "choices": [
+            "A. remain the same",
+            "B. be halved",
+            "C. be doubled",
+            "D. be quadrupled"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 30,
+        "question": "In a receiver, which component is primarily responsible for determining the overall noise performance of the system?",
+        "choices": [
+            "A. The mixer",
+            "B. The local oscillator",
+            "C. The Low Noise Amplifier (LNA)",
+            "D. The demodulator"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "For a certain telephone, the DC loop voltage is 48 V on-hook and 8 V off-hook. If the loop current is 40 mA, what is the DC resistance of the local loop?",
+        "choices": [
+            "A. 1000 ohms",
+            "B. 200 ohms",
+            "C. 1200 ohms",
+            "D. 500 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "For a certain telephone, the DC loop voltage is 48 V on-hook and 8 V off-hook. If the loop current is 40 mA, what is the DC resistance of the telephone set itself?",
+        "choices": [
+            "A. 1000 ohms",
+            "B. 200 ohms",
+            "C. 1200 ohms",
+            "D. 500 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "Which two DTMF tones correspond to the digit '1' on a telephone keypad?",
+        "choices": [
+            "A. 697 Hz and 1209 Hz",
+            "B. 770 Hz and 1336 Hz",
+            "C. 852 Hz and 1477 Hz",
+            "D. 941 Hz and 1633 Hz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Why is a four-wire circuit generally preferred over a two-wire circuit for high-speed long-distance communication systems?",
+        "choices": [
+            "A. It eliminates the need for complex encoding",
+            "B. It allows simultaneous independent transmission and reception of data",
+            "C. It uses fewer wires, reducing cost",
+            "D. It requires less power"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "What is the basic frequency bandwidth of a standard voice-grade telephone local loop?",
+        "choices": [
+            "A. 300 to 3000 Hz",
+            "B. 20 to 20,000 Hz",
+            "C. 0 to 4000 Hz",
+            "D. 300 to 3400 Hz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 36,
+        "question": "A two-wire telephone circuit is typically used in which part of the telephone network?",
+        "choices": [
+            "A. The trunk lines",
+            "B. The local loop between the subscriber and the central office",
+            "C. Satellite backhaul links",
+            "D. Undersea transoceanic cables"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "What device is used in a telephone system to interface a two-wire local loop to a four-wire trunk circuit?",
+        "choices": [
+            "A. Balanced modulator",
+            "B. Hybrid network REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "C. Balun",
+            "D. Echo canceler"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "What device can be installed to reduce or eliminate the distracting effect of talker echo on long-distance telephone lines?",
+        "choices": [
+            "A. Equalizer",
+            "B. Echo suppressor or canceler",
+            "C. Loop extender",
+            "D. Multiplexer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "In telecommunications, call blocking occurs when",
+        "choices": [
+            "A. a user hangs up the phone",
+            "B. the central office switching capacity is exceeded and a call cannot be completed",
+            "C. a terminal is busy",
+            "D. an IP address is blacklisted"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "Which DTMF tones correspond to the digit '8' on a standard telephone keypad?",
+        "choices": [
+            "A. 697 Hz and 1477 Hz",
+            "B. 852 Hz and 1336 Hz",
+            "C. 770 Hz and 1209 Hz",
+            "D. 941 Hz and 1336 Hz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "Which of the following technologies employs a Distributed Queue Dual Bus (DQDB) architecture for Metropolitan Area Networks?",
+        "choices": [
+            "A. ATM",
+            "B. FDDI",
+            "C. SMDS",
+            "D. SONET"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "Which of the following is not a field contained in a standard Frame Relay frame header?",
+        "choices": [
+            "A. Data Link Connection Identifier (DLCI)",
+            "B. Forward Explicit Congestion Notification (FECN)",
+            "C. Backward Explicit Congestion Notification (BECN)",
+            "D. Committed Information Rate (CIR)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 43,
+        "question": "In a SONET network, which of the following is a function of the Line Overhead?",
+        "choices": [
+            "A. Automatic Protection Switching",
+            "B. Frame alignment pattern",
+            "C. Path tracing",
+            "D. Payload envelope definition"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "Under the OSI model, which of the 7 layers is responsible for creating, managing, and terminating sessions between applications?",
+        "choices": [
+            "A. Transport layer",
+            "B. Presentation layer",
+            "C. Session layer",
+            "D. Application layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "Which device acts as a hardware or software setup that filters and controls the packets of data entering or leaving a network?",
+        "choices": [
+            "A. Router",
+            "B. Bridge",
+            "C. Switch",
+            "D. Firewall"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "Which network topology is characterized by having all devices connected to a single central hub or switch?",
+        "choices": [
+            "A. Bus topology",
+            "B. Ring topology",
+            "C. Star topology",
+            "D. Mesh topology"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "Which network topology provides the maximum redundancy and reliability by connecting every node to every other node?",
+        "choices": [
+            "A. Bus topology",
+            "B. Ring topology",
+            "C. Star topology",
+            "D. Mesh topology"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 48,
+        "question": "In a bus topology, what is the main consequence when the number of connected devices increases significantly under heavy traffic?",
+        "choices": [
+            "A. Cost increases exponentially",
+            "B. Performance decreases dramatically due to packet collisions",
+            "C. Security is completely lost",
+            "D. Power consumption drops"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "In IBM's Systems Network Architecture (SNA), which component directly interfaces with end-user applications?",
+        "choices": [
+            "A. Physical Unit (PU)",
+            "B. Transmission Control Unit (TCU)",
+            "C. Data Link Control (DLC)",
+            "D. Logical Unit (LU) REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "What is the primary benefit of the Clos (fat-tree) network topology used in modern data centers compared to a simple star?",
+        "choices": [
+            "A. It uses fewer switches",
+            "B. It provides non-blocking, scalable high-bandwidth communication with redundant paths",
+            "C. It eliminates the need for cabling",
+            "D. It operates on a single frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "In aperture antennas for microwave communications, what is the aperture number if the angular aperture is 55 degrees?",
+        "choices": [
+            "A. 0.25",
+            "B. 0.35",
+            "C. 0.48",
+            "D. 0.60"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "A TVRO installation for C-band satellite reception (download at 4 GHz) has a dish diameter of 3.5 m and an efficiency of 60%. What is its beamwidth?",
+        "choices": [
+            "A. 1.5 degrees",
+            "B. 3.0 degrees",
+            "C. 4.5 degrees",
+            "D. 0.5 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "For a rectangular waveguide operating in its dominant TE10 mode, the width 'a' must satisfy which condition relative to the wavelength?",
+        "choices": [
+            "A. Width must be equal to one wavelength",
+            "B. Width must be greater than one-half wavelength",
+            "C. Width must be less than one-quarter wavelength",
+            "D. Width must be twice the wavelength"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "Which microwave antenna is commonly used to feed a larger parabolic reflector in a Cassegrain feed system?",
+        "choices": [
+            "A. Half-wave dipole",
+            "B. Horn antenna",
+            "C. Helical antenna",
+            "D. Bicone antenna"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Using a small hyperboloid sub-reflector to beam waves from the horn feed to a larger main parabolic reflector is called a",
+        "choices": [
+            "A. Horn feed",
+            "B. Gregorian feed",
+            "C. Cassegrain feed",
+            "D. Coax feed"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "What microwave component is used to isolate a transmitter from its load, allowing power to flow in one direction only with very low loss?",
+        "choices": [
+            "A. Circulator",
+            "B. Isolator",
+            "C. Magic T",
+            "D. Directional coupler"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "A waveguide has a cutoff frequency of 10 GHz for its dominant mode. Two signals, 17 GHz and 12 GHz, are transmitted through a 50-meter-long section. Which signal arrives first?",
+        "choices": [
+            "A. The 12 GHz signal",
+            "B. The 17 GHz signal",
+            "C. Both arrive at the exact same time",
+            "D. The arrival depends on power"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "Which microwave tube amplifier is characterized by having a wide bandwidth due to the continuous interaction between an electron beam and a slow-wave helix structure?",
+        "choices": [
+            "A. Klystron",
+            "B. Magnetron",
+            "C. Traveling Wave Tube (TWT)",
+            "D. Gyrotron"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "The point where the primary feed antenna is mounted in a standard parabolic reflector antenna is called the",
+        "choices": [
+            "A. center",
+            "B. tangent",
+            "C. locus",
+            "D. focal point"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "Which of the following is a non-resonant microwave traveling-wave antenna that provides wide bandwidth and high directivity?",
+        "choices": [
+            "A. Dipole antenna",
+            "B. Yagi-Uda antenna",
+            "C. Rhombic antenna",
+            "D. Folded dipole antenna"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "In analyzing the behavior of light in an optical fiber cable, what do you call a ray that travels down the fiber without passing through the fiber axis?",
+        "choices": [
+            "A. Skew ray",
+            "B. Meridian ray",
+            "C. Axial ray",
+            "D. Direct ray REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "In an optical fiber, what layer of plastic or acrylate is applied directly around the cladding to protect the fiber from mechanical damage and moisture?",
+        "choices": [
+            "A. Primary buffer",
+            "B. Cladding sheath",
+            "C. Strength member",
+            "D. Outer jacket"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "What is the primary cause of chromatic or wavelength dispersion in optical fibers?",
+        "choices": [
+            "A. The light rays taking different path lengths",
+            "B. The wavelength dependence of the refractive index of glass",
+            "C. Microscopic impurities in the glass",
+            "D. Bending of the cable"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "In fiber optics, the light-gathering ability of an optical fiber is measured and represented by which figure of merit?",
+        "choices": [
+            "A. Critical angle",
+            "B. Refractive index",
+            "C. Numerical aperture",
+            "D. Acceptance cone"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "An optical fiber has a core index of 1.50 and a cladding index of 1.45. What is the numerical aperture of the fiber?",
+        "choices": [
+            "A. 0.25",
+            "B. 0.38",
+            "C. 0.50",
+            "D. 0.15"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "Which optical detector used in fiber-optic receivers is extremely fast and sensitive because it uses avalanche multiplication of carriers?",
+        "choices": [
+            "A. PIN photodiode",
+            "B. Photransistor",
+            "C. Light Emitting Diode",
+            "D. Avalanche Photodiode (APD)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 67,
+        "question": "Which type of optical fiber has a core whose refractive index decreases continuously from the center outward toward the cladding, minimizing modal dispersion?",
+        "choices": [
+            "A. Step-index multimode fiber",
+            "B. Single-mode step-index fiber",
+            "C. Graded-index multimode fiber",
+            "D. Plastic optical fiber"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Fiber-optic cable attenuation is primarily measured and expressed in what units?",
+        "choices": [
+            "A. dB/m",
+            "B. dB/km",
+            "C. dB/mile",
+            "D. Percent loss per foot"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "What optical phenomenon makes the propagation of light down a fiber-optic core possible?",
+        "choices": [
+            "A. Refraction",
+            "B. Reflection",
+            "C. Total Internal Reflection",
+            "D. Dispersion"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "Which light source is preferred for high-speed, long-distance fiber-optic transmission because of its narrow spectral width and high launch power?",
+        "choices": [
+            "A. Incandescent lamp",
+            "B. Light Emitting Diode (LED)",
+            "C. Neon lamp",
+            "D. Injection Laser Diode (ILD)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 71,
+        "question": "In a piezoelectric transducer, electrical charge or voltage is generated across the crystal in response to",
+        "choices": [
+            "A. variations in temperature",
+            "B. mechanical stress or vibration",
+            "C. changes in magnetic field",
+            "D. electromagnetic radiation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "The Seebeck effect is the fundamental physical principle behind the operation of which temperature-sensing transducer?",
+        "choices": [
+            "A. Thermistor",
+            "B. RTD",
+            "C. Thermocouple",
+            "D. Semiconductor sensor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "When a strain gauge is stretched, what happens to its electrical resistance?",
+        "choices": [
+            "A. It remains the same",
+            "B. It decreases",
+            "C. It increases",
+            "D. It drops to zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "Which type of transducer converts a physical displacement or position directly into a proportional analog voltage using a sliding contact on a resistive element?",
+        "choices": [
+            "A. Potentiometer",
+            "B. LVDT REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "C. Strain gauge",
+            "D. Thermocouple"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "Which interfacing device is used in industrial automation to allow a PLC to switch high-voltage, high-current loads without mechanical contacts?",
+        "choices": [
+            "A. Mechanical relay",
+            "B. Fuse",
+            "C. Solid-state relay (SSR)",
+            "D. Transformer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "In industrial control systems, what does the acronym SCADA stand for?",
+        "choices": [
+            "A. System Control And Data Acquisition",
+            "B. Supervisory Control and Data Acquisition",
+            "C. Standard Control and Digital Analysis",
+            "D. Sequential Control and Device Automation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "Which PLC programming language uses graphical symbols that resemble a ladder with rungs, representing electrical control circuits?",
+        "choices": [
+            "A. Structured Text",
+            "B. Ladder Logic",
+            "C. Sequential Function Chart",
+            "D. Instruction List"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "Which sensor or instrument is used in modern Building Management Systems (BMS) to track real-time electrical energy consumption in a structure?",
+        "choices": [
+            "A. Flow meter",
+            "B. Thermocouple",
+            "C. Smart meter",
+            "D. Pressure transducer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "What is the primary purpose of a squelch circuit in a communications receiver?",
+        "choices": [
+            "A. To automatically adjust receiver gain",
+            "B. To keep the audio output quiet when no RF carrier is received",
+            "C. To demodulate single-sideband signals",
+            "D. To prevent receiver overload"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "The ratio of the maximum radiation intensity of an antenna in its main lobe to the average radiation intensity over all directions is called",
+        "choices": [
+            "A. Directivity",
+            "B. Power gain",
+            "C. Antenna efficiency",
+            "D. Capture area"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "An AM transmitter has an unmodulated carrier current of 10",
+        "choices": [
+            "A. If the carrier is modulated 60% by a pure sine wave, what is the total modulated antenna current?",
+            "A. 10.86 A",
+            "B. 11.66 A",
+            "C. 13.00 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "An AM transmitter radiates 12 kW of power with an unmodulated carrier. What is the total radiated power when the modulation index is 0.60?",
+        "choices": [
+            "A. 12.0 kW",
+            "B. 13.2 kW",
+            "C. 14.16 kW",
+            "D. 16.0 kW"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "If an AM transmitter is modulated simultaneously by two sine waves with modulation indices of 0.30 and 0.40, the total effective modulation index is",
+        "choices": [
+            "A. 0.70",
+            "B. 0.50",
+            "C. 0.12",
+            "D. 1.00"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "A frequency modulation system has a maximum frequency deviation of 75 kHz and uses a modulating frequency of 15 kHz. What is the modulation index?",
+        "choices": [
+            "A. 5",
+            "B. 1",
+            "C. 0.2",
+            "D. 10"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "Using Carson's rule, what is the approximate bandwidth required for an FM signal with a peak deviation of 10 kHz and a maximum modulating frequency of 3 kHz?",
+        "choices": [
+            "A. 10 kHz",
+            "B. 13 kHz",
+            "C. 20 kHz",
+            "D. 26 kHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "In sky-wave propagation, the distance from the transmitter to the nearest point where the reflected sky wave returns to Earth is called the",
+        "choices": [
+            "A. skip zone REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "B. skip distance",
+            "C. radio horizon",
+            "D. critical distance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "In sky-wave propagation, the region between the furthest reach of the ground wave and the nearest return of the sky wave is called the",
+        "choices": [
+            "A. dead zone",
+            "B. shadow zone",
+            "C. skip zone",
+            "D. quiet zone"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "What phenomenon in the atmosphere causes UHF and microwave signals to occasionally propagate over exceptionally long distances by following a duct formed by temperature inversion?",
+        "choices": [
+            "A. Troposcatter",
+            "B. Diffraction",
+            "C. Ducting",
+            "D. Ionospheric reflection"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "Frequencies in the UHF and microwave bands propagate primarily by means of which propagation mode?",
+        "choices": [
+            "A. Ground waves",
+            "B. Sky waves",
+            "C. Space or direct waves",
+            "D. Surface waves"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "An ungrounded antenna mounted near the ground behaves as what type of antenna structure due to ground reflections?",
+        "choices": [
+            "A. A single antenna of twice the height",
+            "B. An antenna array",
+            "C. A non-resonant traveling-wave antenna",
+            "D. A horizontally polarized whip"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "The speed of a satellite revolving in a circular orbit around the Earth depends primarily on",
+        "choices": [
+            "A. the weight of the satellite",
+            "B. the height of the satellite orbit above the Earth",
+            "C. the power of the satellite transmitter",
+            "D. the angle of inclination"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "A satellite in a synchronous geostationary orbit appears motionless from the Earth because",
+        "choices": [
+            "A. it is motionless in space",
+            "B. its orbital period matches the Earth's rotation period of 24 hours",
+            "C. it is located over the Earth's magnetic pole",
+            "D. it travels at the speed of light"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "The area of the Earth's surface that is illuminated or covered by a communication satellite's antenna radiation pattern is called its",
+        "choices": [
+            "A. orbit",
+            "B. path",
+            "C. footprint",
+            "D. shadow"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "The key electronic assembly on a communications satellite that receives the uplink signal, amplifies it, translates its frequency, and retransmits it on the downlink is called a",
+        "choices": [
+            "A. transponder",
+            "B. telemetry beacon",
+            "C. diplexer",
+            "D. command receiver"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "Standard ASCII code uses how many bits to represent alphanumeric characters and control symbols?",
+        "choices": [
+            "A. 5 bits",
+            "B. 7 bits",
+            "C. 8 bits",
+            "D. 16 bits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "In a data communications system, what is the name of the handshake or set of rules that defines how data is formatted and transmitted?",
+        "choices": [
+            "A. Protocol",
+            "B. Syntax",
+            "C. Frame",
+            "D. Packet"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "What is the data rate of a standard T1 digital carrier system in North America?",
+        "choices": [
+            "A. 64 kbps",
+            "B. 2.048 Mbps",
+            "C. 1.544 Mbps",
+            "D. 51.84 Mbps"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 98,
+        "question": "In digital communications, adding extra bits to a data block to detect and/or correct errors is referred to as",
+        "choices": [
+            "A. quantization",
+            "B. channel coding",
+            "C. compression REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "D. multiplexing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "A biphase (Manchester) encoding system has the main benefit of",
+        "choices": [
+            "A. requiring very low bandwidth",
+            "B. generating timing and clock recovery information even during long strings of constant data",
+            "C. eliminating all high frequency components",
+            "D. reducing quantization noise"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 100,
+        "question": "What type of optic fiber connector uses a bayonet coupling mechanism and is widely used in ECE laboratory environments?",
+        "choices": [
+            "A. SC connector",
+            "B. LC connector",
+            "C. ST connector",
+            "D. FC connector REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "C"
+    }
+]

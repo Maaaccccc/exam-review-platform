@@ -1,0 +1,1080 @@
+[
+    {
+        "number": 1,
+        "question": "In a basic BJT current mirror, the output resistance is theoretically limited by which transistor parameter?",
+        "choices": [
+            "A. The Early voltage (VA)",
+            "B. The base-emitter voltage (VBE)",
+            "C. The reverse saturation current (Is)",
+            "D. The transition frequency (fT)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "A Widlar current source is characterized by using a small emitter resistor to generate small constant currents. This is because the voltage across this resistor is dependent on the:",
+        "choices": [
+            "A. Sum of the base-emitter voltages",
+            "B. Thermal voltage squared",
+            "C. Difference between the base-emitter voltages",
+            "D. Ratio of the collector currents"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "How many bipolar junction transistors are typically required to construct a standard Wilson current mirror?",
+        "choices": [
+            "A. Two",
+            "B. Three",
+            "C. Four",
+            "D. One"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 4,
+        "question": "In mixed-signal integrated circuits, the technique of using a single reference current source to bias multiple independent amplifier stages is known as:",
+        "choices": [
+            "A. Voltage division",
+            "B. Current magnification",
+            "C. Active loading",
+            "D. Current steering"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "To account for the Early effect in a BJT current mirror output, the theoretical output current equation is multiplied by the factor:",
+        "choices": [
+            "A. (1 - VCE/VA)",
+            "B. (1 + VA/VCE)",
+            "C. (1 + VCE/VA)",
+            "D. (1 - VA/VCE)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "A basic MOSFET current mirror suffers from a systematic error if the drain-to-source voltages of the two transistors are not identical. This error is primarily due to:",
+        "choices": [
+            "A. Channel-length modulation",
+            "B. Oxide thickness variations",
+            "C. Velocity saturation",
+            "D. Subthreshold leakage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "A cascode current mirror significantly increases output impedance but suffers from which practical disadvantage?",
+        "choices": [
+            "A. It decreases the bandwidth to zero",
+            "B. It requires a perfectly matched negative power supply",
+            "C. It uses only one transistor",
+            "D. It reduces the available output voltage swing (compliance range)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "What is the primary function of adding identical emitter degeneration resistors to both sides of a basic BJT current mirror?",
+        "choices": [
+            "A. To decrease the overall output resistance",
+            "B. To improve current matching and increase output resistance",
+            "C. To make the circuit behave as a voltage source",
+            "D. To increase the dependence on the Early effect"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "A standard differential amplifier is designed to amplify which specific signal component?",
+        "choices": [
+            "A. The sum of the two input signals",
+            "B. The largest of the two input signals",
+            "C. The common-mode input signal",
+            "D. The difference between the two input signals"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 10,
+        "question": "In a perfectly symmetrical basic BJT differential amplifier with both inputs grounded, the DC tail current is ideally:",
+        "choices": [
+            "A. Flowing entirely through one transistor",
+            "B. Zero",
+            "C. Split equally between the two transistors",
+            "D. Infinite"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "A worded circuit: A BJT differential amplifier uses a tail current source of 2 mA. Assuming perfectly matched transistors and high beta, what is the approximate quiescent collector current (ICQ) for each transistor?",
+        "choices": [
+            "A. 2 mA",
+            "B. 1 mA",
+            "C. 0.5 mA",
+            "D. 4 mA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "Using the same circuit (tail current = 2 mA, ICQ = 1 mA), if the collector resistors (RC) are both 5 kOhms and VCC is +15V, what is the quiescent DC voltage at each collector?",
+        "choices": [
+            "A. +10 V",
+            "B. +5 V",
+            "C. +15 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "For a BJT differential amplifier, the differential voltage gain (Ad) for a single-ended output taken from one collector is approximately:",
+        "choices": [
+            "A. gm * RC",
+            "B. (gm * RC) / 2",
+            "C. RC / re",
+            "D. 2 * gm * RC"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 14,
+        "question": "If the differential output is taken across both collectors in a BJT differential amplifier, the differential voltage gain (Ad) is mathematically equal to:",
+        "choices": [
+            "A. (gm * RC) / 2",
+            "B. 2 * RC / re",
+            "C. RC / (2 * re)",
+            "D. gm * RC"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 15,
+        "question": "A worded circuit: A BJT differential amplifier has an unbypassed emitter degeneration resistor (RE) of 100 ohms in each emitter leg. If gm is 40 mA/V and RC is 5 kOhms, the single-ended differential gain is roughly:",
+        "choices": [
+            "A. 20 V/V",
+            "B. 100 V/V",
+            "C. 200 V/V",
+            "D. 50 V/V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 16,
+        "question": "When a pure differential mode signal (vd) is applied to a differential amplifier, the voltage at the common emitter node (tail node) theoretically:",
+        "choices": [
+            "A. Swings by exactly vd/2",
+            "B. Swings by exactly vd",
+            "C. Remains constant (acts as an AC virtual ground)",
+            "D. Oscillates at double the frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "What defines a pure differential-mode input signal applied to inputs v1 and v2?",
+        "choices": [
+            "A. v1 = -v2",
+            "B. v1 = v2",
+            "C. v1 = 0, v2 = Vcc",
+            "D. v1 and v2 are completely uncorrelated"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "If a differential input signal vd = 10 mV is applied, what are the ideal individual input voltages v1 and v2 assuming a zero common-mode level?",
+        "choices": [
+            "A. v1 = 10 mV, v2 = 0 mV",
+            "B. v1 = 10 mV, v2 = 10 mV",
+            "C. v1 = +5 mV, v2 = -5 mV",
+            "D. v1 = +10 mV, v2 = -10 mV"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "What defines a pure common-mode input signal applied to inputs v1 and v2?",
+        "choices": [
+            "A. v1 = -v2",
+            "B. v1 = v2",
+            "C. v1 = 0, v2 = Vcc",
+            "D. v1 is AC, v2 is DC"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "In a basic BJT differential amplifier with a tail resistor (REE) instead of a current source, the common-mode gain (Acm) for a single-ended output is approximately:",
+        "choices": [
+            "A. gm * RC",
+            "B. -RC / (2 * re)",
+            "C. -RC / re",
+            "D. -RC / (2 * REE)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "The Common-Mode Rejection Ratio (CMRR) is mathematically defined as the absolute value of the ratio of:",
+        "choices": [
+            "A. Common-mode gain to differential gain",
+            "B. Output voltage to input voltage",
+            "C. Differential voltage gain to common-mode voltage gain",
+            "D. Slew rate to bandwidth"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "An amplifier has a differential gain of 2000 and a common-mode gain of 0.2. What is the CMRR expressed in decibels (dB)?",
+        "choices": [
+            "A. 80 dB",
+            "B. 100 dB",
+            "C. 60 dB",
+            "D. 40 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "To drastically improve (increase) the CMRR of a differential amplifier, what is the most effective circuit modification?",
+        "choices": [
+            "A. Decrease the collector resistors (RC)",
+            "B. Use a smaller tail resistor (REE)",
+            "C. Connect the inputs together",
+            "D. Replace the tail resistor with a high-impedance constant current source"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "A worded circuit: A differential amplifier is powered by +/- 15V. The tail current source is 1 mA. The collector resistors are 10 kOhms. Assuming matched NPN transistors, what is the maximum common-mode input voltage before the transistors leave the active region? (Assume VCE(sat) = 0.3V, VBE = 0.7V).",
+        "choices": [
+            "A. +14.3 V",
+            "B. +10.4 V",
+            "C. +5.0 V",
+            "D. +15.0 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "The differential input resistance (Rid) of a BJT differential amplifier (without emitter degeneration) is:",
+        "choices": [
+            "A. re",
+            "B. beta * re / 2",
+            "C. 2 * re",
+            "D. 2 * beta * re"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 26,
+        "question": "Which configuration of a differential amplifier provides the highest possible differential voltage gain?",
+        "choices": [
+            "A. Single-input, single-ended output",
+            "B. Single-input, double-ended output",
+            "C. Dual-input, double-ended (differential) output",
+            "D. Dual-input, single-ended output"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "A BJT differential pair is biased with a tail current IT. The transconductance (gm) of each transistor is:",
+        "choices": [
+            "A. IT / VT",
+            "B. IT / (2 * VT)",
+            "C. 2 * IT / VT",
+            "D. IT / (4 * VT)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "In the context of differential amplifiers, what does a \"single-ended output\" mean?",
+        "choices": [
+            "A. The output voltage is taken from one collector with respect to ground",
+            "B. The output voltage is measured between the two collectors",
+            "C. The circuit only has one input terminal",
+            "D. The amplifier uses only one transistor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 29,
+        "question": "If the two collector resistors in a differential amplifier are not perfectly matched (e.g., RC1 = 5k, RC2 = 5.1k), the primary negative consequence is:",
+        "choices": [
+            "A. Infinite differential gain",
+            "B. The introduction of a non-zero output DC offset voltage",
+            "C. Total failure of the tail current source",
+            "D. The bandwidth becomes zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "A differential amplifier has Ad = 100 and Acm = 0.1. If the input signals are v1 = 5.01 V and v2 = 4.99 V, what is the approximate differential single-ended output voltage?",
+        "choices": [
+            "A. 0.5 V",
+            "B. 50 V",
+            "C. 2.0 V",
+            "D. 2.5 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 31,
+        "question": "Which of the following values represents a highly desirable CMRR for a precision instrumentation differential amplifier?",
+        "choices": [
+            "A. 120 dB",
+            "B. 3 dB",
+            "C. 20 dB",
+            "D. 0 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "For a MOSFET differential amplifier, the differential voltage gain (Ad) with a single-ended output is approximately:",
+        "choices": [
+            "A. gm * RD",
+            "B. 2 * gm * RD",
+            "C. (gm * RD) / 2",
+            "D. RD / gm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "In a BJT differential amplifier, if the input signal vd becomes too large (e.g., > 100 mV), the differential pair acts as a:",
+        "choices": [
+            "A. Current steering switch (limiter)",
+            "B. Perfectly linear amplifier",
+            "C. Voltage regulator",
+            "D. Harmonic oscillator"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "A worded circuit: A MOSFET differential pair has a tail current ISS = 1 mA. The transistors have kn = 2 mA/V^2 and Vth = 1V. What is the quiescent overdrive voltage (Vov) of each transistor? (Recall ID = 0.5*kn*Vov^2).",
+        "choices": [
+            "A. 0.50 V",
+            "B. 1.00 V",
+            "C. 0.71 V",
+            "D. 0.25 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "In a real-world differential amplifier, the \"Input Offset Voltage\" (V_OS) is defined as the:",
+        "choices": [
+            "A. Maximum safe input voltage",
+            "B. Differential DC input voltage required to force the differential output to exactly zero volts",
+            "C. Common-mode DC voltage present at the inputs",
+            "D. AC voltage limit before clipping occurs"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "To increase the linear input voltage range of a BJT differential amplifier, what circuit modification is commonly employed?",
+        "choices": [
+            "A. Using a smaller tail current",
+            "B. Removing the collector resistors",
+            "C. Removing the tail current source",
+            "D. Adding emitter degeneration resistors"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "When analyzing the DC operating point of a symmetrical differential amplifier, the analysis is simplified by assuming:",
+        "choices": [
+            "A. The inputs are connected to the power supply",
+            "B. The tail current source is turned off",
+            "C. Both input terminals are grounded",
+            "D. The transistors are in cutoff"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "In a perfectly ideal differential amplifier with a perfectly symmetrical double-ended output, what is the theoretical common-mode gain?",
+        "choices": [
+            "A. Zero",
+            "B. Infinite",
+            "C. Unity (1)",
+            "D. Equal to the differential gain"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "A worded circuit: A single-ended output BJT differential amplifier has RC = 10 kOhms and a tail resistor REE = 50 kOhms. What is the approximate common-mode voltage gain (Acm)?",
+        "choices": [
+            "A. 1000",
+            "B. -10",
+            "C. -0.5",
+            "D. -0.1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "The \"half-circuit concept\" is a powerful analytical tool used to determine the AC gain of a differential amplifier. This concept relies heavily on the principle of:",
+        "choices": [
+            "A. Superposition",
+            "B. Symmetry and antisymmetry",
+            "C. Thevenin's theorem",
+            "D. Conservation of energy"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "When applying the differential half-circuit analysis to a BJT differential pair, the common emitter node is treated as:",
+        "choices": [
+            "A. An open circuit",
+            "B. A DC voltage source",
+            "C. A signal source",
+            "D. An AC virtual ground"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 42,
+        "question": "When applying the common-mode half-circuit analysis to a BJT differential pair, the tail resistor (REE) is represented in the half-circuit as a resistor of value:",
+        "choices": [
+            "A. REE / 2",
+            "B. REE",
+            "C. 2 * REE",
+            "D. 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "A JFET differential amplifier has a tail current ISS. The transconductance (gm) of the JFETs in the saturation region is proportional to:",
+        "choices": [
+            "A. ISS^2",
+            "B. sqrt(ISS)",
+            "C. 1 / ISS",
+            "D. ISS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "If a differential amplifier has a CMRR of 10,000, and a common-mode noise signal of 1V is present, what is the equivalent differential input noise voltage that would produce the same output?",
+        "choices": [
+            "A. 100 uV",
+            "B. 1 mV",
+            "C. 10 uV",
+            "D. 1 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "In a single-ended output BJT differential amplifier, the CMRR is approximately equal to:",
+        "choices": [
+            "A. gm * RC",
+            "B. gm * REE",
+            "C. gm * re",
+            "D. RC / REE"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "Which component in a practical integrated circuit differential amplifier is usually implemented using a current mirror?",
+        "choices": [
+            "A. The input coupling capacitor",
+            "B. The collector load resistor",
+            "C. The emitter degeneration resistor",
+            "D. The tail current source"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 47,
+        "question": "A worded circuit: An NMOS differential pair uses a current mirror as an active load. This configuration specifically provides:",
+        "choices": [
+            "A. A high single-ended voltage gain by automatically performing differential-to-single-ended conversion",
+            "B. A completely zero common-mode gain",
+            "C. Infinite input impedance",
+            "D. Zero output impedance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "What is the primary reason differential amplifiers are the standard input stage for almost all operational amplifiers?",
+        "choices": [
+            "A. They intrinsically reject common-mode noise and drift",
+            "B. They provide the highest possible slew rate",
+            "C. They are the easiest to manufacture",
+            "D. They require the fewest transistors"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "A basic differential amplifier requires how many power supply rails for optimal, symmetric operation with ground-referenced inputs?",
+        "choices": [
+            "A. One positive rail",
+            "B. None",
+            "C. Two (one positive, one negative)",
+            "D. Three"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "Due to manufacturing variations, the collector resistors in a BJT differential pair have a 2% mismatch. This mismatch will primarily degrade which performance parameter?",
+        "choices": [
+            "A. Differential voltage gain",
+            "B. Common-Mode Rejection Ratio (CMRR)",
+            "C. Input impedance",
+            "D. Transconductance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "The small-signal equivalent circuit of a differential amplifier is valid only if the differential input signal (vd) is kept small compared to:",
+        "choices": [
+            "A. The power supply voltage",
+            "B. The Early voltage (VA)",
+            "C. The common-mode input voltage",
+            "D. The thermal voltage (VT)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "In a BJT differential pair, if the input signal vd = 0, the output voltage taken differentially between the two collectors is theoretically:",
+        "choices": [
+            "A. VCC",
+            "B. VCC / 2",
+            "C. 0 V",
+            "D. -VCC"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "If a purely common-mode AC signal is applied to a perfectly matched differential amplifier with a double-ended output, the AC voltage between the two output terminals is:",
+        "choices": [
+            "A. Exactly zero",
+            "B. Amplified by the differential gain",
+            "C. Amplified by the common-mode gain",
+            "D. Equal to the input common-mode signal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "A worded circuit: A MOSFET differential pair is biased with a tail current of 400 uA. The transistors have a transconductance parameter kn'*(W/L) = 8 mA/V^2. The differential gain (single-ended output) for a drain resistor RD = 10 kOhms is:",
+        "choices": [
+            "A. 17.88 V/V",
+            "B. 89.4 V/V",
+            "C. 4.47 V/V",
+            "D. 8.94 V/V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 56,
+        "question": "What is the effect of increasing the tail current (IT) in a BJT differential amplifier on the differential voltage gain (Ad) and the input differential resistance (Rid)?",
+        "choices": [
+            "A. Ad decreases, Rid increases",
+            "B. Ad increases, Rid decreases",
+            "C. Both Ad and Rid increase",
+            "D. Both Ad and Rid decrease"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "If an amplifier's common-mode rejection ratio (CMRR) is extremely high, it indicates that the amplifier is excellent at:",
+        "choices": [
+            "A. Amplifying DC signals",
+            "B. Rejecting differential noise",
+            "C. Driving low-impedance loads",
+            "D. Extracting weak differential signals buried in large uniform background noise"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "The term \"tail current\" in a differential amplifier refers to the total DC current flowing through the:",
+        "choices": [
+            "A. Base of the first transistor",
+            "B. Load resistor",
+            "C. Common emitter (or source) connection",
+            "D. Power supply line"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "A worded circuit: A generic differential amplifier has Ad = 200 and CMRR = 80 dB. What is the linear common-mode voltage gain (Acm)?",
+        "choices": [
+            "A. 0.01",
+            "B. 0.02",
+            "C. 2.0",
+            "D. 0.1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "In a BJT differential pair, the base currents flow out of the input terminals to ground. These quiescent DC currents are referred to as:",
+        "choices": [
+            "A. Input bias currents",
+            "B. Offset currents",
+            "C. Leakage currents",
+            "D. Common-mode currents"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "The difference between the two DC input bias currents in a practical differential amplifier is specifically termed the:",
+        "choices": [
+            "A. Differential current",
+            "B. Input offset current",
+            "C. Common-mode current",
+            "D. Quiescent mismatch current"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "To minimize the output DC offset voltage caused by input bias currents, the DC resistance paths from both input terminals to ground should be:",
+        "choices": [
+            "A. As large as possible",
+            "B. Zero",
+            "C. Unequal",
+            "D. Exactly equal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 63,
+        "question": "A differential amplifier outputs a 5V signal when a 50 mV differential signal is applied. When a 1V common-mode signal is applied, the output shifts by 10 mV. What is the CMRR in dB?",
+        "choices": [
+            "A. 80 dB",
+            "B. 100 dB",
+            "C. 60 dB",
+            "D. 40 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "For a BJT differential amplifier, the maximum differential transconductance (slope of the transfer characteristic curve) occurs exactly at what differential input voltage?",
+        "choices": [
+            "A. VT",
+            "B. VCC / 2",
+            "C. 0 V",
+            "D. VBE"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "In an ideal operational amplifier (which has a differential input stage), the common-mode rejection ratio is assumed to be:",
+        "choices": [
+            "A. Infinite",
+            "B. Zero",
+            "C. 100 dB",
+            "D. Unity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "A differential amplifier circuit visually resembles what letter in its basic schematic layout?",
+        "choices": [
+            "A. T",
+            "B. Pi",
+            "C. Y (or V)",
+            "D. H"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "A worded circuit: An NPN differential pair has a tail current of 100 uA. A differential input signal vd = +100 mV is applied (vB1 - vB2 = 100 mV). Assuming VT = 26 mV, what is the approximate state of the two transistors?",
+        "choices": [
+            "A. Both are completely off",
+            "B. Q1 is conducting almost all the tail current, Q2 is nearly cut off",
+            "C. Both are conducting 50 uA equally",
+            "D. Q2 is conducting almost all the tail current, Q1 is nearly cut off"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "The large-signal transfer characteristic of a BJT differential amplifier relates the differential input voltage to the collector currents using which mathematical function?",
+        "choices": [
+            "A. Sine",
+            "B. Logarithm",
+            "C. Linear",
+            "D. Hyperbolic tangent (tanh)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "If the tail current source of a differential amplifier has a finite output resistance RSS, this will directly degrade (lower) the:",
+        "choices": [
+            "A. Differential voltage gain",
+            "B. Input bias current",
+            "C. Common-mode rejection ratio (CMRR)",
+            "D. Slew rate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "To design a differential amplifier with a very high CMRR without increasing the DC voltage drop across the tail circuit, a designer should use:",
+        "choices": [
+            "A. An active constant-current source",
+            "B. A larger tail resistor",
+            "C. A smaller tail resistor",
+            "D. Smaller collector resistors"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "In a fully differential amplifier (double-ended output), if the collector resistors are perfectly matched, the common-mode gain is theoretically zero. In reality, a non-zero common-mode gain exists primarily due to:",
+        "choices": [
+            "A. Thermal noise",
+            "B. Cosmic radiation",
+            "C. The power supply voltage",
+            "D. Component mismatches (e.g., Delta_RC)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "For a single-ended output BJT differential amplifier with mismatched collector resistors (RC and RC + Delta_RC), the CMRR is primarily limited by the fractional mismatch:",
+        "choices": [
+            "A. Delta_RC",
+            "B. Delta_RC / RC",
+            "C. 1 / Delta_RC",
+            "D. (Delta_RC)^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "A common technique to increase the differential input impedance of a BJT differential pair is to:",
+        "choices": [
+            "A. Increase the tail current",
+            "B. Decrease the collector resistors",
+            "C. Remove the tail current source",
+            "D. Use Darlington pairs or add emitter degeneration resistors"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "In a JFET differential amplifier, the transfer characteristic curve is more linear over a wider range of input voltages compared to a BJT differential amplifier because the JFET follows a:",
+        "choices": [
+            "A. Linear law",
+            "B. Exponential law",
+            "C. Square-law",
+            "D. Hyperbolic law"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "What is the phase relationship between the two collector signals in a balanced BJT differential amplifier driven by a differential signal?",
+        "choices": [
+            "A. 0 degrees (In phase)",
+            "B. 180 degrees (Out of phase)",
+            "C. 90 degrees",
+            "D. 45 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "A differential amplifier can be used as a linear multiplier (mixer) if the transconductance is modulated by a second signal applied to the:",
+        "choices": [
+            "A. Tail current source",
+            "B. Collector resistors",
+            "C. Ground terminal",
+            "D. Inverting input"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "A worded circuit: A differential amplifier is subjected to electromagnetic interference (EMI) that induces a 60 Hz, 100 mV sine wave equally on both input wires. This interference is classified as a:",
+        "choices": [
+            "A. Differential-mode signal",
+            "B. Common-mode signal",
+            "C. Ground loop",
+            "D. Thermal drift"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "To completely balance a practical differential amplifier and zero out its offset voltage, a potentiometer is often connected between the:",
+        "choices": [
+            "A. Emitters and ground",
+            "B. Bases and ground",
+            "C. Two inputs",
+            "D. Two collectors, with its wiper tied to VCC"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "The \"differential half-circuit\" of a BJT differential pair visually resembles which standard single-transistor amplifier configuration?",
+        "choices": [
+            "A. Common-Emitter",
+            "B. Common-Base",
+            "C. Common-Collector",
+            "D. Cascode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "The \"common-mode half-circuit\" of a BJT differential pair (with a tail resistor REE) visually resembles a Common-Emitter amplifier with an emitter degeneration resistor of what value?",
+        "choices": [
+            "A. REE",
+            "B. 0",
+            "C. 2 * REE",
+            "D. REE / 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 81,
+        "question": "Which basic analog building block heavily relies on a differential amplifier as its input stage?",
+        "choices": [
+            "A. Operational Amplifier (Op-Amp)",
+            "B. 555 Timer",
+            "C. Linear Voltage Regulator",
+            "D. Audio Power Amplifier"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "In a BiCMOS differential amplifier, the input transistors are typically MOSFETs while the active load current mirror is constructed using BJTs. The primary reason for using MOSFET inputs is to achieve:",
+        "choices": [
+            "A. High transconductance",
+            "B. Low manufacturing cost",
+            "C. Nearly infinite input impedance and zero bias current",
+            "D. Very high output swing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "A fully differential op-amp provides two outputs, Vout+ and Vout-. The primary advantage of transmitting signals in this fully differential format over a noisy cable is:",
+        "choices": [
+            "A. It requires fewer wires",
+            "B. It is highly immune to common-mode noise coupled into the cable",
+            "C. It reduces the signal bandwidth",
+            "D. It doubles the power consumption"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "In a BJT differential amplifier, the Early effect (finite VA) causes the common-mode rejection ratio (CMRR) to:",
+        "choices": [
+            "A. Increase to infinity",
+            "B. Remain strictly constant",
+            "C. Become zero",
+            "D. Degrade (decrease) due to finite output resistance of the tail current source"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "A worded circuit: A BJT differential pair has a constant tail current IT. If the differential input voltage vd is increased from 0 to a very large positive value (e.g., +200 mV), the transconductance of the circuit:",
+        "choices": [
+            "A. Increases linearly",
+            "B. Remains constant",
+            "C. Drops to zero because the circuit saturates and acts as a switch",
+            "D. Becomes infinite"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "A differential amplifier has a differential gain of 500. If it must achieve a CMRR of 60 dB, what is the maximum allowable common-mode gain?",
+        "choices": [
+            "A. 5.0",
+            "B. 50.0",
+            "C. 10.0",
+            "D. 0.5"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "When applying a signal to the inverting input of a differential amplifier (with the non-inverting input grounded), the output at the corresponding collector will be:",
+        "choices": [
+            "A. In phase with the input",
+            "B. 180 degrees out of phase with the input",
+            "C. 90 degrees out of phase",
+            "D. Unpredictable"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "In a typical IC op-amp, the common-mode input voltage range is restricted. If the input voltages exceed this range, what typically happens to the tail current source?",
+        "choices": [
+            "A. It explodes",
+            "B. It turns into a voltage source",
+            "C. It delivers infinite current",
+            "D. It gets crushed (leaves the active/saturation region), degrading performance"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "The input differential impedance of an NMOS differential amplifier at low frequencies is theoretically:",
+        "choices": [
+            "A. Equal to the gate resistor",
+            "B. 2 / gm",
+            "C. Infinite",
+            "D. r_pi"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "A differential amplifier is designed with an NPN pair. If the temperature increases, causing VBE to drop by 2 mV/degC, the quiescent collector currents (assuming a perfectly ideal tail current source) will:",
+        "choices": [
+            "A. Decrease",
+            "B. Remain constant",
+            "C. Increase exponentially",
+            "D. Drop to zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "A worded circuit: A differential amplifier is driven by a signal source with an internal resistance Rs. The presence of Rs creates a voltage divider with the amplifier's input impedance. To prevent significant signal loss, the differential input resistance (Rid) must be:",
+        "choices": [
+            "A. Much greater than 2*Rs",
+            "B. Exactly equal to Rs",
+            "C. Much less than Rs",
+            "D. Zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 93,
+        "question": "In a BJT differential pair, the hyperbolic tangent (tanh) transfer characteristic becomes approximately linear (for small signals) if the differential input voltage is less than:",
+        "choices": [
+            "A. 100 V",
+            "B. 2 VT (approx 50 mV)",
+            "C. 0.7 V",
+            "D. VCC / 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "What parameter describes the change in output offset voltage when the temperature changes?",
+        "choices": [
+            "A. Slew rate",
+            "B. CMRR",
+            "C. Gain-bandwidth product",
+            "D. Thermal voltage drift"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 95,
+        "question": "If a differential amplifier is perfectly balanced, its common-mode gain is zero. What practical imperfection predominantly limits the CMRR in a single-ended output stage?",
+        "choices": [
+            "A. The finite output impedance of the tail current source",
+            "B. The color of the PCB",
+            "C. The value of the power supply capacitors",
+            "D. The input signal frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 96,
+        "question": "In a MOSFET differential pair with an active current mirror load, the common-mode gain is non-zero because the active load mirror is not perfectly symmetric for common-mode signals. This leads to a CMRR that is approximately proportional to:",
+        "choices": [
+            "A. 1 / (gm * ro)",
+            "B. gm",
+            "C. gm * ro * (gm_load * R_tail)",
+            "D. gm_load / R_tail"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 97,
+        "question": "In analog electronics, what does the abbreviation \"CMRR\" stand for?",
+        "choices": [
+            "A. Common-Mode Rejection Ratio",
+            "B. Capacitive Miller Reduction Rate",
+            "C. Current Mirror Reference Ratio",
+            "D. Common-Mode Rectification Rate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "A BJT differential amplifier is configured with emitter degeneration resistors (RE). The new differential voltage gain (Ad) compared to the un-degenerated case will be:",
+        "choices": [
+            "A. Exactly the same",
+            "B. Increased",
+            "C. Decreased",
+            "D. Infinite"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "A worded circuit: An instrumentation amplifier consists of three op-amps. The first stage consists of two non-inverting buffers that amplify the differential signal but pass the common-mode signal with a gain of:",
+        "choices": [
+            "A. Zero",
+            "B. Infinite",
+            "C. The differential gain",
+            "D. Unity (1)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "What is the defining characteristic of a \"differential signal\"?",
+        "choices": [
+            "A. It is measured with respect to earth ground",
+            "B. It consists of two complementary signals whose average value is zero relative to a common-mode level",
+            "C. It is a single high-voltage pulse",
+            "D. It only contains odd harmonics"
+        ],
+        "correct_answer": "B"
+    }
+]

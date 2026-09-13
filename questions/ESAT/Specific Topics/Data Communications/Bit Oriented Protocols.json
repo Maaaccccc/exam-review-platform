@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "In start/stop framing, how does the receiver accurately identify the beginning of a new character?",
+        "choices": [
+            "A. By the preamble sequence",
+            "B. By a parity error",
+            "C. By a transition from the idle state (logic 1) to the start bit (logic 0)",
+            "D. By the stop bit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "Which ASCII control character specifically signifies the start of the message header in the BISYNC protocol?",
+        "choices": [
+            "A. SOH",
+            "B. STX",
+            "C. ETX",
+            "D. ENQ"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "To achieve data transparency when sending binary payloads, character-oriented protocols utilize which specific technique?",
+        "choices": [
+            "A. Bit stuffing",
+            "B. Pulse amplitude modulation",
+            "C. Wavelength multiplexing",
+            "D. Character stuffing (Byte stuffing)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "Which character is universally used as the control escape character in byte stuffing algorithms to differentiate payload from control signals?",
+        "choices": [
+            "A. SYN",
+            "B. DLE",
+            "C. STX",
+            "D. EOT"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "If a BISYNC receiver successfully receives a block of data without any CRC errors, it formally responds with which control character?",
+        "choices": [
+            "A. NAK",
+            "B. ACK",
+            "C. EOT",
+            "D. SYN"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "In BISYNC, the protocol uses Alternating Acknowledgments to definitively prevent duplicated or lost blocks. These acknowledgments are represented as:",
+        "choices": [
+            "A. ACK and NAK",
+            "B. WACK and RVI",
+            "C. ACK0 and ACK1",
+            "D. SYN and DLE"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "Which legacy framing method delineates frames by counting characters, but is highly vulnerable to catastrophic failure if the count field is corrupted?",
+        "choices": [
+            "A. Character count framing",
+            "B. Flag-based framing",
+            "C. Start/stop framing",
+            "D. Token passing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "A major engineering disadvantage of BISYNC is that it fundamentally operates in which transmission mode, requiring highly inefficient turnaround times for every acknowledgment?",
+        "choices": [
+            "A. Full-duplex",
+            "B. Simplex",
+            "C. Multiplex",
+            "D. Half-duplex"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "What is the fundamental functional characteristic of bit-oriented protocols compared to older character-oriented protocols?",
+        "choices": [
+            "A. They only transmit ASCII text",
+            "B. They process data strictly in full 8-bit bytes",
+            "C. They treat the message as a continuous sequence of bits and provide complete code transparency",
+            "D. They do not require any error checking mechanisms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "In bit-oriented framing, what is the specific 8-bit flag sequence universally used to delineate both the beginning and end of a frame?",
+        "choices": [
+            "A. 01111110",
+            "B. 10101010",
+            "C. 11111111",
+            "D. 00000000"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "To prevent the flag sequence (01111110) from accidentally appearing in the payload data and causing premature frame termination, bit-oriented protocols use:",
+        "choices": [
+            "A. Byte stuffing",
+            "B. Escaping",
+            "C. Parity checking",
+            "D. Bit stuffing"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 12,
+        "question": "In the standard bit stuffing process, the transmitter automatically inserts a '0' bit after encountering how many consecutive '1' bits in the payload?",
+        "choices": [
+            "A. Four",
+            "B. Five",
+            "C. Six",
+            "D. Seven"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "A transmitter is sending the payload 011111110. After bit stuffing is applied, what is the actual bit sequence transmitted onto the line (excluding flags)?",
+        "choices": [
+            "A. 0111110110",
+            "B. 0111111100",
+            "C. 0111111010",
+            "D. 011111010"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "When a receiver detects exactly five consecutive '1's followed by a '0' in the incoming bitstream, what specific action does it take?",
+        "choices": [
+            "A. Declares a framing error",
+            "B. Interprets it as an end flag",
+            "C. Discards the '0' bit as a stuffed bit (destuffing)",
+            "D. Disconnects the physical link"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "When a receiver detects six consecutive '1's followed by a '0' (01111110) in the bitstream, it interprets this strictly as:",
+        "choices": [
+            "A. A stuffed bit",
+            "B. An abort signal",
+            "C. A parity error",
+            "D. A frame flag"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 16,
+        "question": "If a receiver detects seven or more consecutive '1's in the incoming bitstream, this typically signifies which link condition?",
+        "choices": [
+            "A. A new frame",
+            "B. A stuffed sequence",
+            "C. An abort signal or idle line condition",
+            "D. A checksum error"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "Bit stuffing provides inherent data transparency for the data link. What does data transparency precisely mean in this context?",
+        "choices": [
+            "A. The data can be easily intercepted by third parties",
+            "B. The payload can contain any arbitrary bit pattern without being mistaken for a control flag",
+            "C. The data is sent without physical layer encryption",
+            "D. The line voltage is transparent"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "In terms of transmission overhead, how does bit stuffing generally compare to byte stuffing (DLE escaping)?",
+        "choices": [
+            "A. Bit stuffing has less overhead because it only adds 1 bit per stuffed sequence, whereas byte stuffing adds 8 bits",
+            "B. They have exactly the same overhead mathematically",
+            "C. Byte stuffing is faster for microprocessors",
+            "D. Bit stuffing is only used in half-duplex links"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "Which of the following is a classic example of a universally implemented bit-oriented data link protocol?",
+        "choices": [
+            "A. BISYNC",
+            "B. HDLC (High-Level Data Link Control)",
+            "C. XMODEM",
+            "D. DDCMP"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "High-Level Data Link Control (HDLC) was developed and standardized by which international organization?",
+        "choices": [
+            "A. IEEE",
+            "B. IETF",
+            "C. ITU-T",
+            "D. ISO"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "In HDLC architecture, a station that issues commands and is entirely responsible for controlling the operation of the data link is called a:",
+        "choices": [
+            "A. Secondary station",
+            "B. Combined station",
+            "C. Primary station",
+            "D. Master node"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "In HDLC architecture, a station that operates strictly under the control of a primary station and issues responses is classified as a:",
+        "choices": [
+            "A. Secondary station",
+            "B. Primary station",
+            "C. Combined station",
+            "D. Token station"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "An HDLC station that can issue both commands and responses, acting as a true peer in the network topology, is known as a:",
+        "choices": [
+            "A. Sub-station",
+            "B. Primary station",
+            "C. Secondary station",
+            "D. Combined station"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "An HDLC Unbalanced Configuration (UNB) structurally consists of:",
+        "choices": [
+            "A. Two combined stations",
+            "B. One primary station and one or more secondary stations",
+            "C. Multiple primary stations",
+            "D. No primary stations"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "An HDLC Balanced Configuration (BAC) structurally consists strictly of:",
+        "choices": [
+            "A. One primary and one secondary",
+            "B. Two combined stations",
+            "C. Multiple primary stations on a bus",
+            "D. Two secondary stations"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "In which HDLC data transfer mode can a secondary station only transmit data when explicitly polled or permitted by the primary station?",
+        "choices": [
+            "A. Asynchronous Balanced Mode (ABM)",
+            "B. Asynchronous Response Mode (ARM)",
+            "C. Normal Response Mode (NRM)",
+            "D. Symmetric Mode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "Which HDLC mode allows a secondary station to spontaneously initiate a transmission without waiting for explicit permission from the primary station?",
+        "choices": [
+            "A. Asynchronous Response Mode (ARM)",
+            "B. Normal Response Mode (NRM)",
+            "C. Asynchronous Balanced Mode (ABM)",
+            "D. Half-Duplex Mode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "Which HDLC data transfer mode is widely used for point-to-point peer links, where either combined station may initiate transmission without prior permission?",
+        "choices": [
+            "A. Normal Response Mode (NRM)",
+            "B. Asynchronous Response Mode (ARM)",
+            "C. Polling Mode",
+            "D. Asynchronous Balanced Mode (ABM)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "HDLC utilizes three specific types of frames for communication. Which of the following is NOT a valid HDLC frame type?",
+        "choices": [
+            "A. Information frames (I-frames)",
+            "B. Supervisory frames (S-frames)",
+            "C. Management frames (M-frames)",
+            "D. Unnumbered frames (U-frames)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 30,
+        "question": "Which specific HDLC frame type is used to transport user data and network layer packets across the link?",
+        "choices": [
+            "A. Information frames (I-frames)",
+            "B. Supervisory frames (S-frames)",
+            "C. Unnumbered frames (U-frames)",
+            "D. Control frames (C-frames)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "What is the standard, strictly defined sequence of fields in an HDLC frame?",
+        "choices": [
+            "A. Flag, Control, Address, Info, FCS, Flag",
+            "B. Flag, Info, Address, Control, FCS, Flag",
+            "C. Flag, FCS, Control, Info, Address, Flag",
+            "D. Flag, Address, Control, Info, FCS, Flag"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 32,
+        "question": "In an HDLC command frame sent by a primary station, the Address field always contains the address of the:",
+        "choices": [
+            "A. Primary station itself",
+            "B. Destination secondary station",
+            "C. Next-hop IP router",
+            "D. Broadcast network address"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "In an HDLC response frame sent by a secondary station, the Address field always contains the address of the:",
+        "choices": [
+            "A. Secondary station itself",
+            "B. Primary station",
+            "C. Domain controller",
+            "D. Network gateway"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "The Control field in an HDLC I-frame contains sequence numbers used for sliding window flow control. What are these specific sequence numbers called?",
+        "choices": [
+            "A. N(A) and N(B)",
+            "B. N(T) and N(R)",
+            "C. N(S) and N(R)",
+            "D. SEQ and ACK"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "In the HDLC Control field of an I-frame, the N(S) sequence number mathematically represents the:",
+        "choices": [
+            "A. Number of bytes in the payload",
+            "B. Sequence number of the next frame expected",
+            "C. Parity of the entire frame",
+            "D. Send sequence number of the current frame"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "In the HDLC Control field, the N(R) sequence number represents the:",
+        "choices": [
+            "A. Number of frames rejected by the receiver",
+            "B. Sequence number of the current frame being received",
+            "C. Receive sequence number (the sequence number of the next frame expected)",
+            "D. Number of transmission retries"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "Which single bit in the HDLC Control field is used by a primary station to solicit a response, and by a secondary station to indicate the final frame of a response sequence?",
+        "choices": [
+            "A. P/S bit (Primary/Secondary)",
+            "B. P/F bit (Poll/Final)",
+            "C. N(S) bit",
+            "D. S/U bit"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "How does the receiving hardware immediately determine the specific type of an HDLC frame (I, S, or U)?",
+        "choices": [
+            "A. By inspecting the first 1 or 2 bits of the Control field",
+            "B. By checking the Address field",
+            "C. By measuring the length of the Info field",
+            "D. By reading the FCS"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "If the first bit of the HDLC Control field is a '0', the frame is strictly and uniquely identified as a(n):",
+        "choices": [
+            "A. Supervisory frame (S-frame)",
+            "B. Information frame (I-frame)",
+            "C. Unnumbered frame (U-frame)",
+            "D. Token frame"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "If the first two bits of the HDLC Control field are '10', the frame is strictly identified as a(n):",
+        "choices": [
+            "A. Information frame (I-frame)",
+            "B. Unnumbered frame (U-frame)",
+            "C. Beacon frame",
+            "D. Supervisory frame (S-frame)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Supervisory frames (S-frames) do not carry an Information field. They are used exclusively for:",
+        "choices": [
+            "A. Establishing physical connections",
+            "B. Disconnecting the logical link",
+            "C. Flow and error control (ACK/NAK)",
+            "D. Sending small user messages"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "Which HDLC S-frame is used to acknowledge successfully received frames and actively indicate that the station is ready to receive more data?",
+        "choices": [
+            "A. Receive Ready (RR)",
+            "B. Receive Not Ready (RNR)",
+            "C. Reject (REJ)",
+            "D. Selective Reject (SREJ)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 43,
+        "question": "Which HDLC S-frame acknowledges received frames but tells the transmitter to temporarily halt transmission due to a busy condition or full buffer?",
+        "choices": [
+            "A. Receive Ready (RR)",
+            "B. Reject (REJ)",
+            "C. Selective Reject (SREJ)",
+            "D. Receive Not Ready (RNR)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "If an HDLC station receives an out-of-sequence frame, indicating a frame was lost in transit, it requests the retransmission of all frames starting from the lost frame using which S-frame?",
+        "choices": [
+            "A. Receive Not Ready (RNR)",
+            "B. Reject (REJ)",
+            "C. Selective Reject (SREJ)",
+            "D. Receive Ready (RR)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "Which HDLC S-frame is used to request the retransmission of only one specific lost or damaged frame, rather than discarding and re-requesting all subsequent frames?",
+        "choices": [
+            "A. Reject (REJ)",
+            "B. Selective Reject (SREJ)",
+            "C. Receive Ready (RR)",
+            "D. Unnumbered Acknowledgment (UA)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "The HDLC Frame Check Sequence (FCS) field typically utilizes which highly robust error detection algorithm?",
+        "choices": [
+            "A. Simple Parity Check",
+            "B. Longitudinal Redundancy Check (LRC)",
+            "C. 16-bit or 32-bit Cyclic Redundancy Check (CRC)",
+            "D. MD5 Hash"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "Which HDLC frame type is heavily used for link management purposes, such as setting up the operational mode (e.g., SABM) and disconnecting the link?",
+        "choices": [
+            "A. Unnumbered frames (U-frames)",
+            "B. Information frames (I-frames)",
+            "C. Supervisory frames (S-frames)",
+            "D. Control frames (C-frames)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "The standard HDLC Control field is 8 bits long, providing 3 bits for sequence numbers. What is the maximum sliding window size in standard HDLC?",
+        "choices": [
+            "A. 128",
+            "B. 15",
+            "C. 255",
+            "D. 7"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "HDLC supports an extended Control field format of 16 bits. How many bits are allocated for sequence numbers in the extended format, and what is the maximum window size?",
+        "choices": [
+            "A. 8 bits (window size 255)",
+            "B. 16 bits (window size 65535)",
+            "C. 7 bits (window size 127)",
+            "D. 10 bits (window size 1023)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "A primary station wants to initiate a connection in Asynchronous Balanced Mode. It transmits which specific U-frame command?",
+        "choices": [
+            "A. Set Asynchronous Balanced Mode (SABM)",
+            "B. Unnumbered Acknowledgment (UA)",
+            "C. Disconnect (DISC)",
+            "D. Request Initialization Mode (RIM)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "A station receives a SABM command and agrees to establish the connection. It formally replies with which U-frame?",
+        "choices": [
+            "A. Receive Ready (RR)",
+            "B. Set Normal Response Mode (SNRM)",
+            "C. Acknowledge (ACK)",
+            "D. Unnumbered Acknowledgment (UA)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "What technique does HDLC use to send acknowledgment sequence numbers N(R) inside an I-frame that is already carrying user data back to the sender?",
+        "choices": [
+            "A. Bit stuffing",
+            "B. Piggybacking",
+            "C. Multiplexing",
+            "D. Frame chaining"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "A station sends I-frames with N(S) = 2, 3, and 4. The receiver successfully gets all three frames. To acknowledge them and indicate it expects frame 5 next, it sends an RR frame with N(R) equal to:",
+        "choices": [
+            "A. 5",
+            "B. 4",
+            "C. 3",
+            "D. 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "In a Go-Back-N sliding window protocol over HDLC, if frame 3 is received with a CRC error, but frames 4 and 5 arrive perfectly, the receiver will discard frames 4 and 5 and send a REJ frame with N(R) =:",
+        "choices": [
+            "A. 5",
+            "B. 4",
+            "C. 3",
+            "D. 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "An HDLC sender is using a 3-bit sequence number (0-7). The sender has transmitted frames 0, 1, 2, 3, 4, 5, 6. Why can it not theoretically transmit frame 7 without receiving an acknowledgment?",
+        "choices": [
+            "A. The N(S) field cannot physically hold the value 7",
+            "B. The receiver buffer is strictly limited to 6 frames",
+            "C. The window size is 8, so it can actually send frame 7",
+            "D. A window size of 2^n - 1 dictates a maximum of 7 unacknowledged frames to avoid sequence number overlap ambiguity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 56,
+        "question": "The bit stuffing rule requires inserting a 0 after five consecutive 1s. If the payload is entirely composed of 1s (e.g., 100 consecutive 1s), what is the transmission overhead strictly due to bit stuffing?",
+        "choices": [
+            "A. 0%",
+            "B. exactly 10%",
+            "C. 20%",
+            "D. 50%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "Calculate the precise bit-stuffed sequence for the following raw payload data: 011011111100.",
+        "choices": [
+            "A. 0110111110100",
+            "B. 0110111110100",
+            "C. 0110111110010",
+            "D. 011011111100"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "A receiver gets the following bitstream (excluding flags): 10111110110. After destuffing is applied, what is the original payload?",
+        "choices": [
+            "A. 1011111110",
+            "B. 1011111010",
+            "C. 1011111100",
+            "D. 1011110110"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "In an HDLC frame, if the Information field is exactly 1500 bytes (12,000 bits), and the payload consists of alternating 1s and 0s (101010...), how many stuff bits will be inserted?",
+        "choices": [
+            "A. 150",
+            "B. 0",
+            "C. 2400",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "HDLC is bit-oriented, meaning the Information field can theoretically be of any length. However, in modern practical networking, most implementations require the frame to be:",
+        "choices": [
+            "A. A multiple of 16 bits",
+            "B. Exactly 64 bytes",
+            "C. Less than 255 bits",
+            "D. Octet-aligned (a strict multiple of 8 bits)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "Which protocol, originally developed by IBM, was the direct predecessor to HDLC and formed the foundational basis for its international standard?",
+        "choices": [
+            "A. BISYNC",
+            "B. DDCMP",
+            "C. SDLC (Synchronous Data Link Control)",
+            "D. PPP"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "Link Access Procedure, Balanced (LAPB) is a direct subset of HDLC used specifically in which legacy wide-area network technology?",
+        "choices": [
+            "A. X.25 Packet Switching Networks",
+            "B. ISDN",
+            "C. Frame Relay",
+            "D. ATM"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "Link Access Procedure on the D channel (LAPD) is an HDLC-derived bit-oriented protocol heavily utilized in which telecom technology?",
+        "choices": [
+            "A. Ethernet",
+            "B. X.25",
+            "C. ADSL",
+            "D. ISDN (Integrated Services Digital Network)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "What major protocol enhancement does the Point-to-Point Protocol (PPP) offer over basic HDLC when used on internet router links?",
+        "choices": [
+            "A. It provides analog-to-digital conversion natively",
+            "B. It includes a suite of Network Control Protocols (NCP) to multiplex multiple network layer protocols (like IP, IPX) over the same link",
+            "C. It operates in half-duplex mode only",
+            "D. It uses byte stuffing exclusively"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "Which PPP sub-protocol is strictly responsible for establishing, configuring, negotiating, and testing the data link connection?",
+        "choices": [
+            "A. NCP (Network Control Protocol)",
+            "B. LCP (Link Control Protocol)",
+            "C. IPCP (IP Control Protocol)",
+            "D. PAP (Password Authentication Protocol)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "In standard HDLC, the Address field is 8 bits long, allowing for 256 unique addresses. If the first bit of the Address field is 0, what does it signify in the extended addressing format?",
+        "choices": [
+            "A. It is a broadcast address",
+            "B. It is the final byte of the address",
+            "C. The address field continues into the next byte",
+            "D. It is a primary station address"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "To immediately broadcast an HDLC frame to all secondary stations on a multipoint link, the primary station sets the Address field to:",
+        "choices": [
+            "A. 11111111",
+            "B. 00000000",
+            "C. 01111110",
+            "D. 10101010"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "The HDLC FCS is typically a 16-bit CRC. The CCITT V.41 generator polynomial universally used for this is:",
+        "choices": [
+            "A. x^16 + x^15 + x^2 + 1",
+            "B. x^16 + x^12 + 1",
+            "C. x^16 + x^8 + 1",
+            "D. x^16 + x^12 + x^5 + 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "If an HDLC receiver calculates the CRC on an incoming frame (including the received FCS field) and there are absolutely no errors, the mathematical result of the polynomial division should be:",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. A specific non-zero constant residue (e.g., 0xF0B8 for CRC-16-CCITT)",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "In the HDLC Reject (REJ) frame, the N(R) field explicitly specifies:",
+        "choices": [
+            "A. The sequence number of the frame the receiver wants retransmitted",
+            "B. The sequence number of the last correctly received frame",
+            "C. The number of frames discarded",
+            "D. The sequence number of the frame that caused the CRC error"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "The P/F (Poll/Final) bit serves a dual purpose. If a primary station sends a command frame with the P bit set to 1, this strictly means:",
+        "choices": [
+            "A. The primary is finalizing the connection",
+            "B. The primary is polling the secondary to ascertain its status or demand an immediate response",
+            "C. The primary has encountered a fatal error",
+            "D. The frame contains payload data"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "When a secondary station receives a command with the P bit set to 1, it must respond. In its final response frame of that specific sequence, it sets the F bit to:",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. Alternating 1 and 0",
+            "D. The value of N(S)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "In Asynchronous Balanced Mode (ABM), since both stations are combined stations, how is the Address field mathematically utilized in command and response frames?",
+        "choices": [
+            "A. A command frame contains the address of the destination; a response frame contains the address of the responding station (the source)",
+            "B. The address field is completely ignored",
+            "C. It always contains the broadcast address",
+            "D. It contains the address of the network router"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "An HDLC U-frame contains a modifier field in its Control byte. How many total bits make up this modifier field, determining the specific U-frame command/response type?",
+        "choices": [
+            "A. 2 bits",
+            "B. 3 bits",
+            "C. 5 bits",
+            "D. 8 bits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "The Unnumbered Information (UI) frame is an HDLC U-frame used to send data. What is its key characteristic regarding flow control?",
+        "choices": [
+            "A. It uses an extended N(S)",
+            "B. It strictly requires a REJ if lost",
+            "C. It utilizes a 16-bit window",
+            "D. It is not tracked by sequence numbers and requires no acknowledgment at the link layer"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 76,
+        "question": "Which specific HDLC command is used by a station to report a procedural error or an unsupported command that cannot be corrected by simple retransmission?",
+        "choices": [
+            "A. REJ (Reject)",
+            "B. SREJ (Selective Reject)",
+            "C. FRMR (Frame Reject)",
+            "D. DISC (Disconnect)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "What happens at the hardware level if an HDLC frame contains less than 32 bits between the two delineating flags?",
+        "choices": [
+            "A. It is treated as an I-frame",
+            "B. It is considered an invalid frame (runt) and is automatically discarded by the receiver",
+            "C. It is treated as a U-frame",
+            "D. It generates an immediate software interrupt"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "The time elapsed between a station sending an I-frame and receiving the corresponding S-frame acknowledgment is mathematically crucial for tuning the:",
+        "choices": [
+            "A. Sliding window size (to keep the transmission \"pipe\" full)",
+            "B. Bit stuffing rate",
+            "C. Flag sequence length",
+            "D. CRC polynomial"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "Suppose an HDLC link operates at 1 Mbps with a one-way propagation delay of 10 ms. The frame size is exactly 1000 bits. What is the transmission time for one single frame?",
+        "choices": [
+            "A. 10 ms",
+            "B. 1 ms",
+            "C. 0.1 ms",
+            "D. 100 ms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "Using the data from the previous question (1 Mbps, 10 ms propagation, 1 ms transmission), what is the minimum sliding window size needed to achieve 100% link utilization? (Assume ACK transmission time is negligible).",
+        "choices": [
+            "A. 10 frames",
+            "B. 11 frames",
+            "C. 20 frames",
+            "D. 21 frames"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "In standard HDLC, if a station receives a frame with a CRC error, how does it formally notify the transmitter of the specific bit error?",
+        "choices": [
+            "A. By sending a FRMR immediately",
+            "B. By sending a REJ immediately",
+            "C. It doesn't; it silently discards the frame and relies on the transmitter's timeout mechanism or sends a REJ when a subsequent out-of-sequence frame arrives",
+            "D. By sending a DISC"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "The Point-to-Point Protocol (PPP) uses a byte-oriented version of HDLC framing for synchronous links. Which RFC famously standardized this HDLC-like framing for PPP?",
+        "choices": [
+            "A. RFC 1662",
+            "B. RFC 793",
+            "C. RFC 802",
+            "D. RFC 1918"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "Frame Relay, a packet-switching telecom technology, utilizes a streamlined version of HDLC known as LAPF. What major HDLC feature is deliberately omitted in Frame Relay core networks to massively increase switching speed?",
+        "choices": [
+            "A. Addressing",
+            "B. The Flag sequence",
+            "C. The FCS (Frame Check Sequence)",
+            "D. Link-layer flow control and error recovery (retransmissions)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 84,
+        "question": "Cisco routers use a proprietary variant of HDLC as the default encapsulation on serial links. How does Cisco HDLC (cHDLC) primarily differ from standard ISO HDLC?",
+        "choices": [
+            "A. It uses a 32-bit flag",
+            "B. It adds a 2-byte Protocol Type field after the Control field to support multiprotocol environments",
+            "C. It removes the Control field entirely",
+            "D. It does not use CRC calculations"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "In an HDLC frame, the Address and Control fields together are often logically referred to as the:",
+        "choices": [
+            "A. Frame Check Sequence",
+            "B. Frame Header",
+            "C. Protocol Identifier",
+            "D. Payload"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "If a primary station operating in NRM wants to send a command but does not require an immediate response from the secondary, it sets the Poll (P) bit to:",
+        "choices": [
+            "A. 1",
+            "B. The value of N(R)",
+            "C. 0",
+            "D. Alternating"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "To completely abort a frame transmission mid-way without completing it, an HDLC transmitter will send a specific sequence of bits. What is this exact sequence?",
+        "choices": [
+            "A. Seven to fifteen consecutive 1s",
+            "B. Five consecutive 1s",
+            "C. Sixteen consecutive 0s",
+            "D. The flag sequence 01111110"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "During bit stuffing, if the payload data inherently contains the binary sequence 0111110, what is the resulting transmitted sequence after stuffing logic is applied?",
+        "choices": [
+            "A. 0111110",
+            "B. 01111110",
+            "C. 011111010",
+            "D. 01111100"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "Destuffing at the receiver is efficiently implemented using a hardware component that counts consecutive 1s. This component is typically a:",
+        "choices": [
+            "A. Microprocessor",
+            "B. Demultiplexer",
+            "C. Shift register with simple combinatorial logic",
+            "D. Fourier transformer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "Why are the actual flag sequences (01111110) NOT bit-stuffed by the transmitter?",
+        "choices": [
+            "A. Because the stuffing logic is intentionally disabled while the flag is being generated or detected",
+            "B. Because they contain only six 1s, which is below the threshold",
+            "C. Because flags are always sent out-of-band on a separate wire",
+            "D. Because flags are parity checked separately"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "In a bit-oriented protocol, what specifically constitutes an \"idle\" channel state?",
+        "choices": [
+            "A. A continuous stream of 0s",
+            "B. Absence of voltage on the line",
+            "C. Alternating 1s and 0s",
+            "D. A continuous stream of 1s (usually 15 or more consecutive 1s)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "A Selective Reject (SREJ) frame is highly useful in environments with high propagation delays, such as satellite links, primarily because it:",
+        "choices": [
+            "A. Drops the connection entirely to save bandwidth",
+            "B. Avoids the highly inefficient retransmission of correctly received frames that followed the corrupted frame",
+            "C. Increases the CRC length for better security",
+            "D. Lowers the baud rate dynamically"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "In an HDLC frame, if the Information field contains exactly 100 bytes of data, and the standard Address, Control, and FCS fields are used, what is the total frame size in bytes (excluding flags)?",
+        "choices": [
+            "A. 104 bytes",
+            "B. 100 bytes",
+            "C. 106 bytes",
+            "D. 102 bytes"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "An HDLC I-frame is transmitted. The N(S) field is 5 and the N(R) field is 2. This frame implies that the station transmitting it:",
+        "choices": [
+            "A. Has received frames up to 5",
+            "B. Has received frames up to 2",
+            "C. Is sending frame number 5 and expecting to receive frame number 2 next",
+            "D. Is sending frame number 2 and expecting to receive frame number 5 next"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "Which of the following is mathematically true regarding the Address field in HDLC?",
+        "choices": [
+            "A. It is exactly 48 bits long like an Ethernet MAC address",
+            "B. It is not used in point-to-point links",
+            "C. It contains IP addresses",
+            "D. It can be extended to multiple bytes by setting the least significant bit of the first byte to 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "The basic data link mechanism utilized by HDLC to achieve high throughput over long distances without waiting for an ACK after every single frame is known as the:",
+        "choices": [
+            "A. Stop-and-Wait ARQ",
+            "B. Token Bucket",
+            "C. Sliding Window Protocol",
+            "D. Forward Error Correction"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 97,
+        "question": "If a long-distance link experiences extremely high bit error rates, which sliding window ARQ method (used within some HDLC variations) mathematically provides the most efficient throughput?",
+        "choices": [
+            "A. Go-Back-N",
+            "B. Selective Repeat (using SREJ)",
+            "C. Stop-and-Wait",
+            "D. Forward Error Correction"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "LAPB (Link Access Procedure, Balanced) ensures that frames are delivered strictly in sequence and error-free to the Network Layer of which historical protocol suite?",
+        "choices": [
+            "A. X.25",
+            "B. TCP/IP",
+            "C. IPX/SPX",
+            "D. DECnet"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "In an HDLC multipoint configuration, if the primary station sends an RR frame with the Poll (P) bit set to 1 to a specific secondary station, the primary is actively:",
+        "choices": [
+            "A. Acknowledging data from the secondary",
+            "B. Polling that secondary station to see if it has data to transmit",
+            "C. Disconnecting the secondary from the network",
+            "D. Requesting an SREJ"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 100,
+        "question": "Which fundamental architectural advantage do bit-oriented protocols like HDLC possess over legacy character-oriented protocols like BISYNC regarding payload content?",
+        "choices": [
+            "A. They do not use CRC",
+            "B. They require strict ASCII encoding",
+            "C. They are significantly slower and therefore less prone to jitter",
+            "D. Complete code transparency; the payload can be any arbitrary sequence of binary data without complex escaping routines"
+        ],
+        "correct_answer": "D"
+    }
+]

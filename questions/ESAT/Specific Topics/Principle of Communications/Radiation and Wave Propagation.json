@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "The fundamental ability of a radio receiver to isolate a desired signal while rejecting unwanted signals on adjacent frequency channels is formally known as its:",
+        "choices": [
+            "A. Selectivity",
+            "B. Sensitivity",
+            "C. Dynamic Range",
+            "D. Fidelity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "An AM receiver is tuned to receive a broadcast station at 1000 kHz. If the Intermediate Frequency (IF) is exactly 455 kHz and high-side injection is used, what is the image frequency?",
+        "choices": [
+            "A. 1455 kHz",
+            "B. 1910 kHz",
+            "C. 545 kHz",
+            "D. 2455 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "The physical phenomenon in a superheterodyne receiver where the Local Oscillator frequency fails to maintain the exact IF difference from the RF tuning circuit across the entire tuning band is strictly caused by:",
+        "choices": [
+            "A. Infinite Q-factor in the tuned circuits",
+            "B. Purely thermal noise",
+            "C. Unequal capacitance tracking in the ganged tuning capacitors",
+            "D. Shot noise in the mixer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "The Foster-Seeley discriminator is a classic circuit that accurately demodulates FM signals by mathematically converting:",
+        "choices": [
+            "A. Amplitude variations directly into phase variations",
+            "B. Intermediate frequencies into radio frequencies",
+            "C. Phase shifts into digital pulses",
+            "D. Frequency variations into amplitude variations"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "Calculate the shape factor of a receiver's IF filter if its 60-dB bandwidth is measured at 10 kHz and its 6-dB bandwidth is measured at 2 kHz.",
+        "choices": [
+            "A. 5",
+            "B. 0.2",
+            "C. 12",
+            "D. 8"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "The Third-Order Intercept Point (IP3) is a critical theoretical parameter used by engineers to strictly quantify a receiver's:",
+        "choices": [
+            "A. Signal-to-noise threshold",
+            "B. Linearity and immunity to intermodulation distortion",
+            "C. Maximum undistorted audio power",
+            "D. Image rejection capabilities"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "The primary purpose of a squelch circuit in a two-way communications receiver is to:",
+        "choices": [
+            "A. Automatically lock the local oscillator frequency",
+            "B. Limit the maximum RF signal amplitude",
+            "C. Mute the audio output when no RF carrier is present",
+            "D. Increase the audio volume for weak signals"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "For standard low-side injection in a superheterodyne receiver, the local oscillator frequency (fLO) is determined strictly by the mathematical equation:",
+        "choices": [
+            "A. fLO = fRF + fIF",
+            "B. fLO = fIF - fRF",
+            "C. fLO = fRF * fIF",
+            "D. fLO = fRF - fIF"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "In an AM envelope detector, if the modulation index is extremely high and the RC time constant is chosen to be too long, the detector fails to follow the fast-falling envelope. This specific distortion is called:",
+        "choices": [
+            "A. Diagonal clipping",
+            "B. Intermodulation distortion",
+            "C. Phase distortion",
+            "D. Harmonic clipping"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "In a Phase-Locked Loop (PLL) FM demodulator, the recovered baseband audio signal is explicitly extracted from the:",
+        "choices": [
+            "A. RF input of the phase detector",
+            "B. Output of the Loop Filter (VCO control voltage)",
+            "C. Output of the VCO itself",
+            "D. Reference crystal oscillator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "What is the standard propagation velocity of electromagnetic waves in a free space vacuum?",
+        "choices": [
+            "A. 3 x 10^5 m/s",
+            "B. 3 x 10^6 m/s",
+            "C. 3 x 10^8 m/s",
+            "D. 3 x 10^10 m/s"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "Calculate the approximate wavelength of a Very High Frequency (VHF) radio signal transmitting at exactly 150 MHz in free space.",
+        "choices": [
+            "A. 0.5 meters",
+            "B. 5 meters",
+            "C. 20 meters",
+            "D. 2 meters"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "What is the exact theoretical value of the characteristic impedance of free space?",
+        "choices": [
+            "A. 120 pi ohms",
+            "B. 50 ohms",
+            "C. 75 ohms",
+            "D. 300 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "The polarization of a transverse electromagnetic (TEM) wave is determined universally by the direction of its:",
+        "choices": [
+            "A. Magnetic field (H-field)",
+            "B. Electric field (E-field)",
+            "C. Poynting vector",
+            "D. Propagation path"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "If the Electric field (E) intensity of an EM wave in free space is measured at 10 V/m, what is the corresponding Magnetic field (H) intensity?",
+        "choices": [
+            "A. 10 mA/m",
+            "B. 377 mA/m",
+            "C. 26.5 mA/m",
+            "D. 3.77 A/m"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "Calculate the power density of an electromagnetic wave in free space if its electric field intensity is exactly 50 V/m.",
+        "choices": [
+            "A. 50.0 W/m^2",
+            "B. 13.2 W/m^2",
+            "C. 0.13 W/m^2",
+            "D. 6.63 W/m^2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "In a purely transverse electromagnetic (TEM) wave propagating in free space, the E-field and H-field vectors are geometrically separated by what exact angle?",
+        "choices": [
+            "A. 90 degrees",
+            "B. 0 degrees",
+            "C. 45 degrees",
+            "D. 180 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "If an EM wave propagates into a completely lossless medium where the relative permeability increases by a factor of 4 (while permittivity remains 1), the velocity of the wave will:",
+        "choices": [
+            "A. Double",
+            "B. Halve",
+            "C. Quadruple",
+            "D. Remain unchanged"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "True circular polarization is generated only when two orthogonal E-field components of equal magnitude possess a precise phase difference of:",
+        "choices": [
+            "A. 0 degrees",
+            "B. 45 degrees",
+            "C. 90 degrees",
+            "D. 180 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Standard commercial AM broadcasting globally utilizes which specific portion of the electromagnetic spectrum?",
+        "choices": [
+            "A. Low Frequency (LF)",
+            "B. High Frequency (HF)",
+            "C. Very High Frequency (VHF)",
+            "D. Medium Frequency (MF)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "Ground wave (surface wave) propagation is most effective and reliable at frequencies:",
+        "choices": [
+            "A. Below 2 MHz",
+            "B. Between 30 MHz and 300 MHz",
+            "C. Above 1 GHz",
+            "D. Between 10 MHz and 20 MHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "The maximum effective range of ground wave propagation is overwhelmingly dependent on the earth's:",
+        "choices": [
+            "A. Atmospheric pressure and temperature",
+            "B. Conductivity and relative permittivity",
+            "C. Magnetic field strength",
+            "D. Tropospheric humidity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "Ground wave propagation suffers from severe attenuation at high frequencies primarily because:",
+        "choices": [
+            "A. High frequencies reflect instantly off the ground",
+            "B. High frequencies are absorbed completely by the D layer",
+            "C. The earth acts as a lossy RC circuit, causing wave tilt and severe energy absorption",
+            "D. The wavelength is too long to couple with the surface"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "To prevent the conductive surface of the earth from electrically short-circuiting the E-field, ground waves must strictly be transmitted using:",
+        "choices": [
+            "A. Circular polarization",
+            "B. Horizontal polarization",
+            "C. Elliptical polarization",
+            "D. Vertical polarization"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "The absolute distance at which a ground wave's field strength drops below a usable threshold level is highly dependent on both the soil conductivity and the:",
+        "choices": [
+            "A. Transmitter power",
+            "B. Solar sunspot cycle",
+            "C. Meteor scatter activity",
+            "D. K-factor of the atmosphere"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "Wave tilt, a phenomenon heavily degrading ground wave propagation, is physically caused by:",
+        "choices": [
+            "A. The ionosphere bending the upper portion of the wavefront",
+            "B. The wavefront dissipating energy into the resistive earth, slowing the bottom edge",
+            "C. Refraction in the troposphere",
+            "D. Magnetic storms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "Which of the following natural geographical surfaces provides the absolute best propagation medium for ground waves due to its extremely high conductivity?",
+        "choices": [
+            "A. Dry desert sand",
+            "B. Rocky mountain terrain",
+            "C. Seawater",
+            "D. Fresh water lakes"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "If a ground wave transmission path suddenly transitions from traveling over seawater to traveling over dense, rocky terrain, the effective communication range will:",
+        "choices": [
+            "A. Remain perfectly constant",
+            "B. Increase slightly",
+            "C. Oscillate unpredictably",
+            "D. Decrease significantly"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "At Very Low Frequencies (VLF, e.g., 20 kHz), ground waves can successfully propagate over intercontinental distances primarily because:",
+        "choices": [
+            "A. The wavelength is so massive that earth attenuation is exceptionally low",
+            "B. The ionosphere perfectly reflects VLF",
+            "C. VLF utilizes line-of-sight ducting",
+            "D. Submarines act as passive repeaters"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "In standard radio engineering terminology, \"surface waves\" are practically synonymous with:",
+        "choices": [
+            "A. Ground waves",
+            "B. Sky waves",
+            "C. Space waves",
+            "D. Direct waves"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Space wave propagation, utilized heavily for VHF and UHF communications, is strictly limited in range by the:",
+        "choices": [
+            "A. Critical frequency",
+            "B. Maximum Usable Frequency (MUF)",
+            "C. Radio horizon",
+            "D. Skip distance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "The standard engineering formula used to approximate the radio horizon distance (d) in statute miles for an antenna of height (h) in feet is:",
+        "choices": [
+            "A. d = sqrt(h)",
+            "B. d = 2 * sqrt(h)",
+            "C. d = 4.12 * sqrt(h)",
+            "D. d = sqrt(2h)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "Two towers have antenna heights of 100 meters and 64 meters. Using the standard metric formula d = 4.12(sqrt(h1) + sqrt(h2)), calculate the maximum radio line-of-sight distance.",
+        "choices": [
+            "A. 74.16 km",
+            "B. 32.50 km",
+            "C. 67.56 km",
+            "D. 82.40 km"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "To account for standard atmospheric refraction which bends radio waves slightly over the curvature of the earth, the equivalent earth radius factor (K-factor) is traditionally taken as:",
+        "choices": [
+            "A. 1.0",
+            "B. 4/3",
+            "C. 0.5",
+            "D. 2.0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Space wave propagation fundamentally consists of two primary electromagnetic components traveling from the transmit to the receive antenna:",
+        "choices": [
+            "A. The sky wave and the surface wave",
+            "B. The incident wave and the refracted wave",
+            "C. The direct wave and the ground-reflected wave",
+            "D. The trapped wave and the scattered wave"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "If the direct space wave and the ground-reflected space wave arrive at the receiving antenna exactly 180 degrees out of phase with equal amplitudes, what occurs?",
+        "choices": [
+            "A. Signal amplification by 3 dB",
+            "B. A sudden shift in signal frequency",
+            "C. Polarization rotation",
+            "D. Complete phase cancellation and severe signal fading"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "Why is the theoretical radio horizon physically further away than the visual (optical) horizon?",
+        "choices": [
+            "A. Standard atmospheric refraction dynamically bends the radio waves back towards the earth",
+            "B. Radio waves penetrate the earth's crust",
+            "C. Optical waves travel slower than radio waves",
+            "D. The human eye is less sensitive than an antenna"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Calculate the approximate visual (optical) horizon in miles for an observer standing on a tower exactly 100 feet above flat ground. (Use d = 1.22 * sqrt(h)).",
+        "choices": [
+            "A. 10.0 miles",
+            "B. 12.2 miles",
+            "C. 14.1 miles",
+            "D. 20.0 miles"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "If an unusual weather pattern causes the atmospheric K-factor to drop to 0.5 (a condition known as sub-refraction), the effective radio horizon will:",
+        "choices": [
+            "A. Increase to infinity",
+            "B. Remain exactly the same as standard refraction",
+            "C. Become significantly shorter than the true optical horizon",
+            "D. Double its standard distance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "Radio frequencies operating strictly above 30 MHz (VHF, UHF, Microwave) predominantly rely on which primary type of wave propagation?",
+        "choices": [
+            "A. Sky wave",
+            "B. Ground wave",
+            "C. Surface wave",
+            "D. Space wave"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Sky wave propagation, which enables global shortwave communication, relies entirely on the reflection (strictly refraction) of radio waves by the:",
+        "choices": [
+            "A. Ionosphere",
+            "B. Troposphere",
+            "C. Stratosphere",
+            "D. Mesosphere"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "During normal daytime conditions, the intense ultraviolet radiation from the sun causes the ionosphere to separate into how many distinct primary layers?",
+        "choices": [
+            "A. Two (E and F)",
+            "B. Four (D, E, F1, F2)",
+            "C. Three (D, E, F)",
+            "D. Five (C, D, E, F1, F2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Which is the lowest layer of the ionosphere, forming only during the day, which heavily absorbs standard AM broadcast sky waves but vanishes at night?",
+        "choices": [
+            "A. F1 layer",
+            "B. E layer",
+            "C. D layer",
+            "D. F2 layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "Which specific ionospheric layer represents the highest region of ionization and is primarily responsible for reliable long-distance high-frequency (HF) nighttime communication?",
+        "choices": [
+            "A. D layer",
+            "B. E layer",
+            "C. F1 layer",
+            "D. F layer (the merged F1 and F2 layers)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "The sporadic-E layer can occasionally cause VHF signals to propagate over unexpectedly long distances. Its occurrence is generally characterized as:",
+        "choices": [
+            "A. Highly localized in patches and unpredictable in time",
+            "B. A daily event strictly at solar noon",
+            "C. Strictly confined to the winter solstice",
+            "D. Predictable entirely by the lunar cycle"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "The maximum electron ionization density of the critical F2 layer is most directly and scientifically correlated with:",
+        "choices": [
+            "A. The 11-year solar sunspot cycle",
+            "B. The 28-day lunar cycle",
+            "C. Global warming trends",
+            "D. The earth's rotational speed"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "The actual physical mechanism by which the ionosphere bends radio waves back toward the earth is not a hard reflection, but rather a continuous process of:",
+        "choices": [
+            "A. Diffraction",
+            "B. Scattering",
+            "C. Refraction",
+            "D. Absorption"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "As the frequency of an upward-traveling sky wave is progressively increased, the amount of bending (refraction) it experiences in the ionosphere:",
+        "choices": [
+            "A. Increases exponentially",
+            "B. Becomes completely unpredictable",
+            "C. Remains perfectly constant",
+            "D. Decreases"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "A radio wave launched perfectly vertically (at a 90-degree takeoff angle) will only be returned to earth if its operating frequency is strictly less than or equal to the:",
+        "choices": [
+            "A. Critical frequency",
+            "B. Maximum Usable Frequency (MUF)",
+            "C. Optimum Working Frequency (OWF)",
+            "D. Gyro frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "High-Frequency (HF) communication from 3 MHz to 30 MHz, which heavily exploits sky wave propagation, is universally referred to by the public as:",
+        "choices": [
+            "A. Microwave radio",
+            "B. Shortwave radio",
+            "C. Longwave radio",
+            "D. Citizens Band"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "The absolute highest frequency that will be returned to earth when transmitted perfectly straight up into the ionosphere is formally defined as the:",
+        "choices": [
+            "A. MUF",
+            "B. LUF",
+            "C. Critical frequency",
+            "D. FOT"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "The Maximum Usable Frequency (MUF) for a specific communication link is mathematically calculated from the critical frequency (fc) and the angle of incidence (theta) using the secant law:",
+        "choices": [
+            "A. MUF = fc * sin(theta)",
+            "B. MUF = fc * cos(theta)",
+            "C. MUF = fc * tan(theta)",
+            "D. MUF = fc / cos(theta)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "If the ionosphere's measured critical frequency is exactly 5 MHz and a radio wave strikes it at an angle of incidence of 60 degrees, calculate the MUF.",
+        "choices": [
+            "A. 10.0 MHz",
+            "B. 5.0 MHz",
+            "C. 2.5 MHz",
+            "D. 8.66 MHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "The geographical distance from a transmitter to the exact point where the very first sky wave returns to the earth's surface is known technically as the:",
+        "choices": [
+            "A. Radio horizon",
+            "B. Skip distance",
+            "C. Fresnel zone",
+            "D. Free space path"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "The specific \"dead\" region located between the outer limit of the reliable ground wave coverage and the exact point where the first sky wave returns is called the:",
+        "choices": [
+            "A. Fresnel zone",
+            "B. Tropospheric duct",
+            "C. Skip zone (or silent zone)",
+            "D. Twilight zone"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "To establish a highly reliable HF communication link that resists minor ionospheric fluctuations, engineers generally select the Optimum Working Frequency (OWF or FOT) to be what exact percentage of the MUF?",
+        "choices": [
+            "A. 50%",
+            "B. 100%",
+            "C. 15%",
+            "D. 85%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "If an HF transmitter operates at a frequency that is significantly higher than the calculated MUF for a specific path, the transmitted sky wave will:",
+        "choices": [
+            "A. Pierce completely through the ionosphere and escape into deep space",
+            "B. Reflect instantly back to the transmitter site",
+            "C. Scatter heavily, creating massive multipath",
+            "D. Travel purely as a ground wave"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "As a transmitting antenna's angle of radiation (takeoff angle) is lowered closer and closer toward the physical horizon, the corresponding skip distance will:",
+        "choices": [
+            "A. Remain constant",
+            "B. Increase significantly",
+            "C. Decrease to zero",
+            "D. Fluctuate wildly"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Calculate the critical frequency of an ionospheric layer if atmospheric sounding determines its maximum electron density (Nmax) is exactly 10^12 electrons per cubic meter. (Formula: fc = 9 * sqrt(Nmax)).",
+        "choices": [
+            "A. 3 MHz",
+            "B. 90 MHz",
+            "C. 9 MHz",
+            "D. 81 MHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "A \"multi-hop\" sky wave transmission successfully crosses oceans by relying on:",
+        "choices": [
+            "A. Bouncing signals off artificial satellites",
+            "B. Diffraction over massive mountain ranges",
+            "C. Scatter from tropospheric clouds",
+            "D. Successive reflections between the ionosphere and the earth's surface"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "If the calculated MUF for a 2000 km path is exactly 20 MHz, what is the most likely outcome of attempting to transmit to that location using a frequency of 25 MHz?",
+        "choices": [
+            "A. Complete loss of the signal into space",
+            "B. A massive increase in received signal strength",
+            "C. Heavy ground wave interference",
+            "D. The signal will arrive twice as fast"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "During the daily transition from day to night, what typically happens to the critical frequency of the F2 layer?",
+        "choices": [
+            "A. It increases because the sun is no longer interfering",
+            "B. It decreases because ion recombination severely reduces the overall electron density",
+            "C. It remains completely static",
+            "D. It shifts into the microwave spectrum"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "In ionospheric radio propagation, the Secant Law is the fundamental mathematical theorem used directly to calculate the:",
+        "choices": [
+            "A. Free Space Path Loss",
+            "B. Ground wave attenuation",
+            "C. Maximum Usable Frequency (MUF)",
+            "D. Skip zone distance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "If an ionospheric layer has a critical frequency of 6 MHz and a sky wave is launched with a takeoff angle of 30 degrees from the earth's surface (making the angle of incidence 60 degrees), what is the MUF?",
+        "choices": [
+            "A. 10.4 MHz",
+            "B. 6.0 MHz",
+            "C. 3.0 MHz",
+            "D. 12.0 MHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "The Appleton-Hartree equation formally defines the refractive index of a magnetized plasma such as the earth's ionosphere. Mathematically, this refractive index is strictly:",
+        "choices": [
+            "A. Less than 1 and inversely proportional to the square of the frequency",
+            "B. Greater than 1 and directly proportional to frequency",
+            "C. Exactly 1 for all radio frequencies",
+            "D. A complex number with a negative real part"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Tropospheric scatter (troposcatter) propagation is a specialized over-the-horizon communication method heavily utilized in which specific frequency bands?",
+        "choices": [
+            "A. VLF and LF",
+            "B. VHF and UHF",
+            "C. MF and HF",
+            "D. UHF and SHF (Microwaves)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "In a typical troposcatter link, the \"scattering volume\" high in the atmosphere is geometrically defined by the precise intersection of the:",
+        "choices": [
+            "A. E-field and H-field vectors",
+            "B. Ionospheric D and E layers",
+            "C. Transmitting and receiving antenna beamwidths",
+            "D. Skip zones"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Despite its reliability, a major engineering drawback of a troposcatter link is that it explicitly requires massive high-gain antennas and extremely high transmitter powers because:",
+        "choices": [
+            "A. The signal must punch through the ionosphere",
+            "B. It uses amplitude modulation exclusively",
+            "C. Ground wave interference is massive",
+            "D. The path loss due to the inefficient scattering process is astronomically high"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "Atmospheric duct propagation, also known as trapping, is an anomalous propagation mode that occurs almost exclusively in the:",
+        "choices": [
+            "A. Troposphere",
+            "B. Stratosphere",
+            "C. Mesosphere",
+            "D. Ionosphere"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "For a radio duct to physically form in the atmosphere, a specific meteorological condition must exist where the air temperature increases with altitude rather than decreasing. This is termed a:",
+        "choices": [
+            "A. Sub-refraction zone",
+            "B. Temperature inversion",
+            "C. Thermal runaway",
+            "D. Barometric depression"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "For an electromagnetic wave to be successfully trapped and guided within an atmospheric duct, its operating frequency must be above a critical threshold and its angle of incidence relative to the duct boundary must be:",
+        "choices": [
+            "A. Exactly 90 degrees",
+            "B. 45 degrees",
+            "C. Very grazing (almost perfectly parallel to the layer)",
+            "D. Directed straight down"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "When it occurs, ducting provides excellent, low-loss propagation that can cause VHF and UHF signals to travel over distances that:",
+        "choices": [
+            "A. Are strictly confined to the optical horizon",
+            "B. Are exactly equal to the skip distance",
+            "C. Reverse their direction back to the transmitter",
+            "D. Far exceed the normal radio horizon, sometimes crossing oceans"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "The meteorological condition of super-refraction, which is the prerequisite for atmospheric ducting, is mathematically indicated when the atmospheric refractivity gradient (dN/dh) is:",
+        "choices": [
+            "A. Highly negative (rapidly decreasing with height)",
+            "B. Exactly zero",
+            "C. Highly positive",
+            "D. Infinite"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "Which of the following environmental phenomena is LEAST likely to cause the atmospheric temperature inversions required for duct propagation?",
+        "choices": [
+            "A. Warm, dry air flowing over a cool ocean",
+            "B. Rapid nighttime cooling of the ground under clear skies",
+            "C. Subsidence of cold air masses",
+            "D. Intense solar flares"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "While highly dependent on specific equipment, the standard operational range of a commercial or military tropospheric scatter communication link is typically on the order of:",
+        "choices": [
+            "A. 1 to 5 miles",
+            "B. 10 to 50 miles",
+            "C. 100 to 500 miles",
+            "D. 5000 to 10000 miles"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "Free Space Path Loss (FSPL) mathematically represents the unavoidable attenuation of an electromagnetic wave strictly due to:",
+        "choices": [
+            "A. Absorption by oxygen and water vapor",
+            "B. Ionospheric scattering",
+            "C. Diffraction over obstacles",
+            "D. The natural expansion of the spherical wavefront as it travels through space"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "The fundamental engineering formula for calculating Free Space Path Loss (FSPL) in decibels, given the path length (d) in kilometers and the frequency (f) in MHz, is:",
+        "choices": [
+            "A. FSPL = 32.44 + 20log(d) + 20log(f)",
+            "B. FSPL = 36.6 + 20log(d) + 20log(f)",
+            "C. FSPL = 20log(d) + 10log(f)",
+            "D. FSPL = 92.4 + 20log(d) + 20log(f)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "Calculate the exact Free Space Path Loss (FSPL) for a radio link operating at a frequency of 300 MHz over a physical distance of 10 km.",
+        "choices": [
+            "A. 82.0 dB",
+            "B. 102.0 dB",
+            "C. 122.0 dB",
+            "D. 62.0 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "In purely free space conditions, if the distance between a transmitter and a receiver is perfectly doubled, the received signal power mathematically drops by exactly:",
+        "choices": [
+            "A. 3 dB",
+            "B. 10 dB",
+            "C. 6 dB",
+            "D. 12 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "Similarly, if the operating frequency of a radio link is exactly doubled while the path length remains unchanged, the theoretical Free Space Path Loss will:",
+        "choices": [
+            "A. Decrease by 6 dB",
+            "B. Increase by 3 dB",
+            "C. Remain completely unchanged",
+            "D. Increase by 6 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "A geostationary satellite communications link operates at a frequency of 12 GHz over a slant distance of 36,000 km. Calculate the approximate Free Space Path Loss (FSPL).",
+        "choices": [
+            "A. 205 dB",
+            "B. 195 dB",
+            "C. 150 dB",
+            "D. 250 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "Theoretical calculations of antenna gain and path loss are typically referenced against an \"isotropic\" antenna, which is defined strictly as a theoretical radiator that:",
+        "choices": [
+            "A. Emits energy exclusively in the horizontal plane",
+            "B. Radiates energy completely equally in all directions in 3D space",
+            "C. Has a purely resistive impedance of 50 ohms",
+            "D. Uses circular polarization exclusively"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "The Friis Transmission Equation is a fundamental formula used in link budgets that mathematically relates the received power strictly to the transmitted power, the path distance, the operating wavelength, and the:",
+        "choices": [
+            "A. Transmitter efficiency",
+            "B. Receiver noise figure",
+            "C. Antenna gains of both the transmitter and receiver",
+            "D. Atmospheric temperature"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "A transmitter outputs exactly 10 W (40 dBm). Both the transmitting and receiving antennas have a gain of 10 dBi. If the calculated FSPL is 100 dB, what is the received power?",
+        "choices": [
+            "A. -10 dBm",
+            "B. +10 dBm",
+            "C. -30 dBm",
+            "D. -40 dBm"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "In satellite and microwave engineering, the critical acronym EIRP stands for:",
+        "choices": [
+            "A. Effective Isotropic Radiated Power",
+            "B. Equivalent Incident Radio Power",
+            "C. Electromagnetic Interference Rejection Parameter",
+            "D. Evaluated Isotropic Radio Propagation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "A microwave transmitter outputs 50 W of RF power. It is connected to a parabolic dish antenna with a gain of 13 dBi. Assuming no transmission line losses, calculate the EIRP.",
+        "choices": [
+            "A. 500 Watts",
+            "B. 1000 Watts",
+            "C. 1500 Watts",
+            "D. 2000 Watts"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "A receiver requires an absolute minimum input power of -80 dBm. The path loss (FSPL) is 120 dB, and both the Tx and Rx antennas provide 15 dBi of gain. Calculate the minimum required transmitter power.",
+        "choices": [
+            "A. -50 dBm (10 nW)",
+            "B. 0 dBm (1 mW)",
+            "C. +10 dBm (10 mW)",
+            "D. +40 dBm (10 W)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "In standard Free Space Path Loss (FSPL) equation derivations, unless otherwise specified, the reference receiving antenna is mathematically assumed to possess a gain of 0 dBi, meaning it is an:",
+        "choices": [
+            "A. Ideal dipole",
+            "B. Infinitesimal loop",
+            "C. Horn antenna",
+            "D. Isotropic radiator"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "Calculate the Free Space Path Loss (FSPL) for a 1-mile path operating at exactly 1000 MHz. (Use the standard formula FSPL = 36.6 + 20log(d_miles) + 20log(f_MHz)).",
+        "choices": [
+            "A. 96.6 dB",
+            "B. 106.6 dB",
+            "C. 116.6 dB",
+            "D. 126.6 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Two identical receivers are placed at distances of 5 km and 15 km from a single omnidirectional transmitter. What is the absolute difference in received signal power purely due to the difference in distance?",
+        "choices": [
+            "A. 3.00 dB",
+            "B. 9.54 dB",
+            "C. 6.02 dB",
+            "D. 12.04 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "Rapid or slow fluctuations in received signal strength, caused by various dynamic atmospheric conditions or moving terrain effects, are broadly classified in radio engineering as:",
+        "choices": [
+            "A. Attenuation",
+            "B. Refraction",
+            "C. Fading",
+            "D. Dispersion"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "A specific, highly destructive type of fading caused by the transmitted signal arriving at the receiving antenna via two or more different paths with varying phase differences is known as:",
+        "choices": [
+            "A. Shadow fading",
+            "B. Absorption fading",
+            "C. Polarization fading",
+            "D. Multipath fading"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "Which complex statistical distribution is strictly utilized by engineers to model severe multipath fading in a completely Non-Line-Of-Sight (NLOS) heavily built-up urban environment?",
+        "choices": [
+            "A. Gaussian distribution",
+            "B. Poisson distribution",
+            "C. Rayleigh distribution",
+            "D. Rician distribution"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "Shadow fading, which occurs when large terrain features or buildings physically block the direct radio path, fluctuates slowly as the receiver moves. Thus, it is commonly referred to as:",
+        "choices": [
+            "A. Slow fading",
+            "B. Fast fading",
+            "C. Flat fading",
+            "D. Selective fading"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "Rician fading is a specific statistical distribution used to model multipath environments. It differs from Rayleigh fading primarily because the Rician model explicitly assumes the presence of:",
+        "choices": [
+            "A. Zero multipath reflections",
+            "B. Infinite bandwidth",
+            "C. A completely uniform noise floor",
+            "D. A strong, dominant Line-Of-Sight (LOS) path in addition to the scattered multipath components"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "To effectively mitigate the severe signal drops caused by multipath fading, digital communication systems frequently employ multiple physical antennas to receive independent signal paths. This specific technique is called:",
+        "choices": [
+            "A. Frequency diversity",
+            "B. Space diversity",
+            "C. Polarization diversity",
+            "D. Time diversity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "Frequency-selective fading severely distorts high-speed digital signals. It mathematically occurs strictly when the transmitted signal's bandwidth is:",
+        "choices": [
+            "A. Narrower than the channel bandwidth",
+            "B. Equal to the carrier frequency",
+            "C. Wider than the coherence bandwidth of the multipath channel",
+            "D. Exactly zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 98,
+        "question": "A complete \"deep fade\" in a multipath environment mathematically occurs when two reflected signals of exactly equal amplitude arrive at the receiving antenna:",
+        "choices": [
+            "A. 90 degrees out of phase",
+            "B. Perfectly in phase (0 degrees)",
+            "C. With identical polarizations",
+            "D. Exactly 180 degrees out of phase"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 99,
+        "question": "In a mobile communication system, the maximum Doppler shift (f_d) directly dictates the fading rate. If a vehicle drives at 100 km/h (27.78 m/s) straight toward a 900 MHz cell tower, calculate the maximum Doppler shift.",
+        "choices": [
+            "A. 83.3 Hz",
+            "B. 30.0 Hz",
+            "C. 150.5 Hz",
+            "D. 300.0 Hz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 100,
+        "question": "When encountering \"flat fading,\" where all frequencies in the signal bandwidth attenuate simultaneously without shape distortion, the most fundamental engineering countermeasure is to simply increase the:",
+        "choices": [
+            "A. Antenna height",
+            "B. Modulation index",
+            "C. Receiver bandwidth",
+            "D. Fade margin in the system link budget"
+        ],
+        "correct_answer": "D"
+    }
+]

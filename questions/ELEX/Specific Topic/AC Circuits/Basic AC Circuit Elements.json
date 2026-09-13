@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "Convert the complex impedance Z = 3 + j4 ohms to polar form.",
+        "choices": [
+            "A. 7<36.9 ohms",
+            "B. 5<53.1 ohms",
+            "C. 5<36.9 ohms",
+            "D. 7<53.1 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "The period of a sinusoidal wave is exactly 20 milliseconds. The fundamental frequency of this wave is approximately:",
+        "choices": [
+            "A. 20 Hz",
+            "B. 40 Hz",
+            "C. 50 Hz",
+            "D. 60 Hz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "A periodic voltage waveform consists of a 10V DC component and a 10V peak AC sinusoidal component: v(t) = 10 + 10 sin(wt). What is the exact RMS value of this combined waveform?",
+        "choices": [
+            "A. 12.25 V",
+            "B. 14.14 V",
+            "C. 10.0 V",
+            "D. 20.0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 4,
+        "question": "For a pure sine wave, the Peak Factor (Crest Factor) is mathematically evaluated as precisely:",
+        "choices": [
+            "A. 1.11",
+            "B. 0.707",
+            "C. 1.732",
+            "D. 1.414"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "Two sinusoidal waveforms are given: v(t) = 10 sin(wt + 30 deg) and i(t) = 5 cos(wt). What is the exact phase relationship?",
+        "choices": [
+            "A. i leads v by 30",
+            "B. v leads i by 60",
+            "C. i leads v by 60",
+            "D. v leads i by 30"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "The mathematical cube of the complex operator 'j' (i.e., j^3) is strictly equal to:",
+        "choices": [
+            "A. -j",
+            "B. j",
+            "C. 1",
+            "D. -1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "If a complex voltage V = 100<0 deg drops across an impedance, and the resulting current is I = 10<30 deg A, what is the exact apparent power (S = V*I_conjugate) in polar form?",
+        "choices": [
+            "A. 1000<30 VA",
+            "B. 1000<-30 VA",
+            "C. 1000<0 VA",
+            "D. 100<-30 VA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "In a purely resistive AC circuit, the mathematical relationship between the voltage and current phasors is that:",
+        "choices": [
+            "A. Voltage leads by 90 degrees",
+            "B. Current leads by 90 degrees",
+            "C. Voltage lags by 45 degrees",
+            "D. Voltage and current are in phase"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "Worded circuit: A pure 50-ohm resistor is connected to an AC source v(t) = 170 sin(377t). What is the peak current?",
+        "choices": [
+            "A. 3.40 A",
+            "B. 2.40 A",
+            "C. 4.80 A",
+            "D. 1.70 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "What is the theoretical real power factor of a purely resistive circuit?",
+        "choices": [
+            "A. 0",
+            "B. 0.5",
+            "C. 1.0",
+            "D. Infinite"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "The average real power dissipated in a purely resistive circuit is mathematically given by the formula:",
+        "choices": [
+            "A. Vm*Im",
+            "B. Vrms*Irms",
+            "C. Vm*Irms",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "Worded circuit: A 100-ohm purely resistive heater is powered by a 220V RMS, 60Hz supply. The instantaneous power waveform oscillates at what fundamental frequency?",
+        "choices": [
+            "A. 60 Hz",
+            "B. 30 Hz",
+            "C. 0 Hz",
+            "D. 120 Hz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "A phasor voltage V = 100<30 deg V is applied to a purely resistive element R = 10 ohms. The resulting current phasor I is:",
+        "choices": [
+            "A. 100<30 A",
+            "B. 10<-30 A",
+            "C. 10<30 A",
+            "D. 10<0 A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "Does the resistance of a perfectly ideal resistor mathematically change with the applied AC frequency?",
+        "choices": [
+            "A. Yes, directly",
+            "B. No, it remains constant",
+            "C. Yes, inversely",
+            "D. Yes, exponentially"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Worded circuit: Two identical 100-ohm resistors are connected in parallel across a 120V AC RMS source. What is the total real average power dissipated by the circuit?",
+        "choices": [
+            "A. 144 W",
+            "B. 72 W",
+            "C. 576 W",
+            "D. 288 W"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 16,
+        "question": "A purely resistive circuit has R = 10 ohms, and the current is i(t) = 5 sin(wt). What is the exact mathematical expression for the voltage v(t)?",
+        "choices": [
+            "A. 50 sin(wt)",
+            "B. 50 cos(wt)",
+            "C. 50 sin(wt+90)",
+            "D. 0.5 sin(wt)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "In a phasor diagram for a purely resistive AC circuit, the voltage and current phasors are geometrically:",
+        "choices": [
+            "A. Perpendicular",
+            "B. Collinear",
+            "C. Antiparallel",
+            "D. At 45 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "A 1 kW resistive heating element operates at 200V AC RMS. What is its exact internal resistance?",
+        "choices": [
+            "A. 20 ohms",
+            "B. 50 ohms",
+            "C. 40 ohms",
+            "D. 10 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "Worded circuit: A pure resistor dissipates 500W when connected to a 100V peak AC source. If the source is replaced with a 100V DC source, the new power dissipated by the resistor is:",
+        "choices": [
+            "A. 250 W",
+            "B. 500 W",
+            "C. 707 W",
+            "D. 1000 W"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 20,
+        "question": "A pure resistance of R = 50 ohms is subjected to a voltage v(t) = 141.4 sin(314t). Find the exact RMS current (Irms).",
+        "choices": [
+            "A. 2.828 A",
+            "B. 2 A",
+            "C. 1.414 A",
+            "D. 4 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "Which passive electrical element physically converts alternating electrical energy entirely into heat?",
+        "choices": [
+            "A. Inductor",
+            "B. Capacitor",
+            "C. Transformer",
+            "D. Resistor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 22,
+        "question": "Conductance G in an AC purely resistive circuit is the exact mathematical reciprocal of:",
+        "choices": [
+            "A. Reactance",
+            "B. Susceptance",
+            "C. Resistance",
+            "D. Impedance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "Worded circuit: A variable pure resistor is connected to a 10V RMS AC source. To draw exactly 200 mA peak current, the resistor must be tuned to:",
+        "choices": [
+            "A. 70.7 ohms",
+            "B. 50.0 ohms",
+            "C. 35.35 ohms",
+            "D. 141.4 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "In a purely resistive circuit, the reactive power Q is strictly mathematically equal to:",
+        "choices": [
+            "A. Equal to Real Power P",
+            "B. Zero",
+            "C. Infinite",
+            "D. Equal to Apparent Power S"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "A pure resistor has an RMS current I = 10<0 deg A and dissipates exactly P = 1000 W. What is the exact phasor voltage V?",
+        "choices": [
+            "A. 100<90 V",
+            "B. 10<0 V",
+            "C. 1000<0 V",
+            "D. 100<0 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 26,
+        "question": "In a purely inductive circuit, the phase relationship between voltage and current is:",
+        "choices": [
+            "A. Voltage leads current by 90 degrees",
+            "B. Current leads voltage by 90 degrees",
+            "C. Voltage and current are in phase",
+            "D. Voltage lags current by 180 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "The exact mathematical formula for inductive reactance XL is:",
+        "choices": [
+            "A. 1/(2*pi*f*L)",
+            "B. 2*pi*L/f",
+            "C. 2*pi*f*L",
+            "D. f*L/(2*pi)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Find the exact inductive reactance of a 10 mH coil operated at 60 Hz.",
+        "choices": [
+            "A. 37.7 ohms",
+            "B. 3.77 ohms",
+            "C. 0.377 ohms",
+            "D. 377 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "Worded circuit: A pure ideal inductor draws exactly 2A RMS from a 120V RMS, 50Hz AC source. What is its inductance?",
+        "choices": [
+            "A. 0.382 H",
+            "B. 0.159 H",
+            "C. 0.318 H",
+            "D. 0.191 H"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "A voltage v(t) = 100 sin(377t) is applied to an ideal inductor L = 0.5 H. The exact mathematical expression for i(t) is:",
+        "choices": [
+            "A. 0.53 sin(377t - 90)",
+            "B. 0.53 sin(377t + 90)",
+            "C. 1.88 sin(377t - 90)",
+            "D. 1.88 sin(377t + 90)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "In a purely inductive circuit, the average real power dissipated mathematically over one full cycle is:",
+        "choices": [
+            "A. Vrms * Irms",
+            "B. Vrms^2 / XL",
+            "C. Zero",
+            "D. Infinite"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "If the frequency of the AC source applied across a pure inductor is doubled, its inductive reactance will theoretically:",
+        "choices": [
+            "A. Halve",
+            "B. Double",
+            "C. Quadruple",
+            "D. Remain unchanged"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "Worded circuit: An ideal 2H inductor is connected to an unknown AC source. The measured current is 50 mA RMS, and the measured voltage is 31.4 V RMS. Determine the exact source frequency.",
+        "choices": [
+            "A. 60 Hz",
+            "B. 100 Hz",
+            "C. 400 Hz",
+            "D. 50 Hz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 34,
+        "question": "The standard SI unit of inductive reactance is the:",
+        "choices": [
+            "A. Ohm",
+            "B. Henry",
+            "C. Farad",
+            "D. Siemens"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "A phasor voltage V = 100<0 deg V is applied to a purely inductive reactance of j20 ohms. The resulting current phasor I is exactly:",
+        "choices": [
+            "A. 5<90 A",
+            "B. 5<-90 A",
+            "C. 5<0 A",
+            "D. 2000<90 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "Worded circuit: A pure inductance of 0.1H is in series with another pure inductance of 0.2H. This series combination is connected directly to a 120V RMS, 60Hz supply. What is the total reactive power (Q) drawn from the source?",
+        "choices": [
+            "A. 63.6 VAR",
+            "B. 254.6 VAR",
+            "C. 127.3 VAR",
+            "D. 318.3 VAR"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "The complex admittance (Y) of a purely ideal inductor is mathematically expressed as:",
+        "choices": [
+            "A. jwL",
+            "B. 1/(wL)",
+            "C. -wL",
+            "D. -j/(wL)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 38,
+        "question": "Worded circuit: An ideal inductor draws 10A peak current from a 60Hz AC source. If the source frequency drops to 30Hz while strictly maintaining the same peak voltage, the new peak current will be:",
+        "choices": [
+            "A. 20 A",
+            "B. 10 A",
+            "C. 5 A",
+            "D. 14.14 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "An alternating current i(t) = 2 cos(1000t) flows through a pure inductor L = 50 mH. Find the exact expression for the voltage v(t).",
+        "choices": [
+            "A. 100 cos(1000t - 90)",
+            "B. 100 cos(1000t + 90)",
+            "C. 100 sin(1000t)",
+            "D. 0.1 cos(1000t + 90)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "Inductive reactance physically represents the inductor's opposition strictly to:",
+        "choices": [
+            "A. Steady direct current",
+            "B. Changes in voltage",
+            "C. Alternating current",
+            "D. High temperatures"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "A 50Hz AC voltage v(t) = 311 sin(wt) is applied to a pure inductor. If the resulting RMS current is exactly 10A, what is L?",
+        "choices": [
+            "A. 100 mH",
+            "B. 31 mH",
+            "C. 50 mH",
+            "D. 70 mH"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 42,
+        "question": "Worded circuit: Two pure inductors, L1 = 40 mH and L2 = 60 mH, are connected in parallel across a 100V RMS, 400Hz source. Assuming absolutely no mutual coupling, what is the total RMS current supplied by the source?",
+        "choices": [
+            "A. 1.66 A",
+            "B. 0.83 A",
+            "C. 2.49 A",
+            "D. 0.99 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 43,
+        "question": "The strict mathematical relationship between voltage and current in an ideal inductor in the time domain is:",
+        "choices": [
+            "A. v = L * integral(i)dt",
+            "B. v = L * di/dt",
+            "C. i = L * dv/dt",
+            "D. v = i * L"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "What is the theoretical inductive reactance of a straight wire passing pure, unvarying DC current?",
+        "choices": [
+            "A. Infinite",
+            "B. Zero",
+            "C. 377 ohms",
+            "D. Highly capacitive"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "A sinusoidal voltage v(t) = Vm sin(wt) is applied to a pure inductor L. The peak instantaneous power absorbed by the inductor is mathematically:",
+        "choices": [
+            "A. Vm * Im",
+            "B. 0",
+            "C. Vrms * Irms / 2",
+            "D. Vrms * Irms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 46,
+        "question": "An ideal inductor has XL = 100 ohms at 50 Hz. At what exact frequency will its XL be 250 ohms?",
+        "choices": [
+            "A. 125 Hz",
+            "B. 100 Hz",
+            "C. 150 Hz",
+            "D. 250 Hz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "In phasor notation, the complex impedance of a pure inductor is written strictly as:",
+        "choices": [
+            "A. R + jXL",
+            "B. jXL",
+            "C. -jXL",
+            "D. XL < -90"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "Worded circuit: An unknown pure inductor is subjected to an AC voltage V = 120<30 deg. The measured current is I = 2<-60 deg",
+        "choices": [
+            "A. What is the complex impedance of the inductor?",
+            "A. -60 ohms",
+            "B. -j60 ohms",
+            "C. j60 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "A massive 5 H inductor is subjected to a standard 60 Hz AC source. Its inductive reactance is roughly:",
+        "choices": [
+            "A. 377 ohms",
+            "B. 754 ohms",
+            "C. 942 ohms",
+            "D. 1885 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "The current flowing through a purely inductive circuit:",
+        "choices": [
+            "A. Can change instantaneously",
+            "B. Lags the voltage by 180 degrees",
+            "C. Cannot change instantaneously",
+            "D. Leads the voltage by 90 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "Worded circuit: An ideal inductor has an inductive reactance of 50 ohms at an angular frequency of 400 rad/s. If a voltage v(t) = 100 sin(800t + 30 deg) V is applied, what is the exact expression for the current?",
+        "choices": [
+            "A. 2 sin(800t - 60 deg) A",
+            "B. 1 sin(800t - 60 deg) A",
+            "C. 1 sin(800t + 120 deg) A",
+            "D. 2 sin(800t + 120 deg) A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "An ideal inductor L = 150 mH is subjected to V = 24V RMS. Find the source frequency if the RMS current drawn is 500 mA.",
+        "choices": [
+            "A. 50.9 Hz",
+            "B. 60.0 Hz",
+            "C. 25.5 Hz",
+            "D. 101.8 Hz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "Magnetic field energy stored in an ideal inductor during the AC cycle is returned strictly to the source:",
+        "choices": [
+            "A. Never",
+            "B. Continuously",
+            "C. As heat",
+            "D. During the next half-cycle"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 54,
+        "question": "Worded circuit: A pure inductor of 10mH is connected to a square wave voltage source alternating between +10V and -10V with a period of 2ms. What is the exact peak-to-peak current ripple?",
+        "choices": [
+            "A. 0.5 A",
+            "B. 2.0 A",
+            "C. 1.0 A",
+            "D. 4.0 A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "What is the exact phase angle of the complex power (S) drawn by a purely inductive load?",
+        "choices": [
+            "A. 0 degrees",
+            "B. 90 degrees",
+            "C. -90 degrees",
+            "D. 180 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "Inductive reactance is directly mathematically proportional to the:",
+        "choices": [
+            "A. Capacitance",
+            "B. Voltage",
+            "C. Current",
+            "D. Frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "In a purely capacitive AC circuit, the theoretical phase relationship is:",
+        "choices": [
+            "A. Voltage leads current by 90 degrees",
+            "B. Current lags voltage by 90 degrees",
+            "C. Voltage and current are in phase",
+            "D. Current leads voltage by 90 degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "The strict mathematical formula for capacitive reactance XC is:",
+        "choices": [
+            "A. 2*pi*f*C",
+            "B. 1 / (2*pi*f*C)",
+            "C. C / (2*pi*f)",
+            "D. 2*pi / (f*C)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Find the exact capacitive reactance of a 10 uF capacitor operated at 60 Hz.",
+        "choices": [
+            "A. 265 ohms",
+            "B. 26.5 ohms",
+            "C. 377 ohms",
+            "D. 3.77 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "Worded circuit: A pure, ideal capacitor draws 1A RMS from a 120V RMS, 50Hz AC source. What is the exact capacitance?",
+        "choices": [
+            "A. 13.3 uF",
+            "B. 53.1 uF",
+            "C. 26.5 uF",
+            "D. 318 uF"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "A voltage v(t) = 150 sin(377t) is applied to an ideal capacitor C = 50 uF. What is the exact mathematical expression for i(t)?",
+        "choices": [
+            "A. 2.83 sin(377t - 90)",
+            "B. 2.83 sin(377t + 90)",
+            "C. 7.54 sin(377t + 90)",
+            "D. 7.54 sin(377t - 90)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "In a purely capacitive circuit, the average real power mathematically dissipated over one full cycle is:",
+        "choices": [
+            "A. Vrms * Irms",
+            "B. Vrms^2 / XC",
+            "C. Infinite",
+            "D. Zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 63,
+        "question": "If the frequency of the AC source applied across a pure capacitor is doubled, its capacitive reactance will theoretically:",
+        "choices": [
+            "A. Halve",
+            "B. Double",
+            "C. Quadruple",
+            "D. Remain unchanged"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "Worded circuit: An ideal 4.7 uF capacitor is connected to an AC source. The measured current is 20 mA RMS, and the measured voltage is 10 V RMS. Determine the exact source frequency.",
+        "choices": [
+            "A. 1354 Hz",
+            "B. 338 Hz",
+            "C. 677 Hz",
+            "D. 60 Hz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "The standard SI unit of capacitive reactance is the:",
+        "choices": [
+            "A. Farad",
+            "B. Ohm",
+            "C. Henry",
+            "D. Siemens"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "A phasor voltage V = 50<0 deg V is applied to a purely capacitive reactance of -j10 ohms. The resulting current phasor I is exactly:",
+        "choices": [
+            "A. 5<-90 A",
+            "B. 500<90 A",
+            "C. 5<0 A",
+            "D. 5<90 A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 67,
+        "question": "Worded circuit: A pure capacitance of 10 uF is in parallel with another pure capacitance of 15 uF. This parallel combination is connected directly to a 220V RMS, 60Hz supply. What is the total reactive power (Q) supplied by the source?",
+        "choices": [
+            "A. 456 VAR",
+            "B. 228 VAR",
+            "C. 114 VAR",
+            "D. 684 VAR"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "In phasor notation, the complex impedance of a pure capacitor is written strictly as:",
+        "choices": [
+            "A. R - jXC",
+            "B. jXC",
+            "C. -jXC",
+            "D. XC < 90"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "Worded circuit: An ideal capacitor draws 5A peak current from a 60Hz AC source. If the source frequency increases to 120Hz while strictly maintaining the same peak voltage, the new peak current will be:",
+        "choices": [
+            "A. 5 A",
+            "B. 10 A",
+            "C. 2.5 A",
+            "D. 20 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "An alternating voltage v(t) = 10 cos(500t) is applied across a pure 20 uF capacitor. Find the exact expression for the current i(t).",
+        "choices": [
+            "A. 0.1 cos(500t - 90)",
+            "B. 0.1 sin(500t)",
+            "C. 1.0 cos(500t + 90)",
+            "D. 0.1 cos(500t + 90)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 71,
+        "question": "Capacitive reactance physically limits the flow strictly of:",
+        "choices": [
+            "A. Direct current",
+            "B. Magnetic flux",
+            "C. Alternating current",
+            "D. Heat"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "A 50Hz AC voltage v(t) = 141.4 sin(wt) is applied to a pure capacitor. If the resulting RMS current is exactly 2A, what is C?",
+        "choices": [
+            "A. 100 uF",
+            "B. 63.7 uF",
+            "C. 31.8 uF",
+            "D. 127 uF"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "Worded circuit: Two pure capacitors, C1 = 20 uF and C2 = 30 uF, are connected in series across a 100V RMS, 400Hz source. What is the total RMS current supplied by the source?",
+        "choices": [
+            "A. 3.02 A",
+            "B. 12.5 A",
+            "C. 0.83 A",
+            "D. 1.51 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "The strict mathematical relationship between voltage and current in an ideal capacitor in the time domain is:",
+        "choices": [
+            "A. v = C * di/dt",
+            "B. v = i * C",
+            "C. i = (1/C) * dv/dt",
+            "D. i = C * dv/dt"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "What is the theoretical capacitive reactance of a pure capacitor passing continuous, unvarying DC current?",
+        "choices": [
+            "A. Zero",
+            "B. 377 ohms",
+            "C. Infinite",
+            "D. Highly inductive"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "A sinusoidal voltage v(t) = Vm sin(wt) is applied to a pure capacitor",
+        "choices": [
+            "C. The peak instantaneous power absorbed by the capacitor is mathematically:",
+            "A. Vm * Im",
+            "B. Vrms * Irms",
+            "C. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "An ideal capacitor has XC = 200 ohms at 50 Hz. At what exact frequency will its XC be 50 ohms?",
+        "choices": [
+            "A. 100 Hz",
+            "B. 150 Hz",
+            "C. 400 Hz",
+            "D. 200 Hz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "The complex admittance (Y) of a purely ideal capacitor is mathematically expressed as:",
+        "choices": [
+            "A. -j w C",
+            "B. j w C",
+            "C. 1 / (j w C)",
+            "D. w C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "Worded circuit: An unknown pure capacitor is subjected to an AC voltage V = 120<30 deg. The measured current is I = 2<120 deg",
+        "choices": [
+            "A. What is the complex impedance of the capacitor?",
+            "A. j60 ohms",
+            "B. -60 ohms",
+            "C. -j60 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "A 100 uF capacitor is subjected to a standard 60 Hz AC source. Its capacitive reactance is roughly:",
+        "choices": [
+            "A. 26.5 ohms",
+            "B. 377 ohms",
+            "C. 3.77 ohms",
+            "D. 265 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "The voltage across a purely capacitive circuit:",
+        "choices": [
+            "A. Can change instantaneously",
+            "B. Cannot change instantaneously",
+            "C. Lags the current by 180 degrees",
+            "D. Leads the current by 90 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "Worded circuit: An ideal capacitor has a capacitive reactance of 50 ohms at an angular frequency of 400 rad/s. If a voltage v(t) = 100 sin(800t + 30 deg) V is applied, what is the exact expression for the current?",
+        "choices": [
+            "A. 2 sin(800t + 120 deg) A",
+            "B. 2 sin(800t - 60 deg) A",
+            "C. 4 sin(800t - 60 deg) A",
+            "D. 4 sin(800t + 120 deg) A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "An ideal capacitor C = 10 uF is subjected to V = 24V RMS. Find the source frequency if the RMS current drawn is 150 mA.",
+        "choices": [
+            "A. 60 Hz",
+            "B. 100 Hz",
+            "C. 1 kHz",
+            "D. 400 Hz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "Electric field energy stored in an ideal capacitor during the AC cycle is returned strictly to the source:",
+        "choices": [
+            "A. Never",
+            "B. Continuously",
+            "C. During the next half-cycle",
+            "D. As heat"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "Worded circuit: A pure capacitor of 10 uF is connected to a triangular wave voltage source alternating between +10V and -10V with a period of 2ms. What is the exact peak current?",
+        "choices": [
+            "A. 0.1 A",
+            "B. 0.4 A",
+            "C. 0.05 A",
+            "D. 0.2 A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "What is the exact phase angle of the complex power (S) drawn by a purely capacitive load?",
+        "choices": [
+            "A. 90 degrees",
+            "B. 0 degrees",
+            "C. 180 degrees",
+            "D. -90 degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "Capacitive reactance is inversely mathematically proportional to the:",
+        "choices": [
+            "A. Resistance",
+            "B. Inductance",
+            "C. Voltage",
+            "D. Frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "Worded circuit: A 220V RMS, 60Hz source feeds a pure capacitor. If the voltage amplitude is halved and the frequency is doubled, the new RMS current will be:",
+        "choices": [
+            "A. The same as before",
+            "B. Twice the original",
+            "C. Half the original",
+            "D. Four times the original"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "Worded circuit: An unknown ideal component draws 5 A RMS from a 100V RMS, 50Hz source. When connected to a 100V RMS, 100Hz source, it draws 10 A RMS. The component is definitely a:",
+        "choices": [
+            "A. 50 ohm resistor",
+            "B. 159 uF capacitor",
+            "C. 159 mH inductor",
+            "D. 63.6 mH inductor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "At pure DC (0 Hz), an ideal capacitor acts strictly as a/an:",
+        "choices": [
+            "A. Short circuit",
+            "B. Resistor",
+            "C. Open circuit",
+            "D. Inductor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "Worded circuit: A 1 uF capacitor is connected directly to a 12V RMS, 1 kHz oscillator. Find the exact reactive power (Q) drawn by the capacitor.",
+        "choices": [
+            "A. 0.45 VAR",
+            "B. 9.0 VAR",
+            "C. 0.09 VAR",
+            "D. 0.9 VA"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "A capacitor and an inductor are tested at frequency f1. They draw the exact same magnitude of RMS current from the same voltage source. If the frequency is doubled to 2*f1, the mathematical ratio of the capacitor's current to the inductor's current (Ic/IL) will be exactly:",
+        "choices": [
+            "A. 1",
+            "B. 4",
+            "C. 2",
+            "D. 0.25"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "The susceptance (B) of a pure capacitor is mathematically given by:",
+        "choices": [
+            "A. 1 / XC",
+            "B. -1 / XC",
+            "C. -j / XC",
+            "D. XC / j"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "Worded circuit: A pure capacitor has XC = 10 ohms. It is connected across a voltage source v(t) = 50 sin(wt + 45 deg). The instantaneous current expression is exactly:",
+        "choices": [
+            "A. 5 sin(wt - 45 deg)",
+            "B. 5 cos(wt + 45 deg)",
+            "C. 5 sin(wt + 135 deg)",
+            "D. 5 cos(wt - 45 deg)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "Worded circuit: A 100 uF capacitor is fully charged to 50V DC. An AC voltage of v(t) = 10 sin(377t) is then superimposed on it in series. What is the AC RMS current flowing through the capacitor?",
+        "choices": [
+            "A. 0.377 A",
+            "B. 0.266 A",
+            "C. 2.66 A",
+            "D. 1.88 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "In a purely capacitive circuit, what is the theoretical real power factor?",
+        "choices": [
+            "A. 1.0",
+            "B. 0.707",
+            "C. Infinity",
+            "D. Zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "An ideal 50 uF capacitor operated at 60 Hz has an XC of 53 ohms. If connected to a 240V RMS AC supply, the peak current is approximately:",
+        "choices": [
+            "A. 6.4 A",
+            "B. 4.5 A",
+            "C. 3.2 A",
+            "D. 9.0 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "Two pure capacitors C1 and C2 are in series. If C1 = 2*C2, the AC voltage drop exactly across C1 compared to C2 is mathematically:",
+        "choices": [
+            "A. Twice as large",
+            "B. The same",
+            "C. Half as large",
+            "D. Four times as large"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "Which passive electrical component fundamentally opposes a change in voltage strictly across its own terminals?",
+        "choices": [
+            "A. Inductor",
+            "B. Capacitor",
+            "C. Resistor",
+            "D. Transformer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 100,
+        "question": "Worded circuit: A highly stable radio oscillator circuit requires a capacitive reactance of exactly 1000 ohms at 1 MHz. What standard capacitor value is closest to this requirement?",
+        "choices": [
+            "A. 1.6 nF",
+            "B. 16 pF",
+            "C. 160 pF",
+            "D. 160 nF"
+        ],
+        "correct_answer": "C"
+    }
+]

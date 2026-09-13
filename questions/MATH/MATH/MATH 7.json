@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "Under what condition is a discontinuity at x = c called 'essential'?",
+        "choices": [
+            "A. The limit exists but does not equal f(c)",
+            "B. Both one-sided limits exist and are equal but different from f(c)",
+            "C. The function is not defined at x = c",
+            "D. At least one of the one-sided limits does not exist or is infinite"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 2,
+        "question": "According to the Intermediate Value Theorem, if f is continuous on the closed interval [a,b] and u is a value strictly between f(a) and f(b), then there must exist at least one c in (a,b) such that:",
+        "choices": [
+            "A. f(c) = (f(a) + f(b)) / 2",
+            "B. f'(c) = [f(b) - f(a)] / (b - a)",
+            "C. f(c) = u",
+            "D. f'(c) = u"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "According to Rolle's Theorem, what is the key condition besides continuity on [a, b] and differentiability on (a, b) that guarantees f'(c) = 0 for some c in (a, b)?",
+        "choices": [
+            "A. f'(a) = f'(b)",
+            "B. f(a) = f(b)",
+            "C. f(b) = 0",
+            "D. f(a) = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 4,
+        "question": "Which of the following describes the geometric meaning of the derivative of f(x) at x = a?",
+        "choices": [
+            "A. The area under the curve of f from x = 0 to x = a",
+            "B. The slope of the normal line to the graph of f at x = a",
+            "C. The slope of the tangent line to the graph of f at x = a",
+            "D. The average value of the function f on [0, a]"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 5,
+        "question": "If f''(c) = 0 and f''(x) changes sign at x = c, then the point (c, f(c)) on the curve is a:",
+        "choices": [
+            "A. Local minimum",
+            "B. Point of inflection",
+            "C. Saddle point",
+            "D. Local maximum"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "What represents the reciprocal of the curvature of a curve at a given point?",
+        "choices": [
+            "A. Involute",
+            "B. Radius of curvature",
+            "C. Slope of normal",
+            "D. Evolute"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "The limit of a function f(x) as x approaches c is L if and only if:",
+        "choices": [
+            "A. The left-hand limit and right-hand limit both exist and are equal to L",
+            "B. The function is differentiable at x = c",
+            "C. f(c) is defined and equals L",
+            "D. At least one one-sided limit equals L"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "Which of the following functions exhibits a jump discontinuity?",
+        "choices": [
+            "A. The function f(x) = 1/x at x = 0",
+            "B. The function f(x) = (x^2 - 1)/(x - 1) at x = 1",
+            "C. The function f(x) = sin(1/x) at x = 0",
+            "D. The unit step function u(x) at x = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "According to the Mean Value Theorem for derivatives, if f is continuous on [a, b] and differentiable on (a, b), then there is at least one c in (a, b) such that:",
+        "choices": [
+            "A. f'(c) = [f(b) + f(a)] / 2",
+            "B. f(c) = [f(b) - f(a)] / (b - a)",
+            "C. f'(c) = [f(b) - f(a)] / (b - a)",
+            "D. f'(c) = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "Which theorem states that a continuous function on a closed interval must attain its absolute maximum and absolute minimum values?",
+        "choices": [
+            "A. Rolle's Theorem",
+            "B. Intermediate Value Theorem",
+            "C. Mean Value Theorem",
+            "D. Extreme Value Theorem"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "If a function f(x) is differentiable at x = c, which of the following MUST be true?",
+        "choices": [
+            "A. f(x) is analytic at x = c",
+            "B. f'(x) is continuous at x = c",
+            "C. f(x) is continuous at x = c",
+            "D. f''(x) exists at x = c"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "An improper integral of the first kind is characterized by:",
+        "choices": [
+            "A. A negative area under the curve",
+            "B. A non-differentiable integrand REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "C. An infinite discontinuity of the integrand within the interval",
+            "D. An infinite interval of integration"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "An improper integral of the second kind is characterized by:",
+        "choices": [
+            "A. The integrand having an infinite discontinuity at or between the limits of integration",
+            "B. One or both limits of integration being infinite",
+            "C. The integral being divergent",
+            "D. The integrand being a complex function"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "The Fundamental Theorem of Calculus, Part 1, defines the derivative of the integral function F(x) = integral from a to x of f(t) dt as:",
+        "choices": [
+            "A. F'(x) = f'(x)",
+            "B. F'(x) = f(x) - f(a)",
+            "C. F'(x) = integral from a to x of f'(t) dt",
+            "D. F'(x) = f(x)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 15,
+        "question": "According to the Leibniz Rule for differentiating under the integral sign, if the limits of integration are functions of x, the derivative involves:",
+        "choices": [
+            "A. Differentiating only the limits of integration",
+            "B. Evaluating the integrand at the average limit",
+            "C. Integrating the derivative of the integrand",
+            "D. Differentiating the integrand and applying the chain rule to the limits"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 16,
+        "question": "For a continuous function f(x) on [a, b], the average value of f is given by:",
+        "choices": [
+            "A. f((a+b)/2)",
+            "B. [1 / (b - a)] * integral from a to b of f(x) dx",
+            "C. integral from a to b of f(x) dx",
+            "D. [f(a) + f(b)] / 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 17,
+        "question": "The Trapezoidal Rule for numerical integration approximates the area under a curve using:",
+        "choices": [
+            "A. Second-degree polynomials (parabolic segments)",
+            "B. First-degree polynomials (linear segments)",
+            "C. Third-degree polynomials (cubic segments)",
+            "D. Zero-degree polynomials (constant segments)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "Simpson's 1/3 Rule for numerical integration requires the number of intervals, n, to be:",
+        "choices": [
+            "A. An odd integer",
+            "B. Any multiple of 3",
+            "C. An even integer",
+            "D. A prime number"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "The double integral of 1 dA over a region R in the xy-plane represents which of the following?",
+        "choices": [
+            "A. The volume under the region R",
+            "B. The moment of inertia of the region R",
+            "C. The area of the region R",
+            "D. The centroid of the region R"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "When changing variables in a double integral from Cartesian (x, y) to polar (r, theta) coordinates, the differential dA = dx dy is replaced by:",
+        "choices": [
+            "A. dr dtheta",
+            "B. r dr dtheta",
+            "C. 1/r dr dtheta",
+            "D. r^2 dr dtheta"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "The Jacobian of the transformation from Cartesian (x, y) to polar (r, theta) is:",
+        "choices": [
+            "A. 1/r",
+            "B. r^2",
+            "C. r",
+            "D. 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "For any twice-differentiable scalar field V, the curl of the gradient of V is always equal to:",
+        "choices": [
+            "A. The zero vector",
+            "B. The gradient of V",
+            "C. The divergence of V",
+            "D. The Laplacian of V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "For any twice-differentiable vector field A, the divergence of the curl of A is always equal to:",
+        "choices": [
+            "A. The Laplacian of A",
+            "B. The gradient of div A",
+            "C. The curl of A",
+            "D. Zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "A vector field F is called solenoidal if its:",
+        "choices": [
+            "A. Gradient is zero everywhere",
+            "B. Divergence is zero everywhere",
+            "C. Laplacian is zero everywhere",
+            "D. Curl is zero everywhere"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "A vector field F is called irrotational if its:",
+        "choices": [
+            "A. Curl is zero everywhere REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "B. Laplacian is zero everywhere",
+            "C. Gradient is zero everywhere",
+            "D. Divergence is zero everywhere"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "If a vector field F is conservative, it implies that:",
+        "choices": [
+            "A. The curl of F is non-zero",
+            "B. The divergence of F is zero",
+            "C. The field has only scalar components",
+            "D. The closed line integral of F dot dr around any closed loop is zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "Green's Theorem in the plane relates a line integral around a simple closed curve C to:",
+        "choices": [
+            "A. A volume charge density",
+            "B. A surface integral over a 3D surface",
+            "C. A double integral over the region bounded by C",
+            "D. A gradient of a scalar field"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "The Divergence Theorem (Gauss's Theorem) relates the closed surface integral of a vector field's flux to:",
+        "choices": [
+            "A. The line integral of the curl of the field",
+            "B. The volume integral of the divergence of the field over the enclosed region",
+            "C. The volume integral of the curl of the field",
+            "D. The surface integral of the gradient of the field"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "Stokes' Theorem relates the line integral of a vector field around a closed loop to:",
+        "choices": [
+            "A. The surface integral of the curl of the field over any surface bounded by the loop",
+            "B. The volume integral of the divergence of the field",
+            "C. The double integral of the gradient of the field",
+            "D. The closed surface integral of the field's flux"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "A complex function f(z) = u(x, y) + j v(x, y) is analytic in a domain if and only if u and v satisfy which equations?",
+        "choices": [
+            "A. Navier-Stokes equations",
+            "B. Euler-Lagrange equations",
+            "C. Cauchy-Riemann equations",
+            "D. Laplace equations"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "The Cauchy-Riemann equations in Cartesian coordinates are represented as:",
+        "choices": [
+            "A. du/dx = -dv/dy and du/dy = dv/dx",
+            "B. du/dx = -dv/dx and du/dy = dv/dy",
+            "C. du/dx = dv/dx and du/dy = -dv/dy",
+            "D. du/dx = dv/dy and du/dy = -dv/dx"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 32,
+        "question": "The real and imaginary parts of an analytic function f(z) = u + jv are both:",
+        "choices": [
+            "A. Harmonic functions",
+            "B. Bounded functions",
+            "C. Linear functions",
+            "D. Analytic functions"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "Cauchy's Integral Theorem states that if f(z) is analytic on and inside a simple closed contour C, then the closed contour integral of f(z) dz is:",
+        "choices": [
+            "A. 2 * pi * j * f(z0)",
+            "B. Zero",
+            "C. 2 * pi * j",
+            "D. The residue of f(z)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "According to Cauchy's Integral Formula, if f(z) is analytic inside and on a closed contour C, and z0 is a point inside C, the closed contour integral of f(z)/(z - z0) dz in the counter-clockwise direction is:",
+        "choices": [
+            "A. Zero",
+            "B. pi * j * f(z0)",
+            "C. 2 * pi * j * f(z0)",
+            "D. Residue of f(z0)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "If a complex function f(z) has a pole of order m at z = z0, the residue at z0 is calculated using which derivative of (z - z0)^m * f(z)?",
+        "choices": [
+            "A. The first derivative",
+            "B. The (m + 1)-th derivative",
+            "C. The (m - 1)-th derivative",
+            "D. The m-th derivative"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "What type of singularity does the function f(z) = e^(1/z) have at the point z = 0?",
+        "choices": [
+            "A. Removable singularity",
+            "B. Essential singularity",
+            "C. Pole of order 2",
+            "D. Simple pole"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "The Laurent series of a complex function f(z) about a singularity z0 converges in which type of region?",
+        "choices": [
+            "A. The entire complex plane",
+            "B. The upper half-plane",
+            "C. A circular disk",
+            "D. An annular region"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 38,
+        "question": "A differential equation is called linear if which of the following conditions is satisfied? REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+        "choices": [
+            "A. The independent variable appears only to the first power",
+            "B. The dependent variable and all its derivatives appear to the first power and are not multiplied together",
+            "C. It can be solved by separation of variables",
+            "D. All coefficients are constants"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "The Wronskian of a set of functions being non-zero on an interval implies that the functions are:",
+        "choices": [
+            "A. Linearly dependent",
+            "B. Continuous",
+            "C. Linearly independent",
+            "D. Orthogonal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "According to Abel's Identity, the Wronskian W(x) of two solutions to y'' + P(x)y' + Q(x)y = 0 satisfies which relationship?",
+        "choices": [
+            "A. W(x) = C * e^( - integral of Q(x) dx )",
+            "B. W(x) = C * e^( - integral of P(x) dx )",
+            "C. W(x) = C * e^( integral of P(x) dx )",
+            "D. W(x) = C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "The differential equation of the form dy/dx = P(x) + Q(x)y + R(x)y^2 is known as:",
+        "choices": [
+            "A. Riccati equation",
+            "B. Lagrange equation",
+            "C. Bernoulli equation",
+            "D. Clairaut equation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "The differential equation of the form y = x * y' + f(y') is known as:",
+        "choices": [
+            "A. Riccati equation",
+            "B. Clairaut equation",
+            "C. Bessel equation",
+            "D. Bernoulli equation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "In the Cauchy-Euler equation x^2 y'' + p x y' + q y = 0, what substitution is used to transform it into a linear equation with constant coefficients?",
+        "choices": [
+            "A. x = e^t",
+            "B. y = x^t",
+            "C. y = e^t",
+            "D. x = ln(t)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "Which of the following methods is used to find a particular solution when the non-homogeneous term is not of a form covered by undetermined coefficients?",
+        "choices": [
+            "A. Separation of variables",
+            "B. Variation of parameters",
+            "C. Power series method",
+            "D. Method of undetermined coefficients"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "Sturm-Liouville theory is primarily concerned with which of the following?",
+        "choices": [
+            "A. Stochastic differential equations",
+            "B. Eigenvalue problems of second-order self-adjoint linear differential equations",
+            "C. Numerical solutions of partial differential equations",
+            "D. First-order non-linear differential equations"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "The heat equation u_t = c^2 u_xx is classified as what type of partial differential equation?",
+        "choices": [
+            "A. Parabolic PDE",
+            "B. Elliptic PDE",
+            "C. Hyperbolic PDE",
+            "D. Laplacian PDE"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "The wave equation u_tt = c^2 u_xx is classified as what type of partial differential equation?",
+        "choices": [
+            "A. Parabolic PDE",
+            "B. Hyperbolic PDE",
+            "C. Elliptic PDE",
+            "D. Laplacian PDE"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "Laplace's equation u_xx + u_yy = 0 is classified as what type of partial differential equation?",
+        "choices": [
+            "A. Parabolic PDE",
+            "B. Elliptic PDE",
+            "C. Helmholtz PDE",
+            "D. Hyperbolic PDE"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "The kernel of the Laplace transform is represented by which of the following terms?",
+        "choices": [
+            "A. sin(wt)",
+            "B. e^(-j * omega * t)",
+            "C. e^(-st)",
+            "D. e^(st)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "The second shifting theorem of Laplace transforms states that L f(t - a) * u(t - a) is equal to:",
+        "choices": [
+            "A. e^(-as) * F(s)",
+            "B. e^(as) * F(s)",
+            "C. F(s - a)",
+            "D. F(s + a) REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "The Laplace transform of the derivative f'(t), assuming f(t) is continuous and of exponential order, is:",
+        "choices": [
+            "A. s * F(s) - f(0)",
+            "B. F(s)/s",
+            "C. s^2 * F(s) - s * f(0) - f'(0)",
+            "D. s * F(s)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "According to the Convolution Theorem for Laplace transforms, the inverse transform of F(s) * G(s) is:",
+        "choices": [
+            "A. The sum of f(t) and g(t) in the time domain",
+            "B. The derivative of f(t) * g(t)",
+            "C. The convolution of f(t) and g(t) in the time domain",
+            "D. The product of f(t) and g(t) in the time domain"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 53,
+        "question": "The Fourier series of an even function f(x) of period 2L contains:",
+        "choices": [
+            "A. Only cosine terms and possibly a constant term",
+            "B. Both sine and cosine terms",
+            "C. No constant term",
+            "D. Only sine terms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "The Fourier series of an odd function f(x) of period 2L contains:",
+        "choices": [
+            "A. Only a constant term",
+            "B. Both sine and cosine terms",
+            "C. Only cosine terms",
+            "D. Only sine terms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 55,
+        "question": "Parseval's Theorem in Fourier analysis establishes which of the following relations?",
+        "choices": [
+            "A. The time delay of a signal to its phase shift",
+            "B. The poles of a system to its stability",
+            "C. The sampling rate of a signal to its bandwidth",
+            "D. The average power of a periodic signal to its Fourier series coefficients"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 56,
+        "question": "The continuous-time Fourier transform of the unit impulse function delta(t) is:",
+        "choices": [
+            "A. 1",
+            "B. delta(omega)",
+            "C. 1 / (j * omega)",
+            "D. 2 * pi"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 57,
+        "question": "The continuous-time Fourier transform of the constant function x(t) = 1 is:",
+        "choices": [
+            "A. 1",
+            "B. 1 / (j * omega)",
+            "C. 2 * pi * delta(omega)",
+            "D. delta(omega)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "The Region of Convergence (ROC) of H(z) for a causal stable discrete-time LTI system must contain:",
+        "choices": [
+            "A. The unit circle",
+            "B. The origin",
+            "C. Only the region outside the unit circle",
+            "D. The entire z-plane"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "For a causal discrete-time signal, the Region of Convergence (ROC) of its Z-transform is generally:",
+        "choices": [
+            "A. The exterior of a circle of radius equal to the magnitude of the outermost pole",
+            "B. The interior of a circle",
+            "C. A circular ring",
+            "D. The entire z-plane"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "According to the Nyquist-Shannon sampling theorem, a continuous-time signal can be uniquely recovered if the sampling rate is:",
+        "choices": [
+            "A. Greater than twice the highest frequency component of the signal",
+            "B. Greater than the signal bandwidth",
+            "C. Less than twice the highest frequency component",
+            "D. Exactly equal to the highest frequency component"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "What phenomenon occurs when a continuous-time signal is sampled at a rate strictly below the Nyquist rate?",
+        "choices": [
+            "A. Aliasing",
+            "B. Quantization noise",
+            "C. Gibbs phenomenon",
+            "D. Phase distortion"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "Finite Impulse Response (FIR) filters are guaranteed to be stable primarily because:",
+        "choices": [
+            "A. They use feedback loops",
+            "B. They have exactly linear phase",
+            "C. They have no poles in the finite z-plane except at the origin",
+            "D. They have analog equivalents"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "The autocorrelation function of a wide-sense stationary (WSS) random process at lag zero represents which of the following?",
+        "choices": [
+            "A. The total average power of the process",
+            "B. The variance of the process",
+            "C. The mean value of the process REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "D. The standard deviation of the process"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "For any real wide-sense stationary (WSS) random process, the autocorrelation function R_xx(tau) has which of the following properties?",
+        "choices": [
+            "A. Even symmetry: R_xx(tau) = R_xx(-tau)",
+            "B. Odd symmetry: R_xx(tau) = -R_xx(-tau)",
+            "C. Maximum value at infinity",
+            "D. Zero value at lag zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "Under what condition is a square matrix A considered singular?",
+        "choices": [
+            "A. It has only real eigenvalues",
+            "B. Its determinant is zero",
+            "C. Its rank is equal to its dimension",
+            "D. It is equal to its transpose"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "What name is given to the sum of the diagonal elements of a square matrix A?",
+        "choices": [
+            "A. Wronskian of A",
+            "B. Rank of A",
+            "C. Determinant of A",
+            "D. Trace of A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 67,
+        "question": "According to the Cayley-Hamilton Theorem, every square matrix satisfies which of the following?",
+        "choices": [
+            "A. The orthogonality condition",
+            "B. The transpose condition",
+            "C. The identity matrix relation",
+            "D. Its own characteristic equation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 68,
+        "question": "A square matrix A is called orthogonal if it satisfies which of the following conditions?",
+        "choices": [
+            "A. A^T * A = I",
+            "B. A^T = A",
+            "C. A^2 = A",
+            "D. det(A) = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "A square matrix A is called involutory if it satisfies which of the following conditions?",
+        "choices": [
+            "A. A^2 = A",
+            "B. A^T = A",
+            "C. A^2 = I",
+            "D. det(A) = 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "A square matrix A is called idempotent if it satisfies which of the following conditions?",
+        "choices": [
+            "A. A^2 = I",
+            "B. det(A) = 0",
+            "C. A^2 = A",
+            "D. A^T = A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "The trace of a square matrix A is mathematically equivalent to:",
+        "choices": [
+            "A. The determinant of A",
+            "B. The rank of A",
+            "C. The product of its eigenvalues",
+            "D. The sum of its eigenvalues"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "The determinant of a square matrix A is mathematically equivalent to:",
+        "choices": [
+            "A. The rank of A",
+            "B. The product of its eigenvalues",
+            "C. The sum of its eigenvalues",
+            "D. The trace of A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "A system of n linear equations in n variables has a unique solution if and only if the coefficient matrix A:",
+        "choices": [
+            "A. Is non-singular",
+            "B. Is symmetric",
+            "C. Has rank less than n",
+            "D. Is singular"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "In hypothesis testing, a Type I error consists of which of the following actions?",
+        "choices": [
+            "A. Accepting the null hypothesis when it is false",
+            "B. Failing to reject the null hypothesis when it is false",
+            "C. Rejecting the null hypothesis when it is true",
+            "D. Rejecting the alternative hypothesis when it is true"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "In hypothesis testing, a Type II error consists of which of the following actions?",
+        "choices": [
+            "A. Failing to reject the alternative hypothesis when it is true",
+            "B. Accepting the alternative hypothesis when it is false",
+            "C. Failing to reject the null hypothesis when it is false",
+            "D. Rejecting the null hypothesis when it is true"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "The probability of committing a Type I error in hypothesis testing is also known as:",
+        "choices": [
+            "A. Power of the test",
+            "B. Confidence level",
+            "C. Significance level",
+            "D. Margin of error REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "The probability of rejecting a false null hypothesis in statistical analysis is known as:",
+        "choices": [
+            "A. Power of the test",
+            "B. Significance level",
+            "C. Confidence level",
+            "D. Type II error probability"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "If a statistical distribution of data is skewed to the right, which of the following relationships holds?",
+        "choices": [
+            "A. Mean is equal to median",
+            "B. Mode is greater than mean",
+            "C. Mean is greater than median",
+            "D. Median is greater than mean"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "In the design of experiments, what is the term for a variable that is changed intentionally to observe its effect on the response variable?",
+        "choices": [
+            "A. Block",
+            "B. Confounder",
+            "C. Replicate",
+            "D. Factor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "In experimental design, what is the primary purpose of blocking?",
+        "choices": [
+            "A. To increase random error",
+            "B. To control known sources of nuisance variability",
+            "C. To reduce the number of replicates to zero",
+            "D. To create more treatment combinations"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "In experimental design, what does the term 'replication' refer to?",
+        "choices": [
+            "A. Using a control group",
+            "B. Repeating the treatment combinations on multiple experimental units",
+            "C. Performing the experiment in different locations",
+            "D. Copying the results of a previous study"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "Which statistical method is used to compare the means of more than two groups simultaneously?",
+        "choices": [
+            "A. Chi-square test",
+            "B. Linear regression",
+            "C. t-test",
+            "D. ANOVA (Analysis of Variance)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "The Pearson correlation coefficient r between two continuous variables satisfies which of the following inequalities?",
+        "choices": [
+            "A. 0 <= r <= 1",
+            "B. r >= 1",
+            "C. -infinity < r < infinity",
+            "D. -1 <= r <= 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 84,
+        "question": "A system is stable in the sense of Bounded-Input Bounded-Output (BIBO) if and only if its impulse response h(t) is:",
+        "choices": [
+            "A. Differentiable",
+            "B. Symmetric",
+            "C. Strictly positive",
+            "D. Absolutely integrable"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "For a second-order control system, if the damping ratio is equal to 1, the transient response is:",
+        "choices": [
+            "A. Underdamped",
+            "B. Overdamped",
+            "C. Undamped",
+            "D. Critically damped"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "For a second-order control system, if the damping ratio is between 0 and 1, the transient response is:",
+        "choices": [
+            "A. Undamped",
+            "B. Overdamped",
+            "C. Underdamped",
+            "D. Critically damped"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "The steady-state error of a system to a unit step input is zero if the system type is at least:",
+        "choices": [
+            "A. Type 3",
+            "B. Type 2",
+            "C. Type 0",
+            "D. Type 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "The Routh-Hurwitz criterion determines the stability of a linear system by examining:",
+        "choices": [
+            "A. The magnitude crossover frequency on the Bode plot",
+            "B. The closed-loop zeros",
+            "C. The eigenvalues of the input matrix",
+            "D. The sign changes in the first column of the Routh array"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "In a Bode plot, the frequency at which the open-loop phase angle is -180 degrees is called the:",
+        "choices": [
+            "A. Bandwidth frequency",
+            "B. Resonant frequency",
+            "C. Gain crossover frequency",
+            "D. Phase crossover frequency REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "In a Bode plot, the frequency at which the open-loop gain is 0 dB is called the:",
+        "choices": [
+            "A. Phase crossover frequency",
+            "B. Natural frequency",
+            "C. Gain crossover frequency",
+            "D. Corner frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "In state-space representation of a system, which matrix determines the system dynamics and stability?",
+        "choices": [
+            "A. System matrix A",
+            "B. Output matrix C",
+            "C. Input matrix B",
+            "D. Transmission matrix D"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "In set theory, De Morgan's Law states that the complement of the union of two sets A and B is equal to:",
+        "choices": [
+            "A. The intersection of the complements of A and B",
+            "B. The difference of the complements of A and B",
+            "C. The union of the complements of A and B",
+            "D. The symmetric difference of A and B"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 93,
+        "question": "The Cartesian product of sets A and B, denoted by A x B, is defined as:",
+        "choices": [
+            "A. The set of all ordered pairs (a, b) where a is in A and b is in B",
+            "B. The set of all functions mapping A to B",
+            "C. The set of all common elements of A and B",
+            "D. The set of all elements in either A or B"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "In boolean algebra, which law states that A + A * B is equal to A?",
+        "choices": [
+            "A. Demorgan's Law",
+            "B. Distributive Law",
+            "C. Idempotent Law",
+            "D. Absorption Law"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 95,
+        "question": "A logical proposition that is always true under any truth value assignment to its variables is called a:",
+        "choices": [
+            "A. Fallacy",
+            "B. Syllogism",
+            "C. Tautology",
+            "D. Contradiction"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "In boolean algebra, the intersection of any set A with its complement is always:",
+        "choices": [
+            "A. Set A",
+            "B. The complement of A",
+            "C. The universal set",
+            "D. The null set"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "If a set S has exactly n elements, the power set of S contains how many elements?",
+        "choices": [
+            "A. 2n",
+            "B. 2^n",
+            "C. n^2",
+            "D. n!"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "In digital logic, which logic gate acts as a universal gate, meaning any boolean expression can be realized using only this type of gate?",
+        "choices": [
+            "A. AND gate",
+            "B. NAND gate",
+            "C. XOR gate",
+            "D. OR gate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "In digital logic, which logic gate acts as a universal gate besides NAND?",
+        "choices": [
+            "A. AND gate",
+            "B. NOR gate",
+            "C. OR gate",
+            "D. XOR gate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 100,
+        "question": "What represents the number of elements of a power set of a set with 3 elements?",
+        "choices": [
+            "A. 6",
+            "B. 8",
+            "C. 3",
+            "D. 9 REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "B"
+    }
+]

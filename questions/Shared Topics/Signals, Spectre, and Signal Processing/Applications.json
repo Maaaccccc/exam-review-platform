@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 2,
+        "question": "Given the Z-transform X(z) = 1 / (1 - 0.5z^(-1)) with ROC",
+        "choices": [
+            "A. z",
+            "B. > 0.5, the corresponding time-domain sequence x[n] is:",
+            "C. (0.5)^n u[-n]",
+            "D. (0.5)^n u[n]"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 3,
+        "question": "According to the Initial Value Theorem, if x[n] is a causal sequence, its initial value x[0] can be evaluated by taking the limit of X(z) as z approaches:",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. infinity",
+            "D. -1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "The time-reversal property states that if sequence x[n] has a Z-transform X(z), then the time-reversed sequence x[-n] has the Z-transform:",
+        "choices": [
+            "A. -X(z)",
+            "B. X(-z)",
+            "C. 1 / X(z)",
+            "D. X(z^(-1))"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "According to the Final Value Theorem, the steady-state value of x[n] as n approaches infinity is equal to the limit as z approaches 1 of:",
+        "choices": [
+            "A. (1 - z^(-1)) X(z)",
+            "B. z X(z)",
+            "C. (z - 1) X(z)",
+            "D. X(z) / (1 - z^(-1))"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "For a discrete-time LTI system to be simultaneously strictly causal and absolutely stable, all poles of its transfer function H(z) must be located:",
+        "choices": [
+            "A. On the unit circle",
+            "B. Strictly inside the unit circle",
+            "C. Strictly outside the unit circle",
+            "D. On the imaginary axis"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "When mapping from the continuous-time s-plane to the discrete-time z-plane using z = e^(sT), the entire jw-axis of the s-plane maps perfectly onto the:",
+        "choices": [
+            "A. Real axis",
+            "B. Origin",
+            "C. Unit circle (",
+            "D. z"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 8,
+        "question": "In the power series expansion (long division) method for finding the inverse Z-transform of a causal sequence, the polynomials must be arranged in:",
+        "choices": [
+            "A. Ascending powers of z",
+            "B. Descending powers of z",
+            "C. Mixed powers of z",
+            "D. Descending powers of z^(-1)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "The component of a system's response that is due entirely to the initial conditions with zero input is called the:",
+        "choices": [
+            "A. Natural response",
+            "B. Forced response",
+            "C. Steady-state response",
+            "D. Step response"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "The forced response of a linear constant-coefficient difference equation (LCCDE) depends exclusively on the:",
+        "choices": [
+            "A. Initial conditions",
+            "B. Applied input signal",
+            "C. System's characteristic roots",
+            "D. Unbounded past values"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "The total response of a discrete-time LTI system described by a difference equation is the linear superposition of the:",
+        "choices": [
+            "A. Transient and steady-state responses",
+            "B. Zero-input and zero-state responses",
+            "C. Natural and forced responses",
+            "D. Both B and C are correct conceptual equivalents"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "Which of the following represents the characteristic equation of the LCCDE y[n] - 0.7y[n-1] + 0.1y[n-2] = x[n]?",
+        "choices": [
+            "A. r^2 + 0.7r + 0.1 = 0",
+            "B. r^2 - 0.7r - 0.1 = 0",
+            "C. r - 0.7 + 0.1r^(-1) = 0",
+            "D. r^2 - 0.7r + 0.1 = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "When realizing an Nth-order IIR filter, the Direct Form I structure compared to Direct Form II strictly requires:",
+        "choices": [
+            "A. Double the number of delay elements",
+            "B. Half the number of delay elements",
+            "C. The same number of delay elements",
+            "D. Fewer multipliers"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Which standard block diagram realization is canonically recognized as being memory-efficient by sharing delay elements for both poles and zeros?",
+        "choices": [
+            "A. Direct Form I",
+            "B. Direct Form II",
+            "C. Transposed Form I",
+            "D. Cascade Form"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Find the pole of the discrete-time system described by the difference equation y[n] - 0.5y[n-1] = x[n].",
+        "choices": [
+            "A. z = 1",
+            "B. z = -0.5",
+            "C. z = 0.5",
+            "D. z = 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "In a block diagram representing a difference equation, an adder block fundamentally performs which mathematical operation?",
+        "choices": [
+            "A. Multiplication in the z-domain",
+            "B. Delaying the signal",
+            "C. Integration",
+            "D. Linear summation of sequences"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "A Linear Constant-Coefficient Difference Equation (LCCDE) mathematically models which specific type of digital system?",
+        "choices": [
+            "A. Linear Time-Invariant (LTI) system",
+            "B. Non-linear Time-Varying system",
+            "C. Continuous-time analog filter",
+            "D. Adaptive filter system"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "The homogeneous solution of a difference equation directly dictates the system's:",
+        "choices": [
+            "A. Transient (natural) behavior",
+            "B. Steady-state gain",
+            "C. Frequency response",
+            "D. Forced response"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "For an Nth-order IIR system with both poles and zeros, how many delay elements (z^-1 blocks) are required in a standard Direct Form II realization?",
+        "choices": [
+            "A. 2N",
+            "B. N^2",
+            "C. N",
+            "D. N + 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "In a standard discrete-time block diagram, a branch with a simple numerical gain K represents a:",
+        "choices": [
+            "A. Delay unit",
+            "B. Summation node",
+            "C. Derivative function",
+            "D. Constant multiplier"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "Find the particular solution (steady-state forced response) of y[n] - y[n-1] = 0 for a unit step input x[n] = u[n].",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. -1",
+            "D. Cannot be determined"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "By applying the transposition theorem to a digital filter flow graph, the resulting transposed structure will have:",
+        "choices": [
+            "A. Reversed branch directions and interchanged input/output nodes",
+            "B. The same transfer function as the original structure",
+            "C. Identical system characteristics",
+            "D. All of the above"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "The linear convolution of an input sequence x[n] and the system impulse response h[n] is mathematically equivalent to solving the corresponding:",
+        "choices": [
+            "A. Differential equation",
+            "B. Z-transform directly",
+            "C. LCCDE under zero initial conditions (zero-state)",
+            "D. Fourier series expansion"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "If the initial conditions of a discrete-time LTI system are completely zero, the system's total response is entirely identical to its:",
+        "choices": [
+            "A. Homogeneous solution",
+            "B. Zero-input response",
+            "C. Natural response",
+            "D. Zero-state (forced) response"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "How many total delay elements are strictly required to implement a 3rd-order IIR filter using the Direct Form I realization?",
+        "choices": [
+            "A. 6",
+            "B. 3",
+            "C. 4",
+            "D. 9"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "Determine the particular (forced) solution form for the difference equation y[n] - 0.5y[n-1] = 3 when x[n] is a constant DC input.",
+        "choices": [
+            "A. K * (0.5)^n",
+            "B. K (a constant)",
+            "C. K * n",
+            "D. K * z^-1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "What is the Z-transform of the advanced sequence y[n+2] under zero initial conditions?",
+        "choices": [
+            "A. z^(-2) Y(z)",
+            "B. z^2 Y(z) - z^2 y[0] - z y[1]",
+            "C. z^2 Y(z)",
+            "D. z Y(z) + y[0]"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "In typical digital signal processing flow graphs, a unit delay element is denoted algebraically by the symbol:",
+        "choices": [
+            "A. s",
+            "B. 1/s",
+            "C. z",
+            "D. z^(-1)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "In the Direct Form I block diagram of an IIR filter, the system is structured as a cascade of:",
+        "choices": [
+            "A. The all-zero (FIR) section followed by the all-pole (IIR) section",
+            "B. The all-pole section followed by the all-zero section",
+            "C. Parallel FIR and IIR sections",
+            "D. Feedback loops preceding feedforward loops exclusively"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "If the characteristic equation of an LCCDE yields repeated real roots at r = a, the form of the corresponding homogeneous solution is:",
+        "choices": [
+            "A. C1 a^n + C2 a^(-n)",
+            "B. (C1 + C2 n) a^n",
+            "C. C1 cos(an) + C2 sin(an)",
+            "D. C1 a^n + C2 b^n"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "The zero-input response of a system is strictly equal to the system's total response when the:",
+        "choices": [
+            "A. System is unstable",
+            "B. Initial conditions are zero",
+            "C. Applied input signal is zero",
+            "D. Impulse response is finite"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "The zero-state response of an LTI system inherently assumes that:",
+        "choices": [
+            "A. The input is zero",
+            "B. The system is memoryless",
+            "C. The system is non-causal",
+            "D. All initial conditions are exactly zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "Determine the steady-state forced response of y[n] = 0.5y[n-1] + x[n] to a unit step input x[n] = u[n].",
+        "choices": [
+            "A. 2 u[n]",
+            "B. 0.5 u[n]",
+            "C. 1.5 u[n]",
+            "D. u[n]"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "The acronym LTI, which forms the basis for systems modeled by difference equations, stands for:",
+        "choices": [
+            "A. Linear Time-Independent",
+            "B. Linear Time-Invariant",
+            "C. Logical Threshold Interface",
+            "D. Linear Transient Integration"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "In a Direct Form II network, the central vertical spine of delay elements serves to store the values of an intermediate variable. This specific variable is classically designated as:",
+        "choices": [
+            "A. x[n]",
+            "B. y[n]",
+            "C. w[n]",
+            "D. h[n]"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "The equivalence of the overall transfer function H(z) between Direct Form I and Direct Form II realizations relies fundamentally on which mathematical property of LTI systems?",
+        "choices": [
+            "A. Distributive property",
+            "B. Additive property",
+            "C. Linearity",
+            "D. Commutative property of convolution"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "A Linear Constant-Coefficient Difference Equation explicitly restricts the system parameters (multipliers) such that they:",
+        "choices": [
+            "A. Cannot vary with time (index n)",
+            "B. Must be purely integers",
+            "C. Must be positive numbers",
+            "D. Cannot be fractions"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "While theoretically identical, Direct Form I and Direct Form II differ practically in digital implementations primarily regarding their:",
+        "choices": [
+            "A. Phase response distortion",
+            "B. Sensitivity to finite word-length effects (quantization) and overflow",
+            "C. Continuous frequency shifting",
+            "D. Aliasing characteristics"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "In digital filter terminology, the acronym FIR stands for:",
+        "choices": [
+            "A. Fast Infinite Response",
+            "B. Frequency Invariant Response",
+            "C. Finite Impulse Response",
+            "D. Feedback Infinite Rectifier"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "In digital filter terminology, the acronym IIR stands for:",
+        "choices": [
+            "A. Inverse Impulse Response",
+            "B. Internal Infinite Register",
+            "C. Invariant Impulse Rectifier",
+            "D. Infinite Impulse Response"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Which of the following is a primary, highly desirable characteristic that can be easily achieved with FIR filters but is generally impossible with IIR filters?",
+        "choices": [
+            "A. Exact linear phase",
+            "B. Extremely steep roll-off for low orders",
+            "C. Infinite stability margins",
+            "D. Lowest memory consumption"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "Why can an FIR filter achieve exactly linear phase response?",
+        "choices": [
+            "A. Because its poles are on the unit circle",
+            "B. Because its coefficients can be made perfectly symmetric or anti-symmetric",
+            "C. Because it lacks any multiplier blocks",
+            "D. Because it uses a recursive feedback structure"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Which class of digital filter is inherently and unconditionally stable because all of its poles are located exactly at the origin of the z-plane (z=0)?",
+        "choices": [
+            "A. IIR filters",
+            "B. Butterworth filters",
+            "C. FIR filters",
+            "D. Chebyshev filters"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "When designing an FIR filter using the windowing method, the rectangular window exhibits a main lobe width that is approximately:",
+        "choices": [
+            "A. 8 * pi / M",
+            "B. 2 * pi / M",
+            "C. 12 * pi / M",
+            "D. 4 * pi / M"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "The Hamming window provides a peak side-lobe attenuation of approximately -43 dB. What specific characteristic distinguishes its time-domain equation from the Hanning window?",
+        "choices": [
+            "A. It does not taper completely to zero at the ends",
+            "B. It uses a triangular shape",
+            "C. It is fundamentally asymmetric",
+            "D. It utilizes a Gaussian curve"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "Which adjustable window function incorporates a modified zeroth-order Bessel function of the first kind to allow a continuous trade-off between main lobe width and side lobe attenuation?",
+        "choices": [
+            "A. Blackman window",
+            "B. Kaiser window",
+            "C. Hamming window",
+            "D. Bartlett window"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "When transforming a continuous-time analog filter to a discrete-time digital filter using the Bilinear Transformation, the non-linear relationship between the analog frequency and digital frequency is called:",
+        "choices": [
+            "A. Frequency shifting",
+            "B. Frequency aliasing",
+            "C. Frequency warping",
+            "D. Frequency folding"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "To correct for the frequency distortion caused by the Bilinear Transformation, the desired digital cutoff frequency is adjusted before designing the analog prototype. This critical process is known as:",
+        "choices": [
+            "A. Anti-aliasing",
+            "B. Pre-emphasis",
+            "C. Zero-padding",
+            "D. Prewarping"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "The Impulse Invariance transformation technique maps the analog filter to the digital filter by strictly preserving the:",
+        "choices": [
+            "A. Time-domain impulse response",
+            "B. Phase response exclusively",
+            "C. Frequency-domain magnitude perfectly",
+            "D. Number of zeros exactly"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "The Butterworth analog filter approximation is uniquely recognized for having a magnitude response that is:",
+        "choices": [
+            "A. Characterized by equiripple in the passband",
+            "B. Maximally flat in the passband",
+            "C. Characterized by equiripple in the stopband",
+            "D. Extremely steep in the transition band"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "A Chebyshev Type I low-pass filter approximation is designed to exhibit:",
+        "choices": [
+            "A. A monotonically decreasing magnitude everywhere",
+            "B. Equiripple behavior in the stopband",
+            "C. Equiripple behavior exclusively in the passband",
+            "D. Linear phase throughout the transition band"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "Which IIR filter approximation technique provides the steepest possible roll-off (narrowest transition band) for a given filter order by allowing equiripple in both the passband and stopband?",
+        "choices": [
+            "A. Butterworth",
+            "B. Chebyshev Type I",
+            "C. Chebyshev Type II",
+            "D. Elliptic (Cauer)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "For a given set of strict frequency response specifications, an IIR filter compared to an FIR filter will generally require:",
+        "choices": [
+            "A. A significantly lower filter order",
+            "B. A significantly higher filter order",
+            "C. The exact same filter order",
+            "D. Complex coefficients exclusively"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "Under the Impulse Invariance method, a pole located at s = p_k in the continuous-time s-plane is directly mapped to which location in the discrete-time z-plane?",
+        "choices": [
+            "A. z = p_k * T",
+            "B. z = e^(p_k * T)",
+            "C. z = 1 / (1 - p_k * T)",
+            "D. z = (2/T) * tan(p_k/2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "By mathematical definition, an IIR filter structure must inherently incorporate:",
+        "choices": [
+            "A. Linear phase",
+            "B. Only feedforward paths",
+            "C. Feedback (recursive) paths",
+            "D. Symmetric coefficients"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "The roll-off rate of an Nth-order Butterworth low-pass filter in the continuous-time domain is exactly:",
+        "choices": [
+            "A. -10N dB/decade",
+            "B. -6N dB/octave (-20N dB/decade)",
+            "C. -3N dB/octave",
+            "D. -40N dB/decade"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "To achieve a sharper transition band and meet stricter attenuation specifications using a Butterworth approximation, the designer must strictly:",
+        "choices": [
+            "A. Increase the filter order N",
+            "B. Decrease the filter order N",
+            "C. Shift the cutoff frequency",
+            "D. Use a rectangular window"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "A filter defined entirely by the difference equation y[n] = x[n] + 0.5x[n-1] + 0.25x[n-2] is strictly classified as:",
+        "choices": [
+            "A. Recursive",
+            "B. Non-recursive (FIR)",
+            "C. IIR",
+            "D. Non-causal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Among the standard fixed-window functions used in FIR filter design, which window produces the narrowest main lobe for a given length M, but yields the poorest side-lobe attenuation?",
+        "choices": [
+            "A. Hanning window",
+            "B. Blackman window",
+            "C. Rectangular window",
+            "D. Hamming window"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "The Bilinear Transformation algebraically maps the entire imaginary axis (j-omega) of the s-plane onto which specific geometric feature in the z-plane?",
+        "choices": [
+            "A. The positive real axis",
+            "B. The origin",
+            "C. The left half plane",
+            "D. The unit circle"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "The Blackman window achieves excellent side-lobe attenuation (approx -74 dB) by utilizing an equation that includes a constant term, a cosine term, and an additional:",
+        "choices": [
+            "A. Second harmonic cosine term",
+            "B. Tangent function",
+            "C. Exponential decay factor",
+            "D. Bessel function"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "A significant limitation of the Impulse Invariance method for transforming analog high-pass or band-stop filters to digital filters is its severe susceptibility to:",
+        "choices": [
+            "A. Frequency warping",
+            "B. Aliasing",
+            "C. Phase distortion",
+            "D. Instability"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "If the strict requirement is to minimize the computational complexity (lowest order) of an IIR filter while meeting steep transition specifications, the optimal approximation choice is:",
+        "choices": [
+            "A. Butterworth",
+            "B. Chebyshev Type I",
+            "C. Elliptic (Cauer)",
+            "D. Bessel"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "The frequency band between the edge of the passband and the edge of the stopband, where the filter response rolls off, is explicitly defined as the:",
+        "choices": [
+            "A. Attenuation band",
+            "B. Ripple band",
+            "C. Cutoff band",
+            "D. Transition band"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "A Chebyshev Type II filter approximation is characterized by a magnitude response that is monotonically decreasing in the passband and exhibits:",
+        "choices": [
+            "A. Equiripple behavior in the stopband",
+            "B. Maximal flatness in the stopband",
+            "C. Equiripple behavior in the passband",
+            "D. Linear phase in the stopband"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "When employing the Bilinear Transformation, the strict left-half of the continuous-time s-plane maps perfectly to the:",
+        "choices": [
+            "A. Exterior of the unit circle in the z-plane",
+            "B. Interior of the unit circle in the z-plane",
+            "C. Entire real axis in the z-plane",
+            "D. Upper half of the z-plane"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "A filter that possesses exact linear phase exhibits a group delay that is mathematically:",
+        "choices": [
+            "A. Exponentially increasing",
+            "B. Zero everywhere",
+            "C. Constant across all frequencies",
+            "D. Proportional to the square of the frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Which of the following generic LCCDE forms explicitly describes a non-recursive (FIR) digital filter?",
+        "choices": [
+            "A. y[n] = sum(a_k y[n-k]) + x[n]",
+            "B. y[n] = b_0 x[n] / a_1 y[n-1]",
+            "C. y[n] = a_1 y[n-1] + b_0 x[n]",
+            "D. y[n] = sum(b_k x[n-k]) from k=0 to M"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "For an FIR filter to achieve strictly linear phase, its impulse response sequence h[n] must be designed to be either perfectly symmetric or:",
+        "choices": [
+            "A. Anti-symmetric",
+            "B. Causal",
+            "C. Infinite",
+            "D. Exponentially decaying"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "The poles of an analog Butterworth low-pass filter of order N are geometrically distributed equally spaced upon a:",
+        "choices": [
+            "A. Parabola in the left half s-plane",
+            "B. Circle in the left half s-plane",
+            "C. Straight line on the real axis",
+            "D. Unit circle in the z-plane"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "In the complex z-plane, a specific value of z that causes the system transfer function H(z) to become mathematically infinite is defined as a:",
+        "choices": [
+            "A. Gain factor",
+            "B. Zero",
+            "C. Pole",
+            "D. Residue"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "Conversely, a specific value of z that causes the system transfer function H(z) to become exactly zero is defined as a:",
+        "choices": [
+            "A. Pole",
+            "B. Eigenvalue",
+            "C. Gain factor",
+            "D. Zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "Determine the transfer function H(z) of a system that possesses a single zero at z = 1 and a single pole at z = 0.5.",
+        "choices": [
+            "A. H(z) = K * (z - 1) / (z - 0.5)",
+            "B. H(z) = K * (z - 0.5) / (z - 1)",
+            "C. H(z) = K * (z + 1) / (z + 0.5)",
+            "D. H(z) = K * (z + 0.5) / (z + 1)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "For a causal discrete-time LTI system to be Bounded-Input Bounded-Output (BIBO) stable, all of the poles of its transfer function H(z) must be located:",
+        "choices": [
+            "A. Exactly on the unit circle",
+            "B. Strictly inside the unit circle (",
+            "C. z",
+            "D. < 1)"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 75,
+        "question": "When analyzing the frequency response of a discrete-time system, the complex variable z in the transfer function H(z) is mathematically constrained to traverse the:",
+        "choices": [
+            "A. Imaginary axis",
+            "B. Entire left half plane",
+            "C. Unit circle (z = e^jw)",
+            "D. Real axis"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "The DC gain of a digital filter can be directly determined by evaluating the transfer function H(z) at strictly which complex coordinate?",
+        "choices": [
+            "A. z = infinity",
+            "B. z = 0",
+            "C. z = -1",
+            "D. z = 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "In the discrete-time frequency domain, the Nyquist frequency (maximum representable frequency without aliasing) corresponds to evaluating H(z) at which exact location on the unit circle?",
+        "choices": [
+            "A. z = -1 (angle = pi)",
+            "B. z = 1 (angle = 0)",
+            "C. z = j (angle = pi/2)",
+            "D. z = -j (angle = -pi/2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "In the general factored form of a transfer function H(z) = K * [product(z - z_i) / product(z - p_i)], the variable K represents the system's:",
+        "choices": [
+            "A. Primary pole location",
+            "B. Overall gain factor",
+            "C. Zero offset",
+            "D. Damping ratio"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "If a discrete-time filter has a zero placed exactly on the unit circle at angle w_0, the filter's magnitude response",
+        "choices": [
+            "A. H(e^jw)",
+            "B. at frequency w_0 will strictly be:",
+            "C. Infinity",
+            "D. 1"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 80,
+        "question": "Placing a system pole very close to the inside of the unit circle at an angle w_0 will explicitly cause the filter's magnitude frequency response to exhibit:",
+        "choices": [
+            "A. A deep attenuation notch at w_0",
+            "B. Linear phase across all frequencies",
+            "C. Constant unity gain",
+            "D. A sharp resonant peak at w_0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "If a real-valued digital filter requires a complex pole at z = r*e^(jw), to ensure the filter coefficients remain real, it must also strictly contain:",
+        "choices": [
+            "A. A complex conjugate pole at z = r*e^(-jw)",
+            "B. A zero at z = 1/r * e^(jw)",
+            "C. A pole exactly at the origin",
+            "D. A zero at z = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "Given the transfer function H(z) = K / (1 - 0.8 z^-1). If the required DC gain of the system is exactly 10, what must be the specific value of the gain factor K?",
+        "choices": [
+            "A. 10",
+            "B. 2",
+            "C. 8",
+            "D. 5"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "To construct a simple first-order digital high-pass filter, a designer should ideally place a pole near z = -1 and a transmission zero exactly at:",
+        "choices": [
+            "A. z = -1",
+            "B. z = j",
+            "C. z = 1",
+            "D. z = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "The system transfer function H(z) of an LTI system is formally defined as the algebraic ratio of the:",
+        "choices": [
+            "A. Impulse response to the step response",
+            "B. Input Z-transform to the output Z-transform",
+            "C. Input Fourier transform to the output Fourier transform",
+            "D. Output Z-transform Y(z) to the Input Z-transform X(z)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Geometric evaluation of the magnitude response",
+        "choices": [
+            "A. H(e^jw)",
+            "B. states that it is directly proportional to the product of the geometric distances from the point z = e^jw to all the system's:",
+            "C. Zeros",
+            "D. Poles"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 86,
+        "question": "To design a digital notch filter intended to completely reject a specific frequency w_0, the designer must strictly place complex conjugate zeros exactly on the unit circle at angles:",
+        "choices": [
+            "A. w = 0 and w = pi",
+            "B. w = +/- w_0",
+            "C. w = +/- pi/2",
+            "D. w = infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "A discrete-time LTI system is definitively classified as a \"minimum phase\" system if and only if all of its poles AND all of its zeros lie strictly:",
+        "choices": [
+            "A. Outside the unit circle",
+            "B. On the unit circle",
+            "C. Inside the unit circle",
+            "D. On the positive real axis"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "The total phase shift of a stable digital low-pass filter evaluated precisely at DC (w = 0) is typically:",
+        "choices": [
+            "A. -90 degrees",
+            "B. pi radians",
+            "C. 90 degrees",
+            "D. 0 degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "When evaluating the phase response geometrically from a pole-zero plot, the total phase at frequency w is the sum of the angles from all zeros minus the:",
+        "choices": [
+            "A. Sum of the angles from all poles",
+            "B. Product of the angles from all poles",
+            "C. Distance to all poles",
+            "D. Reference angle at DC"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "A digital filter whose transfer function H(z) contains only poles and no finite zeros (other than at z=0) is designated as an:",
+        "choices": [
+            "A. All-zero system",
+            "B. All-pole system",
+            "C. All-pass system",
+            "D. FIR system"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "Evaluating the discrete-time frequency response at the specific coordinate z = j corresponds exactly to checking the filter's behavior at the analog frequency of:",
+        "choices": [
+            "A. DC",
+            "B. Nyquist frequency",
+            "C. Half the Nyquist frequency (fs/4)",
+            "D. The sampling frequency fs"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Given H(z) = K * (z - 1) / (z + 0.5). If the peak gain is required to be exactly 1 at the Nyquist frequency, what is the value of K?",
+        "choices": [
+            "A. 1.5",
+            "B. 0.5",
+            "C. 0.75",
+            "D. 0.25"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "Adding a transmission zero exactly at the origin of the z-plane (z = 0) fundamentally affects the system by:",
+        "choices": [
+            "A. Altering the steady-state magnitude response",
+            "B. Changing the stability boundary",
+            "C. Introducing a unit time advance",
+            "D. Causing instability"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "If an LTI system has a single pole located exactly at z = 1, the system will behave intrinsically as a discrete-time:",
+        "choices": [
+            "A. Differentiator",
+            "B. Integrator (Accumulator)",
+            "C. Delay line",
+            "D. Attenuator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "An \"all-pass\" digital filter, which passes all frequencies with unit magnitude but alters the phase, is uniquely characterized by having its poles and zeros placed as:",
+        "choices": [
+            "A. Conjugate reciprocals of each other across the unit circle",
+            "B. Identical locations perfectly overlapping",
+            "C. Directly on the real axis exclusively",
+            "D. Completely at the origin"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "A discrete-time system is strictly bounded-input bounded-output (BIBO) stable if the Region of Convergence (ROC) of its transfer function H(z) explicitly includes the:",
+        "choices": [
+            "A. Origin",
+            "B. Entire right half-plane",
+            "C. Real axis",
+            "D. Unit circle"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "If a transfer function exhibits a pole and a zero at the exact same location in the z-plane, this mathematically results in:",
+        "choices": [
+            "A. A pole-zero cancellation, effectively reducing the system order",
+            "B. A sharp resonant peak combined with a notch",
+            "C. Instability",
+            "D. Infinite magnitude gain at that point"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "Moving a transmission zero geometrically closer to the unit circle at a specific angle w_0 will have what primary effect on the filter's magnitude response",
+        "choices": [
+            "A. H(e^jw)",
+            "B. ?",
+            "C. It will increase the gain at w_0",
+            "D. It will deepen the attenuation notch exactly at w_0"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 99,
+        "question": "Geometrically, the overall magnitude response",
+        "choices": [
+            "A. H(e^jw)",
+            "B. at any frequency w is calculated by dividing the product of the distances to the zeros by the:",
+            "C. Distance to the origin",
+            "D. Distance to the Nyquist point"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 100,
+        "question": "For a simple first-order digital low-pass filter H(z) = (1 - a) / (1 - az^-1) where 0 < a < 1, as the pole 'a' is moved closer to z = 1, the 3-dB cutoff frequency of the filter will:",
+        "choices": [
+            "A. Double in value",
+            "B. Remain completely unchanged",
+            "C. Shift to the Nyquist frequency",
+            "D. Decrease, making the bandwidth narrower"
+        ],
+        "correct_answer": "D"
+    }
+]

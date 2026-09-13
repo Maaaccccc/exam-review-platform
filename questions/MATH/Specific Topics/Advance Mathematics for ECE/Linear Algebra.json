@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "What is the principal value of i^i?",
+        "choices": [
+            "A. e^-π/2",
+            "B. e^π/2",
+            "C. e^-π",
+            "D. e^π"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "De Moivre's Theorem states that (cos θ + i sin θ)^n equals:",
+        "choices": [
+            "A. cos^nθ + i sin^nθ",
+            "B. cos(nθ) + i sin(nθ)",
+            "C. n cos(θ) + in sin(θ)",
+            "D. cos(θ/n) + i sin(θ/n)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "The Cauchy-Riemann equations for an analytic function f(z) = u(x,y) + i v(x,y) are:",
+        "choices": [
+            "A. u_x = v_x and u_y = v_y",
+            "B. u_x = -v_y and u_y = v_x",
+            "C. u_x = v_y and u_y = -v_x",
+            "D. u_x = -v_x and u_y = -v_y"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "What is the residue of f(z) = (1/z-3) at the pole z = 3?",
+        "choices": [
+            "A. 3",
+            "B. -3",
+            "C. 0",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "Which type of singularity does f(z) = e^1/z have at z=0?",
+        "choices": [
+            "A. Essential singularity",
+            "B. Removable singularity",
+            "C. Pole of order 1",
+            "D. Branch point"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "Evaluate the contour integral of (1/z) dz around the unit circle \\vertz\\vert=1 counterclockwise.",
+        "choices": [
+            "A. 0",
+            "B. 2π i",
+            "C. π i",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "What is the sum of the four distinct 4th roots of unity?",
+        "choices": [
+            "A. 4",
+            "B. i",
+            "C. 0",
+            "D. -1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "If z = 3 + 4i, what is the modulus \\vertz\\vert?",
+        "choices": [
+            "A. 7",
+            "B. 1",
+            "C. 25",
+            "D. 5"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "A square matrix A is said to be symmetric if:",
+        "choices": [
+            "A. A = A^T",
+            "B. A = -A^T",
+            "C. A = AI¹",
+            "D. A = I"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "A square matrix A is called skew-symmetric if it strictly satisfies:",
+        "choices": [
+            "A. A = A^T",
+            "B. A = -A^T",
+            "C. A = AI¹",
+            "D. A = I"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "For a skew-symmetric matrix with real entries, all main diagonal elements must be:",
+        "choices": [
+            "A. 1",
+            "B. -1",
+            "C. Zero",
+            "D. Complex numbers"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "An orthogonal matrix Q has the property that its transpose is equal to its:",
+        "choices": [
+            "A. Adjoint",
+            "B. Cofactor matrix",
+            "C. Trace",
+            "D. Inverse"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "A complex square matrix H is called Hermitian if it is equal to its:",
+        "choices": [
+            "A. Conjugate transpose",
+            "B. Inverse",
+            "C. Transpose",
+            "D. Complex conjugate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "A complex matrix U is unitary if it strictly satisfies:",
+        "choices": [
+            "A. U^T U = I",
+            "B. U^\\dagger U = I",
+            "C. U^2 = I",
+            "D. U^\\dagger = -U"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "A matrix A is considered singular if its determinant is exactly:",
+        "choices": [
+            "A. 1",
+            "B. -1",
+            "C. Zero",
+            "D. Undefined"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "An idempotent matrix A is defined by the mathematical property:",
+        "choices": [
+            "A. A^T = A",
+            "B. AI¹ = A",
+            "C. A^3 = I",
+            "D. A^2 = A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "A square matrix A is nilpotent of index k if k is the smallest positive integer such that:",
+        "choices": [
+            "A. A^k = 0",
+            "B. A^k = I",
+            "C. A^k = A",
+            "D. A^k = AI¹"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "An involutory matrix A is characterized by the property that its square equals:",
+        "choices": [
+            "A. Zero matrix",
+            "B. Identity matrix",
+            "C. The matrix itself",
+            "D. Its transpose"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "What is the conjugate transpose (Hermitian adjoint) of a real symmetric matrix?",
+        "choices": [
+            "A. Its inverse",
+            "B. The identity matrix",
+            "C. The matrix itself",
+            "D. Its negative"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "The determinant of an orthogonal matrix must always evaluate to:",
+        "choices": [
+            "A. Exactly 0",
+            "B. Exactly 1",
+            "C. A pure imaginary number",
+            "D. ± 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "The determinant of a unitary matrix is a complex number whose modulus is strictly:",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. Infinity",
+            "D. -1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Which matrix type has strictly real eigenvalues?",
+        "choices": [
+            "A. Skew-symmetric matrices",
+            "B. Hermitian matrices",
+            "C. Nilpotent matrices",
+            "D. Orthogonal matrices"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "A matrix A is skew-Hermitian if it satisfies:",
+        "choices": [
+            "A. A^T = -A",
+            "B. A^\\dagger = A",
+            "C. A^\\dagger = -A",
+            "D. A^2 = -I"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "For a Hermitian matrix, all main diagonal elements must strictly be:",
+        "choices": [
+            "A. Pure imaginary numbers",
+            "B. Zero",
+            "C. Complex numbers",
+            "D. Real numbers"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "If A is an involutory matrix, what is its inverse?",
+        "choices": [
+            "A. A",
+            "B. I",
+            "C. -A",
+            "D. A^T"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "A square matrix in which all elements above the main diagonal are zero is called a:",
+        "choices": [
+            "A. Upper triangular matrix",
+            "B. Lower triangular matrix",
+            "C. Diagonal matrix",
+            "D. Scalar matrix"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "What is the trace of the identity matrix of order n?",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. n",
+            "D. n^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "If a matrix A is idempotent, what are its only possible real eigenvalues?",
+        "choices": [
+            "A. 1 and -1",
+            "B. 0 and -1",
+            "C. 1 and 2",
+            "D. 0 and 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "Let A and B be two n × n symmetric matrices. The product AB is symmetric if and only if:",
+        "choices": [
+            "A. AB = BA",
+            "B. AB = -BA",
+            "C. A = B",
+            "D. AB = I"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Which of the following matrices is definitively invertible?",
+        "choices": [
+            "A. A nilpotent matrix",
+            "B. An orthogonal matrix",
+            "C. A singular matrix",
+            "D. A matrix with a zero eigenvalue"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "The trace of a square matrix is defined as the sum of its:",
+        "choices": [
+            "A. Row elements",
+            "B. Column elements",
+            "C. Main diagonal elements",
+            "D. Minor diagonal elements"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "The rank of a matrix conceptually represents the maximum number of its:",
+        "choices": [
+            "A. Zero elements",
+            "B. Diagonal elements",
+            "C. Dependent rows",
+            "D. Linearly independent rows or columns"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "The Rank-Nullity Theorem states that for an m × n matrix A, the rank of A plus the nullity of A equals:",
+        "choices": [
+            "A. n",
+            "B. m",
+            "C. m+n",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "To find the inverse of a matrix via the Adjoint Method, one computes:",
+        "choices": [
+            "A. \\det(A) / \\textadj(A)",
+            "B. \\textadj(A) / \\det(A)",
+            "C. \\textadj(A) × \\det(A)",
+            "D. \\textadj(A) + \\det(A)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "The adjoint (or adjugate) of a square matrix is formed by taking the transpose of the matrix of its:",
+        "choices": [
+            "A. Minors",
+            "B. Eigenvectors",
+            "C. Cofactors",
+            "D. Determinants"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "In Gauss-Jordan elimination, the goal is to reduce the augmented matrix [A \\vert I] into the form:",
+        "choices": [
+            "A. [AI¹ \\vert I]",
+            "B. [I \\vert A]",
+            "C. [A \\vert AI¹]",
+            "D. [I \\vert AI¹]"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "Which of the following is NOT a valid elementary row operation?",
+        "choices": [
+            "A. Squaring all elements in a row",
+            "B. Swapping two rows",
+            "C. Multiplying a row by a non-zero scalar",
+            "D. Adding a multiple of one row to another"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "If a matrix is in Row Echelon Form (REF), the leading non-zero entry in each row must be strictly to the:",
+        "choices": [
+            "A. Left of the leading entry in the row above it",
+            "B. Right of the leading entry in the row above it",
+            "C. Directly below the leading entry in the row above it",
+            "D. Same column as the leading entry above it"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "If row 1 and row 2 of a 3 × 3 determinant are interchanged, the value of the determinant is:",
+        "choices": [
+            "A. Unchanged",
+            "B. Squared",
+            "C. Multiplied by -1",
+            "D. Made zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "What is the determinant of a 3 × 3 upper triangular matrix with main diagonal entries 2, 3, and 4?",
+        "choices": [
+            "A. 9",
+            "B. 14",
+            "C. 0",
+            "D. 24"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Let A and B be conformable matrices. The transpose of their product, (AB)^T, is strictly equivalent to:",
+        "choices": [
+            "A. B^T A^T",
+            "B. A^T B^T",
+            "C. BI¹ AI¹",
+            "D. AI¹ BI¹"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "If a matrix A has dimension 3 × 4 and matrix B has dimension 4 × 2, what is the dimension of the product AB?",
+        "choices": [
+            "A. 4 × 4",
+            "B. 3 × 2",
+            "C. 2 × 3",
+            "D. 12 × 8"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Let \\det(A) = 5 for a 3 × 3 matrix",
+        "choices": [
+            "A. What is the value of \\det(2A)?",
+            "A. 10",
+            "B. 15",
+            "C. 40"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "The inverse of the product of two invertible matrices, (AB)I¹, is strictly equal to:",
+        "choices": [
+            "A. AI¹ BI¹",
+            "B. A^T B^T",
+            "C. B^T A^T",
+            "D. BI¹ AI¹"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Find the rank of a 3 × 3 matrix containing all ones.",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "If a 4 × 5 matrix has a rank of 3, what is its nullity?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 5"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "Evaluate the trace of the matrix with row 1: [4, 2] and row 2: [-1, 5].",
+        "choices": [
+            "A. 3",
+            "B. 7",
+            "C. 9",
+            "D. -2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "The derivative of the matrix trace function with respect to the matrix X, i.e., (∂/∂ X) \\texttr(X), is equal to:",
+        "choices": [
+            "A. X^T",
+            "B. XI¹",
+            "C. 0",
+            "D. I"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "If A(t) = \\beginbmatrix t^2 & sin t \\\\ cos t & e^t \\endbmatrix, what is the element in the first row, second column of the derivative A'(t)?",
+        "choices": [
+            "A. cos t",
+            "B. -sin t",
+            "C. 2t",
+            "D. e^t"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "In matrix calculus, the gradient of the scalar function f(x) = c^T x with respect to the vector x is:",
+        "choices": [
+            "A. x",
+            "B. c",
+            "C. c^T",
+            "D. cx"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Which characteristic confirms a matrix is in Reduced Row Echelon Form (RREF) rather than just REF?",
+        "choices": [
+            "A. The leading entries are sorted",
+            "B. All rows of zeros are at the bottom",
+            "C. The leading entries are 1 and are the only non-zero entries in their columns",
+            "D. The matrix is square"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "If a square matrix A is singular, then its nullity must strictly be:",
+        "choices": [
+            "A. Zero",
+            "B. Negative",
+            "C. Exactly 1",
+            "D. Greater than zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "What is the determinant of the inverse of a matrix A if \\det(A) = 4?",
+        "choices": [
+            "A. 1/4",
+            "B. 4",
+            "C. -4",
+            "D. 16"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "Let A be a n × n matrix. The relationship between \\det(\\textadj(A)) and \\det(A) is given by:",
+        "choices": [
+            "A. \\det(A)^n",
+            "B. \\det(A)^n-1",
+            "C. \\det(A)^n+1",
+            "D. n \\det(A)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Evaluate the determinant of a 2 × 2 matrix A where a_11=2, a_12=3, a_21=4, a_22=5.",
+        "choices": [
+            "A. 2",
+            "B. 22",
+            "C. -2",
+            "D. -22"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "A system of linear equations is called consistent if it has:",
+        "choices": [
+            "A. Infinite variables",
+            "B. Exactly one unique solution",
+            "C. No solution",
+            "D. At least one solution"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "A system of linear equations with no solutions is strictly classified as:",
+        "choices": [
+            "A. Inconsistent",
+            "B. Trivial",
+            "C. Homogeneous",
+            "D. Dependent"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Cramer's Rule can only be applied to a system of n linear equations with n unknowns if the determinant of the coefficient matrix is:",
+        "choices": [
+            "A. Exactly 1",
+            "B. Non-zero",
+            "C. Zero",
+            "D. Positive"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "For a homogeneous system of linear equations AX = 0, the trivial solution is X = 0. This is the only solution if and only if:",
+        "choices": [
+            "A. \\det(A) = 0",
+            "B. A is singular",
+            "C. \\det(A) ≠ 0",
+            "D. The trace of A is 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "If a consistent system has fewer equations than unknowns, it will typically have:",
+        "choices": [
+            "A. Exactly one solution",
+            "B. Two distinct solutions",
+            "C. No solution",
+            "D. Infinitely many solutions"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "According to the Rouché-Capelli theorem, a system AX=B is consistent if and only if the rank of the coefficient matrix A is equal to:",
+        "choices": [
+            "A. The rank of the augmented matrix [A\\vertB]",
+            "B. The number of unknowns n",
+            "C. The number of equations m",
+            "D. The nullity of A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "In applying Cramer's rule to solve AX=B, the variable x_i is given by D_i /",
+        "choices": [
+            "D. What does the determinant D_i represent?",
+            "A. The determinant of the inverse matrix",
+            "B. The determinant of A with its i-th column replaced by the constants vector B",
+            "C. The minor of element a_ii"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "If a linear system of 3 equations and 3 unknowns has \\det(A) = 0 but D_1 ≠ 0, the system is:",
+        "choices": [
+            "A. Consistent",
+            "B. Dependent",
+            "C. Inconsistent",
+            "D. Homogeneous"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "The Augmented Matrix Method solves a system of equations by performing operations on a matrix containing both the coefficients and the:",
+        "choices": [
+            "A. Variables",
+            "B. Eigenvalues",
+            "C. Inverse matrix",
+            "D. Constant terms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "A system is given by x + y = 3 and 2x + 2y = 6. Geometrically, these equations represent:",
+        "choices": [
+            "A. The same identical line",
+            "B. Two parallel lines",
+            "C. Two intersecting lines",
+            "D. Two orthogonal lines"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Solve the system: 2x - y = 4 and x + y = 5.",
+        "choices": [
+            "A. x=2, y=3",
+            "B. x=3, y=2",
+            "C. x=4, y=1",
+            "D. x=5, y=0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Using Cramer's rule for the system 3x + y = 5 and 2x - y = 0, what is the main determinant D?",
+        "choices": [
+            "A. 5",
+            "B. 1",
+            "C. -5",
+            "D. -1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "If an augmented matrix is reduced to row echelon form and produces a row [0 \\quad 0 \\quad 0 \\ \\vert \\ 1], this mathematically indicates the system has:",
+        "choices": [
+            "A. Infinite solutions",
+            "B. The trivial solution",
+            "C. A unique solution",
+            "D. No solution"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "A homogeneous linear system of m equations in n variables always has non-trivial solutions if:",
+        "choices": [
+            "A. m < n",
+            "B. m > n",
+            "C. m = n",
+            "D. m = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "Consider the system x+ky=1 and kx+y=1. For what value of k does the system have no solution?",
+        "choices": [
+            "A. k=1",
+            "B. k=-1",
+            "C. k=0",
+            "D. k=2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "In solving a system via the matrix inverse method, X = AI¹B. This method fails completely when:",
+        "choices": [
+            "A. Matrix B is the zero vector",
+            "B. Matrix A is orthogonal",
+            "C. Matrix A is singular",
+            "D. Matrix A is symmetric"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "The collection of all solutions to a homogeneous system AX = 0 forms a vector space known as the:",
+        "choices": [
+            "A. Row space of A",
+            "B. Column space of A",
+            "C. Eigenspace of A",
+            "D. Null space of A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "If a system has infinitely many solutions, the number of free variables is mathematically equal to:",
+        "choices": [
+            "A. Total number of variables minus the rank of the coefficient matrix",
+            "B. The rank of the coefficient matrix",
+            "C. Total number of variables plus the rank",
+            "D. The determinant of the coefficient matrix"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "Which operation on a system of linear equations irreparably alters its solution set?",
+        "choices": [
+            "A. Multiplying an equation by -1",
+            "B. Squaring both sides of an equation",
+            "C. Interchanging two equations",
+            "D. Adding one equation to another"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "Solve for x in the system x-y=2, x+y=6.",
+        "choices": [
+            "A. 2",
+            "B. 6",
+            "C. 4",
+            "D. 8"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "The characteristic equation of a square matrix A is formulated by setting the determinant of which expression to zero?",
+        "choices": [
+            "A. A + λ I",
+            "B. A - λ AI¹",
+            "C. λ A - I",
+            "D. A - λ I"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "The roots of the characteristic equation \\det(A - λ I) = 0 are formally called the:",
+        "choices": [
+            "A. Eigenvalues of A",
+            "B. Eigenvectors of A",
+            "C. Singular values of A",
+            "D. Trace of A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "A non-zero vector v that satisfies the equation Av = λ v is known as an:",
+        "choices": [
+            "A. Orthogonal vector",
+            "B. Eigenvector",
+            "C. Identity vector",
+            "D. Null vector"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "The Cayley-Hamilton Theorem states that every square matrix satisfies its own:",
+        "choices": [
+            "A. Transpose",
+            "B. Inverse",
+            "C. Characteristic equation",
+            "D. Null space"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "A useful application of the Cayley-Hamilton Theorem is directly computing the:",
+        "choices": [
+            "A. Rank of a matrix",
+            "B. Row echelon form of a matrix",
+            "C. Trace of a matrix",
+            "D. Inverse of a matrix"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "The sum of the eigenvalues of a square matrix is always mathematically equal to its:",
+        "choices": [
+            "A. Trace",
+            "B. Determinant",
+            "C. Nullity",
+            "D. Rank"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "The product of all eigenvalues of a square matrix is always mathematically equal to its:",
+        "choices": [
+            "A. Trace",
+            "B. Determinant",
+            "C. Order",
+            "D. Maximum eigenvalue"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "If a matrix has a zero eigenvalue, it implies that the matrix is:",
+        "choices": [
+            "A. Defective",
+            "B. Idempotent",
+            "C. Singular",
+            "D. Orthogonal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "The modal matrix used to diagonalize a matrix A is constructed by using the matrix's:",
+        "choices": [
+            "A. Cofactors as rows",
+            "B. Minors as columns",
+            "C. Eigenvalues as diagonal elements",
+            "D. Eigenvectors as columns"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "If A is diagonalizable, it can be written as A = PDPI¹, where D is a diagonal matrix containing the:",
+        "choices": [
+            "A. Eigenvalues of A",
+            "B. Eigenvectors of A",
+            "C. Identity elements",
+            "D. Traces of P"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Find the eigenvalues of the diagonal matrix with diagonal entries 2 and 3.",
+        "choices": [
+            "A. 5 and 6",
+            "B. 2 and 3",
+            "C. 1 and 6",
+            "D. -2 and -3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "A 2 × 2 matrix A has trace 5 and determinant 6. What is the characteristic equation?",
+        "choices": [
+            "A. λ^2 + 5λ + 6 = 0",
+            "B. λ^2 - 6λ + 5 = 0",
+            "C. λ^2 - 5λ + 6 = 0",
+            "D. λ^2 + 6λ + 5 = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "If the eigenvalues of A are λ_1, λ_2, λ_3, what are the eigenvalues of A^2?",
+        "choices": [
+            "A. 2λ_1, 2λ_2, 2λ_3",
+            "B. √( λ_1 ), √( λ_2 ), √( λ_3 )",
+            "C. 1/λ_1, 1/λ_2, 1/λ_3",
+            "D. λ_1^2, λ_2^2, λ_3^2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "What is the eigenvalue associated with the eigenvector v = [1, 1]^T for the matrix A = \\beginbmatrix 3 & 1 \\\\ 1 & 3 \\endbmatrix?",
+        "choices": [
+            "A. 4",
+            "B. 2",
+            "C. 6",
+            "D. 8"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "According to the Cayley-Hamilton theorem, if the characteristic equation of a 2 × 2 matrix A is λ^2 - 4λ + 5 = 0, then A^2 equals:",
+        "choices": [
+            "A. -4A + 5I",
+            "B. 4A - 5I",
+            "C. 4A + 5I",
+            "D. -4A - 5I"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "If an n × n matrix possesses n distinct eigenvalues, the matrix is mathematically guaranteed to be:",
+        "choices": [
+            "A. Symmetric",
+            "B. Orthogonal",
+            "C. Diagonalizable",
+            "D. Singular"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "The algebraic multiplicity of an eigenvalue λ is strictly defined as the:",
+        "choices": [
+            "A. Number of linearly independent eigenvectors",
+            "B. Number of zero rows in the matrix",
+            "C. Product of all roots",
+            "D. Power of the factor (λ - λ_i) in the characteristic polynomial"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "The geometric multiplicity of an eigenvalue λ is defined as the:",
+        "choices": [
+            "A. Dimension of the eigenspace corresponding to λ",
+            "B. Trace of the eigenspace",
+            "C. Order of the full matrix",
+            "D. Maximum power in the characteristic equation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "A square matrix is defective if for at least one eigenvalue, the geometric multiplicity is:",
+        "choices": [
+            "A. Greater than the algebraic multiplicity",
+            "B. Strictly less than the algebraic multiplicity",
+            "C. Equal to the algebraic multiplicity",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "The eigenvalues of a triangular matrix are strictly located on its:",
+        "choices": [
+            "A. Last column",
+            "B. First row",
+            "C. Main diagonal",
+            "D. Anti-diagonal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "If λ is an eigenvalue of an invertible matrix A, then an eigenvalue of AI¹ is:",
+        "choices": [
+            "A. -λ",
+            "B. λ^2",
+            "C. 1 - λ",
+            "D. 1/λ"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "Which of the following matrices has strictly non-negative real eigenvalues?",
+        "choices": [
+            "A. Positive semi-definite matrices",
+            "B. Skew-symmetric matrices",
+            "C. Singular matrices",
+            "D. Nilpotent matrices"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "Find the characteristic polynomial of a 2 × 2 identity matrix.",
+        "choices": [
+            "A. λ^2 - 1",
+            "B. (λ - 1)^2",
+            "C. (λ + 1)^2",
+            "D. λ^2 + 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "Two similar matrices A and B (B = PI¹AP) must necessarily share the exact same:",
+        "choices": [
+            "A. Eigenvectors",
+            "B. Modals",
+            "C. Eigenvalues",
+            "D. Inverses"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "In finding eigenvectors for a repeated eigenvalue of a 3 × 3 real symmetric matrix, one will always find:",
+        "choices": [
+            "A. Zero geometric multiplicity",
+            "B. Exactly one eigenvector",
+            "C. Linearly dependent eigenvectors",
+            "D. A complete set of orthogonal eigenvectors"
+        ],
+        "correct_answer": "D"
+    }
+]

@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "What is the most critical parameter to consider when selecting an analog voltmeter to minimize the loading effect on a high-impedance circuit?",
+        "choices": [
+            "A. Physical size of the meter",
+            "B. Full-scale voltage range",
+            "C. Sensitivity rating in ohms per volt",
+            "D. Maximum current rating"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "In a basic series-type ohmmeter, the zero-ohm mark on the scale corresponds to which condition?",
+        "choices": [
+            "A. Zero current flow",
+            "B. Full-scale deflection current",
+            "C. Half-scale deflection current",
+            "D. 10% of full-scale current"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "A galvanometer with a coil resistance of 50 ohms requires 1 mA for full-scale deflection. What shunt resistance is needed to convert it into a 1 A ammeter?",
+        "choices": [
+            "A. 0.050 ohms",
+            "B. 0.500 ohms",
+            "C. 5.000 ohms",
+            "D. 0.005 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 4,
+        "question": "In a standard DC potentiometer measurement, what condition indicates that the unknown voltage perfectly matches the tapped portion of the slide-wire?",
+        "choices": [
+            "A. Galvanometer shows maximum current",
+            "B. Standard cell is short-circuited",
+            "C. Galvanometer shows zero deflection",
+            "D. Rheostat resistance is zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 5,
+        "question": "A voltmeter with a sensitivity of 10,000 ohms/volt is set to the 50V range. What is its total internal resistance?",
+        "choices": [
+            "A. 500 kOhms",
+            "B. 100 kOhms",
+            "C. 50 kOhms",
+            "D. 500 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "When an ammeter is inserted into a DC circuit to measure current, the total equivalent resistance of the circuit will:",
+        "choices": [
+            "A. Decrease slightly",
+            "B. Increase slightly",
+            "C. Remain exactly the same",
+            "D. Fluctuate dynamically"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "A basic meter movement has a full-scale deflection of 50 uA and internal resistance of 2 kOhms. What multiplier resistor is needed for a 0-100V range?",
+        "choices": [
+            "A. 2,002 kOhms",
+            "B. 1,998 ohms",
+            "C. 1,998 kOhms",
+            "D. 2,000 kOhms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "A 10V source with 50 ohms internal resistance is measured by a voltmeter with 950 ohms internal resistance. What is the expected reading?",
+        "choices": [
+            "A. 10.0 V",
+            "B. 9.0 V",
+            "C. 9.8 V",
+            "D. 9.5 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "In an amplifier circuit, which of the following components is primarily responsible for the low-frequency roll-off (lower cutoff frequency)?",
+        "choices": [
+            "A. Internal parasitic capacitances",
+            "B. Stray wiring capacitances",
+            "C. Coupling and bypass capacitors",
+            "D. Active device transit time"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "What happens to the reactance of coupling and bypass capacitors in an amplifier as the operating frequency approaches DC (0 Hz)?",
+        "choices": [
+            "A. It approaches zero",
+            "B. It approaches infinity",
+            "C. It becomes purely resistive",
+            "D. It equals the internal transistor resistance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "For a Common-Emitter (CE) amplifier, a specific capacitor is connected across the emitter resistor to ground. If this capacitor is removed, what is the primary effect on the frequency response?",
+        "choices": [
+            "A. The upper cutoff frequency will decrease significantly",
+            "B. The low-frequency voltage gain will drop significantly",
+            "C. The bandwidth will become zero",
+            "D. The lower cutoff frequency will increase to infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "In a BJT amplifier, three separate low-frequency poles are formed by the input coupling capacitor (CC1), output coupling capacitor (CC2), and emitter bypass capacitor (CE). Which of these typically determines the dominant lower cutoff frequency?",
+        "choices": [
+            "A. The pole with the lowest frequency",
+            "B. The pole with the highest frequency",
+            "C. The geometric mean of the three",
+            "D. The arithmetic sum of the three"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "A BJT Common-Emitter amplifier is designed with an input signal source having resistance Rs = 1 kOhm, driving a base bias network with equivalent resistance Rb = 10 kOhms, and a transistor with input resistance Rin(base) = 2 kOhms. If the input coupling capacitor CC1 is 10 uF, what is the approximate lower cutoff frequency due to this capacitor alone?",
+        "choices": [
+            "A. 6.0 Hz",
+            "B. 15.9 Hz",
+            "C. 5.9 Hz",
+            "D. 1.5 Hz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "In a JFET Common-Source amplifier, the source bypass capacitor CS creates a low-frequency pole. The resistance seen by this capacitor is primarily determined by:",
+        "choices": [
+            "A. The parallel combination of Rs and gm",
+            "B. The parallel combination of Rs and 1/gm",
+            "C. The series combination of Rs and rd",
+            "D. The parallel combination of Rd and RL"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "The high-frequency response of a BJT amplifier is fundamentally limited by which of the following?",
+        "choices": [
+            "A. External coupling capacitors",
+            "B. External bypass capacitors",
+            "C. Inductance of the connecting wires",
+            "D. Interelectrode and stray wiring capacitances"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 16,
+        "question": "In the hybrid-pi high-frequency model of a BJT, the capacitance C_mu represents the capacitance between which two terminals?",
+        "choices": [
+            "A. Base and Emitter",
+            "B. Collector and Emitter",
+            "C. Base and Collector",
+            "D. Emitter and Ground"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "Which parameter describes the frequency at which the short-circuit common-emitter current gain (hfe or beta) drops to unity (0 dB)?",
+        "choices": [
+            "A. Alpha cutoff frequency (f_alpha)",
+            "B. Beta cutoff frequency (f_beta)",
+            "C. Transition frequency (f_T)",
+            "D. Maximum oscillation frequency (f_max)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 18,
+        "question": "If a BJT has a transition frequency (f_T) of 400 MHz and a low-frequency current gain (beta_o) of 100, what is its approximate beta cutoff frequency (f_beta)?",
+        "choices": [
+            "A. 400 MHz",
+            "B. 4 MHz",
+            "C. 40 MHz",
+            "D. 400 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "According to Miller's Theorem, an impedance Z connected between the input and output nodes of an inverting amplifier with voltage gain Av can be replaced by two equivalent impedances. What is the equivalent Miller input impedance?",
+        "choices": [
+            "A. Z / (1 + Av)",
+            "B. Z / (1 - Av)",
+            "C. Z * (1 - Av)",
+            "D. Z / (Av - 1)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "A Common-Emitter amplifier has an inverting midband voltage gain of -50. A parasitic base-to-collector capacitance (Cbc) of 2 pF exists in the transistor. What is the equivalent input Miller capacitance?",
+        "choices": [
+            "A. 102 pF",
+            "B. 98 pF",
+            "C. 100 pF",
+            "D. 2.04 pF"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "For the same amplifier with Av = -50 and Cbc = 2 pF, what is the approximate equivalent output Miller capacitance?",
+        "choices": [
+            "A. 2.04 pF",
+            "B. 102 pF",
+            "C. 100 pF",
+            "D. 0.04 pF"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "The Miller effect is most problematic in which of the following amplifier configurations, causing a significant reduction in high-frequency bandwidth?",
+        "choices": [
+            "A. Common-Base",
+            "B. Common-Collector",
+            "C. Common-Emitter",
+            "D. Emitter-Follower"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "In a JFET amplifier, which internal capacitance is typically amplified by the Miller effect and dominates the high-frequency roll-off at the input?",
+        "choices": [
+            "A. Gate-to-Source capacitance (Cgs)",
+            "B. Drain-to-Source capacitance (Cds)",
+            "C. Gate-to-Drain capacitance (Cgd)",
+            "D. Source-to-Substrate capacitance (Css)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "A worded circuit problem: An op-amp is configured as a non-inverting amplifier with a closed-loop gain of +10. A feedback resistor of 90 kOhms and a ground resistor of 10 kOhms are used. A parasitic capacitance of 1 pF exists in parallel with the 90 kOhm resistor. Does the Miller effect increase or decrease the effective input capacitance caused by this 1 pF capacitor?",
+        "choices": [
+            "A. It increases it significantly",
+            "B. It decreases it",
+            "C. It makes it exactly zero",
+            "D. The Miller effect does not apply to non-inverting configurations"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "The lower and upper cutoff frequencies of an amplifier are defined as the frequencies where the voltage gain drops to what fraction of its midband value?",
+        "choices": [
+            "A. 0.5",
+            "B. 0.707",
+            "C. 0.1",
+            "D. 0.316"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "If the midband voltage gain of an amplifier is 40 dB, what is the voltage gain at the upper cutoff frequency (fH)?",
+        "choices": [
+            "A. 20 dB",
+            "B. 37 dB",
+            "C. 40 dB",
+            "D. 34 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "An audio amplifier has a lower cutoff frequency of 20 Hz and an upper cutoff frequency of 20 kHz. What is its bandwidth?",
+        "choices": [
+            "A. 20 kHz",
+            "B. 19.98 kHz",
+            "C. 10 kHz",
+            "D. 400 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "For a narrowband tuned amplifier, the center frequency (fo) is mathematically related to the lower (fL) and upper (fH) cutoff frequencies by which relationship?",
+        "choices": [
+            "A. Arithmetic mean",
+            "B. Harmonic mean",
+            "C. Geometric mean",
+            "D. Summation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "An amplifier has a voltage gain of 1000. What is this gain expressed in decibels (dB)?",
+        "choices": [
+            "A. 30 dB",
+            "B. 60 dB",
+            "C. 20 dB",
+            "D. 40 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "If the power gain of an amplifier is 100, what is the power gain in decibels (dB)?",
+        "choices": [
+            "A. 10 dB",
+            "B. 40 dB",
+            "C. 20 dB",
+            "D. 100 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "Two amplifier stages are cascaded. Stage 1 has a voltage gain of 20 dB, and Stage 2 has a voltage gain of 15 dB. What is the overall voltage gain of the cascaded system in decibels?",
+        "choices": [
+            "A. 35 dB",
+            "B. 300 dB",
+            "C. 5 dB",
+            "D. 1.33 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "A specific op-amp has a stated Gain-Bandwidth Product (GBW) of 1 MHz. If it is configured as a non-inverting amplifier with a closed-loop voltage gain of 100, what is its approximate closed-loop bandwidth?",
+        "choices": [
+            "A. 10 kHz",
+            "B. 100 kHz",
+            "C. 1 MHz",
+            "D. 100 Hz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "For a single-pole low-pass amplifier response, the Gain-Bandwidth Product remains constant. If the midband gain is doubled, what happens to the bandwidth?",
+        "choices": [
+            "A. It doubles",
+            "B. It is halved",
+            "C. It is squared",
+            "D. It remains unchanged"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "In the time domain, the step response of a low-pass amplifier circuit exhibits a specific rise time (tr). The rise time is conventionally defined as the time taken for the output to transition between which two percentages of its final value?",
+        "choices": [
+            "A. 0% to 100%",
+            "B. 10% to 90%",
+            "C. 5% to 95%",
+            "D. 20% to 80%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "What is the empirical formula relating the rise time (tr) of an amplifier's step response to its upper cutoff frequency (fH or BW)?",
+        "choices": [
+            "A. tr = 1 / fH",
+            "B. tr = 0.707 / fH",
+            "C. tr = 0.35 / fH",
+            "D. tr = 2.2 / fH"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "An oscilloscope has a specified bandwidth of 100 MHz. What is the approximate minimum rise time it can accurately measure?",
+        "choices": [
+            "A. 3.5 ns",
+            "B. 35 ns",
+            "C. 0.35 ns",
+            "D. 350 ps"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "When a square wave is applied to an amplifier with a poor low-frequency response (high fL), the output waveform exhibits a distortion known as:",
+        "choices": [
+            "A. Ringing",
+            "B. Sag or Tilt",
+            "C. Clipping",
+            "D. Crossover distortion"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "A single-stage amplifier has a low-frequency pole at 50 Hz. The slope of the Bode magnitude plot below 50 Hz will be approximately:",
+        "choices": [
+            "A. +20 dB/decade",
+            "B. -20 dB/decade",
+            "C. +6 dB/decade",
+            "D. -6 dB/decade"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "At the exact lower cutoff frequency (fL) of a single-pole high-pass RC circuit, what is the phase shift between the output and input voltages?",
+        "choices": [
+            "A. 0 degrees",
+            "B. +90 degrees",
+            "C. -45 degrees",
+            "D. +45 degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "At the exact upper cutoff frequency (fH) of a single-pole low-pass RC circuit, what is the phase shift between the output and input voltages?",
+        "choices": [
+            "A. +45 degrees",
+            "B. -45 degrees",
+            "C. -90 degrees",
+            "D. 180 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "In a Bode magnitude plot, a roll-off of -20 dB/decade is mathematically equivalent to a roll-off of:",
+        "choices": [
+            "A. -10 dB/octave",
+            "B. -6 dB/octave",
+            "C. -3 dB/octave",
+            "D. -12 dB/octave"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "A multistage amplifier consists of 3 identical cascaded stages, each having an individual upper cutoff frequency of 10 kHz. What is the overall upper cutoff frequency of the entire system?",
+        "choices": [
+            "A. 30 kHz",
+            "B. 5.1 kHz",
+            "C. 10 kHz",
+            "D. 19.6 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "When two identical amplifier stages are cascaded, the overall lower cutoff frequency (fL_total) compared to the individual stage lower cutoff frequency (fL) will:",
+        "choices": [
+            "A. Decrease",
+            "B. Stay the same",
+            "C. Increase",
+            "D. Become zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "A Bode plot of an amplifier shows a midband gain of 60 dB. Above 100 kHz, the gain drops at a rate of -40 dB/decade. What will be the approximate gain at 1 MHz?",
+        "choices": [
+            "A. 40 dB",
+            "B. 20 dB",
+            "C. 0 dB",
+            "D. -20 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "In a BJT high-frequency model, the parameter rx (or r_bb') represents the:",
+        "choices": [
+            "A. Emitter dynamic resistance",
+            "B. Collector-base junction resistance",
+            "C. Base spreading resistance",
+            "D. Base-emitter dynamic resistance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "A Common-Base (CB) amplifier configuration is often preferred for high-frequency applications primarily because:",
+        "choices": [
+            "A. It has infinite input impedance",
+            "B. It completely eliminates the Miller effect on the input capacitance",
+            "C. It provides the highest current gain",
+            "D. It requires no coupling capacitors"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "The cascode amplifier configuration (Common-Emitter driving a Common-Base) is widely used in high-frequency tuned circuits because it:",
+        "choices": [
+            "A. Maximizes the input Miller capacitance",
+            "B. Provides high input impedance and minimizes the Miller effect",
+            "C. Eliminates the need for a DC power supply",
+            "D. Has a bandwidth strictly equal to f_T"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "A worded circuit problem: A JFET CS amplifier has Cgs = 5 pF, Cgd = 2 pF, and Cds = 1 pF. The midband voltage gain is -20. What is the total equivalent input capacitance (Cin) looking into the gate?",
+        "choices": [
+            "A. 47 pF",
+            "B. 7 pF",
+            "C. 45 pF",
+            "D. 5 pF"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "For the same JFET CS amplifier (Av = -20, Cgd = 2 pF, Cds = 1 pF), what is the total equivalent output capacitance (Cout) appearing in parallel with the drain resistor?",
+        "choices": [
+            "A. 2.1 pF",
+            "B. 1.1 pF",
+            "C. 3.1 pF",
+            "D. 41 pF"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "If the fractional tilt (or sag) of a square wave passed through an amplifier is P (expressed as a decimal) and the frequency of the square wave is f, the lower cutoff frequency fL is approximately given by:",
+        "choices": [
+            "A. fL = P * f / pi",
+            "B. fL = P * f",
+            "C. fL = P / (pi * f)",
+            "D. fL = f / (P * pi)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "An amplifier outputs a 1 kHz square wave with a measured sag (tilt) of 10%. What is the approximate lower cutoff frequency of the amplifier?",
+        "choices": [
+            "A. 100 Hz",
+            "B. 31.8 Hz",
+            "C. 3.18 Hz",
+            "D. 318 Hz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "A two-stage cascaded amplifier has individual lower cutoff frequencies of fL1 = 20 Hz and fL2 = 100 Hz. Which method provides a conservative (worst-case, highest) estimate for the overall lower cutoff frequency?",
+        "choices": [
+            "A. fL1 + fL2",
+            "B. sqrt(fL1 * fL2)",
+            "C. fL1 * fL2 / (fL1 + fL2)",
+            "D. fL2 - fL1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "A high-frequency Bode phase plot for a single-pole low-pass circuit transitions from 0 degrees at low frequencies to what asymptotic limit at very high frequencies?",
+        "choices": [
+            "A. +90 degrees",
+            "B. -180 degrees",
+            "C. -90 degrees",
+            "D. -45 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "In frequency response analysis, a \"decade\" refers to a frequency change by a factor of:",
+        "choices": [
+            "A. 2",
+            "B. 10",
+            "C. 20",
+            "D. e (2.718)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "In frequency response analysis, an \"octave\" refers to a frequency change by a factor of:",
+        "choices": [
+            "A. 10",
+            "B. e",
+            "C. 2",
+            "D. 8"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "The transition frequency (fT) of a BJT is measured when the common-emitter configuration is operating into a:",
+        "choices": [
+            "A. Open circuit load",
+            "B. Matched impedance load",
+            "C. Short circuit load",
+            "D. Capacitive load"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "Which internal BJT capacitance is primarily associated with the forward-biased base-emitter junction and is related to minority carrier charge storage?",
+        "choices": [
+            "A. Transition capacitance",
+            "B. Depletion capacitance",
+            "C. Miller capacitance",
+            "D. Diffusion capacitance"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "Which internal FET capacitance is typically the smallest in magnitude?",
+        "choices": [
+            "A. Gate-to-drain capacitance (Cgd)",
+            "B. Gate-to-source capacitance (Cgs)",
+            "C. Drain-to-source capacitance (Cds)",
+            "D. They are all identically equal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "A worded circuit description: A BJT amplifier uses a coupling capacitor CC = 1 uF in series with an input signal source Rs = 600 ohms. The input impedance of the amplifier is Rin = 1.4 kOhms. What is the lower cutoff frequency formed by this input network?",
+        "choices": [
+            "A. 79.6 Hz",
+            "B. 159 Hz",
+            "C. 26.5 Hz",
+            "D. 100 Hz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "To significantly improve the low-frequency response (lower fL) of a BJT amplifier without changing the bias resistors, one must:",
+        "choices": [
+            "A. Decrease the value of coupling and bypass capacitors",
+            "B. Increase the value of coupling and bypass capacitors",
+            "C. Increase the power supply voltage Vcc",
+            "D. Replace the BJT with a FET"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "If the midband gain of an amplifier is 1000 V/V, and it has a single high-frequency pole at 50 kHz, what is the magnitude of the voltage gain at 50 kHz?",
+        "choices": [
+            "A. 500 V/V",
+            "B. 1000 V/V",
+            "C. 707 V/V",
+            "D. 1414 V/V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "The gain-bandwidth product (GBW) is generally applicable as a constant only for amplifiers exhibiting what kind of high-frequency roll-off?",
+        "choices": [
+            "A. -60 dB/decade",
+            "B. -40 dB/decade",
+            "C. -20 dB/decade",
+            "D. Variable slope"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "A broadband RF amplifier operates from 10 MHz to 1 GHz. Its bandwidth is essentially equal to:",
+        "choices": [
+            "A. Its center frequency",
+            "B. Its upper cutoff frequency",
+            "C. Its lower cutoff frequency",
+            "D. The geometric mean of the cutoffs"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "A certain transistor has fT = 500 MHz and a low-frequency beta = 50. If operated in a circuit where the midband current gain is reduced to 10 (due to broadbanding techniques), what is the new effective bandwidth of the current gain?",
+        "choices": [
+            "A. 10 MHz",
+            "B. 50 MHz",
+            "C. 100 MHz",
+            "D. 500 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "The output coupling capacitor CC2 in a BJT amplifier forms a high-pass filter with which combination of resistors?",
+        "choices": [
+            "A. RC in parallel with RL",
+            "B. RC in series with RL",
+            "C. Only RL",
+            "D. ro in parallel with RC"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "A worded circuit description: An emitter bypass capacitor CE = 100 uF is used in a CE amplifier. The dynamic emitter resistance re' = 20 ohms. The parallel combination of bias resistors and source resistance divided by beta is negligible. What is the approximate pole frequency created by CE?",
+        "choices": [
+            "A. 15.9 Hz",
+            "B. 79.6 Hz",
+            "C. 31.8 Hz",
+            "D. 159 Hz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "When plotting a Bode magnitude plot, a zero at frequency fz will cause the slope of the asymptotic plot to:",
+        "choices": [
+            "A. Decrease by 20 dB/decade",
+            "B. Become flat",
+            "C. Increase by 20 dB/decade",
+            "D. Drop immediately by 3 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "A transfer function has a pole at 100 Hz and a zero at 0 Hz (origin). What is the behavior of the magnitude response below 100 Hz?",
+        "choices": [
+            "A. Flat (0 dB/decade slope)",
+            "B. Decreasing (-20 dB/decade slope)",
+            "C. Increasing (+20 dB/decade slope)",
+            "D. Oscillating"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "In a multistage amplifier, if you cascade identical stages to achieve a very high overall gain, what is the unavoidable consequence regarding the frequency response?",
+        "choices": [
+            "A. The bandwidth expands",
+            "B. The bandwidth shrinks",
+            "C. The center frequency shifts to DC",
+            "D. The phase shift becomes zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "A step voltage is applied to a single-pole high-pass RC circuit (which models the low-frequency coupling network). The output voltage in the time domain will:",
+        "choices": [
+            "A. Rise exponentially to a final value",
+            "B. Start at zero and stay at zero",
+            "C. Start at a maximum and decay exponentially to zero",
+            "D. Form a perfect square wave"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "To measure the rise time of a 10 ns signal accurately, the oscilloscope should ideally have a rise time of no more than:",
+        "choices": [
+            "A. 10 ns",
+            "B. 33 ns",
+            "C. 2 ns",
+            "D. 50 ns"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "A CE amplifier has Av = -100. The device has Cpi = 10 pF and Cmu = 2 pF. What is the total input capacitance including the Miller effect?",
+        "choices": [
+            "A. 212 pF",
+            "B. 12 pF",
+            "C. 200 pF",
+            "D. 110 pF"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "The overall upper cutoff frequency of n cascaded non-interacting stages, each with different cutoff frequencies fH1, fH2, fH3... can be roughly approximated by the formula: 1 / fH_overall = sqrt(1/fH1^2 + 1/fH2^2 + ...). This is an application of:",
+        "choices": [
+            "A. Miller's Theorem",
+            "B. Dominant Pole approximation",
+            "C. Bisection Theorem",
+            "D. Tellegen's Theorem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "In analyzing the high-frequency response of a FET, the transit time of charge carriers through the channel becomes significant. This transit time is inversely proportional to:",
+        "choices": [
+            "A. The gate-source voltage",
+            "B. The channel length squared",
+            "C. The drain-source capacitance",
+            "D. The gate leakage current"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "What parameter determines the maximum frequency at which a transistor can provide a power gain greater than 1?",
+        "choices": [
+            "A. f_alpha",
+            "B. f_beta",
+            "C. f_T",
+            "D. f_max"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 76,
+        "question": "A 3-stage amplifier has individual stage bandwidths of 100 kHz, 1 MHz, and 10 MHz. Which stage will primarily dictate the overall upper cutoff frequency of the system?",
+        "choices": [
+            "A. The 10 MHz stage",
+            "B. The 1 MHz stage",
+            "C. The 100 kHz stage",
+            "D. It is the exact average of all three"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "In a Bode phase plot for a single-pole low-pass filter with cutoff frequency fH, what is the phase shift at exactly 0.1 * fH?",
+        "choices": [
+            "A. 0 degrees",
+            "B. -5.7 degrees",
+            "C. -45 degrees",
+            "D. -90 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "For the same single-pole low-pass filter, what is the phase shift at exactly 10 * fH?",
+        "choices": [
+            "A. -90 degrees",
+            "B. -45 degrees",
+            "C. -84.3 degrees",
+            "D. -180 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "A worded circuit problem: A common-source FET amplifier has a midband gain of -10. The load resistance is RL = 5 kOhms and the drain resistor is Rd = 5 kOhms. A load capacitance CL = 100 pF is connected across the output to ground. Ignoring internal FET capacitances, what is the high-frequency cutoff caused by CL?",
+        "choices": [
+            "A. 318 kHz",
+            "B. 636 kHz",
+            "C. 1.59 MHz",
+            "D. 159 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "What is the primary reason that direct-coupled (DC) amplifiers are used instead of RC-coupled amplifiers in certain applications?",
+        "choices": [
+            "A. They provide higher high-frequency gain",
+            "B. They amplify signals down to zero hertz (DC)",
+            "C. They eliminate the Miller effect",
+            "D. They require fewer transistors"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "A certain amplifier has a voltage gain of 20 V/V. If the input signal voltage is doubled, what happens to the bandwidth of the amplifier? (Assume small-signal linear operation remains valid).",
+        "choices": [
+            "A. It doubles",
+            "B. It halves",
+            "C. It decreases slightly due to heating",
+            "D. It remains unchanged"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 82,
+        "question": "Which network theorem allows you to separate the input and output time constants of an amplifier circuit experiencing capacitive feedback from output to input?",
+        "choices": [
+            "A. Thevenin's Theorem",
+            "B. Superposition Theorem",
+            "C. Norton's Theorem",
+            "D. Miller's Theorem"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "For a high-frequency equivalent circuit of a BJT, the parameter gm (transconductance) is equal to:",
+        "choices": [
+            "A. Ic / VT",
+            "B. VT / Ic",
+            "C. beta / re",
+            "D. alpha * re"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "If a system has a single zero at the origin and a single pole at 10 kHz, it functions as a:",
+        "choices": [
+            "A. High-pass filter",
+            "B. Low-pass filter",
+            "C. Band-pass filter",
+            "D. Band-stop filter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "The \"dominant pole\" in the low-frequency response of an amplifier is the one that occurs at the:",
+        "choices": [
+            "A. Lowest frequency",
+            "B. Highest frequency",
+            "C. Resonant frequency",
+            "D. Cutoff frequency of the transistor itself"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "The \"dominant pole\" in the high-frequency response of an amplifier is the one that occurs at the:",
+        "choices": [
+            "A. Lowest frequency",
+            "B. Highest frequency",
+            "C. Resonant frequency",
+            "D. Frequency where gain is 0 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "An amplifier has a midband gain of 10,000. It has two high-frequency poles: fH1 = 1 MHz and fH2 = 10 MHz. What is the approximate gain of the amplifier at 10 MHz?",
+        "choices": [
+            "A. 1,000",
+            "B. 100",
+            "C. 141",
+            "D. 707"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "A Common-Drain (Source-Follower) FET amplifier is noted for having:",
+        "choices": [
+            "A. Extremely high voltage gain",
+            "B. Very poor high-frequency response due to Miller effect",
+            "C. Wide bandwidth due to absence of Miller effect on the input capacitance",
+            "D. Low input impedance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "The unit \"decibel\" is fundamentally a measure of:",
+        "choices": [
+            "A. Absolute voltage",
+            "B. Absolute power",
+            "C. Power ratio",
+            "D. Frequency ratio"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "If the voltage across a constant resistance is halved, the change in decibels is approximately:",
+        "choices": [
+            "A. -3 dB",
+            "B. -6 dB",
+            "C. -10 dB",
+            "D. -20 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "An amplifier is characterized by a step response with a 10% to 90% rise time of 1 microsecond. Its equivalent bandwidth is roughly:",
+        "choices": [
+            "A. 350 kHz",
+            "B. 1 MHz",
+            "C. 3.5 MHz",
+            "D. 35 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "Which BJT configuration is inherently the most susceptible to bandwidth narrowing from the Miller effect?",
+        "choices": [
+            "A. Common-Base",
+            "B. Emitter-Follower",
+            "C. Common-Collector",
+            "D. Common-Emitter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "In Bode plot construction, a complex conjugate pole pair (second-order system) with a very low damping ratio will cause what distinct feature in the magnitude plot?",
+        "choices": [
+            "A. A flat line",
+            "B. A sharp resonant peak near the corner frequency",
+            "C. An immediate drop of 40 dB",
+            "D. A sudden phase reversal of 360 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "If the lower cutoff frequency of an amplifier is 0 Hz, the amplifier is called:",
+        "choices": [
+            "A. AC coupled",
+            "B. Tuned",
+            "C. Direct coupled",
+            "D. Narrowband"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "A worded circuit description: A multi-stage amplifier has an overall voltage gain of 80 dB. It consists of Stage 1 (25 dB) and Stage 2 (35 dB) and Stage 3. What is the linear voltage gain (V/V) of Stage 3 alone?",
+        "choices": [
+            "A. 10 V/V",
+            "B. 100 V/V",
+            "C. 20 V/V",
+            "D. 200 V/V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 96,
+        "question": "The internal base spreading resistance rx (or r_bb') in a BJT becomes critical in limiting the performance of the transistor at:",
+        "choices": [
+            "A. Very low frequencies",
+            "B. High frequencies",
+            "C. High DC bias currents",
+            "D. Low DC bias voltages"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "An amplifier has a transfer function given by A(s) = 1000 / (1 + s/1000). What is the upper cutoff frequency in Hertz?",
+        "choices": [
+            "A. 1000 Hz",
+            "B. 159 Hz",
+            "C. 6280 Hz",
+            "D. 15.9 Hz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "To double the bandwidth of a single-pole amplifier while utilizing the same active device, a design engineer could apply negative feedback. What must simultaneously happen to the midband gain?",
+        "choices": [
+            "A. It must double",
+            "B. It must be halved",
+            "C. It must be squared",
+            "D. It remains unchanged"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "In analyzing the low-frequency response of a BJT amplifier, the source resistance Rs is considered. If Rs is increased, what is the typical effect on the lower cutoff frequency fL caused by the input coupling capacitor CC1?",
+        "choices": [
+            "A. It increases",
+            "B. It remains unchanged",
+            "C. It decreases",
+            "D. It causes the circuit to oscillate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "If an ideal voltage amplifier is designed with an infinite input impedance and zero output impedance, how does the load capacitance CL affect its bandwidth?",
+        "choices": [
+            "A. It drastically reduces bandwidth",
+            "B. It has no effect on the bandwidth",
+            "C. It creates a dominant low-frequency pole",
+            "D. It turns the amplifier into an oscillator"
+        ],
+        "correct_answer": "B"
+    }
+]

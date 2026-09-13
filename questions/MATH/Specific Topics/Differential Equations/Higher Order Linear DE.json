@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 0,
+        "question": "",
+        "choices": [
+            "A. C_1 x^2 + C_2 x^2",
+            "B. (C_1 + C_2 ln x)x^2",
+            "C. C_1 x^2 + C_2 x ln x",
+            "D. (C_1 + C_2 x)e^2x"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 1,
+        "question": "Determine the order of the differential equation d^3y/dx^3 + (dy/dx)^4 = 0.",
+        "choices": [
+            "A. 3",
+            "B. 4",
+            "C. 1",
+            "D. 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "The standard integrating factor for the linear equation dy/dx + 2y = e^x is:",
+        "choices": [
+            "A. e^x",
+            "B. e^2x",
+            "C. e^-2x",
+            "D. x^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "A first-order differential equation M(x,y)dx + N(x,y)dy = 0 is exact if and only if:",
+        "choices": [
+            "A. M_x = N_y",
+            "B. M_y = -N_x",
+            "C. M_y = N_x",
+            "D. M_x = -N_y"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "Given the radioactive decay model dy/dt = -ky, the formula for the half-life T is:",
+        "choices": [
+            "A. T = k ln(2)",
+            "B. T = k / ln(2)",
+            "C. T = 2 / k",
+            "D. T = ln(2) / k"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "The orthogonal trajectories of the family of circles centered at the origin (x^2 + y^2 = r^2) form a family of:",
+        "choices": [
+            "A. Straight lines through the origin",
+            "B. Parabolas",
+            "C. Ellipses",
+            "D. Hyperbolas"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "The time constant of a series RC circuit is mathematically given by:",
+        "choices": [
+            "A. R/C",
+            "B. RC",
+            "C. 1/(RC)",
+            "D. C/R"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "A function f(x,y) is defined as homogeneous of degree n if f(tx, ty) evaluates to:",
+        "choices": [
+            "A. t f(x,y)",
+            "B. f(x,y)/t^n",
+            "C. t^n f(x,y)",
+            "D. t^n-1 f(x,y)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "Eliminate the arbitrary constant C from the equation y = Cx^2 to find its differential equation.",
+        "choices": [
+            "A. y' = 2Cx",
+            "B. xy' = y",
+            "C. 2xy' = y",
+            "D. xy' = 2y"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "The Wronskian W(y_1, y_2) of two differentiable functions y_1 and y_2 is defined by the determinant:",
+        "choices": [
+            "A. y_1 y_2' - y_1' y_2",
+            "B. y_1' y_2 - y_1 y_2'",
+            "C. y_1 y_2 - y_1' y_2'",
+            "D. y_1/y_2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "Two solutions y_1 and y_2 of a linear homogeneous DE are linearly independent on an interval if their Wronskian is:",
+        "choices": [
+            "A. Zero everywhere on the interval",
+            "B. Non-zero everywhere on the interval",
+            "C. A constant",
+            "D. A linear function"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "Calculate the Wronskian W(e^x, e^-x).",
+        "choices": [
+            "A. 0",
+            "B. 2",
+            "C. -2",
+            "D. 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "Calculate the Wronskian W(sin x, cos x).",
+        "choices": [
+            "A. 1",
+            "B. sin^2 x",
+            "C. 0",
+            "D. -1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Calculate the Wronskian W(x, x^2).",
+        "choices": [
+            "A. x^2",
+            "B. x",
+            "C. 2x^2",
+            "D. 3x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Calculate the Wronskian of y_1 = e^2x and y_2 = x e^2x.",
+        "choices": [
+            "A. e^2x",
+            "B. e^4x",
+            "C. xe^4x",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Abel's Identity states that the Wronskian W(y_1, y_2) for the equation y'' + P(x)y' + Q(x)y = 0 is proportional to:",
+        "choices": [
+            "A. e^∫ P(x) dx",
+            "B. e^∫ Q(x) dx",
+            "C. e^-∫ P(x) dx",
+            "D. e^-∫ Q(x) dx"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "Determine the Wronskian of the fundamental set of solutions for the differential equation y'' = 0.",
+        "choices": [
+            "A. 0",
+            "B. x",
+            "C. 2",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "Evaluate the Wronskian of y_1 = cos^2 x and y_2 = sin^2 x.",
+        "choices": [
+            "A. -sin(2x)",
+            "B. cos(2x)",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "Three functions f_1, f_2, f_3 are considered linearly dependent if their 3x3 Wronskian evaluates to:",
+        "choices": [
+            "A. A non-zero constant",
+            "B. 0",
+            "C. 1",
+            "D. A polynomial of degree 3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Find the expression for the Wronskian of e^ax and e^bx.",
+        "choices": [
+            "A. (a-b)e^(a+b)x",
+            "B. (a+b)e^(a+b)x",
+            "C. (b-a)e^(a+b)x",
+            "D. ab e^(a+b)x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "If the Wronskian W(y_1, y_2) = x^2, then the solutions y_1 and y_2 are guaranteed to be linearly independent on the interval:",
+        "choices": [
+            "A. (-∞, 0) only",
+            "B. (0, ∞) only",
+            "C. [-1, 1]",
+            "D. (-∞, 0) and (0, ∞)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "What is the standard characteristic (or auxiliary) equation for the linear differential equation a y'' + b y' + c y = 0?",
+        "choices": [
+            "A. am^2 + bm + c = 0",
+            "B. am^2 - bm + c = 0",
+            "C. am^2 + cm + b = 0",
+            "D. am^3 + bm^2 + c = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Find the roots of the auxiliary equation for y'' - 5y' + 6y = 0.",
+        "choices": [
+            "A. -2, -3",
+            "B. 2, 3",
+            "C. -1, 6",
+            "D. 1, -6"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "Determine the general solution to the differential equation y'' - 5y' + 6y = 0.",
+        "choices": [
+            "A. C_1 e^2x + C_2 e^-3x",
+            "B. C_1 e^-2x + C_2 e^3x",
+            "C. C_1 e^2x + C_2 e^3x",
+            "D. C_1 e^-2x + C_2 e^-3x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "What is the characteristic equation for y''' - y'' - y' + y = 0?",
+        "choices": [
+            "A. m^3 + m^2 + m + 1 = 0",
+            "B. m^3 - m^2 + m - 1 = 0",
+            "C. m^3 + m^2 - m - 1 = 0",
+            "D. m^3 - m^2 - m + 1 = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "Solve the differential equation y'' - 4y = 0.",
+        "choices": [
+            "A. C_1 e^2x + C_2 e^-2x",
+            "B. C_1 cos 2x + C_2 sin 2x",
+            "C. (C_1 + C_2 x)e^2x",
+            "D. C_1 e^4x + C_2 e^-4x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "Solve the differential equation y'' + 4y = 0.",
+        "choices": [
+            "A. C_1 e^2x + C_2 e^-2x",
+            "B. C_1 cos 2x + C_2 sin 2x",
+            "C. (C_1 + C_2 x)e^2x",
+            "D. (C_1 + C_2 x)cos 2x"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "Solve the differential equation y'' - 4y' + 4y = 0.",
+        "choices": [
+            "A. C_1 e^2x + C_2 e^-2x",
+            "B. C_1 cos 2x + C_2 sin 2x",
+            "C. (C_1 + C_2 x)e^2x",
+            "D. C_1 e^2x + C_2 e^4x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Find the roots of the characteristic equation for y'' + 2y' + 5y = 0.",
+        "choices": [
+            "A. 1 ± 2i",
+            "B. -2 ± i",
+            "C. -1 ± 4i",
+            "D. -1 ± 2i"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "The general solution to a linear DE with complex conjugate roots m = α ± β i takes the form:",
+        "choices": [
+            "A. e^α x(C_1 cos β x + C_2 sin β x)",
+            "B. e^β x(C_1 cos α x + C_2 sin α x)",
+            "C. cos α x (C_1 e^β x + C_2 e^-β x)",
+            "D. C_1 e^α x + C_2 e^β i x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Find the general solution to y'' + 2y' + 5y = 0.",
+        "choices": [
+            "A. e^x(C_1 cos 2x + C_2 sin 2x)",
+            "B. e^-x(C_1 cos 2x + C_2 sin 2x)",
+            "C. e^-2x(C_1 cos x + C_2 sin x)",
+            "D. e^-x(C_1 cos 5x + C_2 sin 5x)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Solve the third-order differential equation y''' - 3y'' + 3y' - y = 0.",
+        "choices": [
+            "A. (C_1 + C_2 x)e^x",
+            "B. C_1 e^x + C_2 e^-x + C_3 e^3x",
+            "C. (C_1 + C_2 x + C_3 x^2)e^x",
+            "D. C_1 e^x + C_2 cos x + C_3 sin x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "Find the complete set of roots for the auxiliary equation of y^(4) - 16y = 0.",
+        "choices": [
+            "A. 2, 2, -2, -2",
+            "B. 2i, -2i, 4i, -4i",
+            "C. 16, -16, 4i, -4i",
+            "D. 2, -2, 2i, -2i"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "If the roots of an auxiliary equation are 0, 0, 1, what is the corresponding homogeneous differential equation?",
+        "choices": [
+            "A. y''' - y'' = 0",
+            "B. y''' + y'' = 0",
+            "C. y''' - y' = 0",
+            "D. y'' - y' = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Which differential equation correctly corresponds to the general solution y = C_1 cos 3x + C_2 sin 3x?",
+        "choices": [
+            "A. y'' - 9y = 0",
+            "B. y'' + 9y = 0",
+            "C. y'' + 3y = 0",
+            "D. y'' - 3y = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Which differential equation correctly corresponds to the general solution y = e^x(C_1 + C_2 x)?",
+        "choices": [
+            "A. y'' - y = 0",
+            "B. y'' + y = 0",
+            "C. y'' - 2y' + y = 0",
+            "D. y'' + 2y' + y = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "The auxiliary equation for y^(4) + 2y'' + y = 0 yields which set of roots?",
+        "choices": [
+            "A. 1, -1 (multiplicity 2)",
+            "B. i, -i",
+            "C. 1, 1, -1, -1",
+            "D. i, -i (multiplicity 2)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "Solve the Initial Value Problem: y'' - y' - 2y = 0, subject to y(0)=1 and y'(0)=2.",
+        "choices": [
+            "A. y = e^2x",
+            "B. y = e^-x",
+            "C. y = (1/3)e^2x + (2/3)e^-x",
+            "D. y = e^2x - e^-x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "The linear differential operator D^2 + ω^2 effectively annihilates which of the following functions?",
+        "choices": [
+            "A. e^ω x",
+            "B. sin(ω x)",
+            "C. x cos(ω x)",
+            "D. x^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Find the general solution for the differential equation 4y'' - 12y' + 9y = 0.",
+        "choices": [
+            "A. C_1 e^1.5x + C_2 e^-1.5x",
+            "B. C_1 e^3x + C_2 e^1.5x",
+            "C. (C_1 + C_2 x)e^1.5x",
+            "D. (C_1 + C_2 x)e^3x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "Evaluate y(π) for the differential equation y'' + y = 0, given the initial conditions y(0)=1 and y'(0)=0.",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. π",
+            "D. -1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Which constant-coefficient differential equation is annihilated by the operator (D-2)^3?",
+        "choices": [
+            "A. y''' - 6y'' + 12y' - 8y = 0",
+            "B. y''' + 6y'' + 12y' + 8y = 0",
+            "C. y''' - 8y = 0",
+            "D. y''' + 8y = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "Determine the general solution of y''' - 2y'' - y' + 2y = 0.",
+        "choices": [
+            "A. C_1 e^x + C_2 e^2x + C_3 e^3x",
+            "B. C_1 e^x + C_2 e^-x + C_3 e^2x",
+            "C. C_1 e^-x + C_2 e^-2x + C_3 e^x",
+            "D. C_1 cos x + C_2 sin x + C_3 e^2x"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "An undamped harmonic oscillator modeled by my'' + ky = 0 has a general solution exclusively involving:",
+        "choices": [
+            "A. Exponential growth",
+            "B. Exponential decay",
+            "C. Sines and cosines",
+            "D. Linear polynomials"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "For the equation y'' + 6y' + 9y = 0, evaluate y(1) given the initial conditions y(0)=0 and y'(0)=3.",
+        "choices": [
+            "A. 3e^3",
+            "B. e^-3",
+            "C. 3eI¹",
+            "D. 3e^-3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "A third-order homogeneous linear DE possesses roots m = 1, 1 ± i. Identify the equation.",
+        "choices": [
+            "A. y''' - 3y'' + 4y' - 2y = 0",
+            "B. y''' + 3y'' + 4y' + 2y = 0",
+            "C. y''' - y'' + y' - y = 0",
+            "D. y''' + 2y'' + 2y' = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "The standard mathematical form of a second-order Cauchy-Euler differential equation is:",
+        "choices": [
+            "A. a y'' + b y' + c y = 0",
+            "B. a x^2 y'' + b x y' + c y = 0",
+            "C. a x y'' + b y' + c y = 0",
+            "D. x^2 y'' + x y' + x y = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "What fundamental substitution converts a Cauchy-Euler equation into a linear DE with constant coefficients?",
+        "choices": [
+            "A. y = e^x",
+            "B. x = ln(t)",
+            "C. x = e^t",
+            "D. y = x^m"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "Substituting y = x^m into the Cauchy-Euler equation ax^2y'' + bxy' + cy = 0 yields the auxiliary equation:",
+        "choices": [
+            "A. am^2 + bm + c = 0",
+            "B. a(m-1)^2 + bm + c = 0",
+            "C. am^2 + (b-a)m + c = 0",
+            "D. am(m-1) + bm + c = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "Solve the Cauchy-Euler equation x^2 y'' - 2y = 0.",
+        "choices": [
+            "A. C_1 x^2 + C_2 xI¹",
+            "B. C_1 x^2 + C_2 x^-2",
+            "C. C_1 x^2 + C_2 ln x",
+            "D. C_1 e^2x + C_2 e^-x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "Solve the Cauchy-Euler equation x^2 y'' + xy' + y = 0.",
+        "choices": [
+            "A. C_1 cos x + C_2 sin x",
+            "B. C_1 cos(x) + C_2 ln(sin x)",
+            "C. C_1 cos(ln x) + C_2 sin(ln x)",
+            "D. x(C_1 cos(ln x) + C_2 sin(ln x))"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "The auxiliary equation for the Cauchy-Euler equation 2x^2 y'' + 3xy' - y = 0 yields the roots:",
+        "choices": [
+            "A. 1, -1/2",
+            "B. 1, 2",
+            "C. 1/2, 1",
+            "D. 1/2, -1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "Using the coordinate transformation x = e^t, the differential operator x^2 y'' translates to:",
+        "choices": [
+            "A. d^2y/dt^2 - dy/dt",
+            "B. d^2y/dt^2 + dy/dt",
+            "C. t^2 d^2y/dt^2",
+            "D. d^2y/dt^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "In a Cauchy-Euler DE, if the auxiliary equation yields complex conjugate roots m = α ± β i, the solution takes the form:",
+        "choices": [
+            "A. x^α(C_1 cos β x + C_2 sin β x)",
+            "B. x^α(C_1 cos(β ln x) + C_2 sin(β ln x))",
+            "C. e^α x(C_1 cos(β ln x) + C_2 sin(β ln x))",
+            "D. x^α C_1 cos(β ln x)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Solve the differential equation x^2 y'' + 5xy' + 4y = 0.",
+        "choices": [
+            "A. C_1 x^-2 + C_2 x^-2",
+            "B. (C_1 + C_2 x)x^-2",
+            "C. x^-2(C_1 + C_2 ln x)",
+            "D. C_1 x^2 + C_2 ln(x^2)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "The Cauchy-Euler equation 4x^2 y'' + 8xy' + y = 0 has the general solution:",
+        "choices": [
+            "A. C_1 x^1/2 + C_2 x^-1/2",
+            "B. x^-1/2(C_1 cos(ln x) + C_2 sin(ln x))",
+            "C. (C_1 + C_2 ln x)x^1/2",
+            "D. x^-1/2(C_1 + C_2 ln x)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "Evaluate y(2) for the Initial Value Problem x^2 y'' - 2y = 0, given y(1)=3 and y'(1)=0.",
+        "choices": [
+            "A. 5",
+            "B. 3",
+            "C. 4.5",
+            "D. 6"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "What is the corresponding Cauchy-Euler differential equation for the general solution y = C_1 + C_2 ln x?",
+        "choices": [
+            "A. x^2 y'' - xy' = 0",
+            "B. x^2 y'' + xy' = 0",
+            "C. x^2 y'' + y = 0",
+            "D. xy'' + y' + y = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Find the roots of the characteristic equation for the Cauchy-Euler DE x^2 y'' - 4xy' + 6y = 0.",
+        "choices": [
+            "A. 2, -3",
+            "B. -2, 3",
+            "C. 2, 3",
+            "D. -2, -3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "If a Cauchy-Euler DE transforms into a constant coefficient DE with roots m = 0, 0, 0, the general solution is:",
+        "choices": [
+            "A. C_1 + C_2 x + C_3 x^2",
+            "B. C_1 + C_2 e^x + C_3 e^2x",
+            "C. C_1 + C_2 ln x + C_3 x ln x",
+            "D. C_1 + C_2 ln x + C_3 (ln x)^2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "The method of undetermined coefficients is strictly applicable to linear differential equations featuring:",
+        "choices": [
+            "A. Constant coefficients",
+            "B. Variable coefficients",
+            "C. Non-linear terms",
+            "D. Singular points"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "For the method of undetermined coefficients, the non-homogeneous term g(x) MUST be comprised of:",
+        "choices": [
+            "A. Any continuous mathematical function",
+            "B. Polynomials, exponentials, sines, cosines (and finite sums/products thereof)",
+            "C. Logarithms, tangents, and secants",
+            "D. Rational algebraic functions"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "The complete solution to a non-homogeneous DE is y = y_c + y_p. The y_c term is formally known as the:",
+        "choices": [
+            "A. Principal solution",
+            "B. Particular integral",
+            "C. Complementary function",
+            "D. Auxiliary variable"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "What is the correct assumed form of the particular solution y_p for y'' - y = x^2?",
+        "choices": [
+            "A. Ax^2",
+            "B. Ax^2 + B",
+            "C. A(x+B)^2",
+            "D. Ax^2 + Bx + C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "What is the correct assumed form of the particular solution y_p for y'' + 4y = e^3x?",
+        "choices": [
+            "A. A e^3x",
+            "B. Ax e^3x",
+            "C. (Ax+B)e^3x",
+            "D. A e^3x + B e^-3x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "What is the correct assumed form of the particular solution y_p for y'' + y = sin x?",
+        "choices": [
+            "A. A sin x + B cos x",
+            "B. x(A cos x + B sin x)",
+            "C. A x sin x",
+            "D. A sin x"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Evaluate the particular solution y_p for the equation y'' - 4y' = 8.",
+        "choices": [
+            "A. y_p = -2",
+            "B. y_p = 2x",
+            "C. y_p = -2x",
+            "D. y_p = 8x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Evaluate the particular solution y_p for the equation y'' - 5y' + 6y = e^x.",
+        "choices": [
+            "A. y_p = 2 e^x",
+            "B. y_p = e^x",
+            "C. y_p = -0.5 e^x",
+            "D. y_p = 0.5 e^x"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "Determine the appropriate assumed form of y_p for the equation y'' - 2y' + y = e^x.",
+        "choices": [
+            "A. A x^2 e^x",
+            "B. A x e^x",
+            "C. A e^x",
+            "D. (A x^2 + B x)e^x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "Which specific differential operator successfully annihilates the function g(x) = x e^2x?",
+        "choices": [
+            "A. D - 2",
+            "B. (D - 2)^2",
+            "C. (D + 2)^2",
+            "D. D^2 - 4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "Which specific differential operator successfully annihilates the function g(x) = x^2?",
+        "choices": [
+            "A. D^2",
+            "B. D^2 + 1",
+            "C. D^3",
+            "D. (D-1)^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "Which specific differential operator successfully annihilates the function g(x) = sin 3x?",
+        "choices": [
+            "A. D - 3",
+            "B. D + 3",
+            "C. D^2 - 9",
+            "D. D^2 + 9"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "Calculate the particular solution y_p for the differential equation y'' + y = x.",
+        "choices": [
+            "A. y_p = x",
+            "B. y_p = x^2",
+            "C. y_p = sin x",
+            "D. y_p = -x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "What is the correct assumed form of y_p for the differential equation y''' - y'' = x?",
+        "choices": [
+            "A. Ax + B",
+            "B. x^2(Ax + B)",
+            "C. x(Ax + B)",
+            "D. A x^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "Calculate the particular solution y_p for the differential equation y'' - 4y = e^2x.",
+        "choices": [
+            "A. y_p = (1/2) x e^2x",
+            "B. y_p = -(1/4) e^2x",
+            "C. y_p = (1/4) x e^2x",
+            "D. y_p = x e^2x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "In the method of undetermined coefficients, if g(x) = 5 and y_c = C_1 + C_2 e^-x, what is the correct form for y_p?",
+        "choices": [
+            "A. A",
+            "B. A e^-x",
+            "C. A x^2",
+            "D. Ax"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "For the non-homogeneous equation y'' + 9y = 2cos 3x, the particular solution y_p assumes the form:",
+        "choices": [
+            "A. x(Acos 3x + Bsin 3x)",
+            "B. Acos 3x + Bsin 3x",
+            "C. A x cos 3x",
+            "D. A x^2 cos 3x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "For the equation y'' - y = e^x + x, the correct general structure for y_p is:",
+        "choices": [
+            "A. Ax e^x + Bx",
+            "B. Ax e^x + Bx + C",
+            "C. A e^x + Bx + C",
+            "D. x(A e^x + Bx + C)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "Which of the following right-hand side forcing functions g(x) CANNOT be handled using the standard method of undetermined coefficients?",
+        "choices": [
+            "A. x^3 e^-2x",
+            "B. cos^2 x",
+            "C. ln x",
+            "D. sinh x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "Calculate the precise particular solution y_p for the equation y'' - 3y' + 2y = 4.",
+        "choices": [
+            "A. 1",
+            "B. 4",
+            "C. -2",
+            "D. 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "A significant mathematical advantage of Variation of Parameters over Undetermined Coefficients is that it:",
+        "choices": [
+            "A. Applies to any linear DE regardless of the forcing function form",
+            "B. Only requires basic algebraic factorization",
+            "C. Avoids the need for integrating complex functions",
+            "D. Automatically finds the complementary solution"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "In Variation of Parameters for y'' + P(x)y' + Q(x)y = f(x), if y_p = u_1 y_1 + u_2 y_2, the formula for u_1' is:",
+        "choices": [
+            "A. y_1 f(x) / W",
+            "B. -y_2 f(x) / W",
+            "C. y_2 f(x) / W",
+            "D. -y_1 f(x) / W"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "In Variation of Parameters for y'' + P(x)y' + Q(x)y = f(x), if y_p = u_1 y_1 + u_2 y_2, the formula for u_2' is:",
+        "choices": [
+            "A. y_2 f(x) / W",
+            "B. -y_2 f(x) / W",
+            "C. y_1 f(x) / W",
+            "D. -y_1 f(x) / W"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "For the equation y'' + y = tan x, determine the Wronskian W(y_1, y_2) using the standard basis y_1 = cos x, y_2 = sin x.",
+        "choices": [
+            "A. cos(2x)",
+            "B. 0",
+            "C. -1",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Evaluate the derivative parameter u_1' for the differential equation y'' + y = sec x.",
+        "choices": [
+            "A. -tan x",
+            "B. tan x",
+            "C. -sec x",
+            "D. cos x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Evaluate the derivative parameter u_2' for the differential equation y'' + y = sec x.",
+        "choices": [
+            "A. sin x",
+            "B. 1",
+            "C. sec x",
+            "D. -1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "Using variation of parameters, the final particular solution y_p for y'' + y = sec x is:",
+        "choices": [
+            "A. sin x ln",
+            "B. cos x",
+            "C. + x cos x",
+            "D. cos x ln"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 88,
+        "question": "Evaluate the Wronskian of the fundamental solutions y_1 = e^x, y_2 = e^-x for the DE y'' - y = e^x / x.",
+        "choices": [
+            "A. e^2x",
+            "B. 2",
+            "C. 0",
+            "D. -2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "If y'' - 2y' + y = e^x / x^2, what is the Wronskian of its complementary solution y_c = C_1 e^x + C_2 x e^x?",
+        "choices": [
+            "A. e^2x",
+            "B. e^x",
+            "C. x e^2x",
+            "D. 2e^2x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Evaluate the derivative parameter u_1' for the equation y'' - 2y' + y = e^x / x^2.",
+        "choices": [
+            "A. 1/x",
+            "B. -1/x",
+            "C. 1/x^2",
+            "D. -1/x^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "Evaluate the derivative parameter u_2' for the equation y'' - 2y' + y = e^x / x^2.",
+        "choices": [
+            "A. -1/x",
+            "B. 1/x",
+            "C. 1/x^2",
+            "D. -1/x^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Determine the particular solution y_p for the equation y'' - 2y' + y = e^x / x^2.",
+        "choices": [
+            "A. e^x ln x",
+            "B. x e^x ln x",
+            "C. e^x / x",
+            "D. -e^x ln x"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "For x^2 y'' - 2x y' + 2y = x^3 sin x, what is the critical mathematical step required before directly applying the Variation of Parameters formulas?",
+        "choices": [
+            "A. Divide the entire equation by x^2",
+            "B. Differentiate the forcing function",
+            "C. Multiply by an integrating factor",
+            "D. Assume y_p = Asin x + Bcos x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "In the method of Variation of Parameters, the parameters u_1 and u_2 are conceptually treated as:",
+        "choices": [
+            "A. Constants to be determined",
+            "B. Functions of the independent variable",
+            "C. Arbitrary constants of integration",
+            "D. Matrix determinants"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "Evaluate u_1' for the equation y'' + 9y = 9sec^2 3x, assuming the basis y_1 = cos 3x and y_2 = sin 3x.",
+        "choices": [
+            "A. 3sec 3x",
+            "B. -3csc 3x",
+            "C. -3sin 3x sec^2 3x",
+            "D. 3cos 3x sec^2 3x"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "The method of Variation of Parameters is mathematically derived by imposing the condition u_1' y_1 + u_2' y_2 = 0. This constraint is introduced to:",
+        "choices": [
+            "A. Ensure the general solution is unique",
+            "B. Make the Wronskian equal to zero",
+            "C. Satisfy the homogeneous differential equation",
+            "D. Prevent the appearance of second derivatives of u_1 and u_2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "For a third-order DE y''' + P y'' + Q y' + R y = f(x), u_1' is given by W_1 / W. The determinant W_1 is formed by replacing which column of W with [0, 0, f(x)]^T?",
+        "choices": [
+            "A. First column",
+            "B. Second column",
+            "C. Third column",
+            "D. The main diagonal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "Find u_2' for y'' - 4y' + 4y = (x+1)e^2x using the basis y_1 = e^2x and y_2 = x e^2x.",
+        "choices": [
+            "A. x",
+            "B. x + 1",
+            "C. x^2 + x",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "A fundamental set of solutions y_1, y_2 for y'' + p(x)y' + q(x)y = 0 must satisfy which strict condition on a given interval I?",
+        "choices": [
+            "A. W(y_1, y_2) = 0 for some point x in I",
+            "B. W(y_1, y_2) = 1 everywhere in I",
+            "C. W(y_1, y_2) ≠ 0 for every x in I",
+            "D. y_1 and y_2 must be orthogonal functions"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "When finding y_p for y'' - y = 1/x via Variation of Parameters, the required integrations ∫ (e^x / x) dx and ∫ (e^-x / x) dx yield:",
+        "choices": [
+            "A. Standard logarithmic functions",
+            "B. Elementary rational functions",
+            "C. Trigonometric integrals",
+            "D. Nonelementary functions (Exponential Integrals)"
+        ],
+        "correct_answer": "D"
+    }
+]

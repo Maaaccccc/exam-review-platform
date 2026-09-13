@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "A microprocessor system utilizes a 20-bit address bus for memory mapping. What is the maximum memory capacity this specific architecture can directly address?",
+        "choices": [
+            "A. 16 KB",
+            "B. 64 KB",
+            "C. 1 MB",
+            "D. 4 GB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "When comparing architectures, what specific hardware integration fundamentally differentiates a microcontroller from a general-purpose microprocessor?",
+        "choices": [
+            "A. An integrated ALU and Control Unit",
+            "B. On-chip memory (RAM/ROM) and I/O peripherals",
+            "C. A multiplexed address and data bus",
+            "D. The ability to execute pipelined instructions"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "During a Memory Write operation in a standard microcomputer, what is the directional state and content of the Data Bus?",
+        "choices": [
+            "A. Unidirectional, carrying data outward from the CPU to the memory",
+            "B. Bidirectional, carrying control signals to the memory",
+            "C. Unidirectional, carrying data inward from the memory to the CPU",
+            "D. High-impedance (tri-stated) by the CPU"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 4,
+        "question": "A worded circuit: A Direct Memory Access (DMA) controller needs to transfer data directly into RAM. To take over the system buses, which specific control signal does the DMA controller assert to the CPU?",
+        "choices": [
+            "A. INTR (Interrupt Request)",
+            "B. ALE (Address Latch Enable)",
+            "C. READY",
+            "D. HOLD"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "In the classic 8085 microprocessor timing, the very first machine cycle of any instruction is the Opcode Fetch. How many T-states (clock periods) are typically required for this specific cycle?",
+        "choices": [
+            "A. 4 or 6 T-states",
+            "B. 1 T-state",
+            "C. 2 T-states",
+            "D. 10 T-states"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "A hardware fault on a motherboard causes the Memory Read (MEMR) and I/O Write (IOW) control lines to assert simultaneously. What is the immediate electrical consequence on the system bus?",
+        "choices": [
+            "A. The CPU clock frequency will permanently double",
+            "B. The system will execute the instruction perfectly",
+            "C. Severe data bus contention between the memory output buffers and the CPU output buffers",
+            "D. The address bus will drop to 0000H"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "Advanced DSPs and modern microcontrollers often feature separate, dedicated memory spaces and independent buses for instructions and data. This architectural design is formally known as the:",
+        "choices": [
+            "A. Von Neumann Architecture",
+            "B. Harvard Architecture",
+            "C. Turing Architecture",
+            "D. CISC Architecture"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "The total comprehensive time required by the microprocessor to completely fetch an opcode from memory, decode it, and execute it is officially termed the:",
+        "choices": [
+            "A. T-state",
+            "B. Machine cycle",
+            "C. Wait state",
+            "D. Instruction cycle"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "The Arithmetic Logic Unit (ALU) performs its mathematical and Boolean operations primarily utilizing data sourced from where?",
+        "choices": [
+            "A. The external RAM only",
+            "B. The Accumulator and temporary internal data registers",
+            "C. The Program Counter and Stack Pointer",
+            "D. The Instruction Decoder"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "A worded circuit: The ALU receives two 8-bit operands: 10101100 and 01010011. The control unit instructs the ALU to perform a bitwise Exclusive-OR (XOR) operation. What is the resulting 8-bit output?",
+        "choices": [
+            "A. 00000000",
+            "B. 00000011",
+            "C. 10101111",
+            "D. 11111111"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "Which specific ALU logical operation effectively and rapidly multiplies an unsigned binary number by 2?",
+        "choices": [
+            "A. Logical Shift Left",
+            "B. Logical Shift Right",
+            "C. Bitwise AND",
+            "D. Bitwise XOR"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "If the ALU is instructed to perform a 2's complement operation on a binary number in the accumulator, it is mathematically equivalent to:",
+        "choices": [
+            "A. Dividing the number by 2",
+            "B. Adding 1 to the number",
+            "C. Negating the number (multiplying by -1)",
+            "D. Clearing all bits to zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 13,
+        "question": "An 8-bit ALU adds the binary values 11111111 and 00000001. What is the state of the 8-bit result and the condition of the Carry flag (CY)?",
+        "choices": [
+            "A. Result = 00000000, CY = 1",
+            "B. Result = 11111111, CY = 0",
+            "C. Result = 00000000, CY = 0",
+            "D. Result = 10000000, CY = 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Which bitwise logical operation is standardly used by the ALU to \"mask\" (clear to zero) specific bits in a register while leaving the other bits entirely unchanged?",
+        "choices": [
+            "A. Bitwise OR",
+            "B. Bitwise AND",
+            "C. Bitwise XOR",
+            "D. Bitwise NOT"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "A worded circuit: The ALU processes an 8-bit ADD instruction. Operand A is 5AH and Operand B is 6CH. What is the exact hexadecimal result stored in the accumulator?",
+        "choices": [
+            "A. C0H",
+            "B. 32H",
+            "C. C6H",
+            "D. B6H"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "During a BCD (Binary Coded Decimal) addition operation, if the sum of the lower four bits (lower nibble) exceeds 9, the ALU utilizes which specific flag to trigger a software or hardware decimal adjust operation?",
+        "choices": [
+            "A. Zero Flag (Z)",
+            "B. Sign Flag (S)",
+            "C. Parity Flag (P)",
+            "D. Auxiliary Carry Flag (AC)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "When the Arithmetic Logic Unit performs a bitwise NOT (Complement) operation on the binary data 01010101, the resulting data is:",
+        "choices": [
+            "A. 00000000",
+            "B. 10101010",
+            "C. 11111111",
+            "D. 01010101"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "What arithmetic operation is actually executed inside the ALU when a CMP (Compare) instruction is called by the processor?",
+        "choices": [
+            "A. Subtraction of the operand from the accumulator without storing the result",
+            "B. Addition of the operand and the accumulator",
+            "C. Bitwise XOR of the operand and the accumulator",
+            "D. Division of the accumulator by the operand"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "The Accumulator in a classic 8-bit microprocessor architecture is fundamentally classified as a/an:",
+        "choices": [
+            "A. 16-bit address pointer",
+            "B. Serial-to-parallel shift register",
+            "C. 8-bit dedicated register used to hold operands and ALU results",
+            "D. External memory buffer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Why are general-purpose registers (like B, C, D, E, H, L in the Intel 8085) frequently referred to by programmers as \"scratchpad memory\"?",
+        "choices": [
+            "A. They are the only registers that can be physically erased",
+            "B. They are located outside the CPU chip",
+            "C. They are read-only memory",
+            "D. They are used for ultra-fast temporary storage of intermediate results, avoiding slower external RAM access"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "A worded circuit: A program must transfer a 16-bit physical memory address to the Program Counter. In a standard 8-bit CPU, which pair of general-purpose registers is traditionally combined and used as a 16-bit memory pointer?",
+        "choices": [
+            "A. The H and L registers",
+            "B. The Accumulator and the Instruction Register",
+            "C. The B and C registers",
+            "D. The Stack Pointer and the Status Register"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "If an 8-bit microprocessor executes the simple instruction \"ADD B\", what implicit operation is performed?",
+        "choices": [
+            "A. Add the contents of register B to the Program Counter",
+            "B. Add the contents of register B to the Accumulator and store the result in the Accumulator",
+            "C. Add 1 to register B",
+            "D. Add the contents of register B to external memory"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "In advanced CPU architectures with a massive bank of multiple general-purpose registers, what is the primary operational advantage?",
+        "choices": [
+            "A. Lower power supply voltage requirements",
+            "B. Elimination of the ALU",
+            "C. Decreased instruction execution time by massively minimizing external memory fetches",
+            "D. The ability to directly run high-level code without a compiler"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "The specific contents and operational results of the Accumulator are directly and continuously monitored by which CPU component to update conditional branching criteria?",
+        "choices": [
+            "A. The Program Counter",
+            "B. The Instruction Decoder",
+            "C. The Memory Address Register",
+            "D. The Status Register / Flag Register"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "During the execution of an IN (Input) instruction in a standard 8-bit architecture, the 8-bit data read from the external I/O port is placed directly into:",
+        "choices": [
+            "A. The Accumulator",
+            "B. The Stack Pointer",
+            "C. The Program Counter",
+            "D. A general-purpose register"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "What is the absolute maximum decimal value that can be held in a standard 8-bit Accumulator if it is treated strictly as an unsigned integer?",
+        "choices": [
+            "A. 127",
+            "B. 255",
+            "C. 65535",
+            "D. 128"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "A worded scenario: The accumulator currently holds the hexadecimal value 3FH. An instruction increments the accumulator. What is the new hexadecimal value stored in the accumulator?",
+        "choices": [
+            "A. 3EH",
+            "B. 4FH",
+            "C. 40H",
+            "D. 3G"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Which of the following functions is NEVER the responsibility of a general-purpose data register within the CPU?",
+        "choices": [
+            "A. Acting as a counter in a software loop",
+            "B. Holding a 16-bit memory address when paired",
+            "C. Storing an intermediate calculation result",
+            "D. Decoding the fetched opcode into control signals"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "The Instruction Register (IR) inside a microprocessor is specifically designed and dedicated to hold what specific type of data?",
+        "choices": [
+            "A. The opcode of the instruction currently being executed",
+            "B. The memory address of the next instruction",
+            "C. The result of the previous ALU operation",
+            "D. The stack return address"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Is the Instruction Register (IR) generally accessible to the programmer via standard assembly language read/write instructions?",
+        "choices": [
+            "A. Yes, it is treated like any general-purpose register",
+            "B. No, it is strictly an internal architectural register used exclusively by the Control Unit",
+            "C. Yes, but only in privileged protected mode",
+            "D. Yes, it is accessed using the POP instruction"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "A worded circuit: A CPU completes executing an instruction and prepares for the next. The address of the next instruction is fetched from the Program Counter (PC). What immediately and automatically happens to the PC?",
+        "choices": [
+            "A. It is cleared to zero",
+            "B. It is pushed onto the stack",
+            "C. It is incremented to point to the subsequent memory location",
+            "D. It halts until an interrupt occurs"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "The physical size (width in bits) of the Program Counter (PC) in a microprocessor is fundamentally and directly determined by:",
+        "choices": [
+            "A. The width of the internal ALU",
+            "B. The size of the Instruction Register",
+            "C. The operating clock frequency",
+            "D. The total number of address lines in the CPU architecture"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "If a generic microprocessor is designed with a 64 KB maximum addressable memory space, what is the strictly required bit width of its Program Counter?",
+        "choices": [
+            "A. 16 bits",
+            "B. 8 bits",
+            "C. 32 bits",
+            "D. 20 bits"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "A JUMP or CALL assembly instruction actively and directly modifies the contents of which specific register to alter the program's execution flow?",
+        "choices": [
+            "A. The Status Register",
+            "B. The Program Counter (PC)",
+            "C. The Instruction Register",
+            "D. The Accumulator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "The Instruction Decoder, a massive combinatorial logic block, receives its binary input directly from the:",
+        "choices": [
+            "A. Accumulator",
+            "B. Program Counter",
+            "C. Instruction Register (IR)",
+            "D. External Data Bus"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "A Hardwired Control Unit generates its complex internal control signals using:",
+        "choices": [
+            "A. A high-level software interpreter",
+            "B. A magnetic core memory",
+            "C. An internal secondary microcontroller",
+            "D. A sequential logic circuit composed entirely of discrete logic gates and flip-flops"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "What is the primary architectural advantage of a Hardwired Control Unit over a Microprogrammed (Microcoded) Control Unit?",
+        "choices": [
+            "A. Faster execution speed due to direct hardware logic implementation",
+            "B. Smaller physical chip size",
+            "C. Easier to update with new complex instructions",
+            "D. Uses significantly less electrical power"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "A Microprogrammed (Microcoded) Control Unit, heavily utilized in classic CISC architectures, operates fundamentally by:",
+        "choices": [
+            "A. Relying exclusively on external analog signals",
+            "B. Executing a sequence of invisible microinstructions stored in a special internal control ROM",
+            "C. Using mechanical relays",
+            "D. Bypassing the ALU entirely"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "If a CPU manufacturer needs to design a processor that is very easy to modify, update, and expand with highly complex, multi-step instructions, which Control Unit design is characteristically superior?",
+        "choices": [
+            "A. Hardwired Control Unit",
+            "B. Combinational Control Unit",
+            "C. Microprogrammed (Microcoded) Control Unit",
+            "D. Asynchronous Control Unit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "In modern RISC (Reduced Instruction Set Computer) architecture, to achieve execution of one instruction per clock cycle, the Control Unit is almost universally:",
+        "choices": [
+            "A. Microcoded",
+            "B. Emulated in software",
+            "C. A separate external IC",
+            "D. Hardwired"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "The decoded output signals from the Instruction Decoder are directly routed to the:",
+        "choices": [
+            "A. Control Unit",
+            "B. ALU",
+            "C. Program Counter",
+            "D. Main Memory"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "A worded scenario: A CPU fetches a HALT (or HLT) opcode. The instruction decoder translates this specific bit pattern. What exact action does the Control Unit take?",
+        "choices": [
+            "A. It jumps to the interrupt vector",
+            "B. It stops incrementing the Program Counter and suspends further fetch cycles",
+            "C. It clears the RAM",
+            "D. It tri-states the entire address bus"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "In the context of a Microprogrammed Control Unit, what exactly is a \"microprogram\"?",
+        "choices": [
+            "A. A small C++ application run by the user",
+            "B. A tiny piece of RAM",
+            "C. A sequence of microscopic control signals stored in control ROM that dictate the steps to execute a single machine-level instruction",
+            "D. A diagnostic testing routine"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "The Memory Address Register (MAR) serves as an isolation buffer between the internal CPU bus architecture and the:",
+        "choices": [
+            "A. External Data Bus",
+            "B. ALU",
+            "C. Accumulator",
+            "D. External Address Bus"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "The Memory Buffer Register (MBR), also commonly known as the Memory Data Register (MDR), connects the internal CPU buses directly to the:",
+        "choices": [
+            "A. External Data Bus",
+            "B. Control Bus",
+            "C. External Address Bus",
+            "D. Stack Pointer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "A worded circuit: During a standard memory read cycle, the target address from the PC is loaded into the MAR. Once the external RAM chip places the requested data onto the external data bus, which internal CPU register latches this incoming data?",
+        "choices": [
+            "A. The Instruction Register",
+            "B. The Memory Buffer Register (MBR/MDR)",
+            "C. The Accumulator",
+            "D. The General Purpose Register"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "Why are the MAR and MBR strictly necessary as buffer registers in a microprocessor design?",
+        "choices": [
+            "A. To amplify the voltage of the signals",
+            "B. To convert digital signals to analog",
+            "C. To isolate the fast internal CPU timing from the slower external memory speeds and to stabilize bus signals during transfer",
+            "D. To encrypt the data"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "If a modern CPU architecture features a 32-bit address bus and a 64-bit external data bus, what are the respective structural sizes of the MAR and MBR?",
+        "choices": [
+            "A. MAR is 64 bits, MBR is 32 bits",
+            "B. MAR is 16 bits, MBR is 32 bits",
+            "C. MAR is 8 bits, MBR is 8 bits",
+            "D. MAR is 32 bits, MBR is 64 bits"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "When the CPU executes a \"Store Accumulator to Memory\" instruction, the data flows internally from the Accumulator directly to the:",
+        "choices": [
+            "A. MBR, then to the external data bus",
+            "B. MAR, then to the external data bus",
+            "C. PC, then to the external data bus",
+            "D. IR, then to the external data bus"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "Is the Memory Address Register (MAR) typically designed as a bidirectional or unidirectional register?",
+        "choices": [
+            "A. Bidirectional",
+            "B. Unidirectional, receiving addresses from the CPU and driving them outward onto the address bus",
+            "C. Unidirectional, receiving addresses from the memory and driving them inward to the CPU",
+            "D. Omnidirectional"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "During the Opcode Fetch machine cycle, the instruction byte read from memory is placed into the MBR. From the MBR, this specific byte is transferred internally directly to the:",
+        "choices": [
+            "A. Accumulator",
+            "B. Program Counter",
+            "C. Instruction Register (IR)",
+            "D. Stack Pointer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "The Stack Pointer (SP) is a dedicated 16-bit register in the CPU that strictly holds the memory address pointing to:",
+        "choices": [
+            "A. The start of the operating system",
+            "B. The next instruction to be fetched",
+            "C. The first byte of the ROM",
+            "D. The most recently stored data byte at the current top of the stack in RAM"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "A standard microprocessor memory stack operates fundamentally on a LIFO basis. LIFO stands for:",
+        "choices": [
+            "A. Last In, First Out",
+            "B. Logic In, Floating Out",
+            "C. Late In, Fast Out",
+            "D. Local Input, Far Output"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "In a typical downward-growing stack architecture, when a PUSH instruction is executed to save data, what mathematical operation happens to the Stack Pointer?",
+        "choices": [
+            "A. It is multiplied by 2",
+            "B. It is decremented before the data is written to the stack memory",
+            "C. It is incremented before the data is written to the stack memory",
+            "D. It remains unchanged"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Conversely, when a POP instruction is executed in a downward-growing stack to retrieve data, the Stack Pointer is:",
+        "choices": [
+            "A. Decremented after the data is read",
+            "B. Cleared to zero",
+            "C. Incremented after the data is read from the stack memory",
+            "D. Shifted left"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "A worded circuit: A CPU needs to handle a hardware interrupt. Before forcing the Program Counter to jump to the Interrupt Service Routine (ISR), the CPU must automatically save the current program context. Which critical register's contents are always pushed to the stack first by the hardware?",
+        "choices": [
+            "A. The Accumulator",
+            "B. The Instruction Register",
+            "C. The Stack Pointer itself",
+            "D. The Program Counter (PC)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "If the 16-bit Stack Pointer is initialized to FFFFH in a downward-growing stack, and one 16-bit word (2 bytes) is pushed onto the stack, what is the new hexadecimal value of the Stack Pointer?",
+        "choices": [
+            "A. FFFDH",
+            "B. FFFEH",
+            "C. 0001H",
+            "D. 1001H"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "A CALL instruction fundamentally differs from a simple JUMP instruction in assembly language because a CALL instruction actively:",
+        "choices": [
+            "A. Halts the CPU",
+            "B. Pushes the return address (current PC) onto the stack before loading the PC with the target address",
+            "C. Clears the Accumulator",
+            "D. Disables all interrupts"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "The RET (Return) instruction placed at the very end of a subroutine retrieves the correct return address by:",
+        "choices": [
+            "A. Guessing the previous address",
+            "B. Reading the base of the RAM",
+            "C. Popping the top two bytes from the stack and loading them directly into the Program Counter",
+            "D. Halting the CPU"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "\"Stack Overflow\" is a critical, often fatal, software architecture error that occurs precisely when:",
+        "choices": [
+            "A. The stack memory is completely empty",
+            "B. The CPU runs out of general-purpose registers",
+            "C. The power supply voltage drops too low",
+            "D. PUSH operations exceed the allocated stack memory space, overwriting and corrupting other data or program code"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "Which of the following assembly instructions does NOT implicitly or explicitly utilize the Stack Pointer during its execution?",
+        "choices": [
+            "A. CMP (Compare)",
+            "B. CALL",
+            "C. RET (Return)",
+            "D. PUSH"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "A worded scenario: A CPU executes the sequence: PUSH B, PUSH C, POP",
+        "choices": [
+            "B. Assuming B and C are general-purpose registers, what is the ultimate logical result of this sequence?",
+            "A. The contents of B and C are added",
+            "B. The original contents of register C are now located in register B",
+            "C. Register B is cleared to zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "Why is the Stack Pointer designed as a 16-bit register in an 8-bit microprocessor like the Intel 8085?",
+        "choices": [
+            "A. Because it stores two 8-bit data bytes simultaneously",
+            "B. Because the ALU is 16-bit",
+            "C. Because it must hold a physical memory address, and the system address bus is 16 bits wide",
+            "D. Because it controls a 16-bit timer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "The Status Register (also known as the Condition Code Register, PSW, or Flag Register) is essentially a collection of individual flip-flops that dynamically indicate:",
+        "choices": [
+            "A. The current clock speed",
+            "B. The status of the power supply",
+            "C. The memory address of the next instruction",
+            "D. The specific status and characteristics of the most recent ALU operation result"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "The Zero Flag (Z) in the Status Register is automatically set to logic 1 by the hardware when:",
+        "choices": [
+            "A. The result of an ALU operation is exactly zero",
+            "B. The accumulator overflows",
+            "C. The power is turned on",
+            "D. The instruction is a NOP"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "A worded circuit: An 8-bit ALU performs the subtraction operation 05H - 05H. What will be the resulting state of the Zero (Z) flag and the Sign (S) flag?",
+        "choices": [
+            "A. Z = 0, S = 1",
+            "B. Z = 1, S = 0",
+            "C. Z = 1, S = 1",
+            "D. Z = 0, S = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "The Sign Flag (S) in an 8-bit microprocessor architecture is fundamentally an exact, direct copy of which specific bit of the ALU result?",
+        "choices": [
+            "A. The Least Significant Bit (D0)",
+            "B. The Parity Bit",
+            "C. The Most Significant Bit (D7)",
+            "D. The Carry Bit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "If the Sign Flag is set (S=1) after an arithmetic operation, it indicates to the programmer that the result is mathematically:",
+        "choices": [
+            "A. Too large to fit in the accumulator",
+            "B. Exactly zero",
+            "C. An even number",
+            "D. Negative when interpreted in 2's complement representation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "The Parity Flag (P) is typically set to logic 1 by the ALU to specifically indicate that:",
+        "choices": [
+            "A. The ALU result contains an even number of 1s (Even Parity)",
+            "B. The ALU result is a prime number",
+            "C. The ALU result is odd",
+            "D. The instruction was fetched correctly"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "An ALU logical operation yields the binary result 10101011. What is the state of the Parity (P) flag?",
+        "choices": [
+            "A. P = 1, because there are three 0s",
+            "B. P = 0, because there are five 1s, resulting in odd parity",
+            "C. P = 1, because the MSB is 1",
+            "D. P = 0, because the number is negative"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "The Carry Flag (CY) in the Status Register is set to 1 when:",
+        "choices": [
+            "A. The result is zero",
+            "B. The CPU is halted",
+            "C. An addition results in a carry out of the Most Significant Bit, or a subtraction requires a borrow",
+            "D. A multiplication operation is performed"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "A worded circuit: The ALU adds the binary numbers 11000000 and 01000000. The 8-bit result truncated in the accumulator is 00000000. What is the absolute state of the Carry (CY) and Zero (Z) flags?",
+        "choices": [
+            "A. CY = 0, Z = 0",
+            "B. CY = 1, Z = 0",
+            "C. CY = 0, Z = 1",
+            "D. CY = 1, Z = 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "The Auxiliary Carry Flag (AC or AF) is a highly specialized flag specifically designed and used by the CPU hardware for:",
+        "choices": [
+            "A. Binary Coded Decimal (BCD) arithmetic adjustments (DAA instruction)",
+            "B. Floating point division",
+            "C. Memory paging",
+            "D. Interrupt masking"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "The Auxiliary Carry Flag is set to 1 when there is a mathematical carry from:",
+        "choices": [
+            "A. Bit 0 to Bit 1",
+            "B. Bit 3 to Bit 4 (from the lower nibble to the upper nibble)",
+            "C. Bit 6 to Bit 7",
+            "D. The Accumulator to the Stack"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "Which of the following conditional jump instructions actively evaluates the state of the Zero Flag to determine if it should branch?",
+        "choices": [
+            "A. JC (Jump if Carry)",
+            "B. JPE (Jump if Parity Even)",
+            "C. JZ (Jump if Zero)",
+            "D. JM (Jump if Minus)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "If a programmer wants to test if bit D3 in the Accumulator is a 1 without permanently altering the other bits in the Accumulator, they can use the bitwise AND instruction with a mask (08H). Which flag do they subsequently check to make a branching decision?",
+        "choices": [
+            "A. Carry Flag (CY)",
+            "B. Sign Flag (S)",
+            "C. Auxiliary Carry Flag (AC)",
+            "D. Zero Flag (Z)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "A worded scenario: The CPU executes an INC (Increment) instruction on a register currently containing FFH. The result rolls over to 00H. In almost all standard microprocessor architectures, does this specific operation set the Carry Flag?",
+        "choices": [
+            "A. No, INC and DEC instructions typically do not affect the Carry Flag to allow them to be used in loop counters without disrupting multi-byte arithmetic",
+            "B. Yes, it generates a carry out of the MSB",
+            "C. Yes, it sets all flags",
+            "D. No, because the result is zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "Which assembly instruction is designed to unconditionally force the Carry Flag to a logic 1 state?",
+        "choices": [
+            "A. CMC (Complement Carry)",
+            "B. STC (Set Carry)",
+            "C. CLC (Clear Carry)",
+            "D. NOP (No Operation)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "The continuous, never-ending operational loop of a microprocessor while it is powered on is formally known as the:",
+        "choices": [
+            "A. DMA cycle",
+            "B. Interrupt cycle",
+            "C. Fetch-Decode-Execute cycle",
+            "D. Bus arbitration cycle"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "During the initial Fetch cycle, the CPU performs a specific memory read operation to retrieve the:",
+        "choices": [
+            "A. Stack pointer value",
+            "B. Operand data",
+            "C. Interrupt vector",
+            "D. Instruction Opcode"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "The very first physical step of the Fetch cycle involves the Control Unit placing the contents of the Program Counter onto the:",
+        "choices": [
+            "A. Address Bus",
+            "B. Data Bus",
+            "C. Control Bus",
+            "D. ALU inputs"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "A worded circuit: During the Execute phase of an \"ADD M\" (Add memory to accumulator) instruction, what specific machine cycle must physically occur on the system buses?",
+        "choices": [
+            "A. An I/O Read cycle",
+            "B. A Memory Read cycle to fetch the actual data operand from RAM",
+            "C. An I/O Write cycle",
+            "D. A Memory Write cycle"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "The Decode phase of the instruction cycle is unique because it happens entirely within the:",
+        "choices": [
+            "A. External ROM",
+            "B. External RAM",
+            "C. CPU, requiring absolutely no external bus activity",
+            "D. DMA controller"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "If an instruction is a 3-byte instruction (e.g., JUMP 2050H), how many distinct memory read machine cycles are strictly required just to FETCH the entire instruction into the CPU?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 4",
+            "D. 3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "A Machine Cycle represents one basic external operation (like a Memory Read or I/O Write). This machine cycle is further composed of a series of fundamental, indivisible time units called:",
+        "choices": [
+            "A. T-states (Clock periods)",
+            "B. Wait states",
+            "C. Instruction cycles",
+            "D. Interrupts"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "What fundamental metric determines the total execution time of a specific software program?",
+        "choices": [
+            "A. The size of the RAM",
+            "B. The sum of the T-states for all executed instructions multiplied by the clock period",
+            "C. The width of the data bus",
+            "D. The number of general-purpose registers"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "In a modern pipelined CPU architecture, the Fetch, Decode, and Execute cycles are handled how?",
+        "choices": [
+            "A. They are executed backwards",
+            "B. They are handled by three separate CPUs",
+            "C. They are overlapped in time for sequential instructions to massively increase instruction throughput",
+            "D. They are completely eliminated"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "A worded scenario: A fast CPU is fetching an instruction from a very slow, legacy ROM chip. To mathematically synchronize the fast CPU with the slow ROM access time, the Control Unit automatically inserts:",
+        "choices": [
+            "A. Higher clock frequencies",
+            "B. Additional ALU operations",
+            "C. Interrupts",
+            "D. Wait states into the machine cycle"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "During an I/O Write machine cycle, the system address bus carries the:",
+        "choices": [
+            "A. 8-bit or 16-bit I/O port address",
+            "B. Data to be written",
+            "C. Instruction opcode",
+            "D. Interrupt vector"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Which of the following internal operations takes place specifically during the Execute cycle of a standard unconditional JMP instruction?",
+        "choices": [
+            "A. The Accumulator is cleared",
+            "B. The 16-bit target operand address is loaded directly into the Program Counter",
+            "C. The Stack Pointer is decremented",
+            "D. A memory read cycle is initiated"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "What automatically happens to the Program Counter immediately after the opcode byte is successfully fetched into the Instruction Register?",
+        "choices": [
+            "A. It is cleared to 0000H",
+            "B. It pushes its value to the stack",
+            "C. It increments to point to the next consecutive byte in memory",
+            "D. It halts"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "A \"branch penalty\" is a significant performance degradation in pipelined processors that occurs specifically when:",
+        "choices": [
+            "A. The power supply voltage drops",
+            "B. The CPU overheats",
+            "C. A memory chip fails",
+            "D. A conditional jump is taken, forcing the entire pipeline to be flushed and refilled with new instructions"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "Which specific hardware pin signal is output by the CPU to allow external devices to synchronize their timing directly to the CPU's internal machine cycles?",
+        "choices": [
+            "A. CLK OUT (Clock Output)",
+            "B. RESET IN",
+            "C. INTR",
+            "D. READY"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "The hidden internal bus that connects the ALU, Accumulator, and General Purpose Registers exclusively inside the microprocessor silicon die is called the:",
+        "choices": [
+            "A. System Bus",
+            "B. Internal Data Bus",
+            "C. Control Bus",
+            "D. Expansion Bus"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "In CPU design architecture, \"Endianness\" (Big-Endian vs Little-Endian) specifically determines:",
+        "choices": [
+            "A. The size of the ALU",
+            "B. The clock frequency of the processor",
+            "C. The specific byte ordering used to store multi-byte data types (like 16-bit or 32-bit words) in byte-addressable memory",
+            "D. The voltage level of logic 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "A worded circuit: An 8-bit CPU has a 16-bit address bus. It executes a \"PUSH PSW\" (Push Processor Status Word) instruction. This single instruction pushes the Accumulator (8 bits) and the Flag register (8 bits). How many bytes of stack memory are consumed by this operation?",
+        "choices": [
+            "A. 4 bytes",
+            "B. 1 byte",
+            "C. 8 bytes",
+            "D. 2 bytes"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "What is the fundamental operational difference between a Maskable Interrupt and a Non-Maskable Interrupt (NMI) during the CPU execution cycle?",
+        "choices": [
+            "A. An NMI forces an execution interruption regardless of the state of the internal Interrupt Enable (IE) flag",
+            "B. An NMI can be disabled by a software command",
+            "C. An NMI is slower",
+            "D. A Maskable Interrupt ignores the CPU"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "When a microprocessor asserts the HLDA (Hold Acknowledge) signal in response to a HOLD request, what does the CPU immediately do to its external pins?",
+        "choices": [
+            "A. It shorts them to ground",
+            "B. It tri-states (high-impedance) its address, data, and control buses to relinquish total control to a DMA controller",
+            "C. It drives them all to 5V",
+            "D. It inverts all signals"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "In the ALU, if an addition operation results in a bit carrying over from the MSB, this specific \"Carry Out\" bit is directly routed and fed into which architectural component?",
+        "choices": [
+            "A. The Program Counter",
+            "B. The Accumulator",
+            "C. The Carry Flag (CY) flip-flop in the Status Register",
+            "D. The Stack Pointer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "A CISC architecture typically features a complex microcoded control unit. A RISC architecture, conversely, heavily relies on a hardwired control unit. Why is a hardwired control unit feasible and preferred for RISC?",
+        "choices": [
+            "A. RISC instructions are mostly floating-point",
+            "B. RISC uses less power",
+            "C. RISC processors have no ALU",
+            "D. RISC uses simple, fixed-length instructions that can be decoded directly and extremely quickly by discrete logic gates without needing a microcode ROM"
+        ],
+        "correct_answer": "D"
+    }
+]

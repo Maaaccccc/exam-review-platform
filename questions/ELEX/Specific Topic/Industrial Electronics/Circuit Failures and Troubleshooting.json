@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "For a 10-bit DAC with a 5V reference, what is the approximate voltage resolution (1 LSB)?",
+        "choices": [
+            "A. 4.88 mV",
+            "B. 1.22 mV",
+            "C. 9.77 mV",
+            "D. 2.44 mV"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "What fundamental component is the heart of a Successive Approximation (SAR) ADC?",
+        "choices": [
+            "A. An integrator",
+            "B. An internal DAC",
+            "C. A large resistor ladder",
+            "D. A high-pass filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "In a Dual-Slope ADC, the output digital value is entirely independent of which specific circuit parameter?",
+        "choices": [
+            "A. The clock frequency",
+            "B. The reference voltage",
+            "C. The exact value of the integrating resistor and capacitor",
+            "D. The integration time"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "Which ADC architecture provides the absolute highest conversion speed by using 2^n - 1 comparators?",
+        "choices": [
+            "A. Pipelined",
+            "B. SAR",
+            "C. Delta-Sigma",
+            "D. Flash (Parallel)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "To prevent aliasing in an analog-to-digital conversion system, what must be placed immediately before the ADC?",
+        "choices": [
+            "A. A low-pass filter",
+            "B. A high-pass filter",
+            "C. A digital interpolator",
+            "D. A peak detector"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "What is the primary advantage of the R-2R ladder DAC over the binary-weighted resistor DAC?",
+        "choices": [
+            "A. It operates at microwave frequencies",
+            "B. It uses only two specific resistor values regardless of bit count",
+            "C. It requires absolutely no power supply",
+            "D. It eliminates the need for an operational amplifier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "The maximum possible theoretical quantization error in an ideal Analog-to-Digital Converter is bounded by:",
+        "choices": [
+            "A. +/- 1.0 LSB",
+            "B. +/- 0.1 LSB",
+            "C. +/- 0.5 LSB",
+            "D. +/- 2.0 LSB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "Which high-resolution ADC architecture heavily utilizes oversampling and noise shaping to achieve high dynamic range at lower speeds?",
+        "choices": [
+            "A. Flash ADC",
+            "B. Counter-Ramp ADC",
+            "C. Integrating ADC",
+            "D. Sigma-Delta (Delta-Sigma) ADC"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "What is the primary purpose of a coupling capacitor in a multi-stage transistor amplifier?",
+        "choices": [
+            "A. To pass the AC signal while blocking DC voltage from mixing between stages",
+            "B. To filter out high-frequency noise from the power supply",
+            "C. To increase the overall DC voltage gain",
+            "D. To provide a direct short for DC biasing currents"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "A worded circuit: A common-emitter amplifier has a 10 uF input coupling capacitor connected to a signal generator. If this coupling capacitor completely opens, what happens to the AC output signal?",
+        "choices": [
+            "A. It becomes heavily distorted",
+            "B. It drops to zero",
+            "C. It doubles in amplitude",
+            "D. It converts to a DC voltage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "In an active amplifier circuit, how does a completely open coupling capacitor affect the DC quiescent operating point (Q-point) of the transistors?",
+        "choices": [
+            "A. It shifts the Q-point into saturation",
+            "B. It shifts the Q-point into cutoff",
+            "C. It has absolutely no effect on the DC bias",
+            "D. It causes thermal runaway"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "A worded circuit: An NPN common-emitter amplifier is fed by a signal generator with an internal DC offset of 0V through a coupling capacitor. The base is normally biased at 1.8V. If the input coupling capacitor shorts, what happens to the base voltage?",
+        "choices": [
+            "A. It rises to VCC",
+            "B. It increases to 2.5V",
+            "C. It remains at 1.8V",
+            "D. It drops to approximately 0V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "What is the most immediate symptom of a heavily leaky coupling capacitor placed between the collector of stage 1 and the base of stage 2?",
+        "choices": [
+            "A. The DC base voltage of stage 2 will be abnormally high, shifting its bias",
+            "B. The AC signal will be completely blocked",
+            "C. Stage 1 will immediately burn out",
+            "D. The frequency response will shift drastically lower"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "A worded circuit: An audio amplifier drives an 8-ohm speaker through a large output coupling capacitor. If this capacitor fails and shorts internally, what is the most likely catastrophic result?",
+        "choices": [
+            "A. The amplifier loses all AC gain",
+            "B. DC current flows through the speaker coil, potentially burning it out",
+            "C. The speaker outputs twice the maximum volume",
+            "D. The input signal is reflected back to the source"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "When testing an active circuit with a digital multimeter, how can you quickly identify a shorted coupling capacitor?",
+        "choices": [
+            "A. Check for continuity (beeps) across it",
+            "B. Measure its capacitance value",
+            "C. Measure the DC voltage on both sides; they will be nearly identical if shorted",
+            "D. Remove it and use a curve tracer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "If the capacitance value of a coupling capacitor significantly decreases due to component aging, what happens to the amplifier's frequency response?",
+        "choices": [
+            "A. The upper cutoff frequency decreases",
+            "B. The entire bandwidth increases",
+            "C. The midband gain doubles",
+            "D. The lower cutoff frequency increases, causing loss of bass"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "What is the theoretical AC reactance of an ideal coupling capacitor at frequencies well within the amplifier's midband?",
+        "choices": [
+            "A. Approximately zero ohms",
+            "B. Exactly equal to the load resistance",
+            "C. Infinite",
+            "D. Exactly equal to the source resistance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "A worded circuit: Stage A (Vc = 6V) is coupled to Stage B (Vb = 2V). If the coupling capacitor becomes slightly leaky (acting like a 10k resistor), what will happen to the collector voltage of Stage A?",
+        "choices": [
+            "A. It remains perfectly at 6V",
+            "B. It will likely drop as current bleeds into the base of Stage B",
+            "C. It will increase to VCC",
+            "D. It drops instantly to 0V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "An oscilloscope probe is placed on the input side of a coupling capacitor and shows a 2Vpp sine wave on a 5V DC offset. If the capacitor is healthy, what should be seen on the output side?",
+        "choices": [
+            "A. A 0Vpp signal on a 5V DC offset",
+            "B. A 2Vpp sine wave on a 5V DC offset",
+            "C. A 2Vpp sine wave on the DC bias voltage of the next stage",
+            "D. A purely DC voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Which of the following capacitor types is most prone to developing high leakage currents and failing as a partial short when used as a coupling capacitor?",
+        "choices": [
+            "A. Ceramic disk",
+            "B. Silver mica",
+            "C. Polyester film",
+            "D. Aluminum electrolytic"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "A worded circuit: A common-collector (emitter follower) amplifier has an output coupling capacitor. If this capacitor opens, what voltage will a DC voltmeter read at the load?",
+        "choices": [
+            "A. 0 Volts",
+            "B. VCC",
+            "C. VCC / 2",
+            "D. The emitter DC bias voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "During troubleshooting, you suspect a coupling capacitor is open because the signal stops at its input pin. What is the safest and quickest diagnostic method?",
+        "choices": [
+            "A. Replace the entire amplifier board",
+            "B. Temporarily bridge a known-good capacitor of similar value across it and check if the signal returns",
+            "C. Short the capacitor with a jumper wire",
+            "D. Heat it with a soldering iron"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "A coupling capacitor effectively acts as what type of filter for the cascaded amplifier stages?",
+        "choices": [
+            "A. Low-pass filter",
+            "B. Band-stop filter",
+            "C. High-pass filter",
+            "D. Notch filter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "A worded circuit: An RF amplifier uses a 1 nF coupling capacitor. If the capacitor fails and becomes an open circuit, what is the effective impedance of this component?",
+        "choices": [
+            "A. 1 nF",
+            "B. 0 ohms",
+            "C. 50 ohms",
+            "D. Infinite"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "What is the primary purpose of an emitter bypass capacitor in a common-emitter amplifier circuit?",
+        "choices": [
+            "A. To provide an AC ground at the emitter, maximizing AC voltage gain",
+            "B. To limit the high-frequency response",
+            "C. To stabilize the DC operating point against temperature changes",
+            "D. To filter out power supply ripple"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "If the emitter bypass capacitor in a common-emitter amplifier completely opens, what is the immediate effect on the circuit's performance?",
+        "choices": [
+            "A. The transistor enters thermal runaway",
+            "B. The AC voltage gain drops significantly due to negative feedback",
+            "C. The DC bias point shifts to cutoff",
+            "D. The circuit begins to oscillate violently"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "A worded circuit: A CE amplifier has an emitter resistor (RE) of 1 kOhm perfectly bypassed by a capacitor (CE). If CE internally shorts out, what happens to the DC bias of the transistor?",
+        "choices": [
+            "A. It remains unchanged",
+            "B. The base current drops to zero",
+            "C. The DC emitter voltage drops to 0V, likely causing the transistor to saturate or draw excessive current",
+            "D. The collector voltage rises to VCC"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "The capacitive reactance (Xc) of a bypass capacitor at the lowest frequency of operation should ideally be:",
+        "choices": [
+            "A. Equal to the emitter resistor (RE)",
+            "B. Infinite",
+            "C. At least 10 times greater than the internal emitter resistance (re)",
+            "D. Less than one-tenth of the parallel resistance it is bypassing"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "A worded circuit: In a JFET common-source amplifier, a bypass capacitor is placed across the source resistor (RS). If this capacitor opens, the circuit experiences:",
+        "choices": [
+            "A. Series negative voltage feedback (degeneration)",
+            "B. Positive feedback",
+            "C. A drastic increase in voltage gain",
+            "D. Thermal destruction of the JFET"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "How does an open emitter bypass capacitor affect the input impedance of a common-emitter amplifier?",
+        "choices": [
+            "A. It drastically decreases the input impedance",
+            "B. It significantly increases the input impedance",
+            "C. It has absolutely no effect on input impedance",
+            "D. It makes the input impedance purely capacitive"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "A worded circuit: A CE amplifier operates normally with a VCE of 6V. The emitter bypass capacitor is physically removed from the circuit. If you measure VCE again, what will the multimeter read?",
+        "choices": [
+            "A. 0 V",
+            "B. 12 V (VCC)",
+            "C. Approximately 6V, as DC bias is unaffected",
+            "D. It will fluctuate wildly"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "A shorted decoupling bypass capacitor located on the main VCC power rail to ground will immediately cause:",
+        "choices": [
+            "A. Increased amplifier gain",
+            "B. Severe audio distortion",
+            "C. High-frequency oscillation",
+            "D. A blown power supply fuse or triggered short-circuit protection"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "What is a classic symptom of a bypass capacitor that has lost its capacitance (dried out electrolytic) in an audio amplifier?",
+        "choices": [
+            "A. Poor low-frequency (bass) response and reduced overall volume",
+            "B. Excessive treble response and hissing",
+            "C. The amplifier outputs pure DC",
+            "D. The power transformer overheats"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "In a multi-stage amplifier, a missing or open power supply decoupling bypass capacitor often leads to unwanted low-frequency oscillations. This phenomenon is commonly known as:",
+        "choices": [
+            "A. Jitter",
+            "B. Motorboating",
+            "C. Crossover distortion",
+            "D. Phase noise"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "A worded circuit: An amplifier circuit requires an AC voltage gain of 200. With the circuit powered on, the measured gain is only 15. The DC voltages are exactly as calculated. What is the most probable fault?",
+        "choices": [
+            "A. Shorted input coupling capacitor",
+            "B. Open collector resistor",
+            "C. Open emitter bypass capacitor",
+            "D. Shorted load resistor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "If an emitter bypass capacitor develops a high DC leakage current, what will happen to the DC voltage at the emitter terminal?",
+        "choices": [
+            "A. It will increase to VCC",
+            "B. It will oscillate",
+            "C. It will remain perfectly constant",
+            "D. It will decrease as current bypasses the emitter resistor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "To quickly diagnose an open emitter bypass capacitor while signal tracing with an oscilloscope, you should probe the emitter terminal. If the capacitor is OPEN, you will see:",
+        "choices": [
+            "A. A significant AC signal voltage present on the emitter",
+            "B. A pure, clean DC line",
+            "C. A massive voltage spike",
+            "D. 60 Hz power line hum"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Conversely, if the emitter bypass capacitor is perfectly HEALTHY and doing its job, probing the emitter terminal with an oscilloscope should reveal:",
+        "choices": [
+            "A. The fully amplified AC output signal",
+            "B. An AC virtual ground (virtually no AC signal, just pure DC)",
+            "C. A distorted half-wave rectified signal",
+            "D. A perfect square wave"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "In high-frequency RF circuits, bypass capacitors are used to prevent RF energy from entering the DC power supply. An open bypass capacitor here will likely cause:",
+        "choices": [
+            "A. Reduced DC power consumption",
+            "B. Lower overall RF output power",
+            "C. RF feedback between stages, leading to instability and spurious oscillations",
+            "D. Complete destruction of the battery"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "A worded circuit: A common-base amplifier uses a bypass capacitor to ground the base terminal for AC signals. If this base bypass capacitor opens, what happens?",
+        "choices": [
+            "A. The circuit becomes a common-emitter amplifier",
+            "B. The transistor instantly burns out",
+            "C. The voltage gain approaches infinity",
+            "D. The amplifier loses its AC ground reference, dropping the gain to near zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "For a silicon NPN BJT operating properly in the active linear region, what is the expected approximate DC voltage measured across the base-emitter junction (VBE)?",
+        "choices": [
+            "A. 0.7 V",
+            "B. 0.0 V",
+            "C. 5.0 V",
+            "D. Equal to VCC"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "If a multimeter measures a VBE of 0.0V on an NPN transistor in a powered-up amplifier circuit, the transistor is currently operating in:",
+        "choices": [
+            "A. The saturation region",
+            "B. The cutoff region",
+            "C. The active linear region",
+            "D. The reverse-active region"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "A worded circuit: A voltage-divider biased NPN transistor has VCC = 12V. The base voltage (VB) is measured at exactly 12V. Resistor R1 connects to VCC, R2 connects to ground. What is the definitive fault?",
+        "choices": [
+            "A. The transistor is shorted",
+            "B. R1 is completely open",
+            "C. The lower divider resistor R2 is completely open",
+            "D. The emitter resistor RE is shorted"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "A technician measures the collector-to-emitter voltage (VCE) of a BJT amplifier and reads a value approximately equal to VCC (e.g., VCC=10V, VCE=10V). This strongly indicates that the transistor is:",
+        "choices": [
+            "A. Saturated",
+            "B. Oscillating",
+            "C. Operating normally in the active region",
+            "D. Cutoff (drawing no collector current)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "A worded circuit: In a CE amplifier, the VCE measures 0.1V. The base voltage is perfectly normal. This extremely low VCE reading indicates the transistor is in:",
+        "choices": [
+            "A. Saturation",
+            "B. Cutoff",
+            "C. The active region",
+            "D. Breakdown"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "A worded circuit: A common-emitter amplifier uses an NPN transistor. The collector resistor (RC) is verified to be completely open. If you measure the voltage at the collector terminal (VC), you will read:",
+        "choices": [
+            "A. VCC",
+            "B. Approximately the emitter voltage (close to 0V depending on meter loading), because no current can pull it to VCC",
+            "C. VCC / 2",
+            "D. Exactly 0.7V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "For an N-channel JFET to operate correctly in its active (pinch-off) region as an amplifier, the Gate-to-Source voltage (VGS) must strictly be:",
+        "choices": [
+            "A. Greater than zero (positive)",
+            "B. Equal to the drain voltage",
+            "C. Less than or equal to zero (negative)",
+            "D. Exactly 0.7V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "A worded circuit: An N-channel JFET uses self-bias with a source resistor (RS). If the gate voltage (VG) measures 0V, but the source voltage (VS) measures 0V as well (meaning VGS = 0V), what is a highly probable cause?",
+        "choices": [
+            "A. The JFET is functioning perfectly",
+            "B. The gate resistor is open",
+            "C. The drain resistor is shorted",
+            "D. The source resistor (RS) is completely shorted to ground"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "Using a digital multimeter (DMM) on the \"Diode Test\" setting, a healthy NPN bipolar transistor removed from the circuit will show:",
+        "choices": [
+            "A. A forward voltage drop (approx 0.6V-0.8V) from Base to Emitter and Base to Collector",
+            "B. An open circuit (OL) from Base to Emitter and Base to Collector",
+            "C. A short circuit (0.00V) between all pins",
+            "D. A forward voltage drop from Collector to Emitter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "If a DMM diode test shows 0.00V (a dead short) between the Collector and Emitter of a BJT, regardless of the probe polarity, the transistor is:",
+        "choices": [
+            "A. Normal",
+            "B. Catastrophically destroyed (shorted)",
+            "C. In cutoff mode",
+            "D. A PNP type"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "A worded circuit: A PNP transistor is used in a switching circuit. Emitter is tied to +5V. To turn this transistor completely ON (saturation), the voltage applied to the Base should be approximately:",
+        "choices": [
+            "A. +5V",
+            "B. +12V",
+            "C. 0V (or slightly higher, e.g., 4.3V to ensure VBE is -0.7V)",
+            "D. -15V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "In a basic fixed-bias BJT circuit (base resistor RB connected to VCC), if RB completely opens, what happens to the collector voltage (VC)?",
+        "choices": [
+            "A. It drops to 0V",
+            "B. It drops to VCC/2",
+            "C. It begins oscillating",
+            "D. It rises exactly to VCC because the transistor enters cutoff"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "A worded circuit: A CE amplifier is running extremely hot and distorting the signal. A multimeter shows VCE is essentially 0V. What is the most likely component failure?",
+        "choices": [
+            "A. The Collector-Emitter junction is internally shorted",
+            "B. The base resistor is open",
+            "C. The coupling capacitor is open",
+            "D. The power supply is disconnected"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "An N-channel Enhancement-type MOSFET requires a Gate-to-Source voltage (VGS) that is ________ to turn ON and conduct drain current.",
+        "choices": [
+            "A. Negative",
+            "B. Positive and strictly greater than the threshold voltage (Vth)",
+            "C. Exactly zero",
+            "D. Equal to the drain voltage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "A worded circuit: In a voltage-divider biased NPN circuit, the base-emitter junction of the transistor suffers an internal short. If you measure the voltage at the base terminal, it will equal:",
+        "choices": [
+            "A. VCC",
+            "B. 0 Volts",
+            "C. The voltage at the emitter terminal",
+            "D. 0.7 Volts"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "If the emitter resistor (RE) in a voltage-divider biased BJT amplifier completely opens, the base voltage (VB) measured with a high-impedance DMM will:",
+        "choices": [
+            "A. Drop to exactly 0V",
+            "B. Match the emitter voltage",
+            "C. Drop to 0.7V",
+            "D. Rise to the unloaded voltage divider potential because base current becomes zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "A worded circuit: A JFET amplifier has an open drain resistor (RD). If you measure the voltage directly at the drain terminal (VD) with respect to ground, you will read:",
+        "choices": [
+            "A. 0 Volts (or a floating value pulled down by the meter)",
+            "B. VDD",
+            "C. Exactly the pinch-off voltage",
+            "D. The source voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "A technician is troubleshooting a CE amplifier designed to have a VCE of 6V. It currently measures VCE = 0.5V. The base voltage VB is verified to be perfectly normal. What is a highly probable passive component fault?",
+        "choices": [
+            "A. The emitter resistor (RE) has decreased in value",
+            "B. The collector resistor (RC) has increased in value significantly, starving the collector",
+            "C. The input coupling capacitor is shorted",
+            "D. The bypass capacitor is open"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "When troubleshooting a malfunctioning BJT circuit, you measure a normal base voltage (e.g., 1.5V) but an emitter voltage of exactly 0V. This specifically indicates:",
+        "choices": [
+            "A. A shorted bypass capacitor",
+            "B. An open collector resistor",
+            "C. An internally open Base-Emitter junction in the transistor",
+            "D. A shorted Base-Collector junction"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "If a digital multimeter measures an infinite resistance (Open/OL) between the Gate and both the Source and Drain of a MOSFET (out of circuit), the MOSFET is:",
+        "choices": [
+            "A. Completely destroyed",
+            "B. Suffering from a shorted gate oxide",
+            "C. A BJT instead of a MOSFET",
+            "D. Normal, as the gate is isolated by silicon dioxide"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "A worded circuit: An N-channel JFET amplifier has zero DC drain current. You measure VGS and find it is a large negative voltage exactly equal to the datasheet's pinch-off voltage (Vp). What is causing this cutoff condition?",
+        "choices": [
+            "A. The source resistor (RS) is much too large or open",
+            "B. The gate resistor is shorted to VDD",
+            "C. The JFET is shorted drain-to-source",
+            "D. The power supply is reversed"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "What is the fundamental principle of the \"Signal Tracing\" troubleshooting technique?",
+        "choices": [
+            "A. Applying a signal at the output and working backwards to the input",
+            "B. Applying a known test signal at the input and using a probe to follow the signal stage-by-stage towards the output to find where it stops",
+            "C. Measuring only the DC bias voltages with a multimeter",
+            "D. Replacing components one by one until the circuit works"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "What is the fundamental principle of the \"Signal Injection\" troubleshooting technique?",
+        "choices": [
+            "A. Tracing the DC power supply lines",
+            "B. Using an oscilloscope to measure ambient noise",
+            "C. Applying a known test signal at various points, starting near the output stage and moving backward toward the input, until the signal fails to reach the load",
+            "D. Injecting high voltage to burn out faulty components"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "When performing signal injection, it is absolutely critical to place what component in series with the signal generator's hot probe to protect both the generator and the circuit under test?",
+        "choices": [
+            "A. A large inductor",
+            "B. A high-power Zener diode",
+            "C. A 50-ohm resistor",
+            "D. A DC blocking capacitor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "A worded scenario: A 6-stage audio amplifier has no output. Using the \"Half-Split\" method, where is the most logical first point to inject or trace a signal?",
+        "choices": [
+            "A. At the input of stage 4 (the middle)",
+            "B. At the input of stage 1",
+            "C. At the output of stage 6",
+            "D. At the power supply terminals"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "What is the primary reason the \"Half-Split\" troubleshooting method is considered highly efficient in complex, multi-stage systems?",
+        "choices": [
+            "A. It requires the most expensive test equipment",
+            "B. It eliminates half of the remaining circuit possibilities with each sequential test",
+            "C. It tests the power supply first",
+            "D. It guarantees finding the fault on the first try"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "When using a basic audio signal tracer (which is essentially a high-gain amp and speaker) on an RF circuit, the tracer probe must contain a specific component to make the RF signal audible. What is it?",
+        "choices": [
+            "A. A massive inductor",
+            "B. A stepping transformer",
+            "C. A demodulator (detector) diode",
+            "D. An optoisolator"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "A worded scenario: While signal tracing a cascaded BJT amplifier, you find a good, strong signal at the base of Q2, but absolutely no signal at the collector of Q2. Which of the following is a possible cause?",
+        "choices": [
+            "A. Q2 is functioning perfectly",
+            "B. The coupling capacitor before Q2 is open",
+            "C. The load connected to Q3 is shorted",
+            "D. Q2 is blown (open or shorted) or its collector resistor is open"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "During signal injection on an audio amplifier, injecting a signal at the base of a pre-amp transistor results in an extremely loud, heavily distorted output. What is the proper action?",
+        "choices": [
+            "A. Decrease the amplitude of the injected signal to avoid clipping the high-gain stages",
+            "B. Immediately replace the pre-amp transistor",
+            "C. Increase the frequency of the generator",
+            "D. Disconnect the speaker"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "A worded scenario: You are troubleshooting a PA system. The mixer outputs a good signal. The power amplifier works perfectly when tested. They are connected by a 50-foot XLR cable. The overall system is dead. What is the logical conclusion?",
+        "choices": [
+            "A. The mixer is broken",
+            "B. The 50-foot connecting cable is open or shorted",
+            "C. The power amplifier is broken",
+            "D. The speakers are blown"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "Why is a square wave often preferred over a sine wave for signal injection in generic audio or logic troubleshooting?",
+        "choices": [
+            "A. It has no harmonics, making it perfectly clean",
+            "B. It draws less current from the generator",
+            "C. It is rich in odd harmonics, allowing the tone to pass through frequency-limited or tuned stages more easily",
+            "D. It prevents the transistors from saturating"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "While signal tracing with an oscilloscope, you observe a massive drop in AC amplitude across a stage, but the signal does not disappear completely. The DC bias is normal. What is a highly likely cause?",
+        "choices": [
+            "A. The main power supply fuse is blown",
+            "B. The input coupling capacitor is completely open",
+            "C. The transistor has an internal dead short",
+            "D. An emitter bypass capacitor is open, introducing severe negative feedback and reducing gain"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "Signal injection into the Intermediate Frequency (IF) stage of a superheterodyne AM radio receiver requires a signal generator strictly tuned to:",
+        "choices": [
+            "A. The standard IF frequency (typically 455 kHz)",
+            "B. The local oscillator frequency",
+            "C. The audio baseband frequency (1 kHz)",
+            "D. The exact frequency of the broadcasting station"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "A worded scenario: A 3-stage amplifier is dead. Injecting at the speaker produces a click. Injecting at the base of stage 3 produces a loud tone. Injecting at the collector of stage 2 produces a loud tone. Injecting at the base of stage 2 produces nothing. Where is the fault?",
+        "choices": [
+            "A. The speaker",
+            "B. Within stage 2 itself (transistor, bias resistors, etc.)",
+            "C. The coupling capacitor between stage 2 and 3",
+            "D. Stage 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "What is a significant analytical advantage of Signal Tracing over Signal Injection?",
+        "choices": [
+            "A. Signal tracing requires no test equipment",
+            "B. Signal tracing is much faster",
+            "C. Signal tracing allows you to observe the actual signal quality, noise, and distortion natively produced by the circuit under normal operation",
+            "D. Signal tracing repairs the circuit automatically"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "When a circuit exhibits highly intermittent failures (e.g., failing only when hot or vibrating), which troubleshooting technique is most effective?",
+        "choices": [
+            "A. Replacing all components on the board",
+            "B. Injecting 120V AC into the input",
+            "C. Guessing",
+            "D. Signal tracing with an oscilloscope over an extended period while applying thermal or mechanical stress"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "A worded circuit: An analog circuit utilizes a heavy global negative feedback loop. Signal tracing is nearly impossible because a fault anywhere breaks the entire loop. What is the standard initial troubleshooting step?",
+        "choices": [
+            "A. Temporarily open (break) the feedback loop to test the forward path in an open-loop configuration",
+            "B. Increase the power supply voltage",
+            "C. Short the input to ground",
+            "D. Replace the output transistor immediately"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "When tracing digital logic circuits (like microcontrollers or TTL logic), what simple, specialized tool is most commonly used instead of an analog audio tracer?",
+        "choices": [
+            "A. A spectrum analyzer",
+            "B. A logic probe",
+            "C. A digital thermometer",
+            "D. An LCR meter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "While using an audio signal tracer, touching the probe to the equipment's metal chassis ground results in a loud 60 Hz hum. This strongly indicates:",
+        "choices": [
+            "A. The circuit is operating perfectly",
+            "B. The tracer battery is dead",
+            "C. The equipment has a poor, broken, or floating ground connection",
+            "D. The input signal is too high"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "During signal injection, touching the probe to the collector of a normally operating BJT stage usually produces a much softer tone than touching it to the base. Why?",
+        "choices": [
+            "A. The collector blocks AC signals",
+            "B. The transistor is broken",
+            "C. The probe capacitance is too high",
+            "D. The signal injected at the collector is not amplified by that stage, whereas the signal injected at the base is multiplied by the transistor's voltage gain"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "In the terminology of signal tracing, what exactly constitutes a \"dead stage\"?",
+        "choices": [
+            "A. A stage where the AC input signal is verified present, but the AC output signal is entirely absent",
+            "B. A stage that uses no power",
+            "C. A stage with an open bypass capacitor",
+            "D. A stage that produces excessive distortion"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "A worded scenario: While signal tracing with an oscilloscope, you see a perfectly clean sine wave at the input of a BJT amplifier stage, but the output waveform has its positive peaks severely flattened (clipped). What is the fault?",
+        "choices": [
+            "A. The input signal frequency is too high",
+            "B. The stage is improperly biased (Q-point too high or too low), causing clipping",
+            "C. The coupling capacitor is open",
+            "D. The power supply is completely disconnected"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "A \"cold solder joint\" often acts as an intermittent connection or a high-resistance point. In signal tracing, this usually manifests as:",
+        "choices": [
+            "A. A perfect increase in voltage gain",
+            "B. The emission of a blue spark",
+            "C. An erratic, crackling signal that changes amplitude when the board is physically tapped",
+            "D. A clean, stable drop in DC voltage only"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "To locate a short circuit on a PCB power rail pulling the voltage to zero, technicians sometimes inject a small, precise DC current and use a high-resolution millivoltmeter to find the lowest voltage drop. This technique is called:",
+        "choices": [
+            "A. Signal tracing",
+            "B. Half-splitting",
+            "C. Signal injection",
+            "D. Kelvin sensing or Milliohm tracing"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "A worded circuit: An amplifier uses a dual-polarity power supply (+15V, -15V). The output is stuck at a solid -14V DC. The input is grounded. What is a highly probable catastrophic failure?",
+        "choices": [
+            "A. The lower (negative side) output transistor is internally shorted",
+            "B. The positive supply fuse is blown",
+            "C. The input coupling capacitor is open",
+            "D. The load is shorted"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "When using an oscilloscope for signal tracing, ensuring the probe is properly compensated (calibrated with a square wave) is critical to avoid:",
+        "choices": [
+            "A. Shorting out the circuit",
+            "B. Distorting the amplitude and phase of high-frequency signal measurements",
+            "C. Draining the oscilloscope's battery",
+            "D. Overheating the probe tip"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "An op-amp circuit is designed as a non-inverting amplifier with a gain of 10. The input is a 1V DC signal. The output measures 1V DC. What is the most likely fault?",
+        "choices": [
+            "A. The op-amp is shorted internally",
+            "B. The non-inverting input is open",
+            "C. The feedback resistor is completely open or the ground-leg resistor is shorted, turning it into a unity-gain buffer",
+            "D. The power supply is reversed"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "A worded circuit: An NPN BJT switch drives a 12V relay coil. The base is driven HIGH (5V) by a microcontroller. The relay does not click. You measure the collector voltage and find it is 12V. What does this mean?",
+        "choices": [
+            "A. The relay coil is open",
+            "B. The microcontroller is dead",
+            "C. The transistor is saturated",
+            "D. The transistor is NOT turning on (it is in cutoff); the fault is either an open base resistor, bad BJT, or no signal from the micro"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "If a decoupling capacitor on a logic IC's power pin fails OPEN, what is the typical symptom in the digital circuit?",
+        "choices": [
+            "A. Erratic behavior, random resets, or unexplained logic errors due to localized VCC droop during switching transients",
+            "B. Immediate thermal destruction of the IC",
+            "C. The power supply fuse blows",
+            "D. The logic levels become reversed"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "A worded scenario: A 4-stage RF transmitter has no output power. Signal tracing with an RF probe shows strong signal at stages 1 and 2, but zero signal at stage 3. The DC bias of stage 3 is perfectly normal. What is a highly likely cause?",
+        "choices": [
+            "A. The stage 3 transistor is saturated",
+            "B. The inter-stage coupling network (e.g., capacitor or transformer) between stage 2 and 3 is open",
+            "C. Stage 4 is shorted",
+            "D. The power supply is dead"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "When troubleshooting a linear voltage regulator that is outputting 0V, you measure the unregulated input voltage and find it is normal. You measure the resistance across the output to ground and find it is 0.1 ohms. The fault is definitely:",
+        "choices": [
+            "A. A blown regulator IC",
+            "B. An open input capacitor",
+            "C. A dead short in the load or the output bypass capacitor",
+            "D. An open ground pin on the regulator"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "A highly effective, non-destructive way to find a shorted component (like a shorted bypass capacitor) on a crowded circuit board that is drawing excessive current is to use:",
+        "choices": [
+            "A. A sledgehammer",
+            "B. A signal injector",
+            "C. A high-voltage insulation tester",
+            "D. A thermal imaging camera or freezing spray to find the component generating excessive heat"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "A worded circuit: A complementary push-pull audio amplifier suffers from severe \"crossover distortion.\" This is distinctly heard at low volumes and seen on an oscilloscope as a flattened notch at the zero-crossing. What is the classic cause?",
+        "choices": [
+            "A. Insufficient forward bias voltage applied to the bases of the output transistors (the bias diodes/resistors are faulty)",
+            "B. The output coupling capacitor is shorted",
+            "C. The power supply voltage is too high",
+            "D. The input signal is too large"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "If the resistance of a carbon composition resistor significantly increases due to age and heat damage, and this resistor is used as the collector resistor (RC) in a CE amplifier, the VCE will:",
+        "choices": [
+            "A. Increase towards VCC",
+            "B. Decrease, pushing the transistor towards saturation",
+            "C. Remain exactly the same",
+            "D. Oscillate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "An analog multiplexer IC is routing an audio signal, but the output contains a mix of the desired signal and a faint, distorted version of a signal from an adjacent, supposedly \"off\" channel. This failure mode is called:",
+        "choices": [
+            "A. Latch-up",
+            "B. Offset error",
+            "C. Crosstalk (poor channel isolation)",
+            "D. Aliasing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "A worded scenario: You have an old analog radio. Touching the volume potentiometer causes a loud, scratching noise in the speaker, and the volume jumps erratically. The fault is:",
+        "choices": [
+            "A. A blown speaker cone",
+            "B. An open coupling capacitor",
+            "C. A shorted output transistor",
+            "D. A dirty or worn carbon track inside the potentiometer"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "When troubleshooting a high-voltage switching power supply (SMPS), why is using a standard, un-isolated oscilloscope probe on the primary side switching transistor extremely dangerous?",
+        "choices": [
+            "A. It connects the primary side \"hot\" ground directly to the oscilloscope's earth ground, creating a massive short circuit",
+            "B. It will erase the oscilloscope's memory",
+            "C. The high frequency will shatter the CRT",
+            "D. The probe will act as an antenna and cause interference"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "To safely test for an open diode in a circuit using a DMM, what must usually be done?",
+        "choices": [
+            "A. Test it while the circuit is fully powered",
+            "B. Lift (desolder) at least one leg of the diode from the PCB to prevent parallel components from providing a false reading",
+            "C. Apply a high AC voltage",
+            "D. Measure its temperature"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "A worded circuit: A 555 timer is wired in astable mode. The output is stuck HIGH. You measure the voltage on the timing capacitor and find it is 0V. What is the most likely fault?",
+        "choices": [
+            "A. The discharge pin (Pin 7) is shorted",
+            "B. The power supply is disconnected",
+            "C. The timing capacitor is dead shorted to ground",
+            "D. Resistor Ra is open"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "What is the \"Shotgun\" approach to troubleshooting, and why is it generally discouraged by professional engineers?",
+        "choices": [
+            "A. Using a shotgun to destroy the device",
+            "B. Carefully measuring every single voltage before touching a component",
+            "C. Using an oscilloscope to view the entire spectrum",
+            "D. Blindly replacing components on a board until it starts working, which is expensive, time-consuming, and risks damaging the PCB"
+        ],
+        "correct_answer": "D"
+    }
+]

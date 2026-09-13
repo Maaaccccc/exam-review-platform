@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "Which switching regulator topology is strictly used to step down a higher DC input voltage to a lower DC output voltage?",
+        "choices": [
+            "A. Buck Converter",
+            "B. Boost Converter",
+            "C. Flyback Converter",
+            "D. Cúk Converter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "What is the primary operational advantage of a switching regulator over a linear voltage regulator?",
+        "choices": [
+            "A. Free of electromagnetic interference (EMI)",
+            "B. Higher power efficiency across large voltage differentials",
+            "C. Simpler circuit design",
+            "D. Faster transient response"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "An LM317 regulator circuit uses R1 = 240 ohms and R2 = 2400 ohms. Using the standard formula Vout = 1.25 * (1 + R2/R1), what is the calculated output voltage?",
+        "choices": [
+            "A. 1.25 V",
+            "B. 10.0 V",
+            "C. 13.75 V",
+            "D. 12.5 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "The \"dropout voltage\" of a linear voltage regulator is strictly defined as the:",
+        "choices": [
+            "A. Maximum safe input voltage before destruction",
+            "B. Voltage drop across the load resistor",
+            "C. Voltage difference across the internal error amplifier inputs",
+            "D. Minimum allowable voltage differential between the input and output pins to maintain active regulation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "In a standard Buck converter, during the period when the main power switch is turned OFF, the inductor current:",
+        "choices": [
+            "A. Drops instantaneously to zero",
+            "B. Continues to flow to the load through the freewheeling diode",
+            "C. Reverses direction and charges the input",
+            "D. Pulses rapidly to infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "To significantly increase the efficiency of a buck converter at low voltages, the standard Schottky freewheeling diode is often replaced by a second power MOSFET. This specific topology is known as a:",
+        "choices": [
+            "A. Forward converter",
+            "B. Push-pull converter",
+            "C. Synchronous buck converter",
+            "D. Interleaved buck converter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "In the basic topology of a boost converter, where is the main inductor physically located?",
+        "choices": [
+            "A. In series with the output load",
+            "B. In parallel with the switching transistor",
+            "C. Between the diode and the output capacitor",
+            "D. In series between the input voltage source and the switching node"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "A fixed 7805 regulator is wired as a constant current source. A 10-ohm resistor (R) is placed between the Output and Ground pins of the IC. The load is connected between the IC Ground pin and circuit ground. What is the approximate constant current supplied to the load?",
+        "choices": [
+            "A. 500 mA",
+            "B. 100 mA",
+            "C. 1.5 A",
+            "D. 50 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "What does the acronym LDO stand for in the context of voltage regulators?",
+        "choices": [
+            "A. Low Direct Output",
+            "B. Low Dropout",
+            "C. Linear DC Oscillator",
+            "D. Load Dependent Output"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "The continuous-time transfer function of a boost converter operating in Continuous Conduction Mode (CCM) uniquely features a:",
+        "choices": [
+            "A. Left-Half-Plane (LHP) zero",
+            "B. Complex conjugate pole pair",
+            "C. Right-Half-Plane (RHP) zero",
+            "D. Double integrator"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "What are the three fundamental functional blocks that make up a basic Phase-Locked Loop (PLL)?",
+        "choices": [
+            "A. Phase Detector, High-Pass Filter, Integrator",
+            "B. Phase Detector, Low-Pass Filter, Voltage Controlled Oscillator",
+            "C. Rectifier, Comparator, Oscillator",
+            "D. Modulator, Band-Pass Filter, VCO"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "What is the primary function of a Phase-Locked Loop (PLL) when it is in the \"locked\" state?",
+        "choices": [
+            "A. It eliminates all phase differences to absolute zero",
+            "B. It generates a highly distorted output signal",
+            "C. It maintains a constant phase difference between the input signal and the VCO output, forcing their frequencies to match",
+            "D. It forces the VCO to shut down completely"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 13,
+        "question": "The unforced frequency of the VCO when the control voltage is zero (or when the PLL is out of lock and no error voltage is applied) is called the:",
+        "choices": [
+            "A. Capture frequency",
+            "B. Lock frequency",
+            "C. Resonant frequency",
+            "D. Free-running frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "A worded circuit: A PLL is configured to demodulate a Frequency Modulated (FM) signal. The input FM signal is fed into the phase detector. Where is the demodulated audio signal extracted from this circuit?",
+        "choices": [
+            "A. The output of the VCO",
+            "B. The output of the Low-Pass Filter (input to the VCO)",
+            "C. The reference input terminal",
+            "D. The output of the Phase Detector directly"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "What type of feedback system is a Phase-Locked Loop?",
+        "choices": [
+            "A. Positive feedback system",
+            "B. Open-loop system",
+            "C. Negative feedback system",
+            "D. Feed-forward system"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "An analog phase detector in a PLL behaves mathematically most like a:",
+        "choices": [
+            "A. Summer",
+            "B. Multiplier or Mixer",
+            "C. Differentiator",
+            "D. Logarithmic amplifier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 17,
+        "question": "A simple Type I digital phase detector can be constructed using a single standard logic gate. Which gate is most commonly used for this purpose?",
+        "choices": [
+            "A. AND gate",
+            "B. NAND gate",
+            "C. OR gate",
+            "D. Exclusive-OR (XOR) gate"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 18,
+        "question": "If an XOR gate is used as a phase detector and the PLL is perfectly locked to a 50% duty cycle input, what is the ideal static phase difference between the input and the VCO signal?",
+        "choices": [
+            "A. 0 degrees",
+            "B. 45 degrees",
+            "C. 90 degrees (pi/2 radians)",
+            "D. 180 degrees (pi radians)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "In a PLL using an XOR phase detector, the maximum average DC output voltage occurs when the phase difference is exactly:",
+        "choices": [
+            "A. 180 degrees",
+            "B. 90 degrees",
+            "C. 0 degrees",
+            "D. 270 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 20,
+        "question": "A Type II digital phase detector, known as a Phase-Frequency Detector (PFD), is superior to an XOR phase detector primarily because:",
+        "choices": [
+            "A. It consumes zero power",
+            "B. It has a strictly limited capture range",
+            "C. It can detect frequency differences as well as phase differences, providing an effectively infinite capture range",
+            "D. It requires a purely analog sine wave input"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "A worded circuit: A Phase-Frequency Detector (PFD) has an \"UP\" output and a \"DOWN\" output driving a charge pump. If the input reference frequency is greater than the VCO feedback frequency, what happens?",
+        "choices": [
+            "A. The PFD generates identical UP and DOWN pulses",
+            "B. The PFD generates wider DOWN pulses",
+            "C. The PFD generates wider UP pulses",
+            "D. The PFD outputs a constant zero voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "The \"conversion gain\" of a phase detector, often denoted as Kd, is a measure of the output error voltage per unit of phase difference. What are its standard units?",
+        "choices": [
+            "A. Volts/Hertz",
+            "B. Volts/radian",
+            "C. Radians/Volt",
+            "D. Hertz/Volt"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "If a multiplier-type analog phase detector receives two signals that are exactly 90 degrees out of phase, the average DC output voltage is:",
+        "choices": [
+            "A. Maximum positive",
+            "B. Maximum negative",
+            "C. Vcc / 2",
+            "D. Zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "The phenomenon where a phase detector produces high-frequency alternating components superimposed on the desired DC error voltage is known as:",
+        "choices": [
+            "A. Phase noise",
+            "B. Sum frequency generation (ripple)",
+            "C. Cycle slipping",
+            "D. Lock acquisition"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "What is the primary purpose of the Low-Pass Filter (LPF) in a Phase-Locked Loop?",
+        "choices": [
+            "A. To increase the free-running frequency of the VCO",
+            "B. To amplify the high-frequency components from the phase detector",
+            "C. To extract the average DC error voltage and determine the loop's dynamic response (stability and bandwidth)",
+            "D. To mechanically divide the VCO frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "If the bandwidth of the Low-Pass Filter in a PLL is significantly reduced, what happens to the capture range?",
+        "choices": [
+            "A. It decreases",
+            "B. It remains completely unchanged",
+            "C. It increases",
+            "D. It becomes infinite"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "The Lock Range of a basic PLL is fundamentally dictated by which parameters?",
+        "choices": [
+            "A. The RC time constant of the LPF only",
+            "B. The free-running frequency of the VCO only",
+            "C. The bandwidth of the LPF",
+            "D. The maximum output voltage swing of the Phase Detector multiplied by the conversion gain of the VCO (Kd * Kv)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 28,
+        "question": "The Capture Range of a basic PLL is primarily dictated by the interaction between the lock range and the:",
+        "choices": [
+            "A. Internal capacitance of the VCO",
+            "B. Cutoff frequency (bandwidth) of the Low-Pass Filter",
+            "C. Power supply voltage limit",
+            "D. Duty cycle of the input signal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "Which of the following statements correctly describes the universal relationship between the Capture Range and the Lock Range in any practical PLL?",
+        "choices": [
+            "A. The Capture Range is always exactly equal to the Lock Range",
+            "B. The Capture Range is always greater than the Lock Range",
+            "C. The Capture Range is always less than or equal to the Lock Range",
+            "D. The Capture Range has absolutely no relationship to the Lock Range"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 30,
+        "question": "A worded circuit: A PLL has a lock range of +/- 100 kHz and a capture range of +/- 20 kHz. The free-running frequency is exactly 1.000 MHz. If the PLL is currently out of lock, and a steady 1.050 MHz signal is applied, will the PLL achieve lock?",
+        "choices": [
+            "A. Yes, because 1.050 MHz is within the lock range",
+            "B. No, because 1.050 MHz is outside the capture range",
+            "C. Yes, because the capture range will dynamically expand",
+            "D. No, because the signal must be exactly 1.000 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Using the same PLL (lock range +/- 100 kHz, capture range +/- 20 kHz, f_free = 1.000 MHz). Assume the PLL is already successfully locked to a 1.010 MHz signal. If the input signal slowly drifts up to 1.080 MHz, will the PLL remain locked?",
+        "choices": [
+            "A. Yes, because it is still within the lock range",
+            "B. No, because it exceeds the capture range",
+            "C. No, because the VCO cannot track a drifting signal",
+            "D. Yes, because the free-running frequency will permanently change"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "The physical process of the PLL actively searching for, pulling in, and eventually synchronizing its frequency with the input signal is known as:",
+        "choices": [
+            "A. Cycle slipping",
+            "B. Freewheeling",
+            "C. Pull-in or Acquisition",
+            "D. Phase blanking"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "The amount of time required for a PLL to fully synchronize onto a signal from a free-running, out-of-lock state is called the:",
+        "choices": [
+            "A. Rise time",
+            "B. Acquisition time (or Pull-in time)",
+            "C. Settling time",
+            "D. Delay time"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "In the Laplace domain (s-domain), the transfer function of a Voltage Controlled Oscillator (VCO) relates the output phase to the input voltage. This mathematical function operates essentially as a/an:",
+        "choices": [
+            "A. Differentiator",
+            "B. Integrator (Kv / s)",
+            "C. Constant gain block",
+            "D. Delay line"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Because the VCO naturally acts as a perfect integrator of phase, a simple PLL utilizing only a passive first-order RC low-pass filter operates as an overall control system of what order?",
+        "choices": [
+            "A. First-order",
+            "B. Second-order",
+            "C. Third-order",
+            "D. Zero-order"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "What control system parameter determines the transient response behavior, such as ringing and overshoot, of a second-order PLL?",
+        "choices": [
+            "A. The conversion gain (Kd)",
+            "B. The free-running frequency",
+            "C. The Damping Factor (zeta)",
+            "D. The pull-in range"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "To achieve a theoretical steady-state phase error of absolute zero when tracking a frequency step, the loop filter of the PLL must contain a/an:",
+        "choices": [
+            "A. Attenuator",
+            "B. Differentiator",
+            "C. Active pole at the origin (an Integrator)",
+            "D. Passive lead-lag network"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "Worded circuit: An active Proportional-Integral (PI) filter uses an op-amp with a capacitor in the feedback loop. When placed in a PLL, what is its supreme advantage over a simple passive RC filter?",
+        "choices": [
+            "A. It uses less power",
+            "B. It provides infinite DC gain, allowing the loop to track a constant frequency input with absolutely zero static phase error",
+            "C. It severely restricts the lock range",
+            "D. It acts as a purely digital phase modulator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "In a frequency synthesizer application, what specific component is inserted into the PLL's feedback path between the VCO output and the Phase Detector input?",
+        "choices": [
+            "A. A low-pass filter",
+            "B. A multiplier",
+            "C. A voltage divider",
+            "D. A divide-by-N digital counter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "A frequency synthesizer uses a precise reference oscillator of 100 kHz. The programmable divide-by-N counter in the feedback loop is set to N = 45. What is the stable locked output frequency of the VCO?",
+        "choices": [
+            "A. 4.5 MHz",
+            "B. 450 kHz",
+            "C. 2.22 kHz",
+            "D. 100 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "The conversion gain of a Voltage Controlled Oscillator (VCO), designated as Kv or Ko, represents the change in angular frequency per unit change in control voltage. What is its standard unit?",
+        "choices": [
+            "A. Volts / second",
+            "B. Radians / second / Volt (or Hertz / Volt)",
+            "C. Degrees / Volt",
+            "D. Volts / Hertz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "If the input to a VCO is fixed at exactly zero volts DC (assuming a bipolar control range centered at 0V), the frequency of the oscillator output is:",
+        "choices": [
+            "A. Zero Hertz",
+            "B. The lock frequency",
+            "C. The free-running frequency",
+            "D. Infinite"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "The NE565 is a classic and widely studied integrated circuit. What is its primary function?",
+        "choices": [
+            "A. Voltage Regulator",
+            "B. Phase-Locked Loop (PLL)",
+            "C. Analog-to-Digital Converter",
+            "D. Instrumentation Amplifier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "In the NE565 PLL IC, the free-running frequency of the internal VCO is programmed primarily by:",
+        "choices": [
+            "A. The internal op-amp",
+            "B. An external resistor and capacitor connected to specific timing pins",
+            "C. The amplitude of the input signal",
+            "D. The power supply voltage solely"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "The formula for the capture range (Delta_fC) of a PLL involves the lock range (Delta_fL) and the low-pass filter cutoff frequency (f_c). It can be approximated as proportional to:",
+        "choices": [
+            "A. Delta_fL / f_c",
+            "B. (Delta_fL)^2",
+            "C. sqrt(Delta_fL * f_c)",
+            "D. f_c / Delta_fL"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "A PLL uses a basic analog multiplier as a phase detector. If the PLL is completely out of lock, the output of the phase detector will be a sinusoidal \"beat\" signal with a frequency equal to:",
+        "choices": [
+            "A. The sum of the input and VCO frequencies",
+            "B. The difference between the input frequency and the VCO frequency",
+            "C. The VCO frequency only",
+            "D. The input frequency only"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "Worded circuit: A PLL is used to demodulate a Frequency Shift Keying (FSK) digital signal. The free-running frequency is carefully tuned exactly halfway between the mark (logic 1) and space (logic 0) frequencies. Where does the designer tap the circuit to extract the recovered binary digital data?",
+        "choices": [
+            "A. The VCO output",
+            "B. The Phase Detector input",
+            "C. The output of the Low-Pass Filter",
+            "D. The ground terminal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "\"Cycle slipping\" in a Phase-Locked Loop is an unstable phenomenon where:",
+        "choices": [
+            "A. The VCO suddenly operates at a harmonic frequency",
+            "B. The phase detector stops functioning completely",
+            "C. The loop temporarily loses lock and the VCO skips one or more full phase cycles relative to the input before reacquiring lock",
+            "D. The filter capacitor discharges instantly"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "In standard digital telecommunications, PLLs are absolutely critical for a process known as CDR. What does CDR stand for?",
+        "choices": [
+            "A. Carrier Demodulation Routine",
+            "B. Clock and Data Recovery",
+            "C. Continuous Digital Ranging",
+            "D. Correlated Double Reception"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "A high-frequency LC VCO often uses a varactor diode as its tuning element. Increasing the reverse bias control voltage on the varactor diode will:",
+        "choices": [
+            "A. Increase its capacitance, thereby decreasing the VCO frequency",
+            "B. Decrease its capacitance, thereby increasing the VCO frequency",
+            "C. Maintain constant capacitance but alter the resistance",
+            "D. Turn the diode into a forward-biased short circuit"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "A VCO has a free-running frequency of 5 MHz and a conversion gain (Kv) of 200 kHz/V. If the phase detector and filter output a steady +1.5V DC error signal to the VCO, what is the output frequency?",
+        "choices": [
+            "A. 4.7 MHz",
+            "B. 5.3 MHz",
+            "C. 5.15 MHz",
+            "D. 8.0 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "If the control voltage entering the VCO contains a small amount of AC ripple (e.g., poorly filtered phase detector output), what is the direct consequence on the VCO's output signal?",
+        "choices": [
+            "A. It becomes strictly amplitude modulated (AM)",
+            "B. It experiences phase noise and spurious frequency modulation (FM) sidebands",
+            "C. It shuts down completely",
+            "D. The free-running frequency permanently shifts"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "The \"Hold-in Range\" of a PLL is another standard engineering term often used synonymously with:",
+        "choices": [
+            "A. Capture Range",
+            "B. Pull-in Range",
+            "C. Lock Range",
+            "D. Tuning Range"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "In a Phase-Frequency Detector (PFD), a condition known as the \"dead zone\" occurs when the phase error is extremely close to zero. What is the primary negative effect of this dead zone?",
+        "choices": [
+            "A. The VCO frequency drops to zero",
+            "B. The PLL locks onto the wrong harmonic",
+            "C. The charge pump fails to output tiny correction pulses, allowing the VCO to drift slightly and causing increased phase noise (jitter)",
+            "D. The loop filter capacitor explodes"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "To mitigate the \"dead zone\" issue in modern Phase-Frequency Detectors, IC designers typically:",
+        "choices": [
+            "A. Remove the loop filter",
+            "B. Add a fixed time delay in the internal reset path of the flip-flops, forcing both UP and DOWN pulses to turn on briefly even at zero phase error",
+            "C. Decrease the charge pump current to zero",
+            "D. Use an analog multiplier instead"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "Fractional-N frequency synthesizers utilize a PLL where the feedback divider:",
+        "choices": [
+            "A. Is a fixed analog component",
+            "B. Rapidly and dynamically alternates between different integer values (N and N+1) to achieve a non-integer average division ratio",
+            "C. Divides the input reference instead of the VCO",
+            "D. Operates at the speed of light"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "A PLL is described as an \"All-Digital Phase-Locked Loop\" (ADPLL). This strictly implies that the traditional analog VCO is replaced by a:",
+        "choices": [
+            "A. Precision analog integrator",
+            "B. Crystal oscillator",
+            "C. Digitally Controlled Oscillator (DCO) or Numerically Controlled Oscillator (NCO)",
+            "D. Mechanical relay"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "What is the fundamental operational difference between a Phase-Locked Loop (PLL) and a Frequency-Locked Loop (FLL)?",
+        "choices": [
+            "A. A PLL operates at higher frequencies than an FLL",
+            "B. A PLL perfectly synchronizes the phase (which inherently perfectly locks the frequency), whereas an FLL only matches the frequency and permits arbitrary phase drift over time",
+            "C. An FLL uses a low-pass filter, a PLL does not",
+            "D. There is absolutely no difference; the terms are perfectly interchangeable"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "In a highly stable PLL frequency synthesizer, the reference input signal is almost exclusively provided by a:",
+        "choices": [
+            "A. Simple RC oscillator",
+            "B. 555 timer",
+            "C. Precision Quartz crystal oscillator (TCXO or OCXO)",
+            "D. LC tank circuit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "In control system dynamics for a second-order PLL, an optimal damping factor (zeta) is usually chosen to provide the fastest lock time while minimizing excessive ringing. What is this widely accepted optimal value?",
+        "choices": [
+            "A. 1.000",
+            "B. 0.707 (or 1/sqrt(2))",
+            "C. 0.100",
+            "D. 2.500"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "A PLL has a high damping factor (zeta > 1). Its transient response to a step change in input frequency will be:",
+        "choices": [
+            "A. Underdamped and highly oscillatory",
+            "B. Critically damped",
+            "C. Overdamped, responding slowly with absolutely no ringing",
+            "D. Unstable"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "If the natural frequency (omega_n) of a PLL's control loop is significantly increased, the time required for the loop to acquire lock (acquisition time) generally:",
+        "choices": [
+            "A. Becomes infinite",
+            "B. Increases linearly",
+            "C. Decreases",
+            "D. Remains perfectly constant"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "A \"Charge Pump\" in a modern integrated PLL is placed directly between the:",
+        "choices": [
+            "A. VCO and the output",
+            "B. Reference oscillator and the Phase Detector",
+            "C. Phase-Frequency Detector (PFD) and the Low-Pass Filter",
+            "D. Low-Pass Filter and the VCO"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "When a PLL utilizing a PFD and a charge pump is perfectly locked with zero static phase error, the state of the charge pump output (ignoring tiny dead-zone mitigation pulses) is ideally:",
+        "choices": [
+            "A. Driving maximum positive current",
+            "B. Driving maximum negative current",
+            "C. A short circuit to ground",
+            "D. High-impedance (tri-state), neither sourcing nor sinking current"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "The most critical parameter for determining the signal purity of a high-end PLL synthesizer's output, quantified in dBc/Hz, is:",
+        "choices": [
+            "A. Phase Noise",
+            "B. Voltage Gain",
+            "C. CMRR",
+            "D. Conversion Efficiency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Within the loop bandwidth, a Phase-Locked Loop acts as a low-pass filter for phase noise originating from which component?",
+        "choices": [
+            "A. The VCO",
+            "B. The power supply",
+            "C. The reference oscillator",
+            "D. The loop filter resistor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "Conversely, outside the loop bandwidth, a Phase-Locked Loop acts as a high-pass filter for phase noise originating from which component?",
+        "choices": [
+            "A. The reference oscillator",
+            "B. The Phase Detector",
+            "C. The Voltage Controlled Oscillator (VCO)",
+            "D. The frequency divider"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "A worded circuit: You need a PLL to lock onto a extremely weak 100 kHz signal buried in broad-spectrum electrical noise. To reject the noise effectively and prevent false locking, the bandwidth of the PLL's Low-Pass Filter should be made:",
+        "choices": [
+            "A. Extremely wide",
+            "B. Extremely narrow",
+            "C. Exactly 100 kHz",
+            "D. 1 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "What is the primary engineering trade-off of making the Low-Pass Filter bandwidth extremely narrow to reject noise?",
+        "choices": [
+            "A. The Capture Range is massively reduced and the lock time becomes very long",
+            "B. The Lock Range is increased",
+            "C. The VCO frequency doubles",
+            "D. The Phase Detector burns out"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "The NE565 PLL IC operates from a dual power supply. The output of its internal phase detector is internally connected to the VCO control voltage input through a:",
+        "choices": [
+            "A. Capacitor",
+            "B. Inductor",
+            "C. Resistor",
+            "D. Direct wire"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "In AM demodulation using a PLL, the PLL loop is strictly used to:",
+        "choices": [
+            "A. Extract the audio envelope directly",
+            "B. Generate a local, unmodulated carrier perfectly synchronized in phase and frequency with the incoming carrier for use in a synchronous detector",
+            "C. Amplify the sidebands",
+            "D. Rectify the AM signal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "To perform synchronous AM demodulation with a PLL, the incoming AM signal and the PLL's locked, unmodulated VCO output are both fed into an external:",
+        "choices": [
+            "A. Low-pass filter",
+            "B. Envelope detector",
+            "C. Analog multiplier (mixer)",
+            "D. Differentiator"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "A PLL is subject to a dangerous condition called \"false lock\". This typically occurs when the PLL accidentally locks onto:",
+        "choices": [
+            "A. A harmonic, sub-harmonic, or intermodulation sideband of the intended input signal",
+            "B. The exact free-running frequency",
+            "C. The DC power supply ripple",
+            "D. Pure thermal noise"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "A classic analog Phase-Locked Loop relies on a phase detector whose average DC output voltage is directly proportional to the:",
+        "choices": [
+            "A. Frequency of the input signal",
+            "B. Phase difference between the input and VCO signals",
+            "C. Amplitude of the input signal",
+            "D. Phase sum of the input and VCO signals"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "The LM567 is a highly specialized integrated circuit that utilizes a PLL specifically configured to operate as a:",
+        "choices": [
+            "A. FM transmitter",
+            "B. Voltage regulator",
+            "C. Tone Decoder",
+            "D. High-power audio amplifier"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "In the LM567 Tone Decoder, the output pin is an open-collector transistor that pulls LOW (activates) only when:",
+        "choices": [
+            "A. The input voltage is absolute zero",
+            "B. The PLL successfully locks onto an input signal matching its internal center frequency",
+            "C. The loop filter capacitor is fully discharged",
+            "D. The power supply exceeds 15V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "In a Type II PLL (using a PFD and charge pump), a standard passive loop filter consists of a resistor (R) and capacitor (C1) in series. What is the main purpose of adding a second, much smaller capacitor (C2) in parallel with this RC combination?",
+        "choices": [
+            "A. To increase the overall lock range",
+            "B. To filter out high-frequency \"reference spur\" ripples generated by the pulsed charge pump",
+            "C. To provide a DC leakage path for the charge pump",
+            "D. To decrease the free-running frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "Worded circuit: A PLL synthesizer produces 100 MHz. The reference oscillator is 1 MHz. The feedback divider is therefore set to N=100. If the 1 MHz reference signal has a small 60 Hz phase jitter, the phase jitter magnitude at the 100 MHz output will be magnified by a factor of:",
+        "choices": [
+            "A. 1",
+            "B. 60",
+            "C. 100",
+            "D. 10000"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "Which standard digital logic component is fundamentally incapable of acting as a basic phase detector in a PLL?",
+        "choices": [
+            "A. Exclusive-OR (XOR) gate",
+            "B. Phase-Frequency Detector (PFD)",
+            "C. J-K Flip Flop",
+            "D. A simple Inverter (NOT gate)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "A Phase-Locked Loop acts essentially as an active narrowband tracking filter. This means its effective center frequency:",
+        "choices": [
+            "A. Is permanently fixed by the factory and cannot change",
+            "B. Automatically shifts dynamically to follow changes in the input signal frequency",
+            "C. Is determined exclusively by the ambient temperature",
+            "D. Sweeps continuously across the entire radio spectrum at all times"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "In an XOR phase detector, if the phase difference is exactly 0 degrees (signals are perfectly in phase), the output voltage is:",
+        "choices": [
+            "A. Maximum positive",
+            "B. Vcc / 2",
+            "C. Maximum negative",
+            "D. Zero volts (constantly LOW)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 82,
+        "question": "If the loop gain (Kd * Kv) of a basic first-order PLL is significantly increased, the theoretical Lock Range of the system will:",
+        "choices": [
+            "A. Increase",
+            "B. Decrease",
+            "C. Remain unchanged",
+            "D. Drop to zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "What physically happens to the VCO control voltage when the input signal to a successfully locked PLL is suddenly disconnected?",
+        "choices": [
+            "A. It remains perfectly constant indefinitely",
+            "B. It rises immediately to Vcc",
+            "C. It decays (or rises) to its quiescent zero-error level, causing the VCO to drift back to its free-running frequency",
+            "D. It begins oscillating at high frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "A PLL used for precision motor speed control compares the phase of a highly stable reference clock to the phase of a signal originating from a/an:",
+        "choices": [
+            "A. External Antenna",
+            "B. Optical encoder attached to the rotating motor shaft",
+            "C. Thermal sensor on the chassis",
+            "D. Strain gauge on the mount"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "The maximum rate at which the input frequency can be swept (changed) while the PLL is still able to maintain lock without cycle slipping is primarily determined by the:",
+        "choices": [
+            "A. Slew rate limit and bandwidth of the loop filter",
+            "B. Free-running frequency",
+            "C. Capture range",
+            "D. Hold-in range"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "In terms of loop dynamics, adding a lead-lag filter to a basic PLL transforms it from a first-order system to a second-order system. This is done primarily to grant the designer independent mathematical control over the natural frequency and the:",
+        "choices": [
+            "A. Damping factor",
+            "B. Supply voltage",
+            "C. Free-running frequency",
+            "D. Divider ratio"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "A Phase-Locked Loop can be used to regenerate a clean, perfectly timed clock signal from a noisy digital data stream. This application relies heavily on the PLL's ability to act as a:",
+        "choices": [
+            "A. High-Q Flywheel (narrowband filter) that ignores short-term phase jitter",
+            "B. Differentiator",
+            "C. Voltage booster",
+            "D. Logic inverter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "If a PLL's VCO generates a perfect 50% duty cycle square wave, and the reference is also a square wave, an analog multiplier phase detector will practically function exactly like a/an:",
+        "choices": [
+            "A. OR gate",
+            "B. XOR gate",
+            "C. NAND gate",
+            "D. D Flip-Flop"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "The capture range of a PLL is highly dependent on the low-pass loop filter. If the filter's time constant is made very large (resulting in a narrow bandwidth), the capture range will:",
+        "choices": [
+            "A. Approach the lock range",
+            "B. Become extremely small",
+            "C. Double",
+            "D. Remain unchanged"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "Worded circuit: A PLL uses a basic analog multiplier PD. The input is a sine wave, and the VCO is a square wave. Due to the mixing action, the phase detector output will contain the DC error signal plus strong high-frequency harmonics of the:",
+        "choices": [
+            "A. VCO frequency only",
+            "B. Input frequency only",
+            "C. Difference frequency",
+            "D. Input frequency and its odd harmonics"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "A \"prescaler\" is often used in modern high-frequency PLL synthesizers. What exactly is a prescaler?",
+        "choices": [
+            "A. An RF power amplifier",
+            "B. A high-speed, fixed-ratio digital frequency divider placed between the VCO and the main programmable divider",
+            "C. A low-pass filter",
+            "D. A charge pump"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "In a dual-modulus prescaler synthesizer, the prescaler can be dynamically instructed to divide by two different closely spaced integer values (e.g., P and P+1). This complex architecture allows the synthesizer to achieve:",
+        "choices": [
+            "A. A wider lock range",
+            "B. A smaller channel step size (finer frequency resolution) while maintaining a high phase-detector reference frequency",
+            "C. Lower power consumption",
+            "D. Infinite capture range"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "The mathematical process of multiplying an input frequency by a fractional number (e.g., M/N) using a standard integer PLL requires:",
+        "choices": [
+            "A. A divider of N before the Phase Detector and a divider of M in the VCO feedback path",
+            "B. Only a divider of M in the feedback path",
+            "C. An analog multiplier",
+            "D. A Fractional-N architecture"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "In the context of a Phase Frequency Detector (PFD), what does the \"charge pump\" actually do electrically?",
+        "choices": [
+            "A. It steps up the power supply voltage",
+            "B. It converts the digital UP/DOWN logic pulses from the PFD into analog current pulses that charge or discharge the loop filter capacitor",
+            "C. It pumps liquid coolant through the IC",
+            "D. It amplifies the reference signal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "What strictly determines the absolute maximum theoretical frequency at which a generic integrated PLL can lock?",
+        "choices": [
+            "A. The maximum operating frequency capability of the internal VCO",
+            "B. The physical size of the low-pass filter capacitor",
+            "C. The phase detector conversion gain",
+            "D. The ambient temperature"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 96,
+        "question": "If a PLL is specifically designed to operate as an FSK (Frequency Shift Keying) demodulator, the Low-Pass Filter must have a bandwidth that is:",
+        "choices": [
+            "A. Narrow enough to reject the carrier frequency, but wide enough to pass the baseband digital data rate",
+            "B. Exactly zero",
+            "C. Wider than the carrier frequency",
+            "D. Exactly equal to the lock range"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "A worded circuit: You observe the control voltage (V_c) of a locked PLL on an oscilloscope. The input is a steady unmodulated carrier. V_c is a perfectly flat DC line. The input signal suddenly experiences a permanent +10 kHz frequency shift. Assuming it stays in lock, what happens to V_c?",
+        "choices": [
+            "A. It jumps to a new, different flat DC level and stays there",
+            "B. It becomes a 10 kHz sine wave",
+            "C. It drops to zero",
+            "D. It oscillates infinitely"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "The \"Pull-out Range\" is a parameter characterizing the PLL's dynamic large-signal stability. It is defined as the maximum:",
+        "choices": [
+            "A. Frequency step that can be applied to the input before the loop loses lock",
+            "B. Voltage the VCO can output",
+            "C. Phase error permitted before the PFD fails",
+            "D. Ambient temperature variation allowed"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "In the block diagram of a Phase-Locked Loop, the output of the Voltage Controlled Oscillator (VCO) is physically routed to:",
+        "choices": [
+            "A. The output pin only",
+            "B. Ground",
+            "C. One of the inputs of the Phase Detector (completing the feedback loop)",
+            "D. The power supply"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "A highly ideal PLL tracking a perfectly constant frequency input with a Type-II loop filter (which includes a perfect integrator) will eventually settle to a steady-state static phase error of:",
+        "choices": [
+            "A. 90 degrees",
+            "B. Exactly 0 degrees",
+            "C. 45 degrees",
+            "D. 180 degrees"
+        ],
+        "correct_answer": "B"
+    }
+]

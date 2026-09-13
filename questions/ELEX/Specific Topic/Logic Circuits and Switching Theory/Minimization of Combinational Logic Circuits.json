@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "What is the decimal equivalent of the binary number 10110?",
+        "choices": [
+            "A. 20",
+            "B. 24",
+            "C. 22",
+            "D. 26"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "According to De Morgan's theorem, the complement of a product of variables is equal to the:",
+        "choices": [
+            "A. Sum of their complements",
+            "B. Product of their complements",
+            "C. Quotient of their complements",
+            "D. Sum of their products"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "A boolean expression written entirely as the logical sum of multiple product terms is strictly known as:",
+        "choices": [
+            "A. POS",
+            "B. Maxterm",
+            "C. Canonical POS",
+            "D. Sum of Products (SOP)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "In a 4-bit 2's complement system, what is the result of adding 0111 (+7) and 0010 (+2)?",
+        "choices": [
+            "A. 1001 (+9)",
+            "B. 1001 (Overflow, resulting in -7)",
+            "C. 1000 (-8)",
+            "D. 0101 (+5)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "Worded circuit: A security system triggers an alarm (Y=1) if sensor A is 1 AND sensor B is 0. Which universal gate implementation requires the minimum number of NAND gates to realize Y = A * B'?",
+        "choices": [
+            "A. 1 NAND gate",
+            "B. 2 NAND gates",
+            "C. 3 NAND gates",
+            "D. 4 NAND gates"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "Worded circuit: A digital circuit consists of a NOR gate with inputs X and Y, feeding into both inputs of a NAND gate. What is the equivalent simplified boolean function?",
+        "choices": [
+            "A. X + Y",
+            "B. X * Y",
+            "C. X' + Y'",
+            "D. X' * Y'"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "How many standard 2-input NOR gates are strictly required to implement a single NOT gate?",
+        "choices": [
+            "A. Two",
+            "B. One",
+            "C. Three",
+            "D. Four"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "Simplify the Boolean expression: X(X + Y).",
+        "choices": [
+            "A. X + Y",
+            "B. Y",
+            "C. XY",
+            "D. X"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "A Karnaugh Map (K-map) provides a systematic graphical method for simplifying boolean expressions. A 3-variable K-map contains exactly how many cells?",
+        "choices": [
+            "A. 8 cells",
+            "B. 6 cells",
+            "C. 9 cells",
+            "D. 16 cells"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "To maintain logical adjacency, the rows and columns of a K-map must be labeled using which specific sequence?",
+        "choices": [
+            "A. Binary code",
+            "B. BCD code",
+            "C. Gray code",
+            "D. Excess-3 code"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "In a 4-variable K-map, the cells at the extreme top edge and the extreme bottom edge are considered logically adjacent. This geometric property allows the K-map to be visualized conceptually as a:",
+        "choices": [
+            "A. Sphere",
+            "B. Pyramid",
+            "C. Flat plane",
+            "D. Torus (or cylinder)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 12,
+        "question": "How many adjacent 1s must be grouped together in a K-map to effectively eliminate exactly two variables from the resulting product term?",
+        "choices": [
+            "A. 2 (Pair)",
+            "B. 4 (Quad)",
+            "C. 8 (Octet)",
+            "D. 16"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "Grouping exactly 8 adjacent 1s in a standard Karnaugh map forms an \"octet\". This grouping strictly eliminates how many variables from the simplified term?",
+        "choices": [
+            "A. Three variables",
+            "B. Two variables",
+            "C. Four variables",
+            "D. One variable"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Worded circuit: A 4-variable K-map (A,B,C,D) has 1s in cells m0, m1, m2, m3, m4, m5, m6, and m7. If all these are grouped into a single octet, what is the highly simplified resulting Boolean expression?",
+        "choices": [
+            "A. A",
+            "B. B'",
+            "C. A'",
+            "D. B"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "Worded circuit: In a 4-variable K-map (W,X,Y,Z), a quad is formed by grouping the four corner cells (m0, m2, m8, m10). What is the simplified product term derived from this specific grouping?",
+        "choices": [
+            "A. W' Y'",
+            "B. X' Z",
+            "C. W' Z'",
+            "D. X' Z'"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 16,
+        "question": "In a standard 2-variable K-map (A, B), grouping the entire map (all 4 cells contain 1) yields a simplified expression equal to:",
+        "choices": [
+            "A. A + B",
+            "B. 1 (Logic High)",
+            "C. 0",
+            "D. AB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 17,
+        "question": "In combinational logic design, input combinations that will never physically occur or whose output states do not matter are represented on a K-map as:",
+        "choices": [
+            "A. Don't care conditions (X or d)",
+            "B. Logic 0s",
+            "C. Minterms",
+            "D. Essential primes"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "When simplifying a K-map, a \"Don't care\" condition (X) should be included in a group of 1s strictly when it:",
+        "choices": [
+            "A. Is adjacent to a 0",
+            "B. Forms a group of 3",
+            "C. Allows for a significantly larger grouping, thereby further simplifying the expression",
+            "D. Is the only remaining cell"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "Worded circuit: A 3-variable K-map for a BCD to Excess-3 converter is designed. Since standard BCD only uses inputs 0000 to 1001, inputs 1010 to 1111 are treated as don't cares. If left ungrouped (assumed 0), the logic requires more gates. If all don't cares are grouped with 1s where possible, what happens to the hardware implementation?",
+        "choices": [
+            "A. Power dissipation approaches zero",
+            "B. The circuit converts to POS form",
+            "C. The circuit will glitch continuously",
+            "D. The physical gate count and complexity are minimized"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 20,
+        "question": "In K-map terminology, any single valid grouping of adjacent 1s (pair, quad, octet, etc.) that represents a product term is formally defined as a/an:",
+        "choices": [
+            "A. Maxterm",
+            "B. Implicant",
+            "C. Literal",
+            "D. Don't care"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "A \"Prime Implicant\" is strictly defined as an implicant that:",
+        "choices": [
+            "A. Cannot be combined with any other implicants to form a larger valid group",
+            "B. Contains exactly two 1s",
+            "C. Covers all the 0s in the map",
+            "D. Eliminates all variables"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Worded circuit: A 4-variable K-map has a quad grouping that covers minterms m4, m5, m6, m7. There is another quad covering m5, m7, m13, m15. Minterms m4 and m6 are NOT covered by any other group. The first quad (m4, m5, m6, m7) is mathematically classified as a/an:",
+        "choices": [
+            "A. Non-essential Prime Implicant",
+            "B. Redundant Implicant",
+            "C. Essential Prime Implicant",
+            "D. Maxterm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "An Essential Prime Implicant MUST be included in the final simplified SOP expression because it:",
+        "choices": [
+            "A. Is the largest group in the map",
+            "B. Covers the center of the map",
+            "C. Eliminates the most variables",
+            "D. Covers at least one specific minterm (a 1) that is absolutely not covered by any other prime implicant"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "If a simplified Boolean expression is formed by ORing together ONLY the Essential Prime Implicants, and some 1s on the K-map remain uncovered, what is the mandatory next step for the designer?",
+        "choices": [
+            "A. Convert the remaining 1s to don't cares",
+            "B. Select the minimum number of non-essential prime implicants needed to cover the remaining 1s",
+            "C. Invert the output",
+            "D. Use NOR gates instead"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "The generic term \"Logic Family\" refers to a set of digital ICs that share the same:",
+        "choices": [
+            "A. Internal electronic circuit technology (e.g., bipolar transistors or MOSFETs)",
+            "B. Printed circuit board footprint",
+            "C. Operating frequency",
+            "D. Cost"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "TTL is a classic digital logic family. What does the acronym TTL specifically stand for?",
+        "choices": [
+            "A. Thyristor-Transistor Logic",
+            "B. Tri-state Transistor Logic",
+            "C. Transistor-Transistor Logic",
+            "D. Tunnel-Transistor Logic"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "Standard 7400-series TTL logic operates strictly on a nominal DC power supply voltage of:",
+        "choices": [
+            "A. 3.3 Volts",
+            "B. 12 Volts",
+            "C. 1.8 Volts",
+            "D. 5.0 Volts"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 28,
+        "question": "Worded circuit: A digital output pin of a standard 5V TTL gate is left physically unconnected (floating). If a digital multimeter measures this floating input, a subsequent TTL logic stage will inherently interpret this open connection as a:",
+        "choices": [
+            "A. Logic 0 (LOW)",
+            "B. Logic 1 (HIGH)",
+            "C. High-impedance (Tri-state)",
+            "D. Alternating 1 and 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "Which digital logic family utilizes complementary pairs of P-channel and N-channel MOSFETs?",
+        "choices": [
+            "A. CMOS",
+            "B. ECL",
+            "C. TTL",
+            "D. RTL"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "What is the single most significant electrical advantage of CMOS logic circuits compared to standard bipolar TTL circuits?",
+        "choices": [
+            "A. They operate infinitely faster",
+            "B. They can output analog voltages",
+            "C. They consume nearly zero quiescent (static) power when not switching states",
+            "D. They require no external power supply"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "Worded circuit: A designer substitutes a legacy 74LS series TTL IC with a modern 74HC series CMOS IC. The CMOS IC has floating, unconnected input pins. Unlike TTL, what catastrophic electrical issue can occur in the CMOS IC due to these floating inputs?",
+        "choices": [
+            "A. The chip will permanently act as an inverter",
+            "B. The pins will lock to a strict logic LOW",
+            "C. The internal diodes will explode immediately",
+            "D. The input MOSFETs may bias into the linear active region, causing massive cross-conduction current and potential thermal destruction"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 32,
+        "question": "The maximum number of standard logic inputs that a single logic output can safely and reliably drive without degrading voltage levels below specified limits is formally termed:",
+        "choices": [
+            "A. Fan-in",
+            "B. Fan-out",
+            "C. Propagation delay",
+            "D. Slew rate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "Fan-out is mathematically calculated by taking the ratio of:",
+        "choices": [
+            "A. Maximum output current (Ioh or Iol) to the corresponding maximum input current (Iih or Iil) of the driven gates",
+            "B. Output voltage to input voltage",
+            "C. Switching speed to delay time",
+            "D. Power dissipation to noise margin"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Worded circuit: A TTL standard output has an I_OL (max) of 16 mA. It needs to drive standard TTL inputs which have an I_IL (max) of 1.6 mA. What is the absolute strict maximum fan-out for the LOW state?",
+        "choices": [
+            "A. 16",
+            "B. 100",
+            "C. 10",
+            "D. 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "The quantitative measure of a logic circuit's ability to withstand external electrical noise without incorrectly changing its logic state is called:",
+        "choices": [
+            "A. Power dissipation",
+            "B. Gain-bandwidth product",
+            "C. Slew rate",
+            "D. Noise Margin"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "The High-level Noise Margin (NMH) of a logic gate is mathematically defined as:",
+        "choices": [
+            "A. V_IH(min) - V_IL(max)",
+            "B. V_OH(min) - V_IH(min)",
+            "C. V_IL(max) - V_OL(max)",
+            "D. V_OH(max) - V_OL(min)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "Worded circuit: A logic family datasheet specifies V_OH(min) = 2.4V, V_IH(min) = 2.0V, V_OL(max) = 0.4V, and V_IL(max) = 0.8V. What are the exact values of the High-level (NMH) and Low-level (NML) noise margins?",
+        "choices": [
+            "A. NMH = 0.4V, NML = 0.4V",
+            "B. NMH = 1.6V, NML = 1.2V",
+            "C. NMH = 0.8V, NML = 0.8V",
+            "D. NMH = 2.0V, NML = 2.4V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "When a designer must physically interface a 5V standard TTL output directly to a 5V standard CMOS input, what external passive component is strictly mandated to ensure the TTL output reaches the required CMOS V_IH(min) of 3.5V?",
+        "choices": [
+            "A. A series inductor",
+            "B. A decoupling capacitor",
+            "C. A pull-up resistor connected to 5V",
+            "D. A pull-down resistor connected to ground"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "Power Dissipation in a logic gate is typically expressed in units of:",
+        "choices": [
+            "A. Volts (V)",
+            "B. Amperes (A)",
+            "C. Joules (J)",
+            "D. Milliwatts (mW) or Microwatts (uW)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "Dynamic power dissipation in a CMOS logic circuit increases precisely in direct proportion to:",
+        "choices": [
+            "A. The size of the PCB",
+            "B. The switching frequency (clock rate)",
+            "C. The temperature of the room",
+            "D. The value of the pull-down resistors"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "Which common metric is used by engineers to comprehensively compare the overall efficiency of different logic families, calculated by multiplying the propagation delay by the power dissipation?",
+        "choices": [
+            "A. Speed-Power Product (SPP)",
+            "B. Fan-out capacity",
+            "C. Noise Margin Ratio",
+            "D. Slew-rate product"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "The \"LS\" in the highly popular 74LS logic IC series officially stands for:",
+        "choices": [
+            "A. Low-Speed",
+            "B. Linear Synchronous",
+            "C. Low-power Schottky",
+            "D. Logic Sub-system"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "Worded circuit: A 3-variable K-map (A, B, C) has 1s in cells m0, m1, m2, m3. Grouping these four cells forms a quad. What is the simplified expression, and what geometric section of the map does this quad occupy?",
+        "choices": [
+            "A. C' ; the entire right half",
+            "B. A + B ; the four corners",
+            "C. B' ; the top and bottom rows",
+            "D. A' ; the entire top half"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "In a 4-variable K-map, the top row is labeled AB=00. What is the label for the immediate next row down?",
+        "choices": [
+            "A. 10",
+            "B. 01",
+            "C. 11",
+            "D. 00"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "A pair in a K-map eliminates 1 variable. A quad eliminates 2 variables. An octet eliminates 3 variables. Grouping 16 cells in a 4-variable K-map eliminates how many variables?",
+        "choices": [
+            "A. 4 variables (result is 1)",
+            "B. 0 variables",
+            "C. 3 variables",
+            "D. 2 variables"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "Worded circuit: You are minimizing the POS expression Y = (A+B+C)(A+B+C'). You plot zeroes on the K-map at maxterms M0 and M1. Grouping this pair of zeroes yields which simplified POS term?",
+        "choices": [
+            "A. A' + B'",
+            "B. A' + C",
+            "C. A + B",
+            "D. A + B'"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "Which logic family provides the absolute fastest switching speeds, commonly used in microwave frequencies and supercomputers, but suffers from massive power dissipation?",
+        "choices": [
+            "A. CMOS",
+            "B. TTL",
+            "C. I2L",
+            "D. ECL (Emitter-Coupled Logic)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 48,
+        "question": "ECL achieves its incredible switching speed by specifically preventing its internal bipolar transistors from:",
+        "choices": [
+            "A. Drawing any current",
+            "B. Entering deep saturation",
+            "C. Overheating",
+            "D. Switching off completely"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "Standard TTL outputs feature a \"Totem-Pole\" output stage. What is the severe, destructive consequence of accidentally tying the outputs of two standard totem-pole TTL gates directly together?",
+        "choices": [
+            "A. Massive destructive current will flow from VCC to ground if one gate outputs a 1 and the other outputs a 0",
+            "B. The logic speed will double",
+            "C. They will form a perfect wired-AND",
+            "D. The gates will convert to CMOS"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "To safely connect multiple logic outputs to a single shared bus line without short-circuiting, a designer must use TTL gates equipped with:",
+        "choices": [
+            "A. Totem-pole outputs",
+            "B. High-voltage outputs",
+            "C. Tri-state (Three-state) or Open-Collector outputs",
+            "D. Schmitt-trigger inputs"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "Karnaugh maps become extremely visually complex and mathematically impractical to use with manual grouping beyond how many variables?",
+        "choices": [
+            "A. 2 variables",
+            "B. 4 variables",
+            "C. 3 variables",
+            "D. 5 or 6 variables"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "For logic circuits with 7 or more variables, computer software utilizes a systematic algorithmic method rather than a graphical K-map. The most common classical algorithm for this is the:",
+        "choices": [
+            "A. De Morgan's Algorithm",
+            "B. Quine-McCluskey (Tabular) Method",
+            "C. Shannon's Expansion",
+            "D. Fourier Transform"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "In the Quine-McCluskey method, the final step uses a Prime Implicant Chart. The specific purpose of this chart is to rigorously identify the:",
+        "choices": [
+            "A. Essential prime implicants required to cover all minterms",
+            "B. Total power dissipation of the circuit",
+            "C. Maximum clock frequency",
+            "D. Number of don't care conditions"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "In a truth table, a \"don't care\" output is typically represented by the symbol 'd' or:",
+        "choices": [
+            "A. Y",
+            "B. Z",
+            "C. X",
+            "D. N"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "When applying K-map minimization to yield a Product of Sums (POS) expression, the designer must group the:",
+        "choices": [
+            "A. 1s and then invert the result",
+            "B. Don't cares exclusively",
+            "C. 1s",
+            "D. 0s"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 56,
+        "question": "Worded circuit: A designer simplifies a 4-variable function by grouping 1s, resulting in a 4-gate SOP circuit. Another designer groups the 0s on the exact same K-map, resulting in a POS expression. Which of the following statements is mathematically guaranteed?",
+        "choices": [
+            "A. The POS circuit will be slower",
+            "B. The Boolean truth tables of both final simplified circuits are exactly identical",
+            "C. The SOP circuit will use less power",
+            "D. The POS expression will always have fewer literals"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "A group of four 1s in a Karnaugh map is called a:",
+        "choices": [
+            "A. Quad",
+            "B. Octet",
+            "C. Pair",
+            "D. Hex"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "A Prime Implicant that is NOT strictly necessary for covering all minterms because its 1s are completely covered by a combination of other Essential Prime Implicants is termed:",
+        "choices": [
+            "A. A mandatory implicant",
+            "B. A literal",
+            "C. A Non-essential (or Redundant) Prime Implicant",
+            "D. A Don't Care group"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "Worded circuit: In a K-map, you create three overlapping quads. One minterm in the center is shared by all three quads, but every quad also covers at least one unique 1 not covered by any other quad. Are these three quads essential?",
+        "choices": [
+            "A. Only the center quad is essential",
+            "B. None of them are essential",
+            "C. Only two are essential",
+            "D. Yes, all three are Essential Prime Implicants"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "The 7400 series of digital logic ICs was originally introduced by Texas Instruments and heavily utilized which physical packaging style?",
+        "choices": [
+            "A. BGA (Ball Grid Array)",
+            "B. DIP (Dual In-line Package)",
+            "C. QFP (Quad Flat Package)",
+            "D. SOT-23"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "The 74HCT logic series is a specialized CMOS family designed specifically to:",
+        "choices": [
+            "A. Have input voltage thresholds strictly compatible with standard 5V TTL outputs",
+            "B. Consume extreme amounts of power",
+            "C. Operate at 12 Volts",
+            "D. Run at microwave frequencies"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "A TTL gate has I_OH(max) = -400 uA and I_IH(max) = 40 uA. What is the high-state fan-out?",
+        "choices": [
+            "A. 100",
+            "B. 1",
+            "C. 10",
+            "D. 40"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "An open-collector TTL gate requires what external component to function properly and produce a logic HIGH state?",
+        "choices": [
+            "A. A Zener diode",
+            "B. A bypass capacitor",
+            "C. A step-up transformer",
+            "D. A pull-up resistor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "Connecting the outputs of two open-collector TTL gates together to a single pull-up resistor mathematically produces a built-in logic function known as a:",
+        "choices": [
+            "A. Wired-OR",
+            "B. Wired-AND",
+            "C. Wired-XOR",
+            "D. Wired-NOT"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "CMOS logic consumes virtually zero static power. However, if the clock frequency is increased to 100 MHz, the IC becomes very hot. This dynamic power dissipation is strictly calculated using the formula:",
+        "choices": [
+            "A. P = C * V^2 * f",
+            "B. P = V * I * t",
+            "C. P = I^2 * R",
+            "D. P = V / R"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "When a logic gate output is driven to a logic LOW state (0V) and current flows from the load IN to the gate's output pin, the gate is said to be:",
+        "choices": [
+            "A. Tri-stated",
+            "B. Sourcing current",
+            "C. Sinking current",
+            "D. Floating"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "Conversely, when a logic gate is driven HIGH (5V) and supplies current OUT to the load, it is:",
+        "choices": [
+            "A. Tri-stated",
+            "B. Sinking current",
+            "C. Grounding",
+            "D. Sourcing current"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 68,
+        "question": "Worded circuit: You are driving an LED that requires 15 mA. A standard CD4000 series CMOS gate output can only source/sink about 1 mA at 5V. A standard 74LS TTL gate can sink 16 mA but only source 400 uA. How must the LED be wired to the 74LS TTL gate to safely turn it on?",
+        "choices": [
+            "A. From the output pin to Ground (Sourcing mode)",
+            "B. From VCC through the LED to the output pin (Sinking mode)",
+            "C. In parallel with the power pins",
+            "D. Directly to the input pin"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "The time it takes for a change in logic state at the input of a gate to produce a corresponding change at its output is formally called:",
+        "choices": [
+            "A. Propagation delay",
+            "B. Rise time",
+            "C. Fall time",
+            "D. Slew rate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "In digital waveforms, the \"Rise Time\" (tr) is strictly defined as the time required for a signal voltage to transition from:",
+        "choices": [
+            "A. 0% to 100% of its final value",
+            "B. 10% to 50% of its final value",
+            "C. 10% to 90% of its final value",
+            "D. -5V to +5V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "Worded circuit: Five standard TTL NOT gates are cascaded in a closed series loop (the output of the 5th feeds the input of the 1st). Each gate has a propagation delay of 10 ns. What is the fundamental oscillating frequency of this circuit?",
+        "choices": [
+            "A. 50 MHz",
+            "B. 20 MHz",
+            "C. 5 MHz",
+            "D. 10 MHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "A specialized logic gate input circuit designed with hysteresis to clean up noisy, slowly changing analog signals into sharp digital squares waves is a:",
+        "choices": [
+            "A. Multiplexer",
+            "B. Schmitt Trigger",
+            "C. Flip-flop",
+            "D. Tri-state buffer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "In a Schmitt Trigger, the exact voltage difference between the positive-going threshold voltage (V_T+) and the negative-going threshold voltage (V_T-) is formally known as the:",
+        "choices": [
+            "A. Hysteresis voltage",
+            "B. Noise margin",
+            "C. Offset voltage",
+            "D. Bias voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "Worded circuit: A tri-state buffer is enabled. The input is 1, so the output is 1. When the enable pin is deactivated, the output enters the High-Impedance (High-Z) state. Electrically, what does this High-Z state mimic?",
+        "choices": [
+            "A. A solid connection to Ground",
+            "B. A solid connection to VCC",
+            "C. A completely open circuit (physical disconnection) from the bus",
+            "D. A 1 kHz square wave"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "In Karnaugh map grouping, groups of 1s can only be formed in rectangles or squares whose total cell count is:",
+        "choices": [
+            "A. Any even number",
+            "B. A multiple of 3",
+            "C. Any prime number",
+            "D. A strict power of 2 (1, 2, 4, 8, 16)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 76,
+        "question": "Because the edges of a K-map wrap around, grouping a 1 in the top-left corner and a 1 in the bottom-left corner of a 4-variable map constitutes a valid:",
+        "choices": [
+            "A. Quad",
+            "B. Pair",
+            "C. Octet",
+            "D. Isolated minterm"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "In a 4-variable K-map (A,B,C,D), if you group the four absolute corners together, the resulting simplified product term will contain exactly which specific variables?",
+        "choices": [
+            "A. B' D'",
+            "B. A' C'",
+            "C. B D",
+            "D. A C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "The primary engineering objective of using a Karnaugh map is to reduce the Boolean expression to its simplest form, which physically results in a logic circuit with the:",
+        "choices": [
+            "A. Highest possible power dissipation",
+            "B. Maximum number of ICs",
+            "C. Minimum number of logic gates and minimum number of gate inputs",
+            "D. Longest propagation delay"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "A minterm that is covered by a prime implicant can also be covered by another prime implicant without violating K-map rules. This overlapping is fully permitted as long as:",
+        "choices": [
+            "A. The map contains no zeroes",
+            "B. You invert the final answer",
+            "C. The overlapping area forms an octet",
+            "D. Every generated group contains at least one unique 1 not covered by any other group"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "Worded circuit: A K-map simplification yields Y = AB + BC + AC. Upon closer inspection of the K-map, you realize the group forming 'AC' consists entirely of 1s that are already covered by the groups 'AB' and 'BC'. The term 'AC' is a:",
+        "choices": [
+            "A. Essential prime implicant",
+            "B. Consensus term (Non-essential prime implicant)",
+            "C. Minterm",
+            "D. Maxterm"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "A standard 74LS00 Quad 2-input NAND gate IC in a DIP package has how many physical pins?",
+        "choices": [
+            "A. 8",
+            "B. 16",
+            "C. 14",
+            "D. 20"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "The classic CD4000 series CMOS logic family boasts a massive operational power supply voltage range of approximately:",
+        "choices": [
+            "A. 3V to 15V",
+            "B. 1V to 3V",
+            "C. Exactly 5V",
+            "D. 12V to 24V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "Worded circuit: A standard 7400 series TTL gate has a max I_OL of 16 mA. A red LED with a 2V forward voltage is connected from VCC (5V) to the gate output via resistor R. To sink exactly 10 mA with V_OL = 0.2V, what must R be?",
+        "choices": [
+            "A. 330 ohms",
+            "B. 150 ohms",
+            "C. 470 ohms",
+            "D. 280 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 84,
+        "question": "An integrated circuit containing 10,000 to 100,000 logic gates is classified under which scale of integration?",
+        "choices": [
+            "A. SSI",
+            "B. VLSI",
+            "C. MSI",
+            "D. ULSI"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "In combinational logic, a temporary glitch (0-1-0 transition) at the output caused by unequal propagation delays is known as a:",
+        "choices": [
+            "A. Race condition",
+            "B. Slew rate limit",
+            "C. Static Hazard",
+            "D. Metastable state"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 86,
+        "question": "Worded circuit: A logic circuit generates a static-1 hazard. On the K-map, this transition moves between two adjacent 1s that belong to different groups but are not grouped together. How is this hazard eliminated?",
+        "choices": [
+            "A. By adding a redundant (non-essential) prime implicant group covering those two adjacent 1s",
+            "B. By removing an essential prime implicant",
+            "C. By increasing the clock speed",
+            "D. By lowering the VCC voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "The cells in a 3-variable K-map (A, B, C) are numbered m0 to m7. If the columns are AB=00, 01, 11, 10 and rows are C=0, 1, what is the decimal minterm index in the top right corner (AB=10, C=0)?",
+        "choices": [
+            "A. m2",
+            "B. m6",
+            "C. m7",
+            "D. m4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "If a Boolean function is F(x,y,z) = Sum m(1, 3, 5, 7), the K-map simplification results in a single group of four 1s. What is the simplified expression?",
+        "choices": [
+            "A. x",
+            "B. z",
+            "C. y",
+            "D. z'"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "Worded circuit: A 7-segment display decoder is being designed for a 4-bit BCD input. Since valid BCD only ranges from 0 to 9, what are the decimal minterm indices for the mandatory \"don't care\" conditions on the K-map?",
+        "choices": [
+            "A. 0, 1, 2, 3",
+            "B. 8, 9",
+            "C. 10, 11, 12, 13, 14, 15",
+            "D. 16, 17, 18"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "A Karnaugh map completely full of 1s (all 16 cells in a 4-variable map) geometrically reduces to the logic expression:",
+        "choices": [
+            "A. 1 (Logic HIGH)",
+            "B. 0 (Logic LOW)",
+            "C. ABCD",
+            "D. A'B'C'D'"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "When extracting a POS expression from a K-map by grouping the 0s, after finding the simplified product-like terms, you must apply which mathematical rule to obtain the final Product of Sums?",
+        "choices": [
+            "A. Associative Law",
+            "B. Distributive Law",
+            "C. Commutative Law",
+            "D. De Morgan's Theorem"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "A 5-variable Karnaugh map (V, W, X, Y, Z) is most practically constructed on paper by:",
+        "choices": [
+            "A. Using a massive 5x5 grid",
+            "B. Placing two identical 4-variable K-maps side-by-side (one for V=0, one for V=1)",
+            "C. Using a spherical map",
+            "D. Grouping strictly along diagonals"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "The absolute maximum number of physical inputs that a single logic gate is manufactured to have is formally called its:",
+        "choices": [
+            "A. Fan-out",
+            "B. Loading factor",
+            "C. Fan-in",
+            "D. Drive capacity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "Because CMOS IC inputs possess extremely high impedance (acting like tiny capacitors), they are highly susceptible to being instantly destroyed by:",
+        "choices": [
+            "A. Electrostatic Discharge (ESD)",
+            "B. Low voltage ripples",
+            "C. Magnetic fields",
+            "D. Audible noise"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "Worded circuit: A 3.3V logic microcontroller pin (V_OH = 3.1V) directly feeds a 5V CMOS IC input (V_IH_min = 3.5V). What will mathematically happen?",
+        "choices": [
+            "A. The CMOS IC will perfectly recognize a logic 1",
+            "B. The CMOS IC will output a negative voltage",
+            "C. The microcontroller will blow up",
+            "D. The 3.1V signal is below the required 3.5V threshold, causing the CMOS IC to fail to reliably register a logic 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "The classic 7400 series TTL logic gates use which physical semiconductor component as their primary active switching element?",
+        "choices": [
+            "A. MOSFETs",
+            "B. Bipolar Junction Transistors (BJTs)",
+            "C. Op-amps",
+            "D. JFETs"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "The generic, fundamental CMOS inverter circuit is uniquely constructed using exactly:",
+        "choices": [
+            "A. Two N-channel MOSFETs",
+            "B. Four BJTs",
+            "C. One P-channel MOSFET and one N-channel MOSFET",
+            "D. Two P-channel MOSFETs"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 98,
+        "question": "Worded circuit: A TTL logic gate has I_OL = 8 mA. A mechanical relay coil requires 50 mA to actuate. Can this logic gate drive the relay directly, and if not, what is the standard engineering solution?",
+        "choices": [
+            "A. No, the gate cannot provide 50 mA; an external transistor or MOSFET switch must be used",
+            "B. Yes, but only in sinking mode",
+            "C. Yes, but only in sourcing mode",
+            "D. No, the relay must be replaced with a resistor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "Which logic family has a static power dissipation so low that it is essentially measured in nanowatts per gate?",
+        "choices": [
+            "A. ECL",
+            "B. Standard TTL",
+            "C. Schottky TTL",
+            "D. CMOS"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "When interfacing a 5V TTL output to a 5V CMOS input, the standard pull-up resistor is placed specifically to pull the TTL's V_OH level up to:",
+        "choices": [
+            "A. Ground (0V)",
+            "B. 5 Volts (VCC)",
+            "C. 3.3 Volts",
+            "D. 12 Volts"
+        ],
+        "correct_answer": "B"
+    }
+]

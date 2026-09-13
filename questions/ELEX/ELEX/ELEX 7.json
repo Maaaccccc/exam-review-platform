@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "Which statement is TRUE about a PIN Diode?",
+        "choices": [
+            "A. Low reactance in the forward direction",
+            "B. High impedance in the reverse direction",
+            "C. High reactance in the reverse direction",
+            "D. High impedance in the forward direction"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "A system is experiencing a potential interrupt conflict. How would you use the Read, Interrupt, Mask (RIM) instruction to determine the status of the program?",
+        "choices": [
+            "A. Interpret the accumulator bits",
+            "B. Execute interrupt mask status",
+            "C. Load the bits simulator",
+            "D. Assess possible conflicts"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "In the small-signal model of a diode, what component PRIMARILY represents the diode's resistance?",
+        "choices": [
+            "A. Breakdown resistance (Rb)",
+            "B. Series resistance (Rs)",
+            "C. Shunt capacitance (Cj)",
+            "D. Dynamic resistance (rd)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "What is the utility program that translates assembly language source code into executable machine code?",
+        "choices": [
+            "A. Assembler",
+            "B. Application",
+            "C. Register",
+            "D. Instruction"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "What happens to the non-linear distortion of the output signal caused by the amplifier when using negative feedback?",
+        "choices": [
+            "A. Decreases",
+            "B. Increases",
+            "C. Changes sinusoidal",
+            "D. Remains stable"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "What circuit component PRIMARILY contributes to the high-frequency gain loss of a CE amplifier?",
+        "choices": [
+            "A. The power supply ripple",
+            "B. The coupling capacitors",
+            "C. The base-emitter junction capacitance",
+            "D. The emitter resistor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "Which condition results in the HIGHEST voltage gain (Av) in an amplifier?",
+        "choices": [
+            "A. Load resistance at its minimum value with a high source resistance",
+            "B. Load resistance at its maximum value with a low source resistance",
+            "C. Load resistance equal to the source resistance with both at medium values",
+            "D. Load resistance at its minimum value with a low source resistance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "What determines the frequency response of an op-amp?",
+        "choices": [
+            "A. The input impedance and overall frequency",
+            "B. The open Loop gain and bandwidth product",
+            "C. The output impedance and overall frequency",
+            "D. The power supply voltages and bandwidth product"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "Technician Paul says a relay is used to control a small amount of current in a circuit with a large amount of current. Technician Roi says a relay is used to create a voltage drop in a control circuit. Whose statement is TRUE?",
+        "choices": [
+            "A. Technician Roi",
+            "B. Neither Technician Paul nor Roi",
+            "C. Both Technicians Paul & Roi",
+            "D. Technician Paul"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 10,
+        "question": "In a 3-input OR gate, what will be the output when all inputs are 0?",
+        "choices": [
+            "A. Undefined",
+            "B. 1",
+            "C. 0",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "The Boolean function F(A,B,C) = A(B+C) + A'(B'+C) can be reduced to:",
+        "choices": [
+            "A. F(A,B,C) = A C + B",
+            "B. F(A,B,C) = A B + A' B' + C",
+            "C. F(A,B,C) = A + C",
+            "D. F(A,B,C) = A B' + A B'C' + C'"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "What is measured by the mutual inductance between two coils?",
+        "choices": [
+            "A. Total flux linking the coils",
+            "B. Voltage induced in one coil by a current in the other",
+            "C. Inductance of the individual coils",
+            "D. Resistance of the coils REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "The Boolean function F(A,B,C) = A'(B+C) + A'(B'+C) can be simplified to:",
+        "choices": [
+            "A. F(A,B,C) = A + C",
+            "B. F(A,B,C) = A B + C",
+            "C. F(A,B,C) = A'",
+            "D. F(A,B,C) = A + B + C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "What step should an engineer follow to provide a microcontroller with the I/O signals to a device?",
+        "choices": [
+            "A. Use dedicated I/O ports and peripherals",
+            "B. Convert analog to digital data for device processing",
+            "C. Use communication ports to devices",
+            "D. Send digital pulses to external devices"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "A BJT small-signal amplifier has a capacitor bypassing the emitter resistor. What happens if the capacitor is removed?",
+        "choices": [
+            "A. The DC operating point changes significantly",
+            "B. The frequency response shifts to lower frequencies",
+            "C. The gain of the amplifier decreases",
+            "D. The input impedance decreases"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "The characteristic equation of a given system is s^4 + 6s^3 + 11s^2 + 6s + k = 0. What restrictions must be placed upon the parameter k to ensure that the system is stable?",
+        "choices": [
+            "A. -1 < k < 5",
+            "B. 0 < k < 15",
+            "C. 0 < k < 10",
+            "D. -3 < k < 3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "The operating frequency of a circuit is 500 Hz. We want to raise it by two octaves. What is the corresponding frequency?",
+        "choices": [
+            "A. 250 Hz",
+            "B. 2 kHz",
+            "C. 32 kHz",
+            "D. 4 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "What does Gauss's law for magnetism state in Maxwell's equations?",
+        "choices": [
+            "A. The net magnetic charge in a region is zero",
+            "B. The magnetic field is due to electric current only",
+            "C. The magnetic flux density through a surface is proportional to the enclosed magnetic charge",
+            "D. The electric flux through a surface is proportional to the enclosed charge"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "When an electronic circuit replicates a current from one branch to another and acts like a current amplifier, this is called:",
+        "choices": [
+            "A. Differential Circuit",
+            "B. Source Voltage",
+            "C. Current Source",
+            "D. Current Mirrors"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 20,
+        "question": "In a common-emitter amplifier, what condition must be met to ensure a high voltage gain?",
+        "choices": [
+            "A. Reduce emitter resistance while increasing collector resistance",
+            "B. Reduce collector resistance while keeping emitter resistance constant",
+            "C. Increase base resistance while reducing collector resistance",
+            "D. Increase emitter resistance while keeping collector resistance constant"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "Two inductances L1 = 10 mH and L2 = 20 mH are connected in a parallel circuit. What is the equivalent inductance?",
+        "choices": [
+            "A. 12.12 mH",
+            "B. 7.66 mH",
+            "C. 4.37 mH",
+            "D. 6.67 mH"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 22,
+        "question": "When designing a BJT amplifier for high-frequency operation, the overall gain-bandwidth product is PRIMARILY influenced by what factor?",
+        "choices": [
+            "A. The collector-emitter capacitance",
+            "B. The biasing network",
+            "C. The input and output coupling capacitors",
+            "D. The emitter resistance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "A certain 120 VAC RMS 60 Hz 1.2 HP motor has an efficiency of 90% and a lagging power factor of 0.85. What reactive power is drawn from the system?",
+        "choices": [
+            "A. 817 VAR",
+            "B. 975 VAR",
+            "C. 617 VAR",
+            "D. 770 VAR"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "In a D flip-flop, under what condition will the output Q follow the input D?",
+        "choices": [
+            "A. The clock is low",
+            "B. The clock is high REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "C. The clock edge triggers the flip-flop",
+            "D. The reset signal is active"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "Under what condition will a P-channel JFET operate that could allow current to flow from the source?",
+        "choices": [
+            "A. Biased positively",
+            "B. Connected to the ground",
+            "C. Biased negatively",
+            "D. Zero voltage"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 26,
+        "question": "What type of memory has the advantage of being re-writable but needs to be physically removed from a circuit to be erased and reprogrammed?",
+        "choices": [
+            "A. Static RAM",
+            "B. Flash ERAM",
+            "C. Register",
+            "D. Electrically programmable ROM"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "When will the output of a 3-input AND gate become 1?",
+        "choices": [
+            "A. At least one input is 1",
+            "B. At least one input is 0",
+            "C. Any two inputs are 1",
+            "D. All inputs are 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 28,
+        "question": "What is the significance of the \"dot convention\" in mutually coupled inductors?",
+        "choices": [
+            "A. It indicates the physical size of the inductor.",
+            "B. It determines the relative polarity of the induced voltage in the coils.",
+            "C. It shows the direction of the electrostatic field.",
+            "D. It identifies the material of the core."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "In a region where the magnetic flux is constant, what is the induced electromotive force (EMF) in a stationary coil?",
+        "choices": [
+            "A. Infinite",
+            "B. Zero",
+            "C. Proportional to the flux density",
+            "D. Equal to the self-inductance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "Which of Maxwell's equations is represented by the statement that \"the total electric flux out of a closed surface is equal to the charge enclosed divided by permittivity\"?",
+        "choices": [
+            "A. Gauss's Law for Electricity",
+            "B. Gauss's Law for Magnetism",
+            "C. Maxwell-Ampere Law",
+            "D. Lenz's Law"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "Which formula correctly relates the energy (W) stored in a capacitor to its charge (Q) and voltage (V)?",
+        "choices": [
+            "A. W = QV",
+            "B. W = 0.5 QV",
+            "C. W = 0.5 Q^2 V",
+            "D. W = 0.5 CV"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "In the continuity equation, if the divergence of current density is positive at a point, what is happening to the charge density at that location?",
+        "choices": [
+            "A. It is increasing over time.",
+            "B. It is decreasing over time.",
+            "C. It remains constant.",
+            "D. It becomes zero immediately."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "What is the name of the effect where a material, like a ferroelectric, retains a certain level of polarization even after the external electric field is reduced to zero?",
+        "choices": [
+            "A. Dielectric breakdown",
+            "B. Remanence",
+            "C. Permittivity",
+            "D. Capacitive reactance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "If you double the distance from a positive point charge, what happens to the magnitude of the electric field?",
+        "choices": [
+            "A. It doubles.",
+            "B. It stays the same.",
+            "C. It drops to one-fourth.",
+            "D. It drops to one-half."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "A network has 12 branches and 8 independent loops. How many nodes are there in the network?",
+        "choices": [
+            "A. 19",
+            "B. 5",
+            "C. 4",
+            "D. 6"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "An AC load consists of a resistor and an inductor in series, resulting in total Impedance Z = 3 + j4 ohms. If the RMS current is 10 A, determine the Reactive Power (Q) absorbed by the circuit.",
+        "choices": [
+            "A. 300 W",
+            "B. 500 VA",
+            "C. 400 VAR",
+            "D. 250 VAR"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "A circuit has a complex impedance of Z = 3 + j4 ohms. Determine the value of its Susceptance B (in Siemens). REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+        "choices": [
+            "A. -0.16 S",
+            "B. 0.12 S",
+            "C. 0.16 S",
+            "D. -0.12 S"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Consider a T-network with two series resistors of 20 ohms each and a central shunt resistor of 40 ohms. Calculate the open-circuit input impedance parameter (Z11).",
+        "choices": [
+            "A. 80 ohms",
+            "B. 60 ohms",
+            "C. 20 ohms",
+            "D. 40 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Which of Maxwell's equations is the differential form of Gauss's Law for Electrostatics?",
+        "choices": [
+            "A. Curl of E = 0",
+            "B. Divergence of B = 0",
+            "C. Divergence of D = rho",
+            "D. Curl of H = J"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "When crossing the boundary between two different magnetic materials (assuming no surface current), which component of the magnetic flux density B remains continuous?",
+        "choices": [
+            "A. The tangential component",
+            "B. The horizontal component",
+            "C. The parallel component",
+            "D. The normal component"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "In the standard analogy between electric and magnetic circuits, \"Magnetic Flux\" flows through a magnetic circuit just as what quantity flows through an electric circuit?",
+        "choices": [
+            "A. Voltage",
+            "B. Current",
+            "C. Resistance",
+            "D. Conductance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "The Mutual Inductance (M) between two coils is mathematically related to their individual self-inductances (L1 and L2) and the coefficient of coupling (k) by which formula?",
+        "choices": [
+            "A. M = k(L1 + L2)",
+            "B. M = k / (L1 * L2)",
+            "C. M = k * sqrt(L1 * L2)",
+            "D. M = (L1 * L2) / k"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "The \"Displacement Current\" density is equal to the time rate of change of which vector field?",
+        "choices": [
+            "A. Magnetic Field Intensity (H)",
+            "B. Electric Flux Density (D)",
+            "C. Current Density (J)",
+            "D. Magnetic Flux Density (B)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "Which specific law is often described as the \"negative sign\" in Faraday's Law?",
+        "choices": [
+            "A. Lenz's Law",
+            "B. Coulomb's Law",
+            "C. Biot-Savart Law",
+            "D. Kirchhoff's Law"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "An Instrumentation Amplifier is a specialized differential amplifier primarily distinguished by its:",
+        "choices": [
+            "A. Low input impedance",
+            "B. Ability to drive low-impedance loads",
+            "C. Extremely high input impedance and precise, adjustable gain",
+            "D. High output noise"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "An open-loop amplifier has mid-band gain Aol=1,000 and bandwidth 20 kHz. If negative feedback Beta=0.04 is applied, what is the closed-loop bandwidth?",
+        "choices": [
+            "A. 400 kHz",
+            "B. 820 kHz",
+            "C. 200 kHz",
+            "D. 1.2 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "Calculate the resonant frequency of a Wien Bridge oscillator if R=10 kΩ and C=10 nF.",
+        "choices": [
+            "A. 3.18 kHz",
+            "B. 159 Hz",
+            "C. 1.59 kHz",
+            "D. 15.9 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "Which power semiconductor combines the high input impedance of a MOSFET with the low saturation voltage of a BJT?",
+        "choices": [
+            "A. IGBT",
+            "B. GTO",
+            "C. Power JFET",
+            "D. DIAC"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "Which photovoltaic device converts light energy directly into electrical energy without an external voltage source? REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+        "choices": [
+            "A. LED",
+            "B. Solar Cell",
+            "C. Photo-resistor (LDR)",
+            "D. Phototransistor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "A Hall Effect sensor is primarily used to detect the presence and magnitude of which physical quantity?",
+        "choices": [
+            "A. Acoustic pressure",
+            "B. Magnetic field",
+            "C. Ultraviolet radiation",
+            "D. Mechanical strain"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "In an ADC, the \"Resolution\" is determined by the number of bits and defines the:",
+        "choices": [
+            "A. Maximum sampling frequency",
+            "B. Smallest detectable change in the analog input voltage",
+            "C. Total time required",
+            "D. Maximum input voltage range"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "Which graphical programming language, standard for PLCs, is designed to resemble electrical relay schematics?",
+        "choices": [
+            "A. Ladder Logic",
+            "B. Functional Block Diagram",
+            "C. Structured Text",
+            "D. Instruction List"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "A Johnson counter (twisted ring counter) is primarily used for:",
+        "choices": [
+            "A. Generating specific bit patterns and frequency division",
+            "B. Multiplexing analog inputs",
+            "C. Storing non-volatile BIOS settings",
+            "D. High-speed cache replacement"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "In an LTI (Linear Time-Invariant) system, how is the output mathematically defined in terms of the input and the system's impulse response?",
+        "choices": [
+            "A. Convolution of input with impulse response",
+            "B. Derivative of input with impulse response",
+            "C. Sum of input and impulse response",
+            "D. Difference of input and impulse response"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "A high input impedance prevents the next stage from drawing too much current, effectively minimizing what effect?",
+        "choices": [
+            "A. Loading effect",
+            "B. Skin effect",
+            "C. Early effect",
+            "D. Miller effect"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "In a magnetically coupled circuit, how does reducing the air gap in the core affect the total reluctance and inductance?",
+        "choices": [
+            "A. Decreases reluctance, increases inductance",
+            "B. Increases reluctance, decreases inductance",
+            "C. Reluctance and inductance both increase",
+            "D. Reluctance and inductance both decrease"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 57,
+        "question": "What represents the fraction of magnetic flux linking two coils, which physically must lie in the range of 0 to 1?",
+        "choices": [
+            "A. Coefficient of coupling",
+            "B. Quality factor",
+            "C. Standoff ratio",
+            "D. Damping factor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "The Miller effect in a MOSFET amplifier is primarily caused by which parasitic capacitance?",
+        "choices": [
+            "A. Gate-to-drain capacitance (Cgd)",
+            "B. Gate-to-source capacitance (Cgs)",
+            "C. Drain-to-source capacitance (Cds)",
+            "D. Bulk capacitance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "Which system centrally monitors sensors and controls HVAC, lighting, and other utility systems in a commercial facility?",
+        "choices": [
+            "A. Building Management System",
+            "B. Distributed Control System",
+            "C. Supervisory Control and Data Acquisition",
+            "D. Remote Terminal Unit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "If a circuit has a voltage of 50 V across a 250 ohm resistor, what is the current flowing?",
+        "choices": [
+            "A. 0.1 A",
+            "B. 0.2 A",
+            "C. 0.25 A",
+            "D. 0.5 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "Which component in a DC power supply is primarily used to smooth out the pulsating DC voltage?",
+        "choices": [
+            "A. Rectifier diode",
+            "B. Transformer",
+            "C. Filter capacitor",
+            "D. Zener diode REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "What is the maximum decimal count that can be displayed by a 4-bit binary counter?",
+        "choices": [
+            "A. 8",
+            "B. 12",
+            "C. 15",
+            "D. 16"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "In Algorithmic State Machine (ASM) charts, which block is used to represent conditional output actions?",
+        "choices": [
+            "A. State box",
+            "B. Decision box",
+            "C. Conditional output box",
+            "D. Input box"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "Which equation represents the energy stored in a capacitor in terms of its capacitance (C) and voltage (V)?",
+        "choices": [
+            "A. W = CV",
+            "B. W = 0.5 CV",
+            "C. W = 0.5 CV^2",
+            "D. W = C / V^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "Voltage (potential difference) is physically defined as:",
+        "choices": [
+            "A. Energy in Joules per unit charge in Coulombs",
+            "B. Charge in Coulombs per unit time in seconds",
+            "C. Current in Amperes per unit resistance in ohms",
+            "D. Power in Watts per unit time in seconds"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "In a commercial facility with high security, how should fire alarm systems be integrated with access control?",
+        "choices": [
+            "A. Disconnecting the fire alarm from access control",
+            "B. Making security doors remain locked",
+            "C. Using a relay-based trigger to automatically unlock doors",
+            "D. Manually unlocking each door"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "Simplify the Boolean expression: X = A + AB",
+        "choices": [
+            "A. AB",
+            "B. A",
+            "C. B",
+            "D. A + B"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "For a CE circuit with Vcc = 10 V, Rc = 3.3 kΩ, Ie = 2 mA, and beta = 50, what are the values of Ic and Vc?",
+        "choices": [
+            "A. Ic = 2.0 mA, Vc = 3.4 V",
+            "B. Ic = 1.96 mA, Vc = 3.5 V",
+            "C. Ic = 1.0 mA, Vc = 6.7 V",
+            "D. Ic = 2.0 mA, Vc = 8.7 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "When applying the superposition theorem, an ideal current source is replaced by what?",
+        "choices": [
+            "A. Short circuit",
+            "B. Resistance",
+            "C. Open circuit",
+            "D. Voltage source"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "What occurs if the amplifier gain in a Wien-bridge oscillator is adjusted to a value of 2.5?",
+        "choices": [
+            "A. Oscillation amplitude increases without limit",
+            "B. No oscillation will occur",
+            "C. Stable sinusoidal oscillation occurs",
+            "D. The frequency of oscillation doubles"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "A digital counter counts from binary 000 to 101 and then resets. What is the modulus of this counter?",
+        "choices": [
+            "A. 5",
+            "B. 6",
+            "C. 7",
+            "D. 8"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "The parallel LC circuit connected to the antenna in a passive crystal radio behaves as what type of filter?",
+        "choices": [
+            "A. Low-pass filter",
+            "B. High-pass filter",
+            "C. Band-pass filter",
+            "D. Band-stop filter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "Which of the following is NOT a function of the BIOS in a computer system?",
+        "choices": [
+            "A. Power-on self-test (POST)",
+            "B. Initializing hardware devices",
+            "C. Loading the operating system",
+            "D. Providing permanent user data storage"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "Which authentication factor is classified as \"something you are\"?",
+        "choices": [
+            "A. Password",
+            "B. Smart card",
+            "C. PIN code",
+            "D. Fingerprint"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "A BJT differential amplifier uses ±12 V supplies and a tail resistor RE = 4.7 kΩ connected to -12 V. If both inputs are 0 V and VBE is 0.7 V, what is the tail current?",
+        "choices": [
+            "A. 1.28 mA",
+            "B. 2.40 mA",
+            "C. 3.60 mA REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "D. 0.64 mA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "For an ideal differential amplifier with identical transistors, when the same common-mode input is applied to both bases, the output voltage is:",
+        "choices": [
+            "A. Maximum",
+            "B. Zero",
+            "C. Minimum",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "What is the primary function of a snubber circuit connected across an SCR?",
+        "choices": [
+            "A. To reduce conduction losses",
+            "B. To increase the holding current",
+            "C. To protect against high dv/dt and voltage transients",
+            "D. To improve gate sensitivity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "The root locus of a feedback system begins at what points on the s-plane when the gain is zero?",
+        "choices": [
+            "A. Zeros of the open-loop transfer function",
+            "B. Poles of the closed-loop transfer function",
+            "C. Poles of the open-loop transfer function",
+            "D. Origin of the s-plane"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "Race conditions are most commonly associated with which type of digital circuit?",
+        "choices": [
+            "A. Synchronous sequential circuits",
+            "B. Combinational circuits",
+            "C. Asynchronous sequential circuits",
+            "D. Memory circuits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "If a microprocessor can address 4 MB of memory, how many address lines does it require?",
+        "choices": [
+            "A. 20",
+            "B. 21",
+            "C. 22",
+            "D. 24"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 81,
+        "question": "Phase margin of a control system is measured at the frequency where the loop gain is:",
+        "choices": [
+            "A. Phase is -180 degrees",
+            "B. 0 dB",
+            "C. Gain is infinite",
+            "D. Phase is 0 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "What is the total impedance Z of a series circuit with a resistance of 750 ohms and a net inductive reactance of 400 ohms?",
+        "choices": [
+            "A. 750 + j400 ohms",
+            "B. 750 - j400 ohms",
+            "C. 400 + j750 ohms",
+            "D. 400 - j750 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "Which term describes the radiant power emitted by a source per unit solid angle?",
+        "choices": [
+            "A. Irradiance",
+            "B. Luminous intensity",
+            "C. Radiant intensity",
+            "D. Luminance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "Which IC from the 74xx family contains three independent 3-input AND gates?",
+        "choices": [
+            "A. 7408",
+            "B. 7404",
+            "C. 7411",
+            "D. 7432"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "At resonance in a series RLC circuit, the circuit impedance is at its:",
+        "choices": [
+            "A. Maximum value",
+            "B. Minimum value",
+            "C. Infinite value",
+            "D. Zero value"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "A relay is most commonly used in which application?",
+        "choices": [
+            "A. Signal amplification",
+            "B. High-frequency oscillators",
+            "C. Power switching using low-power signals",
+            "D. Voltage regulation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "A 3-input OR gate can be equivalent to which combination of 2-input OR gates?",
+        "choices": [
+            "A. Three OR gates in parallel",
+            "B. Two OR gates in cascade",
+            "C. One AND followed by OR",
+            "D. One NOR followed by NOT"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "Which circuit element causes the AC voltage to lag the current by exactly 90 degrees?",
+        "choices": [
+            "A. Resistor",
+            "B. Inductor",
+            "C. Capacitor",
+            "D. Transformer REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "If the coupling coefficient between two adjacent coils is zero, what is their mutual inductance?",
+        "choices": [
+            "A. Maximum",
+            "B. Infinite",
+            "C. Zero",
+            "D. Equal to the self-inductance of one coil"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "Which Boolean law is represented by the simplification A + A' = 1?",
+        "choices": [
+            "A. Absorption law",
+            "B. De Morgan's theorem",
+            "C. Complement law",
+            "D. Distributive law"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "Which microcontroller hardware feature allows direct connection to digital devices such as switches and LEDs?",
+        "choices": [
+            "A. ADC module",
+            "B. GPIO ports",
+            "C. Timers",
+            "D. Interrupt controller"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "What is the primary purpose of a coupling capacitor in an amplifier circuit?",
+        "choices": [
+            "A. To block high-frequency noise",
+            "B. To allow AC signals to pass while blocking DC components",
+            "C. To block low-frequency noise",
+            "D. To allow DC signals to pass while blocking AC components"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "In feedback control systems, the poles of a transfer function are mathematically obtained from the:",
+        "choices": [
+            "A. Zeros of the numerator",
+            "B. Roots of the denominator",
+            "C. System gain factor",
+            "D. Transient settling time"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "If the emitter bypass capacitor is removed from a common-emitter BJT amplifier, the circuit becomes more:",
+        "choices": [
+            "A. Unstable",
+            "B. Nonlinear",
+            "C. Linear",
+            "D. Noisy"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "Compared to an ideal voltage multiplier, the output voltage of a practical voltage multiplier is lower primarily due to:",
+        "choices": [
+            "A. Parasitic inductance",
+            "B. Diode forward voltage drops",
+            "C. High load resistance",
+            "D. High-frequency operation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "In control systems, if any coefficient of the characteristic equation is negative, the system is:",
+        "choices": [
+            "A. Always stable",
+            "B. Conditionally stable",
+            "C. Marginally stable",
+            "D. Unstable"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "If an electrical signal's frequency is reduced by exactly one octave, the resulting frequency is:",
+        "choices": [
+            "A. Doubled",
+            "B. Halved",
+            "C. Squared",
+            "D. Unchanged"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "What is a key advantage of applying negative feedback to an amplifier?",
+        "choices": [
+            "A. It increases the overall gain",
+            "B. It reduces the bandwidth",
+            "C. It makes the gain more predictable and stable",
+            "D. It increases the noise floor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "When the voltage gain of cascaded amplifier stages is expressed in decibels (dB), the overall gain is calculated as the:",
+        "choices": [
+            "A. Product of the individual gains in dB",
+            "B. Difference of the individual gains in dB",
+            "C. Sum of the individual gains in dB",
+            "D. Average of the individual gains in dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "Which of the following represents the mathematical form of Gauss's Law for Magnetism?",
+        "choices": [
+            "A. Integral of E dot dA = Q / epsilon_0",
+            "B. Integral of B dot dA = 0",
+            "C. Divergence of E = 0",
+            "D. Curl of B = mu_0 * J REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "B"
+    }
+]

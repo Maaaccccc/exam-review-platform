@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "In a Routh array, if an entire row evaluates to exactly zero, it mathematically indicates that the characteristic equation strictly possesses what specific roots?",
+        "choices": [
+            "A. Roots that are symmetrically located about the origin (e.g., purely imaginary conjugate pairs)",
+            "B. Roots that are strictly in the left-half plane",
+            "C. Only real roots",
+            "D. Roots that are all located at the origin"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "A system's closed-loop poles are precisely located at s = -2 ± j5. Based on these complex conjugate locations, the system's transient step response is mathematically classified as:",
+        "choices": [
+            "A. Overdamped",
+            "B. Underdamped",
+            "C. Critically damped",
+            "D. Undamped"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "In a completely evaluated Routh array, what does a mathematical sign change strictly in the first column explicitly indicate?",
+        "choices": [
+            "A. Number of poles in the left-half plane",
+            "B. Number of zeros in the right-half plane",
+            "C. Number of poles in the right-half plane",
+            "D. Number of marginally stable poles"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "A dipole in classical control theory is strictly mathematically and physically defined as:",
+        "choices": [
+            "A. Two dominant poles",
+            "B. Two zeros located exactly at the origin",
+            "C. A pole and a zero located far apart in the s-plane",
+            "D. A pole and a zero located extremely close to each other on the s-plane"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "Worded circuit: An engineer adds a pure physical time delay of T seconds to a continuous plant. Mathematically, what does this specific component add to the complex s-plane model?",
+        "choices": [
+            "A. A single pole at s = -T",
+            "B. An infinite number of poles",
+            "C. A zero exactly at the origin",
+            "D. A pair of complex conjugate poles"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "Using the Routh-Hurwitz criterion, if the first element of a row evaluates to exactly zero but the rest of the row contains non-zero elements, the standard mathematical procedure is to:",
+        "choices": [
+            "A. Stop calculations and immediately declare the system absolutely unstable",
+            "B. Form an auxiliary equation from the previous row",
+            "C. Replace the zero with a small positive number epsilon (ε) and proceed",
+            "D. Multiply the entire row by -1 to invert the sign"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "The Resonant Peak (M_r) observed in the frequency domain is a direct physical and mathematical measure of the closed-loop system's:",
+        "choices": [
+            "A. Steady-state error",
+            "B. Bandwidth",
+            "C. Settling time",
+            "D. Relative stability and maximum transient overshoot"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "The bandwidth of a standard closed-loop system is formally defined as the specific frequency at which the magnitude response drops strictly to what fraction of its zero-frequency (DC) value?",
+        "choices": [
+            "A. 0.707 (or strictly -3 dB)",
+            "B. 0.500 (or strictly -6 dB)",
+            "C. 0.100 (or strictly -20 dB)",
+            "D. 0.010 (or strictly -40 dB)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "For a standard underdamped second-order system, the physical resonant frequency (ω_r) is mathematically related to the undamped natural frequency (ω_n) by the formula:",
+        "choices": [
+            "A. ω_n * √(1 - ζ^2)",
+            "B. ω_n / √(1 - 2ζ^2)",
+            "C. ω_n * √(1 - 2ζ^2)",
+            "D. ω_n * √(1 - ζ)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "In a standard Bode Magnitude Plot, the vertical axis is strictly plotted using which specific mathematical scale and unit?",
+        "choices": [
+            "A. Linear magnitude",
+            "B. Degrees of phase shift",
+            "C. Radians per second",
+            "D. Decibels (dB)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "A Type 1 open-loop control system will strictly possess an initial, very low-frequency asymptotic slope on the Bode magnitude plot of exactly:",
+        "choices": [
+            "A. -20 dB/decade",
+            "B. 0 dB/decade",
+            "C. +20 dB/decade",
+            "D. -40 dB/decade"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "In a Bode magnitude plot, the mathematical addition of a simple real pole at s = -p introduces a high-frequency asymptotic slope change of exactly:",
+        "choices": [
+            "A. +20 dB/decade",
+            "B. -20 dB/decade",
+            "C. -40 dB/decade",
+            "D. 0 dB/decade"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "In a standard Bode phase plot, what is the exact absolute maximum phase lag contributed mathematically by a single pair of complex conjugate poles?",
+        "choices": [
+            "A. -90 degrees",
+            "B. -45 degrees",
+            "C. -360 degrees",
+            "D. -180 degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "The Gain Crossover Frequency (ω_gc) is formally and mathematically defined as the exact frequency at which the open-loop frequency response:",
+        "choices": [
+            "A. Magnitude evaluates to exactly 1 (0 dB)",
+            "B. Phase evaluates to exactly -180 degrees",
+            "C. Magnitude evaluates to exactly infinity",
+            "D. Phase evaluates to exactly 0 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "The Phase Crossover Frequency (ω_pc) is formally and mathematically defined as the exact frequency at which the open-loop frequency response:",
+        "choices": [
+            "A. Magnitude evaluates to exactly 1 (0 dB)",
+            "B. Phase evaluates to exactly -180 degrees",
+            "C. Phase evaluates to exactly -90 degrees",
+            "D. Magnitude evaluates to exactly 0 (linear scale)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "The Gain Margin (GM) of a feedback system is mathematically determined by observing the open-loop magnitude strictly at which specific key frequency?",
+        "choices": [
+            "A. Gain crossover frequency",
+            "B. Natural resonant frequency",
+            "C. Phase crossover frequency",
+            "D. Peak resonant frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "The Phase Margin (PM) of a feedback system is mathematically determined by observing the open-loop phase strictly at which specific key frequency?",
+        "choices": [
+            "A. Gain crossover frequency",
+            "B. Phase crossover frequency",
+            "C. -3dB Cut-off frequency",
+            "D. Zero frequency (DC)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "For a strictly stable, minimum-phase closed-loop control system, both the Gain Margin (GM) and Phase Margin (PM) derived from the open-loop Bode plot must be physically:",
+        "choices": [
+            "A. Negative",
+            "B. Positive",
+            "C. Exactly Zero",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "A right-half plane (RHP) zero located in a physical system's transfer function contributes mathematically to the overall Bode plot by strictly:",
+        "choices": [
+            "A. Increasing magnitude slope and adding phase lead",
+            "B. Decreasing magnitude slope and adding phase lag",
+            "C. Increasing magnitude slope and adding phase lag",
+            "D. Decreasing magnitude slope and adding phase lead"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "A standard Polar Plot (which forms the Nyquist contour of the positive frequency axis) explicitly plots the open-loop transfer function's:",
+        "choices": [
+            "A. Magnitude against Frequency in Cartesian coordinates",
+            "B. Phase against Frequency in logarithmic coordinates",
+            "C. Real part against Frequency",
+            "D. Imaginary part against the Real part in polar coordinates"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "On a standard polar plot mapping the open-loop frequency response, the geometric point strictly representing exact marginal stability (the Nyquist critical point) is mathematically located at the coordinates:",
+        "choices": [
+            "A. (0, 0)",
+            "B. (-1, j0)",
+            "C. (1, j0)",
+            "D. (0, -j1)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "In the classic Nyquist Stability Criterion equation Z = N + P, the mathematical variable 'N' strictly represents the exact total number of:",
+        "choices": [
+            "A. Poles of the open-loop system in the right-half plane",
+            "B. Zeros of the closed-loop system in the right-half plane",
+            "C. Clockwise encirclements of the specific critical point -1+j0 by the Nyquist plot",
+            "D. Counter-clockwise encirclements of the geometric origin"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "In the classic Nyquist Stability Criterion equation Z = N + P, the mathematical variable 'P' strictly represents the exact total number of:",
+        "choices": [
+            "A. Zeros of the open-loop transfer function in the right-half plane",
+            "B. Closed-loop poles physically located in the right-half plane",
+            "C. Asymptotes originating from the root locus plot",
+            "D. Poles of the open-loop transfer function located strictly in the right-half plane"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "A physical open-loop system possesses exactly one pole in the right-half plane (P = 1). For the resulting closed-loop system to be absolutely mathematically stable (Z = 0), the corresponding Nyquist plot must strictly exhibit:",
+        "choices": [
+            "A. One counter-clockwise encirclement of the -1+j0 point (N = -1)",
+            "B. One clockwise encirclement of the -1+j0 point (N = 1)",
+            "C. Zero encirclements of the -1+j0 point (N = 0)",
+            "D. Two counter-clockwise encirclements of the origin (N = -2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "A mathematically derived Nyquist plot intersects the negative real axis exactly at the coordinate -0.5 + j0. What is the strict physical Gain Margin of this specific system?",
+        "choices": [
+            "A. 0.5 (or -6 dB)",
+            "B. -0.5 (or imaginary dB)",
+            "C. 2.0 (or strictly +6 dB)",
+            "D. 1.0 (or exactly 0 dB)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "Constant M-circles plotted on the complex plane are strict geometric and mathematical loci of constant closed-loop:",
+        "choices": [
+            "A. Phase",
+            "B. Real part",
+            "C. Imaginary part",
+            "D. Magnitude"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "On a standard mathematical M-circle plot, the specific M-circle locus evaluated for M = 1 geometrically manifests strictly as a:",
+        "choices": [
+            "A. Straight vertical line at x = -0.5",
+            "B. Perfect circle exactly centered at the origin",
+            "C. Parabolic curve",
+            "D. Straight horizontal line at y = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "Constant N-circles plotted on the complex plane are strict geometric and mathematical loci of constant closed-loop:",
+        "choices": [
+            "A. Magnitude",
+            "B. Phase",
+            "C. Damping ratio",
+            "D. Resonant peak frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "A standard Nichols Chart is a highly useful graphical engineering tool that strictly and explicitly plots the open-loop:",
+        "choices": [
+            "A. Real part against the Imaginary part",
+            "B. Magnitude (in linear scale) against Frequency",
+            "C. Phase against Frequency (logarithmic scale)",
+            "D. Magnitude (strictly in dB) against the Phase (strictly in degrees)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "The primary physical and mathematical utility of superimposing a system on a Nichols Chart is to seamlessly determine the closed-loop frequency response directly by evaluating the:",
+        "choices": [
+            "A. Open-loop frequency response",
+            "B. Closed-loop step response over time",
+            "C. Root locus plot branch locations",
+            "D. Routh-Hurwitz array coefficients"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "In a standard Proportional-Integral-Derivative (PID) controller, the Integral (I) control action is mathematically and physically utilized primarily to:",
+        "choices": [
+            "A. Increase the system's high-frequency bandwidth",
+            "B. Completely eliminate the steady-state error for a constant step input",
+            "C. Dramatically increase the system's phase margin",
+            "D. Decrease the system's overall settling time dramatically"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "While pure Integral (I) control effectively eliminates steady-state error, its primary mathematical and physical disadvantage is that it typically:",
+        "choices": [
+            "A. Reduces the overall order of the mathematical system",
+            "B. Strictly blocks all low-frequency measurement signals",
+            "C. Decreases the system's relative stability by contributing significant phase lag",
+            "D. Decreases the system's mathematical Type number"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "A pure ideal Derivative (D) control action mathematically corresponds to multiplying the forward open-loop transfer function by what specific component?",
+        "choices": [
+            "A. A zero located exactly at the origin (s)",
+            "B. A pole located exactly at the origin (1/s)",
+            "C. A pure mathematical time delay (e^-sT)",
+            "D. A pole located strictly in the right-half plane"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "The primary physical advantage of incorporating Derivative (D) control action in a closed-loop system is its explicit ability to:",
+        "choices": [
+            "A. Perfectly eliminate all steady-state error",
+            "B. Physically filter out high-frequency sensor noise",
+            "C. Drastically decrease the closed-loop bandwidth",
+            "D. Improve transient response by predicting error trends, thereby strictly increasing damping and reducing overshoot"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 35,
+        "question": "A major practical engineering disadvantage of utilizing pure Derivative (D) control in harsh industrial environments is that it highly mathematically amplifies:",
+        "choices": [
+            "A. Low-frequency thermal drifts",
+            "B. DC offset errors in ADCs",
+            "C. High-frequency sensor and electrical noise",
+            "D. Integrator windup effects"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "In the classic empirical Ziegler-Nichols ultimate-cycle tuning method, the integral and derivative gains are initially set to exactly zero, and the proportional gain is strictly increased until the physical system response:",
+        "choices": [
+            "A. Becomes perfectly critically damped",
+            "B. Exhibits sustained, constant-amplitude continuous oscillations (marginal stability)",
+            "C. Reaches exactly zero steady-state error",
+            "D. Becomes absolutely unstable with exponential time-domain growth"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "The standard mathematical transfer function of an ideal, parallel PID controller in the complex s-domain is strictly written as:",
+        "choices": [
+            "A. Kp + Ki*s + Kd*s^2",
+            "B. Kp + Ki/s + Kd*s",
+            "C. Kp / (1 + Ki/s + Kd*s)",
+            "D. Kp * Ki/s * Kd*s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "Worded circuit: An engineer builds a basic Proportional (P) controller using an op-amp. Testing reveals the steady-state tracking error remains unacceptably high. To strictly reduce (but not fully eliminate) this error without adding new controller types, the engineer must:",
+        "choices": [
+            "A. Physically increase the proportional gain (Kp)",
+            "B. Decrease the proportional gain (Kp)",
+            "C. Add a pure analog differentiator",
+            "D. Increase the op-amp feedback resistance to infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "A generic Phase Lead compensator has a mathematical transfer function G_c(s) = K * (s + z) / (s + p). For this specific electrical network to function strictly as a phase lead network, the physical relationship between the zero (z) and pole (p) must strictly be:",
+        "choices": [
+            "A. z > p",
+            "B. z = p",
+            "C. Both z and p must be located strictly in the right-half plane",
+            "D. z < p"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "A standard physical Phase Lead compensator circuit mathematically approximates the dynamic control action of which classical standard controller type?",
+        "choices": [
+            "A. PI controller (Proportional-Integral)",
+            "B. Pure Integral controller",
+            "C. PD controller (Proportional-Derivative)",
+            "D. On-Off (Bang-Bang) controller"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "The maximum phase lead angle (φ_m) mathematically provided by a lead compensator is directly related to the network attenuation factor α = z/p by the strict trigonometric formula:",
+        "choices": [
+            "A. cos(φ_m) = (1 - α) / (1 + α)",
+            "B. tan(φ_m) = (1 - α) / (1 + α)",
+            "C. sin(φ_m) = (1 - α) / (1 + α)",
+            "D. sin(φ_m) = α / (1 + α)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "For a physical phase lead compensator with a zero located at -z and a pole located at -p, the precise physical frequency (ω_m) at which the absolute maximum phase lead occurs is the geometric mean, calculated exactly as:",
+        "choices": [
+            "A. (z + p) / 2",
+            "B. √(z * p)",
+            "C. √(z^2 + p^2)",
+            "D. z * p"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "A generic Phase Lag compensator has a mathematical transfer function G_c(s) = K * (s + z) / (s + p). For this specific electrical network to function strictly as a phase lag network, the physical relationship between the zero (z) and pole (p) must strictly be:",
+        "choices": [
+            "A. z > p",
+            "B. z = p",
+            "C. Both frequencies must be exactly at the origin",
+            "D. z < p"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "A standard physical Phase Lag compensator circuit mathematically approximates the dynamic control action of which classical standard controller type?",
+        "choices": [
+            "A. PD controller (Proportional-Derivative)",
+            "B. Pure Derivative controller",
+            "C. Lead controller",
+            "D. PI controller (Proportional-Integral)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "The primary engineering design objective of deliberately utilizing a Phase Lag compensator in a physical feedback loop is strictly to:",
+        "choices": [
+            "A. Maximize the overall system bandwidth",
+            "B. Drastically speed up the transient time-domain response",
+            "C. Decrease the steady-state tracking error significantly without severely degrading the existing phase margin",
+            "D. Magically turn a structurally unstable plant into an absolutely stable one"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "When evaluated in the frequency domain, a standard electrical Phase Lead compensator acts mathematically and physically as a:",
+        "choices": [
+            "A. Band-stop (Notch) filter",
+            "B. Low-pass filter",
+            "C. High-pass filter",
+            "D. Band-pass filter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "When evaluated strictly in the frequency domain, a standard electrical Phase Lag compensator acts mathematically and physically as a:",
+        "choices": [
+            "A. High-pass filter",
+            "B. Low-pass filter",
+            "C. Band-pass filter",
+            "D. All-pass filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "Worded circuit: A physical Lead-Lag compensator is built using RC networks. The overall mathematical transfer function inherently possesses two zeros and two poles. For strict Lead-Lag operation across the frequency spectrum, the physical arrangement of the critical frequencies (ordered from closest to the origin to farthest) must strictly be:",
+        "choices": [
+            "A. Lag pole, Lag zero, Lead zero, Lead pole",
+            "B. Lead pole, Lead zero, Lag zero, Lag pole",
+            "C. Lag zero, Lag pole, Lead pole, Lead zero",
+            "D. Lead zero, Lag zero, Lead pole, Lag pole"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "Worded circuit: An ideal operational amplifier is physically configured as an inverting amplifier. The input network impedance is Z_i(s) and the feedback network impedance is Z_f(s). The mathematical transfer function V_out(s) / V_in(s) strictly evaluates to:",
+        "choices": [
+            "A. -Z_f(s) / Z_i(s)",
+            "B. Z_i(s) / Z_f(s)",
+            "C. 1 + (Z_f(s) / Z_i(s))",
+            "D. -Z_i(s) / Z_f(s)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "Worded circuit: An op-amp inverting amplifier utilizes an input network consisting solely of resistor R1. The feedback network consists of a resistor R2 physically connected strictly in series with a capacitor",
+        "choices": [
+            "C. Mathematically, this specific circuit physically realizes a:",
+            "A. Proportional-Derivative (PD) controller",
+            "B. Phase Lead Compensator",
+            "C. Proportional-Integral (PI) controller"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "Worded circuit: An op-amp inverting amplifier utilizes an input network consisting of a resistor R1 physically connected in parallel with a capacitor C1. The feedback network is just a single discrete resistor R2. Mathematically, this specific circuit physically realizes a:",
+        "choices": [
+            "A. Pure Differentiator",
+            "B. Proportional-Integral (PI) controller",
+            "C. Phase Lag Compensator",
+            "D. Proportional-Derivative (PD) controller"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "Worded circuit: A single ideal operational amplifier is physically configured with a discrete capacitor C strictly at the signal input and a discrete resistor R located in the negative feedback loop. This specific active circuit mathematically performs the precise operation of:",
+        "choices": [
+            "A. Signal Integration",
+            "B. Signal Differentiation",
+            "C. Logarithmic amplification",
+            "D. Analog Summation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "Worded circuit: A single ideal operational amplifier is physically configured with a discrete resistor R strictly at the signal input and a discrete capacitor C located in the negative feedback loop. This specific active circuit mathematically performs the precise operation of:",
+        "choices": [
+            "A. Signal Differentiation",
+            "B. Signal Integration",
+            "C. Active High-pass filtering",
+            "D. All-pass Phase shifting"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "Worded circuit: An op-amp inverting amplifier is built. The input network consists solely of resistor R1. The feedback network consists of resistor R2 physically connected in parallel with capacitor",
+        "choices": [
+            "C. Mathematically, this specific active circuit physically realizes a:",
+            "A. High-pass filter",
+            "B. Pure mathematical integrator",
+            "C. Phase Lead compensator"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 55,
+        "question": "When an engineer draws an asymptotic Bode magnitude plot by hand, the mathematical addition of a simple zero strictly located at s = -z introduces an exact high-frequency slope change of:",
+        "choices": [
+            "A. +20 dB/decade",
+            "B. -20 dB/decade",
+            "C. 0 dB/decade",
+            "D. +40 dB/decade"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "On an asymptotic Bode magnitude plot, a mathematically complex pair of conjugate poles characterized by a natural frequency ω_n strictly introduces a high-frequency slope change of exactly:",
+        "choices": [
+            "A. -20 dB/decade",
+            "B. +40 dB/decade",
+            "C. -40 dB/decade",
+            "D. 0 dB/decade"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "A system transfer function features a simple first-order zero term (1 + jωT) in the numerator. At the exact mathematical corner frequency ω = 1/T, the actual physical magnitude curve is located above the asymptotic straight-line approximation by precisely:",
+        "choices": [
+            "A. 0 dB",
+            "B. -3 dB",
+            "C. +3 dB",
+            "D. +6 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "In standard frequency response analysis, a \"decade\" strictly and mathematically refers to a specific frequency band where the upper frequency limit is exactly:",
+        "choices": [
+            "A. 10 times the lower frequency limit",
+            "B. 2 times the lower frequency limit",
+            "C. 3.16 times the lower frequency limit",
+            "D. 20 times the lower frequency limit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "In standard frequency response analysis, an \"octave\" strictly and mathematically refers to a specific frequency band where the upper frequency limit is exactly:",
+        "choices": [
+            "A. 10 times the lower frequency limit",
+            "B. 2 times the lower frequency limit",
+            "C. 8 times the lower frequency limit",
+            "D. 4 times the lower frequency limit"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "A physical system's open-loop Bode magnitude plot strictly crosses the 0 dB axis at exactly 10 rad/s with a measured slope of -20 dB/dec. The exact mathematical phase angle evaluated at 10 rad/s is -135°. What is the strict Phase Margin (PM) of this specific system?",
+        "choices": [
+            "A. 135 degrees",
+            "B. -45 degrees",
+            "C. -135 degrees",
+            "D. 45 degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "If the mathematically calculated Phase Margin (PM) of a feedback system is strictly negative, the resulting closed-loop physical system is mathematically classified as:",
+        "choices": [
+            "A. Asymptotically stable",
+            "B. Critically damped",
+            "C. Marginally stable",
+            "D. Unstable"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 62,
+        "question": "A physical system's open-loop Bode phase plot strictly crosses the -180° line at a frequency of 50 rad/s. At this exact mathematical frequency, the measured open-loop magnitude is -12 dB. What is the strict Gain Margin (GM) of the system?",
+        "choices": [
+            "A. -12 dB",
+            "B. +12 dB",
+            "C. 0 dB",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "Worded circuit: An advanced digital control system uses an ideal computational time delay modeled as e^(-sT). In the standard Bode phase plot, this specific component contributes a mathematical phase angle that is strictly:",
+        "choices": [
+            "A. Constant at exactly -90 degrees",
+            "B. Linearly increasing (becoming positive) directly proportional to frequency",
+            "C. Linearly decreasing (becoming progressively more negative) directly proportional to frequency",
+            "D. Zero across all continuous frequencies"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "Which specific engineering plot uniquely and simultaneously combines both the magnitude and phase of a system's frequency response into a single, continuous curve utilizing polar coordinates?",
+        "choices": [
+            "A. Nyquist plot",
+            "B. Bode plot",
+            "C. Root locus plot",
+            "D. Nichols chart"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "The absolute physical distance drawn from the origin to any specific point on a polar (Nyquist) plot strictly mathematically represents the system's:",
+        "choices": [
+            "A. Open-loop magnitude evaluated strictly at that specific continuous frequency",
+            "B. Total phase angle lag",
+            "C. Absolute gain margin",
+            "D. Real part of the transfer function only"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "A mathematical Type 0 system containing exactly 3 poles and absolutely no zeros is evaluated on a polar plot as frequency varies continuously from 0 to infinity. The plot strictly starts at a finite positive value on the real axis and terminates precisely at the origin. What is its exact mathematical phase angle as the locus reaches the origin?",
+        "choices": [
+            "A. -90 degrees",
+            "B. -270 degrees",
+            "C. -180 degrees",
+            "D. 0 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "The primary mathematical and practical engineering advantage of utilizing Bode plots over classical Polar plots is that Bode plots inherently:",
+        "choices": [
+            "A. Can algorithmically determine absolute stability without the Nyquist criterion",
+            "B. Only require simple addition and subtraction for cascade systems",
+            "C. Do not utilize complex mathematical numbers",
+            "D. Allow the multiplication of cascaded transfer functions to be performed visually by simple graphical addition of curves"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 68,
+        "question": "In a standard Nichols chart, the specific contours of constant closed-loop magnitude (M-contours) located near the exact center of the chart physically resemble:",
+        "choices": [
+            "A. Straight vertical grid lines",
+            "B. Straight horizontal grid lines",
+            "C. Closed ellipses/ovals mathematically centered around the critical 0 dB, -180° point",
+            "D. Perfect circles centered strictly at the origin"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "A standard mathematical PI controller is defined as G_c(s) = K_p * (1 + 1/(T_i * s)). The specific corner frequency where the controller's asymptotic Bode magnitude plot transitions exactly from a -20 dB/dec slope to a 0 dB/dec slope is located precisely at:",
+        "choices": [
+            "A. T_i rad/s",
+            "B. 1 / T_i rad/s",
+            "C. K_p / T_i rad/s",
+            "D. K_p rad/s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "The physical electromechanical control mechanism inside a basic domestic air conditioning system that simply turns the main compressor fully ON or fully OFF based on a threshold is formally classified in control theory as a:",
+        "choices": [
+            "A. PID continuous controller",
+            "B. Phase Lead compensator",
+            "C. Two-position (Bang-Bang or Relay) controller",
+            "D. Proportional linear controller"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "In a standard stable closed-loop system, increasing the Proportional gain (Kp) strictly has what primary physical and mathematical effect on the steady-state tracking error for a unit step input?",
+        "choices": [
+            "A. It strictly decreases the magnitude of the steady-state error",
+            "B. It strictly increases the magnitude of the steady-state error",
+            "C. It completely mathematically eliminates the steady-state error entirely",
+            "D. It has absolutely no mathematical effect on the steady-state error"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "When mathematically designing a continuous Phase Lead compensator, the absolute maximum phase lead angle (φ_m) is specifically engineered to occur precisely at the system's newly targeted:",
+        "choices": [
+            "A. Phase crossover frequency",
+            "B. Natural resonant frequency",
+            "C. Nyquist critical point coordinate",
+            "D. Gain crossover frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "The mathematical control law defined strictly as u(t) = K_p * e(t) + K_d * de(t)/dt explicitly describes the continuous operation of which specific standard industrial controller?",
+        "choices": [
+            "A. PI controller",
+            "B. PID controller",
+            "C. PD controller",
+            "D. Pure Integral controller"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "Worded circuit: A control engineer mathematically cascaded an ideal PI controller and an ideal PD controller in series. The resulting overall transfer function is mathematically and structurally equivalent to which standard industrial controller?",
+        "choices": [
+            "A. Pure Proportional controller",
+            "B. Phase Lag compensator",
+            "C. Lead-Lag compensator",
+            "D. PID controller"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "A mathematical Phase Lag compensator is designed with a discrete pole located at p and a discrete zero located at z (where p < z). The absolute DC gain of this specific lag section (strictly ignoring any overall external amplifier gain K) evaluates mathematically to:",
+        "choices": [
+            "A. p / z",
+            "B. z / p",
+            "C. 1",
+            "D. z - p"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "The standard asymptotic Bode phase plot of a pure, ideal mathematical integrator strictly remains perfectly constant across all frequencies at exactly:",
+        "choices": [
+            "A. -90 degrees",
+            "B. 0 degrees",
+            "C. +90 degrees",
+            "D. -180 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "The standard asymptotic Bode phase plot of a pure, ideal mathematical differentiator strictly remains perfectly constant across all frequencies at exactly:",
+        "choices": [
+            "A. 0 degrees",
+            "B. -90 degrees",
+            "C. -180 degrees",
+            "D. +90 degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "An unstable open-loop physical system possesses a transfer function G(s) = 1 / (s - 2). The corresponding Nyquist plot is graphically drawn. The resulting locus strictly mathematically encircles the critical -1+j0 point exactly:",
+        "choices": [
+            "A. One time in the counter-clockwise direction",
+            "B. Two times in the clockwise direction",
+            "C. Zero times",
+            "D. One time in the clockwise direction"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "The specific contiguous frequency range over which a physical system's magnitude response is mathematically maintained within exactly -3 dB of its continuous mid-band (or DC) maximum value is strictly defined as the system's:",
+        "choices": [
+            "A. Resonant peak",
+            "B. Gain margin",
+            "C. Bandwidth",
+            "D. Phase margin"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "For a closed-loop system to be evaluated as strictly and absolutely stable, the corresponding open-loop Nyquist plot must mathematically:",
+        "choices": [
+            "A. Encircle the origin exactly once",
+            "B. Not encircle the critical -1+j0 point at all (strictly assuming absolutely no open-loop right-half plane poles exist)",
+            "C. Pass exactly through the critical -1+j0 point",
+            "D. Encircle the critical -1+j0 point exactly once in the clockwise direction"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "A physical system's mathematically derived Nyquist plot locus passes exactly through the specific critical coordinate point (-1, j0). This exact physical intersection mathematically indicates that the closed-loop system is strictly:",
+        "choices": [
+            "A. Absolutely stable",
+            "B. Marginally stable (exhibiting sustained continuous oscillations)",
+            "C. Unconditionally unstable",
+            "D. Overdamped"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "In a standard Nichols chart utilized for control system design, the vertical Cartesian axis strictly and explicitly represents the open-loop:",
+        "choices": [
+            "A. Magnitude in Decibels (dB)",
+            "B. Phase evaluated in continuous degrees",
+            "C. Magnitude evaluated strictly in a linear scale",
+            "D. Real part of the complex transfer function"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "In standard industrial frequency response design, a closed-loop physical system is generally considered to possess highly adequate and robust relative stability if it typically possesses a Phase Margin (PM) strictly in the engineering range of:",
+        "choices": [
+            "A. -30° to 0°",
+            "B. 0° to 10°",
+            "C. 30° to 60°",
+            "D. 90° to 180°"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "Worded circuit: A wideband audio amplifier circuit possesses a flat mid-band gain of exactly 40 dB. Due to a single, dominant internal RC low-pass filter effect, the exact -3dB bandwidth is 20 kHz. At exactly 200 kHz, the mathematical asymptotic gain of this specific amplifier is approximately:",
+        "choices": [
+            "A. 40 dB",
+            "B. 37 dB",
+            "C. 0 dB",
+            "D. 20 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Which specific basic continuous control action acts fundamentally and mathematically as an analog high-pass filter, thereby physically severely amplifying high-frequency noise present in the sensor measurements?",
+        "choices": [
+            "A. Proportional action",
+            "B. Integral action",
+            "C. Derivative action",
+            "D. On-Off (Relay) action"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 86,
+        "question": "In standard physical industrial process control, the specific term \"Reset Rate\" (or \"Reset Time\") is a highly common alternative industrial terminology strictly referring mathematically to which core control parameter?",
+        "choices": [
+            "A. Proportional Gain (Kp)",
+            "B. Integral Gain or Integral Time (Ki or Ti)",
+            "C. Derivative Time (Td)",
+            "D. Physical Deadband"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "The specific term \"Rate Time\" utilized frequently in standard industrial PID controller terminology is physically and mathematically functionally equivalent to the tuning parameter governing which specific control action?",
+        "choices": [
+            "A. Proportional action",
+            "B. Integral action",
+            "C. Feedforward compensation",
+            "D. Derivative action"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "A standard active Phase Lead compensator network mathematically contributes a distinctly positive phase angle to the system. This specifically physically mimics the rapid, predictive mathematical behavior of which classical controller?",
+        "choices": [
+            "A. Derivative (PD) controller",
+            "B. Integral (PI) controller",
+            "C. Pure Proportional controller",
+            "D. Relay controller"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "A standard active Phase Lag compensator network mathematically contributes a distinctly negative phase angle to the system. This specifically physically mimics the sluggish, steady-state error reducing behavior of which classical controller?",
+        "choices": [
+            "A. Pure Derivative controller",
+            "B. Pure Proportional controller",
+            "C. Relay controller",
+            "D. Integral (PI) controller"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "When implementing a standard continuous PI controller using real-world physical op-amps, the severe non-linear phenomenon where the internal integrator output mathematically saturates fully at the physical power supply rails due to a sustained, long-term error is known strictly as:",
+        "choices": [
+            "A. High-frequency noise amplification",
+            "B. Derivative kick",
+            "C. Integrator windup",
+            "D. Ground loop feedback"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "Which classical standard empirical tuning method specifically involves physically plotting and analyzing the open-loop plant's step response curve (formally called the reaction curve) to mathematically determine the initial PID parameters?",
+        "choices": [
+            "A. Ziegler-Nichols Reaction Curve Method (First Method)",
+            "B. Evans Root Locus Method",
+            "C. Bode Plot Asymptotic Method",
+            "D. Nyquist Stability Method"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "In a closed-loop feedback control system, physically moving the compensator block strictly from the forward path (series compensation) into the feedback path (parallel compensation) strictly alters the mathematical location of the closed-loop:",
+        "choices": [
+            "A. Poles",
+            "B. Zeros",
+            "C. High-frequency Bandwidth",
+            "D. Absolute stability limits (critical gain)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "A strictly mathematical Type 1 physical system possesses an open-loop gain K. As the parameter K is continuously increased from zero towards infinity, the open-loop Nyquist plot strictly graphically expands. What strictly happens to the system's mathematical Phase Margin?",
+        "choices": [
+            "A. It strictly decreases continuously",
+            "B. It strictly increases continuously",
+            "C. It remains perfectly constant regardless of K",
+            "D. It evaluates to strictly infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "The exact logarithmic mathematical ratio of a system's output signal magnitude to its input signal magnitude, strictly evaluated using base-10 and then multiplied by exactly 20, is mathematically defined as the system's gain measured in:",
+        "choices": [
+            "A. Neper",
+            "B. Bel",
+            "C. Watts",
+            "D. Decibels (dB)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 95,
+        "question": "On a standard mathematical Bode magnitude plot, the extremely low-frequency initial asymptote of a strictly Type 2 control system inherently possesses a constant mathematical slope of exactly:",
+        "choices": [
+            "A. -20 dB/decade",
+            "B. -40 dB/decade",
+            "C. +20 dB/decade",
+            "D. 0 dB/decade"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "A physical system's open-loop mathematical transfer function evaluates to G(s) = K * (s+2) / (s-1). To accurately evaluate the strict closed-loop absolute stability using the classical Nyquist criterion, the drawn Nyquist contour locus must explicitly avoid or encircle which specific mathematical point?",
+        "choices": [
+            "A. The pole at s = -2",
+            "B. The origin at s = 0",
+            "C. The zero at s = +1",
+            "D. The critical point at s = -1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 97,
+        "question": "The specific comprehensive graphical chart consisting of intricate contours of constant closed-loop magnitude (M) and constant closed-loop phase (N) precisely overlaid on a standard Cartesian coordinate system (dB vs. phase angle) is strictly called a:",
+        "choices": [
+            "A. Nichols chart",
+            "B. Bode chart",
+            "C. Root locus chart",
+            "D. Nyquist chart"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "Worded circuit: An analog op-amp circuit is specifically designed to realize a classical phase lead compensator. To physically and mathematically achieve a significantly larger maximum phase lead angle (φ_m), the geometric ratio of the pole frequency to the zero frequency (p/z) must mathematically strictly:",
+        "choices": [
+            "A. Decrease",
+            "B. Increase",
+            "C. Remain exactly equal to the constant 1",
+            "D. Become a negative real number"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "A complex closed-loop physical control system features an active continuous PID controller. If the tuning parameter for the Derivative gain (Kd) is mathematically increased excessively, the physical mechanical or electrical system is most strictly likely to:",
+        "choices": [
+            "A. Experience a massive, unbounded increase in steady-state error",
+            "B. Degrade entirely into a sluggish first-order system",
+            "C. Become highly mathematically sensitive to high-frequency sensor measurement noise, potentially causing violent control signal saturation",
+            "D. Completely lose its Proportional tracking action"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "In standard asymptotic Bode plots, the strict mathematical straight-line approximation of the magnitude curve evaluated at the exact physical corner frequency (for a simple real pole or zero) inherently results in a known maximum approximation error. What is the precise numerical magnitude of this specific error strictly in decibels?",
+        "choices": [
+            "A. 0 dB",
+            "B. 1 dB",
+            "C. 6 dB",
+            "D. 3 dB"
+        ],
+        "correct_answer": "D"
+    }
+]

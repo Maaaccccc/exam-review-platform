@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "Which of the following statements correctly compares an Insulated Gate Bipolar Transistor (IGBT) to a Power MOSFET of similar high-voltage rating?",
+        "choices": [
+            "A. The IGBT has a lower conduction loss at high currents but slower switching speeds",
+            "B. The IGBT has a higher conduction loss but much faster switching speeds",
+            "C. The IGBT does not suffer from tail current during turn-off",
+            "D. The IGBT is a pure majority carrier device"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "The Safe Operating Area (SOA) of a power semiconductor device is a graphical representation of the allowable operating region bounded by:",
+        "choices": [
+            "A. Gate voltage and gate current",
+            "B. Switching frequency and duty cycle",
+            "C. Temperature and thermal resistance",
+            "D. Maximum voltage and maximum current"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 3,
+        "question": "The reverse recovery time (trr) of a power diode is composed of the charge storage time (ta) and the fall time (tb). The \"softness factor\" (S) is defined as:",
+        "choices": [
+            "A. ta / tb",
+            "B. tb / ta",
+            "C. ta + tb",
+            "D. (ta * tb) / 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 4,
+        "question": "Which destructive phenomenon in power BJTs is caused by localized \"hot spots\" due to current crowding, leading to a sudden collapse of collector-emitter voltage and thermal runaway?",
+        "choices": [
+            "A. Avalanche breakdown",
+            "B. Primary breakdown",
+            "C. Secondary breakdown",
+            "D. Zener breakdown"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 5,
+        "question": "A free-wheeling diode is placed across a highly inductive load driven by a power transistor. The primary purpose of this diode is to:",
+        "choices": [
+            "A. Provide a path for the inductive current to flow when the transistor turns off, preventing high voltage spikes",
+            "B. Increase the speed of the transistor turn-on",
+            "C. Prevent the load current from dropping to zero",
+            "D. Rectify the AC supply voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "Which triggering mode (quadrant) of a TRIAC is generally the least sensitive, requiring the highest gate current to turn on?",
+        "choices": [
+            "A. MT2+, G+ (Quadrant I)",
+            "B. MT2+, G- (Quadrant II)",
+            "C. MT2-, G+ (Quadrant IV)",
+            "D. MT2-, G- (Quadrant III)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "In an RC snubber circuit placed across an SCR, the primary function of the capacitor is to:",
+        "choices": [
+            "A. Limit the maximum anode current",
+            "B. Limit the di/dt of the discharge current",
+            "C. Provide a triggering pulse to the gate",
+            "D. Protect the SCR against high dv/dt by absorbing transient energy"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "To turn off a saturated power BJT quickly, a reverse base current pulse is applied. During this turn-off phase, the parameter that denotes the time it takes to remove the minority carriers in the base before the collector current starts falling is the:",
+        "choices": [
+            "A. Rise time",
+            "B. Storage time",
+            "C. Delay time",
+            "D. Fall time"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "In industrial electronics, an optoisolator is primarily used to provide which of the following?",
+        "choices": [
+            "A. High-power rectification of AC line voltages",
+            "B. Electrical (galvanic) isolation between a low-voltage control circuit and a high-voltage load",
+            "C. Amplification of high-frequency RF signals",
+            "D. Generation of coherent light for fiber optics"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "The most important parameter determining the signal transfer efficiency of an optocoupler is the Current Transfer Ratio (CTR). It is defined as:",
+        "choices": [
+            "A. The ratio of the output collector current to the input LED forward current",
+            "B. The ratio of the LED input voltage to the phototransistor output voltage",
+            "C. The ratio of the isolation voltage to the input current",
+            "D. The ratio of dark current to the forward current"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "Which type of optocoupler configuration provides the highest Current Transfer Ratio (CTR), often exceeding 1000%, but sacrifices switching speed?",
+        "choices": [
+            "A. LED to Photodiode",
+            "B. LED to Phototransistor",
+            "C. LED to Photodarlington",
+            "D. LED to LASCR"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "The light-emitting diode (LED) used in standard industrial optocouplers typically emits light in which spectrum to match the peak spectral sensitivity of the silicon photodetector?",
+        "choices": [
+            "A. Ultraviolet",
+            "B. Visible Blue",
+            "C. Visible Green",
+            "D. Near-Infrared"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "The dielectric strength of the insulating material between the input and output stages of an optoisolator defines its maximum:",
+        "choices": [
+            "A. Forward breakover voltage",
+            "B. Common-mode rejection ratio",
+            "C. Reverse peak voltage (VRRM)",
+            "D. Isolation voltage (Viso)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "When no current flows through the input LED of an optocoupler, a very small leakage current still flows through the output photodetector. This is officially termed the:",
+        "choices": [
+            "A. Holding current",
+            "B. Dark current",
+            "C. Latching current",
+            "D. Quiescent offset current"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "A major disadvantage of using a photodarlington optocoupler compared to a standard phototransistor optocoupler is:",
+        "choices": [
+            "A. A significantly slower switching speed and higher saturation voltage",
+            "B. Susceptibility to magnetic interference",
+            "C. A much lower Current Transfer Ratio (CTR)",
+            "D. The inability to operate on DC loads"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 16,
+        "question": "An optocoupler is driven by an LED forward current of 15 mA. If the output collector current is measured at 3 mA, what is the Current Transfer Ratio (CTR) of the device?",
+        "choices": [
+            "A. 500%",
+            "B. 45%",
+            "C. 20%",
+            "D. 5%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "Over time and prolonged high-temperature operation, the light output of the LED inside an optocoupler gradually decreases. This phenomenon directly causes the Current Transfer Ratio (CTR) to:",
+        "choices": [
+            "A. Decrease (Degradation)",
+            "B. Increase proportionally",
+            "C. Oscillate",
+            "D. Remain perfectly constant"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "The high-frequency bandwidth of a standard phototransistor optocoupler is primarily severely limited by the:",
+        "choices": [
+            "A. LED junction capacitance",
+            "B. Inductance of the package pins",
+            "C. Resistance of the optical channel",
+            "D. Large parasitic base-collector capacitance of the phototransistor (Miller effect)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 19,
+        "question": "A worded circuit: A 5V microcontroller pin drives an optocoupler LED via a 330-ohm resistor. The optocoupler has a minimum CTR of 50%. The phototransistor controls a 24V relay coil with a resistance of 400 ohms. Will the micro be able to safely saturate the phototransistor to energize the relay? (Assume LED Vf = 1.2V, Vce(sat) = 0.2V).",
+        "choices": [
+            "A. Yes, the CTR guarantees infinite current capability.",
+            "B. No, the load requires 59.5 mA, but the maximum guaranteed output current is only 5.75 mA.",
+            "C. No, the microcontroller pin will burn out.",
+            "D. Yes, the required load current is only 6 mA, which is easily provided."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "To achieve highly linear analog signal isolation, engineers often use a specific type of optocoupler that incorporates an LED and:",
+        "choices": [
+            "A. A single phototriac",
+            "B. A photodarlington",
+            "C. Two closely matched photodiodes (one for output, one for feedback)",
+            "D. A Schmitt trigger output"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "Common-Mode Transient Immunity (CMTI) in an optocoupler specifies the device's ability to reject:",
+        "choices": [
+            "A. High-frequency electromagnetic interference in the LED",
+            "B. Overcurrent spikes in the phototransistor",
+            "C. High-speed voltage transients (dv/dt) between the input and output grounds",
+            "D. Electrostatic discharge (ESD) on the input pins"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "In solid-state relays (SSRs), a zero-crossing opto-triac is used to trigger the main power TRIAC. The primary purpose of the zero-crossing detection circuit is to:",
+        "choices": [
+            "A. Minimize electromagnetic interference (EMI) and high inrush currents by switching only when the AC line voltage is near zero",
+            "B. Maximize the RMS voltage delivered to the load",
+            "C. Ensure the load operates at exactly 60 Hz",
+            "D. Prevent the TRIAC from turning off"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "The Current Transfer Ratio (CTR) of an optocoupler is highly sensitive to changes in ambient temperature. For a typical phototransistor optocoupler, as the temperature increases from 25°C to 80°C, the CTR generally:",
+        "choices": [
+            "A. Increases exponentially",
+            "B. Stays perfectly constant",
+            "C. Doubles",
+            "D. Decreases"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "When designing a high-speed digital interface using a phototransistor optocoupler, connecting a large load resistor to the collector will:",
+        "choices": [
+            "A. Decrease the power dissipation to zero",
+            "B. Significantly increase the rise and fall times due to the RC time constant with parasitic capacitances",
+            "C. Have no effect on the switching speed",
+            "D. Increase the bandwidth of the system"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "A logic gate outputs 5V. It needs to drive an optocoupler LED with a forward voltage of 1.5V and a desired forward current of 10 mA. What is the standard value of the series current-limiting resistor required?",
+        "choices": [
+            "A. 150 ohms",
+            "B. 500 ohms",
+            "C. 250 ohms",
+            "D. 350 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 26,
+        "question": "An optocoupler has a CTR of 40% to 80%. It must drive a load requiring 8 mA to turn on. To guarantee operation under worst-case conditions, what is the absolute minimum LED forward current required?",
+        "choices": [
+            "A. 10 mA",
+            "B. 8 mA",
+            "C. 20 mA",
+            "D. 3.2 mA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "The core isolation component inside a standard AC-output Solid State Relay (SSR) is essentially a:",
+        "choices": [
+            "A. Mechanical reed switch",
+            "B. Optoisolator (often an opto-triac)",
+            "C. Pulse transformer",
+            "D. Hall-effect sensor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "To achieve maximum switching speed in an optocoupler, the internal photodetector is sometimes operated as a reverse-biased PIN photodiode rather than a phototransistor. This configuration sacrifices what parameter to gain speed?",
+        "choices": [
+            "A. Current Transfer Ratio (CTR)",
+            "B. Operating temperature",
+            "C. Common-mode rejection",
+            "D. Isolation voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 29,
+        "question": "A worded circuit: An optocoupler's LED is driven by an active-low microcontroller signal. The phototransistor's emitter is grounded, and its collector is pulled up to 5V via a 10k resistor. If the micro outputs a logic HIGH (5V), what is the logic state at the collector output?",
+        "choices": [
+            "A. Logic LOW (approx 0.2V)",
+            "B. Logic HIGH (approx 5V)",
+            "C. High Impedance",
+            "D. Oscillating"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "Parasitic capacitance across the isolation barrier of an optocoupler can cause false triggering if the voltage between the input and output grounds changes rapidly. This parameter is specified in datasheets as:",
+        "choices": [
+            "A. Gain-Bandwidth Product",
+            "B. Dark Capacitance",
+            "C. Reverse Transfer Capacitance",
+            "D. Isolation Capacitance (Ciso) or CMTI"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 31,
+        "question": "An optical isolator specifies a turn-on time of 4 us and a turn-off time of 6 us. If a 10 kHz perfect square wave is applied to the input, the output waveform will experience:",
+        "choices": [
+            "A. Complete attenuation",
+            "B. A frequency shift to 5 kHz",
+            "C. Duty cycle distortion (pulse width alteration)",
+            "D. Phase lead"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "LASCR stands for:",
+        "choices": [
+            "A. Light Activated Silicon Controlled Rectifier",
+            "B. Linear Amplified Silicon Controlled Rectifier",
+            "C. Low Angle Silicon Commutated Rectifier",
+            "D. Light Activated Semiconductor Controlled Relay"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "Even though an LASCR is primarily triggered by light, it is still provided with a gate terminal. What is the most common use of this electrical gate terminal in practical circuits?",
+        "choices": [
+            "A. To adjust the light sensitivity of the device or provide an electrical triggering override",
+            "B. To supply power to the internal light sensor",
+            "C. To act as the main current-carrying anode",
+            "D. To reverse-bias the device for forced commutation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Which of the following is a prominent industrial application of LASCRs?",
+        "choices": [
+            "A. High-fidelity audio amplification",
+            "B. Triggering high-power thyristor stacks in High Voltage DC (HVDC) transmission lines",
+            "C. Low-voltage digital logic gates",
+            "D. Solar power generation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "In an LASCR, the optical triggering mechanism relies on photons striking the silicon structure. To initiate conduction, these photons must generate electron-hole pairs primarily in or near which junction?",
+        "choices": [
+            "A. The anode-side P-N junction (J1)",
+            "B. The cathode-side P-N junction (J3)",
+            "C. The reverse-biased middle blocking junction (J2)",
+            "D. The gate-cathode junction only"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Compared to a standard high-power electrical SCR, the current-carrying capacity (anode current rating) of a typical LASCR is generally:",
+        "choices": [
+            "A. Exponentially higher",
+            "B. Exactly identical",
+            "C. Slightly higher",
+            "D. Significantly lower, often requiring it to be used as a trigger for a larger SCR"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "A worded circuit: An LASCR has a resistor connected between its gate and cathode terminals. If the value of this gate-to-cathode resistor is decreased, what happens to the light sensitivity of the LASCR?",
+        "choices": [
+            "A. The light sensitivity increases (requires less light to trigger)",
+            "B. The light sensitivity decreases (requires more light to trigger)",
+            "C. The light sensitivity remains completely unaffected",
+            "D. The device becomes a continuous conductor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "The addition of a gate-to-cathode resistor in an LASCR circuit, while decreasing light sensitivity, provides the crucial benefit of:",
+        "choices": [
+            "A. Significantly increasing the dv/dt immunity (preventing false triggering from voltage spikes)",
+            "B. Decreasing the holding current",
+            "C. Increasing the reverse breakdown voltage",
+            "D. Decreasing the forward voltage drop"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "A worded circuit: In an HVDC converter station, a central laser fires a pulse through fiber optic cables to individual LASCRs at each thyristor level. Each LASCR then discharges a local capacitor into the gate of its associated main SCR. What is the primary purpose of this arrangement?",
+        "choices": [
+            "A. To reduce the speed of light",
+            "B. To eliminate the need for capacitors",
+            "C. To generate solar power",
+            "D. To provide massive, safe galvanic isolation against hundreds of kilovolts while ensuring simultaneous triggering"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "The transparent window of an LASCR is typically designed to maximize the transmission of light at the specific wavelength where silicon is most sensitive. This wavelength is typically in the:",
+        "choices": [
+            "A. X-ray region",
+            "B. Ultraviolet region",
+            "C. Near-infrared region (around 800-900 nm)",
+            "D. Deep blue visible region"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "For an LASCR, the latching current (IL) and holding current (IH) are critical parameters. When the incident light intensity is very high, the effective holding current required to keep the device ON:",
+        "choices": [
+            "A. Increases",
+            "B. Reverses direction",
+            "C. Remains strictly constant",
+            "D. Decreases"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 42,
+        "question": "The light sensitivity of an LASCR is highly temperature-dependent. As the junction temperature increases, the minimum light intensity required to trigger the LASCR:",
+        "choices": [
+            "A. Increases",
+            "B. Decreases (becomes more sensitive)",
+            "C. Stays perfectly constant",
+            "D. Drops instantly to zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Once an LASCR is triggered into conduction by a pulse of light, how can it be turned back OFF?",
+        "choices": [
+            "A. By reducing the anode current below the holding current (e.g., natural commutation in AC circuits)",
+            "B. By applying a negative voltage to the gate",
+            "C. By applying a brighter pulse of light",
+            "D. By shining ultraviolet light on the window"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "A designer is testing an LASCR circuit. The light source turns on, the LASCR fires, but when the light turns off, the LASCR immediately stops conducting. What is the most likely electrical reason for this behavior?",
+        "choices": [
+            "A. The light was too bright",
+            "B. The frequency was too high",
+            "C. The circuit load resistance is too high, keeping the anode current below the holding current",
+            "D. The gate resistor is open"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "An LASCR datasheet specifies a minimum trigger irradiance (H_FT) of 15 mW/cm². If the effective optical window area is 0.1 cm², what is the minimum optical power required to guarantee triggering?",
+        "choices": [
+            "A. 150 mW",
+            "B. 15 mW",
+            "C. 1.5 mW",
+            "D. 0.15 mW"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "A worded circuit: An LASCR is used in an AC circuit. A separate isolated circuit contains a variable resistor, a capacitor, and an LED pointed at the LASCR. As the variable resistor is adjusted, the LED flashes at different times during each AC half-cycle. What type of control is this?",
+        "choices": [
+            "A. Pulse Width Modulation (PWM)",
+            "B. Frequency Modulation",
+            "C. Peak Detection",
+            "D. Optical Phase Control"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 47,
+        "question": "A Light Activated TRIAC (Photo-TRIAC) differs from an LASCR primarily because it can:",
+        "choices": [
+            "A. Conduct and be triggered in both directions (AC operation)",
+            "B. Switch DC currents",
+            "C. Be turned off by light",
+            "D. Handle millions of amperes"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "If an LASCR is used to directly switch a purely AC load without a bridge rectifier, how will the load behave when continuous light is applied?",
+        "choices": [
+            "A. It will receive full AC power",
+            "B. It will receive half-wave rectified power (conducting only on positive half-cycles)",
+            "C. It will receive erratic, high-frequency pulses",
+            "D. It will receive zero power"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "A Light Activated Programmable Unijunction Transistor (LAPUT) is similar to a standard PUT but features an optical window. The voltage at which it triggers can be electrically programmed by an external voltage divider while the actual triggering instant is controlled by:",
+        "choices": [
+            "A. A light pulse",
+            "B. A magnetic field",
+            "C. A temperature change",
+            "D. A sound wave"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "When an LASCR is in the OFF state (forward blocking) with no light applied, a very small current still flows from anode to cathode. This is called the:",
+        "choices": [
+            "A. Holding current",
+            "B. Forward breakover current",
+            "C. Dark off-state current (leakage current)",
+            "D. Latching current"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "The physical packaging of an LASCR differs from a standard SCR primarily by the inclusion of a:",
+        "choices": [
+            "A. Massive heat sink on the gate",
+            "B. Transparent window or lens (glass or plastic)",
+            "C. Fiber optic cable permanently fused to the anode",
+            "D. Gold-plated cathode terminal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "To prevent false triggering of an LASCR in high-temperature environments, a negative bias is sometimes applied to the gate. This technique works by:",
+        "choices": [
+            "A. Heating the junction",
+            "B. Increasing the physical size of the depletion region",
+            "C. Creating a magnetic field",
+            "D. Sweeping away thermally generated electron-hole pairs before they can initiate regenerative switching"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "An LASCR is triggered by a distant LED. To increase the optical coupling efficiency and ensure triggering, a designer should place what optical component between the LED and the LASCR?",
+        "choices": [
+            "A. A polarizing filter",
+            "B. A focusing lens",
+            "C. A prism",
+            "D. A frosted glass diffuser"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "The turn-on time (delay time) of an LASCR compared to a simple PIN photodiode is generally:",
+        "choices": [
+            "A. Much faster (picoseconds)",
+            "B. Exactly the same",
+            "C. Slower, because it relies on the regenerative internal positive feedback mechanism to latch",
+            "D. Zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "The fundamental principle behind solar cells is the Photovoltaic Effect. This effect is defined as:",
+        "choices": [
+            "A. The emission of electrons from a heated metal surface",
+            "B. The change in electrical resistance when exposed to light",
+            "C. The emission of light when an electric current is applied",
+            "D. The generation of a voltage (and electric current) in a material upon exposure to light"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 56,
+        "question": "Most commercial solar cells are manufactured from silicon. What is the approximate bandgap energy of crystalline silicon at room temperature, which dictates the maximum wavelength of light it can absorb?",
+        "choices": [
+            "A. 1.1 eV",
+            "B. 3.2 eV",
+            "C. 0.1 eV",
+            "D. 2.5 eV"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 57,
+        "question": "For a single, standard crystalline silicon solar cell operating under full sunlight (Standard Test Conditions), the typical Open-Circuit Voltage (Voc) is approximately:",
+        "choices": [
+            "A. 1.5 V to 2.0 V",
+            "B. 12 V",
+            "C. 3.3 V",
+            "D. 0.5 V to 0.6 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "The Fill Factor (FF) is a key performance metric for a solar cell. It is mathematically defined as the ratio of the:",
+        "choices": [
+            "A. Maximum power (Pmax) to the product of Open-Circuit Voltage (Voc) and Short-Circuit Current (Isc)",
+            "B. Short-circuit current to the open-circuit voltage",
+            "C. Output electrical power to the input solar irradiance",
+            "D. Theoretical bandgap energy to the actual photon energy"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "To increase the total voltage output of a solar panel to charge a 12V battery, individual solar cells must be connected in:",
+        "choices": [
+            "A. Parallel",
+            "B. Anti-parallel",
+            "C. Series",
+            "D. Bridge configuration"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "To increase the total current capacity (and thus total power) of a solar array without changing its output voltage, solar panels must be connected in:",
+        "choices": [
+            "A. Series",
+            "B. Parallel",
+            "C. Delta",
+            "D. Star (Wye)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "A worded circuit: A solar panel consists of 36 cells in series. Due to a tree, one cell is completely shaded. To prevent this shaded cell from acting as a reverse-biased load and overheating, the manufacturer installs what specific component?",
+        "choices": [
+            "A. A blocking diode",
+            "B. A bypass diode",
+            "C. A Zener diode",
+            "D. A capacitor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "In a standalone solar power system charging a battery, a diode is placed in series between the solar panel positive output and the battery positive terminal. Its primary function is to:",
+        "choices": [
+            "A. Increase the charging voltage",
+            "B. Bypass shaded cells",
+            "C. Prevent the battery from discharging backward through the solar panel at night",
+            "D. Regulate the charging current"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "As the intensity of solar irradiance (sunlight) falling on a solar cell increases significantly, the Short-Circuit Current (Isc) and Open-Circuit Voltage (Voc) behave as follows:",
+        "choices": [
+            "A. Isc stays constant, Voc increases linearly",
+            "B. Isc increases logarithmically, Voc decreases",
+            "C. Both Isc and Voc increase exactly linearly",
+            "D. Isc increases linearly, Voc increases only logarithmically (slightly)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "Solar panels are notoriously sensitive to temperature. As the operating temperature of a crystalline silicon solar cell increases, the Open-Circuit Voltage (Voc) will:",
+        "choices": [
+            "A. Decrease significantly (negative temperature coefficient)",
+            "B. Remain perfectly constant",
+            "C. Oscillate",
+            "D. Increase slightly"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "A solar charge controller utilizes a technique to electronically track the varying operating point of the solar panel where it outputs the absolute maximum power. This technology is known as:",
+        "choices": [
+            "A. Maximum Power Point Tracking (MPPT)",
+            "B. Pulse Width Modulation (PWM)",
+            "C. Active Power Factor Correction (APFC)",
+            "D. Phase-Locked Loop (PLL)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "A solar panel has a surface area of 1.5 square meters. Under STC (1000 W/m² irradiance), it outputs a maximum power of 300 Watts. What is the overall energy conversion efficiency of this solar panel?",
+        "choices": [
+            "A. 10%",
+            "B. 20%",
+            "C. 30%",
+            "D. 15%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "A solar array consists of 4 strings connected in parallel. Each string consists of 3 identical panels connected in series. If one individual panel produces 40V (Voc) and 10A (Isc), what is the total Open-Circuit Voltage (Voc) and Short-Circuit Current (Isc) of the entire array?",
+        "choices": [
+            "A. Voc = 40V, Isc = 40A",
+            "B. Voc = 160V, Isc = 30A",
+            "C. Voc = 120V, Isc = 40A",
+            "D. Voc = 120V, Isc = 10A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "A single solar cell has Voc = 0.6V and Isc = 8A. If the Fill Factor (FF) is 0.75, what is the maximum power (Pmax) this cell can generate?",
+        "choices": [
+            "A. 4.8 W",
+            "B. 6.4 W",
+            "C. 0.6 W",
+            "D. 3.6 W"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "A worded circuit: A 12V solar panel has 36 series cells. One cell is shaded and reverse-biased, acting as a resistor. If the rest of the cells force 5 Amps through this shaded cell, and the reverse voltage across it reaches 15V before breakdown, how much power is dissipated as heat in the shaded cell?",
+        "choices": [
+            "A. 15 Watts",
+            "B. 5 Watts",
+            "C. 75 Watts (Severe Hot Spot)",
+            "D. 0 Watts"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "When connecting multiple solar panels in parallel, a critical design rule is that all parallel strings must have identical:",
+        "choices": [
+            "A. Voltage ratings",
+            "B. Amperage ratings",
+            "C. Physical dimensions",
+            "D. Brand names"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "In the solar industry, Standard Test Conditions (STC) are universally used to rate solar panels. STC specifies a cell temperature of 25°C, an Air Mass of AM1.5, and a solar irradiance of exactly:",
+        "choices": [
+            "A. 500 W/m²",
+            "B. 1366 W/m²",
+            "C. 100 W/m²",
+            "D. 1000 W/m²"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "The surface of a silicon solar cell is naturally highly reflective. To reduce reflection losses and trap more light, manufacturers apply a thin layer of material (like silicon nitride). This is called an:",
+        "choices": [
+            "A. Opaque layer",
+            "B. Anti-Reflective Coating (ARC)",
+            "C. Epitaxial layer",
+            "D. Encapsulant"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "The theoretical maximum Fill Factor of a silicon solar cell is fundamentally limited by the diode's ideality factor and thermal voltage, but practical cells are further limited primarily by:",
+        "choices": [
+            "A. The speed of light",
+            "B. The Earth's magnetic field",
+            "C. The thickness of the glass",
+            "D. Internal series and shunt resistances"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "The term \"Air Mass 1.5\" (AM1.5) used in solar testing standards represents the:",
+        "choices": [
+            "A. Atmospheric pressure at sea level",
+            "B. Ratio of oxygen to nitrogen in the air",
+            "C. Effective optical path length of sunlight through the Earth's atmosphere, angled at approximately 48.2 degrees from zenith",
+            "D. Speed of the wind required to cool the panel"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "On a solar cell's I-V curve, the Maximum Power Point (MPP) is the specific geometric point where the:",
+        "choices": [
+            "A. Area of the rectangle formed by V and I (Vmp * Imp) is largest",
+            "B. Current is maximum (Isc)",
+            "C. Voltage is maximum (Voc)",
+            "D. Voltage and current are exactly equal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "Thin-film solar cells (like CdTe or CIGS) differ from traditional crystalline silicon cells. A general characteristic of thin-film panels compared to mono-crystalline panels is:",
+        "choices": [
+            "A. Higher efficiency and higher cost",
+            "B. Lower efficiency but better performance under low light and higher temperatures",
+            "C. Total inability to bend",
+            "D. Extreme weight"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "An increase in the internal Series Resistance (Rs) of a solar cell, caused by poor soldering or micro-cracks, will significantly degrade the cell's performance by:",
+        "choices": [
+            "A. Increasing the Short-Circuit Current (Isc)",
+            "B. Increasing the Open-Circuit Voltage (Voc)",
+            "C. Decreasing the Fill Factor (FF) and Maximum Power",
+            "D. Shifting the peak spectral response to ultraviolet"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "An optical encoder is an electromechanical device that uses a light source, a photodetector, and a coded wheel to convert physical motion into:",
+        "choices": [
+            "A. Hydraulic pressure",
+            "B. Heat energy",
+            "C. Analog audio signals",
+            "D. Digital electrical signals (pulses or data words)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "There are two main types of optical encoders. The type that generates a stream of pulses corresponding to motion but loses its position if power is removed is called a/an:",
+        "choices": [
+            "A. Absolute encoder",
+            "B. Incremental encoder",
+            "C. Gray code encoder",
+            "D. Resolving encoder"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "To determine the direction of rotation, an incremental encoder must output at least two distinct pulse trains (Channel A and Channel B). For optimal direction sensing, these two channels are phase-shifted electrically by exactly:",
+        "choices": [
+            "A. 90 degrees (Quadrature)",
+            "B. 180 degrees",
+            "C. 45 degrees",
+            "D. 0 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "Absolute optical encoders use a coded disc with multiple concentric tracks. Instead of standard binary code, they almost exclusively use Gray Code. What is the primary engineering advantage of Gray Code in this application?",
+        "choices": [
+            "A. It uses fewer bits to represent the same number",
+            "B. It is natively understood by all DC motors",
+            "C. Only one bit changes state between any two adjacent physical positions, preventing catastrophic reading errors at boundary lines",
+            "D. It requires only one photodetector"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "In addition to the A and B quadrature channels, many incremental encoders have a third channel (often labeled Z or Index). What is the purpose of this Z channel?",
+        "choices": [
+            "A. To detect errors in the power supply",
+            "B. To double the resolution",
+            "C. To indicate the temperature of the encoder",
+            "D. To provide a single reference pulse once per absolute revolution for mechanical homing"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "An incremental encoder has a specified resolution of 1024 Pulses Per Revolution (PPR). What is the mechanical angular distance between each consecutive pulse on a single channel?",
+        "choices": [
+            "A. 1.000 degrees",
+            "B. 0.351 degrees",
+            "C. 0.100 degrees",
+            "D. 2.844 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "A motor with an attached 500 PPR incremental encoder is spinning. A frequency counter on Channel A reads 15 kHz. What is the rotational speed of the motor in Revolutions Per Minute (RPM)?",
+        "choices": [
+            "A. 1800 RPM",
+            "B. 30 RPM",
+            "C. 600 RPM",
+            "D. 1500 RPM"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "A worded circuit: An incremental encoder is connected to a D-type flip-flop. Channel A is connected to the 'Clock' input, and Channel B is connected to the 'Data' input. If Channel A leads Channel B by 90 degrees, what will the output state of the flip-flop be when clocked?",
+        "choices": [
+            "A. HIGH (indicating the other direction)",
+            "B. LOW (indicating one direction)",
+            "C. Oscillating",
+            "D. High-Impedance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "An absolute encoder has a coded disc with 12 concentric optical tracks. What is the maximum number of distinct angular positions this encoder can resolve in one single revolution?",
+        "choices": [
+            "A. 4096 (2^12)",
+            "B. 12",
+            "C. 144",
+            "D. 2048"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "In harsh industrial environments with extremely high shock, vibration, or temperature, optical encoders using glass discs can fail. What alternative disc material is commonly used to increase ruggedness at the cost of some resolution?",
+        "choices": [
+            "A. Paper",
+            "B. Transparent plastic",
+            "C. Ceramics",
+            "D. Etched stainless steel (Mylar or metal foil)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "The raw analog signals produced by the photodetectors in an optical encoder are typically sine/cosine waves. To convert these into crisp, noise-free digital square waves, the internal encoder circuitry uses:",
+        "choices": [
+            "A. Analog integrators",
+            "B. Linear amplifiers",
+            "C. Schmitt triggers",
+            "D. Low-pass filters"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "A worded circuit: An incremental encoder is turning clockwise. The decoding logic determines that the rising edge of Channel A occurs while Channel B is LOW. If the motor reverses to counter-clockwise, what will be the state of Channel B when the rising edge of Channel A occurs?",
+        "choices": [
+            "A. High-Impedance",
+            "B. LOW",
+            "C. Invalid",
+            "D. HIGH"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "High-precision CNC machines use \"Sine/Cosine\" optical encoders instead of standard digital quadrature encoders. They output 1Vpp analog sinusoidal signals. Why?",
+        "choices": [
+            "A. They are cheaper to manufacture",
+            "B. The analog signals can be mathematically interpolated within the drive controller to achieve resolutions thousands of times higher than the physical slit count",
+            "C. They are immune to all magnetic interference",
+            "D. They do not require a light source"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "An incremental encoder has a resolution of 10,000 PPR. The internal electronics have a maximum high-frequency response limit of 500 kHz per channel. What is the absolute maximum mechanical speed this encoder can handle before losing counts?",
+        "choices": [
+            "A. 3000 RPM",
+            "B. 1500 RPM",
+            "C. 500 RPM",
+            "D. 50 RPM"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "To prevent \"dithering\" (false counting when the encoder is vibrating back and forth exactly on the edge of a slit), the internal Schmitt triggers are designed with a specific electrical property called:",
+        "choices": [
+            "A. Common-mode rejection",
+            "B. Saturation",
+            "C. Hysteresis",
+            "D. Linear amplification"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "Very high-resolution optical encoders (e.g., > 10,000 PPR) cannot simply use finer and finer slits because of light diffraction limits. Instead, they use two closely spaced gratings (a scale and a reticle) to produce optical interference patterns. This principle relies on:",
+        "choices": [
+            "A. Moiré fringes",
+            "B. The Doppler effect",
+            "C. Rayleigh scattering",
+            "D. The photoelectric effect"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "A 4-bit absolute encoder outputs the Gray code word 0110. What is the equivalent standard binary number? (Recall: Binary MSB = Gray MSB; next Binary bit = previous Binary bit XOR current Gray bit).",
+        "choices": [
+            "A. 0110",
+            "B. 1001",
+            "C. 0100",
+            "D. 0011"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "What is the most critical operational advantage of an absolute optical encoder over an incremental optical encoder?",
+        "choices": [
+            "A. It has unlimited rotational speed",
+            "B. It immediately knows its exact physical position upon power-up without requiring a homing routine",
+            "C. It is completely immune to dirt and dust",
+            "D. It requires fewer wires"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "A worded circuit: An incremental encoder is installed in a dusty environment. Dust partially blocks the optical slits, weakening the analog signals. The internal Schmitt triggers begin missing the threshold voltages. What is the symptom observed at the digital output?",
+        "choices": [
+            "A. The output frequency doubles",
+            "B. The phase shift changes to 180 degrees",
+            "C. The direction output reverses randomly",
+            "D. The encoder will \"drop counts\" or produce asymmetrical duty cycles, leading to cumulative positioning errors"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "A motion controller utilizes \"X4 (Quad) evaluation\" logic on an incremental encoder. This means it counts the rising and falling edges of both Channel A and Channel",
+        "choices": [
+            "B. If the encoder specifies a physical resolution of 1000 PPR, how many countable steps per rev does the controller actually register?",
+            "A. 1000",
+            "B. 4000",
+            "C. 250"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "A worded circuit: An optical encoder has an eccentric code wheel (runout error due to poor shaft mounting). How does this mechanical defect primarily manifest in the electrical output signals?",
+        "choices": [
+            "A. It increases the overall resolution",
+            "B. It prevents the Z-index pulse from firing",
+            "C. It burns out the internal LED",
+            "D. It causes cyclical phase errors (the 90-degree quadrature spacing will fluctuate) once per revolution"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 99,
+        "question": "A \"multi-turn\" absolute encoder can track not only its position within one 360-degree rotation but also the total number of full revolutions, even if power is removed. How is this typically achieved without relying on a backup battery?",
+        "choices": [
+            "A. By using a giant capacitor",
+            "B. By measuring the Earth's magnetic field",
+            "C. By utilizing a complex internal geared mechanism driving additional absolute optical discs (like a clock's hands)",
+            "D. By storing the count in an EEPROM every microsecond"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "Calculating mechanical angle error: An optical encoder has a physical resolution of 3600 PPR. The manufacturer specifies a maximum phase error of 90 electrical degrees between channels. What is this maximum phase error expressed in physical mechanical degrees of rotation?",
+        "choices": [
+            "A. 0.025 mechanical degrees",
+            "B. 0.250 mechanical degrees",
+            "C. 0.100 mechanical degrees",
+            "D. 10.000 mechanical degrees"
+        ],
+        "correct_answer": "A"
+    }
+]

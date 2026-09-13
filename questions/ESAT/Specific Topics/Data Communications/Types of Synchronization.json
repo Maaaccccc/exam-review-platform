@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "The device used to interface a two-wire local loop to a four-wire toll network is called a:",
+        "choices": [
+            "A. Hybrid circuit",
+            "B. Demultiplexer",
+            "C. Baseband router",
+            "D. Echo suppressor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "In long-distance telephony, four-wire circuits are mandated primarily because:",
+        "choices": [
+            "A. They convert analog to digital automatically",
+            "B. They use less copper per subscriber",
+            "C. They allow for easy insertion of unidirectional amplifiers in each path",
+            "D. They eliminate cross-talk completely"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "If the balancing network of a hybrid circuit perfectly matches the impedance of the two-wire line, the Return Loss is theoretically:",
+        "choices": [
+            "A. 0 dB",
+            "B. Infinite",
+            "C. 3 dB",
+            "D. 6 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 4,
+        "question": "Echo in a traditional voice network is typically generated at which specific location?",
+        "choices": [
+            "A. At the microphone",
+            "B. Along the fiber optic core",
+            "C. In the digital switch",
+            "D. At the hybrid junction due to impedance mismatch"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "What is the theoretical minimum insertion loss from the four-wire receive port to the two-wire port in an ideal hybrid transformer?",
+        "choices": [
+            "A. 3 dB",
+            "B. 0 dB",
+            "C. 1.5 dB",
+            "D. 6 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "When designing a 4-wire toll circuit to remain stable and prevent singing, engineers traditionally introduced artificial attenuation known as:",
+        "choices": [
+            "A. Return loss padding",
+            "B. Sidetone insertion",
+            "C. Talker echo",
+            "D. Via Net Loss (VNL)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 7,
+        "question": "In digital communications, the process of ensuring that the receiver's sampling clock matches the frequency and phase of the transmitter's data symbols is called:",
+        "choices": [
+            "A. Frame synchronization",
+            "B. Packet synchronization",
+            "C. Bit synchronization",
+            "D. Byte synchronization"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "Which of the following line coding schemes inherently provides strong bit synchronization by guaranteeing a mid-bit voltage transition for every transmitted bit?",
+        "choices": [
+            "A. Non-Return to Zero (NRZ)",
+            "B. Manchester encoding",
+            "C. Alternate Mark Inversion (AMI)",
+            "D. Unipolar RZ"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "In asynchronous transmission, byte (or character) synchronization is primarily achieved using:",
+        "choices": [
+            "A. A dedicated clock wire",
+            "B. Start and stop bits framing each character",
+            "C. A continuous preamble of alternating 1s and 0s",
+            "D. A Phase-Locked Loop (PLL)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "The process of determining where a complete block or packet of data begins and ends within a continuous bitstream is formally known as:",
+        "choices": [
+            "A. Frame synchronization",
+            "B. Bit synchronization",
+            "C. Clock synchronization",
+            "D. Symbol timing recovery"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "In a bit-oriented synchronous protocol like HDLC, frame synchronization is achieved by using a unique 8-bit flag sequence, which is strictly:",
+        "choices": [
+            "A. 11111111",
+            "B. 10101010",
+            "C. 01111110",
+            "D. 00000000"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "To prevent the HDLC frame synchronization flag (01111110) from accidentally appearing in the payload data, the transmitter utilizes a technique called:",
+        "choices": [
+            "A. Parity generation",
+            "B. Character stuffing",
+            "C. Forward error correction",
+            "D. Bit stuffing"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Which synchronization technique involves adding a specific control character (such as SYN in BISYNC) to define the boundaries of a character block?",
+        "choices": [
+            "A. Byte synchronization",
+            "B. Bit synchronization",
+            "C. Phase synchronization",
+            "D. Clock synchronization"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "A Phase-Locked Loop (PLL) is the primary hardware circuit used in receivers to achieve:",
+        "choices": [
+            "A. Parity checking",
+            "B. Bit synchronization (clock recovery)",
+            "C. Frame synchronization",
+            "D. Error correction"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "In telecommunications, a network where all clocks have exactly the same long-term accuracy because they are traceable to a single primary reference clock is a:",
+        "choices": [
+            "A. Plesiochronous network",
+            "B. Asynchronous network",
+            "C. Synchronous network",
+            "D. Isochronous network"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "In a network where different nodes operate with highly accurate local clocks that are nominally at the same rate but NOT strictly tied to a single master clock, the synchronization is called:",
+        "choices": [
+            "A. Asynchronous",
+            "B. Mesochronous",
+            "C. Synchronous",
+            "D. Plesiochronous"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "The early-late gate synchronizer is a classic closed-loop circuit specifically designed to achieve and maintain:",
+        "choices": [
+            "A. Frame synchronization",
+            "B. Bit synchronization (symbol timing)",
+            "C. Network Time Protocol accuracy",
+            "D. Byte synchronization"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "In a PDH (Plesiochronous Digital Hierarchy) system, slight clock variations between multiplexers are accommodated by inserting dummy bits into the frame. This process is called:",
+        "choices": [
+            "A. Bit stuffing (for transparency)",
+            "B. Byte stuffing",
+            "C. Justification (or pulse stuffing)",
+            "D. Phase slipping"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "Slips in a digital network (the deletion or repetition of a bit or block of bits) are directly caused by a failure in:",
+        "choices": [
+            "A. Clock synchronization between connecting nodes",
+            "B. The cyclic redundancy check",
+            "C. The parity generator",
+            "D. The transmission medium's impedance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 20,
+        "question": "Which of the following time protocols provides microsecond-level clock synchronization suitable for modern cellular networks and industrial control?",
+        "choices": [
+            "A. NTP (Network Time Protocol)",
+            "B. SNTP (Simple NTP)",
+            "C. FTP (File Transfer Protocol)",
+            "D. PTP (Precision Time Protocol, IEEE 1588)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "In synchronous transmission, the receiver extracts the clock signal directly from the received data stream. This process is known as:",
+        "choices": [
+            "A. Frame alignment",
+            "B. Plesiochronous mapping",
+            "C. Byte stuffing",
+            "D. Clock recovery"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 22,
+        "question": "Frame alignment words (FAW) are fixed bit patterns inserted periodically into a data stream. Their primary purpose is to establish:",
+        "choices": [
+            "A. Frame synchronization",
+            "B. Bit synchronization",
+            "C. Physical layer modulation",
+            "D. Error detection"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "A loss of frame (LOF) alarm in a digital transmission system typically occurs when the receiver fails to detect what for a specified number of consecutive frames?",
+        "choices": [
+            "A. The carrier frequency",
+            "B. The Frame Alignment Word (FAW)",
+            "C. The payload data",
+            "D. The stop bit"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "During bit synchronization, if the receiver's sampling clock is systematically drifting relative to the transmitter's clock, the PLL generates an error voltage to adjust its:",
+        "choices": [
+            "A. Amplitude",
+            "B. Filter bandwidth",
+            "C. Voltage Controlled Oscillator (VCO)",
+            "D. Quantization level"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "In the context of byte synchronization, character-oriented protocols rely on control characters like DLE (Data Link Escape) to provide data transparency. What is this technique called?",
+        "choices": [
+            "A. Bit stuffing",
+            "B. Phase modulation",
+            "C. Byte stuffing (Character stuffing)",
+            "D. Clock recovery"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "To achieve accurate bit synchronization, baseband transmission schemes often avoid long sequences of consecutive 0s or 1s by using:",
+        "choices": [
+            "A. Amplifiers",
+            "B. Attenuators",
+            "C. Baudot code",
+            "D. Scramblers or specialized line codes (e.g., HDB3, B8ZS)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "The Network Time Protocol (NTP) synchronizes computer clocks over packet-switched, variable-latency networks. What stratum level is assigned to the primary reference clocks (e.g., atomic clocks or GPS)?",
+        "choices": [
+            "A. Stratum 0",
+            "B. Stratum 1",
+            "C. Stratum 2",
+            "D. Stratum 4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "In a master-slave clock synchronization architecture, if the link to the master clock is lost, the slave clock enters a state where it relies entirely on its local oscillator's stability. This state is called:",
+        "choices": [
+            "A. Free-run",
+            "B. Holdover",
+            "C. Acquisition",
+            "D. Locked"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "A T1 carrier frame consists of 24 8-bit channels plus 1 framing bit. What type of synchronization does this single framing bit primarily facilitate when evaluated over multiple frames?",
+        "choices": [
+            "A. Bit synchronization",
+            "B. Clock synchronization",
+            "C. Frame synchronization",
+            "D. Byte synchronization"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 30,
+        "question": "In digital transmission, \"mesochronous\" signals operate at exactly the same average frequency but may have:",
+        "choices": [
+            "A. A varying phase relationship",
+            "B. Completely different baud rates",
+            "C. No clock synchronization at all",
+            "D. Different frame structures"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "Which phenomenon describes the short-term variations of the significant instants of a digital signal from their ideal positions in time?",
+        "choices": [
+            "A. Attenuation",
+            "B. Wander",
+            "C. Dispersion",
+            "D. Jitter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 32,
+        "question": "Long-term variations of the significant instants of a digital signal from their ideal positions in time (typically variations below 10 Hz) are called:",
+        "choices": [
+            "A. Jitter",
+            "B. Wander",
+            "C. Slip",
+            "D. Drift"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "When an asynchronous receiver expects a stop bit (Logic 1) but detects a Logic 0, this indicates a failure in character boundary detection known as a:",
+        "choices": [
+            "A. Clock slip",
+            "B. Framing error",
+            "C. Parity error",
+            "D. Jitter error"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "If a digital transmission link has an unknown propagation delay, frame synchronization relies heavily on:",
+        "choices": [
+            "A. Hardware flow control",
+            "B. Matching cable lengths",
+            "C. Exact voltage levels",
+            "D. Searching the bitstream for a known correlation pattern (sync word)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 35,
+        "question": "In SONET/SDH, the entire network is designed to be fully synchronous. Payload data is located within the frame using pointers, which eliminates the need for:",
+        "choices": [
+            "A. Bit synchronization",
+            "B. Clock distribution",
+            "C. Bit stuffing (justification) as used in PDH",
+            "D. Frame synchronization"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "A timing loop is a catastrophic clock synchronization failure in a network where:",
+        "choices": [
+            "A. Two or more clocks derive their timing from each other, causing instability and drift",
+            "B. The frame flag repeats infinitely",
+            "C. The PLL loses lock",
+            "D. The data rate doubles"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "To achieve bit synchronization in a modem, the receiver often uses an equalizer combined with a timing recovery circuit. A common algorithm used to adjust the sampling instant mathematically is the:",
+        "choices": [
+            "A. Mueller and Müller (M&M;) algorithm",
+            "B. Viterbi algorithm",
+            "C. Huffman algorithm",
+            "D. Fast Fourier Transform"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "For an asynchronous transmission using 8 data bits, 1 start bit, and 1 stop bit, how does the receiver regain bit synchronization for each new byte?",
+        "choices": [
+            "A. It uses a continuous PLL lock",
+            "B. It synchronizes on the falling edge of the start bit",
+            "C. It reads the parity bit",
+            "D. It uses an external clock wire"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "In frame synchronization, the \"search state\" is followed by a state where the receiver tentatively verifies the presence of the sync word in subsequent frames before declaring full synchronization. This is often modeled using a:",
+        "choices": [
+            "A. Fast Fourier Transform",
+            "B. Smith Chart",
+            "C. Finite State Machine (e.g., Hunt, Presync, Sync states)",
+            "D. Constellation Diagram"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "Which clock synchronization topology involves a single Primary Reference Clock (PRC) supplying timing reference to all subordinate nodes in a strict tree structure?",
+        "choices": [
+            "A. Mutual synchronization",
+            "B. Plesiochronous synchronization",
+            "C. Asynchronous topology",
+            "D. Hierarchical master-slave synchronization"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "In mutual synchronization networks, all nodes exchange timing information and average the phase differences. The network frequency settles to:",
+        "choices": [
+            "A. The highest frequency of all nodes",
+            "B. The lowest frequency of all nodes",
+            "C. An average frequency determined by the individual node frequencies and coupling weights",
+            "D. Exactly 10.000 MHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "A phase slip occurs when a receiver buffer (elastic store) overflows or underflows. An underflow typically results in the:",
+        "choices": [
+            "A. Deletion of a bit or frame",
+            "B. Repetition of a bit or frame (or insertion of dummy data)",
+            "C. Reversal of the bitstream",
+            "D. Complete loss of frame alignment"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "An overflow of the elastic store buffer due to the incoming clock being faster than the local read clock results in the:",
+        "choices": [
+            "A. Repetition of data",
+            "B. Correction of data",
+            "C. Inversion of data",
+            "D. Deletion of a bit or frame"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "If a PDH multiplexer receives a tributary signal that is slightly slower than nominal, it maintains bit-rate synchronization by:",
+        "choices": [
+            "A. Inserting stuffing bits (positive justification)",
+            "B. Deleting data bits (negative justification)",
+            "C. Changing its own master clock",
+            "D. Sending a break signal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "Frame synchronization in modern Ethernet (IEEE 802.3) is achieved at the physical layer by sending a 7-byte preamble followed by a 1-byte:",
+        "choices": [
+            "A. Flag sequence (01111110)",
+            "B. CRC check",
+            "C. Interframe gap",
+            "D. Start Frame Delimiter (SFD)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 46,
+        "question": "The Start Frame Delimiter (SFD) in standard Ethernet has the specific bit pattern:",
+        "choices": [
+            "A. 10101011",
+            "B. 10101010",
+            "C. 01111110",
+            "D. 11111111"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "Byte synchronization is naturally resolved if the receiver already has achieved:",
+        "choices": [
+            "A. A higher clock rate",
+            "B. Frame synchronization (since frame boundaries dictate byte boundaries)",
+            "C. Carrier synchronization",
+            "D. Amplitude synchronization"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "To extract a clock signal from an NRZ bitstream (which lacks discrete spectral lines at the clock frequency), the receiver must typically pass the signal through a:",
+        "choices": [
+            "A. Low-pass filter",
+            "B. Linear amplifier",
+            "C. Nonlinear device (like a squarer or absolute value circuit) to generate a clock harmonic",
+            "D. Phase inverter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "What synchronization issue arises if a digital transmission channel exhibits severe intersymbol interference (ISI)?",
+        "choices": [
+            "A. Eye closure, making accurate bit synchronization and sampling difficult",
+            "B. The frame flag length doubles",
+            "C. The clocks become mutually synchronized",
+            "D. Byte stuffing fails"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "In a digital receiver, the \"eye pattern\" is a powerful oscilloscope display used to evaluate:",
+        "choices": [
+            "A. Routing efficiency",
+            "B. Byte stuffing overhead",
+            "C. Signal quality, jitter, and optimum sampling time for bit synchronization",
+            "D. Carrier frequency drift"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "A synchronization technique where timing information is sent on a completely separate physical channel from the data is called:",
+        "choices": [
+            "A. Self-synchronizing",
+            "B. Isochronous",
+            "C. Asynchronous",
+            "D. Out-of-band (or separate-clock) synchronization"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "Which of the following limits the physical distance of parallel transmission due to the differing arrival times of bits across separate wires?",
+        "choices": [
+            "A. Jitter",
+            "B. Clock skew",
+            "C. Attenuation",
+            "D. Dispersion"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "If a receiver is using a PLL for bit synchronization, the \"capture range\" refers to:",
+        "choices": [
+            "A. The maximum data rate",
+            "B. The frequency range over which the PLL can lock onto an incoming signal",
+            "C. The number of frames it can store",
+            "D. The voltage level of the clock"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "In a digital video broadcast, the audio and video streams must be presented to the user simultaneously. This requirement is known as:",
+        "choices": [
+            "A. Bit synchronization",
+            "B. Frame synchronization",
+            "C. Lip sync (a form of multimedia synchronization)",
+            "D. Clock recovery"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "IEEE 1588 (PTP) achieves high-accuracy clock synchronization by calculating and compensating for the network's:",
+        "choices": [
+            "A. Propagation delay using timestamped sync and delay-request messages",
+            "B. Operating temperature",
+            "C. Attenuation profile",
+            "D. Bit error rate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "In an SDH network, a building integrated timing supply (BITS) clock is used to provide:",
+        "choices": [
+            "A. Parity generation",
+            "B. Byte synchronization for asynchronous payloads",
+            "C. Frame alignment",
+            "D. A highly stable local clock synchronization reference for all equipment in the facility"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "To maintain clock synchronization in the event of a primary reference failure, telecom nodes use stratum 2 or 3 clocks equipped with highly stable:",
+        "choices": [
+            "A. RC oscillators",
+            "B. LC circuits",
+            "C. 555 Timers",
+            "D. Rubidium or high-quality oven-controlled crystal oscillators (OCXOs)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "In frame synchronization, the probability of falsely identifying a sync word in random payload data is reduced by:",
+        "choices": [
+            "A. Decreasing the length of the sync word",
+            "B. Increasing the length (number of bits) of the sync word",
+            "C. Using lower voltages",
+            "D. Changing the clock frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "In bit stuffing, if the flag sequence is 01111110, the transmitter automatically inserts a '0' after every occurrence of how many consecutive '1's in the payload?",
+        "choices": [
+            "A. Five",
+            "B. Six",
+            "C. Seven",
+            "D. Eight"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "In a receiver, after a stuffed bit is identified (a '0' following five consecutive '1's), the receiver must:",
+        "choices": [
+            "A. Leave it as data",
+            "B. Treat it as a frame boundary",
+            "C. Discard the stuffed '0' (destuffing) to recover the original byte structure",
+            "D. Request retransmission"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "In the early-late gate timing recovery circuit, two integrators sample the received pulse slightly before (early) and slightly after (late) the estimated center. If the clock is perfectly synchronized, the outputs of the two integrators will be:",
+        "choices": [
+            "A. Equal",
+            "B. Zero",
+            "C. Infinite",
+            "D. Exactly opposite in sign"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "Bipolar with 8-Zero Substitution (B8ZS) guarantees bit synchronization on T1 lines by replacing blocks of 8 zeros with a pattern containing:",
+        "choices": [
+            "A. 8 consecutive ones",
+            "B. A frame alignment word",
+            "C. A start and stop bit",
+            "D. Intentional bipolar violations that the receiver can recognize"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 63,
+        "question": "In HDB3 coding (used in E1 lines for clock recovery), the maximum number of consecutive zeros allowed before a substitution occurs is:",
+        "choices": [
+            "A. 8",
+            "B. 4",
+            "C. 3",
+            "D. 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "In carrier synchronization (coherent detection), the receiver must lock onto the transmitter's carrier phase. A common circuit used for suppressed-carrier BPSK signals is the:",
+        "choices": [
+            "A. Early-late gate",
+            "B. Costas loop",
+            "C. Envelope detector",
+            "D. Limiter-discriminator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "Which synchronization level ensures that the receiver groups the incoming bitstream into correct 8-bit characters?",
+        "choices": [
+            "A. Frame synchronization",
+            "B. Bit synchronization",
+            "C. Byte (or Character) synchronization",
+            "D. Carrier synchronization"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "The delay variation of timing signals in a synchronization distribution network, typically caused by temperature changes in cables, causes:",
+        "choices": [
+            "A. Bit stuffing",
+            "B. Wander",
+            "C. Parity errors",
+            "D. Infinite holdover"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "In a hierarchical clock network, a Stratum 3 clock that loses its reference will enter holdover. Its drift rate is theoretically:",
+        "choices": [
+            "A. Worse (faster drift) than a Stratum 2 clock",
+            "B. Better than a Stratum 1 clock",
+            "C. Exactly zero",
+            "D. Equal to the speed of light"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "A framer chip in a telecom multiplexer fails to find the framing bit for several consecutive T1 frames. The chip will declare an Out of Frame (OOF) condition and begin a:",
+        "choices": [
+            "A. Phase lock routine",
+            "B. Jitter attenuation process",
+            "C. Carrier recovery sequence",
+            "D. Frame search algorithm (hunting)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "Self-synchronizing line codes (like Manchester) embed the clock in the data. What is the primary disadvantage of Manchester encoding?",
+        "choices": [
+            "A. It cannot be used for byte synchronization",
+            "B. It requires twice the bandwidth of NRZ for the same data rate",
+            "C. It has a high DC component",
+            "D. It requires an external clock wire"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "In a bit-interleaved TDM system, how is frame synchronization typically maintained?",
+        "choices": [
+            "A. By dedicating a specific bit position in the multiplexed frame to carry a recognizable framing pattern",
+            "B. By using start and stop bits on every bit",
+            "C. By relying on NTP",
+            "D. By transmitting the frame backwards"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "In asynchronous communication, the start bit provides bit-level synchronization for the incoming character. The receiver clock must remain accurate only until:",
+        "choices": [
+            "A. The end of the entire message",
+            "B. The next start bit arrives",
+            "C. The parity bit is checked",
+            "D. The stop bit of that specific character is sampled"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "A Barker code is a specific sequence of bits used in some systems for:",
+        "choices": [
+            "A. Error correction",
+            "B. Amplitude modulation",
+            "C. Frame synchronization, due to its ideal autocorrelation properties",
+            "D. Data encryption"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "Clock recovery in a high-speed optical receiver (e.g., 10 Gbps) is exceptionally challenging due to:",
+        "choices": [
+            "A. Severe jitter, dispersion, and the extremely short duration of each bit",
+            "B. The inability of fiber to carry a clock signal",
+            "C. Infinite bandwidth",
+            "D. Total internal reflection delays"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "In a packet-switched network where packets arrive via different paths with variable delays, the receiving application must reorder the packets. This relies on:",
+        "choices": [
+            "A. Physical layer bit synchronization",
+            "B. The preamble",
+            "C. Sequence numbers (a form of higher-level synchronization)",
+            "D. The start and stop bits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "To compensate for wander in a plesiochronous network interface, large memory buffers are utilized. These are called:",
+        "choices": [
+            "A. FIFO queues",
+            "B. Elastic stores (or slip buffers)",
+            "C. ROMs",
+            "D. Shift registers"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "If a network node's elastic store buffer overflows, it must drop a frame (a slip). If the frame is 125 microseconds long, this slip results in the loss of how much data?",
+        "choices": [
+            "A. 1 bit",
+            "B. 1 byte",
+            "C. 1 second of data",
+            "D. Exactly one 125-microsecond frame of data"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "In the context of clock synchronization, MTIE stands for:",
+        "choices": [
+            "A. Mean Time In Error",
+            "B. Master Timing Internal Error",
+            "C. Maximum Time Interval Error (a measure of wander)",
+            "D. Minimum Transmit Interval Estimate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "TDEV (Time Deviation) is a metric used primarily to characterize the stability of:",
+        "choices": [
+            "A. Asynchronous start bits",
+            "B. Frame alignment words",
+            "C. Parity generators",
+            "D. Clock synchronization signals and wander"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "A receiver declares a \"Loss of Signal\" (LOS) before a \"Loss of Frame\" (LOF). Why?",
+        "choices": [
+            "A. Because frames travel faster than the signal",
+            "B. Because frame synchronization physically relies on the presence of a valid bitstream (signal)",
+            "C. Because LOF causes LOS",
+            "D. Because they are the same thing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "In standard asynchronous transmission, if the line remains idle, the voltage level corresponds to a logic 1. A start bit is indicated by:",
+        "choices": [
+            "A. A transition from logic 1 to logic 0",
+            "B. A transition from logic 0 to logic 1",
+            "C. A continuous logic 1 for two bit periods",
+            "D. A high-voltage spike"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "A synchronous modem operates at 4800 bps. The receiver's clock is off by 1 Hz. Without a PLL or clock recovery mechanism, how long will it take for the receiver to drift by one full bit period?",
+        "choices": [
+            "A. 1/4800 of a second",
+            "B. 1 second",
+            "C. 4800 seconds",
+            "D. It will never drift"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "Bit stuffing ensures data transparency but introduces a variable frame length. This variability directly affects:",
+        "choices": [
+            "A. The baud rate",
+            "B. The carrier frequency",
+            "C. The exact transmission time (delay) of a frame",
+            "D. The parity bit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "In an analog television signal, the synchronization pulses (horizontal and vertical sync) are primarily used to:",
+        "choices": [
+            "A. Control the volume",
+            "B. Transmit the color information",
+            "C. Encrypt the video",
+            "D. Align the scanning of the receiver's display with the transmitter's camera"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 84,
+        "question": "A Phase-Locked Loop (PLL) tracks the phase of an incoming signal. The component within the PLL that compares the input phase with the local oscillator phase is the:",
+        "choices": [
+            "A. Phase detector (or multiplier)",
+            "B. Loop filter",
+            "C. Voltage Controlled Oscillator (VCO)",
+            "D. Divider"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "In a Costas loop used for carrier recovery, two parallel arms are used. These are known as the:",
+        "choices": [
+            "A. Early and late arms",
+            "B. Positive and negative arms",
+            "C. Master and slave arms",
+            "D. In-phase (I) and Quadrature (Q) arms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "In an IEEE 802.3 Ethernet frame, the Start Frame Delimiter (SFD) alerts the receiver that the very next byte is the:",
+        "choices": [
+            "A. End of frame",
+            "B. First byte of the destination MAC address",
+            "C. CRC",
+            "D. IP header"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "Which synchronization technique strictly requires the receiver to continuously parse the bitstream bit-by-bit until a specific mathematical correlation threshold is met?",
+        "choices": [
+            "A. Frame synchronization (hunting)",
+            "B. Clock distribution",
+            "C. Asynchronous character detection",
+            "D. Voltage thresholding"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "The \"Sync-word\" in a TDMA burst (e.g., in GSM) is positioned in the middle of the burst rather than the beginning. This is called a midamble. What is its purpose?",
+        "choices": [
+            "A. To pad the data",
+            "B. To identify the user",
+            "C. To allow the receiver to estimate and correct for channel multipath fading (channel equalization) in both directions of the burst",
+            "D. To encrypt the burst"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "If two digital switches in a network are perfectly synchronous, the slip rate between them is:",
+        "choices": [
+            "A. 1 slip per second",
+            "B. 1 slip per day",
+            "C. Infinite",
+            "D. Exactly zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "Precision Time Protocol (PTP, IEEE 1588) relies heavily on hardware timestamping to achieve high accuracy. Software timestamping is less accurate due to:",
+        "choices": [
+            "A. Variable operating system interrupt latencies and network stack delays",
+            "B. Software cannot read clocks",
+            "C. Software cannot calculate propagation delay",
+            "D. Software runs at the speed of light"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "In a clock distribution network, the term \"traceability\" means:",
+        "choices": [
+            "A. A clock can find a lost packet",
+            "B. An unbroken chain of synchronization exists from a subordinate clock back to a recognized primary reference standard",
+            "C. The ability to track a user's location",
+            "D. The ability to trace a wire physically"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "In digital transmission, \"scrambling\" is often used to ensure adequate transitions for bit synchronization. Scrambling is essentially achieved by XORing the data with a:",
+        "choices": [
+            "A. Continuous string of 1s",
+            "B. Continuous string of 0s",
+            "C. Pseudo-Random Bit Sequence (PRBS)",
+            "D. Frame alignment word"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "A descrambler at the receiver must be exactly synchronized with the transmitter's scrambler, meaning they must possess:",
+        "choices": [
+            "A. The same IP address",
+            "B. The same power supply",
+            "C. The same PRBS generator polynomial and identical internal shift-register states",
+            "D. The same parity bit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "Which of the following conditions will most likely cause a receiver's PLL to lose bit synchronization lock?",
+        "choices": [
+            "A. A prolonged sequence of identical bits (no transitions) on an NRZ line",
+            "B. High transition density (e.g., 10101010)",
+            "C. A drop in temperature",
+            "D. Receiving a parity error"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "In a plesiochronous network, different nodes have independent clocks. For data to be multiplexed, it must be aligned. The mechanism to absorb the phase/frequency differences is:",
+        "choices": [
+            "A. Frame hunting",
+            "B. Carrier recovery",
+            "C. PLL locking",
+            "D. Pulse justification (stuffing)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "Synchronous Ethernet (SyncE) provides clock synchronization over Ethernet by:",
+        "choices": [
+            "A. Using NTP packets",
+            "B. Transferring the clock reference directly over the physical layer (PHY), bypassing packet jitter",
+            "C. Using PTP packets",
+            "D. Sending sync words in the MAC header"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "In SDH/SONET, what is used to compensate for frequency offsets and phase variations of the payload without needing to perform bit stuffing?",
+        "choices": [
+            "A. Payload pointers (e.g., H1, H2 bytes) that indicate the starting position of the payload within the frame",
+            "B. Elastic buffers that drop frames",
+            "C. Stratum 4 clocks",
+            "D. Asynchronous start bits"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "In a UART, if the clock frequency is 16× the baud rate, the receiver typically samples the bit at which clock tick after the start bit's leading edge is detected?",
+        "choices": [
+            "A. The 1st tick",
+            "B. The 16th tick",
+            "C. The 32nd tick",
+            "D. The 8th tick (the middle of the bit period)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 99,
+        "question": "When designing a frame synchronization circuit, setting a very low error threshold (requiring a perfect match of the FAW) decreases the probability of false sync but increases the probability of:",
+        "choices": [
+            "A. Infinite bandwidth",
+            "B. Baud rate drift",
+            "C. Missed synchronization due to random bit errors in the channel",
+            "D. Clock skew"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "In the context of timing recovery, what is the primary role of the loop filter in a Phase-Locked Loop (PLL)?",
+        "choices": [
+            "A. To multiply the incoming frequency",
+            "B. To attenuate high-frequency noise and control the dynamic response (bandwidth and lock time) of the loop",
+            "C. To shift the phase by exactly 90 degrees",
+            "D. To detect the frame boundary"
+        ],
+        "correct_answer": "B"
+    }
+]

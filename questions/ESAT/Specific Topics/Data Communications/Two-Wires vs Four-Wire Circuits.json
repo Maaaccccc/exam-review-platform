@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "In asynchronous transmission, the time gap between successive characters is:",
+        "choices": [
+            "A. Fixed to one bit duration",
+            "B. Fixed to one byte duration",
+            "C. Variable and can be of any length",
+            "D. Exactly zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "Which of the following best describes isochronous transmission?",
+        "choices": [
+            "A. Requires start and stop bits",
+            "B. Guarantees data delivery within fixed time constraints with minimal jitter",
+            "C. Transmits multiple bits simultaneously over parallel wires",
+            "D. Operates without any clock synchronization"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "A primary disadvantage of parallel transmission over long distances is:",
+        "choices": [
+            "A. Lower bandwidth",
+            "B. Need for analog modem",
+            "C. High latency",
+            "D. Clock skew and crosstalk"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "The fundamental unit of data in synchronous transmission is the:",
+        "choices": [
+            "A. Frame",
+            "B. Bit",
+            "C. Character",
+            "D. Baud"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "In synchronous transmission, the receiver's clock is kept synchronized by:",
+        "choices": [
+            "A. The start and stop bits",
+            "B. Extracting timing information from the data stream transitions",
+            "C. A dedicated parity bit",
+            "D. Manual configuration by the user"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "Bit stuffing is a technique primarily used in synchronous transmission to:",
+        "choices": [
+            "A. Encrypt the payload",
+            "B. Increase the overall transmission speed",
+            "C. Prevent data payload from being misinterpreted as a flag sequence",
+            "D. Correct single-bit errors"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "In asynchronous serial transmission, a \"framing error\" typically occurs when:",
+        "choices": [
+            "A. The receiver detects a logic 0 where a stop bit (logic 1) is expected",
+            "B. The parity bit is incorrect",
+            "C. The start bit is missing",
+            "D. Two devices transmit simultaneously"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "Which transmission mode minimizes overhead by eliminating the need for start and stop bits on every individual byte?",
+        "choices": [
+            "A. Parallel",
+            "B. Asynchronous",
+            "C. Isochronous",
+            "D. Synchronous"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "A standard telephone local loop connecting a subscriber to the central office historically utilizes which circuit configuration?",
+        "choices": [
+            "A. Four-wire circuit",
+            "B. Waveguide",
+            "C. Two-wire circuit",
+            "D. Six-wire circuit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "In a traditional two-wire circuit, the two wires carry:",
+        "choices": [
+            "A. Both the transmit and receive signals simultaneously",
+            "B. Only the transmit signal",
+            "C. Only the receive signal",
+            "D. Only control and signaling data"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "Which of the following is a primary advantage of a two-wire circuit?",
+        "choices": [
+            "A. Ability to amplify signals easily",
+            "B. Significant savings in cable costs and infrastructure",
+            "C. Elimination of all echoes",
+            "D. Infinite bandwidth"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "A four-wire circuit is fundamentally characterized by having:",
+        "choices": [
+            "A. Separate wire pairs for the transmit and receive paths",
+            "B. Four independent power supplies",
+            "C. Two wires for data and two for power",
+            "D. A single wire pair shared via time division"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "In long-distance telephony (toll networks), four-wire circuits are mandated primarily because:",
+        "choices": [
+            "A. They use less copper than two-wire circuits",
+            "B. They eliminate the need for analog-to-digital conversion",
+            "C. They are required for dial-up internet",
+            "D. They allow for easy insertion of unidirectional amplifiers (repeaters) in each path"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "Attempting to amplify a two-way signal directly on a two-wire circuit without separating the paths typically leads to instability and oscillations known as:",
+        "choices": [
+            "A. Jitter",
+            "B. Crosstalk",
+            "C. Singing (or howling)",
+            "D. Fading"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "The device used to interface a two-wire local loop to a four-wire toll network is called a:",
+        "choices": [
+            "A. Multiplexer",
+            "B. Modem",
+            "C. Router",
+            "D. Hybrid circuit"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 16,
+        "question": "A hybrid circuit fundamentally operates as a:",
+        "choices": [
+            "A. Digital-to-analog converter",
+            "B. Directional coupler or bridge",
+            "C. Frequency modulator",
+            "D. 2-to-1 multiplexer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 17,
+        "question": "The two-wire to four-wire conversion in a hybrid relies on a specialized transformer arrangement known as a:",
+        "choices": [
+            "A. Step-up transformer",
+            "B. Current transformer",
+            "C. Hybrid coil",
+            "D. Balun"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 18,
+        "question": "In an ideal, perfectly balanced hybrid circuit, energy arriving from the four-wire receive (Rx) port is divided equally between the two-wire port and the:",
+        "choices": [
+            "A. Four-wire transmit (Tx) port",
+            "B. Balancing network",
+            "C. Ground",
+            "D. Hybrid center tap"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "In a perfectly balanced hybrid, how much of the energy from the four-wire receive (Rx) port leaks into the four-wire transmit (Tx) port?",
+        "choices": [
+            "A. 0% (Perfect isolation)",
+            "B. 25%",
+            "C. 50%",
+            "D. 100%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 20,
+        "question": "The degree of isolation between the four-wire receive port and the four-wire transmit port in a hybrid is known as:",
+        "choices": [
+            "A. Insertion loss",
+            "B. Attenuation",
+            "C. Return loss",
+            "D. Trans-hybrid loss"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "To achieve maximum trans-hybrid loss (perfect isolation), the impedance of the balancing network must be exactly equal to the impedance of the:",
+        "choices": [
+            "A. Two-wire line",
+            "B. Four-wire receive port",
+            "C. Four-wire transmit port",
+            "D. Earth ground"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "If the balancing network does not perfectly match the impedance of the two-wire local loop, the resulting impedance mismatch causes:",
+        "choices": [
+            "A. An immediate short circuit",
+            "B. Voltage breakdown",
+            "C. Signal reflection (echo) back into the four-wire transmit path",
+            "D. Increased bandwidth"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "Return Loss (RL) in a hybrid circuit is a measure of the mismatch between the two-wire line and the balancing network. A higher Return Loss indicates:",
+        "choices": [
+            "A. A poorer match and more echo",
+            "B. A better match and less echo",
+            "C. Lower trans-hybrid loss",
+            "D. A higher probability of singing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "The formula for Return Loss (in dB) at a hybrid is 20 log_10 \\vert(Z_L + Z_N) / (Z_L - Z_N)\\vert. If Z_L exactly equals Z_N, the Return Loss approaches:",
+        "choices": [
+            "A. 0 dB",
+            "B. 1 dB",
+            "C. -10 dB",
+            "D. Infinity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "Which of the following issues is fundamentally inherent to two-wire circuits but eliminated in four-wire circuits?",
+        "choices": [
+            "A. The inability to amplify signals independently in each direction",
+            "B. Susceptibility to thermal noise",
+            "C. Need for digital conversion",
+            "D. Crosstalk between adjacent cables"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "In a standard hybrid coil setup utilizing transformers, the theoretical minimum insertion loss from the four-wire receive port to the two-wire port is:",
+        "choices": [
+            "A. 0 dB",
+            "B. 1.5 dB",
+            "C. 6 dB",
+            "D. 3 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "Echoes in a telephone network are primarily generated at:",
+        "choices": [
+            "A. The microphone of the handset",
+            "B. The long-distance fiber optic links",
+            "C. The hybrid junctions due to impedance mismatches",
+            "D. The digital switches in the core network"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "When a signal reflects at a hybrid junction and returns to the original speaker delayed in time, this specific phenomenon is called:",
+        "choices": [
+            "A. Singing",
+            "B. Talker echo",
+            "C. Listener echo",
+            "D. Crosstalk"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "Listener echo occurs when a signal reflects at the far-end hybrid, travels back, reflects again at the near-end hybrid, and is heard by the:",
+        "choices": [
+            "A. Listener",
+            "B. Talker",
+            "C. Eavesdropper",
+            "D. Central Office"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "If the delay of a talker echo is less than a few milliseconds, the speaker generally perceives the echo as:",
+        "choices": [
+            "A. A distinct, annoying repetition",
+            "B. A high-pitched howl",
+            "C. Sidetone (which is normal and expected)",
+            "D. Complete silence"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "Long-distance four-wire circuits use which device to mitigate severe talker echoes caused by hybrid mismatches and long propagation delays?",
+        "choices": [
+            "A. Balancing network",
+            "B. Echo canceller",
+            "C. Low-pass filter",
+            "D. Balun"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "An echo canceller operates by:",
+        "choices": [
+            "A. Filtering out all low frequencies",
+            "B. Amplifying the main signal so the echo is unnoticeable",
+            "C. Physically disconnecting the return path",
+            "D. Creating a mathematical model of the echo path and subtracting the estimated echo from the return signal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "Early telephone systems used echo suppressors instead of echo cancellers. An echo suppressor works by:",
+        "choices": [
+            "A. Detecting which party is speaking and inserting high attenuation in the opposite return path",
+            "B. Converting the signal to digital",
+            "C. Subtracting the echo",
+            "D. Equalizing the impedance actively"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "A major disadvantage of echo suppressors compared to modern echo cancellers is that echo suppressors:",
+        "choices": [
+            "A. Cannot operate on four-wire circuits",
+            "B. Are significantly more expensive",
+            "C. \"Chop\" or clip speech during double-talking (when both parties speak at once)",
+            "D. Require massive computational power"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "For a standard two-wire local loop, the typical nominal impedance used for designing balancing networks in voice-band telephony is:",
+        "choices": [
+            "A. 50 ohms",
+            "B. 600 ohms (or 900 ohms)",
+            "C. 75 ohms",
+            "D. 300 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "Four-wire circuits are exclusively required for which type of data transmission?",
+        "choices": [
+            "A. Full-duplex baseband transmission over long distances",
+            "B. Simplex",
+            "C. Half-duplex",
+            "D. Multidrop"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "Which component in a traditional telephone handset acts as a miniature hybrid to separate the microphone (transmit) and speaker (receive) signals?",
+        "choices": [
+            "A. Varistor",
+            "B. Carbon granule",
+            "C. Induction coil",
+            "D. Ringer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "The deliberate leaking of a small amount of the user's voice from the microphone to their own speaker via the handset hybrid is called:",
+        "choices": [
+            "A. Crosstalk",
+            "B. Singing",
+            "C. Trans-hybrid loss",
+            "D. Sidetone"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 39,
+        "question": "The primary purpose of sidetone in a telephone handset is to:",
+        "choices": [
+            "A. Eliminate echo completely",
+            "B. Provide psychological feedback to the user so they know the phone is alive and regulate their speaking volume",
+            "C. Alert the central office of a busy signal",
+            "D. Provide power to the microphone"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "In a two-wire circuit, if terminal equipment must transmit and receive simultaneously without a hybrid, what multiplexing technique is commonly used?",
+        "choices": [
+            "A. Space Division Multiplexing",
+            "B. Polarization Division Multiplexing",
+            "C. Frequency Division Multiplexing (or Echo Cancellation)",
+            "D. Time Division Multiplexing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "A hybrid circuit has a transmit port (Tx), a receive port (Rx), a 2-wire port (2W), and a balancing network port (Bal). Trans-hybrid loss is measured between which two ports?",
+        "choices": [
+            "A. Tx and 2W",
+            "B. Rx and Bal",
+            "C. 2W and Bal",
+            "D. Rx and Tx"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 42,
+        "question": "If a hybrid has an insertion loss of 3.5 dB from the 4-wire Rx port to the 2-wire port, and a signal of 0 dBm is applied to the Rx port, what is the power output at the 2-wire port assuming perfect balance?",
+        "choices": [
+            "A. -3.5 dBm",
+            "B. 3.5 dBm",
+            "C. 0 dBm",
+            "D. -7.0 dBm"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 43,
+        "question": "In the same perfectly balanced hybrid from the previous question, what is the power output at the balancing network port?",
+        "choices": [
+            "A. 0 dBm",
+            "B. -3.5 dBm",
+            "C. -100 dBm",
+            "D. -7.0 dBm"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "Echo Return Loss (ERL) is a weighted average of return loss over the voiceband. If the balancing network is perfectly matched to the line impedance, the ERL is theoretically:",
+        "choices": [
+            "A. 0 dB",
+            "B. 3 dB",
+            "C. 6 dB",
+            "D. Infinite"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Two-wire transmission lines are highly susceptible to crosstalk. What is the primary method used to reduce crosstalk in a multi-pair cable?",
+        "choices": [
+            "A. Using higher voltages",
+            "B. Decreasing the wire gauge",
+            "C. Twisting the pairs with different pitch lengths",
+            "D. Running the cables underwater"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "In a 4-wire circuit used for a long-distance toll connection, the physical transmission medium typically consists of:",
+        "choices": [
+            "A. A single unshielded twisted pair",
+            "B. Two distinct transmission channels (e.g., two twisted pairs, separate frequency bands, or separate time slots)",
+            "C. A single coaxial cable",
+            "D. A single optical fiber using one wavelength"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "Singing (sustained oscillation) in a 4-wire circuit utilizing hybrids at both ends occurs when the net gain around the closed loop is:",
+        "choices": [
+            "A. Greater than 0 dB (with the signal arriving in phase)",
+            "B. Exactly 0 dB",
+            "C. Less than 0 dB",
+            "D. Infinite"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "To ensure a 4-wire circuit remains stable and does not sing, engineers intentionally design the circuit to have a positive:",
+        "choices": [
+            "A. Net loop gain",
+            "B. Trans-hybrid gain",
+            "C. Insertion gain",
+            "D. Net loop loss (via padding or via net loss plan)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "The \"VNL\" (Via Net Loss) plan in classical telecommunications was designed to:",
+        "choices": [
+            "A. Add artificial attenuation to long trunks to control echo and prevent singing",
+            "B. Increase signal strength on all lines",
+            "C. Eliminate the need for hybrids",
+            "D. Convert 2-wire loops to 4-wire"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "A 4-wire circuit has an attenuation of 3 dB in the forward path and 3 dB in the return path. If the far-end hybrid has a Return Loss of 12 dB, what is the total talker echo path loss?",
+        "choices": [
+            "A. 15 dB",
+            "B. 18 dB",
+            "C. 21 dB",
+            "D. 24 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "A hybrid transformer relies on the principle of a center-tapped transformer. In a perfectly balanced state, the currents induced in the center-tapped secondary winding by the Rx signal flow in opposite directions and cancel out at the:",
+        "choices": [
+            "A. 2-wire port",
+            "B. Balancing network",
+            "C. Tx port",
+            "D. Ground"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "In a practical hybrid, trans-hybrid loss is never infinite. A typical good trans-hybrid loss value in a well-balanced telephone network is around:",
+        "choices": [
+            "A. 0 dB",
+            "B. 3 dB",
+            "C. 10 dB",
+            "D. 30 to 50 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "If the impedance of the 2-wire line is 600 + j0 ohms, and the balancing network is 400 + j0 ohms, calculate the magnitude of the reflection coefficient (Γ) at the hybrid.",
+        "choices": [
+            "A. 0.2",
+            "B. 1.5",
+            "C. 0.5",
+            "D. 0.33"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "Using the reflection coefficient Γ = 0.2 from the previous question, calculate the Return Loss in dB.",
+        "choices": [
+            "A. 10 dB",
+            "B. 14 dB",
+            "C. 20 dB",
+            "D. 6 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "A signal of +4 dBm is applied to the 4-wire Rx port of a hybrid. The insertion loss to the 2-wire port is 3.5 dB. The return loss at the 2-wire port is 15 dB. The insertion loss from the 2-wire port back to the 4-wire Tx port is 3.5 dB. Calculate the echo power level at the Tx port.",
+        "choices": [
+            "A. -22 dBm",
+            "B. -11 dBm",
+            "C. -18 dBm",
+            "D. -15 dBm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "Which of the following best explains why local loops remain 2-wire while core networks are 4-wire?",
+        "choices": [
+            "A. 2-wire circuits have higher bandwidth",
+            "B. 4-wire circuits suffer from excessive echo",
+            "C. 4-wire local loops would increase telephone handset complexity too much",
+            "D. Deploying 4-wire local loops to every subscriber would double the outside plant copper costs"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "When measuring a 2-wire circuit, \"insertion loss\" refers to the signal loss introduced by:",
+        "choices": [
+            "A. The balancing network alone",
+            "B. Inserting a component or network between the source and the load",
+            "C. The hybrid echo",
+            "D. The microphone impedance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "The phenomenon where a hybrid circuit leaks a portion of the transmitted signal back into its own receive path is quantified by:",
+        "choices": [
+            "A. Trans-hybrid Loss",
+            "B. Return Loss",
+            "C. Insertion Loss",
+            "D. Propagation Delay"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "Why is echo generally not a problem on short local 2-wire calls?",
+        "choices": [
+            "A. The hybrid balances perfectly on short lines",
+            "B. Echo suppressors are installed in every home",
+            "C. The signal is too weak to reflect",
+            "D. The echo arrives so quickly that the human brain masks it as sidetone"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "In digital transmission (e.g., ADSL) over a 2-wire local loop, separating the upstream and downstream signals without a 4-wire conversion is achieved using:",
+        "choices": [
+            "A. Singing suppression",
+            "B. Mechanical relays",
+            "C. Digital echo cancellers and Frequency/Time Division Multiplexing",
+            "D. Analog hybrids exclusively"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "In a 4-wire communication system, the transmission medium is completely:",
+        "choices": [
+            "A. Unidirectional in each specific path (one path for Tx, one for Rx)",
+            "B. Bidirectional on all wires",
+            "C. Half-duplex",
+            "D. Shared temporally"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "Which type of data communication connection fundamentally requires a 4-wire circuit (or its logical equivalent) to achieve true simultaneous maximum-speed two-way transmission?",
+        "choices": [
+            "A. Simplex",
+            "B. Half-Duplex",
+            "C. Full-Duplex Baseband",
+            "D. Point-to-Multipoint"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "When a 4-wire leased line is provided to a customer for data communications, it typically terminates at the customer premises in a device known as a:",
+        "choices": [
+            "A. Hybrid",
+            "B. Echo Suppressor",
+            "C. PBX",
+            "D. CSU/DSU (Channel Service Unit/Data Service Unit)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "In a differential signaling system (like RS-422) running over 4 wires, how many pairs are used, and what is the primary benefit?",
+        "choices": [
+            "A. Two pairs; allows half-duplex only",
+            "B. Two pairs; provides full-duplex operation with high common-mode noise immunity",
+            "C. One pair; saves cost",
+            "D. Four pairs; quadruples bandwidth"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "Which of the following is a physical limitation of extending a 2-wire circuit over extremely long distances?",
+        "choices": [
+            "A. Impedance matching becomes impossible to maintain accurately, making amplification via hybrids highly unstable",
+            "B. Copper wire melts",
+            "C. It converts to a 4-wire circuit automatically",
+            "D. The velocity of propagation reaches zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "An echo canceller deployed in a 4-wire toll circuit is typically located:",
+        "choices": [
+            "A. Exactly in the middle of the long-distance line",
+            "B. In the toll office as close to the hybrid (and the source of the echo) as possible",
+            "C. Inside the subscriber's telephone set",
+            "D. At the destination to absorb the echo"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "A pure 4-wire connection from end-to-end (e.g., VoIP from one IP phone to another IP phone) eliminates the need for:",
+        "choices": [
+            "A. Amplifiers",
+            "B. Routers",
+            "C. Hybrids",
+            "D. Microphones"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "If an end-to-end connection is entirely 4-wire, the theoretical Return Loss at any point on the line is:",
+        "choices": [
+            "A. Infinite (no echo is generated because there is no 2-wire to 4-wire conversion)",
+            "B. 0 dB",
+            "C. 3 dB",
+            "D. 6 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "When designing the balancing network of a hybrid to match a loaded 2-wire cable, the network is often modeled as:",
+        "choices": [
+            "A. A pure inductor",
+            "B. A pure 600-ohm resistor",
+            "C. A short circuit",
+            "D. A complex R-C (Resistor-Capacitor) circuit"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "If a 2-wire circuit is left open-circuited (unterminated), the Return Loss at the hybrid will be:",
+        "choices": [
+            "A. Infinite",
+            "B. 0 dB",
+            "C. 10 dB",
+            "D. 3 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "If a 2-wire circuit is short-circuited, the Return Loss at the hybrid will be:",
+        "choices": [
+            "A. Infinite",
+            "B. 10 dB",
+            "C. 0 dB",
+            "D. 20 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "A traditional hybrid coil uses magnetic coupling. A modern solid-state hybrid (electronic hybrid) achieves 2-wire to 4-wire conversion using:",
+        "choices": [
+            "A. Mechanical switches",
+            "B. Operational amplifiers and bridge circuits",
+            "C. Vacuum tubes",
+            "D. Varactors"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "In an electronic hybrid, the trans-hybrid loss is maintained by mathematically subtracting the transmit signal from the receive signal. If the line impedance changes due to weather, what happens to the trans-hybrid loss?",
+        "choices": [
+            "A. It increases",
+            "B. It remains perfectly constant",
+            "C. It drops to exactly zero",
+            "D. It decreases (degrades)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "The standard unit of measurement for signal loss in telephony circuits is the:",
+        "choices": [
+            "A. Decibel (dB)",
+            "B. Watt (W)",
+            "C. Ohm (Ω)",
+            "D. Neper (Np)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "For a 2-wire circuit to support high-speed digital data (like V.90 56k modems), the network must essentially be:",
+        "choices": [
+            "A. Entirely 2-wire end-to-end",
+            "B. Half-duplex only",
+            "C. 4-wire from the central office to the ISP (only the local loop is 2-wire)",
+            "D. Converted to analog"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "What characterizes a \"dry\" 2-wire line?",
+        "choices": [
+            "A. It is physically waterproof",
+            "B. It has zero impedance",
+            "C. It operates only at high frequencies",
+            "D. It carries no direct current (DC) battery voltage"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "A \"wet\" 2-wire telephone line typically carries a DC voltage of approximately:",
+        "choices": [
+            "A. 120 VAC",
+            "B. -48 VDC",
+            "C. +5 VDC",
+            "D. 0 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "On a 4-wire transmission line carrying baseband digital signals, the use of two separate pairs prevents:",
+        "choices": [
+            "A. Attenuation",
+            "B. Ground loops",
+            "C. Near-End Crosstalk (NEXT) from interfering with the received signal",
+            "D. Delay skew"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "Why is Near-End Crosstalk (NEXT) a massive problem in 2-wire full-duplex digital transmission?",
+        "choices": [
+            "A. Because the wire is too thin",
+            "B. Because it alters the speed of light",
+            "C. Because it prevents power delivery",
+            "D. Because the strong transmitted signal easily leaks into the weak received signal on the same or adjacent pair"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "In 2-wire circuits, ADSL mitigates NEXT and echo by utilizing:",
+        "choices": [
+            "A. Frequency Division Multiplexing (different bands for upstream and downstream)",
+            "B. Echo suppressors",
+            "C. Loading coils",
+            "D. Fiber optics"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "Consider a hybrid where the balancing network is purely resistive (600 ohms), but the 2-wire line is highly capacitive. The resulting Return Loss will be:",
+        "choices": [
+            "A. Infinite across all frequencies",
+            "B. Poor at higher frequencies, leading to greater echo",
+            "C. Excellent at high frequencies",
+            "D. Exactly 0 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "An active echo canceller must continuously adapt to changes in the 2-wire line impedance. It typically achieves this using:",
+        "choices": [
+            "A. Fixed resistors",
+            "B. Manual tuning",
+            "C. Adaptive digital filters (e.g., LMS algorithm)",
+            "D. High-pass filters"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "A 4-wire circuit has an advantage in signal-to-noise ratio (SNR) over a 2-wire circuit because:",
+        "choices": [
+            "A. Amplifiers can be placed optimally along the path without stability issues",
+            "B. It uses lower voltages",
+            "C. It eliminates thermal noise",
+            "D. It uses thinner wire"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "In telephony, \"padding\" a 4-wire circuit means:",
+        "choices": [
+            "A. Adding physical insulation",
+            "B. Increasing the gain",
+            "C. Removing the hybrids",
+            "D. Intentionally adding attenuation to improve stability and increase net loop loss"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "What is the theoretical maximum trans-hybrid loss possible in a perfectly matched, ideal hybrid?",
+        "choices": [
+            "A. 3 dB",
+            "B. Infinite",
+            "C. 6 dB",
+            "D. 0 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "A hybrid transformer has a turns ratio of 1:1. The input power at the 4-wire Rx port is 10 mW. Assuming a perfect match and no core losses, what is the power dissipated in the balancing network?",
+        "choices": [
+            "A. 0 mW",
+            "B. 10 mW",
+            "C. 5 mW",
+            "D. 2.5 mW"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "Using the scenario from the previous question (10 mW input, ideal hybrid), what is the power transmitted out of the 2-wire port?",
+        "choices": [
+            "A. 5 mW",
+            "B. 0 mW",
+            "C. 10 mW",
+            "D. 2.5 mW"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "Why does an ideal hybrid inherently have a 3 dB insertion loss from the 4-wire Rx port to the 2-wire line?",
+        "choices": [
+            "A. Because the transformer core absorbs half the power",
+            "B. Because power is split equally between the 2-wire line and the balancing network",
+            "C. Because 3 dB of noise is added",
+            "D. Because of copper losses in the wire"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "If a telephone connection spans from a 2-wire local loop, through a 4-wire toll network, to another 2-wire local loop, how many hybrid circuits are in the primary voice path?",
+        "choices": [
+            "A. One",
+            "B. Four",
+            "C. Zero",
+            "D. Two"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "In a typical 4-wire E&M; signaling interface used to connect PBXs, what do the E and M leads do?",
+        "choices": [
+            "A. The E lead receives signaling and the M lead transmits signaling",
+            "B. They carry the voice signals",
+            "C. They provide power to the hybrid",
+            "D. They cancel echoes"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "A circuit is established over a long 2-wire line without hybrids. To compensate for 20 dB of attenuation, a bidirectional negative-impedance repeater is used. A key limitation of this repeater is:",
+        "choices": [
+            "A. It cannot pass DC",
+            "B. It converts the line to 4-wire",
+            "C. It only works for digital signals",
+            "D. It amplifies noise and reflections, severely limiting the maximum achievable stable gain"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "When upgrading an analog 2-wire leased line to a digital 4-wire T1/E1 circuit, the customer gains:",
+        "choices": [
+            "A. Dramatically higher bandwidth and true simultaneous full-duplex transmission without echo constraints",
+            "B. Ability to use rotary phones",
+            "C. Analog hybrid coils",
+            "D. DC power from the central office"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 93,
+        "question": "The term \"tail circuit\" in a long-distance 4-wire network typically refers to:",
+        "choices": [
+            "A. The backbone fiber link",
+            "B. The 2-wire local loop connecting the customer to the central office",
+            "C. The balancing network",
+            "D. The echo canceller memory"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "Echo cancellers measure the \"tail length\" of an echo. This tail length refers to:",
+        "choices": [
+            "A. The physical length of the 4-wire circuit",
+            "B. The length of the local loop cable",
+            "C. The maximum expected time delay of the echo returning from the hybrid",
+            "D. The duration of the user's speech"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "If a 4-wire transmission system uses different frequencies for transmit and receive on the same physical medium (e.g., coax), it is logically operating as a:",
+        "choices": [
+            "A. 2-wire circuit",
+            "B. Simplex circuit",
+            "C. Multi-point circuit",
+            "D. 4-wire circuit equivalent"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "The primary reason 2-wire circuits are generally unsuitable for high-capacity long-haul networks is:",
+        "choices": [
+            "A. The impossibility of implementing stable, high-gain bidirectional amplification required for long distances",
+            "B. Skin effect",
+            "C. Cross-talk",
+            "D. Cable weight"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "Which mathematical condition defines the point of singing in a 4-wire loop?",
+        "choices": [
+            "A. Loop Gain = 0 and Phase Shift = 180^\\circ",
+            "B. Trans-hybrid loss = 0",
+            "C. Return Loss = Infinite",
+            "D. Loop Gain ≥ 1 and Phase Shift = n · 360^\\circ"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 98,
+        "question": "The \"Singing Margin\" of a circuit is defined as:",
+        "choices": [
+            "A. The frequency at which it sings",
+            "B. The pitch of the singing tone",
+            "C. The amount of additional gain that can be added to the loop before sustained oscillation begins",
+            "D. The attenuation of the 2-wire line"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "In a traditional hybrid, if the 2-wire port is connected to a 600-ohm load and the balancing network is a 900-ohm resistor, the hybrid is:",
+        "choices": [
+            "A. Perfectly balanced",
+            "B. Unbalanced, and will leak Rx energy into the Tx port",
+            "C. Creating a singing loop",
+            "D. Acting as a short circuit"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 100,
+        "question": "For a hybrid utilizing a differential operational amplifier circuit, the transmit signal is prevented from reaching the receive amplifier by:",
+        "choices": [
+            "A. A physical air gap",
+            "B. Using different frequencies",
+            "C. Common-mode rejection / differential subtraction of the Tx signal",
+            "D. Using different polarizations"
+        ],
+        "correct_answer": "C"
+    }
+]

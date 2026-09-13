@@ -1,0 +1,1586 @@
+[
+    {
+        "number": 1,
+        "question": "According to the Superposition Theorem, when evaluating the contribution of a single ideal independent voltage source to a specific branch current, what should be done to all other ideal independent voltage sources in the linear circuit?",
+        "choices": [
+            "A. Replaced by open circuits",
+            "B. Replaced by short circuits",
+            "C. Replaced by their internal resistances",
+            "D. Left exactly as they are"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "A linear circuit consists of two independent voltage sources V1 and V2. If V1 alone produces a current of 2 A in a specific resistor, and V2 alone produces a current of -0.5 A in the same direction, what is the total current when both are active?",
+        "choices": [
+            "A. 1.5 A",
+            "B. 2.5 A",
+            "C. -1.5 A",
+            "D. 2.0 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "In a linear network containing both independent and dependent sources, how should dependent sources be treated when applying the Superposition Theorem?",
+        "choices": [
+            "A. Replaced by open circuits",
+            "B. Replaced by short circuits",
+            "C. They must be left intact and active",
+            "D. Replaced by equivalent independent sources"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "Consider a circuit with a 12V voltage source in series with a 4-ohm resistor, in parallel with a 6A current source, which is in parallel with a 2-ohm resistor. Using superposition, what is the contribution of the 12V source alone to the voltage across the 2-ohm resistor?",
+        "choices": [
+            "A. 4 V",
+            "B. 8 V",
+            "C. 6 V",
+            "D. 2 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "If a network has three independent sources and one dependent source, how many individual circuit solutions must be algebraically summed to find the total response using superposition?",
+        "choices": [
+            "A. Two",
+            "B. Three",
+            "C. Four",
+            "D. One"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "A circuit contains a 10V battery and a 2A current source. The power dissipated by a 5-ohm resistor is 20W when the 10V source acts alone, and 5W when the 2A source acts alone. Can superposition be used to find the total power directly by adding 20W and 5W?",
+        "choices": [
+            "A. Yes, total power is 25W",
+            "B. No, superposition does not apply directly to power",
+            "C. Yes, total power is 15W",
+            "D. No, power must be multiplied"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "Thevenin's Theorem states that any linear, bilateral, two-terminal network can be replaced by an equivalent circuit consisting of what components?",
+        "choices": [
+            "A. A current source in parallel with a resistor",
+            "B. A voltage source in parallel with a resistor",
+            "C. A current source in series with a resistor",
+            "D. A voltage source in series with a resistor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "When calculating the Thevenin equivalent resistance (Rth) of a network containing only independent sources, what is the correct procedure?",
+        "choices": [
+            "A. Open both voltage and current sources",
+            "B. Short both voltage and current sources",
+            "C. Short voltage sources and open current sources",
+            "D. Open voltage sources and short current sources"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 9,
+        "question": "In finding the Thevenin equivalent circuit of a network with a load resistor RL removed, what does the Thevenin voltage (Vth) represent?",
+        "choices": [
+            "A. The short-circuit current at the terminals",
+            "B. The open-circuit voltage at the terminals",
+            "C. The voltage drop across Rth",
+            "D. The total source voltage in the network"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "A linear circuit has an open-circuit voltage of 24 V across terminals A and",
+        "choices": [
+            "B. When a short circuit is applied across A and B, a current of 6 A flows. What is the Thevenin resistance of this circuit?",
+            "A. 4 ohms",
+            "B. 144 ohms",
+            "C. 0.25 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "A circuit consists of a 20V source in series with a 5-ohm resistor. This combination is connected in parallel with a 10-ohm resistor. What is the Thevenin equivalent voltage and resistance as seen by a load connected across the 10-ohm resistor?",
+        "choices": [
+            "A. 20V, 15 ohms",
+            "B. 13.33V, 3.33 ohms",
+            "C. 10V, 5 ohms",
+            "D. 20V, 3.33 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "If a network contains a dependent source, which of the following is a valid method to find the Thevenin resistance (Rth)?",
+        "choices": [
+            "A. Turn off the dependent source and calculate equivalent resistance",
+            "B. Apply a test voltage source at the terminals and measure the input current",
+            "C. Short circuit the dependent source",
+            "D. Open circuit the dependent source"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "Norton's Theorem simplifies a complex linear network into which of the following equivalent circuits?",
+        "choices": [
+            "A. A current source in parallel with a resistor",
+            "B. A voltage source in series with a resistor",
+            "C. A voltage source in parallel with a resistor",
+            "D. A current source in series with a resistor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "How is the Norton equivalent current (In) determined for a given two-terminal network?",
+        "choices": [
+            "A. By finding the open-circuit voltage across the terminals",
+            "B. By measuring the voltage with a test source",
+            "C. By calculating the short-circuit current between the terminals",
+            "D. By dividing the Thevenin voltage by the load resistance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "What is the mathematical relationship between the Thevenin resistance (Rth) and the Norton resistance (Rn) for the same two-terminal network?",
+        "choices": [
+            "A. Rn = 1 / Rth",
+            "B. Rn = Rth",
+            "C. Rn = Rth / 2",
+            "D. Rn = Vth / Rth"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "A two-terminal black box has a Norton equivalent current of 5 A and a Norton resistance of 10 ohms. What will be the current flowing through a 15-ohm load connected across its terminals?",
+        "choices": [
+            "A. 2 A",
+            "B. 3 A",
+            "C. 5 A",
+            "D. 1.5 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "A circuit is described as a 30V source in series with a 15-ohm resistor. What is its Norton equivalent circuit?",
+        "choices": [
+            "A. 2A source in parallel with 15 ohms",
+            "B. 30A source in series with 15 ohms",
+            "C. 2A source in parallel with 0.5 ohms",
+            "D. 0.5A source in parallel with 15 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "For a network with an open-circuit voltage of 10V and a Thevenin resistance of 2 ohms, what is the equivalent Norton current?",
+        "choices": [
+            "A. 20 A",
+            "B. 0.2 A",
+            "C. 5 A",
+            "D. 10 A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "Source transformation allows a voltage source V in series with a resistor R to be replaced by which equivalent configuration?",
+        "choices": [
+            "A. A current source I = V/R in series with R",
+            "B. A current source I = V*R in parallel with R",
+            "C. A current source I = V/R in parallel with R",
+            "D. A current source I = R/V in parallel with R"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "When performing a source transformation from a current source I in parallel with a resistor R to a voltage source V in series with R, what is the value of V?",
+        "choices": [
+            "A. V = I / R",
+            "B. V = I * R",
+            "C. V = R / I",
+            "D. V = I + R"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "Is source transformation applicable to dependent sources in a circuit?",
+        "choices": [
+            "A. Yes, using the exact same formulas as independent sources",
+            "B. No, dependent sources can never be transformed",
+            "C. Yes, provided the control variable is not lost or altered in the transformation",
+            "D. Only if the dependent source is a voltage-controlled voltage source"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "A 5A current source is in parallel with a 4-ohm resistor. If this is transformed into a voltage source model, what will be connected to the load?",
+        "choices": [
+            "A. A 20V source in parallel with a 4-ohm resistor",
+            "B. A 1.25V source in series with a 4-ohm resistor",
+            "C. A 20V source in series with a 4-ohm resistor",
+            "D. A 5V source in series with a 4-ohm resistor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "A circuit branch contains a 12V source in series with a 3-ohm resistor, and this entire branch is in parallel with a 2A current source. Using source transformation, what is the simplified single current source equivalent of this setup before considering parallel resistances?",
+        "choices": [
+            "A. 6 A",
+            "B. 4 A",
+            "C. 2 A",
+            "D. 8 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "A 10V source is in series with a 2-ohm resistor. If a 3-ohm resistor is connected across the terminals, what is the voltage across the 3-ohm resistor calculated directly via the voltage divider rule after ignoring source transformation?",
+        "choices": [
+            "A. 6 V",
+            "B. 4 V",
+            "C. 10 V",
+            "D. 5 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "According to the Maximum Power Transfer Theorem for a DC circuit, maximum power is delivered to a load resistor RL when its value equals what?",
+        "choices": [
+            "A. Zero",
+            "B. The Norton current",
+            "C. The Thevenin equivalent resistance of the source network",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "What is the efficiency of power transfer (power delivered to load / total power generated) when a DC circuit is operating under maximum power transfer conditions?",
+        "choices": [
+            "A. 100%",
+            "B. 50%",
+            "C. 70.7%",
+            "D. 25%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "For an AC circuit with a source impedance of Zs = R + jX, what load impedance ZL will result in maximum real power transfer?",
+        "choices": [
+            "A. ZL = R + jX",
+            "B. ZL = R - jX",
+            "C. ZL = R",
+            "D. ZL = -R - jX"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "A Thevenin equivalent circuit has Vth = 20 V and Rth = 5 ohms. What is the maximum power that can be transferred to a variable load resistor RL?",
+        "choices": [
+            "A. 80 W",
+            "B. 40 W",
+            "C. 20 W",
+            "D. 100 W"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "An amplifier has an output resistance of 600 ohms. To deliver maximum power, a speaker system connected to it should have what input resistance?",
+        "choices": [
+            "A. 8 ohms",
+            "B. 300 ohms",
+            "C. 1200 ohms",
+            "D. 600 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "In an AC circuit, the source impedance is 4 + j3 ohms. If the load is purely resistive (RL only, XL = 0), what value of RL yields maximum power transfer to the load?",
+        "choices": [
+            "A. 4 ohms",
+            "B. 5 ohms",
+            "C. 7 ohms",
+            "D. 3 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Millman's Theorem is primarily used to simplify circuits consisting of multiple branches connected in what configuration?",
+        "choices": [
+            "A. Series",
+            "B. Parallel",
+            "C. Delta",
+            "D. Wye"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "In Millman's Theorem, the common voltage across multiple parallel branches (each having a voltage source Vi and series resistance Ri) is given by which formula?",
+        "choices": [
+            "A. Sum(Vi/Ri) / Sum(1/Ri)",
+            "B. Sum(Vi*Ri) / Sum(Ri)",
+            "C. Sum(Vi) / Sum(Ri)",
+            "D. Sum(Vi/Ri) * Sum(Ri)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "Can Millman's Theorem be applied to branches that contain only a current source?",
+        "choices": [
+            "A. No, it only works for voltage sources",
+            "B. Yes, by treating the branch voltage as zero",
+            "C. Yes, the current source value is simply added to the numerator sum of Vi/Ri",
+            "D. Yes, by converting it to a voltage source with infinite resistance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "Three parallel branches are connected between nodes A and",
+        "choices": [
+            "B. Branch 1 has a 10V source and 2 ohm resistor. Branch 2 has a 5V source and 1 ohm resistor. Branch 3 has a 20V source and 4 ohm resistor. All positive terminals face node",
+            "A. What is the voltage V_AB using Millman's theorem?",
+            "A. 8.57 V",
+            "B. 10.0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "Node A and Node B are connected by two parallel branches. Branch 1 has a 12V battery (positive at A) in series with 3 ohms. Branch 2 is a purely resistive 6-ohm branch (no voltage source). What is the voltage V_AB?",
+        "choices": [
+            "A. 8 V",
+            "B. 6 V",
+            "C. 12 V",
+            "D. 4 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 36,
+        "question": "Four generators are connected in parallel to a common bus. If Millman's theorem is used to find the bus voltage, what electrical quantity does the denominator of the Millman formula represent?",
+        "choices": [
+            "A. Total equivalent voltage",
+            "B. Total equivalent current",
+            "C. Total equivalent resistance",
+            "D. Total equivalent conductance"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "The Reciprocity Theorem is strictly applicable to which type of networks?",
+        "choices": [
+            "A. Non-linear and bilateral",
+            "B. Linear and unilateral",
+            "C. Linear and bilateral",
+            "D. Active and non-linear"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "According to the Reciprocity Theorem, if a voltage source V in branch 1 produces a current I in branch 2, what will happen if the source V is moved to branch 2?",
+        "choices": [
+            "A. It will produce current I in branch 1",
+            "B. It will produce current I/2 in branch 1",
+            "C. It will produce a voltage V in branch 1",
+            "D. The current in branch 1 will be zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "Which of the following components violates the conditions necessary for the Reciprocity Theorem to apply?",
+        "choices": [
+            "A. Resistors",
+            "B. Capacitors",
+            "C. Dependent sources",
+            "D. Inductors"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "In a reciprocal network, a 10V source in branch A causes a 2A current in branch",
+        "choices": [
+            "B. If the 10V source is replaced by a short circuit, and a 20V source is placed in branch B, what current will flow in branch A?",
+            "A. 2 A",
+            "B. 4 A",
+            "C. 10 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "A passive linear two-port network has an input port 1-1' and output port 2-2'. A 5A current source applied at 1-1' (with 2-2' open) produces 20V across 2-2'. If a 2A current source is applied at 2-2' (with 1-1' open), what is the voltage across 1-1'?",
+        "choices": [
+            "A. 10 V",
+            "B. 8 V",
+            "C. 5 V",
+            "D. 4 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "Why is a circuit containing an operational amplifier generally not considered a reciprocal network?",
+        "choices": [
+            "A. Op-amps are passive",
+            "B. Op-amps are non-linear components under normal operation",
+            "C. Op-amps are strictly unilateral devices",
+            "D. Op-amps have low input impedance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "What does the Substitution Theorem state?",
+        "choices": [
+            "A. Any passive element can be replaced by an active element of the same value",
+            "B. Any branch in a network can be replaced by a different component provided the voltage across it and current through it remain identical",
+            "C. A voltage source can always be substituted for a current source",
+            "D. Resistors can be substituted for capacitors in DC analysis"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "For the Substitution Theorem to hold true upon replacing a branch with a new element, what must be ensured about the rest of the network?",
+        "choices": [
+            "A. The entire network must remain linear",
+            "B. The power dissipated must double",
+            "C. The voltages and currents in all other branches must remain unchanged",
+            "D. The network must become completely passive"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "A 10-ohm resistor in a complex circuit has 5V across it and 0.5A flowing through it. According to the Substitution Theorem, which of the following can perfectly replace this resistor without affecting the rest of the circuit?",
+        "choices": [
+            "A. A 10V voltage source",
+            "B. A 0.5A ideal current source",
+            "C. A 5-ohm resistor",
+            "D. A 1A current source"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "In a circuit, a specific branch element draws 2A and has a 12V drop. If we use the Substitution Theorem to replace it with a voltage source, what must be the value and polarity of this source?",
+        "choices": [
+            "A. 12V, opposing the original voltage drop",
+            "B. 2V, matching the original polarity",
+            "C. 12V, matching the original voltage drop polarity",
+            "D. 24V, acting as a load"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "Which theorem is most directly useful when you want to replace a non-linear element in a network with an equivalent independent source operating at a specific operating point to simplify the linear remainder of the network?",
+        "choices": [
+            "A. Superposition Theorem",
+            "B. Substitution Theorem",
+            "C. Millman's Theorem",
+            "D. Reciprocity Theorem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "Is the Substitution Theorem applicable to networks containing non-linear elements?",
+        "choices": [
+            "A. No, it strictly applies only to linear networks",
+            "B. Yes, provided the network has a unique solution after the substitution",
+            "C. Yes, but only if the non-linear element is a diode",
+            "D. No, because non-linear elements change resistance dynamically"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "The Compensation Theorem is particularly useful for analyzing the effect of what specific circuit event?",
+        "choices": [
+            "A. Finding the maximum power",
+            "B. Calculating the total equivalent resistance",
+            "C. A change in the impedance of a branch",
+            "D. Converting AC to DC"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "According to the Compensation Theorem, if the resistance of a branch changes by an amount delta-R, the resulting changes in currents and voltages in the network can be found by inserting what into that branch?",
+        "choices": [
+            "A. A compensating resistor of value delta-R",
+            "B. A compensating voltage source of value -I*(delta-R)",
+            "C. A compensating current source of value V/(delta-R)",
+            "D. A short circuit"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "In applying the Compensation Theorem, what must be done to all original independent sources in the network when calculating the incremental changes (delta-I or delta-V)?",
+        "choices": [
+            "A. They are doubled",
+            "B. They are left active",
+            "C. They are set to zero (turned off)",
+            "D. They are replaced by delta-R"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "A branch in a linear circuit carries a current of 3A. Its resistance is suddenly increased by 2 ohms. To find the change in currents throughout the circuit using the Compensation Theorem, what value of compensating voltage source should be injected into that branch?",
+        "choices": [
+            "A. 6 V",
+            "B. -6 V",
+            "C. 1.5 V",
+            "D. 5 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "A circuit has a 10V source and a 5-ohm load resistor, resulting in a 2A current. If the load heats up and increases to 6 ohms, the Compensation Theorem uses a compensating source Vc. What is the value of Vc and the new total current?",
+        "choices": [
+            "A. Vc = -2V, I_new = 1.67A",
+            "B. Vc = 2V, I_new = 1.67A",
+            "C. Vc = -2V, I_new = 2.0A",
+            "D. Vc = 10V, I_new = 1.67A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "When using the Compensation Theorem, the direction of the compensating voltage source Vc = I * delta-R is defined how?",
+        "choices": [
+            "A. It assists the original branch current",
+            "B. It opposes the original branch current",
+            "C. It is perpendicular to the branch current",
+            "D. It is independent of the branch current direction"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Tellegen's Theorem is based on which fundamental principle of physics?",
+        "choices": [
+            "A. Conservation of Charge",
+            "B. Newton's Second Law",
+            "C. Conservation of Energy",
+            "D. Faraday's Law of Induction"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "What is the mathematical expression of Tellegen's Theorem for a network with b branches?",
+        "choices": [
+            "A. Sum of (Vk / Ik) = 0",
+            "B. Sum of (Vk * Ik) = 0",
+            "C. Sum of (Vk + Ik) = 0",
+            "D. Sum of (Vk - Ik) = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "Does Tellegen's Theorem apply to networks with non-linear and time-varying components?",
+        "choices": [
+            "A. No, it requires strictly linear time-invariant components",
+            "B. Yes, it depends only on Kirchhoff's laws and network topology",
+            "C. Only if the network contains no energy storage elements",
+            "D. No, it applies only to purely resistive networks"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "In Tellegen's Theorem, the summation of the product of branch voltages and branch currents over all branches of a circuit equals zero. What does this imply about the total power in the circuit?",
+        "choices": [
+            "A. Total power dissipated is maximized",
+            "B. Total power generated equals total power absorbed",
+            "C. Total power is purely reactive",
+            "D. Total power equals the sum of branch resistances"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Two completely different circuits, Network A and Network B, share the exact same topological graph (same nodes and branches). Tellegen's Theorem states that Sum(Vk_A * Ik_B) equals what?",
+        "choices": [
+            "A. Sum of power in A",
+            "B. Sum of power in B",
+            "C. Zero",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "A circuit has 4 branches. The voltages (V) and currents (I) adhering to passive sign convention are: Branch 1 (5V, -2A), Branch 2 (3V, 2A), Branch 3 (2V, 2A). If Branch 4 has a current of -2A, what must be its voltage to satisfy Tellegen's Theorem?",
+        "choices": [
+            "A. -2 V",
+            "B. 2 V",
+            "C. 0 V",
+            "D. -5 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "Which network theorem is considered the most general because it does not depend on the nature of the network elements (linear/non-linear, active/passive)?",
+        "choices": [
+            "A. Thevenin's Theorem",
+            "B. Superposition Theorem",
+            "C. Norton's Theorem",
+            "D. Tellegen's Theorem"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 62,
+        "question": "In applying Superposition to a circuit with an AC voltage source and a DC current source, what must be done?",
+        "choices": [
+            "A. Add the DC and AC magnitudes directly",
+            "B. Analyze them separately and superimpose the instantaneous values or keep them as separate frequency components",
+            "C. Convert the DC source to an AC source of equivalent RMS value",
+            "D. The theorem cannot be applied to mixed frequencies"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "A circuit has two sources: V1 = 10V and I1 = 2A. The voltage across a resistor R is 4V when only V1 is active, and -1V when only I1 is active. What is the power dissipated by the 2-ohm resistor when both are active?",
+        "choices": [
+            "A. 12.5 W",
+            "B. 9.0 W",
+            "C. 4.5 W",
+            "D. 5.0 W"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "When finding the Thevenin equivalent of a circuit containing a voltage-controlled current source (VCCS), how is the VCCS treated when evaluating Rth using the open/short sources method?",
+        "choices": [
+            "A. It is turned off (open-circuited)",
+            "B. It is turned off (short-circuited)",
+            "C. It must remain active in the circuit",
+            "D. It is converted to an independent source"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "A 12V DC source has an internal resistance of 0.5 ohms. It is connected to a variable load RL. At what value of RL will the load draw exactly half of the maximum possible power?",
+        "choices": [
+            "A. 0.5 ohms",
+            "B. 0.086 ohms or 2.91 ohms",
+            "C. 1.0 ohm",
+            "D. 0.25 ohms or 1.0 ohm"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "Using Norton's Theorem, if a circuit has an infinite Norton resistance (Rn = infinity), what does the equivalent circuit look like?",
+        "choices": [
+            "A. An ideal voltage source",
+            "B. A short circuit",
+            "C. An ideal current source",
+            "D. An open circuit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "In source transformation, converting a 10V source in series with a 5-ohm resistor yields a 2A source in parallel with 5 ohms. If the original 10V source was delivering 10W to a load, will the transformed 2A source deliver the same 10W to that same load?",
+        "choices": [
+            "A. No, source transformation changes the load power",
+            "B. Yes, equivalent circuits behave identically at their terminals",
+            "C. Yes, but only if the load is exactly 5 ohms",
+            "D. No, the current source will deliver 20W"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "Millman's Theorem is effectively a specialized application of which general circuit analysis technique?",
+        "choices": [
+            "A. Mesh Analysis",
+            "B. Nodal Analysis",
+            "C. Source Transformation",
+            "D. Superposition"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "If a network is reciprocal, its impedance matrix [Z] will have what mathematical property?",
+        "choices": [
+            "A. It is an identity matrix",
+            "B. It is anti-symmetric (Zij = -Zji)",
+            "C. It is symmetric (Zij = Zji)",
+            "D. It has zero determinant"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "A resistor R in a circuit is replaced by a voltage source V equivalent to the voltage drop across it. This is an application of which theorem?",
+        "choices": [
+            "A. Substitution Theorem",
+            "B. Compensation Theorem",
+            "C. Tellegen's Theorem",
+            "D. Thevenin's Theorem"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "The Compensation Theorem relies on calculating delta-V and delta-I. If a resistor R decreases in value by delta-R, the compensating voltage source Vc = I * (-delta-R) has what polarity relative to the original current?",
+        "choices": [
+            "A. Assisting the original current",
+            "B. Opposing the original current",
+            "C. Perpendicular to the original current",
+            "D. Polarity does not matter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "Which theorem proves that the sum of the power delivered by the sources equals the sum of the power absorbed by all elements, based strictly on KVL and KCL?",
+        "choices": [
+            "A. Maximum Power Transfer Theorem",
+            "B. Superposition Theorem",
+            "C. Tellegen's Theorem",
+            "D. Millman's Theorem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "Find the Thevenin equivalent resistance (Rth) looking into terminals A-B of a circuit containing a 10V source in series with 4 ohms, all in parallel with a 6-ohm resistor.",
+        "choices": [
+            "A. 10 ohms",
+            "B. 2.4 ohms",
+            "C. 4 ohms",
+            "D. 6 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "A Norton equivalent circuit has In = 4A and Rn = 3 ohms. What is the Thevenin voltage (Vth) of this same network?",
+        "choices": [
+            "A. 12 V",
+            "B. 1.33 V",
+            "C. 0.75 V",
+            "D. 7 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "In a circuit, the Thevenin equivalent is Vth = 5V, Rth = 2 ohms. What is the current through a 3-ohm load connected to the terminals?",
+        "choices": [
+            "A. 1.67 A",
+            "B. 2.5 A",
+            "C. 1.0 A",
+            "D. 1.25 A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "When applying Superposition, a 5A current source is set to zero. This physically means replacing it with:",
+        "choices": [
+            "A. A wire with zero resistance",
+            "B. A break in the circuit with infinite resistance",
+            "C. A 1-ohm resistor",
+            "D. A voltage source of 0V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "A circuit branch with a 50V source and 10 ohms series resistance is paralleled with a 100V source and 20 ohms series resistance. Using Millman's Theorem, what is the open-circuit voltage across this parallel combination?",
+        "choices": [
+            "A. 75 V",
+            "B. 150 V",
+            "C. 66.67 V",
+            "D. 50 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "A two-port network has a voltage V1 applied at Port 1, resulting in short-circuit current I2 at Port 2. If the network is reciprocal, applying V1 at Port 2 will result in what short-circuit current at Port 1?",
+        "choices": [
+            "A. I2 / 2",
+            "B. -I2",
+            "C. I2",
+            "D. Zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "Can the Maximum Power Transfer Theorem be applied to maximize the power delivered from a fixed load back to a variable source?",
+        "choices": [
+            "A. Yes, by minimizing source resistance",
+            "B. No, it strictly maximizes power TO a variable load FROM a fixed source",
+            "C. Yes, by matching the source resistance to the load resistance",
+            "D. Yes, by setting source resistance to zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "Under maximum power transfer conditions in a purely DC resistive circuit, what is the voltage across the load RL in terms of the Thevenin voltage Vth?",
+        "choices": [
+            "A. Vth",
+            "B. Vth / 2",
+            "C. Vth / 4",
+            "D. 2 * Vth"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "If a 24V source with an internal resistance of 2 ohms is transformed into a current source, what are the parameters of the new source?",
+        "choices": [
+            "A. 12A source in series with 2 ohms",
+            "B. 12A source in parallel with 2 ohms",
+            "C. 48A source in parallel with 2 ohms",
+            "D. 24A source in parallel with 2 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "A 2A current source is in parallel with a 4-ohm resistor. It is connected in series with a 3V voltage source. Can source transformation combine these directly?",
+        "choices": [
+            "A. Yes, by converting the 3V source to a current source",
+            "B. No, they must be in specific parallel/series configurations to combine",
+            "C. Yes, by converting the 2A/4-ohm parallel pair to an 8V/4-ohm series pair",
+            "D. Yes, by ignoring the 4-ohm resistor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "What does the Substitution Theorem require regarding the current and voltage of the branch being substituted?",
+        "choices": [
+            "A. They must both become zero",
+            "B. They must be completely arbitrary",
+            "C. They must be known and remain unchanged",
+            "D. They must alternate over time"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "The Compensation Theorem is often used in the analysis of what type of practical circuits?",
+        "choices": [
+            "A. Ideal op-amp circuits",
+            "B. Bridge circuits and tolerance analysis",
+            "C. High-frequency RF transmission lines",
+            "D. Digital logic gates"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "Tellegen's Theorem requires the branch voltages to satisfy KVL and the branch currents to satisfy KCL. Do the V and I values need to belong to the same time instant?",
+        "choices": [
+            "A. Yes, they must always be simultaneous",
+            "B. No, as long as V satisfies KVL at t1 and I satisfies KCL at t2, the sum of products is zero",
+            "C. Yes, unless the circuit is purely resistive",
+            "D. No, but they must be from the same phase"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "In a linear circuit, turning off a 12V voltage source for Superposition means substituting it with a:",
+        "choices": [
+            "A. Short circuit",
+            "B. Open circuit",
+            "C. 12-ohm resistor",
+            "D. 1-ohm resistor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "If a network is active and unilateral (like an amplifier), which theorem explicitly DOES NOT apply when swapping source and response locations?",
+        "choices": [
+            "A. Superposition Theorem",
+            "B. Reciprocity Theorem",
+            "C. Thevenin's Theorem",
+            "D. Tellegen's Theorem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "The Thevenin equivalent of a circuit has Vth = 100V. If a 10-ohm load draws 5A, what is the Thevenin resistance Rth?",
+        "choices": [
+            "A. 5 ohms",
+            "B. 10 ohms",
+            "C. 20 ohms",
+            "D. 15 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "For a Norton equivalent circuit with In = 10A and Rn = 5 ohms, what is the maximum power it can transfer to a load?",
+        "choices": [
+            "A. 500 W",
+            "B. 250 W",
+            "C. 125 W",
+            "D. 50 W"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "Three voltage sources 10V, 20V, and 30V have series internal resistances of 1 ohm, 2 ohms, and 3 ohms respectively. They are connected in parallel. Using Millman's theorem, the numerator of the voltage equation evaluates to:",
+        "choices": [
+            "A. 60",
+            "B. 30",
+            "C. 10 + 10 + 10 = 30",
+            "D. 10/1 + 20/2 + 30/3 = 30"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "A 10V battery is in series with a diode and a resistor. Can you use Superposition directly to find the individual contributions of the battery and a secondary current source to the resistor's voltage?",
+        "choices": [
+            "A. Yes, it is a basic circuit",
+            "B. Yes, by replacing the diode with a short circuit",
+            "C. No, the diode makes the circuit non-linear",
+            "D. Yes, Superposition applies to all electronic components"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Source transformation of a practical voltage source (V in series with R) into a practical current source (I in parallel with R) is based on the equivalence of what parameter at the terminals?",
+        "choices": [
+            "A. Total power dissipated internally",
+            "B. Open-circuit voltage and short-circuit current",
+            "C. Internal temperature rise",
+            "D. Physical footprint of the components"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "A circuit has a 50-ohm load. The Thevenin resistance of the driving circuit is 200 ohms. To achieve maximum power transfer without altering the source, what matching device is typically used in AC communications?",
+        "choices": [
+            "A. A series resistor",
+            "B. A shunt capacitor",
+            "C. An ideal transformer",
+            "D. A parallel diode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "The Substitution Theorem allows replacing a resistor with an ideal voltage source. If the resistor was dissipating 10W, how much power will the substitute voltage source dissipate or supply?",
+        "choices": [
+            "A. It will supply 10W",
+            "B. It will dissipate (absorb) 10W",
+            "C. It will dissipate 0W",
+            "D. It will supply 20W"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "When calculating the incremental change delta-I using the Compensation Theorem due to a change delta-R, the compensating source is placed in series with the modified branch. What happens to the original delta-R during this specific calculation?",
+        "choices": [
+            "A. It is removed from the branch",
+            "B. It is kept in the branch as part of the total new resistance",
+            "C. It is placed in parallel",
+            "D. It is short-circuited"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "According to Tellegen's Theorem, Sum(Vk * Ik) = 0. This equation is essentially a statement of:",
+        "choices": [
+            "A. Kirchhoff's Voltage Law",
+            "B. Kirchhoff's Current Law",
+            "C. Conservation of Energy",
+            "D. Ohm's Law"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 97,
+        "question": "Which theorem simplifies the process of finding the voltage across a set of parallel branches containing voltage sources and series impedances?",
+        "choices": [
+            "A. Norton's Theorem",
+            "B. Millman's Theorem",
+            "C. Thevenin's Theorem",
+            "D. Tellegen's Theorem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "In a linear network, a 5V source produces a 1V drop across resistor R. A 10V source produces a 2V drop across R. If both are applied with reverse polarities, what is the voltage drop across R using Superposition?",
+        "choices": [
+            "A. -3 V",
+            "B. 3 V",
+            "C. -1 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "If you want to find the current through one specific element in a highly complex linear circuit and you don't care about the rest of the circuit, which theorem provides the most direct simplification?",
+        "choices": [
+            "A. Thevenin's Theorem",
+            "B. Millman's Theorem",
+            "C. Substitution Theorem",
+            "D. Compensation Theorem"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 100,
+        "question": "A circuit is composed entirely of 1-ohm resistors arranged in a cube. If a 1V source is applied across one edge, a specific current flows. This symmetry and proportionality is most fundamentally guaranteed by:",
+        "choices": [
+            "A. Maximum Power Transfer Theorem",
+            "B. Linearity and Superposition",
+            "C. Substitution Theorem",
+            "D. Millman's Theorem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 101,
+        "question": "When finding the Thevenin equivalent of a circuit containing ONLY dependent sources (no independent sources), what will Vth equal?",
+        "choices": [
+            "A. Infinity",
+            "B. It depends on the dependent source gain",
+            "C. Zero",
+            "D. 1 Volt"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 102,
+        "question": "A Norton equivalent circuit is sometimes preferred over a Thevenin equivalent when analyzing what type of load connections?",
+        "choices": [
+            "A. Series loads",
+            "B. Loads with capacitors",
+            "C. Loads with inductors",
+            "D. Parallel loads"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 103,
+        "question": "Using source transformation, how many times can you theoretically transform a source back and forth between Thevenin and Norton forms?",
+        "choices": [
+            "A. Once",
+            "B. Twice",
+            "C. Infinite times",
+            "D. Depends on the resistor value"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 104,
+        "question": "A 12V source with 2 ohms internal resistance delivers power to a 2-ohm load. What is the power delivered to the load?",
+        "choices": [
+            "A. 18 W",
+            "B. 36 W",
+            "C. 24 W",
+            "D. 72 W"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 105,
+        "question": "If Millman's theorem is applied to nodes with purely resistive branches (no voltage sources), the Millman voltage evaluates to:",
+        "choices": [
+            "A. Infinity",
+            "B. Zero",
+            "C. The average of the resistances",
+            "D. The equivalent parallel resistance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 106,
+        "question": "The Reciprocity theorem states that the ratio of excitation to response is constant when their positions are interchanged. This ratio has the unit of:",
+        "choices": [
+            "A. Impedance or Admittance",
+            "B. Voltage or Current",
+            "C. Watts",
+            "D. Ohms only"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 107,
+        "question": "According to the Substitution Theorem, if a branch has a voltage V(t) and current I(t), it can be replaced by:",
+        "choices": [
+            "A. A voltage source V(t) only",
+            "B. A current source I(t) only",
+            "C. Either a voltage source V(t) or a current source I(t)",
+            "D. A resistor of value V(t)/I(t) only"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 108,
+        "question": "In the Compensation Theorem, the compensating voltage source Vc = -I * delta-R. The negative sign implies that the source is meant to represent:",
+        "choices": [
+            "A. A voltage gain",
+            "B. An active power injection",
+            "C. A voltage drop opposing the original current",
+            "D. A reactive power absorption"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 109,
+        "question": "Tellegen's Theorem is valid for which of the following topologies?",
+        "choices": [
+            "A. Only planar networks",
+            "B. Only non-planar networks",
+            "C. Both planar and non-planar networks",
+            "D. Only networks with fewer than 10 nodes"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 110,
+        "question": "In Superposition, when zeroing out an independent voltage source, the resulting circuit connection is a:",
+        "choices": [
+            "A. Short circuit",
+            "B. Open circuit",
+            "C. Resistive link",
+            "D. Capacitive link"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 111,
+        "question": "A black box has Vth = 10V and I_short_circuit = 2A. What is its Norton resistance?",
+        "choices": [
+            "A. 20 ohms",
+            "B. 0.2 ohms",
+            "C. 5 ohms",
+            "D. 12 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 112,
+        "question": "A linear active network is connected to a variable load. As the load varies from 0 to infinity, the voltage across it varies from 0 to 20V, and the current varies from 5A to 0. What is the Thevenin resistance?",
+        "choices": [
+            "A. 100 ohms",
+            "B. 4 ohms",
+            "C. 0.25 ohms",
+            "D. 25 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 113,
+        "question": "Source transformation is directly derived from which two circuit principles?",
+        "choices": [
+            "A. Superposition and Reciprocity",
+            "B. Thevenin's and Norton's Theorems",
+            "C. Millman's and Tellegen's Theorems",
+            "D. Substitution and Compensation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 114,
+        "question": "To deliver maximum power from a source with an internal resistance of 50 ohms to a load of 10 ohms, what should be done?",
+        "choices": [
+            "A. Add a 40-ohm resistor in series with the load",
+            "B. Add a 40-ohm resistor in parallel with the load",
+            "C. Nothing, maximum power is already transferred",
+            "D. Use a transformer to match the 10-ohm load to the 50-ohm source"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 115,
+        "question": "Millman's Theorem is particularly advantageous for calculating the neutral point voltage in what type of power systems?",
+        "choices": [
+            "A. Unbalanced 3-phase star (wye) connected loads",
+            "B. Balanced 3-phase delta connected loads",
+            "C. Single-phase series circuits",
+            "D. DC series lighting circuits"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 116,
+        "question": "For a network to satisfy the Reciprocity Theorem, it must not contain any:",
+        "choices": [
+            "A. Resistors",
+            "B. Independent sources within the two-port black box",
+            "C. Inductors",
+            "D. Capacitors"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 117,
+        "question": "The Substitution Theorem is essentially a corollary of which fundamental laws?",
+        "choices": [
+            "A. Faraday's Laws",
+            "B. KVL and KCL (uniqueness of solution)",
+            "C. Newton's Laws",
+            "D. Coulomb's Law"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 118,
+        "question": "The Compensation Theorem is widely used in solving problems related to:",
+        "choices": [
+            "A. Calculating initial conditions of capacitors",
+            "B. Finding transient responses of inductors",
+            "C. Sensitivities and changes in network parameters",
+            "D. Designing purely digital logic gates"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 119,
+        "question": "Tellegen's Theorem implies that the sum of the power absorbed by all elements in a closed network is:",
+        "choices": [
+            "A. Equal to the power dissipated by resistors only",
+            "B. Zero",
+            "C. Greater than zero",
+            "D. Less than zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 120,
+        "question": "If an AC circuit requires Superposition and has a 60Hz source and a 120Hz source, the total power dissipated in a resistor R is calculated by:",
+        "choices": [
+            "A. Adding the total RMS voltages and squaring",
+            "B. Superimposing the currents at each frequency, then finding total RMS power as I1_rms^2*R + I2_rms^2*R",
+            "C. Squaring the sum of the peak voltages",
+            "D. Power cannot be calculated for mixed frequencies"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 121,
+        "question": "A Norton current source is 10A and Rn = 4 ohms. What is the voltage across an 8-ohm load connected to it?",
+        "choices": [
+            "A. 80 V",
+            "B. 40 V",
+            "C. 26.67 V",
+            "D. 32 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 122,
+        "question": "A Thevenin equivalent has Vth = 15V and Rth = 3 ohms. It is connected to a load RL. If RL is chosen for maximum power transfer, what is the voltage across RL?",
+        "choices": [
+            "A. 15 V",
+            "B. 7.5 V",
+            "C. 30 V",
+            "D. 5 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 123,
+        "question": "When applying source transformation repeatedly to simplify a ladder network, the process generally alternates between converting parallel RC/RL branches to series and vice versa. What is the primary limitation?",
+        "choices": [
+            "A. It only works for DC circuits",
+            "B. It loses the identity of the internal variables (voltages/currents) within the transformed sections",
+            "C. It cannot be used if the network has more than 5 nodes",
+            "D. It requires all sources to have the same frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 124,
+        "question": "Millman's theorem states that V = Sum(I_in) / Sum(G). In a circuit with two current sources 5A and 3A feeding a common node with two parallel conductances 2S and 4S, what is the node voltage?",
+        "choices": [
+            "A. 1.33 V",
+            "B. 0.75 V",
+            "C. 8 V",
+            "D. 6 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 125,
+        "question": "In a reciprocal two-port network, the transfer impedance Z12 is strictly equal to:",
+        "choices": [
+            "A. Z11",
+            "B. Z22",
+            "C. Z21",
+            "D. 1/Z21"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 126,
+        "question": "If a circuit element has a voltage V = 5V and current I = 2A, the Substitution Theorem allows us to replace it with a 2A current source. What must be the voltage across this new ideal current source?",
+        "choices": [
+            "A. 0 V",
+            "B. 2 V",
+            "C. 10 V",
+            "D. 5 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 127,
+        "question": "According to the Compensation Theorem, the change in network currents due to a change delta-R in branch k is identical to the currents produced by an independent voltage source Vc in branch k. What happens to the original branch source Vk?",
+        "choices": [
+            "A. It remains exactly the same",
+            "B. It is turned off",
+            "C. It is doubled",
+            "D. It is reversed"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 128,
+        "question": "Tellegen's Theorem sum(Vk*Ik) = 0 is valid even if the voltages Vk belong to the circuit at time t1 and the currents Ik belong to the circuit at time t2. This specific application is known as:",
+        "choices": [
+            "A. Quasi-static Tellegen's",
+            "B. Differential Tellegen's",
+            "C. Reciprocal Tellegen's",
+            "D. Difference Tellegen's"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 129,
+        "question": "Superposition cannot be used directly to calculate:",
+        "choices": [
+            "A. Voltage",
+            "B. Current",
+            "C. Electric Field",
+            "D. Power"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 130,
+        "question": "To find the Thevenin voltage of a circuit with an open terminal A-B, one must calculate the:",
+        "choices": [
+            "A. Voltage across A-B",
+            "B. Current from A to B",
+            "C. Power dissipated at A-B",
+            "D. Resistance between A and B"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 131,
+        "question": "A circuit has Vth = 24V and Rth = 8 ohms. If we want to draw 2A from this circuit, what should the load resistance RL be?",
+        "choices": [
+            "A. 12 ohms",
+            "B. 4 ohms",
+            "C. 8 ohms",
+            "D. 16 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 132,
+        "question": "Source transformation changes a 20V source with 5 ohms series resistance into a current source. What is the short-circuit current of this new equivalent?",
+        "choices": [
+            "A. 4 A",
+            "B. 100 A",
+            "C. 20 A",
+            "D. 0.25 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 133,
+        "question": "Maximum power is transferred from a source to a load when:",
+        "choices": [
+            "A. Load resistance is zero",
+            "B. Load resistance equals source resistance",
+            "C. Load resistance is infinite",
+            "D. Source resistance is infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 134,
+        "question": "Using Millman's Theorem for three parallel branches with zero voltage sources but resistances of 2, 3, and 6 ohms respectively, driven by an external 5A current source. What is the voltage?",
+        "choices": [
+            "A. 5 V",
+            "B. 10 V",
+            "C. 15 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 135,
+        "question": "If a network is linear and bilateral, which theorem guarantees that swapping the excitation and response locations leaves the transfer ratio unchanged?",
+        "choices": [
+            "A. Thevenin",
+            "B. Norton",
+            "C. Reciprocity",
+            "D. Superposition"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 136,
+        "question": "The Substitution Theorem applies to:",
+        "choices": [
+            "A. Only voltage sources",
+            "B. Only current sources",
+            "C. Any component with known V and I",
+            "D. Only linear resistors"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 137,
+        "question": "The Compensation Theorem is best suited for analyzing:",
+        "choices": [
+            "A. Small changes in component values",
+            "B. Total power dissipation",
+            "C. Equivalent capacitance",
+            "D. Magnetic coupling"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 138,
+        "question": "Tellegen's Theorem depends heavily on the parameters of the circuit elements (e.g., ohms, farads, henries).",
+        "choices": [
+            "A. True",
+            "B. False",
+            "C. Only for non-linear circuits",
+            "D. Only for active circuits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 139,
+        "question": "Superposition dictates that for a circuit with N independent sources, the response is the sum of how many individual circuit evaluations?",
+        "choices": [
+            "A. N-1",
+            "B. N",
+            "C. N+1",
+            "D. 2N"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 140,
+        "question": "Thevenin's Theorem is an application of which broader circuit concept?",
+        "choices": [
+            "A. Equivalent Circuits",
+            "B. Magnetic Induction",
+            "C. Nodal Analysis",
+            "D. Kirchhoff's Laws exclusively"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 141,
+        "question": "Norton's equivalent resistance is identical to Thevenin's equivalent resistance in the same network.",
+        "choices": [
+            "A. True",
+            "B. False",
+            "C. Only in AC circuits",
+            "D. Only in DC circuits"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 142,
+        "question": "Source transformation is completely invalid if the source is a dependent source.",
+        "choices": [
+            "A. True",
+            "B. False",
+            "C. Only if it's a VCCS",
+            "D. Only if it's a CCVS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 143,
+        "question": "Maximum Power Transfer Theorem is used extensively in audio system design to match amplifier output to speaker impedance.",
+        "choices": [
+            "A. True",
+            "B. False",
+            "C. Only for DC audio",
+            "D. Only for high voltage audio"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 144,
+        "question": "Millman's Theorem reduces the number of node equations required for parallel branches to exactly:",
+        "choices": [
+            "A. Three",
+            "B. Two",
+            "C. One",
+            "D. Zero"
+        ],
+        "correct_answer": "C"
+    }
+]

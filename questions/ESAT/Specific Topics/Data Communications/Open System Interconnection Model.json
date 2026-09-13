@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "Which data security objective guarantees that data has not been altered, tampered with, or corrupted during storage or transmission?",
+        "choices": [
+            "A. Availability",
+            "B. Confidentiality",
+            "C. Integrity",
+            "D. Non-repudiation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "In the RSA algorithm key generation process, the system modulus n, which is part of both the public and private keys, is calculated using two large distinct prime numbers, p and q, as:",
+        "choices": [
+            "A. n = p^q",
+            "B. n = p * q",
+            "C. n = p + q",
+            "D. n = (p-1) * (q-1)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "If a cryptographic analyst successfully discovers a \"hash collision\" in the MD5 algorithm, what exactly has the analyst found?",
+        "choices": [
+            "A. A master key that works for all MD5 hashes",
+            "B. A way to decrypt MD5 ciphertexts without the key",
+            "C. The original plaintext message that generated a specific hash digest",
+            "D. Two completely different input messages that produce the exact same MD5 output hash digest"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "In a purely symmetric cryptosystem network with N users, where every user needs a direct secure connection with every other user, what is the mathematical formula for the total number of unique keys required?",
+        "choices": [
+            "A. N(N-1)/2",
+            "B. 2^N",
+            "C. 2N",
+            "D. N^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "Upon receiving a digitally signed message from Alice, which specific cryptographic key must Bob use to verify the authenticity of the signature?",
+        "choices": [
+            "A. Alice's public key",
+            "B. Alice's private key",
+            "C. Bob's private key",
+            "D. Bob's public key"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "An encryption algorithm that divides the plaintext into fixed-size chunks (e.g., 128 bits) and encrypts each chunk as a single unit is known as a:",
+        "choices": [
+            "A. Stream cipher",
+            "B. Block cipher",
+            "C. Hash function",
+            "D. Key escrow"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "The basic (unauthenticated) Diffie-Hellman key exchange algorithm is highly vulnerable to which specific type of cryptographic attack if used on a public network?",
+        "choices": [
+            "A. Ciphertext-only attack",
+            "B. Birthday attack",
+            "C. Man-in-the-Middle (MitM) attack",
+            "D. Brute-force attack"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "In data security, the process of verifying the identity of a user, device, or system entity before granting access is formally known as:",
+        "choices": [
+            "A. Authorization",
+            "B. Auditing",
+            "C. Non-repudiation",
+            "D. Authentication"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "Which layer of the OSI model is primarily concerned with transmitting raw bits over a communication channel?",
+        "choices": [
+            "A. Data Link",
+            "B. Physical",
+            "C. Network",
+            "D. Transport"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "Hardware specifications such as cables, connectors, and voltage levels are defined at which OSI layer?",
+        "choices": [
+            "A. Network",
+            "B. Data Link",
+            "C. Physical",
+            "D. Transport"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "A standard network hub acts as a multiport repeater. At which layer of the OSI model does it operate?",
+        "choices": [
+            "A. Physical",
+            "B. Data Link",
+            "C. Network",
+            "D. Session"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "Which of the following is a primary function of the Physical layer?",
+        "choices": [
+            "A. Error correction",
+            "B. Mac addressing",
+            "C. Routing",
+            "D. Bit synchronization and defining the data rate"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Line coding techniques (like Manchester encoding) and physical modulation are implemented at which layer?",
+        "choices": [
+            "A. Presentation",
+            "B. Data Link",
+            "C. Physical",
+            "D. Transport"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "The pinout configuration of an RS-232 serial cable is defined at which layer of the OSI model?",
+        "choices": [
+            "A. Data Link",
+            "B. Physical",
+            "C. Network",
+            "D. Session"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "What is the primary function of a repeater operating at the Physical layer?",
+        "choices": [
+            "A. To regenerate and amplify degraded signals to extend transmission distance",
+            "B. To filter traffic based on MAC addresses",
+            "C. To route packets to different subnets",
+            "D. To encrypt the data stream"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 16,
+        "question": "The distinction between baseband and broadband transmission technologies is established at which OSI layer?",
+        "choices": [
+            "A. Application",
+            "B. Network",
+            "C. Data Link",
+            "D. Physical"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "The Physical layer is responsible for the electrical, mechanical, and optical representation of:",
+        "choices": [
+            "A. Bits",
+            "B. Frames",
+            "C. Packets",
+            "D. Segments"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "A collision domain in an Ethernet network is physically bounded by devices that operate strictly above which OSI layer?",
+        "choices": [
+            "A. Network",
+            "B. Data Link",
+            "C. Transport",
+            "D. Physical"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 19,
+        "question": "The physical topology of a network, such as star, bus, or mesh, is implemented at which layer?",
+        "choices": [
+            "A. Network",
+            "B. Data Link",
+            "C. Physical",
+            "D. Application"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Configuring the transmission mode of a channel as simplex, half-duplex, or full-duplex is a function of the:",
+        "choices": [
+            "A. Data Link Layer",
+            "B. Physical Layer",
+            "C. Network Layer",
+            "D. Session Layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "Which OSI layer uses Media Access Control (MAC) addresses to uniquely identify devices on a local network segment?",
+        "choices": [
+            "A. Network",
+            "B. Transport",
+            "C. Physical",
+            "D. Data Link"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 22,
+        "question": "What is the specific Protocol Data Unit (PDU) processed by the Data Link layer?",
+        "choices": [
+            "A. Datagram",
+            "B. Packet",
+            "C. Frame",
+            "D. Segment"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "A standard Layer 2 Ethernet switch operates at which layer of the OSI model?",
+        "choices": [
+            "A. Data Link",
+            "B. Physical",
+            "C. Network",
+            "D. Transport"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "The IEEE 802 standard divides the Data Link layer into which two distinct sublayers?",
+        "choices": [
+            "A. TCP and UDP",
+            "B. LLC and MAC",
+            "C. IP and ICMP",
+            "D. CSMA and CD"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "Carrier Sense Multiple Access with Collision Detection (CSMA/CD) is a medium access protocol operating at which OSI layer?",
+        "choices": [
+            "A. Physical",
+            "B. Network",
+            "C. Data Link",
+            "D. Transport"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "Error detection via a Frame Check Sequence (FCS) utilizing a Cyclic Redundancy Check (CRC) occurs at the:",
+        "choices": [
+            "A. Transport Layer",
+            "B. Presentation Layer",
+            "C. Network Layer",
+            "D. Data Link Layer"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "Which layer is specifically responsible for node-to-node (hop-to-hop) delivery of data across a single physical network?",
+        "choices": [
+            "A. Network Layer",
+            "B. Data Link Layer",
+            "C. Transport Layer",
+            "D. Physical Layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "Burned-In Addresses (BIA) on Network Interface Cards (NICs) correspond to which OSI layer?",
+        "choices": [
+            "A. Data Link",
+            "B. Physical",
+            "C. Network",
+            "D. Transport"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 29,
+        "question": "Flow control mechanisms to prevent a fast sender from overwhelming a slow receiver on the same local link are managed at the:",
+        "choices": [
+            "A. Data Link Layer",
+            "B. Network Layer",
+            "C. Session Layer",
+            "D. Application Layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "A network bridge makes its forwarding and filtering decisions based on information found at which layer?",
+        "choices": [
+            "A. Layer 3 IP addresses",
+            "B. Layer 4 Port numbers",
+            "C. Layer 1 Voltage levels",
+            "D. Layer 2 MAC addresses"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 31,
+        "question": "The process of encapsulating Network layer packets into manageable units for transmission over the local medium is called:",
+        "choices": [
+            "A. Segmentation",
+            "B. Framing",
+            "C. Modulation",
+            "D. Subnetting"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "The Address Resolution Protocol (ARP) translates a logical Layer 3 IP address into a physical address for which layer?",
+        "choices": [
+            "A. Transport Layer",
+            "B. Physical Layer",
+            "C. Data Link Layer",
+            "D. Session Layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "Token passing is a deterministic medium access method that primarily operates at which layer?",
+        "choices": [
+            "A. Data Link",
+            "B. Physical",
+            "C. Network",
+            "D. Transport"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Which layer is responsible for logical addressing, such as IP addresses?",
+        "choices": [
+            "A. Network Layer",
+            "B. Data Link Layer",
+            "C. Transport Layer",
+            "D. Session Layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "What is the Protocol Data Unit (PDU) at the Network layer?",
+        "choices": [
+            "A. Frame",
+            "B. Segment",
+            "C. Message",
+            "D. Packet (or Datagram)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "Routers are networking devices that fundamentally operate at which layer of the OSI model?",
+        "choices": [
+            "A. Data Link",
+            "B. Network",
+            "C. Transport",
+            "D. Physical"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "The primary responsibility of the Network layer is:",
+        "choices": [
+            "A. Node-to-node delivery",
+            "B. Process-to-process delivery",
+            "C. Source-to-destination (host-to-host) delivery across multiple networks",
+            "D. Dialog control"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "Subnetting and determining the optimal path for data to travel across an internetwork are functions of the:",
+        "choices": [
+            "A. Data Link Layer",
+            "B. Network Layer",
+            "C. Transport Layer",
+            "D. Session Layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "If a packet is too large for the Maximum Transmission Unit (MTU) of a downstream network, fragmentation occurs at which layer?",
+        "choices": [
+            "A. Physical Layer",
+            "B. Data Link Layer",
+            "C. Transport Layer",
+            "D. Network Layer"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "Routing algorithms use routing tables to achieve path determination at which layer?",
+        "choices": [
+            "A. Network Layer",
+            "B. Transport Layer",
+            "C. Data Link Layer",
+            "D. Application Layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "The Internet Control Message Protocol (ICMP), used by tools like 'ping' and 'traceroute', operates at which layer?",
+        "choices": [
+            "A. Data Link Layer",
+            "B. Transport Layer",
+            "C. Network Layer",
+            "D. Application Layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "Routing protocols such as OSPF, EIGRP, and BGP are designed to support and populate routing tables at which OSI layer?",
+        "choices": [
+            "A. Data Link Layer",
+            "B. Network Layer",
+            "C. Transport Layer",
+            "D. Presentation Layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "The Time-to-Live (TTL) field, used to prevent routing loops, is processed and decremented by devices operating at which layer?",
+        "choices": [
+            "A. Network Layer",
+            "B. Data Link Layer",
+            "C. Transport Layer",
+            "D. Session Layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "Both IPv4 and IPv6 protocols reside at which layer of the OSI model?",
+        "choices": [
+            "A. Transport Layer",
+            "B. Data Link Layer",
+            "C. Session Layer",
+            "D. Network Layer"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Network Address Translation (NAT), which modifies IP headers to map private addresses to public addresses, occurs at the:",
+        "choices": [
+            "A. Transport Layer",
+            "B. Data Link Layer",
+            "C. Network Layer",
+            "D. Presentation Layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "Translating a logical network address (IP) into a physical machine address (MAC) bridges the gap between which two layers?",
+        "choices": [
+            "A. Transport and Network",
+            "B. Network and Data Link",
+            "C. Data Link and Physical",
+            "D. Session and Transport"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "What is the Protocol Data Unit (PDU) at the Transport layer?",
+        "choices": [
+            "A. Packet",
+            "B. Frame",
+            "C. Segment",
+            "D. Bit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "The Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) operate at which OSI layer?",
+        "choices": [
+            "A. Network Layer",
+            "B. Transport Layer",
+            "C. Session Layer",
+            "D. Application Layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "While the Network layer provides host-to-host delivery, the Transport layer is strictly responsible for:",
+        "choices": [
+            "A. Node-to-node delivery",
+            "B. Hub-to-hub delivery",
+            "C. Network-to-network delivery",
+            "D. Process-to-process (application-to-application) delivery"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "To distinguish between multiple applications running on the same host, the Transport layer utilizes:",
+        "choices": [
+            "A. Port numbers",
+            "B. MAC addresses",
+            "C. IP addresses",
+            "D. Sequence numbers"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "The process of dividing large messages from the Session layer into smaller, transmittable pieces, and reassembling them at the destination, is called:",
+        "choices": [
+            "A. Segmentation and Reassembly",
+            "B. Framing",
+            "C. Fragmentation",
+            "D. Encapsulation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "The TCP three-way handshake (SYN, SYN-ACK, ACK) used to establish a reliable connection occurs at which layer?",
+        "choices": [
+            "A. Network Layer",
+            "B. Session Layer",
+            "C. Transport Layer",
+            "D. Data Link Layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 53,
+        "question": "Which layer provides developers the choice between connection-oriented, reliable delivery and connectionless, unreliable delivery?",
+        "choices": [
+            "A. Application Layer",
+            "B. Network Layer",
+            "C. Session Layer",
+            "D. Transport Layer"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 54,
+        "question": "The sliding window protocol, used for dynamic end-to-end flow control to prevent congestion, is implemented at the:",
+        "choices": [
+            "A. Data Link Layer",
+            "B. Transport Layer",
+            "C. Network Layer",
+            "D. Session Layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Tracking data bytes using sequence numbers and acknowledgment numbers is a critical function of the:",
+        "choices": [
+            "A. Transport Layer",
+            "B. Network Layer",
+            "C. Data Link Layer",
+            "D. Application Layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "Multiplexing multiple independent application data streams onto a single logical network connection is a primary duty of the:",
+        "choices": [
+            "A. Network Layer",
+            "B. Data Link Layer",
+            "C. Transport Layer",
+            "D. Presentation Layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "The fundamental distinction between connection-oriented protocols (TCP) and connectionless protocols (UDP) exists at the:",
+        "choices": [
+            "A. Network Layer",
+            "B. Data Link Layer",
+            "C. Session Layer",
+            "D. Transport Layer"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "End-to-end error recovery via retransmission of lost or corrupted segments is managed by the:",
+        "choices": [
+            "A. Data Link Layer",
+            "B. Transport Layer",
+            "C. Network Layer",
+            "D. Application Layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Which layer adds a header that typically includes source and destination port numbers, length, and an optional checksum?",
+        "choices": [
+            "A. Transport Layer",
+            "B. Network Layer",
+            "C. Data Link Layer",
+            "D. Session Layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "Which layer is responsible for establishing, managing, and terminating communication sessions between two communicating hosts?",
+        "choices": [
+            "A. Transport Layer",
+            "B. Network Layer",
+            "C. Presentation Layer",
+            "D. Session Layer"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "Layer 5 of the OSI Reference Model is named the:",
+        "choices": [
+            "A. Session Layer",
+            "B. Presentation Layer",
+            "C. Transport Layer",
+            "D. Application Layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "Adding checkpoints or synchronization marks to a large data stream to allow recovery from a crash without restarting from the beginning is a function of the:",
+        "choices": [
+            "A. Transport Layer",
+            "B. Application Layer",
+            "C. Session Layer",
+            "D. Network Layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "Dialog control, which determines whether the communication between two processes is half-duplex or full-duplex, is managed by the:",
+        "choices": [
+            "A. Transport Layer",
+            "B. Session Layer",
+            "C. Data Link Layer",
+            "D. Presentation Layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "Token management, which prevents two parties from attempting the same critical operation simultaneously, is a service provided by the:",
+        "choices": [
+            "A. Application Layer",
+            "B. Session Layer",
+            "C. Transport Layer",
+            "D. Data Link Layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "The Remote Procedure Call (RPC) mechanism, allowing a program to execute a subroutine on another computer, primarily maps to which OSI layer?",
+        "choices": [
+            "A. Network Layer",
+            "B. Transport Layer",
+            "C. Presentation Layer",
+            "D. Session Layer"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 66,
+        "question": "Which layer specifically controls which party is allowed to transmit at a given time and for how long during a software dialog?",
+        "choices": [
+            "A. Transport Layer",
+            "B. Data Link Layer",
+            "C. Session Layer",
+            "D. Application Layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "If a 1 GB file transfer fails at 990 MB, the ability to resume exactly from the 990 MB mark rather than restarting relies on synchronization points at the:",
+        "choices": [
+            "A. Session Layer",
+            "B. Transport Layer",
+            "C. Data Link Layer",
+            "D. Presentation Layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "The NetBIOS (Network Basic Input/Output System) protocol, used for naming and establishing logical connections, historically operates at the:",
+        "choices": [
+            "A. Session Layer",
+            "B. Transport Layer",
+            "C. Network Layer",
+            "D. Data Link Layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "Keeping data streams from completely different applications logically separated and organized during transmission is a core function of the:",
+        "choices": [
+            "A. Transport Layer",
+            "B. Network Layer",
+            "C. Session Layer",
+            "D. Presentation Layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "Which layer is concerned with the syntax and semantics of the information exchanged between two systems?",
+        "choices": [
+            "A. Application Layer",
+            "B. Presentation Layer",
+            "C. Session Layer",
+            "D. Transport Layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "Data encryption and decryption, historically intended to ensure privacy across the network, are technically assigned to the:",
+        "choices": [
+            "A. Session Layer",
+            "B. Transport Layer",
+            "C. Presentation Layer",
+            "D. Network Layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "Data compression, which reduces the number of bits to be transmitted, is a standard function of which OSI layer?",
+        "choices": [
+            "A. Data Link Layer",
+            "B. Application Layer",
+            "C. Session Layer",
+            "D. Presentation Layer"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "Translating character encoding from EBCDIC used on an IBM mainframe to ASCII used on a PC is performed by the:",
+        "choices": [
+            "A. Presentation Layer",
+            "B. Application Layer",
+            "C. Session Layer",
+            "D. Transport Layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "Formatting multimedia files such as JPEG, GIF, and MPEG for proper display is conceptually a function of the:",
+        "choices": [
+            "A. Application Layer",
+            "B. Presentation Layer",
+            "C. Session Layer",
+            "D. Data Link Layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "Historically, cryptographic protocols like SSL and TLS fit best into which OSI layer because they handle encryption and formatting before passing data to the Transport layer?",
+        "choices": [
+            "A. Presentation Layer",
+            "B. Session Layer",
+            "C. Application Layer",
+            "D. Network Layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "The primary goal of the Presentation layer is to ensure that data sent from the Application layer of one system can be:",
+        "choices": [
+            "A. Routed across multiple networks",
+            "B. Error-checked for transmission",
+            "C. Guaranteed to arrive",
+            "D. Read and understood by the Application layer of another system"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "The serialization of complex data structures into a flat byte stream for transmission is a responsibility of the:",
+        "choices": [
+            "A. Transport Layer",
+            "B. Application Layer",
+            "C. Presentation Layer",
+            "D. Session Layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "If a sender uses big-endian byte ordering and the receiver uses little-endian byte ordering, which layer is responsible for the conversion?",
+        "choices": [
+            "A. Transport Layer",
+            "B. Presentation Layer",
+            "C. Application Layer",
+            "D. Session Layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "Abstract Syntax Notation One (ASN.1), a standard interface description language used in telecommunications and computer networking, operates at the:",
+        "choices": [
+            "A. Network Layer",
+            "B. Session Layer",
+            "C. Application Layer",
+            "D. Presentation Layer"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "Which layer is at the very top of the OSI model and interacts directly with the software applications used by humans?",
+        "choices": [
+            "A. Application Layer",
+            "B. Presentation Layer",
+            "C. Session Layer",
+            "D. Transport Layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "Protocols such as HTTP, FTP, SMTP, and POP3 operate at which layer?",
+        "choices": [
+            "A. Presentation Layer",
+            "B. Application Layer",
+            "C. Session Layer",
+            "D. Transport Layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "Providing a Network Virtual Terminal (like Telnet) to allow a user to log on to a remote host is a service of the:",
+        "choices": [
+            "A. Session Layer",
+            "B. Presentation Layer",
+            "C. Application Layer",
+            "D. Transport Layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "The core function of the Application layer is to:",
+        "choices": [
+            "A. Format data for display",
+            "B. Establish a secure session",
+            "C. Route packets",
+            "D. Provide network services directly to user applications"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 84,
+        "question": "The X.400 standard for Message Handling Systems (MHS), used for email transfer, resides at which OSI layer?",
+        "choices": [
+            "A. Application Layer",
+            "B. Presentation Layer",
+            "C. Session Layer",
+            "D. Transport Layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "Which layer is responsible for identifying communication partners, determining resource availability, and synchronizing distributed applications?",
+        "choices": [
+            "A. Session Layer",
+            "B. Application Layer",
+            "C. Presentation Layer",
+            "D. Transport Layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "The Domain Name System (DNS), which resolves human-readable hostnames to IP addresses, is an example of a protocol at the:",
+        "choices": [
+            "A. Network Layer",
+            "B. Transport Layer",
+            "C. Application Layer",
+            "D. Session Layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "The Application layer essentially serves as the:",
+        "choices": [
+            "A. Physical interface to the cable",
+            "B. Protocol for routing data",
+            "C. Encryption engine",
+            "D. Window for users and application processes to access network services"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "The X.500 protocol suite, defining global Directory Services, is implemented at the:",
+        "choices": [
+            "A. Application Layer",
+            "B. Presentation Layer",
+            "C. Session Layer",
+            "D. Transport Layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "FTAM (File Transfer, Access, and Management) is a standard OSI protocol operating at the:",
+        "choices": [
+            "A. Presentation Layer",
+            "B. Application Layer",
+            "C. Session Layer",
+            "D. Transport Layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "As data moves down the OSI model from the Application layer to the Physical layer, the process of adding headers at each layer is called:",
+        "choices": [
+            "A. Decapsulation",
+            "B. Formatting",
+            "C. Encapsulation",
+            "D. Multiplexing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "During transmission, encapsulation occurs strictly as data flows from the:",
+        "choices": [
+            "A. Lowest layer to the highest layer",
+            "B. Network layer to the Session layer",
+            "C. Physical layer to the Application layer",
+            "D. Highest layer to the lowest layer"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "During the encapsulation process, when the Transport layer adds its header to the data received from the Session layer, the resulting PDU is called a:",
+        "choices": [
+            "A. Packet",
+            "B. Frame",
+            "C. Segment",
+            "D. Bit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "Upon receiving data, a host strips away headers layer by layer and passes the payload upward. This process is called:",
+        "choices": [
+            "A. Encapsulation",
+            "B. Decapsulation",
+            "C. Demultiplexing",
+            "D. Deframing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "During encapsulation, which OSI layer is unique because it typically adds both a header AND a trailer to the Protocol Data Unit?",
+        "choices": [
+            "A. Transport Layer",
+            "B. Network Layer",
+            "C. Data Link Layer",
+            "D. Physical Layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "After the Data Link layer converts a frame into a stream of 1s and 0s for transmission over the medium, the PDU at Layer 1 is called:",
+        "choices": [
+            "A. A Signal",
+            "B. A Datagram",
+            "C. A Symbol",
+            "D. Bits"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "A common mnemonic to remember the OSI layers from bottom to top (Layer 1 to 7) is \"Please Do Not Throw Sausage Pizza Away.\" What does the \"S\" stand for?",
+        "choices": [
+            "A. Session",
+            "B. System",
+            "C. Segment",
+            "D. Syntax"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "In the OSI model, adjacent layers on the same machine communicate with each other through precisely defined:",
+        "choices": [
+            "A. Protocols",
+            "B. Interfaces (Service Access Points)",
+            "C. Sockets",
+            "D. Media"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "The rules and conventions used by Layer N on one machine to communicate logically with Layer N on another machine are called:",
+        "choices": [
+            "A. Interfaces",
+            "B. Encapsulations",
+            "C. Protocols",
+            "D. Standards"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "The OSI Reference Model is formally designated as ISO/IEC 7498-1. Which organization originally developed and published this model in 1984?",
+        "choices": [
+            "A. IEEE",
+            "B. IETF",
+            "C. ITU-T",
+            "D. ISO"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "At the Application layer (Layer 7), before any headers from the lower layers are attached, the Protocol Data Unit (PDU) is generically referred to as:",
+        "choices": [
+            "A. A Segment",
+            "B. A Packet",
+            "C. A Frame",
+            "D. Data (or Message)"
+        ],
+        "correct_answer": "D"
+    }
+]

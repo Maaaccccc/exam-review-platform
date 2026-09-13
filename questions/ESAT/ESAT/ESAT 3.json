@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "Which circuit is responsible for recovering the baseband information signal from a single-sideband, suppressed-carrier (SSB-SC) wave?",
+        "choices": [
+            "A. A phase-locked loop (PLL) acting as a frequency-to-voltage converter.",
+            "B. A product detector, which mixes the received signal with a locally reinserted carrier frequency.",
+            "C. A ratio detector, which converts frequency changes directly into voltage variations.",
+            "D. A standard diode envelope detector, which tracks the peak amplitude changes of the wave."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "Which type of digital filter is inherently stable under all conditions, and why?",
+        "choices": [
+            "A. An Infinite Impulse Response (IIR) filter, because its impulse response decays exponentially to zero over time.",
+            "B. A recursive filter, because its feedback coefficients are mathematically constrained to be less than unity.",
+            "C. A Finite Impulse Response (FIR) filter, because its transfer function has poles located only at the origin of the z-plane.",
+            "D. An active analog filter, because it uses operational amplifiers to regulate the voltage gain."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "According to Kepler's second law of planetary motion, what happens to the velocity of a communication satellite in an elliptical orbit?",
+        "choices": [
+            "A. The satellite maintains a completely constant orbital speed along the entire elliptical path.",
+            "B. The satellite travels slowest when it is closest to the Earth's equator.",
+            "C. The satellite's velocity is directly proportional to its physical weight and cross-sectional area.",
+            "D. The satellite travels fastest at its perigee (closest point to Earth) and slowest at its apogee (farthest point)."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "Which component is used to convert a physical mechanical displacement or force directly into a change of electrical resistance?",
+        "choices": [
+            "A. A capacitive pressure cell.",
+            "B. A resistive strain gauge.",
+            "C. A piezoelectric crystal.",
+            "D. A thermocouple."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "Why are hollow metallic waveguides unsuitable for transmitting low-frequency signals below a few gigahertz?",
+        "choices": [
+            "A. Because low-frequency signals would cause high skin effect losses along the outer walls of the guide.",
+            "B. Because the electric and magnetic fields of low-frequency waves cannot satisfy the boundary conditions of a single conductor.",
+            "C. Because low-frequency signals suffer from extremely high dielectric losses in the air inside the guide.",
+            "D. Because the physical dimensions of the waveguide required to propagate low frequencies would be impractically large due to cutoff wavelength constraints."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 6,
+        "question": "In optical fiber communication, which of the following is a duplex connector that integrates two fibers in a single ferrule with a push-pull latching mechanism?",
+        "choices": [
+            "A. SC connector.",
+            "B. ST connector.",
+            "C. FC connector.",
+            "D. MT-RJ."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 7,
+        "question": "In digital modulation systems, what is indicated by a clean and wide opening in an 'eye pattern' measured on an oscilloscope?",
+        "choices": [
+            "A. Low intersymbol interference (ISI) and excellent signal quality, making data recovery highly reliable.",
+            "B. A perfect match between the characteristic impedance of the line and the terminating antenna.",
+            "C. The complete suppression of the carrier frequency in single-sideband transmissions.",
+            "D. High amplitude distortion and severe phase noise in the receiver's local oscillator."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "Why is single-mode fiber preferred over graded-index multimode fiber for transoceanic telecommunication cables?",
+        "choices": [
+            "A. Because it has an extremely thin core that supports only a single spatial mode, completely eliminating modal dispersion and allowing immense bandwidth over long distances.",
+            "B. Because it can carry high-power electrical current along with the light to run underwater repeaters.",
+            "C. Because it operates efficiently with low-cost incoherent LED sources instead of expensive REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS semiconductor lasers.",
+            "D. Because it is much cheaper to manufacture, install, and splice in rugged marine environments."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "In a satellite transponder, what is the primary function of the input bandpass filter?",
+        "choices": [
+            "A. To select the desired uplink channel frequency band while rejecting out-of-band signals and noise.",
+            "B. To convert the analog carrier into a digital bit stream.",
+            "C. To shift the uplink frequency down to the downlink frequency band.",
+            "D. To amplify the weak received signals before they are sent to the traveling-wave tube."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "Why is a 'snubber' circuit commonly connected in parallel with switching thyristors or transistors in inductive power control circuits?",
+        "choices": [
+            "A. To automatically discharge the system's backup battery during power failures.",
+            "B. To filter out high-frequency radio interference from reaching the AC power line.",
+            "C. To step up the DC trigger voltage to ensure rapid, synchronous turn-on.",
+            "D. To suppress high-voltage transients (dv/dt spikes) that occur during turn-off and prevent premature device damage."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "Which of the following describes the 'Sagnac effect', which is widely utilized in fiber-optic gyroscopes?",
+        "choices": [
+            "A. A phase shift between two counter-propagating light beams along a rotating closed optical path.",
+            "B. The generation of electrical current in a semiconductor junction when exposed to coherent light.",
+            "C. The scattering of light rays off sound waves within the glass core of a fiber.",
+            "D. The change in the refractive index of a crystal when subjected to mechanical strain."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "In fiber optics, what does the 'numerical aperture' (NA) represent?",
+        "choices": [
+            "A. The maximum number of propagation modes that the fiber can support.",
+            "B. The light-gathering capability of the fiber, defined as the sine of the maximum acceptance angle for light entering the core.",
+            "C. The attenuation constant of the fiber per kilometer at a given wavelength.",
+            "D. The ratio of the core diameter to the cladding thickness."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "What does the Cooley-Tukey algorithm achieve in Digital Signal Processing?",
+        "choices": [
+            "A. It interpolates sampled data streams to increase the effective sampling rate of the system.",
+            "B. It guarantees that any Infinite Impulse Response (IIR) filter is rendered perfectly stable and linear-phase.",
+            "C. It reduces the computational complexity of the Discrete Fourier Transform (DFT) from O(N^2) to O(N log N) by decomposing the DFT recursively.",
+            "D. It translates continuous-time differential equations into discrete-time difference equations without aliasing."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "In computer networks, what is the primary purpose of a bridge?",
+        "choices": [
+            "A. To establish a secure, encrypted virtual private network tunnel over the internet.",
+            "B. To connect two completely different network layer protocols such as IPv4 and IPv6.",
+            "C. To divide a single physical network into separate collision domains by filtering traffic based on MAC addresses.",
+            "D. To translate dynamic IP addresses into physical MAC addresses."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "In standard NTSC television, what is the separation frequency between the picture carrier and the sound carrier?",
+        "choices": [
+            "A. 6.0 MHz.",
+            "B. 3.58 MHz.",
+            "C. 4.5 MHz.",
+            "D. 1.25 MHz."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "What is 'aliasing' in digital signal processing, and how is it prevented?",
+        "choices": [
+            "A. The delay distortion caused by the inductive and capacitive components of a transmission line, prevented by adding equalizers.",
+            "B. The phase jitter caused by the instability of the receiver's master clock, prevented by using a phase-locked loop.",
+            "C. An effect that causes high-frequency components to fold back into the lower frequency spectrum when the sampling rate is too low, prevented by using an REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS anti-aliasing low-pass filter before sampling.",
+            "D. The loss of data packets due to buffer overflow in a router, prevented by implementing flow control protocols."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "What is the mathematical definition of a 'causal' discrete-time system?",
+        "choices": [
+            "A. The impulse response h[n] is equal to zero for all values of n less than zero.",
+            "B. The output y[n] at any time index depends only on future values of the input signal.",
+            "C. The system's transfer function has all of its poles located on the imaginary axis.",
+            "D. The region of convergence of the system's Z-transform extends inward toward the origin."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "What does the term 'baud rate' physically define in digital communications?",
+        "choices": [
+            "A. The number of raw binary bits transmitted over the link per second.",
+            "B. The frequency of the sampling clock in the analog-to-digital converter.",
+            "C. The maximum frequency limit that can be transmitted through a band-limited channel.",
+            "D. The number of symbol changes or signaling transitions that occur per second on the transmission medium."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 19,
+        "question": "In a bit-oriented data link protocol like HDLC, how is 'bit stuffing' performed to prevent the user data from being mistaken for the frame delimiter flag?",
+        "choices": [
+            "A. A '0' bit is automatically inserted after five consecutive '1' bits in the data stream, and removed at the receiver.",
+            "B. The data is encrypted using an exclusive-OR operation with a pseudo-random sequence.",
+            "C. An entire DLE character is prepended to any control sequence occurring within the payload.",
+            "D. A dummy '1' bit is inserted at the beginning of every 8-bit character block."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 20,
+        "question": "In microprocessor architectures, what is the primary distinction between a Harvard architecture and a von Neumann architecture?",
+        "choices": [
+            "A. Harvard architecture can only process floating-point instructions, whereas von Neumann only processes integer math.",
+            "B. Harvard architecture does not require a program counter or stack pointer.",
+            "C. Harvard architecture is strictly used in 16-bit systems, whereas von Neumann is used in 32-bit systems.",
+            "D. Harvard architecture utilizes separate physical memory spaces and buses for instructions and data, whereas von Neumann uses a single shared memory space and bus."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "Which layer of the OSI reference model is responsible for establishing, managing, and terminating communication dialogs between two software applications?",
+        "choices": [
+            "A. Presentation Layer (Layer 6).",
+            "B. Data Link Layer (Layer 2).",
+            "C. Transport Layer (Layer 4).",
+            "D. Session Layer (Layer 5)."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 22,
+        "question": "What type of system is characterized by a difference equation y[n] = x[n] - y[n-1], and why?",
+        "choices": [
+            "A. An unstable system, because the pole of its transfer function lies outside the unit circle.",
+            "B. A non-causal system, because the output depends on future values of the input signal.",
+            "C. An Infinite Impulse Response (IIR) system, because it contains a recursive term that feeds back past output values.",
+            "D. A Finite Impulse Response (FIR) system, because it has only a single delay tap on the input signal."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "Which type of noise is characterized by an increase in amplitude at low frequencies and is also known as 1/f noise?",
+        "choices": [
+            "A. Shot noise.",
+            "B. Flicker noise.",
+            "C. Transit-time noise.",
+            "D. Thermal noise."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "In telephony, what is the purpose of the hybrid transformer (line hybrid)?",
+        "choices": [
+            "A. To provide a high-voltage surge barrier that protects the central office from lightning strikes.",
+            "B. To modulate the subscriber's voice signal onto a high-frequency carrier for transmission over trunk lines.",
+            "C. To perform two-wire to four-wire conversion, separating the transmit and receive audio paths while connecting to the local subscriber loop.",
+            "D. To step up the nominal 48V DC battery voltage to the REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS 90V AC ringing voltage."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "What is the primary advantage of a cassegrain feed system for a large parabolic dish antenna?",
+        "choices": [
+            "A. It automatically rotates the wave's polarization from linear to circular to eliminate Faraday rotation.",
+            "B. It places the heavy primary feed horn and low-noise amplifiers near the vertex of the dish, simplifying maintenance and reducing feed-line losses.",
+            "C. It increases the beamwidth of the antenna to provide wider angular coverage.",
+            "D. It allows the antenna to operate efficiently at low frequencies below 10 MHz without requiring large physical elements."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "In a microcomputer system, what is the purpose of the program counter (PC) register?",
+        "choices": [
+            "A. It stores the intermediate arithmetic results of the accumulator.",
+            "B. It holds the return address of the stack when a subroutine is called.",
+            "C. It counts the number of external clock cycles per instruction loop.",
+            "D. It holds the memory address of the next instruction to be fetched and executed by the microprocessor."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "Which active microwave oscillator uses a negative resistance region created by the transit time delay of electrons drifting through a semiconductor junction?",
+        "choices": [
+            "A. A PIN diode.",
+            "B. A varactor diode.",
+            "C. A Schottky barrier diode.",
+            "D. An IMPATT diode."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 28,
+        "question": "Which antenna type consists of a non-resonant, terminated transmission line configured in a diamond shape to produce a highly directive, unidirectional pattern?",
+        "choices": [
+            "A. A folded dipole antenna.",
+            "B. A rhombic antenna.",
+            "C. A Yagi-Uda antenna.",
+            "D. A loop antenna."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "Which of the following describes the 'fail-safe' behavior of secure access control doors in a Building Management System (BMS) during a power failure or fire alarm event?",
+        "choices": [
+            "A. The doors must lock permanently to secure building assets from potential theft during a crisis.",
+            "B. The doors must unlock automatically to ensure safe, unobstructed evacuation routes for all occupants.",
+            "C. The doors must remain in their last state and require manual security codes to be entered.",
+            "D. The doors must sound a local alarm and alert security personnel while cycling open and closed."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "What parameter of an active microwave Gunn diode causes it to oscillate when placed in a cavity with high-voltage DC bias?",
+        "choices": [
+            "A. The avalanche multiplication of charge carriers at its PN junction.",
+            "B. The velocity modulation of the electron beam passing through its grids.",
+            "C. Its bulk semiconductor negative differential resistance.",
+            "D. The capacitive tuning effect of its reverse-biased depletion region."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "What is the key advantage of a closed-loop control system compared to an open-loop control system?",
+        "choices": [
+            "A. It is much simpler and cheaper to design since it requires no sensors or transducers.",
+            "B. It uses a feedback loop to monitor the actual output and correct for any error or external disturbances.",
+            "C. It is always perfectly stable and can never experience oscillatory behavior.",
+            "D. It does not require any mathematical transfer function to specify its behavior."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "In Code Division Multiple Access (CDMA) systems, what ensures that multiple users can transmit on the same frequency at the same time without interfering with each other?",
+        "choices": [
+            "A. The allocation of distinct time slots to each user within a repeating frame structure.",
+            "B. The separation of channels using narrow frequency guard bands.",
+            "C. The continuous shifting of the local oscillator frequency using a pseudo-random pattern.",
+            "D. The use of unique, mathematically orthogonal spreading codes (such as Walsh codes) for each user."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "What does the term 'vocoder' stand for, and what is its primary application?",
+        "choices": [
+            "A. Voice coder, used to compress speech signals to REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS extremely low bit rates by modeling the human vocal tract.",
+            "B. Voltage controller, used to regulate the power supply of a transmitter.",
+            "C. Volume compressor, used to limit the dynamic range of an audio broadcast.",
+            "D. Vector correlator, used to decode orthogonal codes in CDMA systems."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "What does 'aliasing' look like in an under-sampled digitized audio signal?",
+        "choices": [
+            "A. The entire audio track suffers from a gradual decrease in volume over time.",
+            "B. The audio phase is shifted by 180 degrees, causing a complete cancellation of the sound.",
+            "C. The audio experiences periodic silence or dropouts due to buffer underrun.",
+            "D. High-frequency sounds are incorrectly folded into the lower audible frequency spectrum as harsh, distorted frequencies."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 35,
+        "question": "In a Decimation-in-Time Fast Fourier Transform (FFT) algorithm, how are the input data samples ordered before processing?",
+        "choices": [
+            "A. In bit-reversed order, obtained by reversing the binary representation of the indices.",
+            "B. In descending order of their physical amplitude values.",
+            "C. In natural sequential order from index 0 to N-1.",
+            "D. In alternating odd and even indices sorted by frequency components."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 36,
+        "question": "Which of the following statements correctly distinguishes 'white noise' from 'pink noise'?",
+        "choices": [
+            "A. White noise has a flat power spectral density across all frequencies, whereas pink noise has constant energy per octave (power decreases as frequency increases).",
+            "B. White noise is completely deterministic, whereas pink noise has highly unpredictable random behavior.",
+            "C. White noise is generated only by active electronic components, while pink noise is caused by thermal agitation in resistors.",
+            "D. White noise has a power spectral density that increases with frequency, while pink noise has a flat spectral density."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "In a superheterodyne receiver, what is the primary benefit of utilizing a double-conversion design with two separate intermediate frequencies (IFs)?",
+        "choices": [
+            "A. It eliminates the need for a local oscillator, lowering the overall cost of the receiver.",
+            "B. It simultaneously achieves high image frequency rejection (using the high first IF) and high selectivity/gain (using the low second IF).",
+            "C. It prevents shot noise and thermal noise from being amplified in the RF stage.",
+            "D. It allows the receiver to demodulate both AM and FM signals simultaneously without switching detectors."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "Which network routing algorithm is static and forwards a packet to every outgoing link except the one on which it arrived?",
+        "choices": [
+            "A. Link-State routing.",
+            "B. Flooding.",
+            "C. Distance-Vector routing.",
+            "D. Shortest-path first routing."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "In digital logic, what is the main characteristic of a Mealy sequential state machine compared to a Moore state machine?",
+        "choices": [
+            "A. In a Mealy machine, the outputs depend on both the current state and the current inputs, whereas in a Moore machine, outputs depend only on the current state.",
+            "B. A Mealy machine can only be designed using JK flip-flops, whereas a Moore machine uses D flip-flops.",
+            "C. A Mealy machine requires twice as many states to represent the same logical process.",
+            "D. A Mealy machine has no clock inputs and operates strictly asynchronously."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 40,
+        "question": "Why is thermal noise also referred to as 'Johnson-Nyquist noise'?",
+        "choices": [
+            "A. Because it was experimentally discovered by J.B. Johnson and mathematically analyzed by Harry Nyquist based on thermodynamics.",
+            "B. Because they formulated the Shannon-Hartley theorem regarding the maximum capacity of a noisy channel.",
+            "C. Because they proved that thermal noise power is inversely proportional to absolute temperature.",
+            "D. Because they designed the first low-noise amplifiers used in transatlantic telephone cables."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "Which of the following defines 'even symmetry' for a continuous-time signal f(t)? REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+        "choices": [
+            "A. f(t) = -f(t).",
+            "B. f(t) = f(-t).",
+            "C. f(t) = -f(-t).",
+            "D. f(t) = 1/f(t)."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "In building safety networks, what describes a 'Class A' fire alarm circuit configuration?",
+        "choices": [
+            "A. A low-voltage circuit that can only support thermal heat detectors but not smoke detectors.",
+            "B. An open-wire circuit that does not monitor for physical faults or line breaks.",
+            "C. A wireless radio connection that requires no physical wiring between the panel and the detectors.",
+            "D. A loop configuration where the circuit is wired back to the panel, allowing full supervision and operation even in the event of a single open-circuit fault."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 43,
+        "question": "Why is a Gibbs phenomenon observed when a discontinuous signal is reconstructed using a truncated Fourier series?",
+        "choices": [
+            "A. Because the sampling rate used to digitize the signal was less than the Nyquist rate.",
+            "B. Because approximating a step discontinuity with a finite sum of continuous sine waves always results in persistent oscillatory overshoots near the discontinuity.",
+            "C. Because the signal's energy is not absolutely integrable over a single period.",
+            "D. Because the system introduces non-linear phase shifts across the passband of the filter."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "What is the function of a 'circulator' in microwave transmission lines?",
+        "choices": [
+            "A. An active diode circuit that multiplies the frequency of the input microwave carrier.",
+            "B. An impedance-matching stub used to connect balanced lines to unbalanced waveguides.",
+            "C. A non-reciprocal multiport junction that directs a signal entering any port to the next sequential port only.",
+            "D. A highly resonant metal cavity used to filter out unwanted adjacent-channel interference."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "What is the primary function of an optocoupler (opto-isolator) in electronic control systems?",
+        "choices": [
+            "A. To convert parallel digital data lines into high-speed serial fiber optic signals.",
+            "B. To transmit signals across an optical barrier using light, providing complete electrical and galvanic isolation between high-voltage and low-voltage circuits.",
+            "C. To amplify low-level analog sensor signals using laser light.",
+            "D. To measure ambient light levels and adjust the display brightness automatically."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "What is the effect of 'Faraday rotation' on satellite communications, and how is it mitigated?",
+        "choices": [
+            "A. The gradual bending of the wave's path due to atmospheric temperature gradients, mitigated by using directive horns.",
+            "B. The attenuation of the microwave carrier due to heavy rainfall, mitigated by increasing the transmitter power.",
+            "C. The rotation of a wave's polarization plane as it passes through the ionosphere, mitigated by utilizing circular polarization.",
+            "D. The phase cancellation of the signal due to multipath reflections, mitigated by employing space diversity."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "In an angle-modulated system, what happens to the total transmitted power as the modulation index increases?",
+        "choices": [
+            "A. The total power increases proportionally with the square of the modulation index.",
+            "B. The total power fluctuates sinusoidally depending on the odd or even nature of the modulation index.",
+            "C. The total power remains completely constant and equal to the power of the unmodulated carrier.",
+            "D. The total power decreases because power is transferred from the carrier to the sidebands."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "What is the role of a 'guard band' in Frequency Division Multiplexing (FDM) systems?",
+        "choices": [
+            "A. A metal shielding ring placed around coaxial connectors to minimize electromagnetic radiation.",
+            "B. An unused frequency spectrum segment left between adjacent channels to prevent crosstalk and filtering overlap.",
+            "C. A software safety threshold used to limit the maximum gain of the intermediate frequency (IF) amplifier.",
+            "D. A digital prefix added to data frames to manage receiver frame synchronization."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "In a phase-locked loop (PLL), what describes the stage where the loop is tracking input frequency variations but with a constant phase error?",
+        "choices": [
+            "A. Unlocked state. REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "B. Free-running state.",
+            "C. Locked state.",
+            "D. Acquisition state."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "What is the polarization of an electromagnetic wave whose electric field vector traces out a circle perpendicular to the direction of propagation?",
+        "choices": [
+            "A. Circular polarization.",
+            "B. Vertical polarization.",
+            "C. Elliptical polarization with a horizontal major axis.",
+            "D. Horizontal polarization."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "Which device is used to interface an unbalanced transmission line, such as a coaxial cable, to a balanced antenna, such as a dipole, to prevent common-mode shield currents?",
+        "choices": [
+            "A. A directional coupler.",
+            "B. A waveguide attenuator.",
+            "C. A balun.",
+            "D. A loading coil."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "In the design of FIR filters, what is the primary trade-off when selecting a Kaiser window over a rectangular window?",
+        "choices": [
+            "A. The Kaiser window provides much higher sidelobe attenuation but results in a wider transition band.",
+            "B. The Kaiser window completely eliminates phase distortion but requires infinite computations.",
+            "C. The Kaiser window makes the filter recursive but reduces memory consumption.",
+            "D. The Kaiser window yields a much narrower transition band but introduces higher passband ripple."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "Which of the following describes the Dirichlet conditions required for a periodic signal to have a valid Fourier series representation?",
+        "choices": [
+            "A. The signal must be completely continuous with no sharp transitions or step changes.",
+            "B. The signal must have an infinite number of zero-crossings and bounded peak-to-peak amplitude.",
+            "C. The signal must have a finite number of maxima, minima, and discontinuities within any single period, and must be absolutely integrable over one period.",
+            "D. The signal must be an even function with zero DC offset and containing only odd harmonics."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "Which line coding scheme represents a binary '1' with a transition in the middle of the bit interval and a binary '0' with no transition, providing strong timing information?",
+        "choices": [
+            "A. Alternate Mark Inversion (AMI).",
+            "B. Differential Manchester coding.",
+            "C. Unipolar Return-to-Zero (RZ).",
+            "D. Non-Return-to-Zero (NRZ)."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "What is the function of the Stack Pointer (SP) register in a microcontroller?",
+        "choices": [
+            "A. It determines the next address to be fetched from the program memory space.",
+            "B. It directly decodes the current machine-language instruction from memory.",
+            "C. It keeps track of the physical status flags such as zero, carry, and overflow.",
+            "D. It holds the memory address of the last program request or return location stored on the stack."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 56,
+        "question": "In the context of the Z-transform, what is the geometric significance of the Region of Convergence (ROC) for a stable LTI system?",
+        "choices": [
+            "A. The ROC must exclude the real and imaginary axes of the z-plane.",
+            "B. The ROC must be bounded entirely within the interior of the unit circle.",
+            "C. The ROC must contain the unit circle in the z-plane.",
+            "D. The ROC must be a closed, rectangular region centered at the origin."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "Which multiplexing technique pre-assigns fixed time slots to each user, meaning that if a user is idle, their assigned slot remains completely empty and wasted?",
+        "choices": [
+            "A. Frequency Division Multiplexing (FDM).",
+            "B. Asynchronous Code Division Multiplexing (CDMA).",
+            "C. Synchronous Time Division Multiplexing (Sync TDM).",
+            "D. Statistical Time Division Multiplexing (Stat TDM)."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "In virtual private networks (VPNs), what is the function of 'split tunneling'?",
+        "choices": [
+            "A. It splits the data stream into two redundant paths to improve transmission speed and reliability.",
+            "B. It divides the physical communication link into separate voice and data channels.",
+            "C. It encrypts the packet headers separately from the payload to prevent traffic analysis. REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "D. It routes secure corporate traffic through the encrypted VPN tunnel while permitting general internet traffic to access the public network directly."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 59,
+        "question": "What is the primary objective of employing a Gray code instead of standard binary code for shaft encoders and analog-to-digital converters?",
+        "choices": [
+            "A. It provides built-in single-bit error detection and parity checking.",
+            "B. It compresses the data sequence to minimize the required transmission bandwidth.",
+            "C. Only a single bit changes state at any transition, which completely eliminates spurious glitch states and reading errors.",
+            "D. It allows for direct arithmetic operations without requiring logic decoders."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "What is the key advantage of a helical antenna operating in its normal (broadside) mode?",
+        "choices": [
+            "A. It has a high feed-point impedance of exactly 300 ohms.",
+            "B. It radiates circularly polarized waves with high directive gain.",
+            "C. It operates over an extremely wide frequency bandwidth of several octaves.",
+            "D. It provides a radiation pattern that is perpendicular to the antenna axis, behaving as a short vertical monopole."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "In standard NTSC television, why is interlaced scanning used instead of progressive scanning?",
+        "choices": [
+            "A. To simplify the synchronization circuits in the receiver and reduce manufacturing costs.",
+            "B. To allow the transmission of color information over a standard black-and-white channel.",
+            "C. To reduce flicker by doubling the apparent frame rate while keeping the video signal bandwidth within limits.",
+            "D. To ensure that the audio signal remains perfectly synchronized with the video signal."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "Which microwave tube uses a slow-wave helix structure to achieve an extremely wide operating bandwidth by continuously interacting an electron beam with an RF wave?",
+        "choices": [
+            "A. A cavity magnetron.",
+            "B. A Traveling-Wave Tube (TWT).",
+            "C. A reflex klystron.",
+            "D. A multicavity klystron."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "For an analog filter to be successfully mapped to a stable digital filter using the bilinear transformation, what region of the s-plane must map to the interior of the unit circle in the z-plane?",
+        "choices": [
+            "A. The imaginary axis of the s-plane only.",
+            "B. The entire left-half of the s-plane (LHP).",
+            "C. A narrow strip along the real axis of the s-plane.",
+            "D. The entire right-half of the s-plane (RHP)."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "What physical mechanism is responsible for generating 'shot noise' in active semiconductor devices?",
+        "choices": [
+            "A. The physical collisions between high-energy electrons and the molecular lattice of the cladding.",
+            "B. The random thermal agitation of free electrons within a resistive conductor.",
+            "C. The random fluctuations in the arrival rate of individual charge carriers crossing a potential barrier or junction.",
+            "D. The external atmospheric discharges and lightning strikes in the vicinity of the antenna."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "What does the term 'K-factor' in radio link budget planning describe?",
+        "choices": [
+            "A. The ratio of the effective Earth radius to the true physical Earth radius, used to account for atmospheric refraction.",
+            "B. The ratio of the antenna's directive gain to its physical aperture area.",
+            "C. The attenuation constant of rain and atmospheric moisture at frequencies above 10 GHz.",
+            "D. The ratio of the maximum usable frequency to the optimum working frequency."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Which OSI layer is responsible for translating logical IP addresses into physical MAC addresses using the Address Resolution Protocol (ARP)?",
+        "choices": [
+            "A. The Data Link Layer (Layer 2) handles ARP operations to bridge Layer 3 logical addresses to local physical addresses.",
+            "B. The Physical Layer (Layer 1) handles ARP to control the voltage levels on the Ethernet cable.",
+            "C. The Transport Layer (Layer 4) handles ARP to manage end-to-end logical connections.",
+            "D. The Network Layer (Layer 3) handles ARP REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS exclusively within global routing protocols."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 67,
+        "question": "What physical parameter of an antenna defines the angle between the two directions in which the radiated power density is half of its maximum value?",
+        "choices": [
+            "A. Directive Gain.",
+            "B. Aperture Efficiency.",
+            "C. Half-Power Beamwidth (HPBW).",
+            "D. Front-to-Back Ratio."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "What is the skip zone in radio wave propagation?",
+        "choices": [
+            "A. The quiet zone between the outer limit of ground-wave propagation and the point where the sky-wave first returns to Earth.",
+            "B. The distance from the transmitter to its line-of-sight horizon along the curvature of the Earth.",
+            "C. The area where the first Fresnel zone is blocked by a physical obstacle, causing severe diffraction loss.",
+            "D. The range of frequencies that are completely absorbed by the D-layer of the ionosphere during the daytime."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "What is 'modal dispersion' in multi-mode optical fibers, and how does it affect data transmission?",
+        "choices": [
+            "A. The pulse broadening caused by different light rays (modes) traveling different path lengths through the fiber, which limits the maximum data rate and distance of the link.",
+            "B. The gradual loss of optical power due to light scattering off microscopic impurities in the glass core.",
+            "C. The absorption of light energy by hydroxyl ions trapped in the fiber material during manufacturing.",
+            "D. The bending of light rays around sharp curves in the cable, causing light to leak into the cladding."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "Which statement is correct regarding the relationship between a signal's autocorrelation function and its power spectral density (PSD)?",
+        "choices": [
+            "A. They are entirely independent representations of the signal's energy distribution.",
+            "B. The PSD is the derivative of the autocorrelation function with respect to time delay.",
+            "C. The autocorrelation function is always equal to the square root of the PSD.",
+            "D. They form a Fourier transform pair, as established by the Wiener-Khinchin theorem."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 71,
+        "question": "In radio propagation, what is 'tropospheric scatter'?",
+        "choices": [
+            "A. The severe absorption of microwave energy by water vapor and rain clouds.",
+            "B. The trapping of VHF waves in a duct of cool air bounded by layers of warm air near the Earth's surface.",
+            "C. The reflection of low-frequency waves off the highly conductive ground surface.",
+            "D. A propagation mechanism that allows UHF and microwave signals to travel far beyond the horizon by scattering off turbulences in the troposphere."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "Which type of line coding scheme represents a binary '0' with zero voltage and a binary '1' with a transition at the beginning of the bit interval?",
+        "choices": [
+            "A. Non-Return-to-Zero-Inverted (NRZI).",
+            "B. Manchester coding.",
+            "C. Unipolar Return-to-Zero (RZ).",
+            "D. Alternate Mark Inversion (AMI)."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "Why does a vertical antenna require a highly conductive ground plane or radial system to operate efficiently?",
+        "choices": [
+            "A. To act as a low-loss electrical mirror that creates an image antenna, forming a complete half-wave dipole structure.",
+            "B. To protect the antenna feed line from lightning strikes and electrostatic charge build-up.",
+            "C. To prevent the antenna from radiating horizontally polarized waves that would cause co-channel interference.",
+            "D. To match the low characteristic impedance of the coaxial cable to the high impedance of free space."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "Which data-link layer framing technique inserts a special escape character before any payload byte that resembles a frame delimiter flag?",
+        "choices": [
+            "A. Character counting.",
+            "B. Character stuffing.",
+            "C. Violation coding.",
+            "D. Bit stuffing."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "What causes 'Rayleigh scattering' in silica optical fibers?",
+        "choices": [
+            "A. The leakage of light through the core-cladding boundary due to an insufficient critical angle.",
+            "B. Microscopic density and refractive index fluctuations in the glass core that are much smaller than the wavelength of the light. REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "C. The physical absorption of light energy by water molecules (hydroxyl ions) trapped in the core.",
+            "D. The structural defects and microbends introduced during the cabling and installation process."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "Why is a dummy load utilized when testing an RF transmitter?",
+        "choices": [
+            "A. To increase the modulation index of the AM signal during audio checks.",
+            "B. To protect the transmitter's final amplifier from high voltage surges in the power line.",
+            "C. To absorb the transmitter's output power and prevent the radiation of illegal radio signals during testing.",
+            "D. To simulate the effects of multipath fading on the transmitted signal."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "Which network model is characterized by having no centralized control or dedicated server, with all participating nodes sharing equal roles?",
+        "choices": [
+            "A. Mainframe-terminal network.",
+            "B. Star-bus hybrid network.",
+            "C. Peer-to-peer (P2P) network.",
+            "D. Client-server network."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "What is the primary purpose of employing a temporary pre-emphasis and de-emphasis in frequency modulation (FM) broadcasting systems?",
+        "choices": [
+            "A. To allow the transmission of stereophonic audio channels over a single monophonic RF link.",
+            "B. To synchronize the phase of the local oscillator in the receiver with the transmitter's carrier.",
+            "C. To improve the signal-to-noise ratio at high modulating frequencies by boosting them before transmission and attenuating them at the receiver.",
+            "D. To limit the maximum frequency deviation of the carrier to prevent overmodulation and adjacent-channel spillover."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "What is the main limitation of a bus network topology?",
+        "choices": [
+            "A. Devices can only communicate in half-duplex simplex mode.",
+            "B. It requires a high-performance central switch to route frames.",
+            "C. It is extremely expensive to install compared to a full mesh topology.",
+            "D. A single break in the backbone cable can disable the entire network."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "In wave propagation, what does 'refraction' refer to?",
+        "choices": [
+            "A. The bending of waves around physical obstacles or sharp edges.",
+            "B. The bending of electromagnetic waves as they pass through a medium with a varying refractive index or dielectric constant.",
+            "C. The reflection of radio waves off highly conductive planetary surfaces.",
+            "D. The gradual loss of signal strength due to absorption by atmospheric gases."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "What is the main limitation of a simple diode envelope detector when demodulating an AM wave with a modulation index greater than 1.0 (overmodulation)?",
+        "choices": [
+            "A. It behaves as a bandpass filter, completely blocking the audio frequencies from reaching the speaker.",
+            "B. It suffers from thermal runaway due to the excessive power contained in the overmodulated sidebands.",
+            "C. It cannot track the phase reversals of the carrier, leading to severe envelope clipping and harmonic distortion in the recovered audio.",
+            "D. It automatically shifts the receiver's local oscillator, causing a loss of channel synchronization."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "Which microwave waveguide component has four ports and is constructed by joining E-plane and H-arm T-junctions, allowing it to act as a hybrid junction?",
+        "choices": [
+            "A. Directional Coupler.",
+            "B. Magic Tee.",
+            "C. Ferrite Isolator.",
+            "D. Rotary Joint."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "In FM receivers, what is the function of the limiter stage placed immediately before the discriminator?",
+        "choices": [
+            "A. To restrict the maximum frequency deviation of the signal to protect the audio amplifier.",
+            "B. To remove any amplitude variations caused by noise or fading, ensuring a constant-envelope signal is presented to the detector.",
+            "C. To filter out the image frequency and prevent adjacent-channel interference.",
+            "D. To automatically adjust the receiver's gain to track weak RF signals. REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "What is the frequency of the pilot carrier used in FM stereo broadcasting, and what is its purpose?",
+        "choices": [
+            "A. 19 kHz, used to reconstruct the coherent 38 kHz subcarrier needed to demodulate the stereo difference signal.",
+            "B. 38 kHz, used to identify the stereo station on the receiver's digital tuning display.",
+            "C. 57 kHz, used to broadcast RDS data traffic information to car radios.",
+            "D. 67 kHz, used to transmit SCA background music to commercial subscribers."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "Which IEC 61131-3 standard PLC programming language is graphical and uses blocks representing logic gates and control functions linked by lines?",
+        "choices": [
+            "A. Structured Text (ST).",
+            "B. Function Block Diagram (FBD).",
+            "C. Ladder Logic (LD).",
+            "D. Instruction List (IL)."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "In a public switched telephone network (PSTN), what is the primary role of the Central Office (CO)?",
+        "choices": [
+            "A. To provide switching, routing, and DC power supply (nominal -48V) to all local subscriber loops within its service area.",
+            "B. To manage virtual private network (VPN) tunnels between private branch exchanges.",
+            "C. To perform analog-to-digital conversion using 16-bit linear pulse code modulation.",
+            "D. To modulate analog voice signals onto microwave carriers for satellite transmission."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "What is the physical significance of group delay in a communication channel or filter?",
+        "choices": [
+            "A. It represents the rate of change of phase shift with respect to frequency, indicating the time delay experienced by the signal envelope.",
+            "B. It represents the average time it takes for a single binary bit to pass through the physical channel.",
+            "C. It is the time delay between the direct ground-wave wave and the ionospheric sky-wave.",
+            "D. It is the phase shift experienced by the carrier signal relative to the local oscillator."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "Which thyristor is a bidirectional device that can conduct current in both directions and can be triggered by either positive or negative gate pulses?",
+        "choices": [
+            "A. A DIAC.",
+            "B. An SCR.",
+            "C. A Silicon Controlled Switch (SCS).",
+            "D. A TRIAC."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "In DSP, why is the Bilinear Transformation preferred over the Impulse Invariance method for designing high-pass filters?",
+        "choices": [
+            "A. The Bilinear Transformation produces only Finite Impulse Response (FIR) digital filters.",
+            "B. The Bilinear Transformation preserves the exact linear phase response of the analog prototype.",
+            "C. The Bilinear Transformation does not require any frequency warping correction during the design process.",
+            "D. The Bilinear Transformation completely avoids aliasing in the frequency domain by mapping the entire continuous-time frequency range to the unit circle."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "In waveguides, why is the TE11 mode the dominant mode in a circular waveguide?",
+        "choices": [
+            "A. Because it propagates without reflecting off the curved metal walls.",
+            "B. Because it is the only mode that can support transverse electromagnetic wave propagation.",
+            "C. Because it has no longitudinal electric field component.",
+            "D. Because it has the lowest cutoff frequency of all possible circular waveguide modes."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "Which of the following describes the operation of a Direct Memory Access (DMA) controller?",
+        "choices": [
+            "A. It translates physical memory addresses into logical virtual addresses to manage the cache.",
+            "B. It acts as an automatic interrupt service handler for all analog sensor inputs.",
+            "C. It allows high-speed external I/O devices to transfer data directly to or from system memory without continuous microprocessor intervention.",
+            "D. It decodes incoming parallel data buses into serial formats for the SPI interface."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "What occurs when an electromagnetic wave travels through the ionosphere and encounters a region of increased ionization density?",
+        "choices": [
+            "A. The wave's magnetic field is completely absorbed, converting it into a electrostatic wave. REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "B. The wave's velocity increases beyond the speed of light in vacuum, violating causality.",
+            "C. The wave's polarization is rotated permanently by exactly 90 degrees.",
+            "D. The wave's path is refracted (bent) away from the region of higher density toward the region of lower density."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "Which of the following describes the 'Peltier effect'?",
+        "choices": [
+            "A. The generation of an electrical voltage along a conductor when subjected to a physical temperature gradient.",
+            "B. The generation of an electrical charge across the faces of a crystal when subjected to physical pressure.",
+            "C. The variation in the electrical resistance of a metal wire when subjected to mechanical strain.",
+            "D. The absorption or release of heat at the junction of two dissimilar electrical conductors when an electric current passes through them."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "Why is class C amplification unsuitable for amplifying a standard amplitude-modulated (AM) signal in the final stage of a transmitter?",
+        "choices": [
+            "A. Because Class C amplifiers are highly non-linear devices that would clip and severely distort the modulating envelope of the AM wave.",
+            "B. Because Class C amplifiers suppress the carrier signal, transforming the AM wave into an SSB wave.",
+            "C. Because Class C amplifiers have extremely low efficiency, causing excessive heat dissipation.",
+            "D. Because Class C amplifiers cannot operate at the high frequencies used for radio transmission."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "On a Smith Chart, what is represented by a movement along a circle of constant standing wave ratio (SWR) in the clockwise direction?",
+        "choices": [
+            "A. Moving along the physical transmission line toward the load away from the generator.",
+            "B. Moving along the physical transmission line away from the load toward the generator.",
+            "C. Adding a parallel capacitive stub to match the mismatched line.",
+            "D. Increasing the operating frequency of the transmitter connected to the line."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "Which multiplexing technique is widely used in optical fiber communication links to combine multiple light signals of different wavelengths onto a single fiber?",
+        "choices": [
+            "A. Time Division Multiplexing (TDM).",
+            "B. Frequency Division Multiplexing (FDM).",
+            "C. Code Division Multiplexing (CDM).",
+            "D. Wavelength Division Multiplexing (WDM)."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "How does the noise figure of a cascaded amplifier system depend on the characteristics of its individual stages, according to Friis' formula?",
+        "choices": [
+            "A. The overall noise figure is simply the sum of the noise figures of all individual stages in the cascade.",
+            "B. The overall noise figure depends only on the stage with the highest power gain in the chain.",
+            "C. The overall noise figure is calculated by multiplying the noise factors of all stages together.",
+            "D. The noise figure of the first stage dominates the overall system noise figure, while the noise contribution of subsequent stages is divided by the preceding stages' gains."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 98,
+        "question": "What physical property of a microwave cavity resonator determines its Quality Factor (Q)?",
+        "choices": [
+            "A. The dielectric constant of the insulating material used to fill the cavity.",
+            "B. The ratio of the energy stored in the cavity to the energy dissipated per cycle as heat in the metal walls.",
+            "C. The magnitude of the external magnetic focusing field applied to the cavity grids.",
+            "D. The physical dimensions of the aperture opening relative to the operating wavelength."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "What is the function of the 'color killer' circuit in a color television receiver?",
+        "choices": [
+            "A. To disable the chrominance amplifier during a monochrome broadcast to prevent colored noise (confetti) from appearing on the screen.",
+            "B. To automatically adjust the intensity of the green electron gun to balance the color temperature.",
+            "C. To shut down the picture tube when the station goes off the air to prevent phosphor burn.",
+            "D. To eliminate the 3.58 MHz color subcarrier during horizontal retrace to protect the deflection circuits."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 100,
+        "question": "In an analog television receiver, what is the purpose of the horizontal sync pulses?",
+        "choices": [
+            "A. To synchronize the horizontal scanning sweep of the electron gun with that of the transmitter.",
+            "B. To modulate the audio signal onto the intercarrier REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS frequency.",
+            "C. To adjust the brightness of the screen dynamically based on the scene.",
+            "D. To disable the color amplifier during the horizontal blanking interval. REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "A"
+    }
+]

@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "The Shannon-Hartley theorem relates channel capacity to:",
+        "choices": [
+            "A. Bandwidth and Signal-to-Noise Ratio",
+            "B. Transmitter power and Carrier frequency",
+            "C. Modulation index and Baud rate",
+            "D. Antenna gain and Wavelength"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "Which transmission mode allows two-way communication, but strictly only one direction at a time?",
+        "choices": [
+            "A. Full-Duplex",
+            "B. Half-Duplex",
+            "C. Simplex",
+            "D. Multiplex"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "The process of impressing an information signal onto a higher-frequency carrier is called:",
+        "choices": [
+            "A. Demodulation",
+            "B. Multiplexing",
+            "C. Modulation",
+            "D. Attenuation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "An absolute power level of 2 Watts is equivalent to how many dBm?",
+        "choices": [
+            "A. +2 dBm",
+            "B. +20 dBm",
+            "C. +30 dBm",
+            "D. +33 dBm"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "The standard voice channel passband used in traditional telephone systems spans from:",
+        "choices": [
+            "A. 300 Hz to 3.4 kHz",
+            "B. 20 Hz to 20 kHz",
+            "C. 0 Hz to 4 kHz",
+            "D. 100 Hz to 10 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "Which of the following best defines \"Baseband\" transmission?",
+        "choices": [
+            "A. Sending signals using an RF carrier",
+            "B. Sending the original information signal without modulation",
+            "C. Sending digital signals over a fiber optic cable using lasers",
+            "D. Multiplexing several signals into one passband"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "According to the ITU, the Ultra High Frequency (UHF) band covers:",
+        "choices": [
+            "A. 3 MHz to 30 MHz",
+            "B. 30 MHz to 300 MHz",
+            "C. 300 MHz to 3 GHz",
+            "D. 3 GHz to 30 GHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "If a receiver has a sensitivity of -90 dBm, what is this power level in Watts?",
+        "choices": [
+            "A. 1 microWatt",
+            "B. 1 nanoWatt",
+            "C. 1 milliWatt",
+            "D. 1 picoWatt"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "External noise is broadly classified into three categories: atmospheric, extraterrestrial, and:",
+        "choices": [
+            "A. Man-made (Industrial) noise",
+            "B. Thermal noise",
+            "C. Shot noise",
+            "D. Transit-time noise"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "Atmospheric noise or static is primarily caused by:",
+        "choices": [
+            "A. Sunspot activity",
+            "B. Lightning discharges and thunderstorms",
+            "C. Ignition systems",
+            "D. Thermal agitation of electrons"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "Galactic noise, a subcategory of extraterrestrial noise, is most significant at frequencies:",
+        "choices": [
+            "A. Below 15 MHz",
+            "B. Above 10 GHz",
+            "C. Between 15 MHz and 500 MHz",
+            "D. In the infrared region"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "Solar noise intensity is closely correlated with a cycle of sunspot activity that peaks approximately every:",
+        "choices": [
+            "A. 5 years",
+            "B. 7 years",
+            "C. 22 years",
+            "D. 11 years"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Man-made noise, also called industrial noise, typically dominates over atmospheric and galactic noise in urban areas up to a frequency of approximately:",
+        "choices": [
+            "A. 500 MHz",
+            "B. 10 GHz",
+            "C. 30 MHz",
+            "D. 1 MHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Extraterrestrial noise is sometimes referred to as deep-space noise. It is divided into galactic noise and:",
+        "choices": [
+            "A. Cosmic microwave background",
+            "B. Solar noise",
+            "C. Ionospheric noise",
+            "D. Tropospheric scatter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Which type of external noise is inversely proportional to frequency, making it the dominant external noise source in the AM broadcast band but negligible in the UHF band?",
+        "choices": [
+            "A. Solar noise",
+            "B. Galactic noise",
+            "C. Atmospheric noise",
+            "D. Industrial noise"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "Impulse noise from automobile ignition systems is a prime example of:",
+        "choices": [
+            "A. Thermal noise",
+            "B. Correlated noise",
+            "C. Transit-time noise",
+            "D. Man-made noise"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "Which of the following is NOT a standard source of man-made noise?",
+        "choices": [
+            "A. Cosmic radiation",
+            "B. Electric motors",
+            "C. Fluorescent lights",
+            "D. High-voltage power lines"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "As frequency increases significantly beyond 30 MHz, the practical interference caused by atmospheric noise generally:",
+        "choices": [
+            "A. Increases exponentially",
+            "B. Decreases significantly",
+            "C. Remains completely constant",
+            "D. Resonates with the ionosphere"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Space noise consists of cosmic noise and solar noise. Cosmic noise is continuously distributed across the sky, whereas solar noise is:",
+        "choices": [
+            "A. A constant low-level background hiss",
+            "B. Dependent on Earth's weather conditions",
+            "C. Dependent on the sun's temperature and active flares",
+            "D. Generated by the earth's magnetic field"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "At frequencies above 30 GHz, extraterrestrial noise is heavily absorbed by the Earth's atmosphere, primarily by:",
+        "choices": [
+            "A. Nitrogen and Carbon Dioxide",
+            "B. Ozone and Argon",
+            "C. Dust particles and smog",
+            "D. Water vapor and Oxygen"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "Thermal noise is often referred to in engineering literature as Johnson noise or:",
+        "choices": [
+            "A. Nyquist noise",
+            "B. Shot noise",
+            "C. Flicker noise",
+            "D. Avalanche noise"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "The random motion of free electrons in a conductor caused by heat generates what specific type of noise?",
+        "choices": [
+            "A. Shot noise",
+            "B. Thermal noise",
+            "C. Partition noise",
+            "D. Excess noise"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "The noise power generated by a resistor is given by Pn = kTB. What is the accepted value of Boltzmann's constant (k)?",
+        "choices": [
+            "A. 1.6 x 10^-19 J/K",
+            "B. 6.626 x 10^-34 J/K",
+            "C. 1.38 x 10^-23 J/K",
+            "D. 8.85 x 10^-12 F/m"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "Thermal noise is officially classified as \"white noise\" because it inherently exhibits a:",
+        "choices": [
+            "A. Purely white visual appearance on an oscilloscope",
+            "B. Constant voltage magnitude across all temperatures",
+            "C. Flat phase response characteristic",
+            "D. Uniform power spectral density across a wide range of frequencies"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "Shot noise is primarily generated by:",
+        "choices": [
+            "A. The discrete, random arrival of charge carriers crossing a junction",
+            "B. The thermal agitation of electrons in a resistor",
+            "C. High-frequency transit time delays",
+            "D. Faulty soldering joints in the circuit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "The RMS shot noise current in a semiconductor diode is directly proportional to the square root of the:",
+        "choices": [
+            "A. Resistance and Temperature",
+            "B. Direct current (Idc) and Bandwidth (B)",
+            "C. Voltage and Frequency",
+            "D. Boltzmann constant and Area"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "Transit-time noise becomes a significant problem in semiconductor devices when:",
+        "choices": [
+            "A. The operating temperature exceeds 100 degrees C",
+            "B. The direct current is very low",
+            "C. The period of the high-frequency signal is comparable to the time it takes carriers to cross the junction",
+            "D. The bandwidth of the receiver is perfectly narrow"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Low-frequency noise that is inversely proportional to frequency is technically known as:",
+        "choices": [
+            "A. White noise",
+            "B. Shot noise",
+            "C. Thermal noise",
+            "D. Flicker noise (1/f noise)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "Determine the thermal noise power generated by a resistor at room temperature (290 K) over a bandwidth of 1 MHz. (Use k = 1.38 x 10^-23 J/K)",
+        "choices": [
+            "A. 4.0 x 10^-15 W",
+            "B. 4.0 x 10^-12 W",
+            "C. 1.38 x 10^-17 W",
+            "D. 1.38 x 10^-23 W"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Calculate the thermal noise voltage developed across a 50-ohm resistor at 290 K with a bandwidth of 100 kHz.",
+        "choices": [
+            "A. 0.28 uV",
+            "B. 0.283 uV",
+            "C. 0.9 uV",
+            "D. 1.5 uV"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "If the absolute temperature of a resistor is doubled, its available thermal noise power will:",
+        "choices": [
+            "A. Quadruple",
+            "B. Increase by a factor of 1.414",
+            "C. Double",
+            "D. Remain unchanged"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "Shot noise in a diode is quantified by In = sqrt(2*q*Idc*B). What does the constant 'q' represent?",
+        "choices": [
+            "A. Quality factor",
+            "B. Quantum state limit",
+            "C. Charge density",
+            "D. Electron charge (1.6 x 10^-19 C)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "A semiconductor diode has a forward DC current of 2 mA. Calculate the RMS shot noise current over a bandwidth of 10 MHz.",
+        "choices": [
+            "A. 80 nA",
+            "B. 8 nA",
+            "C. 0.8 nA",
+            "D. 800 nA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Partition noise specifically occurs in active devices like bipolar junction transistors (BJTs) because:",
+        "choices": [
+            "A. Holes and electrons recombine continuously",
+            "B. Emitter current divides randomly between the base and collector",
+            "C. Temperature fluctuates rapidly in the depletion region",
+            "D. Electrons collide randomly with the crystal lattice"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Avalanche noise is characterized by large noise spikes and is primarily observed in which of the following components?",
+        "choices": [
+            "A. Resistors",
+            "B. Capacitors",
+            "C. Zener diodes operating in reverse breakdown",
+            "D. Inductors"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Pink noise is another term occasionally used in audio and acoustics to describe a noise profile where power spectral density is inversely proportional to frequency. In electronics, this is analogous to:",
+        "choices": [
+            "A. Shot noise",
+            "B. Transit-time noise",
+            "C. Thermal noise",
+            "D. Flicker noise"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "If the bandwidth of a receiver is reduced by exactly half, the total thermal noise power at the output will:",
+        "choices": [
+            "A. Decrease by 50%",
+            "B. Decrease by 75%",
+            "C. Remain exactly the same",
+            "D. Increase by 50%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "A specific resistor generates a thermal noise voltage of 2 uV. If its resistance value is quadrupled while keeping temperature and bandwidth constant, the new noise voltage is:",
+        "choices": [
+            "A. 2 uV",
+            "B. 4 uV",
+            "C. 8 uV",
+            "D. 16 uV"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "What is the noise power spectral density (N0) of an ideal resistor sitting at exactly 290 K?",
+        "choices": [
+            "A. 4.0 x 10^-15 W/Hz",
+            "B. 4.0 x 10^-21 W/Hz",
+            "C. 4.0 x 10^-21 J (or W/Hz)",
+            "D. 1.38 x 10^-23 W/Hz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "At absolute zero (0 Kelvin), the theoretical thermal noise power generated by a resistor is:",
+        "choices": [
+            "A. Infinite",
+            "B. 4.0 x 10^-21 W",
+            "C. 1 mW",
+            "D. Zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "When two discrete resistors R1 and R2 are connected in series at the exact same temperature, the total equivalent thermal noise voltage Vn is given by:",
+        "choices": [
+            "A. sqrt(4kTB(R1 + R2))",
+            "B. 4kTB(R1 + R2)",
+            "C. sqrt(4kTBR1) + sqrt(4kTBR2)",
+            "D. 4kTB(R1*R2)/(R1+R2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "If three identical 100-ohm resistors are connected in series at 290K, what is the total equivalent noise resistance used to calculate the open-circuit noise voltage?",
+        "choices": [
+            "A. 100 ohms",
+            "B. 300 ohms",
+            "C. 33.3 ohms",
+            "D. 50 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Two resistors, 20 kOhm and 30 kOhm, are connected in parallel. What is the equivalent resistance used to compute the total thermal noise voltage at their combined terminals?",
+        "choices": [
+            "A. 50 kOhm",
+            "B. 25 kOhm",
+            "C. 12 kOhm",
+            "D. 600 kOhm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "If R1 = 50 ohms at 300 K and R2 = 50 ohms at 600 K are connected in series, what is the effective noise temperature of the series combination's equivalent resistance (100 ohms)?",
+        "choices": [
+            "A. 300 K",
+            "B. 600 K",
+            "C. 900 K",
+            "D. 450 K"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Calculate the total RMS noise voltage of a 10 kOhm resistor in series with a 15 kOhm resistor at 300 K over a bandwidth of 10 kHz.",
+        "choices": [
+            "A. 2.03 uV",
+            "B. 4.14 uV",
+            "C. 1.44 uV",
+            "D. 0.8 uV"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "A network consists of two parallel resistors, 100 ohms and 400 ohms, both at a uniform 290 K. What is the equivalent terminal noise voltage over a 1 MHz bandwidth?",
+        "choices": [
+            "A. 1.28 uV",
+            "B. 1.13 uV",
+            "C. 2.53 uV",
+            "D. 0.45 uV"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "Two identical resistors R are connected in parallel. The maximum available thermal noise power from this combination compared to a single resistor R is:",
+        "choices": [
+            "A. Halved",
+            "B. Doubled",
+            "C. Exactly the same",
+            "D. Squared"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "When multiple uncorrelated noise sources are combined in a linear circuit, their combined effect is correctly calculated by summing their:",
+        "choices": [
+            "A. Peak voltages",
+            "B. Peak currents",
+            "C. RMS voltages",
+            "D. Noise powers (mean square values)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "A 50-ohm resistor generates a specific noise voltage Vn. If an ideal 50-ohm noiseless resistor is connected in parallel with it, the new noise voltage at the terminals becomes:",
+        "choices": [
+            "A. Vn / sqrt(2)",
+            "B. Vn / 2",
+            "C. Vn * sqrt(2)",
+            "D. Vn"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "An amplifier has a voltage gain of 100. If the input thermal noise voltage is 2 uV, what is the output noise voltage assuming the amplifier is completely noiseless?",
+        "choices": [
+            "A. 200 mV",
+            "B. 200 uV",
+            "C. 20 uV",
+            "D. 2 uV"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "The maximum possible noise power that a source resistor can deliver to a perfectly matched load resistor (RL = R) is:",
+        "choices": [
+            "A. 4kTB",
+            "B. kTB/4",
+            "C. kTB",
+            "D. 2kTB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 53,
+        "question": "Calculate the maximum available noise power from a 75-ohm television antenna operating at an equivalent noise temperature of 290 K over a 6 MHz channel bandwidth.",
+        "choices": [
+            "A. 2.4 x 10^-14 W",
+            "B. 4.8 x 10^-14 W",
+            "C. 1.2 x 10^-14 W",
+            "D. 9.6 x 10^-14 W"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "A passive resistor network at uniform temperature T produces a terminal noise voltage. If all resistance values in the network are strictly doubled, the new terminal noise voltage:",
+        "choices": [
+            "A. Doubles",
+            "B. Increases by a factor of 1.414 (sqrt(2))",
+            "C. Halves",
+            "D. Remains the same"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "In rigorous noise analysis of reactive networks, an ideal purely capacitive or inductive component generates:",
+        "choices": [
+            "A. High-frequency noise only",
+            "B. Low-frequency noise only",
+            "C. Zero thermal noise",
+            "D. Infinite thermal noise"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "Signal-to-Noise Ratio (SNR) is mathematically defined as the ratio of:",
+        "choices": [
+            "A. Signal voltage to Noise voltage",
+            "B. Signal voltage to Noise power",
+            "C. Signal power to Noise voltage",
+            "D. Signal power to Noise power"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "If a receiver has an input signal power of 1 uW and an input noise power of 10 nW, what is the input SNR expressed in decibels?",
+        "choices": [
+            "A. 20 dB",
+            "B. 10 dB",
+            "C. 30 dB",
+            "D. 40 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "An amplifier inherently degrades the SNR of a signal passing through it. This degradation factor is formally quantified by the:",
+        "choices": [
+            "A. Dynamic range",
+            "B. Noise Factor (F)",
+            "C. Power gain",
+            "D. Phase margin"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Noise Factor (F) is explicitly defined as the linear ratio of:",
+        "choices": [
+            "A. Output SNR to Input SNR",
+            "B. Input Noise to Output Noise",
+            "C. Input SNR to Output SNR",
+            "D. Output Power to Input Power"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "Noise Figure (NF) is simply the numerical Noise Factor (F) algebraically expressed in:",
+        "choices": [
+            "A. Watts",
+            "B. Volts",
+            "C. Percentage",
+            "D. Decibels (dB)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "An ideal, perfectly noiseless amplifier that adds absolutely no internal noise to the signal would have a Noise Factor (F) of:",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. Infinity",
+            "D. -1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "An ideal, perfectly noiseless amplifier that adds absolutely no internal noise to the signal would have a Noise Figure (NF) of:",
+        "choices": [
+            "A. 1 dB",
+            "B. 0 dB",
+            "C. -1 dB",
+            "D. Infinity dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "If an amplifier receives a signal with an input SNR of 40 dB and outputs the signal with an SNR of 35 dB, what is its Noise Figure?",
+        "choices": [
+            "A. 75 dB",
+            "B. 15 dB",
+            "C. 5 dB",
+            "D. 40 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "Equivalent Noise Temperature (Te) relates analytically to Noise Factor (F) by the formula:",
+        "choices": [
+            "A. Te = T0 / (F - 1)",
+            "B. Te = T0 * (F + 1)",
+            "C. Te = (F - 1) / T0",
+            "D. Te = T0 * (F - 1)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "Calculate the equivalent noise temperature of a pre-amplifier with a linear Noise Factor of 2. (Assume standard T0 = 290 K)",
+        "choices": [
+            "A. 290 K",
+            "B. 580 K",
+            "C. 145 K",
+            "D. 0 K"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "A Low Noise Amplifier (LNA) specifies a Noise Figure of 3 dB. What is its approximate equivalent noise temperature?",
+        "choices": [
+            "A. 29 K",
+            "B. 290 K",
+            "C. 145 K",
+            "D. 580 K"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "If a receiver has an equivalent internal noise temperature of 145 K, what is its linear Noise Factor?",
+        "choices": [
+            "A. 1.0",
+            "B. 2.0",
+            "C. 1.5",
+            "D. 3.0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Which specific component in a cascaded receiver system generally has the most significant mathematical impact on the overall system Noise Figure?",
+        "choices": [
+            "A. The IF amplifier",
+            "B. The demodulator stage",
+            "C. The audio power amplifier",
+            "D. The first RF amplifier stage (LNA)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "Friis' formula for calculating the total Noise Factor (Ft) of a cascaded multi-stage system is given by:",
+        "choices": [
+            "A. Ft = F1 + (F2-1)/G1 + (F3-1)/(G1*G2) + ...",
+            "B. Ft = F1 * F2 * F3",
+            "C. Ft = F1 + F2/G1 + F3/G2",
+            "D. Ft = F1 + (F2-1)*G1 + (F3-1)*G1*G2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "In Friis' formula for noise factor, the variables G1, G2, etc., specifically represent the stages':",
+        "choices": [
+            "A. Noise figures in dB",
+            "B. Available power gains in linear scale",
+            "C. Voltage gains in linear scale",
+            "D. Power gains in dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "Two cascaded amplifiers have the following specifications: Amp 1 (F1 = 2, G1 = 10), Amp 2 (F2 = 11, G2 = 100). What is the total cascaded Noise Factor?",
+        "choices": [
+            "A. 13",
+            "B. 4",
+            "C. 3",
+            "D. 12"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "Convert the total cascaded Noise Factor of 3 (from the previous cascaded system) into a Noise Figure in decibels.",
+        "choices": [
+            "A. 6 dB",
+            "B. 3 dB",
+            "C. 10 dB",
+            "D. 4.77 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "A microwave receiver has an equivalent noise temperature of 870 K. What is its Noise Figure in dB? (Assume standard reference T0 = 290 K).",
+        "choices": [
+            "A. 6.02 dB",
+            "B. 3.01 dB",
+            "C. 10 dB",
+            "D. 12.5 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "In a cascaded electronic system, if the very first stage has a very high gain and a remarkably low noise figure, the noise contributions of all subsequent stages will be:",
+        "choices": [
+            "A. Amplified significantly",
+            "B. Rendered effectively negligible",
+            "C. Multiplied directly by the first stage's noise",
+            "D. Shifted upward in frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "A passive RF mixer stage has a conversion loss of exactly 6 dB. Assuming it behaves as a simple passive attenuator regarding noise, what is its Noise Figure?",
+        "choices": [
+            "A. 0 dB",
+            "B. 3 dB",
+            "C. 6 dB",
+            "D. 12 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "What is the formula for the total equivalent noise temperature (Te_total) of a cascaded system with stage temperatures Te1, Te2, Te3 and linear power gains G1, G2, G3?",
+        "choices": [
+            "A. Te_total = Te1 * Te2 / G1",
+            "B. Te_total = Te1 + Te2 + Te3",
+            "C. Te_total = Te1 + Te2*G1 + Te3*G1*G2",
+            "D. Te_total = Te1 + Te2/G1 + Te3/(G1*G2)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "A receiving antenna with an effective noise temperature of 100 K is connected to a receiver with an equivalent internal noise temperature of 190 K. What is the total operating system noise temperature?",
+        "choices": [
+            "A. 290 K",
+            "B. 100 K",
+            "C. 190 K",
+            "D. 90 K"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "Three identical amplifiers are cascaded in series. Each has a Noise Factor F = 3 and a linear gain G = 10. The total noise factor of the combination is:",
+        "choices": [
+            "A. 3.6",
+            "B. 3.22",
+            "C. 9",
+            "D. 3.3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "If the operational bandwidth of a system is doubled, the thermal noise power doubles. How does this directly affect the thermal noise voltage?",
+        "choices": [
+            "A. It doubles",
+            "B. It quadruples",
+            "C. It increases by a factor of 1.414",
+            "D. It remains the same"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "A received communication signal with a power of 50 mW is corrupted by 50 uW of noise. What is the Signal-to-Noise Ratio (SNR) in dB?",
+        "choices": [
+            "A. 10 dB",
+            "B. 20 dB",
+            "C. 40 dB",
+            "D. 30 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "In formally defining the standard Noise Factor, the IEEE standard reference temperature T0 is universally accepted as:",
+        "choices": [
+            "A. 290 K (approx 17 deg C)",
+            "B. 273 K (0 deg C)",
+            "C. 300 K (27 deg C)",
+            "D. 0 K (Absolute zero)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "The total combined noise voltage of three uncorrelated noise sources acting in series (V1=3mV, V2=4mV, V3=12mV) evaluates to:",
+        "choices": [
+            "A. 19 mV",
+            "B. 13 mV",
+            "C. 14 mV",
+            "D. 5 mV"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "Which noise figure of merit is technically preferred over Noise Figure (in dB) when dealing with highly sensitive, extremely low-noise microwave receivers like those in satellite communications?",
+        "choices": [
+            "A. Signal-to-Noise Ratio",
+            "B. Noise Factor",
+            "C. Equivalent Noise Temperature",
+            "D. SINAD"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "An amplifier has a Noise Figure of 6 dB and a power gain of 20 dB. If the signal entering the amplifier has an SNR of 30 dB, what is the SNR at the output?",
+        "choices": [
+            "A. 44 dB",
+            "B. 10 dB",
+            "C. 50 dB",
+            "D. 24 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "The ratio of the total noise power at the output of a system to the portion of that noise power strictly originating from the source resistor at standard temperature T0 is the fundamental definition of:",
+        "choices": [
+            "A. Noise Factor",
+            "B. Noise Margin",
+            "C. Signal-to-Noise Ratio",
+            "D. Equivalent Noise Temperature"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "A passive, lossy transmission line has an attenuation factor of L (where linear ratio L > 1). Its equivalent thermal noise temperature Te is theoretically given by:",
+        "choices": [
+            "A. T0 / L",
+            "B. T0 * (L - 1)",
+            "C. T0 * L",
+            "D. T0 / (L - 1)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "Calculate the equivalent noise temperature of a coaxial cable with a signal attenuation of exactly 3 dB, assuming it sits at a physical temperature of 290 K. (Note: 3 dB loss means L = 2).",
+        "choices": [
+            "A. 145 K",
+            "B. 580 K",
+            "C. 290 K",
+            "D. 0 K"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "For an electronic device or system to possess an equivalent noise temperature of exactly 0 K, it must fundamentally be:",
+        "choices": [
+            "A. A pure, zero-ohm resistor",
+            "B. Sitting exactly at room temperature",
+            "C. Cooled by liquid nitrogen",
+            "D. Perfectly noiseless internally"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "An amplifier has an input signal voltage of 100 uV and input noise voltage of 10 uV. The output signal voltage is 1 V and output noise voltage is 200 mV. Calculate the Noise Factor.",
+        "choices": [
+            "A. 4",
+            "B. 2",
+            "C. 10",
+            "D. 0.5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "A receiving antenna collects a signal of 10 pW and background noise of 1 pW. It is fed to an amplifier with a power gain of 1000 and a Noise Factor of 5. What is the output signal power?",
+        "choices": [
+            "A. 1 pW",
+            "B. 10 nW",
+            "C. 10 uW",
+            "D. 100 nW"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "Continuing from the previous scenario (Pin=10pW, Nin=1pW, G=1000, F=5), what is the calculated output noise power of the amplifier?",
+        "choices": [
+            "A. 1 nW",
+            "B. 10 nW",
+            "C. 5 nW",
+            "D. 50 nW"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "If a digital receiver explicitly requires a minimum output SNR of 10 dB to demodulate successfully, and it has an internal Noise Figure of 5 dB, what is the absolute minimum required input SNR?",
+        "choices": [
+            "A. 5 dB",
+            "B. 2 dB",
+            "C. 50 dB",
+            "D. 15 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "Correlated noise in communication systems encompasses harmonic distortion and intermodulation distortion. It is termed \"correlated\" because its existence and amplitude are directly dependent on the:",
+        "choices": [
+            "A. Information signal itself",
+            "B. Surrounding ambient temperature",
+            "C. Receiver's physical dimensions",
+            "D. Cosmic background radiation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "Intermodulation distortion strictly occurs when two or more distinct frequencies mix non-linearly in a(n):",
+        "choices": [
+            "A. Ideal linear amplifier",
+            "B. Non-linear device or amplifier",
+            "C. Purely resistive network",
+            "D. Perfect bandpass filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "A 100-ohm resistor at 300 K is placed in series with a 300-ohm resistor also at 300 K. What is the total thermal noise power available from this combination evaluated over a 1 Hz bandwidth?",
+        "choices": [
+            "A. 16.56 x 10^-21 W/Hz",
+            "B. 1.38 x 10^-23 W/Hz",
+            "C. 4.14 x 10^-21 W/Hz",
+            "D. 5.52 x 10^-21 W/Hz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "A satellite receiver's LNA has a gain of 20 dB and a noise temperature of 50 K. It is followed by a lossy mixer with a gain of -5 dB and a noise temperature of 500 K. What is the cascaded system noise temperature?",
+        "choices": [
+            "A. 550 K",
+            "B. 25 K",
+            "C. 5500 K",
+            "D. 55 K"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "A communication system reports an overall Noise Figure of 1.5 dB. Calculate its approximate equivalent noise temperature to the nearest Kelvin.",
+        "choices": [
+            "A. 120 K",
+            "B. 30 K",
+            "C. 290 K",
+            "D. 435 K"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "If the absolute input signal power is -40 dBm and the corresponding input noise power is measured at -80 dBm, the input SNR expressed in decibels is:",
+        "choices": [
+            "A. 120 dB",
+            "B. 40 dB",
+            "C. -40 dB",
+            "D. 2 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "In evaluating non-linear noise, the cross-product frequencies generated by mixing fundamental signals f1 and f2 (for example, generating 2f1 - f2) are directly responsible for causing:",
+        "choices": [
+            "A. Harmonic distortion",
+            "B. Phase noise",
+            "C. Intermodulation distortion",
+            "D. Flicker noise"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "Two specific amplifiers are to be cascaded. Amp A has NF = 2 dB, Gain = 10 dB. Amp B has NF = 6 dB, Gain = 20 dB. To achieve the lowest overall cascaded system Noise Figure, which design configuration must be used?",
+        "choices": [
+            "A. Amp B must be first in the chain",
+            "B. They must be placed in a parallel configuration",
+            "C. It doesn't matter, overall NF is identical either way",
+            "D. Amp A must be first in the chain"
+        ],
+        "correct_answer": "D"
+    }
+]

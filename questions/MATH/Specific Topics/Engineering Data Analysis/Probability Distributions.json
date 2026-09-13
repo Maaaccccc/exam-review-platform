@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "Which of the following defines the sample space of a random statistical experiment?",
+        "choices": [
+            "A. The set of all possible outcomes",
+            "B. A subset of favorable outcomes",
+            "C. The statistical probability of an outcome",
+            "D. The expected numerical value of the experiment"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "Two specific events are said to be mutually exclusive if they strictly:",
+        "choices": [
+            "A. Are statistically independent of each other",
+            "B. Cannot occur simultaneously in a single trial",
+            "C. Have a mathematical probability sum of 1",
+            "D. Exhaust the entire sample space completely"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "In the formal statement of Bayes' Theorem, the denominator of the equation directly represents which of the following?",
+        "choices": [
+            "A. Principle of Inclusion-Exclusion",
+            "B. Conditional Expectation Theorem",
+            "C. Law of Total Probability",
+            "D. Principle of Statistical Independence"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "For any continuous random variable, the Cumulative Distribution Function (CDF) across its domain must mathematically always be:",
+        "choices": [
+            "A. Strictly decreasing",
+            "B. A constant numerical value",
+            "C. Equal to the expected variance",
+            "D. Non-decreasing"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "The expected value E(X) of a discrete random variable X is mathematically computed by which exact operation?",
+        "choices": [
+            "A. The sum of x multiplied by P(x)",
+            "B. The sum of P(x) divided by x",
+            "C. The integral of x multiplied by f(x)",
+            "D. The sum of x squared multiplied by P(x)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "If X is a given random variable and c is a constant multiplier, which algebraic formula strictly holds true for the variance of cX?",
+        "choices": [
+            "A. c * Var(X)",
+            "B. c^2 * Var(X)",
+            "C. Var(X) / c",
+            "D. Var(X) + c"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "The conditional probability of event A occurring given that event B has strictly already occurred, denoted P(A",
+        "choices": [
+            "A. B), is formally calculated by:",
+            "B. P(A) / P(B)",
+            "C. P(A ∩ B)",
+            "D. P(A ∩ B) / P(B)"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 8,
+        "question": "Given P(A) = 0.4 and P(B) = 0.5. If events A and B are verified to be statistically independent, what is the exact probability of P(A U B)?",
+        "choices": [
+            "A. 0.90",
+            "B. 0.10",
+            "C. 0.20",
+            "D. 0.70"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "A standard binomial experiment strictly requires which of the following foundational conditions to be valid?",
+        "choices": [
+            "A. Independent trials with a constant probability of success",
+            "B. Dependent trials with varying conditions",
+            "C. A continuously changing probability space",
+            "D. Sampling taken without replacement"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "What is the precise algebraic formula for the mean (expected value) of a Binomial probability distribution?",
+        "choices": [
+            "A. npq",
+            "B. np",
+            "C. sqrt(npq)",
+            "D. n/p"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "What is the exact theoretical formula for the variance of a Binomial probability distribution?",
+        "choices": [
+            "A. np",
+            "B. p(1-p)",
+            "C. np(1-p)",
+            "D. np / (1-p)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "The specific Probability Mass Function (PMF) of a Binomial random variable X is mathematically given by which expression?",
+        "choices": [
+            "A. p^x (1-p)^(n-x)",
+            "B. C(n,x) p^n q^x",
+            "C. C(x,n) p^x q^(n-x)",
+            "D. C(n,x) p^x (1-p)^(n-x)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "A perfectly fair coin is tossed 3 consecutive times. What is the exact mathematical probability of getting exactly 2 heads?",
+        "choices": [
+            "A. 3/8",
+            "B. 1/8",
+            "C. 1/2",
+            "D. 5/8"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "A binomial experiment features exactly 5 independent trials with a success probability p=0.2. Calculate exactly P(X=0).",
+        "choices": [
+            "A. 0.4096",
+            "B. 0.32768",
+            "C. 0.00032",
+            "D. 0.08192"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "An unknown binomial random variable is found to have a mean of 4 and a variance of 2.4. What is the exact number of trials, n?",
+        "choices": [
+            "A. 5",
+            "B. 8",
+            "C. 10",
+            "D. 12"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "For a strictly fixed number of binomial trials n, the maximum possible theoretical variance occurs when p is exactly:",
+        "choices": [
+            "A. 0.1",
+            "B. 0.9",
+            "C. 1.0",
+            "D. 0.5"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "For a standard binomial distribution with n trials and probability of success p, what is the exact algebraic value of E(X^2)?",
+        "choices": [
+            "A. np(1-p) + n^2 p^2",
+            "B. np(1-p)",
+            "C. n^2 p^2",
+            "D. np"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "The specific outcomes of each independent trial in a strictly true binomial experiment must fundamentally be:",
+        "choices": [
+            "A. Continuous variables over an interval",
+            "B. Mutually exclusive and exhaustive (success or failure)",
+            "C. Dependent on previously recorded outcomes",
+            "D. Distributed among more than two categorical possibilities"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "An automated factory process yields components with a known 10% defect rate. If 4 are randomly sampled, what is the probability of finding exactly 1 defect?",
+        "choices": [
+            "A. 0.0001",
+            "B. 0.6561",
+            "C. 0.2916",
+            "D. 0.3439"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "If a testing parameter claims a binomial distribution features a mean of 6 and a variance of 8, what is the immediate logical engineering conclusion?",
+        "choices": [
+            "A. The exact number of trials must be 14",
+            "B. The exact probability of success is 0.75",
+            "C. The standard deviation of the sample is exactly 4",
+            "D. This is mathematically impossible since variance must be less than the mean"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "The Poisson probability distribution is predominantly utilized by engineers to accurately model the number of random events strictly occurring in:",
+        "choices": [
+            "A. A fixed continuous interval of time or space",
+            "B. A distinctly fixed number of discrete trials",
+            "C. A continuously altering uniform field",
+            "D. A predictably decreasing failure rate environment"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "In any theoretically perfect Poisson probability distribution, what strict mathematical relationship must exist between the mean (µ) and variance (σ^2)?",
+        "choices": [
+            "A. Mean is strictly greater than variance",
+            "B. They are mathematically identically equal",
+            "C. Variance is strictly the square of the mean",
+            "D. Variance is strictly greater than the mean"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "The formal Probability Mass Function (PMF) equation for a Poisson random variable X possessing a rate λ is accurately written as:",
+        "choices": [
+            "A. λ^x / x!",
+            "B. e^-λ / x!",
+            "C. (e^-λ * λ^x) / x!",
+            "D. (e^λ * λ^x) / x!"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "If incoming telephone calls arrive at a network switchboard following a Poisson process at a rate of 3 per hour, what is the expected number of calls in exactly 2 hours?",
+        "choices": [
+            "A. 3",
+            "B. 4.5",
+            "C. 9",
+            "D. 6"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "If a discrete Poisson random variable features a specific rate parameter λ = 2, what is the exact theoretical probability P(X = 0)?",
+        "choices": [
+            "A. e^-2",
+            "B. 2e^-2",
+            "C. e^-1",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "If the calculated variance of a particular Poisson distribution is exactly 4, what is the exact numerical standard deviation?",
+        "choices": [
+            "A. 16",
+            "B. 2",
+            "C. 4",
+            "D. 8"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "The Poisson probability distribution successfully serves as an excellent asymptotic approximation to the Binomial distribution strictly when:",
+        "choices": [
+            "A. n is sufficiently small and p is very small",
+            "B. n is sufficiently small and p is significantly large",
+            "C. n is significantly large and p is sufficiently small",
+            "D. n is significantly large and p is significantly large"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Which specific discrete probability distribution is standardly applied in modern physics to accurately model radioactive particle decay events over a period of time?",
+        "choices": [
+            "A. Normal Distribution",
+            "B. Binomial Distribution",
+            "C. Uniform Distribution",
+            "D. Poisson Distribution"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "If a given Poisson random variable has a calculated mean of exactly 1, what is the mathematically precise probability P(X = 1)?",
+        "choices": [
+            "A. e^-1",
+            "B. e",
+            "C. 1 - e^-1",
+            "D. 0.5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "If X and Y are completely independent Poisson random variables with means λ1 and λ2 respectively, their statistical sum X+Y is a Poisson variable with mean:",
+        "choices": [
+            "A. λ1 * λ2",
+            "B. λ1 + λ2",
+            "C. (λ1 + λ2) / 2",
+            "D. sqrt(λ1 * λ2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "The Geometric probability distribution is best defined as theoretically modeling the number of independent Bernoulli trials strictly required to achieve:",
+        "choices": [
+            "A. A previously fixed number of successes",
+            "B. The generic r-th consecutive success",
+            "C. The very first observed success",
+            "D. Precisely zero occurrences of success"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "What is the mathematically exact expected value (mean) of a Geometric distribution where X fundamentally represents the trial number of the very first success?",
+        "choices": [
+            "A. 1 - p",
+            "B. p",
+            "C. (1 - p) / p^2",
+            "D. 1 / p"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "What is the exact algebraic variance of a Geometric distribution assuming X strictly represents the trial number of the first observed success?",
+        "choices": [
+            "A. (1 - p) / p^2",
+            "B. 1 / p^2",
+            "C. p / (1 - p)",
+            "D. (1 - p) / p"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "The Probability Mass Function (PMF) of a typical Geometric distribution formulated to find the first success exactly on the x-th trial is:",
+        "choices": [
+            "A. p(1-p)^x",
+            "B. p(1-p)^(x-1)",
+            "C. (1-p)p^(x-1)",
+            "D. C(x,1) p(1-p)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "A perfectly fair six-sided die is rolled repeatedly in sequence. What is the strictly expected number of total rolls required to observe the first 6?",
+        "choices": [
+            "A. 1/6",
+            "B. 3",
+            "C. 6",
+            "D. 36"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Among the following standard options, which is unequivocally the ONLY discrete probability distribution that exhibits the profound statistical memoryless property?",
+        "choices": [
+            "A. Poisson Distribution",
+            "B. Binomial Distribution",
+            "C. Hypergeometric Distribution",
+            "D. Geometric Distribution"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "A standardized coin yields a probability of exactly 0.5 for heads. What is the strict theoretical probability that the very first head appears precisely on the 3rd toss?",
+        "choices": [
+            "A. 0.125",
+            "B. 0.250",
+            "C. 0.375",
+            "D. 0.500"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "The known probability of successfully hitting an electronic target is 0.2 per attempt. What is the exact probability that it takes exactly 4 sequential shots to score the first hit?",
+        "choices": [
+            "A. 0.0016",
+            "B. 0.1024",
+            "C. 0.0819",
+            "D. 0.4096"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "In classical statistical probability literature, the Negative Binomial distribution is also widely documented and mathematically referred to as the:",
+        "choices": [
+            "A. Gaussian Distribution",
+            "B. Poisson Limit Distribution",
+            "C. Pascal Distribution",
+            "D. Erlang Distribution"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "What is the correct mean (expected value) of a standard Negative Binomial distribution representing the total number of independent trials required to get exactly r successes?",
+        "choices": [
+            "A. r(1-p)/p",
+            "B. p/r",
+            "C. r/p^2",
+            "D. r/p"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "What is the precise mathematical algebraic formula defining the variance of a standard Negative Binomial probability distribution?",
+        "choices": [
+            "A. r(1-p)/p^2",
+            "B. r/p^2",
+            "C. (1-p)/r^2",
+            "D. r^2/p"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "If a given random variable X follows a Negative Binomial distribution characterized by parameters r and p, it can strictly be viewed as the direct sum of r independent random variables of which distinct type?",
+        "choices": [
+            "A. Poisson",
+            "B. Geometric",
+            "C. Binomial",
+            "D. Uniform"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "The primary methodological distinction separating the Hypergeometric probability distribution from the Binomial probability distribution is that Hypergeometric sample gathering is inherently:",
+        "choices": [
+            "A. Executed with full replacement",
+            "B. Completely infinite in theoretical scope",
+            "C. Executed strictly without replacement",
+            "D. Statistically independent across trials"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "Given a specific finite population N, containing K success states, and an exact sample size n. What is the fundamental expected value equation for this Hypergeometric distribution?",
+        "choices": [
+            "A. nK",
+            "B. n / N",
+            "C. K / N",
+            "D. nK / N"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "As the total population size N of any Hypergeometric distribution mathematically approaches absolute infinity, the Hypergeometric distribution seamlessly converges in limit directly to the:",
+        "choices": [
+            "A. Binomial Distribution",
+            "B. Normal Distribution",
+            "C. Poisson Distribution",
+            "D. Uniform Distribution"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "An opaque container holds exactly 5 red spheres and 5 black spheres. If exactly 2 spheres are drawn simultaneously WITHOUT replacement, what is the exact probability both are red?",
+        "choices": [
+            "A. 1/4",
+            "B. 2/9",
+            "C. 1/5",
+            "D. 5/19"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "A continuous Uniform statistical distribution perfectly defined identically across a closed interval [a, b] is also frequently and geometrically referred to as the:",
+        "choices": [
+            "A. Bell-curve distribution",
+            "B. Pascal continuous distribution",
+            "C. Rectangular distribution",
+            "D. Memoryless interval distribution"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "What is the universally established exact formula calculating the mean of a continuous Uniform distribution spanning over the continuous interval [a, b]?",
+        "choices": [
+            "A. (b - a) / 2",
+            "B. ab / 2",
+            "C. (b + a) / 12",
+            "D. (a + b) / 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "What is the universally established exact formula calculating the variance of a continuous Uniform distribution spanning over the continuous interval [a, b]?",
+        "choices": [
+            "A. (b - a)^2 / 12",
+            "B. (b - a) / 12",
+            "C. (a + b)^2 / 12",
+            "D. (b - a)^2 / 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "The Standard Uniform probability distribution strictly restricts the definition of the continuous uniform bounded interval exclusively to:",
+        "choices": [
+            "A. [-1, 1]",
+            "B. [0, 1]",
+            "C. [0, 100]",
+            "D. [-∞, ∞]"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "A specific random variable X is perfectly uniformly distributed between the absolute bounds of 0 and 10. Compute the mathematically exact continuous probability P(X > 7).",
+        "choices": [
+            "A. 0.7",
+            "B. 0.5",
+            "C. 0.3",
+            "D. 0.1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "A specific continuous uniform random variable mathematically spans strictly from 2 to 6. Calculate the theoretically exact numerical standard deviation to three decimal places.",
+        "choices": [
+            "A. 4/3",
+            "B. 1.333",
+            "C. 0.816",
+            "D. 1.155"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "Which specific continuous probability distribution fundamentally and inherently possesses the unique statistical continuous memoryless property?",
+        "choices": [
+            "A. Exponential Distribution",
+            "B. Normal Distribution",
+            "C. Uniform Distribution",
+            "D. Weibull Distribution"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "For a standard Exponential probability distribution featuring a constant rate parameter λ, what is the precise theoretical algebraic expected value (mean)?",
+        "choices": [
+            "A. λ",
+            "B. 1 / λ",
+            "C. λ^2",
+            "D. 1 / λ^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "What is the precise theoretical mathematical variance of an Exponential random variable featuring a constant rate parameter λ?",
+        "choices": [
+            "A. λ",
+            "B. 1 / λ",
+            "C. 1 / λ^2",
+            "D. λ^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "The formal Cumulative Distribution Function F(t) determining cumulative probability for an Exponential random variable (for t > 0) is mathematically established as:",
+        "choices": [
+            "A. e^(-λt)",
+            "B. λ e^(-λt)",
+            "C. 1 + e^(-λt)",
+            "D. 1 - e^(-λt)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "A manufactured electronic component features an exponentially distributed lifespan displaying a mean of exactly 100 hours. What is the strict mathematical probability it survives beyond 100 hours?",
+        "choices": [
+            "A. e^-1 (~0.368)",
+            "B. 0.500",
+            "C. 1 - e^-1 (~0.632)",
+            "D. 1.000"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "The exact theoretical median value of an Exponential probability distribution featuring rate parameter λ is mathematically evaluated precisely as:",
+        "choices": [
+            "A. 1 / λ",
+            "B. ln(2) / λ",
+            "C. ln(λ) / 2",
+            "D. 2 / λ"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "What is the profound fundamental theoretical probability relationship structurally linking the discrete Poisson and the continuous Exponential distributions?",
+        "choices": [
+            "A. They are completely mathematically unrelated",
+            "B. The direct sum of Poisson variables generates an Exponential",
+            "C. The continuous waiting time elapsed between consecutive discrete Poisson events is strictly Exponentially distributed",
+            "D. The continuous Exponential is the strict discrete numerical limit of the Poisson"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "The continuous Gamma probability distribution is primarily widely utilized in sophisticated engineering and queueing theory analysis specifically to accurately model the:",
+        "choices": [
+            "A. Discrete number of critical defects per manufactured batch",
+            "B. Symmetrical background noise interference in a transmission channel",
+            "C. Statistical probability of sample gathering executed without replacement",
+            "D. Total accumulated continuous waiting time required for exactly the k-th successive event to occur"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "The theoretical mean of a continuous Gamma probability distribution characterized by shape parameter α (or k) and rate parameter λ is analytically given exactly by:",
+        "choices": [
+            "A. α / λ",
+            "B. λ / α",
+            "C. α * λ",
+            "D. α / λ^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "When the designated shape parameter of a Gamma distribution strictly equals exactly 1 (α = 1), the continuous Gamma distribution mathematically reduces perfectly to the:",
+        "choices": [
+            "A. Standard Normal Distribution",
+            "B. Exponential Distribution",
+            "C. Continuous Uniform Distribution",
+            "D. Chi-Square Distribution"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "The abstract mathematical Gamma function Γ(n), analytically evaluated for any strictly positive integer n, exactly universally evaluates mathematically to:",
+        "choices": [
+            "A. n!",
+            "B. n",
+            "C. (n - 1)!",
+            "D. (n + 1)!"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "What is the precisely correct algebraic theoretical formula determining the variance of a continuous Gamma distribution featuring shape parameter α and rate parameter λ?",
+        "choices": [
+            "A. α / λ",
+            "B. λ / α",
+            "C. α^2 / λ",
+            "D. α / λ^2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "The Standard Normal Distribution curve is mathematically strictly defined by which specific universal statistical structural parameters?",
+        "choices": [
+            "A. Mean = 0, Variance = 1",
+            "B. Mean = 1, Variance = 0",
+            "C. Mean = 0, Variance = 0",
+            "D. Mean = 1, Variance = 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "The total mathematical integrated continuous area located strictly under the theoretical standard normal density curve spanning from negative infinity to positive infinity is exactly:",
+        "choices": [
+            "A. 0.5",
+            "B. 1.0",
+            "C. 99.7",
+            "D. π"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "A standard theoretical normal distribution continuous probability curve is completely mathematically perfectly symmetrical strictly around its:",
+        "choices": [
+            "A. Variance",
+            "B. Standard Deviation",
+            "C. Mean",
+            "D. Point of Inflection"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "According strictly to the statistical Empirical Rule (68-95-99.7), approximately what exact mathematical percentage of population data falls strictly within ±1 standard deviation of the defined mean?",
+        "choices": [
+            "A. 95%",
+            "B. 99.73%",
+            "C. 50%",
+            "D. 68.27%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "According strictly to the statistical Empirical Rule, approximately what exact mathematical percentage of population data falls strictly within ±2 standard deviations of the defined mean?",
+        "choices": [
+            "A. 95.45%",
+            "B. 68.27%",
+            "C. 99.73%",
+            "D. 90.00%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "According strictly to the statistical Empirical Rule, approximately what exact mathematical percentage of population data falls strictly within ±3 standard deviations of the defined mean?",
+        "choices": [
+            "A. 68.27%",
+            "B. 99.73%",
+            "C. 95.45%",
+            "D. 100.0%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "Which exact algebraic formula is correctly universally used to strictly convert any normally distributed random variable X into a standardized Standard Normal Z-score?",
+        "choices": [
+            "A. Z = (X - σ) / µ",
+            "B. Z = (µ - X) / σ",
+            "C. Z = (X - µ) / σ",
+            "D. Z = (σ - µ) / X"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "In standard statistical probability terms, a mathematically calculated Z-score strictly quantifies and represents which precise physical measurement quantity?",
+        "choices": [
+            "A. The exact evaluated variance of the localized data point",
+            "B. The absolute numerical error deviating from the true mean",
+            "C. The exact median numerical distance of the total distribution",
+            "D. The exact quantitative number of standard deviations a specific data point is displaced from the mean"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "For a perfectly continuous Standard Normal random variable Z, what is the strictly exact theoretical continuous probability P(Z = 0)?",
+        "choices": [
+            "A. 0",
+            "B. 0.5",
+            "C. 1",
+            "D. Undefined"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "The absolute maximum peak numerical value generated by the mathematical probability density function for a Standard Normal Distribution strictly physically occurs specifically at Z = ?",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. -1",
+            "D. ∞"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "What is the most widely universally accepted mathematically approximate Z-score directly corresponding mathematically to the 97.5th percentile (specifically leaving exactly 2.5% exclusively in the upper tail)?",
+        "choices": [
+            "A. 1.645",
+            "B. 1.28",
+            "C. 1.96",
+            "D. 2.58"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "What is the perfectly mathematically exact continuous integrated numerical area located exclusively to the right of Z = 0 in a perfect theoretical Standard Normal Distribution?",
+        "choices": [
+            "A. 1.00",
+            "B. 0.95",
+            "C. 0.25",
+            "D. 0.50"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "What is the mathematically precise, exact continuous theoretical Z-score that identically corresponds precisely to the 50th percentile of any perfectly symmetrical normal probability distribution?",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 0.5",
+            "D. -1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "In established professional reliability engineering analysis and system probability applications, the universal standard acronym MTBF fundamentally universally denotes:",
+        "choices": [
+            "A. Mean Time Between Flaws",
+            "B. Mean Time Between Failures",
+            "C. Median Time Before Failure",
+            "D. Maximum Time Between Fixes"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "For an engineered component functionally following an exact exponential failure time model, how is the continuous Failure Rate (λ) precisely strictly related mathematically to the MTBF?",
+        "choices": [
+            "A. MTBF = λ",
+            "B. MTBF = λ^2",
+            "C. MTBF = 1 / λ",
+            "D. MTBF = 1 - λ"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "Mathematically expressed, if F(t) unequivocally represents the cumulative distribution function of structural failure time, the continuous Reliability function R(t) is strictly structurally defined mathematically as:",
+        "choices": [
+            "A. 1 + F(t)",
+            "B. f(t)",
+            "C. F(t)",
+            "D. 1 - F(t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "For an engineered functional system operating with a perfectly constant, time-independent continuous failure rate λ, the specific theoretical mathematical equation solving for Reliability R(t) is strictly:",
+        "choices": [
+            "A. e^(-λt)",
+            "B. 1 - e^(-λt)",
+            "C. λ e^(-λt)",
+            "D. ln(λt)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "If an industrial grade electronic amplifier boasts an officially certified MTBF rating of exactly 1,000 continuous hours, what is its exact continuous theoretical failure rate λ per operating hour?",
+        "choices": [
+            "A. 1000",
+            "B. 0.001",
+            "C. 0.01",
+            "D. e^-1000"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "In the classical analytical reliability engineering \"bathtub curve\" failure model, the significantly long, mathematically flat middle section practically strictly represents which distinct operational type of component failures?",
+        "choices": [
+            "A. Structural wear-out failures",
+            "B. Initial infant mortality component failures",
+            "C. Constant random operational failures",
+            "D. End-of-life component burn-in failures"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "What is the analytically derived theoretical system reliability of an engineered configuration strictly composed of exactly two completely independent operational components functioning in a strictly series topological configuration (with Reliabilities R1 and R2)?",
+        "choices": [
+            "A. R1 + R2",
+            "B. 1 - (1 - R1)(1 - R2)",
+            "C. R1 / R2",
+            "D. R1 * R2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "What is the analytically derived theoretical system reliability of an engineered configuration strictly composed of exactly two completely independent operational components functioning in a strictly active parallel redundant configuration?",
+        "choices": [
+            "A. 1 - (1 - R1)(1 - R2)",
+            "B. R1 * R2",
+            "C. (R1 + R2) / 2",
+            "D. 1 - R1*R2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "If exactly two functionally identical electrical backup generators, each possessing an independent operational reliability of exactly 0.90, continuously operate in a strictly active redundant parallel topological configuration, what is the total analytical system reliability?",
+        "choices": [
+            "A. 0.81",
+            "B. 0.99",
+            "C. 1.80",
+            "D. 0.90"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "If exactly two highly distinct data processing modules, each independently possessing an operational reliability of exactly 0.90, continuously operate mathematically strictly in a sequential series configuration, what is the overall analytical system reliability?",
+        "choices": [
+            "A. 0.99",
+            "B. 1.80",
+            "C. 0.81",
+            "D. 0.95"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "Calculate the precise mathematical continuous Z-score for an achieved ECE board examination score of exactly 85 if the total tested population mean is exactly 75 and the population standard deviation is strictly 5.",
+        "choices": [
+            "A. 1.5",
+            "B. -2.0",
+            "C. 1.0",
+            "D. 2.0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "A standardized calibrated resistor measurement physically exhibits a standardized Z-score of exactly -1.5. If the known standardized population mean is precisely 50 ohms and the associated standard deviation is exactly 10 ohms, mathematically find the raw uncalibrated physical resistance.",
+        "choices": [
+            "A. 35 ohms",
+            "B. 65 ohms",
+            "C. 45 ohms",
+            "D. 55 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Which discrete structural probability distribution is statistically and strictly the absolute most scientifically appropriate methodology for mathematically modeling the random occurrences of rare typographical errors per specific page in a vastly massive printed manuscript?",
+        "choices": [
+            "A. Binomial Distribution",
+            "B. Poisson Distribution",
+            "C. Normal Distribution",
+            "D. Hypergeometric Distribution"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "Which continuous structural probability distribution is statistically strictly mathematically formally derived to universally mathematically model the exact continuous elapsed time occurring strictly between consecutive independent random telephone calls arriving sequentially at an automated digital exchange?",
+        "choices": [
+            "A. Normal Distribution",
+            "B. Binomial Distribution",
+            "C. Exponential Distribution",
+            "D. Gamma Distribution"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "A vast manufacturing batch officially contains exactly 5% functionally defective integrated logic circuits. Mathematically finding the exact statistical probability that the very 10th IC systematically randomly inspected is strictly the extremely FIRST defective one discovered logically completely requires utilizing the:",
+        "choices": [
+            "A. Poisson Distribution",
+            "B. Hypergeometric Distribution",
+            "C. Binomial Distribution",
+            "D. Geometric Distribution"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "What is the absolute, mathematically precise, theoretically exact statistical continuous skewness evaluated mathematically for any perfect theoretically infinite Standard Normal Distribution curve?",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 3",
+            "D. -1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "For a specialized analytical lognormal continuous probability distribution, mathematically taking the natural logarithm of the evaluated random variable structurally strictly forces it to perfectly theoretically follow which fundamental statistical distribution?",
+        "choices": [
+            "A. Uniform distribution",
+            "B. Normal distribution",
+            "C. Exponential distribution",
+            "D. Gamma distribution"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "A distinctly discrete binomial distribution precisely defined strictly with n = 100 trials and a success probability p = 0.5 can be successfully closely mathematically approximated continuously by a standard normal distribution strictly utilizing what exact substituted mean parameter?",
+        "choices": [
+            "A. 10",
+            "B. 0.5",
+            "C. 50",
+            "D. 100"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "What is the mathematically exact derived numerical standard deviation parameter substituted universally into the continuous normal approximation mathematically used specifically to approximate the discrete binomial distribution strictly featuring exactly n = 100 and p = 0.5?",
+        "choices": [
+            "A. 25",
+            "B. 50",
+            "C. 10",
+            "D. 5"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "What precise standard analytical continuous continuity correction operation is universally strictly mathematically systematically applied when actively utilizing a continuous normal distribution curve to numerically approximate a strictly discrete cumulative binomial probability precisely defined as P(X ≤ x)?",
+        "choices": [
+            "A. Add exactly 0.5 to the discrete x",
+            "B. Subtract exactly 0.5 from the discrete x",
+            "C. Add exactly 1.0 to the discrete x",
+            "D. Mathematically keep x totally unchanged"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "In complex system reliability analysis and theoretical maintenance engineering statistical analysis, what specific critical structural concept does the widely utilized professional acronym MTTF universally strictly scientifically denote?",
+        "choices": [
+            "A. Mean Time To Fix",
+            "B. Mean Time To Failure",
+            "C. Maximum Time To Failure",
+            "D. Minimum Time To Fix"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "For a complex electrical hardware system constructed physically with completely statistically independent sub-components operating strictly topologically in purely series logic configuration, the mathematically evaluated overall continuous combined system failure rate is mathematically identically defined exactly as the:",
+        "choices": [
+            "A. Mathematical product of individual component rates",
+            "B. Mathematical statistical minimum of individual component rates",
+            "C. Mathematical summation of all individual component failure rates",
+            "D. Mathematical uniform average of all individual component rates"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "If a highly sensitive industrial process measurement sensor possesses a strictly constant continuous exponential mechanical failure rate of precisely 0.002 total failures per continuous hour of operation, what is its mathematically derived exact exponential reliability precisely at 500 operating hours?",
+        "choices": [
+            "A. e^1",
+            "B. 0.500",
+            "C. 1.000",
+            "D. e^-1 (~0.368)"
+        ],
+        "correct_answer": "D"
+    }
+]

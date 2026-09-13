@@ -1,0 +1,1036 @@
+[
+    {
+        "number": 1,
+        "question": "Unlike standard two-wire transmission lines that support transverse electromagnetic (TEM) waves, hollow metallic waveguides primarily propagate:",
+        "choices": [
+            "A. Transverse Electric (TE) and Transverse Magnetic (TM) waves",
+            "B. Longitudinal electromagnetic waves",
+            "C. Pure direct current exclusively",
+            "D. Acoustic sound waves"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "What is the primary physical reason why hollow metallic waveguides cannot support Transverse Electromagnetic (TEM) waves?",
+        "choices": [
+            "A. They possess only a single conducting boundary instead of two independent conductors required to define a voltage difference and current loop",
+            "B. The frequency is too low",
+            "C. The walls are made of copper",
+            "D. The dielectric constant of air is too high"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "In a rectangular waveguide, the dominant mode refers to the mode that has:",
+        "choices": [
+            "A. The lowest cut-off frequency",
+            "B. The highest phase velocity",
+            "C. The shortest physical wavelength",
+            "D. The maximum attenuation constant"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "For a standard rectangular waveguide with inner dimensions a (width) and b (height) where a > b, what is the dominant propagation mode?",
+        "choices": [
+            "A. TE10 mode",
+            "B. TM11 mode",
+            "C. TE01 mode",
+            "D. TM02 mode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "What is the formula for the cut-off wavelength (λ_c) of the dominant TE_10 mode in a rectangular waveguide of width a?",
+        "choices": [
+            "A. 2a",
+            "B. a / 2",
+            "C. a",
+            "D. √( a^2 + b^2 )"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "Calculate the cut-off frequency (f_c) of the dominant TE_10 mode for an air-filled rectangular waveguide with a width a = 5 cm (0.05 m).",
+        "choices": [
+            "A. 3 GHz",
+            "B. 6 GHz",
+            "C. 1.5 GHz",
+            "D. 10 GHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "If an operating frequency is below the cut-off frequency of a specific waveguide mode, how does that mode behave?",
+        "choices": [
+            "A. It propagates with zero attenuation",
+            "B. It is heavily attenuated and decays exponentially along the guide",
+            "C. It travels at the speed of light",
+            "D. It converts into a TEM wave"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "The phase velocity (v_p) of an electromagnetic wave inside a hollow rectangular waveguide is always:",
+        "choices": [
+            "A. Less than the speed of light in free space (c)",
+            "B. Exactly equal to c",
+            "C. Greater than the speed of light in free space (c)",
+            "D. Equal to zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 9,
+        "question": "The group velocity (v_g) of a wave propagating inside a waveguide represents the velocity at which signal energy and information travel, and it is always:",
+        "choices": [
+            "A. Greater than c",
+            "B. Exactly equal to c",
+            "C. Less than or equal to the speed of light in free space (c)",
+            "D. Infinite"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "How are the phase velocity (v_p) and group velocity (v_g) in a waveguide mathematically related to the speed of light in free space (c)?",
+        "choices": [
+            "A. v_p · v_g = c^2",
+            "B. v_p + v_g = c",
+            "C. v_p / v_g = c",
+            "D. v_g = v_p^2 / c"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "The guide wavelength (λ_g) inside a rectangular waveguide is defined as the distance between two successive points along the guide where the phase changes by 2π radians, and it is always:",
+        "choices": [
+            "A. Shorter than the free-space wavelength (λ_0)",
+            "B. Exactly equal to the free-space wavelength (λ_0)",
+            "C. Longer than the free space wavelength (λ_0)",
+            "D. Independent of frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "A microwave component used to split or combine microwave power with specific phase and amplitude relationships, consisting of intersecting waveguides with coupling slots, is known as a:",
+        "choices": [
+            "A. Directional coupler",
+            "B. Waveguide attenuator",
+            "C. Magic tee",
+            "D. Reflex klystron"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "A Magic Tee (hybrid tee) is a four-port microwave junction that combines the properties of E-plane and H-plane tees, providing:",
+        "choices": [
+            "A. Complete isolation between the sum (H-arm) and difference (E-arm) ports under matched conditions",
+            "B. Zero power transmission",
+            "C. Infinite attenuation",
+            "D. Purely resistive termination"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "A waveguide attenuator is a passive microwave component specifically designed to:",
+        "choices": [
+            "A. Increase signal power",
+            "B. Reduce microwave power level by absorption or reflection without introducing excessive distortion",
+            "C. Change signal frequency",
+            "D. Convert TE modes to TEM modes"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "When comparing hollow metallic waveguides to two-wire transmission lines at microwave frequencies (e.g., > 10 GHz), waveguides exhibit:",
+        "choices": [
+            "A. Much lower power handling capacity and higher attenuation",
+            "B. Much lower attenuation losses and higher power handling capacity because they lack inner dielectric support rods and center conductors",
+            "C. Equal performance",
+            "D. No frequency limitations"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "For a circular waveguide, what is the dominant propagation mode?",
+        "choices": [
+            "A. TE_11 mode",
+            "B. TM_01 mode",
+            "C. TE_01 mode",
+            "D. TM_11 mode"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "The cut-off wavelength (λ_c) for the dominant TE_11 mode in a circular waveguide of radius r (or diameter D = 2r) is approximately:",
+        "choices": [
+            "A. 1.706 D",
+            "B. 3.412 D",
+            "C. 2.613 D",
+            "D. D / 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "What is the primary operational advantage of using circular waveguides in specific applications like long-distance rotary joints or circular polarization feeds?",
+        "choices": [
+            "A. They support the TE_01 circular electric mode, which features attenuation that decreases with increasing frequency",
+            "B. They have zero cut-off frequency",
+            "C. They can operate at DC",
+            "D. They are cheaper than coaxial cables"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "In a rectangular waveguide, higher-order modes (such as TE_20 or TE_02) can propagate if the operating frequency is:",
+        "choices": [
+            "A. Below cut-off",
+            "B. Well above their respective higher cut-off frequencies",
+            "C. Equal to zero",
+            "D. Infinite"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Calculate the guide wavelength (λ_g) for a waveguide operating at a free-space wavelength λ_0 = 3 cm, given that its cut-off wavelength is λ_c = 5 cm.",
+        "choices": [
+            "A. 2.5 cm",
+            "B. 3.75 cm",
+            "C. 5.0 cm",
+            "D. 7.5 cm"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "A directional coupler specifies a coupling factor of 20 dB and directivity of 30 dB. If 100 mW of power enters the input port, what is the power output at the coupled port?",
+        "choices": [
+            "A. 1 mW",
+            "B. 10 mW",
+            "C. 0.1 mW",
+            "D. 20 mW"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Which waveguide tee configuration connects the side arm in shunt (parallel) with the main waveguide via the broad wall, establishing magnetic field coupling?",
+        "choices": [
+            "A. H-plane tee (magnetically coupled tee)",
+            "B. E-plane tee",
+            "C. Magic tee",
+            "D. Rat-race coupler"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "Which waveguide tee connects the side arm in series with the main waveguide via the narrow wall, establishing electric field coupling?",
+        "choices": [
+            "A. E-plane tee",
+            "B. H-plane tee",
+            "C. Directional coupler",
+            "D. Coaxial adapter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "An attenuator that utilizes a movable resistive card (vane) inserted into the longitudinal slot along the center of the broad wall of a rectangular waveguide (where electric field is maximum) is called a:",
+        "choices": [
+            "A. Flap attenuator",
+            "B. Rotary vane attenuator",
+            "C. Cut-off (evanescent) attenuator",
+            "D. Variable resistive card attenuator"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "In the design of rectangular waveguides, why is the broad dimension a traditionally chosen to be approximately twice the narrow dimension b (i.e., b = a/2)?",
+        "choices": [
+            "A. To ensure a comfortable separation between the cut-off frequency of the dominant TE_10 mode and the next higher-order TE_20 mode, preventing multi-moding",
+            "B. To maximize copper loss",
+            "C. To make the waveguide square",
+            "D. To eliminate phase velocity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "The phase constant (β) for wave propagation inside an air-filled rectangular waveguide at frequency ω is given by:",
+        "choices": [
+            "A. β = (2π/λ_g) = √( ω^2 µ_0 ε_0 - ((mπ/a))^2 - ((nπ/b))^2 )",
+            "B. β = ω √( LC )",
+            "C. β = α + jω",
+            "D. β = (ω/c)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "A rectangular waveguide has dimensions a = 3 cm and b = 1.5 cm. Calculate the cut-off frequency for the dominant TE_10 mode.",
+        "choices": [
+            "A. 3 GHz",
+            "B. 5 GHz",
+            "C. 10 GHz",
+            "D. 7.5 GHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "If the phase velocity of a wave in a rectangular waveguide is 4 × 10^8 m/s, calculate the corresponding group velocity (c = 3 × 10^8 m/s).",
+        "choices": [
+            "A. 3 × 10^8 m/s",
+            "B. 4 × 10^8 m/s",
+            "C. 2.25 × 10^8 m/s",
+            "D. 1.5 × 10^8 m/s"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "Which of the following microwave components can be used to divide power equally with a 180-degree phase difference between output ports?",
+        "choices": [
+            "A. Rat-race ring coupler (hybrid ring) configured in push-pull",
+            "B. Waveguide termination load",
+            "C. Flap attenuator",
+            "D. Simple E-plane tee"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "In a rectangular waveguide, the wall currents flow in specific patterns. For the dominant TE_10 mode, longitudinal wall currents are maximum on:",
+        "choices": [
+            "A. The center of the broad walls",
+            "B. The narrow walls and top/bottom edges",
+            "C. The extreme corners",
+            "D. Diagonal corners only"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "What happens to the phase velocity of a wave inside a waveguide as the operating frequency approaches the cut-off frequency from above?",
+        "choices": [
+            "A. It approaches zero",
+            "B. It approaches infinity",
+            "C. It equals the speed of light in a vacuum",
+            "D. It becomes imaginary"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "The characteristic wave impedance (Z_TE) for a Transverse Electric (TE) mode in a waveguide is given by (η_0/√( 1 - (f_c/f)^2) ), where η_0 ≈ 377 ohms. As the operating frequency f approaches infinity, Z_TE approaches:",
+        "choices": [
+            "A. Zero",
+            "B. Infinity",
+            "C. 377 ohms exactly",
+            "D. 50 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "A rectangular waveguide is designated as WR-90. What is its standard broad internal dimension a in inches and approximate metric value?",
+        "choices": [
+            "A. 0.90 inches (approx 22.86 mm)",
+            "B. 1.00 inch",
+            "C. 2.84 inches",
+            "D. 0.42 inches"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "For a TM_mn mode in a rectangular waveguide, neither index m nor index n can be:",
+        "choices": [
+            "A. Zero (both m ≥ 1 and n ≥ 1 are strictly required)",
+            "B. Greater than 5",
+            "C. Odd numbers",
+            "D. Negative"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "The term \"evanescent mode\" in waveguide theory refers to:",
+        "choices": [
+            "A. A wave that propagates without attenuation",
+            "B. A non-propagating mode whose amplitude decays exponentially with distance from the source",
+            "C. A TEM wave",
+            "D. A wave traveling faster than light"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "A microwave directional coupler features a directivity of 40 dB. This parameter quantifies the coupler's ability to isolate:",
+        "choices": [
+            "A. The input port from the output port",
+            "B. Forward power from the matched load",
+            "C. The forward-traveling wave from the backward-traveling (reflected) wave in the auxiliary port",
+            "D. The E-plane from the H-plane"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "A circular waveguide has a radius of 2 cm. What is the cut-off frequency for its dominant TE_11 mode? (f_c ≈ 1.841 c / (2π r)).",
+        "choices": [
+            "A. 4.39 GHz",
+            "B. 8.78 GHz",
+            "C. 2.19 GHz",
+            "D. 10.5 GHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "When a waveguide is terminated in a mismatched load, standing waves are set up inside the guide. The distance between adjacent electric field minimums in a waveguide is equal to:",
+        "choices": [
+            "A. λ_g / 4",
+            "B. λ_g / 2",
+            "C. λ_g",
+            "D. 2λ_g"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "A directional coupler has an insertion loss of 0.5 dB and a coupling factor of 10 dB. If 100 mW is input, how much power emerges at the coupled port?",
+        "choices": [
+            "A. 1 mW",
+            "B. 5 mW",
+            "C. 10 mW",
+            "D. 20 mW"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "The dominant mode in a circular waveguide has a cut-off wavelength proportional to its radius r. Specifically, λ_c = 2π r / 1.841. What is this numerical factor 1.841 representing?",
+        "choices": [
+            "A. The first root of the derivative of the Bessel function of the first kind (J_1'(x) = 0)",
+            "B. The speed of light",
+            "C. The relative permittivity",
+            "D. The guide wavelength ratio"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Which of the following statements regarding group velocity in a waveguide is strictly true?",
+        "choices": [
+            "A. Energy cannot travel faster than c, so group velocity (v_g) is always less than c, even though phase velocity (v_p) exceeds c",
+            "B. Group velocity is always greater than phase velocity",
+            "C. Group velocity equals infinity at cut-off",
+            "D. Group velocity is independent of frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "In a Magic Tee, if power is fed into the H-plane arm (sum port), the power splits equally between ports 1 and 2 with:",
+        "choices": [
+            "A. Zero phase difference (in phase)",
+            "B. 180 degrees phase difference",
+            "C. 90 degrees phase difference",
+            "D. Complete absorption"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "If power is instead fed into the E-plane arm (difference port) of a Magic Tee, the power splits equally between output ports 1 and 2 with:",
+        "choices": [
+            "A. In phase (0 degrees)",
+            "B. Out of phase (180 degrees)",
+            "C. Quadrature phase (90 degrees)",
+            "D. Zero output"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "The cut-off frequency of a rectangular waveguide depends on:",
+        "choices": [
+            "A. The conductivity of the waveguide walls",
+            "B. The input power level",
+            "C. The operating frequency",
+            "D. The transverse dimensions (a and b) and the propagation mode (m, n)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "A rectangular waveguide has a = 4 cm and b = 2 cm. Determine all possible propagating modes at a frequency of 5 GHz.",
+        "choices": [
+            "A. TE_10 only",
+            "B. TE_10 and TE_01",
+            "C. TE_10, TE_01, and TE_20",
+            "D. No modes can propagate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "The attenuation in a rectangular waveguide operating well above cut-off is primarily due to:",
+        "choices": [
+            "A. Dielectric breakdown of air",
+            "B. Ohmic losses (surface resistance of the metallic walls)",
+            "C. Radiation loss into space",
+            "D. Magnetic core saturation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "A circular waveguide is operating at a frequency where only the dominant TE_11 mode can propagate. This type of single-mode operating frequency band is bounded below by the TE_11 cut-off and above by the cut-off of the next higher-order mode, which is:",
+        "choices": [
+            "A. TM_01 mode",
+            "B. TE_01 mode",
+            "C. TE_21 mode",
+            "D. TM_11 mode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "What is the cut-off frequency for the TE_01 mode in a rectangular waveguide with width a and height b, where m=0, n=1?",
+        "choices": [
+            "A. c / (2b)",
+            "B. c / (2a)",
+            "C. c / √( a^2 + b^2 )",
+            "D. Zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "If the broad dimension a of a rectangular waveguide is doubled while keeping the height b constant, the cut-off frequency of the dominant TE_10 mode will:",
+        "choices": [
+            "A. Double",
+            "B. Remain unchanged",
+            "C. Be halved",
+            "D. Quadruple"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "In microwave measurements, a variable attenuator using a resistive vane calibrated in decibels relies on the principle of:",
+        "choices": [
+            "A. Adjusting the insertion depth of the resistive card into the region of maximum electric field to absorb wave energy",
+            "B. Changing the physical length of the waveguide",
+            "C. Shifting the operating frequency",
+            "D. Rotating the circular waveguide"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "A waveguide operating at 10 GHz has a guide wavelength λ_g = 4 cm. Calculate the free-space wavelength λ_0.",
+        "choices": [
+            "A. 3.33 cm",
+            "B. 4.0 cm",
+            "C. 5.0 cm",
+            "D. 2.5 cm"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "For a rectangular waveguide, the cut-off wavelength formula for any TE_mn or TM_mn mode is given by:",
+        "choices": [
+            "A. λ_cmn = (2/√( (m/a)^2 + (n/b)^2) )",
+            "B. λ_cmn = 2ab",
+            "C. λ_cmn = (a+b/m+n)",
+            "D. λ_cmn = √( a^2 + b^2 )"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "A rectangular waveguide has a = 2.5 cm and b = 1.0 cm. What is the cut-off frequency of the TE_20 mode?",
+        "choices": [
+            "A. 6 GHz",
+            "B. 12 GHz",
+            "C. 3 GHz",
+            "D. 15 GHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "In a hollow metallic waveguide, the transverse electric (TE) modes are characterized by having:",
+        "choices": [
+            "A. Zero electric field component in the direction of propagation (E_z = 0)",
+            "B. Zero magnetic field component in the direction of propagation (H_z = 0)",
+            "C. Both E_z = 0 and H_z = 0",
+            "D. Infinite magnetic field"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "Transverse magnetic (TM) modes in a waveguide are characterized by having:",
+        "choices": [
+            "A. E_z = 0",
+            "B. H_z = 0 (no magnetic field component along the direction of propagation)",
+            "C. Both fields equal to zero",
+            "D. Non-zero longitudinal electric and magnetic fields"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "What is the primary physical reason why coaxial cables are typically replaced by waveguides in high-power radar transmitters operating at frequencies above 3 GHz?",
+        "choices": [
+            "A. Coaxial cables suffer from high dielectric losses, inner conductor sagging, and breakdown due to voltage stress at high peak power",
+            "B. Waveguides are cheaper",
+            "C. Coaxial lines are too heavy for radar",
+            "D. Waveguides support TEM waves better"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 57,
+        "question": "A directional coupler has a coupling factor of 30 dB. If 1 Watt of power is incident on the main port, how much power is coupled to the auxiliary output port?",
+        "choices": [
+            "A. 1 milliwatt",
+            "B. 0.1 milliwatt",
+            "C. 10 milliwatts",
+            "D. 0.01 milliwatt"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "The phase constant β in a waveguide becomes zero when the operating frequency f is:",
+        "choices": [
+            "A. Infinite",
+            "B. Equal to the cut-off frequency (f = f_c)",
+            "C. Zero",
+            "D. Twice the cut-off frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "When f = f_c (operating frequency equals cut-off frequency) in a waveguide, the guide wavelength λ_g approaches:",
+        "choices": [
+            "A. Zero",
+            "B. λ_0",
+            "C. Infinity",
+            "D. a / 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "When f = f_c in a waveguide, the phase velocity v_p approaches:",
+        "choices": [
+            "A. c",
+            "B. Zero",
+            "C. Infinity",
+            "D. 2c"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "A two-hole directional coupler is designed with a hole spacing equal to one-quarter of the guide wavelength (λ_g / 4) at the center frequency. This spacing ensures that backward-reflected waves from the holes:",
+        "choices": [
+            "A. Add constructively",
+            "B. Cancel each other destructively, providing high directivity",
+            "C. Double in amplitude",
+            "D. Cause infinite VSWR"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "Which of the following microwave passive devices utilizes Faraday rotation of the wave polarization inside a ferrite rod surrounded by a permanent magnet to achieve non-reciprocal transmission (allowing signals to pass in one direction while blocking them in the opposite direction)?",
+        "choices": [
+            "A. Isolator or Circulator",
+            "B. Magic Tee",
+            "C. Flap Attenuator",
+            "D. E-plane Tee"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "In a rectangular waveguide, if the frequency is increased far above the cut-off frequency (f I f_c), the phase velocity v_p approaches:",
+        "choices": [
+            "A. Infinity",
+            "B. Zero",
+            "C. The speed of light in free space (c)",
+            "D. Twice c"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "The characteristic wave impedance for a Transverse Magnetic (TM) mode in a rectangular waveguide is expressed as:",
+        "choices": [
+            "A. Z_TM = η_0 √( 1 - (f_c/f)^2 )",
+            "B. Z_TM = (η_0/√( 1 - (f_c/f)^2) )",
+            "C. Z_TM = η_0",
+            "D. Z_TM = (377/f_c)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "Calculate the cut-off wavelength for the TE_11 mode in a circular waveguide with an internal diameter of 6 cm. (λ_c = 1.706 D).",
+        "choices": [
+            "A. 10.23 cm",
+            "B. 6.00 cm",
+            "C. 3.41 cm",
+            "D. 12.5 cm"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "A waveguide is said to be \"overmoded\" if it is operated at a frequency where:",
+        "choices": [
+            "A. Only the dominant mode propagates",
+            "B. Multiple higher-order modes can propagate simultaneously",
+            "C. No modes propagate",
+            "D. The cut-off frequency equals zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "The electric field lines in a rectangular waveguide operating in the dominant TE_10 mode are directed:",
+        "choices": [
+            "A. Parallel to the broad walls (vertically between the top and bottom narrow walls)",
+            "B. Parallel to the narrow walls",
+            "C. Diagonally across the guide",
+            "D. Along the longitudinal axis"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "The magnetic field lines in a rectangular waveguide operating in the dominant TE_10 mode form closed loops that:",
+        "choices": [
+            "A. Cross the broad walls perpendicularly and run parallel to the narrow walls",
+            "B. Run exclusively along the center axis",
+            "C. Are zero everywhere",
+            "D. Circle the outer shield"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "In a circular waveguide, the TM_01 mode has a cut-off wavelength given by λ_c = 2.613 r. Express this in terms of diameter D = 2r.",
+        "choices": [
+            "A. λ_c = 1.306 D",
+            "B. λ_c = 2.613 D",
+            "C. λ_c = 5.226 D",
+            "D. λ_c = 0.75 D"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "A variable rotary vane attenuator utilizes a rotating resistive card placed between two fixed phasing sections. The attenuation level follows a precise mathematical law proportional to:",
+        "choices": [
+            "A. cos^2(θ) (where θ is the rotation angle)",
+            "B. sin(θ)",
+            "C. θ^2",
+            "D. Linear function of θ"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "What is the primary operational drawback of using hollow waveguides in mobile or airborne communication systems compared to flexible coaxial cables?",
+        "choices": [
+            "A. Their rigid physical structure, bulky dimensions, and inability to bend sharply without specialized flexible waveguide sections",
+            "B. Low power handling",
+            "C. High attenuation at low frequencies",
+            "D. Inability to handle high temperatures"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "If the inner height b of a rectangular waveguide is reduced to prevent voltage breakdown at high power, the cut-off frequency of the dominant TE_10 mode:",
+        "choices": [
+            "A. Increases",
+            "B. Decreases",
+            "C. Remains completely unaffected (since TE_10 cut-off depends only on dimension a)",
+            "D. Drops to zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "A rectangular waveguide has width a = 7.214 cm (WR-284). Calculate its dominant TE_10 cut-off frequency.",
+        "choices": [
+            "A. 2.08 GHz",
+            "B. 4.16 GHz",
+            "C. 6.56 GHz",
+            "D. 1.04 GHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "The group velocity v_g of a wave in a waveguide is related to free-space velocity c, cut-off frequency f_c, and operating frequency f by:",
+        "choices": [
+            "A. v_g = c √( 1 - (f_c/f)^2 )",
+            "B. v_g = c / √( 1 - (f_c/f)^2 )",
+            "C. v_g = c (f / f_c)",
+            "D. v_g = c^2 / f"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "The phase velocity v_p of a wave in a waveguide is related to c, f_c, and f by:",
+        "choices": [
+            "A. v_p = (c/√( 1 - (f_c/f)^2) )",
+            "B. v_p = c √( 1 - (f_c/f)^2 )",
+            "C. v_p = c / (f_c f)",
+            "D. v_p = c^2 / v_g"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "A directional coupler with coupling of 20 dB and isolation of 40 dB is tested. If an input of 2 Watts is applied to port 1, what is the theoretical power available at the isolated port (port 4)?",
+        "choices": [
+            "A. 0.2 microwatts",
+            "B. 20 microwatts",
+            "C. 200 microwatts",
+            "D. 2 milliwatts"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "In a rectangular waveguide, if both dimensions a and b are decreased by a factor of 2, the cut-off frequency of the dominant TE_10 mode will:",
+        "choices": [
+            "A. Be halved",
+            "B. Remain unchanged",
+            "C. Double",
+            "D. Quadruple"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "Why are circular waveguides rarely used for long uninterrupted runs in microwave systems despite their lower attenuation in the TE_01 mode?",
+        "choices": [
+            "A. Because the TE_01 mode is easily converted into degenerate or higher-order modes (like TM_11) at bends, twists, or surface imperfections",
+            "B. Because they cannot support high power",
+            "C. Because their cut-off frequency is zero",
+            "D. Because they are too expensive to manufacture"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "A microwave test bench requires a component to sample 10% of the forward microwave power while letting 90% pass through to the load with minimal reflection. The ideal component for this is a:",
+        "choices": [
+            "A. 10 dB directional coupler",
+            "B. Magic tee",
+            "C. Flap attenuator",
+            "D. Short-circuited stub"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "The cut-off frequency formula for a circular waveguide operating in the TE_11 mode with radius r is:",
+        "choices": [
+            "A. f_c = (1.841 c/2π r)",
+            "B. f_c = (c/2r)",
+            "C. f_c = (2.405 c/2π r)",
+            "D. f_c = (c/π r^2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "When an electromagnetic wave bounces back and forth between the opposing broad walls of a rectangular waveguide as it propagates down the guide, the angle of incidence θ relative to the normal of the waveguide wall is related to frequency by sin(θ) = f_c / f. At cut-off frequency (f = f_c), this angle of incidence is:",
+        "choices": [
+            "A. 90 degrees (wave bounces straight across back and forth with zero forward progress)",
+            "B. 0 degrees (wave travels straight down axis)",
+            "C. 45 degrees",
+            "D. 180 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "A rectangular waveguide has a broad dimension a = 2.286 cm (WR-90). Calculate its cut-off frequency for the TE_10 mode.",
+        "choices": [
+            "A. 6.56 GHz",
+            "B. 3.28 GHz",
+            "C. 13.12 GHz",
+            "D. 9.00 GHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "The attenuation constant (α) of a rectangular waveguide increases rapidly as the operating frequency:",
+        "choices": [
+            "A. Decreases toward the cut-off frequency (f → f_c)",
+            "B. Increases to infinity",
+            "C. Remains constant",
+            "D. Exceeds twice the cut-off frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "In a Magic Tee, the isolation between the H-plane (sum) port and the E-plane (difference) port is achieved primarily through:",
+        "choices": [
+            "A. Symmetry and orthogonal field configurations within the junction",
+            "B. Attenuator pads",
+            "C. A resistive load network",
+            "D. Dielectric slabs"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "What is the primary difference between a directional coupler and a power divider (such as a Wilkinson divider)?",
+        "choices": [
+            "A. Directional couplers offer asymmetric power division with high directivity and isolation between output ports, whereas power dividers typically split power equally with matched output isolation",
+            "B. Power dividers cannot handle microwaves",
+            "C. Directional couplers have zero bandwidth",
+            "D. Power dividers are made of waveguide only"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "The phenomenon where two or more distinct modes in a waveguide share the exact same cut-off frequency is known as:",
+        "choices": [
+            "A. Mode degeneracy",
+            "B. Mode cutoff",
+            "C. Waveguide dispersion",
+            "D. Evanescent coupling"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "In a circular waveguide, which mode is degenerate with the TM_11 mode, sharing the exact same cut-off frequency?",
+        "choices": [
+            "A. TE_11 mode",
+            "B. TE_01 mode",
+            "C. TM_02 mode",
+            "D. TE_21 mode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "If a waveguide is filled entirely with a dielectric material having relative permittivity ε_r instead of air (ε_r = 1), the cut-off frequency for any given mode will:",
+        "choices": [
+            "A. Decrease by a factor of √( ε_r )",
+            "B. Increase by √( ε_r )",
+            "C. Remain unchanged",
+            "D. Be multiplied by ε_r^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "A rectangular waveguide has inner dimensions a = 5 cm and b = 2.5 cm. If it is filled with a lossless dielectric of ε_r = 2.25, calculate the new cut-off frequency of the dominant TE_10 mode.",
+        "choices": [
+            "A. 2.0 GHz",
+            "B. 3.0 GHz",
+            "C. 4.5 GHz",
+            "D. 6.0 GHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "A waveguide component featuring a calibrated movable plunger shorting the end of a side branch waveguide is used to tune out reflections and match impedances. This component is called a:",
+        "choices": [
+            "A. Waveguide short-circuit sliding tuner (slide screw tuner)",
+            "B. Rotary vane attenuator",
+            "C. Magic tee",
+            "D. Directional coupler"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "The group delay τ_g of a signal traversing a length L of a rectangular waveguide is defined mathematically as the derivative of phase with respect to angular frequency, which yields τ_g = L / v_g. As operating frequency approaches cut-off, group delay:",
+        "choices": [
+            "A. Approaches infinity",
+            "B. Approaches zero",
+            "C. Equals zero",
+            "D. Remains constant"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "In high-power radar installations, why are rectangular waveguides pressurized with dry air or nitrogen gas?",
+        "choices": [
+            "A. To prevent high-voltage electrical arcing and dielectric breakdown of the air inside the waveguide under high peak microwave power",
+            "B. To prevent rust",
+            "C. To increase the speed of light",
+            "D. To lower the cut-off frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 93,
+        "question": "A rectangular waveguide has a width a = 10 cm. What is the maximum free-space wavelength (λ_0) that can successfully propagate in the dominant TE_10 mode?",
+        "choices": [
+            "A. Less than 20 cm (λ_0 < 20 cm)",
+            "B. Exactly 10 cm",
+            "C. Greater than 20 cm",
+            "D. 5 cm"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "The dominant mode in a rectangular waveguide is designated as TE_10 because:",
+        "choices": [
+            "A. m = 1 half-wave variation of fields exists along dimension a, and n = 0 variations exist along dimension b",
+            "B. m = 0 and n = 1",
+            "C. Both indices are equal to 1",
+            "D. It is a transverse electromagnetic wave"
+        ],
+        "correct_answer": "A"
+    }
+]

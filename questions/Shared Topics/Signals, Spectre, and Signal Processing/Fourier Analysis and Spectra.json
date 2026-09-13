@@ -1,0 +1,1047 @@
+[
+    {
+        "number": 1,
+        "question": "The unit doublet function is the derivative of which singularity function?",
+        "choices": [
+            "A. Unit impulse",
+            "B. Unit step",
+            "C. Unit ramp",
+            "D. Signum function"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "A continuous-time signal with finite total energy always has an average power equal to:",
+        "choices": [
+            "A. Infinity",
+            "B. Zero",
+            "C. One",
+            "D. Its energy value"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "According to the Nyquist-Shannon Sampling Theorem, a signal with a maximum frequency of 15 kHz must be sampled at a minimum rate of:",
+        "choices": [
+            "A. 15 kHz",
+            "B. 20 kHz",
+            "C. 30 kHz",
+            "D. 7.5 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "If a 12 kHz signal is sampled at 10 kHz, the principal alias frequency present in the baseband is:",
+        "choices": [
+            "A. 12 kHz",
+            "B. 10 kHz",
+            "C. 8 kHz",
+            "D. 2 kHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "What is the primary purpose of introducing a guard band in a practical sampling system?",
+        "choices": [
+            "A. To allow the use of practical anti-aliasing filters with finite transition bands",
+            "B. To increase the baseband signal's bandwidth",
+            "C. To reduce the quantization noise of the ADC",
+            "D. To perfectly enforce an ideal brick-wall frequency response"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "When a high-frequency continuous signal is undersampled, the frequency reflects across multiples of fs/2. This specific effect is referred to as:",
+        "choices": [
+            "A. Guard banding",
+            "B. Fold-over or frequency folding",
+            "C. Spectral leakage",
+            "D. Phase distortion"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "Undersampling can be intentionally applied without losing information if the original signal is strictly a:",
+        "choices": [
+            "A. Baseband signal",
+            "B. DC signal",
+            "C. Bandpass signal",
+            "D. Aperiodic energy signal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "The ideal reconstruction filter for recovering a continuous-time signal from its samples has an impulse response in the shape of a:",
+        "choices": [
+            "A. Rectangular pulse",
+            "B. Gaussian curve",
+            "C. Triangular wave",
+            "D. Sinc function"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "Which of the following conditions is part of the Dirichlet conditions required for the convergence of a Fourier series?",
+        "choices": [
+            "A. The signal must have a finite number of maxima and minima within one period",
+            "B. The signal must be strictly even or odd",
+            "C. The signal must contain only real values",
+            "D. The signal must have infinite energy"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "In the trigonometric Fourier series representation of a periodic signal x(t), the coefficient a_0 represents the:",
+        "choices": [
+            "A. Fundamental frequency amplitude",
+            "B. DC component or average value of the signal",
+            "C. First harmonic phase shift",
+            "D. Total power of the signal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "For a periodic continuous-time signal x(t) with period T, the trigonometric Fourier series coefficient a_n is calculated using which integral?",
+        "choices": [
+            "A. (1/T) integral of x(t) sin(nw0t) dt",
+            "B. (2/T) integral of x(t) dt",
+            "C. (2/T) integral of x(t) cos(nw0t) dt",
+            "D. (1/T) integral of x(t) cos(w0t) dt"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "The trigonometric Fourier series coefficient b_n represents the amplitudes of the:",
+        "choices": [
+            "A. DC offset components",
+            "B. Cosine basis functions",
+            "C. Complex exponential basis functions",
+            "D. Sine basis functions"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "In the exponential Fourier series, the complex coefficient c_n is evaluated as:",
+        "choices": [
+            "A. (1/T) integral of x(t) e^(-jnw0t) dt",
+            "B. (2/T) integral of x(t) e^(jnw0t) dt",
+            "C. (1/T) integral of x(t) e^(nw0t) dt",
+            "D. (2/T) integral of x(t) cos(nw0t) dt"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "If a periodic signal exhibits even symmetry (x(t) = x(-t)), its trigonometric Fourier series will have:",
+        "choices": [
+            "A. Only sine terms (a_n = 0)",
+            "B. Only cosine terms and possibly a DC term (b_n = 0)",
+            "C. Only odd harmonics",
+            "D. No DC component"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "If a periodic signal exhibits odd symmetry (x(t) = -x(-t)), its trigonometric Fourier series will have:",
+        "choices": [
+            "A. Only cosine terms",
+            "B. Only even harmonics",
+            "C. Only sine terms (a_n = 0, a_0 = 0)",
+            "D. Both sine and cosine terms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "A periodic signal has half-wave symmetry if x(t) = -x(t + T/2). The Fourier series of such a signal will strictly contain:",
+        "choices": [
+            "A. Only cosine terms",
+            "B. Only even harmonics",
+            "C. Only sine terms",
+            "D. Only odd harmonics"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "Parseval's theorem for Fourier series states that the average power of a periodic signal is equal to:",
+        "choices": [
+            "A. The sum of the squared magnitudes of its complex Fourier coefficients",
+            "B. The integral of its phase spectrum",
+            "C. The product of its fundamental frequency and amplitude",
+            "D. The square of its maximum time-domain amplitude"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "When truncating a Fourier series to a finite number of terms, an overshoot of approximately 9% occurs at points of discontinuity. This is known as:",
+        "choices": [
+            "A. Aliasing effect",
+            "B. Gibbs phenomenon",
+            "C. Parseval's paradox",
+            "D. Dirichlet's limit"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "A periodic square wave alternates between 0 and 5 Volts, with a 50% duty cycle. What is the value of its DC coefficient a_0?",
+        "choices": [
+            "A. 0 V",
+            "B. 5 V",
+            "C. 2.5 V",
+            "D. 1.25 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "A full-wave rectified sine wave with a peak amplitude of A has an average value (DC component) of:",
+        "choices": [
+            "A. A / pi",
+            "B. A / sqrt(2)",
+            "C. A / 2",
+            "D. 2A / pi"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "How is the complex exponential Fourier coefficient c_n related to the trigonometric coefficients a_n and b_n for n > 0?",
+        "choices": [
+            "A. c_n = (a_n - j b_n) / 2",
+            "B. c_n = (a_n + j b_n) / 2",
+            "C. c_n = a_n - j b_n",
+            "D. c_n = a_n + j b_n"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "If a periodic signal has jump discontinuities (like a square wave), the magnitude of its Fourier series coefficients",
+        "choices": [
+            "A. c_n",
+            "B. typically decays at a rate proportional to:",
+            "C. 1/n^2",
+            "D. 1/n"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 23,
+        "question": "If a periodic signal is continuous but its first derivative has jump discontinuities (like a triangular wave), its Fourier series coefficients",
+        "choices": [
+            "A. c_n",
+            "B. decay proportionally to:",
+            "C. 1/n",
+            "D. 1/n^3"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 24,
+        "question": "For a real-valued periodic signal, the complex Fourier series coefficients c_n and c_-n exhibit what mathematical relationship?",
+        "choices": [
+            "A. c_-n = c_n",
+            "B. c_-n = -c_n",
+            "C. c_-n = 1 / c_n",
+            "D. c_-n = c_n* (complex conjugate)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "The frequency spectrum of a continuous-time periodic signal obtained via Fourier series is always:",
+        "choices": [
+            "A. A discrete line spectrum",
+            "B. A continuous spectrum",
+            "C. Limited to the Nyquist frequency",
+            "D. Completely real"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "The synthesis equation for the exponential Fourier series reconstructs the time-domain signal x(t) by summing c_n multiplied by:",
+        "choices": [
+            "A. cos(nw0t)",
+            "B. e^(jnw0t)",
+            "C. e^(-jnw0t)",
+            "D. sin(nw0t)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "In analyzing non-ideal waveforms, Total Harmonic Distortion (THD) is defined as the ratio of the:",
+        "choices": [
+            "A. Power of the fundamental to the total power",
+            "B. Total power to the fundamental power",
+            "C. RMS value of all higher harmonics to the RMS value of the fundamental",
+            "D. Peak value of the fundamental to the peak value of the noise"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "What is the fundamental angular frequency w0 of the signal x(t) = 3 cos(4t) + 4 sin(6t)?",
+        "choices": [
+            "A. 12 rad/s",
+            "B. 1 rad/s",
+            "C. 10 rad/s",
+            "D. 2 rad/s"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "The Inverse Continuous-Time Fourier Transform requires integrating X(w)e^(jwt) dw and multiplying the result by a factor of:",
+        "choices": [
+            "A. 1 / pi",
+            "B. 1 / 2pi",
+            "C. 2pi",
+            "D. 1 / sqrt(2pi)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "What is the Continuous-Time Fourier Transform of the unit impulse function delta(t)?",
+        "choices": [
+            "A. 2pi delta(w)",
+            "B. 1 / jw",
+            "C. 1",
+            "D. u(w)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "The CTFT of a constant DC signal x(t) = 1 is:",
+        "choices": [
+            "A. 1",
+            "B. delta(w)",
+            "C. 1 / jw",
+            "D. 2pi delta(w)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "According to the time-shifting property, if x(t) has a Fourier Transform X(w), then the transform of x(t - t0) is:",
+        "choices": [
+            "A. X(w) e^(-jwt0)",
+            "B. X(w) e^(jwt0)",
+            "C. X(w - t0)",
+            "D. X(w) / t0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "The frequency-shifting property of the CTFT states that multiplying a signal x(t) by e^(jw0t) results in a transformed spectrum equal to:",
+        "choices": [
+            "A. X(w + w0)",
+            "B. X(w - w0)",
+            "C. X(w) * e^(jw0t)",
+            "D. X(w) / w0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "Which property asserts that if x(t) transforms to X(w), then the time-domain signal X(t) transforms to 2pi x(-w)?",
+        "choices": [
+            "A. Convolution property",
+            "B. Parseval's theorem",
+            "C. Time-reversal property",
+            "D. Duality property"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "Convolution of two signals in the time domain corresponds to what operation in the frequency domain?",
+        "choices": [
+            "A. Multiplication",
+            "B. Addition",
+            "C. Division",
+            "D. Convolution"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Differentiating a signal in the time domain, d/dt x(t), corresponds to multiplying its Fourier transform X(w) by:",
+        "choices": [
+            "A. 1 / jw",
+            "B. jw",
+            "C. -w^2",
+            "D. -jw"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "The Fourier transform of a rectangular pulse centered at the origin (rect(t/T)) results in which mathematical function in the frequency domain?",
+        "choices": [
+            "A. Gaussian function",
+            "B. Triangular function",
+            "C. Sinc function",
+            "D. Impulse train"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "Conversely, due to duality, a signal that is a sinc function in the time domain will have a Fourier transform shaped as a:",
+        "choices": [
+            "A. Gaussian function",
+            "B. Sinc squared function",
+            "C. Impulse",
+            "D. Rectangular pulse"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "The Fourier transform of the signum function, sgn(t), is:",
+        "choices": [
+            "A. 2 / jw",
+            "B. 1 / jw",
+            "C. pi delta(w)",
+            "D. -2 / w^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "The Fourier transform of the unit step function u(t) is given by:",
+        "choices": [
+            "A. 1 / jw",
+            "B. pi delta(w) + 1/jw",
+            "C. 2pi delta(w) + 1/jw",
+            "D. delta(w) + 1/jw"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Evaluate the Fourier transform of the causal exponential signal x(t) = e^(-at) u(t) for a > 0.",
+        "choices": [
+            "A. 1 / (a - jw)",
+            "B. a / (a^2 + w^2)",
+            "C. 1 / (a + jw)",
+            "D. jw / (a + jw)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "Parseval's Theorem for CTFT relates the total energy in the time domain to the integral of the energy spectral density over frequency. What is the constant multiplier for the integral of",
+        "choices": [
+            "A. X(w)",
+            "B. ^2 dw?",
+            "C. 1",
+            "D. 2pi"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 45,
+        "question": "The Fourier transform of the cosine wave x(t) = cos(w0t) consists of two impulses located at w = w0 and w = -w0, each with an area of:",
+        "choices": [
+            "A. pi",
+            "B. 2pi",
+            "C. 1/2",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "The Fourier transform of a periodic train of impulses (comb function) with period T is:",
+        "choices": [
+            "A. A single impulse at w = 2pi/T",
+            "B. Another periodic train of impulses in the frequency domain",
+            "C. A constant value of 2pi/T",
+            "D. A sinc pulse train"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "The Fourier transform of a Gaussian pulse e^(-at^2) is unique because its spectral shape is:",
+        "choices": [
+            "A. A sinc function",
+            "B. A rectangular pulse",
+            "C. Also a Gaussian curve",
+            "D. An exponential decay"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "If the bandwidth of a rectangular pulse is artificially halved by time-expansion, its peak amplitude in the frequency domain:",
+        "choices": [
+            "A. Halves",
+            "B. Remains unchanged",
+            "C. Squares",
+            "D. Doubles"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "Unlike the CTFT, the spectrum produced by the Discrete-Time Fourier Transform X(e^jw) is always periodic with a fundamental period of:",
+        "choices": [
+            "A. pi",
+            "B. 2pi",
+            "C. 1",
+            "D. N"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Because the DTFT is periodic, the Inverse DTFT is evaluated over a continuous interval of:",
+        "choices": [
+            "A. -infinity to infinity",
+            "B. 0 to infinity",
+            "C. -pi to pi (one full period)",
+            "D. 0 to N-1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "In the DTFT, delaying a discrete signal by k samples, x[n-k], corresponds to multiplying its spectrum X(e^jw) by:",
+        "choices": [
+            "A. e^(jwk)",
+            "B. e^(-jnk)",
+            "C. e^(jnk)",
+            "D. e^(-jwk)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "Multiplying a discrete sequence x[n] by e^(jw0n) shifts its DTFT spectrum to:",
+        "choices": [
+            "A. X(e^j(w-w0))",
+            "B. X(e^j(w+w0))",
+            "C. X(e^j(w0-w))",
+            "D. w0 * X(e^jw)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "If a discrete LTI system has impulse response h[n], applying an input x[n] yields an output DTFT Y(e^jw) equal to:",
+        "choices": [
+            "A. X(e^jw) + H(e^jw)",
+            "B. X(e^jw) H(e^jw)",
+            "C. X(e^jw) / H(e^jw)",
+            "D. Convolution of X(e^jw) and H(e^jw)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "The DTFT of the discrete unit impulse shifted by k, delta[n-k], is:",
+        "choices": [
+            "A. 1",
+            "B. delta(w-k)",
+            "C. e^(-jwk)",
+            "D. e^(jwk)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "The DTFT of the discrete unit step function u[n] contains an impulse train to account for its infinite sum. The correct expression is 1/(1 - e^-jw) plus:",
+        "choices": [
+            "A. pi delta(w)",
+            "B. delta(w-pi)",
+            "C. 2pi delta(w-pi)",
+            "D. sum of pi delta(w - 2pi*k)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "For",
+        "choices": [
+            "A. a",
+            "B. < 1, the DTFT of the exponential sequence x[n] = a^n u[n] is:",
+            "C. 1 / (1 - a e^-jw)",
+            "D. 1 / (1 + a e^-jw)"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 58,
+        "question": "The DC gain of a discrete-time system with frequency response H(e^jw) is obtained by evaluating it at:",
+        "choices": [
+            "A. w = pi",
+            "B. w = 0",
+            "C. w = 1",
+            "D. w = 2pi"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "The inverse DTFT of an ideal low-pass filter with cutoff frequency w_c yields an impulse response h[n] in the shape of a discrete:",
+        "choices": [
+            "A. Unit step function",
+            "B. Exponential sequence",
+            "C. Sinc function",
+            "D. Rectangular pulse"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "A sufficient condition for the uniform convergence of the DTFT of a sequence x[n] is that the sequence must be:",
+        "choices": [
+            "A. Periodic",
+            "B. Strictly causal",
+            "C. Energy limited",
+            "D. Absolutely summable"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "The N-point Discrete Fourier Transform (DFT) evaluates the spectrum of an N-point sequence x[n] at N discrete frequencies. The DFT sum is taken from n=0 to:",
+        "choices": [
+            "A. N-1",
+            "B. N",
+            "C. infinity",
+            "D. N+1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "The Inverse Discrete Fourier Transform (IDFT) formula includes a scaling factor in front of the summation. What is this factor?",
+        "choices": [
+            "A. 1/2pi",
+            "B. 1/N",
+            "C. 1/sqrt(N)",
+            "D. 1/2N"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "In DFT and FFT algorithms, the complex exponential term e^(-j2pi/N) is often represented by a constant known as the:",
+        "choices": [
+            "A. Nyquist constant",
+            "B. Scaling factor",
+            "C. Twiddle factor W_N",
+            "D. Phase constant"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "The twiddle factor W_N^k exhibits a phase symmetry property such that W_N^(k + N/2) is equivalent to:",
+        "choices": [
+            "A. W_N^k",
+            "B. j W_N^k",
+            "C. (W_N^k)*",
+            "D. -W_N^k"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "The periodicity property of the twiddle factor states that W_N^(k + N) equals:",
+        "choices": [
+            "A. W_N^k",
+            "B. -W_N^k",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Multiplication of two N-point DFTs in the frequency domain, followed by an inverse DFT, is equivalent to performing which operation in the time domain?",
+        "choices": [
+            "A. Linear convolution",
+            "B. Circular convolution",
+            "C. Cross-correlation",
+            "D. Circular shift"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Appending zeros to the end of a time-domain sequence before taking the DFT is known as zero-padding. Its primary effect in the frequency domain is to:",
+        "choices": [
+            "A. Increase the true frequency resolution",
+            "B. Reduce spectral leakage",
+            "C. Interpolate the spectrum to provide a smoother visual curve",
+            "D. Decrease the fundamental period"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "The direct computation of an N-point DFT requires a number of complex multiplications that scales proportionally to:",
+        "choices": [
+            "A. N",
+            "B. N log2 N",
+            "C. 2^N",
+            "D. N^2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "The Cooley-Tukey Radix-2 Fast Fourier Transform (FFT) algorithm reduces the computational complexity of the DFT from O(N^2) down to:",
+        "choices": [
+            "A. O(N log2 N)",
+            "B. O(N)",
+            "C. O(N sqrt(N))",
+            "D. O(log2 N)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "For the standard Radix-2 FFT algorithm to be applied, the sequence length N must strictly be:",
+        "choices": [
+            "A. An odd number",
+            "B. A power of 2",
+            "C. A prime number",
+            "D. Divisible by 10"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "In a Decimation-in-Time (DIT) radix-2 FFT, the time-domain sequence x[n] is recursively divided into:",
+        "choices": [
+            "A. First half and second half",
+            "B. Real and imaginary parts",
+            "C. Even-indexed and odd-indexed samples",
+            "D. Positive and negative frequencies"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "To perform the DIT FFT efficiently in-place, the input array is typically rearranged using an addressing scheme known as:",
+        "choices": [
+            "A. Linear addressing",
+            "B. Circular addressing",
+            "C. Gray coding",
+            "D. Bit-reversed addressing"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "What is the N-point DFT of the unit impulse sequence delta[n]?",
+        "choices": [
+            "A. A sequence of all ones",
+            "B. A single impulse at k=0",
+            "C. An alternating sequence of 1 and -1",
+            "D. A sequence of Ns"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "If a continuous signal is sampled at fs = 8000 Hz and a 1024-point DFT is taken, the frequency spacing (resolution bin size) between adjacent DFT points is approximately:",
+        "choices": [
+            "A. 1024 Hz",
+            "B. 7.8 Hz",
+            "C. 8000 Hz",
+            "D. 3.9 Hz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "To perfectly replicate the result of a linear convolution of two sequences of lengths L and M using circular convolution (via DFT), what is the minimum required DFT length N?",
+        "choices": [
+            "A. L + M",
+            "B. Max(L, M)",
+            "C. L + M - 1",
+            "D. L * M"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "When observing a non-periodic signal through a finite observation window, sharp discontinuities at the edges of the window cause energy to spread across frequencies. This phenomenon is called:",
+        "choices": [
+            "A. Aliasing",
+            "B. Scalloping loss",
+            "C. Frequency folding",
+            "D. Spectral leakage"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "To mitigate spectral leakage in practical DFT analysis, the time-domain data is usually multiplied by a tapering function known as a:",
+        "choices": [
+            "A. Window function (e.g., Hamming, Hanning)",
+            "B. Sinc function",
+            "C. Pre-emphasis filter",
+            "D. Comb filter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "Applying a window function to reduce spectral leakage sidelobes inherently comes with a trade-off. What is the primary negative effect of windowing?",
+        "choices": [
+            "A. It introduces severe aliasing",
+            "B. It widens the main lobe, reducing frequency resolution",
+            "C. It zeroes out the DC component entirely",
+            "D. It doubles the computational complexity of the FFT"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "The phenomenon where frequency components exactly exactly between two DFT bins are attenuated and appear with lower magnitude is referred to as:",
+        "choices": [
+            "A. Gibb's phenomenon",
+            "B. Leakage paradox",
+            "C. Picket-fence effect (scalloping loss)",
+            "D. Fold-over attenuation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "The DFT can be viewed as evaluating the DTFT X(e^jw) at N equally spaced discrete frequencies. These discrete frequencies w_k are given by:",
+        "choices": [
+            "A. k*pi/N",
+            "B. 2pi*k",
+            "C. k/N",
+            "D. 2pi*k/N"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "For a deterministic energy signal x(t), the Energy Spectral Density (ESD) describes how energy is distributed with frequency. It is mathematically defined as:",
+        "choices": [
+            "A. The squared magnitude of its Fourier transform,",
+            "B. X(f)",
+            "C. ^2",
+            "D. The Fourier transform of its amplitude"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 82,
+        "question": "For a random power signal, the Power Spectral Density (PSD) is defined via a limiting operation over a time window T. The PSD represents the:",
+        "choices": [
+            "A. Peak power at a specific frequency",
+            "B. Average power per unit bandwidth as a function of frequency",
+            "C. Total energy accumulated over infinite time",
+            "D. Root mean square voltage spectrum"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "Which fundamental theorem states that the Power Spectral Density (PSD) of a wide-sense stationary random process is the Fourier Transform of its autocorrelation function?",
+        "choices": [
+            "A. Parseval's Theorem",
+            "B. Nyquist-Shannon Theorem",
+            "C. Wiener-Khinchin Theorem",
+            "D. Dirichlet's Theorem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "Similarly, the Energy Spectral Density (ESD) of a deterministic signal is the Fourier Transform of its:",
+        "choices": [
+            "A. First derivative",
+            "B. Phase response",
+            "C. Cross-correlation function",
+            "D. Autocorrelation function"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "In the International System of Units (SI), if a signal represents a voltage across a 1-ohm resistor, the standard unit of Power Spectral Density (PSD) is:",
+        "choices": [
+            "A. Watts per Hertz (W/Hz)",
+            "B. Joules per Hertz (J/Hz)",
+            "C. Watts",
+            "D. Volts squared"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Under the same 1-ohm assumption, what is the standard unit of Energy Spectral Density (ESD)?",
+        "choices": [
+            "A. Watts per Hertz (W/Hz)",
+            "B. Joules per Hertz (J/Hz)",
+            "C. Joules",
+            "D. Watts times seconds"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "For any purely real continuous-time signal x(t), its magnitude spectrum",
+        "choices": [
+            "A. X(w)",
+            "B. exhibits which type of symmetry?",
+            "C. Odd symmetry",
+            "D. Half-wave symmetry"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 88,
+        "question": "Conversely, for a purely real continuous-time signal x(t), its phase spectrum angle(X(w)) exhibits which type of symmetry?",
+        "choices": [
+            "A. Even symmetry",
+            "B. Conjugate symmetry",
+            "C. Half-wave symmetry",
+            "D. Odd symmetry"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "The Cross-Spectral Density of two jointly wide-sense stationary processes is the Fourier transform of their:",
+        "choices": [
+            "A. Combined PSDs",
+            "B. Autocorrelation functions",
+            "C. Cross-correlation function",
+            "D. Convolution"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Ideal additive white Gaussian noise (AWGN) has a Power Spectral Density that is:",
+        "choices": [
+            "A. Exponentially decaying with frequency",
+            "B. Zero at DC and increasing with frequency",
+            "C. Concentrated solely at the carrier frequency",
+            "D. Constant across all frequencies"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "For an energy signal x(t), evaluating its autocorrelation function R_xx(tau) at a time shift of tau = 0 yields the signal's:",
+        "choices": [
+            "A. Total energy",
+            "B. Average power",
+            "C. DC offset",
+            "D. Maximum amplitude"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "For a power signal (like a periodic wave or stationary noise), evaluating its autocorrelation function R_xx(tau) at tau = 0 yields the signal's:",
+        "choices": [
+            "A. Total energy",
+            "B. Average power",
+            "C. Fundamental frequency",
+            "D. Root mean square phase"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "The total energy of a signal can be computed by integrating its ESD from -infinity to +infinity. This frequency-domain energy calculation is a direct application of:",
+        "choices": [
+            "A. The Convolution Theorem",
+            "B. The Wiener-Khinchin Theorem",
+            "C. Parseval's Theorem",
+            "D. The Sampling Theorem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "A system introduces phase distortion to a signal if its phase response angle(H(w)) is:",
+        "choices": [
+            "A. Strictly zero",
+            "B. A linear function of frequency w",
+            "C. Directly proportional to w",
+            "D. A non-linear function of frequency w"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "A system that delays all frequency components by the exact same amount of time is called a:",
+        "choices": [
+            "A. Linear phase system",
+            "B. Minimum phase system",
+            "C. Zero phase system",
+            "D. Dispersive system"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "In system analysis, the group delay is defined mathematically as the:",
+        "choices": [
+            "A. Integral of the magnitude response",
+            "B. Negative derivative of the phase response with respect to frequency",
+            "C. Derivative of the magnitude response",
+            "D. Phase response divided by frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "The autocorrelation function of a real-valued wide-sense stationary random process R_xx(tau) is always:",
+        "choices": [
+            "A. An odd function",
+            "B. A monotonically increasing function",
+            "C. An even function",
+            "D. Zero at tau=0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "A white noise signal with a two-sided PSD of N0/2 Watts/Hz is passed through an ideal low-pass filter with a cutoff frequency of B Hz. The total average power at the filter output is:",
+        "choices": [
+            "A. N0/2",
+            "B. N0",
+            "C. N0 / (2B)",
+            "D. N0 * B"
+        ],
+        "correct_answer": "D"
+    }
+]

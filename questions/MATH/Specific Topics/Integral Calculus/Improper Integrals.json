@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "Integration by parts formula ∫ u dv = uv - ∫ v du is directly derived from which differentiation rule?",
+        "choices": [
+            "A. Product Rule",
+            "B. Quotient Rule",
+            "C. Chain Rule",
+            "D. Power Rule"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "Which substitution is most appropriate to evaluate ∫ (dx/x^2 √( a^2 - x^2) )?",
+        "choices": [
+            "A. x = a tan θ",
+            "B. x = a sin θ",
+            "C. x = a sec θ",
+            "D. x = a cos θ"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Using Wallis' formula, the integral ∫_0^π/2 sin^4 x dx evaluates to:",
+        "choices": [
+            "A. 3π/8",
+            "B. π/16",
+            "C. 3π/16",
+            "D. π/4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "King's property, which states ∫_a^b f(x) dx = ∫_a^b f(a+b-x) dx, is also commonly known as the:",
+        "choices": [
+            "A. Addition Rule",
+            "B. Symmetry Rule",
+            "C. Inversion Rule",
+            "D. Reflection Rule"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "The partial fraction decomposition of (1/x^2(x-1)) requires how many undetermined constants?",
+        "choices": [
+            "A. 3",
+            "B. 2",
+            "C. 4",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "Using King's property, evaluate ∫_0^π/2 (sin x/sin x + cos x) dx.",
+        "choices": [
+            "A. π/2",
+            "B. π/4",
+            "C. π/8",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "The tabular method (or DI method) is a shortcut that is best suited for integrands like:",
+        "choices": [
+            "A. Two logarithmic functions",
+            "B. Rational functions",
+            "C. Polynomial times an exponential or trigonometric function",
+            "D. Functions requiring trigonometric substitution"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "The trigonometric substitution x = a tan θ is best used for integrands containing the radical expression:",
+        "choices": [
+            "A. √( a^2 - x^2 )",
+            "B. √( x^2 - a^2 )",
+            "C. a^2 - x^2",
+            "D. √( x^2 + a^2 )"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "An improper integral of Type 1 is characterized by having:",
+        "choices": [
+            "A. At least one infinite limit of integration",
+            "B. An infinite discontinuity in the interval",
+            "C. An integrand that approaches zero",
+            "D. A finite limit but no closed-form antiderivative"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "An improper integral of Type 2 is characterized by having:",
+        "choices": [
+            "A. An infinite limit of integration",
+            "B. An infinite discontinuity within or at the boundary of the interval",
+            "C. A rational function with no real roots in the denominator",
+            "D. A piecewise continuous integrand"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "The p-test for integrals states that ∫_1^∞ (1/x^p) dx converges if and only if:",
+        "choices": [
+            "A. p < 1",
+            "B. p ≥ 1",
+            "C. p > 1",
+            "D. p ≤ 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "The p-test for Type 2 improper integrals states that ∫_0^1 (1/x^p) dx converges if and only if:",
+        "choices": [
+            "A. p > 1",
+            "B. p ≥ 1",
+            "C. p = 1",
+            "D. p < 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Which of the following is a classic example of a Type 2 improper integral?",
+        "choices": [
+            "A. ∫_0^1 (1/x) dx",
+            "B. ∫_1^∞ (1/x^2) dx",
+            "C. ∫_0^∞ e^-x dx",
+            "D. ∫_1^2 x^2 dx"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "To rigorously evaluate the Type 1 improper integral ∫_a^∞ f(x) dx, one must compute:",
+        "choices": [
+            "A. ∫_a^0 f(x) dx + ∫_0^∞ f(x) dx",
+            "B. \\lim_t → ∞ ∫_a^t f(x) dx",
+            "C. \\lim_t → 0 ∫_a^t f(x) dx",
+            "D. f(∞) - f(a)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "If the limit used to evaluate an improper integral exists and evaluates to a finite number, the integral is said to:",
+        "choices": [
+            "A. Diverge",
+            "B. Oscillate",
+            "C. Converge",
+            "D. Be absolute"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "If the limit used to evaluate an improper integral fails to exist or approaches infinity, the integral is said to:",
+        "choices": [
+            "A. Converge",
+            "B. Be conditional",
+            "C. Be indeterminant",
+            "D. Diverge"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "Evaluate the improper integral ∫_1^∞ (1/x^2) dx.",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. ∞ (Diverges)",
+            "D. 1/2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "Evaluate the improper integral ∫_1^∞ (1/x) dx.",
+        "choices": [
+            "A. 1",
+            "B. ∞ (Diverges)",
+            "C. 0",
+            "D. e"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Evaluate the improper integral ∫_0^∞ e^-x dx.",
+        "choices": [
+            "A. 0",
+            "B. 1/e",
+            "C. 1",
+            "D. ∞ (Diverges)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Evaluate the improper integral ∫_-∞^0 e^2x dx.",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 0",
+            "D. 1/2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "Evaluate the Type 2 improper integral ∫_0^1 (1/√( x) ) dx.",
+        "choices": [
+            "A. 2",
+            "B. 1",
+            "C. 1/2",
+            "D. ∞ (Diverges)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Evaluate the Type 2 improper integral ∫_-1^1 (1/x^2) dx.",
+        "choices": [
+            "A. -2",
+            "B. ∞ (Diverges)",
+            "C. 0",
+            "D. 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "Which of the following improper integrals diverges?",
+        "choices": [
+            "A. ∫_1^∞ (1/x^3) dx",
+            "B. ∫_1^∞ e^-x dx",
+            "C. ∫_1^∞ (1/√( x) ) dx",
+            "D. ∫_0^1 (1/√( x) ) dx"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "Evaluate the integral ∫_0^∞ (1/1+x^2) dx.",
+        "choices": [
+            "A. 1",
+            "B. π",
+            "C. π/4",
+            "D. π/2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "Find the value of the improper integral ∫_2^∞ (1/x^3) dx.",
+        "choices": [
+            "A. 1/8",
+            "B. 1/4",
+            "C. 1/2",
+            "D. 1/16"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "What specifically makes ∫_0^3 (1/x-1) dx an improper integral?",
+        "choices": [
+            "A. The limits of integration are not symmetric",
+            "B. The integrand has an infinite discontinuity at x = 1",
+            "C. The integral diverges to infinity",
+            "D. The upper limit is too small"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "Evaluate ∫_1^∞ e^-3x dx.",
+        "choices": [
+            "A. e^-3",
+            "B. 3e^-3",
+            "C. (1/3e^3)",
+            "D. ∞ (Diverges)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Evaluate the improper integral ∫_0^2 (dx/√( 4-x^2) ).",
+        "choices": [
+            "A. 1",
+            "B. π/4",
+            "C. 2π",
+            "D. π/2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "Determine the convergence of ∫_1^∞ (ln x/x) dx.",
+        "choices": [
+            "A. Diverges",
+            "B. Converges to 1",
+            "C. Converges to 1/2",
+            "D. Converges to e"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "The improper integral ∫_0^∞ x e^-x^2 dx converges to:",
+        "choices": [
+            "A. 1",
+            "B. 1/2",
+            "C. √( π )/2",
+            "D. ∞ (Diverges)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Determine the convergence of ∫_-∞^∞ (x/1+x^2) dx when evaluated strictly as an improper integral (not as a Cauchy Principal Value).",
+        "choices": [
+            "A. Converges to 0",
+            "B. Converges to π",
+            "C. Diverges",
+            "D. Converges to 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "Evaluate the Type 2 improper integral ∫_0^1 x ln x dx.",
+        "choices": [
+            "A. 1/4",
+            "B. -1/2",
+            "C. 0",
+            "D. -1/4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "By the Comparison Test, since (1/x^2+1) < (1/x^2) for x ≥ 1, the integral ∫_1^∞ (1/x^2+1) dx:",
+        "choices": [
+            "A. Converges",
+            "B. Diverges",
+            "C. Equals zero",
+            "D. Is indeterminate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Evaluate the integral ∫_e^∞ (dx/x (ln x)^2).",
+        "choices": [
+            "A. e",
+            "B. 1",
+            "C. 1/e",
+            "D. ∞ (Diverges)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Find the area under the curve y = 1/x^3 from x=1 to x=∞.",
+        "choices": [
+            "A. 1",
+            "B. 1/3",
+            "C. 1/2",
+            "D. 1/4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Evaluate the improper integral ∫_0^4 (dx/√( 4-x) ).",
+        "choices": [
+            "A. 2",
+            "B. 8",
+            "C. ∞ (Diverges)",
+            "D. 4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "The Gamma function Γ(n) = ∫_0^∞ x^n-1 e^-x dx evaluates to (n-1)! for positive integers. What is the value of ∫_0^∞ x^3 e^-x dx?",
+        "choices": [
+            "A. 6",
+            "B. 24",
+            "C. 3",
+            "D. 12"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Determine the convergence of ∫_2^∞ (dx/x ln x).",
+        "choices": [
+            "A. Converges to 1/ln 2",
+            "B. Diverges",
+            "C. Converges to ln(ln 2)",
+            "D. Converges to 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Find the value of the integral ∫_-∞^∞ (1/1+x^2) dx.",
+        "choices": [
+            "A. π/2",
+            "B. 2π",
+            "C. π",
+            "D. 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "Which interval makes ∫_a^b (1/x-2) dx a Type 2 improper integral?",
+        "choices": [
+            "A. [3, 5]",
+            "B. [0, 1]",
+            "C. [-5, 0]",
+            "D. [1, 3]"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "The integral ∫_0^1 (1/x^3) dx is formally evaluated as:",
+        "choices": [
+            "A. \\lim_t → 0^+ ∫_t^1 (1/x^3) dx = ∞ (Diverges)",
+            "B. \\lim_t → 1^- ∫_0^t (1/x^3) dx = -1/2",
+            "C. \\lim_t → 0^+ ∫_t^1 (1/x^3) dx = 1/2",
+            "D. \\lim_t → 0 ∫_0^t (1/x^3) dx = ∞"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "What is the value of the improper integral ∫_0^∞ cos x dx?",
+        "choices": [
+            "A. 1",
+            "B. Diverges",
+            "C. 0",
+            "D. -1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Find the value of the improper integral ∫_0^1 \\frace^√( x )√( x ) dx.",
+        "choices": [
+            "A. 2e",
+            "B. e - 1",
+            "C. 2e - 2",
+            "D. e^2 - e"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "Evaluate ∫_1^∞ (1/x^2+x) dx using partial fractions.",
+        "choices": [
+            "A. 1",
+            "B. ∞ (Diverges)",
+            "C. ln 3",
+            "D. ln 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Find the area of the unbounded region between y=e^-x and the x-axis for x ≥ 0.",
+        "choices": [
+            "A. 1",
+            "B. e",
+            "C. 1/e",
+            "D. ∞ (Diverges)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "Evaluate the Type 2 improper integral ∫_0^π/2 tan x dx.",
+        "choices": [
+            "A. π/2",
+            "B. Diverges",
+            "C. 1",
+            "D. ln 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "Evaluate the improper integral ∫_0^2 (x/√( 4-x^2) ) dx.",
+        "choices": [
+            "A. 4",
+            "B. π",
+            "C. 2",
+            "D. 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "Determine the convergence of ∫_1^∞ (sin^2 x/x^2) dx.",
+        "choices": [
+            "A. Diverges due to oscillation",
+            "B. Converges to π",
+            "C. Diverges to infinity",
+            "D. Converges by comparison with 1/x^2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "The Average Value of a continuous function f(x) on [a,b] is given by the formula:",
+        "choices": [
+            "A. (1/b-a) ∫_a^b f(x) dx",
+            "B. ∫_a^b f(x) dx",
+            "C. (f(b)-f(a)/b-a)",
+            "D. √( (1/b-a) ∫_a^b [f(x)]^2 dx )"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "The Mean Value Theorem for Integration states that for a continuous f on [a,b], there exists c in [a,b] such that f(c) equals:",
+        "choices": [
+            "A. The derivative of f",
+            "B. The average value of f on [a,b]",
+            "C. The maximum value of f",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "The Root Mean Square (RMS) value of a function f(t) over [a,b] is formally defined as the square root of:",
+        "choices": [
+            "A. The integral of f(t)",
+            "B. The square of the average value",
+            "C. The average value of [f(t)]^2",
+            "D. The peak value of f(t)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "An accumulation function F(x) = ∫_a^x f(t) dt represents the:",
+        "choices": [
+            "A. Derivative of f(t)",
+            "B. Area of a circle with radius x",
+            "C. Average value of f(t) up to x",
+            "D. Net accumulated area under f(t) from a to x"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "For a standard sinusoidal voltage v(t) = V_m sin(ω t), the RMS value over one full period is:",
+        "choices": [
+            "A. V_m / √( 2 )",
+            "B. V_m / π",
+            "C. 2V_m / π",
+            "D. V_m / 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "For a full-wave rectified sine wave with peak voltage V_m, the average value over one period is:",
+        "choices": [
+            "A. V_m / √( 2 )",
+            "B. 2V_m / π",
+            "C. V_m / 2",
+            "D. V_m / π"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "The RMS value of a pure DC current I_DC = 10 A over any given time interval is:",
+        "choices": [
+            "A. 10√( 2 ) A",
+            "B. 10/√( 2 ) A",
+            "C. 10 A",
+            "D. 5 A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "If f(x) represents the volumetric rate of water flow into a tank (e.g., liters/minute), the integral of f(x) over [t_1, t_2] represents the:",
+        "choices": [
+            "A. Average flow rate",
+            "B. Acceleration of the water",
+            "C. Maximum flow rate",
+            "D. Total change in volume of water"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "Find the average value of the function f(x) = x on the interval [0, 4].",
+        "choices": [
+            "A. 2",
+            "B. 4",
+            "C. 8",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Find the average value of the function f(x) = x^2 on the interval [0, 3].",
+        "choices": [
+            "A. 9",
+            "B. 3",
+            "C. 4.5",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "The RMS value of the AC voltage v(t) = 10 sin t over a full period is:",
+        "choices": [
+            "A. 10 V",
+            "B. 5 V",
+            "C. 5√( 2 ) V",
+            "D. 10√( 2 ) V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "The Mean Value Theorem for Integration guarantees a point c where the rectangle with height f(c) and width (b-a) has the same area as:",
+        "choices": [
+            "A. A triangle with base (b-a)",
+            "B. A circle with radius c",
+            "C. The derivative of f(x) at c",
+            "D. The definite integral of f from a to b"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "Find the value of c guaranteed by the MVT for Integrals for f(x) = 3x^2 on the interval [0, 2].",
+        "choices": [
+            "A. 2√( 3 )/3",
+            "B. 1",
+            "C. 4/3",
+            "D. √( 2 )"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "Find the average value of f(x) = sin x on the interval [0, π].",
+        "choices": [
+            "A. π/2",
+            "B. 2/π",
+            "C. 0",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "Calculate the RMS value of a perfect square wave alternating symmetrically between +5V and -5V.",
+        "choices": [
+            "A. 5/√( 2 ) V",
+            "B. 2.5 V",
+            "C. 5 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "Given an accumulation function A(x) = ∫_0^x (2t) dt. What is the value of A(5)?",
+        "choices": [
+            "A. 10",
+            "B. 50",
+            "C. 12.5",
+            "D. 25"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "If the average value of f(x) on [1, 5] is 10, what is the value of ∫_1^5 f(x) dx?",
+        "choices": [
+            "A. 40",
+            "B. 2.5",
+            "C. 10",
+            "D. 50"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Find the average value of f(x) = 1/x on the interval [1, e].",
+        "choices": [
+            "A. 1/e",
+            "B. 1/(e-1)",
+            "C. e-1",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Find the RMS value of f(x) = x on the interval [0, 2].",
+        "choices": [
+            "A. 1",
+            "B. √( 2 )",
+            "C. 2/√( 3 )",
+            "D. 4/3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "The derivative of the accumulation function G(x) = ∫_2^x e^t^2 dt with respect to x is:",
+        "choices": [
+            "A. 2x e^x^2",
+            "B. e^x^2 - e^4",
+            "C. e^2x",
+            "D. e^x^2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "The RMS value of a continuous triangular wave or sawtooth wave with peak amplitude V_m and zero minimum is:",
+        "choices": [
+            "A. V_m / √( 3 )",
+            "B. V_m / 2",
+            "C. V_m / √( 2 )",
+            "D. V_m / 3"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "Find the average value of f(x) = √( x ) on the interval [0, 4].",
+        "choices": [
+            "A. 2",
+            "B. 4/3",
+            "C. 8/3",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "For f(x) = 4 - x^2 on the interval [-2, 2], find the average value.",
+        "choices": [
+            "A. 4",
+            "B. 0",
+            "C. 8/3",
+            "D. 16/3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "If a function is strictly odd, its average value over a symmetric interval [-a, a] is always:",
+        "choices": [
+            "A. f(a)/2",
+            "B. a",
+            "C. 2 ∫_0^a f(x)dx",
+            "D. 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "Determine the RMS value of f(x) = e^x on the interval [0, ln 2].",
+        "choices": [
+            "A. √( 3 / (2ln 2) )",
+            "B. 3 / ln 2",
+            "C. √( 3 / ln 2 )",
+            "D. 1.5 / ln 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "Find the accumulation function F(x) = ∫_0^x cos t dt.",
+        "choices": [
+            "A. cos x - 1",
+            "B. sin x",
+            "C. -sin x",
+            "D. cos x"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "What is the average value of the function f(x) = cos^2 x over the interval [0, 2π]?",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. 1/2",
+            "D. π"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "The Root Mean Square (RMS) value is extensively used in AC electrical circuit analysis because it directly equates the AC power to an equivalent:",
+        "choices": [
+            "A. Average voltage",
+            "B. Peak-to-peak voltage",
+            "C. Reactive power",
+            "D. DC power"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "Find c such that f(c) equals the average value of f(x) = 2x+1 on [0, 4].",
+        "choices": [
+            "A. 2",
+            "B. 1",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "Find the average value of f(x) = 1/(1+x^2) on the interval [0, 1].",
+        "choices": [
+            "A. π/2",
+            "B. π/4",
+            "C. 1/2",
+            "D. ln 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "What is the RMS value of a sawtooth voltage wave with a peak of 12V?",
+        "choices": [
+            "A. 6 V",
+            "B. 12√( 2 ) V",
+            "C. 4√( 3 ) V",
+            "D. 6√( 2 ) V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "If ∫_0^x f(t) dt = x^3 - x^2, what is the function f(x)?",
+        "choices": [
+            "A. x^4/4 - x^3/3",
+            "B. 3x^2",
+            "C. x^2 - x",
+            "D. 3x^2 - 2x"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "The average value of the absolute value function f(x) = \\vertx\\vert on the interval [-2, 2] is:",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. 2",
+            "D. 1/2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "The RMS value of the voltage signal v(t) = 3 + 4sin(t) over one full period is:",
+        "choices": [
+            "A. 5 V",
+            "B. √( 17 ) V",
+            "C. 7 V",
+            "D. 3.5 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "Calculate the RMS value of the constant function f(t) = 2 on the interval [0, 5].",
+        "choices": [
+            "A. 10",
+            "B. √( 10 )",
+            "C. 2",
+            "D. 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "If the accumulation function is defined in reverse as H(x) = ∫_x^0 √( 1+t^2 ) dt, what is H'(x)?",
+        "choices": [
+            "A. √( 1+x^2 )",
+            "B. 1/√( 1+x^2 )",
+            "C. x/√( 1+x^2 )",
+            "D. -√( 1+x^2 )"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Find the average value of f(x) = e^2x on the interval [0, 1].",
+        "choices": [
+            "A. (e^2 - 1)/2",
+            "B. e^2 - 1",
+            "C. e^2 / 2",
+            "D. e^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Find the value c satisfying the Mean Value Theorem for Integrals for f(x) = 1/x^2 on the interval [1, 3].",
+        "choices": [
+            "A. 2",
+            "B. √( 3 )",
+            "C. 1.5",
+            "D. √( 2 )"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "For a half-wave rectified sine wave with a peak voltage of V_m, the RMS value is:",
+        "choices": [
+            "A. V_m / √( 2 )",
+            "B. V_m / π",
+            "C. V_m / 2",
+            "D. 2V_m / π"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "The total accumulated charge q(t) is the integral of current i(t). If i(t) = 3t^2 Amperes, find the charge q(2) assuming q(0)=0.",
+        "choices": [
+            "A. 4 C",
+            "B. 12 C",
+            "C. 6 C",
+            "D. 8 C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "If a periodic waveform has an average value of strictly zero, its RMS value must be:",
+        "choices": [
+            "A. Positive (non-zero), unless the waveform is strictly zero everywhere",
+            "B. Negative",
+            "C. Zero",
+            "D. Imaginary"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "The average value of f(x) = sec^2 x on [0, π/4] is:",
+        "choices": [
+            "A. 1",
+            "B. 4/π",
+            "C. 2/π",
+            "D. π/4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "Find the RMS value of the function f(x) = √( x ) on the interval [0, 2].",
+        "choices": [
+            "A. √( 2 )",
+            "B. 2/3",
+            "C. 1",
+            "D. √( 2 )/2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "What is the average value of f(x) = ln x on the interval [1, e]?",
+        "choices": [
+            "A. e-1",
+            "B. 1/e",
+            "C. e",
+            "D. 1/(e-1)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "A capacitor's voltage is given by V(t) = (1/C) ∫_0^t i(τ) dτ + V(0). In the context of calculus, the integral term is a direct physical application of:",
+        "choices": [
+            "A. An accumulation function",
+            "B. A Type 1 improper integral",
+            "C. Wallis' formula",
+            "D. King's property"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "What is the average value of the odd continuous function f(x) = x^3 on [-a, a]?",
+        "choices": [
+            "A. a^4/4",
+            "B. 0",
+            "C. a^3/2",
+            "D. a^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "For a complex signal containing a DC offset V_dc and an AC component with an RMS value V_ac, the total effective RMS value of the signal is:",
+        "choices": [
+            "A. V_dc + V_ac",
+            "B. √( V_dc ) + V_ac",
+            "C. √( V_dc )^2 + V_ac^2",
+            "D. (V_dc^2 + V_ac^2)/2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "Differentiate the accumulation function F(x) = ∫_0^x^2 (1/1+t) dt with respect to x.",
+        "choices": [
+            "A. (1/1+x^2)",
+            "B. (1/1+x)",
+            "C. (x^2/1+x^2)",
+            "D. (2x/1+x^2)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "Find the RMS value of f(x) = 1/x on the interval [1, 2].",
+        "choices": [
+            "A. √( 1/2 )",
+            "B. 1/2",
+            "C. ln 2",
+            "D. √( ln 2 )"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "If f_avg is the exact average value of f(x) on [a,b], then the definite integral ∫_a^b (f(x) - f_avg) dx evaluates to:",
+        "choices": [
+            "A. f_avg",
+            "B. 0",
+            "C. b-a",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "The Mean Value Theorem for Integrals is essentially a direct consequence of the standard Mean Value Theorem for Derivatives applied to:",
+        "choices": [
+            "A. The derivative of f(x)",
+            "B. The inverse of f(x)",
+            "C. The accumulation function F(x) = ∫_a^x f(t) dt",
+            "D. The improper integral of f(x)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "Evaluate the RMS value of the combined trigonometric function f(x) = sin x + cos x over the interval [0, 2π].",
+        "choices": [
+            "A. √( 2 )",
+            "B. 1/2",
+            "C. 0",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    }
+]

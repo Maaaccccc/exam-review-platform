@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "The radius of convergence of a power series is formally evaluated using which fundamental test?",
+        "choices": [
+            "A. Ratio Test",
+            "B. Integral Test",
+            "C. Alternating Series Test",
+            "D. Divergence Test"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "The Gamma function Γ(n+1) for any positive integer n evaluates strictly to:",
+        "choices": [
+            "A. n!",
+            "B. (n+1)!",
+            "C. (n-1)!",
+            "D. n"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "Evaluate the exact value of the Gamma function Γ(5/2).",
+        "choices": [
+            "A. √( π )/2",
+            "B. 15√( π )/8",
+            "C. 3√( π )/4",
+            "D. 3π/4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "The exact sum of the alternating harmonic series Σ_n=1^∞ (-1)^n+1/n is mathematically known to be:",
+        "choices": [
+            "A. 1",
+            "B. π/4",
+            "C. ln(2)",
+            "D. e"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 5,
+        "question": "Which basic trigonometric function has the Maclaurin series expansion Σ_n=0^∞ (-1)^n x^2n/(2n)!?",
+        "choices": [
+            "A. sin(x)",
+            "B. cos(x)",
+            "C. e^x",
+            "D. ln(1+x)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "What is the exact interval of convergence for the power series Σ_n=1^∞ (x-2)^n/n?",
+        "choices": [
+            "A. (1, 3)",
+            "B. [1, 3)",
+            "C. [1, 3]",
+            "D. (1, 3]"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "The nth term divergence test states that if \\lim a_n ≠ 0 as n → ∞, the infinite series Σ a_n:",
+        "choices": [
+            "A. Converges conditionally",
+            "B. Converges absolutely",
+            "C. Diverges",
+            "D. Is inconclusive"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "For the Beta function B(m,n), the inherent symmetry property implies that it is identically equal to:",
+        "choices": [
+            "A. -B(n,m)",
+            "B. 1/B(n,m)",
+            "C. B(m,m) + B(n,n)",
+            "D. B(n,m)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "Rodrigues' formula for elegantly deriving the Legendre polynomial P_n(x) is mathematically given by:",
+        "choices": [
+            "A. (1/2^n n!) (d^n/dx^n) [(x-1)^n]",
+            "B. (1/2^n n!) (d^n/dx^n) [(x^2-1)^n]",
+            "C. (1/n!) (d^n/dx^n) [(x^2-1)^n]",
+            "D. (1/2^n) (d^n/dx^n) [(x^2-1)^n]"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "Calculate the exact sum of the infinite geometric series 1 - 1/3 + 1/9 - 1/27 + ...",
+        "choices": [
+            "A. 3/4",
+            "B. 2/3",
+            "C. 4/3",
+            "D. 1/2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "The mathematical definition of the unilateral Laplace transform of a function f(t) is the integral from 0 to infinity of:",
+        "choices": [
+            "A. f(t) e^st dt",
+            "B. f(t) e^-st dt",
+            "C. f(t) e^-iω t dt",
+            "D. f(t) e^jω t dt"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "The basic Laplace transform of the Heaviside unit step function u(t) is evaluated as:",
+        "choices": [
+            "A. 1/s",
+            "B. 1/s^2",
+            "C. s",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "The Laplace transform of the Dirac delta impulse function δ(t) evaluates exactly to:",
+        "choices": [
+            "A. 1/s",
+            "B. 0",
+            "C. s",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "The standard Laplace transform of the polynomial function f(t) = t^n for a positive integer n is:",
+        "choices": [
+            "A. n! / s^n",
+            "B. n / s^n+1",
+            "C. n! / s^n+1",
+            "D. n! / s^n-1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "Evaluate the Laplace transform of the exponential function f(t) = e^at.",
+        "choices": [
+            "A. 1 / (s+a)",
+            "B. 1 / (s-a)",
+            "C. s / (s^2+a^2)",
+            "D. a / (s^2+a^2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "What is the standard Laplace transform of the trigonometric function f(t) = sin(ω t)?",
+        "choices": [
+            "A. ω / (s^2 - ω^2)",
+            "B. s / (s^2 + ω^2)",
+            "C. ω / (s^2 + ω^2)",
+            "D. s / (s^2 - ω^2)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "What is the standard Laplace transform of the trigonometric function f(t) = cos(ω t)?",
+        "choices": [
+            "A. ω / (s^2 - ω^2)",
+            "B. s / (s^2 + ω^2)",
+            "C. ω / (s^2 + ω^2)",
+            "D. s / (s^2 - ω^2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "Evaluate the standard Laplace transform of the hyperbolic sine function f(t) = sinh(kt).",
+        "choices": [
+            "A. k / (s^2 + k^2)",
+            "B. s / (s^2 + k^2)",
+            "C. s / (s^2 - k^2)",
+            "D. k / (s^2 - k^2)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 19,
+        "question": "The First Shifting Theorem fundamentally states that if \\mathcalL\\f(t)\\ = F(s), then \\mathcalL\\e^atf(t)\\ translates to:",
+        "choices": [
+            "A. e^-as F(s)",
+            "B. F(s+a)",
+            "C. F(s-a)",
+            "D. e^as F(s)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "The Second Shifting Theorem states that a time-delayed function \\mathcalL\\f(t-a)u(t-a)\\ for a > 0 evaluates in the s-domain to:",
+        "choices": [
+            "A. F(s) / s",
+            "B. e^as F(s)",
+            "C. F(s-a)",
+            "D. e^-as F(s)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "Apply the First Shifting Theorem to evaluate the Laplace transform of t e^-2t.",
+        "choices": [
+            "A. 1 / (s+2)^2",
+            "B. 1 / (s-2)^2",
+            "C. 2 / (s+2)^3",
+            "D. 2 / (s-2)^3"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Determine the Laplace transform of the exponentially damped cosine wave e^3t cos(4t).",
+        "choices": [
+            "A. 4 / ((s-3)^2 + 16)",
+            "B. (s-3) / ((s-3)^2 + 16)",
+            "C. s / ((s-3)^2 + 16)",
+            "D. (s-3) / ((s+3)^2 + 16)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "According to the differentiation of transforms property, multiplying a time function by t, giving \\mathcalL\\t f(t)\\, is equal to:",
+        "choices": [
+            "A. (d/ds) F(s)",
+            "B. -(d/ds) F(s)",
+            "C. ∫_s^∞ F(σ) dσ",
+            "D. s F(s) - f(0)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "Evaluate the Laplace transform of the function t sin(kt).",
+        "choices": [
+            "A. 2ks / (s^2 + k^2)^2",
+            "B. 2ks / (s^2 - k^2)^2",
+            "C. (s^2 - k^2) / (s^2 + k^2)^2",
+            "D. (s^2 + k^2) / (s^2 - k^2)^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "Find the exact Laplace transform of the function t^2 e^t.",
+        "choices": [
+            "A. 2 / (s-1)^2",
+            "B. 2 / (s+1)^3",
+            "C. 2 / (s-1)^3",
+            "D. 1 / (s-1)^3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "The integration of transforms property implies that dividing a time function by t, giving \\mathcalL\\f(t)/t\\, is equal to:",
+        "choices": [
+            "A. (d/ds) F(s)",
+            "B. -(d/ds) F(s)",
+            "C. ∫_0^s F(σ) dσ",
+            "D. ∫_s^∞ F(σ) dσ"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "Evaluate the definite integral ∫_0^∞ (sin t/t) dt by exploiting Laplace transform properties.",
+        "choices": [
+            "A. π",
+            "B. π/2",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "The foundational Laplace transform of the first derivative \\mathcalL\\f'(t)\\ is given by the formula:",
+        "choices": [
+            "A. sF(s) + f(0)",
+            "B. F(s)/s - f(0)",
+            "C. sF(s) - f(0)",
+            "D. sF(s) - sf(0)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "State the correct formula for the Laplace transform of the second derivative f''(t).",
+        "choices": [
+            "A. s^2 F(s) - s f(0) - f'(0)",
+            "B. s^2 F(s) + s f(0) + f'(0)",
+            "C. s^2 F(s) - f(0) - s f'(0)",
+            "D. s^2 F(s) - s f'(0) - f(0)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "The Initial Value Theorem states that the time limit \\lim_t → 0^+ f(t) is mathematically equal to which s-domain limit?",
+        "choices": [
+            "A. \\lim_s → ∞ s F(s)",
+            "B. \\lim_s → 0 s F(s)",
+            "C. \\lim_s → ∞ F(s)/s",
+            "D. \\lim_s → 0 F(s)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "The Final Value Theorem states that the steady-state limit \\lim_t → ∞ f(t) is mathematically equal to which s-domain limit?",
+        "choices": [
+            "A. \\lim_s → ∞ s F(s)",
+            "B. \\lim_s → 0 s F(s)",
+            "C. \\lim_s → ∞ F(s)",
+            "D. \\lim_s → 0 F(s)/s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "Determine the final steady-state value of a system characterized by F(s) = (2s + 5/s(s^2 + 3s + 2)).",
+        "choices": [
+            "A. 5/2",
+            "B. 2",
+            "C. 0",
+            "D. 5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "Apply the Initial Value Theorem to find the initial value of f(t) if its Laplace transform is F(s) = (3s^2 + 4s + 1/s^3 + 2s^2 + s + 5).",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 3",
+            "D. ∞"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "What is the general formula for the Laplace transform of a continuous periodic function f(t) having a fundamental period T?",
+        "choices": [
+            "A. (1/1 - e^-sT) ∫_0^T e^-st f(t) dt",
+            "B. (1/1 + e^-sT) ∫_0^T e^-st f(t) dt",
+            "C. (1/1 - e^sT) ∫_0^T e^-st f(t) dt",
+            "D. ∫_0^T e^-st f(t) dt"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "The Laplace transform of a generic rectangular pulse f(t) = 1 for a ≤ t ≤ b and 0 elsewhere evaluates to:",
+        "choices": [
+            "A. \\frace^-as + e^-bss",
+            "B. \\frace^-as - e^-bss",
+            "C. \\frace^-bs - e^-ass",
+            "D. e^-as - e^-bs"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "Determine the correct inverse Laplace transform of the rational function 1 / (s^2 + 4s + 13).",
+        "choices": [
+            "A. (1/3) e^-2t sin(3t)",
+            "B. e^-2t sin(3t)",
+            "C. (1/3) e^2t sin(3t)",
+            "D. e^-2t cos(3t)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "Evaluate the exact inverse Laplace transform of the function s / (s^2 + 2s + 5).",
+        "choices": [
+            "A. e^-tcos 2t",
+            "B. e^t(cos 2t - (1/2)sin 2t)",
+            "C. e^-t(cos 2t + (1/2)sin 2t)",
+            "D. e^-t(cos 2t - (1/2)sin 2t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 38,
+        "question": "The Convolution Theorem in the context of Laplace transforms states that \\mathcalLI¹\\F(s)G(s)\\ evaluates in the time domain to:",
+        "choices": [
+            "A. f(t) g(t)",
+            "B. ∫_0^t f(τ) g(t-τ) dτ",
+            "C. ∫_0^∞ f(τ) g(t-τ) dτ",
+            "D. f(t) + g(t)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "By applying the Convolution Theorem, the inverse Laplace transform of (1/s(s^2+1)) is determined to be:",
+        "choices": [
+            "A. cos(t)",
+            "B. sin(t)",
+            "C. 1 - cos(t)",
+            "D. 1 - sin(t)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "Evaluate the exact inverse Laplace transform of the delayed step function representation e^-as / s.",
+        "choices": [
+            "A. δ(t-a)",
+            "B. u(t-a)",
+            "C. u(t) - u(t-a)",
+            "D. t-a"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "Solve the complex inverse Laplace transform \\mathcalLI¹ \\ ln((s+a/s+b)) \\.",
+        "choices": [
+            "A. \\frace^-bt - e^-att",
+            "B. \\frace^-at - e^-btt",
+            "C. \\frace^at - e^btt",
+            "D. \\frace^-bt + e^-att"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "Calculate the exact Laplace transform of the time-delayed Dirac delta impulse function δ(t-a) assuming a > 0.",
+        "choices": [
+            "A. e^as",
+            "B. 1",
+            "C. e^-as/s",
+            "D. e^-as"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 43,
+        "question": "Find the exact inverse Laplace transform of the higher-order pole function 1 / (s-3)^4.",
+        "choices": [
+            "A. t^3 e^3t / 6",
+            "B. t^4 e^3t / 24",
+            "C. t^3 e^-3t / 6",
+            "D. t^4 e^-3t / 24"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "Solve for the time-domain signal f(t) if its corresponding Laplace transform is F(s) = (2/s^2) + (3/s+1).",
+        "choices": [
+            "A. 2t + 3e^-t",
+            "B. t^2 + 3e^-t",
+            "C. 2t + 3e^t",
+            "D. 2 + 3e^-t"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "Determine the exact inverse Laplace transform of the rational function (s+2/s^2+4).",
+        "choices": [
+            "A. 2cos 2t + sin 2t",
+            "B. cos 2t + (1/2)sin 2t",
+            "C. cos 2t + sin 2t",
+            "D. cos 2t + 2sin 2t"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "Find the s-domain Laplace transform of the integral expression f(t) = ∫_0^t τ sin(τ) dτ.",
+        "choices": [
+            "A. (2s/(s^2+1)^2)",
+            "B. (2s^2/(s^2+1)^2)",
+            "C. (2/(s^2+1)^2)",
+            "D. (2s/s(s^2+1)^2)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "The step response of a basic linear time-invariant system is mathematically defined as the inverse Laplace transform of:",
+        "choices": [
+            "A. H(s)",
+            "B. s H(s)",
+            "C. H(s) / s",
+            "D. 1 / H(s)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "For the algebraic transform F(s) = (1/(s+2)(s-1)), the region of convergence (ROC) for a strictly right-sided causal signal is:",
+        "choices": [
+            "A. \\textRe(s) > -2",
+            "B. \\textRe(s) > 1",
+            "C. -2 < \\textRe(s) < 1",
+            "D. \\textRe(s) < -2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "The exact inverse Laplace transform of the critically damped second-order function F(s) = (4/s^2+8s+16) is:",
+        "choices": [
+            "A. 4t e^-4t",
+            "B. 2t e^-4t",
+            "C. 4e^-4t",
+            "D. 4t^2 e^-4t"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "Evaluate the final steady-state value of f(t) using the Final Value Theorem if F(s) = (s+3/s^2+2s).",
+        "choices": [
+            "A. 3/2",
+            "B. 0",
+            "C. 3",
+            "D. Infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "What is the exact inverse Laplace transform of the delayed ramp function e^-2s / s^2?",
+        "choices": [
+            "A. (t-2) u(t-2)",
+            "B. t u(t-2)",
+            "C. (t-2)^2 u(t-2)",
+            "D. (t-2) u(t)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "The standard partial fraction expansion of the rational s-domain function F(s) = (1/s(s+1)) evaluates to:",
+        "choices": [
+            "A. (1/s) + (1/s+1)",
+            "B. (1/s) - (1/s+1)",
+            "C. (-1/s) + (1/s+1)",
+            "D. (1/s^2) - (1/s+1)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "In the Laplace transform domain, introducing a pure time delay of a seconds physically multiplies the original transform F(s) by:",
+        "choices": [
+            "A. e^as",
+            "B. e^-as",
+            "C. s^-a",
+            "D. a/s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "Apply the Initial Value Theorem to the rational transform F(s) = (5s + 2/2s^2 + s + 3). What is the exact value of f(0)?",
+        "choices": [
+            "A. 5",
+            "B. 0",
+            "C. 2/3",
+            "D. 5/2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 55,
+        "question": "Evaluate the exact Laplace transform for the product function f(t) = t cos(kt).",
+        "choices": [
+            "A. (s/(s^2+k^2)^2)",
+            "B. (s^2+k^2/(s^2-k^2)^2)",
+            "C. (s^2-k^2/(s^2+k^2)^2)",
+            "D. (2ks/(s^2+k^2)^2)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "The trigonometric Fourier series of any periodic function f(t) fundamentally decomposes the complex signal into a sum of:",
+        "choices": [
+            "A. Exponential decay functions",
+            "B. Logarithmic components",
+            "C. Orthogonal trigonometric functions",
+            "D. Rational polynomials"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "In the standard trigonometric Fourier series of a periodic function, the a_0 coefficient directly represents the signal's:",
+        "choices": [
+            "A. Fundamental frequency",
+            "B. Phase shift",
+            "C. DC component (average value)",
+            "D. Harmonic distortion"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "According to the Dirichlet conditions, for a Fourier series to converge properly, the periodic function must possess a finite number of:",
+        "choices": [
+            "A. Zeros and poles",
+            "B. Maxima, minima, and finite discontinuities",
+            "C. Integrations and differentiations",
+            "D. Harmonics and subharmonics"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "For an EVEN symmetric periodic function, its trigonometric Fourier series is mathematically restricted to contain:",
+        "choices": [
+            "A. Only sine terms",
+            "B. Only cosine terms and a DC component",
+            "C. Both sine and cosine terms",
+            "D. Only odd harmonics"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "For an ODD symmetric periodic function, the Fourier coefficients a_0 and a_n are mathematically proven to be equal to:",
+        "choices": [
+            "A. Infinity",
+            "B. 1",
+            "C. b_n",
+            "D. 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "A periodic function exhibits perfect half-wave symmetry if it strictly satisfies the exact mathematical condition:",
+        "choices": [
+            "A. f(t) = f(-t)",
+            "B. f(t) = -f(-t)",
+            "C. f(t) = -f(t ± T/2)",
+            "D. f(t) = f(t ± T/2)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "If a periodic waveform possesses strict half-wave symmetry, its resulting trigonometric Fourier series will exclusively contain:",
+        "choices": [
+            "A. Even harmonics",
+            "B. Odd harmonics",
+            "C. Cosine terms only",
+            "D. Sine terms only"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "Calculate the fundamental angular frequency ω_0 of a periodic voltage signal having a period of exactly T = 4 ms.",
+        "choices": [
+            "A. 500π rad/s",
+            "B. 250π rad/s",
+            "C. 125π rad/s",
+            "D. 1000π rad/s"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "The exponential form of the Fourier series utilizes which set of fundamental orthogonal basis functions?",
+        "choices": [
+            "A. e^j n ω_0 t",
+            "B. sin(n ω_0 t)",
+            "C. e^-n ω_0 t",
+            "D. cos(n ω_0 t)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "The complex Fourier coefficients c_n are mathematically related to the real trigonometric coefficients a_n and b_n (for n>0) by:",
+        "choices": [
+            "A. c_n = (1/2)(a_n - j b_n)",
+            "B. c_n = a_n + j b_n",
+            "C. c_n = (1/2)(a_n + j b_n)",
+            "D. c_n = a_n - j b_n"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "The complex coefficient c_-n in the exponential Fourier series of a strictly real-valued signal f(t) is identically equal to:",
+        "choices": [
+            "A. c_n",
+            "B. -c_n",
+            "C. c_n^* (complex conjugate)",
+            "D. 1/c_n"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "The continuous Fourier transform generalizes the Fourier series concept to mathematically represent signals that are inherently:",
+        "choices": [
+            "A. Discrete",
+            "B. Periodic",
+            "C. Aperiodic (non-periodic)",
+            "D. Quantized"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "The standard continuous Fourier transform F(ω) of a time-domain signal f(t) is defined as the integral from -∞ to ∞ of:",
+        "choices": [
+            "A. f(t) e^jω t dt",
+            "B. f(t) e^-jω t dt",
+            "C. f(t) cos(ω t) dt",
+            "D. f(t) sin(ω t) dt"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "The inverse Fourier transform reconstructs f(t) from F(ω) using an integration over ω multiplied by the standard engineering scaling factor:",
+        "choices": [
+            "A. 2π",
+            "B. 1 / π",
+            "C. 1 / (2π)",
+            "D. 1 / √( 2π )"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "What is the exact Fourier transform of the ideal Dirac delta impulse function δ(t)?",
+        "choices": [
+            "A. 1/jω",
+            "B. δ(ω)",
+            "C. 2π δ(ω)",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 71,
+        "question": "What is the exact continuous Fourier transform of a pure DC signal f(t) = 1 extending from t = -∞ to ∞?",
+        "choices": [
+            "A. 2π δ(ω)",
+            "B. δ(ω)",
+            "C. 1/jω",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "The standard Fourier transform of the Heaviside unit step function u(t) is mathematically expressed as:",
+        "choices": [
+            "A. 1/jω",
+            "B. 2π δ(ω) + 1/jω",
+            "C. δ(ω) + 1/jω",
+            "D. π δ(ω) + 1/jω"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "According to the Duality Property of Fourier transforms, if \\mathcalF\\f(t)\\ = F(ω), then the transform \\mathcalF\\F(t)\\ exactly equals:",
+        "choices": [
+            "A. 2π f(-ω)",
+            "B. f(-ω)",
+            "C. 2π f(ω)",
+            "D. f(ω)/2π"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "According to the Time Scaling Property, the exact Fourier transform of the scaled signal f(at) where a > 0 evaluates to:",
+        "choices": [
+            "A. a F(ω/a)",
+            "B. F(aω)/a",
+            "C. (1/a) F(ω/a)",
+            "D. F(ω/a)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "Applying a pure time shift to a signal, giving f(t - t_0), modifies its Fourier transform F(ω) by multiplying it strictly by:",
+        "choices": [
+            "A. e^jω t_0",
+            "B. e^-jω t_0",
+            "C. cos(ω t_0)",
+            "D. δ(ω - ω_0)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "Applying a frequency shift to a spectrum, giving F(ω - ω_0), corresponds exactly in the time domain to multiplying f(t) by:",
+        "choices": [
+            "A. e^jω_0 t",
+            "B. e^-jω_0 t",
+            "C. cos(ω_0 t)",
+            "D. sin(ω_0 t)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "Evaluate the exact Fourier transform of a symmetrical rectangular pulse function f(t) = 1 for \\vertt\\vert ≤ T and 0 otherwise.",
+        "choices": [
+            "A. (1/ω) cos(ω T)",
+            "B. 2T \\textsinc(ω T / π)",
+            "C. 2T \\textsinc(ω T)",
+            "D. (2/ω) sin(ω T)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "The Fourier transform of the two-sided exponential decay function f(t) = e^-a\\vertt\\vert for a > 0 evaluates strictly to the real function:",
+        "choices": [
+            "A. (2a/a^2 + ω^2)",
+            "B. (2ω/a^2 + ω^2)",
+            "C. (a/a^2 + ω^2)",
+            "D. (1/a^2 + ω^2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "Parseval's Theorem for Fourier Series physically proves that the total average power of a periodic signal equals the sum of the average powers of its:",
+        "choices": [
+            "A. Time segments",
+            "B. Spectral phase angles",
+            "C. Damped exponential parts",
+            "D. Individual harmonic components"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "Apply the time-differentiation property to determine the exact Fourier transform of (d/dt) f(t) given that \\mathcalF\\f(t)\\ = F(ω).",
+        "choices": [
+            "A. -jω F(ω)",
+            "B. F(ω) / jω",
+            "C. jω F(ω)",
+            "D. (d/dω) F(ω)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 81,
+        "question": "Apply the time-integration property to analytically find the Fourier transform of the integral ∫_-∞^t f(τ) dτ.",
+        "choices": [
+            "A. jω F(ω)",
+            "B. (F(ω)/jω) + π F(0) δ(ω)",
+            "C. (F(ω)/jω)",
+            "D. -jω F(ω) + 2π F(0) δ(ω)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "The mathematical convolution operation in the time domain, f(t) * g(t), perfectly translates to what equivalent operation in the frequency domain?",
+        "choices": [
+            "A. Addition",
+            "B. Convolution",
+            "C. Multiplication",
+            "D. Division"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "The standard multiplication of two signals in the time domain, f(t) · g(t), translates to what exact equivalent operation in the frequency domain?",
+        "choices": [
+            "A. Cross-correlation",
+            "B. Multiplication",
+            "C. Addition",
+            "D. Convolution divided by 2π"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 84,
+        "question": "The Fourier transform of the pure cosine wave f(t) = cos(ω_0 t) is strictly composed in the frequency domain of:",
+        "choices": [
+            "A. One Dirac delta function at ω_0",
+            "B. Two Dirac delta functions at ± ω_0",
+            "C. A sinc function centered at zero",
+            "D. A rectangular pulse"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "Express the continuous Fourier transform of the ideal cosine wave cos(ω_0 t) in its exact analytical form.",
+        "choices": [
+            "A. π [δ(ω - ω_0) - δ(ω + ω_0)]",
+            "B. 2π δ(ω - ω_0)",
+            "C. π [δ(ω - ω_0) + δ(ω + ω_0)]",
+            "D. (1/2) [δ(ω - ω_0) + δ(ω + ω_0)]"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 86,
+        "question": "Express the continuous Fourier transform of the ideal sine wave sin(ω_0 t) in its exact analytical form.",
+        "choices": [
+            "A. jπ [δ(ω - ω_0) - δ(ω + ω_0)]",
+            "B. π [δ(ω - ω_0) + δ(ω + ω_0)]",
+            "C. jπ [δ(ω + ω_0) - δ(ω - ω_0)]",
+            "D. -jπ [δ(ω - ω_0) - δ(ω + ω_0)]"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "The Discrete Fourier Transform (DFT) numerically converts a finite sequence of equally spaced time samples into a same-length sequence representing the:",
+        "choices": [
+            "A. Analog low-pass filter",
+            "B. Discrete-time Fourier Series (DTFS)",
+            "C. Continuous-time Fourier Transform",
+            "D. Discrete-Time Fourier Transform (DTFT)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "The standard mathematical formula defining the N-point Discrete Fourier Transform X[k] of a digital sequence x[n] is:",
+        "choices": [
+            "A. Σ_n=0^N-1 x[n] e^-j 2π k n / N",
+            "B. Σ_n=0^N-1 x[n] e^j 2π k n / N",
+            "C. (1/N) Σ_n=0^N-1 x[n] e^-j 2π k n / N",
+            "D. Σ_n=0^N-1 x[n] cos(2π k n / N)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "The Fast Fourier Transform (FFT) is not a separate transform theory, but rather a highly optimized computational algorithm designed to efficiently compute the:",
+        "choices": [
+            "A. Discrete Cosine Transform",
+            "B. Laplace Transform",
+            "C. Discrete Fourier Transform",
+            "D. Z-Transform"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "If the 4-point DFT of the simplest digital impulse sequence x[n] = \\1, 0, 0, 0\\ is computed, the resulting frequency sequence X[k] is:",
+        "choices": [
+            "A. \\0, 0, 0, 0\\",
+            "B. \\1, 1, 1, 1\\",
+            "C. \\1, j, -1, -j\\",
+            "D. \\4, 0, 0, 0\\"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "If a continuous analog signal has a finite bandwidth of B Hertz, the Nyquist-Shannon theorem dictates a minimum sampling frequency f_s of:",
+        "choices": [
+            "A. f_s = B",
+            "B. f_s = B/2",
+            "C. f_s = 4B",
+            "D. f_s = 2B"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "Frequency aliasing during digital sampling occurs fundamentally when the continuous analog signal is sampled at a rate that is strictly:",
+        "choices": [
+            "A. Equal to the Nyquist rate",
+            "B. Higher than the Nyquist rate",
+            "C. Lower than the Nyquist rate",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "The continuous Fourier transform of an infinite periodic train of Dirac delta functions (a Dirac comb) evaluates mathematically to another:",
+        "choices": [
+            "A. Sinc function",
+            "B. Rectangular pulse train",
+            "C. Single Dirac delta function",
+            "D. Dirac comb in the frequency domain"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "If a time-domain signal f(t) is perfectly real and even, its corresponding continuous Fourier transform F(ω) is guaranteed to be:",
+        "choices": [
+            "A. Real and odd",
+            "B. Imaginary and even",
+            "C. Real and even",
+            "D. Imaginary and odd"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "If a time-domain signal f(t) is perfectly real and odd, its corresponding continuous Fourier transform F(ω) is guaranteed to be:",
+        "choices": [
+            "A. Real and odd",
+            "B. Purely imaginary and odd",
+            "C. Purely imaginary and even",
+            "D. Real and even"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "Determine the exact continuous Fourier transform of the mathematical signum function, \\textsgn(t).",
+        "choices": [
+            "A. 2/jω",
+            "B. 1/jω",
+            "C. π δ(ω)",
+            "D. 2π δ(ω)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "According to the Gibbs Phenomenon, a Fourier series approximation at a jump discontinuity exhibits a localized overshoot approaching approximately what percentage of the jump?",
+        "choices": [
+            "A. 5%",
+            "B. 9%",
+            "C. 13%",
+            "D. 18%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 98,
+        "question": "Which of the following mathematical conditions is definitively NOT one of the Dirichlet conditions required for Fourier series convergence?",
+        "choices": [
+            "A. The function must have a finite number of extrema in one period",
+            "B. The function must have a finite number of discontinuities in one period",
+            "C. The function must be absolutely integrable over one period",
+            "D. The function must be everywhere infinitely differentiable"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 99,
+        "question": "In continuous LTI systems, the output time signal y(t) is computed from the input v(t) and the impulse response h(t) using the mathematical operation of:",
+        "choices": [
+            "A. Differentiation",
+            "B. Convolution",
+            "C. Cross-correlation",
+            "D. Direct multiplication"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 100,
+        "question": "In any Linear Time-Invariant (LTI) system, the frequency response H(ω) is identically equal to the continuous Fourier transform of the system's:",
+        "choices": [
+            "A. Transfer function",
+            "B. Step response",
+            "C. Impulse response",
+            "D. Output signal"
+        ],
+        "correct_answer": "C"
+    }
+]

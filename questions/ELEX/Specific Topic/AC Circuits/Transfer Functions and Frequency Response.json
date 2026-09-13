@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "A passive two-port network is mathematically and physically classified as strictly reciprocal if and only if which precise condition holds true for its Y-parameters?",
+        "choices": [
+            "A. Y11 = Y22",
+            "B. Y12 = -Y21",
+            "C. Y12 = Y21",
+            "D. Y11 * Y22 = Y12 * Y21"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "Worded circuit: A Pi-network consists of a 0.1 S shunt admittance at port 1, a 0.2 S shunt admittance at port 2, and a 0.5 S series admittance connecting port 1 to port 2. The exact mathematical value of Y11 is:",
+        "choices": [
+            "A. 0.5 S",
+            "B. 0.3 S",
+            "C. 0.1 S",
+            "D. -0.5 S"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Worded circuit: A pure T-network has a series arm Z_a = 5 ohms, a second series arm Z_b = 10 ohms, and a shunt arm Z_c = 15 ohms to ground. The mathematically exact Z-parameter matrix component Z21 is:",
+        "choices": [
+            "A. 5 ohms",
+            "B. 10 ohms",
+            "C. 15 ohms",
+            "D. 25 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "For a strictly lossless, reciprocal microwave two-port network, the conservation of power rigorously dictates that the exact mathematical sum of the squared magnitudes of S11 and S21 is perfectly equal to:",
+        "choices": [
+            "A. 0",
+            "B. S22",
+            "C. S12",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "In the standard mathematical matrix for h-parameters, the term h12 represents the ratio of V1 to V2 when I1 is strictly zero. This physically corresponds to the:",
+        "choices": [
+            "A. Open-circuit reverse voltage gain",
+            "B. Short-circuit forward current gain",
+            "C. Open-circuit forward voltage gain",
+            "D. Short-circuit reverse current gain"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "When mathematically deriving the precise ABCD transmission parameters from a known Z-parameter matrix, the parameter 'A' is strictly algebraically equivalent to:",
+        "choices": [
+            "A. Z22 / Z21",
+            "B. Z11 / Z21",
+            "C. 1 / Z21",
+            "D. (Z11*Z22 - Z12*Z21) / Z21"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "The rigorous mathematical condition that proves a two-port network is strictly reciprocal based on its ABCD transmission parameters is exactly:",
+        "choices": [
+            "A. A = D",
+            "B. A = B * C",
+            "C. A * D - B * C = 1",
+            "D. A * B - C * D = 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "When two separate two-port networks (Network 1 and Network 2) are physically connected in a strict cascade (series-tandem), the overall combined equivalent matrix is mathematically found by taking the strict matrix product of their individual:",
+        "choices": [
+            "A. Z-parameter matrices",
+            "B. Y-parameter matrices",
+            "C. h-parameter matrices",
+            "D. ABCD-parameter matrices"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "For a two-port network that possesses a mathematically invertible Z-parameter matrix [Z], the exact relationship to its Y-parameter matrix [Y] is rigorously strictly:",
+        "choices": [
+            "A. [Z]^-1",
+            "B. -[Z]",
+            "C. [Z]^T",
+            "D. [Z] * [I]"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "The mathematical calculation of the image impedance (Z_I1) at port 1 of an asymmetrical two-port network requires knowing the short-circuit (Z_SC1) and open-circuit (Z_OC1) input impedances. The exact formula is:",
+        "choices": [
+            "A. (Z_OC1 + Z_SC1) / 2",
+            "B. sqrt(Z_OC1 * Z_SC1)",
+            "C. Z_OC1 * Z_SC1",
+            "D. Z_OC1 / Z_SC1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "For any linear circuit, the mathematical s-domain Transfer Function H(s) is strictly defined as the exact ratio of the:",
+        "choices": [
+            "A. Output Laplace transform to the input Laplace transform, with all initial conditions fully active",
+            "B. Input Laplace transform to the output Laplace transform",
+            "C. Output Laplace transform to the input Laplace transform, strictly assuming zero initial conditions",
+            "D. Initial voltage to the final voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "In a system's transfer function, the complex s-domain values that cause the numerator polynomial to mathematically equal precisely zero are formally known as the:",
+        "choices": [
+            "A. Poles",
+            "B. Gain margins",
+            "C. Break frequencies",
+            "D. Zeros"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "In a system's transfer function, the complex s-domain values that cause the denominator polynomial to mathematically equal precisely zero are formally known as the:",
+        "choices": [
+            "A. Poles",
+            "B. Phase margins",
+            "C. Zeros",
+            "D. Asymptotes"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "The voltage gain transfer function of a linear two-port circuit is rigorously mathematically defined by the exact s-domain ratio:",
+        "choices": [
+            "A. I_out(s) / V_in(s)",
+            "B. V_out(s) / V_in(s)",
+            "C. I_out(s) / I_in(s)",
+            "D. V_out(s) / I_in(s)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "The transfer impedance function of a linear two-port circuit physically mapping an input current to an output voltage is mathematically defined by the ratio:",
+        "choices": [
+            "A. V_out(s) / V_in(s)",
+            "B. I_out(s) / V_in(s)",
+            "C. V_out(s) / I_in(s)",
+            "D. I_out(s) / I_in(s)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "The transfer admittance function of a linear circuit mapping an input voltage to an output current is mathematically expressed exactly as:",
+        "choices": [
+            "A. V_out(s) / I_in(s)",
+            "B. V_out(s) / V_in(s)",
+            "C. I_out(s) / I_in(s)",
+            "D. I_out(s) / V_in(s)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "A linear time-invariant system is mathematically rigorously classified as strictly bounded-input bounded-output (BIBO) stable if and only if all of its transfer function poles strictly lie in the:",
+        "choices": [
+            "A. Left half of the complex s-plane",
+            "B. Exact center of the Smith chart",
+            "C. Right half of the complex s-plane",
+            "D. Entire upper half of the s-plane"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "If a transfer function possesses a single, non-repeated pole located exactly on the imaginary axis (j-omega axis) of the s-plane, the system's stability is formally mathematically classified as:",
+        "choices": [
+            "A. Unconditionally stable",
+            "B. Marginally stable",
+            "C. Absolutely unstable",
+            "D. Exponentially unstable"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "The current gain transfer function of a linear two-port circuit is rigorously mathematically defined by the exact s-domain ratio:",
+        "choices": [
+            "A. V_out(s) / V_in(s)",
+            "B. I_out(s) / V_in(s)",
+            "C. I_out(s) / I_in(s)",
+            "D. V_out(s) / I_in(s)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "In a standard Bode plot used for frequency response analysis, the magnitude of the transfer function is universally plotted mathematically in units of:",
+        "choices": [
+            "A. Neper",
+            "B. Radians",
+            "C. Watts",
+            "D. Decibels (dB)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "In a standard Bode plot, the horizontal axis mathematically represents the applied angular frequency strictly on a:",
+        "choices": [
+            "A. Logarithmic scale",
+            "B. Linear scale",
+            "C. Exponential scale",
+            "D. Inverse scale"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "In an asymptotic Bode magnitude plot, a simple first-order pole physically introduces a high-frequency asymptote with a strict mathematical slope of:",
+        "choices": [
+            "A. +20 dB/decade",
+            "B. -20 dB/decade",
+            "C. -40 dB/decade",
+            "D. -6 dB/decade"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "In an asymptotic Bode magnitude plot, a simple first-order zero mathematically introduces a high-frequency asymptote with a strict slope of:",
+        "choices": [
+            "A. -20 dB/decade",
+            "B. +40 dB/decade",
+            "C. +20 dB/decade",
+            "D. +10 dB/decade"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "For a transfer function possessing a simple first-order real pole exactly at w_c, the mathematical phase shift evaluated precisely at the corner frequency w = w_c is:",
+        "choices": [
+            "A. +45 degrees",
+            "B. 0 degrees",
+            "C. -90 degrees",
+            "D. -45 degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "For a transfer function possessing a simple first-order real zero exactly at w_c, the mathematical phase shift evaluated precisely at the corner frequency w = w_c is:",
+        "choices": [
+            "A. +45 degrees",
+            "B. -45 degrees",
+            "C. +90 degrees",
+            "D. 0 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "A transfer function possessing a single pole located strictly at the origin of the s-plane (s = 0) mathematically and physically represents a pure:",
+        "choices": [
+            "A. Differentiator",
+            "B. Integrator",
+            "C. Delay line",
+            "D. All-pass filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "A transfer function possessing a single zero located strictly at the origin of the s-plane (s = 0) mathematically and physically represents a pure:",
+        "choices": [
+            "A. Integrator",
+            "B. Low-pass filter",
+            "C. Differentiator",
+            "D. High-pass filter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "The Bode phase plot of a mathematically pure differentiator (H(s) = K*s) is strictly equal to exactly:",
+        "choices": [
+            "A. -90 degrees for all frequencies",
+            "B. 0 degrees at DC, approaching +90 at infinity",
+            "C. 180 degrees for all frequencies",
+            "D. +90 degrees for all frequencies"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "The exact asymptotic Bode magnitude plot of a mathematically pure integrator (H(s) = K/s) possesses a constant, unvarying slope strictly equal to:",
+        "choices": [
+            "A. -20 dB/decade",
+            "B. +20 dB/decade",
+            "C. -40 dB/decade",
+            "D. 0 dB/decade"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "When calculating the Bode magnitude, a pure linear voltage gain of exactly 100 is mathematically strictly equivalent to:",
+        "choices": [
+            "A. 20 dB",
+            "B. 40 dB",
+            "C. 100 dB",
+            "D. 10 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Given the transfer function H(s) = 10 / (s + 2), what is the mathematically exact DC voltage gain (evaluated at w = 0)?",
+        "choices": [
+            "A. 10",
+            "B. 2",
+            "C. 5",
+            "D. 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "Given the transfer function H(s) = s / (s + 10), what is the mathematically exact high-frequency voltage gain as w approaches theoretical infinity?",
+        "choices": [
+            "A. 0",
+            "B. 10",
+            "C. Infinity",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "Worded circuit: A simple RC low-pass filter consists of a series 1 k-ohm resistor and a 1 uF shunt capacitor to ground. The exact mathematical pole frequency (in rad/s) is:",
+        "choices": [
+            "A. 1000 rad/s",
+            "B. 100 rad/s",
+            "C. 159 rad/s",
+            "D. 1 rad/s"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Worded circuit: A simple RL high-pass filter consists of a series 1 mH inductor and a 10 ohm shunt resistor to ground. The exact mathematical pole frequency (in rad/s) is:",
+        "choices": [
+            "A. 1000 rad/s",
+            "B. 10000 rad/s",
+            "C. 100 rad/s",
+            "D. 0.0001 rad/s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "A second-order system possesses the transfer function H(s) = 100 / (s^2 + 6s + 25). The exact mathematically undamped natural frequency (w_n) in rad/s is:",
+        "choices": [
+            "A. 6",
+            "B. 36",
+            "C. 5",
+            "D. 25"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Using the exact same second-order transfer function H(s) = 100 / (s^2 + 6s + 25), the mathematically exact dimensionless damping ratio (zeta) is:",
+        "choices": [
+            "A. 1.2",
+            "B. 3.0",
+            "C. 5.0",
+            "D. 0.6"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "Given the transfer function H(s) = (s + 10) / (s + 2), a mathematical zero is strictly located in the s-plane at:",
+        "choices": [
+            "A. s = -10",
+            "B. s = -2",
+            "C. s = 0",
+            "D. s = +10"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "A system has a transfer function mathematically defined as H(s) = (s - 5) / (s + 5). What specific physical type of filter does this rigorously represent?",
+        "choices": [
+            "A. Low-pass filter",
+            "B. All-pass filter",
+            "C. High-pass filter",
+            "D. Band-pass filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "In decibel calculations, a physical real power gain of exactly 1000 is mathematically strictly equivalent to:",
+        "choices": [
+            "A. 10 dB",
+            "B. 60 dB",
+            "C. 30 dB",
+            "D. 100 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "In decibel calculations, a pure linear voltage gain of exactly 0.1 is mathematically strictly equivalent to:",
+        "choices": [
+            "A. -10 dB",
+            "B. +10 dB",
+            "C. 0 dB",
+            "D. -20 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Worded circuit: An ideal operational amplifier is configured as an inverting amplifier with a feedback resistor Rf = 10 k-ohms and an input resistor Rin = 1 k-ohm. The exact theoretical magnitude of the voltage gain in decibels is:",
+        "choices": [
+            "A. 20 dB",
+            "B. 10 dB",
+            "C. -20 dB",
+            "D. 100 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "The transfer function H(s) = 1000 / (s + 10)^2 mathematically strictly indicates that the system possesses:",
+        "choices": [
+            "A. Two distinct real poles",
+            "B. Two identical real poles at s = -10",
+            "C. Complex conjugate poles",
+            "D. Two zeros at s = -10"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "In the asymptotic Bode magnitude plot for the transfer function H(s) = 1 / (1 + s/100), the exact mathematical corner (or break) frequency is located strictly at:",
+        "choices": [
+            "A. 1 rad/s",
+            "B. 10 rad/s",
+            "C. 100 rad/s",
+            "D. 0.01 rad/s"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "In the exact Bode magnitude plot for the transfer function H(s) = 100 / s, the magnitude curve mathematically strictly intersects the 0 dB axis precisely at an angular frequency of:",
+        "choices": [
+            "A. 1 rad/s",
+            "B. 10 rad/s",
+            "C. Infinity",
+            "D. 100 rad/s"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "For the transfer function H(s) = 10 * s / (s + 100), the mathematical phase shift precisely at DC (w = 0) is:",
+        "choices": [
+            "A. +90 degrees",
+            "B. -90 degrees",
+            "C. 0 degrees",
+            "D. 180 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "Worded circuit: An RC low-pass filter uses R = 10 k-ohms and C = 10 nF. The mathematically exact -3 dB cutoff frequency in Hertz (Hz) is approximately:",
+        "choices": [
+            "A. 10000 Hz",
+            "B. 1591 Hz",
+            "C. 1000 Hz",
+            "D. 159 Hz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "If a second-order system possesses the transfer function H(s) = s^2 / (s^2 + 2s + 100), the mathematically exact slope of the magnitude asymptote at very low frequencies (w approaching 0) is:",
+        "choices": [
+            "A. -40 dB/decade",
+            "B. +20 dB/decade",
+            "C. +40 dB/decade",
+            "D. 0 dB/decade"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "Worded circuit: A passive voltage divider features an upper series resistor R1, and a lower shunt leg consisting of R2 perfectly in parallel with",
+        "choices": [
+            "C. The mathematical transfer function Vout/Vin strictly exhibits:",
+            "A. Only one pole and zero zeros",
+            "B. Two poles and one zero",
+            "C. One pole and two zeros"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "A transfer function mathematically features a simple pole at s = -100 and a simple zero at s = -10. In control systems terminology, this strictly represents a:",
+        "choices": [
+            "A. Lead compensator",
+            "B. Pure integrator",
+            "C. Pure differentiator",
+            "D. Lag compensator"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "A transfer function mathematically features a simple zero at s = -100 and a simple pole at s = -10. In control systems terminology, this strictly represents a:",
+        "choices": [
+            "A. Lead compensator",
+            "B. Lag compensator",
+            "C. Band-pass filter",
+            "D. Notch filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "For the transfer function H(jw) = 1 / (1 + jw/10), the mathematically exact magnitude evaluated precisely at w = 10 rad/s is:",
+        "choices": [
+            "A. 1.0",
+            "B. 0.5",
+            "C. 0.707",
+            "D. 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "For the exact same transfer function H(jw) = 1 / (1 + jw/10), the mathematically exact phase angle evaluated precisely at w = 10 rad/s is:",
+        "choices": [
+            "A. 0 degrees",
+            "B. -90 degrees",
+            "C. +45 degrees",
+            "D. -45 degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "A second-order system physically possesses a complex conjugate pair of poles strictly at s = -3 +/- j4. The exact mathematical magnitude of the undamped natural frequency (w_n) is:",
+        "choices": [
+            "A. 5 rad/s",
+            "B. 3 rad/s",
+            "C. 4 rad/s",
+            "D. 25 rad/s"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "For the exact same system with poles at s = -3 +/- j4, the mathematically exact dimensionless damping ratio (zeta) is strictly:",
+        "choices": [
+            "A. 0.8",
+            "B. 0.6",
+            "C. 1.33",
+            "D. 0.75"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Worded circuit: A series RLC circuit is driven by a voltage source. If the output voltage is taken physically strictly across the capacitor, the circuit's overall transfer function rigorously acts as a:",
+        "choices": [
+            "A. High-pass filter",
+            "B. Band-pass filter",
+            "C. Low-pass filter",
+            "D. Band-stop filter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "Worded circuit: A series RLC circuit is driven by a voltage source. If the output voltage is taken physically strictly across the inductor, the circuit's overall transfer function rigorously acts as a:",
+        "choices": [
+            "A. Low-pass filter",
+            "B. Band-pass filter",
+            "C. Band-stop filter",
+            "D. High-pass filter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "Worded circuit: A series RLC circuit is driven by a voltage source. If the output voltage is taken physically strictly across the resistor, the circuit's overall transfer function rigorously acts as a:",
+        "choices": [
+            "A. Band-pass filter",
+            "B. Low-pass filter",
+            "C. High-pass filter",
+            "D. Notch filter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Worded circuit: A series RLC circuit is driven by a voltage source. If the output voltage is taken physically strictly across the series combination of the inductor and capacitor, the overall transfer function rigorously acts as a:",
+        "choices": [
+            "A. Low-pass filter",
+            "B. Band-reject (notch) filter",
+            "C. High-pass filter",
+            "D. Band-pass filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "The generic mathematical transfer function H(s) = (w_n^2) / (s^2 + 2*zeta*w_n*s + w_n^2) rigorously represents the standard form for a classic second-order:",
+        "choices": [
+            "A. High-pass filter",
+            "B. Band-pass filter",
+            "C. Low-pass filter",
+            "D. All-pass filter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "The generic mathematical transfer function H(s) = s^2 / (s^2 + 2*zeta*w_n*s + w_n^2) rigorously represents the standard form for a classic second-order:",
+        "choices": [
+            "A. Low-pass filter",
+            "B. Band-pass filter",
+            "C. Notch filter",
+            "D. High-pass filter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "The generic mathematical transfer function H(s) = (2*zeta*w_n*s) / (s^2 + 2*zeta*w_n*s + w_n^2) rigorously represents the standard form for a classic second-order:",
+        "choices": [
+            "A. Band-pass filter",
+            "B. Low-pass filter",
+            "C. High-pass filter",
+            "D. All-pass filter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "The generic mathematical transfer function H(s) = (s^2 + w_n^2) / (s^2 + 2*zeta*w_n*s + w_n^2) rigorously represents the standard form for a classic second-order:",
+        "choices": [
+            "A. Band-pass filter",
+            "B. Band-reject (notch) filter",
+            "C. Low-pass filter",
+            "D. High-pass filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "If a Bode magnitude plot is mathematically observed to drop by exactly 60 dB over precisely two decades of frequency, the asymptotic slope is rigorously defined as:",
+        "choices": [
+            "A. -120 dB/decade",
+            "B. -60 dB/decade",
+            "C. -30 dB/decade",
+            "D. -20 dB/decade"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "In frequency response analysis, a mathematical magnitude slope of -6 dB/octave is rigorously strictly identical to a slope of:",
+        "choices": [
+            "A. -12 dB/decade",
+            "B. -10 dB/decade",
+            "C. -40 dB/decade",
+            "D. -20 dB/decade"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "In frequency response analysis, a mathematical magnitude slope of +12 dB/octave is rigorously strictly identical to a slope of:",
+        "choices": [
+            "A. +40 dB/decade",
+            "B. +12 dB/decade",
+            "C. +24 dB/decade",
+            "D. +20 dB/decade"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Given the transfer function H(s) = -10 / (s + 5), what is the mathematically exact phase shift evaluated precisely at DC (w = 0)?",
+        "choices": [
+            "A. 0 degrees",
+            "B. 180 degrees (or -180 degrees)",
+            "C. -90 degrees",
+            "D. +90 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "The mathematical transfer function H(s) = (1 - s) / (1 + s) exhibits a linear voltage gain magnitude across all frequencies that is exactly equal to:",
+        "choices": [
+            "A. 0",
+            "B. 0.707",
+            "C. 1",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Worded circuit: An ideal operational amplifier circuit physically integrates the input voltage and subsequently amplifies it with a constant voltage gain of 10 (with phase inversion). The exact mathematical transfer function H(s) is strictly:",
+        "choices": [
+            "A. 10 * s",
+            "B. -10 * s",
+            "C. -1 / (10*s)",
+            "D. -10 / s"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "For the specific transfer function H(s) = 100 / (s * (s + 10)), the exact mathematical slope of the asymptotic magnitude plot at extremely low frequencies (w -> 0) is:",
+        "choices": [
+            "A. -20 dB/decade",
+            "B. 0 dB/decade",
+            "C. -40 dB/decade",
+            "D. +20 dB/decade"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "For the specific transfer function H(s) = s^3 / (s + 10)^2, the exact mathematical slope of the asymptotic magnitude plot at extremely high frequencies (w -> infinity) is:",
+        "choices": [
+            "A. -20 dB/decade",
+            "B. +20 dB/decade",
+            "C. +40 dB/decade",
+            "D. -40 dB/decade"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "Worded circuit: A bridged-T network features two identical series capacitors C, a shunt resistor R1 to ground from the capacitors' junction, and a feedback resistor R2 across the two capacitors. The exact mathematical transfer function of this specific network rigorously exhibits:",
+        "choices": [
+            "A. No zeros",
+            "B. A single real zero",
+            "C. A complex conjugate pair of zeros",
+            "D. Three poles"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "In strict control systems theory, if a system's mathematical transfer function H(s) possesses at least one pole located strictly in the right half of the s-plane, the system's unforced natural time-domain response will physically:",
+        "choices": [
+            "A. Decay to zero exponentially",
+            "B. Oscillate at a constant amplitude forever",
+            "C. Settle to a constant DC value",
+            "D. Grow exponentially (unstable)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "Worded circuit: A parallel RLC circuit is driven by an ideal current source I_in, and the output is the voltage V_out across the tank. The rigorous mathematical transfer impedance Z_T(s) is exactly:",
+        "choices": [
+            "A. sL / (s^2*LC + sL/R + 1)",
+            "B. s / (s^2*LC + sL/R + 1)",
+            "C. 1 / (s^2*LC + sL/R + 1)",
+            "D. s^2*L / (s^2*LC + sL/R + 1)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "In the exact mathematical Bode magnitude plot for a second-order underdamped system (zeta < 0.707), a resonant peak physically occurs. The precise mathematical frequency of this peak, w_r, relates to w_n exactly by:",
+        "choices": [
+            "A. w_r = w_n * (1 - 2*zeta^2)",
+            "B. w_r = w_n * sqrt(1 - 2*zeta^2)",
+            "C. w_r = w_n / sqrt(1 - 2*zeta^2)",
+            "D. w_r = w_n * sqrt(1 - zeta^2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "The mathematically exact peak linear magnitude reached in the Bode plot of a standard second-order low-pass system with damping ratio zeta (where zeta < 0.707) is rigorously given by:",
+        "choices": [
+            "A. 1 / (2*zeta)",
+            "B. 1 / sqrt(1 - zeta^2)",
+            "C. 1 / (2*zeta*sqrt(1 - zeta^2))",
+            "D. 1 / (zeta * sqrt(1 - 2*zeta^2))"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "In advanced frequency response analysis, a \"non-minimum phase\" system is strictly mathematically defined as possessing at least one zero located exactly in the:",
+        "choices": [
+            "A. Left half of the s-plane",
+            "B. Origin of the s-plane",
+            "C. Imaginary axis",
+            "D. Right half of the s-plane"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "Worded circuit: Two identical first-order RC low-pass filters (R=1k, C=1uF) are cascaded with an ideal buffer amplifier in between to completely prevent loading. The exact overall mathematical transfer function is strictly:",
+        "choices": [
+            "A. 1 / (1 + s*RC)^2",
+            "B. s / (1 + s*RC)^2",
+            "C. 1 / (1 + s*RC)",
+            "D. 1 / (1 + s*RC)^3"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "Worded circuit: If the ideal buffer is physically removed from the previous cascaded circuit (leaving the two RC stages connected directly), the physical loading effect causes the two original identical poles to mathematically strictly:",
+        "choices": [
+            "A. Move into the right half-plane",
+            "B. Split into two distinct, unequal real poles",
+            "C. Merge into a single pole",
+            "D. Become a complex conjugate pair"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "For the specific mathematical transfer function H(s) = s / (s^2 + s + 1), the exact phase angle evaluated precisely at w = 1 rad/s is strictly:",
+        "choices": [
+            "A. -90 degrees",
+            "B. +90 degrees",
+            "C. 0 degrees",
+            "D. +45 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "Worded circuit: An active band-pass filter yields the rigorous transfer function H(s) = -K * s / (s^2 + s*w_0/Q + w_0^2). The exact mathematical linear voltage gain strictly evaluated at the resonant frequency w_0 is:",
+        "choices": [
+            "A. -K * Q",
+            "B. -K / w_0",
+            "C. K * Q",
+            "D. -K * Q / w_0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "A system possesses a transfer function H(s) = 100 / (s^3 + 10s^2 + 31s + 30). The mathematically exact slope of the high-frequency magnitude asymptote (w -> infinity) is rigorously:",
+        "choices": [
+            "A. -60 dB/decade",
+            "B. -40 dB/decade",
+            "C. -80 dB/decade",
+            "D. -20 dB/decade"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "Worded circuit: A passive lag-lead network is physically formed by a series R1-C1 arm and a shunt R2-C2 arm to ground. Exactly at the calculated geometric center frequency, the mathematical transfer function rigorously exhibits:",
+        "choices": [
+            "A. A phase shift of exactly -90 degrees",
+            "B. A phase shift of exactly zero degrees",
+            "C. A phase shift of exactly +90 degrees",
+            "D. Infinite magnitude"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "A system's Bode plot displays a constant magnitude of 20 dB from DC up to 10 rad/s, drops at -20 dB/decade exactly until 100 rad/s, and then becomes flat again at 0 dB. The mathematically exact transfer function H(s) strictly takes the form:",
+        "choices": [
+            "A. 10 * (1 + s/10) / (1 + s/100)",
+            "B. 100 * (1 + s/100) / (1 + s/10)",
+            "C. 10 * (1 + s/100) / (1 + s/10)",
+            "D. (1 + s/100) / (1 + s/10)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "When hand-drawing a standard asymptotic Bode phase plot for a transfer function featuring a simple pole exactly at w=10 rad/s, the phase approximation is mathematically modeled as starting to drop strictly at what exact frequency?",
+        "choices": [
+            "A. 10 rad/s",
+            "B. 100 rad/s",
+            "C. 0.1 rad/s",
+            "D. 1 rad/s (one decade below)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Worded circuit: An ideal operational amplifier circuit uses a physical capacitor C directly in the input signal path and a pure resistor R in the negative feedback path. The ideal mathematical transfer function H(s) = V_out/V_in is strictly:",
+        "choices": [
+            "A. -sRC",
+            "B. sRC",
+            "C. -R / C",
+            "D. -1 / (sRC)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "A system possesses the rigorous transfer function H(s) = (s - 1) / (s + 1). If a pure AC sine wave of exactly 1 rad/s is applied to the input, the steady-state physical output waveform will mathematically strictly be:",
+        "choices": [
+            "A. Shifted in phase by +90 degrees with no amplitude attenuation",
+            "B. Shifted in phase by exactly -90 degrees with absolutely no amplitude attenuation",
+            "C. Attenuated by 3 dB and shifted by -45 degrees",
+            "D. Shifted in phase by -180 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "The exact mathematical bandwidth (in rad/s) of a standard band-pass filter modeled by the transfer function H(s) = (K*s) / (s^2 + BW*s + w_0^2) is rigorously equal to the coefficient of 's' in the denominator. What are the strict physical units of this BW coefficient?",
+        "choices": [
+            "A. Hertz",
+            "B. Dimensionless",
+            "C. rad/s",
+            "D. Seconds"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "A mathematically idealized Butterworth low-pass filter of order 'n' has its complex poles rigorously arranged in the s-plane strictly and exclusively on a:",
+        "choices": [
+            "A. Vertical line in the left half-plane",
+            "B. Parabola in the left half-plane",
+            "C. Full circle crossing into the right half-plane",
+            "D. Semicircle in the left half-plane"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "For a standard mathematical Chebyshev low-pass filter, the complex poles are rigorously analytically located strictly on the perimeter of an:",
+        "choices": [
+            "A. Ellipse in the left half-plane",
+            "B. Circle in the left half-plane",
+            "C. Hyperbola in the right half-plane",
+            "D. Ellipse crossing into the right half-plane"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Worded circuit: An ideal purely inductive AC voltage divider consists of L1 in series with L2. The output V_out is taken strictly across L2. The exact mathematical transfer function V_out / V_in evaluates to:",
+        "choices": [
+            "A. s*L2 / (L1 + L2)",
+            "B. L2 / (L1 + L2), entirely independent of frequency",
+            "C. L1 / (L1 + L2)",
+            "D. (L1*L2) / (s*(L1+L2))"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "Worded circuit: A voltage source with internal resistance Rs drives a purely capacitive load",
+        "choices": [
+            "C. The transfer function V_c/V_s has a single pole at s = -1/(Rs*C). If a physical series inductor L is inserted between the resistor and capacitor, the system mathematically rigorously becomes:",
+            "A. A first-order high-pass filter",
+            "B. A pure integrator",
+            "C. Second-order, and potentially underdamped"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "In advanced network theory, the theoretical Quality factor Q of a complex conjugate pole pair located strictly at s = -alpha +/- j*w_d is mathematically precisely defined by the algebraic ratio:",
+        "choices": [
+            "A. alpha / w_n",
+            "B. w_d / alpha",
+            "C. 2*alpha / w_n",
+            "D. w_n / (2*alpha)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "A theoretical electrical system possesses the exact transfer function H(s) = 5 / (s^2 + 4). If it is suddenly forced by a pure unit step input u(t), the output physically and mathematically will:",
+        "choices": [
+            "A. Oscillate continuously forever as an undamped sine wave",
+            "B. Decay to zero",
+            "C. Grow exponentially",
+            "D. Converge to 1.25"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "Worded circuit: A standard Twin-T passive notch filter provides a deep physical null at exactly f_0. The exact mathematical transfer function evaluated strictly at the complex frequency s = j*2*pi*f_0 must rigorously yield a magnitude of:",
+        "choices": [
+            "A. Infinity",
+            "B. 0",
+            "C. 0.707",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "In rigorous linear systems analysis, the complete steady-state AC frequency response of a network can be analytically evaluated directly from its transfer function H(s) by mathematically substituting the complex variable 's' with:",
+        "choices": [
+            "A. 1/RC",
+            "B. alpha + jw",
+            "C. jw",
+            "D. sigma"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "An electrical system features the transfer function H(s) = (s + 2) / (s^2 + 8s + 15). The rigorous mathematical partial fraction expansion of this function will yield exactly two terms with strict denominators of:",
+        "choices": [
+            "A. (s + 2) and (s + 8)",
+            "B. (s + 15) and (s + 1)",
+            "C. (s + 4) and (s - 4)",
+            "D. (s + 3) and (s + 5)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "If the rigorous mathematical transfer function of an entire circuit is exclusively given by H(s) = Z_L(s) / (Z_S(s) + Z_L(s)), this strictly algebraically models a basic:",
+        "choices": [
+            "A. Voltage divider network",
+            "B. Current divider network",
+            "C. Wheatstone bridge",
+            "D. Superposition matrix"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "A measured Bode magnitude plot of an unknown system H(s) is observed to pass precisely through 0 dB exactly at w = 1 rad/s, maintaining a constant strict slope of +20 dB/decade everywhere. The exact mathematical form of H(s) is rigorously:",
+        "choices": [
+            "A. 1/s",
+            "B. s",
+            "C. s + 1",
+            "D. s / (s+1)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "Worded circuit: A first-order RC high-pass filter (R=1k, C=1uF) is physically cascaded directly with a first-order RL low-pass filter (R=1k, L=1mH) using a perfect ideal buffer to prevent any loading. The exact overall transfer function mathematically acts strictly as a:",
+        "choices": [
+            "A. Notch filter",
+            "B. Low-pass filter",
+            "C. Band-pass filter",
+            "D. All-pass filter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "A normalized electrical filter has a rigorous mathematical transfer function H(s) = 1 / (s^3 + 2s^2 + 2s + 1). Based on standard filter polynomial tables, this strictly algebraically corresponds to a 3rd-order:",
+        "choices": [
+            "A. Chebyshev filter",
+            "B. Elliptic filter",
+            "C. Bessel filter",
+            "D. Butterworth filter"
+        ],
+        "correct_answer": "D"
+    }
+]

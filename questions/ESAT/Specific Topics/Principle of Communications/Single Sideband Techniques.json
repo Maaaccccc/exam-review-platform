@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "The ratio of the maximum modulating signal voltage to the unmodulated carrier voltage in standard AM is known as the:",
+        "choices": [
+            "A. Modulation index",
+            "B. Modulation factor",
+            "C. Percent modulation",
+            "D. Deviation ratio"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "Overmodulation in a standard AM transmitter mathematically occurs when the modulation index 'm' violates which specific condition?",
+        "choices": [
+            "A. m = 1",
+            "B. m > 1",
+            "C. m < 1",
+            "D. m = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "In a standard AM DSB-FC transmission, if the total transmitted power is 1000 W and the modulation index is 1.0, what is the exact carrier power?",
+        "choices": [
+            "A. 500 W",
+            "B. 1000 W",
+            "C. 666.7 W",
+            "D. 333.3 W"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "An AM transmitter operates with a carrier power of 50 W. When modulated at 80% (m=0.8), the total transmitted power becomes:",
+        "choices": [
+            "A. 58 W",
+            "B. 72 W",
+            "C. 82 W",
+            "D. 66 W"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "The total RF bandwidth required to transmit a conventional Double-Sideband Full-Carrier (DSB-FC) AM signal carrying a maximum audio frequency of fm is equal to:",
+        "choices": [
+            "A. 2fm",
+            "B. fm",
+            "C. 4fm",
+            "D. 0.5fm"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "In high-level AM modulation, the modulating audio signal is explicitly injected into which stage of the transmitter?",
+        "choices": [
+            "A. Audio preamplifier",
+            "B. Final RF power amplifier",
+            "C. Oscillator",
+            "D. Buffer amplifier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "Which of the following circuits is the most widely used and simplest AM demodulator found in standard broadcast receivers?",
+        "choices": [
+            "A. Product detector",
+            "B. Ratio detector",
+            "C. Envelope detector",
+            "D. Phase-locked loop"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "At 100% modulation in a standard AM DSB-FC system, the total sideband power equals what fraction of the total transmitted power?",
+        "choices": [
+            "A. One-half",
+            "B. Two-thirds",
+            "C. One-quarter",
+            "D. One-third"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "Double-Sideband Suppressed Carrier (DSB-SC) modulation differs from standard AM primarily because it completely eliminates the transmission of the:",
+        "choices": [
+            "A. RF Carrier",
+            "B. Upper sideband",
+            "C. Lower sideband",
+            "D. Modulating signal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "By suppressing the carrier in a DSB-SC system, what theoretical percentage of total power is saved compared to a 100% modulated standard AM DSB-FC signal?",
+        "choices": [
+            "A. 33.3%",
+            "B. 66.7%",
+            "C. 50.0%",
+            "D. 83.3%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "Which specific nonlinear circuit is most commonly employed to generate a Double-Sideband Suppressed Carrier (DSB-SC) signal?",
+        "choices": [
+            "A. Envelope detector",
+            "B. Class A amplifier",
+            "C. Balanced modulator",
+            "D. Foster-Seeley discriminator"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "If a 1 MHz carrier is DSB-SC modulated by a 5 kHz audio tone, the resulting frequency spectrum strictly consists of:",
+        "choices": [
+            "A. 1 MHz only",
+            "B. 5 kHz and 1 MHz",
+            "C. 995 kHz, 1000 kHz, 1005 kHz",
+            "D. 995 kHz and 1005 kHz only"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "To successfully demodulate a DSB-SC signal without severe distortion, the receiver must utilize a synchronous or coherent detector which requires:",
+        "choices": [
+            "A. A locally generated carrier perfectly matched in phase and frequency",
+            "B. A simple diode envelope detector",
+            "C. An automatic gain control circuit",
+            "D. A variable frequency oscillator"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "If the local oscillator in a DSB-SC coherent receiver has a slight frequency error compared to the original carrier, the demodulated audio output will suffer from:",
+        "choices": [
+            "A. Infinite attenuation",
+            "B. An annoying beat frequency (pitch shift) equal to the error",
+            "C. Diagonal clipping",
+            "D. Complete phase cancellation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "The required transmission bandwidth for a DSB-SC signal modulated by a baseband signal with maximum frequency fm is:",
+        "choices": [
+            "A. fm",
+            "B. fm / 2",
+            "C. 2fm",
+            "D. 4fm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "The mathematical time-domain expression for a DSB-SC wave modulated by a single tone is directly proportional to the product of:",
+        "choices": [
+            "A. cos(wc t) + cos(wm t)",
+            "B. [1 + cos(wm t)]",
+            "C. cos(wc t) + [1 + cos(wm t)]",
+            "D. cos(wc t) * cos(wm t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "If a DSB-SC signal delivers a peak envelope voltage (Vp) of 100 V across a 50-ohm load, its Peak Envelope Power (PEP) is calculated as:",
+        "choices": [
+            "A. 100 W",
+            "B. 200 W",
+            "C. 50 W",
+            "D. 400 W"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "Single-Sideband Full Carrier (SSB-FC) is often utilized as an \"AM equivalent\" transmission. Its primary ITU emission designator is:",
+        "choices": [
+            "A. J3E",
+            "B. H3E",
+            "C. R3E",
+            "D. A3E"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "What is the fundamental RF bandwidth required to transmit an SSB-FC signal modulated by a maximum audio frequency of 3 kHz?",
+        "choices": [
+            "A. 6 kHz",
+            "B. 1.5 kHz",
+            "C. 3 kHz",
+            "D. 9 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "In an SSB-FC system modulated at 100% by a single tone, what percentage of the total transmitted power is contained solely within the single sideband?",
+        "choices": [
+            "A. 33.3%",
+            "B. 50.0%",
+            "C. 66.7%",
+            "D. 20.0%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "A major reason for utilizing SSB-FC instead of standard AM is to:",
+        "choices": [
+            "A. Conserve frequency spectrum bandwidth while allowing simple envelope detection",
+            "B. Completely eliminate the need for an RF amplifier",
+            "C. Provide a perfectly constant transmission amplitude",
+            "D. Reduce the carrier power to absolutely zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Single-Sideband Suppressed Carrier (SSB-SC), standardly used in amateur and marine HF radio, carries the ITU emission designator:",
+        "choices": [
+            "A. A3E",
+            "B. J3E",
+            "C. H3E",
+            "D. F3E"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "For an audio baseband signal spanning from 300 Hz to 3000 Hz, the required RF channel bandwidth for an SSB-SC transmission is exactly:",
+        "choices": [
+            "A. 5400 Hz",
+            "B. 6000 Hz",
+            "C. 2700 Hz",
+            "D. 3000 Hz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "Compared to a fully modulated (100%) standard AM DSB-FC signal, a standard SSB-SC transmission containing the exact same amount of intelligence power saves what percentage of total transmitted power?",
+        "choices": [
+            "A. 50.0%",
+            "B. 66.7%",
+            "C. 33.3%",
+            "D. 83.3%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "Peak Envelope Power (PEP) in an SSB-SC transmission is mathematically defined as the average power evaluated over:",
+        "choices": [
+            "A. One full cycle of the modulating envelope at its maximum amplitude",
+            "B. One full cycle of the unmodulated RF carrier",
+            "C. The entire duration of a speech syllable",
+            "D. One full cycle of the lowest audio frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "In a two-tone test of an SSB-SC transmitter, the oscilloscope displays a peak envelope voltage of 200 V. What is the RMS voltage of the envelope peak?",
+        "choices": [
+            "A. 100 V",
+            "B. 141.4 V",
+            "C. 282.8 V",
+            "D. 200 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "For a human voice signal in an SSB-SC system, the ratio of Peak Envelope Power (PEP) to Average Power is typically in the range of:",
+        "choices": [
+            "A. 1:1 to 2:1",
+            "B. 100:1 to 200:1",
+            "C. 3:1 to 4:1",
+            "D. 0.5:1 to 0.8:1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "A standard AM DSB-FC transmitter produces 1500 W total power at 100% modulation. What PEP is strictly required for an SSB-SC transmitter to deliver the exact same signal-to-noise ratio at the receiver?",
+        "choices": [
+            "A. 1500 W",
+            "B. 1000 W",
+            "C. 500 W",
+            "D. 250 W"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "Which of the following is considered a primary technical disadvantage of utilizing SSB-SC compared to standard AM DSB-FC?",
+        "choices": [
+            "A. It requires exceptionally wide bandwidth",
+            "B. It requires significantly more transmit power",
+            "C. It suffers from severe selective fading",
+            "D. It requires a highly complex and frequency-stable receiver"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Vestigial Sideband (VSB) modulation is a compromise technique that transmits:",
+        "choices": [
+            "A. Only the upper sideband with no carrier",
+            "B. One full sideband, a fractional vestige of the other, and the carrier",
+            "C. The carrier and a purely unmodulated pilot tone",
+            "D. Both full sidebands but strictly suppresses the carrier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "If a baseband video signal has a bandwidth of 4.2 MHz and the VSB vestige is 1.25 MHz, what is the approximate minimum required RF transmission bandwidth?",
+        "choices": [
+            "A. 8.4 MHz",
+            "B. 2.95 MHz",
+            "C. 5.45 MHz",
+            "D. 4.2 MHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "The classic NTSC analog television broadcast standard globally utilized which modulation technique for its video picture transmission?",
+        "choices": [
+            "A. DSB-SC",
+            "B. SSB-SC",
+            "C. FM",
+            "D. VSB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "Independent Sideband (ISB) transmission is a modulation technique in which:",
+        "choices": [
+            "A. A single sideband is transmitted without a carrier",
+            "B. The carrier is heavily amplified to override noise",
+            "C. Two different sidebands containing different intelligence are transmitted simultaneously",
+            "D. The sidebands are suppressed while the carrier carries digital data"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "How many distinct baseband channels can a standard ISB transmitter typically broadcast on a single RF carrier frequency?",
+        "choices": [
+            "A. One",
+            "B. Two",
+            "C. Three",
+            "D. Four"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "If an ISB transmitter uses two distinct 3 kHz audio channels, what is the minimum theoretical RF bandwidth required, assuming no guard band?",
+        "choices": [
+            "A. 1.5 kHz",
+            "B. 3 kHz",
+            "C. 6 kHz",
+            "D. 12 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "At the receiver of a VSB system (like analog TV), the IF filter is designed with a specific attenuation curve around the carrier frequency to prevent over-emphasizing low video frequencies. This curve is called the:",
+        "choices": [
+            "A. Butterworth slope",
+            "B. Chebyshev ripple",
+            "C. Bessel delay",
+            "D. Nyquist slope"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "In skywave (ionospheric) propagation, standard AM signals suffer heavily from selective fading which distorts the audio. SSB-SC is largely immune to this specific distortion because it:",
+        "choices": [
+            "A. Relies on a single sideband, eliminating phase cancellation between two sidebands",
+            "B. Transmits at much lower frequencies",
+            "C. Uses frequency modulation principles",
+            "D. Has a higher peak envelope power"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "In order to properly demodulate an SSB-SC signal, the receiver must physically incorporate a:",
+        "choices": [
+            "A. Envelope detector diode",
+            "B. Beat Frequency Oscillator (BFO)",
+            "C. Limiter circuit",
+            "D. Ratio detector"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Because an SSB-SC transmitter suppresses the carrier and one sideband, its overall physical size and weight, for a given effective communication range, can be:",
+        "choices": [
+            "A. Doubled",
+            "B. Unchanged",
+            "C. Significantly smaller and lighter than an equivalent AM transmitter",
+            "D. Larger due to complex filters"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "In addition to power savings, an SSB-SC receiver achieves an effective Signal-to-Noise Ratio (SNR) improvement of approximately 3 dB over a standard AM receiver strictly because:",
+        "choices": [
+            "A. The transmission is digital",
+            "B. The receiver bandwidth is halved, cutting the accepted thermal noise in half",
+            "C. The carrier acts as a noise cancellation reference",
+            "D. The AGC circuit operates more efficiently"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "The most common and robust method for generating an SSB signal in commercial equipment is the:",
+        "choices": [
+            "A. Filter method",
+            "B. Weaver method",
+            "C. Phase-shift method",
+            "D. Foster-Seeley method"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "In the filter method of SSB generation, the sideband suppression filter must possess exceptionally steep skirts. This explicitly requires the filter to have a very high:",
+        "choices": [
+            "A. Capacitance",
+            "B. Quality factor (Q)",
+            "C. Inductance",
+            "D. Resistance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "For generating SSB at low intermediate frequencies (e.g., 455 kHz) requiring very sharp cutoff characteristics, which type of electromechanical filter was historically popular?",
+        "choices": [
+            "A. Ceramic filter",
+            "B. SAW filter",
+            "C. Mechanical filter (using resonant metal disks)",
+            "D. Cavity resonator"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "For high-performance SSB generation at frequencies like 9 MHz, modern transceivers heavily rely on which type of highly stable, high-Q filter?",
+        "choices": [
+            "A. Active RC filters",
+            "B. LC tank filters",
+            "C. Digital FIR filters",
+            "D. Crystal lattice filters"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Because building a highly selective filter at the final RF transmission frequency (e.g., 14 MHz) is practically impossible, the Filter Method invariably employs:",
+        "choices": [
+            "A. Heterodyning (multiple frequency conversions)",
+            "B. Audio frequency compression",
+            "C. Phase-locked loops",
+            "D. Variable capacitance diodes"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "If an SSB filter requires a passband of 3 kHz at a center frequency of 10 MHz, the required fractional bandwidth is approximately:",
+        "choices": [
+            "A. 0.03",
+            "B. 0.0003",
+            "C. 3.0",
+            "D. 0.3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "The strictness of an SSB filter's transition band is technically evaluated by its \"shape factor,\" which is standardly defined as the mathematical ratio of its:",
+        "choices": [
+            "A. 60 dB bandwidth to its 6 dB bandwidth",
+            "B. 3 dB bandwidth to its center frequency",
+            "C. Insertion loss to return loss",
+            "D. Passband ripple to stopband attenuation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "Which cost-effective filter technology utilizing piezoelectric lead zirconate titanate (PZT) is frequently found in consumer-grade SSB and communication receivers?",
+        "choices": [
+            "A. Mechanical disk filters",
+            "B. Quartz crystal filters",
+            "C. Surface Acoustic Wave (SAW) filters",
+            "D. Ceramic filters"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "The Phase-Shift method of generating an SSB signal inherently relies on the mathematical principle of:",
+        "choices": [
+            "A. Phasing out one sideband by adding two DSB signals that are 90 degrees out of phase",
+            "B. Filtering out the unwanted sideband using a high-Q crystal lattice",
+            "C. Multiplying the audio directly by the RF carrier",
+            "D. Digitally sampling the baseband at the Nyquist rate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "A standard Phase-Shift SSB generator physically requires exactly how many balanced modulators?",
+        "choices": [
+            "A. One",
+            "B. Two",
+            "C. Three",
+            "D. Four"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "A major technical challenge in constructing a Phase-Shift SSB generator is designing a wideband audio network that maintains a constant phase shift of exactly:",
+        "choices": [
+            "A. 180 degrees across the entire audio band",
+            "B. 45 degrees across the entire audio band",
+            "C. 90 degrees across the entire audio voice band",
+            "D. 360 degrees across the entire audio band"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "In the Phase-Shift SSB generator, the unmodulated RF carrier must also be split into two paths with a relative phase difference of exactly:",
+        "choices": [
+            "A. 180 degrees",
+            "B. 45 degrees",
+            "C. 0 degrees",
+            "D. 90 degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "The wideband 90-degree audio phase-shifting network utilized in the Phase-Shift method essentially performs which formal mathematical operation on the baseband signal?",
+        "choices": [
+            "A. Fourier transform",
+            "B. Laplace transform",
+            "C. Hilbert transform",
+            "D. Z-transform"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "In the Phase-Shift method, the outputs of the two balanced modulators are combined in a linear summer. The mathematical trigonometric identities result in the:",
+        "choices": [
+            "A. Reinforcement of both sidebands",
+            "B. Cancellation of the carrier and one sideband, leaving only the desired sideband",
+            "C. Complete suppression of all RF signals",
+            "D. Generation of purely FM signals"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "One distinct technical advantage of the Phase-Shift method over the Filter method is its inherent ability to:",
+        "choices": [
+            "A. Use extremely cheap LC filters",
+            "B. Eliminate the need for any balanced modulators",
+            "C. Generate SSB directly at the final RF operating frequency without multiple mixing stages",
+            "D. Achieve infinite sideband suppression"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "The most critical practical limitation that degrades sideband suppression in an analog Phase-Shift SSB generator is the:",
+        "choices": [
+            "A. Inability to suppress the carrier completely",
+            "B. Non-linearity of the RF amplifier",
+            "C. Thermal drift of the carrier oscillator",
+            "D. Difficulty in maintaining exactly 90 degrees of phase shift over a wide audio frequency range"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "The \"Third Method\" of SSB generation, which completely avoids the need for a wideband 90-degree audio phase shift network, was invented by and is also known as the:",
+        "choices": [
+            "A. Weaver method",
+            "B. Hartley method",
+            "C. Colpitts method",
+            "D. Armstrong method"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "In the Weaver method of SSB generation, the audio signal is first mixed with a low-frequency subcarrier that is typically located:",
+        "choices": [
+            "A. Exactly at the upper audio limit (e.g., 3000 Hz)",
+            "B. In the exact center of the audio voice band (e.g., 1500 Hz)",
+            "C. At the final RF transmission frequency",
+            "D. At DC (0 Hz)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "The Weaver method relies on sharp low-pass filters instead of sharp band-pass filters or wideband phase shifters. The cutoff frequency of these critical low-pass filters is typically:",
+        "choices": [
+            "A. 3000 Hz",
+            "B. 150 Hz",
+            "C. 1500 Hz (half the audio bandwidth)",
+            "D. 10.7 MHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "To completely synthesize the final SSB signal, a full analog Weaver method generator requires a total of how many balanced modulators?",
+        "choices": [
+            "A. Two",
+            "B. One",
+            "C. Three",
+            "D. Four"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "In an ISB transmission system, a pilot carrier is often transmitted at a reduced level. This reduced carrier is typically transmitted at what power level relative to Peak Envelope Power (PEP)?",
+        "choices": [
+            "A. -10 dB to -26 dB below PEP",
+            "B. 0 dB (Full PEP)",
+            "C. -60 dB to -80 dB below PEP",
+            "D. +3 dB above PEP"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "If the Beat Frequency Oscillator (BFO) in an SSB receiver is detuned by 50 Hz from the exact suppressed carrier frequency, the resulting demodulated audio will:",
+        "choices": [
+            "A. Be completely muted",
+            "B. Have all its frequencies shifted by exactly 50 Hz, severely degrading voice naturalness",
+            "C. Suffer from diagonal clipping",
+            "D. Become a frequency modulated signal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "When calculating PEP for a DSB-SC signal modulated by a single sine wave, the equivalent \"modulation index\" of the envelope is mathematically considered to be:",
+        "choices": [
+            "A. 0.5",
+            "B. 1.0",
+            "C. Infinity",
+            "D. 0.0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "In standard Vestigial Sideband (VSB) transmission used for analog TV, the video carrier contains approximately what percentage of the total transmitted RF power?",
+        "choices": [
+            "A. 33%",
+            "B. 10%",
+            "C. 50%",
+            "D. 90%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "A conventional AM DSB-FC transmitter requires 10 kW of total power to transmit a 100% modulated sine-wave signal. To provide the identical informational average power in the desired sideband, an SSB-SC transmitter requires an average power of:",
+        "choices": [
+            "A. 1.66 kW",
+            "B. 5.0 kW",
+            "C. 3.33 kW",
+            "D. 2.5 kW"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "During a standard two-tone test of an SSB-SC transmitter, if the Peak Envelope Power (PEP) is measured exactly at 100 W, what is the actual Average Power being dissipated by the dummy load?",
+        "choices": [
+            "A. 100 W",
+            "B. 50 W",
+            "C. 70.7 W",
+            "D. 25 W"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "For a pure single-tone audio input, the relationship between Peak Envelope Power (PEP) and Average Power in an SSB-SC transmitter is:",
+        "choices": [
+            "A. PEP = Average Power / 2",
+            "B. PEP = Average Power * 1.414",
+            "C. PEP = Average Power",
+            "D. PEP = Average Power * 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "In an SSB transmitter, driving the linear RF power amplifier into saturation causes third-order and fifth-order intermodulation products. This distortion is colloquially referred to as:",
+        "choices": [
+            "A. Fading",
+            "B. Splatter (or adjacent channel interference)",
+            "C. Aliasing",
+            "D. Diagonal clipping"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "A Product Detector demodulates an SSB-SC signal by mathematically performing which operation between the incoming SSB signal and the local BFO signal?",
+        "choices": [
+            "A. Subtraction",
+            "B. Division",
+            "C. Addition",
+            "D. Multiplication (Mixing)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "Which of the following circuits CANNOT be used to directly demodulate an SSB-SC signal?",
+        "choices": [
+            "A. Product detector",
+            "B. Standard diode envelope detector",
+            "C. Balanced modulator",
+            "D. Synchronous detector"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "An ISB transmitter broadcasts two independent voice channels, each bandlimited from 300 Hz to 3400 Hz. What is the total occupied RF bandwidth of the ISB transmission?",
+        "choices": [
+            "A. 3.4 kHz",
+            "B. 6.8 kHz",
+            "C. 6.2 kHz",
+            "D. 3.1 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "An SSB transmission that transmits the carrier at a strictly known, significantly attenuated level (e.g., 10% of PEP) for receiver synchronization is designated as:",
+        "choices": [
+            "A. SSB-FC",
+            "B. SSB-SC",
+            "C. ISB",
+            "D. SSB-RC (Reduced Carrier / R3E)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "A widely used variant of the balanced modulator that uses four diodes in a bridge configuration to achieve excellent carrier suppression is the:",
+        "choices": [
+            "A. Ring modulator",
+            "B. Foster-Seeley discriminator",
+            "C. Ratio detector",
+            "D. Envelope detector"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "In a properly balanced diode ring modulator, the RF carrier strictly switches the diodes on and off. To prevent the carrier from appearing at the output, the circuit relies on:",
+        "choices": [
+            "A. High-Q filtering",
+            "B. Precise bridge balance and transformer center-taps",
+            "C. Phase-shifting the carrier 90 degrees",
+            "D. Using Zener diodes"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "The theoretical maximum carrier suppression of a perfectly matched balanced modulator is infinite. In practice, due to component tolerances, a typical diode ring modulator achieves a carrier suppression of about:",
+        "choices": [
+            "A. 10 dB to 20 dB",
+            "B. 80 dB to 100 dB",
+            "C. 40 dB to 60 dB",
+            "D. 3 dB to 6 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "If a coherent receiver demodulating a DSB-SC signal has a local oscillator phase error of 'theta' relative to the incoming suppressed carrier, the demodulated audio amplitude is multiplied by a factor of:",
+        "choices": [
+            "A. sin(theta)",
+            "B. 1 / cos(theta)",
+            "C. tan(theta)",
+            "D. cos(theta)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "In coherent DSB-SC demodulation, if the local oscillator phase error reaches exactly 90 degrees (quadrature), the demodulated audio output mathematically becomes:",
+        "choices": [
+            "A. Exactly zero (quadrature null)",
+            "B. Negative",
+            "C. Infinite",
+            "D. Distorted by second harmonics"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "Unlike DSB-SC, if an SSB-SC coherent receiver suffers a constant phase error 'theta' in its local oscillator, the resulting demodulated audio signal will:",
+        "choices": [
+            "A. Be completely canceled out (zero output)",
+            "B. Suffer a constant phase shift of 'theta' but maintain its original amplitude",
+            "C. Fluctuate violently in amplitude",
+            "D. Shift in pitch by 'theta' Hertz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "In the Weaver method of SSB generation, an imperfection in the final balanced modulators will cause the subcarrier frequency (e.g., 1500 Hz) to leak through. This manifests in the final transmitted audio as a:",
+        "choices": [
+            "A. High-pitched squeal",
+            "B. Low-frequency hum",
+            "C. Constant, annoying mid-band whistle",
+            "D. Crackling noise"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "An SSB filter operates at a center frequency of 5 MHz with a required 3 dB bandwidth of 2.5 kHz. The calculated fractional bandwidth is 0.0005. This extremely small value dictates that the filter MUST be constructed using:",
+        "choices": [
+            "A. Resistors and capacitors",
+            "B. Simple LC tank circuits",
+            "C. Iron-core inductors",
+            "D. High-Q quartz crystals"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "According to the International Telecommunication Union (ITU), the official emission designator for Independent Sideband (ISB) telephony is:",
+        "choices": [
+            "A. B8E",
+            "B. J3E",
+            "C. R3E",
+            "D. A3E"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "The ITU emission designator specifically assigned to Vestigial Sideband (VSB) television video transmission is:",
+        "choices": [
+            "A. F3E",
+            "B. C3F",
+            "C. G3E",
+            "D. J3F"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "A major distinct feature of the Third Method (Weaver Method) of SSB generation over the Phase-Shift method is that it strictly avoids the need for:",
+        "choices": [
+            "A. Multiple balanced modulators",
+            "B. A sharp RF bandpass filter",
+            "C. A wideband 90-degree audio phase-shift network",
+            "D. An audio low-pass filter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "The ITU emission designator specifically assigned to Single-Sideband Full Carrier (SSB-FC), often used for compatibility with older AM marine radios, is:",
+        "choices": [
+            "A. C3F",
+            "B. A3E",
+            "C. J3E",
+            "D. H3E"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "A transmission designated as R3E by the ITU indicates which specific type of modulation?",
+        "choices": [
+            "A. Single-Sideband Reduced Carrier",
+            "B. Vestigial Sideband",
+            "C. Double-Sideband Suppressed Carrier",
+            "D. Frequency Modulation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "To improve the average power and signal-to-noise ratio of a voice SSB transmission, transmitters frequently employ an audio processing technique that boosts low-amplitude sounds and attenuates high-amplitude sounds. This is known as:",
+        "choices": [
+            "A. Companding (Compression)",
+            "B. Expansion",
+            "C. Multiplexing",
+            "D. Pre-emphasis"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "A specialized commercial HF SSB system that transmits a constant-amplitude compressed voice signal along with a separate FM subcarrier containing the original amplitude envelope information is called:",
+        "choices": [
+            "A. ISB",
+            "B. Pilot-tone SSB",
+            "C. Lincompex (Linked Compressor and Expander)",
+            "D. VSB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "Unprocessed human speech has a very high peak-to-average power ratio. In a standard SSB transmitter without compression, this means the linear RF amplifier will operate at a very low average power efficiency. The typical peak-to-average ratio for voice is:",
+        "choices": [
+            "A. 1 dB to 2 dB",
+            "B. 3 dB to 5 dB",
+            "C. 20 dB to 30 dB",
+            "D. 12 dB to 15 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "An analog video signal spans from DC to 4 MHz. It is modulated using Vestigial Sideband (VSB) with a vestige of 1 MHz. What is the total RF bandwidth?",
+        "choices": [
+            "A. 5 MHz",
+            "B. 8 MHz",
+            "C. 3 MHz",
+            "D. 2 MHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Which of the following statements comparing Crystal filters and typical LC filters for SSB generation is strictly true?",
+        "choices": [
+            "A. LC filters handle higher frequencies better",
+            "B. Crystal filters provide significantly higher Q-factors and steeper skirts",
+            "C. LC filters are more physically fragile",
+            "D. Crystal filters cannot be used above 100 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "In a mechanical filter used for SSB generation, the actual frequency-selective resonant elements are physically composed of:",
+        "choices": [
+            "A. Precision-machined metal alloy disks",
+            "B. Quartz crystal wafers",
+            "C. Ceramic slabs",
+            "D. Gold-plated capacitors"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Which phenomenon describes the primary operational principle of a Ceramic filter used in SSB receivers?",
+        "choices": [
+            "A. Magnetic resonance",
+            "B. Electromagnetism",
+            "C. Superconductivity",
+            "D. Piezoelectric effect"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "In a superheterodyne SSB receiver, excellent image frequency rejection is primarily achieved by ensuring:",
+        "choices": [
+            "A. A high Intermediate Frequency (IF) is selected",
+            "B. The BFO is perfectly tuned",
+            "C. The audio amplifier has high gain",
+            "D. The product detector is balanced"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "Despite the massive power and bandwidth savings of SSB, standard AM DSB-FC is still universally used for medium-wave commercial broadcasting primarily because:",
+        "choices": [
+            "A. SSB signals cannot propagate via skywave",
+            "B. AM receivers are drastically cheaper and simpler to manufacture",
+            "C. SSB requires a much wider bandwidth",
+            "D. AM transmitters are more power-efficient"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "If an SSB-SC signal is fed directly into a simple diode envelope detector (without any carrier reinsertion), the resulting audio output will be:",
+        "choices": [
+            "A. Perfectly clear but at a lower volume",
+            "B. Delayed by 90 degrees",
+            "C. Completely unintelligible and severely distorted",
+            "D. Identical to a frequency-modulated signal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "To perfectly recover the baseband audio from an SSB-SC signal, the receiver must exactly reinsert the missing carrier. This locally generated carrier must strictly match the original carrier in:",
+        "choices": [
+            "A. Amplitude only",
+            "B. Phase only",
+            "C. Both frequency and amplitude",
+            "D. Frequency exactly"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "A notable practical disadvantage of the Weaver (Third) method of SSB generation is the potential presence of:",
+        "choices": [
+            "A. Severe diagonal clipping",
+            "B. Complete loss of the lower sideband",
+            "C. Excessive required audio bandwidth",
+            "D. A spurious mid-band audio whistle if the final modulators are unbalanced"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "When conducting a standard two-tone test on an SSB transmitter to measure linearity, the two audio test tones should strictly be:",
+        "choices": [
+            "A. Harmonically related (e.g., 1 kHz and 2 kHz)",
+            "B. Non-harmonically related (e.g., 850 Hz and 1900 Hz) to clearly distinguish intermodulation products",
+            "C. Identical in frequency but 90 degrees out of phase",
+            "D. Exactly 10 Hz apart"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "To prevent overdrive and subsequent intermodulation distortion (splatter) in an SSB transmitter's linear RF amplifier, modern transceivers employ an automated protective feedback loop known as:",
+        "choices": [
+            "A. Automatic Frequency Control (AFC)",
+            "B. Automatic Gain Control (AGC)",
+            "C. Automatic Level Control (ALC)",
+            "D. Phase-Locked Loop (PLL)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "In large-scale point-to-point HF communication links, Independent Sideband (ISB) is frequently preferred over transmitting two completely separate SSB signals because ISB:",
+        "choices": [
+            "A. Requires zero transmitter power",
+            "B. Provides a much higher signal-to-noise ratio",
+            "C. Eliminates all ionospheric fading completely",
+            "D. Requires only one carrier frequency assignment and one transmitter infrastructure"
+        ],
+        "correct_answer": "D"
+    }
+]

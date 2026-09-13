@@ -1,0 +1,1080 @@
+[
+    {
+        "number": 1,
+        "question": "In a standard astable 555 circuit with resistors Ra, Rb and capacitor C, the charge time (output HIGH time, t_high) formula is:",
+        "choices": [
+            "A. 0.693 * Rb * C",
+            "B. 1.1 * (Ra + Rb) * C",
+            "C. 0.693 * (Ra + Rb) * C",
+            "D. 1.44 * Ra * C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "Pin 5 of the 555 timer is designated as the Control Voltage. What is its primary internal connection?",
+        "choices": [
+            "A. The base of the discharge transistor",
+            "B. The inverting input of the upper comparator",
+            "C. The output of the lower comparator",
+            "D. The reset pin of the flip-flop"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "In standard monostable mode, what is the mathematical formula for the output pulse width (T) of a 555 timer?",
+        "choices": [
+            "A. T = 0.693 * R * C",
+            "B. T = R * C",
+            "C. T = 1.44 * R * C",
+            "D. T = 1.1 * R * C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "Worded circuit: A mechanical switch exhibits severe \"bouncing,\" causing multiple erratic logic transitions. A 555 timer is configured with 10k pull-up resistors on Pins 2 and 4, and the switch pulls these pins to ground. This circuit fundamentally operates as a:",
+        "choices": [
+            "A. Basic bistable latch",
+            "B. Retriggerable monostable",
+            "C. Free-running astable",
+            "D. Schmitt trigger"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "Inside the standard 555 timer IC, how many analog voltage comparators are utilized to monitor the capacitor voltage?",
+        "choices": [
+            "A. One",
+            "B. Three",
+            "C. Two",
+            "D. Four"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "Worded circuit: A 555 timer is configured with an external transistor that discharges the timing capacitor every time an input pulse arrives. If the pulses stop, the capacitor fully charges and the 555 output drops. This circuit operates as a:",
+        "choices": [
+            "A. Free-running astable",
+            "B. Retriggerable monostable (missing-pulse detector)",
+            "C. Basic bistable latch",
+            "D. Schmitt trigger"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "What specific internal component discharges the timing capacitor at the very end of the 555 timer monostable cycle?",
+        "choices": [
+            "A. The external timing resistor",
+            "B. A negative pulse generated on Pin 2",
+            "C. The connected output load",
+            "D. The internal discharge transistor (Pin 7) turning ON and shorting the capacitor to ground"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "To achieve a duty cycle of exactly 50% or less in a standard 555 astable circuit, what component modification is typically made?",
+        "choices": [
+            "A. Connect Pin 5 directly to Vcc",
+            "B. Remove resistor Ra entirely from the circuit",
+            "C. Place a diode in parallel with Rb to bypass it during the charging phase",
+            "D. Ground Pin 4 permanently"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 9,
+        "question": "What is the primary operational advantage of a switching regulator over a linear voltage regulator?",
+        "choices": [
+            "A. It is completely free of electromagnetic interference (EMI)",
+            "B. It offers significantly higher power efficiency, especially across large input-to-output voltage differentials",
+            "C. It has a simpler circuit design with fewer external components",
+            "D. It provides a much faster transient response to load changes"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "Which of the following is considered the main disadvantage of Switch Mode Power Supplies (SMPS) when compared to linear regulators?",
+        "choices": [
+            "A. They cannot output voltages lower than the input voltage",
+            "B. They are extremely heavy and bulky due to massive line-frequency transformers",
+            "C. They have very low efficiency at high load currents",
+            "D. They generate significant high-frequency electrical noise and ripple"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "In a standard linear voltage regulator, the series pass transistor operates continuously in which specific region?",
+        "choices": [
+            "A. Cutoff region",
+            "B. Saturation region",
+            "C. Active (Linear) region",
+            "D. Reverse breakdown region"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "In a switching voltage regulator, the main power transistor operates primarily in which regions to minimize power dissipation?",
+        "choices": [
+            "A. Alternating between cutoff and saturation (or ohmic) regions",
+            "B. Exclusively in the active (linear) region",
+            "C. Alternating between the active region and breakdown",
+            "D. Exclusively in the quasi-saturation region"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "A linear regulator converts a 12V DC input to a 5V DC output, supplying a 2A load. What is the approximate electrical efficiency of this regulation stage? (Assume quiescent current is negligible).",
+        "choices": [
+            "A. 12.5%",
+            "B. 41.7%",
+            "C. 58.3%",
+            "D. 71.4%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 14,
+        "question": "Worded circuit: An engineer must design a battery-powered device drawing 5 Amps. The battery varies from 18V to 24V, and the required logic voltage is 3.3V. If a linear regulator is chosen, what is the most critical design constraint?",
+        "choices": [
+            "A. The regulator will oscillate due to the high input voltage",
+            "B. The logic ICs will be destroyed by the high input current",
+            "C. The massive power dissipation in the pass transistor will require an impractically large heat sink",
+            "D. The battery will last forever because linear regulators are 100% efficient"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "The \"dropout voltage\" of a linear voltage regulator is strictly defined as the:",
+        "choices": [
+            "A. Maximum safe input voltage before the device is destroyed",
+            "B. Voltage drop across the load resistor",
+            "C. Voltage difference between the non-inverting and inverting inputs of the internal error amplifier",
+            "D. Minimum allowable voltage differential between the input and output pins to maintain regulation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 16,
+        "question": "Worded circuit: You need to step down a 24V industrial bus to 5V to power a 10A microcontroller board. Space is highly constrained, and active cooling is impossible. Which regulator topology MUST you choose?",
+        "choices": [
+            "A. Standard Series Linear Regulator",
+            "B. Synchronous Buck Switching Converter",
+            "C. LDO (Low Dropout) Linear Regulator",
+            "D. Shunt Zener Regulator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 17,
+        "question": "The current that a linear regulator draws for its own internal operation, which flows out the ground pin and is wasted, is called the:",
+        "choices": [
+            "A. Quiescent current (Iq)",
+            "B. Inrush current",
+            "C. Holding current",
+            "D. Reverse leakage current"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "Switch-mode power supplies (SMPS) can use much smaller transformers and inductors compared to linear supplies. This massive reduction in physical size and weight is a direct result of:",
+        "choices": [
+            "A. Using germanium instead of silicon",
+            "B. Eliminating all capacitors",
+            "C. Operating at very high switching frequencies (e.g., 100 kHz to 1 MHz)",
+            "D. Operating at standard line frequencies (50/60 Hz)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "What does the acronym LDO stand for in the context of voltage regulators?",
+        "choices": [
+            "A. Low Direct Output",
+            "B. Low Dropout",
+            "C. Linear DC Oscillator",
+            "D. Load Dependent Output"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "Which type of voltage regulator is universally preferred for providing power to extremely sensitive, low-noise analog circuits like high-end audio DACs or RF receivers?",
+        "choices": [
+            "A. Linear Regulator",
+            "B. Buck Converter",
+            "C. Boost Converter",
+            "D. Flyback Converter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "The simplest form of a shunt voltage regulator utilizes which semiconductor device connected in parallel with the load?",
+        "choices": [
+            "A. A Schottky diode",
+            "B. An NPN bipolar transistor",
+            "C. A Zener diode",
+            "D. An SCR"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "In a series voltage regulator, the primary regulating element (the pass transistor) is connected in what manner relative to the load?",
+        "choices": [
+            "A. In parallel with the load",
+            "B. In a bridge configuration around the load",
+            "C. Shunted to ground before the load",
+            "D. In series between the unregulated input and the regulated output"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 23,
+        "question": "In a basic Zener shunt regulator circuit, under what condition does the Zener diode dissipate the absolute maximum power?",
+        "choices": [
+            "A. When the input voltage is at its minimum and the load current is at its maximum",
+            "B. When the input voltage is at its maximum and the load is completely disconnected (no-load condition)",
+            "C. When the input voltage is at its minimum and the load is completely disconnected",
+            "D. When the load current exceeds the Zener current"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "Worded circuit: A 12V Zener diode is used in a shunt regulator. The input voltage is 20V. The load requires 50 mA. A minimum Zener current of 10 mA is required for stable regulation. What is the maximum allowable value for the series dropping resistor (Rs)?",
+        "choices": [
+            "A. 133 ohms",
+            "B. 200 ohms",
+            "C. 400 ohms",
+            "D. 160 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "In a typical discrete series voltage regulator, an operational amplifier is often used as the \"error amplifier.\" The output of this op-amp directly drives the:",
+        "choices": [
+            "A. Voltage reference",
+            "B. Unregulated input",
+            "C. Base (or gate) of the series pass transistor",
+            "D. Load resistor directly"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "In a series regulator utilizing an NPN pass transistor, the load current is primarily supplied by the transistor's emitter. The control circuit must supply current to the transistor's:",
+        "choices": [
+            "A. Collector",
+            "B. Source",
+            "C. Gate",
+            "D. Base"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "What is a primary disadvantage of a simple shunt regulator (resistor and Zener) compared to a series regulator?",
+        "choices": [
+            "A. It is vastly more complex to design",
+            "B. It continuously dissipates significant power in the series dropping resistor even when the load is completely removed",
+            "C. It cannot regulate DC voltages",
+            "D. It provides zero protection against load short-circuits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "Worded circuit: A series voltage regulator uses a Darlington pair as the pass element to handle higher currents. The error amplifier outputs a control voltage to the base of the Darlington. What is the primary drawback of using a Darlington pair here compared to a single BJT?",
+        "choices": [
+            "A. It increases the minimum required input-to-output dropout voltage (V_dropout) because of the two combined Vbe drops",
+            "B. It drastically lowers the output current capability",
+            "C. It decreases the input impedance of the pass element",
+            "D. It converts the circuit into a shunt regulator"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 29,
+        "question": "To protect the series pass transistor from a direct short circuit across the load, a common technique adds a small sense resistor in series with the output and a second BJT. This circuit is called a:",
+        "choices": [
+            "A. Overvoltage crowbar",
+            "B. Snubber network",
+            "C. Constant-current limit (or current foldback) circuit",
+            "D. Active Miller clamp"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 30,
+        "question": "\"Foldback current limiting\" in a series regulator is superior to standard constant current limiting because:",
+        "choices": [
+            "A. It allows infinite current during a short circuit",
+            "B. As the output voltage drops during a severe overload, it actively reduces the short-circuit current limit, drastically lowering the power dissipated in the pass transistor",
+            "C. It automatically increases the output voltage to compensate for the short circuit",
+            "D. It uses fewer components"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "To improve the temperature stability of a basic Zener reference in a linear regulator, a standard PN junction diode is sometimes placed in series with the Zener. This works because:",
+        "choices": [
+            "A. The PN diode has a zero temperature coefficient",
+            "B. Both diodes have positive temperature coefficients that multiply",
+            "C. The PN diode acts as a heat sink",
+            "D. The PN diode has a negative temperature coefficient that cancels the positive temperature coefficient of an avalanche Zener diode"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 32,
+        "question": "Worded circuit: An op-amp series regulator uses a 5V Zener diode at the non-inverting input. The output voltage is sampled by a voltage divider (R1=10k connected to output, R2=10k connected to ground) which feeds the inverting input. What is the regulated output voltage?",
+        "choices": [
+            "A. 10 V",
+            "B. 5 V",
+            "C. 2.5 V",
+            "D. 15 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "The ability of a voltage regulator to maintain a constant output voltage despite changes in the UNREGULATED INPUT voltage is called:",
+        "choices": [
+            "A. Load regulation",
+            "B. Ripple rejection",
+            "C. Line regulation",
+            "D. Transient response"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "The ability of a voltage regulator to maintain a constant output voltage despite changes in the LOAD CURRENT is called:",
+        "choices": [
+            "A. Line regulation",
+            "B. Thermal regulation",
+            "C. Power supply rejection ratio (PSRR)",
+            "D. Load regulation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 35,
+        "question": "A series linear regulator receives a 24V input and provides a 12V output to a 3A load. What is the total power dissipated as pure heat by the series pass transistor? (Ignore quiescent current).",
+        "choices": [
+            "A. 72 W",
+            "B. 36 W",
+            "C. 12 W",
+            "D. 48 W"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "Which switching regulator topology is strictly used to step down a higher DC input voltage to a lower DC output voltage?",
+        "choices": [
+            "A. Buck Converter",
+            "B. Boost Converter",
+            "C. Flyback Converter",
+            "D. Cúk Converter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "In a fundamental Buck converter operating in Continuous Conduction Mode (CCM), the ideal relationship between output voltage (Vout), input voltage (Vin), and duty cycle (D) is:",
+        "choices": [
+            "A. Vout = Vin / (1 - D)",
+            "B. Vout = Vin * (D / (1 - D))",
+            "C. Vout = Vin * D",
+            "D. Vout = Vin / D"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "Worded circuit: A microprocessor requires a 1.2V supply. The main system power is 12V DC. A buck converter is implemented. Assuming 100% ideal efficiency and CCM operation, what duty cycle (D) is required for the main switching transistor?",
+        "choices": [
+            "A. 90%",
+            "B. 50%",
+            "C. 1.2%",
+            "D. 10%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 39,
+        "question": "In a standard Buck converter, during the period when the main power switch is turned OFF, the inductor current:",
+        "choices": [
+            "A. Drops instantaneously to zero",
+            "B. Continues to flow to the load, finding a return path through the freewheeling diode",
+            "C. Reverses direction and flows back to the input source",
+            "D. Charges the input capacitor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "The primary purpose of the freewheeling diode in a basic buck converter is to:",
+        "choices": [
+            "A. Provide a continuous path for the inductor current when the main switch is OFF, preventing massive inductive voltage spikes",
+            "B. Rectify the AC input voltage",
+            "C. Prevent reverse current from flowing from the battery to the load",
+            "D. Regulate the output voltage during the ON time"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "A Buck converter transitions from Continuous Conduction Mode (CCM) to Discontinuous Conduction Mode (DCM) when:",
+        "choices": [
+            "A. The input voltage exceeds the maximum rating",
+            "B. The duty cycle drops below 10%",
+            "C. The inductor current falls exactly to zero for a portion of the switching cycle",
+            "D. The switching frequency is too high"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "Worded circuit: A buck converter has an input of 20V and an output of 10V. The switching frequency is 100 kHz, and the inductor is 50 uH. During the ON time (5 us), the voltage across the inductor is (Vin - Vout) = 10V. What is the peak-to-peak inductor ripple current (Delta IL)?",
+        "choices": [
+            "A. 2.0 A",
+            "B. 1.0 A",
+            "C. 0.5 A",
+            "D. 10.0 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "In a buck converter, the inductor and the output capacitor together form a specific type of filter to smooth the pulsating voltage into steady DC. What type of filter is this?",
+        "choices": [
+            "A. High-pass filter",
+            "B. Band-stop filter",
+            "C. Notch filter",
+            "D. Low-pass LC filter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "Practical buck converters cannot operate with a duty cycle of exactly 0% or exactly 100% due to:",
+        "choices": [
+            "A. The minimum ON and OFF times required by the gate driver and the internal bootstrap capacitor charging requirements",
+            "B. The physical size of the inductor",
+            "C. The magnetic saturation of the diode",
+            "D. The skin effect in the PCB traces"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "To significantly increase the efficiency of a buck converter, especially at low output voltages, the standard Schottky freewheeling diode is often replaced by a second power MOSFET. This specific topology is known as a:",
+        "choices": [
+            "A. Forward converter",
+            "B. Push-pull converter",
+            "C. Synchronous buck converter",
+            "D. Interleaved buck converter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "The primary efficiency advantage of a synchronous buck converter over a standard asynchronous buck converter is:",
+        "choices": [
+            "A. The MOSFET can switch at infinite frequency",
+            "B. The voltage drop across a fully enhanced MOSFET (I_load * Rds(on)) is much smaller than the fixed forward voltage drop (Vf) of a Schottky diode",
+            "C. It eliminates the need for an inductor",
+            "D. It allows the input voltage to be AC"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "Worded circuit: A buck converter delivers 5A of steady DC current to a load. Because the inductor is in series with the output, the average current flowing through the inductor is:",
+        "choices": [
+            "A. Exactly equal to the output load current (5A)",
+            "B. Equal to the input current",
+            "C. Equal to the output current multiplied by the duty cycle",
+            "D. Zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "In a buck converter, the peak-to-peak output voltage ripple is primarily determined by the inductor ripple current and the:",
+        "choices": [
+            "A. Reverse recovery time of the diode",
+            "B. Transistor switching speed",
+            "C. Input capacitance",
+            "D. Equivalent Series Resistance (ESR) and capacitance of the output capacitor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "Does the standard Buck converter topology exhibit a Right-Half-Plane (RHP) zero in its continuous-time transfer function?",
+        "choices": [
+            "A. Yes, always",
+            "B. No, it does not",
+            "C. Only when operating in DCM",
+            "D. Only when the input voltage is highly unstable"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "The input current waveform of a standard buck converter is highly discontinuous (pulsating). This requires the circuit designer to place extreme importance on the selection of:",
+        "choices": [
+            "A. The output inductor's core material",
+            "B. The freewheeling diode's breakdown voltage",
+            "C. A high-quality, low-ESR input bypass capacitor to handle massive RMS ripple currents",
+            "D. A large output capacitor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "Which switching regulator topology is strictly used to step up a lower DC input voltage to a higher DC output voltage?",
+        "choices": [
+            "A. Buck Converter",
+            "B. Flyback Converter",
+            "C. Forward Converter",
+            "D. Boost Converter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "In a fundamental Boost converter operating in Continuous Conduction Mode (CCM), the ideal relationship between output voltage (Vout), input voltage (Vin), and duty cycle (D) is:",
+        "choices": [
+            "A. Vout = Vin / (1 - D)",
+            "B. Vout = Vin * D",
+            "C. Vout = Vin / D",
+            "D. Vout = Vin * (D / (1 - D))"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "Worded circuit: A solar panel outputs 12V DC. You must charge a 24V battery bank. A boost converter is used. Assuming ideal components and CCM, what switching duty cycle is required?",
+        "choices": [
+            "A. 25%",
+            "B. 50%",
+            "C. 75%",
+            "D. 12%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "In the basic topology of a boost converter, where is the main inductor physically located?",
+        "choices": [
+            "A. In series with the output load",
+            "B. In parallel with the switching transistor",
+            "C. In series between the input voltage source and the switching node",
+            "D. Between the diode and the output capacitor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "In the basic topology of a boost converter, where is the main power switching transistor physically located?",
+        "choices": [
+            "A. Shunting the node between the inductor and diode directly to ground",
+            "B. In series with the input source",
+            "C. In series with the load",
+            "D. In parallel with the input capacitor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "Worded circuit: In a boost converter, when the main switching transistor is turned ON, what happens to the inductor and the load?",
+        "choices": [
+            "A. The inductor discharges into the load",
+            "B. The input source is completely disconnected",
+            "C. The output capacitor discharges back into the inductor",
+            "D. The inductor charges from the input source, storing magnetic energy; the diode is reverse-biased, isolating the load"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "In a boost converter, during the period when the main power switch is turned ON, how is the output load supplied with continuous power?",
+        "choices": [
+            "A. Directly from the input source through the inductor",
+            "B. Solely by the energy stored in the output capacitor",
+            "C. By a secondary winding on the inductor",
+            "D. It is not supplied; the load loses power completely during the ON time"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "Unlike the buck converter, the input current waveform of a standard boost converter operating in Continuous Conduction Mode is:",
+        "choices": [
+            "A. Highly pulsating and discontinuous",
+            "B. A pure sine wave",
+            "C. Continuous with a superimposed triangular ripple",
+            "D. Zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "The control loop dynamics of a boost converter in CCM are notoriously difficult to stabilize due to the presence of a Right-Half-Plane (RHP) Zero. Physically, this RHP zero means that if the controller suddenly commands an increase in duty cycle to raise the output voltage, the output voltage will initially:",
+        "choices": [
+            "A. Drop (dip) before it rises",
+            "B. Rise instantaneously to infinity",
+            "C. Oscillate violently at the switching frequency",
+            "D. Remain completely unchanged"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "Worded circuit: A 5V to 15V boost converter operates in CCM. The average input current is 3A. The inductor ripple current is 1A peak-to-peak. What is the absolute peak current that the inductor and the switching transistor must be rated to handle?",
+        "choices": [
+            "A. 3.0 A",
+            "B. 1.0 A",
+            "C. 15.0 A",
+            "D. 3.5 A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "In practical, non-ideal boost converters, as the duty cycle (D) approaches 100% (or 1.0), the output voltage does not reach infinity. Instead, it eventually collapses to zero. This is primarily caused by:",
+        "choices": [
+            "A. The speed of light",
+            "B. The breakdown of the output capacitor",
+            "C. Parasitic resistances in the inductor (DCR), switch (Rds(on)), and diode causing massive I^2R losses at extreme duty cycles",
+            "D. The input source becoming disconnected"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "In a boost converter, the maximum reverse voltage that the freewheeling diode must be able to withstand (blocking voltage) is equal to:",
+        "choices": [
+            "A. The input voltage (Vin)",
+            "B. The output voltage (Vout)",
+            "C. Vout - Vin",
+            "D. Vin + Vout"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "The boundary between Continuous Conduction Mode (CCM) and Discontinuous Conduction Mode (DCM) in a boost converter occurs when the inductor current touches zero exactly at the:",
+        "choices": [
+            "A. End of the OFF time (switching period T)",
+            "B. Beginning of the ON time",
+            "C. Middle of the ON time",
+            "D. Peak of the ripple current"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "Worded circuit: An engineer designs a boost converter to step up 12V to 48V. Ignoring voltage spikes from parasitic inductance, the main switching power MOSFET must have a Drain-to-Source breakdown voltage (V_DSS) rating strictly greater than:",
+        "choices": [
+            "A. 12 V",
+            "B. 36 V",
+            "C. 60 V",
+            "D. 48 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "A 12V to 24V boost converter delivers 2A to the load. The overall efficiency is 80%. What is the average current drawn from the 12V input source?",
+        "choices": [
+            "A. 4.0 A",
+            "B. 5.0 A",
+            "C. 2.5 A",
+            "D. 8.0 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "Which basic switching regulator topology is capable of outputting a magnitude that is either higher OR lower than the input voltage magnitude?",
+        "choices": [
+            "A. Buck Converter",
+            "B. Boost Converter",
+            "C. Buck-Boost Converter",
+            "D. Forward Converter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "In the standard, non-isolated inverting Buck-Boost converter, if a positive DC voltage is applied to the input, the output voltage polarity relative to common ground will be:",
+        "choices": [
+            "A. Negative",
+            "B. Positive",
+            "C. Alternating (AC)",
+            "D. Zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "Worded circuit: A battery varies from 10V to 15V. A circuit requires a strictly regulated -12V supply. An inverting buck-boost converter is used. When the battery is exactly at 12V, what is the required duty cycle (D) to output -12V? (Assume ideal components).",
+        "choices": [
+            "A. 25%",
+            "B. 50%",
+            "C. 75%",
+            "D. 100%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "In an inverting buck-boost converter, when the main switching transistor is turned ON, the inductor is connected directly across the:",
+        "choices": [
+            "A. Output load",
+            "B. Freewheeling diode",
+            "C. Input voltage source",
+            "D. Output capacitor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "In an inverting buck-boost converter, when the main switching transistor is turned OFF, the energy stored in the inductor is discharged directly into the:",
+        "choices": [
+            "A. Output capacitor and load network",
+            "B. Input voltage source",
+            "C. Ground plane",
+            "D. Snubber circuit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "The ubiquitous \"Flyback\" converter, used in almost all low-power AC-DC wall adapters, is fundamentally an isolated version of which basic DC-DC topology?",
+        "choices": [
+            "A. Buck Converter",
+            "B. Boost Converter",
+            "C. Cúk Converter",
+            "D. Buck-Boost Converter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "Worded circuit: In an inverting buck-boost converter with a positive input, the inductor is grounded at one end. When the switch (connecting the other end to +Vin) turns off, the inductor's magnetic field collapses. According to Lenz's law, the voltage at the switched end of the inductor will violently swing:",
+        "choices": [
+            "A. Negative, forward-biasing the diode towards the negative output",
+            "B. Positive, doubling the input voltage",
+            "C. To exactly 0V",
+            "D. To infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "At what exact duty cycle does an ideal inverting buck-boost converter transition from stepping down the input voltage magnitude to stepping it up?",
+        "choices": [
+            "A. 10%",
+            "B. 90%",
+            "C. 50%",
+            "D. 70.7%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "The input current waveform of a standard inverting buck-boost converter is:",
+        "choices": [
+            "A. Continuous and smooth",
+            "B. A pure sine wave",
+            "C. Triangular",
+            "D. Highly pulsating and discontinuous"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "The output current waveform (flowing from the diode into the output capacitor node) of a standard inverting buck-boost converter is:",
+        "choices": [
+            "A. Continuous",
+            "B. Highly pulsating and discontinuous",
+            "C. Zero",
+            "D. A pure sine wave"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "Worded circuit: A buck-boost converter is transferring power. Unlike a buck converter where energy flows directly from input to output during the ON-time, the buck-boost converter transfers energy to the output strictly during the:",
+        "choices": [
+            "A. OFF-time of the main switch",
+            "B. ON-time of the main switch",
+            "C. Entire switching cycle simultaneously",
+            "D. Dead-time only"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "Because both the input and output currents are pulsating, buck-boost converters generally require:",
+        "choices": [
+            "A. No capacitors",
+            "B. Extremely small capacitors",
+            "C. Large, low-ESR capacitors on both the input and output to handle massive RMS ripple currents",
+            "D. Inductors on the input and output lines"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "Like the boost converter, the continuous-time transfer function of a buck-boost converter operating in Continuous Conduction Mode (CCM) features a:",
+        "choices": [
+            "A. Left-Half-Plane (LHP) zero",
+            "B. Complex conjugate pole pair at the origin",
+            "C. Double integrator",
+            "D. Right-Half-Plane (RHP) zero, making feedback loop compensation challenging"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "The 78XX series of integrated circuits are widely used as:",
+        "choices": [
+            "A. Fixed positive linear voltage regulators",
+            "B. Fixed negative linear voltage regulators",
+            "C. Adjustable switching regulators",
+            "D. Operational amplifiers"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "The 79XX series of integrated circuits are strictly designed to operate as:",
+        "choices": [
+            "A. Fixed positive linear voltage regulators",
+            "B. Fixed negative linear voltage regulators",
+            "C. Variable positive linear regulators",
+            "D. High-frequency switching controllers"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "An IC labeled \"7805\" is designed to provide a steady regulated output voltage of:",
+        "choices": [
+            "A. 78 Volts",
+            "B. 50 Volts",
+            "C. +5 Volts",
+            "D. -5 Volts"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "Worded circuit: An engineer has a 7812 regulator (12V output). They connect a 5V Zener diode between the regulator's ground pin (Pin 2) and the actual circuit ground. What is the approximate new regulated output voltage relative to circuit ground?",
+        "choices": [
+            "A. 12 V",
+            "B. 7 V",
+            "C. 5 V",
+            "D. 17 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "The standard 7805 linear regulator typically requires a minimum input voltage (dropout voltage margin) of about 2V to 2.5V above its output to maintain regulation. What is the minimum recommended input voltage for reliable 5V regulation?",
+        "choices": [
+            "A. 7.5 V",
+            "B. 5.0 V",
+            "C. 3.3 V",
+            "D. 12.0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "The LM317 integrated circuit is incredibly popular in electronics as a:",
+        "choices": [
+            "A. Fixed 3.3V switching regulator",
+            "B. Three-terminal adjustable positive linear voltage regulator",
+            "C. Precision voltage reference diode",
+            "D. Dual-channel audio amplifier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "The regulated output voltage of an LM317 is set by two external resistors (R1 between Output and Adjust, R2 between Adjust and Ground). The standard formula is Vout = Vref * (1 + R2/R1). What is the value of Vref?",
+        "choices": [
+            "A. 5.0 V",
+            "B. 2.5 V",
+            "C. 1.25 V",
+            "D. 0.6 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "Worded circuit: An LM317 regulator circuit uses R1 = 240 ohms and R2 = 2400 ohms. Using the standard formula Vout = 1.25 * (1 + R2/R1), what is the calculated output voltage?",
+        "choices": [
+            "A. 1.25 V",
+            "B. 10.0 V",
+            "C. 12.5 V",
+            "D. 13.75 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "The LM317 maintains a strict, constant reference voltage of exactly 1.25V between which two pins?",
+        "choices": [
+            "A. Output and Adjust pins",
+            "B. Input and Ground pins",
+            "C. Input and Output pins",
+            "D. Adjust and Ground pins"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Which integrated circuit is the negative voltage complement to the adjustable positive LM317 regulator?",
+        "choices": [
+            "A. 7812",
+            "B. LM337",
+            "C. LM741",
+            "D. NE555"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "In the LM317 voltage calculation formula, a very small current term (I_adj * R2) is often ignored in simplified designs. This is because the current flowing out of the Adjust pin (I_adj) is typically on the order of:",
+        "choices": [
+            "A. 1 Ampere",
+            "B. 10 milliamperes",
+            "C. 50 to 100 microamperes",
+            "D. 1 nanoampere"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Worded circuit: A fixed 7805 regulator is ingeniously wired as a constant current source. A resistor (R) is placed between the Output pin and the Ground pin. The load is connected between the Ground pin and the actual circuit ground. If R = 10 ohms, what is the approximate constant current supplied to the load? (Assume quiescent current is ~5mA).",
+        "choices": [
+            "A. 50 mA",
+            "B. 100 mA",
+            "C. 1.5 A",
+            "D. 505 mA"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "Datasheets for 78XX and LM317 regulators universally recommend placing small bypass capacitors (e.g., 0.1uF and 1uF) physically as close as possible to the IC pins. The primary purpose of these specific capacitors is to:",
+        "choices": [
+            "A. Prevent high-frequency oscillation of the internal high-gain error amplifier",
+            "B. Increase the output current capacity to 10 Amps",
+            "C. Provide massive energy storage for power outages",
+            "D. Convert the regulator into a switching converter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "Standard linear regulator ICs like the 7805 and LM317 feature an internal protection circuit that automatically forces the output current to zero if the silicon chip gets too hot. This critical safety feature is called:",
+        "choices": [
+            "A. Crowbar protection",
+            "B. Thermal shutdown",
+            "C. Foldback limiting",
+            "D. Soft-start"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "What is the typical maximum continuous output current rating for standard 78XX series and LM317 regulators packaged in the common TO-220 case (assuming adequate heatsinking)?",
+        "choices": [
+            "A. 100 mA",
+            "B. 500 mA",
+            "C. 1.0 A to 1.5 A",
+            "D. 5.0 A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "An IC labeled \"7915\" provides a regulated output voltage of:",
+        "choices": [
+            "A. +15 Volts",
+            "B. 79 Volts",
+            "C. +7.9 Volts",
+            "D. -15 Volts"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "Worded circuit: A split-rail power supply requires exactly +12V and -12V. An LM317 is used for the positive rail, and an LM337 is used for the negative rail. To ensure both rails adjust simultaneously with a single knob, designers often use a:",
+        "choices": [
+            "A. Dual-gang tracking potentiometer for the R2 adjust resistors",
+            "B. Giant capacitor",
+            "C. Single NPN transistor",
+            "D. Transformer with a center tap only"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "If a linear regulator's output is connected to a massive capacitor bank, and the input voltage is suddenly shorted to ground, the regulator can be destroyed by reverse current flowing from output to input. What simple component is added to prevent this?",
+        "choices": [
+            "A. A large inductor in series with the input",
+            "B. A reverse-biased diode placed across the regulator (Anode on Output, Cathode on Input)",
+            "C. A Zener diode to ground",
+            "D. A fuse on the output"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "The LM317 is NOT a Low Dropout (LDO) regulator. When supplying heavy currents (e.g., 1A), its required input-to-output differential (dropout voltage) can be as high as:",
+        "choices": [
+            "A. 0.1 V",
+            "B. 0.5 V",
+            "C. 2.0 V to 2.5 V",
+            "D. 10 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "The LM317 requires a specific minimum load current to maintain active regulation, otherwise, the output voltage will float upwards. To satisfy this, the R1 programming resistor is typically chosen to draw this minimum current, which is approximately:",
+        "choices": [
+            "A. 1 uA",
+            "B. 1 A",
+            "C. 500 mA",
+            "D. 3.5 mA to 5 mA"
+        ],
+        "correct_answer": "D"
+    }
+]

@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "In digital transmission, the process of aligning the receiver's sampling clock with the incoming data bit boundaries is called:",
+        "choices": [
+            "A. Bit synchronization",
+            "B. Frame synchronization",
+            "C. Byte synchronization",
+            "D. Carrier recovery"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "In HDLC and similar bit-oriented synchronous protocols, frame synchronization is achieved by detecting which specific flag sequence?",
+        "choices": [
+            "A. 11111111",
+            "B. 10101010",
+            "C. 01111110",
+            "D. 00000000"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "Which level of synchronization ensures that the receiver correctly groups the incoming continuous bitstream into meaningful 8-bit characters?",
+        "choices": [
+            "A. Clock synchronization",
+            "B. Bit synchronization",
+            "C. Frame synchronization",
+            "D. Byte synchronization"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "A \"slip\" in a digital network, which results in the deletion or repetition of a bit or frame, is primarily caused by a failure in:",
+        "choices": [
+            "A. Forward error correction",
+            "B. Clock synchronization between connecting nodes",
+            "C. The parity generator",
+            "D. The cyclic redundancy check"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "A network where nodes have highly stable independent clocks that operate at the same nominal frequency but are not perfectly locked to a single master clock is termed:",
+        "choices": [
+            "A. Plesiochronous",
+            "B. Isochronous",
+            "C. Asynchronous",
+            "D. Fully Synchronous"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "The short-term variation of the significant instants of a digital signal from their ideal positions in time (typically above 10 Hz) is known as:",
+        "choices": [
+            "A. Attenuation",
+            "B. Wander",
+            "C. Jitter",
+            "D. Aliasing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "To compensate for phase wander and slight frequency differences in a plesiochronous network interface, receivers utilize large memory buffers known as:",
+        "choices": [
+            "A. Shift registers",
+            "B. Parity blocks",
+            "C. Scramblers",
+            "D. Elastic stores (slip buffers)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "Bipolar with 8-Zero Substitution (B8ZS) is a line coding technique used in T1 carriers primarily to guarantee which type of synchronization by preventing long strings of zeros?",
+        "choices": [
+            "A. Frame synchronization",
+            "B. Bit synchronization (clock recovery)",
+            "C. Byte synchronization",
+            "D. Packet synchronization"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "In the context of data communications, any end-user device that generates or consumes digital data, such as a computer or terminal, is classified as:",
+        "choices": [
+            "A. Data Circuit-terminating Equipment (DCE)",
+            "B. Data Terminal Equipment (DTE)",
+            "C. Concentrator",
+            "D. Multiplexer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "The equipment that provides the physical connection to the network, converts the user's data into a transmittable signal, and performs clocking, is known as:",
+        "choices": [
+            "A. Data Terminal Equipment (DTE)",
+            "B. Terminal Access Point (TAP)",
+            "C. Front-End Processor (FEP)",
+            "D. Data Circuit-terminating Equipment (DCE)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "Which of the following is the primary responsibility of a Data Circuit-terminating Equipment (DCE) in an analog telephone network?",
+        "choices": [
+            "A. Modulating digital signals into analog signals for transmission and demodulating received signals",
+            "B. Displaying the information to the user on a monitor",
+            "C. Executing user application software",
+            "D. Routing IP packets to the correct destination MAC address"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "In a standard RS-232 connection between a DTE and a DCE using a DB-25 connector, the DTE transmits data on Pin 2. On which pin does the DCE receive this data?",
+        "choices": [
+            "A. Pin 3",
+            "B. Pin 7",
+            "C. Pin 2",
+            "D. Pin 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 13,
+        "question": "When connecting two DTE devices directly without a DCE in between (e.g., PC to PC via serial ports), what specific type of cable configuration is required?",
+        "choices": [
+            "A. Straight-through cable",
+            "B. Coaxial trunk cable",
+            "C. Null modem cable (crossover cable)",
+            "D. Patch cable"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "Which of the following devices acts strictly as Data Terminal Equipment (DTE) in a standard WAN connection?",
+        "choices": [
+            "A. Analog Modem",
+            "B. Enterprise Router",
+            "C. CSU/DSU",
+            "D. Fiber Optic Transceiver"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Which of the following devices acts as Data Circuit-terminating Equipment (DCE)?",
+        "choices": [
+            "A. CSU/DSU (Channel Service Unit / Data Service Unit)",
+            "B. Desktop Computer",
+            "C. Network Printer",
+            "D. Application Server"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 16,
+        "question": "The process of combining multiple lower-speed data streams into a single high-speed data stream for transmission over a shared medium is called:",
+        "choices": [
+            "A. Concentration",
+            "B. Demodulation",
+            "C. Attenuation",
+            "D. Multiplexing"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "At the receiving end of a multiplexed link, the device responsible for separating the combined high-speed stream back into its original individual lower-speed signals is the:",
+        "choices": [
+            "A. Demultiplexer",
+            "B. Concentrator",
+            "C. Modulator",
+            "D. Baseband router"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "Which multiplexing technique physically separates multiple user signals by assigning each signal a distinct, non-overlapping frequency band?",
+        "choices": [
+            "A. Time Division Multiplexing (TDM)",
+            "B. Code Division Multiplexing (CDM)",
+            "C. Space Division Multiplexing (SDM)",
+            "D. Frequency Division Multiplexing (FDM)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 19,
+        "question": "In an FDM system, what is intentionally inserted between adjacent frequency channels to prevent crosstalk and signal overlapping?",
+        "choices": [
+            "A. Parity bits",
+            "B. Guard bands",
+            "C. Synchronization flags",
+            "D. Echo cancellers"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "Which multiplexing technique allows multiple users to share a single communication channel by allocating each user a discrete, repeating time slot?",
+        "choices": [
+            "A. FDM",
+            "B. WDM",
+            "C. Time Division Multiplexing (TDM)",
+            "D. CDMA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "A major disadvantage of standard Synchronous Time Division Multiplexing (TDM) is that:",
+        "choices": [
+            "A. It cannot transmit digital data",
+            "B. It requires optical fiber",
+            "C. It wastes bandwidth by assigning empty time slots to connected devices that currently have no data to send",
+            "D. It randomly drops packets without warning"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "Wavelength Division Multiplexing (WDM) used in fiber-optic communications is conceptually identical to which electrical multiplexing technique?",
+        "choices": [
+            "A. Frequency Division Multiplexing (FDM)",
+            "B. Time Division Multiplexing (TDM)",
+            "C. Statistical TDM",
+            "D. Inverse Multiplexing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "In TDM, the process of taking a unit of data (a bit or a byte) from each input channel and combining them into a frame is called:",
+        "choices": [
+            "A. Modulating",
+            "B. Quantizing",
+            "C. Concentrating",
+            "D. Interleaving"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "In a standard T1 carrier system, how many framing bits are added to each TDM frame to maintain synchronization?",
+        "choices": [
+            "A. 8 bits",
+            "B. 1 bit",
+            "C. 24 bits",
+            "D. 0 bits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "A synchronous TDM multiplexer combines 4 independent data channels, each operating at 1 Mbps. If the multiplexer adds zero framing overhead, what is the required output transmission bit rate?",
+        "choices": [
+            "A. 1 Mbps",
+            "B. 4 Mbps",
+            "C. 8 Mbps",
+            "D. 2 Mbps"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "A standard North American T1 line uses TDM to multiplex how many discrete 64 kbps digital voice channels?",
+        "choices": [
+            "A. 24",
+            "B. 30",
+            "C. 32",
+            "D. 12"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "The European E1 digital hierarchy standard multiplexes how many total 64 kbps channels (including voice, framing, and signaling) into a single frame?",
+        "choices": [
+            "A. 24",
+            "B. 12",
+            "C. 32",
+            "D. 64"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "In a Statistical Time Division Multiplexer (STDM), what component is strictly necessary to handle periods of peak traffic when the aggregate input rate temporarily exceeds the output link capacity?",
+        "choices": [
+            "A. A faster clock",
+            "B. A higher frequency carrier",
+            "C. An analog filter",
+            "D. A buffer memory queue"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "An FDM system multiplexes 5 channels, each requiring a 10 kHz bandwidth. If a 2 kHz guard band is placed between adjacent channels, what is the total minimum bandwidth required?",
+        "choices": [
+            "A. 58 kHz",
+            "B. 50 kHz",
+            "C. 60 kHz",
+            "D. 52 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "If a TDM system takes 8000 frames per second to properly sample analog voice channels, what is the exact duration of a single complete frame?",
+        "choices": [
+            "A. 8 milliseconds",
+            "B. 1 millisecond",
+            "C. 125 microseconds",
+            "D. 1.25 microseconds"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "The primary advantage of Statistical TDM over Synchronous TDM is that STDM:",
+        "choices": [
+            "A. Uses fewer components",
+            "B. Dynamically allocates bandwidth only to active channels, achieving much higher overall line efficiency",
+            "C. Does not require buffering",
+            "D. Does not require addressing headers in the data"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "If a high-speed TDM slot is divided to carry multiple lower-speed data streams, this technique is known as:",
+        "choices": [
+            "A. Frequency hopping",
+            "B. Concentrating",
+            "C. Inverse multiplexing",
+            "D. Sub-multiplexing"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "Which technique takes a single high-speed data stream and splits it across multiple independent lower-speed transmission links for recombination at the destination?",
+        "choices": [
+            "A. Statistical multiplexing",
+            "B. Concentration",
+            "C. Sub-multiplexing",
+            "D. Inverse multiplexing"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 34,
+        "question": "Dense Wavelength Division Multiplexing (DWDM) achieves extreme channel capacities on fiber optic cables by utilizing optical channel spacings commonly as narrow as:",
+        "choices": [
+            "A. 20 nm",
+            "B. 10 nm",
+            "C. 0.8 nm (or 100 GHz)",
+            "D. 50 nm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "Unlike a multiplexer which typically has an output capacity equal to the sum of its inputs, a concentrator has a total output capacity that is:",
+        "choices": [
+            "A. Exactly equal to the sum of its inputs",
+            "B. Less than the sum of its peak input capacities, relying on the statistical probability that not all inputs transmit simultaneously",
+            "C. Greater than the sum of its inputs",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "A device has 50 input lines each capable of 64 kbps, but its single output line can only transmit at 1.544 Mbps. This device must be functioning as a:",
+        "choices": [
+            "A. Concentrator",
+            "B. Synchronous Multiplexer",
+            "C. Digital-to-Analog Converter",
+            "D. Repeater"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "Because a concentrator has fewer output channels than input channels, it must deal with multiple inputs attempting to access the output simultaneously. This phenomenon is called:",
+        "choices": [
+            "A. Contention",
+            "B. Aliasing",
+            "C. Crosstalk",
+            "D. Dispersion"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "In a concentrator, if all output channels are currently in use and another input channel attempts to send data, the concentrator may drop the connection. The likelihood of this happening is known as the:",
+        "choices": [
+            "A. Jitter rate",
+            "B. Multiplexing factor",
+            "C. Baud rate",
+            "D. Blocking probability"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 39,
+        "question": "To design a concentrator and calculate the required number of output trunks for a given blocking probability and traffic load, engineers use the:",
+        "choices": [
+            "A. Nyquist Theorem",
+            "B. Shannon Limit",
+            "C. Erlang B formula",
+            "D. Friis Transmission Equation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "Unlike simple physical-layer multiplexers, concentrators typically possess processing capability and memory, allowing them to utilize which mechanism to handle bursts of data?",
+        "choices": [
+            "A. Wavelength shifting",
+            "B. Store-and-forward switching",
+            "C. Analog frequency shifting",
+            "D. Pulse amplitude modulation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "A synchronous TDM combines ten 9.6 kbps lines. The total overhead per frame is 10%. What is the minimum required capacity of the output link?",
+        "choices": [
+            "A. 96 kbps",
+            "B. 100 kbps",
+            "C. 106.67 kbps",
+            "D. 105.6 kbps"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "In a synchronous serial connection between a DTE and a DCE, which device typically generates and provides the clock signal on dedicated interface pins to ensure synchronization?",
+        "choices": [
+            "A. The DTE always provides the clock",
+            "B. The DCE generally provides the transmit and receive clocks to the DTE",
+            "C. The devices operate without a clock",
+            "D. A third-party external timing server"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "In the standard analog FDM hierarchy used in telephony, a \"Basic Group\" consists of how many 4 kHz voice channels?",
+        "choices": [
+            "A. 12 channels",
+            "B. 24 channels",
+            "C. 60 channels",
+            "D. 600 channels"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "What is the total bandwidth occupied by an FDM Basic Group containing 12 voice channels (each allocated 4 kHz)?",
+        "choices": [
+            "A. 12 kHz",
+            "B. 24 kHz",
+            "C. 36 kHz",
+            "D. 48 kHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Three channels, each with a 100 kHz bandwidth, are multiplexed using FDM. If the total allocated frequency band is 320 kHz, what is the maximum width of the guard band between adjacent channels?",
+        "choices": [
+            "A. 5 kHz",
+            "B. 10 kHz",
+            "C. 15 kHz",
+            "D. 20 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "A T1 frame consists of 24 8-bit channels and 1 framing bit. If 8000 frames are transmitted per second, calculate the exact aggregate bit rate.",
+        "choices": [
+            "A. 1.536 Mbps",
+            "B. 2.048 Mbps",
+            "C. 1.544 Mbps",
+            "D. 1.000 Mbps"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "A terminal server acts as a concentrator, connecting 100 terminals (9600 bps each) to a single 128 kbps WAN link. What is the line concentration ratio?",
+        "choices": [
+            "A. 1:1",
+            "B. 3:1",
+            "C. 5:1",
+            "D. 7.5:1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 48,
+        "question": "Because a Statistical TDM does not assign fixed time slots, each transmitted block of data must strictly include:",
+        "choices": [
+            "A. An address tag or header to identify the source/destination channel",
+            "B. A distinct carrier frequency",
+            "C. An analog pilot tone",
+            "D. A higher voltage level"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "Which of the following is a key reason why Synchronous TDM requires less overhead per payload byte than Statistical TDM?",
+        "choices": [
+            "A. It uses analog waves",
+            "B. It runs at slower speeds",
+            "C. It compresses the data automatically",
+            "D. Channel identity is implicitly known from the time slot position, so no explicit address headers are required per slot"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "In WDM optical networks, which passive component is frequently used to combine and separate the different wavelengths of light?",
+        "choices": [
+            "A. Diffraction gratings or prisms",
+            "B. Operational amplifiers",
+            "C. Copper splitters",
+            "D. Vacuum tubes"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "While FDM is inherently designed to multiplex analog continuous signals, TDM was fundamentally developed to multiplex:",
+        "choices": [
+            "A. Radio frequencies",
+            "B. Digital pulses or discrete-time samples",
+            "C. Audio waves without sampling",
+            "D. Light waves"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "In traffic engineering for concentrators, one \"Erlang\" represents:",
+        "choices": [
+            "A. One lost packet",
+            "B. One gigabyte of data",
+            "C. One continuous hour of use of a single communication channel",
+            "D. One microsecond of delay"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 53,
+        "question": "In standard RS-232 serial communication between a DTE and DCE, a Logic 1 (Mark) on the data lines is represented by a voltage in the range of:",
+        "choices": [
+            "A. -3V to -15V",
+            "B. +3V to +15V",
+            "C. 0V to +5V",
+            "D. -1V to +1V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "Inside a computer (DTE), which specific integrated circuit converts the parallel data from the system bus into the serial format required by the RS-232 interface?",
+        "choices": [
+            "A. Multiplexer (MUX)",
+            "B. Universal Asynchronous Receiver-Transmitter (UART)",
+            "C. Codec",
+            "D. Digital Signal Processor (DSP)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Which RS-232 control signal is asserted by the DTE to inform the DCE that it is powered on and ready to communicate?",
+        "choices": [
+            "A. Carrier Detect (CD)",
+            "B. Clear to Send (CTS)",
+            "C. Data Set Ready (DSR)",
+            "D. Data Terminal Ready (DTR)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 56,
+        "question": "Which RS-232 control signal is asserted by a modem (DCE) to inform the computer (DTE) that it has successfully established a connection with a remote modem?",
+        "choices": [
+            "A. Request to Send (RTS)",
+            "B. Data Terminal Ready (DTR)",
+            "C. Carrier Detect (CD / DCD)",
+            "D. Transmit Data (TxD)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "If several digital input channels have slightly different, non-synchronized bit rates, a synchronous TDM multiplexer aligns them to a common master clock rate using a technique called:",
+        "choices": [
+            "A. Amplitude padding",
+            "B. Sub-multiplexing",
+            "C. Pulse stuffing (bit justification)",
+            "D. Wavelength shifting"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "The telecom hierarchy where multiplexing is done by interleaving streams that run at nearly, but not exactly, the same rate is known as:",
+        "choices": [
+            "A. SDH",
+            "B. Plesiochronous Digital Hierarchy (PDH)",
+            "C. FDM",
+            "D. WDM"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Because it must actively queue, route, and manage contending data packets, a data concentrator physically requires:",
+        "choices": [
+            "A. A microprocessor and memory buffers",
+            "B. Only a passive copper wire bus",
+            "C. Only optical prisms",
+            "D. Zero electrical power"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "In traditional telephony, a Remote Concentrator Unit (RCU) is deployed in a neighborhood to:",
+        "choices": [
+            "A. Amplify the voice signals",
+            "B. Convert the line to 4-wire",
+            "C. Block all long-distance calls",
+            "D. Aggregate hundreds of local subscriber loops onto a few high-capacity trunks back to the central office"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "A standard T1 TDM frame contains 193 bits. 192 bits are payload. What is the primary purpose of the remaining 1 bit?",
+        "choices": [
+            "A. Frame synchronization (framing bit)",
+            "B. Parity check for the whole frame",
+            "C. To carry the clock frequency",
+            "D. To indicate a dropped call"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "The E1 TDM frame consists of 32 time slots of 8 bits each. How many total bits are in one E1 frame?",
+        "choices": [
+            "A. 193 bits",
+            "B. 240 bits",
+            "C. 256 bits",
+            "D. 512 bits"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "Telephone voice channels are multiplexed using TDM at a frame rate of 8,000 frames per second. This specific rate is chosen because:",
+        "choices": [
+            "A. It is the maximum speed of copper wire",
+            "B. It matches the AC power grid frequency",
+            "C. It is a random industry convention",
+            "D. The Nyquist sampling theorem requires a sampling rate of at least twice the 4 kHz maximum voice frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "A synchronous TDM multiplexes three 100 kbps channels and one 300 kbps channel. To achieve this efficiently without stuffing, the 300 kbps channel is assigned:",
+        "choices": [
+            "A. The same number of time slots as the 100 kbps channels",
+            "B. Three times as many time slots per frame as any of the 100 kbps channels",
+            "C. Zero time slots",
+            "D. A higher voltage level"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "A video conferencing system requires 384 kbps. If the available network only provides basic ISDN B-channels (64 kbps each), how many B-channels must an inverse multiplexer bond together?",
+        "choices": [
+            "A. 4",
+            "B. 6",
+            "C. 8",
+            "D. 12"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "A highly intelligent concentrator connected directly to a mainframe computer to relieve it of communication processing overhead is historically called a:",
+        "choices": [
+            "A. Multiplexer",
+            "B. Modem",
+            "C. Bridge",
+            "D. Front-End Processor (FEP)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 67,
+        "question": "A pure hardware Time Division Multiplexer is considered \"protocol transparent\" because:",
+        "choices": [
+            "A. It reads and rewrites all IP headers",
+            "B. It only works with TCP/IP",
+            "C. It blindly passes the bit stream without looking at or modifying the data content or protocol headers",
+            "D. It acts as a firewall"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Unlike Synchronous TDM which has a fixed frame size, Statistical TDM can utilize:",
+        "choices": [
+            "A. Variable-length frames to improve efficiency depending on payload size",
+            "B. Only analog sine waves",
+            "C. FDM guard bands",
+            "D. Fixed time slots exclusively"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "In Orthogonal Frequency Division Multiplexing (OFDM), guard bands between subcarriers are not strictly necessary because:",
+        "choices": [
+            "A. The frequencies are spaced infinitely far apart",
+            "B. Digital signals don't experience interference",
+            "C. The subcarriers are optical",
+            "D. The peak of one subcarrier mathematically aligns with the nulls of the adjacent subcarriers"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "Which international standards body governs the \"V-series\" recommendations (e.g., V.24, V.90) defining DTE-DCE interfaces and modem speeds over analog lines?",
+        "choices": [
+            "A. ITU-T",
+            "B. IEEE",
+            "C. ISO",
+            "D. IETF"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "While V-series specifies DTE-DCE interfaces for analog networks, which ITU-T series specifies DTE-DCE interfaces for digital networks (like X.25)?",
+        "choices": [
+            "A. IEEE 802",
+            "B. X-series (e.g., X.21)",
+            "C. RJ-45",
+            "D. V-series"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "To connect a DTE (computer) to a DCE (modem) using a standard RS-232 DB-9 interface, what type of cable is used?",
+        "choices": [
+            "A. Rollover cable",
+            "B. Crossover cable",
+            "C. Straight-through cable",
+            "D. Optical fiber"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "Under very light traffic loads, a Statistical TDM is generally less efficient than a Synchronous TDM because:",
+        "choices": [
+            "A. It drops connections",
+            "B. It increases the clock rate",
+            "C. The mandatory address headers constitute a larger percentage of the sparse data stream, creating high overhead",
+            "D. It wastes time slots"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "A device is sold as a \"non-blocking concentrator.\" In strict networking terminology, if a device has equal input and output capacities and can never block, it is actually just a:",
+        "choices": [
+            "A. Router",
+            "B. Amplifier",
+            "C. Demodulator",
+            "D. Multiplexer"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "At the receiver of an FDM system, the demultiplexer separates the individual channels using a bank of:",
+        "choices": [
+            "A. Band-pass filters",
+            "B. Time-delay relays",
+            "C. Optical prisms",
+            "D. Digital logic gates"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "At the receiver of a synchronous TDM system, the demultiplexer separates the individual channels using:",
+        "choices": [
+            "A. Band-pass filters",
+            "B. Synchronized logic gates (time switches) operating in lockstep with the transmitter",
+            "C. Fiber optic splitters",
+            "D. Voltage comparators"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "If analog voice channels are fed into a TDM without first passing through an anti-aliasing low-pass filter, what distortion will occur?",
+        "choices": [
+            "A. Jitter",
+            "B. Aliasing (high frequencies folding back into the baseband)",
+            "C. Chromatic dispersion",
+            "D. Cross-talk"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "The first step in creating a TDM signal from analog sources is to sample each signal, creating a sequence of pulses whose heights represent the signal amplitude. This is called:",
+        "choices": [
+            "A. Pulse Code Modulation (PCM)",
+            "B. Frequency Modulation (FM)",
+            "C. Pulse Amplitude Modulation (PAM)",
+            "D. Phase Shift Keying (PSK)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "Coarse Wavelength Division Multiplexing (CWDM) is a lower-cost optical multiplexing technique that uses channel spacings typically around:",
+        "choices": [
+            "A. 0.8 nm",
+            "B. 100 GHz",
+            "C. 1 mm",
+            "D. 20 nm"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "In modern digital telephone exchanges, multiplexing and switching are heavily integrated using a hybrid architecture known as:",
+        "choices": [
+            "A. Time-Space-Time (TST) switching",
+            "B. CSMA/CD",
+            "C. Analog Crossbar",
+            "D. Frequency hopping"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "The mechanical specification of the RS-232 standard for a PC COM port defines a D-subminiature connector with how many pins?",
+        "choices": [
+            "A. 9 pins (DB-9)",
+            "B. 15 pins",
+            "C. 25 pins",
+            "D. 50 pins"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "TDM is inherently a baseband technology, whereas FDM is categorized as a:",
+        "choices": [
+            "A. Baseband technology",
+            "B. Broadband technology (using carrier modulation)",
+            "C. Optical technology",
+            "D. Simplex technology"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "The primary economic driver for using high-capacity multiplexers in wide-area networks is to:",
+        "choices": [
+            "A. Decrease the speed of data",
+            "B. Increase the number of physical cables needed",
+            "C. Maximize the utilization of expensive long-haul transmission links",
+            "D. Prevent unauthorized access"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "In a concentrator, if the input data rate temporarily exceeds the output link rate, the data is held in a:",
+        "choices": [
+            "A. Modulator",
+            "B. Filter",
+            "C. Shift register",
+            "D. Buffer memory"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Due to its store-and-forward nature and buffering, a statistical multiplexer/concentrator inherently introduces varying amounts of:",
+        "choices": [
+            "A. Signal amplification",
+            "B. Frequency shift",
+            "C. Bandwidth",
+            "D. Queuing delay (latency)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "In DWDM systems, channel spacing is often specified in frequency (e.g., 100 GHz). At 1550 nm, a 100 GHz spacing is approximately equal to a wavelength spacing of:",
+        "choices": [
+            "A. 0.8 nm",
+            "B. 2.0 nm",
+            "C. 10 nm",
+            "D. 20 nm"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "In an FDM system, each input baseband signal modulates a separate:",
+        "choices": [
+            "A. Time slot",
+            "B. Subcarrier frequency",
+            "C. Optical wavelength",
+            "D. Digital pulse"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "Statistical Time Division Multiplexing (STDM) is also commonly known in the industry as:",
+        "choices": [
+            "A. Synchronous TDM",
+            "B. Inverse Muxing",
+            "C. Asynchronous TDM (or Intelligent TDM)",
+            "D. Wavelength Division Multiplexing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "On a standard RS-232 interface using synchronous transmission, the DCE provides the transmit clock to the DTE on which specific pin of a DB-25 connector?",
+        "choices": [
+            "A. Pin 2 (TxD)",
+            "B. Pin 3 (RxD)",
+            "C. Pin 15 (Tx Clock / TSET)",
+            "D. Pin 7 (GND)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "In a standard null modem (crossover) RS-232 cable between two DTEs, Pin 2 (TxD) on one end must strictly connect to which pin on the other end?",
+        "choices": [
+            "A. Pin 2 (TxD)",
+            "B. Pin 3 (RxD)",
+            "C. Pin 7 (GND)",
+            "D. Pin 20 (DTR)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "In DWDM networks, an Arrayed Waveguide Grating (AWG) is a sophisticated optical planar lightwave circuit used primarily as a:",
+        "choices": [
+            "A. Multiplexer/Demultiplexer",
+            "B. Optical Amplifier",
+            "C. Laser Source",
+            "D. Fiber buffer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "The traffic intensity offered to a concentrator is defined as the product of the average arrival rate of connections (λ) and the:",
+        "choices": [
+            "A. Number of output lines",
+            "B. Buffer size",
+            "C. Bit rate",
+            "D. Average holding time (h)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "Which RS-232 pin is asserted by an analog dial-up modem (DCE) to alert the computer (DTE) that an incoming phone call is detected?",
+        "choices": [
+            "A. RTS",
+            "B. DTR",
+            "C. CTS",
+            "D. Ring Indicator (RI)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "A service where a customer uses a multiplexer to lease only a portion of a T1 line's 24 channels (e.g., 6 channels for 384 kbps) is known as:",
+        "choices": [
+            "A. Inverse Multiplexing",
+            "B. Statistical TDM",
+            "C. Fractional T1",
+            "D. ADSL"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "Historically, before digital optical networks, long-haul microwave radio relay links primarily used which technology to combine thousands of analog voice channels?",
+        "choices": [
+            "A. TDM",
+            "B. FDM",
+            "C. CDM",
+            "D. STDM"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "In the TDM digital hierarchy, a DS-3 signal (44.736 Mbps) is created by multiplexing together how many DS-1 (T1) signals?",
+        "choices": [
+            "A. 28",
+            "B. 24",
+            "C. 30",
+            "D. 7"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "In a CSU/DSU, the Data Service Unit (DSU) specifically provides which function?",
+        "choices": [
+            "A. Protects the telecom network from customer equipment electrical surges",
+            "B. Converts the DTE's unipolar digital signals into the bipolar line codes required by the digital WAN circuit",
+            "C. Modulates analog signals",
+            "D. Acts as a statistical multiplexer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "In a CSU/DSU, the Channel Service Unit (CSU) is primarily responsible for:",
+        "choices": [
+            "A. Line conditioning, loopback testing, and terminating the physical telecom line",
+            "B. Generating RS-232 voltages",
+            "C. Routing IP packets",
+            "D. Concentrating data"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "If a TDM demultiplexer loses frame synchronization, what will immediately happen to the demultiplexed channels?",
+        "choices": [
+            "A. They will increase in volume",
+            "B. The bit rate will double",
+            "C. They will seamlessly switch to FDM",
+            "D. Data will be routed to the wrong output channels, completely scrambling the communication"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "The simplest form of multiplexing, simply bundling multiple separate physical insulated copper wires inside a single thick cable jacket, is technically considered:",
+        "choices": [
+            "A. FDM",
+            "B. WDM",
+            "C. Space Division Multiplexing (SDM)",
+            "D. TDM"
+        ],
+        "correct_answer": "C"
+    }
+]

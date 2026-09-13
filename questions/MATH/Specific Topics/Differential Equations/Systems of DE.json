@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "The critical damping coefficient c_c for a damped mass-spring system is given by:",
+        "choices": [
+            "A. 2*sqrt(km)",
+            "B. sqrt(k/m)",
+            "C. k/m",
+            "D. 2km"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "A series RLC circuit is classified as underdamped if its components satisfy the inequality:",
+        "choices": [
+            "A. R^2 > 4L/C",
+            "B. R^2 < 4L/C",
+            "C. R^2 = 4L/C",
+            "D. R > 2*sqrt(LC)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "The maximum deflection of a cantilever beam with length L and a point load P at the free end is:",
+        "choices": [
+            "A. PL^3 / (48EI)",
+            "B. PL^3 / (8EI)",
+            "C. PL^3 / (3EI)",
+            "D. PL^2 / (2EI)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "The period T of an undamped mass-spring system in Simple Harmonic Motion is:",
+        "choices": [
+            "A. 2*pi*sqrt(k/m)",
+            "B. (1/(2*pi))*sqrt(k/m)",
+            "C. pi*sqrt(m/k)",
+            "D. 2*pi*sqrt(m/k)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "What is the other eigenvalue?",
+        "choices": [
+            "A. -2",
+            "B. 2",
+            "C. 5",
+            "D. -5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "For a simply supported (pinned-pinned) beam, the correct physical boundary conditions at x=0 and x=L are:",
+        "choices": [
+            "A. y=0, y'=0",
+            "B. y=0, y''=0",
+            "C. y'=0, y''=0",
+            "D. y=0, V=0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "Overdamped harmonic motion occurs when the discriminant of the system's characteristic equation is:",
+        "choices": [
+            "A. Zero",
+            "B. Negative",
+            "C. Positive",
+            "D. Imaginary"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "The natural angular frequency of an ideal undamped LC circuit is:",
+        "choices": [
+            "A. sqrt(LC)",
+            "B. 1/LC",
+            "C. R/L",
+            "D. 1/sqrt(LC)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "A system of differential equations dx/dt = 3x - y, dy/dt = 2x + y can be written in matrix form X' = AX where A is:",
+        "choices": [
+            "A. [[3, -1], [2, 1]]",
+            "B. [[3, 2], [-1, 1]]",
+            "C. [[3, -1], [1, 2]]",
+            "D. [[2, 1], [3, -1]]"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "The vector form of a homogeneous system of linear first-order differential equations is:",
+        "choices": [
+            "A. X' = AX + F",
+            "B. X' = AX",
+            "C. X'' = AX",
+            "D. X = AX'"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "For a system of 3 first-order linear differential equations, the coefficient matrix A has dimensions:",
+        "choices": [
+            "A. 2x2",
+            "B. 3x1",
+            "C. 3x3",
+            "D. 1x3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "The trace of a 2x2 matrix A in the system X' = AX is mathematically equal to the sum of its:",
+        "choices": [
+            "A. Columns",
+            "B. Rows",
+            "C. Inverses",
+            "D. Eigenvalues"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "If X_1 and X_2 are solutions to X' = AX, then C_1 X_1 + C_2 X_2 is also a solution. This fundamental property is known as:",
+        "choices": [
+            "A. The Superposition Principle",
+            "B. The Elimination Method",
+            "C. The Wronskian Theorem",
+            "D. Cramer's Rule"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "To convert the second-order DE y'' + 3y' + 2y = 0 into a system of first-order DEs, we typically set x_1 = y and x_2 = :",
+        "choices": [
+            "A. y",
+            "B. y'",
+            "C. y''",
+            "D. 2y"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "If y'' - 5y' + 4y = 0 is converted to a system X' = AX with x_1=y, x_2=y', the matrix A is:",
+        "choices": [
+            "A. [[1, 0], [4, -5]]",
+            "B. [[0, 1], [5, -4]]",
+            "C. [[0, 1], [-4, 5]]",
+            "D. [[0, 1], [-5, 4]]"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "In matrix form, a system of linear first-order DEs with constant coefficients is written as X' = AX. If A is a 2x2 matrix, the system represents how many coupled equations?",
+        "choices": [
+            "A. 4",
+            "B. 3",
+            "C. 1",
+            "D. 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "A non-homogeneous linear system is represented as X' = AX + F(t). If F(t) = 0, the system is strictly called:",
+        "choices": [
+            "A. Non-linear",
+            "B. Exact",
+            "C. Separable",
+            "D. Homogeneous"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 18,
+        "question": "The Wronskian of two solution vectors X_1 = [e^t, 2e^t]^T and X_2 = [e^-t, -e^-t]^T is the determinant of a matrix formed by:",
+        "choices": [
+            "A. Placing the vectors as columns",
+            "B. Adding the vectors",
+            "C. Subtracting the vectors",
+            "D. Multiplying the vectors"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "The system x' = 2x + y + t, y' = x - 3y + e^t is an example of a:",
+        "choices": [
+            "A. Homogeneous linear system",
+            "B. Non-homogeneous linear system",
+            "C. Non-linear system",
+            "D. Second-order system"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "In the vector function X(t) = [x_1(t), x_2(t), ..., x_n(t)]^T, the derivative X'(t) is obtained by:",
+        "choices": [
+            "A. Differentiating the determinant",
+            "B. Differentiating the trace",
+            "C. Differentiating each component with respect to t",
+            "D. Integrating each component"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "If the determinant of the coefficient matrix A is zero, the origin (critical point) of the system X' = AX is:",
+        "choices": [
+            "A. Asymptotically stable",
+            "B. A saddle point",
+            "C. A center",
+            "D. Degenerate (non-isolated)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 22,
+        "question": "A 2x2 system X' = AX has a fundamental matrix Phi(t). The derivative Phi'(t) satisfies the matrix differential equation:",
+        "choices": [
+            "A. Phi'(t) = A * Phi(t)",
+            "B. Phi'(t) = Phi(t) * A",
+            "C. Phi'(t) = A^-1 * Phi(t)",
+            "D. Phi'(t) = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "The general solution of X' = AX is X(t) = Phi(t)C, where C is a vector of arbitrary constants and Phi(t) is the:",
+        "choices": [
+            "A. Coefficient matrix",
+            "B. Fundamental matrix",
+            "C. Eigenvector matrix",
+            "D. Identity matrix"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "The elimination method for solving a system of linear DEs is conceptually similar to solving algebraic systems by:",
+        "choices": [
+            "A. Matrix inversion",
+            "B. Finding eigenvalues",
+            "C. Substitution or elimination of variables",
+            "D. Completing the square"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "To solve dx/dt = y, dy/dt = x using elimination, one can differentiate the first equation to get d^2x/dt^2 = dy/dt, which simplifies to:",
+        "choices": [
+            "A. x'' + x = 0",
+            "B. x'' + x' = 0",
+            "C. x'' - x = 0",
+            "D. x'' - x' = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "The differential operator D in the elimination method mathematically represents:",
+        "choices": [
+            "A. Integration with respect to t",
+            "B. Multiplication by a constant",
+            "C. Determinant calculation",
+            "D. Differentiation with respect to t"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "Using operator notation, the system x' = 3x - y, y' = x + y is written as:",
+        "choices": [
+            "A. (D-3)x + y = 0, -x + (D-1)y = 0",
+            "B. (D+3)x - y = 0, x + (D+1)y = 0",
+            "C. Dx - 3 = 0, Dy - 1 = 0",
+            "D. (D-3)x - y = 0, x + (D-1)y = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "To eliminate y from (D-2)x + Dy = 0 and x + (D+1)y = 0, we operate on the first equation by (D+1) and the second by:",
+        "choices": [
+            "A. D-2",
+            "B. D+2",
+            "C. D",
+            "D. -D"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "When using the elimination method on a 2x2 system of first-order DEs, the resulting single decoupled DE for x(t) is typically of order:",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "Given x' = y and y' = -x, eliminating y yields the standard equation for simple harmonic motion:",
+        "choices": [
+            "A. x'' - x = 0",
+            "B. x'' + x' = 0",
+            "C. x'' + x = 0",
+            "D. x'' - x' = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "If eliminating variables leads to a single fourth-order DE for x(t), the original system could have been:",
+        "choices": [
+            "A. Four coupled first-order DEs",
+            "B. Two first-order DEs",
+            "C. One first-order and one second-order DE",
+            "D. A single third-order DE"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "Solve the system dx/dt = 2y, dy/dt = 2x. The general solution for x(t) involves:",
+        "choices": [
+            "A. cos(2t), sin(2t)",
+            "B. e^(2t), e^(-2t)",
+            "C. e^t, e^-t",
+            "D. t*e^(2t), e^(2t)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "In the elimination method, after finding x(t) with constants C_1 and C_2, the function y(t) should ideally be found by:",
+        "choices": [
+            "A. Integrating x(t)",
+            "B. Substituting x(t) back into an equation that does not require integration",
+            "C. Solving a new second-order DE for y(t)",
+            "D. Guessing the coefficients"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "Consider the system x' = x + y, y' = x - y. Eliminating y gives the single differential equation for x:",
+        "choices": [
+            "A. x'' + 2x = 0",
+            "B. x'' - 2x' = 0",
+            "C. x'' - 2x = 0",
+            "D. x'' + x = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "Solve the system x' = -y, y' = x with initial conditions x(0)=1, y(0)=0. The particular solution is:",
+        "choices": [
+            "A. x = cos(t), y = -sin(t)",
+            "B. x = e^t, y = e^-t",
+            "C. x = sin(t), y = cos(t)",
+            "D. x = cos(t), y = sin(t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "The determinant of the operator matrix for the system (D+1)x + (D-1)y = 0, (D-2)x + (D+2)y = 0 is:",
+        "choices": [
+            "A. (D+1)(D+2) - (D-1)(D-2)",
+            "B. (D+1)(D-2) + (D-1)(D+2)",
+            "C. D^2 + 3D + 2",
+            "D. D^2 - D - 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "Using elimination on dx/dt = 2x, dy/dt = 3y, the variables are inherently decoupled. The general solution for x(t) is:",
+        "choices": [
+            "A. x(t) = C_1 e^(3t)",
+            "B. x(t) = C_1 e^(2t)",
+            "C. x(t) = C_1 e^(-2t)",
+            "D. x(t) = C_1 cos(2t)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "A primary disadvantage of the elimination method for large systems (e.g., 4x4) is:",
+        "choices": [
+            "A. It requires computing eigenvectors",
+            "B. It only works for non-linear systems",
+            "C. It yields a single high-order DE which can be tedious to derive and solve",
+            "D. It cannot handle initial conditions"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "To find the eigenvalues lambda of a coefficient matrix A, one must solve the characteristic equation:",
+        "choices": [
+            "A. det(A + lambda*I) = 0",
+            "B. det(A - lambda*I) = 1",
+            "C. det(A - lambda*I) = 0",
+            "D. A - lambda*I = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "An eigenvector K associated with an eigenvalue lambda of matrix A must satisfy the matrix equation:",
+        "choices": [
+            "A. (A - lambda*I)K = 0",
+            "B. (A + lambda*I)K = 0",
+            "C. AK = lambda",
+            "D. K = lambda*A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "If a 2x2 matrix A has trace 5 and determinant 6, its two eigenvalues are:",
+        "choices": [
+            "A. -2 and -3",
+            "B. 1 and 6",
+            "C. -1 and -6",
+            "D. 2 and 3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 42,
+        "question": "For the system X' = AX, assuming a solution of the form X = K e^(lambda*t) leads directly to the algebraic eigenvalue problem:",
+        "choices": [
+            "A. e^(lambda*t) K = 0",
+            "B. AK = lambda*K",
+            "C. K' = A*lambda",
+            "D. A = lambda*K"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "A matrix A is called \"defective\" if it lacks a complete set of linearly independent:",
+        "choices": [
+            "A. Constants",
+            "B. Rows",
+            "C. Determinants",
+            "D. Eigenvectors"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "The eigenvalues of a triangular matrix (whether upper or lower) are simply the entries found on its:",
+        "choices": [
+            "A. Last row",
+            "B. Main diagonal",
+            "C. First column",
+            "D. Anti-diagonal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "If an eigenvalue lambda has an algebraic multiplicity of 2, its geometric multiplicity (number of independent eigenvectors) can be:",
+        "choices": [
+            "A. Only 2",
+            "B. Only 1",
+            "C. 1 or 2",
+            "D. 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "Which equation correctly defines the characteristic polynomial p(lambda) of a 2x2 matrix A?",
+        "choices": [
+            "A. lambda^2 - tr(A)lambda + det(A)",
+            "B. lambda^2 + tr(A)lambda + det(A)",
+            "C. lambda^2 - det(A)lambda + tr(A)",
+            "D. lambda^2 + det(A)lambda - tr(A)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "A 2x2 system X' = AX with a real coefficient matrix A has complex eigenvalues lambda = alpha +/- i*beta. The solution will involve:",
+        "choices": [
+            "A. Exponentials only",
+            "B. Sines and cosines",
+            "C. Polynomials only",
+            "D. Logarithms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "If lambda = 0 is an eigenvalue of A, then the matrix A must be:",
+        "choices": [
+            "A. Identity",
+            "B. Symmetric",
+            "C. Singular (non-invertible)",
+            "D. Diagonal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "The eigenvectors corresponding to distinct eigenvalues of a real matrix are always:",
+        "choices": [
+            "A. Linearly independent",
+            "B. Linearly dependent",
+            "C. Orthogonal",
+            "D. Identical"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "If a system X' = AX has eigenvalues lambda_1 = -1 and lambda_2 = -3, the critical point at the origin is classified as a:",
+        "choices": [
+            "A. Saddle point",
+            "B. Unstable node",
+            "C. Center",
+            "D. Stable node"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 51,
+        "question": "If the eigenvalues of a system are lambda_1 = 2 and lambda_2 = -2, the origin is a:",
+        "choices": [
+            "A. Stable node",
+            "B. Saddle point",
+            "C. Unstable node",
+            "D. Stable spiral"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "For purely imaginary eigenvalues lambda = +/- i*beta, the trajectories in the phase plane are:",
+        "choices": [
+            "A. Parabolas",
+            "B. Straight lines",
+            "C. Ellipses (or circles)",
+            "D. Hyperbolas"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 53,
+        "question": "The general solution X(t) = C_1 K_1 e^(lambda_1 t) + C_2 K_2 e^(lambda_2 t) requires that the eigenvectors K_1 and K_2 are:",
+        "choices": [
+            "A. Linearly independent",
+            "B. Complex conjugates",
+            "C. Orthogonal",
+            "D. Parallel"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "Find the eigenvalues of the diagonal matrix A = [[1, 0], [0, 4]].",
+        "choices": [
+            "A. 1 and 0",
+            "B. 0 and 4",
+            "C. 1 and 4",
+            "D. -1 and -4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "If a matrix A has an eigenvalue lambda=2 with eigenvector K=[1, 2]^T, then a particular solution to X'=AX is:",
+        "choices": [
+            "A. [2e^t, e^t]^T",
+            "B. [e^t, 2e^t]^T",
+            "C. [2e^(2t), e^(2t)]^T",
+            "D. [e^(2t), 2e^(2t)]^T"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 56,
+        "question": "The vector K_1 + K_2 is guaranteed to be an eigenvector of A only if:",
+        "choices": [
+            "A. K_1 and K_2 correspond to different eigenvalues",
+            "B. K_1 and K_2 correspond to the same eigenvalue",
+            "C. K_1 and K_2 are zero vectors",
+            "D. It is never an eigenvector"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "A 3x3 matrix has trace 6 and two of its eigenvalues are 1 and 2. What is the third eigenvalue?",
+        "choices": [
+            "A. 2",
+            "B. 4",
+            "C. 3",
+            "D. 6"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "Solve X' = AX where A = [[3, 0], [0, -2]].",
+        "choices": [
+            "A. x = C_1 e^(3t), y = C_2 e^(2t)",
+            "B. x = C_1 e^(-3t), y = C_2 e^(-2t)",
+            "C. x = C_1 e^(-3t), y = C_2 e^(2t)",
+            "D. x = C_1 e^(3t), y = C_2 e^(-2t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "Find the eigenvalues of A = [[2, 1], [-1, 0]].",
+        "choices": [
+            "A. lambda = 1, -1",
+            "B. lambda = 1 (repeated)",
+            "C. lambda = 0, 2",
+            "D. lambda = -1 (repeated)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "For the matrix A = [[2, 1], [-1, 0]] with repeated eigenvalue lambda = 1, find the single independent eigenvector K.",
+        "choices": [
+            "A. [1, 1]^T",
+            "B. [1, 0]^T",
+            "C. [1, -1]^T",
+            "D. [-1, -1]^T"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "When a 2x2 matrix A has a repeated real eigenvalue lambda and only one eigenvector K, the second linearly independent solution involves a generalized eigenvector P satisfying:",
+        "choices": [
+            "A. (A - lambda*I)P = K",
+            "B. (A - lambda*I)P = 0",
+            "C. (A + lambda*I)P = K",
+            "D. (A - lambda*I)^2 P = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "The second linearly independent solution in a defective repeated eigenvalue case is of the form:",
+        "choices": [
+            "A. X_2 = K t e^(lambda*t)",
+            "B. X_2 = P e^(lambda*t)",
+            "C. X_2 = (K + P) e^(lambda*t)",
+            "D. X_2 = (K t + P) e^(lambda*t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "Find the eigenvalues of A = [[0, 1], [-1, 0]].",
+        "choices": [
+            "A. 1, -1",
+            "B. i, -i",
+            "C. 1+i, 1-i",
+            "D. 0, 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "For the system X' = AX with A = [[0, 1], [-1, 0]], the general solution involves:",
+        "choices": [
+            "A. e^t, e^-t",
+            "B. cosh(t), sinh(t)",
+            "C. t, 1",
+            "D. cos(t), sin(t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 66,
+        "question": "Find the eigenvalues of A = [[-1, 2], [-2, -1]].",
+        "choices": [
+            "A. -1 +/- 2i",
+            "B. -1 +/- i",
+            "C. 1 +/- 2i",
+            "D. -2 +/- i"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 67,
+        "question": "In a system with eigenvalues lambda = alpha +/- i*beta and corresponding complex eigenvector K = B_1 + i*B_2, the real part of the solution X(t) is:",
+        "choices": [
+            "A. e^(alpha*t) (B_1 cos(beta*t) - B_2 sin(beta*t))",
+            "B. e^(alpha*t) (B_1 cos(beta*t) + B_2 sin(beta*t))",
+            "C. e^(beta*t) (B_1 cos(alpha*t) - B_2 sin(alpha*t))",
+            "D. e^(alpha*t) (B_2 cos(beta*t) - B_1 sin(beta*t))"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "The imaginary part of the complex solution X(t) = (B_1 + i*B_2)e^((alpha + i*beta)t) gives a real solution of the form:",
+        "choices": [
+            "A. e^(alpha*t) (B_1 cos(beta*t) - B_2 sin(beta*t))",
+            "B. e^(alpha*t) (B_1 sin(beta*t) + B_2 cos(beta*t))",
+            "C. e^(alpha*t) (B_2 cos(beta*t) + B_1 sin(beta*t))",
+            "D. e^(beta*t) (B_2 cos(alpha*t) + B_1 sin(alpha*t))"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "The system X' = AX with A = [[4, 0], [0, 4]] has repeated eigenvalues lambda=4. How many linearly independent eigenvectors does it have?",
+        "choices": [
+            "A. 0",
+            "B. 3",
+            "C. 1",
+            "D. 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "A system with two independent eigenvectors (K_1, K_2) for a repeated eigenvalue lambda has a general solution:",
+        "choices": [
+            "A. X(t) = C_1 K_1 e^(lambda*t) + C_2 K_2 t e^(lambda*t)",
+            "B. X(t) = C_1 K_1 e^(lambda*t) + C_2 K_2 e^(lambda*t)",
+            "C. X(t) = (C_1 K_1 + C_2 K_2 t) e^(lambda*t)",
+            "D. X(t) = K_1 e^(lambda*t) + P t e^(lambda*t)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "If a 2x2 matrix A has eigenvalues lambda_1 = 3, lambda_2 = -1 with eigenvectors K_1 = [1, 2]^T, K_2 = [1, -1]^T, the general solution is:",
+        "choices": [
+            "A. C_1 [1, 2]^T e^(3t) + C_2 [1, -1]^T e^(-t)",
+            "B. C_1 [1, 2]^T e^(-t) + C_2 [1, -1]^T e^(3t)",
+            "C. C_1 [1, -1]^T e^(3t) + C_2 [1, 2]^T e^(-t)",
+            "D. C_1 [1, 2]^T cos(3t) + C_2 [1, -1]^T sin(t)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "Evaluate the determinant of (A - lambda*I) for A = [[5, -1], [3, 1]] to find the characteristic equation.",
+        "choices": [
+            "A. lambda^2 + 6lambda + 8 = 0",
+            "B. lambda^2 - 6lambda - 8 = 0",
+            "C. lambda^2 + 6lambda - 8 = 0",
+            "D. lambda^2 - 6lambda + 8 = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "The eigenvalues for the matrix A = [[5, -1], [3, 1]] are:",
+        "choices": [
+            "A. -2 and -4",
+            "B. 2 and 4",
+            "C. -2 and 4",
+            "D. 2 and -4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "For A = [[5, -1], [3, 1]], find the eigenvector K_1 associated with lambda_1 = 2.",
+        "choices": [
+            "A. [1, -3]^T",
+            "B. [1, 1]^T",
+            "C. [1, 3]^T",
+            "D. [3, 1]^T"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "For A = [[5, -1], [3, 1]], find the eigenvector K_2 associated with lambda_2 = 4.",
+        "choices": [
+            "A. [1, 1]^T",
+            "B. [1, -1]^T",
+            "C. [-1, 1]^T",
+            "D. [1, 2]^T"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "Which of the following matrices strictly yields purely imaginary eigenvalues?",
+        "choices": [
+            "A. [[0, 2], [2, 0]]",
+            "B. [[1, -1], [1, 1]]",
+            "C. [[0, -2], [2, 0]]",
+            "D. [[-1, 0], [0, -1]]"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "For the matrix A = [[0, -2], [2, 0]], the eigenvalues are:",
+        "choices": [
+            "A. +/- 2",
+            "B. +/- 2i",
+            "C. +/- i",
+            "D. +/- 4i"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "Consider a non-homogeneous system X' = AX + F(t). The matrix exponential e^(At) is known as the:",
+        "choices": [
+            "A. Resolvent matrix",
+            "B. Eigenvector matrix",
+            "C. Wronskian matrix",
+            "D. State transition (or fundamental) matrix"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "In the method of Variation of Parameters for systems, the particular solution is given by X_p(t) = Phi(t) U(t). The derivative U'(t) is equal to:",
+        "choices": [
+            "A. Phi(t) F(t)",
+            "B. Phi^-1(t) F(t)",
+            "C. Phi(t) A F(t)",
+            "D. Phi^-1(t) A F(t)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "To analytically find the matrix exponential e^(At), one can use the inverse Laplace transform of:",
+        "choices": [
+            "A. (sI - A)^-1",
+            "B. (sI - A)",
+            "C. (sI + A)^-1",
+            "D. sI - A^-1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "If A = [[2, 0], [0, 3]], then the state transition matrix e^(At) is:",
+        "choices": [
+            "A. [[e^2, 0], [0, e^3]]",
+            "B. [[e^(2t), 0], [0, e^(3t)]]",
+            "C. [[e^(3t), 0], [0, e^(2t)]]",
+            "D. [[2e^t, 0], [0, 3e^t]]"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "If a system X' = AX models two connected fluid tanks, the sum of the components of X(t) represents the:",
+        "choices": [
+            "A. Total flow rate",
+            "B. Difference in concentrations",
+            "C. Total mass or volume of salt in both tanks",
+            "D. Steady-state volume"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "A system X' = AX has eigenvalue lambda = -2 with eigenvector [1, 1]^T and lambda = 1 with eigenvector [1, -1]^T. What is the behavior of the trajectory starting at (2, 2)?",
+        "choices": [
+            "A. It moves towards the origin",
+            "B. It moves away from the origin",
+            "C. It orbits the origin",
+            "D. It spirals inward"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "A system X' = AX has eigenvalues 0 and -5. The critical point at the origin is:",
+        "choices": [
+            "A. A saddle point",
+            "B. An isolated stable node",
+            "C. Not isolated (a line of critical points)",
+            "D. An unstable node"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "For a 2x2 matrix A, if det(A) < 0, the eigenvalues must be:",
+        "choices": [
+            "A. Both positive",
+            "B. Both negative",
+            "C. Complex conjugates",
+            "D. Real with opposite signs"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "In an electrical network with two loops, applying Kirchhoff's Voltage Law typically results in a system of:",
+        "choices": [
+            "A. Non-linear DEs",
+            "B. Second-order integro-differential equations",
+            "C. Algebraic equations only",
+            "D. Coupled linear DEs"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "When reducing y'' + 4y' + 3y = 0 to a system, let x_1 = y, x_2 = y'. The matrix A has eigenvalues:",
+        "choices": [
+            "A. 1 and 3",
+            "B. -1 and -3",
+            "C. -1 and 3",
+            "D. 1 and -3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "To solve X' = AX using eigenvalues, the assumed solution X = K e^(lambda*t) is non-trivial only if:",
+        "choices": [
+            "A. K != 0",
+            "B. K = 0",
+            "C. lambda = 0",
+            "D. lambda > 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "If a 3x3 matrix has eigenvalues 1, 2, 3, the system X' = AX has a general solution with how many arbitrary constants?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 6"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "What is the fundamental matrix Phi(t) for the decoupled system X' = [[1, 0], [0, 2]] X?",
+        "choices": [
+            "A. [[e^t, 0], [0, e^(2t)]]",
+            "B. [[e^-t, 0], [0, e^(-2t)]]",
+            "C. [[e^t, 1], [1, e^(2t)]]",
+            "D. [[1, e^t], [e^(2t), 1]]"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "The Wronskian of the fundamental matrix Phi(t) for X' = AX is given by Abel's identity as W(t) = W(0) e^(int tr(A) dt). If A = [[2, 1], [-1, -2]], then W(t) is:",
+        "choices": [
+            "A. W(0) e^(2t)",
+            "B. W(0) e^(-2t)",
+            "C. W(0) e^t",
+            "D. W(0) (Constant)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "For A = [[2, 1], [-1, 2]], the trace is 4 and the determinant is 5. The eigenvalues are:",
+        "choices": [
+            "A. 2 +/- i",
+            "B. -2 +/- i",
+            "C. 1 +/- 2i",
+            "D. -1 +/- 2i"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 93,
+        "question": "If a mass-spring system with 2 masses is modeled, the resulting matrix equation M X'' + K X = 0 can be solved by assuming X(t) = V cos(omega*t). The eigenvalues of M^-1 * K represent:",
+        "choices": [
+            "A. The natural frequencies omega",
+            "B. The squares of the natural frequencies omega^2",
+            "C. The damping ratios zeta",
+            "D. The mode shapes"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "In the eigenvalue method, a defective matrix implies that the system of DEs:",
+        "choices": [
+            "A. Has no solution",
+            "B. Is non-linear",
+            "C. Cannot be completely decoupled using just eigenvectors",
+            "D. Is unstable"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "For a system X' = AX, the matrix A is symmetric. The eigenvectors are guaranteed to be:",
+        "choices": [
+            "A. Complex",
+            "B. Zero",
+            "C. Linearly dependent",
+            "D. Orthogonal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "Solve the initial value problem X' = [[3, 0], [0, -1]]X with X(0) = [2, 5]^T.",
+        "choices": [
+            "A. x=2e^(3t), y=5e^-t",
+            "B. x=5e^(3t), y=2e^-t",
+            "C. x=2e^(-3t), y=5e^t",
+            "D. x=3e^(2t), y=-e^(5t)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "If the coefficient matrix A in X' = AX is diagonal, the system is said to be:",
+        "choices": [
+            "A. Defective",
+            "B. Coupled",
+            "C. Decoupled",
+            "D. Singular"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 98,
+        "question": "When solving X' = AX by diagonalizing A as A = P*D*P^-1, the transformation X = P*Y yields the decoupled system:",
+        "choices": [
+            "A. Y' = P Y",
+            "B. Y' = P^-1 Y",
+            "C. Y' = A Y",
+            "D. Y' = D Y"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 99,
+        "question": "The method of undetermined coefficients for a system X' = AX + F(t) with F(t) = [e^(2t), 0]^T involves guessing a particular solution of the form:",
+        "choices": [
+            "A. X_p = A e^(2t)",
+            "B. X_p = [a e^(2t), 0]^T",
+            "C. X_p = K t e^(2t)",
+            "D. X_p = [a, b]^T e^(2t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "If an eigenvalue of A is strictly positive, the corresponding solution component will:",
+        "choices": [
+            "A. Oscillate infinitely",
+            "B. Decay to zero",
+            "C. Grow exponentially as t approaches infinity",
+            "D. Remain constant"
+        ],
+        "correct_answer": "C"
+    }
+]

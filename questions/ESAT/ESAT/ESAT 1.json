@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "What is the primary turn-off mechanism of a Silicon Controlled Rectifier (SCR) in DC circuits?",
+        "choices": [
+            "A. Reducing the gate voltage to zero while maintaining anode current.",
+            "B. Reducing the anode current below the holding current level using external forced commutation.",
+            "C. Increasing the gate current beyond the latching threshold.",
+            "D. Applying a negative gate voltage trigger."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "Which thyristor can be actively turned off by applying a sufficiently large negative current pulse to its gate?",
+        "choices": [
+            "A. DIAC",
+            "B. Gate Turn-Off Thyristor (GTO)",
+            "C. TRIAC",
+            "D. Silicon Controlled Rectifier (SCR)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Why is a TRIAC generally unsuitable for controlling high-frequency AC power circuits?",
+        "choices": [
+            "A. It cannot conduct current in both directions.",
+            "B. It cannot operate under capacitive load conditions.",
+            "C. It requires a high-voltage gate trigger that damages solid-state controls.",
+            "D. It has slow turn-off times and poor dv/dt capability, which can cause false triggering."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "What is the typical switching behavior of a phototransistor compared to a photodiode?",
+        "choices": [
+            "A. The phototransistor has higher sensitivity but slower response speed.",
+            "B. The phototransistor is faster but operates only at visible wavelengths.",
+            "C. Both have identical speed and sensitivity characteristics.",
+            "D. The photodiode has higher sensitivity but slower response speed."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "What occurs to the capacitance of a varactor diode as the reverse bias voltage is continuously increased?",
+        "choices": [
+            "A. The capacitance remains constant as depletion width saturates.",
+            "B. The capacitance oscillates between maximum and minimum values.",
+            "C. The capacitance decreases non-linearly as the depletion region widens.",
+            "D. The capacitance increases linearly."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "Which active microwave diode utilizes the Gunn-Hilsum bulk semiconductor effect to generate oscillations?",
+        "choices": [
+            "A. Silicon PIN diode",
+            "B. IMPATT diode",
+            "C. Gallium Arsenide (GaAs) Gunn diode",
+            "D. Schottky barrier diode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "What is the primary RF application of a PIN diode under forward bias conditions?",
+        "choices": [
+            "A. As a variable RF attenuator or electronic switch where resistance is controlled by DC current.",
+            "B. As a high-efficiency frequency multiplier.",
+            "C. As a local oscillator in the super high frequency band.",
+            "D. As a voltage-controlled capacitance tuner."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "What distinguishes a Negative Temperature Coefficient (NTC) thermistor from a PTC thermistor?",
+        "choices": [
+            "A. Its electrical resistance increases as the temperature increases.",
+            "B. Its resistance remains perfectly constant over a wide temperature range.",
+            "C. Its electrical resistance decreases as the temperature increases.",
+            "D. It generates a voltage proportional to the absolute temperature."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 9,
+        "question": "Which metal is most commonly preferred for high-precision Resistance Temperature Detectors (RTDs)?",
+        "choices": [
+            "A. Platinum",
+            "B. Tungsten",
+            "C. Copper",
+            "D. Nickel"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "What is the output voltage of a Linear Variable Differential Transformer (LVDT) at its physical null position?",
+        "choices": [
+            "A. The output voltage is exactly equal to the primary excitation voltage.",
+            "B. The output voltage is perfectly DC and independent of frequency.",
+            "C. The output voltage is at its maximum peak value.",
+            "D. The output voltage is ideally zero, but exhibits a REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS small residual voltage due to stray capacitance."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "What is the dominant electromagnetic mode inside a standard coaxial transmission line?",
+        "choices": [
+            "A. TE10 mode",
+            "B. TM01 mode",
+            "C. TEM mode",
+            "D. TE11 mode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "Why is the TEM mode unable to propagate in a hollow, single-conductor rectangular waveguide?",
+        "choices": [
+            "A. It would require a longitudinal magnetic field component to satisfy boundary conditions.",
+            "B. A single conductor cannot support a transverse electric field without a central return conductor.",
+            "C. The cutoff frequency for the TEM mode is below the lower operating limit.",
+            "D. The wave impedance of the TEM mode is mathematically zero."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "How does the insertion of a resistive ridge inside a rectangular waveguide affect its electrical properties?",
+        "choices": [
+            "A. It eliminates all transverse magnetic (TM) modes of propagation.",
+            "B. It increases the power handling capacity of the guide.",
+            "C. It decreases the cutoff frequency of the dominant mode, thereby widening the operating bandwidth.",
+            "D. It raises the characteristic impedance to match parallel wire lines."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "What distinguishes a microstrip line from a stripline etched on a printed circuit board?",
+        "choices": [
+            "A. Stripline is an open waveguide, while microstrip is a closed waveguide.",
+            "B. Microstrip supports only TE modes, while microstrip supports only TEM modes.",
+            "C. Microstrip has its conductor exposed on the surface, while stripline has its conductor embedded between two ground planes.",
+            "D. Stripline has much higher radiation losses than microstrip at microwave frequencies."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "What is the primary role of a slow-wave helix structure in a Traveling-Wave Tube (TWT)?",
+        "choices": [
+            "A. To prevent high-voltage arcing between the cathode and anode.",
+            "B. To accelerate the electron beam toward the collector grid.",
+            "C. To reduce the phase velocity of the RF wave so that it matches the velocity of the electron beam.",
+            "D. To filter out unwanted harmonic frequencies from the RF output."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "How is 'mode jumping' prevented in high-power cavity magnetrons?",
+        "choices": [
+            "A. By increasing the strength of the external permanent magnet.",
+            "B. By strapping alternate anode segments together to ensure a large frequency separation between the desired pi-mode and other modes.",
+            "C. By operating the magnetron under pulsed duty cycle limits.",
+            "D. By cooling the tube with liquid nitrogen to stabilize cavity dimensions."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 17,
+        "question": "What is the non-reciprocal phase shift property of ferrites utilized for in microwave circulators?",
+        "choices": [
+            "A. To modulate the amplitude of a microwave carrier using a low-frequency AC voltage.",
+            "B. To direct energy entering one port to the next sequential port only.",
+            "C. To provide linear amplification across an extremely wide microwave bandwidth.",
+            "D. To match the impedance of a rectangular waveguide to a circular waveguide."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "What is the primary reason the input impedance of a folded dipole is approximately 300 ohms, compared to 73 ohms for a standard dipole?",
+        "choices": [
+            "A. The physical length of a folded dipole is twice that of a standard half-wave dipole.",
+            "B. The parasitic elements of the folded dipole increase its radiation resistance.",
+            "C. The folding of the antenna increases the inductive reactance at its input terminals.",
+            "D. The current splits between the two parallel conductors, effectively reducing the feed current by half."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 19,
+        "question": "In a Yagi-Uda antenna array, how do the lengths of the parasitic elements compare to the driven element?",
+        "choices": [
+            "A. Both reflectors and directors are slightly shorter than the driven element.",
+            "B. The reflector is slightly shorter than the driven element, while the directors are slightly longer. REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "C. Both reflectors and directors are slightly longer than the driven element.",
+            "D. The reflector is slightly longer than the driven element, while the directors are slightly shorter."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 20,
+        "question": "How does the active region of a Log-Periodic Dipole Array (LPDA) shift as the operating frequency increases?",
+        "choices": [
+            "A. The active region remains at the center of the array but narrows in beamwidth.",
+            "B. The active region shifts toward the shorter elements at the front of the array.",
+            "C. The active region shifts toward the longer elements at the rear of the array.",
+            "D. The entire array is active simultaneously regardless of frequency."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "How does the radiation resistance of an electrically small loop antenna vary with its physical dimensions?",
+        "choices": [
+            "A. It varies linearly with the loop circumference.",
+            "B. It is proportional to the square of the loop area (fourth power of the loop radius).",
+            "C. It is inversely proportional to the diameter of the loop wire.",
+            "D. It is independent of the loop area and depends only on operating frequency."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "What is the physical significance of the E-plane in an antenna's radiation pattern?",
+        "choices": [
+            "A. The plane containing the electric field vector and the direction of maximum radiation.",
+            "B. The plane containing the magnetic field vector and the direction of maximum radiation.",
+            "C. The plane perpendicular to the ground radials of a vertical monopole.",
+            "D. The plane of maximum circular polarization in helical antennas."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "Why is the first Fresnel zone kept clear of obstacles by at least 60% in line-of-sight RF links?",
+        "choices": [
+            "A. To allow the receiving antenna to utilize its maximum directive aperture.",
+            "B. To prevent phase cancellation and severe attenuation caused by diffraction from obstacles near the path.",
+            "C. To double the received power density by reflecting the wave in-phase.",
+            "D. To eliminate the need for automatic gain control in the receiver."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "What physical parameter of an antenna defines the angle between the directions where the radiated power density is half of its maximum?",
+        "choices": [
+            "A. Directive Gain angle",
+            "B. First Null Beamwidth (FNBW)",
+            "C. Aperture efficiency angle",
+            "D. Half-Power Beamwidth (HPBW)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "What is the standard standard-atmosphere K-factor in radio link budget planning, and what does it account for?",
+        "choices": [
+            "A. K = 1.33, accounting for ionospheric reflection during solar maximum cycles.",
+            "B. K = 1, accounting for free-space propagation with zero atmospheric interference.",
+            "C. K = 2/3, accounting for sub-refraction bending waves upward away from the receiver.",
+            "D. K = 4/3, accounting for atmospheric refraction bending radio waves downward to make the Earth appear flatter."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 26,
+        "question": "How does the skip zone in sky-wave propagation relate to ground-wave and sky-wave ranges?",
+        "choices": [
+            "A. It is the total distance between the transmitter and its line-of-sight radio horizon.",
+            "B. It is the quiet area between the outer limit of ground-wave range and the nearest point where sky-waves return to Earth.",
+            "C. It is the range of frequencies that are completely absorbed by the D-layer during the day.",
+            "D. It is the maximum angular sweep of a highly directive tracking antenna array."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "How does the conductivity of the Earth's surface affect ground-wave signal propagation?",
+        "choices": [
+            "A. Conductivity has no effect on ground-waves as they travel strictly in the troposphere.",
+            "B. Highly conductive surfaces absorb the wave entirely, stopping ground-wave propagation.",
+            "C. Dry, sandy soil provides the absolute minimum attenuation for ground-waves.",
+            "D. Highly conductive surfaces like sea water cause less attenuation, allowing the wave to propagate much further."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 28,
+        "question": "In Pulse Code Modulation (PCM) companding, what does the A-law standard compress compared to the mu-law REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS standard?",
+        "choices": [
+            "A. It requires twice the bandwidth of the mu-law standard.",
+            "B. It provides a linear compression segment for small signal levels, used primarily in Europe.",
+            "C. It compresses large-amplitude signals more aggressively, used primarily in North America.",
+            "D. It completely eliminates quantization distortion at high signal levels."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "What is the theoretical quantization noise power in an ideal B-bit uniform quantizer with step size q?",
+        "choices": [
+            "A. q^2 / 6",
+            "B. q^2 / 2",
+            "C. q^2 / 16",
+            "D. q^2 / 12"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "What causes 'slope overload distortion' in a delta modulation system?",
+        "choices": [
+            "A. The sampling frequency is too high, violating the Nyquist rate theorem.",
+            "B. The input signal changes faster than the maximum rate of change that the step size can track.",
+            "C. The step size is too large relative to the small variations in the input signal.",
+            "D. The input signal amplitude is too small to trigger the threshold comparator."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "How does Adaptive Delta Modulation (ADM) mitigate both slope overload and granular noise?",
+        "choices": [
+            "A. By dynamically varying the step size based on the rate of change of the input signal.",
+            "B. By transmitting two bits per sample instead of one.",
+            "C. By using an anti-aliasing low-pass filter with variable cutoff frequency.",
+            "D. By doubling the sampling frequency whenever the signal amplitude increases."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "What is the primary rule for the HDB3 line coding scheme used in European digital transmission systems?",
+        "choices": [
+            "A. It inserts a transition in the middle of every bit interval to ensure timing synchronization.",
+            "B. It replaces sequences of four consecutive zeros with special violation pulses containing a DC-balanced pattern.",
+            "C. It replaces sequences of eight consecutive zeros with five violation pulses.",
+            "D. It represents binary ones with alternating polarities and zeros with zero voltage."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "Why are scramblers utilized in modern high-speed modems before transmission over a band-limited channel?",
+        "choices": [
+            "A. To encrypt the payload to prevent unauthorized eavesdropping.",
+            "B. To compress the character length to improve overall throughput.",
+            "C. To randomize the data sequence, preventing long strings of ones or zeros from causing loss of timing synchronization.",
+            "D. To translate logical IP addresses into physical MAC addresses."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "What does the syndrome vector indicate in linear block error-correcting codes?",
+        "choices": [
+            "A. The phase error in the receiver's carrier recovery loop.",
+            "B. The number of payload bytes contained in the received frame.",
+            "C. The presence and exact position of errors in the received code word.",
+            "D. The mathematical divisor used to compress the data frame."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "Which decoding algorithm is widely used for decoding convolutional codes by finding the most likely path through a trellis diagram?",
+        "choices": [
+            "A. Cooley-Tukey algorithm",
+            "B. Lempel-Ziv algorithm",
+            "C. Viterbi algorithm",
+            "D. Huffman algorithm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "In sliding-window flow control protocols, what is the key advantage of Selective Repeat over Go-Back-N?",
+        "choices": [
+            "A. It reduces the window size to one, preventing any potential buffer overflow.",
+            "B. Only the specific frames that were lost or damaged are retransmitted, improving channel efficiency.",
+            "C. It simplifies the receiver design by eliminating the need for packet buffers.",
+            "D. It does not require acknowledgements from the receiver."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "In wireless LANs (802.11), what is the function of the SIFS (Short Interframe Space) interval compared to DIFS?",
+        "choices": [
+            "A. It defines the maximum time a station can hold the REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS channel after a collision occurs.",
+            "B. It is a random backoff time used to resolve contention on the shared medium.",
+            "C. It is used by stations to wait before attempting to initiate a new association request.",
+            "D. It is the shortest interframe space, used for high-priority transmissions like ACKs and CTS frames."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 38,
+        "question": "What mathematical condition must a discrete-time LTI system's impulse response h[n] satisfy to be stable?",
+        "choices": [
+            "A. It must be equal to zero for all values of n less than zero.",
+            "B. It must be finite in duration.",
+            "C. It must be absolutely summable.",
+            "D. It must have a z-transform with a region of convergence that excludes the unit circle."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "What is the Region of Convergence (ROC) for the Z-transform of a stable and causal discrete-time signal?",
+        "choices": [
+            "A. The entire z-plane excluding the real and imaginary axes.",
+            "B. A circular ring in the z-plane centered at the origin containing the unit circle.",
+            "C. The region inside a circle in the z-plane that contains the origin.",
+            "D. The region outside a circle in the z-plane that contains all the poles."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "How does the bilinear transformation map the continuous-time analog s-plane to the discrete-time digital z-plane?",
+        "choices": [
+            "A. It maps the entire left-half of the s-plane into the interior of the unit circle in the z-plane.",
+            "B. It maps the entire s-plane onto a narrow strip along the real axis of the z-plane.",
+            "C. It maps the left-half of the s-plane to the exterior of the unit circle.",
+            "D. It maps the imaginary axis of the s-plane onto the origin of the z-plane."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "What is the cause of 'frequency warping' in digital filters designed using the bilinear transformation?",
+        "choices": [
+            "A. The recursive feedback loop within the digital filter architecture.",
+            "B. The non-linear mapping of the continuous-time frequency axis onto the discrete-time unit circle.",
+            "C. The aliasing of high-frequency components due to an insufficient sampling rate.",
+            "D. The round-off noise introduced by the finite wordlength of the digital processor."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "What is the 'Gibbs phenomenon' observed when designing FIR digital filters using the windowing method?",
+        "choices": [
+            "A. Persistent oscillatory overshoots in the frequency response near sharp transitions, caused by truncating the infinite impulse response.",
+            "B. The instability of the filter when poles move outside the unit circle.",
+            "C. The non-linear phase distortion introduced by asymmetric window functions.",
+            "D. The gradual reduction of the filter's gain over time."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 43,
+        "question": "What is the primary limitation of using a non-rectangular window (e.g., Hamming) over a rectangular window in FIR design?",
+        "choices": [
+            "A. It introduces severe non-linear phase shift across the passband.",
+            "B. It provides higher sidelobe attenuation but results in a wider transition band.",
+            "C. It increases the computational complexity of the filter exponentially.",
+            "D. It renders the filter recursive and potentially unstable."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "What physical effect does spectral leakage have on the DFT of a sampled signal?",
+        "choices": [
+            "A. It introduces high-frequency harmonics that fold back and cause aliasing.",
+            "B. Energy from a single frequency spills over into adjacent frequency bins, caused by windowing a non-integer number of cycles.",
+            "C. It reduces the resolution of the DFT to zero at all frequencies.",
+            "D. It shifts the entire frequency spectrum upward by a constant offset."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "In multirate DSP, what is the role of the anti-imaging filter in an interpolation system?",
+        "choices": [
+            "A. To remove the unwanted high-frequency images created by inserting zeros between samples.",
+            "B. To prevent aliasing before the signal is downsampled.",
+            "C. To normalize the amplitude of the signal to prevent clipping.",
+            "D. To shift the phase of the signal by 90 degrees. REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "In a closed-loop control system, what is the effect of the Integral (I) action in a PID controller?",
+        "choices": [
+            "A. It increases the stability of the system and reduces overshoot.",
+            "B. It behaves as a high-pass filter, blocking low-frequency disturbances.",
+            "C. It eliminates steady-state error by accumulating past system errors over time.",
+            "D. It accelerates the system's initial response speed."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "What is the primary difference between a fail-safe and a fail-secure electronic door lock in a BMS safety system?",
+        "choices": [
+            "A. A fail-secure lock is purely mechanical, while a fail-safe lock is fully electronic.",
+            "B. A fail-secure lock automatically triggers a fire sprinkler when opened.",
+            "C. A fail-safe lock unlocks automatically during a power failure, while a fail-secure lock remains locked.",
+            "D. A fail-safe lock can only be opened from the inside using a physical key."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "Which communication protocol is specifically standardized as open and non-proprietary for integrating diverse Building Automation and Control Networks (BMS)?",
+        "choices": [
+            "A. Profibus",
+            "B. Ethernet/IP",
+            "C. BACnet",
+            "D. Modbus"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "What is the standard fail-safe operation of fire dampers integrated with an HVAC system during a fire alarm event?",
+        "choices": [
+            "A. They must close automatically to prevent smoke and fire from spreading through the air ducts.",
+            "B. They must cycle open and closed to regulate the static air pressure.",
+            "C. They must switch to high-speed ventilation mode to cool the ductwork.",
+            "D. They must open fully to exhaust smoke from the building."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "In digital logic design, what determines the output of a Moore sequential machine?",
+        "choices": [
+            "A. The output is determined asynchronously without a master clock.",
+            "B. The output depends strictly on the current state of the machine only.",
+            "C. The output depends on both the current state and the current inputs.",
+            "D. The output depends strictly on the current inputs only."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "What is the primary advantage of utilizing separate physical buses for instructions and data in Harvard architecture microprocessors?",
+        "choices": [
+            "A. It completely prevents any memory access or segmentation faults.",
+            "B. It simplifies the overall memory subsystem design and reduces cost.",
+            "C. It limits power consumption by running instruction buses at lower clock speeds.",
+            "D. It allows simultaneous access to both program instructions and data, eliminating the fetch bottleneck."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "In microprocessor memory subsystems, what is the function of the Cache controller?",
+        "choices": [
+            "A. To regulate the refresh rate of dynamic RAM chips to prevent data corruption.",
+            "B. To predict and copy frequently accessed memory lines into high-speed local static RAM.",
+            "C. To translate logical virtual addresses into physical disk sector blocks.",
+            "D. To manage direct data transfers between external I/O devices and main memory."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "What is the physical significance of the Sagnac effect in modern fiber-optic gyroscopes?",
+        "choices": [
+            "A. A phase shift between two counter-propagating light beams along a rotating closed optical path.",
+            "B. The loss of optical power due to light scattering off microscopic density fluctuations.",
+            "C. The change in the refractive index of glass when exposed to high-power laser beams.",
+            "D. The generation of an electrical voltage when a glass core is subjected to mechanical twist."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "Which type of optical fiber dispersion is caused by the difference in propagation velocities of the two orthogonal polarization modes in a single-mode fiber?",
+        "choices": [
+            "A. Modal Dispersion",
+            "B. Chromatic Dispersion",
+            "C. Polarization Mode Dispersion (PMD)",
+            "D. Waveguide Dispersion REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "In telephony, what nominal DC voltage is supplied from the Central Office (CO) to a standard subscriber loop when the telephone is on-hook?",
+        "choices": [
+            "A. -48 V DC",
+            "B. 90 V AC",
+            "C. 0 V DC",
+            "D. +24 V DC"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "What is the primary function of a line hybrid transformer in standard public switched telephone networks (PSTN)?",
+        "choices": [
+            "A. To step up the -48V DC battery voltage to the 90V AC ringing voltage.",
+            "B. To perform two-wire to four-wire conversion, separating transmit and receive voice paths.",
+            "C. To modulate analog voice signals onto high-frequency microwave carriers.",
+            "D. To protect the local loop from high-voltage lightning strikes."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "Which pair of DTMF tones corresponds to pressing the digit '9' on a standard telephone keypad?",
+        "choices": [
+            "A. 852 Hz and 1336 Hz",
+            "B. 941 Hz and 1477 Hz",
+            "C. 852 Hz and 1477 Hz",
+            "D. 770 Hz and 1336 Hz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "What is the typical characteristic impedance of an open-wire transmission line in standard RF installations?",
+        "choices": [
+            "A. 50 ohms",
+            "B. 300 ohms",
+            "C. 600 ohms",
+            "D. 75 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "Which component in an AM superheterodyne receiver is responsible for rejecting the image frequency?",
+        "choices": [
+            "A. The preselector (RF amplifier/tuned circuit) stage before the mixer.",
+            "B. The intermediate frequency (IF) bandpass filter.",
+            "C. The diode envelope detector stage.",
+            "D. The local oscillator stage."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "What occurs in an AM transmitter when 'overmodulation' (m > 1.0) takes place?",
+        "choices": [
+            "A. The total radiated power increases exponentially, damaging the feed line.",
+            "B. The carrier frequency shifts outward, widening the skip zone.",
+            "C. The carrier envelope drops to zero and clips, generating severe harmonic distortion and sideband splatter.",
+            "D. The sidebands disappear entirely, leaving only the unmodulated carrier."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "In a Phase-Locked Loop (PLL), what describes the capture range compared to the lock range?",
+        "choices": [
+            "A. The capture range is the frequency range over which the loop can acquire lock, and is always narrower than the lock range.",
+            "B. The capture range is the frequency limit of the VCO under free-running conditions.",
+            "C. Both capture and lock ranges are mathematically identical for all loop filters.",
+            "D. The capture range is the frequency range over which the loop can maintain lock, and is always wider than the lock range."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "What is the physical significance of a cavity resonator in microwave engineering?",
+        "choices": [
+            "A. A closed metallic section acting as a parallel resonant circuit with an extremely high Q-factor.",
+            "B. An absorptive terminations block used to dissipate reflected microwave power.",
+            "C. A specialized semiconductor diode used to generate high-power microwave pulses.",
+            "D. A rotating mechanical joint used to bend waveguides without introducing reflections."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "Which active microwave device is a two-terminal bulk semiconductor exhibiting negative resistance due to the transfer of electrons between valley levels?",
+        "choices": [
+            "A. Gunn diode",
+            "B. IMPATT diode",
+            "C. Schottky barrier diode",
+            "D. PIN diode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "Which type of optical fiber has a core refractive index that is maximum at the center and decreases parabolically toward the cladding?",
+        "choices": [
+            "A. Step-index multimode fiber",
+            "B. Step-index single-mode fiber",
+            "C. Graded-index multimode fiber",
+            "D. Hollow-core photonic crystal fiber REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "What is the primary cause of signal attenuation in high-purity silica optical fibers at a wavelength of 1310 nm?",
+        "choices": [
+            "A. Infrared absorption",
+            "B. Modal dispersion",
+            "C. Hydroxyl (OH-) ion absorption",
+            "D. Rayleigh scattering"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 66,
+        "question": "Which layer of the OSI model handles error recovery, flow control, and sequencing over a single physical link?",
+        "choices": [
+            "A. Data Link Layer",
+            "B. Transport Layer",
+            "C. Physical Layer",
+            "D. Network Layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 67,
+        "question": "What is the function of the de-emphasis circuit in an FM receiver?",
+        "choices": [
+            "A. To restrict the maximum frequency deviation of the signal to protect the audio amplifier.",
+            "B. To filter out the image frequency and prevent adjacent-channel interference.",
+            "C. To automatically adjust the receiver's gain to track weak RF signals.",
+            "D. To restore the relative amplitudes of the audio frequencies after high frequencies were boosted by the transmitter's pre-emphasis."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 68,
+        "question": "Which digital modulation technique is widely used in Wi-Fi and modern broadband systems because it combines amplitude and phase modulation for efficient bandwidth usage?",
+        "choices": [
+            "A. Quadrature Phase Shift Keying (QPSK)",
+            "B. Quadrature Amplitude Modulation (QAM)",
+            "C. Binary Phase Shift Keying (BPSK)",
+            "D. Frequency Shift Keying (FSK)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "What does a subnet mask of 255.255.255.224 in IPv4 indicate about the subnet size?",
+        "choices": [
+            "A. The subnet has exactly 8 IP addresses, with 6 usable host addresses.",
+            "B. The subnet has exactly 16 IP addresses, with 14 usable host addresses.",
+            "C. The subnet has exactly 64 IP addresses, with 62 usable host addresses.",
+            "D. The subnet has exactly 32 IP addresses, with 30 usable host addresses."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "What is the purpose of the Time-to-Live (TTL) field in an IP packet header?",
+        "choices": [
+            "A. To prevent packets from looping infinitely in the network by decrementing the value at each router.",
+            "B. To define the maximum bandwidth allocated for the packet transfer.",
+            "C. To specify the exact time the packet was sent by the originating host.",
+            "D. To establish session synchronization between the sender and receiver."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "In a Colpitts oscillator, how is the feedback ratio determined?",
+        "choices": [
+            "A. By the ratio of the two capacitors in the tank circuit voltage divider.",
+            "B. By the value of the swamping capacitor connected in series with the inductor.",
+            "C. By the bias resistance of the collector feedback network.",
+            "D. By the ratio of the primary to secondary turns of the feedback transformer."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "Why is a buffer amplifier typically placed immediately after an RF carrier oscillator?",
+        "choices": [
+            "A. To provide linear power amplification before the final antenna stage.",
+            "B. To modulate the carrier wave directly with high-frequency audio signals.",
+            "C. To step up the DC trigger voltage to ensure rapid, synchronous turn-on.",
+            "D. To isolate the oscillator from load variations, preventing frequency drift."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "Which class of RF amplifier has a conduction angle of less than 180 degrees?",
+        "choices": [
+            "A. Class A",
+            "B. Class B",
+            "C. Class C",
+            "D. Class AB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "What is the primary advantage of a zero-voltage switching (ZVS) controller?",
+        "choices": [
+            "A. It regulates the DC output voltage of a regulated power supply.",
+            "B. It increases the efficiency of power conversion to exactly 100%.",
+            "C. It eliminates the need for any physical switching REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS elements or relays.",
+            "D. It reduces electromagnetic interference (EMI) by turning on the load when AC voltage crosses zero."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "What is the main characteristic of a linear phase system?",
+        "choices": [
+            "A. It completely eliminates quantization noise in high-resolution ADCs.",
+            "B. Its transfer function has all of its poles located on the imaginary axis.",
+            "C. It introduces a constant group delay, preserving the shape of the signal waveform without phase distortion.",
+            "D. It has an impulse response that decays exponentially to zero over time."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "In a telephone central office, what is the function of the ring trip circuit?",
+        "choices": [
+            "A. To translate dialed pulse signals into DTMF tone formats.",
+            "B. To step up the nominal -48V DC loop voltage to the 90V AC ringing voltage.",
+            "C. To provide an emergency bypass route during local exchange equipment failures.",
+            "D. To automatically disconnect the high-voltage AC ringing signal when the subscriber lifts the handset off-hook."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "What does the V-number of an optical fiber determine?",
+        "choices": [
+            "A. The ratio of the core diameter to the cladding thickness.",
+            "B. The number of propagation modes in the fiber; single-mode if V is less than 2.405.",
+            "C. The physical tensile strength of the fiber cable under stress.",
+            "D. The attenuation constant of the fiber per kilometer at a given wavelength."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "Which photodetector provides internal current gain through impact ionization under high reverse bias?",
+        "choices": [
+            "A. Photovoltaic cell",
+            "B. PIN photodiode",
+            "C. Avalanche photodiode (APD)",
+            "D. Light-emitting diode (LED)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "What is the main cause of macrobending loss in optical fibers?",
+        "choices": [
+            "A. The absorption of light energy by water molecules trapped in the core.",
+            "B. The physical separation of the fiber ends during a mechanical splice.",
+            "C. Microscopic density and refractive index fluctuations in the glass core.",
+            "D. Light escaping from the core-cladding boundary when the fiber is bent with a radius larger than the cladding diameter."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "What is the difference between latching current and holding current in an SCR?",
+        "choices": [
+            "A. Holding current is always larger than latching current under all operating temperatures.",
+            "B. Latching current applies only under AC bias, while holding current applies under DC bias.",
+            "C. Latching current is the minimum current to turn on the SCR, while holding current is the maximum current it can safely handle.",
+            "D. Latching current is the minimum anode current required to maintain turn-on after gate trigger is removed, while holding current is the minimum current to keep the SCR from turning off."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "Which semiconductor switch acts as a bidirectional diode that triggers on at a specific breakover voltage?",
+        "choices": [
+            "A. SCS",
+            "B. SCR",
+            "C. DIAC",
+            "D. TRIAC"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "In telephony, what does 'loop current' indicate?",
+        "choices": [
+            "A. The current required to power the high-voltage central office ringer.",
+            "B. The current that flows through the subscriber loop when the handset is lifted off-hook, typically 20 mA to 80 mA.",
+            "C. The current used to synchronize the digital clock of an ISDN BRI terminal.",
+            "D. The leakage current that flows through the dielectric when the phone is on-hook."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "Which network component uses the spanning tree protocol (STP) to prevent logical loops in a bridged LAN?",
+        "choices": [
+            "A. Layer 4 Firewall",
+            "B. Layer 2 Switch",
+            "C. Layer 3 Router",
+            "D. Layer 1 Repeater REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "Why is UDP preferred over TCP for real-time applications like Voice over IP (VoIP)?",
+        "choices": [
+            "A. UDP has built-in error correction using a generator polynomial.",
+            "B. UDP automatically compresses the payload to increase data rates.",
+            "C. UDP guarantees the delivery of all packets in their exact order.",
+            "D. UDP has lower overhead and no retransmission delays, which prevents audio jitter."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "What is the primary disadvantage of using a delta-connected three-phase alternator over a wye-connected one?",
+        "choices": [
+            "A. It cannot operate at frequencies below 400 Hz.",
+            "B. It has higher copper losses under balanced loads.",
+            "C. It requires twice as many armature coils.",
+            "D. It cannot provide a neutral wire for single-phase loads."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "What does a high Quality Factor (Q) in a parallel resonant LC circuit represent physically?",
+        "choices": [
+            "A. The circuit has low internal ohmic losses and possesses a very narrow selective bandwidth.",
+            "B. The circuit operates at higher voltages than a series circuit.",
+            "C. The circuit's resonant frequency is independent of the capacitance value.",
+            "D. The circuit is highly unstable and susceptible to oscillation."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "Which material is best suited for making shipboard conductor sheathing to protect against saltwater corrosion?",
+        "choices": [
+            "A. Aluminum foil armor",
+            "B. Fiberglass protective tape",
+            "C. Lead sheathing",
+            "D. Copper braid shield"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "What causes 'crosstalk' in multi-conductor telephone cables?",
+        "choices": [
+            "A. Physical mechanical contacts between bare wires.",
+            "B. The nonlinear amplification of high-frequency harmonics.",
+            "C. Atmospheric precipitation static charge build-up.",
+            "D. Electrical and capacitive coupling between adjacent parallel lines."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "What is the standard characteristic impedance of a twisted-pair telephone cable at 100 MHz?",
+        "choices": [
+            "A. 100 ohms",
+            "B. 75 ohms",
+            "C. 300 ohms",
+            "D. 50 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Which layer of the OSI reference model is responsible for packet fragmentation, reassembly, and sequencing across different networks?",
+        "choices": [
+            "A. Transport Layer",
+            "B. Physical Layer",
+            "C. Network Layer",
+            "D. Data Link Layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "What does a return loss of infinite (or extremely high value) on an RF line indicate?",
+        "choices": [
+            "A. The transmission line is infinitely long with maximum attenuation.",
+            "B. The line is short-circuited at its terminal end.",
+            "C. Complete mismatch with 100% power reflection.",
+            "D. Perfect impedance matching with zero reflected power."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "Why is a low noise figure (NF) of utmost importance in the first amplifier stage of a microwave receiver?",
+        "choices": [
+            "A. Because the noise introduced by the first stage is amplified by all subsequent stages without any reduction.",
+            "B. Because it directly determines the maximum frequency of the local oscillator.",
+            "C. Because it stabilizes the feedback loop of the automatic gain control.",
+            "D. Because it eliminates the need for expensive waveguide filters."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 93,
+        "question": "What type of diode has a metal-to-semiconductor junction, giving it extremely fast switching speeds and zero reverse recovery time?",
+        "choices": [
+            "A. Schottky barrier diode",
+            "B. Varactor diode",
+            "C. Gunn diode",
+            "D. PIN diode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "In a BJT amplifier, what is the primary cause of high-frequency gain cutoff?",
+        "choices": [
+            "A. The coupling and bypass capacitors in the circuit.",
+            "B. The internal junction capacitances of the transistor. REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "C. The external power supply filtering capacitors.",
+            "D. The parasitic resistance of the bias resistors."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "What does the 'slew rate' of an operational amplifier define?",
+        "choices": [
+            "A. The input impedance of the amplifier at high frequencies.",
+            "B. The maximum rate of change of the output voltage per unit time.",
+            "C. The maximum open-loop voltage gain of the amplifier.",
+            "D. The temperature coefficient of the input offset voltage."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "Which PLC programming language is standardized as a sequential graphical flowchart under IEC 61131-3?",
+        "choices": [
+            "A. Structured Text (ST)",
+            "B. Sequential Function Chart (SFC)",
+            "C. Function Block Diagram (FBD)",
+            "D. Ladder Logic (LD)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "What is the purpose of 'strapping' in a cavity magnetron?",
+        "choices": [
+            "A. To focus the electron beam into a highly dense stream.",
+            "B. To adjust the cavity volume to change the resonant frequency.",
+            "C. To cool the copper anode block to prevent thermal runaway.",
+            "D. To prevent mode jumping by binding alternate anode segments together."
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 98,
+        "question": "What does a Voltage Standing Wave Ratio (VSWR) of 2.0:1 on a transmission line indicate?",
+        "choices": [
+            "A. The power reflection coefficient is approximately 11%, with some power reflected back to the generator.",
+            "B. All incident power is reflected back, causing complete mismatch.",
+            "C. There is a perfect match and zero power is reflected.",
+            "D. The load is purely reactive with zero input resistance."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "Which parameter of a photodetector describes the speed at which it reacts to variations in light intensity?",
+        "choices": [
+            "A. Response time (transit time)",
+            "B. Responsivity",
+            "C. Dark current",
+            "D. Acceptance angle"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 100,
+        "question": "In fiber optics, what causes 'absorption loss' inside the glass core?",
+        "choices": [
+            "A. Rayleigh scattering off microscopic density fluctuations.",
+            "B. Sharp bends and microbends introduced during installation.",
+            "C. Light leaking from the core into the cladding layer.",
+            "D. Microscopic metallic impurities and hydroxyl (OH-) ions that absorb light energy. REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "D"
+    }
+]

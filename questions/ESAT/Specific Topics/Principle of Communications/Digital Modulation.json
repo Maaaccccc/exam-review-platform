@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "According to the Nyquist Sampling Theorem, to perfectly reconstruct a continuous-time baseband signal, the minimum sampling frequency must be:",
+        "choices": [
+            "A. Equal to the maximum frequency component",
+            "B. Exactly twice the maximum frequency component",
+            "C. Exactly half the maximum frequency component",
+            "D. Four times the maximum frequency component"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "The highly undesirable distortion phenomenon that occurs when a continuous-time signal is sampled at a rate lower than the Nyquist rate is known as:",
+        "choices": [
+            "A. Aliasing",
+            "B. Quantization error",
+            "C. Cross-talk",
+            "D. Fold-over jitter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "In a standard Pulse Code Modulation (PCM) system, the fundamental process of converting continuous analog sample values into discrete, assigned numerical values is called:",
+        "choices": [
+            "A. Encoding",
+            "B. Companding",
+            "C. Quantization",
+            "D. Sampling"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "For a linear PCM system, adding exactly one additional bit of resolution improves the Signal-to-Quantization-Noise Ratio (SQNR) and dynamic range by approximately:",
+        "choices": [
+            "A. 3 dB",
+            "B. 10 dB",
+            "C. 1 dB",
+            "D. 6 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "The specific digital companding standard mathematically defined by the parameter µ (mu) and heavily utilized in North America and Japan is the:",
+        "choices": [
+            "A. A-law",
+            "B. Shannon-law",
+            "C. µ-law",
+            "D. Nyquist-law"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "In Delta Modulation, if the analog input signal increases in amplitude faster than the modulator's internal staircase reference can physically climb, a severe distortion occurs formally known as:",
+        "choices": [
+            "A. Granular noise",
+            "B. Peak clipping",
+            "C. Phase noise",
+            "D. Slope overload"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 7,
+        "question": "Which analog pulse modulation technique varies the temporal location of a constant-width, constant-amplitude pulse relative to its unmodulated time slot?",
+        "choices": [
+            "A. PPM",
+            "B. PWM (or PDM)",
+            "C. PAM",
+            "D. PCM"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "Calculate the theoretical minimum baseband transmission bandwidth required for an 8-bit linear PCM system sampling an analog signal at exactly 10 kHz.",
+        "choices": [
+            "A. 10 kHz",
+            "B. 40 kHz",
+            "C. 80 kHz",
+            "D. 20 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "In a standard CEPT E1 carrier frame, Time Slot 0 (TS0) is specifically and exclusively reserved for:",
+        "choices": [
+            "A. In-band signaling",
+            "B. Spare voice channels",
+            "C. Frame alignment (Synchronization) and alarms",
+            "D. Out-of-band channel associated signaling (CAS)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "In an Analog-to-Digital Converter, the time uncertainty or exact physical variance in the opening and closing of the sampling switch is officially defined as:",
+        "choices": [
+            "A. Aperture jitter",
+            "B. Acquisition time",
+            "C. Droop rate",
+            "D. Slew rate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "The Shannon-Hartley theorem states that the theoretical maximum information capacity (C) of a noisy channel is given by the formula:",
+        "choices": [
+            "A. C = B * log2(1 + S/N)",
+            "B. C = 2B * log2(M)",
+            "C. C = B * log10(1 + S/N)",
+            "D. C = B * ln(1 + S/N)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "Calculate the theoretical maximum channel capacity for a standard 3 kHz telephone channel with a Signal-to-Noise Ratio (SNR) of exactly 31 (linear power ratio).",
+        "choices": [
+            "A. 3000 bps",
+            "B. 15000 bps",
+            "C. 45000 bps",
+            "D. 93000 bps"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "As the channel bandwidth B approaches infinity, the Shannon capacity C of a channel with additive white Gaussian noise does not reach infinity, but approaches a theoretical limit proportional to:",
+        "choices": [
+            "A. Infinity",
+            "B. 1.44 * (S/N0)",
+            "C. Zero",
+            "D. 2 * (S/N0)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 14,
+        "question": "The mathematical measure of information content in a message, formally defined as the negative base-2 logarithm of the probability of its occurrence, is called:",
+        "choices": [
+            "A. Entropy",
+            "B. Capacity",
+            "C. Baud",
+            "D. Redundancy"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "According to Hartley's Law, the information capacity of a communication system is directly proportional to:",
+        "choices": [
+            "A. The transmitter power and the distance squared",
+            "B. The noise figure and the signal-to-noise ratio",
+            "C. The system bandwidth and the transmission time",
+            "D. The carrier frequency and the modulation index"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "Calculate the Shannon capacity of a 4 kHz channel with an SNR of 30 dB. (Assume 30 dB = 1000 linear, and log2(1001) is approximately 9.967).",
+        "choices": [
+            "A. 39.87 kbps",
+            "B. 12.00 kbps",
+            "C. 120.0 kbps",
+            "D. 19.93 kbps"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "A specific communication channel has a usable bandwidth of 100 kHz. What is the absolute minimum signal-to-noise ratio (SNR) in dB required to transmit a 1 Mbps data stream error-free?",
+        "choices": [
+            "A. ~0 dB",
+            "B. ~30 dB",
+            "C. ~10 dB",
+            "D. ~60 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "What is the average information (entropy) of a digital source that transmits four completely independent, equally likely messages?",
+        "choices": [
+            "A. 1 bit/message",
+            "B. 4 bits/message",
+            "C. 2 bits/message",
+            "D. 0.5 bits/message"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "The mathematical ratio of the actual transmission bit rate to the absolute theoretical maximum channel capacity is technically known as the:",
+        "choices": [
+            "A. Spectral efficiency",
+            "B. Coding gain",
+            "C. Channel utilization",
+            "D. Modulation index"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "In a completely noiseless channel of bandwidth 5 MHz, using a 64-QAM signaling scheme, what is the theoretical maximum achievable data rate according to Nyquist's theorem?",
+        "choices": [
+            "A. 30 Mbps",
+            "B. 120 Mbps",
+            "C. 320 Mbps",
+            "D. 60 Mbps"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "In digital communications, the term \"baud rate\" specifically and exclusively refers to the:",
+        "choices": [
+            "A. Rate at which the symbol state changes on the transmission medium",
+            "B. Total number of bits transmitted per second",
+            "C. Nyquist sampling rate",
+            "D. Bit error rate of the digital channel"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Which of the following mathematical equations correctly relates bit rate (fb) and baud rate (fs) for a digital modulation scheme utilizing M discrete states?",
+        "choices": [
+            "A. fs = fb * log2(M)",
+            "B. fb = fs * 2M",
+            "C. fb = fs / log2(M)",
+            "D. fb = fs * log2(M)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 23,
+        "question": "For a standard binary modulation scheme like Binary Phase Shift Keying (BPSK), how does the baud rate mathematically relate to the bit rate?",
+        "choices": [
+            "A. Baud rate is exactly half the bit rate",
+            "B. Baud rate is twice the bit rate",
+            "C. Baud rate is exactly equal to the bit rate",
+            "D. Baud rate is four times the bit rate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "If a digital transmission system utilizes 16-QAM and operates at a baud rate of 4800 symbols per second, what is the effective data bit rate?",
+        "choices": [
+            "A. 9600 bps",
+            "B. 19200 bps",
+            "C. 1200 bps",
+            "D. 4800 bps"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "A 64-QAM digital microwave radio operates with a continuous bit rate of 150 Mbps. What is the strictly required minimum baud rate?",
+        "choices": [
+            "A. 25 Mbaud",
+            "B. 50 Mbaud",
+            "C. 150 Mbaud",
+            "D. 900 Mbaud"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "The technical metric defined as the ratio of the total bit rate to the minimum required transmission bandwidth (measured in bits/sec/Hz) is formally known as:",
+        "choices": [
+            "A. The Signal-to-noise ratio",
+            "B. The Shannon limit",
+            "C. Spectral efficiency",
+            "D. The Baud rate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "A standard telephone modem operates at a bit rate of 56 kbps using an advanced modulation scheme that transmits exactly 7 bits per symbol. What is the symbol rate (baud rate) of the modem?",
+        "choices": [
+            "A. 392 kbaud",
+            "B. 14 kbaud",
+            "C. 4 kbaud",
+            "D. 8 kbaud"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 28,
+        "question": "To successfully transmit a 10 Mbps data stream using a heavily restricted channel bandwidth of 1.25 MHz (assuming an ideal Nyquist roll-off factor of 0), what is the minimum required bits per symbol?",
+        "choices": [
+            "A. 2 bits/symbol",
+            "B. 4 bits/symbol",
+            "C. 6 bits/symbol",
+            "D. 8 bits/symbol"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "What is the precise baud rate of an 8-PSK modulated signal if the incoming baseband digital bit rate is exactly 24 kbps?",
+        "choices": [
+            "A. 24 kbaud",
+            "B. 8 kbaud",
+            "C. 72 kbaud",
+            "D. 3 kbaud"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "If an existing QPSK microwave system is upgraded to a 16-QAM system operating at the exact same baud rate, the total data bit rate handled by the system will:",
+        "choices": [
+            "A. Exactly double",
+            "B. Halve",
+            "C. Quadruple",
+            "D. Remain completely the same"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "Amplitude Shift Keying (ASK) is a digital modulation scheme that is also commonly referred to in optical and simple RF systems as:",
+        "choices": [
+            "A. Phase-shift keying",
+            "B. Frequency hopping",
+            "C. On-Off Keying (OOK)",
+            "D. Pulse Position Modulation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "In a basic binary Frequency Shift Keying (BFSK) system, the modulation scheme shifts the carrier between two discrete:",
+        "choices": [
+            "A. Phases",
+            "B. Frequencies",
+            "C. Amplitudes",
+            "D. Polarizations"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "The minimum theoretical Nyquist transmission bandwidth required for a simple ASK signal operating at a baseband bit rate 'fb' is mathematically equal to:",
+        "choices": [
+            "A. fb / 2",
+            "B. fb",
+            "C. 2 * fb",
+            "D. 4 * fb"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "In an FSK system, the absolute mathematical difference between the two transmitted RF frequencies (the mark and space frequencies) is formally known as the:",
+        "choices": [
+            "A. Deviation ratio",
+            "B. Baud rate",
+            "C. Frequency shift (or peak-to-peak deviation)",
+            "D. Bandwidth limit"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "Minimum Shift Keying (MSK) is a specialized, highly spectrum-efficient and continuous-phase form of which digital modulation?",
+        "choices": [
+            "A. Amplitude Shift Keying",
+            "B. Phase Shift Keying",
+            "C. Frequency Shift Keying",
+            "D. Quadrature Amplitude Modulation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "In standard Minimum Shift Keying (MSK), the modulation index is mathematically forced to be exactly:",
+        "choices": [
+            "A. 0.5",
+            "B. 1.0",
+            "C. 0.0",
+            "D. 1.5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "The primary engineering advantage of MSK over standard OQPSK and other digital modulations is its:",
+        "choices": [
+            "A. Infinite data rate capacity",
+            "B. Ability to operate without a recovered carrier",
+            "C. Constant envelope and continuous phase, which drastically reduces spectral out-of-band splatter",
+            "D. Exclusive use of amplitude variations"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "A binary FSK transmitter operates with a designated mark frequency of 49 kHz and a space frequency of 51 kHz. What is the peak frequency deviation of this modulator?",
+        "choices": [
+            "A. 2 kHz",
+            "B. 1 kHz",
+            "C. 50 kHz",
+            "D. 100 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Assuming theoretical minimum Nyquist bandwidth, what is the baud rate of a binary FSK signal operating at a bit rate of 9600 bps?",
+        "choices": [
+            "A. 4800 baud",
+            "B. 19200 baud",
+            "C. 9600 baud",
+            "D. 2400 baud"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "In standard BFSK telecommunications terminology, the \"mark\" frequency typically represents a digital logic state of:",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. High impedance",
+            "D. Undefined"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "Non-coherent demodulation of a standard FSK signal is typically achieved cheaply and effectively by utilizing a:",
+        "choices": [
+            "A. Phase-locked loop",
+            "B. Standard tuned envelope detector for each discrete frequency",
+            "C. Synchronous product detector",
+            "D. Quadrature mixer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "An Amplitude Shift Keying (ASK) system is inherently heavily susceptible to which primary type of transmission channel impairment?",
+        "choices": [
+            "A. Frequency drifting",
+            "B. Additive amplitude noise and signal fading",
+            "C. Phase jitter",
+            "D. Local oscillator mismatch"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "A continuous-phase FSK (CPFSK) signal inherently lacks sudden, sharp phase discontinuities at the symbol boundaries. This physical property directly results in:",
+        "choices": [
+            "A. Higher bit error rates",
+            "B. A much wider main spectral lobe",
+            "C. Greatly reduced side-lobe energy (lower spectral splatter)",
+            "D. The strict requirement for highly linear Class A amplifiers"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "Gaussian Minimum Shift Keying (GMSK) is a highly filtered variant of MSK heavily utilized in which classic global mobile communication standard?",
+        "choices": [
+            "A. LTE",
+            "B. CDMA2000",
+            "C. GSM (2G)",
+            "D. Wi-Fi (802.11a)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "The pre-modulation Gaussian low-pass filter used in GMSK primarily serves the technical purpose of:",
+        "choices": [
+            "A. Increasing the total signal bandwidth",
+            "B. Amplifying the baseband signal",
+            "C. Digitizing the analog voice",
+            "D. Rounding the sharp edges of the baseband data pulses, further narrowing the RF spectrum"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 46,
+        "question": "Binary Phase Shift Keying (BPSK) modulates a carrier by shifting its phase between two discrete states exactly separated by:",
+        "choices": [
+            "A. 90 degrees",
+            "B. 180 degrees",
+            "C. 45 degrees",
+            "D. 360 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "Quadrature Phase Shift Keying (QPSK) utilizes exactly how many distinct phase states to represent digital data on the constellation diagram?",
+        "choices": [
+            "A. 2",
+            "B. 4",
+            "C. 8",
+            "D. 16"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "In QPSK modulation, each transmitted symbol uniquely represents how many bits of information?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "Which of the following digital modulation techniques is mathematically equivalent to combining two completely independent BPSK signals in phase quadrature?",
+        "choices": [
+            "A. FSK",
+            "B. QAM",
+            "C. MSK",
+            "D. QPSK"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "A major, fundamental advantage of BPSK over ASK and FSK is its superior theoretical performance in terms of:",
+        "choices": [
+            "A. Bandwidth efficiency",
+            "B. Transmit power required",
+            "C. Bit Error Rate (BER) in the presence of noise",
+            "D. Simplicity of non-coherent detection"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "In an 8-PSK modulator, the phase difference between any two adjacent states symmetrically placed on the constellation diagram is exactly:",
+        "choices": [
+            "A. 45 degrees",
+            "B. 90 degrees",
+            "C. 22.5 degrees",
+            "D. 180 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "What is the theoretical minimum Nyquist bandwidth required to transmit a 10 Mbps data stream using standard BPSK?",
+        "choices": [
+            "A. 5 MHz",
+            "B. 10 MHz",
+            "C. 20 MHz",
+            "D. 2.5 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "What is the theoretical minimum Nyquist bandwidth required to transmit the exact same 10 Mbps data stream using QPSK?",
+        "choices": [
+            "A. 2.5 MHz",
+            "B. 20 MHz",
+            "C. 10 MHz",
+            "D. 5 MHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 54,
+        "question": "In BPSK demodulation, the receiver must generate a local oscillator that is strictly phase-coherent with the suppressed carrier. This critical process is known as:",
+        "choices": [
+            "A. Clock recovery",
+            "B. Carrier recovery",
+            "C. Equalization",
+            "D. Pulse shaping"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Which specific classical circuit is commonly employed to recover the suppressed carrier from a received BPSK signal?",
+        "choices": [
+            "A. Costas loop",
+            "B. Foster-Seeley discriminator",
+            "C. Ratio detector",
+            "D. Envelope detector"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "The constellation diagram for QPSK consists of four points located symmetrically on a single circle. The constant radius of this circle implies that:",
+        "choices": [
+            "A. The frequency is constantly shifting",
+            "B. The signal possesses a completely constant amplitude envelope",
+            "C. The baud rate is zero",
+            "D. The phase remains constant"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "In standard QPSK, when both the I (In-phase) and Q (Quadrature) bit streams change logic state simultaneously, the carrier phase abruptly shifts by exactly:",
+        "choices": [
+            "A. 90 degrees",
+            "B. 45 degrees",
+            "C. 0 degrees",
+            "D. 180 degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "To prevent the RF signal envelope from momentarily dropping to absolute zero during large phase transitions, Offset QPSK (OQPSK) intentionally delays the Q bit stream relative to the I bit stream by exactly:",
+        "choices": [
+            "A. One full symbol period",
+            "B. One half of a symbol period",
+            "C. Two symbol periods",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Because of the time alignment in Offset QPSK (OQPSK), the maximum instantaneous phase shift allowed at any given symbol transition is strictly limited to:",
+        "choices": [
+            "A. 90 degrees",
+            "B. 45 degrees",
+            "C. 180 degrees",
+            "D. 360 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "Differential Phase Shift Keying (DPSK) eliminates the need for complex coherent carrier recovery at the receiver by strictly encoding the digital data as:",
+        "choices": [
+            "A. Absolute amplitude levels",
+            "B. Absolute phase shifts referenced to 0 degrees",
+            "C. Frequency deviations",
+            "D. Changes in phase relative to the immediately preceding symbol"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "For a standard 8-PSK digital communication system operating at exactly 30 Mbaud, what is the total data bit rate?",
+        "choices": [
+            "A. 10 Mbps",
+            "B. 30 Mbps",
+            "C. 60 Mbps",
+            "D. 90 Mbps"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 62,
+        "question": "Which digital modulation technique mathematically achieves the exact same theoretical Bit Error Rate (BER) vs Eb/N0 performance as QPSK, but utilizes exactly double the spectral bandwidth?",
+        "choices": [
+            "A. BPSK",
+            "B. 8-PSK",
+            "C. 16-QAM",
+            "D. MSK"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "When a system upgrades from QPSK to 8-PSK, the Euclidean distance between adjacent constellation points drastically decreases. To maintain the exact same Bit Error Rate (BER), the system must:",
+        "choices": [
+            "A. Decrease the transmitter power",
+            "B. Increase the Signal-to-Noise Ratio (Eb/N0)",
+            "C. Decrease the symbol rate",
+            "D. Increase the transmission bandwidth"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "In pi/4-DQPSK (Differential Quadrature Phase Shift Keying), the overall constellation diagram effectively consists of two standard QPSK constellations permanently offset from each other by exactly:",
+        "choices": [
+            "A. 90 degrees",
+            "B. 180 degrees",
+            "C. 22.5 degrees",
+            "D. 45 degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "A major engineering advantage of pi/4-DQPSK over standard QPSK in mobile radio applications (like early cellular systems) is that it inherently:",
+        "choices": [
+            "A. Eliminates phase transitions through the origin, severely reducing envelope amplitude variations",
+            "B. Requires absolutely no bandwidth",
+            "C. Uses frequency shifts instead of phase shifts",
+            "D. Can operate completely without a transmitting antenna"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Quadrature Amplitude Modulation (QAM) modulates an RF carrier by simultaneously and independently varying its:",
+        "choices": [
+            "A. Amplitude and Phase",
+            "B. Frequency and Phase",
+            "C. Frequency and Amplitude",
+            "D. Phase and Pulse Width"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 67,
+        "question": "In a standard square 16-QAM constellation diagram, the number of distinct amplitude levels (concentric rings from the origin) present across all symbols is typically:",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "How many individual data bits are uniquely encoded into a single transmitted symbol in a 64-QAM system?",
+        "choices": [
+            "A. 6",
+            "B. 8",
+            "C. 64",
+            "D. 4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "A 256-QAM digital cable television signal operates at a baud rate of 5 Mbaud. What is the total aggregate bit rate?",
+        "choices": [
+            "A. 256 Mbps",
+            "B. 20 Mbps",
+            "C. 40 Mbps",
+            "D. 5 Mbps"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "Compared to constant-envelope modulations like QPSK, a massive engineering drawback of high-order QAM (such as 64-QAM or 256-QAM) is its strict physical requirement for:",
+        "choices": [
+            "A. Completely non-linear Class C amplifiers",
+            "B. Extremely wide channel bandwidths",
+            "C. Highly linear RF power amplifiers to prevent severe amplitude distortion and splatter",
+            "D. Multiple carrier frequencies"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "Which specific QAM configuration provides a perfectly circular constellation, sometimes referred to as amplitude-phase keying (APK), which is more robust against phase jitter but harder to generate than square QAM?",
+        "choices": [
+            "A. 16-QAM",
+            "B. 8-QAM",
+            "C. 256-QAM",
+            "D. Star-QAM"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "A standard digital microwave link utilizes highly complex 1024-QAM modulation. What is its maximum theoretical spectral efficiency in bits/sec/Hz (assuming an ideal Nyquist minimum bandwidth)?",
+        "choices": [
+            "A. 10 bps/Hz",
+            "B. 5 bps/Hz",
+            "C. 1024 bps/Hz",
+            "D. 20 bps/Hz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "As the order of a QAM system increases (e.g., transitioning from 16-QAM to 64-QAM), the constellation points pack much closer together. This inherently makes the transmitted signal:",
+        "choices": [
+            "A. Slower in overall bit rate",
+            "B. Significantly more susceptible to thermal noise and phase jitter",
+            "C. Require significantly more transmission bandwidth",
+            "D. Much easier to demodulate non-coherently"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "Which advanced digital modulation technique forms the foundation for standard ADSL internet and modern Wi-Fi by utilizing hundreds of closely spaced, overlapping QAM subcarriers?",
+        "choices": [
+            "A. OFDM (Orthogonal Frequency Division Multiplexing)",
+            "B. DSSS",
+            "C. FHSS",
+            "D. BPSK"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "In an ideal 16-QAM modulator using a standard square constellation, the digital I (In-phase) and Q (Quadrature) baseband signals are practically formatted as discrete:",
+        "choices": [
+            "A. 2-level PAM signals",
+            "B. 4-level PAM signals",
+            "C. 8-level PAM signals",
+            "D. Analog sine waves"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "In a standard QAM modulator, the continuous-wave I (In-phase) and Q (Quadrature) carrier signals generated by the local oscillator are mathematically separated by exactly:",
+        "choices": [
+            "A. 45 degrees",
+            "B. 180 degrees",
+            "C. 90 degrees",
+            "D. 0 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "What is the absolute theoretical maximum bit rate of an 8-QAM signal if the available Nyquist bandwidth is exactly 2 MHz?",
+        "choices": [
+            "A. 2 Mbps",
+            "B. 4 Mbps",
+            "C. 6 Mbps",
+            "D. 8 Mbps"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "In digital modulation, Gray coding is heavily used when assigning binary bit sequences to specific constellation points. The primary technical purpose of Gray coding is to ensure that:",
+        "choices": [
+            "A. Adjacent constellation points differ by exactly one bit, minimizing bit errors",
+            "B. The signal bandwidth is drastically reduced",
+            "C. The carrier is fully suppressed",
+            "D. All symbols have the exact same peak amplitude"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "In a specialized 8-QAM constellation consisting of two concentric circles of 4 points each (where the points on both circles align perfectly in phase), what mathematical parameter strictly differentiates the two circles?",
+        "choices": [
+            "A. The baud rate",
+            "B. The carrier frequency",
+            "C. The phase angle exclusively",
+            "D. The peak amplitude"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "The Bit Error Rate (BER) of a digital communication system is formally and mathematically defined as the ratio of:",
+        "choices": [
+            "A. Total bits transmitted to errored bits",
+            "B. Errored bits to the total number of bits transmitted",
+            "C. Signal power to noise power",
+            "D. Correct bits to errored bits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "In standard digital communication theory, BER performance curves are universally plotted against the normalized energy parameter known as:",
+        "choices": [
+            "A. SNR",
+            "B. C/N",
+            "C. Eb/N0",
+            "D. S/N"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "The critical parameter Eb/N0 is strictly defined as the mathematical ratio of the Energy per bit to the:",
+        "choices": [
+            "A. Total noise power",
+            "B. Noise figure",
+            "C. Equivalent noise temperature",
+            "D. Noise power spectral density"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "An \"eye pattern\" or \"eye diagram\" is practically generated on a high-speed oscilloscope by triggering the display sweep using the system's recovered:",
+        "choices": [
+            "A. Carrier frequency",
+            "B. Bit or symbol clock",
+            "C. Frame synchronization pulse",
+            "D. Nyquist rate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "In a standard eye pattern display, the physical height of the vertical opening explicitly indicates the digital signal's immunity to:",
+        "choices": [
+            "A. Additive amplitude noise",
+            "B. Phase jitter",
+            "C. Intersymbol Interference (ISI) jitter",
+            "D. Carrier frequency drift"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "In an eye pattern, the horizontal width of the eye opening explicitly represents the receiver system's tolerance to:",
+        "choices": [
+            "A. Timing jitter and sampling instant variations",
+            "B. Thermal noise",
+            "C. Amplifier non-linearity",
+            "D. Local oscillator phase noise"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "When the \"eye\" in an eye diagram is observed to be completely closed, it mathematically and practically indicates that:",
+        "choices": [
+            "A. The transmission is perfectly error-free",
+            "B. Intersymbol Interference (ISI) and noise are so severe that the logic states cannot be reliably distinguished",
+            "C. The signal has no amplitude variations",
+            "D. The baud rate is too slow"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "To maximize the statistical probability of correct symbol detection, the receiver should mathematically sample the incoming baseband signal at the precise instant where the eye diagram is:",
+        "choices": [
+            "A. At its lowest voltage",
+            "B. Narrowest horizontally",
+            "C. Widest open vertically",
+            "D. Crossing the zero-voltage axis"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "The physical steepness or slope of the internal traces forming the eye pattern directly indicates the system's inherent sensitivity to:",
+        "choices": [
+            "A. Amplitude distortion",
+            "B. Carrier phase shift",
+            "C. White noise",
+            "D. Timing errors (jitter)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "In evaluating BER, a microwave system requiring an Eb/N0 of 10.5 dB to achieve a 10^-6 BER is currently using QPSK. If the modulation is switched to BPSK, the required Eb/N0 to achieve the exact same BER will:",
+        "choices": [
+            "A. Remain exactly 10.5 dB",
+            "B. Drop to 7.5 dB",
+            "C. Increase to 13.5 dB",
+            "D. Become zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "In coherent digital demodulation, the local oscillator generated at the receiver must exactly match the incoming suppressed carrier in both frequency and:",
+        "choices": [
+            "A. Baud rate",
+            "B. Phase",
+            "C. Amplitude",
+            "D. Duty cycle"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "Which widely-used, classic circuit configuration reconstructs the suppressed carrier in BPSK signals by first squaring the incoming RF signal to eliminate the 180-degree phase shifts?",
+        "choices": [
+            "A. Foster-Seeley",
+            "B. Ratio detector",
+            "C. Squaring loop",
+            "D. Envelope detector"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "For QPSK carrier recovery, the squaring loop technique is mathematically expanded. Instead of squaring, the incoming QPSK RF signal is raised to what power to completely strip the phase modulation?",
+        "choices": [
+            "A. 2",
+            "B. 3",
+            "C. 8",
+            "D. 4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "The Costas Loop is a specialized, phase-locked loop (PLL) heavily utilized for coherent carrier recovery in PSK receivers. It fundamentally requires two parallel tracking loops known technically as the:",
+        "choices": [
+            "A. Fast and slow loops",
+            "B. High and low loops",
+            "C. In-phase (I) and Quadrature (Q) arms",
+            "D. Sum and difference channels"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "If a coherent receiver's recovered carrier exhibits a constant, static phase error relative to the incoming transmitted signal, the demodulated baseband voltage will:",
+        "choices": [
+            "A. Suffer an amplitude reduction strictly proportional to the cosine of the phase error",
+            "B. Become purely frequency modulated",
+            "C. Be completely unaffected",
+            "D. Increase in amplitude"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "A major destructive phenomenon in unassisted phase recovery circuits (like the squaring loop) where the loop unexpectedly locks onto a phase shifted by 180 or 90 degrees from the true reference is called:",
+        "choices": [
+            "A. Phase jitter",
+            "B. Quadrature clipping",
+            "C. Amplitude fading",
+            "D. Phase ambiguity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "To combat the severe, continuous data corruption caused by phase ambiguity in a squaring loop receiver, modern digital communication systems heavily rely on:",
+        "choices": [
+            "A. Differential encoding (DPSK)",
+            "B. Increasing the transmitter power",
+            "C. Forward Error Correction",
+            "D. Analog companding"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "Clock recovery (symbol synchronization) is absolutely essential in a digital receiver. Which specific spectral component is extracted from the non-linear processed baseband data to generate the synchronization clock?",
+        "choices": [
+            "A. The DC component",
+            "B. The carrier frequency",
+            "C. The Nyquist rate",
+            "D. The fundamental symbol rate frequency (or its direct harmonics)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 98,
+        "question": "In clock recovery networks, a non-linear operation (like squaring or rectifying the baseband signal) is typically required first because a perfectly random polar NRZ data stream mathematically contains:",
+        "choices": [
+            "A. Infinite bandwidth",
+            "B. Excessive thermal noise",
+            "C. Only the carrier frequency",
+            "D. No discrete spectral line at the symbol rate"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 99,
+        "question": "The mathematical and physical process of forcing the receiver's local symbol clock to perfectly match the phase and frequency of the transmitter's symbol clock transitions is officially defined as:",
+        "choices": [
+            "A. Equalization",
+            "B. Carrier recovery",
+            "C. Companding",
+            "D. Clock synchronization (Bit timing recovery)"
+        ],
+        "correct_answer": "D"
+    }
+]

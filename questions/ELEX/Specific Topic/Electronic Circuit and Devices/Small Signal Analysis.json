@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "In an n-channel enhancement-type MOSFET, the conductive channel is formed by attracting which specific carriers to the surface below the gate?",
+        "choices": [
+            "A. Holes",
+            "B. Minority ions",
+            "C. Electrons",
+            "D. Protons"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "Worded circuit: A basic n-channel D-MOSFET is biased with a gate-to-source voltage (Vgs) of 0V. If Idss = 10mA, the resulting drain current is:",
+        "choices": [
+            "A. 10 mA",
+            "B. 5 mA",
+            "C. 0 mA",
+            "D. 20 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "In a standard CMOS digital logic gate, static power dissipation is nearly zero. However, dynamic power dissipation occurs primarily due to:",
+        "choices": [
+            "A. Subthreshold leakage",
+            "B. Charging and discharging of parasitic capacitances",
+            "C. Thermal runaway",
+            "D. Avalanche breakdown"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 4,
+        "question": "To severely limit short-channel effects at nodes below 22nm, modern semiconductor foundries heavily utilize a 3D transistor architecture formally known as the:",
+        "choices": [
+            "A. BJT",
+            "B. VMOS",
+            "C. LDMOS",
+            "D. FinFET"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "The small-signal transconductance (gm) of an E-MOSFET operating in the saturation region can be mathematically expressed as:",
+        "choices": [
+            "A. 2 * k * (Vgs - Vt)",
+            "B. k * (Vgs + Vt)",
+            "C. k * (Vgs - Vt)^2",
+            "D. 2 * k / (Vgs - Vt)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "Why is an NMOS transistor generally capable of faster switching speeds than a PMOS transistor of the exact same physical dimensions?",
+        "choices": [
+            "A. Holes have higher effective mass",
+            "B. Electrons have lower mobility",
+            "C. Electrons have significantly higher mobility than holes",
+            "D. PMOS requires a higher threshold voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "Worded circuit: An E-MOSFET (Vt = 2V) is driven such that Vgs = 5V. To ensure it acts strictly as a linear voltage-controlled resistor (triode region), the drain-to-source voltage (Vds) must be:",
+        "choices": [
+            "A. Vds > 3V",
+            "B. Vds = 5V",
+            "C. Vds = 0V precisely",
+            "D. Vds < 3V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "A catastrophic short-circuit condition inherent to bulk CMOS integrated circuits, caused by the unintended turn-on of parasitic bipolar transistors, is formally termed:",
+        "choices": [
+            "A. Punch-through",
+            "B. Latch-up",
+            "C. Snapback",
+            "D. Thermal runaway"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "When performing a small-signal AC analysis on a BJT amplifier circuit, all DC voltage sources are theoretically treated as:",
+        "choices": [
+            "A. Open circuits",
+            "B. AC grounds (short circuits)",
+            "C. Ideal current sources",
+            "D. Infinite impedances"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "In the AC equivalent circuit of a BJT amplifier, what is the standard theoretical treatment of all large coupling and bypass capacitors?",
+        "choices": [
+            "A. They are replaced by short circuits",
+            "B. They are replaced by open circuits",
+            "C. They are treated as DC voltage sources",
+            "D. They are modeled as parasitic inductances"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "The internal dynamic emitter resistance of a BJT, denoted as r_e, is highly dependent on the DC operating point. At room temperature, it is mathematically approximated by the formula:",
+        "choices": [
+            "A. 26 mV * I_E",
+            "B. 0.7 V / I_E",
+            "C. 26 mV / I_E",
+            "D. I_E / 26 mV"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "If the DC emitter current of a BJT is 2 mA, the approximate value of its small-signal AC emitter resistance (r_e) at room temperature is:",
+        "choices": [
+            "A. 52 ohms",
+            "B. 26 ohms",
+            "C. 5.2 ohms",
+            "D. 13 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "In the basic r_e model of a Common-Emitter (CE) configuration, a dependent current source is utilized in the collector circuit. The value of this current source is:",
+        "choices": [
+            "A. Beta * Ib",
+            "B. Alpha * Ie",
+            "C. Ib / Beta",
+            "D. Ie / Alpha"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "The generic h-parameter model for a two-port network uses four parameters. The parameter h_ie mathematically represents the:",
+        "choices": [
+            "A. Short-circuit forward current gain",
+            "B. Short-circuit input impedance",
+            "C. Open-circuit reverse voltage ratio",
+            "D. Open-circuit output admittance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "In the standard h-parameter nomenclature for a Common-Emitter BJT amplifier, the parameter corresponding strictly to the AC current gain (Beta or h_fe) is:",
+        "choices": [
+            "A. h_ie",
+            "B. h_re",
+            "C. h_oe",
+            "D. h_fe"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 16,
+        "question": "Which h-parameter is typically so small in modern BJTs that it is frequently ignored (assumed zero) in approximate manual circuit calculations?",
+        "choices": [
+            "A. h_fe (forward current gain)",
+            "B. h_ie (input impedance)",
+            "C. h_re (reverse voltage ratio)",
+            "D. h_oe (output admittance)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "The physical parameter h_oe represents the open-circuit output admittance. Its reciprocal (1 / h_oe) gives the transistor's intrinsic output resistance, which is primarily caused by the:",
+        "choices": [
+            "A. Miller effect",
+            "B. Base width modulation (Early effect)",
+            "C. Zener breakdown",
+            "D. High-level injection"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 18,
+        "question": "Worded circuit: A basic Common-Emitter fixed-bias amplifier uses a base resistor Rb and a collector resistor Rc. Under AC analysis (capacitors shorted, DC sources grounded), the total input impedance Z_i of the circuit is strictly the parallel combination of:",
+        "choices": [
+            "A. Rc and r_e",
+            "B. Rb and Rc",
+            "C. Rb and (Beta * r_e)",
+            "D. Beta and r_e"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "In the aforementioned CE fixed-bias amplifier, if the internal transistor output resistance (ro) is ignored (assumed infinite), the theoretical voltage gain (Av) is approximated by:",
+        "choices": [
+            "A. -Rc / r_e",
+            "B. Rc / (Beta * r_e)",
+            "C. -Beta * Rc",
+            "D. r_e / Rc"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 20,
+        "question": "The negative sign in the voltage gain equation (Av = -Rc / r_e) for a Common-Emitter amplifier mathematically signifies that the output AC signal is:",
+        "choices": [
+            "A. Attenuated",
+            "B. 180 degrees out of phase with the input signal",
+            "C. Clipped by the DC bias",
+            "D. Amplified by a factor less than 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "In a typical CE amplifier where the emitter resistor Re is completely bypassed by a capacitor, the theoretical AC voltage gain is heavily dependent on the transistor's internal r_e. This makes the gain:",
+        "choices": [
+            "A. Highly stable and predictable",
+            "B. Equal to exactly 1",
+            "C. Infinite",
+            "D. Highly unstable and sensitive to temperature variations"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 23,
+        "question": "Worded circuit: A CE amplifier uses an emitter resistor Re that is NOT bypassed by a capacitor. The input impedance strictly looking into the base of the transistor (Z_base) becomes approximately:",
+        "choices": [
+            "A. Beta * r_e",
+            "B. Re",
+            "C. Beta * (r_e + Re)",
+            "D. Beta / Re"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "Leaving the emitter resistor unbypassed in a CE amplifier dramatically alters the circuit's performance. This specific topological change causes the AC voltage gain to:",
+        "choices": [
+            "A. Decrease significantly, but become much more stable",
+            "B. Increase drastically",
+            "C. Remain unchanged",
+            "D. Drop exactly to zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "For a CE amplifier with an unbypassed emitter resistor Re, where Re >> r_e, the approximate AC voltage gain simplifies to the highly stable, beta-independent ratio:",
+        "choices": [
+            "A. -Re / Rc",
+            "B. Rc * Re",
+            "C. -Rc / Re",
+            "D. -Beta * (Rc / Re)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "Worded circuit: An emitter follower (Common-Collector) circuit uses a voltage divider bias (R1, R2) and an emitter resistor Re. The collector is tied directly to Vcc. The AC output is taken at the emitter. The theoretical voltage gain (Av) of this configuration is always:",
+        "choices": [
+            "A. Large and negative",
+            "B. Slightly less than unity (1)",
+            "C. Exactly Beta",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "What is the primary functional reason a Common-Collector (emitter follower) amplifier is extensively used in multi-stage audio designs?",
+        "choices": [
+            "A. It provides excellent impedance matching (high Z_in, low Z_out)",
+            "B. It provides maximum voltage gain",
+            "C. It acts as a perfect phase inverter",
+            "D. It filters out high-frequency noise"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "In a standard Common-Base (CB) amplifier configuration, the AC input signal is applied to the emitter terminal, and the AC output signal is extracted from the:",
+        "choices": [
+            "A. Base terminal",
+            "B. Emitter terminal",
+            "C. Ground terminal",
+            "D. Collector terminal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "Which of the following electrical characteristics is the hallmark of a Common-Base (CB) amplifier?",
+        "choices": [
+            "A. Low input impedance, high voltage gain",
+            "B. High input impedance, low voltage gain",
+            "C. High input impedance, high current gain",
+            "D. Low input impedance, low voltage gain"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "In the basic r_e model, the current gain (A_i) of a standard emitter follower (Common-Collector) circuit is approximately equal to:",
+        "choices": [
+            "A. Alpha",
+            "B. 1",
+            "C. Beta (or h_fe)",
+            "D. Zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "Worded circuit: A Common-Base amplifier has a collector resistor Rc and an emitter resistor Re. The input is applied to the emitter. The theoretical AC voltage gain (Av) is non-inverting and is approximately evaluated as:",
+        "choices": [
+            "A. Rc / Re",
+            "B. Rc / r_e",
+            "C. -Rc / r_e",
+            "D. r_e / Rc"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "The hybrid-pi model is an advanced small-signal equivalent circuit fundamentally preferred over the basic r_e model when designing BJT amplifiers strictly for:",
+        "choices": [
+            "A. DC biasing stability",
+            "B. Very low frequency audio",
+            "C. Extreme high power switching",
+            "D. High-frequency operation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "In the standard hybrid-pi equivalent circuit model of a BJT, the small-signal transconductance is denoted by the parameter g_m. It is mathematically related to the DC collector current (I_C) and the thermal voltage (V_T) by the formula:",
+        "choices": [
+            "A. g_m = V_T / I_C",
+            "B. g_m = I_C / V_T",
+            "C. g_m = Beta * I_C",
+            "D. g_m = I_C * V_T"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "If a BJT is operating with a DC collector current of 1 mA at room temperature (V_T = 26 mV), its hybrid-pi transconductance (g_m) is approximately:",
+        "choices": [
+            "A. 38.5 mS",
+            "B. 26.0 mS",
+            "C. 1.0 mS",
+            "D. 52.0 mS"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "In the hybrid-pi model, the input resistance between the base and emitter terminals is denoted as r_pi. It is mathematically related to g_m and the AC current gain Beta by:",
+        "choices": [
+            "A. r_pi = g_m / Beta",
+            "B. r_pi = g_m * Beta",
+            "C. r_pi = Beta - g_m",
+            "D. r_pi = Beta / g_m"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "Using the relationship r_pi = Beta * r_e, if a transistor has a Beta of 100 and an r_e of 25 ohms, the hybrid-pi parameter r_pi is exactly:",
+        "choices": [
+            "A. 4 ohms",
+            "B. 250 ohms",
+            "C. 2500 ohms",
+            "D. 25 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "In high-frequency hybrid-pi analysis, the parasitic capacitance existing physically between the base and collector junctions is denoted as C_mu. Because it bridges the input and output nodes, its effect on the input is massively magnified by the voltage gain due to the:",
+        "choices": [
+            "A. Early effect",
+            "B. Skin effect",
+            "C. Miller effect",
+            "D. Zener effect"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "The Miller Effect theorem states that a feedback impedance (like C_mu) connected between the input and an inverting output node of an amplifier with gain Av can be equivalently modeled at the input as an impedance divided by the factor:",
+        "choices": [
+            "A. 1 - Av",
+            "B. 1 + Av",
+            "C. Av - 1",
+            "D. Av"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "Due to the Miller effect, the effective input capacitance of an inverting CE amplifier is extremely large. This severely limits the amplifier's:",
+        "choices": [
+            "A. Output power capability",
+            "B. DC bias stability",
+            "C. Low-frequency cutoff",
+            "D. High-frequency bandwidth"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "To counteract the severe bandwidth degradation caused by the Miller effect in high-frequency RF amplifiers, designers frequently employ a specialized two-transistor configuration where a CE stage feeds into a CB stage. This is known as a:",
+        "choices": [
+            "A. Darlington pair",
+            "B. Cascode amplifier",
+            "C. Push-pull amplifier",
+            "D. Sziklai pair"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "Worded circuit analysis: A CE amplifier with fixed bias uses a 12V supply. Rb = 220 k-ohms, Rc = 3.3 k-ohms. Beta = 100. Assume Vbe = 0.7V. First, compute DC Ib. (Ib = 11.3V / 220k = 51.4 uA). Then compute r_e. (Ie ~ Ic = 5.14 mA. r_e = 26mV/5.14mA = 5.06 ohms). What is the theoretical unloaded voltage gain Av?",
+        "choices": [
+            "A. -100",
+            "B. -150",
+            "C. -330",
+            "D. -652"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 42,
+        "question": "In the exact same circuit from the previous problem (Rb=220k, Rc=3.3k, Beta=100, r_e=5.06 ohms), what is the approximate small-signal input impedance Z_i of the amplifier?",
+        "choices": [
+            "A. 220 k-ohms",
+            "B. 3.3 k-ohms",
+            "C. 506 ohms",
+            "D. 50.6 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "Worded circuit analysis: A CE amplifier with an UNBYPASSED emitter resistor. Rc = 4.7 k-ohms, Re = 1 k-ohm. Beta = 120. If r_e is calculated to be 15 ohms, what is the exact theoretical voltage gain (Av)?",
+        "choices": [
+            "A. -4.63",
+            "B. -6.21",
+            "C. -15.4",
+            "D. -313"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "In the same unbypassed CE amplifier (Rc=4.7k, Re=1k, Beta=120, r_e=15 ohms), what is the approximate input impedance strictly looking into the base of the transistor (Z_base)?",
+        "choices": [
+            "A. 120 k-ohms",
+            "B. 121.8 k-ohms",
+            "C. 1.0 k-ohms",
+            "D. 4.7 k-ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "If a bypass capacitor is suddenly added across the 1 k-ohm Re in the previous circuit, the voltage gain will strictly:",
+        "choices": [
+            "A. Drop to -4.7",
+            "B. Skyrocket to approximately -313",
+            "C. Become positive +313",
+            "D. Drop to zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "Worded circuit analysis: An emitter follower (CC) circuit uses Re = 2.2 k-ohms. Beta = 150. r_e = 10 ohms. What is the approximate AC voltage gain?",
+        "choices": [
+            "A. -1.00",
+            "B. -220",
+            "C. 150",
+            "D. 0.995"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 47,
+        "question": "In the exact same emitter follower (Re=2.2k, Beta=150, r_e=10 ohms), what is the approximate input impedance looking into the base (Z_base)?",
+        "choices": [
+            "A. 2.2 k-ohms",
+            "B. 150 k-ohms",
+            "C. 331 k-ohms",
+            "D. 3.3 M-ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "When determining the output impedance (Z_o) of an emitter follower circuit, if the AC source driving the base has an internal resistance R_sig, this resistance appears at the emitter divided by:",
+        "choices": [
+            "A. Beta",
+            "B. Beta^2",
+            "C. R_sig",
+            "D. The Early voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "The physical parameter h_re in the hybrid model stands for the open-circuit reverse voltage transfer ratio. In a practical, modern BJT, this parameter is typically on the order of:",
+        "choices": [
+            "A. 10^-4",
+            "B. 1",
+            "C. 100",
+            "D. 10^-1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "A cascaded multi-stage amplifier consists of three stages with individual voltage gains of -10, -20, and -5. The total overall voltage gain of the system is exactly:",
+        "choices": [
+            "A. -35",
+            "B. -1000",
+            "C. +1000",
+            "D. +35"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "When connecting two amplifier stages in cascade, the total voltage gain is usually lower than the product of their theoretical unloaded gains. This is primarily because the input impedance of the second stage physically acts as a/an:",
+        "choices": [
+            "A. Open circuit",
+            "B. Voltage multiplier",
+            "C. Current source",
+            "D. Loading effect on the first stage"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "The Darlington pair configuration consists of two BJTs connected such that the emitter of the first directly drives the base of the second. Its most prominent AC characteristic is an incredibly high:",
+        "choices": [
+            "A. Voltage gain",
+            "B. Output impedance",
+            "C. Current gain and input impedance",
+            "D. High-frequency bandwidth"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 53,
+        "question": "If two BJTs in a Darlington configuration have betas of Beta_1 = 50 and Beta_2 = 100, the approximate overall AC current gain of the pair is:",
+        "choices": [
+            "A. 150",
+            "B. 500",
+            "C. 5000",
+            "D. 50"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "A massive drawback of the standard Darlington pair configuration is that its effective base-emitter turn-on voltage (V_BE) is:",
+        "choices": [
+            "A. Approximately 0V",
+            "B. Reduced to 0.3V",
+            "C. Equal to the Early voltage",
+            "D. Doubled (approx 1.4V for silicon)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 55,
+        "question": "The Sziklai pair (or complementary Darlington) uses one NPN and one PNP transistor. A significant advantage over the standard Darlington pair is that its overall base-emitter turn-on voltage is approximately:",
+        "choices": [
+            "A. 0.7 V",
+            "B. 1.4 V",
+            "C. 0 V",
+            "D. 2.1 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "Worded circuit analysis: A CE amplifier is driven by an AC signal source V_sig having an internal resistance R_sig = 1 k-ohm. The amplifier's input impedance Z_i is exactly 1 k-ohm. If V_sig produces a 10 mV peak open-circuit signal, what is the actual AC voltage appearing at the amplifier's input terminal?",
+        "choices": [
+            "A. 10 mV",
+            "B. 5 mV",
+            "C. 20 mV",
+            "D. 0 mV"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "In small-signal analysis, the internal output resistance of a transistor, r_o, is derived from the slope of the output characteristic curves. It mathematically equals the Early voltage (V_A) divided by the:",
+        "choices": [
+            "A. Base current (I_B)",
+            "B. Emitter voltage (V_E)",
+            "C. Transconductance (g_m)",
+            "D. Collector current (I_C)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "If a transistor has an Early voltage (V_A) of 100V and is biased at I_C = 2 mA, its approximate small-signal output resistance (r_o) is:",
+        "choices": [
+            "A. 50 k-ohms",
+            "B. 25 k-ohms",
+            "C. 100 k-ohms",
+            "D. 200 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "When calculating the strict loaded voltage gain (AvL) of a CE amplifier, the load resistor R_L is considered to be mathematically in parallel with the:",
+        "choices": [
+            "A. Emitter resistor Re",
+            "B. Collector resistor Rc",
+            "C. Base resistor Rb",
+            "D. Source resistor R_sig"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "Worded circuit analysis: A CE amplifier has an unloaded voltage gain of -100, an output impedance Z_o = 4 k-ohms, and is connected to a load resistor R_L = 4 k-ohms. The actual loaded voltage gain is exactly:",
+        "choices": [
+            "A. -100",
+            "B. -75",
+            "C. -50",
+            "D. -25"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "The primary mathematical conversion between the hybrid h-parameter h_ie and the basic r_e model parameter is rigorously expressed as:",
+        "choices": [
+            "A. h_ie = Beta * r_e",
+            "B. h_ie = r_e / Beta",
+            "C. h_ie = r_e",
+            "D. h_ie = Beta / r_e"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "The hybrid parameter h_oe is measured in Siemens. It is mathematically equivalent to the reciprocal of which parameter in the basic r_e model?",
+        "choices": [
+            "A. Beta",
+            "B. r_o",
+            "C. r_e",
+            "D. Alpha"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "Worded circuit: A Common-Base (CB) amplifier uses Re = 1 k-ohm, Rc = 4.7 k-ohms. If r_e is 20 ohms, the total input impedance Z_i of the circuit is strictly the parallel combination of:",
+        "choices": [
+            "A. Rc and r_e",
+            "B. Beta and Re",
+            "C. Rc and Re",
+            "D. Re and r_e"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "In practical circuit analysis, the total input impedance Z_i of the previously mentioned CB amplifier (Re = 1k, r_e = 20 ohms) is overwhelmingly dominated by and approximately equal to:",
+        "choices": [
+            "A. 1000 ohms",
+            "B. 4700 ohms",
+            "C. 20 ohms",
+            "D. 1020 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "The dominant low-frequency cutoff (f_L) of an RC-coupled BJT amplifier is typically dictated by the coupling and bypass capacitors. It is mathematically determined by the precise formula:",
+        "choices": [
+            "A. f_L = 2*pi*R*C",
+            "B. f_L = R / (2*pi*C)",
+            "C. f_L = 1 / (2*pi*R*C)",
+            "D. f_L = 1 / (R*C)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "When designing an amplifier for maximum power transfer from its output to a specific load, the amplifier's output impedance (Z_o) must theoretically strictly equal the:",
+        "choices": [
+            "A. Load impedance",
+            "B. Input impedance",
+            "C. Source impedance",
+            "D. Transistor's r_e"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 67,
+        "question": "In the hybrid-pi high-frequency model, the parameter f_T (unity-gain bandwidth) is heavily dependent on the total junction capacitances C_pi and C_mu. The rigorous mathematical expression is f_T = g_m / (2 * pi * C_total). What is C_total?",
+        "choices": [
+            "A. C_pi - C_mu",
+            "B. C_pi + C_mu",
+            "C. C_pi * C_mu",
+            "D. C_pi / C_mu"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "A purely active small-signal BJT operates in the linear region. If the input AC signal is excessively large (e.g., > 100 mV), the small-signal approximations completely fail because the exponential B-E junction characteristic causes severe:",
+        "choices": [
+            "A. Overheating",
+            "B. Frequency cutoff",
+            "C. Phase shifting",
+            "D. Non-linear harmonic distortion"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "In a differential amplifier circuit constructed with two identical BJTs, if completely identical signals are applied to both bases simultaneously, the ideal output voltage taken between the two collectors is exactly:",
+        "choices": [
+            "A. Double the input",
+            "B. Infinite",
+            "C. Undefined",
+            "D. Zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "The ability of a differential amplifier to reject signals that are common to both inputs is universally quantified by a metric known as the:",
+        "choices": [
+            "A. Unity-Gain Bandwidth",
+            "B. Gain-Bandwidth Product",
+            "C. Common-Mode Rejection Ratio (CMRR)",
+            "D. Slew Rate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "To drastically improve the CMRR of a differential amplifier, the shared emitter resistor is almost always replaced by a/an:",
+        "choices": [
+            "A. Active constant current source",
+            "B. Large coupling capacitor",
+            "C. Zener diode",
+            "D. Short circuit to ground"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "A current mirror is a foundational analog IC building block. In a basic two-transistor BJT current mirror, the reference transistor is always strictly:",
+        "choices": [
+            "A. Left open-circuited",
+            "B. Diode-connected (base shorted to collector)",
+            "C. Biased in deep saturation",
+            "D. Connected in common-base"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "Worded circuit analysis: A basic current mirror uses two identical NPN transistors. Q1 is diode-connected. A reference current I_ref of 2 mA is established through Q1. Assuming extremely high Beta, the output current I_out drawn by the collector of Q2 is exactly:",
+        "choices": [
+            "A. 1 mA",
+            "B. 2 mA",
+            "C. 4 mA",
+            "D. 0 mA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "In a practical BJT current mirror, the output current I_out is slightly less than I_ref because a small fraction of I_ref must be utilized to:",
+        "choices": [
+            "A. Overcome the Early effect",
+            "B. Bias the substrate",
+            "C. Charge the Miller capacitance",
+            "D. Supply the base currents for both transistors"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "The Widlar current source is a highly modified current mirror explicitly designed to generate extremely small microampere output currents using moderate resistor values. It achieves this strictly by placing a resistor in series with the:",
+        "choices": [
+            "A. Reference transistor's collector",
+            "B. Output transistor's collector",
+            "C. Output transistor's emitter",
+            "D. Reference transistor's emitter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "In the analysis of an operational amplifier's internal circuitry, the input stage is overwhelmingly constructed using a/an:",
+        "choices": [
+            "A. Differential amplifier",
+            "B. Emitter follower",
+            "C. Push-pull amplifier",
+            "D. Common-base amplifier"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "A Class A amplifier is biased such that the transistor conducts continuous collector current for what precise angular portion of the AC input cycle?",
+        "choices": [
+            "A. 360 degrees",
+            "B. 180 degrees",
+            "C. 90 degrees",
+            "D. Less than 180 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "A fundamental limitation of a purely Class A, resistively-loaded amplifier is its theoretical maximum electrical efficiency, which mathematically cannot exceed:",
+        "choices": [
+            "A. 50%",
+            "B. 100%",
+            "C. 25%",
+            "D. 78.5%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "To significantly improve efficiency in audio output stages, a Class B push-pull amplifier uses two complementary transistors. Each transistor conducts for exactly:",
+        "choices": [
+            "A. 360 degrees",
+            "B. 180 degrees",
+            "C. 90 degrees",
+            "D. 270 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "A severe form of distortion occurs in pure Class B push-pull amplifiers at the exact moment the signal crosses 0V, because neither transistor conducts until the input reaches 0.7V. This phenomenon is universally called:",
+        "choices": [
+            "A. Harmonic distortion",
+            "B. Intermodulation distortion",
+            "C. Phase distortion",
+            "D. Crossover distortion"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "To completely eliminate the distortion mentioned above in push-pull stages, a slight forward bias (e.g., using two diodes) is applied to keep both transistors barely conducting at zero input. This specific topology is formally classified as:",
+        "choices": [
+            "A. Class A",
+            "B. Class C",
+            "C. Class AB",
+            "D. Class D"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "The theoretical maximum electrical efficiency of a perfectly ideal Class B push-pull power amplifier is mathematically derived as exactly:",
+        "choices": [
+            "A. 50%",
+            "B. 25%",
+            "C. 100%",
+            "D. 78.5% (pi/4)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "A Class C amplifier is biased deep into cutoff and conducts for significantly less than 180 degrees of the input cycle. To recover a full sine wave at the output, the load must strictly be a/an:",
+        "choices": [
+            "A. Resonant LC tank circuit",
+            "B. Large resistive load",
+            "C. Audio speaker coil",
+            "D. Active current mirror"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "Because of its extreme efficiency but high distortion, the Class C amplifier is almost exclusively utilized in electronics as a/an:",
+        "choices": [
+            "A. High-fidelity audio amplifier",
+            "B. RF power amplifier (transmitter)",
+            "C. DC voltage regulator",
+            "D. Precision instrumentation amplifier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "Worded circuit analysis: A Common-Emitter amplifier output is directly coupled (no capacitor) to a Common-Collector amplifier input. If the CE stage provides a voltage gain of -50 and the CC stage provides a voltage gain of 0.99, the overall voltage gain is strictly:",
+        "choices": [
+            "A. -49.5",
+            "B. -50.99",
+            "C. +49.5",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "In multi-stage IC design, direct coupling (eliminating coupling capacitors) is heavily preferred because it strictly allows the amplifier to:",
+        "choices": [
+            "A. Have an infinite voltage gain",
+            "B. Amplify pure DC signals (down to 0 Hz)",
+            "C. Reject high-frequency noise",
+            "D. Consume absolutely zero power"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "A massive engineering challenge with direct-coupled amplifiers is that any slight change in the DC bias of the first stage (due to temperature) is amplified by subsequent stages. This severe issue is technically termed:",
+        "choices": [
+            "A. Miller effect",
+            "B. Thermal runaway",
+            "C. DC drift",
+            "D. Crossover distortion"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "The Cascode amplifier (CE driving a CB) is legendary in RF design because it vastly improves high-frequency bandwidth. It fundamentally achieves this by maintaining a very low AC voltage swing at the collector of the CE stage, which effectively neutralizes the:",
+        "choices": [
+            "A. Output impedance",
+            "B. Early effect",
+            "C. Thermal drift",
+            "D. Miller capacitance"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "In a standard high-frequency AC equivalent circuit, the total input capacitance of an inverting amplifier (Av) is computed using the Miller theorem as C_in = C_wi + C_be + C_bc * (1 - Av). Which specific capacitance mathematically dominates this equation?",
+        "choices": [
+            "A. C_wi (wiring capacitance)",
+            "B. C_bc (base-collector capacitance)",
+            "C. C_be (base-emitter capacitance)",
+            "D. C_ce (collector-emitter capacitance)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "When employing a completely ideal operational amplifier in small-signal analysis, the internal open-loop voltage gain is theoretically assumed to be:",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. Infinite",
+            "D. Exactly equal to the feedback resistor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "Under the \"virtual short\" or \"virtual ground\" concept utilized in analyzing ideal op-amps with negative feedback, the voltage difference strictly between the inverting and non-inverting input terminals is assumed to be:",
+        "choices": [
+            "A. Equal to Vcc",
+            "B. Infinite",
+            "C. Equal to the output voltage",
+            "D. Exactly zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "Worded circuit analysis: An ideal op-amp is configured as an inverting amplifier. The input resistor R1 is 10 k-ohms, and the feedback resistor Rf is 100 k-ohms. The exact theoretical closed-loop voltage gain is:",
+        "choices": [
+            "A. -10",
+            "B. -11",
+            "C. 10",
+            "D. 11"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 93,
+        "question": "In the same inverting op-amp configuration (R1 = 10k, Rf = 100k), what is the exact AC input impedance presented to the driving signal source?",
+        "choices": [
+            "A. 100 k-ohms",
+            "B. Infinite",
+            "C. Zero",
+            "D. 10 k-ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "Worded circuit analysis: An ideal op-amp is configured as a non-inverting amplifier. The input signal goes to the non-inverting pin. R1 (10 k-ohms) goes from the inverting pin to ground. Rf (100 k-ohms) goes from the inverting pin to the output. The exact theoretical closed-loop voltage gain is:",
+        "choices": [
+            "A. 11",
+            "B. -10",
+            "C. 10",
+            "D. 9"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "In the non-inverting op-amp configuration described above, the exact theoretical AC input impedance presented to the driving signal source is:",
+        "choices": [
+            "A. 10 k-ohms",
+            "B. Infinite",
+            "C. 110 k-ohms",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "A specific op-amp configuration uses a single resistor to ground and the output tied directly to the inverting input. The signal is applied to the non-inverting input. This circuit provides a gain of exactly +1 and is formally known as a:",
+        "choices": [
+            "A. Differential amplifier",
+            "B. Integrator",
+            "C. Voltage follower (Buffer)",
+            "D. Transimpedance amplifier"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 97,
+        "question": "An op-amp circuit uses an input capacitor C and a feedback resistor R. Since the current through a capacitor is proportional to the derivative of voltage (I = C * dV/dt), this specific circuit acts mathematically as a/an:",
+        "choices": [
+            "A. Oscillator",
+            "B. Integrator",
+            "C. Differentiator",
+            "D. Logarithmic amplifier"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 98,
+        "question": "Conversely, if an op-amp circuit uses an input resistor R and a feedback capacitor C, it will mathematically compute the time integral of the input signal. This circuit is an integrator, heavily used in:",
+        "choices": [
+            "A. RF transmission",
+            "B. Analog computers and wave shaping",
+            "C. Digital counters",
+            "D. Audio power amplification"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "The mathematical rate at which an operational amplifier's output voltage can physically change (e.g., volts per microsecond) when subjected to a sudden large-signal input step is defined strictly as the:",
+        "choices": [
+            "A. Unity-gain bandwidth",
+            "B. CMRR",
+            "C. Gain-bandwidth product",
+            "D. Slew rate"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "If a 741 op-amp has a specified slew rate of 0.5 V/us, what is the absolute minimum time it will take for the output to swing from -10V to +10V (a 20V total excursion)?",
+        "choices": [
+            "A. 40 us",
+            "B. 10 us",
+            "C. 20 us",
+            "D. 5 us"
+        ],
+        "correct_answer": "A"
+    }
+]

@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "What is the approximate characteristic impedance of a lossless transmission line with L = 0.25 uH/m and C = 100 pF/m?",
+        "choices": [
+            "A. 100 ohms",
+            "B. 75 ohms",
+            "C. 50 ohms",
+            "D. 2500 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "A uniform plane wave in free space has an electric field amplitude of 100 V/m. The magnetic field amplitude is approximately:",
+        "choices": [
+            "A. 37700 A/m",
+            "B. 3.77 A/m",
+            "C. 100 A/m",
+            "D. 0.265 A/m"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 3,
+        "question": "According to the mass-action law for semiconductors at thermal equilibrium, the product of electron and hole concentrations equals:",
+        "choices": [
+            "A. N_A * N_D",
+            "B. n_i^2",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 4,
+        "question": "Avalanche breakdown in a PN junction typically occurs at reverse voltages primarily:",
+        "choices": [
+            "A. Below 5V",
+            "B. Between 0V and 5V",
+            "C. Greater than 6V",
+            "D. Exactly 0.7V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 5,
+        "question": "The intrinsic impedance of a perfect vacuum is mathematically equivalent to:",
+        "choices": [
+            "A. mu_0 / epsilon_0",
+            "B. sqrt(mu_0 * epsilon_0)",
+            "C. epsilon_0 / mu_0",
+            "D. sqrt(mu_0 / epsilon_0)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 6,
+        "question": "Zener breakdown exhibits a temperature coefficient that is generally:",
+        "choices": [
+            "A. Zero",
+            "B. Negative",
+            "C. Positive",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "In a p-type semiconductor, the minority carriers are:",
+        "choices": [
+            "A. Electrons",
+            "B. Holes",
+            "C. Acceptor ions",
+            "D. Donor ions"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "In the ideal diode model, a reverse-biased diode is mathematically treated as a/an:",
+        "choices": [
+            "A. Short circuit",
+            "B. Open circuit",
+            "C. Voltage source",
+            "D. Linear resistor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "Using the simplified diode model, a forward-biased silicon diode is represented by:",
+        "choices": [
+            "A. A short circuit",
+            "B. A 0.3V opposing voltage source",
+            "C. A 0.7V opposing voltage source",
+            "D. A 0.7V aiding voltage source"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "The piecewise-linear equivalent circuit model of a diode includes which of the following combinations?",
+        "choices": [
+            "A. A 0.7V battery, an ideal diode, and a dynamic resistance",
+            "B. A short circuit and a dynamic resistance",
+            "C. An open circuit and a transition capacitance",
+            "D. A constant current source and a dynamic resistance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "A circuit contains a 12V DC source, a 1 kOhm resistor, and an ideal diode in series. The diode is forward-biased. What is the current?",
+        "choices": [
+            "A. 11.3 mA",
+            "B. 12 mA",
+            "C. 0 mA",
+            "D. 12 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "A circuit contains a 5V DC source, a 2 kOhm resistor, and a silicon diode in series (simplified model). The diode is reverse-biased. What is the voltage exactly across the diode?",
+        "choices": [
+            "A. 5 V",
+            "B. 0.7 V",
+            "C. 0 V",
+            "D. 4.3 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "Two ideal diodes are connected in parallel with opposite polarities. This combination is placed in series with a 10V DC source and a 1 kOhm resistor. What is the total current?",
+        "choices": [
+            "A. 0 mA",
+            "B. 10 mA",
+            "C. 5 mA",
+            "D. 20 mA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 14,
+        "question": "A 10V DC source is connected to a series combination of a silicon diode (0.7V drop), a germanium diode (0.3V drop), and a 4.5 kOhm resistor, all forward-biased. The circuit current is:",
+        "choices": [
+            "A. 2.22 mA",
+            "B. 2 mA",
+            "C. 0 mA",
+            "D. 4.5 mA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "A 20V DC source is connected to two parallel branches. Branch 1 has a silicon diode in series with a 2 kOhm resistor. Branch 2 has a 4 kOhm resistor. The diodes are forward-biased (simplified model). The total current supplied by the source is:",
+        "choices": [
+            "A. 14.65 mA",
+            "B. 10 mA",
+            "C. 9.65 mA",
+            "D. 15 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 16,
+        "question": "In a piecewise-linear diode model, the dynamic resistance r_av is strictly calculated from the slope of the V-I curve evaluated exactly at the:",
+        "choices": [
+            "A. Origin",
+            "B. Breakdown region",
+            "C. Operating point (Q-point)",
+            "D. Saturation region"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "The static (DC) resistance of a diode at a specific operating point is defined mathematically as:",
+        "choices": [
+            "A. dV_D / dI_D",
+            "B. I_D / V_D",
+            "C. V_D / I_D",
+            "D. 26mV / I_D"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 18,
+        "question": "What happens to the static DC resistance of a forward-biased diode as the forward current is significantly increased?",
+        "choices": [
+            "A. It increases proportionally",
+            "B. It drops to exactly zero",
+            "C. It decreases",
+            "D. It remains perfectly constant"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "The AC dynamic resistance (r_d) of a diode is determined strictly by taking the derivative of voltage with respect to current. At room temperature, it is approximated by:",
+        "choices": [
+            "A. 26mV / I_D",
+            "B. V_D / I_D",
+            "C. I_D / 26mV",
+            "D. 0.7V / I_D"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 20,
+        "question": "Calculate the approximate AC dynamic resistance of a silicon diode operating at a forward DC quiescent current of 5 mA at room temperature.",
+        "choices": [
+            "A. 5.2 ohms",
+            "B. 130 ohms",
+            "C. 140 ohms",
+            "D. 52 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "A diode operates at a DC forward voltage of 0.75V and a corresponding current of 15 mA. Its static resistance at this exact Q-point is:",
+        "choices": [
+            "A. 50 ohms",
+            "B. 11.25 ohms",
+            "C. 1.73 ohms",
+            "D. 500 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "A diode is forward-biased at 2 mA, giving an AC resistance of 13 ohms. If the current is reduced to 1 mA, the new AC dynamic resistance becomes:",
+        "choices": [
+            "A. 6.5 ohms",
+            "B. 13 ohms",
+            "C. 26 ohms",
+            "D. 52 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "The average AC resistance (r_av) is evaluated when the input signal is large enough to produce a broad swing along the V-I curve. It is mathematically defined as:",
+        "choices": [
+            "A. Delta V_D / Delta I_D",
+            "B. V_D / I_D",
+            "C. 26mV / I_D",
+            "D. V_D * I_D"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "In the reverse-biased region (before breakdown), the static resistance of a standard silicon PN junction diode is typically in the range of:",
+        "choices": [
+            "A. Milliohms",
+            "B. Tens of ohms",
+            "C. Hundreds of ohms",
+            "D. Megohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "If a silicon diode is modeled using the ideal model, the power dissipated by the diode when conducting a forward current of 5 A is:",
+        "choices": [
+            "A. 3.5 W",
+            "B. 0 W",
+            "C. Infinite",
+            "D. 1.5 W"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "A series circuit consists of a 5V DC source, a 100-ohm resistor, and a silicon diode (0.7V). Determine the power dissipated strictly by the diode.",
+        "choices": [
+            "A. 30.1 mW",
+            "B. 184.9 mW",
+            "C. 21.5 mW",
+            "D. 0 mW"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "Using the simplified model, determine the current in a circuit having a 0.5V DC source connected in series with a 1 kOhm resistor and a forward-oriented silicon diode.",
+        "choices": [
+            "A. 0 mA",
+            "B. 0.5 mA",
+            "C. 500 uA",
+            "D. -0.2 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "A circuit has a 15V source, a 2.2 kOhm resistor, and a silicon diode. The diode is reverse-biased. What is the current flowing using the simplified model?",
+        "choices": [
+            "A. 6.8 mA",
+            "B. 6.5 mA",
+            "C. 0 mA",
+            "D. 15 mA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "Consider a parallel circuit with a 10V DC source. Branch 1 has a silicon diode (forward). Branch 2 has a germanium diode (forward). Both branches connect through a common 1 kOhm series resistor back to the source. The voltage exactly across the parallel diode combination is approximately:",
+        "choices": [
+            "A. 10 V",
+            "B. 0.7 V",
+            "C. 0.5 V",
+            "D. 0.3 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "In the previous circuit (10V source, common 1 kOhm resistor, parallel Si and Ge diodes), what is the total current flowing from the source?",
+        "choices": [
+            "A. 9.3 mA",
+            "B. 10 mA",
+            "C. 9.7 mA",
+            "D. 0 mA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "In the identical parallel diode circuit (Si and Ge parallel, common resistor), what is the approximate current flowing specifically through the silicon diode?",
+        "choices": [
+            "A. 9.7 mA",
+            "B. 0 mA",
+            "C. 9.3 mA",
+            "D. 4.85 mA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "A 20V DC source is connected to a voltage divider consisting of two 10 kOhm resistors in series. A silicon diode (simplified model) is placed in parallel with the second resistor (the one connected to ground), with its anode facing the positive potential. What is the voltage across the second resistor?",
+        "choices": [
+            "A. 10 V",
+            "B. 20 V",
+            "C. 0.7 V",
+            "D. 9.3 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "The reverse recovery time (t_rr) of a diode is the time required for a forward-biased diode to fully recover its reverse-blocking capability. It is mathematically the sum of which two distinct time intervals?",
+        "choices": [
+            "A. Rise time and fall time",
+            "B. Storage time and transition time",
+            "C. Delay time and storage time",
+            "D. Storage time and transition (fall) time"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 34,
+        "question": "The physical phenomenon that primarily causes the reverse recovery time delay in a PN junction diode is the:",
+        "choices": [
+            "A. Discharging of transition capacitance",
+            "B. Stored minority carriers in the depletion region",
+            "C. Removal of stored minority charge carriers in the neutral regions",
+            "D. Thermal heating of the junction"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "The storage time (t_s) interval during a diode's reverse recovery phase is defined as the time it takes for:",
+        "choices": [
+            "A. The transition capacitance to fully charge",
+            "B. The reverse current to fall from its peak to 10%",
+            "C. The minority carrier concentration at the depletion edge to reach zero",
+            "D. The forward current to reach 90% of its final value"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "During the storage time (t_s) of a diode's switching transient, the voltage exactly across the diode terminals:",
+        "choices": [
+            "A. Rises to the reverse supply voltage instantly",
+            "B. Drops to exactly zero",
+            "C. Reverses polarity completely",
+            "D. Remains approximately equal to the forward barrier potential"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "The fall time (t_f) or transition time interval of a diode's reverse recovery phase is primarily dominated by the charging of the:",
+        "choices": [
+            "A. Depletion (transition) capacitance",
+            "B. Diffusion capacitance",
+            "C. Stray inductance",
+            "D. Parasitic parallel resistance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "For high-frequency switching applications, such as in switch-mode power supplies, the most critical diode parameter to minimize power loss and distortion is the:",
+        "choices": [
+            "A. Static forward resistance",
+            "B. Peak inverse voltage",
+            "C. Reverse recovery time",
+            "D. Zener breakdown voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "Which specific type of diode exhibits a reverse recovery time of practically zero because it operates entirely on majority charge carriers?",
+        "choices": [
+            "A. Tunnel diode",
+            "B. Schottky diode",
+            "C. Varactor diode",
+            "D. PIN diode"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "Fast-recovery diodes achieve significantly shorter reverse recovery times primarily by intentionally:",
+        "choices": [
+            "A. Increasing the transition capacitance",
+            "B. Reducing the doping concentration",
+            "C. Narrowing the physical bandgap",
+            "D. Introducing recombination centers (like gold doping) to reduce minority carrier lifetime"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "When a PN junction is strictly reverse-biased, the uncovered bound ions on both sides of the junction essentially act like the plates of a capacitor. This inherent capacitance is called:",
+        "choices": [
+            "A. Diffusion capacitance",
+            "B. Miller capacitance",
+            "C. Stray capacitance",
+            "D. Transition (depletion) capacitance"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 42,
+        "question": "The transition capacitance (C_T) of a reverse-biased PN junction is mathematically proportional to:",
+        "choices": [
+            "A. 1 / (V_R)^2",
+            "B. 1 / sqrt(V_R)",
+            "C. V_R",
+            "D. (V_R)^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "If the reverse bias voltage across an abrupt PN junction is increased by a factor of four, the transition capacitance will approximately:",
+        "choices": [
+            "A. Quadruple",
+            "B. Double",
+            "C. Remain constant",
+            "D. Halve"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "Diffusion capacitance (C_D) is the dominant capacitive effect in a PN junction strictly when the diode is:",
+        "choices": [
+            "A. Open-circuited",
+            "B. Reverse-biased",
+            "C. Operating in avalanche breakdown",
+            "D. Forward-biased"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "The physical origin of diffusion capacitance in a forward-biased diode is the:",
+        "choices": [
+            "A. Uncovered immobile ions in the depletion region",
+            "B. Time delay of minority carriers diffusing and storing charge in the neutral regions",
+            "C. Dielectric polarization of the semiconductor crystal",
+            "D. Skin effect at high frequencies"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "The magnitude of the diffusion capacitance (C_D) is directly and mathematically proportional to the:",
+        "choices": [
+            "A. Forward DC current",
+            "B. Reverse bias voltage",
+            "C. Square root of the temperature",
+            "D. Width of the depletion region"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "For a varactor diode application where the capacitance must be modulated by an external voltage, the diode must be operated in which specific region?",
+        "choices": [
+            "A. Zener breakdown",
+            "B. Reverse-bias region",
+            "C. Forward-bias region",
+            "D. Saturation region"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "A circuit utilizes the piecewise linear model of a diode: V_k = 0.7V and r_av = 10 ohms. It is in series with a 5V source and a 33 ohm resistor. Find the diode current.",
+        "choices": [
+            "A. 116 mA",
+            "B. 43 mA",
+            "C. 100 mA",
+            "D. 151 mA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "Using the exact same circuit parameters as the previous question (5V, 33 ohm, 0.7V, 10 ohm), calculate the exact voltage drop across the diode's terminals.",
+        "choices": [
+            "A. 1.7 V",
+            "B. 0.7 V",
+            "C. 1.0 V",
+            "D. 5.0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "A circuit has a 12V AC peak sinusoidal source in series with an ideal diode and a 1 kOhm resistor. What is the peak current flowing through the resistor?",
+        "choices": [
+            "A. 11.3 mA",
+            "B. 12 A",
+            "C. 0 mA",
+            "D. 12 mA"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 51,
+        "question": "If the simplified model (0.7V drop) is used for the previous circuit (12V peak AC, 1 kOhm, series diode), the peak forward current is exactly:",
+        "choices": [
+            "A. 12 mA",
+            "B. 8.0 mA",
+            "C. 10.6 mA",
+            "D. 11.3 mA"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "A standard testing method to plot the static V-I characteristics of a diode involves sweeping a DC voltage source while simultaneously measuring the voltage across the diode and the:",
+        "choices": [
+            "A. Current through the diode",
+            "B. Stray capacitance",
+            "C. Dynamic resistance",
+            "D. Temperature of the junction"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "In the piecewise-linear model, the dynamic resistance r_av graphically represents the:",
+        "choices": [
+            "A. x-intercept of the V-I curve",
+            "B. y-intercept of the V-I curve",
+            "C. Reciprocal of the slope of the linearized forward-bias region",
+            "D. Area under the V-I curve"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "If a specific silicon diode has a measured forward voltage of 0.75 V at 10 mA, and 0.85 V at 50 mA, its average AC dynamic resistance r_av in this range is strictly:",
+        "choices": [
+            "A. 40 ohms",
+            "B. 2.5 ohms",
+            "C. 10 ohms",
+            "D. 15 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "In analyzing a complex circuit with multiple diodes, assuming all diodes are \"off\" (open) and checking if the resulting voltages exceed 0.7V to see which turn \"on\" is a standard technique known as:",
+        "choices": [
+            "A. Mesh analysis",
+            "B. Thevenin's theorem",
+            "C. State assumption or condition testing",
+            "D. Nodal analysis"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "A 10V DC source is connected to a circuit. The current splits into two parallel branches. Branch A has a silicon diode (anode to positive) and a 1k resistor. Branch B has a silicon diode (cathode to positive) and a 1k resistor. Using the simplified model, what is the total current drawn from the source?",
+        "choices": [
+            "A. 18.6 mA",
+            "B. 0 mA",
+            "C. 20 mA",
+            "D. 9.3 mA"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "When a diode is subjected to a large reverse bias voltage that exceeds its maximum rating, the resulting massive increase in current is formally called:",
+        "choices": [
+            "A. Cut-in current",
+            "B. Leakage current",
+            "C. Saturation current",
+            "D. Breakdown"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "The piecewise-linear model is generally considered highly accurate and preferred over the simplified model when analyzing circuits where the series resistance is:",
+        "choices": [
+            "A. Comparable in magnitude to the diode's dynamic resistance",
+            "B. Capacitive",
+            "C. Inductive",
+            "D. Extremely large"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "The reverse recovery time t_rr limits the maximum practical operating frequency of a diode. A diode with a t_rr of 5 microseconds cannot properly rectify signals whose period is:",
+        "choices": [
+            "A. Greater than 100 microseconds",
+            "B. Equal to 50 microseconds",
+            "C. 1 millisecond",
+            "D. Comparable to or less than 5 microseconds"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "In a real diode, the small current that flows under reverse bias before breakdown is called the reverse saturation current. It is primarily generated by:",
+        "choices": [
+            "A. Applied external voltage",
+            "B. Transition capacitance",
+            "C. Free electrons in the metal contacts",
+            "D. Thermal generation of electron-hole pairs"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "A circuit has a 5V source, a 1k resistor, and two silicon diodes in series, all forward biased. What is the total current using the simplified model?",
+        "choices": [
+            "A. 3.6 mA",
+            "B. 5 mA",
+            "C. 4.3 mA",
+            "D. 0 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "Two silicon diodes (ideal model) are connected in series opposing (cathode to cathode) across a 10V DC source. The current in the circuit is:",
+        "choices": [
+            "A. 10 mA",
+            "B. 0 mA",
+            "C. Infinite",
+            "D. 5 mA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "Consider a silicon diode forward-biased by a 3V source and a 100-ohm resistor. If the ambient temperature increases significantly, the forward voltage drop across the diode will theoretically:",
+        "choices": [
+            "A. Increase",
+            "B. Double",
+            "C. Decrease",
+            "D. Remain exactly 0.7V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "The theoretical reverse saturation current I_S of a PN junction doubles for every temperature increase of approximately:",
+        "choices": [
+            "A. 1 °C",
+            "B. 5 °C",
+            "C. 10 °C",
+            "D. 20 °C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "A silicon diode has an ideality factor n=2. At room temperature (V_T = 26mV), if the forward current is to be increased by a factor of 10, the forward voltage must increase by approximately:",
+        "choices": [
+            "A. 60 mV",
+            "B. 120 mV",
+            "C. 26 mV",
+            "D. 10 mV"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "A series circuit has a 20V DC source, a 5 kOhm resistor, and a Zener diode rated at 10V. The Zener is connected in reverse bias. What is the power dissipated by the Zener diode?",
+        "choices": [
+            "A. 0 W",
+            "B. 20 mW",
+            "C. 10 mW",
+            "D. 40 mW"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "In a typical silicon diode, the transition capacitance C_T is generally on the order of:",
+        "choices": [
+            "A. Farads",
+            "B. Microfarads",
+            "C. Picofarads",
+            "D. Millifarads"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "At extremely high frequencies, a standard PN junction diode begins to behave more like a/an:",
+        "choices": [
+            "A. Inductor",
+            "B. Perfect switch",
+            "C. Resistor",
+            "D. Capacitor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "During the fall time (t_f) phase of reverse recovery, the reverse current decays exponentially towards the:",
+        "choices": [
+            "A. Forward current",
+            "B. Zener current",
+            "C. Static breakdown current",
+            "D. Reverse saturation current"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "The total reverse recovery time t_rr of a power diode is specified as 200 ns, and its fall time is 50 ns. What is the storage time of this diode?",
+        "choices": [
+            "A. 250 ns",
+            "B. 150 ns",
+            "C. 100 ns",
+            "D. 50 ns"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "A circuit is driven by a 10V square wave alternating between +10V and -10V. It feeds a silicon diode in series with a 1k resistor. Using the simplified model, the peak positive current is:",
+        "choices": [
+            "A. 9.3 mA",
+            "B. 10 mA",
+            "C. 19.3 mA",
+            "D. 0 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "In the exact same square wave circuit, the peak negative current (during the -10V half-cycle) is exactly:",
+        "choices": [
+            "A. 0 mA",
+            "B. -10 mA",
+            "C. -9.3 mA",
+            "D. 9.3 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "The AC equivalent circuit of a forward-biased diode at low frequencies is simply represented by its:",
+        "choices": [
+            "A. Transition capacitance",
+            "B. Stray inductance",
+            "C. Reverse saturation current",
+            "D. Dynamic resistance r_d"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "Which capacitance strictly limits the high-frequency switching capability of a forward-biased PN junction?",
+        "choices": [
+            "A. Stray packaging capacitance",
+            "B. Depletion capacitance",
+            "C. Diffusion capacitance",
+            "D. Miller capacitance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "A constant current source of 10 mA feeds a parallel combination of a silicon diode (forward) and a 1 kOhm resistor. Using the simplified model, the current exactly through the 1 kOhm resistor is:",
+        "choices": [
+            "A. 0.7 mA",
+            "B. 10 mA",
+            "C. 9.3 mA",
+            "D. 0 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "In the previous circuit (10mA constant current, parallel Si diode and 1k resistor), what is the current exactly through the diode?",
+        "choices": [
+            "A. 10 mA",
+            "B. 0 mA",
+            "C. 9.3 mA",
+            "D. 0.7 mA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "A 5V DC source is connected to a 10 kOhm resistor in series with a diode. If the diode is idealized as a perfectly ideal switch, the voltage exactly across the diode when forward-biased is:",
+        "choices": [
+            "A. 0 V",
+            "B. 0.7 V",
+            "C. 0.3 V",
+            "D. 5 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "The time constant associated with the removal of stored minority charge carriers during the reverse recovery process is fundamentally tied to the:",
+        "choices": [
+            "A. Resistance of the external circuit",
+            "B. Packaging material",
+            "C. Dielectric constant",
+            "D. Minority carrier lifetime"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "A diode has an average forward resistance of 5 ohms and a barrier potential of 0.7V. If the forward current is 20 mA, the total voltage across the diode is:",
+        "choices": [
+            "A. 0.7 V",
+            "B. 1.0 V",
+            "C. 0.8 V",
+            "D. 0.1 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "To strictly determine the exact Q-point of a diode graphically, one must plot the diode's non-linear V-I curve and superimpose the circuit's:",
+        "choices": [
+            "A. Transfer function",
+            "B. Bode plot",
+            "C. Nyquist plot",
+            "D. DC load line"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "The DC load line on a diode V-I characteristic graph is a straight line connecting the open-circuit voltage point on the V-axis and the:",
+        "choices": [
+            "A. Short-circuit current point on the I-axis",
+            "B. Operating Q-point",
+            "C. Reverse breakdown voltage",
+            "D. Thermal runaway point"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "A specific circuit has a 12V source and a series resistor. The DC load line intersects the voltage axis at 12V and the current axis at 6 mA. What is the value of the series resistor?",
+        "choices": [
+            "A. 6 kOhm",
+            "B. 2 kOhm",
+            "C. 72 kOhm",
+            "D. 12 kOhm"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "If the supply voltage in a diode circuit is increased while the series resistance remains constant, the DC load line will:",
+        "choices": [
+            "A. Shift in parallel to the right",
+            "B. Shift in parallel to the left",
+            "C. Rotate clockwise around the origin",
+            "D. Rotate counter-clockwise"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "If the series resistance in a diode circuit is decreased while the supply voltage remains constant, the DC load line will:",
+        "choices": [
+            "A. Shift in parallel",
+            "B. Rotate counter-clockwise, becoming steeper",
+            "C. Rotate clockwise, becoming flatter",
+            "D. Remain completely unchanged"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "A circuit consists of a 6V source, a 300-ohm resistor, and a silicon diode in series. If the simplified model is used, the Q-point current is:",
+        "choices": [
+            "A. 17.67 mA",
+            "B. 20 mA",
+            "C. 18.67 mA",
+            "D. 0 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Using the exact same circuit (6V, 300 ohm, Si diode), the Q-point voltage across the diode is:",
+        "choices": [
+            "A. 6 V",
+            "B. 0.7 V",
+            "C. 5.3 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "Two series-opposing 10V DC sources (positive terminal connected to positive terminal) are placed in a circuit with a 1k resistor and a forward-oriented ideal diode. What is the total current?",
+        "choices": [
+            "A. 0 mA",
+            "B. 10 mA",
+            "C. 20 mA",
+            "D. Infinite"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "The minority carrier concentration profile in the neutral regions of a forward-biased diode decays exponentially away from the depletion edge. The distance over which this concentration falls by 1/e is strictly called the:",
+        "choices": [
+            "A. Transition width",
+            "B. Skin depth",
+            "C. Diffusion length",
+            "D. Mean free path"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "The diffusion capacitance C_D can be mathematically expressed as tau_T * I_D / V_T, where tau_T represents the:",
+        "choices": [
+            "A. Temperature",
+            "B. Reverse recovery time",
+            "C. Thermal voltage",
+            "D. Mean minority carrier lifetime"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "A silicon diode is measured to have a static resistance of 100 ohms at a forward current of 10 mA. What is the exact forward voltage drop across the diode at this operating point?",
+        "choices": [
+            "A. 1.0 V",
+            "B. 0.7 V",
+            "C. 10 V",
+            "D. 0.1 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "Which diode equivalent model is strictly the most appropriate for analyzing a 120V AC half-wave rectifier where precise millivolt drops are negligible?",
+        "choices": [
+            "A. Piecewise-linear model",
+            "B. Ideal diode model",
+            "C. Simplified model",
+            "D. Dynamic resistance model"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "A diode network has a 5V source connected to the anode of D1. The cathode of D1 connects to the anode of D2. The cathode of D2 connects to a 1k resistor to ground. Both are silicon diodes (simplified model). What is the exact current?",
+        "choices": [
+            "A. 3.6 mA",
+            "B. 5.0 mA",
+            "C. 4.3 mA",
+            "D. 0 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 93,
+        "question": "Consider a circuit with a 10V source, a 2k resistor, and two silicon diodes in parallel to ground. The current strictly supplied by the source is:",
+        "choices": [
+            "A. 9.3 mA",
+            "B. 4.65 mA",
+            "C. 4.3 mA",
+            "D. 10 mA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "In the previous circuit (10V, 2k resistor, two parallel Si diodes), assuming the diodes are perfectly matched, the current strictly through each individual diode is:",
+        "choices": [
+            "A. 9.3 mA",
+            "B. 4.65 mA",
+            "C. 2.325 mA",
+            "D. 10 mA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "A circuit consists of a +5V source connected to a 1k resistor, which then connects to the anode of a silicon diode. The cathode is strictly connected to a -5V source. Using the simplified model, the current is:",
+        "choices": [
+            "A. 10 mA",
+            "B. 0 mA",
+            "C. 9.3 mA",
+            "D. 4.3 mA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "If a silicon diode's forward DC current is doubled, its dynamic AC resistance (at room temperature) will strictly:",
+        "choices": [
+            "A. Double",
+            "B. Remain unchanged",
+            "C. Quadruple",
+            "D. Halve"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "The physical storage time (t_s) in a fast-switching diode is critically dependent on the:",
+        "choices": [
+            "A. Stray capacitance",
+            "B. External resistance",
+            "C. Minority carrier lifetime",
+            "D. Applied voltage amplitude"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 98,
+        "question": "A 5V peak triangular wave is applied to a silicon diode in series with a 100-ohm resistor. What is the peak current using the simplified model?",
+        "choices": [
+            "A. 50 mA",
+            "B. 43 mA",
+            "C. 0 mA",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "In a purely resistive diode circuit, as the external operating temperature increases from 25°C to 75°C, the DC load line will strictly:",
+        "choices": [
+            "A. Shift significantly to the right",
+            "B. Become steeper",
+            "C. Change its x-intercept",
+            "D. Remain completely stationary"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "If a silicon PN junction is fabricated with a highly asymmetric doping profile (e.g., heavily doped P-side and lightly doped N-side), the depletion region will extend primarily into the:",
+        "choices": [
+            "A. N-side",
+            "B. P-side",
+            "C. Metal contacts",
+            "D. Substrate"
+        ],
+        "correct_answer": "A"
+    }
+]

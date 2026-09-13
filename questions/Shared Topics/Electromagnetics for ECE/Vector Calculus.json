@@ -1,0 +1,1080 @@
+[
+    {
+        "number": 2,
+        "question": "If the dot product of two non-zero vectors is zero, what is the geometric relationship between them?",
+        "choices": [
+            "A. Parallel",
+            "B. Orthogonal",
+            "C. Collinear",
+            "D. Skew"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "In spherical coordinates, what is the differential volume element dv?",
+        "choices": [
+            "A. r dr d(theta)",
+            "B. d(rho) d(phi) dz",
+            "C. r sin(theta) d(r) d(theta) d(phi)",
+            "D. r^2 sin(theta) dr d(theta) d(phi)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "To convert a point from cylindrical (rho, phi, z) to Cartesian (x, y, z), what is the formula for x?",
+        "choices": [
+            "A. rho cos(phi)",
+            "B. z cos(phi)",
+            "C. rho sin(phi)",
+            "D. rho tan(phi)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "What is the differential length vector dl in the Cartesian coordinate system?",
+        "choices": [
+            "A. (dx+dy+dz) a_r",
+            "B. dx dy dz",
+            "C. dx a_x + dy a_y + dz a_z",
+            "D. dx a_x + dy a_y"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "A unit vector mathematically is defined as:",
+        "choices": [
+            "A. The vector divided by its magnitude",
+            "B. A vector with magnitude zero",
+            "C. A scalar quantity",
+            "D. The gradient of the vector"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "The scalar triple product A . (B x C) geometrically represents which of the following?",
+        "choices": [
+            "A. Area of a triangle",
+            "B. Area of a parallelogram",
+            "C. Volume of a sphere",
+            "D. Volume of a parallelepiped"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "Convert the Cartesian point (0, 3, 4) to cylindrical coordinates (rho, phi, z).",
+        "choices": [
+            "A. (4, 90 deg, 3)",
+            "B. (3, 0 deg, 4)",
+            "C. (3, 90 deg, 4)",
+            "D. (5, 90 deg, 4)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "Which of the following is the correct expansion of the vector triple product A x (B x C)?",
+        "choices": [
+            "A. B(A . C) - C(A . B)",
+            "B. (A . B)C - (A . C)B",
+            "C. 0",
+            "D. (A . C)B - (A . B)C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "The gradient of a scalar field results in a mathematically defined:",
+        "choices": [
+            "A. Scalar",
+            "B. Vector",
+            "C. Tensor",
+            "D. Matrix"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "Which operation yields a vector pointing in the direction of the maximum rate of change of a scalar field?",
+        "choices": [
+            "A. Curl",
+            "B. Divergence",
+            "C. Laplacian",
+            "D. Gradient"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Find the gradient of the scalar field f(x,y,z) = 2x + 3y + z.",
+        "choices": [
+            "A. 2ax + 3ay",
+            "B. 6",
+            "C. 2ax + 3ay + az",
+            "D. ax + ay + az"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "Applying the Del operator directly to a scalar function produces the:",
+        "choices": [
+            "A. Gradient",
+            "B. Divergence",
+            "C. Curl",
+            "D. Vector magnitude"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "Find the gradient of V = 1/r in spherical coordinates.",
+        "choices": [
+            "A. (1/r^2) a_r",
+            "B. -(1/r^2) a_r",
+            "C. (1/r) a_r",
+            "D. -(1/r) a_r"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "What is the gradient of V = x^2 y at the point (1, -1, 0)?",
+        "choices": [
+            "A. 2ax - ay",
+            "B. ax + ay",
+            "C. -2ax - ay",
+            "D. -2ax + ay"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "The magnitude of the gradient of a scalar function at a given point represents what physical quantity?",
+        "choices": [
+            "A. Total flux",
+            "B. Volume density",
+            "C. Maximum rate of change",
+            "D. Net circulation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 18,
+        "question": "If U and V are scalar fields, what is Del(U + V)?",
+        "choices": [
+            "A. Del U + Del V",
+            "B. Del U x Del V",
+            "C. U Del V + V Del U",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "The normal vector to a surface defined by the constant f(x,y,z) = c is given by:",
+        "choices": [
+            "A. Divergence of f",
+            "B. Gradient of f",
+            "C. Curl of f",
+            "D. Laplacian of f"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "The directional derivative of a scalar field V in the direction of a unit vector a is calculated by:",
+        "choices": [
+            "A. (Del x V) . a",
+            "B. (Del . V) x a",
+            "C. Del V x a",
+            "D. Del V . a"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "The divergence of a vector field evaluates to what mathematical entity?",
+        "choices": [
+            "A. Vector",
+            "B. Matrix",
+            "C. Scalar",
+            "D. Tensor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "Physically, what does the divergence of a vector field represent at a point?",
+        "choices": [
+            "A. Net outward flux per unit volume",
+            "B. Maximum slope of the field",
+            "C. Circulation per unit area",
+            "D. Energy dissipated as heat"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "Calculate the divergence of the vector field D = x^2 a_x.",
+        "choices": [
+            "A. x a_x",
+            "B. 2x",
+            "C. 2 a_x",
+            "D. x^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "If the divergence of a vector field is zero everywhere, the field is classified as:",
+        "choices": [
+            "A. Irrotational",
+            "B. Conservative",
+            "C. Harmonic",
+            "D. Solenoidal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "Find the divergence of the position vector R = x a_x + y a_y + z a_z.",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 3",
+            "D. x+y+z"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "For any continuously differentiable vector field A, what is the divergence of the curl of A (Del . (Del x A))?",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. Del^2 A",
+            "D. -1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "Evaluate the divergence of the field F = r a_r in spherical coordinates.",
+        "choices": [
+            "A. 1",
+            "B. 3",
+            "C. r^2",
+            "D. 1/r"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "Gauss's Law in point (differential) form mathematically relates electric flux density to volume charge density using which operation?",
+        "choices": [
+            "A. Gradient",
+            "B. Curl",
+            "C. Laplacian",
+            "D. Divergence"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "Compute the divergence of F = (x^2 y) a_x + (y^2 z) a_y.",
+        "choices": [
+            "A. 2xy + 2yz",
+            "B. 2x + 2y",
+            "C. x^2 + y^2",
+            "D. 2xyz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "If a fluid velocity field has zero divergence at all points, the fluid is considered:",
+        "choices": [
+            "A. Static",
+            "B. Irrotational",
+            "C. Incompressible",
+            "D. Viscous"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "The curl of a vector field produces a:",
+        "choices": [
+            "A. Scalar",
+            "B. Vector",
+            "C. Phasor",
+            "D. Matrix"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "If the curl of a vector field evaluates to zero everywhere, the field is known as:",
+        "choices": [
+            "A. Solenoidal",
+            "B. Divergent",
+            "C. Incompressible",
+            "D. Irrotational"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "What is the physical interpretation of the curl of a vector field?",
+        "choices": [
+            "A. Circulation per unit area",
+            "B. Outward flux per unit volume",
+            "C. Maximum rate of change",
+            "D. Rate of flow"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "For any scalar field V, what is the curl of the gradient of V (Del x Del V)?",
+        "choices": [
+            "A. 1",
+            "B. Del^2 V",
+            "C. 0",
+            "D. V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "Compute the curl of the vector field F = x a_y in Cartesian coordinates.",
+        "choices": [
+            "A. a_x",
+            "B. a_y",
+            "C. 0",
+            "D. a_z"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "Which mathematical equation signifies that a static electric field E is a conservative field?",
+        "choices": [
+            "A. Del . E = 0",
+            "B. Del x E = 0",
+            "C. Del^2 E = 0",
+            "D. Del E = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "What is the curl of the position vector R = x a_x + y a_y + z a_z?",
+        "choices": [
+            "A. 0",
+            "B. 3",
+            "C. 1",
+            "D. a_x + a_y + a_z"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Stokes' theorem converts a closed line integral of a vector field into what kind of integral?",
+        "choices": [
+            "A. Line integral",
+            "B. Volume integral",
+            "C. Surface integral of its curl",
+            "D. Surface integral of its divergence"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "Evaluate the curl of the 2D field F = y a_x - x a_y.",
+        "choices": [
+            "A. 2 a_z",
+            "B. -2 a_z",
+            "C. 0",
+            "D. -a_z"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "If a paddle wheel placed in a fluid flow field does not rotate, the curl of the velocity field at that point is:",
+        "choices": [
+            "A. Infinite",
+            "B. Negative",
+            "C. Positive",
+            "D. Zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "The Laplacian of a scalar field V is strictly defined as which sequence of operations?",
+        "choices": [
+            "A. Divergence of the gradient of V",
+            "B. Curl of the gradient of V",
+            "C. Gradient of the divergence of V",
+            "D. Divergence of the curl of V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "Which mathematical symbol represents the Laplacian operator?",
+        "choices": [
+            "A. Del",
+            "B. Del x",
+            "C. Del^2",
+            "D. Del ."
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "Calculate the Laplacian of the scalar function V = x^2 + y^2 + z^2.",
+        "choices": [
+            "A. 2",
+            "B. 6",
+            "C. 3",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "If a scalar potential V satisfies Del^2 V = 0 in a region, it obeys:",
+        "choices": [
+            "A. Poisson's equation",
+            "B. Maxwell's equation",
+            "C. Helmholtz equation",
+            "D. Laplace's equation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "When the Laplacian operator is applied to a vector field, the result is a:",
+        "choices": [
+            "A. Vector field",
+            "B. Scalar field",
+            "C. Constant",
+            "D. Zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "What is the Laplacian of the potential V = 1/r in a region where r > 0?",
+        "choices": [
+            "A. -1/r^2",
+            "B. 1/r^3",
+            "C. 0",
+            "D. 4 pi"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "Find the Laplacian of the Cartesian function V = xy.",
+        "choices": [
+            "A. x + y",
+            "B. 0",
+            "C. 1",
+            "D. 2xy"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "A scalar function that continuously satisfies Laplace's equation in a given domain is called a:",
+        "choices": [
+            "A. Solenoidal function",
+            "B. Non-conservative function",
+            "C. Complex conjugate",
+            "D. Harmonic function"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "In one-dimensional Cartesian coordinates (varying only with x), the Laplacian operator Del^2 simplifies to:",
+        "choices": [
+            "A. d^2/dx^2",
+            "B. d/dx",
+            "C. dx",
+            "D. Integral dx"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "Calculate the Laplacian of V = (e^-x) sin(y).",
+        "choices": [
+            "A. (e^-x) cos(y)",
+            "B. -2(e^-x) sin(y)",
+            "C. 0",
+            "D. 2(e^-x) sin(y)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "The Divergence Theorem establishes a mathematical transformation between a surface integral and a:",
+        "choices": [
+            "A. Line integral",
+            "B. Volume integral",
+            "C. Path integral",
+            "D. Contour integral"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "The Divergence Theorem is alternatively and commonly known as:",
+        "choices": [
+            "A. Stokes' Theorem",
+            "B. Green's Theorem",
+            "C. Helmholtz Theorem",
+            "D. Gauss's Theorem"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "According to the Divergence Theorem, the closed surface integral of A . dS equals the volume integral of:",
+        "choices": [
+            "A. Del . A",
+            "B. Del x A",
+            "C. Del A",
+            "D. Del^2 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "For the Divergence Theorem to be properly applied, the surface bounding the volume must be:",
+        "choices": [
+            "A. Open",
+            "B. Infinite",
+            "C. Closed",
+            "D. Flat"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "If a vector field A is solenoidal, the total flux of A out of any closed surface is exactly:",
+        "choices": [
+            "A. Infinite",
+            "B. 0",
+            "C. 1",
+            "D. Equal to the volume"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "Using the Divergence Theorem, find the outward flux of F = r a_r through a sphere of radius r = 2.",
+        "choices": [
+            "A. 16 pi",
+            "B. 8 pi",
+            "C. 24 pi",
+            "D. 32 pi"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "The Divergence Theorem is mathematically applicable to which types of fields?",
+        "choices": [
+            "A. Any vector field with continuous spatial derivatives",
+            "B. Only uniform fields",
+            "C. Only electrostatic fields",
+            "D. Only solenoidal fields"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "If the divergence of a field F is a constant 'k' within a cube centered at the origin, the net flux leaving the cube is:",
+        "choices": [
+            "A. 0",
+            "B. k",
+            "C. k multiplied by the cube's volume",
+            "D. k divided by the cube's volume"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "The Divergence Theorem can be viewed as the three-dimensional extension of which 2D theorem?",
+        "choices": [
+            "A. Stokes' theorem",
+            "B. Green's theorem in normal form",
+            "C. Green's theorem in tangential form",
+            "D. Helmholtz theorem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "If the net flux of a vector field leaving a closed region is negative, the region must contain a:",
+        "choices": [
+            "A. Source",
+            "B. Conservative field",
+            "C. Uniform field",
+            "D. Sink"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "Stokes' Theorem mathematically bridges a closed line integral with a:",
+        "choices": [
+            "A. Line integral",
+            "B. Volume integral",
+            "C. Surface integral",
+            "D. Contour integral"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "According to Stokes' Theorem, the closed line integral of A . dl is equal to the surface integral of:",
+        "choices": [
+            "A. Del x A",
+            "B. Del . A",
+            "C. Del A",
+            "D. Del^2 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "In the application of Stokes' Theorem, the line integral is evaluated over a path that is strictly:",
+        "choices": [
+            "A. Infinite",
+            "B. Closed",
+            "C. Open",
+            "D. Straight"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "The direction of the line integral contour and the direction of the surface normal in Stokes' Theorem are related by the:",
+        "choices": [
+            "A. Left-hand rule",
+            "B. Superposition principle",
+            "C. Commutative law",
+            "D. Right-hand rule"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "If the curl of a vector field is zero everywhere, what is the value of its line integral around any closed loop?",
+        "choices": [
+            "A. Infinite",
+            "B. 1",
+            "C. 0",
+            "D. Equal to the area"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "The physical implication of Stokes' theorem on a conservative force field is that the work done around a closed path is:",
+        "choices": [
+            "A. 0",
+            "B. Maximum",
+            "C. Minimum",
+            "D. Proportional to the path length"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 67,
+        "question": "In Stokes' theorem, the surface over which the curl is integrated must be:",
+        "choices": [
+            "A. A closed volume",
+            "B. An open surface bounded by the line contour",
+            "C. An infinite plane",
+            "D. A sphere"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "Stokes' Theorem can be considered the three-dimensional generalization of:",
+        "choices": [
+            "A. Gauss's Theorem",
+            "B. Divergence Theorem",
+            "C. Helmholtz's Theorem",
+            "D. Green's Theorem (tangential form)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "Use Stokes' theorem to find the circulation of F = y a_x - x a_y around a unit circle in the xy-plane.",
+        "choices": [
+            "A. 2 pi",
+            "B. pi",
+            "C. -2 pi",
+            "D. 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "If Stokes' Theorem is applied to a fully closed surface (like a spherical shell), what is the evaluation of the contour integral?",
+        "choices": [
+            "A. Zero, because the boundary contour shrinks to nothing",
+            "B. Infinite",
+            "C. Equal to the surface area",
+            "D. Equal to the enclosed volume"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "Which of the following vector identities is unconditionally true for any continuously differentiable vector field A?",
+        "choices": [
+            "A. Del x (Del x A) = 0",
+            "B. Del . (Del x A) = 0",
+            "C. Del(Del . A) = 0",
+            "D. Del . (Del A) = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "Which of the following vector identities is unconditionally true for any continuously differentiable scalar field V?",
+        "choices": [
+            "A. Del x (Del x V) = 0",
+            "B. Del(Del V) = 0",
+            "C. Del . (Del x V) = 0",
+            "D. Del x (Del V) = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "The expansion of the divergence of a scalar multiplied by a vector, Del . (fA), yields:",
+        "choices": [
+            "A. f(Del . A) + A . (Del f)",
+            "B. (Del f) . (Del A)",
+            "C. f(Del x A) + A(Del f)",
+            "D. f(Del . A) - A . (Del f)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "The expansion of the curl of a scalar multiplied by a vector, Del x (fA), yields:",
+        "choices": [
+            "A. f(Del x A) - (Del f) x A",
+            "B. f(Del . A) x (Del f)",
+            "C. f(Del x A) + (Del f) x A",
+            "D. f(Del x A) + A x (Del f)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "What is the correct expansion for the vector identity involving the double curl, Del x (Del x A)?",
+        "choices": [
+            "A. Del^2 A - Del(Del . A)",
+            "B. Del(Del . A) - Del^2 A",
+            "C. Del(Del x A) - Del^2 A",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "Which expression correctly expands the divergence of a cross product, Del . (A x B)?",
+        "choices": [
+            "A. A . (Del x B) - B . (Del x A)",
+            "B. A x (Del x B) + B x (Del x A)",
+            "C. B x (Del . A) - A x (Del . B)",
+            "D. B . (Del x A) - A . (Del x B)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "When expanding the gradient of a dot product, Del(A . B), how many distinct terms are produced in the standard vector identity?",
+        "choices": [
+            "A. 2",
+            "B. 3",
+            "C. 4",
+            "D. 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "Applying the divergence operator to the gradient of a scalar V (i.e., Del . Del V) results directly in the:",
+        "choices": [
+            "A. Laplacian of V",
+            "B. Curl of V",
+            "C. Vector V",
+            "D. Zero vector"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "Determine the validity of the statement: Del x (A x B) = A(Del . B) - B(Del . A).",
+        "choices": [
+            "A. True, this is the complete identity",
+            "B. False, there are two missing terms involving directional derivatives",
+            "C. True, but only in Cartesian coordinates",
+            "D. False, it should be a dot product"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "Which fundamental vector identity mathematically proves that any conservative vector field has no curl?",
+        "choices": [
+            "A. Del . (Del x A) = 0",
+            "B. Del x (A x B) = 0",
+            "C. Del . (f A) = 0",
+            "D. Del x (Del V) = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "In electrostatics, Poisson's equation relating electric potential V and volume charge density rho is:",
+        "choices": [
+            "A. Del^2 V = rho/epsilon",
+            "B. Del V = -rho/epsilon",
+            "C. Del^2 V = -rho/epsilon",
+            "D. Del x V = rho"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "If the region under consideration contains absolutely no free charge (rho = 0), Poisson's equation mathematically reduces to:",
+        "choices": [
+            "A. Laplace's equation",
+            "B. Maxwell's equation",
+            "C. Helmholtz equation",
+            "D. Wave equation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "The Uniqueness Theorem in electromagnetics guarantees a unique solution to Laplace's equation provided that what is completely specified?",
+        "choices": [
+            "A. The material properties",
+            "B. The boundary conditions",
+            "C. The initial frequency",
+            "D. The curl of the field"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "An important property of harmonic functions (solutions to Laplace's eq.) is that within the specified charge-free volume, the potential V:",
+        "choices": [
+            "A. Must be exactly zero",
+            "B. Has local maxima and minima",
+            "C. Oscillates sinusoidally",
+            "D. Has no local maxima or minima"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "For a one-dimensional parallel-plate capacitor where V depends only on the x-axis, Laplace's equation simplifies to:",
+        "choices": [
+            "A. dV/dx = 0",
+            "B. d^2V/dy^2 = 0",
+            "C. d^2V/dx^2 = 0",
+            "D. Del V = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 86,
+        "question": "Which partial differential equation must the electric potential satisfy in a completely charge-free dielectric region?",
+        "choices": [
+            "A. Laplace's equation",
+            "B. Poisson's equation",
+            "C. Ampere's law",
+            "D. Faraday's law"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "A scalar function that is a valid solution to Laplace's equation (Del^2 V = 0) is mathematically referred to as a:",
+        "choices": [
+            "A. Conservative function",
+            "B. Harmonic function",
+            "C. Solenoidal function",
+            "D. Vector potential"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "The mean value theorem for Laplace's equation implies that the value of the potential V at the exact center of a spherical region is:",
+        "choices": [
+            "A. Zero",
+            "B. The maximum value in the region",
+            "C. The minimum value in the region",
+            "D. The average of V over the spherical surface"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "What mathematical technique is most commonly employed to analytically solve Laplace's equation in Cartesian, cylindrical, or spherical coordinates?",
+        "choices": [
+            "A. Finite Element Method",
+            "B. Integration by parts",
+            "C. Separation of variables",
+            "D. L'Hopital's rule"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "In Poisson's equation, Del^2 V = -rho/epsilon_0, what specific physical quantity does 'rho' represent?",
+        "choices": [
+            "A. Volume charge density",
+            "B. Surface charge density",
+            "C. Line charge density",
+            "D. Resistivity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "Helmholtz's Theorem dictates that a vector field is completely uniquely determined if which two quantities are specified everywhere?",
+        "choices": [
+            "A. Magnitude and Direction",
+            "B. Divergence and Curl",
+            "C. Gradient and Laplacian",
+            "D. Scalar and Vector potentials"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "According to the Helmholtz decomposition, any sufficiently smooth and rapidly decaying vector field can be resolved into the sum of:",
+        "choices": [
+            "A. Two solenoidal fields",
+            "B. Two irrotational fields",
+            "C. A scalar and a tensor field",
+            "D. An irrotational field and a solenoidal field"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "In the standard Helmholtz decomposition expression F = -Del V + Del x A, the term 'V' represents the:",
+        "choices": [
+            "A. Vector potential",
+            "B. Magnetic field",
+            "C. Scalar potential",
+            "D. Charge density"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "In the standard Helmholtz decomposition expression F = -Del V + Del x A, the term 'A' represents the:",
+        "choices": [
+            "A. Vector potential",
+            "B. Electric field",
+            "C. Scalar potential",
+            "D. Current density"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "If a vector field exhibits zero curl everywhere in space, Helmholtz's theorem implies it can be expressed entirely as the:",
+        "choices": [
+            "A. Curl of a vector potential",
+            "B. Gradient of a scalar potential",
+            "C. Divergence of a tensor",
+            "D. Laplacian of a scalar"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "If a vector field exhibits zero divergence everywhere in space, Helmholtz's theorem implies it can be expressed entirely as the:",
+        "choices": [
+            "A. Divergence of a scalar",
+            "B. Gradient of a scalar potential",
+            "C. Laplacian of a vector",
+            "D. Curl of a vector potential"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "In the decomposition F = -Del V + Del x A, the component mathematically represented by \"-Del V\" is known as the:",
+        "choices": [
+            "A. Transverse component",
+            "B. Solenoidal component",
+            "C. Longitudinal (irrotational) component",
+            "D. Rotational component"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 98,
+        "question": "In the decomposition F = -Del V + Del x A, the component mathematically represented by \"Del x A\" is known as the:",
+        "choices": [
+            "A. Transverse (solenoidal) component",
+            "B. Longitudinal component",
+            "C. Irrotational component",
+            "D. Scalar component"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "For the Helmholtz decomposition theorem to be valid over all infinite space, the vector field must satisfy what necessary boundary condition at infinity?",
+        "choices": [
+            "A. It must approach infinity",
+            "B. It must decay to zero sufficiently fast",
+            "C. It must become purely uniform",
+            "D. It must oscillate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 100,
+        "question": "In classical electromagnetics, the Helmholtz theorem provides the fundamental mathematical justification for defining E and B fields using:",
+        "choices": [
+            "A. Only physical charges and currents",
+            "B. Only numerical approximations",
+            "C. Boundary value methods",
+            "D. Scalar and Vector potentials"
+        ],
+        "correct_answer": "D"
+    }
+]

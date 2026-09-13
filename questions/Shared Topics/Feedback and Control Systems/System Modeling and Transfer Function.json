@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "In asynchronous logic design, what defines the strict \"Fundamental Mode\" of operation?",
+        "choices": [
+            "A. Only one input variable can change at a time, and it must settle before another changes",
+            "B. Inputs can change simultaneously if clocked",
+            "C. Inputs are high-frequency pulses",
+            "D. The circuit uses flip-flops instead of latches"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "A logic circuit output is designed to remain at a steady logic 1 when an input changes, but it momentarily drops to 0 and returns to 1. This specific phenomenon is strictly called a:",
+        "choices": [
+            "A. A multi-transition glitch",
+            "B. Static-1 hazard",
+            "C. A race between two state variables",
+            "D. A failure caused by feedback delays"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "What physical hardware component is deliberately inserted into a feedback loop of an asynchronous circuit by a designer to permanently cure an essential hazard?",
+        "choices": [
+            "A. A pull-up resistor",
+            "B. A Mealy state machine",
+            "C. A delay line (or buffer gates)",
+            "D. A faster system clock"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "In an asynchronous sequential circuit, a \"race condition\" strictly occurs when a single input variable change forces:",
+        "choices": [
+            "A. The output to oscillate indefinitely",
+            "B. A single input to change twice",
+            "C. The power supply to drop below a threshold",
+            "D. Two or more internal state variables to attempt to change simultaneously"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "An asynchronous circuit is instructed to transition directly from state 00 to state 11. If y2 changes first, the path is 00 -> 01 -> 11. If y1 changes first, the path is 00 -> 10 -> 00. This specific scenario describes a:",
+        "choices": [
+            "A. Non-critical race",
+            "B. Critical race",
+            "C. Essential hazard",
+            "D. Dynamic hazard"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "How can static hazards be systematically identified and completely eliminated in a two-level Sum of Products (SOP) combinational circuit?",
+        "choices": [
+            "A. Removing all redundant loops",
+            "B. Converting the map to Product of Sums",
+            "C. Adding redundant prime implicants (consensus terms) to overlap adjacent groups of 1s",
+            "D. Grouping the 0s instead of 1s"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "Dynamic hazards strictly occur only in combinational logic circuits that physically possess:",
+        "choices": [
+            "A. Only NOR gates",
+            "B. Exactly two levels of logic (SOP or POS)",
+            "C. A clock pulse",
+            "D. Three or more levels of logic with multiple signal paths of unequal delay"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "The strict engineering technique used to assign binary codes to abstract states so that every valid transition requires only a single bit change is formally called:",
+        "choices": [
+            "A. Shared row assignment (or adjacent state assignment / Gray coding)",
+            "B. Using straight binary counting",
+            "C. Assigning random states",
+            "D. Using BCD encoding"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "What is the primary operational difference between an open-loop and a closed-loop control system?",
+        "choices": [
+            "A. Open-loop has higher bandwidth",
+            "B. Closed-loop uses less power",
+            "C. Closed-loop utilizes feedback to automatically correct for errors, open-loop does not",
+            "D. Open-loop requires a microcontroller"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "Which type of control system is highly sensitive to external disturbances and internal parameter variations?",
+        "choices": [
+            "A. Proportional-Integral controller",
+            "B. Closed-loop system",
+            "C. Feedback system",
+            "D. Open-loop system"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "A standard mechanical washing machine without internal sensors operates for exactly 30 minutes regardless of how dirty the clothes actually are. This is a classic example of:",
+        "choices": [
+            "A. An open-loop control system",
+            "B. A closed-loop control system",
+            "C. A stochastic control system",
+            "D. An adaptive control system"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "The transfer function of a linear time-invariant (LTI) system is mathematically defined as the ratio of the Laplace transform of the output to the Laplace transform of the input, strictly assuming:",
+        "choices": [
+            "A. Infinite initial conditions",
+            "B. All initial conditions are completely zero",
+            "C. The input is a unit impulse",
+            "D. The system is marginally stable"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "In a closed-loop control system, the specific component that directly compares the reference input with the measured feedback signal to produce an error signal is the:",
+        "choices": [
+            "A. Actuator",
+            "B. Plant",
+            "C. Controller",
+            "D. Summing junction (Error detector)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "What is a significant engineering advantage of an open-loop system over a closed-loop system?",
+        "choices": [
+            "A. It is generally simpler in design, highly stable by nature, and less expensive to construct",
+            "B. It perfectly rejects internal component parameter variations",
+            "C. It automatically corrects for unknown external disturbances",
+            "D. It provides a significantly faster settling time for complex dynamics"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "A physical system has a forward gain G and a negative feedback gain H. What is the standard mathematical expression for the overall closed-loop transfer function?",
+        "choices": [
+            "A. G * H",
+            "B. G / (1 + GH)",
+            "C. G / (1 - GH)",
+            "D. (G + H) / (1 + GH)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "The application of continuous negative feedback in a dynamic control system generally has what distinct physical effect on the system's overall bandwidth?",
+        "choices": [
+            "A. It strictly decreases the bandwidth",
+            "B. It drops the bandwidth to exactly zero",
+            "C. It significantly increases the bandwidth",
+            "D. It has absolutely no effect on the bandwidth"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "The roots of the numerator polynomial of a classical transfer function are formally known as the system's:",
+        "choices": [
+            "A. Zeros",
+            "B. Poles",
+            "C. Eigenvalues",
+            "D. State variables"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "The roots of the denominator polynomial of a transfer function determine the system's dynamic characteristics (like stability) and are formally known as the system's:",
+        "choices": [
+            "A. Zeros",
+            "B. Forcing functions",
+            "C. Poles",
+            "D. Asymptotes"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "A pure time delay (also known as transport delay) of 'T' seconds in a physical plant is mathematically modeled in the Laplace s-domain by the transfer function:",
+        "choices": [
+            "A. 1 / (Ts + 1)",
+            "B. e^(-sT)",
+            "C. sT",
+            "D. 1 - e^(-sT)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "Worded circuit: Two completely identical, unbuffered RC low-pass filters (R=1kΩ, C=1µF) are cascaded in series. The overall transfer function V_out(s) / V_in(s) is NOT simply [1/(RCs+1)]^2 because:",
+        "choices": [
+            "A. The capacitors act as open circuits in DC",
+            "B. The Laplace transform cannot handle multiple components",
+            "C. The resistors cancel each other out",
+            "D. The second RC stage electrically loads the first RC stage, fundamentally altering its individual transfer function"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "To find the characteristic equation of a closed-loop control system, an engineer must take the denominator of the overall closed-loop transfer function and:",
+        "choices": [
+            "A. Differentiate it with respect to time",
+            "B. Set it exactly equal to zero",
+            "C. Integrate it from zero to infinity",
+            "D. Multiply it by the numerator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "For a generic control system with an open-loop transfer function G(s) and a feedback transfer function H(s), the characteristic equation is universally written as:",
+        "choices": [
+            "A. G(s) = H(s)",
+            "B. G(s) / H(s) = 0",
+            "C. 1 - G(s)H(s) = 0",
+            "D. 1 + G(s)H(s) = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 23,
+        "question": "In the complex Laplace domain, what is the standard equivalent impedance of a pure ideal inductor (L) assuming strictly zero initial current?",
+        "choices": [
+            "A. sL",
+            "B. 1 / (sL)",
+            "C. s / L",
+            "D. L / s"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "In the complex Laplace domain, what is the standard equivalent impedance of a pure ideal capacitor (C) assuming strictly zero initial charge?",
+        "choices": [
+            "A. sC",
+            "B. C / s",
+            "C. 1 / (sC)",
+            "D. s / C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "Worded circuit: A simple series RC circuit is driven by a generic voltage source Vi(t). The output Vo(t) is taken strictly across the capacitor. What is the standard transfer function Vo(s)/Vi(s)?",
+        "choices": [
+            "A. RCs / (RCs + 1)",
+            "B. R / (RCs + 1)",
+            "C. 1 / (RCs + 1)",
+            "D. sC / (R + sC)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "Worded circuit: A basic series RL circuit is driven by a voltage source Vi(t). The output Vo(t) is taken strictly across the inductor. What is the transfer function Vo(s)/Vi(s)?",
+        "choices": [
+            "A. sL / (R + sL)",
+            "B. R / (R + sL)",
+            "C. 1 / (sL + R)",
+            "D. s / (R + sL)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "Worded circuit: A classic RLC series electrical circuit has voltage input Vi(s) and current output I(s). What is the operational transfer function I(s)/Vi(s) representing the system's admittance?",
+        "choices": [
+            "A. 1 / (LCs^2 + RCs + 1)",
+            "B. (LCs^2 + 1) / R",
+            "C. 1 / (R + sL + sC)",
+            "D. sC / (LCs^2 + RCs + 1)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 28,
+        "question": "In standard mechanical-electrical force-voltage analogies, mechanical mass (M) is mathematically and strictly analogous to which specific electrical component?",
+        "choices": [
+            "A. Resistor",
+            "B. Inductor",
+            "C. Capacitor",
+            "D. Voltage Source"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "In standard mechanical-electrical force-voltage analogies, a mechanical viscous damper (friction coefficient B) is directly and mathematically analogous to:",
+        "choices": [
+            "A. Capacitance",
+            "B. Inductance",
+            "C. Current",
+            "D. Resistance"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "In standard mechanical-electrical force-voltage analogies, the mechanical spring (stiffness constant K) is mathematically analogous to:",
+        "choices": [
+            "A. Resistance (R)",
+            "B. Reciprocal of capacitance (1/C) or Elastance",
+            "C. Inductance (L)",
+            "D. Admittance (Y)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "According to Newton's Second Law of Motion for simple translating bodies, the algebraic sum of all applied forces on a rigid mass M equals:",
+        "choices": [
+            "A. The mass divided by its velocity",
+            "B. The mass multiplied by its position",
+            "C. The mass multiplied by its acceleration (M * d²x/dt²)",
+            "D. The integral of its position over time"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "In purely rotational mechanical systems, what is the direct functional equivalent of linear mass?",
+        "choices": [
+            "A. Moment of Inertia (J)",
+            "B. Rotational stiffness (K)",
+            "C. Angular velocity (ω)",
+            "D. Viscous friction coefficient (B)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "Worded circuit: An ideal operational amplifier is configured as an active differentiator. The input component is a capacitor C, and the feedback component is a resistor R. What is the ideal transfer function Vo(s)/Vi(s)?",
+        "choices": [
+            "A. -RCs",
+            "B. -1 / (RCs)",
+            "C. -R / (sC)",
+            "D. 1 / (RCs + 1)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Worded circuit: An ideal op-amp is configured as an active integrator. The input component is a resistor R, and the feedback component is a capacitor",
+        "choices": [
+            "C. What is the ideal transfer function Vo(s)/Vi(s)?",
+            "A. RCs",
+            "B. -R / (sC)",
+            "C. 1 / (RCs)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 35,
+        "question": "The standard mathematical transfer function form of an ideal, parallel Proportional-Integral-Derivative (PID) controller is:",
+        "choices": [
+            "A. Kp + Ki*s + Kd/s",
+            "B. Kp * (Ki/s) * (Kd*s)",
+            "C. Kp + Ki/s + Kd*s",
+            "D. Kp / (1 + Ki/s + Kd*s)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "In a standard armature-controlled DC motor, which specific electrical parameter is purposefully kept constant to maintain a perfectly linear torque relationship?",
+        "choices": [
+            "A. Armature voltage",
+            "B. Field current (or permanent magnetic flux)",
+            "C. Armature resistance",
+            "D. Back electromotive force"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "For an ideal DC motor, the mechanical torque (Tm) developed by the motor is strictly and linearly proportional to the:",
+        "choices": [
+            "A. Field voltage",
+            "B. Armature current (Tm = Kt * Ia)",
+            "C. Armature resistance",
+            "D. Motor rotational speed"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "The back electromotive force (EMF) generated in a spinning DC motor armature is directly and linearly proportional to the:",
+        "choices": [
+            "A. Angular velocity of the motor shaft (Vb = Kb * ω)",
+            "B. Acceleration of the motor shaft",
+            "C. Armature current",
+            "D. Inductance of the armature winding"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "Worded circuit: When mathematically modeling a DC motor, the armature circuit has resistance Ra and inductance La. If La is assumed negligibly small (La ≈ 0), the mechanical transfer function Ω(s)/Va(s) mathematically reduces to a generic form of a:",
+        "choices": [
+            "A. Second-order underdamped system",
+            "B. Pure integrator",
+            "C. Pure differentiator",
+            "D. First-order low-pass system"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "If an armature-controlled DC motor is utilized strictly as a position control system (output is angle θ instead of velocity ω), the resulting overall transfer function θ(s)/Va(s) effectively adds what specific mathematical component to the velocity transfer function?",
+        "choices": [
+            "A. A zero at the origin (s)",
+            "B. A pole at -1 (1/(s+1))",
+            "C. A pole at the origin (1/s), acting as a pure integrator",
+            "D. A time delay (e^-s)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "Which specific block diagram reduction rule applies when moving a summing point strictly AHEAD of a generic block G?",
+        "choices": [
+            "A. Add a block G in parallel",
+            "B. Multiply the signal by G",
+            "C. Add a block with transfer function 1/G in that signal path",
+            "D. The signal remains completely unchanged"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "When moving a take-off (pick-off) point strictly AHEAD of a generic block G in a block diagram, the signal path being moved must be mathematically modified by adding a block with a transfer function of:",
+        "choices": [
+            "A. 1/G",
+            "B. G",
+            "C. 1 - G",
+            "D. -G"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Two separate blocks with transfer functions G1 and G2 are connected perfectly in parallel, summing their respective outputs together. The equivalent combined transfer function is:",
+        "choices": [
+            "A. G1 + G2",
+            "B. G1 * G2",
+            "C. G1 / G2",
+            "D. G1 / (1 + G1*G2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "Mason's Gain Formula is a powerful, systematic mathematical tool utilized exclusively to find the overall transfer function of a:",
+        "choices": [
+            "A. Nonlinear system using describing functions",
+            "B. Sampled-data system using Z-transforms",
+            "C. State-space matrix",
+            "D. Signal Flow Graph (SFG)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "In a standard Signal Flow Graph (SFG), a \"forward path\" is strictly defined as a continuous path from the input node to the output node that:",
+        "choices": [
+            "A. Traverses at least one loop",
+            "B. Touches the same node multiple times",
+            "C. Has a gain greater than 1",
+            "D. Does not cross any single node more than once"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 46,
+        "question": "When calculating the system determinant (∆) in Mason's Gain Formula, the specific term \"non-touching loops\" refers explicitly to loops that:",
+        "choices": [
+            "A. Do not share the same forward path",
+            "B. Do not have the same loop gain",
+            "C. Do not share any common nodes or branches",
+            "D. Do not connect to the input node"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "A specific linear control system has the characteristic equation s^3 + 2s^2 + 4s + K = 0. According to the Routh-Hurwitz stability criterion, for the system to be absolutely stable, K must be strictly bounded by:",
+        "choices": [
+            "A. K < 0",
+            "B. 0 < K < 8",
+            "C. K > 8",
+            "D. K = 8"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "If a continuous system's characteristic equation possesses distinct roots that lie exactly on the jω (imaginary) axis with absolutely no roots in the right-half plane, the system is mathematically classified as:",
+        "choices": [
+            "A. Marginally stable (or oscillatory)",
+            "B. Asymptotically stable",
+            "C. Absolutely unstable",
+            "D. Critically damped"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "The presence of even a single pole in the right-half of the complex s-plane fundamentally dictates that the linear control system is unconditionally:",
+        "choices": [
+            "A. Unstable",
+            "B. Stable",
+            "C. Marginally stable",
+            "D. Non-causal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "The formal \"Order\" of a linear control system is strictly and mathematically determined by:",
+        "choices": [
+            "A. The number of zeros in the transfer function",
+            "B. The highest power of 's' in the characteristic polynomial (denominator of the closed-loop transfer function)",
+            "C. The number of integrators in the open-loop system",
+            "D. The magnitude of the steady-state error"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "The formal \"Type\" of a linear feedback control system specifically refers to:",
+        "choices": [
+            "A. Whether the system is open-loop or closed-loop",
+            "B. The total number of poles in the closed-loop transfer function",
+            "C. The degree of the numerator polynomial",
+            "D. The exact number of poles located exactly at the origin (s=0) of the open-loop transfer function"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "A control system has an open-loop transfer function defined as G(s)H(s) = K / [s^2 * (s+2) * (s+5)]. What are the system Type and system Order, respectively?",
+        "choices": [
+            "A. Type 0, Order 4",
+            "B. Type 4, Order 2",
+            "C. Type 2, Order 4",
+            "D. Type 1, Order 3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 53,
+        "question": "The standard normalized form of the characteristic equation for a generic second-order system is s^2 + 2ζωn*s + ωn^2 = 0. The unitless parameter ζ (zeta) strictly represents the:",
+        "choices": [
+            "A. Undamped natural frequency",
+            "B. Damping ratio",
+            "C. Time constant",
+            "D. Attenuation factor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "If a second-order control system has a damping ratio ζ exactly equal to 1, the system's dynamic step response is mathematically classified as:",
+        "choices": [
+            "A. Underdamped",
+            "B. Overdamped",
+            "C. Critically damped",
+            "D. Undamped"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "A standard second-order system exhibits an underdamped step response with distinct decaying oscillations. This physical behavior strictly implies that its damping ratio ζ must be mathematically bounded by:",
+        "choices": [
+            "A. Between 0 and 1 (0 < ζ < 1)",
+            "B. Exactly 0",
+            "C. Exactly 1",
+            "D. Greater than 1 (ζ > 1)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "For a standard underdamped second-order control system, the \"Percentage Overshoot\" (%OS) of the step response is a direct, isolated mathematical function of only the:",
+        "choices": [
+            "A. Natural frequency (ωn)",
+            "B. System gain (K)",
+            "C. Settling time (Ts)",
+            "D. Damping ratio (ζ)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "The most common engineering approximation for the 2% settling time (Ts) of a standard underdamped second-order system is given by the formula:",
+        "choices": [
+            "A. 1 / (ζωn)",
+            "B. π / ωd",
+            "C. 4 / (ζωn)",
+            "D. 2.2 / ωn"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "Worded mechanical system: A simple liquid-in-glass thermometer is abruptly placed into a hot liquid bath. The dynamic response of the temperature reading exponentially rising to match the liquid temperature perfectly models a:",
+        "choices": [
+            "A. Second-order underdamped system",
+            "B. Pure integrator",
+            "C. Pure time delay",
+            "D. First-order low-pass system"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 59,
+        "question": "For a standard first-order system with transfer function K / (Ts + 1), the parameter 'T' represents the system's time constant. Physically, T is the time required for the step response to reach approximately what percentage of its final steady-state value?",
+        "choices": [
+            "A. 50.0%",
+            "B. 63.2%",
+            "C. 86.5%",
+            "D. 98.0%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "The standard mathematical formula used to approximate the 10% to 90% rise time (Tr) of a basic first-order system with time constant T is:",
+        "choices": [
+            "A. 2.2 * T",
+            "B. 3.0 * T",
+            "C. 4.0 * T",
+            "D. 0.632 * T"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "The Final Value Theorem is used to reliably find the steady-state value of a system's time response f(t) as t approaches infinity. The strict mathematical theorem states f(∞) equals:",
+        "choices": [
+            "A. lim(s->0) F(s)",
+            "B. lim(s->∞) s*F(s)",
+            "C. lim(s->∞) F(s)",
+            "D. lim(s->0) s*F(s)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 62,
+        "question": "The Final Value Theorem will mathematically fail and yield an incorrect, nonsensical result if the function s*F(s) possesses any poles located:",
+        "choices": [
+            "A. On the jω-axis or anywhere in the right-half of the s-plane",
+            "B. Strictly at the origin (s=0)",
+            "C. In the left-half of the s-plane",
+            "D. On the negative real axis"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "The Initial Value Theorem is used to determine the initial starting value of a time function f(t) exactly at t=0+. The theorem states f(0+) mathematically equals:",
+        "choices": [
+            "A. lim(s->0) F(s)",
+            "B. lim(s->0) s*F(s)",
+            "C. lim(s->∞) s*F(s)",
+            "D. lim(s->∞) F(s)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "What is the exact Laplace transform of a continuous unit ramp function r(t) = t (for t >= 0)?",
+        "choices": [
+            "A. 1 / s",
+            "B. 1 / s^2",
+            "C. 1 / (s + 1)",
+            "D. s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "The fundamental mathematical principle that allows complex linear systems to be modeled by transfer functions, stating that the response to a sum of inputs is exactly the sum of their individual responses, is:",
+        "choices": [
+            "A. The Principle of Superposition",
+            "B. The Principle of Conservation of Energy",
+            "C. D'Alembert's Principle",
+            "D. The Maximum Power Transfer Theorem"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Why can a standard transfer function strictly NOT be used to accurately model a highly non-linear physical system (like an amplifier entering saturation)?",
+        "choices": [
+            "A. Because non-linear systems do not have physical outputs",
+            "B. Because Laplace transforms only mathematically work for purely electrical RLC circuits",
+            "C. Because the foundational principle of superposition and proportionality fails completely in non-linear systems",
+            "D. Because non-linear systems have inherently infinite bandwidth"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "A pure step input is applied to a Type 0 control system. The resulting steady-state position error (ess) will mathematically be:",
+        "choices": [
+            "A. Zero",
+            "B. Infinity",
+            "C. Unpredictable",
+            "D. A constant, finite, non-zero value (1 / (1+Kp))"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 68,
+        "question": "A pure ramp input (constant velocity) is applied to a Type 1 control system. The resulting steady-state error (ess) will mathematically be:",
+        "choices": [
+            "A. Zero",
+            "B. A constant, finite, non-zero value (1 / Kv)",
+            "C. Infinity",
+            "D. Exponentially increasing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "A pure parabolic input (constant acceleration) applied to a Type 1 control system will mathematically and inevitably result in a steady-state error of:",
+        "choices": [
+            "A. Zero",
+            "B. Infinity",
+            "C. A finite constant",
+            "D. A sinusoidal oscillation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "The static position error constant (Kp) of a closed-loop system is formally and mathematically defined by the limit:",
+        "choices": [
+            "A. lim(s->∞) G(s)H(s)",
+            "B. lim(s->0) s*G(s)H(s)",
+            "C. lim(s->0) s^2*G(s)H(s)",
+            "D. lim(s->0) G(s)H(s)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 71,
+        "question": "Worded circuit: A bridged-T electrical network consists of two series capacitors and a shunt resistor to ground, with a second resistor bridging entirely across the two capacitors. This analog electrical circuit is classically used in control systems as a:",
+        "choices": [
+            "A. Pure integrator",
+            "B. Precision voltage reference",
+            "C. Lead-lag compensator network",
+            "D. High-power motor driver"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "A mechanical gear train is used to match a DC motor to a heavy load. The motor shaft has N1 teeth and the load shaft has N2 teeth. The ideal mechanical transfer function relating the torque at the load (T2) to the torque at the motor (T1) is:",
+        "choices": [
+            "A. T2 = T1 * (N2 / N1)",
+            "B. T2 = T1 * (N1 / N2)",
+            "C. T2 = T1 * (N2 / N1)^2",
+            "D. T2 = T1 / (N1*N2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "When mathematically reflecting the mechanical inertia of a load (J2) back to the motor shaft through an ideal gear train (Motor teeth N1, Load teeth N2), the equivalent inertia (Jeq) seen by the motor is exactly:",
+        "choices": [
+            "A. J2 * (N2 / N1)",
+            "B. J2 * (N1 / N2)",
+            "C. J2 * (N1 / N2)^2",
+            "D. J2 * (N2 / N1)^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "Worded mechanical system: Two strictly linear springs with individual stiffness constants K1 and K2 are physically connected perfectly in series, pulling on a single mass. What is the equivalent overall spring constant (Keq) of this cascaded system?",
+        "choices": [
+            "A. (K1 * K2) / (K1 + K2)",
+            "B. K1 + K2",
+            "C. K1 - K2",
+            "D. (K1 + K2) / (K1 * K2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "The natural undamped frequency (ωn) of a simple ideal spring-mass system (spring constant K, mass M) is mathematically given by the specific formula:",
+        "choices": [
+            "A. √(M/K)",
+            "B. K/M",
+            "C. M/K",
+            "D. √(K/M)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "When plotting the roots of a characteristic equation on the complex s-plane, the horizontal axis strictly represents the:",
+        "choices": [
+            "A. Imaginary frequency component (jω)",
+            "B. Phase angle (θ)",
+            "C. Damping ratio (ζ)",
+            "D. Real attenuation factor (σ)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "When analyzing the transient response of a control system, mathematically adding a \"zero\" to the closed-loop transfer function typically has what physical effect on the step response?",
+        "choices": [
+            "A. It decreases the overshoot and slows down the system",
+            "B. It increases the peak overshoot and decreases the rise time (makes it faster)",
+            "C. It completely eliminates all physical oscillations",
+            "D. It causes the system to become unconditionally unstable"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "Conversely, mathematically adding a \"pole\" to the closed-loop transfer function typically has what general physical effect on the system's step response?",
+        "choices": [
+            "A. It makes the system response more sluggish (increases rise time) and generally decreases overshoot",
+            "B. It drastically increases the peak transient overshoot",
+            "C. It drops the steady-state error precisely to zero",
+            "D. It turns a stable system into an infinite oscillator"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "The mathematical sensitivity of a closed-loop control system to variations in the forward path plant parameters G(s) is given precisely by the expression (where H is the feedback):",
+        "choices": [
+            "A. 1 + GH",
+            "B. GH / (1 + GH)",
+            "C. 1 / (1 + GH)",
+            "D. G / H"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 81,
+        "question": "Which fundamental control configuration is inherently and physically incapable of compensating for unpredictable external load disturbances acting directly on the plant?",
+        "choices": [
+            "A. An open-loop control system",
+            "B. A closed-loop control system",
+            "C. A PID controller",
+            "D. A feedback feedforward cascade system"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "What is the precise Laplace transform of the delayed unit step function, heavily used in piecewise continuous modeling, u(t - a)?",
+        "choices": [
+            "A. 1 / s",
+            "B. (1 / s) - a",
+            "C. a / s",
+            "D. (1 / s) * e^(-as)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "Given the specific Laplace transform F(s) = 5 / (s(s+2)), what is the final steady-state value of the time-domain function f(t) utilizing the Final Value Theorem?",
+        "choices": [
+            "A. 5",
+            "B. 2.5",
+            "C. 0",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "What is the exact mathematical inverse Laplace transform of the generic frequency domain function F(s) = 1 / (s + a)^2 ?",
+        "choices": [
+            "A. e^(-at)",
+            "B. t",
+            "C. t * e^(-at)",
+            "D. (1/a) * e^(-at)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "A pure time integration in the continuous time domain is perfectly mathematically equivalent to what specific operation in the Laplace s-domain?",
+        "choices": [
+            "A. Multiplying by s",
+            "B. Dividing by s",
+            "C. Multiplying by e^(-s)",
+            "D. Taking the derivative with respect to s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "A pure time differentiation in the continuous time domain (strictly assuming zero initial conditions) is perfectly mathematically equivalent to what specific operation in the Laplace s-domain?",
+        "choices": [
+            "A. Multiplying by s",
+            "B. Dividing by s",
+            "C. Adding s",
+            "D. Shifting by s"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "A physical system whose differential equation is 5(dy/dt) + 10y = x(t) has a DC steady-state gain (evaluated when s=0) of exactly:",
+        "choices": [
+            "A. 5",
+            "B. 0.5",
+            "C. 0.1",
+            "D. 10"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "Worded mechanical system: A rotational load with physical inertia J and bearing friction B is directly driven by a torque T. The transfer function relating the resulting angular velocity Ω(s) to the applied torque T(s) is:",
+        "choices": [
+            "A. 1 / (Js^2 + B)",
+            "B. s / (Js + B)",
+            "C. 1 / (J + Bs)",
+            "D. 1 / (Js + B)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "The steady-state error of any standard feedback control system is mathematically and physically defined as the difference between the:",
+        "choices": [
+            "A. Output and the feedback signal",
+            "B. Input and the controller output",
+            "C. Reference input and the actual measured output",
+            "D. Forward path and reverse path"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "A standard lead compensator network is primarily utilized by control engineers in a feedback loop to:",
+        "choices": [
+            "A. Drastically reduce the system bandwidth and slow the response",
+            "B. Increase the phase margin and improve the transient response (make it faster/more stable)",
+            "C. Increase the steady-state tracking error",
+            "D. Filter out high-frequency noise perfectly without shifting phase"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "A standard lag compensator network is primarily utilized by control engineers in a feedback loop to:",
+        "choices": [
+            "A. Increase the transient peak overshoot",
+            "B. Speed up the overall transient response significantly",
+            "C. Make the system absolutely unstable for testing",
+            "D. Improve the steady-state accuracy by providing high low-frequency gain without severely degrading stability"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "The generic transfer function of a continuous Phase Lead compensator is Gc(s) = (s + z) / (s + p). For this electrical network to function strictly as a phase lead compensator, the physical relationship between the pole (p) and zero (z) must strictly be:",
+        "choices": [
+            "A. The zero must be closer to the origin than the pole (",
+            "B. z",
+            "C. <",
+            "D. p"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 93,
+        "question": "In a standard control system block diagram, a circle with an 'X' or cross inside, receiving multiple incoming signal arrows and outputting exactly one, represents a:",
+        "choices": [
+            "A. Take-off point",
+            "B. Transfer function block",
+            "C. Non-linear saturation limit",
+            "D. Summing junction"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "If the open-loop transfer function of a physical system is G(s) = 10 / (s+2), and it is placed in a standard unity negative feedback loop (H(s) = 1), what is the exact closed-loop characteristic equation?",
+        "choices": [
+            "A. s + 2 = 0",
+            "B. s + 10 = 0",
+            "C. s + 12 = 0",
+            "D. 10s + 20 = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "Using the exact system from the previous question (G(s) = 10/(s+2), strictly unity negative feedback), what is the exact DC (steady-state) position gain of the closed-loop system?",
+        "choices": [
+            "A. 10/12 (or 5/6)",
+            "B. 10/2 (or 5)",
+            "C. 1",
+            "D. 10"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 96,
+        "question": "Worded circuit: An electromechanical DC motor system connects the electrical voltage input to a mechanical load inertia. This entire process fundamentally involves converting electrical energy to mechanical energy via magnetic coupling. In the Laplace mathematical model, this critical energy conversion is uniquely represented by:",
+        "choices": [
+            "A. The armature resistance (Ra)",
+            "B. The Motor Torque Constant (Kt) and Back EMF Constant (Kb)",
+            "C. The mechanical viscous friction (B)",
+            "D. The armature inductance (La)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "In the complex S-plane, moving a dynamic system's dominant closed-loop poles horizontally further to the left (further away from the jω imaginary axis) physically results in a system that:",
+        "choices": [
+            "A. Responds and settles much faster",
+            "B. Responds much slower",
+            "C. Becomes unconditionally unstable",
+            "D. Oscillates continuously forever"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "In the complex S-plane, moving a second-order system's complex conjugate closed-loop poles vertically further away from the real axis (increasing the imaginary part) while keeping the real part exactly constant physically results in:",
+        "choices": [
+            "A. A significantly slower settling time",
+            "B. A higher frequency of transient oscillation and a higher peak overshoot",
+            "C. Absolutely zero overshoot",
+            "D. A critically damped, sluggish response"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "For a physical system mathematically modeled by the continuous differential equation d2y/dt2 + 6(dy/dt) + 9y = x(t), what is the exact natural frequency (ωn) and damping ratio (ζ)?",
+        "choices": [
+            "A. ωn = 9, ζ = 6",
+            "B. ωn = 3, ζ = 0.5",
+            "C. ωn = 3, ζ = 1.0 (Critically damped)",
+            "D. ωn = 6, ζ = 9"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "A highly complex control system has an overall closed-loop transfer function T(s) = (s-2) / (s^2 + 3s + 2). Because this stable system possesses a single zero located precisely in the right-half plane (at s=+2), it is officially and mathematically classified as a:",
+        "choices": [
+            "A. Minimum-phase system",
+            "B. Unstable system",
+            "C. Non-causal system",
+            "D. Non-minimum phase system"
+        ],
+        "correct_answer": "D"
+    }
+]

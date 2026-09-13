@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "What term indicates the number of complete cycles of alternating voltage or current completed each second?",
+        "choices": [
+            "A. Period",
+            "B. Frequency",
+            "C. Amplitude",
+            "D. Phase"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "What term is used to indicate the time of one complete cycle of a waveform?",
+        "choices": [
+            "A. Frequency",
+            "B. Period",
+            "C. Wavelength",
+            "D. Phase"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "If the peak value of a sine wave is 1,000 volts, what is its effective (rms) value?",
+        "choices": [
+            "A. 637 V",
+            "B. 809 V",
+            "C. 1410 V",
+            "D. 707 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "What is the phase relationship between two voltage waves that differ in phase by 360 degrees?",
+        "choices": [
+            "A. They are out of phase with each other",
+            "B. They are in phase with each other",
+            "C. They are 90 degrees out of phase",
+            "D. They are 180 degrees out of phase"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "The distance traveled by a sine wave during one period is referred to as:",
+        "choices": [
+            "A. Amplitude",
+            "B. Phase",
+            "C. Wavelength",
+            "D. Period"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "What is the value of an alternating voltage or current at one particular instant called?",
+        "choices": [
+            "A. RMS value",
+            "B. Average value",
+            "C. Instantaneous value",
+            "D. Effective value"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "If the current and voltage in an AC circuit has a phase difference, it would mean that the load is:",
+        "choices": [
+            "A. resistive",
+            "B. reactive",
+            "C. capacitive",
+            "D. inductive"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "A resistive and a capacitive load of equal magnitude are connected in series. What is the phase difference between the voltage and the current?",
+        "choices": [
+            "A. Current lags the voltage by 45 degrees",
+            "B. Current leads the voltage by 45 degrees",
+            "C. Current leads the voltage by 90 degrees",
+            "D. Current lags the voltage by 90 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "Which of the following characteristics does NOT apply to an operational amplifier?",
+        "choices": [
+            "A. High gain",
+            "B. High input impedance",
+            "C. Low input impedance",
+            "D. Low output impedance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "Which op-amp application produces an output signal determined by the sum of the input signals multiplied by the gain?",
+        "choices": [
+            "A. Summing amplifier",
+            "B. Magnetic amplifier",
+            "C. Difference amplifier",
+            "D. Scaling amplifier"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "If the differential gain of an op-amp is 20,000 and the common-mode gain is 0.2, what is the CMRR in decibels?",
+        "choices": [
+            "A. 50 dB",
+            "B. 100 dB",
+            "C. 80 dB",
+            "D. 120 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "An inverting amplifier has a closed-loop gain of 25. The op-amp has an open-loop gain of 100,000. If another op-amp with an open-loop gain of 200,000 is substituted in the configuration, the closed-loop gain:",
+        "choices": [
+            "A. Doubles",
+            "B. Drops to 12.5",
+            "C. Remains at 25",
+            "D. Increases slightly"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 13,
+        "question": "Magnetic amplifiers use the principle of electromagnetism to amplify signals. What is their REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS frequency response typically limited to?",
+        "choices": [
+            "A. 0 Hz and below",
+            "B. 100 Hz and below",
+            "C. 100 Hz and above",
+            "D. 10 kHz and above"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 14,
+        "question": "What physical quantity is magnetizing force a function of?",
+        "choices": [
+            "A. Ampere/turns",
+            "B. Seconds/turns",
+            "C. Ampere-turns",
+            "D. Seconds-turns"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "What is the purpose of offset nulling in an operational amplifier?",
+        "choices": [
+            "A. Reduce the gain",
+            "B. Equalize the input signals",
+            "C. Zero the output error voltage",
+            "D. Prevent oscillations"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "To prevent a DC return between source and load, it is necessary to use what component between them?",
+        "choices": [
+            "A. A resistor",
+            "B. An inductor",
+            "C. A capacitor",
+            "D. A diode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "In the context of a DC load line, the horizontal intercept is the same as which ideal point?",
+        "choices": [
+            "A. Saturation point",
+            "B. Cutoff point",
+            "C. Operating point",
+            "D. Q-point"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "In deriving the AC equivalent circuit for an amplifier circuit, we short circuit:",
+        "choices": [
+            "A. All resistors",
+            "B. All transistors",
+            "C. All inductors",
+            "D. All capacitors"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 19,
+        "question": "In a bipolar junction transistor, why is the base region made very thin?",
+        "choices": [
+            "A. To make base fabrication easier",
+            "B. So that recombination in the base region is minimum",
+            "C. To easily bias the base",
+            "D. To increase the electric field gradient"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "What is the format used to present the logic output for the various combinations of logic inputs to a gate?",
+        "choices": [
+            "A. Boolean variable",
+            "B. Input logic function",
+            "C. Truth table",
+            "D. State table"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "What is the effect of having a greater propagation delay in a digital logic gate?",
+        "choices": [
+            "A. It lowers the maximum operating frequency",
+            "B. It increases the maximum operating frequency",
+            "C. The maximum frequency is unaffected",
+            "D. It increases the noise margin"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "An OR gate with inverted inputs functions as which of the following?",
+        "choices": [
+            "A. An AND gate",
+            "B. A NAND gate",
+            "C. A NOR gate",
+            "D. An inverter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "What is the CMOS counterpart of an open-collector TTL gate?",
+        "choices": [
+            "A. An open-source gate",
+            "B. An open-drain gate",
+            "C. A totem-pole gate",
+            "D. A tri-state gate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "In which type of circuits are multiphase choppers typically used?",
+        "choices": [
+            "A. Low power circuits",
+            "B. High power circuits",
+            "C. Low frequency circuits",
+            "D. High frequency circuits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "In a single-phase converter using a center-tapped transformer with a highly inductive load, each thyristor conducts for a period of:",
+        "choices": [
+            "A. pi",
+            "B. alpha",
+            "C. pi - alpha",
+            "D. pi / 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "In a series inverter, how are the commutating elements L and C connected?",
+        "choices": [
+            "A. In parallel with the load",
+            "B. In series with the load",
+            "C. They are absent REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "D. In parallel with each other"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "When a DC chopper feeds an RLE load, what happens to the load current during steady-state operation?",
+        "choices": [
+            "A. It remains constant",
+            "B. It varies between maximum and minimum values",
+            "C. It drops to zero",
+            "D. It increases exponentially"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "Which of the following elements has the highest electrical conductivity?",
+        "choices": [
+            "A. Silver",
+            "B. Aluminum",
+            "C. Tungsten",
+            "D. Platinum"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 29,
+        "question": "Which of the following is NOT an arithmetic instruction in a typical microprocessor?",
+        "choices": [
+            "A. INC (increment)",
+            "B. CMP (compare)",
+            "C. DEC (decrement)",
+            "D. ROL (rotate left)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "Which material may also be considered a semiconductor element?",
+        "choices": [
+            "A. Carbon",
+            "B. Ceramic",
+            "C. Mica",
+            "D. Argon"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "What are the drain characteristics of a JFET in the operating region?",
+        "choices": [
+            "A. Inclined upwards",
+            "B. Almost flat",
+            "C. Inclined downwards",
+            "D. Parabolic"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "In a piezoelectric crystal, what is produced when mechanical stress is applied?",
+        "choices": [
+            "A. Plastic deformation of the crystal",
+            "B. Magnetic dipoles in the crystal",
+            "C. Electric polarization in the crystal",
+            "D. A shift in the Fermi level"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "What is the typical static charge that can be stored by the human body when walking across a carpet?",
+        "choices": [
+            "A. 300 volts",
+            "B. 3,000 volts",
+            "C. 30,000 volts",
+            "D. Over 30,000 volts"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 34,
+        "question": "In the IC phase-shift oscillator, what should the ratio of the feedback resistor Rf to R1 be?",
+        "choices": [
+            "A. Zero",
+            "B. Greater than -29",
+            "C. Less than 29",
+            "D. Exactly -29"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "At series resonance, what is the impedance of a quartz crystal?",
+        "choices": [
+            "A. Minimum",
+            "B. Maximum",
+            "C. Equal to inductive reactance",
+            "D. Zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 36,
+        "question": "Which of the following is a commonly used pentavalent impurity material?",
+        "choices": [
+            "A. Arsenic",
+            "B. Boron",
+            "C. Gallium",
+            "D. Neon"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "Logic circuits designated as buffers, drivers, or buffer/drivers are designed to have:",
+        "choices": [
+            "A. Greater current/voltage capability than ordinary logic",
+            "B. Greater input impedance than ordinary logic",
+            "C. Smaller output current capability",
+            "D. Smaller output voltage capability"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Which thyristor family member has its gate terminal connected to the n-type material near the anode?",
+        "choices": [
+            "A. SCR",
+            "B. RCT",
+            "C. PUT",
+            "D. SUT"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "The Static Induction Thyristor (SITH) is characterized as what type of device?",
+        "choices": [
+            "A. Normally-off device",
+            "B. Normally-on device",
+            "C. Uncontrollable device",
+            "D. Bilateral device REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "What is the number of root locus segments that do not terminate on zeros?",
+        "choices": [
+            "A. The number of poles",
+            "B. The number of zeros",
+            "C. The difference between the number of poles and zeros",
+            "D. The sum of poles and zeros"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "What is the equivalent representation of a DIAC?",
+        "choices": [
+            "A. Two SCRs in anti-parallel",
+            "B. Two SCRs in parallel",
+            "C. Two diodes in anti-parallel",
+            "D. Two diodes in parallel"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "What does the acronym PLC stand for in industrial control systems?",
+        "choices": [
+            "A. Pressure Load Control",
+            "B. Programmable Logic Controller",
+            "C. Pneumatic Logic Capstan",
+            "D. PID Loop Controller"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "What are the three terminals of a Static Induction Thyristor (SITH)?",
+        "choices": [
+            "A. Gate, anode, cathode",
+            "B. Base, collector, emitter",
+            "C. Base, anode, cathode",
+            "D. Gate, emitter, collector"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "Which status register bit of an MSP430 microcontroller allows it to operate in low-power mode?",
+        "choices": [
+            "A. CPU off",
+            "B. Z",
+            "C. N",
+            "D. Reserved"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "A TRIAC can be represented as an equivalent circuit of:",
+        "choices": [
+            "A. Two SCRs in anti-parallel",
+            "B. Two SCRs in parallel",
+            "C. Two diodes in anti-parallel",
+            "D. Two diodes in parallel"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "If the number of poles is equal to the number of zeros in a control system, how many branches of the root locus tend towards infinity?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 0",
+            "D. Equal to the number of zeros"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "Maxwell's equations describe the relationships between which quantities?",
+        "choices": [
+            "A. Different fields",
+            "B. Different sources",
+            "C. Different boundary conditions",
+            "D. Different forces"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "What is the convection current when an electron density of 200 units is traveling at a speed of 12 m/s?",
+        "choices": [
+            "A. 16.67",
+            "B. 2400",
+            "C. 200",
+            "D. 12"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "An output gate that is active only when all inputs are 0 or when all inputs are 1 is:",
+        "choices": [
+            "A. A NAND or an EX-OR",
+            "B. An OR or an EX-NOR",
+            "C. An AND or an EX-OR",
+            "D. A NOR or an EX-NOR"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "Conduction in metals is due to the movement of:",
+        "choices": [
+            "A. Electrons only",
+            "B. Electrons and holes",
+            "C. Holes only",
+            "D. Positive ions"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "In microprocessor interfacing, what role does the octal latch IC 74LS373 typically perform?",
+        "choices": [
+            "A. Good input port",
+            "B. Bad input port",
+            "C. Good output port",
+            "D. Bad output port"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "Which microcontroller hardware trigger is designed to execute some operation after a programmed count has expired?",
+        "choices": [
+            "A. Programmable interval timer",
+            "B. Interrupt timer",
+            "C. Programmable timer",
+            "D. Watchdog timer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "Which voltage doubler circuit is also commonly referred to as a cascade voltage doubler?",
+        "choices": [
+            "A. Full-wave",
+            "B. Half-wave",
+            "C. Bridge",
+            "D. Parallel REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "A P-I-N photoreceiver based on a HEMT is typically integrated with which material?",
+        "choices": [
+            "A. GaAs and InP",
+            "B. GaAs",
+            "C. InGa",
+            "D. InGaAsP"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 55,
+        "question": "What is the major function of a pulse transformer in thyristor gate triggering circuits?",
+        "choices": [
+            "A. To increase voltage amplitude",
+            "B. To reduce harmonics",
+            "C. To isolate low and high power circuits",
+            "D. To create periodic pulses"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "Where is the change of state in an Algorithmic State Machine (ASM) chart performed?",
+        "choices": [
+            "A. Control logic",
+            "B. Slave clock",
+            "C. Metadata",
+            "D. Processor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 57,
+        "question": "Sequential operations in digital systems are most effectively described by which of the following?",
+        "choices": [
+            "A. A map",
+            "B. An Algorithmic State Machine (ASM) chart",
+            "C. A flowchart",
+            "D. A graph"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "How is the finger voltage of a Silicon Controlled Rectifier (SCR) defined?",
+        "choices": [
+            "A. Minimum value of Vak to turn on the device with gate triggering",
+            "B. Maximum value of Vak to turn on the device with gate triggering",
+            "C. Minimum value of Vak to turn on the device without gate triggering",
+            "D. Maximum value of Vak to turn on the device without gate triggering"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "What is the physical cause of charge build-up in a capacitor?",
+        "choices": [
+            "A. Conduction current density",
+            "B. Displacement current density",
+            "C. Polarization",
+            "D. Magnetization"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "What technology is useful for the production of both planar micro-optical elements and stacked optical microsystems?",
+        "choices": [
+            "A. Wavelength amplification",
+            "B. Wavelength conversion",
+            "C. Replication technology",
+            "D. Optical switching matrix"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "What is the bandgap of pure silicon at room temperature?",
+        "choices": [
+            "A. 1.3 eV",
+            "B. 1.1 eV",
+            "C. 0.7 eV",
+            "D. 1.4 eV"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "In a magnetic circuit, what property is the mathematical analog of electrical resistance?",
+        "choices": [
+            "A. Permeability",
+            "B. Reluctance",
+            "C. Flux density",
+            "D. Magnetomotive force"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "In magnetic video tape recording, what is the orientation of the video track?",
+        "choices": [
+            "A. Horizontal",
+            "B. Vertical",
+            "C. Diagonal",
+            "D. Helical"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "Where do capacitors store their electrical energy?",
+        "choices": [
+            "A. In an electrostatic field",
+            "B. In a magnetic field",
+            "C. In a chemical field",
+            "D. In a thermal field"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "What type of converter is used to convert an AC voltage to another AC voltage level?",
+        "choices": [
+            "A. DC converter",
+            "B. Inverter",
+            "C. Rectifier",
+            "D. AC - Converter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 66,
+        "question": "At what voltage level is plastic insulation typically used for electrical wires?",
+        "choices": [
+            "A. High voltage",
+            "B. Medium to low voltage",
+            "C. Extra high voltage",
+            "D. Ultra high voltage REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "The peak-to-peak amplitude of a perfect sine wave is equal to:",
+        "choices": [
+            "A. The peak amplitude",
+            "B. Half the peak amplitude",
+            "C. Twice the peak amplitude",
+            "D. 1.414 times the peak amplitude"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Which dielectric material is most commonly used for insulation in an electric iron?",
+        "choices": [
+            "A. Rubber",
+            "B. Paper",
+            "C. Mica",
+            "D. Teflon"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "In a capacitor with a negative temperature coefficient, how does the capacitance behave as the temperature rises?",
+        "choices": [
+            "A. It increases",
+            "B. It decreases",
+            "C. It remains constant",
+            "D. It doubles"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "Which theorem states that any linear active network can be simplified to an equivalent current source in parallel with an internal conductance?",
+        "choices": [
+            "A. Thevenin's theorem",
+            "B. Norton's theorem",
+            "C. Millman's theorem",
+            "D. Superposition theorem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "What AC circuit parameter can vary AC current flow but has no effect on DC current flow?",
+        "choices": [
+            "A. Voltage",
+            "B. Current",
+            "C. Resistance",
+            "D. Frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "On what physical property does the heat dissipation of AC circuits primarily depend?",
+        "choices": [
+            "A. Inductance",
+            "B. Capacitance",
+            "C. Resistance",
+            "D. Frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "What is the primary purpose of using an electromechanical relay in a control circuit?",
+        "choices": [
+            "A. To increase voltage",
+            "B. To decrease current",
+            "C. To amplify frequency",
+            "D. To block DC"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "What is the ratio of the RMS value to the mean average value of an AC wave called?",
+        "choices": [
+            "A. Peak factor",
+            "B. Power factor",
+            "C. Form factor",
+            "D. Quality factor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "What device is used to convert a high AC voltage to a lower DC voltage?",
+        "choices": [
+            "A. Inverter",
+            "B. Rectifier",
+            "C. Rotary converter",
+            "D. Cycloconverter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "What is the usual input waveform fed to an electric switching device?",
+        "choices": [
+            "A. Sine wave",
+            "B. Triangular wave",
+            "C. Sawtooth wave",
+            "D. Square wave"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "What is another term used to describe a closed-path in an electrical network?",
+        "choices": [
+            "A. Loop",
+            "B. Node",
+            "C. Branch",
+            "D. Junction"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "What circuit parameter is the greatest factor determining the figure of merit (Q) of a resonant circuit?",
+        "choices": [
+            "A. Inductance",
+            "B. Capacitance",
+            "C. Resistance",
+            "D. Reactance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "What is another name for a step recovery diode?",
+        "choices": [
+            "A. PIN diode",
+            "B. Schottky diode",
+            "C. Charge storage diode",
+            "D. Tunnel diode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "For a semiconductor diode, what happens to the internal resistance as the forward voltage increases?",
+        "choices": [
+            "A. It increases",
+            "B. It decreases REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "C. It remains constant",
+            "D. It becomes infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "Which parameter represents the current gain of a common-base BJT configuration?",
+        "choices": [
+            "A. Beta",
+            "B. Gamma",
+            "C. Alpha",
+            "D. Theta"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "What transduction principle is primarily utilized in optical sensors such as photodetectors?",
+        "choices": [
+            "A. Photoconductive transduction",
+            "B. Photoemissive transduction",
+            "C. Photovoltaic transduction",
+            "D. Photoelectromagnetic transduction"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "An element with exactly four valence electrons is classified as what type of semiconductor?",
+        "choices": [
+            "A. Compound",
+            "B. Elemental",
+            "C. Extrinsic",
+            "D. Intrinsic"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "On what factor does the junction capacitance of a reverse-biased p-n junction primarily depend?",
+        "choices": [
+            "A. Forward current",
+            "B. Applied reverse voltage",
+            "C. Doping concentration",
+            "D. Temperature"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "The ability of a chemical substance to exist in more than four distinct crystalline lattice forms is called:",
+        "choices": [
+            "A. Isomorphism",
+            "B. Allotropy",
+            "C. Polymorphism",
+            "D. Amorphism"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "In an active p-n-p transistor, what is the polarity of the collector with respect to the emitter?",
+        "choices": [
+            "A. Positive",
+            "B. Negative",
+            "C. Zero",
+            "D. Neutral"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "A Zener diode operating in its breakdown region exhibits which type of resistance?",
+        "choices": [
+            "A. High positive resistance",
+            "B. Negative resistance",
+            "C. Zero resistance",
+            "D. Infinite resistance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "What is the primary purpose of transient suppression in power supply circuits?",
+        "choices": [
+            "A. To increase efficiency",
+            "B. To avoid the risk of diode failure",
+            "C. To regulate voltage",
+            "D. To filter ripple"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "What is the most commonly used semiconductor material in the manufacture of modern integrated circuits?",
+        "choices": [
+            "A. Germanium",
+            "B. Silicon",
+            "C. Gallium Arsenide",
+            "D. Selenium"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "In which direction does the physical flow of holes occur in a semiconductor?",
+        "choices": [
+            "A. Minus-to-plus",
+            "B. Plus-to-minus",
+            "C. Towards the cathode only",
+            "D. Circularly"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "What is the maximum reverse voltage that can be applied to a diode before entering the Zener breakdown region?",
+        "choices": [
+            "A. PIV",
+            "B. Forward breakdown voltage",
+            "C. Barrier potential",
+            "D. Knee voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "From which terminal is the output signal taken in a common-base transistor configuration?",
+        "choices": [
+            "A. Base",
+            "B. Emitter",
+            "C. Collector",
+            "D. Source"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "Which JFET terminals correspond to the emitter, base, and collector of a BJT respectively?",
+        "choices": [
+            "A. Gate, Source, Drain",
+            "B. Source, Gate, Drain",
+            "C. Drain, Gate, Source",
+            "D. Source, Drain, Gate REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "What is the theoretical maximum voltage gain of a standard common-collector (emitter-follower) configuration?",
+        "choices": [
+            "A. Zero",
+            "B. Unity (1)",
+            "C. Infinite",
+            "D. Beta"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "What is the natural internal resistance of a P-type or N-type semiconductor material called?",
+        "choices": [
+            "A. Contact resistance",
+            "B. Dynamic resistance",
+            "C. Bulk resistance",
+            "D. Surface resistance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "Under what condition is a semiconductor diode considered zero-biased?",
+        "choices": [
+            "A. Anode and cathode have different current levels",
+            "B. Anode and cathode have the same potential",
+            "C. Anode is grounded",
+            "D. Cathode is open-circuited"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "What is another name for a light-activated semiconductor diode?",
+        "choices": [
+            "A. Photodiode",
+            "B. LED",
+            "C. Solar cell",
+            "D. Laser diode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "What type of device is a high-voltage bidirectional trigger diode?",
+        "choices": [
+            "A. SCR",
+            "B. DIAC",
+            "C. TRIAC",
+            "D. GTO"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "Which amplifier class exhibits the highest theoretical power efficiency?",
+        "choices": [
+            "A. Class A",
+            "B. Class B",
+            "C. Class C",
+            "D. Class AB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "By what method is the emitter junction typically produced on the base layer of a mesa transistor?",
+        "choices": [
+            "A. Vacuum evaporation or diffusion",
+            "B. Ion implantation",
+            "C. Epitaxial growth",
+            "D. Gaseous doping REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "A"
+    }
+]

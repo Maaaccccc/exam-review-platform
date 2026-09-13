@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "The transfer function of a linear time-invariant system is mathematically defined as the ratio of the Laplace transform of the output to the Laplace transform of the input, strictly assuming:",
+        "choices": [
+            "A. Infinite initial conditions",
+            "B. The input is a unit impulse",
+            "C. The system is marginally stable",
+            "D. All initial conditions are completely zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 2,
+        "question": "For a physical system modeled by d2y/dt2 + 8(dy/dt) + 16y = x(t), what is the exact natural frequency (ωn) and damping ratio (ζ)?",
+        "choices": [
+            "A. ωn = 4, ζ = 1.0",
+            "B. ωn = 16, ζ = 8",
+            "C. ωn = 4, ζ = 0.5",
+            "D. ωn = 8, ζ = 2.0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "In standard mechanical-electrical force-voltage analogies, a mechanical viscous damper (friction coefficient B) is directly analogous to:",
+        "choices": [
+            "A. Capacitance",
+            "B. Inductance",
+            "C. Resistance",
+            "D. Current"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "What is the precise Laplace transform of the delayed unit step function u(t - a)?",
+        "choices": [
+            "A. 1 / s",
+            "B. (1 / s) * e^(-as)",
+            "C. a / s",
+            "D. (1 / s) - a"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "The presence of a pole exactly at the origin (s=0) in an open-loop transfer function fundamentally defines a control system as:",
+        "choices": [
+            "A. Type 1",
+            "B. Order 1",
+            "C. Marginally stable",
+            "D. Unconditionally unstable"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "A pure time delay (transport delay) of 'T' seconds in a physical plant is mathematically modeled in the Laplace domain by the transfer function:",
+        "choices": [
+            "A. sT",
+            "B. 1 / (Ts + 1)",
+            "C. 1 - e^(-sT)",
+            "D. e^(-sT)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "The Final Value Theorem is used to reliably find the steady-state value of a system's time response f(t). The strict mathematical theorem states f(∞) equals:",
+        "choices": [
+            "A. lim(s->∞) s*F(s)",
+            "B. lim(s->∞) F(s)",
+            "C. lim(s->0) s*F(s)",
+            "D. lim(s->0) F(s)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 9,
+        "question": "In a closed-loop control system, the specific component that directly compares the reference input with the measured feedback signal to produce an error signal is the:",
+        "choices": [
+            "A. Controller",
+            "B. Actuator",
+            "C. Summing junction (Error detector)",
+            "D. Plant"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "If a continuous system's characteristic equation possesses distinct roots that lie exactly on the jω (imaginary) axis with absolutely no roots in the right-half plane, the system is mathematically classified as:",
+        "choices": [
+            "A. Marginally stable (or oscillatory)",
+            "B. Asymptotically stable",
+            "C. Critically damped",
+            "D. Absolutely unstable"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "In block diagram algebra, when two blocks with transfer functions G1 and G2 are connected perfectly in cascade (series), the equivalent transfer function is:",
+        "choices": [
+            "A. G1 + G2",
+            "B. G1 * G2",
+            "C. G1 / G2",
+            "D. G1 / (1 + G1*G2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "When two separate blocks with transfer functions G1 and G2 are connected perfectly in parallel, summing their respective outputs together, the equivalent transfer function is:",
+        "choices": [
+            "A. G1 * G2",
+            "B. G1 / G2",
+            "C. G1 / (1 + G1*G2)",
+            "D. G1 + G2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Worded circuit: A control system features a forward path block G and a negative feedback block H. The basic closed-loop transfer function mapping input R to output C is strictly given by:",
+        "choices": [
+            "A. G / (1 - GH)",
+            "B. G / (1 + GH)",
+            "C. GH / (1 + GH)",
+            "D. (G + H) / (1 + GH)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 14,
+        "question": "Worded circuit: A forward path has a transfer function G. A positive feedback loop is applied with transfer function H. What is the overall closed-loop transfer function?",
+        "choices": [
+            "A. G / (1 + GH)",
+            "B. (G - H) / (1 + GH)",
+            "C. G / (1 - GH)",
+            "D. G * H / (1 - GH)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "Which specific block diagram reduction rule applies when moving a summing point strictly AHEAD of a generic block G?",
+        "choices": [
+            "A. Add a block with transfer function 1/G in that signal path",
+            "B. Multiply the signal by G",
+            "C. Add a block G in parallel",
+            "D. The signal remains completely unchanged"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 16,
+        "question": "When moving a summing point strictly BEHIND a generic block G in a block diagram, the signal path being moved must be mathematically modified by adding a block with a transfer function of:",
+        "choices": [
+            "A. 1/G",
+            "B. 1 - G",
+            "C. -G",
+            "D. G"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "What is the required mathematical modification when moving a take-off (pick-off) point strictly AHEAD of a generic block G?",
+        "choices": [
+            "A. Add a block with transfer function 1/G",
+            "B. Add a block with transfer function -G",
+            "C. Add a block with transfer function G",
+            "D. No modification is needed"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 18,
+        "question": "When moving a take-off (pick-off) point strictly BEHIND a generic block G, the signal path being moved must be mathematically modified by adding a block with a transfer function of:",
+        "choices": [
+            "A. 1/G",
+            "B. G",
+            "C. 1 + G",
+            "D. 1 - G"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "A block diagram contains a feedback loop with G = 10 and H = 0.1 (negative feedback). The equivalent single block transfer function is:",
+        "choices": [
+            "A. 0.5",
+            "B. 1",
+            "C. 9.09",
+            "D. 5"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 20,
+        "question": "Worded circuit: Two summing junctions are cascaded in series. The first adds input X and input Y. The second adds the result to input Z. According to block diagram algebra, these two summing junctions can be:",
+        "choices": [
+            "A. Completely eliminated",
+            "B. Swapped or combined into a single summing junction without altering the system",
+            "C. Replaced by a single multiplier block",
+            "D. Replaced by a feedback loop"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "Worded circuit: A signal X passes through block G1, then block G2. A take-off point is located exactly between G1 and G2. If the designer wishes to move this take-off point to AHEAD of G1, the new branch must contain a block equal to:",
+        "choices": [
+            "A. G1",
+            "B. 1/G1",
+            "C. G2",
+            "D. 1/G2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "In a standard unity feedback system, the feedback transfer function H(s) is mathematically defined as:",
+        "choices": [
+            "A. Infinity",
+            "B. 1",
+            "C. 0",
+            "D. -1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "Worded circuit: A system has a forward gain G1 and unity negative feedback. Inside the forward path, there is a minor negative feedback loop with forward gain G2 and feedback H2. G1 is in series with the minor loop. The total open-loop transfer function is:",
+        "choices": [
+            "A. G1*G2 / (1 + G2*H2)",
+            "B. G1*G2*H2",
+            "C. G1 * [G2 / (1 + G2*H2)]",
+            "D. G1 + G2 / (1 + G2*H2)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "Block diagram reduction techniques are based fundamentally on ensuring that the mathematical relationship between the input and output variables:",
+        "choices": [
+            "A. Becomes non-linear",
+            "B. Is inverted",
+            "C. Is minimized in bandwidth",
+            "D. Remains absolutely unchanged"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "Moving a take-off point from a position after a block G to a position after a summing point (which is before block G) requires adding a block. This operation is generally considered:",
+        "choices": [
+            "A. Always simplifying",
+            "B. Completely impossible",
+            "C. Highly prone to creating complex, nested loops and generally avoided if possible",
+            "D. Standard practice for finding stability"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "Worded circuit: A signal flow splits into two parallel branches. Top branch has G1, bottom branch has G2. They enter a summing junction (Top is +, Bottom is -). The equivalent block is:",
+        "choices": [
+            "A. G1 / G2",
+            "B. G1 * G2",
+            "C. G1 + G2",
+            "D. G1 - G2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "To find the characteristic equation of a closed-loop system from its block diagram, one must evaluate the denominator of the simplified transfer function. For standard negative feedback (G, H), this is:",
+        "choices": [
+            "A. 1 + GH = 0",
+            "B. 1 - GH = 0",
+            "C. G + H = 0",
+            "D. GH = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "When interchanging two adjacent summing points, the overall system transfer function:",
+        "choices": [
+            "A. Reverses sign",
+            "B. Remains identically the same",
+            "C. Is multiplied by 2",
+            "D. Becomes undefined"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "Worded circuit: A block diagram features an input R, summing junction, forward block G, and output",
+        "choices": [
+            "C. A feedback branch H goes from C to the summing junction. The actuating error signal E is mathematically located:",
+            "A. After block G",
+            "B. Before the input R",
+            "C. In the feedback path"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "In block diagram reduction, a \"canonical form\" specifically refers to:",
+        "choices": [
+            "A. A purely open-loop diagram",
+            "B. A diagram with no summing points",
+            "C. The simplest closed-loop configuration with one forward block and one feedback block",
+            "D. A multi-input, multi-output (MIMO) diagram"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "If a closed-loop system with forward gain G and negative feedback H has its feedback loop broken (H disconnected), the resulting transfer function from error to output is:",
+        "choices": [
+            "A. G * H",
+            "B. G",
+            "C. 1 / G",
+            "D. 1 / (1 + GH)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "Worded circuit: A system has a forward block G(s) = 1/s. A negative feedback path has H(s) = s. What is the overall closed-loop transfer function C(s)/R(s)?",
+        "choices": [
+            "A. 0.5/s",
+            "B. 1/s",
+            "C. s / (s^2 + 1)",
+            "D. 1 / (s+1)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "Worded circuit: Three blocks G1, G2, G3 are in cascade. A negative feedback loop H1 wraps around G2. A second negative feedback loop H2 wraps around G2 and G3. This specific topology is known as:",
+        "choices": [
+            "A. Nested feedback loops",
+            "B. Parallel feedforward",
+            "C. Decoupled systems",
+            "D. Open-loop cascade"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Moving a summing point ahead of a block G requires multiplying the injected signal by 1/G. This mathematical operation physically represents:",
+        "choices": [
+            "A. A change in system order",
+            "B. Shifting a disturbance signal to an equivalent input reference level",
+            "C. A reduction in system bandwidth",
+            "D. An increase in feedback gain"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "A transfer function is essentially a mathematical model strictly applicable to:",
+        "choices": [
+            "A. All electrical and mechanical systems",
+            "B. Non-linear, time-variant systems",
+            "C. Only purely mechanical systems",
+            "D. Linear, Time-Invariant (LTI) systems"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "If a generic block diagram contains multiple inputs (e.g., a reference R and a disturbance D), the overall output C is found by:",
+        "choices": [
+            "A. Multiplying the responses",
+            "B. Ignoring the disturbance",
+            "C. Using the principle of superposition, solving for C due to each input separately and adding them",
+            "D. Setting both inputs to zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "Worded circuit: An input R goes to a summing junction, then to block G1, then a take-off point, then to block G2, and outputs",
+        "choices": [
+            "C. A negative feedback H goes from the take-off point back to the summing junction. The transfer function C/R is:",
+            "A. G1*G2 / (1 + G1*G2*H)",
+            "B. [G1 / (1 + G1*H)] * G2",
+            "C. G1*G2 / (1 + G2*H)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "In a unity negative feedback system, if the open-loop transfer function is G(s), the \"Error Transfer Function\" E(s)/R(s) is given by:",
+        "choices": [
+            "A. G(s) / (1 + G(s))",
+            "B. 1 - G(s)",
+            "C. G(s)",
+            "D. 1 / (1 + G(s))"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 39,
+        "question": "A block diagram reduction yields an equivalent block G_eq = (G1 + G2) / (1 + G1*H1). This indicates the original system likely contained:",
+        "choices": [
+            "A. Two purely cascaded blocks",
+            "B. Only a single feedback loop",
+            "C. Parallel forward paths and at least one feedback loop",
+            "D. No summing junctions"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "Worded circuit: A system has input R, forward blocks G1, G2 in series. A positive feedback loop H1 wraps around G1. A negative feedback loop H2 wraps around G1 and G2. The inner loop transfer function is first simplified to:",
+        "choices": [
+            "A. G1 / (1 - G1*H1)",
+            "B. G1 / (1 + G1*H1)",
+            "C. (G1 + G2) / H1",
+            "D. G1*H1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "Why is block diagram reduction sometimes considered disadvantageous compared to Signal Flow Graphs for complex MIMO systems?",
+        "choices": [
+            "A. It cannot handle feedback",
+            "B. It only works for DC signals",
+            "C. The visual rearrangement and algebraic tracking of blocks can become extremely tedious and prone to algebraic errors",
+            "D. It requires differential calculus"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "Worded circuit: You must move a summing point from BEHIND block G1 to AHEAD of block G1. The signal injected at the summing point is X. In the new diagram, X must pass through a new block before reaching the moved summing point. The transfer function of this new block is:",
+        "choices": [
+            "A. 1/G1",
+            "B. G1",
+            "C. -G1",
+            "D. 1 - G1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 43,
+        "question": "In a multi-loop block diagram, \"minor loops\" should generally be reduced:",
+        "choices": [
+            "A. After the major loops",
+            "B. First, working from the innermost loops outward",
+            "C. Simultaneously with major loops using integration",
+            "D. Only if they have positive feedback"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "Worded circuit: A system has G(s) = K/s. A feedback path has H(s) = K_t * s. This specific type of feedback (derivative feedback) is known as:",
+        "choices": [
+            "A. Integral control",
+            "B. Proportional feedback",
+            "C. Feedforward compensation",
+            "D. Tachometric (or velocity) feedback"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "If the open-loop gain of a system approaches infinity (G -> ∞) in a standard negative feedback configuration, the closed-loop transfer function C/R asymptotically approaches:",
+        "choices": [
+            "A. Infinity",
+            "B. 0",
+            "C. G",
+            "D. 1/H"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 46,
+        "question": "When a block diagram contains a branch with absolutely no block drawn on it, it is mathematically implied that this branch has a transfer function of:",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. Infinity",
+            "D. -1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "A \"disturbance\" in a control system block diagram is typically modeled as:",
+        "choices": [
+            "A. An unwanted external signal entering the system at a summing point",
+            "B. A change in the reference input",
+            "C. A zero in the transfer function",
+            "D. A feedback loop failure"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "Worded circuit: A system has input R. A forward path goes to a summing junction (+), then block G, to output",
+        "choices": [
+            "C. A second path feeds forward from R, through block F, directly into the summing junction (+). The overall transfer function C/R is:",
+            "A. G / (1 + F*G)",
+            "B. G + F",
+            "C. G * (1 + F)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "To properly apply block diagram reduction, the entire system MUST be physically modeled using:",
+        "choices": [
+            "A. Linear differential equations transformed into the Laplace domain",
+            "B. Non-linear state-space matrices",
+            "C. Fourier series only",
+            "D. Boolean algebra"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "Worded circuit: A pick-off point is located BEFORE a block G. You move it to AFTER block G. To maintain mathematical equivalence, the signal on the pick-off branch must now be passed through a block with transfer function:",
+        "choices": [
+            "A. G",
+            "B. 1",
+            "C. 1/G",
+            "D. -G"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "A Signal Flow Graph (SFG) is a graphical representation of a set of simultaneous linear algebraic equations. The variables of these equations are strictly represented in the SFG by:",
+        "choices": [
+            "A. Branches",
+            "B. Arrows",
+            "C. Loops",
+            "D. Nodes"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "In an SFG, a \"branch\" explicitly represents:",
+        "choices": [
+            "A. A system variable",
+            "B. The mathematical relationship (transfer function or transmittance) between two nodes",
+            "C. A feedback loop",
+            "D. A summing junction"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "A node in a Signal Flow Graph that has ONLY outgoing branches is formally defined as a:",
+        "choices": [
+            "A. Sink node",
+            "B. Source (or Input) node",
+            "C. Chain node",
+            "D. Mixed node"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "A node in a Signal Flow Graph that has ONLY incoming branches is formally defined as a:",
+        "choices": [
+            "A. Source node",
+            "B. Mixed node",
+            "C. Dummy node",
+            "D. Sink (or Output) node"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 55,
+        "question": "In SFG terminology, a \"forward path\" is strictly defined as a path from an input node to an output node that:",
+        "choices": [
+            "A. Passes through the highest gain branch",
+            "B. Contains at least one feedback loop",
+            "C. Does not cross any node more than once",
+            "D. Touches all nodes in the graph"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "The product of all the branch transmittances found along a specific forward path is formally called the:",
+        "choices": [
+            "A. Path gain",
+            "B. Loop gain",
+            "C. Determinant",
+            "D. Cofactor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 57,
+        "question": "A \"loop\" in a Signal Flow Graph is mathematically defined as a closed path that:",
+        "choices": [
+            "A. Connects an input node to an output node",
+            "B. Crosses every node exactly twice",
+            "C. Starts and ends at the exact same node, and no node is encountered more than once during the traversal",
+            "D. Has a loop gain of precisely zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "The \"loop gain\" of a specific loop in an SFG is calculated by:",
+        "choices": [
+            "A. Adding the transmittances of all branches in the loop",
+            "B. Multiplying the transmittances of all branches forming that closed loop",
+            "C. Dividing the forward path gain by the loop transmittance",
+            "D. Inverting the sum of the branch gains"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "In an SFG, two loops are strictly defined as \"non-touching\" if they:",
+        "choices": [
+            "A. Do not share any common nodes",
+            "B. Do not have the same gain",
+            "C. Belong to different forward paths",
+            "D. Do not contain a source node"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "A node that possesses both incoming and outgoing branches in an SFG is called a:",
+        "choices": [
+            "A. Terminal node",
+            "B. Source node",
+            "C. Sink node",
+            "D. Mixed (or Chain) node"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "Worded circuit: An SFG has nodes X1, X2, X3. A branch goes from X1 to X2 with gain 'a'. A branch goes from X2 to X3 with gain 'b'. A branch goes from X3 to X2 with gain 'c'. The loop gain in this specific graph is:",
+        "choices": [
+            "A. abc",
+            "B. a+b+c",
+            "C. ac",
+            "D. bc"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 62,
+        "question": "In a Signal Flow Graph, the value of the signal at any specific node is mathematically equal to:",
+        "choices": [
+            "A. The product of all incoming signals",
+            "B. The maximum of all incoming signals",
+            "C. The algebraic sum of all signals entering that node via incoming branches",
+            "D. Zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "When analyzing an SFG, a \"self-loop\" is a path consisting of a single branch that:",
+        "choices": [
+            "A. Starts and ends at the exact same node",
+            "B. Connects the source to the sink",
+            "C. Has infinite gain",
+            "D. Has zero gain"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "The overall transmittance of a system represented by an SFG is most efficiently and systematically calculated using:",
+        "choices": [
+            "A. Routh-Hurwitz criterion",
+            "B. Mason's Gain Formula",
+            "C. Bode plots",
+            "D. Nyquist stability criterion"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "In an SFG, a \"dummy node\" (a node with a transmittance of 1 connecting it to the main graph) is often added specifically to:",
+        "choices": [
+            "A. Create an artificial feedback loop",
+            "B. Explicitly define a source or sink node without altering the mathematical equations",
+            "C. Increase the system order",
+            "D. Invert the final signal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "Worded circuit: Node Y2 is calculated as Y2 = G12*Y1 + G32*Y3. In the corresponding SFG, this equation is represented by:",
+        "choices": [
+            "A. Two branches entering node Y2: one from Y1 with gain G12, and one from Y3 with gain G32",
+            "B. One branch leaving Y2",
+            "C. A loop at node Y2",
+            "D. Two branches leaving Y2 to Y1 and Y3"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 67,
+        "question": "The concept of Signal Flow Graphs was originally introduced and developed by which prominent engineer?",
+        "choices": [
+            "A. Harry Nyquist",
+            "B. Hendrik Bode",
+            "C. Walter Evans",
+            "D. Samuel J. Mason"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 68,
+        "question": "An SFG can be mathematically manipulated by eliminating a node. If node X2 is strictly a mixed node between X1 and X3 (gain A from X1->X2, gain B from X2->X3), eliminating X2 creates a direct branch from X1 to X3 with a gain of:",
+        "choices": [
+            "A. A + B",
+            "B. A / B",
+            "C. A * B",
+            "D. A - B"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "A \"path\" in an SFG is a continuous sequence of branches traversed in the direction indicated by the branch arrows. What is the strict rule regarding a generic path?",
+        "choices": [
+            "A. No node can be traversed more than once",
+            "B. It must always start at a source node",
+            "C. It must always end at a sink node",
+            "D. It must contain a feedback loop"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "When constructing an SFG directly from a set of differential equations, the equations MUST first be transformed into:",
+        "choices": [
+            "A. The Fourier domain",
+            "B. State-space format",
+            "C. Time-domain integral form",
+            "D. Algebraic equations using the Laplace transform"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 71,
+        "question": "Mason's Gain Formula is expressed as T = (1/∆) * Σ(Pk * ∆k). In this exact formula, the variable 'Pk' specifically represents:",
+        "choices": [
+            "A. The loop gain of the kth loop",
+            "B. The path gain of the kth forward path",
+            "C. The kth cofactor",
+            "D. The system determinant"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "In Mason's Gain Formula, the symbol '∆' (Delta) strictly represents the:",
+        "choices": [
+            "A. Error signal",
+            "B. Open-loop transfer function",
+            "C. Graph determinant (or characteristic function) of the entire system",
+            "D. Phase margin"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "The graph determinant ∆ in Mason's Gain Formula is calculated using the formula: ∆ = 1 - (Sum of all individual loop gains) + (Sum of gain products of all possible combinations of...). What completes this rule?",
+        "choices": [
+            "A. Touching loops",
+            "B. Forward paths",
+            "C. Source nodes",
+            "D. Two non-touching loops"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "What is the next term in the calculation of ∆? ... - (Sum of gain products of all possible combinations of...)",
+        "choices": [
+            "A. Three non-touching loops",
+            "B. Two non-touching loops",
+            "C. Four touching loops",
+            "D. Forward paths"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "In Mason's equation T = (1/∆) * Σ(Pk * ∆k), the term '∆k' is formally known as the:",
+        "choices": [
+            "A. Characteristic polynomial",
+            "B. Path determinant",
+            "C. Cofactor of the kth forward path",
+            "D. System order"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "How is the cofactor ∆k mathematically evaluated for a specific forward path Pk?",
+        "choices": [
+            "A. It is exactly equal to ∆",
+            "B. It is evaluated from the ∆ formula by removing all loops that touch the kth forward path",
+            "C. It is the inverse of the path gain",
+            "D. It is always equal to 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "If every single loop in a Signal Flow Graph touches a specific forward path P1, what is the exact numerical value of its corresponding cofactor ∆1?",
+        "choices": [
+            "A. 0",
+            "B. -1",
+            "C. 1",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "Worded circuit: An SFG has a single forward path P1=G1*G2, and two individual loops L1=-G1*H1 and L2=-G2*H2. L1 and L2 share a common node. What is the system determinant ∆?",
+        "choices": [
+            "A. 1 + G1*H1*G2*H2",
+            "B. 1 - (L1 + L2) = 1 + G1*H1 + G2*H2",
+            "C. 1 - L1 - L2 + L1*L2",
+            "D. 1 + G1*G2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "Worded circuit: Using the same SFG as above (P1=G1*G2, L1=-G1*H1, L2=-G2*H2, L1 and L2 touch). Because both L1 and L2 touch the single forward path P1, what is the overall transfer function T?",
+        "choices": [
+            "A. G1*G2 / (1 + G1*H1 + G2*H2 + G1*H1*G2*H2)",
+            "B. G1*G2 / (1 + G1*H1)",
+            "C. (G1*G2) * (1 + G1*H1 + G2*H2)",
+            "D. G1*G2 / (1 + G1*H1 + G2*H2)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "Worded circuit: An SFG has one forward path P1 = G1. It has two non-touching loops, L1 and L2. Neither loop touches P1. What is the cofactor ∆1 for the forward path P1?",
+        "choices": [
+            "A. 1 - L1 - L2 + L1*L2",
+            "B. 1",
+            "C. 1 - L1 - L2",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "The characteristic equation of a system represented by an SFG is found mathematically by strictly setting which parameter of Mason's Gain Formula to zero?",
+        "choices": [
+            "A. Pk",
+            "B. ∆ (System Determinant)",
+            "C. ∆k",
+            "D. The total transfer function T"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "A Signal Flow Graph contains three individual loops: L1, L2, L3. L1 and L2 do not touch. L3 touches both L1 and L2. What is the expression for the system determinant ∆?",
+        "choices": [
+            "A. 1 - (L1+L2+L3) + (L1*L2*L3)",
+            "B. 1 - L1 - L2 - L3 + L1*L3 + L2*L3",
+            "C. 1 - (L1 + L2 + L3) + L1*L2",
+            "D. 1 - L1 - L2 - L3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "Worded circuit: An SFG has a forward path P1 passing through nodes 1-2-3-4. A loop L1 connects nodes 2-3-2. Does loop L1 touch forward path P1?",
+        "choices": [
+            "A. Yes, because they share nodes 2 and 3",
+            "B. No, because they are distinct mathematical entities",
+            "C. Only if L1 has a positive gain",
+            "D. Only if P1 has a negative gain"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "When identifying loops for Mason's Gain Formula, if a loop path travels through a node more than once before closing back on its starting node, is it considered a valid individual loop?",
+        "choices": [
+            "A. Yes, it is a complex loop",
+            "B. Yes, it counts as two loops",
+            "C. Only if the gain is less than 1",
+            "D. No, a valid loop must not cross any node more than once"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "If an SFG has absolutely no feedback loops (an entirely open-loop system), what is the value of the system determinant ∆?",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. Infinity",
+            "D. Equal to the sum of all forward paths"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Mason's Gain Formula is universally applicable to evaluate the transfer function between:",
+        "choices": [
+            "A. Any two adjacent nodes only",
+            "B. The source node and the adjacent node only",
+            "C. Any specified input node (source) and any specified output node (sink)",
+            "D. Only systems with negative feedback"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "Worded circuit: An SFG has two forward paths: P1 = 10, P2 = 5. There is one loop L1 = -0.2. L1 touches P1, but L1 does not touch P2. What is the overall transfer function T?",
+        "choices": [
+            "A. (10 + 5) / (1 + 0.2)",
+            "B. (10*(1+0.2) + 5) / (1 + 0.2)",
+            "C. (10 + 5*(1-0.2)) / (1 - 0.2)",
+            "D. (10*1 + 5*(1 - (-0.2))) / (1 - (-0.2)) = 16 / 1.2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "In Mason's Gain Formula, the term Σ(Pk * ∆k) represents the sum of the products of each forward path and its cofactor. This term strictly forms the:",
+        "choices": [
+            "A. Characteristic equation",
+            "B. Numerator of the overall system transfer function",
+            "C. Denominator of the overall system transfer function",
+            "D. Error function"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "What constitutes a \"non-touching\" loop combination of three loops?",
+        "choices": [
+            "A. Three loops that share exactly one common node",
+            "B. Three loops that belong to the same forward path",
+            "C. Three loops where at least one does not touch the other two",
+            "D. Three separate loops, where no two loops share any common node"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "If a system has a massive number of interconnected loops, applying Mason's Gain Formula by hand becomes highly susceptible to errors primarily due to:",
+        "choices": [
+            "A. Missing a valid loop or incorrectly identifying touching/non-touching pairs",
+            "B. The non-linearities of the formula",
+            "C. The integration required",
+            "D. The formula breaking down for high-order systems"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "When systematically converting a standard Block Diagram into a Signal Flow Graph, the summing points in the block diagram map directly to:",
+        "choices": [
+            "A. Branches in the SFG",
+            "B. Nodes in the SFG",
+            "C. Loops in the SFG",
+            "D. Source nodes only"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "When converting a Block Diagram to an SFG, the take-off (pick-off) points in the block diagram map directly to:",
+        "choices": [
+            "A. Forward paths",
+            "B. Sinks",
+            "C. Nodes in the SFG",
+            "D. Loop gains"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "Worded circuit: In a block diagram, a variable X is tapped at a take-off point and fed into a block G, and also into a block H. In the corresponding SFG, this is represented by:",
+        "choices": [
+            "A. Two nodes connected by a branch",
+            "B. A single node X with two outgoing branches, one with gain G and one with gain H",
+            "C. Two separate source nodes",
+            "D. A summing junction"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "Worded circuit: A block diagram summing junction adds signals X and Y to produce Z. In the SFG, node Z will have:",
+        "choices": [
+            "A. Two outgoing branches",
+            "B. One incoming branch from X*Y",
+            "C. No incoming branches",
+            "D. Two incoming branches: one from node X (gain 1) and one from node Y (gain 1)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 95,
+        "question": "A block with a transfer function G(s) in a block diagram is directly equivalent to what specific element in an SFG?",
+        "choices": [
+            "A. A node with value G(s)",
+            "B. A self-loop",
+            "C. A directed branch with a transmittance (gain) of G(s)",
+            "D. A source node"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "If a summing point in a block diagram subtracts a feedback signal B from a reference signal R to produce an error E, the corresponding branch from node B to node E in the SFG must be assigned a transmittance of:",
+        "choices": [
+            "A. -1",
+            "B. +1",
+            "C. 0",
+            "D. Infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "Worded circuit: A block diagram contains a forward path with blocks G1 and G2. A negative feedback loop H originates AFTER G2 and sums BEFORE G1. When converted to an SFG, what is the strict loop gain?",
+        "choices": [
+            "A. -G1 * G2 * H",
+            "B. G1 * G2 * H",
+            "C. G1 * H",
+            "D. -G2 * H"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "When converting a block diagram to an SFG, it is often considered best practice to assign a distinct node to every:",
+        "choices": [
+            "A. Block",
+            "B. Summing point, take-off point, input, and output",
+            "C. Feedback branch",
+            "D. Mathematical operation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "Worded circuit: In a block diagram, a summing junction immediately precedes a take-off point with absolutely no blocks between them. In the corresponding SFG, these two points can be:",
+        "choices": [
+            "A. Completely ignored",
+            "B. Represented as two non-touching loops",
+            "C. Combined into a single, unified node",
+            "D. Represented as a branch with zero gain"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "The primary advantage of converting a highly complex, multi-loop block diagram into a Signal Flow Graph is:",
+        "choices": [
+            "A. It changes a dynamic system into a static one",
+            "B. It allows the use of Boolean algebra",
+            "C. It eliminates the need for Laplace transforms",
+            "D. It allows the direct, algorithmic calculation of the overall transfer function using Mason's Gain Formula without physical diagram reduction"
+        ],
+        "correct_answer": "D"
+    }
+]

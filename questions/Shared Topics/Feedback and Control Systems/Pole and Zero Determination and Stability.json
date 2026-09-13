@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "The mathematical derivation of a transfer function strictly assumes that all initial conditions are exactly:",
+        "choices": [
+            "A. Zero",
+            "B. Infinity",
+            "C. Equal to the final value",
+            "D. Unpredictable"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "What is the exact Laplace transform of the standard continuous unit ramp function r(t) = t * u(t)?",
+        "choices": [
+            "A. 1 / s",
+            "B. 1 / s^3",
+            "C. 1 / s^2",
+            "D. s"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "If a second-order control system has a damping ratio exactly equal to 0, its transient response is classified as:",
+        "choices": [
+            "A. Underdamped",
+            "B. Critically damped",
+            "C. Overdamped",
+            "D. Undamped (sustained oscillations)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "For a second-order control system to exhibit an underdamped response, its damping ratio ζ must strictly be:",
+        "choices": [
+            "A. Exactly 1",
+            "B. Between 0 and 1",
+            "C. Exactly 0",
+            "D. Greater than 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "The formal \"Type\" of a linear feedback control system specifically refers to the exact number of open-loop poles located at:",
+        "choices": [
+            "A. The right-half plane",
+            "B. The origin (s=0)",
+            "C. The real axis",
+            "D. The left-half plane"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "Mathematically adding a real zero in the left-half plane to a standard second-order system generally has what physical effect on the step response?",
+        "choices": [
+            "A. Decreases the peak overshoot",
+            "B. Makes the system unconditionally unstable",
+            "C. Increases the steady-state error",
+            "D. Increases the peak overshoot and decreases the rise time"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 7,
+        "question": "If a control system possesses a zero strictly located in the right-half of the complex s-plane, the system is classified as a:",
+        "choices": [
+            "A. Non-minimum phase system",
+            "B. Minimum phase system",
+            "C. Marginally stable system",
+            "D. Non-causal system"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "In higher-order control systems, the \"dominant poles\" are strictly defined as the closed-loop poles that are located:",
+        "choices": [
+            "A. Farthest from the origin",
+            "B. On the jω-axis",
+            "C. Closest to the jω-axis",
+            "D. In the right-half plane"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 9,
+        "question": "Which time-domain specification is strictly defined as the time required for the step response to reach exactly 50% of its final steady-state value?",
+        "choices": [
+            "A. Rise time",
+            "B. Settling time",
+            "C. Delay time",
+            "D. Peak time"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "For a strictly underdamped second-order system, the \"Rise Time\" (t_r) is most commonly defined as the time required for the response to rise from:",
+        "choices": [
+            "A. 0% to 100% of its final value",
+            "B. 10% to 90% of its final value",
+            "C. 5% to 95% of its final value",
+            "D. 0% to 50% of its final value"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "The time required for the step response to reach its absolute first maximum peak is formally known as the:",
+        "choices": [
+            "A. Rise time",
+            "B. Peak time",
+            "C. Settling time",
+            "D. Overshoot time"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "The maximum percentage by which the time response exceeds its final steady-state value during a step input is mathematically defined as the:",
+        "choices": [
+            "A. Final value",
+            "B. Steady-state error",
+            "C. Resonance peak",
+            "D. Maximum Overshoot (%OS)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Which time-domain specification explicitly depends on defining a specific acceptable tolerance band (e.g., 2% or 5%)?",
+        "choices": [
+            "A. Delay time",
+            "B. Rise time",
+            "C. Peak time",
+            "D. Settling time"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "The exact physical time required for an underdamped second-order system's step response to reach its first peak (Peak Time, t_p) is given by the formula:",
+        "choices": [
+            "A. 2π / ω_n",
+            "B. π / (ω_n * √(1-ζ^2))",
+            "C. 4 / (ζ * ω_n)",
+            "D. π / (ζ * ω_n)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "For a generic underdamped second-order system, the mathematical approximation for the 2% settling time (t_s) is strictly:",
+        "choices": [
+            "A. 2.2 / (ζ * ω_n)",
+            "B. 3 / (ζ * ω_n)",
+            "C. 4 / (ζ * ω_n)",
+            "D. π / ω_d"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "For a standard underdamped second-order system, the Maximum Percent Overshoot (%OS) is strictly calculated using which exponential formula?",
+        "choices": [
+            "A. 100 * e^(-ζπ / √(1-ζ^2))",
+            "B. 100 * e^(-ζ / √(1-ζ^2))",
+            "C. 100 * e^(-π / √(1-ζ^2))",
+            "D. 100 * e^(-ζπ)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "If the undamped natural frequency (ω_n) of a system is doubled while the damping ratio (ζ) remains perfectly constant, the peak time (t_p) will mathematically:",
+        "choices": [
+            "A. Be halved",
+            "B. Quadruple",
+            "C. Double",
+            "D. Remain strictly unchanged"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "In a standard second-order system, as the damping ratio (ζ) is physically increased from 0.2 towards 0.8, what happens to the Percent Overshoot (%OS)?",
+        "choices": [
+            "A. It strictly increases",
+            "B. It oscillates",
+            "C. It remains constant",
+            "D. It strictly decreases"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 19,
+        "question": "A standard second-order control system has a closed-loop transfer function T(s) = 100 / (s^2 + 10s + 100). What is the exact undamped natural frequency (ω_n)?",
+        "choices": [
+            "A. 100 rad/s",
+            "B. 10 rad/s",
+            "C. 5 rad/s",
+            "D. 50 rad/s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "Using the exact same transfer function T(s) = 100 / (s^2 + 10s + 100), what is the exact damping ratio (ζ)?",
+        "choices": [
+            "A. 1.0",
+            "B. 0.707",
+            "C. 0.5",
+            "D. 0.25"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "Using the same transfer function T(s) = 100 / (s^2 + 10s + 100) where ζ=0.5 and ω_n=10, what is the approximate Peak Time (t_p)?",
+        "choices": [
+            "A. 0.15 seconds",
+            "B. 0.36 seconds (π / 8.66)",
+            "C. 0.50 seconds",
+            "D. 0.78 seconds"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "Using the exact same system where ζ=0.5 and ω_n=10, what is the approximate 2% settling time (t_s)?",
+        "choices": [
+            "A. 0.8 seconds (4/5)",
+            "B. 1.2 seconds",
+            "C. 2.5 seconds",
+            "D. 0.4 seconds"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "Using the exact same system where ζ=0.5 and ω_n=10, what is the approximate 5% settling time (t_s)?",
+        "choices": [
+            "A. 0.8 seconds",
+            "B. 1.2 seconds",
+            "C. 0.6 seconds (3/5)",
+            "D. 0.4 seconds"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "If a second-order system has a damping ratio ζ = 0.5, what is its approximate Maximum Percent Overshoot (%OS)?",
+        "choices": [
+            "A. 4.3%",
+            "B. 10.8%",
+            "C. 25.4%",
+            "D. 16.3%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "A system has a transfer function T(s) = 25 / (s^2 + 6s + 25). What is the mathematical approximation for its 2% settling time?",
+        "choices": [
+            "A. 0.67 seconds",
+            "B. 1.00 seconds",
+            "C. 1.33 seconds",
+            "D. 2.00 seconds"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "An engineer observes a step response on an oscilloscope and notes a Maximum Overshoot of exactly 4.3%. What is the approximate damping ratio (ζ) of this system?",
+        "choices": [
+            "A. 0.500",
+            "B. 0.707",
+            "C. 0.866",
+            "D. 1.000"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "Worded circuit: A classic RLC series circuit acts as a second-order system. The real part of its complex poles (the damping factor σ = ζω_n) is strictly determined by:",
+        "choices": [
+            "A. 1 / (LC)",
+            "B. R * C",
+            "C. R / L",
+            "D. R / (2L)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 28,
+        "question": "The empirical approximation for the delay time (t_d) of a standard second-order system is commonly given by the formula:",
+        "choices": [
+            "A. (1 + 0.7ζ) / ω_n",
+            "B. (1 + 0.5ζ) / ω_n",
+            "C. (0.8 + 1.2ζ) / ω_n",
+            "D. (π - ζ) / ω_n"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 29,
+        "question": "A standard approximation for the rise time (t_r) of a second-order underdamped system is mathematically given by:",
+        "choices": [
+            "A. 4 / (ζ * ω_n)",
+            "B. π / (ω_n * √(1-ζ^2))",
+            "C. 1.8 * ω_n",
+            "D. (1.8) / ω_n"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "The steady-state error (e_ss) of a feedback control system is formally and physically defined as the difference between the:",
+        "choices": [
+            "A. Forward path and reverse path",
+            "B. Input and the controller output",
+            "C. Reference input and the actual measured output as time approaches infinity",
+            "D. Output and the feedback signal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "The Final Value Theorem is used to reliably find the steady-state error e_ss from the error function E(s). The strict mathematical theorem states e_ss equals:",
+        "choices": [
+            "A. lim(s->0) [s * E(s)]",
+            "B. lim(s->∞) [s * E(s)]",
+            "C. lim(s->0) E(s)",
+            "D. lim(s->∞) E(s)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "The static position error constant (K_p) of a closed-loop system with open-loop transfer function G(s)H(s) is formally defined by the limit:",
+        "choices": [
+            "A. lim(s->0) [s * G(s)H(s)]",
+            "B. lim(s->0) [G(s)H(s)]",
+            "C. lim(s->0) [s^2 * G(s)H(s)]",
+            "D. lim(s->∞) [G(s)H(s)]"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "The static velocity error constant (K_v) of a closed-loop system is mathematically defined by the limit:",
+        "choices": [
+            "A. lim(s->0) [s * G(s)H(s)]",
+            "B. lim(s->0) [G(s)H(s)]",
+            "C. lim(s->∞) [s * G(s)H(s)]",
+            "D. lim(s->0) [s^2 * G(s)H(s)]"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "The static acceleration error constant (K_a) of a closed-loop system is mathematically defined by the limit:",
+        "choices": [
+            "A. lim(s->0) [G(s)H(s)]",
+            "B. lim(s->0) [s^2 * G(s)H(s)]",
+            "C. lim(s->∞) [s^2 * G(s)H(s)]",
+            "D. lim(s->0) [s * G(s)H(s)]"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "A Type 0 linear feedback control system is strictly characterized by having exactly how many open-loop poles at the origin (s=0)?",
+        "choices": [
+            "A. One",
+            "B. Two",
+            "C. Three",
+            "D. Zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "A Type 1 linear feedback control system is strictly characterized by having exactly how many open-loop poles at the origin (s=0)?",
+        "choices": [
+            "A. Zero",
+            "B. Two",
+            "C. One",
+            "D. Three"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "For a standard unity feedback system, the mathematical formula for the steady-state error (e_ss) to a unit step input is strictly:",
+        "choices": [
+            "A. 1 / K_v",
+            "B. 1 / K_p",
+            "C. 1 / (1 + K_p)",
+            "D. 1 / (1 + K_v)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "For a standard unity feedback system, the mathematical formula for the steady-state error (e_ss) to a unit ramp input is strictly:",
+        "choices": [
+            "A. 1 / K_a",
+            "B. 1 / (1 + K_v)",
+            "C. 1 / K_p",
+            "D. 1 / K_v"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 39,
+        "question": "For a standard unity feedback system, the mathematical formula for the steady-state error (e_ss) to a unit parabolic input is strictly:",
+        "choices": [
+            "A. 1 / K_a",
+            "B. 1 / (1 + K_a)",
+            "C. 1 / K_v",
+            "D. 1 / K_p"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 40,
+        "question": "What specific system characteristic mathematically forces the static position error constant (K_p) to evaluate to infinity?",
+        "choices": [
+            "A. The system is unstable",
+            "B. The system Type is 1 or higher (contains an integrator)",
+            "C. The system is Type 0",
+            "D. The system has a pole in the right-half plane"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "A pure unit step input is applied to a Type 0 control system. The resulting steady-state error (e_ss) will mathematically be:",
+        "choices": [
+            "A. Zero",
+            "B. A constant, finite, non-zero value",
+            "C. Infinity",
+            "D. Oscillating"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "A pure unit ramp input is applied to a strictly Type 0 control system. The resulting steady-state error (e_ss) will mathematically evaluate to:",
+        "choices": [
+            "A. A constant, finite, non-zero value",
+            "B. Zero",
+            "C. Infinity",
+            "D. Unity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "A pure unit step input is applied to a strictly Type 1 control system. The resulting steady-state error (e_ss) will mathematically evaluate to:",
+        "choices": [
+            "A. Zero",
+            "B. A constant, finite value",
+            "C. Infinity",
+            "D. Undefined"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "A pure unit ramp input is applied to a strictly Type 1 control system. The resulting steady-state error (e_ss) will mathematically evaluate to:",
+        "choices": [
+            "A. Zero",
+            "B. Infinity",
+            "C. Unpredictable",
+            "D. A constant, finite, non-zero value"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "A pure parabolic input (constant acceleration) applied to a strictly Type 1 control system will mathematically and inevitably result in a steady-state error of:",
+        "choices": [
+            "A. A finite constant",
+            "B. Zero",
+            "C. An exponential decay",
+            "D. Infinity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 46,
+        "question": "A pure unit ramp input is applied to a strictly Type 2 control system. The resulting steady-state error (e_ss) will mathematically evaluate to:",
+        "choices": [
+            "A. Zero",
+            "B. A finite constant",
+            "C. Infinity",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "A pure parabolic input is applied to a strictly Type 2 control system. The resulting steady-state error (e_ss) will mathematically evaluate to:",
+        "choices": [
+            "A. Zero",
+            "B. Infinity",
+            "C. A constant, finite, non-zero value",
+            "D. -1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "A unity feedback system has an open-loop transfer function G(s) = 10 / (s + 2). What is the exact value of the static position error constant (K_p)?",
+        "choices": [
+            "A. 10",
+            "B. 5",
+            "C. 0.2",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "Using the exact same system where G(s) = 10 / (s + 2), what is the exact steady-state error for a unit step input?",
+        "choices": [
+            "A. 0.167 (or 1/6)",
+            "B. 0.200 (or 1/5)",
+            "C. 0",
+            "D. Infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "A unity feedback system has an open-loop transfer function G(s) = 10 / (s(s + 2)). What is the exact value of the static velocity error constant (K_v)?",
+        "choices": [
+            "A. 10",
+            "B. 0",
+            "C. Infinity",
+            "D. 5"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 51,
+        "question": "Using the exact same system where G(s) = 10 / (s(s + 2)), what is the exact steady-state error for a unit ramp input?",
+        "choices": [
+            "A. 0",
+            "B. Infinity",
+            "C. 0.200",
+            "D. 0.167"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "A unity feedback system has an open-loop transfer function G(s) = 20 / (s^2(s + 4)). What is the exact value of the static acceleration error constant (K_a)?",
+        "choices": [
+            "A. 20",
+            "B. 5",
+            "C. 0",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "Using the exact same system where G(s) = 20 / (s^2(s + 4)), what is the exact steady-state error for a unit parabolic input (r(t) = t^2 / 2)?",
+        "choices": [
+            "A. 0",
+            "B. 0.200",
+            "C. 5.000",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "Worded circuit: An engineer controls a thermal plant G(s) = 5 / (s + 1) using a standard Proportional-Integral (PI) controller G_c(s) = (s + 2) / s. The overall open-loop system is mathematically classified as:",
+        "choices": [
+            "A. Type 1",
+            "B. Type 0",
+            "C. Type 2",
+            "D. Type 3"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "A unity feedback control system has G(s) = 4 / (s + 1). An input step of amplitude 5 is applied (r(t) = 5u(t)). What is the exact steady-state error?",
+        "choices": [
+            "A. 0",
+            "B. 5",
+            "C. 0.2",
+            "D. 1.0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 56,
+        "question": "A unity feedback control system has G(s) = 10 / (s(s + 2)). A ramp input r(t) = 3t is applied. What is the exact steady-state error?",
+        "choices": [
+            "A. 0",
+            "B. 5.0",
+            "C. 0.6",
+            "D. 1.67"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "Worded mechanical system: A standard industrial liquid heating tank acts as a pure thermal RC low-pass filter without any internal integration. This physical plant is inherently classified as a:",
+        "choices": [
+            "A. Type 1 system",
+            "B. Type 2 system",
+            "C. Type 0 system",
+            "D. Marginally stable system"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "In classical control design, adding a pure integrator (a pole at the origin) to the forward path strictly has what effect on steady-state accuracy?",
+        "choices": [
+            "A. It makes the error infinite",
+            "B. It perfectly eliminates steady-state error for a step input",
+            "C. It increases the bandwidth",
+            "D. It decreases the steady-state error for a parabola to zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "An engineer requires a unity feedback Type 0 system to have a steady-state error of exactly 0.1 for a unit step input. What must the position constant (K_p) be?",
+        "choices": [
+            "A. 9",
+            "B. 10",
+            "C. 0.1",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "An engineer requires a unity feedback Type 1 system to have a steady-state error of exactly 0.05 for a unit ramp input. What must the velocity constant (K_v) be?",
+        "choices": [
+            "A. 10",
+            "B. 0.05",
+            "C. 50",
+            "D. 20"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "A unity feedback system has G(s) = K / (s(s + 4)). What is the required value of gain K to yield a steady-state error of exactly 0.1 to a unit ramp input?",
+        "choices": [
+            "A. 4",
+            "B. 10",
+            "C. 20",
+            "D. 40"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 62,
+        "question": "A second-order control system has closed-loop poles located exactly at s = -3 ± j4. What is the approximate 2% settling time of this system?",
+        "choices": [
+            "A. 0.75 seconds",
+            "B. 1.00 seconds",
+            "C. 1.33 seconds (4/3)",
+            "D. 4.00 seconds"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "Using the exact same closed-loop poles (s = -3 ± j4), what is the exact Peak Time (t_p) of the step response?",
+        "choices": [
+            "A. π / 3 seconds",
+            "B. π / 4 seconds",
+            "C. π / 5 seconds",
+            "D. 4 / π seconds"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "Worded circuit: An operational amplifier is strictly configured as an ideal active integrator. Inserting this circuit in series with a Type 0 plant will mathematically transform the overall system into a:",
+        "choices": [
+            "A. Type 1 system",
+            "B. Type 2 system",
+            "C. Type 0 system",
+            "D. Unstable system"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "Which specific time-domain specification is most closely associated with the system's high-frequency bandwidth and susceptibility to high-frequency noise?",
+        "choices": [
+            "A. Rise time (a very fast rise time implies a very high bandwidth)",
+            "B. Delay time",
+            "C. Settling time",
+            "D. Maximum overshoot"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "A closed-loop system has an open-loop transfer function G(s)H(s) = 10 / (s^3 + 2s^2 + s). What is the strict System Type?",
+        "choices": [
+            "A. Type 0",
+            "B. Type 2",
+            "C. Type 1",
+            "D. Type 3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "If a linear time-invariant system is mathematically found to be unconditionally unstable (poles in the right-half plane), its steady-state error is strictly:",
+        "choices": [
+            "A. Zero",
+            "B. Undefined (or approaching infinity as the output diverges)",
+            "C. 1",
+            "D. A finite constant"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "The Maximum Percent Overshoot (%OS) of a standard second-order system is completely and exclusively determined by the geometric ratio of the closed-loop pole's:",
+        "choices": [
+            "A. Magnitude to its real part",
+            "B. Real part to its magnitude",
+            "C. Real part to its imaginary part",
+            "D. Imaginary part to its real part (since angle θ dictates ζ)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "Worded vehicle system: A car's cruise control uses a PI controller to maintain exactly 60 mph despite uphill grades. Because of the mathematical integration in the controller, the steady-state velocity error to a step change in hill grade is strictly:",
+        "choices": [
+            "A. Infinity",
+            "B. Zero",
+            "C. A finite constant dependent on the hill",
+            "D. Unpredictable"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "An engineer evaluates a control system's step response and observes absolutely zero overshoot (0%). This definitively indicates that the system's damping ratio (ζ) must strictly be:",
+        "choices": [
+            "A. Exactly 0",
+            "B. Between 0 and 1",
+            "C. Exactly 0.707",
+            "D. Greater than or equal to 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 71,
+        "question": "What does a strictly negative static position error constant (K_p < 0) mathematically imply about a unity feedback physical system?",
+        "choices": [
+            "A. It is an overdamped system",
+            "B. It is a Type 2 system",
+            "C. It is unstable (possesses a right-half plane open-loop pole), making error calculations via Final Value Theorem invalid",
+            "D. It has zero steady-state error"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "To mathematically halve the settling time of an underdamped second-order system, an engineer must physically modify the controller to move the dominant closed-loop poles:",
+        "choices": [
+            "A. Twice as far to the left (double the real part σ)",
+            "B. Twice as far from the real axis (double the imaginary part ω_d)",
+            "C. Closer to the origin",
+            "D. Exactly onto the real axis"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "When calculating time-domain specifications, the \"dominant pole approximation\" is generally considered mathematically valid ONLY IF the higher-order poles are located further left by a factor of at least:",
+        "choices": [
+            "A. 2 times the real part of the dominant poles",
+            "B. 100 times the real part of the dominant poles",
+            "C. 5 times the real part of the dominant poles",
+            "D. 0.5 times the real part of the dominant poles"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "The physical time required for the step response to rise to 50% of its final value for the very first time is defined as the:",
+        "choices": [
+            "A. Delay time",
+            "B. Rise time",
+            "C. Peak time",
+            "D. Time constant"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "The strict engineering definition of \"Settling Time\" inherently requires the specification of an acceptable:",
+        "choices": [
+            "A. Overshoot limit",
+            "B. Natural frequency",
+            "C. Phase margin",
+            "D. Tolerance band (e.g., 2% or 5%)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 76,
+        "question": "A Type 1 unity feedback system has an open-loop transfer function G(s) = K / (s(s + 2)). If the required velocity error constant is K_v = 10, what must the gain K be?",
+        "choices": [
+            "A. 10",
+            "B. 20",
+            "C. 5",
+            "D. 40"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "For a non-unity feedback system where the feedback is H(s), the true tracking error (not the actuating error) in the Laplace domain is mathematically defined as:",
+        "choices": [
+            "A. E(s) = R(s) * H(s) - C(s)",
+            "B. E(s) = R(s) - C(s) * H(s)",
+            "C. E(s) = C(s) - R(s)",
+            "D. E(s) = R(s) - C(s)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "In a system with non-unity feedback H(s), attempting to use standard K_p, K_v, K_a formulas directly on G(s)H(s) to find the tracking error (R-C) will strictly yield:",
+        "choices": [
+            "A. The exact correct tracking error",
+            "B. An incorrect result, because standard static error constants are derived explicitly for unity feedback tracking error",
+            "C. An imaginary number",
+            "D. An infinite error"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "The presence of a zero located in the right-half of the complex s-plane (a non-minimum phase zero) is notorious for causing what specific physical distortion in the time-domain step response?",
+        "choices": [
+            "A. Initial undershoot (the response initially dips in the wrong direction)",
+            "B. Infinite overshoot",
+            "C. Absolute zero settling time",
+            "D. Perfect critical damping"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "A mechanical control system is modeled by the closed-loop transfer function T(s) = 36 / (s^2 + 2s + 36). What is the exact undamped natural frequency (ω_n) in rad/s?",
+        "choices": [
+            "A. 2",
+            "B. 36",
+            "C. 6",
+            "D. 18"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 81,
+        "question": "Using the exact same mechanical system T(s) = 36 / (s^2 + 2s + 36), what is the exact damping ratio (ζ)?",
+        "choices": [
+            "A. 0.167 (or 1/6)",
+            "B. 1.000",
+            "C. 0.333",
+            "D. 0.500"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "While static error constants evaluate steady-state error for step, ramp, and parabolic inputs, the \"Dynamic Error Coefficients\" (generalized error series) are mathematically required when the input is:",
+        "choices": [
+            "A. A pure sine wave",
+            "B. An arbitrary, time-varying analytical function",
+            "C. A unit impulse",
+            "D. A random noise signal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "Worded circuit: An armature-controlled DC motor is driven by a constant voltage source. If the physical output of interest is the motor's shaft angular POSITION (θ) rather than velocity, the mathematical inclusion of the mechanical integration makes the overall open-loop plant a:",
+        "choices": [
+            "A. Type 0 system",
+            "B. Type 2 system",
+            "C. Type 1 system",
+            "D. Type 3 system"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "A unity feedback control system exhibits a steady-state error of exactly 0.01 to a unit step input. What is the numerical value of its position constant K_p?",
+        "choices": [
+            "A. 10",
+            "B. 0.01",
+            "C. 100",
+            "D. 99"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "According to the standard exponential decay model, the step response of a first-order system reaches approximately 98% of its final steady-state value after exactly how many time constants?",
+        "choices": [
+            "A. 1",
+            "B. 4",
+            "C. 2",
+            "D. 5"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "When comparing physical system responses, the time strictly required for a critically damped system to reach steady state is generally ________ than that of an overdamped system with the same natural frequency.",
+        "choices": [
+            "A. Slower",
+            "B. Identical",
+            "C. Faster",
+            "D. Unpredictable"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "If an engineer attempts to use a Type 0 physical system to track a parabolic input (constant acceleration command), the mathematical steady-state error will strictly be:",
+        "choices": [
+            "A. Zero",
+            "B. Negative",
+            "C. A finite constant",
+            "D. Infinity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "In practical control engineering, the magnitude of the Maximum Percent Overshoot (%OS) provides a direct, measurable time-domain indication of the system's:",
+        "choices": [
+            "A. Relative stability (damping)",
+            "B. Bandwidth",
+            "C. Absolute stability (pole count)",
+            "D. DC gain"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "Which specific time-domain specification is traditionally defined as the time required for the response to rise from 10% to 90% specifically for overdamped or first-order physical systems?",
+        "choices": [
+            "A. Delay time",
+            "B. Settling time",
+            "C. Rise time",
+            "D. Peak time"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "The static error constants (K_p, K_v, and K_a) are mathematically and exclusively evaluated by taking the limit of which specific transfer function as 's' approaches zero?",
+        "choices": [
+            "A. The closed-loop transfer function T(s)",
+            "B. The error transfer function E(s)/R(s)",
+            "C. The feedback transfer function H(s)",
+            "D. The open-loop transfer function G(s)H(s)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "What is the mathematical steady-state error for a unit ramp input if the open-loop transfer function of a unity feedback system is strictly G(s) = 10 / s^2?",
+        "choices": [
+            "A. Zero",
+            "B. 0.1",
+            "C. 10",
+            "D. Infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "For a standard unity feedback system, the transfer function relating the Error E(s) to the Input R(s) is mathematically equivalent to:",
+        "choices": [
+            "A. G(s) / (1 + G(s))",
+            "B. 1 / (1 + G(s))",
+            "C. 1 - G(s)",
+            "D. G(s)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "A control system has an open-loop transfer function G(s) = 1/s^2 and unity negative feedback H(s) = 1. What are the exact locations of the closed-loop poles?",
+        "choices": [
+            "A. s = 0, s = -1",
+            "B. s = -1, s = -1",
+            "C. s = 1, s = -1",
+            "D. s = +j, s = -j"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "For an ideal, strictly undamped second-order system (ζ = 0) subjected to a unit step input, what is the theoretical 2% settling time?",
+        "choices": [
+            "A. Infinity (it never physically settles within a 2% band)",
+            "B. 0 seconds",
+            "C. 2.2 seconds",
+            "D. 4 seconds"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "The time-domain response c(t) of an LTI control system is derived mathematically from the s-domain output C(s) using which fundamental operation?",
+        "choices": [
+            "A. Fast Fourier Transform",
+            "B. Inverse Laplace Transform",
+            "C. Bode Integration",
+            "D. Mason's Formula"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "Worded system: A standard liquid level control tank system, where inflow determines liquid height without any internal integral controller, is typically modeled physically as what system Type?",
+        "choices": [
+            "A. Type 1",
+            "B. Type 2",
+            "C. Type 0",
+            "D. Type 3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 97,
+        "question": "If a physical control system has a steady-state error of exactly 0 for a step input, and a finite, non-zero steady-state error for a ramp input, it is definitively mathematically classified as a:",
+        "choices": [
+            "A. Type 1 system",
+            "B. Type 0 system",
+            "C. Type 2 system",
+            "D. Unstable system"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "A unity feedback system is known to have a static velocity error constant K_v = 50. If the input is a strict ramp function r(t) = 10t * u(t), what is the final steady-state error?",
+        "choices": [
+            "A. 0.02",
+            "B. 2",
+            "C. 500",
+            "D. 0.2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 99,
+        "question": "A unity feedback system is known to have a static acceleration error constant K_a = 100. If the input is a strict parabolic function r(t) = 5t^2 * u(t), what is the final steady-state error?",
+        "choices": [
+            "A. 500",
+            "B. 0.05",
+            "C. 0.1",
+            "D. 20"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "In universally evaluating and comparing standard transient time-domain specifications (t_r, t_p, %OS, t_s), the input to the LTI system is strictly assumed to be a:",
+        "choices": [
+            "A. Unit ramp function",
+            "B. Unit step function",
+            "C. Unit impulse function",
+            "D. Sinusoidal sweep"
+        ],
+        "correct_answer": "B"
+    }
+]

@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "The range of frequencies over which a Phase-Locked Loop (PLL) can acquire lock from an initially unlocked state is called the:",
+        "choices": [
+            "A. Tracking range",
+            "B. Free-running range",
+            "C. Capture range",
+            "D. Lock range"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "In a Phase-Locked Loop, the specific component that generates a DC control voltage proportional to the phase difference between two signals is the:",
+        "choices": [
+            "A. Voltage Controlled Oscillator",
+            "B. Phase Detector",
+            "C. Low-Pass Filter",
+            "D. Charge Pump"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "The conversion gain (Kv) of a Voltage Controlled Oscillator (VCO) in a PLL is typically expressed in standard units of:",
+        "choices": [
+            "A. Degrees per Volt",
+            "B. Radians per second",
+            "C. Hertz per Volt",
+            "D. Volts per Hertz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "What is the primary operational role of the low-pass filter in a basic phase-locked loop (PLL) circuit?",
+        "choices": [
+            "A. To determine the loop's dynamic response and remove high-frequency phase detector ripple",
+            "B. To convert the analog error voltage into a digital signal",
+            "C. To increase the free-running frequency of the VCO",
+            "D. To multiply the input frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "A worded circuit: A PLL is configured for FM demodulation. The FM signal is fed to the phase detector input. To successfully extract the demodulated baseband audio signal, where must the output be taken from?",
+        "choices": [
+            "A. The feedback loop",
+            "B. The output of the VCO",
+            "C. The input of the phase detector",
+            "D. The output of the low-pass filter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 6,
+        "question": "In a practical Phase-Locked Loop, which of the following mathematical relationships between the capture range and the lock range is strictly true?",
+        "choices": [
+            "A. The capture range is always greater than the lock range",
+            "B. The capture range is always less than or equal to the lock range",
+            "C. The capture range is unrelated to the lock range",
+            "D. The capture range is determined solely by the VCO"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "\"False lock\" in a phase-locked loop typically occurs when the PLL accidentally synchronizes with:",
+        "choices": [
+            "A. Pure thermal noise",
+            "B. The power supply ripple",
+            "C. A harmonic or intermodulation product of the input signal",
+            "D. The internal reference ground"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "In a Phase-Frequency Detector (PFD), the \"dead zone\" problem occurs for very small phase errors. How is this typically mitigated in modern PLL ICs?",
+        "choices": [
+            "A. By adding a fixed internal delay to ensure both UP and DOWN pulses turn on briefly",
+            "B. By decreasing the charge pump current",
+            "C. By removing the loop filter",
+            "D. By using an analog multiplier"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "The smallest analog voltage change that can be reliably resolved by a data converter is known as its:",
+        "choices": [
+            "A. Accuracy",
+            "B. Resolution",
+            "C. Linearity",
+            "D. Monotonicity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "The inherent uncertainty caused by representing a continuous analog signal with discrete digital staircase levels is officially called:",
+        "choices": [
+            "A. Quantization error",
+            "B. Gain error",
+            "C. Offset error",
+            "D. Aliasing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "For an n-bit Analog-to-Digital Converter with a full-scale voltage of VFS, the voltage value of one Least Significant Bit (1 LSB) is calculated as:",
+        "choices": [
+            "A. VFS / (2^n)",
+            "B. VFS / (2^n - 1)",
+            "C. VFS * 2^n",
+            "D. (2^n) / VFS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "The theoretical maximum Signal-to-Quantization-Noise Ratio (SQNR) for a sinusoidal input to an ideal n-bit ADC is approximated by the formula:",
+        "choices": [
+            "A. 20 log(n) dB",
+            "B. 3.01n + 1.76 dB",
+            "C. 6.02n + 1.76 dB",
+            "D. 6.02n + 10 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 13,
+        "question": "According to the Nyquist-Shannon sampling theorem, to prevent aliasing, the sampling frequency must be strictly:",
+        "choices": [
+            "A. Exactly the highest frequency component",
+            "B. Greater than twice the highest frequency component of the analog signal",
+            "C. Less than twice the highest frequency component",
+            "D. Equal to the highest frequency component"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 14,
+        "question": "Which converter metric specifies how closely the actual transfer function of a DAC matches the ideal straight-line transfer function?",
+        "choices": [
+            "A. Settling time",
+            "B. Integral Non-Linearity (INL)",
+            "C. Resolution",
+            "D. Quantization error"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "The average quantization noise power for an ideal ADC, assuming a uniform probability distribution of the error over one LSB (step size q), is mathematically equal to:",
+        "choices": [
+            "A. q^2 / 2",
+            "B. q / 12",
+            "C. q^2 / 6",
+            "D. q^2 / 12"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 16,
+        "question": "A 12-bit ADC has a reference voltage of 5V. What is its approximate dynamic range in decibels?",
+        "choices": [
+            "A. 74 dB",
+            "B. 60 dB",
+            "C. 48 dB",
+            "D. 96 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "If an 8-bit DAC has a resolution of 20 mV/LSB, what is its Full-Scale (FS) output voltage? (Assume FS = V_LSB * (2^n - 1)).",
+        "choices": [
+            "A. 2.55 V",
+            "B. 5.12 V",
+            "C. 10.2 V",
+            "D. 5.10 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 18,
+        "question": "A DAC exhibits a behavior where increasing the digital input code sometimes results in a decreasing analog output voltage. This DAC is failing the crucial criterion of:",
+        "choices": [
+            "A. Linearity",
+            "B. Monotonicity",
+            "C. Accuracy",
+            "D. Resolution"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Which error is defined as the maximum deviation of the actual ADC transfer curve from a straight line drawn between zero and full scale?",
+        "choices": [
+            "A. Offset error",
+            "B. Integral Non-Linearity (INL)",
+            "C. Gain error",
+            "D. Differential Non-Linearity (DNL)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "In an ADC, a severe Differential Non-Linearity (DNL) error of less than -1 LSB will inevitably result in:",
+        "choices": [
+            "A. Gain error",
+            "B. Missing digital codes",
+            "C. Offset drift",
+            "D. Phase shift"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "What is the theoretical percentage resolution of a 10-bit DAC? (Percentage resolution = 1 / (2^n - 1) * 100).",
+        "choices": [
+            "A. 0.195%",
+            "B. 0.050%",
+            "C. 0.098%",
+            "D. 0.390%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "A worded circuit: An ideal DAC should output 0V for a digital input of 0000. If a specific DAC outputs 0.05V for an input of 0000, and this 0.05V shift is constant across all codes, this is known as:",
+        "choices": [
+            "A. Quantization error",
+            "B. Offset error",
+            "C. Gain error",
+            "D. Differential Non-Linearity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "An error that changes the slope of the ADC transfer function, making the full-scale output deviate from the ideal full-scale value, is called:",
+        "choices": [
+            "A. INL",
+            "B. Offset error",
+            "C. Gain error",
+            "D. DNL"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "A Binary Weighted Resistor DAC uses a resistor network where each resistor's value is:",
+        "choices": [
+            "A. Proportional to the square of its bit weight",
+            "B. Inversely proportional to its bit weight",
+            "C. Directly proportional to its bit weight",
+            "D. Exactly the same as the others"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "In a 4-bit Binary Weighted Resistor DAC, if the resistor for the Most Significant Bit (MSB) is R, what is the value of the resistor for the Least Significant Bit (LSB)?",
+        "choices": [
+            "A. 8R",
+            "B. 2R",
+            "C. 16R",
+            "D. 4R"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "What is the primary practical disadvantage of the Binary Weighted Resistor DAC, especially for high resolutions (e.g., 12 bits or more)?",
+        "choices": [
+            "A. It requires a complex clock signal",
+            "B. It consumes excessive power",
+            "C. It requires an extremely wide range of precise resistor values which is difficult to fabricate",
+            "D. It has a very slow switching speed"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "A worded circuit: A 4-bit binary weighted DAC uses an inverting op-amp summing amplifier. The MSB resistor is 10k ohms. The input logic levels are 0V and 5V. If the feedback resistor (Rf) is 5k ohms, what is the output voltage contribution of the MSB alone?",
+        "choices": [
+            "A. -1.25 V",
+            "B. -2.5 V",
+            "C. -5.0 V",
+            "D. 2.5 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "A worded circuit: An 8-bit binary weighted resistor DAC has a reference voltage of 10V. The MSB resistor is 10 kOhms. What is the current flowing through the LSB resistor when the LSB bit is logic HIGH (10V)?",
+        "choices": [
+            "A. 128 uA",
+            "B. 1 mA",
+            "C. 500 uA",
+            "D. 7.81 uA"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "A 10-bit binary weighted resistor DAC requires a ratio between the largest and smallest resistor of exactly:",
+        "choices": [
+            "A. 512:1",
+            "B. 1024:1",
+            "C. 10:1",
+            "D. 256:1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "In a binary-weighted DAC, tight tolerance of the MSB resistor is critical. A slight error in the MSB resistor can easily cause the MSB current to be inaccurate by an amount greater than the LSB current, leading to:",
+        "choices": [
+            "A. Thermal runaway",
+            "B. Offset drift",
+            "C. Aliasing",
+            "D. Non-monotonicity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 31,
+        "question": "To convert the summed currents from a binary weighted resistor network into a usable, low-impedance output voltage, designers typically use an operational amplifier configured as a:",
+        "choices": [
+            "A. Differential amplifier",
+            "B. Current-to-voltage converter (Transimpedance amplifier)",
+            "C. Voltage follower",
+            "D. Integrator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "The R-2R Ladder DAC overcomes the primary limitation of the binary weighted DAC by:",
+        "choices": [
+            "A. Utilizing only two distinct resistor values (R and 2R)",
+            "B. Using capacitors instead of resistors",
+            "C. Operating at a much higher clock frequency",
+            "D. Using only active semiconductor switches"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "How many precision resistor values are fundamentally required to build an R-2R ladder DAC of any arbitrary bit resolution?",
+        "choices": [
+            "A. 2^N",
+            "B. N (where N is the number of bits)",
+            "C. Two",
+            "D. One"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "A worded circuit: In a standard R-2R ladder network, if you look back into any internal node of the horizontal 'R' resistors towards the LSB side (assuming all inputs are grounded), the Thevenin equivalent resistance is always exactly:",
+        "choices": [
+            "A. R/2",
+            "B. 2R",
+            "C. 3R",
+            "D. R"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 35,
+        "question": "A worded circuit: An R-2R ladder DAC operates in voltage mode. The reference voltage Vref is applied to the 2R leg of the MSB. What is the voltage contribution of the MSB at the output node before any op-amp buffer?",
+        "choices": [
+            "A. Vref / 8",
+            "B. Vref",
+            "C. Vref / 2",
+            "D. Vref / 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "A major manufacturing advantage of the R-2R ladder DAC is that the absolute value of the resistor 'R' is not critical; what is strictly critical is the:",
+        "choices": [
+            "A. Precise 2:1 matching ratio between the '2R' and 'R' resistors",
+            "B. Switching speed of the logic gates",
+            "C. Temperature coefficient of the op-amp",
+            "D. Power rating of the resistors"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "A worded circuit: An 8-bit R-2R ladder DAC has a reference voltage of 5V. What is the ideal analog output voltage when the digital input code is 10000000 (MSB only is 1)?",
+        "choices": [
+            "A. 1.25 V",
+            "B. 2.50 V",
+            "C. 0.02 V",
+            "D. 5.00 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "In an R-2R current-mode ladder DAC, the current entering each node from the reference is perfectly divided. The current splits such that exactly half flows down the 2R shunt leg and the other half flows:",
+        "choices": [
+            "A. Into the op-amp feedback resistor",
+            "B. Back to the reference",
+            "C. To ground",
+            "D. Down the R series leg to the next node"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 39,
+        "question": "A worded circuit: A 10-bit R-2R DAC operates with a reference voltage of 10.24V. Calculate the analog voltage step size (1 LSB).",
+        "choices": [
+            "A. 20 mV",
+            "B. 1 mV",
+            "C. 5 mV",
+            "D. 10 mV"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "In an inverted (current-mode) R-2R ladder DAC, the analog switches connect the 2R legs to either the op-amp's virtual ground or actual circuit ground. This specific switching arrangement ensures that the current flowing through each branch of the ladder:",
+        "choices": [
+            "A. Remains strictly constant regardless of the digital input code, eliminating node voltage transients",
+            "B. Reverses direction based on the bit",
+            "C. Charges exponentially",
+            "D. Doubles every clock cycle"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "A 12-bit DAC has a full-scale output of 10V. What is the output voltage for a digital input of 0100 0000 0000? (Hex 400).",
+        "choices": [
+            "A. 5.00 V",
+            "B. 1.25 V",
+            "C. 3.33 V",
+            "D. 2.50 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 42,
+        "question": "The time required for a DAC's analog output to reach and remain within a specified error band (e.g., +/- 0.5 LSB) after a digital input code change is officially called the:",
+        "choices": [
+            "A. Slew rate",
+            "B. Aperture time",
+            "C. Settling time",
+            "D. Conversion time"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "When a DAC transitions between codes (e.g., from 0111 to 1000), slight differences in switch timing can cause a transient voltage spike on the output. This phenomenon is known as:",
+        "choices": [
+            "A. A glitch impulse",
+            "B. Quantization noise",
+            "C. Thermal drift",
+            "D. Aliasing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "A Multiplying DAC (MDAC) is a specific type of DAC where the analog output is directly proportional to the digital input code multiplied by:",
+        "choices": [
+            "A. A varying external analog reference voltage",
+            "B. The clock frequency",
+            "C. A fixed internal constant",
+            "D. The ambient temperature"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "For an n-bit DAC with a nominal reference voltage Vref, the absolute maximum output voltage it can produce is strictly:",
+        "choices": [
+            "A. Vref / 2",
+            "B. Vref * (2^n) / (2^n - 1)",
+            "C. Vref * (2^n - 1) / (2^n)",
+            "D. Vref"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "An 8-bit DAC has a step size of 0.05V. What is its Full-Scale (FS) output voltage?",
+        "choices": [
+            "A. 25.50 V",
+            "B. 12.80 V",
+            "C. 25.60 V",
+            "D. 12.75 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 47,
+        "question": "What is the percentage resolution of an 8-bit DAC?",
+        "choices": [
+            "A. 0.098%",
+            "B. 0.784%",
+            "C. 0.392%",
+            "D. 0.196%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "A worded circuit: A bipolar DAC is configured for an output range of -5V to +5V. It has 8 bits of resolution. What is the approximate analog step size (1 LSB)?",
+        "choices": [
+            "A. 20.0 mV",
+            "B. 39.2 mV",
+            "C. 78.4 mV",
+            "D. 19.6 mV"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "The standard formula for the step size (Resolution in volts) of a DAC is:",
+        "choices": [
+            "A. Vref * (2^n)",
+            "B. (2^n) / Vref",
+            "C. Vref / (2^n - 1)",
+            "D. Vref / n"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "The output of a DAC is a \"staircase\" waveform. To produce a smooth, continuous analog signal, the DAC output must be passed through a:",
+        "choices": [
+            "A. Low-pass reconstruction filter",
+            "B. Band-pass filter",
+            "C. High-pass filter",
+            "D. Differentiator"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "A worded circuit: In a current-mode R-2R DAC, the SPDT switches steer current to either ground or the virtual ground of an op-amp. Because both switch throws are at 0V potential, the voltage across the switches is zero. This cleverly eliminates errors caused by the switch's:",
+        "choices": [
+            "A. Leakage current",
+            "B. Switching speed",
+            "C. On-resistance (Rds_on)",
+            "D. Junction capacitance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "A DAC exhibits severe non-monotonicity. What is the most likely physical cause within the integrated circuit?",
+        "choices": [
+            "A. Op-amp offset voltage",
+            "B. Clock jitter",
+            "C. Power supply ripple",
+            "D. Severe mismatch or loose tolerance in the MSB resistors"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "A worded circuit: A 3-bit binary weighted current-mode DAC has bit currents of I (LSB), 2I, and 4I (MSB). If I = 1 mA, what is the total full-scale current?",
+        "choices": [
+            "A. 8 mA",
+            "B. 7 mA",
+            "C. 4 mA",
+            "D. 3 mA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "The Successive Approximation Register (SAR) ADC determines the digital code by using an algorithm that is mathematically equivalent to a:",
+        "choices": [
+            "A. Linear sweep",
+            "B. Bubble sort",
+            "C. Binary search",
+            "D. Fourier transform"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "How many clock cycles are strictly required for an n-bit SAR ADC to complete one single conversion?",
+        "choices": [
+            "A. n^2 clock cycles",
+            "B. n clock cycles",
+            "C. 2^n clock cycles",
+            "D. 1 clock cycle"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "A worded circuit: An 8-bit SAR ADC is converting an analog voltage. The SAR logic initially sets the MSB to 1 (code 10000000). The internal comparator tests this against the analog input. If the analog input is LOWER than the DAC output, what does the SAR logic do on the next clock cycle?",
+        "choices": [
+            "A. It clears the MSB to 0 and sets the next bit to 1",
+            "B. It sets all bits to 1",
+            "C. It sets all bits to 0",
+            "D. It keeps the MSB as 1 and sets the next bit to 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 57,
+        "question": "What is the primary function of the internal comparator in a Successive Approximation ADC?",
+        "choices": [
+            "A. To compare the analog input against ground",
+            "B. To compare the digital output with a reference code",
+            "C. To compare the analog input voltage against the output voltage of the internal DAC",
+            "D. To generate the clock signal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "The internal architecture of a standard SAR ADC requires the use of which specific analog sub-component to generate test voltages?",
+        "choices": [
+            "A. An integrator",
+            "B. A Digital-to-Analog Converter (DAC)",
+            "C. A high-speed counter",
+            "D. A shift register"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "A 10-bit SAR ADC operates with a clock frequency of 1 MHz. What is its exact minimum theoretical conversion time?",
+        "choices": [
+            "A. 100 us",
+            "B. 1024 us",
+            "C. 1 us",
+            "D. 10 us"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "A worded circuit: A 12-bit SAR ADC is digitizing a high-frequency sine wave. Because the SAR conversion takes multiple clock cycles, the input voltage must remain absolutely stable during the conversion process to prevent severe errors. What circuit MUST be placed before the ADC?",
+        "choices": [
+            "A. A peak detector",
+            "B. A Sample-and-Hold (S/H) amplifier",
+            "C. A low-pass filter",
+            "D. An envelope detector"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "If a Sample-and-Hold (S/H) circuit is NOT used with a SAR ADC, the maximum frequency of the input signal is severely limited by the:",
+        "choices": [
+            "A. Clock frequency directly",
+            "B. Internal DAC resolution",
+            "C. ADC conversion time (Tconv) ensuring the input doesn't change by more than 1 LSB",
+            "D. Power supply voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "In a Sample-and-Hold circuit, the gradual loss of voltage on the hold capacitor during the 'hold' phase due to leakage currents is termed:",
+        "choices": [
+            "A. Aperture jitter",
+            "B. Feedthrough",
+            "C. Droop",
+            "D. Slew rate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "Compared to a Flash ADC, the SAR ADC is:",
+        "choices": [
+            "A. Extremely susceptible to missing codes",
+            "B. Unable to convert DC signals",
+            "C. Significantly faster but uses more power",
+            "D. Slower and limited to lower bit resolutions, but consumes less power and chip area"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "A worded circuit: A 4-bit SAR ADC has a Vref of 16V. The analog input is 11V. The first guess is 1000 (8V). Since 11V > 8V, MSB is kept. The second guess is 1100 (12V). Since 11V < 12V, bit 2 is cleared. What is the final 4-bit digital output code?",
+        "choices": [
+            "A. 1001",
+            "B. 1011",
+            "C. 1100",
+            "D. 1010"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "During the SAR conversion process, the digital output register updates its bits one by one. Therefore, the digital output lines are invalid and must not be read until the ADC asserts which specific control signal?",
+        "choices": [
+            "A. Output Enable (OE)",
+            "B. End of Conversion (EOC) or Data Ready",
+            "C. Start of Conversion (SOC)",
+            "D. Chip Select (CS)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "The time required for a Sample-and-Hold circuit to accurately charge its hold capacitor to the new input voltage level within a specified error band is called the:",
+        "choices": [
+            "A. Hold time",
+            "B. Acquisition time",
+            "C. Aperture time",
+            "D. Settling time"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Which Analog-to-Digital Converter architecture provides the absolute fastest conversion speed?",
+        "choices": [
+            "A. Flash (Parallel) ADC",
+            "B. Successive Approximation (SAR)",
+            "C. Delta-Sigma ADC",
+            "D. Dual-Slope Integrating ADC"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "How many analog comparators are strictly required to construct an n-bit Flash ADC?",
+        "choices": [
+            "A. 2^n",
+            "B. n",
+            "C. 2^n - 1",
+            "D. n^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "A worded circuit: You need to design an 8-bit Flash ADC for a high-speed oscilloscope. How many precision analog comparators must be fabricated on the silicon chip?",
+        "choices": [
+            "A. 255",
+            "B. 8",
+            "C. 256",
+            "D. 65535"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "The conversion time of a Flash ADC is essentially limited only by the:",
+        "choices": [
+            "A. RC time constant of the integrator",
+            "B. Clock frequency of the internal counter",
+            "C. Slew rate of the internal DAC",
+            "D. Propagation delay of the comparators and the encoding logic"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 71,
+        "question": "What is the primary disadvantage that prevents Flash ADCs from being widely used for high-resolution applications (e.g., 16 bits or more)?",
+        "choices": [
+            "A. They cannot convert DC voltages",
+            "B. The exponential growth in the number of comparators causes massive power consumption and requires impractically large silicon area",
+            "C. They are too slow for high-resolution signals",
+            "D. They require an extremely complex clocking scheme"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "In a Flash ADC, the outputs of the 2^n - 1 comparators produce a specific format known as \"thermometer code\". What digital logic block is required to convert this thermometer code into standard binary code?",
+        "choices": [
+            "A. A decoder",
+            "B. A priority encoder",
+            "C. A multiplexer",
+            "D. A shift register"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "The reference voltages for the massive bank of comparators in a Flash ADC are generated using:",
+        "choices": [
+            "A. A single precision resistor string (voltage divider ladder)",
+            "B. Operational amplifiers configured as integrators",
+            "C. Multiple individual Zener diodes",
+            "D. A high-speed DAC"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "A worded circuit: A 3-bit flash ADC has a Vref of 8V applied to a ladder of 8 equal resistors. The comparators are connected to the nodes between the resistors. What is the reference voltage at the node for the lowest comparator (C1)?",
+        "choices": [
+            "A. 1.0 V",
+            "B. 1.5 V",
+            "C. 0.5 V",
+            "D. 0.125 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "In a high-speed Flash ADC, small timing differences between comparators or noise can cause a \"1\" to appear above a \"0\" in the thermometer code (e.g., 00010111). This specific error is known as a:",
+        "choices": [
+            "A. Missing code",
+            "B. Offset error",
+            "C. Bubble error (or Sparkle code)",
+            "D. Aliasing error"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "For an analog input voltage that triggers exactly half of the comparators in a Flash ADC, the raw output from the comparator bank looks like a continuous string of 1s followed by a continuous string of 0s. This pattern is universally referred to as:",
+        "choices": [
+            "A. Thermometer code",
+            "B. Gray code",
+            "C. Manchester code",
+            "D. BCD code"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "To overcome the massive component count of a pure Flash ADC while maintaining high speed, designers often cascade two lower-resolution Flash ADCs, using a DAC and a subtractor in between. This architecture is called a:",
+        "choices": [
+            "A. Counter-Ramp ADC",
+            "B. Sigma-Delta ADC",
+            "C. Dual-Slope ADC",
+            "D. Sub-ranging (or Half-Flash / Pipelined) ADC"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "Which ADC architecture determines the digital value by measuring the time it takes to charge and then discharge a capacitor?",
+        "choices": [
+            "A. Flash ADC",
+            "B. SAR ADC",
+            "C. Tracking ADC",
+            "D. Dual-Slope (Integrating) ADC"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "The Dual-Slope ADC conversion cycle consists of two distinct phases. During the first phase (Run-up), the integrator integrates the:",
+        "choices": [
+            "A. Unknown analog input voltage for a fixed time",
+            "B. Unknown analog input voltage for a variable time",
+            "C. Positive reference voltage for a fixed time",
+            "D. Negative reference voltage for a variable time"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "A worded circuit: In a Dual-Slope ADC, during the second phase (Run-down), the integrator input is switched from the unknown input voltage to a known, opposite-polarity reference voltage. The integrator discharges to zero. The digital output is directly proportional to the:",
+        "choices": [
+            "A. Value of the integrating capacitor",
+            "B. Clock frequency",
+            "C. Time it took to charge during phase 1",
+            "D. Time it takes to discharge to zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "What is the most significant mathematical advantage of the Dual-Slope ADC architecture?",
+        "choices": [
+            "A. It requires absolutely no clock signal",
+            "B. Its extreme high-speed conversion rate",
+            "C. It does not require a reference voltage",
+            "D. The conversion result is totally independent of the exact values and long-term drift of the integrating resistor (R) and capacitor (C)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 82,
+        "question": "Dual-Slope ADCs are renowned for their exceptional immunity to high-frequency noise. If the fixed integration time (T1) is set exactly equal to one period of the local power line frequency, the ADC will theoretically perfectly reject:",
+        "choices": [
+            "A. Quantization noise",
+            "B. Thermal drift",
+            "C. All DC offset errors",
+            "D. 60Hz common-mode noise (Line noise rejection)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "Among the common ADC architectures (Flash, SAR, Dual-Slope), which one has the SLOWEST conversion speed, making it unsuitable for digitizing audio or video?",
+        "choices": [
+            "A. Flash",
+            "B. Pipelined",
+            "C. Dual-Slope Integrating",
+            "D. SAR"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "A worded circuit: A Dual-Slope ADC integrates an unknown positive input voltage Vin for a fixed time T1 = 1000 clock cycles. It then integrates a -5V reference (Vref) back to zero, which takes T2 = 600 clock cycles. What is the value of the unknown input voltage Vin?",
+        "choices": [
+            "A. 5.0 V",
+            "B. 3.0 V",
+            "C. 8.33 V",
+            "D. 1.66 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "The fundamental governing equation for a Dual-Slope ADC, relating the input voltage (Vin), reference voltage (Vref), fixed charging time (T1), and variable discharging time (T2) is:",
+        "choices": [
+            "A. Vin = Vref * (T1 / T2)",
+            "B. Vin * Vref = T1 * T2",
+            "C. Vin * T2 = Vref * T1",
+            "D. Vin * T1 = Vref * T2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "If an n-bit Dual-Slope ADC uses a fixed integration time of 2^n clock cycles, what is the MAXIMUM possible total conversion time in clock cycles?",
+        "choices": [
+            "A. n^2",
+            "B. 2^n",
+            "C. 2 * 2^n",
+            "D. 2^n - 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "Because of its high resolution, extremely high accuracy, excellent noise rejection, and slow speed, the Dual-Slope ADC is the undisputed standard architecture for which instrument?",
+        "choices": [
+            "A. Radar systems",
+            "B. Digital Oscilloscopes",
+            "C. Video capture cards",
+            "D. Digital Multimeters (DMMs)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "To reconstruct an analog signal exactly from its digital samples, the sampling frequency (fs) must be strictly greater than twice the highest frequency component (fmax) of the signal. This minimum sampling rate is called the:",
+        "choices": [
+            "A. Shannon limit",
+            "B. Oversampling ratio",
+            "C. Nyquist rate",
+            "D. Baud rate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "Which modern ADC architecture achieves extremely high resolution (e.g., 24 bits) at low speeds by using a 1-bit DAC, a high-speed modulator, and severe oversampling followed by digital decimation filtering?",
+        "choices": [
+            "A. Pipelined ADC",
+            "B. Sigma-Delta (Delta-Sigma) ADC",
+            "C. Dual-Slope ADC",
+            "D. Successive Approximation ADC"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "In Delta-Sigma ADCs, \"oversampling\" spreads the total quantization noise power over a much wider bandwidth. A specific technique is then used to push this noise out of the audio/baseband frequencies. This crucial technique is called:",
+        "choices": [
+            "A. Noise shaping",
+            "B. Aliasing",
+            "C. Dithering",
+            "D. Sub-ranging"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "A worded circuit: An ADC architecture consists of multiple low-resolution stages connected in series. Each stage computes a few bits, subtracts its analog equivalent from the input, amplifies the residue, and passes it to the next stage simultaneously. This high-speed architecture is the:",
+        "choices": [
+            "A. Integrating ADC",
+            "B. Flash ADC",
+            "C. Pipelined ADC",
+            "D. SAR ADC"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "What is the voltage resolution (1 LSB) of a 12-bit ADC with a 5.0V reference?",
+        "choices": [
+            "A. 0.61 mV",
+            "B. 1.22 mV",
+            "C. 4.88 mV",
+            "D. 2.44 mV"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "\"Aperture jitter\" in a Sample-and-Hold circuit is the cycle-to-cycle variation in the exact time the switch opens. This jitter directly translates into what type of error in the sampled analog voltage?",
+        "choices": [
+            "A. Amplitude error (Voltage noise)",
+            "B. Gain error",
+            "C. Missing codes",
+            "D. Offset error"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "A 10-bit ADC has a reference voltage of 3.3V. If the digital output code is 512 (exactly mid-scale), what is the analog input voltage?",
+        "choices": [
+            "A. 1.65 V",
+            "B. 3.3 V",
+            "C. 0.825 V",
+            "D. 2.475 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "An ideal 16-bit audio ADC has a theoretical maximum Signal-to-Quantization-Noise Ratio (SQNR) of approximately:",
+        "choices": [
+            "A. 60 dB",
+            "B. 144 dB",
+            "C. 120 dB",
+            "D. 98 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "A Counter-Ramp (Tracking) ADC uses an up/down counter feeding a DAC. It compares the DAC output to the analog input. What is the primary disadvantage of this architecture when digitizing rapidly changing signals?",
+        "choices": [
+            "A. It has a massive offset error",
+            "B. It suffers from \"slew rate limiting\" (cannot track fast changes quickly)",
+            "C. It consumes excessive power",
+            "D. It requires too many comparators"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "In a properly designed, ideal ADC, the maximum quantization error (the difference between the continuous input and the staircase transfer function) is bounded by:",
+        "choices": [
+            "A. +/- 1 LSB",
+            "B. +/- 0.5 LSB",
+            "C. +/- 0.1 LSB",
+            "D. +/- 2 LSB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "To prevent aliasing, a filter must be placed BEFORE the analog input of the ADC. What type of filter is this?",
+        "choices": [
+            "A. Anti-aliasing low-pass filter",
+            "B. High-pass noise filter",
+            "C. Reconstruction low-pass filter",
+            "D. Band-pass filter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 99,
+        "question": "A practical ADC is tested dynamically. Due to non-linearities, distortion, and noise, its actual performance is worse than its physical bit count. The metric that specifies its true dynamic performance in bits is called:",
+        "choices": [
+            "A. THD (Total Harmonic Distortion)",
+            "B. ENOB (Effective Number Of Bits)",
+            "C. SFDR (Spurious Free Dynamic Range)",
+            "D. SNR (Signal-to-Noise Ratio)"
+        ],
+        "correct_answer": "B"
+    }
+]

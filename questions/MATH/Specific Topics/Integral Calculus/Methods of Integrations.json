@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "The Fundamental Theorem of Calculus Part 1 states that d/dx [ Integral from a to x of f(t) dt ] is:",
+        "choices": [
+            "A. f(x)",
+            "B. F(x)",
+            "C. F(x) - F(a)",
+            "D. f(a)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "Reversing the limits of integration on a definite integral changes the result by:",
+        "choices": [
+            "A. Taking its reciprocal",
+            "B. Negating its sign",
+            "C. Making it zero",
+            "D. Squaring it"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Evaluate the definite integral from 0 to 1 of 2x dx.",
+        "choices": [
+            "A. 0",
+            "B. 0.5",
+            "C. 1",
+            "D. 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "Find the derivative with respect to x of the integral from 0 to x^2 of sin(t) dt.",
+        "choices": [
+            "A. 2x cos(x^2)",
+            "B. -cos(x^2)",
+            "C. sin(x^2)",
+            "D. 2x sin(x^2)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "According to Leibniz's Rule, what is the derivative with respect to x of the integral from a to b(x) of f(t) dt?",
+        "choices": [
+            "A. f(b(x)) * b'(x)",
+            "B. f(b(x))",
+            "C. f'(b(x)) * b'(x)",
+            "D. f(b(x)) - f(a)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "Evaluate the definite integral from 0 to pi of sin(x) dx.",
+        "choices": [
+            "A. 0",
+            "B. 2",
+            "C. pi",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "The additivity property states that Integral from a to c of f(x)dx plus Integral from c to b of f(x)dx is equal to:",
+        "choices": [
+            "A. 0",
+            "B. Integral from c to a of f(x)dx",
+            "C. Integral from a to b of f(x)dx",
+            "D. Integral from a to c of f(x)dx"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "If f(x) is an odd continuous function on [-a, a], then Integral from -a to a f(x) dx is:",
+        "choices": [
+            "A. f(a)",
+            "B. 2 * Integral from 0 to a f(x) dx",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "Integration by substitution is essentially the reverse process of which differentiation rule?",
+        "choices": [
+            "A. Chain Rule",
+            "B. Product Rule",
+            "C. Quotient Rule",
+            "D. Power Rule"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "When evaluating Integral of 2x * e^(x^2) dx, the most appropriate substitution is:",
+        "choices": [
+            "A. u = 2x",
+            "B. u = x^2",
+            "C. u = e^x",
+            "D. u = e^(x^2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "Evaluate the integral of (3x^2) * cos(x^3) dx.",
+        "choices": [
+            "A. sin(3x^2) + C",
+            "B. -sin(x^3) + C",
+            "C. sin(x^3) + C",
+            "D. -sin(3x^2) + C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "Find the integral of (ln x) / x dx.",
+        "choices": [
+            "A. (ln x)^2 + C",
+            "B. 1/x^2 + C",
+            "C. ln(ln x) + C",
+            "D. (1/2)(ln x)^2 + C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Evaluate Integral of (2x + 1)^4 dx.",
+        "choices": [
+            "A. (1/10)(2x+1)^5 + C",
+            "B. (1/5)(2x+1)^5 + C",
+            "C. (2x+1)^5 + C",
+            "D. (1/2)(2x+1)^5 + C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Find the integral of sin(x) * cos^2(x) dx.",
+        "choices": [
+            "A. (1/3) cos^3(x) + C",
+            "B. -(1/3) cos^3(x) + C",
+            "C. (1/3) sin^3(x) + C",
+            "D. -(1/3) sin^3(x) + C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "What is the integral of 1 / (3x - 2) dx?",
+        "choices": [
+            "A. ln",
+            "B. 3x - 2",
+            "C. + C",
+            "D. -1 / (3x - 2)^2 + C"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 16,
+        "question": "Evaluate the integral of x * sqrt(x^2 + 1) dx.",
+        "choices": [
+            "A. (2/3)(x^2 + 1)^(3/2) + C",
+            "B. (1/2)(x^2 + 1)^(3/2) + C",
+            "C. (3/2)(x^2 + 1)^(3/2) + C",
+            "D. (1/3)(x^2 + 1)^(3/2) + C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "Evaluate the integral of e^(tan x) * sec^2(x) dx.",
+        "choices": [
+            "A. e^(tan x) + C",
+            "B. sec^2(x) e^(tan x) + C",
+            "C. e^(sec x) + C",
+            "D. tan(x) e^(tan x) + C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "What substitution is most appropriate for Integral of dx / (x * ln(x))?",
+        "choices": [
+            "A. u = x",
+            "B. u = ln(x)",
+            "C. u = 1/x",
+            "D. u = e^x"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Evaluate the definite integral from 0 to 1 of x / (x^2 + 1) dx.",
+        "choices": [
+            "A. ln(2)",
+            "B. pi/4",
+            "C. (1/2) ln(2)",
+            "D. 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Find the integral of tan(x) dx.",
+        "choices": [
+            "A. ln",
+            "B. cos(x)",
+            "C. + C",
+            "D. sec^2(x) + C"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 21,
+        "question": "Evaluate the integral of (e^x - e^-x) / (e^x + e^-x) dx.",
+        "choices": [
+            "A. ln(e^x + e^-x) + C",
+            "B. e^x + e^-x + C",
+            "C. (e^x - e^-x)^2 + C",
+            "D. ln(e^x - e^-x) + C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Find the integral of x^2 * (x^3 + 1)^10 dx.",
+        "choices": [
+            "A. (1/11)(x^3 + 1)^11 + C",
+            "B. (1/33)(x^3 + 1)^11 + C",
+            "C. (1/3)(x^3 + 1)^11 + C",
+            "D. (x^3 + 1)^11 + C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "Evaluate Integral of sec^2(5x) dx.",
+        "choices": [
+            "A. 5 tan(5x) + C",
+            "B. (1/5) sec(5x) + C",
+            "C. (1/5) tan(5x) + C",
+            "D. - (1/5) tan(5x) + C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "Evaluate Integral of e^(2x) / (1 + e^(2x)) dx.",
+        "choices": [
+            "A. arctan(e^x) + C",
+            "B. 2 ln(1 + e^(2x)) + C",
+            "C. (1/2) arctan(e^(2x)) + C",
+            "D. (1/2) ln(1 + e^(2x)) + C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "Which of the following is equivalent to Integral of sin(2x) / (1 + cos^2(x)) dx?",
+        "choices": [
+            "A. -ln(1 + cos^2(x)) + C",
+            "B. ln(1 + sin^2(x)) + C",
+            "C. arctan(cos x) + C",
+            "D. (1/2) ln(1 + cos^2(x)) + C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "Evaluate Integral of 1 / (sqrt(x) * (1 + x)) dx using substitution u = sqrt(x).",
+        "choices": [
+            "A. arctan(sqrt(x)) + C",
+            "B. 2 arctan(sqrt(x)) + C",
+            "C. ln(1 + x) + C",
+            "D. 2 ln(1 + sqrt(x)) + C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "The formula for integration by parts, derived from the product rule, is Integral of u dv equals:",
+        "choices": [
+            "A. v du - Integral of u dv",
+            "B. u v + Integral of v du",
+            "C. u v - Integral of v du",
+            "D. Integral of v du - u v"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "In the LIATE rule for choosing 'u' in integration by parts, the 'L' stands for:",
+        "choices": [
+            "A. Linear functions",
+            "B. Limits",
+            "C. Laplace transforms",
+            "D. Logarithmic functions"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "Using LIATE, what should be chosen as 'u' when integrating x * ln(x) dx?",
+        "choices": [
+            "A. ln(x)",
+            "B. x",
+            "C. dx",
+            "D. 1/x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Evaluate the integral of x * e^x dx.",
+        "choices": [
+            "A. e^x (x + 1) + C",
+            "B. e^x (x - 1) + C",
+            "C. x * e^x - x + C",
+            "D. e^x (1 - x) + C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Evaluate the integral of x * cos(x) dx.",
+        "choices": [
+            "A. x sin(x) - cos(x) + C",
+            "B. x cos(x) + sin(x) + C",
+            "C. x sin(x) + cos(x) + C",
+            "D. -x sin(x) + cos(x) + C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "Find the integral of ln(x) dx.",
+        "choices": [
+            "A. x ln(x) + x + C",
+            "B. 1/x + C",
+            "C. (1/2)(ln x)^2 + C",
+            "D. x ln(x) - x + C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "In the LIATE acronym, the 'A' represents which type of functions?",
+        "choices": [
+            "A. Algebraic functions",
+            "B. Absolute value functions",
+            "C. Asymptotic functions",
+            "D. Arcus (inverse trig) functions"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "Evaluate the integral of arctan(x) dx.",
+        "choices": [
+            "A. x arctan(x) + ln(1+x^2) + C",
+            "B. x arctan(x) - (1/2)ln(1+x^2) + C",
+            "C. arctan(x) / x + C",
+            "D. x arctan(x) - ln(1+x^2) + C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "What is the integral of x^2 * e^x dx?",
+        "choices": [
+            "A. e^x (x^2 + 2x + 2) + C",
+            "B. e^x (x^2 - x + 1) + C",
+            "C. e^x (x^2 - 2x + 2) + C",
+            "D. e^x (x^2 + 2x - 2) + C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Evaluate the integral of e^x * sin(x) dx.",
+        "choices": [
+            "A. e^x (sin x + cos x) + C",
+            "B. (1/2) e^x (cos x - sin x) + C",
+            "C. e^x (sin x - cos x) + C",
+            "D. (1/2) e^x (sin x - cos x) + C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "When applying integration by parts twice to Integral of x^2 * sin(x) dx, what is the resulting expression?",
+        "choices": [
+            "A. -x^2 cos(x) + 2x sin(x) + 2 cos(x) + C",
+            "B. x^2 cos(x) - 2x sin(x) + 2 cos(x) + C",
+            "C. -x^2 cos(x) - 2x sin(x) - 2 cos(x) + C",
+            "D. x^2 sin(x) + 2x cos(x) - 2 sin(x) + C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Find the integral of arcsin(x) dx.",
+        "choices": [
+            "A. x arcsin(x) - sqrt(1-x^2) + C",
+            "B. x arcsin(x) + sqrt(1-x^2) + C",
+            "C. (1/2) arcsin^2(x) + C",
+            "D. x arcsin(x) - (1/sqrt(1-x^2)) + C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Evaluate the integral of (ln x)^2 dx.",
+        "choices": [
+            "A. x(ln x)^2 + 2x ln(x) + 2x + C",
+            "B. x(ln x)^2 - x ln(x) + 2x + C",
+            "C. x(ln x)^2 - 2x ln(x) + 2x + C",
+            "D. (1/3)(ln x)^3 + C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "In integrating x^3 * ln(x) dx, the correct choice for dv is:",
+        "choices": [
+            "A. ln(x) dx",
+            "B. x * ln(x) dx",
+            "C. dx",
+            "D. x^3 dx"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Which of the following integrals requires a \"looping\" or circular integration by parts technique?",
+        "choices": [
+            "A. Integral of e^(2x) cos(3x) dx",
+            "B. Integral of x^3 e^x dx",
+            "C. Integral of x^2 ln(x) dx",
+            "D. Integral of arctan(x) dx"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "Evaluate Integral of x * sec^2(x) dx.",
+        "choices": [
+            "A. x tan(x) - ln",
+            "B. cos x",
+            "C. + C",
+            "D. x tan(x) + ln"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 43,
+        "question": "Determine the integral of x^2 * ln(x) dx.",
+        "choices": [
+            "A. (1/3)x^3 ln(x) + (1/9)x^3 + C",
+            "B. (1/2)x^3 ln(x) - (1/3)x^3 + C",
+            "C. (1/3)x^3 ln(x) - (1/9)x^3 + C",
+            "D. (1/3)x^2 ln(x) - (1/9)x^3 + C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "Evaluate the definite integral from 1 to e of ln(x) dx.",
+        "choices": [
+            "A. e",
+            "B. e - 1",
+            "C. 0",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "The Tabular Method (DI method) is a convenient shortcut specifically used for repeated application of:",
+        "choices": [
+            "A. Integration by parts",
+            "B. Partial fractions",
+            "C. Trigonometric substitution",
+            "D. Rationalizing substitution"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "For integrands containing the radical sqrt(a^2 - x^2), which trigonometric substitution is standard?",
+        "choices": [
+            "A. x = a tan(theta)",
+            "B. x = a sin(theta)",
+            "C. x = a sec(theta)",
+            "D. x = a cos(theta)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "For integrands containing the radical sqrt(a^2 + x^2), which trigonometric substitution is standard?",
+        "choices": [
+            "A. x = a sec(theta)",
+            "B. x = a sin(theta)",
+            "C. x = a tan(theta)",
+            "D. x = a cot(theta)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "For integrands containing the radical sqrt(x^2 - a^2), which trigonometric substitution is standard?",
+        "choices": [
+            "A. x = a cos(theta)",
+            "B. x = a tan(theta)",
+            "C. x = a sin(theta)",
+            "D. x = a sec(theta)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "When using the substitution x = a sin(theta) for sqrt(a^2 - x^2), the radical simplifies to:",
+        "choices": [
+            "A. a cos(theta)",
+            "B. a sec(theta)",
+            "C. a sin(theta)",
+            "D. a tan(theta)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "Evaluate the integral of dx / sqrt(1 - x^2).",
+        "choices": [
+            "A. arccos(x) + C",
+            "B. arcsin(x) + C",
+            "C. arctan(x) + C",
+            "D. arcsec(x) + C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Using trig substitution on Integral of dx / (x^2 * sqrt(4 - x^2)), let x = 2 sin(theta). What is dx?",
+        "choices": [
+            "A. 2 sin(theta) d(theta)",
+            "B. -2 sin(theta) d(theta)",
+            "C. 2 cos(theta) d(theta)",
+            "D. 2 sec^2(theta) d(theta)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "Evaluate the integral of dx / (x^2 + 9).",
+        "choices": [
+            "A. (1/9) arctan(x/3) + C",
+            "B. 3 arctan(x/3) + C",
+            "C. arctan(x/3) + C",
+            "D. (1/3) arctan(x/3) + C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "Find the integral of sqrt(1 - x^2) dx.",
+        "choices": [
+            "A. (1/2)x sqrt(1-x^2) + (1/2)arcsin(x) + C",
+            "B. x sqrt(1-x^2) + arcsin(x) + C",
+            "C. (1/3)(1-x^2)^(3/2) + C",
+            "D. (1/2)x sqrt(1-x^2) - (1/2)arcsin(x) + C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "Which identity is most useful after substituting x = a tan(theta) in sqrt(a^2 + x^2)?",
+        "choices": [
+            "A. sin^2(theta) + cos^2(theta) = 1",
+            "B. 1 + tan^2(theta) = sec^2(theta)",
+            "C. sec^2(theta) - 1 = tan^2(theta)",
+            "D. cos(2theta) = 2cos^2(theta) - 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "If x = 3 sec(theta), what does sqrt(x^2 - 9) simplify to (assuming x > 3)?",
+        "choices": [
+            "A. 3 cos(theta)",
+            "B. 3 sin(theta)",
+            "C. 3 tan(theta)",
+            "D. 3 sec(theta)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "Evaluate Integral of 1 / (x^2 * sqrt(x^2 + 4)) dx.",
+        "choices": [
+            "A. (sqrt(x^2 + 4)) / (4x) + C",
+            "B. - (sqrt(x^2 + 4)) / x + C",
+            "C. - (sqrt(x^2 + 4)) / 2x + C",
+            "D. - (sqrt(x^2 + 4)) / (4x) + C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "Evaluate the integral of dx / sqrt(x^2 - 25) for x > 5.",
+        "choices": [
+            "A. ln",
+            "B. x + sqrt(x^2 - 25)",
+            "C. + C",
+            "D. (1/5) arcsec(x/5) + C"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 58,
+        "question": "What substitution is used to evaluate the integral of x^3 * sqrt(9 - x^2) dx?",
+        "choices": [
+            "A. x = 3 tan(theta)",
+            "B. x = 3 sin(theta)",
+            "C. x = 9 sin(theta)",
+            "D. x = 3 sec(theta)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Evaluate Integral of x^2 / sqrt(16 - x^2) dx.",
+        "choices": [
+            "A. 8 arcsin(x/4) + (x/2)sqrt(16-x^2) + C",
+            "B. 8 arcsin(x/4) + x sqrt(16-x^2) + C",
+            "C. 8 arcsin(x/4) - (x/2)sqrt(16-x^2) + C",
+            "D. 4 arcsin(x/4) - (x/2)sqrt(16-x^2) + C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "To integrate dx / (x^2 + 4x + 13), one should first complete the square to get:",
+        "choices": [
+            "A. dx / ((x+4)^2 + 9)",
+            "B. dx / ((x+2)^2 - 9)",
+            "C. dx / ((x-2)^2 + 9)",
+            "D. dx / ((x+2)^2 + 9)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "After completing the square in Integral dx / (x^2 + 4x + 13), the correct trigonometric substitution is:",
+        "choices": [
+            "A. x + 2 = 3 tan(theta)",
+            "B. x + 2 = 3 sin(theta)",
+            "C. x - 2 = 3 tan(theta)",
+            "D. x + 2 = 9 tan(theta)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "Evaluate Integral of 1 / (x^2 + 2x + 2) dx.",
+        "choices": [
+            "A. arctan(x) + C",
+            "B. arctan(x + 1) + C",
+            "C. ln(x^2 + 2x + 2) + C",
+            "D. arctan(x - 1) + C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "Find the integral of sqrt(x^2 - 1) / x dx for x > 1.",
+        "choices": [
+            "A. sqrt(x^2 - 1) + arcsec(x) + C",
+            "B. sqrt(x^2 - 1) + arctan(x) + C",
+            "C. sqrt(x^2 - 1) - arcsec(x) + C",
+            "D. sqrt(x^2 - 1) - arcsin(x) + C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "Partial fraction decomposition is a technique used to integrate which type of functions?",
+        "choices": [
+            "A. Exponential functions",
+            "B. Trigonometric functions",
+            "C. Irrational functions",
+            "D. Rational functions"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "The first step in partial fraction decomposition of P(x)/Q(x) is to ensure the rational function is proper. A function is proper if:",
+        "choices": [
+            "A. The degree of P(x) is less than the degree of Q(x)",
+            "B. The degree of P(x) is greater than the degree of Q(x)",
+            "C. P(x) and Q(x) have no common factors",
+            "D. Q(x) is fully factored into linear terms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "If the rational function is improper, one must first perform:",
+        "choices": [
+            "A. Synthetic division by a linear factor",
+            "B. Polynomial long division",
+            "C. Factoring by grouping",
+            "D. Completing the square"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "What is the correct partial fraction form for 1 / ((x-1)(x+2))?",
+        "choices": [
+            "A. A/(x-1) + Bx/(x+2)",
+            "B. A/(x-1) + B/(x+2)^2",
+            "C. A/(x-1) + B/(x+2)",
+            "D. (Ax+B)/(x-1) + C/(x+2)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "What is the correct partial fraction form for (x^2) / ((x-1)^2 * (x+3))?",
+        "choices": [
+            "A. A/(x-1) + B/(x+3)",
+            "B. A/(x-1)^2 + B/(x+3)",
+            "C. (Ax+B)/(x-1)^2 + C/(x+3)",
+            "D. A/(x-1) + B/(x-1)^2 + C/(x+3)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "What is the correct partial fraction form for 1 / (x * (x^2 + 1))?",
+        "choices": [
+            "A. A/x + (Bx+C)/(x^2+1)",
+            "B. A/x + B/(x^2+1)",
+            "C. A/x + (Bx)/(x^2+1)",
+            "D. (Ax+B)/x + C/(x^2+1)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "Decompose 1 / (x^2 - 1) into partial fractions.",
+        "choices": [
+            "A. 1/(x-1) - 1/(x+1)",
+            "B. (1/2)/(x-1) - (1/2)/(x+1)",
+            "C. (1/2)/(x-1) + (1/2)/(x+1)",
+            "D. 1/(x-1) + 1/(x+1)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "Evaluate the integral of dx / (x^2 - a^2).",
+        "choices": [
+            "A. (1/a) ln",
+            "B. (x-a)/(x+a)",
+            "C. + C",
+            "D. (1/a) ln"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 72,
+        "question": "Find the integral of (2x + 3) / (x^2 - 9) dx.",
+        "choices": [
+            "A. ln",
+            "B. x-3",
+            "C. + ln",
+            "D. x+3"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 73,
+        "question": "The Heaviside cover-up method is a quick way to find coefficients in partial fractions for which type of factors?",
+        "choices": [
+            "A. Distinct linear factors",
+            "B. Repeated linear factors",
+            "C. Irreducible quadratic factors",
+            "D. Repeated quadratic factors"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "Decompose (x) / ((x-2)(x-3)).",
+        "choices": [
+            "A. 2/(x-2) - 3/(x-3)",
+            "B. -2/(x-2) + 3/(x-3)",
+            "C. 2/(x-2) + 3/(x-3)",
+            "D. 3/(x-2) - 2/(x-3)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "Evaluate Integral of (3x - 1) / (x^2 - x - 6) dx.",
+        "choices": [
+            "A. ln",
+            "B. x-3",
+            "C. + 2ln",
+            "D. x+2"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 76,
+        "question": "Evaluate the integral of dx / (x^2 + x).",
+        "choices": [
+            "A. ln",
+            "B. x+1",
+            "C. - ln",
+            "D. x"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 77,
+        "question": "Which of the following integrals results in a function containing both a logarithmic term and an arctangent term?",
+        "choices": [
+            "A. Integral of (x+1)/(x(x^2+1)) dx",
+            "B. Integral of x/(x^2-1) dx",
+            "C. Integral of 1/(x^2+1) dx",
+            "D. Integral of (x)/(x^2+1) dx"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "Find the integral of (2x) / (x^2 + 4x + 4) dx.",
+        "choices": [
+            "A. 2ln",
+            "B. x+2",
+            "C. - 4/(x+2) + C",
+            "D. 2ln"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 79,
+        "question": "What is the integral of (x^3) / (x^2 - 1) dx?",
+        "choices": [
+            "A. (x^2)/2 - (1/2)ln",
+            "B. x^2-1",
+            "C. + C",
+            "D. x - (1/2)ln"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 80,
+        "question": "If the partial fraction decomposition of (x+4)/(x^2+x) is A/x + B/(x+1), what is A?",
+        "choices": [
+            "A. -4",
+            "B. 1",
+            "C. -3",
+            "D. 4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "The integral of an irreducible quadratic factor of the form (Mx+N)/(x^2+px+q) generally evaluates to a combination of:",
+        "choices": [
+            "A. A natural logarithm and an inverse tangent",
+            "B. Two natural logarithms",
+            "C. A polynomial and a logarithm",
+            "D. A rational function and a logarithm"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "Evaluate Integral of 1 / (x^3 - x) dx.",
+        "choices": [
+            "A. ln",
+            "B. x",
+            "C. - (1/2)ln",
+            "D. x^2-1"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 83,
+        "question": "Wallis' formula provides a shortcut for evaluating definite integrals of sin^n(x) or cos^n(x) with limits from:",
+        "choices": [
+            "A. 0 to 2pi",
+            "B. 0 to pi",
+            "C. 0 to pi/2",
+            "D. -pi/2 to pi/2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "In Wallis' formula, if the exponent n is an even integer, the product of fractions is multiplied by what constant?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 2/pi",
+            "D. pi/2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "In Wallis' formula, if the exponent n is an odd integer, the product of fractions is multiplied by what constant?",
+        "choices": [
+            "A. 1",
+            "B. pi/2",
+            "C. 2",
+            "D. pi"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Evaluate Integral from 0 to pi/2 of sin^3(x) dx using Wallis' formula.",
+        "choices": [
+            "A. 1/3",
+            "B. 2/3",
+            "C. 4/3",
+            "D. 3/8"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "Evaluate Integral from 0 to pi/2 of cos^4(x) dx using Wallis' formula.",
+        "choices": [
+            "A. 3/16",
+            "B. pi/8",
+            "C. 3pi/16",
+            "D. 3pi/8"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "Evaluate Integral from 0 to pi/2 of sin^5(x) dx using Wallis' formula.",
+        "choices": [
+            "A. 15/8",
+            "B. 2/5",
+            "C. 15/16",
+            "D. 8/15"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "Wallis' formula for Integral from 0 to pi/2 of sin^m(x) cos^n(x) dx requires multiplying by pi/2 ONLY when:",
+        "choices": [
+            "A. Both m and n are even",
+            "B. Both m and n are odd",
+            "C. m is even and n is odd",
+            "D. m is odd and n is even"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Evaluate Integral from 0 to pi/2 of sin^2(x) cos^2(x) dx.",
+        "choices": [
+            "A. pi/32",
+            "B. pi/16",
+            "C. pi/8",
+            "D. pi/4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "Evaluate Integral from 0 to pi/2 of sin^3(x) cos^2(x) dx.",
+        "choices": [
+            "A. 4/15",
+            "B. 1/15",
+            "C. 2/15",
+            "D. 8/15"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "King's Property states that Integral from a to b of f(x) dx is equal to the Integral from a to b of:",
+        "choices": [
+            "A. f(a - b + x) dx",
+            "B. f(x - a - b) dx",
+            "C. f(b - x) dx",
+            "D. f(a + b - x) dx"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "The Reflection Rule for an integral from 0 to a states that Integral from 0 to a of f(x) dx equals Integral from 0 to a of:",
+        "choices": [
+            "A. f(a - x) dx",
+            "B. f(x - a) dx",
+            "C. -f(a - x) dx",
+            "D. f(-x) dx"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "Evaluate Integral from 0 to pi/2 of (sin x) / (sin x + cos x) dx using King's Property.",
+        "choices": [
+            "A. pi/2",
+            "B. pi/4",
+            "C. pi/8",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "What is the value of Integral from 0 to pi/2 of (sqrt(sin x)) / (sqrt(sin x) + sqrt(cos x)) dx?",
+        "choices": [
+            "A. pi/2",
+            "B. 1",
+            "C. pi/4",
+            "D. pi/6"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "Using King's Property, the Integral from 0 to pi of x * f(sin x) dx simplifies to:",
+        "choices": [
+            "A. pi * Integral from 0 to pi of x * f(sin x) dx",
+            "B. (pi/2) * Integral from 0 to pi/2 of f(sin x) dx",
+            "C. pi * Integral from 0 to pi/2 of f(sin x) dx",
+            "D. (pi/2) * Integral from 0 to pi of f(sin x) dx"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "Evaluate Integral from 0 to pi of x * sin(x) dx.",
+        "choices": [
+            "A. pi",
+            "B. pi/2",
+            "C. 2pi",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "Let I = Integral from 0 to 1 of ln(1+x) / (1+x^2) dx. By substituting x = tan(theta) and applying King's property, I evaluates to:",
+        "choices": [
+            "A. (pi/4) ln(2)",
+            "B. (pi/8) ln(2)",
+            "C. (pi/2) ln(2)",
+            "D. pi ln(2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "Evaluate Integral from 2 to 3 of (sqrt(x)) / (sqrt(x) + sqrt(5-x)) dx.",
+        "choices": [
+            "A. 1",
+            "B. 5/2",
+            "C. 1/2",
+            "D. 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "Evaluate Integral from 0 to pi/2 of ln(tan x) dx using King's Property.",
+        "choices": [
+            "A. pi/4",
+            "B. 1",
+            "C. -pi/4",
+            "D. 0"
+        ],
+        "correct_answer": "D"
+    }
+]

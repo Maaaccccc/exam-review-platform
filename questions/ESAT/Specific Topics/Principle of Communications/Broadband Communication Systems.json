@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "According to the Shannon-Hartley theorem, the theoretical maximum capacity of a communication channel is fundamentally limited by its:",
+        "choices": [
+            "A. Bandwidth and Signal-to-Noise Ratio",
+            "B. Transmitter power and Carrier frequency",
+            "C. Modulation index and Baud rate",
+            "D. Antenna gain and Wavelength"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "If a digital transmission system utilizes 16-QAM and operates at a bit rate of 9600 bps, what is the effective symbol rate?",
+        "choices": [
+            "A. 9600 baud",
+            "B. 2400 baud",
+            "C. 38400 baud",
+            "D. 1200 baud"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "In QPSK carrier recovery, differential encoding (creating DQPSK) is heavily utilized by engineers primarily to mitigate which severe phenomenon?",
+        "choices": [
+            "A. Additive white Gaussian noise",
+            "B. Forward error correction failures",
+            "C. Phase ambiguity (locking onto the wrong quadrant)",
+            "D. Intermodulation distortion"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "Amplitude Shift Keying (ASK), where the carrier is completely turned on and off to represent binary data, is also formally known as:",
+        "choices": [
+            "A. Phase Shift Keying (PSK)",
+            "B. Frequency Hopping (FH)",
+            "C. Pulse Position Modulation (PPM)",
+            "D. On-Off Keying (OOK)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "What is the theoretical minimum Nyquist transmission bandwidth required to transmit a 10 Mbps data stream using standard Binary Phase Shift Keying (BPSK)?",
+        "choices": [
+            "A. 10 MHz",
+            "B. 5 MHz",
+            "C. 20 MHz",
+            "D. 2.5 MHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "The critical performance parameter Eb/N0, universally used for plotting Bit Error Rate (BER) curves, is strictly mathematically defined as the ratio of:",
+        "choices": [
+            "A. Signal power to noise power",
+            "B. Energy per bit to noise power spectral density",
+            "C. Bit rate to baud rate",
+            "D. Error vectors to noise margin"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "Minimum Shift Keying (MSK) is a specialized, continuous-phase variant of FSK where the modulation index is mathematically forced to be exactly:",
+        "choices": [
+            "A. 1.0",
+            "B. 1.5",
+            "C. 0.5",
+            "D. 0.0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "In an 8-PSK digital modulator, each transmitted symbol uniquely encodes and represents exactly how many individual bits of information?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 4",
+            "D. 3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "In an eye pattern display used to evaluate digital transmission quality, the maximum vertical height of the eye opening explicitly indicates the system's:",
+        "choices": [
+            "A. Immunity to additive amplitude noise (Noise margin)",
+            "B. Susceptibility to phase jitter",
+            "C. Carrier frequency drift",
+            "D. Maximum baud rate limit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "Quadrature Phase Shift Keying (QPSK) modulates a carrier by shifting its phase among how many discrete, equally spaced phase states?",
+        "choices": [
+            "A. 2",
+            "B. 4",
+            "C. 8",
+            "D. 16"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "The multiplexing technique that physically separates multiple user signals by assigning each a distinct, non-overlapping frequency band is called:",
+        "choices": [
+            "A. Time Division Multiplexing (TDM)",
+            "B. Code Division Multiplexing (CDM)",
+            "C. Frequency Division Multiplexing (FDM)",
+            "D. Wavelength Division Multiplexing (WDM)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "The multiplexing technique that allows multiple users to share a single channel by exclusively assigning each user a discrete, repeating time slot is called:",
+        "choices": [
+            "A. Frequency Division Multiplexing (FDM)",
+            "B. Code Division Multiplexing (CDM)",
+            "C. Wavelength Division Multiplexing (WDM)",
+            "D. Time Division Multiplexing (TDM)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Wavelength Division Multiplexing (WDM) is conceptually identical to FDM, but it is specifically applied to the routing of multiple wavelengths of light within:",
+        "choices": [
+            "A. Optical fiber communications",
+            "B. Satellite uplinks",
+            "C. Coaxial copper networks",
+            "D. Tropospheric scatter links"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Code Division Multiplexing (CDM) allows users to transmit simultaneously on the exact same frequency by employing mathematical spreading codes that must be perfectly:",
+        "choices": [
+            "A. Symmetrical",
+            "B. Orthogonal (e.g., Walsh-Hadamard codes)",
+            "C. Exponential",
+            "D. Sinusoidal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "In an FDM system, the narrow, unused spectrum space intentionally left between adjacent frequency channels to prevent interference and cross-talk is formally known as the:",
+        "choices": [
+            "A. Squelch band",
+            "B. Blanking interval",
+            "C. Guard band",
+            "D. Parity gap"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "The fundamental engineering purpose of any multiplexing system is to securely and efficiently allow:",
+        "choices": [
+            "A. A single signal to be broadcast to infinite receivers",
+            "B. Analog signals to be converted to digital signals",
+            "C. Signals to travel faster than the speed of light",
+            "D. Multiple independent signals to share a single transmission medium"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "Statistical Time Division Multiplexing (STDM) differs from standard Synchronous TDM primarily because it actively improves channel utilization by:",
+        "choices": [
+            "A. Dynamically allocating time slots strictly based on instantaneous channel demand",
+            "B. Assigning fixed frequency bands to active users",
+            "C. Transmitting data entirely at baseband",
+            "D. Eliminating the need for clock synchronization"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "In the standard CCITT analog Frequency Division Multiplexing hierarchy, exactly 12 standard voice channels are multiplexed together to form a:",
+        "choices": [
+            "A. Mastergroup",
+            "B. Basic Group",
+            "C. Supergroup",
+            "D. Jumbo group"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Assuming each standard analog voice channel requires a 4 kHz allocation, what is the total bandwidth occupied by a standard CCITT FDM Basic Group?",
+        "choices": [
+            "A. 12 kHz",
+            "B. 24 kHz",
+            "C. 48 kHz",
+            "D. 60 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "In high-capacity optical fiber networks, the acronym WDM officially stands for:",
+        "choices": [
+            "A. Wireless Digital Modulation",
+            "B. Wideband Data Multiplexing",
+            "C. Waveform Division Modulation",
+            "D. Wavelength Division Multiplexing"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "How many individual 64-kbps digital voice channels are standardly multiplexed into a single North American T1 carrier system?",
+        "choices": [
+            "A. 24",
+            "B. 30",
+            "C. 32",
+            "D. 48"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "What is the exact, standardized aggregate bit rate of a complete North American T1 carrier system?",
+        "choices": [
+            "A. 2.048 Mbps",
+            "B. 1.544 Mbps",
+            "C. 1.536 Mbps",
+            "D. 8.448 Mbps"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "How many individual 64-kbps digital voice channels are multiplexed in a standard European CEPT E1 carrier system?",
+        "choices": [
+            "A. 24",
+            "B. 32",
+            "C. 30",
+            "D. 256"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "What is the exact, standardized aggregate bit rate of a complete European CEPT E1 carrier system?",
+        "choices": [
+            "A. 1.544 Mbps",
+            "B. 8.448 Mbps",
+            "C. 34.368 Mbps",
+            "D. 2.048 Mbps"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "In the framing structure of a standard T1 carrier, exactly how many overhead framing bits are appended to the end of each 192-bit multiplexed data block?",
+        "choices": [
+            "A. 1",
+            "B. 8",
+            "C. 12",
+            "D. 24"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "The base Synchronous Transport Signal (STS-1) level in the standard SONET digital hierarchy operates at a precise bit rate of:",
+        "choices": [
+            "A. 1.544 Mbps",
+            "B. 51.84 Mbps",
+            "C. 155.52 Mbps",
+            "D. 2.048 Mbps"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "In an E1 carrier frame structure, Time Slot 16 (TS16) is specifically and exclusively reserved for which critical telecommunications function?",
+        "choices": [
+            "A. Frame alignment and synchronization",
+            "B. Voice channel 16",
+            "C. Out-of-band signaling (CAS or CCS)",
+            "D. Error correction parity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "The acronym SDH, which describes the ITU-T global standard for high-speed optical digital transmission networks, stands for:",
+        "choices": [
+            "A. Synchronous Data Hub",
+            "B. Statistical Division Hierarchy",
+            "C. Signal Duplexing Hardware",
+            "D. Synchronous Digital Hierarchy"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "In SONET optical networks, payload data is securely encapsulated into a Synchronous Transport Signal (STS) which prepends critical bytes specifically for:",
+        "choices": [
+            "A. Transport overhead, management, and alignment",
+            "B. Forward error correction strictly",
+            "C. Analog-to-digital conversion",
+            "D. IP address routing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "An STM-1 (Synchronous Transport Module level 1) frame in the standard SDH hierarchy operates at a base optical bit rate of approximately:",
+        "choices": [
+            "A. 51.84 Mbps",
+            "B. 155.52 Mbps",
+            "C. 622.08 Mbps",
+            "D. 2.048 Mbps"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "To strictly approximate free-space propagation conditions on a terrestrial line-of-sight microwave link, the physical path obstacle clearance must be at least 60% of the:",
+        "choices": [
+            "A. Earth's curvature",
+            "B. Skip distance",
+            "C. First Fresnel zone",
+            "D. Radio horizon"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "Which of the following is the standard, widely used engineering formula for calculating Free Space Path Loss (FSPL) in dB, given the path distance (d) in km and frequency (f) in MHz?",
+        "choices": [
+            "A. FSPL = 20log(d) + 10log(f)",
+            "B. FSPL = 36.6 + 20log(d) + 20log(f)",
+            "C. FSPL = 92.4 + 20log(d) + 20log(f)",
+            "D. FSPL = 32.4 + 20log(d) + 20log(f)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "To accurately account for standard atmospheric refraction that slightly bends microwave beams over the earth, path profiles are drawn using an effective Earth radius modeled with a K-factor of:",
+        "choices": [
+            "A. 4/3",
+            "B. 1.0",
+            "C. 0.5",
+            "D. 2.0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "The fading mitigation technique that utilizes two or more physical receiving antennas separated vertically on a tower to combat severe multipath cancellation is called:",
+        "choices": [
+            "A. Frequency diversity",
+            "B. Space diversity",
+            "C. Polarization diversity",
+            "D. Time diversity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Calculate the approximate Free Space Path Loss (FSPL) for a 2 GHz microwave signal traveling a line-of-sight distance of exactly 10 km.",
+        "choices": [
+            "A. 86.4 dB",
+            "B. 108.2 dB",
+            "C. 118.4 dB",
+            "D. 138.4 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "In calculating a comprehensive microwave link budget, the specific received signal level that yields a just-unacceptable Bit Error Rate (typically 10^-3 or 10^-6) is formally defined as the:",
+        "choices": [
+            "A. Fade margin",
+            "B. Equivalent Isotropic Radiated Power (EIRP)",
+            "C. AGC threshold",
+            "D. Receiver threshold sensitivity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "The critical system design parameter representing the absolute dB difference between the nominal received signal level and the equipment's receiver threshold sensitivity is the:",
+        "choices": [
+            "A. Fade margin",
+            "B. System gain",
+            "C. Path loss",
+            "D. Noise figure"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Which physical atmospheric phenomenon poses the most severe, dominating attenuation threat to terrestrial microwave links operating strictly at frequencies above 10 GHz?",
+        "choices": [
+            "A. Ionospheric absorption",
+            "B. Rain attenuation (Hydro-meteors)",
+            "C. Solar flares",
+            "D. Auroral scatter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "The complex mathematical and empirical model universally utilized by radio engineers to predict the multipath outage probability and reliability of a Line-of-Sight microwave link is the:",
+        "choices": [
+            "A. Shannon-Hartley theorem",
+            "B. Friis transmission formula",
+            "C. Vigants-Barnett model",
+            "D. Nyquist criterion"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "In a purely free-space, unobstructed radio environment, if the physical distance between the transmitting and receiving microwave antennas is perfectly doubled, the path loss increases by exactly:",
+        "choices": [
+            "A. 3 dB",
+            "B. 10 dB",
+            "C. 12 dB",
+            "D. 6 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Hollow metallic waveguides are heavily preferred over standard coaxial cables for connecting microwave antennas to transmitters primarily because waveguides exhibit:",
+        "choices": [
+            "A. Significantly lower power loss at extremely high frequencies",
+            "B. Infinite bandwidth",
+            "C. Total immunity to lightning strikes",
+            "D. Perfect impedance matching at all frequencies"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "A point-to-point microwave link operates with a transmitter power of +30 dBm, Tx antenna gain of 30 dBi, Rx antenna gain of 30 dBi, and a free space path loss of 130 dB. Assuming no waveguide losses, what is the received signal level?",
+        "choices": [
+            "A. -70 dBm",
+            "B. -40 dBm",
+            "C. 0 dBm",
+            "D. -10 dBm"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Frequency diversity heavily mitigates frequency-selective fading on a microwave path by simultaneously transmitting the exact same payload information using:",
+        "choices": [
+            "A. Two different polarizations",
+            "B. Space-time block codes",
+            "C. Two distinct RF carrier frequencies",
+            "D. Orthogonal spreading codes"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "The standard, most utilized satellite orbit for global communications, where the satellite appears perfectly stationary relative to an observer on the Earth's surface, is called the:",
+        "choices": [
+            "A. Low Earth Orbit (LEO)",
+            "B. Medium Earth Orbit (MEO)",
+            "C. Highly Elliptical Orbit (HEO)",
+            "D. Geostationary Earth Orbit (GEO)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "The approximate physical altitude of a Geostationary Earth Orbit (GEO) satellite above the earth's equator is:",
+        "choices": [
+            "A. 35,786 km",
+            "B. 20,200 km",
+            "C. 1,500 km",
+            "D. 384,400 km"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "In order for a satellite to maintain a perfect Geostationary Earth Orbit, it must be launched and positioned so that it orbits exactly above the:",
+        "choices": [
+            "A. Prime Meridian",
+            "B. Equator",
+            "C. North Pole",
+            "D. Tropic of Cancer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "In commercial satellite communications, the uplink frequency is deliberately chosen to be higher than the downlink frequency primarily because:",
+        "choices": [
+            "A. It prevents atmospheric ducting",
+            "B. Higher frequencies travel faster in a vacuum",
+            "C. High-power amplifiers and highly directional antennas are easier to implement on the ground than on a satellite",
+            "D. The ionosphere reflects lower frequencies"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "The core active subsystem aboard a communications satellite responsible for receiving the weak uplink, amplifying it, down-converting the frequency, and retransmitting it back to Earth is the:",
+        "choices": [
+            "A. Solar array",
+            "B. Telemetry module",
+            "C. Attitude controller",
+            "D. Transponder"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "Standard commercial C-band satellite communication systems globally utilize which approximate frequency pairs for the Downlink and Uplink, respectively?",
+        "choices": [
+            "A. 4 GHz Downlink / 6 GHz Uplink",
+            "B. 11 GHz Downlink / 14 GHz Uplink",
+            "C. 20 GHz Downlink / 30 GHz Uplink",
+            "D. 1.5 GHz Downlink / 1.6 GHz Uplink"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "The primary figure of merit utilized in link budgets to strictly determine the overall sensitivity and receiving quality of a satellite earth station is its:",
+        "choices": [
+            "A. Equivalent Isotropic Radiated Power (EIRP)",
+            "B. G/T ratio (Antenna Gain-to-Noise Temperature)",
+            "C. Free Space Path Loss",
+            "D. Carrier-to-Noise ratio (C/N)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Due to the massive altitude of GEO satellites, the typical round-trip propagation delay experienced during a live voice telephone call routed through the satellite is approximately:",
+        "choices": [
+            "A. 10 milliseconds",
+            "B. 50 milliseconds",
+            "C. 500 milliseconds",
+            "D. 2 seconds"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "Low Earth Orbit (LEO) satellite constellations, heavily utilized for satellite phones and low-latency broadband internet, typically orbit at physical altitudes between:",
+        "choices": [
+            "A. 35,000 km and 40,000 km",
+            "B. 10,000 km and 20,000 km",
+            "C. 100 km and 200 km",
+            "D. 500 km and 1,500 km"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "The specific geographical area on the Earth's surface successfully illuminated by a satellite's downlink antenna beam is technically known as its:",
+        "choices": [
+            "A. Footprint",
+            "B. Skip zone",
+            "C. Fresnel zone",
+            "D. Ground track"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "In an elliptical satellite orbit, the specific geometric point where the satellite is physically farthest from the center of the Earth is officially called the:",
+        "choices": [
+            "A. Perigee",
+            "B. Apogee",
+            "C. Zenith",
+            "D. Nadir"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "The acronym VSAT, representing the millions of small, roof-mounted commercial satellite earth stations used for retail and corporate networking, stands for:",
+        "choices": [
+            "A. Very Small Altitude Transmitter",
+            "B. Variable Signal Amplitude Transmitter",
+            "C. Very Small Aperture Terminal",
+            "D. Video Satellite Audio Terminal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "A standard satellite transponder has an absolute usable RF bandwidth of 36 MHz. Using QPSK modulation (2 bits/symbol) and assuming an ideal Nyquist roll-off factor of 0, what is the maximum theoretical aggregate bit rate it can handle?",
+        "choices": [
+            "A. 18 Mbps",
+            "B. 36 Mbps",
+            "C. 144 Mbps",
+            "D. 72 Mbps"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "Standard commercial Ku-band satellite communication systems generally operate in which approximate frequency ranges for the Downlink and Uplink, respectively?",
+        "choices": [
+            "A. 11 GHz Downlink / 14 GHz Uplink",
+            "B. 4 GHz Downlink / 6 GHz Uplink",
+            "C. 20 GHz Downlink / 30 GHz Uplink",
+            "D. 1.5 GHz Downlink / 1.6 GHz Uplink"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "In an elliptical satellite orbit, the specific geometric point in the orbital path where the satellite is physically closest to the Earth is called the:",
+        "choices": [
+            "A. Apogee",
+            "B. Perigee",
+            "C. Ecliptic",
+            "D. Node"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Optical fibers successfully confine and guide light along their entire length using the fundamental physical optical principle of:",
+        "choices": [
+            "A. Diffraction",
+            "B. Polarization",
+            "C. Total internal reflection",
+            "D. Interference"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "The fundamental optical law strictly governing the refraction and bending of light as it crosses the physical boundary between the fiber core and the cladding is:",
+        "choices": [
+            "A. Faraday's Law",
+            "B. Maxwell's Law",
+            "C. Hooke's Law",
+            "D. Snell's Law"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "The light-gathering capacity of an optical fiber is quantified by its Numerical Aperture (NA). How is NA mathematically related to the fiber's acceptance angle (theta_a)?",
+        "choices": [
+            "A. NA = sin(theta_a)",
+            "B. NA = cos(theta_a)",
+            "C. NA = tan(theta_a)",
+            "D. NA = 1 / sin(theta_a)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "For total internal reflection to physically occur and trap light within a fiber optic cable, the index of refraction of the glass core must be:",
+        "choices": [
+            "A. Exactly equal to the index of refraction of the cladding",
+            "B. Higher than the index of refraction of the cladding",
+            "C. Lower than the index of refraction of the cladding",
+            "D. Exactly 1.0 (a perfect vacuum)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "Which specific type of optical fiber suffers the absolute most severe signal degradation and pulse broadening from modal dispersion?",
+        "choices": [
+            "A. Single-mode step-index fiber",
+            "B. Multimode graded-index fiber",
+            "C. Multimode step-index fiber",
+            "D. Polarization-maintaining fiber"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "Chromatic (material) dispersion in optical fibers causes optical pulses to broaden over long distances primarily because:",
+        "choices": [
+            "A. Light reflects off the cladding at different angles",
+            "B. The core contains physical impurities",
+            "C. The fiber is bent too sharply",
+            "D. Different wavelengths (colors) of light travel at slightly different velocities in the glass"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "Which three standard operating wavelengths (transmission windows) are predominantly used in modern silica-based fiber optic communications due to their exceptionally low attenuation?",
+        "choices": [
+            "A. 850 nm, 1310 nm, and 1550 nm",
+            "B. 400 nm, 500 nm, and 600 nm",
+            "C. 1000 nm, 2000 nm, and 3000 nm",
+            "D. 632 nm, 980 nm, and 1480 nm"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "The two primary physical mechanisms that cause signal attenuation (loss of optical power) as light travels through standard silica optical fibers are:",
+        "choices": [
+            "A. Modal dispersion and chromatic dispersion",
+            "B. Rayleigh scattering and intrinsic absorption",
+            "C. Fresnel reflection and macrobending",
+            "D. Polarization mode dispersion and non-linear mixing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "The absolute theoretical minimum optical attenuation in standard silica glass fibers (approx. 0.2 dB/km) occurs exactly at the operating wavelength of:",
+        "choices": [
+            "A. 850 nm",
+            "B. 1310 nm",
+            "C. 1550 nm",
+            "D. 1625 nm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "The two most common and cost-effective electro-optical devices used as light-emitting sources in fiber optic transmitters are:",
+        "choices": [
+            "A. Photodiodes and Phototransistors",
+            "B. Zener diodes and Varactor diodes",
+            "C. Solar cells and Optoisolators",
+            "D. Light Emitting Diodes (LEDs) and Injection Laser Diodes (ILDs)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "Single-mode optical fiber is overwhelmingly preferred for long-distance, ultra-high-bandwidth telecommunication links primarily because its microscopic core diameter completely eliminates:",
+        "choices": [
+            "A. Modal dispersion",
+            "B. Chromatic dispersion",
+            "C. Rayleigh scattering",
+            "D. Attenuation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "To mathematically ensure strict single-mode light propagation within a step-index fiber, the fiber's normalized frequency (V-number) must be carefully designed to be:",
+        "choices": [
+            "A. Greater than 2.405",
+            "B. Less than 2.405",
+            "C. Exactly equal to the core diameter",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "Which of the following semiconductor components is the most common, highly sensitive photodetector utilized in high-speed, long-haul fiber optic receivers?",
+        "choices": [
+            "A. LED",
+            "B. Laser Diode",
+            "C. Avalanche Photodiode (APD) or PIN diode",
+            "D. Schottky diode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "Graded-index multimode fiber significantly reduces the debilitating effects of modal dispersion compared to standard step-index fiber by:",
+        "choices": [
+            "A. Using a core smaller than the wavelength of light",
+            "B. Utilizing multiple distinct layers of cladding",
+            "C. Employing a perfectly pure vacuum core",
+            "D. Gradually decreasing the refractive index profile from the center of the core outward"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "Macrobending loss in an optical fiber installation occurs specifically and detrimentally when:",
+        "choices": [
+            "A. The fiber cable is physically bent to a radius tighter than its critical bend radius",
+            "B. The fiber is spliced using mechanical connectors instead of fusion splicing",
+            "C. Different wavelengths mix non-linearly",
+            "D. Water molecules seep into the glass matrix"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "In military and secure commercial wireless spread spectrum systems, DSSS explicitly stands for:",
+        "choices": [
+            "A. Data Signal Secure System",
+            "B. Direct Sequence Spread Spectrum",
+            "C. Digital Spread Signal Scheme",
+            "D. Discrete Spectrum Signal Shifting"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "The Processing Gain of a DSSS system, which directly dictates its mathematical immunity to jamming and interference, is strictly defined as the ratio of the:",
+        "choices": [
+            "A. Transmitted power to the receiver noise figure",
+            "B. Baseband data rate to the chipping rate",
+            "C. Spread RF bandwidth to the original baseband data bandwidth",
+            "D. Symbol rate to the bit rate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "Frequency Hopping Spread Spectrum (FHSS) effectively evades narrowband jamming, multipath fading, and interception by:",
+        "choices": [
+            "A. Encrypting the baseband data with AES",
+            "B. Utilizing heavily shielded coaxial cables",
+            "C. Spreading the data over a single wideband channel using Walsh codes",
+            "D. Rapidly changing the RF carrier frequency across a wide band based on a pseudo-random code"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "To a conventional, unauthorized narrowband radio receiver, an intercepted direct sequence spread spectrum signal will simply appear on the spectrum analyzer as:",
+        "choices": [
+            "A. Low-level background thermal noise",
+            "B. A very strong, unmodulated carrier",
+            "C. A series of rapid frequency pulses",
+            "D. Severe intermodulation distortion"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "In order to successfully despread and recover the original baseband data from a DSSS signal, the receiving station must perfectly synchronize with and possess the exact same:",
+        "choices": [
+            "A. Receiver antenna polarization",
+            "B. Pseudo-random noise (PN) sequence used by the transmitter",
+            "C. RF power level",
+            "D. IF filter bandwidth"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "Code Division Multiple Access (CDMA) cellular networks (like the classic IS-95 and 3G standards) physically separate users operating simultaneously on the exact same frequency by utilizing which specific spread spectrum technique?",
+        "choices": [
+            "A. Frequency Hopping Spread Spectrum (FHSS)",
+            "B. Orthogonal Frequency Division Multiplexing (OFDM)",
+            "C. Direct Sequence Spread Spectrum (DSSS) with unique orthogonal codes",
+            "D. Time Division Multiple Access (TDMA)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "Which of the following represents the most significant tactical and engineering advantage of utilizing spread spectrum modulation in wireless communication systems?",
+        "choices": [
+            "A. It requires drastically less transmission bandwidth than standard AM or FM",
+            "B. It eliminates the need for antennas",
+            "C. It allows transmission at faster than the speed of light",
+            "D. Extremely high immunity to multipath fading, narrowband jamming, and unauthorized interception"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "In a standard DSSS transmitter, each narrow baseband data bit is directly XORed with a high-speed pseudo-random digital sequence consisting of extremely short individual elements formally called:",
+        "choices": [
+            "A. Chips",
+            "B. Symbols",
+            "C. Frames",
+            "D. Packets"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "A DSSS communication system utilizes a high-speed chipping rate of 10 Mcps (Mega-chips per second) to securely transmit a baseband data rate of 10 kbps. What is the theoretical processing gain of this system in dB?",
+        "choices": [
+            "A. 10 dB",
+            "B. 30 dB",
+            "C. 60 dB",
+            "D. 100 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "The fundamental, defining concept in modern cellular networks that heavily multiplies overall system capacity by intelligently reassigning the exact same radio channels to non-adjacent geographical areas is called:",
+        "choices": [
+            "A. Handoff",
+            "B. Cell splitting",
+            "C. Frequency reuse",
+            "D. Sectoring"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "In a mobile cellular network, the automated, seamless process of transferring an active voice call or data session from one base station to another as the user physically drives across cell boundaries is officially termed:",
+        "choices": [
+            "A. Paging",
+            "B. Roaming",
+            "C. Multiplexing",
+            "D. Handoff (or Handover)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "In a standard hexagonal cellular network layout with a cluster size of N, the physical co-channel reuse distance (D) and the cell radius (R) are mathematically related by the co-channel reuse ratio formula:",
+        "choices": [
+            "A. D/R = sqrt(3N)",
+            "B. D/R = 3N",
+            "C. D = R * sqrt(N)",
+            "D. R/D = 3N^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "The widely adopted IEEE 802.11 family of networking standards formally dictates the physical and MAC layer operational protocols for which ubiquitous wireless technology?",
+        "choices": [
+            "A. Bluetooth",
+            "B. Wi-Fi (WLAN)",
+            "C. WiMAX",
+            "D. ZigBee"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "The classic 2G Global System for Mobile Communications (GSM) standard efficiently multiplexes multiple mobile users onto a single 200 kHz RF channel by utilizing a strict combination of:",
+        "choices": [
+            "A. CDMA and SDMA",
+            "B. CSMA and ALOHA",
+            "C. FDMA and TDMA",
+            "D. WDM and FDM"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "The primary engineering purpose of implementing cell sectoring (e.g., replacing a single omnidirectional antenna with three highly directional 120-degree antennas) in a congested cellular network is to:",
+        "choices": [
+            "A. Increase the maximum transmit power of the mobiles",
+            "B. Expand the cell radius significantly",
+            "C. Eliminate the need for handoffs",
+            "D. Drastically reduce co-channel interference and effectively increase capacity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "The popular short-range wireless Personal Area Network (PAN) standard known as Bluetooth physically operates in which unlicensed global radio frequency band?",
+        "choices": [
+            "A. 2.4 GHz ISM band",
+            "B. 5.0 GHz UNII band",
+            "C. 900 MHz ISM band",
+            "D. 60 GHz mmWave band"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "The ubiquitous IEEE 802.11g WLAN standard (operating in the 2.4 GHz band) utilizes OFDM to provide a theoretical maximum raw data rate of:",
+        "choices": [
+            "A. 11 Mbps",
+            "B. 54 Mbps",
+            "C. 150 Mbps",
+            "D. 600 Mbps"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "The \"near-far problem,\" where a strong signal from a nearby mobile swamps a weak signal from a distant mobile sharing the same spectrum, is absolutely critical and dictates the need for strict, fast power control in which multiple access system?",
+        "choices": [
+            "A. TDMA",
+            "B. FDMA",
+            "C. CDMA (Code Division Multiple Access)",
+            "D. CSMA/CA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "In standard 2G and 3G cellular network architecture, the Base Station Controller (BSC) and the Mobile Switching Center (MSC) are the primary, critical components of the:",
+        "choices": [
+            "A. Mobile device chipset",
+            "B. Base station antenna array",
+            "C. Billing and database system",
+            "D. Core network switching and routing infrastructure"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "To effectively mediate access to the shared wireless medium, avoid hidden nodes, and minimize data collisions, standard IEEE 802.11 Wi-Fi networks utilize which specific Medium Access Control (MAC) protocol?",
+        "choices": [
+            "A. CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance)",
+            "B. CSMA/CD (Carrier Sense Multiple Access with Collision Detection)",
+            "C. Token Passing",
+            "D. Pure ALOHA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "In teletraffic engineering and network sizing, the Erlang is a fundamental, dimensionless unit specifically utilized by engineers to mathematically quantify:",
+        "choices": [
+            "A. Total transmission bandwidth",
+            "B. Telephone traffic intensity or channel occupancy",
+            "C. Signal-to-Noise Ratio",
+            "D. Bit Error Rate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "The 4G cellular broadband standard commonly known as LTE is an acronym that strictly stands for:",
+        "choices": [
+            "A. Local Telecommunications Exchange",
+            "B. Linear Time Equalization",
+            "C. Long Term Evolution",
+            "D. Low Transmission Energy"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "In a Bluetooth networking topology, a very small, ad-hoc network consisting of precisely one master device and up to seven active slave devices is formally and technically known as a:",
+        "choices": [
+            "A. Subnet",
+            "B. Scatternet",
+            "C. Mesh",
+            "D. Piconet"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "Which advanced antenna technology significantly increases the data throughput and link range of modern Wi-Fi (802.11n/ac) and LTE networks without requiring additional bandwidth, primarily by exploiting multipath propagation?",
+        "choices": [
+            "A. MIMO (Multiple-Input Multiple-Output)",
+            "B. Yagi-Uda arrays",
+            "C. Phased array steering",
+            "D. Fractal antennas"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "In a functional fiber optic link, the critical physical junction where the optical fiber aligns perfectly with the emitting surface of the laser diode is known as the:",
+        "choices": [
+            "A. Splicing node",
+            "B. Source-to-fiber coupling interface",
+            "C. Avalanche junction",
+            "D. Bragg grating"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "If a microwave line-of-sight path is physically obstructed such that the obstacle clearance is significantly less than 60% of the first Fresnel zone, the transmitted signal will primarily suffer from severe:",
+        "choices": [
+            "A. Polarization shift",
+            "B. Ionospheric absorption",
+            "C. Diffraction loss",
+            "D. Multipath enhancement"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "In calculating a comprehensive satellite link budget, the Free Space Path Loss (FSPL) is generally the largest single loss factor. For a 4 GHz downlink from a GEO satellite (36,000 km), the FSPL is approximately:",
+        "choices": [
+            "A. 100.5 dB",
+            "B. 155.0 dB",
+            "C. 250.2 dB",
+            "D. 195.6 dB"
+        ],
+        "correct_answer": "D"
+    }
+]

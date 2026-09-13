@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "A memory device completely loses its stored digital data when the primary electrical power is removed. This fundamental characteristic classifies the memory exclusively as:",
+        "choices": [
+            "A. Volatile memory",
+            "B. Non-volatile memory",
+            "C. Read-only memory",
+            "D. Sequential access memory"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "Worded circuit: A memory map specifies that an 8 KB ROM chip must occupy the space from 4000H to 5FFFH. 8 KB requires 13 address lines (A0-A12). To generate the active-low Chip Select, which CPU address line(s) combination must be evaluated by the decoding logic?",
+        "choices": [
+            "A. A15=0, A14=0, A13=0",
+            "B. A15=0, A14=1, A13=0",
+            "C. A15=1, A14=0, A13=0",
+            "D. A15=0, A14=1, A13=1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Dynamic RAM (DRAM) is universally characterized by its requirement for periodic operations to maintain data integrity. What is the specific physical mechanism that necessitates this?",
+        "choices": [
+            "A. The physical fuses inside the chip naturally heal over time",
+            "B. The magnetic domains naturally depolarize at room temperature",
+            "C. The charge stored on microscopic capacitors naturally leaks away through parasitic resistance",
+            "D. The bipolar transistors overheat if left in a continuous logic 1 state"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "A Cache memory system utilizes a \"Write-Back\" policy. In this specific configuration, when the CPU executes a memory write operation, what physically occurs?",
+        "choices": [
+            "A. Data is simultaneously written to both the cache and the main memory to ensure data consistency at all times",
+            "B. The cache refuses write operations, forcing the CPU to access main memory directly",
+            "C. The data is strictly written only to main memory, bypassing the cache entirely",
+            "D. Data is written only to the cache; main memory is updated later only when the modified cache line is evicted"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "The fundamental memory cell of a Static RAM (SRAM) chip holds a single bit of information using which specific internal electronic circuit?",
+        "choices": [
+            "A. A bistable flip-flop (latch) circuit typically made of 4 to 6 transistors",
+            "B. A tiny magnetic core polarized in one of two directions",
+            "C. A microscopic capacitor combined with a single access MOSFET",
+            "D. A floating-gate MOSFET that traps electrons"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "To completely erase the data programmed into a standard UV-EPROM (Erasable Programmable ROM) chip, the user must physically:",
+        "choices": [
+            "A. Execute a specific software erase command sent directly to the chip's data bus",
+            "B. Expose the transparent quartz window on the IC package to intense ultraviolet light for several minutes",
+            "C. Apply a high negative voltage pulse to the Vpp programming pin",
+            "D. Place the IC in a high-temperature thermal oven exceeding 150 degrees Celsius"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "Solid-State Drives (SSDs) utilize advanced memory controllers that dynamically spread out block write operations evenly across the entire physical flash array to prevent premature failure of heavily accessed sectors. This crucial maintenance algorithm is known as:",
+        "choices": [
+            "A. Defragmentation",
+            "B. Automatic Refreshing",
+            "C. Wear Leveling",
+            "D. Error Correction Coding (ECC)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "Worded circuit: An engineer is designing an address decoder for a microprocessor with a 16-bit address bus. They must map exactly 128 KB of memory. What is the fundamental physical problem with this specific design requirement?",
+        "choices": [
+            "A. The RAM chips will require too much power",
+            "B. The data bus is not wide enough to handle 128 KB",
+            "C. It requires a minimum of 24 address lines to decode",
+            "D. A 16-bit address bus can only directly access a maximum of 64 KB of unique memory locations"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "In a modern computer's I/O subsystem architecture, the specific hardware component usually integrated on the motherboard or an expansion card that acts as an interface between the CPU bus and the actual peripheral device is called the:",
+        "choices": [
+            "A. Device Controller",
+            "B. Software Kernel",
+            "C. Application Programming Interface (API)",
+            "D. Direct Memory Access"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "Which of the following strictly defines a \"Device Driver\" in the context of an operating system's I/O subsystem?",
+        "choices": [
+            "A. A physical hardware chip that routes electrical signals",
+            "B. A highly specific software module provided by the manufacturer that translates generic OS I/O commands into the exact hardware-level electrical signals required by the device controller",
+            "C. A generic user-level application",
+            "D. A physical cable connecting a peripheral to the motherboard"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "In modern operating systems like Linux, a \"Kernel Module\" allows for dynamic I/O management by permitting:",
+        "choices": [
+            "A. Hardware interrupts to be completely ignored",
+            "B. The CPU to operate without a system clock",
+            "C. Device drivers to be loaded and unloaded from the core operating system's memory space dynamically at runtime without rebooting",
+            "D. The device controller to be physically hot-swapped without electrical protection"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "The \"Device-Independent I/O Software\" layer in an operating system is primarily responsible for:",
+        "choices": [
+            "A. Generating exact hardware-level timing signals",
+            "B. Defining the physical pinout of the parallel port",
+            "C. Writing specific data bits into the hardware controller's registers",
+            "D. Providing uniform naming conventions, protection, buffering, and standard interfaces (like open, read, write) across entirely different hardware devices"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "When an operating system exposes an interface for peripheral devices, it generally categorizes them. A hard disk drive, which reads and writes data in fixed-size chunks that can be independently addressed, is definitively classified as a:",
+        "choices": [
+            "A. Block device",
+            "B. Character device",
+            "C. Network device",
+            "D. Stream device"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "An I/O operation is classified as \"Synchronous\" if the executing application program:",
+        "choices": [
+            "A. Uses a separate thread",
+            "B. Is suspended (blocked) by the operating system, waiting idly until the physical I/O hardware transfer is completely finished",
+            "C. Continues to execute other code immediately after requesting the I/O transfer",
+            "D. Requires a multiplexed address and data bus"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "An \"I/O Port\" in microprocessor interfacing typically consists of four fundamental types of registers located inside the device controller. These are commonly the:",
+        "choices": [
+            "A. Stack, Accumulator, Index, and Program Counter",
+            "B. Source, Destination, Base, and Offset registers",
+            "C. Status, Control, Data-In, and Data-Out registers",
+            "D. ROM, RAM, Flash, and EEPROM segments"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "Worded circuit: A high-performance CPU operates at 4 GHz, but it needs to communicate with a legacy serial port controller operating at 1 MHz. To prevent the fast CPU from being bottlenecked by the slow physical limitations of the peripheral's logic, motherboard architects separate the fast CPU/Memory bus from the slow peripheral bus using a dedicated hardware IC known as a:",
+        "choices": [
+            "A. Multiplexer",
+            "B. Tri-state buffer",
+            "C. Direct Memory Access Controller",
+            "D. Bus Bridge (e.g., Southbridge)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "The technique of utilizing a dedicated high-speed disk area as a massive buffer to hold output data (such as print jobs) for a slow peripheral, allowing the CPU to quickly dump the data and move on to other tasks, is known as:",
+        "choices": [
+            "A. Spooling",
+            "B. Caching",
+            "C. Paging",
+            "D. Swapping"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "Worded circuit: A driver needs to read the status of an external analog-to-digital converter. The system is designed such that the ADC's status register is mapped to physical address 0xA000. The driver simply executes a standard C-language pointer read from memory address 0xA000. This system explicitly utilizes:",
+        "choices": [
+            "A. Direct Memory Access (DMA)",
+            "B. Memory-Mapped I/O",
+            "C. Isolated I/O",
+            "D. Interrupt-Driven I/O"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Device drivers in modern operating systems typically execute in a highly privileged execution mode to allow direct manipulation of hardware registers. This execution mode is formally known as:",
+        "choices": [
+            "A. User Space",
+            "B. Application Mode",
+            "C. Kernel Space",
+            "D. Virtual Mode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Which of the following physical peripheral devices is the clearest example of a \"Block Device\" due to its structured random-access storage methodology?",
+        "choices": [
+            "A. A basic computer mouse",
+            "B. A generic USB keyboard",
+            "C. A standard RS-232 serial port",
+            "D. An internal Solid-State Drive (SSD)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "Which of the following physical peripheral devices is the clearest example of a \"Character Device,\" which delivers or accepts a continuous stream of unaddressable bytes?",
+        "choices": [
+            "A. A standard UART serial port",
+            "B. A SATA Hard Disk Drive",
+            "C. A DVD-ROM drive",
+            "D. A RAID array"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "What is the primary function of the internal data buffer located physically inside a generic device controller?",
+        "choices": [
+            "A. To permanently store the device firmware",
+            "B. To temporarily store data arriving from the CPU or the peripheral to smooth out speed mismatches before it is transferred across the bus",
+            "C. To generate the system clock signal",
+            "D. To replace the main computer RAM"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "When an I/O device controller has successfully finished a requested read operation and the data is sitting in its internal buffer ready for the CPU, the controller typically alerts the CPU by:",
+        "choices": [
+            "A. Halting the system clock",
+            "B. Modifying the CPU's instruction register",
+            "C. Asserting a physical hardware interrupt signal line",
+            "D. Sending an email to the administrator"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "In a microcomputer utilizing \"Memory-Mapped I/O\", how does the CPU fundamentally differentiate between accessing a standard memory chip (RAM) and accessing a peripheral I/O port?",
+        "choices": [
+            "A. The CPU uses separate IOR and IOW control signals",
+            "B. The CPU uses a completely independent address bus for I/O",
+            "C. The CPU accesses them at different clock frequencies",
+            "D. It doesn't; I/O ports are assigned specific standard addresses within the single unified memory map and are accessed using standard memory read/write control signals"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "Which I/O architectural method provides a completely separate, distinct 8-bit or 16-bit address space for I/O devices, strictly isolated from the main memory map?",
+        "choices": [
+            "A. Isolated I/O (Port-Mapped I/O)",
+            "B. Memory-Mapped I/O",
+            "C. Direct Memory Access",
+            "D. Programmed I/O"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "In an Intel x86 architecture utilizing Isolated I/O, the programmer is strictly required to use which specific assembly instructions to transfer data to and from the peripheral devices?",
+        "choices": [
+            "A. MOV and LEA",
+            "B. IN and OUT",
+            "C. PUSH and POP",
+            "D. LDA and STA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "If a system uses Memory-Mapped I/O, which specific system bus control signals are asserted by the CPU when it writes data to an output peripheral?",
+        "choices": [
+            "A. I/O Write (IOW)",
+            "B. Memory Read (MEMR)",
+            "C. Memory Write (MEMW)",
+            "D. Interrupt Acknowledge (INTA)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Worded circuit: An 8085 system uses Isolated I/O. An input switch is connected to port 55H. By a design error, a RAM chip is also partially decoded such that it occupies address 0055H. If the CPU executes \"IN 55H\", what is the immediate electrical result on the data bus?",
+        "choices": [
+            "A. Bus contention between the switch and the RAM chip",
+            "B. The CPU will crash",
+            "C. The RAM chip will safely output its data",
+            "D. The switch data is successfully read without contention because the CPU asserts the IOR control line, ignoring the memory chips"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "Which I/O data transfer technique forces the CPU to execute a continuous software loop, repeatedly reading a peripheral's status register and doing absolutely nothing else until a specific \"ready\" bit changes state?",
+        "choices": [
+            "A. Programmed I/O (Polling)",
+            "B. Interrupt-Driven I/O",
+            "C. Direct Memory Access (DMA)",
+            "D. Spooling"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "What is the primary, most significant disadvantage of utilizing Programmed I/O (Polling) in a complex, multi-tasking system?",
+        "choices": [
+            "A. It requires too much external hardware logic",
+            "B. It results in massive CPU time wastage (busy-waiting), severely degrading overall system performance",
+            "C. It is completely incompatible with standard memory maps",
+            "D. It can only transfer data one bit at a time"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Worded circuit: A C-program contains the loop: `while((STATUS_PORT & 0x01) == 0); data = DATA_PORT;`. This specific code snippet is a perfect software implementation of:",
+        "choices": [
+            "A. An interrupt service routine",
+            "B. Direct Memory Access",
+            "C. Programmed I/O (Polling)",
+            "D. Memory-Mapped I/O"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "In terms of timing, the \"Latency\" of a Polling I/O system compared to a hardware Interrupt-Driven I/O system is generally:",
+        "choices": [
+            "A. Always exactly equal",
+            "B. Unpredictable in both systems",
+            "C. Faster, because hardware interrupts require context switching time, whereas a tight polling loop can catch a flag change almost instantaneously (at the severe cost of tying up the CPU)",
+            "D. Slower, because interrupts execute at the speed of light"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "Which I/O data transfer technique allows the CPU to freely execute the main program or other tasks, only halting temporarily to service the peripheral when the peripheral explicitly sends a hardware signal requesting attention?",
+        "choices": [
+            "A. Interrupt-Driven I/O",
+            "B. Polling",
+            "C. Direct Memory Access",
+            "D. Isolated I/O"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "In an Interrupt-Driven system, when the CPU accepts an interrupt, it uses an 8-bit identifier provided by the interrupting device to index into a specific table in memory to find the starting address of the service routine. This table is called the:",
+        "choices": [
+            "A. Symbol Table",
+            "B. Interrupt Vector Table (IVT)",
+            "C. Page Table",
+            "D. Spooling Directory"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Before forcing the Program Counter to jump to the Interrupt Service Routine (ISR), the CPU hardware must automatically preserve the main program's state. It does this strictly by:",
+        "choices": [
+            "A. Writing the state to the hard drive",
+            "B. Halting the system clock",
+            "C. Pushing the current Program Counter (and often the Status Flags) onto the memory stack",
+            "D. Ignoring all subsequent interrupts"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Worded circuit: A system has two active interrupts: IRQ1 (Priority 1 - High) and IRQ2 (Priority 2 - Low). The CPU is currently executing the ISR for IRQ2. Suddenly, IRQ1 asserts. The CPU immediately suspends the IRQ2 ISR, pushes its context, and jumps to the IRQ1 ISR. This advanced architecture is known as:",
+        "choices": [
+            "A. Masked Interrupts",
+            "B. Polled Interrupts",
+            "C. Spooled Interrupts",
+            "D. Nested Interrupts"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "Direct Memory Access (DMA) massively improves overall system performance during large block data transfers (e.g., loading a sector from a disk) by explicitly:",
+        "choices": [
+            "A. Completely bypassing the CPU, allowing the DMA controller hardware to directly drive the address and data buses to transfer data between the I/O and RAM at hardware speeds",
+            "B. Utilizing the CPU's internal ALU to compress the data in transit",
+            "C. Disabling all hardware interrupts indefinitely",
+            "D. Increasing the main system clock frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "A specific mode of DMA transfer allows the DMA controller to transfer one single byte or word, then momentarily return control of the buses back to the CPU, alternating back and forth. This prevents the CPU from being completely starved for long periods and is called:",
+        "choices": [
+            "A. Burst Mode",
+            "B. Cycle Stealing Mode",
+            "C. Demand Transfer Mode",
+            "D. Block Transfer Mode"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "To take absolute control over the system buses, a standard DMA controller asserts which specific control signal to the CPU?",
+        "choices": [
+            "A. INTA (Interrupt Acknowledge)",
+            "B. ALE (Address Latch Enable)",
+            "C. HOLD (or Bus Request)",
+            "D. READY"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "Worded circuit: A DMA controller is configured to transfer exactly 1 Kilobyte of data from a disk controller to RAM. The memory read/write cycle takes exactly 2 clock cycles. If the system clock is 2 MHz, what is the absolute minimum time required to transfer the entire 1024 bytes in Burst Mode? (Assume 1 cycle = 0.5 us).",
+        "choices": [
+            "A. 1.024 ms (1024 transfers * 1 us/transfer)",
+            "B. 512 us",
+            "C. 2.048 ms",
+            "D. 102.4 us"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Inside a programmable DMA controller, which three fundamental internal registers must be initialized by the CPU before a DMA transfer can commence?",
+        "choices": [
+            "A. The Accumulator, Index Register, and Stack Pointer",
+            "B. The Base Register, Offset Register, and Segment Register",
+            "C. The Status Register, Interrupt Mask, and Baud Rate Generator",
+            "D. The Starting Address Register, the Byte Count Register, and the Control/Command Register"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "When a DMA controller rapidly writes massive amounts of new data directly into main RAM, it creates a severe data consistency problem for modern CPUs that utilize internal high-speed L1/L2 caches. This specific engineering problem is known as:",
+        "choices": [
+            "A. Bus Contention",
+            "B. Cache Coherency (or Cache Stale Data)",
+            "C. Virtual Memory Thrashing",
+            "D. Interrupt Latency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "One major software advantage of utilizing Memory-Mapped I/O instead of Isolated I/O is that:",
+        "choices": [
+            "A. It expands the size of the RAM",
+            "B. It increases the physical clock speed of the peripherals",
+            "C. The programmer can utilize the entire vast set of CPU memory manipulation instructions (like ADD, AND, XOR) directly on the I/O port registers, rather than being restricted to simple IN/OUT instructions",
+            "D. It automatically prevents hardware interrupts"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "When multiple peripheral devices share a single interrupt request line (INTR) going to the CPU, a hardware arbitration scheme connects the INTR output of the first device to the CPU, and the CPU's INTA connects to the first device. If the first device didn't request the interrupt, it passes the INTA to the next device. This physical wiring scheme is called:",
+        "choices": [
+            "A. Star Topology",
+            "B. Ring Topology",
+            "C. Parallel Priority",
+            "D. Daisy-Chaining"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "An interrupt scheme where the interrupting peripheral device explicitly provides an 8-bit vector number to the CPU on the data bus during the INTA cycle is officially known as:",
+        "choices": [
+            "A. Vectored Interrupts",
+            "B. Non-Vectored Interrupts",
+            "C. Software Interrupts",
+            "D. Masked Interrupts"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "In a purely Programmed I/O (Polling) system, the absolute maximum theoretical data transfer rate is strictly limited by:",
+        "choices": [
+            "A. The physical length of the data bus",
+            "B. The execution time (T-states) of the specific software instructions inside the polling loop (e.g., IN, AND, JZ)",
+            "C. The speed of the hard drive",
+            "D. The physical size of the power supply"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "What is the fundamental architectural difference between a standard software Subroutine Call and a hardware Interrupt Service Routine (ISR)?",
+        "choices": [
+            "A. A subroutine is faster",
+            "B. A subroutine cannot return to the main program",
+            "C. A subroutine is explicitly invoked by a CALL instruction inserted by the programmer at a known, predictable point, whereas an interrupt is invoked randomly and asynchronously by an external hardware event",
+            "D. An interrupt does not use the stack"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "Worded circuit: A generic DMA controller operates on a 16-bit data bus and a 5 MHz clock. A single DMA transfer cycle takes exactly 2 clock cycles. What is the absolute maximum theoretical data transfer rate in Megabytes per second (MB/s)?",
+        "choices": [
+            "A. 2.5 MB/s",
+            "B. 10.0 MB/s",
+            "C. 20.0 MB/s",
+            "D. 5.0 MB/s (5 MHz / 2 cycles * 2 bytes)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "The Intel 8255 Programmable Peripheral Interface (PPI) is a widely used IC explicitly designed to provide a microprocessor with:",
+        "choices": [
+            "A. Serial communication ports",
+            "B. Direct memory access",
+            "C. Analog-to-Digital conversion",
+            "D. Multiple programmable, general-purpose parallel I/O ports"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "The 8255 PPI provides a total of how many individual, programmable 8-bit I/O ports?",
+        "choices": [
+            "A. Two (Port A, Port B)",
+            "B. Three (Port A, Port B, Port C)",
+            "C. Four (Port A, Port B, Port C, Port D)",
+            "D. Eight (Port 0 through Port 7)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "In the 8255 PPI, which operational mode configures the ports as simple, basic input or output ports without any hardware handshaking capabilities?",
+        "choices": [
+            "A. Mode 1",
+            "B. Mode 2",
+            "C. Mode 0",
+            "D. BSR Mode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "In the 8255 PPI, which operational mode explicitly utilizes Port A and Port B for data transfer while stealing pins from Port C to act as dedicated hardware handshaking (strobe and acknowledge) control lines?",
+        "choices": [
+            "A. Mode 0",
+            "B. BSR Mode",
+            "C. Mode 2",
+            "D. Mode 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "The 8255 PPI features a unique \"Bit Set/Reset\" (BSR) mode. This highly specialized mode allows the programmer to individually set or clear specific pins without affecting others, but it strictly applies ONLY to:",
+        "choices": [
+            "A. Port C",
+            "B. Port A",
+            "C. The Control Register",
+            "D. Port B"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "Worded circuit: An engineer must initialize an 8255 PPI. The control word format specifies: Bit 7=1 (I/O Mode), Bits 6-5=00 (Mode 0 for Group A), Bit 4=1 (Port A Input), Bit 3=0 (Port C upper Output), Bit 2=0 (Mode 0 for Group B), Bit 1=1 (Port B Input), Bit 0=0 (Port C lower Output). What is the exact 8-bit hexadecimal control word that must be sent to the control register?",
+        "choices": [
+            "A. 8BH",
+            "B. 92H (1001 0010)",
+            "C. 90H",
+            "D. A2H"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "The Intel 8253 (and the upgraded 8254) is an industry-standard peripheral IC fundamentally known as a:",
+        "choices": [
+            "A. Programmable Interrupt Controller (PIC)",
+            "B. Direct Memory Access (DMA) Controller",
+            "C. Programmable Interval Timer (PIT)",
+            "D. Universal Asynchronous Receiver-Transmitter (UART)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "How many independent, 16-bit programmable counters are physically contained within a single 8253/8254 PIT chip?",
+        "choices": [
+            "A. One",
+            "B. Two",
+            "C. Four",
+            "D. Three"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "In the 8253 PIT, Mode 0 is defined as \"Interrupt on Terminal Count.\" In this mode, if the counter is loaded with the value 5, the output pin will:",
+        "choices": [
+            "A. Go HIGH immediately and stay HIGH",
+            "B. Go LOW immediately, count down 5 clock pulses, then go HIGH and remain HIGH, which can be used to trigger an interrupt",
+            "C. Toggle its state every 5 clock pulses",
+            "D. Output a continuous square wave"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "In the 8253 PIT, Mode 2 is known as the \"Rate Generator.\" It is typically used to generate:",
+        "choices": [
+            "A. A single, one-shot pulse",
+            "B. A continuous series of repetitive negative-going pulses, often used as a programmable digital frequency divider or to trigger periodic hardware interrupts",
+            "C. A perfect 50% duty cycle square wave",
+            "D. An analog voltage proportional to the count"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "In the 8253 PIT, Mode 3 is the \"Square Wave Generator.\" If the counter is loaded with an EVEN number (e.g., 100), the output will be:",
+        "choices": [
+            "A. A single pulse",
+            "B. A DC voltage",
+            "C. A continuous square wave that is HIGH for 50 clock cycles and LOW for 50 clock cycles",
+            "D. A triangle wave"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "Worded circuit: A designer needs a highly accurate 1 Hz (1 pulse per second) output signal. The only available reference clock is 1 MHz. A single 8253 16-bit counter can only divide by a maximum of 65,536 (0000H). How can the designer achieve the 1 Hz output strictly using the 8253?",
+        "choices": [
+            "A. It is physically impossible; they must use an external 555 timer",
+            "B. They can overclock the 8253 to 2 MHz",
+            "C. They must use a 32-bit CPU",
+            "D. They must physically cascade two counters internally; routing the output of Counter 0 into the clock input of Counter 1, programming one to divide by 1000 and the other by 1000"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "Worded circuit: An 8253 is connected to an 8-bit data bus. The control word specifies \"Read/Write LSB then MSB.\" To load Counter 0 with the 16-bit value 1234H, what specific sequence of OUT instructions is strictly required?",
+        "choices": [
+            "A. OUT 12H to Counter 0, then OUT 34H to Counter 0",
+            "B. OUT 34H to Counter 0, then OUT 12H to Counter 0",
+            "C. OUT 1234H to Counter 0 (Requires 16-bit data bus)",
+            "D. OUT 12H to Counter 1, then OUT 34H to Counter 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "The Intel 8259 Programmable Interrupt Controller (PIC) is primarily designed to resolve a major architectural limitation in early microprocessors, which was:",
+        "choices": [
+            "A. CPUs consumed too much power",
+            "B. CPUs had only one or two maskable hardware interrupt input pins (e.g., INTR), making it difficult to manage multiple peripheral devices requiring attention",
+            "C. CPUs had no ALU",
+            "D. CPUs lacked floating-point math"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "A single 8259 PIC chip can accept and directly manage individual hardware interrupt requests from up to how many separate peripheral devices?",
+        "choices": [
+            "A. Four",
+            "B. Sixteen",
+            "C. Eight",
+            "D. Thirty-Two"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "If a system has more than 8 interrupting peripherals, multiple 8259 PICs can be connected in a master-slave configuration (cascading). What is the absolute maximum number of interrupts that can be supported by fully cascading 8259s (one master, eight slaves)?",
+        "choices": [
+            "A. 16",
+            "B. 256",
+            "C. 128",
+            "D. 64"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "To correctly initialize an 8259 PIC, the programmer must send a specific sequence of configuration bytes to its control port. These mandatory bytes are formally known as:",
+        "choices": [
+            "A. Initialization Command Words (ICWs)",
+            "B. Operation Command Words (OCWs)",
+            "C. Control Status Words (CSWs)",
+            "D. Vector Table Words (VTWs)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Worded circuit: An 8259 PIC receives simultaneous interrupt requests on IRQ3 and IRQ6. In its default fully-nested mode, IRQ0 has the highest priority and IRQ7 has the lowest. The PIC will issue the interrupt for IRQ3. To prevent IRQ3 from starving IRQ6 forever, the 8259 can be programmed into a specific mode where IRQ3's priority drops to the lowest after it is serviced. This is called:",
+        "choices": [
+            "A. Polling Mode",
+            "B. Automatic Priority Rotation",
+            "C. Masked Mode",
+            "D. Edge-Triggered Mode"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "An 8259 PIC can be programmed to recognize interrupt requests (IRQ lines) in one of two fundamental electrical formats. What are they?",
+        "choices": [
+            "A. Positive-going and Negative-going",
+            "B. Analog and Digital",
+            "C. Edge-triggered (a sharp rising logic transition) and Level-triggered (a sustained HIGH logic level)",
+            "D. Synchronous and Asynchronous"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Inside the 8259 PIC, the specific internal 8-bit register that keeps track of which interrupts are currently being serviced by the CPU (meaning their ISR has started but an End Of Interrupt command has not yet been received) is the:",
+        "choices": [
+            "A. Interrupt Mask Register (IMR)",
+            "B. Interrupt Request Register (IRR)",
+            "C. Status Register",
+            "D. In-Service Register (ISR)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "Inside the 8259 PIC, the specific internal 8-bit register that latches all incoming hardware interrupt requests from the peripherals until they can be evaluated by the priority resolver is the:",
+        "choices": [
+            "A. Interrupt Request Register (IRR)",
+            "B. In-Service Register (ISR)",
+            "C. Interrupt Mask Register (IMR)",
+            "D. Command Register"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "If a programmer wants to temporarily disable (mask) IRQ2 and IRQ5 on an 8259 PIC without disabling the entire global CPU interrupt system, they simply write the binary byte 00100100 (24H) directly to which internal 8259 register?",
+        "choices": [
+            "A. The In-Service Register (ISR)",
+            "B. The Interrupt Mask Register (IMR)",
+            "C. The Interrupt Request Register (IRR)",
+            "D. The Initialization Command Word 1 (ICW1)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "At the very end of an Interrupt Service Routine (ISR) for a peripheral managed by an 8259, what specific software action must the programmer take to tell the 8259 to clear the In-Service Register (ISR) bit, thereby allowing lower-priority interrupts to be serviced again?",
+        "choices": [
+            "A. Execute a standard RET instruction",
+            "B. Execute a HLT instruction",
+            "C. Send a Non-Specific (or Specific) End of Interrupt (EOI) command byte to the 8259 control port",
+            "D. Reset the CPU"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "Worded circuit: An 8255 PPI is mapped into Isolated I/O space. Its Chip Select (CS) is active-low when address lines A7=1, A6=0, A5=0, A4=0, A3=0, A2=0. Lines A1 and A0 are connected directly to the 8255's internal address pins (A1, A0) to select between Port A, B, C, and the Control Register. What is the hex address of the Control Register (where A1=1, A0=1)?",
+        "choices": [
+            "A. 80H",
+            "B. 03H",
+            "C. 82H",
+            "D. 83H (1000 0011 binary)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "In older legacy PC AT systems, the standard maximum allowed input clock frequency applied to the CLK pin of an Intel 8253 or standard 8254 PIT was typically around:",
+        "choices": [
+            "A. 1.193 MHz (or 2 MHz / 8 MHz max depending on version)",
+            "B. 100 MHz",
+            "C. 1 GHz",
+            "D. 32.768 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "In peripheral data communication, transmission where all bits of a character (e.g., 8 bits) are sent simultaneously across multiple parallel wires is known as Parallel transmission. Conversely, transmission where bits are sent sequentially, one at a time over a single wire, is known as:",
+        "choices": [
+            "A. Synchronous transmission",
+            "B. Serial transmission",
+            "C. Analog transmission",
+            "D. Direct transmission"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "In serial communication, the term UART stands for:",
+        "choices": [
+            "A. Universal Analog Receiver-Transmitter",
+            "B. Unified Asynchronous Radio Transmitter",
+            "C. Universal Asynchronous Receiver-Transmitter",
+            "D. Unidirectional Asynchronous Relay Terminal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "Because standard asynchronous UART communication does not utilize a shared clock wire between the transmitter and receiver, how does the receiver know when a new byte of data is beginning to arrive on the idle line?",
+        "choices": [
+            "A. It listens for a high-frequency tone",
+            "B. It assumes data arrives every 1 millisecond",
+            "C. It waits for the hardware interrupt",
+            "D. It detects the \"Start Bit,\" which is a forced transition from the idle state (typically HIGH) to the active state (typically LOW)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "Worded circuit: A UART chip receives a 1.8432 MHz input clock from a crystal oscillator. To generate the internal sampling baud rate clock, this input frequency is typically passed through an internal programmable divider and then divided by a fixed hardware factor of 16. If the desired baud rate is 9600 bps, what must the programmable divisor be set to? (1.8432 MHz / (16 * 9600)).",
+        "choices": [
+            "A. 12",
+            "B. 24",
+            "C. 96",
+            "D. 16"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "In a standard UART data frame (e.g., 8-N-1 configuration), an optional \"Parity Bit\" can be included immediately after the data bits. What is the sole purpose of this parity bit?",
+        "choices": [
+            "A. To increase the data transfer speed",
+            "B. To provide very basic, single-bit error detection by ensuring the total number of 1s in the data frame is always even (or always odd)",
+            "C. To identify the sender's address",
+            "D. To encrypt the data stream"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "Worded circuit: Two microcontrollers communicate via standard UART at exactly 9600 Baud. The configuration is 8-N-1 (1 start bit, 8 data bits, No parity, 1 stop bit). Exactly how long does it physically take to transmit a single, complete 10-bit frame?",
+        "choices": [
+            "A. 1.04 microseconds",
+            "B. 1.04 seconds",
+            "C. 1.04 milliseconds (10 bits / 9600 bits/sec)",
+            "D. 10.4 milliseconds"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "In data communications, a channel that allows data to flow in both directions simultaneously (e.g., standard telephone, modern Ethernet) is defined as:",
+        "choices": [
+            "A. Simplex",
+            "B. Half-Duplex",
+            "C. Multi-point",
+            "D. Full-Duplex"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "SPI is a highly popular synchronous serial communication protocol heavily used for short-distance communication in embedded systems. What does SPI stand for?",
+        "choices": [
+            "A. Serial Peripheral Interface",
+            "B. Synchronous Parallel Interface",
+            "C. Standard Peripheral Interconnect",
+            "D. Serial Port Interface"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "The SPI bus utilizes four fundamental logic signals. Which of the following is NOT a standard SPI signal line?",
+        "choices": [
+            "A. MOSI (Master Out Slave In)",
+            "B. ACK (Acknowledge)",
+            "C. MISO (Master In Slave Out)",
+            "D. SCK (Serial Clock)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "Which statement best describes the Master-Slave operational principle of the SPI bus protocol?",
+        "choices": [
+            "A. Any device can generate the clock",
+            "B. Slaves talk to each other directly",
+            "C. Only the designated Master device can generate the Serial Clock (SCK) and initiate data transfers; Slaves can only respond",
+            "D. Multiple masters fight for the bus using arbitration"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "In SPI communication, the Master and Slave must strictly agree on the clock configuration to read the data correctly. These two parameters, which define whether the idle clock is HIGH or LOW, and whether data is sampled on the leading or trailing edge, are known as:",
+        "choices": [
+            "A. Baud rate and Parity",
+            "B. Start bit and Stop bit",
+            "C. CSMA and CD",
+            "D. Clock Polarity (CPOL) and Clock Phase (CPHA)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Worded circuit: A designer has an SPI Master and three SPI Slave devices. Instead of using three separate hardware SS (Slave Select) lines, they connect the MOSI of the Master to the MOSI of Slave 1, the MISO of Slave 1 to the MOSI of Slave 2, MISO of 2 to MOSI of 3, and MISO of 3 back to the Master. This specific topology is known as:",
+        "choices": [
+            "A. Daisy-chaining",
+            "B. Star topology",
+            "C. Bus topology",
+            "D. Ring topology"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "In a standard, non-daisy-chained SPI configuration with one Master and multiple Slaves, how does the Master specifically address and select which Slave it wants to communicate with?",
+        "choices": [
+            "A. By broadcasting an 8-bit software address over the MOSI line",
+            "B. By asserting a specific, dedicated hardware Slave Select (SS) logic line connected exclusively to that target Slave",
+            "C. By changing the clock frequency",
+            "D. By waiting for a hardware interrupt"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "The I2C bus is a widely used synchronous serial protocol. What does I2C stand for?",
+        "choices": [
+            "A. Internal Integrated Circuit",
+            "B. Industrial Interface Controller",
+            "C. Inter-Integrated Circuit",
+            "D. Intelligent Input Control"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "Unlike SPI which requires at least 4 wires (plus additional SS lines for more slaves), the standard I2C bus fundamentally requires exactly how many communication wires, regardless of the number of attached devices?",
+        "choices": [
+            "A. Four",
+            "B. Three",
+            "C. One",
+            "D. Two (SDA and SCL)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "A critical electrical requirement of the I2C bus architecture is that both the SDA (Data) and SCL (Clock) lines must be connected to VCC through:",
+        "choices": [
+            "A. Series inductors",
+            "B. Open-drain outputs and pull-up resistors, allowing any device to pull the line LOW, but relying on the resistors to pull it HIGH",
+            "C. High-power amplifiers",
+            "D. Zener diodes"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "In the standard I2C protocol, how does a Master device specifically select a target Slave device out of the dozens that might be connected to the same two wires?",
+        "choices": [
+            "A. By using dedicated hardware Slave Select lines",
+            "B. By broadcasting a unique 7-bit (or 10-bit) software address as the very first byte of the transaction, which only the matching slave will acknowledge",
+            "C. By generating a specific frequency tone on the SCL line",
+            "D. By sending a unique analog voltage level"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "The I2C protocol fully supports \"Multi-Master\" topologies (multiple microcontrollers attempting to control the bus). If two Masters attempt to transmit simultaneously, they use a process to determine who wins without corrupting the data. This non-destructive process relies on the open-drain nature of the bus and is called:",
+        "choices": [
+            "A. Collision Detection",
+            "B. Carrier Sense",
+            "C. Clock Stretching and Arbitration",
+            "D. Token Passing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Worded circuit: An I2C Master writes a byte of data to an EEPROM. After transmitting the 8 data bits, the Master releases the SDA line and pulses the SCL line for a 9th clock cycle. The EEPROM pulls the SDA line LOW during this 9th clock cycle. This critical signaling event represents a/an:",
+        "choices": [
+            "A. Start Condition",
+            "B. Stop Condition",
+            "C. NACK (Not Acknowledge) indicating an error",
+            "D. ACK (Acknowledge) indicating successful receipt of the byte"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "When comparing the absolute maximum data transfer speeds of standard embedded serial protocols, which of the following represents the typical hierarchy from fastest to slowest?",
+        "choices": [
+            "A. SPI > I2C > Standard UART",
+            "B. Standard UART > I2C > SPI",
+            "C. I2C > SPI > Standard UART",
+            "D. SPI > Standard UART > I2C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "The RS-232 serial communication standard defines absolute voltage levels for transmitting logic states over long cables. In a classic RS-232 interface (prior to a MAX232 level-shifter), what voltage range typically represents a Logic 1 (Mark)?",
+        "choices": [
+            "A. 0V to +5V",
+            "B. A negative voltage, typically -3V to -15V",
+            "C. A positive voltage, typically +3V to +15V",
+            "D. Exactly 0V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "In standard synchronous serial communication (like SPI or I2C), data synchronization between the transmitter and receiver is perfectly maintained by:",
+        "choices": [
+            "A. Highly accurate independent quartz crystals on both sides",
+            "B. Parity bits",
+            "C. A dedicated, shared Clock signal line",
+            "D. Start and Stop bits framing every byte"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "Worded circuit: An I2C bus is operating at 400 kHz (Fast Mode). The bus has a total parasitic capacitance of 400 pF due to long traces and multiple devices. Because the bus uses open-drain outputs, if the pull-up resistors are sized too large (e.g., 100 kOhms), what specific electrical failure will occur?",
+        "choices": [
+            "A. The devices will draw too much current and overheat",
+            "B. The clock frequency will spontaneously double",
+            "C. The bus will short circuit to ground",
+            "D. The RC time constant will be too slow, causing the rising edges of the SDA/SCL signals to become severely rounded, violating timing specifications and corrupting data"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "In the I2C protocol, a \"Start Condition\" is strictly defined as a unique logic transition that violates normal data rules. What is this specific transition?",
+        "choices": [
+            "A. The SDA line transitions from HIGH to LOW while the SCL line is perfectly stable HIGH",
+            "B. The SCL line transitions from LOW to HIGH while SDA is LOW",
+            "C. Both lines go LOW simultaneously",
+            "D. Both lines go HIGH simultaneously"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "A fundamental characteristic of the SPI protocol is that during every clock cycle, data is simultaneously shifted out of the Master into the Slave, AND out of the Slave into the Master. This inherent hardware exchange mechanism is implemented using circular:",
+        "choices": [
+            "A. Multiplexers",
+            "B. Shift Registers",
+            "C. Adders",
+            "D. Counters"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "Which of the following electronic components is most commonly interfaced to a microcontroller using the I2C bus due to its low pin count requirement?",
+        "choices": [
+            "A. A high-speed gigabit Ethernet controller",
+            "B. A massive DDR4 RAM module",
+            "C. Small configuration EEPROMs, Real-Time Clocks (RTC), and digital temperature sensors",
+            "D. A high-resolution video graphics processor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "Worded circuit: An engineer connects three identical I2C temperature sensors to the exact same I2C bus. By default, all three sensors have the exact same factory I2C address (e.g., 0x48). What is the standard hardware method to resolve this conflict so the Master can talk to them individually?",
+        "choices": [
+            "A. Cut the SDA trace to two of them",
+            "B. Use three different clock frequencies",
+            "C. Tie the physical Address Select pins (e.g., A0, A1, A2) provided on the sensor ICs to different combinations of VCC and GND to configure unique hardware addresses",
+            "D. Add a USB hub"
+        ],
+        "correct_answer": "D"
+    }
+]

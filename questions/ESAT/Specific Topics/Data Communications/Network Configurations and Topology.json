@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "A communication mode where data flows in only one direction permanently is known as:",
+        "choices": [
+            "A. Simplex",
+            "B. Half-duplex",
+            "C. Full-duplex",
+            "D. Multipoint"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "In a half-duplex communication system, the entire capacity of the channel is:",
+        "choices": [
+            "A. Shared simultaneously by both devices",
+            "B. Taken over by whichever device is transmitting at the time",
+            "C. Divided into discrete frequency bands for simultaneous use",
+            "D. Reserved for analog signals only"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Which of the following perfectly describes a full-duplex communication system?",
+        "choices": [
+            "A. A television broadcast",
+            "B. A push-to-talk walkie-talkie",
+            "C. A standard telephone network call",
+            "D. A remote sensor sending data to a central hub"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "A continuous-time, continuous-amplitude signal is strictly categorized as:",
+        "choices": [
+            "A. A discrete digital signal",
+            "B. A quantized symbol",
+            "C. A binary bitstream",
+            "D. An analog signal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "In terms of error detection and correction, why is digital communication overwhelmingly superior to analog?",
+        "choices": [
+            "A. Digital signals are immune to all forms of attenuation",
+            "B. Redundant bits and block codes can be easily appended to discrete bit streams",
+            "C. Digital signals inherently require less bandwidth",
+            "D. Analog signals cannot be multiplexed"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "A network connection providing a dedicated link between exactly two devices is called:",
+        "choices": [
+            "A. Multidrop",
+            "B. Broadcast",
+            "C. Point-to-Point",
+            "D. Multipoint"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "A connection where more than two specific devices share a single physical link is called:",
+        "choices": [
+            "A. Point-to-Point",
+            "B. Unicast",
+            "C. Simplex",
+            "D. Multipoint"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "What is the primary commercial advantage of implementing a multipoint connection over multiple point-to-point connections?",
+        "choices": [
+            "A. Reduced cabling cost and simplified installation",
+            "B. Guaranteed zero data collisions",
+            "C. Infinite bandwidth allocation per user",
+            "D. Increased physical security against wiretapping"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "In data communications, the geometric representation of the relationship of all the links and linking devices to one another is known as the network's:",
+        "choices": [
+            "A. Protocol",
+            "B. Medium",
+            "C. Topology",
+            "D. Syntax"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "Which of the following topologies is NOT considered a fundamental physical network topology?",
+        "choices": [
+            "A. Bus",
+            "B. Ring",
+            "C. Star",
+            "D. Gateway"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "A multipoint topology that consists of a single central cable to which all devices attach is called a:",
+        "choices": [
+            "A. Bus topology",
+            "B. Star topology",
+            "C. Mesh topology",
+            "D. Ring topology"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "In which topology does every device have a dedicated point-to-point link only to a central controller?",
+        "choices": [
+            "A. Mesh",
+            "B. Star",
+            "C. Ring",
+            "D. Bus"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "Which physical topology uses point-to-point links to connect every single node to every other node in the network?",
+        "choices": [
+            "A. Star",
+            "B. Ring",
+            "C. Tree",
+            "D. Mesh"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "In a ring topology, each device has a dedicated point-to-point connection with:",
+        "choices": [
+            "A. Exactly two other specific devices on either side of it",
+            "B. A central hub",
+            "C. All other devices in the network",
+            "D. The main backbone cable only"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "What type of line configuration does a standard star topology utilize between the end devices and the central hub?",
+        "choices": [
+            "A. Multipoint links",
+            "B. Point-to-point links",
+            "C. Simplex links",
+            "D. Token-passing links"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "Which of the following topologies represents a hierarchical variation of a star topology?",
+        "choices": [
+            "A. Bus",
+            "B. Mesh",
+            "C. Tree",
+            "D. Ring"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "A network consisting of a central star hub that branches out to secondary hubs, which then connect to end devices, is an example of a:",
+        "choices": [
+            "A. Tree topology",
+            "B. Mesh topology",
+            "C. Bus topology",
+            "D. Ring topology"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "A topology formed by connecting several smaller networks of varying topologies together is called a:",
+        "choices": [
+            "A. Mesh network",
+            "B. Bus network",
+            "C. Hybrid network",
+            "D. Star network"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "Which basic network topology requires the most extensive physical cabling for a given number of nodes?",
+        "choices": [
+            "A. Bus",
+            "B. Star",
+            "C. Ring",
+            "D. Mesh"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 20,
+        "question": "In terms of network reliability, which topology offers the highest fault tolerance due to redundant links?",
+        "choices": [
+            "A. Bus",
+            "B. Mesh",
+            "C. Ring",
+            "D. Star"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "In a bus topology, the long central cable that connects all devices is called the:",
+        "choices": [
+            "A. Hub",
+            "B. Terminator",
+            "C. Drop line",
+            "D. Backbone"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 22,
+        "question": "Devices are connected to the main backbone cable in a bus topology using hardware connectors known as:",
+        "choices": [
+            "A. Taps",
+            "B. Transceivers",
+            "C. Bridges",
+            "D. Routers"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "What is the primary function of a terminator at the ends of a bus topology network?",
+        "choices": [
+            "A. To amplify the signal",
+            "B. To absorb signals and prevent them from reflecting back and causing interference",
+            "C. To connect another bus network",
+            "D. To act as a central controller"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 24,
+        "question": "In a bus topology, a physical break in the main backbone cable will result in:",
+        "choices": [
+            "A. Only the closest node losing connection",
+            "B. Automatic routing through an alternate path",
+            "C. The entire network partitioning and failing due to signal reflections",
+            "D. The network switching to half-duplex mode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "Which line configuration defines the physical structure of a standard bus topology?",
+        "choices": [
+            "A. Multipoint",
+            "B. Point-to-Point",
+            "C. Simplex",
+            "D. Mesh"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "The connection between a node and the main backbone cable in a bus network is made via a:",
+        "choices": [
+            "A. Central hub",
+            "B. Terminator",
+            "C. Mesh link",
+            "D. Drop line"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "In a bus network, as a signal travels along the backbone, some of its energy is transformed into heat. Therefore, the number of tap connections is limited by:",
+        "choices": [
+            "A. The speed of light",
+            "B. The protocol syntax",
+            "C. Signal attenuation",
+            "D. The MAC address length"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "A major disadvantage of a bus topology is that fault isolation is:",
+        "choices": [
+            "A. Easy, as the hub identifies the broken link",
+            "B. Difficult, because a signal fault can originate anywhere along the shared medium",
+            "C. Impossible, as bus networks lack error detection",
+            "D. Unnecessary, as bus networks never fail"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "Early Ethernet implementations like 10Base5 and 10Base2 physically utilized which network topology?",
+        "choices": [
+            "A. Star",
+            "B. Ring",
+            "C. Bus",
+            "D. Mesh"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 30,
+        "question": "If a new computer needs to be added to an existing bus topology network, what is physically required?",
+        "choices": [
+            "A. Adding a new central hub",
+            "B. Splicing a new tap into the backbone cable",
+            "C. Running a new cable to every other computer",
+            "D. Modifying the token ring"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "In a star topology, the central controller that links all devices is commonly referred to as a:",
+        "choices": [
+            "A. Hub or switch",
+            "B. Backbone",
+            "C. Terminator",
+            "D. Tap"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "In a star topology, if an end device wants to send data to another device on the network, it must send the data:",
+        "choices": [
+            "A. Directly to the destination device",
+            "B. Along the backbone cable",
+            "C. To the next device in the ring",
+            "D. To the central hub, which then relays it to the destination"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "A primary advantage of the star topology is its robustness. If one link fails:",
+        "choices": [
+            "A. The entire network fails",
+            "B. Only that specific link and its connected device are affected",
+            "C. The hub automatically shuts down",
+            "D. All other devices experience severe latency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "Which topology is typically the easiest to install, reconfigure, and troubleshoot for a medium-sized office network?",
+        "choices": [
+            "A. Mesh",
+            "B. Bus",
+            "C. Ring",
+            "D. Star"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 35,
+        "question": "The major physical disadvantage of a star topology compared to a bus topology is:",
+        "choices": [
+            "A. It cannot support full-duplex transmission",
+            "B. It requires complex routing algorithms",
+            "C. It requires significantly more cabling because each device needs a dedicated line to the hub",
+            "D. It has lower fault tolerance for individual links"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "What represents the single point of failure in a pure star topology?",
+        "choices": [
+            "A. The central hub",
+            "B. The backbone terminator",
+            "C. A drop line",
+            "D. A peripheral computer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "A standard 100Base-TX local area network (LAN) using a central Ethernet switch is physically structured as a:",
+        "choices": [
+            "A. Bus topology",
+            "B. Ring topology",
+            "C. Mesh topology",
+            "D. Star topology"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 38,
+        "question": "In a star network of N peripheral devices, how many physical point-to-point drop lines are required?",
+        "choices": [
+            "A. N(N-1)/2",
+            "B. N-1",
+            "C. N",
+            "D. 2N"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "Fault identification and isolation are straightforward in a star topology because:",
+        "choices": [
+            "A. The central hub is immune to faults",
+            "B. Each device is isolated on its own link to the hub, making it easy to spot a disconnected node",
+            "C. The tokens can pinpoint the error",
+            "D. Signals bounce off the terminator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "Unlike a bus network, a star network does not allow direct physical traffic between:",
+        "choices": [
+            "A. Two peripheral devices (end nodes)",
+            "B. The hub and a peripheral device",
+            "C. Two separate networks",
+            "D. The internet and the hub"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "In a ring topology, each device incorporates a simple repeater. What is the purpose of this repeater?",
+        "choices": [
+            "A. To convert digital signals to analog",
+            "B. To terminate the signal",
+            "C. To regenerate the signal before passing it to the next device in the ring",
+            "D. To act as a central hub"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "A signal traveling around a standard unidirectional ring topology typically flows in:",
+        "choices": [
+            "A. Both directions simultaneously",
+            "B. One specific direction from node to node",
+            "C. Random directions",
+            "D. A figure-eight pattern"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "In a standard ring network, a broken physical link or a failed node will generally cause:",
+        "choices": [
+            "A. The entire network to fail, as the ring is broken",
+            "B. Only the failed node to drop off",
+            "C. The network to switch to a star topology",
+            "D. Signals to reflect back automatically"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "To overcome the single point of failure in a ring topology, network engineers often implement a:",
+        "choices": [
+            "A. Central hub",
+            "B. Terminator at each node",
+            "C. Drop line",
+            "D. Dual-ring architecture"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "In a unidirectional ring network with N devices, what is the maximum number of hops a message might have to make to reach its destination?",
+        "choices": [
+            "A. N",
+            "B. N-1",
+            "C. N/2",
+            "D. N(N-1)/2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "What is typically used in a ring network to govern medium access and prevent data collisions?",
+        "choices": [
+            "A. Token passing",
+            "B. CSMA/CD",
+            "C. FDMA",
+            "D. Polling by a hub"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "Adding or deleting a node in a simple ring topology requires:",
+        "choices": [
+            "A. Reconfiguring the central hub",
+            "B. Connecting a new cable to every other node",
+            "C. No network downtime",
+            "D. Briefly shutting down the network to physically break and reconnect the ring"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 48,
+        "question": "Fiber Distributed Data Interface (FDDI) is a classic example of a high-speed LAN utilizing which topology?",
+        "choices": [
+            "A. Bus",
+            "B. Star",
+            "C. Dual-ring",
+            "D. Mesh"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "In a ring network, if a specific device receives a signal intended for another device, what does it do?",
+        "choices": [
+            "A. It regenerates the signal and passes it along",
+            "B. It absorbs the signal",
+            "C. It returns the signal to the sender",
+            "D. It triggers an error alarm"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "A primary advantage of a ring topology over a bus topology is that:",
+        "choices": [
+            "A. It requires less cable",
+            "B. It uses a central hub",
+            "C. Signal degradation is minimized because each node regenerates the signal",
+            "D. It provides multiple paths to a destination"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "A fully connected mesh network with 6 devices requires how many dedicated physical links?",
+        "choices": [
+            "A. 6",
+            "B. 15",
+            "C. 30",
+            "D. 36"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "The general formula for calculating the number of physical links in a fully connected mesh network with N nodes is:",
+        "choices": [
+            "A. N^2",
+            "B. N-1",
+            "C. N(N+1)/2",
+            "D. N(N-1)/2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "A fully connected mesh network with 10 nodes requires each individual node to have how many Input/Output (I/O) ports?",
+        "choices": [
+            "A. 10",
+            "B. 45",
+            "C. 9",
+            "D. 90"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "Which of the following is NOT a primary advantage of a mesh topology?",
+        "choices": [
+            "A. High privacy and security",
+            "B. Complete elimination of channel sharing",
+            "C. High fault tolerance",
+            "D. Low cabling cost and easy installation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 55,
+        "question": "Mesh topologies are highly secure because:",
+        "choices": [
+            "A. Dedicated links guarantee that data travels only between the intended sender and receiver",
+            "B. They use advanced encryption algorithms by default",
+            "C. They do not use physical cables",
+            "D. The central hub filters all traffic"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "If one link fails in a fully connected mesh topology, the impact on the rest of the network is:",
+        "choices": [
+            "A. Catastrophic, as the ring is broken",
+            "B. Non-existent for other devices, as redundant links are unaffected",
+            "C. Handled by the central terminator",
+            "D. Severe, causing extreme latency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "A fully connected mesh network has 28 dedicated physical links. How many devices are in this network?",
+        "choices": [
+            "A. 6",
+            "B. 7",
+            "C. 9",
+            "D. 8"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "The massive amount of cabling and number of I/O ports required make fully connected mesh topologies practical only for:",
+        "choices": [
+            "A. Small, specialized networks or critical infrastructure backbones",
+            "B. Large corporate LANs with hundreds of computers",
+            "C. Standard home networks",
+            "D. Wireless sensor networks"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "A network has 5 computers. If implemented as a mesh, it requires X links. If implemented as a star, it requires Y links to the central hub. What are the respective values of X and Y?",
+        "choices": [
+            "A. X=10, Y=10",
+            "B. X=10, Y=5",
+            "C. X=20, Y=5",
+            "D. X=5, Y=10"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "Regional telephone central offices connecting to each other often utilize which topology to ensure maximum reliability and redundancy?",
+        "choices": [
+            "A. Bus",
+            "B. Star",
+            "C. Mesh",
+            "D. Ring"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "A tree topology is essentially a hierarchical variation of which other basic network topology?",
+        "choices": [
+            "A. Bus",
+            "B. Star",
+            "C. Mesh",
+            "D. Ring"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "In a tree topology, the central hub to which all secondary hubs connect is called the:",
+        "choices": [
+            "A. Active hub (or root hub)",
+            "B. Terminator",
+            "C. Drop line",
+            "D. Repeater"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "An active hub in a tree topology typically contains a hardware repeater. What is its function?",
+        "choices": [
+            "A. To filter out unauthorized traffic",
+            "B. To translate protocols",
+            "C. To terminate the network",
+            "D. To regenerate received bit patterns before sending them out, extending the physical distance of the network"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "Secondary hubs in a tree topology can be either active or passive. A passive hub provides:",
+        "choices": [
+            "A. Signal amplification",
+            "B. Routing capabilities",
+            "C. A simple physical connection point without signal regeneration",
+            "D. Encryption services"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "A major advantage of a tree topology over a simple star topology is that it allows for:",
+        "choices": [
+            "A. Less overall cabling",
+            "B. A single point of failure",
+            "C. Direct node-to-node communication",
+            "D. Expansion of the network and greater geographical coverage"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 66,
+        "question": "In a tree network, if a secondary hub fails, what happens?",
+        "choices": [
+            "A. The entire network fails",
+            "B. The active root hub automatically fails",
+            "C. All devices connected to that secondary hub are isolated, but the rest of the network functions",
+            "D. Only one specific device loses connection"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "Cable TV technology (CATV) networks often utilize which topology, branching out from a central headend to local distribution hubs and then to individual homes?",
+        "choices": [
+            "A. Mesh",
+            "B. Tree",
+            "C. Ring",
+            "D. Pure Star"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "If the active root hub in a tree topology fails, what is the consequence?",
+        "choices": [
+            "A. The entire network goes down",
+            "B. The secondary hubs take over",
+            "C. Only one branch is affected",
+            "D. Redundant links bypass the root hub"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "A network structure that mimics a hierarchical organizational chart (root, branches, leaves) is best described as a:",
+        "choices": [
+            "A. Bus topology",
+            "B. Tree topology",
+            "C. Mesh topology",
+            "D. Ring topology"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "A tree topology combines characteristics of a star topology and a:",
+        "choices": [
+            "A. Mesh topology",
+            "B. Ring topology",
+            "C. Hybrid topology",
+            "D. Bus topology (via a branching backbone)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 71,
+        "question": "A network topology that combines two or more different fundamental topologies to form a larger, more complex network is called a:",
+        "choices": [
+            "A. Hybrid topology",
+            "B. Mesh topology",
+            "C. Multipoint topology",
+            "D. Pure tree topology"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "A company has three departments. Department A uses a Star topology, Department B uses a Bus topology, and Department C uses a Ring topology. If these three are connected via a central main ring, the overall structure is a:",
+        "choices": [
+            "A. Pure mesh",
+            "B. Pure ring",
+            "C. Hybrid topology",
+            "D. Multidrop bus"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "In a Star-Bus hybrid topology, several star networks are connected to a central:",
+        "choices": [
+            "A. Backbone cable (bus)",
+            "B. Active hub",
+            "C. Mesh router",
+            "D. Dual-ring"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "A Star-Ring hybrid topology features multiple star hubs connected together via a:",
+        "choices": [
+            "A. Main backbone cable",
+            "B. Token-passing main ring",
+            "C. Mesh network",
+            "D. Central master hub"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "Which topology provides the best balance between fault tolerance and cost-effectiveness for large-scale enterprise networks?",
+        "choices": [
+            "A. Fully connected mesh",
+            "B. Simple bus",
+            "C. Hybrid topology (e.g., partial mesh or star-bus)",
+            "D. Pure ring"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "The Internet itself, comprising countless different interconnecting networks, is the ultimate example of a:",
+        "choices": [
+            "A. Bus topology",
+            "B. Star topology",
+            "C. Token ring",
+            "D. Hybrid topology"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "A partial mesh topology differs from a fully connected mesh topology in that:",
+        "choices": [
+            "A. It uses a central hub",
+            "B. It has no redundant links",
+            "C. Only certain critical nodes are interconnected with multiple links, while others are connected to just one or two",
+            "D. It is strictly wireless"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "What is the primary reason for using a partial mesh over a fully connected mesh?",
+        "choices": [
+            "A. To increase security",
+            "B. To decrease latency",
+            "C. To guarantee complete redundancy",
+            "D. To significantly reduce cabling and hardware costs while still providing essential redundancy"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "When evaluating topologies, if cost and ease of installation are the absolute highest priorities and reliability is a low priority, which topology is traditionally selected?",
+        "choices": [
+            "A. Bus topology",
+            "B. Mesh topology",
+            "C. Dual-ring topology",
+            "D. Tree topology"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "When evaluating topologies, if military-grade reliability and zero downtime are absolute requirements regardless of cost, which topology must be implemented?",
+        "choices": [
+            "A. Star topology",
+            "B. Fully connected mesh topology",
+            "C. Bus topology",
+            "D. Tree topology"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "A mesh network has 15 devices. How many dedicated physical links are required?",
+        "choices": [
+            "A. 105",
+            "B. 225",
+            "C. 15",
+            "D. 210"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "A network has N nodes. If the addition of one more node requires 8 additional physical links to maintain a fully connected mesh, what was the original number of nodes N?",
+        "choices": [
+            "A. 7",
+            "B. 9",
+            "C. 8",
+            "D. 10"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "In a star network with 50 nodes, how many physical links are present?",
+        "choices": [
+            "A. 1225",
+            "B. 50",
+            "C. 49",
+            "D. 100"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "A ring network with 20 nodes requires how many physical links?",
+        "choices": [
+            "A. 190",
+            "B. 19",
+            "C. 40",
+            "D. 20"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Compare a mesh network and a ring network, both having 10 nodes. How many more links does the mesh network require than the ring network?",
+        "choices": [
+            "A. 25",
+            "B. 90",
+            "C. 35",
+            "D. 45"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 86,
+        "question": "In a bus network, what physical component limits the total length of the backbone and the number of connected nodes?",
+        "choices": [
+            "A. The central hub",
+            "B. The mesh router",
+            "C. The token",
+            "D. The terminator and signal attenuation limit"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "If a fully connected mesh network has exactly 66 links, how many nodes are in the network?",
+        "choices": [
+            "A. 12",
+            "B. 11",
+            "C. 66",
+            "D. 132"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "A tree network has a root hub connected to 3 secondary hubs. Each secondary hub is connected to 4 end devices. How many physical point-to-point links exist in this network?",
+        "choices": [
+            "A. 12",
+            "B. 15",
+            "C. 16",
+            "D. 7"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "Which physical topology connects every end device via a dedicated drop line to a single, centralized networking device?",
+        "choices": [
+            "A. Bus",
+            "B. Ring",
+            "C. Mesh",
+            "D. Star"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "In a dual-ring topology, if the primary ring breaks, what is the immediate recovery mechanism?",
+        "choices": [
+            "A. The central hub reroutes traffic",
+            "B. The secondary ring wraps around at the points of failure to reform a single, larger operational ring",
+            "C. The network switches to half-duplex mode",
+            "D. Drop lines activate to form a bus"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "What is the primary engineering trade-off when choosing a star topology over a bus topology?",
+        "choices": [
+            "A. Higher installation difficulty",
+            "B. Lower fault tolerance",
+            "C. Higher cabling requirements and reliance on a central point of failure",
+            "D. Inability to use full-duplex communication"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "In a fully connected mesh topology, the number of I/O ports required per device scales:",
+        "choices": [
+            "A. Linearly with (N-1)",
+            "B. Quadratically with N^2",
+            "C. Exponentially with 2^N",
+            "D. Logarithmically"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 93,
+        "question": "A small office network has 4 computers and 1 printer connected to a central Gigabit Ethernet switch. This is an example of a:",
+        "choices": [
+            "A. Bus topology",
+            "B. Star topology",
+            "C. Mesh topology",
+            "D. Ring topology"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "Which of the following topologies is highly susceptible to a \"broadcast storm\" if a routing loop occurs without proper protocol mitigation?",
+        "choices": [
+            "A. Hybrid/Mesh architectures with redundant paths",
+            "B. A pure bus topology",
+            "C. A simple star topology",
+            "D. A simple ring topology"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "A network consists of a central backbone cable. Three star hubs are connected directly to this backbone, and each hub serves 10 computers. This specific configuration is a:",
+        "choices": [
+            "A. Pure star",
+            "B. Pure bus",
+            "C. Mesh-tree",
+            "D. Star-bus hybrid"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "In a 5-node fully connected mesh, Node A sends data to Node",
+        "choices": [
+            "C. Does this data pass through Node B?",
+            "A. Yes, always",
+            "B. Yes, half the time",
+            "C. No, the data travels on a dedicated direct link between Node A and Node C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 97,
+        "question": "In a 5-node ring topology, Node A wants to send data to Node",
+        "choices": [
+            "D. If the ring is unidirectional (A->B->C->D->E->A), how many intermediate nodes must the data pass through?",
+            "A. 2 (Nodes B and C)",
+            "B. 0",
+            "C. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "Which topology intrinsically requires the most complex routing algorithm to determine the optimal path between a source and destination?",
+        "choices": [
+            "A. Star",
+            "B. Bus",
+            "C. Mesh",
+            "D. Ring"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "What happens in a star network if a peripheral node's drop line is accidentally severed?",
+        "choices": [
+            "A. The entire network fails",
+            "B. The hub shuts down",
+            "C. All other nodes experience severe delays",
+            "D. Only that specific node loses network access; the rest of the network is unaffected"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "A network setup requires each node to regenerate the data signal before passing it on, creating a continuous loop. Which physical topology dictates this precise behavior?",
+        "choices": [
+            "A. Star",
+            "B. Ring",
+            "C. Bus",
+            "D. Mesh"
+        ],
+        "correct_answer": "B"
+    }
+]

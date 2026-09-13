@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "The general solution of a system of differential equations X' = AX is X(t) = Phi(t)C, where Phi(t) is mathematically known as the:",
+        "choices": [
+            "A. Fundamental matrix",
+            "B. Diagonal matrix",
+            "C. Characteristic matrix",
+            "D. Adjugate matrix"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "For the system x' = 3x - y and y' = x + y, eliminating y yields which single second-order linear differential equation for x?",
+        "choices": [
+            "A. x'' + 4x' + 4x = 0",
+            "B. x'' - 4x' + 4x = 0",
+            "C. x'' - 2x' - 3x = 0",
+            "D. x'' + 2x' - 3x = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "A system X' = AX has eigenvalues lambda_1 = 3 and lambda_2 = -3. The critical point at the origin is mathematically classified as a:",
+        "choices": [
+            "A. Stable node",
+            "B. Unstable node",
+            "C. Saddle point",
+            "D. Stable spiral"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "If a 2x2 coefficient matrix A has a repeated eigenvalue lambda but only one linearly independent eigenvector, the matrix is technically termed:",
+        "choices": [
+            "A. Singular",
+            "B. Diagonalizable",
+            "C. Symmetric",
+            "D. Defective"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "In the eigenvalue method, if the eigenvalues of a real matrix A are purely imaginary (lambda = +/- i*beta), the phase plane trajectories are:",
+        "choices": [
+            "A. Ellipses or circles",
+            "B. Parabolas",
+            "C. Straight lines",
+            "D. Hyperbolas"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "The state transition matrix e^(At) is mathematically equivalent to the inverse Laplace transform of:",
+        "choices": [
+            "A. (sI + A)^-1",
+            "B. (sI - A)^-1",
+            "C. sI - A",
+            "D. sI + A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "A first-order linear system X' = AX where A = [[2, 0], [0, -1]] is said to be completely:",
+        "choices": [
+            "A. Coupled",
+            "B. Degenerate",
+            "C. Decoupled",
+            "D. Defective"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "To convert y'' + 5y' + 6y = 0 into a system of first-order DEs, we set x_1 = y and x_2 = y'. The resulting coefficient matrix A is:",
+        "choices": [
+            "A. [[1, 0], [6, -5]]",
+            "B. [[0, 1], [6, 5]]",
+            "C. [[0, 1], [-5, -6]]",
+            "D. [[0, 1], [-6, -5]]"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "A second-order linear PDE Au_xx + Bu_xy + Cu_yy + ... = 0 is classified as parabolic if the discriminant B^2 - 4AC is:",
+        "choices": [
+            "A. Equal to zero",
+            "B. Less than zero",
+            "C. Greater than zero",
+            "D. Equal to one"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "A second-order PDE is strictly classified as elliptic if its discriminant B^2 - 4AC is:",
+        "choices": [
+            "A. Equal to zero",
+            "B. Less than zero",
+            "C. Greater than zero",
+            "D. Positive"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "A second-order PDE is strictly classified as hyperbolic if its discriminant B^2 - 4AC is:",
+        "choices": [
+            "A. Less than zero",
+            "B. Equal to zero",
+            "C. Greater than zero",
+            "D. Negative"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "Classify the standard one-dimensional heat equation u_t = alpha^2 u_xx mathematically.",
+        "choices": [
+            "A. Hyperbolic",
+            "B. Elliptic",
+            "C. Non-linear",
+            "D. Parabolic"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Classify the standard one-dimensional wave equation u_tt = c^2 u_xx mathematically.",
+        "choices": [
+            "A. Hyperbolic",
+            "B. Parabolic",
+            "C. Elliptic",
+            "D. Exact"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Classify the two-dimensional Laplace equation u_xx + u_yy = 0 mathematically.",
+        "choices": [
+            "A. Parabolic",
+            "B. Elliptic",
+            "C. Hyperbolic",
+            "D. Dispersive"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Evaluate the discriminant and classify the PDE: 3u_xx + 4u_xy + u_yy = 0.",
+        "choices": [
+            "A. Parabolic",
+            "B. Elliptic",
+            "C. Hyperbolic",
+            "D. Degenerate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "Evaluate the discriminant and classify the PDE: u_xx - 2u_xy + u_yy + 3u = 0.",
+        "choices": [
+            "A. Hyperbolic",
+            "B. Elliptic",
+            "C. First-order",
+            "D. Parabolic"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "Evaluate the discriminant and classify the PDE: 2u_xx + u_xy + u_yy = 0.",
+        "choices": [
+            "A. Elliptic",
+            "B. Parabolic",
+            "C. Hyperbolic",
+            "D. Non-linear"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "The Tricomi equation is given by u_yy = y u_xx. For y > 0, how is this PDE classified?",
+        "choices": [
+            "A. Elliptic",
+            "B. Hyperbolic",
+            "C. Parabolic",
+            "D. Quasi-linear"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "For the Tricomi equation u_yy = y u_xx, how is it classified in the region where y < 0?",
+        "choices": [
+            "A. Hyperbolic",
+            "B. Parabolic",
+            "C. Elliptic",
+            "D. Singular"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Which PDE classification typically models steady-state or equilibrium systems without any time dependence?",
+        "choices": [
+            "A. Parabolic",
+            "B. Dispersive",
+            "C. Hyperbolic",
+            "D. Elliptic"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "Which PDE classification typically models time-dependent diffusion or heat dissipation processes?",
+        "choices": [
+            "A. Parabolic",
+            "B. Elliptic",
+            "C. Hyperbolic",
+            "D. Non-linear"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Which PDE classification typically models time-dependent vibrational systems or propagating waves?",
+        "choices": [
+            "A. Parabolic",
+            "B. Hyperbolic",
+            "C. Elliptic",
+            "D. Static"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "A PDE is considered linear if the dependent variable and its partial derivatives appear mathematically to the:",
+        "choices": [
+            "A. Second power",
+            "B. Zeroth power",
+            "C. First power",
+            "D. Exponential power"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "The order of a partial differential equation is strictly defined by the:",
+        "choices": [
+            "A. Number of independent variables",
+            "B. Degree of the dependent variable",
+            "C. Number of terms",
+            "D. Order of the highest partial derivative present"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "The standard one-dimensional heat equation is written mathematically as:",
+        "choices": [
+            "A. u_t = alpha^2 u_xx",
+            "B. u_tt = c^2 u_xx",
+            "C. u_xx + u_yy = 0",
+            "D. u_xx + u_yy = f(x,y)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "In the 1D heat equation u_t = alpha^2 u_xx, the parameter alpha^2 physically represents the material's:",
+        "choices": [
+            "A. Specific heat capacity",
+            "B. Thermal diffusivity",
+            "C. Wave speed",
+            "D. Mass density"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "The standard one-dimensional wave equation is written mathematically as:",
+        "choices": [
+            "A. u_t = alpha^2 u_xx",
+            "B. u_xx + u_yy = 0",
+            "C. u_tt = c^2 u_xx",
+            "D. u_t + u u_x = v u_xx"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "In the 1D wave equation u_tt = c^2 u_xx, the parameter c strictly denotes the:",
+        "choices": [
+            "A. Frequency",
+            "B. Amplitude",
+            "C. Thermal conductivity",
+            "D. Wave propagation speed"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "The two-dimensional Laplace equation is written mathematically as:",
+        "choices": [
+            "A. u_xx + u_yy = 0",
+            "B. u_xx - u_yy = 0",
+            "C. u_t = u_xx + u_yy",
+            "D. u_xx + u_yy = f(x,y)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "A sufficiently smooth scalar function u(x,y) that perfectly satisfies Laplace's equation is formally called a:",
+        "choices": [
+            "A. Analytic function",
+            "B. Harmonic function",
+            "C. Dispersive function",
+            "D. Transient function"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "The two-dimensional Poisson equation is mathematically expressed as:",
+        "choices": [
+            "A. u_xx + u_yy = 0",
+            "B. u_tt - c^2 u_xx = f(x)",
+            "C. u_xx + u_yy = f(x,y)",
+            "D. u_t = alpha^2 u_xx + f(x,t)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "Which core PDE accurately models the electrostatic potential in a region containing a specified non-zero charge density?",
+        "choices": [
+            "A. Heat equation",
+            "B. Wave equation",
+            "C. Laplace equation",
+            "D. Poisson equation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "Which core PDE accurately models the steady-state temperature distribution in a 2D plate with no internal heat sources?",
+        "choices": [
+            "A. Laplace equation",
+            "B. Wave equation",
+            "C. Poisson equation",
+            "D. Diffusion equation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "The fundamental d'Alembert solution to the 1D wave equation on an infinite domain is expressed as u(x,t) = :",
+        "choices": [
+            "A. f(x)g(t)",
+            "B. f(x-ct) + g(x+ct)",
+            "C. e^(-k^2 t) sin(kx)",
+            "D. cos(cx) sin(ct)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "In d'Alembert's solution u(x,t) = f(x-ct) + g(x+ct), the component f(x-ct) geometrically represents a wave traveling in the:",
+        "choices": [
+            "A. Positive y direction",
+            "B. Negative x direction",
+            "C. Positive x direction",
+            "D. Negative t direction"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "The method of separation of variables assumes that the solution u(x,t) can be factored into the mathematical form:",
+        "choices": [
+            "A. X(x) + T(t)",
+            "B. X(x) / T(t)",
+            "C. X(x)^T(t)",
+            "D. X(x) T(t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "Applying separation of variables u(x,t) = X(x)T(t) to the heat equation u_t = k u_xx yields two ODEs coupled by a:",
+        "choices": [
+            "A. Separation constant",
+            "B. Variable coefficient",
+            "C. Damping ratio",
+            "D. Wronskian determinant"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "For a vibrating string of length L secured rigidly at both ends, the physical boundary conditions are mathematically stated as:",
+        "choices": [
+            "A. u_x(0,t)=0, u_x(L,t)=0",
+            "B. u(0,t)=0, u(L,t)=0",
+            "C. u(x,0)=f(x), u_t(x,0)=g(x)",
+            "D. u_xx(0,t)=0, u_tt(L,t)=0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "When solving the 1D wave equation for a string fixed at both ends, the spatial ODE X'' + lambda X = 0 produces non-trivial solutions only if the separation constant lambda is:",
+        "choices": [
+            "A. Negative",
+            "B. Zero",
+            "C. Positive",
+            "D. Imaginary"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "The strictly allowed eigenvalues lambda_n for the spatial ODE of a string of length L fixed at both ends are:",
+        "choices": [
+            "A. n*pi / L",
+            "B. n^2 * pi^2 * L^2",
+            "C. L / (n*pi)",
+            "D. (n*pi / L)^2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "The corresponding orthogonal spatial eigenfunctions for a string of length L fixed at both ends are:",
+        "choices": [
+            "A. sin(n*pi*x / L)",
+            "B. cos(n*pi*x / L)",
+            "C. e^(n*pi*x / L)",
+            "D. sinh(n*pi*x / L)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "The fundamental modes of vibration resulting from the wave equation for a bounded string are commonly called:",
+        "choices": [
+            "A. Traveling waves",
+            "B. Standing waves",
+            "C. Shock waves",
+            "D. Solitons"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "The fundamental frequency f_1 (in Hertz) of a vibrating string of length L and wave propagation speed c is:",
+        "choices": [
+            "A. c / L",
+            "B. 2c / L",
+            "C. c / (2L)",
+            "D. c / (4L)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "In the 1D heat equation for a rod of length L, if both ends are perfectly insulated, the physical boundary conditions are:",
+        "choices": [
+            "A. u(0,t)=0, u(L,t)=0",
+            "B. u_t(0,t)=0, u_t(L,t)=0",
+            "C. u_xx(0,t)=0, u_xx(L,t)=0",
+            "D. u_x(0,t)=0, u_x(L,t)=0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "For a rod with perfectly insulated ends, the non-constant spatial eigenfunctions solving X'' + lambda X = 0 are proportional to:",
+        "choices": [
+            "A. cos(n*pi*x / L)",
+            "B. sin(n*pi*x / L)",
+            "C. tan(n*pi*x / L)",
+            "D. cosh(n*pi*x / L)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "For a perfectly insulated rod, the separation constant lambda = 0 is a valid eigenvalue. The corresponding eigenfunction X_0(x) is a:",
+        "choices": [
+            "A. Sine wave",
+            "B. Constant",
+            "C. Linear function",
+            "D. Exponential function"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "The steady-state temperature solution v(x) of a 1D heat equation u_t = alpha^2 u_xx is conceptually found by setting:",
+        "choices": [
+            "A. u_xx = 0",
+            "B. u_x = 0",
+            "C. u_t = 0",
+            "D. u_t = u_xx"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "If the ends of a rod of length L are held at T_1 (at x=0) and T_2 (at x=L), the steady-state temperature profile is:",
+        "choices": [
+            "A. T_1 e^-x + T_2 e^x",
+            "B. T_1 cos(x) + T_2 sin(x)",
+            "C. T_1 + (T_1 - T_2)(x/L)",
+            "D. T_1 + (T_2 - T_1)(x/L)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "In polar coordinates (r, theta), the Laplacian operator is mathematically expressed as:",
+        "choices": [
+            "A. u_rr + (1/r)u_r + (1/r^2)u_theta_theta",
+            "B. u_rr + u_theta_theta",
+            "C. u_rr + (1/r^2)u_theta_theta",
+            "D. r^2 u_rr + r u_r + u_theta_theta"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "When separating variables for the Laplace equation on a full circular disk, the angular function Theta(theta) must strictly be:",
+        "choices": [
+            "A. Zero at the boundaries",
+            "B. Periodic with period 2*pi",
+            "C. Exponentially decaying",
+            "D. Monotonically increasing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Due to the periodicity requirement in polar Laplace problems, the separation constant lambda in Theta'' + lambda Theta = 0 must be:",
+        "choices": [
+            "A. A negative integer",
+            "B. An irrational number",
+            "C. The square of an integer (n^2)",
+            "D. A complex number"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "The radial ODE resulting from separation of variables of the polar Laplace equation takes the mathematical form of a:",
+        "choices": [
+            "A. Bessel equation",
+            "B. Legendre equation",
+            "C. Hermite equation",
+            "D. Cauchy-Euler equation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "The general solution to the radial equation r^2 R'' + r R' - n^2 R = 0 (for n>0) is R(r) = C_1 r^n + C_2 r^-n. To keep the solution physically bounded at the center of a solid disk (r=0), we must set:",
+        "choices": [
+            "A. C_2 = 0",
+            "B. C_1 = 0",
+            "C. C_1 = C_2",
+            "D. C_1 = -C_2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "The fundamental mathematical theorem stating that a harmonic function attains its maximum value only on the boundary of its domain is the:",
+        "choices": [
+            "A. Superposition Principle",
+            "B. Maximum Principle",
+            "C. Mean Value Theorem",
+            "D. Dirichlet Principle"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "The 2D wave equation u_tt = c^2 (u_xx + u_yy) is commonly used to model the transverse vibrations of a:",
+        "choices": [
+            "A. Fluid flow",
+            "B. String",
+            "C. Membrane (e.g., drumhead)",
+            "D. Heat sink"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "The spatial eigenfunctions of a vibrating rectangular membrane of dimensions a x b fixed at the edges involve the product of two:",
+        "choices": [
+            "A. Exponentials",
+            "B. Hyperbolic sines",
+            "C. Cosines",
+            "D. Sines"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "The fundamental solution to the 2D Laplace equation, representing the potential of a point source, is proportional to:",
+        "choices": [
+            "A. ln(r)",
+            "B. 1/r",
+            "C. e^-r",
+            "D. 1/r^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "The fundamental solution to the 3D Laplace equation, representing the electrostatic potential of a point charge, is proportional to:",
+        "choices": [
+            "A. ln(r)",
+            "B. 1/r",
+            "C. r^2",
+            "D. e^-r / r"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Which system of non-linear PDEs describes the motion of viscous fluid substances such as liquids and gases?",
+        "choices": [
+            "A. Maxwell's equations",
+            "B. Schrödinger equation",
+            "C. Navier-Stokes equations",
+            "D. Black-Scholes equation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "The Navier-Stokes equations are essentially a statement of Newton's second law applied to fluid motion, fundamentally expressing the conservation of:",
+        "choices": [
+            "A. Energy",
+            "B. Mass",
+            "C. Angular momentum",
+            "D. Linear momentum"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "The fundamental equation governing the wave function and state evolution of a quantum-mechanical system is the:",
+        "choices": [
+            "A. Schrödinger equation",
+            "B. Maxwell equation",
+            "C. Navier-Stokes equation",
+            "D. Korteweg–de Vries equation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "The time-dependent Schrödinger equation is mathematically analogous to a diffusion equation but includes an imaginary coefficient, making its solutions:",
+        "choices": [
+            "A. Exponentially decaying",
+            "B. Oscillatory",
+            "C. Singular",
+            "D. Unbounded"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "In quantum mechanics, the quantity",
+        "choices": [
+            "A. Psi(x,t)",
+            "B. ^2 derived from the solution of the Schrödinger equation strictly represents the:",
+            "C. Energy level",
+            "D. Momentum"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 64,
+        "question": "The set of four coupled PDEs that completely describe how electric and magnetic fields are generated by charges and currents are known as:",
+        "choices": [
+            "A. Ampere's laws",
+            "B. Helmholtz equations",
+            "C. Lorenz equations",
+            "D. Maxwell's equations"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "In a perfect vacuum with no charges or currents, Maxwell's equations can be combined to prove that both electric and magnetic fields satisfy the:",
+        "choices": [
+            "A. Wave equation",
+            "B. Heat equation",
+            "C. Laplace equation",
+            "D. Burgers' equation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Which famous parabolic PDE is widely used in mathematical finance to price European-style options and derivatives?",
+        "choices": [
+            "A. Schrödinger equation",
+            "B. Black-Scholes equation",
+            "C. Riccati equation",
+            "D. KdV equation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "The Black-Scholes equation is mathematically transformed into which core PDE to find its analytical solution?",
+        "choices": [
+            "A. Laplace equation",
+            "B. Wave equation",
+            "C. Heat equation",
+            "D. Poisson equation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "The Burgers' equation is given by u_t + u u_x = v u_xx. It serves as a fundamental simplified model for:",
+        "choices": [
+            "A. Electromagnetic wave propagation",
+            "B. Quantum tunneling",
+            "C. Option pricing",
+            "D. Shock wave formation and turbulence"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "In the Burgers' equation u_t + u u_x = v u_xx, the non-linear term u u_x is specifically known as the:",
+        "choices": [
+            "A. Convective (or advective) term",
+            "B. Diffusive term",
+            "C. Dispersive term",
+            "D. Dissipative term"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "If the viscosity parameter v = 0, the Burgers' equation becomes strictly inviscid, typically leading to the development of:",
+        "choices": [
+            "A. Standing waves",
+            "B. Discontinuities (shock waves)",
+            "C. Solitons",
+            "D. Exponential growth"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "The Korteweg–de Vries (KdV) equation is a foundational mathematical model primarily used for describing:",
+        "choices": [
+            "A. High-speed gas dynamics",
+            "B. Heat conduction in metals",
+            "C. Shallow water waves",
+            "D. Quantum state evolution"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "The KdV equation u_t + u_xxx + 6u u_x = 0 is famous for supporting stable, non-dispersive solitary wave solutions called:",
+        "choices": [
+            "A. Phonons",
+            "B. Photons",
+            "C. Harmonics",
+            "D. Solitons"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "A striking physical property of solitons, mathematically described by the KdV equation, is that when two solitons collide, they:",
+        "choices": [
+            "A. Pass through each other while preserving their shape and speed",
+            "B. Annihilate each other completely",
+            "C. Merge to form a single larger stationary wave",
+            "D. Reflect perfectly off one another"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "The Cole-Hopf transformation is a famous substitution used to convert the non-linear Burgers' equation into the linear:",
+        "choices": [
+            "A. Laplace equation",
+            "B. Heat equation",
+            "C. Wave equation",
+            "D. Schrödinger equation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "In the Navier-Stokes equations, which specific term mathematically accounts for the fluid's internal friction?",
+        "choices": [
+            "A. The pressure gradient term grad(P)",
+            "B. The convective term (u dot grad)u",
+            "C. The viscous term v*nabla^2(u)",
+            "D. The external force term F"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "In the Black-Scholes PDE, the parameter sigma strictly represents the underlying asset's:",
+        "choices": [
+            "A. Risk-free rate",
+            "B. Time to expiration",
+            "C. Strike price",
+            "D. Volatility"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "The Riccati PDE is a multivariable generalization of the Riccati ODE and most commonly arises in the mathematical context of:",
+        "choices": [
+            "A. Optimal control theory (e.g., HJB equation)",
+            "B. Electromagnetism",
+            "C. Fluid dynamics",
+            "D. Quantum mechanics"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "Maxwell's equations theoretically predicted that electromagnetic waves travel through a vacuum at a speed equal to:",
+        "choices": [
+            "A. The speed of sound",
+            "B. The speed of light (c)",
+            "C. The thermal velocity",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "The time-independent Schrödinger equation takes the form of a mathematical eigenvalue problem H(psi) = E(psi). The eigenvalues E represent the system's strictly allowed:",
+        "choices": [
+            "A. Probability densities",
+            "B. Wavelengths",
+            "C. Energy levels",
+            "D. Momenta"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "In the Schrödinger equation, the mathematical operator -(h_bar^2 / 2m)nabla^2 + V is formally called the:",
+        "choices": [
+            "A. Laplacian operator",
+            "B. Momentum operator",
+            "C. D'Alembertian operator",
+            "D. Hamiltonian operator"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "In fluid dynamics, an incompressible flow mathematically satisfies which exact condition within the Navier-Stokes framework?",
+        "choices": [
+            "A. div(u) = 0",
+            "B. curl(u) = 0",
+            "C. nabla^2(u) = 0",
+            "D. u dot grad(u) = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "Which specific differential equation is strictly used to describe how a quantum state vector evolves over time?",
+        "choices": [
+            "A. Time-independent Schrödinger equation",
+            "B. Time-dependent Schrödinger equation",
+            "C. Heisenberg equation",
+            "D. Dirac equation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "The Black-Scholes equation contains a linear term -rV which incorporates the effect of the market's:",
+        "choices": [
+            "A. Dividend yield",
+            "B. Asset depreciation",
+            "C. Risk-free interest rate",
+            "D. Transaction costs"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "In the KdV equation u_t + u_xxx + 6u u_x = 0, the third-derivative term u_xxx physically represents:",
+        "choices": [
+            "A. Viscous dissipation",
+            "B. Nonlinear steepening",
+            "C. Convective transport",
+            "D. Wave dispersion"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Solitons strictly arise as solutions in the KdV equation due to a perfect mathematical balance between:",
+        "choices": [
+            "A. Nonlinear steepening and linear dispersion",
+            "B. Thermal diffusion and convection",
+            "C. Viscous dissipation and pressure gradients",
+            "D. Quantum tunneling and potential barriers"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "A highly notable property of the KdV equation is that it is a completely integrable non-linear PDE possessing an infinite number of:",
+        "choices": [
+            "A. Singularities",
+            "B. Conservation laws",
+            "C. Discontinuities",
+            "D. Boundary layers"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "The Hamilton-Jacobi-Bellman (HJB) equation, which often reduces to a Riccati PDE for linear-quadratic systems, is the central PDE of:",
+        "choices": [
+            "A. Fluid statics",
+            "B. Quantum chromodynamics",
+            "C. Dynamic programming and optimal control",
+            "D. Option pricing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "Faraday's law of induction, one of Maxwell's equations, mathematically relates the curl of the electric field to the:",
+        "choices": [
+            "A. Divergence of the magnetic field",
+            "B. Gradient of the charge density",
+            "C. Electric current density",
+            "D. Negative time derivative of the magnetic field"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "Ampere's law with Maxwell's addition relates the curl of the magnetic field to the current density and the strictly necessary:",
+        "choices": [
+            "A. Time derivative of the electric field",
+            "B. Divergence of the electric field",
+            "C. Gradient of the electric potential",
+            "D. Scalar magnetic potential"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "In the 3D Navier-Stokes equations, the non-linear convective acceleration term is mathematically expressed as:",
+        "choices": [
+            "A. v*nabla^2(u)",
+            "B. (u dot grad)u",
+            "C. grad(div(u))",
+            "D. curl(u)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "The D'Alembertian operator Box^2 = nabla^2 - (1/c^2)d^2/dt^2 is naturally used to write which core PDE in a compact invariant form?",
+        "choices": [
+            "A. Heat equation",
+            "B. Laplace equation",
+            "C. Wave equation",
+            "D. Burgers' equation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "In the Black-Scholes model, the dependent variable V(S,t) mathematically represents the:",
+        "choices": [
+            "A. Stock price",
+            "B. Volatility surface",
+            "C. Risk-free rate",
+            "D. Price of the financial option"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "The Poisson equation nabla^2(u) = f simplifies to the Laplace equation nabla^2(u) = 0 exactly when the source term f is:",
+        "choices": [
+            "A. Zero",
+            "B. A constant",
+            "C. Linearly increasing",
+            "D. Exponentially decaying"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "For the 1D heat equation u_t = alpha^2 u_xx, the standard SI unit for the thermal diffusivity alpha^2 is:",
+        "choices": [
+            "A. m/s",
+            "B. m^2/s",
+            "C. J/(kg K)",
+            "D. W/(m K)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "The mathematical procedure of replacing a continuous PDE with a grid of discrete algebraic equations for computational solving is called:",
+        "choices": [
+            "A. Superposition",
+            "B. Separation of variables",
+            "C. Finite difference method",
+            "D. Cole-Hopf transformation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "Which of the following PDEs is strictly classified as a first-order equation?",
+        "choices": [
+            "A. Heat equation",
+            "B. Wave equation",
+            "C. Laplace equation",
+            "D. Advection equation (u_t + c u_x = 0)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "For the steady-state Laplace equation nabla^2(u) = 0, what does the function u fundamentally represent if there is no temporal change?",
+        "choices": [
+            "A. Equilibrium state",
+            "B. Oscillatory state",
+            "C. Transient state",
+            "D. Dispersive state"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "The Euler equations of fluid dynamics can be strictly derived from the Navier-Stokes equations by setting the:",
+        "choices": [
+            "A. Velocity to zero",
+            "B. Kinematic viscosity to zero",
+            "C. Density to a constant",
+            "D. Pressure gradient to zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "In the heat equation derivation, Fourier's law of heat conduction mathematically relates the heat flux vector strictly to the:",
+        "choices": [
+            "A. Temperature",
+            "B. Heat capacity",
+            "C. Gradient of the temperature",
+            "D. Time derivative of temperature"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "The solutions to the Laplace equation in spherical coordinates naturally involve sets of orthogonal functions known as:",
+        "choices": [
+            "A. Bessel functions",
+            "B. Chebyshev polynomials",
+            "C. Fourier sine series",
+            "D. Spherical harmonics"
+        ],
+        "correct_answer": "D"
+    }
+]

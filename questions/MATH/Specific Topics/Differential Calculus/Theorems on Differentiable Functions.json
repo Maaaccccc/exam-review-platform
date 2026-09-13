@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "In multivariable calculus, the partial derivative of f(x,y) with respect to x geometrically represents:",
+        "choices": [
+            "A. The slope of the tangent line in the x-direction",
+            "B. The area under the surface",
+            "C. The slope of the tangent line in the y-direction",
+            "D. The volume enclosed by the surface"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "The total differential dz of a function z = f(x,y) is given by which formula?",
+        "choices": [
+            "A. f_y dx + f_x dy",
+            "B. f_x dx + f_y dy",
+            "C. f_x dy + f_y dx",
+            "D. f_x dx - f_y dy"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "What does the direction of the gradient vector at a point indicate?",
+        "choices": [
+            "A. The direction of minimum rate of change",
+            "B. The direction of zero rate of change",
+            "C. The direction of maximum rate of change",
+            "D. The direction of the level curve"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "Clairaut's Theorem states that for a function f(x,y), the mixed partial derivatives f_xy and f_yx are equal provided that:",
+        "choices": [
+            "A. They exist and are zero",
+            "B. They exist and are polynomials",
+            "C. They are evaluated at the origin",
+            "D. They exist and are continuous"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "Calculate the total differential dz for z = x^2 y.",
+        "choices": [
+            "A. 2xy dx + x^2 dy",
+            "B. 2xy dx - x^2 dy",
+            "C. x^2 dx + 2xy dy",
+            "D. 2x dx + y dy"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "Evaluate the gradient vector of f(x,y) = 3x^2 - 2y^2 at the point (1,1).",
+        "choices": [
+            "A. 6i + 4j",
+            "B. 6i - 4j",
+            "C. 3i - 2j",
+            "D. -6i + 4j"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "Find the directional derivative of f(x,y) = x y in the direction of the vector v = i + j at the point (1,1).",
+        "choices": [
+            "A. 1",
+            "B. 1/sqrt(2)",
+            "C. sqrt(2)",
+            "D. 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "Calculate f_xx for f(x,y) = sin(x^2 + y).",
+        "choices": [
+            "A. 2x cos(x^2 + y)",
+            "B. -4x^2 sin(x^2 + y)",
+            "C. 2 cos(x^2 + y)",
+            "D. 2 cos(x^2 + y) - 4x^2 sin(x^2 + y)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "Determine the mixed partial derivative f_xy for f(x,y) = 5x^3 y^2.",
+        "choices": [
+            "A. 30x^2 y",
+            "B. 15x^2 y^2",
+            "C. 10x^3 y",
+            "D. 30x y"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "If z = f(x,y), x = g(t), and y = h(t), the chain rule for dz/dt is:",
+        "choices": [
+            "A. (dx / dt)(partial y / partial x) + (dy / dt)(partial x / partial y)",
+            "B. (partial z / partial x)(dx / dt) + (partial z / partial y)(dy / dt)",
+            "C. (partial z / partial x)(dt / dx) + (partial z / partial y)(dt / dy)",
+            "D. (partial z / partial t)(dx / dt) + (partial z / partial t)(dy / dt)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "The Extreme Value Theorem guarantees that a continuous function f on a closed interval [a, b] will attain:",
+        "choices": [
+            "A. Only a maximum value",
+            "B. Only a minimum value",
+            "C. Both an absolute maximum and an absolute minimum",
+            "D. Neither a maximum nor a minimum"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "Which of the following conditions is required for the Extreme Value Theorem to hold?",
+        "choices": [
+            "A. f must be differentiable on [a, b]",
+            "B. f must be monotonic on [a, b]",
+            "C. f must be a polynomial",
+            "D. f must be continuous on a closed interval [a, b]"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "If f is continuous on a closed interval [a, b], where can the absolute extrema occur?",
+        "choices": [
+            "A. At the endpoints or at critical points in (a, b)",
+            "B. Only at the endpoints a and b",
+            "C. Only at the critical points in (a, b)",
+            "D. Only where f''(x) = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Rolle's theorem is a special case of which broader theorem?",
+        "choices": [
+            "A. Extreme Value Theorem",
+            "B. Mean Value Theorem",
+            "C. Intermediate Value Theorem",
+            "D. Cauchy's Mean Value Theorem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "For Rolle's Theorem to apply to f(x) on [a, b], which condition is NOT explicitly required?",
+        "choices": [
+            "A. f is continuous on [a, b]",
+            "B. f is differentiable on (a, b)",
+            "C. f''(x) exists for all x in (a, b)",
+            "D. f(a) = f(b)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "If Rolle's Theorem applies to f on [a, b], then there exists at least one number c in (a, b) such that:",
+        "choices": [
+            "A. f(c) = 0",
+            "B. f'(c) = f(b) - f(a)",
+            "C. f(c) = f(b)",
+            "D. f'(c) = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "The Mean Value Theorem states that there exists c in (a,b) such that f'(c) equals:",
+        "choices": [
+            "A. [f(b) - f(a)] / (b - a)",
+            "B. [f(b) + f(a)] / (b + a)",
+            "C. f(b) - f(a)",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "The geometric interpretation of the Mean Value Theorem is that there is a point on the curve where the tangent line is:",
+        "choices": [
+            "A. Perpendicular to the secant line",
+            "B. Parallel to the secant line joining endpoints",
+            "C. Horizontal",
+            "D. Vertical"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Cauchy's Mean Value Theorem involves how many functions?",
+        "choices": [
+            "A. One",
+            "B. Three",
+            "C. Two",
+            "D. Four"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "The formula for Cauchy's Mean Value Theorem states that [f(b) - f(a)] / [g(b) - g(a)] is equal to:",
+        "choices": [
+            "A. f'(c) / g(c)",
+            "B. g'(c) / f'(c)",
+            "C. f(c) / g(c)",
+            "D. f'(c) / g'(c)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "Find the absolute maximum of f(x) = 3x^2 - 12x + 5 on [0, 3].",
+        "choices": [
+            "A. 5",
+            "B. -7",
+            "C. 4",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Find the absolute minimum of f(x) = x^2 - 4x + 1 on [0, 5].",
+        "choices": [
+            "A. 1",
+            "B. -3",
+            "C. 6",
+            "D. -4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "Given f(x) = x^2 - 4x on [0, 4]. Find the value of c guaranteed by Rolle's Theorem.",
+        "choices": [
+            "A. 1",
+            "B. 3",
+            "C. 2",
+            "D. 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "Determine the value of c that satisfies Rolle's theorem for f(x) = sin(x) on [0, pi].",
+        "choices": [
+            "A. 0",
+            "B. pi/4",
+            "C. pi",
+            "D. pi/2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "Find the value of c that satisfies the MVT for f(x) = x^2 on [1, 3].",
+        "choices": [
+            "A. 2",
+            "B. 1.5",
+            "C. 2.5",
+            "D. 3"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "Find c for f(x) = x^3 - x on [0, 2] according to the Mean Value Theorem.",
+        "choices": [
+            "A. 1",
+            "B. 2/sqrt(3)",
+            "C. sqrt(2)",
+            "D. sqrt(3)/2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "Let f(x) = x^2 and g(x) = x. Find c on [1, 3] using Cauchy's Mean Value Theorem.",
+        "choices": [
+            "A. 3",
+            "B. 1.5",
+            "C. 2",
+            "D. 2.5"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "If f'(x) = 0 for all x in (a, b), then the Mean Value Theorem implies that f(x) is:",
+        "choices": [
+            "A. Monotonic",
+            "B. Zero",
+            "C. Linear",
+            "D. Constant"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "Does Rolle's Theorem apply to f(x) =",
+        "choices": [
+            "A. x",
+            "B. on [-1, 1]?",
+            "C. No, because f(x) is not differentiable at x=0",
+            "D. Yes, c=0"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 30,
+        "question": "Suppose f is continuous on [2, 5] and differentiable on (2, 5). If 1 <= f'(x) <= 4, what is the largest possible value for f(5) - f(2)?",
+        "choices": [
+            "A. 3",
+            "B. 12",
+            "C. 15",
+            "D. 4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Evaluate the absolute maximum of f(x) = x^3 - 3x + 2 on [-2, 2].",
+        "choices": [
+            "A. 0",
+            "B. 2",
+            "C. 4",
+            "D. -2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "Find c for f(x) = sin x and g(x) = cos x on [0, pi/2] using Cauchy's MVT.",
+        "choices": [
+            "A. pi/6",
+            "B. pi/3",
+            "C. pi/2",
+            "D. pi/4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "If a continuous function defined on a closed interval has no local extrema in the interior, where must its absolute extrema occur?",
+        "choices": [
+            "A. At the endpoints",
+            "B. It does not have extrema",
+            "C. At the origin",
+            "D. Infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "MVT states f'(c) = (f(b)-f(a))/(b-a). The term (f(b)-f(a))/(b-a) represents the:",
+        "choices": [
+            "A. Instantaneous rate of change",
+            "B. Average rate of change",
+            "C. Derivative",
+            "D. Slope of the normal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Cauchy's Mean Value Theorem generalizes which other theorem?",
+        "choices": [
+            "A. Intermediate Value Theorem",
+            "B. Extreme Value Theorem",
+            "C. Mean Value Theorem",
+            "D. Rolle's Theorem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "If f(x) is a constant function on [a, b], which value of c in (a, b) satisfies Rolle's theorem?",
+        "choices": [
+            "A. Only (a+b)/2",
+            "B. No such c exists",
+            "C. Only c = 0",
+            "D. Every c in (a, b)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "Find the absolute minimum of f(x) = 1/x on the interval [1, 4].",
+        "choices": [
+            "A. 1/4",
+            "B. 1",
+            "C. 0",
+            "D. 4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Which polynomial satisfies Rolle's Theorem on [-1, 1]?",
+        "choices": [
+            "A. f(x) = x^3",
+            "B. f(x) = x^2",
+            "C. f(x) = x",
+            "D. f(x) = x^3 + x"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Find the value of c that satisfies MVT for f(x) = sqrt(x) on [0, 4].",
+        "choices": [
+            "A. 2",
+            "B. 0.5",
+            "C. 1",
+            "D. 1.5"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "Why does Cauchy's MVT require g'(x) != 0 for all x in (a,b)?",
+        "choices": [
+            "A. To make f'(x) zero",
+            "B. To ensure continuity",
+            "C. To keep the function positive",
+            "D. To prevent division by zero in the conclusion"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "If f(0) = 3 and f'(x) <= 2 for all x, what is the maximum possible value of f(4) using MVT?",
+        "choices": [
+            "A. 11",
+            "B. 8",
+            "C. 5",
+            "D. 10"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "How many roots does f(x) = x^3 + 3x + 1 have? Use Rolle's Theorem to deduce.",
+        "choices": [
+            "A. Two",
+            "B. Exactly one",
+            "C. Three",
+            "D. None"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "For f(x) = 1/x on [-1, 1], why does the Extreme Value Theorem fail?",
+        "choices": [
+            "A. It is not a polynomial",
+            "B. It has no endpoints",
+            "C. It is discontinuous at x=0",
+            "D. The interval is open"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "If f(a) = f(b) = 0 and f is continuous on [a,b] and differentiable on (a,b), Rolle's theorem guarantees a point c where the tangent is:",
+        "choices": [
+            "A. Vertical",
+            "B. Positive",
+            "C. Negative",
+            "D. Horizontal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Find c for f(x) = ln(x) on [1, e] satisfying MVT.",
+        "choices": [
+            "A. e - 1",
+            "B. e/2",
+            "C. (e-1)/e",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "Find the absolute maximum of f(x) = -x^2 + 6x - 8 on [2, 5].",
+        "choices": [
+            "A. -3",
+            "B. 1",
+            "C. 0",
+            "D. 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "If f(x) = e^x and g(x) = e^(-x) on [0, 1], the value of c guaranteed by Cauchy's MVT is:",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. 1/2",
+            "D. ln(2)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "Given f(x) = x^3 - 3x^2. Find c on [0, 3] satisfying Rolle's theorem.",
+        "choices": [
+            "A. 1",
+            "B. 3",
+            "C. 0",
+            "D. 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "Which condition is required for the Mean Value Theorem but NOT strictly needed for the Intermediate Value Theorem?",
+        "choices": [
+            "A. Differentiability",
+            "B. Continuity",
+            "C. Endpoints are equal",
+            "D. Interval is open"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "Does Rolle's Theorem apply to f(x) = tan(x) on [0, pi]?",
+        "choices": [
+            "A. Yes, c = pi/2",
+            "B. No, f is discontinuous at pi/2",
+            "C. No, f(0) is not equal to f(pi)",
+            "D. Yes, c = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Determine the absolute minimum of f(x) = x^(2/3) on [-1, 8].",
+        "choices": [
+            "A. 1",
+            "B. 4",
+            "C. 0",
+            "D. -1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "Let f(x) =",
+        "choices": [
+            "A. x-1",
+            "B. . Can MVT be applied on [0, 3]?",
+            "C. Yes, c = 1",
+            "D. Yes, c = 2"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 53,
+        "question": "Cauchy's MVT reduces to the standard MVT when g(x) is equal to:",
+        "choices": [
+            "A. x",
+            "B. 1",
+            "C. 0",
+            "D. f(x)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "A point c where f'(c) = 0 or f'(c) is undefined is called a:",
+        "choices": [
+            "A. Inflection point",
+            "B. Critical point",
+            "C. Endpoint",
+            "D. Discontinuity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "If a differentiable function crosses the x-axis at 3 distinct points, how many times must its derivative be zero, at minimum?",
+        "choices": [
+            "A. 1",
+            "B. 3",
+            "C. 2",
+            "D. 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "Find the MVT c for f(x) = 1/x on [1, 2].",
+        "choices": [
+            "A. 1",
+            "B. 1.5",
+            "C. 1.75",
+            "D. sqrt(2)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "Find the absolute maximum of f(x) = sin(x) + cos(x) on [0, pi].",
+        "choices": [
+            "A. sqrt(2)",
+            "B. 1",
+            "C. 2",
+            "D. 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Find c for f(x) = x^4 - 2x^2 on [-sqrt(2), sqrt(2)].",
+        "choices": [
+            "A. 0",
+            "B. -1, 0, 1",
+            "C. 1",
+            "D. sqrt(2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "For f(x) = x^3, g(x) = x^2 on [1, 2]. Find the c from Cauchy's MVT.",
+        "choices": [
+            "A. 1.5",
+            "B. 1.25",
+            "C. 14/9",
+            "D. 4/3"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "If f(x) is an antiderivative of a continuous function, MVT states that the integral average of the derivative is equal to:",
+        "choices": [
+            "A. f(b)",
+            "B. f(a)",
+            "C. f'(c)",
+            "D. (f(b)-f(a))/(b-a)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "If f is continuous on (0, 1), does EVT guarantee a maximum?",
+        "choices": [
+            "A. No, the interval is open",
+            "B. Yes, EVT applies to open intervals",
+            "C. No, because f is constant",
+            "D. Yes, at the endpoints"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "Prove that the equation x^5 + 10x + 3 = 0 has exactly one real root. This is a direct application of:",
+        "choices": [
+            "A. EVT",
+            "B. Rolle's Theorem",
+            "C. MVT",
+            "D. Cauchy's MVT"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "The Mean Value Theorem applies to a function that is continuous on [a,b] and differentiable on (a,b). The brackets [ ] and parentheses ( ) indicate:",
+        "choices": [
+            "A. Both are closed",
+            "B. Both are open",
+            "C. Closed interval and open interval respectively",
+            "D. Open interval and closed interval respectively"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "In the rigorous derivation of L'Hopital's Rule, which theorem is most fundamentally used?",
+        "choices": [
+            "A. Extreme Value Theorem",
+            "B. Rolle's Theorem",
+            "C. Mean Value Theorem",
+            "D. Cauchy's Mean Value Theorem"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "By EVT, the absolute extrema of a continuous function on a closed interval can occur at critical points or:",
+        "choices": [
+            "A. Endpoints",
+            "B. Inflection points",
+            "C. Roots",
+            "D. Asymptotes"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "Find the value of c for f(x) = cos(2x) on [0, pi] where Rolle's theorem applies.",
+        "choices": [
+            "A. pi/4",
+            "B. pi/2",
+            "C. pi",
+            "D. 3pi/4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Determine c for f(x) = x^2 + 2x - 1 on [0, 1] using MVT.",
+        "choices": [
+            "A. 0.25",
+            "B. 0.75",
+            "C. 0.5",
+            "D. 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "For Cauchy's MVT to apply, the denominator g(b) - g(a) must be:",
+        "choices": [
+            "A. Equal to f(b)-f(a)",
+            "B. Zero",
+            "C. Positive",
+            "D. Non-zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "Let f(x) = 1 - x^(2/3). f(-1) = 0 and f(1) = 0, but f'(c) is never zero on (-1, 1). Why does Rolle's theorem not contradict this?",
+        "choices": [
+            "A. f is not differentiable at x=0",
+            "B. f is not continuous",
+            "C. f(-1) does not equal f(1)",
+            "D. The interval is invalid"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "Suppose f'(x) = 1/x and f(1) = 0. Use MVT to bound f(2). Which of the following is a valid bound based strictly on MVT?",
+        "choices": [
+            "A. 0 < f(2) < 1",
+            "B. 1/2 < f(2) < 1",
+            "C. 1 < f(2) < 2",
+            "D. f(2) > 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "Find the absolute minimum of f(x) = 2x^3 - 3x^2 - 12x + 1 on [-2, 3].",
+        "choices": [
+            "A. 8",
+            "B. -1",
+            "C. -19",
+            "D. -8"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "Find c for f(x)=x^2, g(x)=x^3 on [1, 2] using Cauchy's MVT.",
+        "choices": [
+            "A. 1",
+            "B. 1.5",
+            "C. 1.75",
+            "D. 14/9"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "MVT states that the average rate of change over [a,b] is equal to the instantaneous rate of change at some point c in:",
+        "choices": [
+            "A. (a, b)",
+            "B. [a, b]",
+            "C. The origin",
+            "D. Infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "Who is Rolle's Theorem named after?",
+        "choices": [
+            "A. Isaac Newton",
+            "B. Michel Rolle",
+            "C. Augustin-Louis Cauchy",
+            "D. Joseph-Louis Lagrange"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "If f(x) is continuous on a closed interval [a,b] but f'(x) does not exist at some point c in (a,b), can c be an absolute extremum?",
+        "choices": [
+            "A. No, EVT requires differentiability",
+            "B. Yes, but only if f(c)=0",
+            "C. Yes, it is a critical point",
+            "D. No, it must be an endpoint"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "At what point c does f(x) = x^3 - 3x^2 + 2x satisfy MVT on [0, 2]?",
+        "choices": [
+            "A. 1/3",
+            "B. 1/2",
+            "C. 1.5",
+            "D. 1 +/- sqrt(1/3)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "Which condition on the function g(x) is essential for Cauchy's Mean Value Theorem?",
+        "choices": [
+            "A. g'(x) != 0 for all x in (a,b)",
+            "B. g(x) must be a polynomial",
+            "C. g(a) = g(b)",
+            "D. g'(x) must be constant"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "Given f(x) = (x-1)(x-2)(x-3). Without computing, how many points c in (1, 3) have a horizontal tangent?",
+        "choices": [
+            "A. One",
+            "B. Two",
+            "C. Three",
+            "D. None"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "Find the absolute maximum of f(x) = e^(-x^2) on [-2, 2].",
+        "choices": [
+            "A. e^-4",
+            "B. e^-2",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "Suppose f is continuous on [a,b] and differentiable on (a,b). If f'(x) = 0 for all x in (a,b), what can we conclude about f?",
+        "choices": [
+            "A. f is strictly increasing",
+            "B. f is strictly decreasing",
+            "C. f is zero",
+            "D. f is constant on [a,b]"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "Can Cauchy's MVT be applied to f(x)=x^2 and g(x)=x^3 on [-1, 1]?",
+        "choices": [
+            "A. No, because g'(0) = 0",
+            "B. Yes, c=0",
+            "C. Yes, it always applies to polynomials",
+            "D. No, because f(-1)=f(1)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "The theorem guaranteeing a parallel tangent line to the secant line is:",
+        "choices": [
+            "A. Rolle's Theorem",
+            "B. Mean Value Theorem",
+            "C. L'Hopital's Rule",
+            "D. Extreme Value Theorem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "Which of the following functions does NOT satisfy the hypotheses of Rolle's theorem on [-1, 1]?",
+        "choices": [
+            "A. f(x) = 1 - x^2",
+            "B. f(x) = x^4 - 1",
+            "C. f(x) =",
+            "D. x"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 84,
+        "question": "The Extreme Value Theorem was originally proven by:",
+        "choices": [
+            "A. Isaac Newton",
+            "B. Leonhard Euler",
+            "C. Michel Rolle",
+            "D. Karl Weierstrass"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Evaluate the MVT constant c for f(x) = 2x^2 - 3x + 1 on [0, 2].",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. 1.5",
+            "D. 0.5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "If a function represents the position of a car, what does Rolle's theorem imply if the car returns to its starting point?",
+        "choices": [
+            "A. The car must have a constant speed",
+            "B. The car's velocity must be zero at some instant",
+            "C. The car traveled in a straight line",
+            "D. The car did not move"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "For f(x) = sin x and g(x) = cos x on [0, pi/2], Cauchy's MVT guarantees a c. Find c.",
+        "choices": [
+            "A. pi/2",
+            "B. pi/3",
+            "C. pi/4",
+            "D. pi/6"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "Find the absolute maximum of f(x) = x - ln(x) on [0.5, 2].",
+        "choices": [
+            "A. 1",
+            "B. 1.193",
+            "C. 0.5 + ln 2",
+            "D. 2 - ln(2)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "Can MVT be used to prove that if f'(x) = g'(x) for all x in an interval, then f(x) = g(x) + C?",
+        "choices": [
+            "A. Yes, by applying MVT to h(x) = f(x) - g(x)",
+            "B. No, MVT is only for a single function",
+            "C. No, integration is required",
+            "D. Yes, but only for polynomials"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Given f(x) = e^x sin x. On which of the following intervals does Rolle's Theorem apply?",
+        "choices": [
+            "A. [0, pi/2]",
+            "B. [0, pi]",
+            "C. [-pi/2, pi/2]",
+            "D. [0, 2pi]"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "The parametric form of the Mean Value Theorem corresponds directly to:",
+        "choices": [
+            "A. EVT",
+            "B. Rolle's",
+            "C. Cauchy's MVT",
+            "D. L'Hopital's"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "A car travels 120 miles in 2 hours. By MVT, its instantaneous speed must have been exactly what value at some point?",
+        "choices": [
+            "A. 0 mph",
+            "B. 30 mph",
+            "C. 120 mph",
+            "D. 60 mph"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "If a function is continuous on [a,b], the set of its output values is:",
+        "choices": [
+            "A. A closed interval",
+            "B. An open interval",
+            "C. All real numbers",
+            "D. A single point"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "If f''(x) exists and f(x) has 4 x-intercepts, what is the minimum number of roots of f''(x) = 0?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "What is the value of [f(b)-f(a)]/[g(b)-g(a)] in Cauchy's MVT for f(x)=3x+1, g(x)=2x-5?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3/2",
+            "D. 5/2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "Is it possible for the MVT constant c to be exactly an endpoint (a or b)?",
+        "choices": [
+            "A. Yes, if f is constant",
+            "B. Yes, if f is a line",
+            "C. Yes, if f is symmetric",
+            "D. No, c must be in the open interval (a,b)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "The absolute minimum of f(x) = x^4 - 4x^3 on [-1, 4] is:",
+        "choices": [
+            "A. -27",
+            "B. 0",
+            "C. -16",
+            "D. 5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "Geometrically, Rolle's Theorem guarantees at least one point where the tangent is:",
+        "choices": [
+            "A. Vertical",
+            "B. Horizontal",
+            "C. Diagonal",
+            "D. Parallel to y-axis"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "Find c for f(x) = e^x on [0, 1] using MVT.",
+        "choices": [
+            "A. ln(e/2)",
+            "B. e - 1",
+            "C. ln(e - 1)",
+            "D. 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "For f and g continuous on [a,b] and differentiable on (a,b), Cauchy's MVT formula is f'(c)[g(b) - g(a)] = ?",
+        "choices": [
+            "A. f(b) - f(a)",
+            "B. g'(c)[f(b) + f(a)]",
+            "C. g(c)[f(b) - f(a)]",
+            "D. g'(c)[f(b) - f(a)]"
+        ],
+        "correct_answer": "D"
+    }
+]

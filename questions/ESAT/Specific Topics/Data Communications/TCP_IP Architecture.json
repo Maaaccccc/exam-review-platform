@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "SNA stands for?",
+        "choices": [
+            "A. Systems Network Architecture",
+            "B. Standard Network Access",
+            "C. Synchronous Node Architecture",
+            "D. System Node Access"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "APPN stands for?",
+        "choices": [
+            "A. Asynchronous Protocol Packet Network",
+            "B. Advanced Protocol Processing Node",
+            "C. Advanced Peer-to-Peer Networking",
+            "D. Asynchronous Peer-to-Peer Node"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "In SNA, PU Type 5 refers to?",
+        "choices": [
+            "A. Communications Controller",
+            "B. Mainframe Host",
+            "C. Cluster Controller",
+            "D. Terminal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 4,
+        "question": "What SNA layer corresponds to the OSI Data Link Layer?",
+        "choices": [
+            "A. Path Control",
+            "B. Data Flow Control",
+            "C. Physical Control",
+            "D. Data Link Control"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "LU Type 6.2 is also known as?",
+        "choices": [
+            "A. 3270 Data Stream",
+            "B. APPC",
+            "C. RJE",
+            "D. TN3270"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "In SNA, which layer is responsible for explicit route selection?",
+        "choices": [
+            "A. Transmission Control",
+            "B. Data Flow Control",
+            "C. Path Control",
+            "D. Presentation Services"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "Which component acts as the boundary function in classic SNA?",
+        "choices": [
+            "A. Peripheral node",
+            "B. Subarea node",
+            "C. Terminal",
+            "D. Modem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "How does DLSw handle SNA over IP WANs?",
+        "choices": [
+            "A. UDP encapsulation",
+            "B. Native IP routing without encapsulation",
+            "C. Frame Relay mapping",
+            "D. TCP encapsulation to prevent link timeouts"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "How many layers are in the original DoD TCP/IP Reference Model?",
+        "choices": [
+            "A. Four",
+            "B. Five",
+            "C. Six",
+            "D. Seven"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "Which TCP/IP layer corresponds to the OSI Physical and Data Link layers?",
+        "choices": [
+            "A. Internet",
+            "B. Transport",
+            "C. Application",
+            "D. Network Interface"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "Which protocol operates at the TCP/IP Internet layer?",
+        "choices": [
+            "A. TCP",
+            "B. IP",
+            "C. HTTP",
+            "D. Ethernet"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "The Application layer of the TCP/IP model encompasses which OSI layers?",
+        "choices": [
+            "A. Data Link, Network, Transport",
+            "B. Network, Transport, Session",
+            "C. Session, Presentation, Application",
+            "D. Application only"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 13,
+        "question": "What is the PDU of the Internet layer?",
+        "choices": [
+            "A. Datagram (Packet)",
+            "B. Frame",
+            "C. Segment",
+            "D. Message"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Which TCP/IP layer handles process-to-process communication?",
+        "choices": [
+            "A. Application",
+            "B. Internet",
+            "C. Network Interface",
+            "D. Transport"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 15,
+        "question": "ARP operates primarily at which TCP/IP layer to map IP to MAC?",
+        "choices": [
+            "A. Transport",
+            "B. Internet",
+            "C. Application",
+            "D. Network Interface"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "Which protocol is NOT an Application layer protocol in TCP/IP?",
+        "choices": [
+            "A. FTP",
+            "B. SMTP",
+            "C. ICMP",
+            "D. DNS"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "What is the primary function of the Network Interface layer?",
+        "choices": [
+            "A. End-to-end reliability",
+            "B. Placing TCP/IP packets on the network medium",
+            "C. Format translation",
+            "D. Routing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "In TCP/IP, the physical MAC address is processed by the:",
+        "choices": [
+            "A. Network Interface layer",
+            "B. Transport layer",
+            "C. Internet layer",
+            "D. Application layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "Which protocol provides connectionless, best-effort delivery at the Internet layer?",
+        "choices": [
+            "A. TCP",
+            "B. ARP",
+            "C. UDP",
+            "D. IP"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 20,
+        "question": "ICMP is considered a core part of which TCP/IP layer?",
+        "choices": [
+            "A. Internet",
+            "B. Network Interface",
+            "C. Transport",
+            "D. Application"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "The logical addressing scheme (IP addresses) is implemented at the:",
+        "choices": [
+            "A. Network Interface Layer",
+            "B. Transport Layer",
+            "C. Internet Layer",
+            "D. Application Layer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "If a computer wants to send a ping (ICMP Echo Request), which layer generates the IP header?",
+        "choices": [
+            "A. Network Interface",
+            "B. Internet",
+            "C. Transport",
+            "D. Application"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "How does the TCP/IP model view the underlying physical network?",
+        "choices": [
+            "A. It treats it as a black box (Network Access layer) independent of the IP protocols",
+            "B. It specifies exact voltage levels",
+            "C. It requires Token Ring strictly",
+            "D. It integrates it into the Transport layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "Which TCP/IP protocol is used to resolve a known MAC address to an IP address?",
+        "choices": [
+            "A. ARP",
+            "B. DNS",
+            "C. RARP",
+            "D. DHCP"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "Which layer defines the Maximum Transmission Unit (MTU) size for an IP datagram?",
+        "choices": [
+            "A. Transport",
+            "B. Internet",
+            "C. Application",
+            "D. Network Interface"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 26,
+        "question": "TCP/IP is independent of any specific physical network topology. This abstraction occurs between the:",
+        "choices": [
+            "A. Application and Transport layers",
+            "B. Internet and Network Interface layers",
+            "C. Transport and Internet layers",
+            "D. Hardware and OS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "What port number does HTTP use by default at the Transport layer?",
+        "choices": [
+            "A. 21",
+            "B. 25",
+            "C. 80",
+            "D. 443"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "What port number is used by DNS by default?",
+        "choices": [
+            "A. 53",
+            "B. 25",
+            "C. 80",
+            "D. 110"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 29,
+        "question": "The Transport layer uses which mechanism to multiplex applications?",
+        "choices": [
+            "A. Sequence Numbers",
+            "B. Port Numbers",
+            "C. IP Addresses",
+            "D. MAC Addresses"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "Which protocol relies on the Internet layer but is used to report routing and delivery errors?",
+        "choices": [
+            "A. IGMP",
+            "B. TCP",
+            "C. UDP",
+            "D. ICMP"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 31,
+        "question": "A router makes forwarding decisions based on headers at which TCP/IP layer?",
+        "choices": [
+            "A. Internet",
+            "B. Transport",
+            "C. Application",
+            "D. Network Interface"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "An Ethernet switch makes forwarding decisions based on headers at which TCP/IP layer?",
+        "choices": [
+            "A. Application",
+            "B. Network Interface",
+            "C. Internet",
+            "D. Transport"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "Which protocol provides reliable, connection-oriented service at the Transport layer?",
+        "choices": [
+            "A. UDP",
+            "B. IP",
+            "C. TCP",
+            "D. ICMP"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "While the OSI model separates Session and Presentation functions, TCP/IP assigns these responsibilities to the:",
+        "choices": [
+            "A. Transport layer via port numbers",
+            "B. Internet layer via IP options",
+            "C. Network Access layer via framing",
+            "D. Application layer, letting the application developer handle them"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 35,
+        "question": "In the TCP/IP stack, what happens when a Datagram is passed down to the Network Interface layer?",
+        "choices": [
+            "A. It receives a TCP header",
+            "B. It is fragmented into smaller segments",
+            "C. It is encapsulated into a frame with hardware source and destination addresses",
+            "D. It is encrypted"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Why is TCP/IP considered a \"routable\" protocol suite?",
+        "choices": [
+            "A. Its Internet layer uses hierarchical logical addressing (IP)",
+            "B. It uses MAC addresses",
+            "C. It encapsulates data",
+            "D. It supports connection-oriented transport"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "If an application developer wants to stream live video where speed is more critical than 100% reliability, they will write the Application layer software to interface directly with which Transport protocol?",
+        "choices": [
+            "A. TCP",
+            "B. IP",
+            "C. ARP",
+            "D. UDP"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 38,
+        "question": "A TCP/IP packet is captured on a LAN. The Ethernet frame header indicates an EtherType of 0x0800. What is the payload of this frame?",
+        "choices": [
+            "A. An ARP Request",
+            "B. An IPv6 Datagram",
+            "C. An IPv4 Datagram",
+            "D. An ICMP message"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "What is the primary difference between how OSI and TCP/IP were developed?",
+        "choices": [
+            "A. OSI protocols are widely used on the internet",
+            "B. TCP/IP was developed as a theoretical model first",
+            "C. TCP/IP was developed for IBM mainframes only",
+            "D. TCP/IP was built based on practical, implemented protocols, while OSI was a theoretical model"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "Which of the following is true regarding fragmentation in TCP/IP?",
+        "choices": [
+            "A. It is done by the Internet layer when a datagram exceeds the MTU of the outgoing network interface",
+            "B. It is done by the Transport layer",
+            "C. It is strictly forbidden",
+            "D. It is handled by the Application layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "When an IP datagram is encapsulated into an Ethernet frame, the IP header's Source Address contains:",
+        "choices": [
+            "A. The MAC address of the sender",
+            "B. The IP address of the next-hop router",
+            "C. The IP address of the original sending host",
+            "D. The MAC address of the default gateway"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "The process of decapsulation at the receiver involves the Transport layer stripping its header and passing the payload to the:",
+        "choices": [
+            "A. Application layer",
+            "B. Internet layer",
+            "C. Network Interface layer",
+            "D. Physical layer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 43,
+        "question": "If a host receives a TCP segment with an invalid checksum, at which layer is the segment silently discarded?",
+        "choices": [
+            "A. Application layer",
+            "B. Transport layer",
+            "C. Internet layer",
+            "D. Network Interface layer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "An IPv4 address consists of how many bits?",
+        "choices": [
+            "A. 16",
+            "B. 64",
+            "C. 128",
+            "D. 32"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "How is an IPv4 address typically represented for human readability?",
+        "choices": [
+            "A. Dotted-decimal notation",
+            "B. Binary notation",
+            "C. Hexadecimal notation",
+            "D. Octal notation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "In a Class A IPv4 address, how many bits are allocated for the network ID?",
+        "choices": [
+            "A. 16",
+            "B. 8",
+            "C. 24",
+            "D. 32"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "In a Class C IPv4 address, how many bits are allocated for the network ID?",
+        "choices": [
+            "A. 8",
+            "B. 16",
+            "C. 24",
+            "D. 32"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "Which IP class allows for the largest number of hosts per network?",
+        "choices": [
+            "A. Class B",
+            "B. Class C",
+            "C. Class D",
+            "D. Class A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "The IPv4 loopback address is defined as:",
+        "choices": [
+            "A. 127.0.0.1",
+            "B. 10.0.0.1",
+            "C. 172.16.0.1",
+            "D. 192.168.1.1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "Which IP class is reserved for multicast addresses?",
+        "choices": [
+            "A. Class B",
+            "B. Class D",
+            "C. Class C",
+            "D. Class E"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Class E IPv4 addresses are reserved for:",
+        "choices": [
+            "A. Multicasting",
+            "B. Small local networks",
+            "C. Experimental purposes",
+            "D. Global internet routing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "What is the default subnet mask for a Class B network?",
+        "choices": [
+            "A. 255.0.0.0",
+            "B. 255.255.255.0",
+            "C. 255.255.255.255",
+            "D. 255.255.0.0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "A subnet mask serves what primary purpose in IPv4?",
+        "choices": [
+            "A. To differentiate the network ID from the host ID within the IP address",
+            "B. To identify the hardware address of a host",
+            "C. To determine the routing protocol used",
+            "D. To encrypt the IP packet"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "An IP address starts with 192. What class does it belong to?",
+        "choices": [
+            "A. Class A",
+            "B. Class C",
+            "C. Class B",
+            "D. Class D"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "The range of the first octet for Class A addresses is:",
+        "choices": [
+            "A. 128 - 191",
+            "B. 192 - 223",
+            "C. 1 - 126",
+            "D. 224 - 239"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "Which of the following is a private IP address range defined by RFC 1918?",
+        "choices": [
+            "A. 8.8.8.8",
+            "B. 172.32.0.0 to 172.63.255.255",
+            "C. 192.169.0.0 to 192.169.255.255",
+            "D. 10.0.0.0 to 10.255.255.255"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "If the IP address is 172.16.5.10 with a default subnet mask, what is the network address?",
+        "choices": [
+            "A. 172.16.0.0",
+            "B. 172.0.0.0",
+            "C. 172.16.5.0",
+            "D. 172.16.5.10"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Convert the subnet mask 255.255.255.224 to CIDR notation.",
+        "choices": [
+            "A. /24",
+            "B. /27",
+            "C. /26",
+            "D. /28"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Given the IP address 192.168.1.50 /28, what is the block size of the subnets?",
+        "choices": [
+            "A. 8",
+            "B. 32",
+            "C. 16",
+            "D. 64"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "For the network 192.168.1.0/24, what is the broadcast address?",
+        "choices": [
+            "A. 192.168.1.1",
+            "B. 192.168.1.254",
+            "C. 192.168.255.255",
+            "D. 192.168.1.255"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "How many usable host addresses are available in a /26 subnet?",
+        "choices": [
+            "A. 62",
+            "B. 64",
+            "C. 32",
+            "D. 30"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "If you borrow 3 bits from the host portion of a Class C network, how many usable subnets are created (assuming IP subnet zero is allowed)?",
+        "choices": [
+            "A. 6",
+            "B. 8",
+            "C. 16",
+            "D. 32"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "What is the network address for the host 10.1.2.3 /22?",
+        "choices": [
+            "A. 10.1.2.0",
+            "B. 10.1.3.0",
+            "C. 10.1.0.0",
+            "D. 10.0.0.0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "Which of the following is the valid broadcast address for the subnet 172.16.64.0 /18?",
+        "choices": [
+            "A. 172.16.255.255",
+            "B. 172.16.64.255",
+            "C. 172.16.128.255",
+            "D. 172.16.127.255"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "An IP address of 169.254.1.5 signifies:",
+        "choices": [
+            "A. An APIPA (Automatic Private IP Addressing) address",
+            "B. A valid public routable IP",
+            "C. A loopback address",
+            "D. A multicast address"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "The process of combining multiple smaller networks into a single large routing entry is known as:",
+        "choices": [
+            "A. Subnetting",
+            "B. Route Summarization (Supernetting)",
+            "C. CIDR block",
+            "D. Fragmentation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "If an organization needs exactly 500 hosts per subnet, which subnet mask should they use?",
+        "choices": [
+            "A. 255.255.255.0",
+            "B. 255.255.252.0",
+            "C. 255.255.254.0",
+            "D. 255.255.248.0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Which of the following IPs cannot be assigned to a host because it is a network address?",
+        "choices": [
+            "A. 192.168.1.65 /26",
+            "B. 192.168.1.126 /26",
+            "C. 192.168.1.127 /26",
+            "D. 192.168.1.64 /26"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "A host with IP 192.168.10.35/27 sends a packet to 192.168.10.60. Will this packet be routed or switched locally?",
+        "choices": [
+            "A. Routed, because the destination is on a different subnet.",
+            "B. Routed, because they are on the same subnet.",
+            "C. Switched locally, because the destination is on the same subnet.",
+            "D. Switched locally, because /27 allows 64 hosts."
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "What is the last usable IP address in the subnet 10.15.12.0 /21?",
+        "choices": [
+            "A. 10.15.19.254",
+            "B. 10.15.20.254",
+            "C. 10.15.15.254",
+            "D. 10.15.12.254"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "You are given the network block 172.16.0.0/16. You need to create subnets that can support exactly 30 hosts each. What subnet mask should you use to maximize the number of subnets?",
+        "choices": [
+            "A. /26",
+            "B. /27",
+            "C. /28",
+            "D. /25"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "Which of the following subnet masks is INVALID?",
+        "choices": [
+            "A. 255.255.255.252",
+            "B. 255.255.255.192",
+            "C. 255.255.255.180",
+            "D. 255.255.255.224"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "A router receives a packet with destination IP 192.168.5.130. Its routing table has two entries: 192.168.5.0/24 (via Interface 1) and 192.168.5.128/25 (via Interface 2). Where does it forward the packet?",
+        "choices": [
+            "A. Interface 1, because it has a smaller metric",
+            "B. It drops the packet due to a routing conflict",
+            "C. It broadcasts the packet to both interfaces",
+            "D. Interface 2, due to the longest prefix match rule"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "In VLSM (Variable Length Subnet Masking), subnets of different sizes are created from the same major network block. What is a strict requirement when allocating these subnets?",
+        "choices": [
+            "A. All subnets must end with .255",
+            "B. Address ranges of the subnets must not overlap.",
+            "C. The subnet masks must be identical.",
+            "D. Subnets must only use Class C addresses."
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "Convert the IP address 128.10.2.1 to binary.",
+        "choices": [
+            "A. 01000000.00001010.00000010.00000001",
+            "B. 10000000.00001100.00000010.00000001",
+            "C. 10000000.00001010.00000010.00000001",
+            "D. 11000000.00001010.00000010.00000001"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "A subnet contains the host IP 10.0.50.50 with mask 255.255.192.0. What is the broadcast address of this specific subnet?",
+        "choices": [
+            "A. 10.0.255.255",
+            "B. 10.0.127.255",
+            "C. 10.0.50.255",
+            "D. 10.0.63.255"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "If you have an IP 192.168.1.1 and want a subnet mask that only allows 2 usable hosts (a point-to-point link), what mask is conventionally used?",
+        "choices": [
+            "A. /30",
+            "B. /29",
+            "C. /31",
+            "D. /32"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "You have a Class B network address and need 500 subnets. How many bits must you borrow from the host portion?",
+        "choices": [
+            "A. 7",
+            "B. 9",
+            "C. 8",
+            "D. 10"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "TCP stands for:",
+        "choices": [
+            "A. Transfer Control Protocol",
+            "B. Transport Connection Protocol",
+            "C. Transmission Control Protocol",
+            "D. Transmission Core Protocol"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "UDP stands for:",
+        "choices": [
+            "A. Universal Datagram Protocol",
+            "B. Unified Data Protocol",
+            "C. Uniform Datagram Protocol",
+            "D. User Datagram Protocol"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "Which protocol provides reliable, connection-oriented data delivery?",
+        "choices": [
+            "A. TCP",
+            "B. UDP",
+            "C. IP",
+            "D. ICMP"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "Which Transport layer protocol is considered connectionless and provides best-effort delivery without error recovery?",
+        "choices": [
+            "A. TCP",
+            "B. UDP",
+            "C. SCTP",
+            "D. DCCP"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "Which mechanism does TCP use to ensure segments are assembled in the correct order at the receiver?",
+        "choices": [
+            "A. Port numbers",
+            "B. MAC addresses",
+            "C. Sequence numbers",
+            "D. IP addresses"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "When TCP detects a lost segment, what action does it take?",
+        "choices": [
+            "A. It drops the connection",
+            "B. It requests the Network layer to resend the datagram",
+            "C. It ignores the loss and proceeds",
+            "D. It retransmits the lost segment"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Which of the following applications typically uses UDP?",
+        "choices": [
+            "A. Live Video Streaming",
+            "B. Web Browsing (HTTP)",
+            "C. Email (SMTP)",
+            "D. File Transfer (FTP)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "TCP uses which mechanism to establish a connection before data transfer?",
+        "choices": [
+            "A. Four-way termination",
+            "B. Three-way handshake",
+            "C. Sliding window",
+            "D. Congestion control"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "The TCP header is typically larger than the UDP header. What is the minimum size of a standard TCP header?",
+        "choices": [
+            "A. 8 bytes",
+            "B. 16 bytes",
+            "C. 20 bytes",
+            "D. 32 bytes"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "What is the exact size of a UDP header?",
+        "choices": [
+            "A. 4 bytes",
+            "B. 16 bytes",
+            "C. 20 bytes",
+            "D. 8 bytes"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "In the TCP three-way handshake, what is the second step?",
+        "choices": [
+            "A. The server replies with a SYN-ACK packet",
+            "B. The server sends a SYN packet",
+            "C. The client replies with an ACK packet",
+            "D. The client sends a FIN packet"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Flow control in TCP is handled primarily by:",
+        "choices": [
+            "A. Buffering at the physical layer",
+            "B. Windowing (Sliding Window)",
+            "C. ICMP Source Quench",
+            "D. Increasing the MTU"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "UDP is often preferred over TCP for Voice over IP (VoIP) because:",
+        "choices": [
+            "A. UDP guarantees packet delivery",
+            "B. UDP provides stronger encryption",
+            "C. UDP has lower overhead and less latency, which is crucial for real-time audio",
+            "D. UDP uses less power"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Which TCP flag is used to gracefully terminate a connection?",
+        "choices": [
+            "A. SYN",
+            "B. RST",
+            "C. PSH",
+            "D. FIN"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "If a host receives a TCP segment on a closed port, it responds by sending a segment with which flag set?",
+        "choices": [
+            "A. RST",
+            "B. ACK",
+            "C. SYN",
+            "D. URG"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "Both TCP and UDP utilize a pseudo-header when calculating their checksums. Where is the data for this pseudo-header drawn from?",
+        "choices": [
+            "A. The Application layer payload",
+            "B. The IP header (Source and Destination IP addresses, protocol, and length)",
+            "C. The Network Interface MAC addresses",
+            "D. The previous segment"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "TCP handles network congestion by dynamically adjusting the congestion window (cwnd). When a severe congestion event like a timeout occurs, what typically happens to the cwnd?",
+        "choices": [
+            "A. It doubles",
+            "B. It increases linearly",
+            "C. It is reduced to 1 MSS (Maximum Segment Size)",
+            "D. It remains completely unchanged"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "Which algorithm is used by TCP to avoid \"Silly Window Syndrome\" at the sender by coalescing small data chunks before transmitting?",
+        "choices": [
+            "A. Dijkstra's algorithm",
+            "B. Bellman-Ford algorithm",
+            "C. Karn's algorithm",
+            "D. Nagle's algorithm"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "If an application requires multicast or broadcast transmission, which Transport layer protocol must be used?",
+        "choices": [
+            "A. TCP",
+            "B. UDP",
+            "C. Either TCP or UDP",
+            "D. Neither, as transport layers cannot multicast"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "During a TCP connection tear-down (four-way handshake), what state does the initiating host enter after sending the first FIN and receiving an ACK?",
+        "choices": [
+            "A. FIN-WAIT-1",
+            "B. TIME-WAIT",
+            "C. FIN-WAIT-2",
+            "D. CLOSED"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "Why does TCP implement a TIME-WAIT state (typically 2*MSL) before fully closing a connection and releasing the socket?",
+        "choices": [
+            "A. To wait for the application to close the file descriptors",
+            "B. To calculate the final checksum of the session",
+            "C. To synchronize clocks for the next session",
+            "D. To ensure that delayed duplicate segments from the connection expire in the network before the port is reused"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "A TCP segment is received with an Acknowledgement Number of 1500. What does this specifically indicate to the sender?",
+        "choices": [
+            "A. The receiver has successfully received all bytes up to 1499 and is expecting byte 1500 next",
+            "B. The receiver has successfully received 1500 segments",
+            "C. The receiver is requesting the sender to transmit 1500 more bytes",
+            "D. The receiver's window size is exactly 1500 bytes"
+        ],
+        "correct_answer": "A"
+    }
+]

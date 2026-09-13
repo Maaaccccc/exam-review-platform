@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "Which fundamental computer architecture physically separates the memory space and internal buses for program instructions (code) from the memory space for data?",
+        "choices": [
+            "A. Harvard Architecture",
+            "B. Von Neumann Architecture",
+            "C. CISC Architecture",
+            "D. Turing Architecture"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "In a Reduced Instruction Set Computer (RISC) architecture, which of the following is a primary design characteristic?",
+        "choices": [
+            "A. Extensive use of microcoded control units",
+            "B. Simple, highly optimized, uniform-length instructions that often execute in a single clock cycle",
+            "C. A massive variety of complex memory addressing modes",
+            "D. Operations strictly between memory locations without using internal registers"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Worded circuit: An Intel 8086 microprocessor is generating a physical memory address. If the Code Segment (CS) register contains 1000H and the Instruction Pointer (IP) contains 0200H, what is the exact 20-bit physical address placed on the bus?",
+        "choices": [
+            "A. 12000H",
+            "B. 10002H",
+            "C. 10200H",
+            "D. 01200H"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "In the 8085 microprocessor, what is the specific hardware function of the active-high ALE (Address Latch Enable) pin?",
+        "choices": [
+            "A. To acknowledge a hardware interrupt request",
+            "B. To indicate that the CPU is in a halt state",
+            "C. To force the CPU to wait for a slow memory device",
+            "D. To demultiplex the shared AD0-AD7 bus by triggering an external latch to hold the lower 8 bits of the address"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "An assembly instruction incorporates the actual operand data directly within the instruction byte itself (e.g., MVI A, 45H). This is a definitive example of which addressing mode?",
+        "choices": [
+            "A. Direct Addressing",
+            "B. Immediate Addressing",
+            "C. Register Indirect Addressing",
+            "D. Indexed Addressing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "Worded circuit: A designer needs to use the 8086 microprocessor in Maximum Mode to support a multiprocessor environment. Which specific external integrated circuit is absolutely required to generate the memory and I/O read/write control signals?",
+        "choices": [
+            "A. 8255 Programmable Peripheral Interface",
+            "B. 8259 Programmable Interrupt Controller",
+            "C. 8288 Bus Controller",
+            "D. 8237 Direct Memory Access Controller"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "The Intel 8086 microprocessor utilizes memory segmentation to address its 1 MB physical memory space using 16-bit internal registers. What is the standard fixed size of one logical memory segment in the 8086 architecture?",
+        "choices": [
+            "A. 16 KB",
+            "B. 32 KB",
+            "C. 1 MB",
+            "D. 64 KB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "In the 8085 instruction set, what is the exact behavior of the MOV (Move) instruction when transferring data between two registers (e.g., MOV A, B)?",
+        "choices": [
+            "A. It copies the data from the source register to the destination register, leaving the source register's contents completely unaltered",
+            "B. It physically removes the data from the source register, leaving it at 00H",
+            "C. It swaps the contents of the source and destination registers simultaneously",
+            "D. It pushes the data from the source register directly onto the stack"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "Worded circuit: The instruction LDA 2050H is fetched by the CPU. Upon execution, the CPU accesses physical memory. What specific action occurs during this execution?",
+        "choices": [
+            "A. The CPU stores the contents of the Accumulator into memory location 2050H",
+            "B. The CPU loads the hexadecimal value 2050H directly into the Accumulator",
+            "C. The CPU reads the 8-bit data stored at memory address 2050H and places it into the Accumulator",
+            "D. The CPU jumps to memory address 2050H and executes the code there"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "How does the STA (Store Accumulator) instruction fundamentally differ from the LDA (Load Accumulator) instruction in terms of bus operations?",
+        "choices": [
+            "A. STA performs an I/O Read, while LDA performs an I/O Write",
+            "B. STA performs a Memory Read, while LDA performs a Memory Write",
+            "C. STA pushes data to the stack, while LDA pops data from the stack",
+            "D. STA performs a Memory Write cycle, while LDA performs a Memory Read cycle"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "During the execution of the standard ADD B instruction in an 8-bit microprocessor, which of the following describes the internal operation?",
+        "choices": [
+            "A. The contents of register B are added to the Accumulator, and the result is stored back in the Accumulator",
+            "B. The contents of register B are added to the Program Counter",
+            "C. The contents of register B are added to external memory",
+            "D. The contents of register B are incremented by 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "What is the specific function of the ADI (Add Immediate) instruction in microprocessor assembly language?",
+        "choices": [
+            "A. To add the contents of a specified register to the accumulator",
+            "B. To add a strictly predefined 8-bit constant value embedded in the instruction directly to the accumulator",
+            "C. To add two consecutive memory locations together",
+            "D. To add the carry flag to the accumulator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "Worded circuit: An 8-bit ALU processes a SUB B instruction. Prior to execution, the Accumulator holds 05H and Register B holds 05H. After execution, what are the states of the Zero (Z) flag and the Carry (CY) flag?",
+        "choices": [
+            "A. Z = 0, CY = 1",
+            "B. Z = 1, CY = 1",
+            "C. Z = 0, CY = 0",
+            "D. Z = 1, CY = 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "The SUI instruction stands for \"Subtract Immediate from Accumulator.\" If the Accumulator contains 10H, executing SUI 01H will leave the Accumulator with a value of:",
+        "choices": [
+            "A. 0FH",
+            "B. 11H",
+            "C. 00H",
+            "D. FFH"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "To rapidly increase the numerical value stored in a general-purpose register by exactly 1 without explicitly using the ADD instruction, a programmer should use which specific arithmetic instruction?",
+        "choices": [
+            "A. DCR (Decrement)",
+            "B. INR (Increment)",
+            "C. ADI (Add Immediate)",
+            "D. IN (Input)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "Which instruction is typically used to decrease the value of a register by 1, and is heavily utilized in setting up software loop counters?",
+        "choices": [
+            "A. SUI",
+            "B. CMA",
+            "C. DCR",
+            "D. SUB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "The ANA (AND Accumulator) instruction performs a bitwise logical AND operation. It is most commonly used by software developers to perform which specific binary task?",
+        "choices": [
+            "A. Masking (forcing to zero) specific bits in the accumulator while leaving others unchanged",
+            "B. Setting all bits in the accumulator to logic 1",
+            "C. Inverting every bit in the accumulator",
+            "D. Multiplying the accumulator by two"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "Worded circuit: The Accumulator contains the hexadecimal value 0FH (00001111). The CPU executes an ORA (OR Accumulator) instruction with an operand containing F0H (11110000). What is the resulting hexadecimal value in the Accumulator?",
+        "choices": [
+            "A. 00H",
+            "B. FFH",
+            "C. 88H",
+            "D. 0FH"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Which logical instruction is frequently used by programmers to rapidly clear the accumulator to 00H without fetching a zero from memory?",
+        "choices": [
+            "A. ANA A (AND Accumulator with itself)",
+            "B. ORA A (OR Accumulator with itself)",
+            "C. XRA A (Exclusive-OR Accumulator with itself)",
+            "D. CMA (Complement Accumulator)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "If the Accumulator contains the binary value 11001100, executing the CMA (Complement Accumulator) instruction will physically change the Accumulator's contents to:",
+        "choices": [
+            "A. 00000000",
+            "B. 11111111",
+            "C. 11001100",
+            "D. 00110011"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "The RLC (Rotate Left without Carry) instruction shifts all bits in the accumulator one position to the left. What happens specifically to the Most Significant Bit (D7) during this operation?",
+        "choices": [
+            "A. It is permanently lost and discarded",
+            "B. It is shifted into the Least Significant Bit (D0) position and also copied into the Carry flag",
+            "C. It is shifted into the Carry flag, but D0 is filled with a zero",
+            "D. It remains unchanged"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "The RRC (Rotate Right without Carry) instruction shifts all bits in the accumulator one position to the right. What happens to the Least Significant Bit (D0)?",
+        "choices": [
+            "A. It is discarded",
+            "B. It is filled with a 1",
+            "C. It is shifted into the Most Significant Bit (D7) position and also copied into the Carry flag",
+            "D. It is shifted into the Carry flag, and D7 is filled with a zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "A Branch or Program Control instruction that alters the execution flow to a new memory address regardless of the state of any status flags is classified as a/an:",
+        "choices": [
+            "A. Conditional Jump",
+            "B. Software Interrupt",
+            "C. Subroutine Call",
+            "D. Unconditional Jump (e.g., JMP)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "Worded scenario: The CPU executes a CMP B (Compare) instruction, which internally subtracts Register B from the Accumulator. The result is zero, setting the Zero flag (Z=1). The very next instruction is JZ 2050H (Jump if Zero). What happens next?",
+        "choices": [
+            "A. The Program Counter jumps to 2050H because the specific condition (Z=1) is met",
+            "B. The Program Counter increments normally, ignoring the jump",
+            "C. The CPU halts immediately",
+            "D. The Accumulator is cleared to zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "The JC (Jump if Carry) instruction will force the Program Counter to load a new target address strictly under what specific hardware condition?",
+        "choices": [
+            "A. The Zero flag is 1",
+            "B. The Parity flag is 0",
+            "C. The Carry flag (CY) in the status register is currently set to 1",
+            "D. The Sign flag is 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "How does a CALL instruction fundamentally differ from a standard JMP (Jump) instruction in microprocessor execution?",
+        "choices": [
+            "A. CALL is strictly used for unconditional branching",
+            "B. CALL executes much faster than JMP",
+            "C. CALL requires a 32-bit address operand",
+            "D. CALL automatically pushes the current Program Counter (return address) onto the memory stack before branching"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "Which crucial instruction must always be placed at the very end of a subroutine to ensure the CPU resumes execution at the correct point in the main program?",
+        "choices": [
+            "A. RET (Return)",
+            "B. HLT (Halt)",
+            "C. NOP (No Operation)",
+            "D. JMP (Jump)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "When the microprocessor encounters a HLT (Halt) instruction, what is the immediate physiological effect on the system?",
+        "choices": [
+            "A. The CPU resets and clears all registers",
+            "B. The CPU suspends all internal operations, stops fetching instructions, and waits for a hardware reset or interrupt",
+            "C. The memory is completely erased",
+            "D. The clock oscillator physically stops vibrating"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "Which instruction performs absolutely no internal data manipulation, does not alter any flags, and is primarily used by programmers to insert small time delays or pad unused memory space?",
+        "choices": [
+            "A. HLT",
+            "B. JMP",
+            "C. RET",
+            "D. NOP (No Operation)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "In the hierarchy of computer languages, which format consists entirely of raw binary 1s and 0s and is the only language a microprocessor's hardware can execute directly?",
+        "choices": [
+            "A. Machine Code (Machine Language)",
+            "B. Assembly Language",
+            "C. C++",
+            "D. Python"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "Assembly language is considered a low-level programming language because it:",
+        "choices": [
+            "A. Only uses binary numbers",
+            "B. Represents raw machine code instructions using human-readable alphanumeric abbreviations called mnemonics",
+            "C. Is completely independent of the CPU's internal hardware architecture",
+            "D. Runs significantly slower than high-level languages"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "Which specific software tool in a development toolchain is strictly responsible for translating human-readable Assembly Language source code into machine-executable Object Code?",
+        "choices": [
+            "A. Linker",
+            "B. Compiler",
+            "C. Assembler",
+            "D. Debugger"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "High-Level Languages (like C, Java, or Python) were developed primarily to:",
+        "choices": [
+            "A. Make programs run significantly faster than machine code",
+            "B. Force programmers to understand internal CPU register architectures",
+            "C. Allow programs to be written using English-like syntax and mathematical expressions, making them highly portable across different hardware architectures",
+            "D. Eliminate the need for memory chips"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "What is the fundamental operational difference between a Compiler and an Interpreter?",
+        "choices": [
+            "A. A compiler translates the code back into assembly, while an interpreter translates it to machine code",
+            "B. A compiler translates the entire source code into a standalone executable machine code file before it runs, while an interpreter translates and executes the code line-by-line in real time",
+            "C. A compiler is a hardware device, while an interpreter is purely software",
+            "D. A compiler is used exclusively for Python, while an interpreter is used for C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "In a modern software toolchain, the tool that takes multiple separate object code files and libraries and combines them into a single, cohesive executable program is the:",
+        "choices": [
+            "A. Assembler",
+            "B. Editor",
+            "C. Linker",
+            "D. Simulator"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "After the Linker combines object modules, which specific tool is responsible for assigning absolute physical memory addresses to the relocatable code so it can be burned into a specific ROM chip?",
+        "choices": [
+            "A. Debugger",
+            "B. Locator (or Loader)",
+            "C. Compiler",
+            "D. Interpreter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "An embedded systems engineer writes and assembles code for an 8051 microcontroller using a standard Windows PC. The specific software tool that runs on the PC (x86 architecture) but generates machine code for the 8051 architecture is called a:",
+        "choices": [
+            "A. Decompiler",
+            "B. Native Assembler",
+            "C. Cross-Assembler",
+            "D. Bootloader"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "Which software tool provides a programmer with the ability to pause execution (set breakpoints), inspect CPU register contents, and step through code line-by-line to identify logical errors?",
+        "choices": [
+            "A. Assembler",
+            "B. Linker",
+            "C. Compiler",
+            "D. Debugger"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 39,
+        "question": "In assembly language programming, a \"Macro\" is strictly defined as:",
+        "choices": [
+            "A. A named block of instruction text that the assembler automatically substitutes and expands directly into the code every time its name is called",
+            "B. A hardware interrupt routine",
+            "C. A subroutine that is called during runtime using the CALL instruction",
+            "D. An error generated by the compiler"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 40,
+        "question": "Which standard software tool is essentially a specialized word processor utilized strictly for typing and modifying the raw, plain-text source code?",
+        "choices": [
+            "A. Linker",
+            "B. Compiler",
+            "C. Editor",
+            "D. Debugger"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "In the 8085 instruction set, the XCHG (Exchange) instruction provides a high-speed method to swap the 16-bit contents of which two specific register pairs?",
+        "choices": [
+            "A. BC and DE",
+            "B. AX and BX",
+            "C. SP and PC",
+            "D. HL and DE"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 42,
+        "question": "The LXI (Load Register Pair Immediate) instruction is unique because it is designed to:",
+        "choices": [
+            "A. Load a 16-bit constant data value directly from the instruction into a designated register pair (like HL)",
+            "B. Load an 8-bit value into the accumulator",
+            "C. Read data from an external 16-bit I/O port",
+            "D. Perform a 16-bit addition"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 43,
+        "question": "The DAD (Double Add) instruction in the 8085 allows for 16-bit arithmetic. It specifically adds the 16-bit contents of a specified register pair directly to the 16-bit contents of which default register pair?",
+        "choices": [
+            "A. BC pair",
+            "B. HL pair",
+            "C. DE pair",
+            "D. SP (Stack Pointer)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "Worded circuit: The CPU executes a CPI 50H (Compare Immediate) instruction. The Accumulator contains 40H. Internally, the CPU performs (40H - 50H). What happens to the value inside the Accumulator after this instruction finishes?",
+        "choices": [
+            "A. It changes to F0H (negative result)",
+            "B. It changes to 50H",
+            "C. It is cleared to 00H",
+            "D. It remains exactly 40H; the CPI instruction only updates the status flags based on the subtraction"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "The term \"Mnemonic\" in the context of Assembly Language translates directly to:",
+        "choices": [
+            "A. A memory aid or abbreviation (like ADD, MOV, JMP) used to represent a complex binary machine opcode",
+            "B. A type of high-speed cache memory",
+            "C. A hardware error",
+            "D. A specific type of register"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "In a software development workflow, what exactly constitutes the \"Source Code\"?",
+        "choices": [
+            "A. The final binary file burned into the ROM",
+            "B. The human-readable text file written by the programmer containing instructions, variables, and comments",
+            "C. The hardware schematics of the motherboard",
+            "D. The temporary files created by the linker"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "What is an \"Object File\" (.obj or .o) in the context of compilation or assembly?",
+        "choices": [
+            "A. A text file containing the programmer's comments",
+            "B. A fully executable program ready to run on the OS",
+            "C. An intermediate file containing translated machine code that is not yet linked or assigned final memory addresses",
+            "D. A file containing the schematic layout of a PCB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "Which software tool performs the exact inverse operation of an Assembler, taking raw binary machine code and converting it back into human-readable assembly language mnemonics?",
+        "choices": [
+            "A. Disassembler",
+            "B. Compiler",
+            "C. Linker",
+            "D. Emulator"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "A programmer types \"MOOV A, B\" instead of \"MOV A, B\". The assembler refuses to translate the code and throws an error. This is a classic example of a:",
+        "choices": [
+            "A. Logic error",
+            "B. Syntax error",
+            "C. Runtime error",
+            "D. Hardware fault"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "A program compiles perfectly without any errors. However, when it runs, it calculates the area of a circle as pi * radius instead of pi * radius^2. This type of error, which tools cannot catch automatically, is called a:",
+        "choices": [
+            "A. Syntax error",
+            "B. Compilation error",
+            "C. Logic error",
+            "D. Linking error"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "The RAL instruction (Rotate Accumulator Left through Carry) differs from RLC because RAL shifts the Most Significant Bit (D7) directly into the:",
+        "choices": [
+            "A. Least Significant Bit (D0)",
+            "B. Status Register",
+            "C. Parity Flag",
+            "D. Carry Flag, while the old Carry Flag value is simultaneously shifted into the Least Significant Bit (D0)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "The RAR instruction (Rotate Accumulator Right through Carry) shifts the Least Significant Bit (D0) directly into the:",
+        "choices": [
+            "A. Most Significant Bit (D7)",
+            "B. Carry Flag, while the old Carry Flag value is shifted into the Most Significant Bit (D7)",
+            "C. Zero Flag",
+            "D. Parity Flag"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "After adding two Binary Coded Decimal (BCD) numbers using standard binary ADD instructions, the result may be invalid in BCD format. Which specific instruction is executed immediately after the addition to correct the result?",
+        "choices": [
+            "A. CMA (Complement)",
+            "B. NOP (No Operation)",
+            "C. DAA (Decimal Adjust Accumulator)",
+            "D. XRA (XOR)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "Worded scenario: The HL register pair currently holds the address 4000H. The Accumulator holds 99H. The instruction MOV M, A is executed. What is the direct physical result?",
+        "choices": [
+            "A. The Accumulator receives the data from memory address 4000H",
+            "B. The value 99H is moved into the HL register pair",
+            "C. The memory address 4000H is cleared to zero",
+            "D. The data 99H is written directly into physical memory at address 4000H"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 55,
+        "question": "To read the state of an external sensor connected to an 8-bit isolated I/O port at address 25H, the programmer must use which specific instruction to bring the data into the Accumulator?",
+        "choices": [
+            "A. IN 25H",
+            "B. LDA 25H",
+            "C. MOV A, 25H",
+            "D. POP 25H"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "Conversely, to send an 8-bit control signal currently in the Accumulator out to an actuator connected to isolated I/O port 3AH, the programmer uses:",
+        "choices": [
+            "A. STA 3AH",
+            "B. PUSH 3AH",
+            "C. OUT 3AH",
+            "D. JMP 3AH"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "If a software routine is executing time-critical code and cannot afford to be interrupted by external hardware requests, the programmer will execute which instruction beforehand?",
+        "choices": [
+            "A. NOP",
+            "B. HLT",
+            "C. EI (Enable Interrupts)",
+            "D. DI (Disable Interrupts)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "Once the time-critical routine is finished, the programmer must re-allow the CPU to accept external hardware interrupts by executing which instruction?",
+        "choices": [
+            "A. EI (Enable Interrupts)",
+            "B. DI (Disable Interrupts)",
+            "C. RET",
+            "D. POP"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 59,
+        "question": "A Conditional Return instruction (like RZ - Return if Zero, or RC - Return if Carry) operates by popping the return address from the stack and jumping back to the main program ONLY IF:",
+        "choices": [
+            "A. The CPU is halted",
+            "B. The specific designated status flag condition is currently met (e.g., Z=1 for RZ)",
+            "C. The main program is waiting",
+            "D. An interrupt occurs"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "During a debugging session, a programmer intentionally places a specific marker on a line of code. When the CPU reaches this line, it temporarily halts execution, allowing the programmer to inspect registers. This marker is called a:",
+        "choices": [
+            "A. Syntax error",
+            "B. Macro",
+            "C. Loop",
+            "D. Breakpoint"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "A critical debugging technique where the programmer executes the software exactly one single instruction at a time to carefully observe the changing states of registers and memory is known as:",
+        "choices": [
+            "A. Single-stepping (or Step-through execution)",
+            "B. Polling",
+            "C. Interrupting",
+            "D. Compiling"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "The industry-standard ASCII text file format containing hexadecimal machine code, used universally by programmers to transfer compiled firmware into an EPROM programmer device, is the:",
+        "choices": [
+            "A. .txt file",
+            "B. .hex (Intel HEX) file",
+            "C. .asm file",
+            "D. .c file"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "In Assembly Language, instructions like ORG (Origin) or EQU (Equate) do not generate any actual machine code for the CPU. Instead, they provide specific instructions to the Assembler program itself. These are formally called:",
+        "choices": [
+            "A. Mnemonics",
+            "B. Macros",
+            "C. Assembler Directives (or Pseudo-opcodes)",
+            "D. Interrupt Vectors"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "Which specific Assembler Directive is strictly used to define the starting physical memory address where the subsequent block of machine code should be placed during the assembly process?",
+        "choices": [
+            "A. ORG (Origin)",
+            "B. DB (Define Byte)",
+            "C. END",
+            "D. EQU (Equate)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "If a programmer wants to define a constant value, such as assigning the name \"PORT_A\" to the address 80H, so they can use the name instead of the number throughout the code, they use the directive:",
+        "choices": [
+            "A. ORG",
+            "B. EQU (Equate)",
+            "C. DW (Define Word)",
+            "D. DB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "The Assembler Directive \"DB\" (Define Byte) is primarily used to:",
+        "choices": [
+            "A. Declare a macro",
+            "B. Define a subroutine",
+            "C. Allocate and initialize exactly 8 bits (one byte) of memory with a specific data value",
+            "D. Terminate the assembly process"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "A self-contained block of instruction code designed to perform a frequently repeated task (like a delay or a math function), which can be branched to from anywhere in the main program and will return execution back to the caller, is a:",
+        "choices": [
+            "A. Macro",
+            "B. Interrupt",
+            "C. Polled loop",
+            "D. Subroutine"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 68,
+        "question": "Worded circuit: The 8085 instruction STAX B is fetched. The BC register pair holds the 16-bit address 5000H. The Accumulator holds 77H. Upon execution, what physically occurs?",
+        "choices": [
+            "A. The value 77H is moved into the BC pair",
+            "B. The Accumulator writes 77H into memory location 5000H",
+            "C. Memory location 5000H is read into the Accumulator",
+            "D. The BC pair is incremented"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "The LDAX D instruction is used for indirect memory reading. It strictly loads the Accumulator with the data found at the physical memory address currently held in which register pair?",
+        "choices": [
+            "A. BC pair",
+            "B. HL pair",
+            "C. DE pair",
+            "D. PC pair"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "Worded scenario: The instruction CMP M (Compare with Memory) is executed. It mathematically subtracts a value from the Accumulator to set the status flags. Where does it specifically retrieve the value it subtracts?",
+        "choices": [
+            "A. From the next byte in the instruction stream",
+            "B. From the B register",
+            "C. From the external I/O port",
+            "D. From the memory location whose physical address is currently held in the HL register pair"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 71,
+        "question": "Which simple logical instruction explicitly forces the Carry Flag (CY) in the Status Register to a logic 1 state, regardless of its previous state?",
+        "choices": [
+            "A. STC (Set Carry)",
+            "B. CLC (Clear Carry)",
+            "C. CMC (Complement Carry)",
+            "D. NOP"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "If the Carry Flag (CY) is currently a logic 1, executing the CMC (Complement Carry) instruction will physically change the Carry Flag to:",
+        "choices": [
+            "A. Logic 1",
+            "B. High Impedance",
+            "C. Logic 0",
+            "D. It will set the Zero flag instead"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "The Arithmetic instruction SBB (Subtract with Borrow) subtracts the specified register FROM the accumulator, and then also subtracts what other specific value from the accumulator?",
+        "choices": [
+            "A. The value 1",
+            "B. The Parity flag",
+            "C. The Zero flag",
+            "D. The current value of the Carry (CY) flag"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "Conversely, the ADC (Add with Carry) instruction adds the specified register TO the accumulator, and also adds the:",
+        "choices": [
+            "A. Current value of the Carry (CY) flag",
+            "B. Value 1",
+            "C. Sign flag",
+            "D. contents of the HL pair"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "A software routine is designed with a JMP instruction at the bottom that points directly back to the top of the exact same routine, with absolutely no conditional exit. This creates a critical software flaw known as a/an:",
+        "choices": [
+            "A. Buffer overflow",
+            "B. Infinite loop",
+            "C. Syntax error",
+            "D. Stack underflow"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "When writing a software delay loop in assembly, what must the programmer explicitly do before entering the loop to ensure the loop runs the correct number of times?",
+        "choices": [
+            "A. Disable all interrupts",
+            "B. Execute a HLT instruction",
+            "C. Initialize a register (or register pair) with the desired counter value",
+            "D. Clear the Accumulator"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "Worded scenario: A delay loop uses the instruction DCR C (Decrement Register C) followed immediately by JNZ LOOP (Jump if Not Zero to the label LOOP). In this architecture, Register C is acting as the:",
+        "choices": [
+            "A. Loop counter",
+            "B. Memory pointer",
+            "C. Data buffer",
+            "D. Status flag"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "A comprehensive software tool that provides a programmer with a unified graphical interface combining a source code editor, compiler/assembler, linker, and debugger into a single application is called an:",
+        "choices": [
+            "A. Operating System",
+            "B. Integrated Development Environment (IDE)",
+            "C. Interpreter",
+            "D. Emulator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "For deep hardware-level debugging of embedded systems, engineers sometimes physically replace the microcontroller chip on the PCB with a specialized hardware tool connected to a PC. This tool acts exactly like the target CPU but allows real-time tracing and debugging. This hardware tool is called an:",
+        "choices": [
+            "A. Oscilloscope",
+            "B. Logic Analyzer",
+            "C. In-Circuit Emulator (ICE)",
+            "D. EPROM Programmer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "If hardware is not yet available, a programmer can test their machine code on a PC using software that artificially mimics the target CPU's registers, flags, and memory execution mathematically. This software is known as a/an:",
+        "choices": [
+            "A. Simulator",
+            "B. Compiler",
+            "C. Assembler",
+            "D. Linker"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "Worded circuit: An 8085 executes the instruction PUSH H. The HL register pair contains 1234H. The Stack Pointer contains FFFFH. What is the physical result of this single instruction?",
+        "choices": [
+            "A. The values 12H and 34H are popped from the stack",
+            "B. The values 12H and 34H are written to memory locations FFFEH and FFFDH, and the Stack Pointer becomes FFFDH",
+            "C. The HL pair is cleared to 0000H",
+            "D. The Stack Pointer is moved into the HL pair"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 82,
+        "question": "The instruction POP D is executed. This operation retrieves the top two bytes of data currently on the memory stack and places them directly into which specific register pair?",
+        "choices": [
+            "A. BC pair",
+            "B. HL pair",
+            "C. DE pair",
+            "D. PC pair"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "A software instruction designed specifically to trigger an internal interrupt sequence, simulating the exact behavior of a hardware interrupt request (e.g., RST 1 through RST 7 in the 8085), is called a:",
+        "choices": [
+            "A. Macro",
+            "B. Subroutine",
+            "C. Hardware Reset",
+            "D. Software Interrupt"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 84,
+        "question": "In the context of embedded microprocessors, software that is written, compiled, and permanently burned into non-volatile memory (like ROM or EEPROM) to control the hardware is universally referred to as:",
+        "choices": [
+            "A. Malware",
+            "B. Firmware",
+            "C. Shareware",
+            "D. Hardware"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "Embedded systems that require strict, guaranteed, and deterministic response times to hardware events (like engine timing or medical devices) typically do not use standard operating systems like Windows. Instead, they run a specialized:",
+        "choices": [
+            "A. GUI",
+            "B. BIOS",
+            "C. Real-Time Operating System (RTOS)",
+            "D. Compiler"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 86,
+        "question": "Due to its unique ability to provide low-level hardware memory access (via pointers) while maintaining high-level structural syntax, which programming language remains the undisputed industry standard for writing embedded microprocessor firmware?",
+        "choices": [
+            "A. Python",
+            "B. Java",
+            "C. BASIC",
+            "D. C (and C++)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "Worded circuit: A programmer wants to swap the contents of Register A and Register",
+        "choices": [
+            "B. They write: MOV A, B followed by MOV B,",
+            "A. Assuming A started with 10H and B started with 20H, what are the values after both instructions execute?",
+            "A. A = 20H, B = 20H (The swap failed; B's original value overwrote A, then was copied back to B)",
+            "B. A = 20H, B = 10H (Swap successful)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "To mathematically swap the contents of two registers (e.g., A and B) completely without using a third temporary register or memory location, a programmer can use a sequence of three identical bitwise logical instructions. Which instruction is it?",
+        "choices": [
+            "A. ADD",
+            "B. ORA (OR)",
+            "C. XRA (Exclusive-OR)",
+            "D. ANA (AND)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "A programmer needs to isolate and read only the lower 4 bits (lower nibble) of an 8-bit value in the Accumulator, forcing the upper 4 bits strictly to zero. They should use an ANA (AND) instruction with which specific hexadecimal mask?",
+        "choices": [
+            "A. F0H",
+            "B. FFH",
+            "C. 00H",
+            "D. 0FH"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "Conversely, if a programmer needs to force specific bits in a port to a logic 1 state to turn on LEDs, without affecting the other bits, they should use which bitwise logical operation with an appropriate mask?",
+        "choices": [
+            "A. Bitwise OR (ORA)",
+            "B. Bitwise AND (ANA)",
+            "C. Bitwise XOR (XRA)",
+            "D. Bitwise NOT (CMA)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "If a programmer needs to precisely toggle (invert) the state of specific bits in the Accumulator (changing 1s to 0s, and 0s to 1s) while leaving other bits completely unchanged, which bitwise logical operation MUST they use with a mask?",
+        "choices": [
+            "A. Bitwise AND (ANA)",
+            "B. Bitwise XOR (XRA)",
+            "C. Bitwise OR (ORA)",
+            "D. Addition (ADD)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "In signed 8-bit arithmetic, if two positive numbers (e.g., 01110000 and 01000000) are added together, and the result overflows into the Most Significant Bit (making it a 1), the Sign flag indicates a negative result. This specific mathematical error condition is called:",
+        "choices": [
+            "A. Division by zero",
+            "B. Underflow",
+            "C. Parity error",
+            "D. 2's Complement Overflow"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "A programming technique where the CPU is trapped in a tight loop, continuously reading an I/O status register and doing absolutely nothing else until a specific hardware \"ready\" bit changes state, is formally known as:",
+        "choices": [
+            "A. Polling",
+            "B. Interrupting",
+            "C. Direct Memory Access (DMA)",
+            "D. Multitasking"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "Which I/O handling technique is vastly vastly superior to polling because it allows the CPU to execute the main program freely, only halting to service the peripheral when the peripheral explicitly sends a hardware request?",
+        "choices": [
+            "A. Programmed I/O",
+            "B. Interrupt-Driven I/O",
+            "C. Memory-Mapped I/O",
+            "D. Synchronous I/O"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "The term \"Toolchain\" in software engineering refers specifically to:",
+        "choices": [
+            "A. The physical cables connecting the debugger to the PCB",
+            "B. The power supply sequence",
+            "C. A coordinated set of software programming tools (editor, assembler/compiler, linker) used sequentially to create a final executable product",
+            "D. A series of hardware logic gates"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "When an assembler generates machine code that contains fixed, hardcoded physical memory addresses, meaning the program can only ever run if loaded at one specific starting address, the code is categorized as:",
+        "choices": [
+            "A. Absolute Code",
+            "B. Relocatable Code",
+            "C. Position-Independent Code",
+            "D. Object Code"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "A critical software failure occurs when a program contains a recursive subroutine call with no exit condition, or pushes too much temporary data onto the stack without popping it. This physically overwrites other critical memory areas and is called a:",
+        "choices": [
+            "A. Cache miss",
+            "B. Stack Overflow",
+            "C. Segmentation fault",
+            "D. Page fault"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "In the 8085, the PCHL instruction explicitly copies the 16-bit contents of the HL register pair directly into the Program Counter. What is the functional result of this instruction?",
+        "choices": [
+            "A. The CPU halts",
+            "B. The stack is cleared",
+            "C. It acts as an indirect unconditional JUMP to the memory address mathematically calculated and stored in the HL pair",
+            "D. It pushes the PC to the stack"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "Worded circuit: You are analyzing a piece of assembly code. You see the instruction `JMP ` (where the '' symbol represents the current instruction's own memory address). What is the programmer intentionally doing?",
+        "choices": [
+            "A. Resetting the processor",
+            "B. Calling a subroutine",
+            "C. Returning from an interrupt",
+            "D. Creating an infinite loop to deliberately halt further sequential program execution"
+        ],
+        "correct_answer": "D"
+    }
+]

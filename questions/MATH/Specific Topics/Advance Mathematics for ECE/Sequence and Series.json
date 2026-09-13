@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "",
+        "choices": [
+            "A. Σ (-1)^n (x-1)^n",
+            "B. Σ (x-1)^n",
+            "C. Σ (-1)^n x^n",
+            "D. Σ (x-1)^n / n!"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "The maximum number of linearly independent row vectors in a matrix is known as its:",
+        "choices": [
+            "A. Order",
+            "B. Rank",
+            "C. Dimension",
+            "D. Nullity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "The characteristic equation of a square matrix A is formulated by setting which determinant to zero?",
+        "choices": [
+            "A. \\det(A)",
+            "B. \\det(A + λ I)",
+            "C. \\det(A - λ I)",
+            "D. \\det(λ A - I)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "For a 2 × 2 matrix, the adjoint matrix is found by performing which operation?",
+        "choices": [
+            "A. Swapping all elements",
+            "B. Transposing and negating",
+            "C. Negating the main diagonal",
+            "D. Swapping the main diagonal and negating the off-diagonal elements"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "Cramer's rule fails to provide a unique solution for a system of linear equations when the determinant of the coefficient matrix is:",
+        "choices": [
+            "A. Zero",
+            "B. One",
+            "C. Negative",
+            "D. A complex number"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "According to the Cayley-Hamilton theorem, every square matrix satisfies its own:",
+        "choices": [
+            "A. Identity matrix",
+            "B. Characteristic equation",
+            "C. Transpose",
+            "D. Eigenvector"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "What is the nullity of a 3 × 3 matrix if its rank is exactly 2?",
+        "choices": [
+            "A. 3",
+            "B. 2",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "If a real square matrix Q is orthogonal, then its inverse QI¹ is equal to its:",
+        "choices": [
+            "A. Adjoint",
+            "B. Cofactor matrix",
+            "C. Determinant",
+            "D. Transpose"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "According to the nth term divergence test, if the limit of a_n as n approaches infinity is not zero, the infinite series Σ a_n:",
+        "choices": [
+            "A. Diverges",
+            "B. Converges absolutely",
+            "C. Converges conditionally",
+            "D. Is oscillatory"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "An infinite geometric series Σ a r^n converges if and only if the common ratio r satisfies:",
+        "choices": [
+            "A. r > 1",
+            "B. \\vertr\\vert < 1",
+            "C. r = 1",
+            "D. \\vertr\\vert ≤ 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "The p-series Σ (1 / n^p) will converge strictly when the value of p is:",
+        "choices": [
+            "A. p < 1",
+            "B. p = 1",
+            "C. p > 1",
+            "D. p ≥ 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "The Alternating Series Test states that an alternating series Σ (-1)^n a_n converges if a_n is decreasing and its limit as n → ∞ is:",
+        "choices": [
+            "A. Infinity",
+            "B. -1",
+            "C. 1",
+            "D. 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "In the Ratio Test for Σ a_n, if the limit L = \\lim \\verta_n+1 / a_n\\vert is strictly less than 1, the series:",
+        "choices": [
+            "A. Converges absolutely",
+            "B. Diverges",
+            "C. Converges conditionally",
+            "D. Is inconclusive"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "To apply the Integral Test for the series Σ f(n), the function f(x) must be positive, continuous, and:",
+        "choices": [
+            "A. Increasing",
+            "B. Decreasing",
+            "C. Oscillating",
+            "D. Exponential"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Evaluate the convergence of the series Σ cos(1/n) as n goes to infinity.",
+        "choices": [
+            "A. Converges by Integral Test",
+            "B. Converges to 1",
+            "C. Diverges by nth term test",
+            "D. Converges by Ratio Test"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "What is the exact sum of the infinite geometric series 1 + 1/2 + 1/4 + 1/8 + ...?",
+        "choices": [
+            "A. 1",
+            "B. ∞",
+            "C. 1.5",
+            "D. 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "Find the sum of the series Σ_n=1^∞ 3(1/3)^n.",
+        "choices": [
+            "A. 1.5",
+            "B. 3",
+            "C. 1",
+            "D. 4.5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "The infinite series Σ (1 / √( n )) is evaluated as:",
+        "choices": [
+            "A. Convergent p-series",
+            "B. Divergent p-series",
+            "C. Convergent geometric series",
+            "D. Divergent alternating series"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Applying the Ratio Test to the series Σ (1 / n!), the limit of the ratio is evaluated to be:",
+        "choices": [
+            "A. 1",
+            "B. ∞",
+            "C. 0",
+            "D. e"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Applying the Root Test to the series Σ (1/n)^n, the limit of the nth root is evaluated to be:",
+        "choices": [
+            "A. e",
+            "B. 1",
+            "C. ∞",
+            "D. 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "The harmonic series Σ (1/n) is famously known to:",
+        "choices": [
+            "A. Diverge",
+            "B. Converge to 1",
+            "C. Converge to π^2/6",
+            "D. Converge conditionally"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "The alternating harmonic series Σ (-1)^n+1 / n is classified as:",
+        "choices": [
+            "A. Divergent",
+            "B. Conditionally convergent",
+            "C. Absolutely convergent",
+            "D. Uniformly convergent"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "To use the Limit Comparison Test for the series Σ 1/(n^2 - 1), an appropriate choice for a comparison series is:",
+        "choices": [
+            "A. Σ 1/n",
+            "B. Σ 1/n^3",
+            "C. Σ 1/n^2",
+            "D. Σ 1/n!"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "Find the exact sum of the alternating geometric series 1 - 1/2 + 1/4 - 1/8 + ...",
+        "choices": [
+            "A. 1.5",
+            "B. 2",
+            "C. 1/3",
+            "D. 2/3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "If the limit from the Ratio Test applied to a power series Σ c_n x^n is L \\vertx\\vert, the radius of convergence is:",
+        "choices": [
+            "A. 1/L",
+            "B. L",
+            "C. L^2",
+            "D. ∞"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "Applying the Integral Test, evaluate the convergence of the series Σ_n=2^∞ 1/(n ln n).",
+        "choices": [
+            "A. Converges",
+            "B. Diverges",
+            "C. Inconclusive",
+            "D. Conditionally converges"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "Applying the Integral Test, the series Σ_n=2^∞ 1/(n (ln n)^2) is evaluated as:",
+        "choices": [
+            "A. Divergent",
+            "B. Inconclusive",
+            "C. Convergent",
+            "D. Oscillatory"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Using the Limit Comparison Test with 1/n, the series Σ sin(1/n) is found to be:",
+        "choices": [
+            "A. Convergent to 0",
+            "B. Convergent to 1",
+            "C. Conditionally convergent",
+            "D. Divergent"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "Evaluate the series Σ n! / n^n using the Ratio Test. The limit is 1/e, so the series:",
+        "choices": [
+            "A. Converges absolutely",
+            "B. Diverges",
+            "C. Converges conditionally",
+            "D. Fails the test"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "The series Σ (-1)^n / √( n ) is rigorously classified as:",
+        "choices": [
+            "A. Divergent",
+            "B. Conditionally convergent",
+            "C. Absolutely convergent",
+            "D. Uniformly divergent"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "In the Alternating Series Estimation Theorem, the absolute error \\vertR_n\\vert of using the first n terms is bounded by:",
+        "choices": [
+            "A. The first term",
+            "B. The average of the terms",
+            "C. The first neglected term \\verta_n+1\\vert",
+            "D. Zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "For the Root Test, if the limit \\lim \\sqrt[n]\\verta_n\\vert is strictly greater than 1, the series is:",
+        "choices": [
+            "A. Conditionally convergent",
+            "B. Absolutely convergent",
+            "C. Inconclusive",
+            "D. Divergent"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "In infinite series theory, if a series converges absolutely, then it must also:",
+        "choices": [
+            "A. Converge",
+            "B. Diverge",
+            "C. Oscillate",
+            "D. Sum to zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "In the Limit Comparison Test for positive series Σ a_n and Σ b_n, if \\lim (a_n/b_n) = c > 0, then:",
+        "choices": [
+            "A. Σ a_n converges and Σ b_n diverges",
+            "B. Both series converge or both diverge",
+            "C. Only Σ b_n converges",
+            "D. The test is totally inconclusive"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "By the Direct Comparison Test, the series Σ 1/(n^2 + 1) converges because its terms are less than or equal to:",
+        "choices": [
+            "A. 1/(n+1)",
+            "B. 1/n^3",
+            "C. 1/n^2",
+            "D. 1/n"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "The exact sum of the alternating harmonic series Σ_n=1^∞ (-1)^n+1 / n is mathematically known to be:",
+        "choices": [
+            "A. 1",
+            "B. π/4",
+            "C. e",
+            "D. ln(2)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "Using the Root Test on the series Σ (n/(n+1))^n^2, the limit evaluates to 1/e, which indicates that the series:",
+        "choices": [
+            "A. Converges",
+            "B. Diverges",
+            "C. Is inconclusive",
+            "D. Sums to e"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Evaluate the exact sum of the telescoping series Σ_n=1^∞ 1/(n(n+1)).",
+        "choices": [
+            "A. 0.5",
+            "B. 1",
+            "C. ∞",
+            "D. 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Evaluate the exact sum of the telescoping series Σ_n=1^∞ 1/(n(n+2)).",
+        "choices": [
+            "A. 1",
+            "B. 1.5",
+            "C. 3/4",
+            "D. 1/2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "A rubber ball is dropped from 10 meters and rebounds to 50% of its previous height on each bounce. What is the total vertical distance it travels?",
+        "choices": [
+            "A. 10 m",
+            "B. 20 m",
+            "C. 25 m",
+            "D. 30 m"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "A Taylor series expansion specifically centered at x = 0 is formally given the special name:",
+        "choices": [
+            "A. Maclaurin series",
+            "B. Fourier series",
+            "C. Dirichlet series",
+            "D. Laurent series"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "The mathematical form of a power series centered at x = a is generally expressed as:",
+        "choices": [
+            "A. Σ c_n (x-a)^-n",
+            "B. Σ c_n (x-a)^n",
+            "C. Σ c_n x^n-a",
+            "D. Σ (c_n - a) x^n"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "If a power series centered at x=a has a radius of convergence R, its strict interval of convergence (excluding endpoints) is:",
+        "choices": [
+            "A. (a, R)",
+            "B. (-R, R)",
+            "C. (a-R, a+R)",
+            "D. (R-a, R+a)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "In the Taylor series expansion of a function f(x) around x=a, the coefficient of (x-a)^n is exactly:",
+        "choices": [
+            "A. f^(n)(a)",
+            "B. n! f^(n)(a)",
+            "C. f^(n)(a) / (n+1)!",
+            "D. f^(n)(a) / n!"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "The Maclaurin series expansion for the exponential function e^x is:",
+        "choices": [
+            "A. Σ x^n / n!",
+            "B. Σ x^n / (2n)!",
+            "C. Σ (-1)^n x^n / n!",
+            "D. Σ x^2n / (2n)!"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "The Maclaurin series expansion for the trigonometric function sin(x) is:",
+        "choices": [
+            "A. Σ (-1)^n x^2n / (2n)!",
+            "B. Σ (-1)^n x^2n+1 / (2n+1)!",
+            "C. Σ x^2n+1 / (2n+1)!",
+            "D. Σ (-1)^n x^n / n!"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "The Maclaurin series expansion for the trigonometric function cos(x) is:",
+        "choices": [
+            "A. Σ (-1)^n x^2n+1 / (2n+1)!",
+            "B. Σ x^2n / (2n)!",
+            "C. Σ (-1)^n x^2n / (2n)!",
+            "D. Σ (-1)^n x^n / n!"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "The power series expansion for the rational function 1/(1-x) for \\vertx\\vert<1 is simply:",
+        "choices": [
+            "A. Σ x^n / n!",
+            "B. Σ (1-x)^n",
+            "C. Σ (-x)^n",
+            "D. Σ x^n"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "Determine the radius of convergence for the power series Σ x^n / n!.",
+        "choices": [
+            "A. ∞",
+            "B. 1",
+            "C. 0",
+            "D. e"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "Determine the radius of convergence for the power series Σ n! x^n.",
+        "choices": [
+            "A. ∞",
+            "B. 0",
+            "C. 1",
+            "D. n"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Find the exact radius of convergence for the power series Σ (x-2)^n / 3^n.",
+        "choices": [
+            "A. 1/3",
+            "B. 1",
+            "C. 3",
+            "D. 2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "Find the exact interval of convergence for the power series Σ x^n / n.",
+        "choices": [
+            "A. (-1, 1)",
+            "B. [-1, 1]",
+            "C. (-∞, ∞)",
+            "D. [-1, 1)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "The generalized Maclaurin series expansion for the function (1+x)^k where k is any real number is called the:",
+        "choices": [
+            "A. Binomial series",
+            "B. Bessel series",
+            "C. Legendre series",
+            "D. Harmonic series"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "Evaluate the first three terms of the Maclaurin series expansion for e^x.",
+        "choices": [
+            "A. 1 - x + x^2/2",
+            "B. 1 + x + x^2/2",
+            "C. 1 + x + x^2",
+            "D. x + x^2/2 + x^3/6"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Evaluate the first non-zero term of the Maclaurin series expansion for sin(x).",
+        "choices": [
+            "A. 1",
+            "B. x^2",
+            "C. x",
+            "D. x^3/6"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "Evaluate the first three terms of the Maclaurin series expansion for ln(1+x).",
+        "choices": [
+            "A. 1 - x + x^2",
+            "B. x + x^2/2 + x^3/3",
+            "C. 1 + x + x^2/2",
+            "D. x - x^2/2 + x^3/3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "Find the interval of convergence (excluding boundary checks) for the series Σ (x+1)^n / 2^n.",
+        "choices": [
+            "A. (-3, 1)",
+            "B. (-1, 1)",
+            "C. (-2, 2)",
+            "D. (-1, 3)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Using the binomial series, evaluate the first three terms of (1+x)^1/2.",
+        "choices": [
+            "A. 1 + x/2 + x^2/4",
+            "B. 1 + x/2 - x^2/8",
+            "C. 1 - x/2 + x^2/8",
+            "D. 1 + x/2 + x^2/8"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Using power series integration, the integral ∫ sin(x)/x dx can be expressed as:",
+        "choices": [
+            "A. Σ x^2n / (2n)!",
+            "B. Σ (-1)^n x^2n+1 / (2n+1)!",
+            "C. Σ (-1)^n x^2n+1 / ((2n+1)(2n+1)!)",
+            "D. Σ (-1)^n x^2n / ((2n)(2n)!)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "Euler's identity e^ix = cos x + i sin x is mathematically derived directly by comparing the:",
+        "choices": [
+            "A. Cauchy-Riemann equations",
+            "B. Integral tests",
+            "C. Ratio tests of series",
+            "D. Maclaurin series of the functions"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "By manipulating the series for e^x, find the Maclaurin series for x e^x.",
+        "choices": [
+            "A. Σ x^n+1/n!",
+            "B. Σ x^n/(n+1)!",
+            "C. Σ x^n/n!",
+            "D. Σ x^n+1/(n+1)!"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "Differentiating the Maclaurin series for sin(x) term-by-term strictly yields the Maclaurin series for:",
+        "choices": [
+            "A. -cos(x)",
+            "B. cos(x)",
+            "C. -sin(x)",
+            "D. sec^2(x)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "Evaluate the limit \\lim_x→ 0 (sin x - x) / x^3 by using Maclaurin series expansion.",
+        "choices": [
+            "A. 1/6",
+            "B. 0",
+            "C. -1/6",
+            "D. -1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "Evaluate the limit \\lim_x→ 0 (e^x - 1 - x) / x^2 by using Maclaurin series expansion.",
+        "choices": [
+            "A. 1",
+            "B. 1/6",
+            "C. 0",
+            "D. 1/2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 66,
+        "question": "By substituting -x^2 into the series for e^x, the Maclaurin series for e^-x^2 is:",
+        "choices": [
+            "A. Σ x^2n/n!",
+            "B. Σ (-1)^n x^2n/n!",
+            "C. Σ (-1)^n x^n/n!",
+            "D. Σ (-1)^n x^2n/(2n)!"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "By substituting √( x ) into the series for cos(x), the resulting series valid for x ≥ 0 is:",
+        "choices": [
+            "A. Σ (-1)^n x^2n/(2n)!",
+            "B. Σ x^n/(2n)!",
+            "C. Σ (-1)^n x^n/(2n)!",
+            "D. Σ (-1)^n x^n/n!"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Find the exact radius of convergence for the power series Σ n x^n.",
+        "choices": [
+            "A. ∞",
+            "B. n",
+            "C. 0",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "In determining the radius of convergence R using the Ratio Test, if \\lim \\vertc_n+1/c_n\\vert = L, then R is strictly:",
+        "choices": [
+            "A. 1/L",
+            "B. L",
+            "C. L^2",
+            "D. 1/L^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "For any real value of x that lies strictly outside the radius of convergence, a power series will mathematically:",
+        "choices": [
+            "A. Converge conditionally",
+            "B. Diverge",
+            "C. Oscillate to 0",
+            "D. Converge absolutely"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "For any positive integer n, the Gamma function Γ(n) is strictly evaluated as:",
+        "choices": [
+            "A. n!",
+            "B. (n+1)!",
+            "C. (n-1)!",
+            "D. n^n"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "The mathematical definition of the Gamma function Γ(z) as an improper integral is:",
+        "choices": [
+            "A. ∫_0^1 t^z-1 e^-t dt",
+            "B. ∫_0^∞ t^z e^-t dt",
+            "C. ∫_0^1 t^z e^t dt",
+            "D. ∫_0^∞ t^z-1 e^-t dt"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "The exact numerical value of the Gamma function evaluated at one-half, Γ(1/2), is:",
+        "choices": [
+            "A. √( π )",
+            "B. π/2",
+            "C. 1",
+            "D. π"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "The Beta function B(m,n) can be expressed in terms of Gamma functions using the precise identity:",
+        "choices": [
+            "A. Γ(m)Γ(n)",
+            "B. (Γ(m)Γ(n)/Γ(m+n))",
+            "C. (Γ(m+n)/Γ(m)Γ(n))",
+            "D. Γ(m+n)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "The mathematical definition of the Beta function B(m,n) as a definite integral is:",
+        "choices": [
+            "A. ∫_0^∞ x^m-1 e^-x dx",
+            "B. ∫_0^1 x^m (1-x)^n dx",
+            "C. ∫_0^1 x^m-1 (1-x)^n-1 dx",
+            "D. ∫_0^π sin^m(x) cos^n(x) dx"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "The canonical solutions to Bessel's differential equation are designated mathematically as:",
+        "choices": [
+            "A. Error functions",
+            "B. Legendre polynomials",
+            "C. Gamma functions",
+            "D. Bessel functions"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "The standard Error Function, \\texterf(x), is defined mathematically by the integral:",
+        "choices": [
+            "A. (2/√( π) ) ∫_0^x e^-t^2 dt",
+            "B. ∫_0^x e^-t dt",
+            "C. (1/π) ∫_0^x e^-t^2 dt",
+            "D. (2/√( π) ) ∫_x^∞ e^-t^2 dt"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "The Complementary Error Function, \\texterfc(x), relates strictly to the Error Function by the formula:",
+        "choices": [
+            "A. \\texterf(x) - 1",
+            "B. 1 - \\texterf(x)",
+            "C. 1 / \\texterf(x)",
+            "D. \\texterf(-x)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "The zeroth order Legendre polynomial, P_0(x), is simply equal to:",
+        "choices": [
+            "A. 0",
+            "B. x",
+            "C. 1",
+            "D. x^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "The first order Legendre polynomial, P_1(x), is simply equal to:",
+        "choices": [
+            "A. 1",
+            "B. x^2 - 1",
+            "C. 1 - x",
+            "D. x"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "Evaluate the precise numerical value of Γ(5).",
+        "choices": [
+            "A. 24",
+            "B. 120",
+            "C. 6",
+            "D. 12"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "Evaluate the exact value of Γ(3/2).",
+        "choices": [
+            "A. √( π )",
+            "B. \\frac√( π )2",
+            "C. \\frac3√( π )4",
+            "D. π"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "Evaluate the precise numerical value of the Beta function B(3, 2).",
+        "choices": [
+            "A. 1/60",
+            "B. 1/24",
+            "C. 1/12",
+            "D. 1/6"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "A fundamental recursive property of the Gamma function is that Γ(z+1) identically equals:",
+        "choices": [
+            "A. Γ(z) + 1",
+            "B. z!",
+            "C. (z+1)Γ(z)",
+            "D. zΓ(z)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Bessel's differential equation of order n is written mathematically as:",
+        "choices": [
+            "A. x^2 y'' + xy' + (x^2 - n^2)y = 0",
+            "B. x^2 y'' - xy' + (x^2 + n^2)y = 0",
+            "C. xy'' + y' + xy = 0",
+            "D. (1-x^2)y'' - 2xy' + n(n+1)y = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Legendre's differential equation of order n is written mathematically as:",
+        "choices": [
+            "A. x^2 y'' + xy' + (x^2 - n^2)y = 0",
+            "B. (1-x^2)y'' - 2xy' + n(n+1)y = 0",
+            "C. y'' - 2xy' + 2ny = 0",
+            "D. (1-x^2)y'' + xy' - n^2 y = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "Which famous mathematical formula is used to efficiently generate Legendre polynomials via differentiation?",
+        "choices": [
+            "A. Bessel's Formula",
+            "B. Euler's Formula",
+            "C. Rodrigues' Formula",
+            "D. Maclaurin's Formula"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "Legendre polynomials P_n(x) and P_m(x) are orthogonal on the interval [-1, 1]. This strictly implies that for n ≠ m, their integral ∫_-1^1 P_n(x)P_m(x)dx equals:",
+        "choices": [
+            "A. 1",
+            "B. π",
+            "C. 2/(2n+1)",
+            "D. 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "The theoretical value of the error function as its argument approaches positive infinity, \\texterf(∞), is exactly:",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. ∞",
+            "D. π/2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "The Beta function exhibits perfect symmetry. This means that B(m,n) is identically equal to:",
+        "choices": [
+            "A. -B(n,m)",
+            "B. B(n,m)",
+            "C. 1/B(n,m)",
+            "D. B(m,m) + B(n,n)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "For any integer order n, the Bessel functions of the first kind mathematically satisfy the symmetry property:",
+        "choices": [
+            "A. J_-n(x) = J_n(x)",
+            "B. J_-n(x) = -J_n(x)",
+            "C. J_-n(x) = (-1)^n J_n(x)",
+            "D. J_-n(x) = (-1)^n+1 J_n(x)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Euler's reflection formula links the Gamma function to trigonometric functions via the identity Γ(z)Γ(1-z) = :",
+        "choices": [
+            "A. sin(π z) / π",
+            "B. π cos(π z)",
+            "C. cos(π z) / π",
+            "D. π / sin(π z)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "By applying Rodrigues' formula, the second order Legendre polynomial P_2(x) is evaluated to be:",
+        "choices": [
+            "A. (1/2)(3x^2 - 1)",
+            "B. (1/2)(x^2 - 1)",
+            "C. 3x^2 - 1",
+            "D. (1/2)(5x^3 - 3x)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "Using the definition of the Gamma function, evaluate the improper integral ∫_0^∞ x^4 e^-x dx.",
+        "choices": [
+            "A. 120",
+            "B. 24",
+            "C. 12",
+            "D. 5"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "The definite trigonometric integral ∫_0^π/2 sin^2m-1θ cos^2n-1θ dθ relates to the Beta function by the exact factor:",
+        "choices": [
+            "A. B(m,n)",
+            "B. 2 B(m,n)",
+            "C. (1/2) B(m,n)",
+            "D. (1/π) B(m,n)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "The Bessel functions J_n(x) can be completely generated by the power series expansion of the function:",
+        "choices": [
+            "A. e^x(t + 1/t)",
+            "B. e^x(t - 1/t)",
+            "C. e^(x/2)(t + 1/t)",
+            "D. e^(x/2)(t - 1/t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "Evaluate the exact numerical value of the standard error function at zero, \\texterf(0).",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 0.5",
+            "D. π/2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "Rodrigues' formula for deriving the n-th order Legendre polynomial P_n(x) is mathematically stated as:",
+        "choices": [
+            "A. (1/n!) (d^n/dx^n) [(x^2-1)^n]",
+            "B. (1/2^n n!) (d^n/dx^n) [(x^2-1)^n]",
+            "C. (1/2^n) (d^n/dx^n) [(x^2-1)^n]",
+            "D. (1/2^n n!) (d^n/dx^n) [(x-1)^n]"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "Calculate the exact analytical value of Γ(5/2).",
+        "choices": [
+            "A. (3π/4)",
+            "B. \\frac15√( π )8",
+            "C. \\frac3√( π )4",
+            "D. \\frac√( π )2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "The orthogonal properties of Bessel functions on the interval [0, a] are established with respect to which specific weighting function?",
+        "choices": [
+            "A. 1",
+            "B. e^-x",
+            "C. x^2",
+            "D. x"
+        ],
+        "correct_answer": "D"
+    }
+]

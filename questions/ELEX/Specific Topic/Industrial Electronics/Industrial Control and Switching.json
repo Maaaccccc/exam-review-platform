@@ -1,0 +1,1080 @@
+[
+    {
+        "number": 1,
+        "question": "What is the primary function of an optoisolator in industrial electronics?",
+        "choices": [
+            "A. To provide galvanic isolation between high and low voltage circuits",
+            "B. To amplify AC signals",
+            "C. To generate optical power",
+            "D. To rectify three-phase AC"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "An optocoupler has an LED forward current of 20 mA and a corresponding phototransistor collector current of 10 mA. What is the Current Transfer Ratio (CTR)?",
+        "choices": [
+            "A. 2%",
+            "B. 50%",
+            "C. 200%",
+            "D. 0.5%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Worded circuit: An LASCR controls a DC load. Light triggers the LASCR into conduction. When the light is removed, the load continues to draw 500mA. The LASCR holding current is 100mA. What will happen to the LASCR?",
+        "choices": [
+            "A. It will immediately turn off",
+            "B. It will burn out due to overcurrent",
+            "C. It will remain in the conducting state",
+            "D. It will oscillate continuously"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "The fundamental principle behind solar cells generating a voltage upon exposure to light is known as the:",
+        "choices": [
+            "A. Photoelectric effect",
+            "B. Thermionic emission",
+            "C. Compton effect",
+            "D. Photovoltaic effect"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "To increase the total output voltage of a solar panel array without changing the current capacity, the individual solar panels must be connected in:",
+        "choices": [
+            "A. Series",
+            "B. Parallel",
+            "C. Delta",
+            "D. Wye"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "An incremental optical encoder outputs two square waves (Channel A and Channel B). For optimal direction sensing, what is the ideal phase shift between these two channels?",
+        "choices": [
+            "A. 0 electrical degrees",
+            "B. 90 electrical degrees",
+            "C. 180 electrical degrees",
+            "D. 45 electrical degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "Absolute optical encoders predominantly use Gray Code instead of standard binary code on their optical discs. The primary engineering advantage of this is:",
+        "choices": [
+            "A. It allows for infinite resolution",
+            "B. It is natively understood by analog motors",
+            "C. Only one bit changes state between adjacent physical positions, preventing read errors",
+            "D. It requires fewer optical tracks for the same resolution"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "The high-frequency switching bandwidth of a standard phototransistor optocoupler is severely limited primarily by which parasitic component?",
+        "choices": [
+            "A. The LED junction capacitance",
+            "B. The package lead inductance",
+            "C. The output load resistance",
+            "D. The base-collector capacitance of the phototransistor (Miller effect)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "In the context of industrial automation, what does PLC stand for?",
+        "choices": [
+            "A. Programmable Logic Controller",
+            "B. Process Line Controller",
+            "C. Primary Logic Computer",
+            "D. Programmable Linear Circuit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "The continuous, sequential process of reading inputs, executing the user program, and updating outputs in a PLC is called the:",
+        "choices": [
+            "A. Interrupt cycle",
+            "B. Scan cycle",
+            "C. Polling loop",
+            "D. Execution trace"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "A PLC has a scan time of 5 milliseconds. How many complete scan cycles does the PLC execute in exactly one second?",
+        "choices": [
+            "A. 20",
+            "B. 50",
+            "C. 200",
+            "D. 500"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "Which component in a PLC digital input module provides critical electrical isolation between the harsh field wiring and the sensitive CPU logic?",
+        "choices": [
+            "A. A Zener diode",
+            "B. A voltage regulator",
+            "C. A mechanical relay",
+            "D. An optocoupler"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "The memory area in a PLC where the ladder logic program is permanently stored and retained even during power outages is typically:",
+        "choices": [
+            "A. Volatile RAM",
+            "B. Cache memory",
+            "C. Non-volatile memory (EEPROM/Flash)",
+            "D. Virtual memory"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "What is the primary function of the internal \"Watchdog Timer\" (WDT) in a PLC CPU?",
+        "choices": [
+            "A. To monitor and reset the PLC if the scan time exceeds a safe limit",
+            "B. To track the time of day",
+            "C. To schedule maintenance",
+            "D. To time physical outputs"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "A PLC input module is specified as a \"sinking\" type. This means that to activate an input, the field sensor must provide a:",
+        "choices": [
+            "A. Negative voltage",
+            "B. High-impedance state",
+            "C. \"Sourcing\" (positive voltage) signal",
+            "D. Short circuit to ground"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "Worded circuit: A 3-wire PNP proximity sensor is connected to a PLC. The sensor actively outputs +24V DC when an object is detected. To properly interface this sensor, what type of PLC input module must be used?",
+        "choices": [
+            "A. Sourcing input module",
+            "B. Relay input module",
+            "C. Analog input module",
+            "D. Sinking input module"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "According to the IEC 61131-3 standard, which of the following is the most widely used graphical programming language for PLCs?",
+        "choices": [
+            "A. Ladder Diagram (LD)",
+            "B. C++",
+            "C. Python",
+            "D. Structured Text (ST)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "A PLC analog input module has a 12-bit resolution and a voltage range of 0 to 10 VDC. What is the approximate voltage change represented by a single bit (1 LSB)?",
+        "choices": [
+            "A. 0.83 V",
+            "B. 2.44 mV",
+            "C. 4.88 mV",
+            "D. 1.22 mV"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "In Allen-Bradley SLC 500 or MicroLogix addressing (e.g., B3:1/5), what does the \"1\" represent?",
+        "choices": [
+            "A. The file type",
+            "B. The bit number",
+            "C. The word number",
+            "D. The slot number"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "The central component of a PLC that evaluates the logic and processes instructions is the:",
+        "choices": [
+            "A. Power Supply",
+            "B. Input Module",
+            "C. Output Module",
+            "D. CPU (Central Processing Unit)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "If a PLC needs to directly control a 120V AC load using a solid-state output, the output module will typically use which internal semiconductor device?",
+        "choices": [
+            "A. Triac",
+            "B. NPN Transistor",
+            "C. JFET",
+            "D. MOSFET"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "During a standard PLC scan cycle, what is the exact order of operations?",
+        "choices": [
+            "A. Read Inputs -> Update Outputs -> Execute Logic",
+            "B. Read Inputs -> Execute Logic -> Update Outputs",
+            "C. Execute Logic -> Read Inputs -> Update Outputs",
+            "D. Update Outputs -> Execute Logic -> Read Inputs"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "The physical backplane or enclosure that holds the PLC CPU, power supply, and I/O modules together is called the:",
+        "choices": [
+            "A. Bus",
+            "B. Node",
+            "C. Rack or Chassis",
+            "D. Network"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "A limit switch provides what specific type of electrical signal to a PLC input module?",
+        "choices": [
+            "A. Analog signal",
+            "B. Modulated signal",
+            "C. Pulse-width signal",
+            "D. Discrete (Digital) signal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "When dealing with 32-bit floating-point math in a standard 16-bit PLC architecture, how is the data typically stored in memory?",
+        "choices": [
+            "A. It spans across two consecutive 16-bit words",
+            "B. It is truncated to 16 bits",
+            "C. It occupies a single 16-bit word",
+            "D. It is stored in the EEPROM only"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "A PLC battery is typically used to:",
+        "choices": [
+            "A. Power the main output loads",
+            "B. Retain the data in volatile RAM during a power loss",
+            "C. Run the internal cooling fan",
+            "D. Boost the input voltage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "Worded circuit: A pressure transmitter outputs 4-20 mA corresponding to 0-100 psi. The PLC analog input has a 16-bit raw integer range of 0 to 32767 for 0-20 mA. What raw integer value approximately corresponds to 0 psi (4 mA)?",
+        "choices": [
+            "A. 0",
+            "B. 16383",
+            "C. 6553",
+            "D. 32767"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "A PLC has a scan time of 10 ms. An optical sensor sends a rapid 2 ms pulse to a standard input module. What is the most likely outcome?",
+        "choices": [
+            "A. The PLC will read the pulse perfectly every time",
+            "B. The PLC will pause the scan to process the pulse",
+            "C. The pulse will permanently damage the input module",
+            "D. The PLC may completely miss the pulse depending on when it occurs in the scan cycle"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "For safety-critical fail-safe operations (like an Emergency Stop), how should the physical button and PLC logic be configured?",
+        "choices": [
+            "A. N.O. button, logic expects a 1 (True) to run",
+            "B. N.C. button, logic expects a 1 (True) to run",
+            "C. N.O. button, logic expects a 0 (False) to run",
+            "D. N.C. button, logic expects a 0 (False) to run"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "The PLC was originally invented in the late 1960s to replace large, complex banks of hardwired relays primarily for which industry?",
+        "choices": [
+            "A. Aerospace",
+            "B. Food and Beverage",
+            "C. Automotive manufacturing",
+            "D. Telecommunications"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "In PLC analog control, a PID instruction is used to maintain a setpoint. What does PID stand for?",
+        "choices": [
+            "A. Proportional, Integral, Derivative",
+            "B. Process, Integration, Differential",
+            "C. Pulse, Impulse, Duration",
+            "D. Programmable Intelligent Device"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "Which I/O specification dictates the maximum amount of steady-state current a single PLC discrete output channel can safely switch?",
+        "choices": [
+            "A. Isolation voltage",
+            "B. Leakage current",
+            "C. Surge current",
+            "D. Maximum continuous output current"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "In PLC terminology, what does the acronym \"I/O\" stand for?",
+        "choices": [
+            "A. Internal/Output",
+            "B. Input/Output",
+            "C. Integer/Operand",
+            "D. Industrial/Operations"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "To accurately read pulses from a fast-spinning optical encoder (e.g., 50 kHz), a standard PLC input module is insufficient. What specific hardware module must be used?",
+        "choices": [
+            "A. Analog input module",
+            "B. Relay output module",
+            "C. High-Speed Counter (HSC) module",
+            "D. Thermocouple module"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "Which of the following is a key advantage of using a PLC over hardwired relay logic?",
+        "choices": [
+            "A. Easy flexibility to change control logic via software without rewiring",
+            "B. PLCs are completely immune to all electrical noise",
+            "C. PLCs can switch much higher currents directly",
+            "D. PLCs do not require a power supply"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 36,
+        "question": "Worded circuit: Two high-power motors must NEVER run simultaneously. You interlock them in the PLC ladder logic. For maximum safety and industry compliance, what else must be done?",
+        "choices": [
+            "A. Add a timer in the PLC",
+            "B. Write the logic twice",
+            "C. Use a larger PLC power supply",
+            "D. Hardwire physical auxiliary interlocking contacts between the two motor contactors outside the PLC"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "The permanent software programmed into the PLC by the manufacturer that dictates its basic operating system is called:",
+        "choices": [
+            "A. User Program",
+            "B. Ladder Logic",
+            "C. Firmware",
+            "D. Cache"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 38,
+        "question": "When adding expansion I/O modules to a PLC rack, the addressing scheme must update. The PLC CPU identifies the physical location of the new inputs primarily by their:",
+        "choices": [
+            "A. Wire color",
+            "B. Slot number or node address",
+            "C. MAC address",
+            "D. Voltage rating"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "A Solid State Relay (SSR) designed to switch Alternating Current (AC) loads typically utilizes which semiconductor device at its output?",
+        "choices": [
+            "A. Triac or back-to-back SCRs",
+            "B. NPN Bipolar Transistors",
+            "C. P-channel JFETs",
+            "D. Light Emitting Diodes (LEDs)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 40,
+        "question": "Conversely, an SSR designed to switch Direct Current (DC) loads typically utilizes which semiconductor device at its output?",
+        "choices": [
+            "A. DIAC",
+            "B. Triac",
+            "C. Vacuum Tube",
+            "D. Power MOSFET or BJT"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "What is the primary operational advantage of a \"Zero-Crossing\" AC Solid State Relay?",
+        "choices": [
+            "A. It can switch DC loads as well as AC loads",
+            "B. It operates with zero voltage drop across its output",
+            "C. It drastically reduces electromagnetic interference (EMI) and inrush currents by turning on only when the AC sine wave crosses zero volts",
+            "D. It requires zero input current to trigger"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "Worded circuit: An AC SSR in its OFF state is connected to a very low-power 120V LED indicator light. The indicator light glows dimly even when the SSR is commanded OFF. What is the primary cause of this phenomenon?",
+        "choices": [
+            "A. The SSR is permanently damaged",
+            "B. The inherent OFF-state leakage current is enough to illuminate the low-power LED",
+            "C. The AC line voltage is too high",
+            "D. The control voltage is floating"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Compared to Electromechanical Relays (EMRs), Solid State Relays possess which major mechanical advantage?",
+        "choices": [
+            "A. Infinite physical lifespan due to having no moving parts to wear out or contacts to pit",
+            "B. They emit a loud click to confirm operation",
+            "C. They can mechanically isolate a circuit (air gap)",
+            "D. They are significantly cheaper"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "A critical design consideration when using high-current Solid State Relays that is NOT typically required for Electromechanical Relays is:",
+        "choices": [
+            "A. The need for an external freewheeling diode",
+            "B. The requirement for a 3-phase control signal",
+            "C. The need for routine contact cleaning",
+            "D. The absolute necessity of adequate heat sinking due to semiconductor conduction losses"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Some AC Solid State Relays require a \"minimum load current\" to operate properly. If the load draws less than this minimum current, what is the most likely failure mode?",
+        "choices": [
+            "A. The SSR will explode",
+            "B. The load will be destroyed",
+            "C. The SSR may fail to turn on or fail to turn off because it drops below the holding current",
+            "D. The SSR will convert to DC mode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 46,
+        "question": "How is electrical isolation typically achieved between the low-voltage control input and the high-voltage load output within a standard SSR?",
+        "choices": [
+            "A. Using a small mechanical linkage",
+            "B. Through an internal optocoupler (LED and photodetector)",
+            "C. By a physical air gap",
+            "D. Using a high-value resistor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "A \"Random Turn-On\" SSR turns on immediately when the control signal is applied, regardless of the AC phase angle. This type of SSR is strictly required for which application?",
+        "choices": [
+            "A. Precise phase-angle control (dimming) or high-speed inductive load switching",
+            "B. Switching simple resistive heaters",
+            "C. Switching massive capacitor banks",
+            "D. Turning on fluorescent lights"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "When a Solid State Relay fails due to severe overcurrent or massive thermal overload, what is the most common catastrophic failure state?",
+        "choices": [
+            "A. The output fails as an open circuit",
+            "B. The control input becomes shorted to the output",
+            "C. The optocoupler explodes",
+            "D. The output semiconductor melts and fails shorted, permanently energizing the load"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "To protect an AC SSR from false triggering due to rapid changes in line voltage (high dv/dt), what internal or external circuit is commonly utilized?",
+        "choices": [
+            "A. A Zener diode",
+            "B. A Wheatstone bridge",
+            "C. An RC snubber network",
+            "D. A current transformer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "Worded circuit: An SSR is switching a highly inductive solenoid. When the SSR turns off, the lagging current and abrupt voltage change cause a massive voltage spike. To protect the SSR, a designer should place a Metal Oxide Varistor (MOV) where?",
+        "choices": [
+            "A. In series with the load",
+            "B. Directly across the SSR's output terminals",
+            "C. Between the SSR output and control input",
+            "D. Across the control input terminals"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Does a Solid State Relay provide a true galvanic physical air-gap disconnection when turned off?",
+        "choices": [
+            "A. No, there is always a tiny semiconductor leakage current",
+            "B. Yes, it has a micro-switch inside",
+            "C. Yes, the optocoupler acts as an air gap",
+            "D. No, it uses a liquid mercury contact"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "While conducting, an Electromechanical Relay has near zero contact resistance. In contrast, a typical AC SSR has a forward voltage drop of approximately:",
+        "choices": [
+            "A. 0 V",
+            "B. 10 to 15 V",
+            "C. 0.1 V",
+            "D. 1 to 1.5 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "For high-frequency PWM switching of a DC load, a MOSFET-based DC SSR is used. A critical parameter that limits its maximum switching frequency is the:",
+        "choices": [
+            "A. Zero-crossing delay time",
+            "B. Internal thyristor holding current",
+            "C. Parasitic input and output capacitances affecting switching times",
+            "D. AC line frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "The control input of a standard DC-to-AC Solid State Relay behaves electrically most like a:",
+        "choices": [
+            "A. Resistor",
+            "B. Light Emitting Diode (LED) with a current limiting resistor",
+            "C. Capacitor",
+            "D. Inductor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Once a control signal is removed from an AC SSR utilizing a Triac, when does the load current actually stop flowing?",
+        "choices": [
+            "A. At the next zero-crossing of the AC load current",
+            "B. Instantly",
+            "C. After exactly 1 second",
+            "D. At the peak of the AC voltage wave"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "An SSR is rated for 40 Amps. If installed in a hot, unventilated cabinet without a proper heat sink, what will likely happen if it is run at 30 Amps continuously?",
+        "choices": [
+            "A. It will operate perfectly indefinitely",
+            "B. Its current rating will magically increase",
+            "C. It will convert the excess heat into higher voltage",
+            "D. It will overheat and fail catastrophically because its current rating strictly requires a heat sink to dissipate the thermal losses"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "Peak surge current is a major concern. Which load type draws a massive inrush current that can easily destroy an undersized SSR?",
+        "choices": [
+            "A. Purely resistive heaters",
+            "B. LED indicator lights",
+            "C. Tungsten incandescent lamps and AC Motors",
+            "D. Small DC relays"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "Which of the following is considered a primary DISADVANTAGE of an SSR compared to a mechanical relay?",
+        "choices": [
+            "A. Shorter lifespan",
+            "B. Generation of waste heat (voltage drop) and required heat sinking",
+            "C. Slower switching speed",
+            "D. Bouncing contacts"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "What is the primary function of a magnetic contactor in industrial control?",
+        "choices": [
+            "A. To repeatedly establish and interrupt an electrical power circuit, typically for heavy loads like motors",
+            "B. To act as a purely manual disconnect switch",
+            "C. To measure the power factor of a motor",
+            "D. To step down the AC voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "AC magnetic contactors can emit a loud buzzing noise if the magnetic field drops to zero 120 times a second. To prevent this, what component is embedded in the pole face of the electromagnet?",
+        "choices": [
+            "A. A permanent magnet",
+            "B. A large capacitor",
+            "C. A secondary relay",
+            "D. A shading coil (copper ring)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "A magnetic contactor is used to switch a large 3-phase motor. The contactor experiences \"contact welding\" where the main contacts fuse together. What is the most common electrical cause of this failure?",
+        "choices": [
+            "A. Severe overvoltage on the control coil",
+            "B. Undervoltage on the control coil causing \"contact chatter\" and massive arcing during motor inrush",
+            "C. Operating the motor at no load",
+            "D. Perfect phase balancing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "What is the primary purpose of an Overload Relay in a motor starter circuit?",
+        "choices": [
+            "A. To protect the circuit from instantaneous short circuits",
+            "B. To protect the motor from sustained overcurrents and overheating",
+            "C. To reverse the motor direction",
+            "D. To step down the line voltage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "A traditional thermal overload relay operates based on the principle of:",
+        "choices": [
+            "A. A bimetallic strip bending due to heat generated by the motor current",
+            "B. Digital current measurement",
+            "C. Magnetic repulsion",
+            "D. Optical sensing"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "Worded circuit: A basic motor starter uses a momentary NO \"Start\" button and a momentary NC \"Stop\" button. To keep the contactor energized after the Start button is released, a set of auxiliary contacts is wired in parallel with the Start button. This specific configuration is known as a:",
+        "choices": [
+            "A. Cascade circuit",
+            "B. Jogging circuit",
+            "C. Interlocking circuit",
+            "D. Seal-in (or Latching/Holding) circuit"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "Unlike standard thermal overload relays, modern solid-state (electronic) overload relays measure current using:",
+        "choices": [
+            "A. Heater elements",
+            "B. Bimetallic strips",
+            "C. Current transformers (CTs)",
+            "D. Voltage dividers"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "Overload relays are rated by \"Trip Class\" (e.g., Class 10, Class 20, Class 30). What does a \"Class 20\" rating specifically mean?",
+        "choices": [
+            "A. The relay will trip at exactly 20 Amps",
+            "B. The relay will trip within 20 seconds when carrying 600% of its full load amp (FLA) rating",
+            "C. The relay can withstand a 20kV surge",
+            "D. The relay is rated for a 20 Horsepower motor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "A contact block on the side of a contactor is labeled \"NO\". What does this stand for, and what is its state when the contactor coil is de-energized?",
+        "choices": [
+            "A. Normally Open; the contacts are separated (open circuit)",
+            "B. Normally Open; the contacts are touching (closed circuit)",
+            "C. Normally Off; the contacts are touching",
+            "D. Negative Output; it acts as a ground"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "Can a magnetic contactor have a 24V DC control coil but successfully switch 480V AC across its main contacts?",
+        "choices": [
+            "A. No, the coil voltage must match the load voltage",
+            "B. No, DC coils cannot switch AC loads",
+            "C. Yes, but only if the load is resistive",
+            "D. Yes, the control circuit and the power circuit are completely electrically isolated"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "When an AC magnetic contactor is first energized, the air gap in the magnetic core is large, resulting in a very low impedance. This causes the initial coil current to be much higher than the steady-state current. This initial surge is called the:",
+        "choices": [
+            "A. Eddy current",
+            "B. Holding current",
+            "C. Inrush current",
+            "D. Leakage current"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "What is the purpose of an \"arc chute\" in a large magnetic contactor?",
+        "choices": [
+            "A. To funnel cooling air over the coil",
+            "B. To safely divide, stretch, and extinguish the electrical arc formed when the main contacts open under load",
+            "C. To physically hold the contacts closed",
+            "D. To catch falling dust"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "To help extinguish DC arcs, which are much harder to break than AC arcs, DC contactors often employ:",
+        "choices": [
+            "A. Magnetic blowout coils to force the arc away from the contacts",
+            "B. Water cooling",
+            "C. Vacuum chambers exclusively",
+            "D. Solid-state snubbers"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "Worded circuit: A reversing motor starter consists of a Forward contactor (F) and a Reverse contactor (R). To absolutely prevent a phase-to-phase short circuit, the NC auxiliary contact of F is wired in series with the coil of R, and the NC of R is wired in series with the coil of F. This is called:",
+        "choices": [
+            "A. Holding logic",
+            "B. Sequence control",
+            "C. Mechanical bypassing",
+            "D. Electrical interlocking"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "The replaceable components inside a traditional thermal overload relay that dictate the specific tripping current are called:",
+        "choices": [
+            "A. Fuses",
+            "B. Circuit breakers",
+            "C. Heater elements",
+            "D. Thermocouples"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "If a 3-phase motor loses one of its supply phases while running, it will draw excessive current on the remaining two phases. This dangerous condition is called:",
+        "choices": [
+            "A. Locked rotor",
+            "B. Single-phasing",
+            "C. Over-voltage",
+            "D. Phase reversal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "The IEC utilizes \"Utilization Categories\" to rate contactors based on the harshness of the load. Which category is specifically designated for starting and stopping standard squirrel-cage induction motors?",
+        "choices": [
+            "A. AC-3",
+            "B. AC-1",
+            "C. DC-1",
+            "D. AC-4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "After a thermal overload relay has tripped due to a motor overload, what must typically happen before the motor can be restarted?",
+        "choices": [
+            "A. The entire relay must be replaced",
+            "B. The main fuses must be bypassed",
+            "C. The contactor coil must be rewound",
+            "D. The bimetallic elements must cool down, and the relay must be reset (manually or automatically)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "For medium-voltage applications (e.g., 4160V) where arcing is extremely severe, the main contacts of the contactor are often enclosed in a sealed glass or ceramic bottle completely devoid of air. This device is known as a:",
+        "choices": [
+            "A. Solid state contactor",
+            "B. Air-break contactor",
+            "C. Vacuum contactor",
+            "D. Oil-immersed contactor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "The minimum coil voltage required to keep a contactor pulled in (closed) after it has been energized is called the:",
+        "choices": [
+            "A. Pull-in voltage",
+            "B. Drop-out (or holding) voltage",
+            "C. Breakdown voltage",
+            "D. Inrush voltage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "In standard PLC Ladder Logic, power is conceptually assumed to flow:",
+        "choices": [
+            "A. From the left rail to the right rail",
+            "B. From the right rail to the left rail",
+            "C. From top to bottom only",
+            "D. From the outputs to the inputs"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "The most common input instruction looks like a normally open contact ( -] [- ). In Allen-Bradley/Rockwell terminology, this instruction is called:",
+        "choices": [
+            "A. XIO (Examine If Open)",
+            "B. OTE (Output Energize)",
+            "C. OTL (Output Latch)",
+            "D. XIC (Examine If Closed)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "Worded logic: Rung 0 has an XIC for \"Start_Button\" in parallel with an XIC for \"Motor_Run\". This parallel branch is in series with an XIO for \"Stop_Button\". The rung terminates at an OTE for \"Motor_Run\". What does this logic accomplish?",
+        "choices": [
+            "A. A simple AND gate",
+            "B. A motor jogging circuit",
+            "C. A standard motor seal-in (latching) circuit",
+            "D. An interlocking timer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "An instruction that looks like a normally closed contact ( -]/[- ) is true (allows logical continuity) when the referenced bit is:",
+        "choices": [
+            "A. 1 (True)",
+            "B. 0 (False)",
+            "C. Changing states",
+            "D. Forcing an output"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "The standard output instruction ( -( )- ) is called OTE (Output Energize). If the rung conditions leading to it become false, the OTE instruction will:",
+        "choices": [
+            "A. Write a 0 (False) to its assigned memory bit, turning the output OFF",
+            "B. Leave the assigned bit in its last state",
+            "C. Turn the PLC to STOP mode",
+            "D. Generate an error fault"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "A Timer On Delay (TON) begins timing when its rung becomes true. If the rung goes false before the accumulated time reaches the preset time, what happens to the accumulated value?",
+        "choices": [
+            "A. It pauses and holds its value",
+            "B. It jumps immediately to the preset value",
+            "C. It turns on the Done (DN) bit",
+            "D. It resets to zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Which timer instruction retains its accumulated time even if the rung goes false, requiring a separate RES (Reset) instruction to clear it?",
+        "choices": [
+            "A. TON (Timer On Delay)",
+            "B. TOF (Timer Off Delay)",
+            "C. RTO (Retentive Timer On)",
+            "D. CTU (Count Up)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 86,
+        "question": "In standard electrical control schematics (NEMA), what does a circle with a letter inside (e.g., 'M' or 'CR') typically represent?",
+        "choices": [
+            "A. A push button",
+            "B. A relay coil or motor starter coil",
+            "C. A limit switch",
+            "D. A pilot light"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "Worded logic: A CTU (Count Up) instruction has a preset of 10. The rung leading to the CTU pulses true 15 times. What is the state of the Done (DN) bit and the Accumulated (ACC) value?",
+        "choices": [
+            "A. DN is True, ACC is 15",
+            "B. DN is False, ACC is 0",
+            "C. DN is True, ACC is 10 (it stops at preset)",
+            "D. DN is False, ACC is 15"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "An instruction that only allows logic continuity for exactly one single PLC scan cycle when its input transitions from false to true is called a:",
+        "choices": [
+            "A. Continuous loop",
+            "B. One-Shot (ONS) or Positive Edge Transition",
+            "C. Latching relay",
+            "D. Watchdog timer"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "To create a flashing light output (e.g., 1 second ON, 1 second OFF) in ladder logic, the most common method uses:",
+        "choices": [
+            "A. Two interlocking TON timers cascading into each other",
+            "B. A single TON timer with a huge preset",
+            "C. An arithmetic ADD instruction",
+            "D. A shift register"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "Worded logic: Rung 1: XIC(A) in series with XIO(B). Rung 2: XIO(A) in series with XIC(B). Both rungs are in parallel and lead to OTE(Y). This logic perfectly implements which boolean logic gate?",
+        "choices": [
+            "A. AND",
+            "B. OR",
+            "C. NAND",
+            "D. Exclusive-OR (XOR)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "In NEMA standard symbols, a switch drawn with a wedge or triangle shape resting on the contact bar represents a:",
+        "choices": [
+            "A. Float switch",
+            "B. Pushbutton",
+            "C. Limit switch (mechanical)",
+            "D. Temperature switch"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "If you need the PLC to skip over a section of code under certain conditions, you would use a JMP (Jump) instruction. This instruction must always be paired with a corresponding:",
+        "choices": [
+            "A. MCR (Master Control Relay)",
+            "B. LBL (Label) instruction",
+            "C. TND (Temporary End)",
+            "D. RET (Return)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "A specific internal system bit in the PLC is true ONLY during the very first scan cycle after the PLC transitions from PROG to RUN mode. This is called the \"First Scan\" bit. What is its primary use?",
+        "choices": [
+            "A. To initialize variables and reset start-up sequences",
+            "B. To trigger a hardware fault",
+            "C. To disable all physical outputs permanently",
+            "D. To speed up the internal clock"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "Output Latch (OTL) and Output Unlatch (OTU) instructions are always used in pairs. They are the software equivalent of a:",
+        "choices": [
+            "A. Mechanical limit switch",
+            "B. Timer",
+            "C. Magnetic contactor",
+            "D. Mechanical latching relay"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 95,
+        "question": "An instruction block asks if Source A is greater than or equal to Source B (GEQ). This type of instruction is categorized as a:",
+        "choices": [
+            "A. Math instruction",
+            "B. Timer instruction",
+            "C. Comparison instruction",
+            "D. Move instruction"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "Worded logic: You have Output A and Output",
+        "choices": [
+            "B. To ensure they can absolutely never be true at the same time in the software, you place an XIO of Output B in series with the OTE of Output A, and an XIO of Output A in series with the OTE of Output",
+            "B. This software technique is called:",
+            "A. Aliasing",
+            "B. Cross-interlocking"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "If you need to track the physical position of a defective part moving down a long conveyor belt through multiple stations, which advanced ladder logic instruction is perfectly suited for this?",
+        "choices": [
+            "A. Bit Shift Register (BSL/BSR)",
+            "B. PID Loop",
+            "C. Math ADD instruction",
+            "D. High Speed Counter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "A common, severe programming mistake in ladder logic is assigning the exact same OTE (Output Energize) address to two different rungs in the program. This error is known as:",
+        "choices": [
+            "A. Over-addressing",
+            "B. Cross-talking",
+            "C. Bit-shifting",
+            "D. Double coiling (or Destructive bit conflict)"
+        ],
+        "correct_answer": "D"
+    }
+]

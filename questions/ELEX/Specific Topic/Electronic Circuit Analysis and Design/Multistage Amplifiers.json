@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "What is the standard definition of the upper cutoff frequency of an amplifier?",
+        "choices": [
+            "A. Where gain is unity",
+            "B. Where gain is zero",
+            "C. Where gain drops by 3 dB from midband",
+            "D. Where bandwidth is zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "According to Miller's Theorem, an inverting amplifier with voltage gain Av and a feedback capacitor Cf will present an equivalent input capacitance of:",
+        "choices": [
+            "A. Cf / (1 - Av)",
+            "B. Cf * (1 + Av)",
+            "C. Cf / (1 + Av)",
+            "D. Cf * (1 - Av)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 3,
+        "question": "An amplifier's step response has a rise time of 35 ns. Using the standard empirical formula, what is its approximate bandwidth?",
+        "choices": [
+            "A. 10 MHz",
+            "B. 35 MHz",
+            "C. 0.35 MHz",
+            "D. 100 MHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 4,
+        "question": "If two identical amplifier stages, each with a lower cutoff frequency of 50 Hz, are cascaded, what happens to the overall lower cutoff frequency?",
+        "choices": [
+            "A. It stays at 50 Hz",
+            "B. It increases above 50 Hz",
+            "C. It decreases below 50 Hz",
+            "D. It drops to 0 Hz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "A BJT amplifier has a midband gain of 40 dB. At the lower cutoff frequency, what is the magnitude of the voltage gain?",
+        "choices": [
+            "A. 40 dB",
+            "B. 20 dB",
+            "C. 37 dB",
+            "D. 3 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "In a high-frequency Bode plot for a single low-pass RC network, the phase shift exactly at the cutoff frequency is:",
+        "choices": [
+            "A. -45 degrees",
+            "B. -90 degrees",
+            "C. 0 degrees",
+            "D. -180 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "Which parasitic capacitance in a BJT typically limits the high-frequency response due to the Miller effect in a Common-Emitter amplifier?",
+        "choices": [
+            "A. Emitter-base capacitance",
+            "B. Substrate capacitance",
+            "C. Output wiring capacitance",
+            "D. Collector-base capacitance"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "A worded circuit problem: An amplifier outputs a 1 kHz square wave with a measured sag of 15%. What is the approximate lower cutoff frequency?",
+        "choices": [
+            "A. 31.8 Hz",
+            "B. 47.7 Hz",
+            "C. 15.9 Hz",
+            "D. 150 Hz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "The primary purpose of cascading multiple amplifier stages is to:",
+        "choices": [
+            "A. Increase the overall voltage or power gain",
+            "B. Decrease the overall bandwidth",
+            "C. Increase the overall phase shift",
+            "D. Decrease the input impedance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "In an n-stage cascaded amplifier, the overall voltage gain (Av_total) is given by the:",
+        "choices": [
+            "A. Sum of the individual stage gains",
+            "B. Difference of the individual stage gains",
+            "C. Product of the individual stage gains",
+            "D. Quotient of the individual stage gains"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "Three amplifier stages are cascaded. Their individual voltage gains are 10, 20, and 5. What is the overall voltage gain in decibels?",
+        "choices": [
+            "A. 35 dB",
+            "B. 70 dB",
+            "C. 30 dB",
+            "D. 60 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 12,
+        "question": "A worded circuit: Stage 1 has an open-circuit voltage gain of 50 and an output impedance of 2 kOhms. It is cascaded to Stage 2, which has an input impedance of 8 kOhms. What is the loaded voltage gain of Stage 1?",
+        "choices": [
+            "A. 50",
+            "B. 40",
+            "C. 10",
+            "D. 45"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "Which coupling method uses a capacitor to block DC bias voltages between cascaded stages while allowing AC signals to pass?",
+        "choices": [
+            "A. Direct coupling",
+            "B. Transformer coupling",
+            "C. RC coupling",
+            "D. Optical coupling"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "The main disadvantage of RC coupled amplifiers is their:",
+        "choices": [
+            "A. Poor low-frequency response due to the coupling capacitor",
+            "B. Inability to amplify high-frequency signals",
+            "C. Excessive physical weight and size",
+            "D. Inability to provide voltage gain"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "In an RC coupled BJT amplifier, the lower cutoff frequency is primarily determined by:",
+        "choices": [
+            "A. The internal junction capacitances",
+            "B. The transistor's transition frequency",
+            "C. The power supply voltage",
+            "D. The coupling and bypass capacitors"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 16,
+        "question": "A two-stage RC coupled amplifier has identical stages. If the lower cutoff frequency of a single stage is 100 Hz, what is the approximate overall lower cutoff frequency?",
+        "choices": [
+            "A. 100 Hz",
+            "B. 64 Hz",
+            "C. 155 Hz",
+            "D. 50 Hz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "Which coupling method is best suited for impedance matching between an amplifier stage and a low-impedance load like a loudspeaker?",
+        "choices": [
+            "A. RC coupling",
+            "B. Transformer coupling",
+            "C. Direct coupling",
+            "D. Impedance coupling"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "A transformer coupled amplifier uses a transformer with a turns ratio of 5:1 (primary to secondary). If a 4-ohm speaker is connected to the secondary, what is the reflected impedance seen by the primary?",
+        "choices": [
+            "A. 100 ohms",
+            "B. 20 ohms",
+            "C. 0.16 ohms",
+            "D. 80 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "Which of the following is a significant drawback of transformer coupled amplifiers?",
+        "choices": [
+            "A. They cannot provide impedance matching",
+            "B. They have zero DC resistance",
+            "C. They operate well at DC frequencies",
+            "D. They are bulky, heavy, and expensive"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 20,
+        "question": "An amplifier circuit designed to amplify ultra-low frequency signals or DC must use which type of coupling?",
+        "choices": [
+            "A. RC coupling",
+            "B. Transformer coupling",
+            "C. Direct coupling",
+            "D. Inductive coupling"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "What is the most severe operational problem associated with direct-coupled amplifiers?",
+        "choices": [
+            "A. Excessive high-frequency roll-off",
+            "B. DC drift due to temperature changes",
+            "C. Bulky size due to large capacitors",
+            "D. Inability to amplify DC signals"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "A worded circuit: A direct-coupled two-stage amplifier consists of two NPN transistors. The collector of Q1 is directly connected to the base of Q2. If the temperature increases, causing the collector current of Q1 to rise, what happens to the collector voltage of Q1 and the base current of Q2?",
+        "choices": [
+            "A. Vc1 decreases, Ib2 decreases",
+            "B. Vc1 increases, Ib2 increases",
+            "C. Vc1 decreases, Ib2 increases",
+            "D. Vc1 increases, Ib2 decreases"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "When Stage 1 is connected to Stage 2 in a cascaded amplifier, the input impedance of Stage 2 acts as the:",
+        "choices": [
+            "A. Source impedance for Stage 1",
+            "B. Feedback element for Stage 1",
+            "C. Power supply for Stage 1",
+            "D. AC load impedance for Stage 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "If a Common-Emitter (CE) stage is cascaded with a Common-Collector (CC) stage, what is the overall phase shift from the input of the CE to the output of the CC?",
+        "choices": [
+            "A. 0 degrees",
+            "B. 90 degrees",
+            "C. 180 degrees",
+            "D. 360 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "Two cascaded CE amplifiers each have a phase shift of 180 degrees. What is the overall phase shift of the multistage amplifier?",
+        "choices": [
+            "A. 180 degrees",
+            "B. 360 (or 0) degrees",
+            "C. 90 degrees",
+            "D. 270 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "A worded circuit: Stage A has an unloaded gain of 100, Zout = 1 kOhm. Stage B has Zin = 9 kOhms, unloaded gain of 50, Zout = 2 kOhms. The load is 8 kOhms. What is the overall loaded voltage gain of the cascaded system?",
+        "choices": [
+            "A. 3600",
+            "B. 5000",
+            "C. 4500",
+            "D. 4000"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "In a multistage amplifier, the stage closest to the signal source is typically referred to as the:",
+        "choices": [
+            "A. Power stage",
+            "B. Output stage",
+            "C. Preamplifier or input stage",
+            "D. Buffer stage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "A preamplifier requires a high input impedance to prevent loading the sensor. Which FET configuration is most suitable for the first stage?",
+        "choices": [
+            "A. Common-Gate",
+            "B. Common-Base",
+            "C. Common-Emitter",
+            "D. Common-Source or Common-Drain"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "The Darlington pair is a special configuration of direct-coupled transistors used primarily to achieve:",
+        "choices": [
+            "A. Very high current gain",
+            "B. Very high voltage gain",
+            "C. Extremely wide bandwidth",
+            "D. Phase reversal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "In a Darlington pair utilizing two BJT transistors, if beta1 = 50 and beta2 = 100, what is the approximate overall current gain of the pair?",
+        "choices": [
+            "A. 150",
+            "B. 5000",
+            "C. 50",
+            "D. 100"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "A cascode amplifier consists of which two cascaded configurations?",
+        "choices": [
+            "A. CE followed by CC",
+            "B. CC followed by CB",
+            "C. CE followed by CB",
+            "D. CC followed by CE"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "The primary advantage of the cascode configuration over a single CE stage is its:",
+        "choices": [
+            "A. Higher input impedance",
+            "B. Lower voltage gain",
+            "C. Inability to operate at high frequencies",
+            "D. Significantly wider bandwidth due to reduced Miller effect"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "A worded circuit: An RC coupled amplifier has a coupling capacitor Cc = 1 uF. The output impedance of the first stage is 2 kOhms and the input impedance of the second stage is 8 kOhms. What is the lower cutoff frequency formed by this coupling network?",
+        "choices": [
+            "A. 15.9 Hz",
+            "B. 79.5 Hz",
+            "C. 159 Hz",
+            "D. 31.8 Hz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "In an RC-coupled amplifier, the midband voltage gain is essentially independent of frequency because:",
+        "choices": [
+            "A. The transistors are perfectly linear",
+            "B. The coupling capacitors act as short circuits and internal parasitic capacitances act as open circuits",
+            "C. The power supply voltage is perfectly constant",
+            "D. The load resistance is infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Three cascaded amplifiers have voltage gains of 10 dB, -5 dB, and 20 dB. What is the total voltage gain?",
+        "choices": [
+            "A. 250 dB",
+            "B. -1000 dB",
+            "C. 25 dB",
+            "D. 35 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Which type of amplifier coupling is most commonly used in audio frequency (AF) voltage amplifiers?",
+        "choices": [
+            "A. Direct coupling",
+            "B. Optocoupling",
+            "C. Transformer coupling",
+            "D. RC coupling"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "In a transformer coupled amplifier, DC isolation between stages is achieved by:",
+        "choices": [
+            "A. The magnetic coupling between the primary and secondary windings",
+            "B. A large series capacitor",
+            "C. A parallel inductor",
+            "D. The physical distance between the transistors"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "A worded circuit: An audio amplifier uses transformer coupling to drive a 50-ohm load. The transistor requires an AC load of 200 ohms for optimum operation. What should be the turns ratio (Np/Ns) of the transformer?",
+        "choices": [
+            "A. 4:1",
+            "B. 2:1",
+            "C. 1:2",
+            "D. 1:4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "In a multi-stage direct-coupled amplifier, a slight shift in the DC bias voltage of the first stage is amplified by subsequent stages. This phenomenon is termed:",
+        "choices": [
+            "A. Thermal runaway",
+            "B. Miller effect",
+            "C. DC drift",
+            "D. Crossover distortion"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "To mitigate DC drift in direct-coupled amplifiers, which circuit topology is widely used for the input stage?",
+        "choices": [
+            "A. Darlington pair",
+            "B. Cascode amplifier",
+            "C. Push-pull amplifier",
+            "D. Differential amplifier"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "The overall bandwidth of a cascaded amplifier system compared to the bandwidth of a single stage within that system is:",
+        "choices": [
+            "A. Always narrower",
+            "B. Always wider",
+            "C. Exactly the same",
+            "D. Unpredictable"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "Two identical cascaded amplifier stages each have an upper cutoff frequency of 100 kHz. What is the approximate overall upper cutoff frequency of the cascaded system?",
+        "choices": [
+            "A. 100 kHz",
+            "B. 64 kHz",
+            "C. 155 kHz",
+            "D. 50 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "A worded circuit: A three-stage RC coupled amplifier uses identical stages. If you want the overall lower cutoff frequency to be 20 Hz, what must be the approximate lower cutoff frequency of each individual stage?",
+        "choices": [
+            "A. 20 Hz",
+            "B. 40 Hz",
+            "C. 10 Hz",
+            "D. 60 Hz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "When a load resistor is connected to the output of a multistage amplifier, the overall voltage gain:",
+        "choices": [
+            "A. Increases",
+            "B. Remains exactly the same",
+            "C. Becomes infinite",
+            "D. Decreases due to the loading effect"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "An amplifier has an open-circuit voltage gain of 100 and an output impedance of 50 ohms. If a 50-ohm load is connected, what is the loaded voltage gain?",
+        "choices": [
+            "A. 50",
+            "B. 100",
+            "C. 25",
+            "D. 200"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "If an amplifier has a voltage gain of 20 V/V and a current gain of 50 A/A, what is its power gain in decibels?",
+        "choices": [
+            "A. 1000 dB",
+            "B. 30 dB",
+            "C. 60 dB",
+            "D. 70 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "A worded circuit: Stage 1 is a CC amplifier (Av = 0.99, Zin = 100k, Zout = 20 ohms). Stage 2 is a CE amplifier (unloaded Av = -100, Zin = 1k, Zout = 5k). If cascaded, what is the overall unloaded voltage gain?",
+        "choices": [
+            "A. -99",
+            "B. -0.99",
+            "C. -97",
+            "D. -100"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "In analyzing a cascaded amplifier, the output voltage of the first stage is equal to the:",
+        "choices": [
+            "A. Output voltage of the second stage",
+            "B. Input voltage of the first stage divided by the gain",
+            "C. Supply voltage",
+            "D. Input voltage of the second stage"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "A transformer coupled amplifier has a primary resistance of 10 ohms and secondary resistance of 1 ohm. While it perfectly matches AC impedances, the copper losses in the windings cause the transformer efficiency to be less than 100%. This practically results in:",
+        "choices": [
+            "A. A lower overall power gain than ideal",
+            "B. A higher overall voltage gain",
+            "C. DC drift",
+            "D. Infinite bandwidth"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "Which of the following cascades is most suitable for providing a very high input impedance, moderate voltage gain, and low output impedance?",
+        "choices": [
+            "A. CE - CB - CE",
+            "B. CC - CE - CC",
+            "C. CB - CC - CE",
+            "D. CE - CE - CE"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "The frequency response of an RC coupled amplifier resembles which type of active filter?",
+        "choices": [
+            "A. Low-pass",
+            "B. High-pass",
+            "C. Band-pass",
+            "D. Band-stop"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "In an RC coupled amplifier, what component is primarily responsible for the high-frequency roll-off?",
+        "choices": [
+            "A. Coupling capacitor",
+            "B. Emitter bypass capacitor",
+            "C. Power supply filtering capacitor",
+            "D. Parasitic and stray capacitances"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "A direct-coupled amplifier has a frequency response that goes down to:",
+        "choices": [
+            "A. 0 Hz (DC)",
+            "B. 20 Hz",
+            "C. 10 Hz",
+            "D. 1 Hz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "In a multistage amplifier, \"loading\" occurs because the input impedance of a subsequent stage draws:",
+        "choices": [
+            "A. No signal current",
+            "B. Signal current from the preceding stage",
+            "C. DC power from the load",
+            "D. Voltage from the ground"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "A worded circuit: Two identical amplifier stages are cascaded. Each stage has an unloaded gain of 20, Zout = 1 kOhm, and Zin = 4 kOhms. What is the total voltage gain of the two-stage cascade if the final output is open-circuited?",
+        "choices": [
+            "A. 400",
+            "B. 100",
+            "C. 320",
+            "D. 800"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "If the overall voltage gain of a two-stage amplifier is 10,000 and the first stage has a gain of 100, what is the gain of the second stage in decibels?",
+        "choices": [
+            "A. 100 dB",
+            "B. 20 dB",
+            "C. 80 dB",
+            "D. 40 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "An audio amplifier is composed of 3 stages. The first stage provides voltage gain, the second provides tone control (introducing a 10 dB loss), and the third provides power gain. If Av1 = 30 dB and Av3 = 20 dB, what is the total gain?",
+        "choices": [
+            "A. 40 dB",
+            "B. 60 dB",
+            "C. 50 dB",
+            "D. 10 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Which coupling technique is generally the most expensive and bulkiest to implement in a multistage amplifier?",
+        "choices": [
+            "A. Direct coupling",
+            "B. Transformer coupling",
+            "C. RC coupling",
+            "D. Optical coupling"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "A worded circuit: A transformer coupled BJT amplifier drives an 8-ohm speaker. The transformer turns ratio is 10:1. The BJT operates from a 12V supply. What is the maximum peak-to-peak AC voltage swing theoretically possible across the primary winding, assuming an ideal transformer and an ideal BJT?",
+        "choices": [
+            "A. 12 V",
+            "B. 48 V",
+            "C. 24 V",
+            "D. 8 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "The overall phase shift of a cascade of three Common-Emitter amplifiers is:",
+        "choices": [
+            "A. 0 degrees",
+            "B. 90 degrees",
+            "C. 180 degrees",
+            "D. 540 degrees (or 180 degrees)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "In a multistage system, if Stage 1 is inverting and Stage 2 is non-inverting, the overall system is:",
+        "choices": [
+            "A. Inverting",
+            "B. Non-inverting",
+            "C. Rectifying",
+            "D. Oscillating"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "A cascaded amplifier consists of a CE stage and a CB stage. The overall phase shift from input to output is:",
+        "choices": [
+            "A. 0 degrees",
+            "B. 180 degrees",
+            "C. 90 degrees",
+            "D. 360 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "A worded circuit: Stage 1 (CE, Av=-50, Zout=2k). Stage 2 (CE, Av=-40, Zin=2k). The overall voltage gain from the input of Stage 1 to the output of Stage 2 (unloaded) is:",
+        "choices": [
+            "A. 2000",
+            "B. -1000",
+            "C. 1000",
+            "D. 500"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "In RC coupling, the coupling capacitor acts essentially as a short circuit for:",
+        "choices": [
+            "A. DC signals only",
+            "B. Both AC and DC signals",
+            "C. Radio frequencies only",
+            "D. AC signals in the midband"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "To minimize loading effect between cascaded stages, the ideal condition is for the output impedance of the driving stage to be ______ and the input impedance of the driven stage to be ______.",
+        "choices": [
+            "A. Very low, very high",
+            "B. Very high, very low",
+            "C. Equal to each other",
+            "D. Very high, very high"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "A direct-coupled amplifier uses complimentary symmetry (NPN followed by PNP). A major advantage of this arrangement over using two NPNs is:",
+        "choices": [
+            "A. Infinite bandwidth",
+            "B. Simplified DC biasing by eliminating voltage level shifting",
+            "C. Zero output impedance",
+            "D. Inability to amplify AC signals"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Which type of amplifier stage is often placed at the end of a multistage cascade specifically to drive low-impedance loads?",
+        "choices": [
+            "A. Voltage amplifier",
+            "B. Differential amplifier",
+            "C. Power (or current) amplifier",
+            "D. Pre-amplifier"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "A worded circuit: A three-stage direct-coupled amplifier has individual stage DC voltage gains of -10, -5, and -2. If the input DC bias shifts by +1 mV due to thermal drift, what is the resulting DC voltage shift at the final output?",
+        "choices": [
+            "A. +100 mV",
+            "B. +50 mV",
+            "C. -100 mV",
+            "D. -100 mV"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "The \"bandwidth shrinkage\" factor in a cascade of n identical amplifier stages means that as you add more stages, the overall bandwidth:",
+        "choices": [
+            "A. Decreases",
+            "B. Increases",
+            "C. Remains constant",
+            "D. Becomes infinite"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "If an RC coupled amplifier's coupling capacitor is doubled in value, what happens to the lower cutoff frequency?",
+        "choices": [
+            "A. It doubles",
+            "B. It is halved",
+            "C. It quadruples",
+            "D. It remains unchanged"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "A multistage amplifier has an overall gain of 60 dB. If negative feedback is applied, reducing the gain by a factor of 10 (20 dB), what is the new overall gain?",
+        "choices": [
+            "A. 600 dB",
+            "B. 50 dB",
+            "C. 40 dB",
+            "D. 80 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "A worded circuit: Stage A has a bandwidth of 1 MHz. Stage B has a bandwidth of 10 kHz. When cascaded, the overall bandwidth is approximately:",
+        "choices": [
+            "A. 1.01 MHz",
+            "B. 500 kHz",
+            "C. 100 kHz",
+            "D. 10 kHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "The primary reason transformer coupling provides poor frequency response compared to RC coupling is:",
+        "choices": [
+            "A. The leakage inductance and winding capacitance of the transformer",
+            "B. The purely resistive nature of the windings",
+            "C. The core is made of air",
+            "D. Transformers have infinite bandwidth"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "Which coupling method provides the highest electrical isolation (no galvanic connection) between amplifier stages?",
+        "choices": [
+            "A. Direct coupling",
+            "B. Optocoupling / Transformer coupling",
+            "C. RC coupling",
+            "D. Inductive coupling"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "A common-collector (emitter follower) stage is often inserted between a high-gain CE stage and a low-impedance load to act as a:",
+        "choices": [
+            "A. Voltage amplifier",
+            "B. Phase inverter",
+            "C. Buffer",
+            "D. Rectifier"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "In a two-stage cascaded amplifier, if the first stage clips the positive peak of the signal, and the second stage is an inverting (CE) amplifier, the final output will have a clipped:",
+        "choices": [
+            "A. Positive peak",
+            "B. Top and bottom",
+            "C. Nothing, clipping is corrected",
+            "D. Negative peak"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "The overall gain of a cascaded amplifier in decibels is calculated by:",
+        "choices": [
+            "A. Adding the decibel gains of the individual stages",
+            "B. Multiplying the decibel gains",
+            "C. Subtracting the decibel gains",
+            "D. Dividing the decibel gains"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "A worded circuit: A cascade consists of 4 identical stages. Each stage has a lower cutoff frequency of 15 Hz. The overall lower cutoff frequency of the system will be closest to:",
+        "choices": [
+            "A. 15 Hz",
+            "B. 34.5 Hz",
+            "C. 6.5 Hz",
+            "D. 60 Hz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "If a cascaded amplifier has an overall voltage gain of -500, the negative sign indicates:",
+        "choices": [
+            "A. The output is distorted",
+            "B. The gain is less than unity",
+            "C. The output is 180 degrees out of phase with the input",
+            "D. The amplifier is unstable"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "Which type of cascaded amplifier is essential in the design of operational amplifiers (op-amps) to allow amplification of DC signals?",
+        "choices": [
+            "A. Transformer coupled",
+            "B. AC coupled",
+            "C. RC coupled",
+            "D. Direct coupled"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "A BJT cascade uses a coupling capacitor between the collector of Q1 and the base of Q2. The DC voltage at the collector of Q1 is 6V, and the base of Q2 is biased at 2V. What is the steady-state DC voltage across the coupling capacitor?",
+        "choices": [
+            "A. 4V",
+            "B. 8V",
+            "C. 6V",
+            "D. 2V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "To prevent the \"motorboating\" low-frequency oscillation in high-gain RC coupled multistage amplifiers sharing a single power supply, what circuit is often added?",
+        "choices": [
+            "A. Darlington pair",
+            "B. Decoupling RC network in the power supply line",
+            "C. Transformer",
+            "D. Direct coupling wire"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "A worded circuit: Stage 1 (Av=20), Stage 2 (Av=30). Input is 10mV peak. The maximum output swing of Stage 2 is 5V peak. Does the signal clip?",
+        "choices": [
+            "A. No, output is only 600 mV",
+            "B. No, output is exactly 5V",
+            "C. Yes, because the theoretical peak output is 6V",
+            "D. Yes, because the theoretical peak output is 600V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "When cascading amplifier stages, the overall noise figure of the system is primarily determined by:",
+        "choices": [
+            "A. The last stage",
+            "B. The power supply",
+            "C. The load",
+            "D. The first stage"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "A direct-coupled cascade requires careful design to ensure the quiescent (DC) collector voltage of the first stage is exactly equal to the required:",
+        "choices": [
+            "A. Quiescent base voltage of the second stage",
+            "B. Power supply voltage",
+            "C. Emitter voltage of the first stage",
+            "D. Saturation voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "A transformer coupled amplifier is highly efficient in Class A operation because:",
+        "choices": [
+            "A. The transformer amplifies the power",
+            "B. The DC resistance of the primary winding is nearly zero, wasting very little DC power",
+            "C. Transformers do not suffer from hysteresis",
+            "D. It operates only at radio frequencies"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "A worded circuit: A three-stage cascade has identical stages with voltage gains of 10. Due to a fault, the coupling capacitor between stage 2 and 3 becomes a short circuit. Assuming the DC bias of stage 3 is severely disturbed, its gain drops to 0.5. What is the new overall AC voltage gain?",
+        "choices": [
+            "A. 1000",
+            "B. 100",
+            "C. 50",
+            "D. 500"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "The input impedance of a cascaded amplifier is determined by the:",
+        "choices": [
+            "A. Last stage",
+            "B. Power supply",
+            "C. Load impedance",
+            "D. First stage"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "In an RC coupled amplifier, the coupling capacitor and the input resistance of the next stage form a:",
+        "choices": [
+            "A. Low-pass filter",
+            "B. High-pass filter",
+            "C. Band-pass filter",
+            "D. Notch filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "A worded circuit: A multistage amplifier has overall Av = 1000. It consists of three identical stages. What is the voltage gain of a single stage?",
+        "choices": [
+            "A. 100",
+            "B. 33.3",
+            "C. 10",
+            "D. 3.16"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "What happens to the overall current gain of a cascaded system?",
+        "choices": [
+            "A. It is the sum of the individual current gains",
+            "B. It is the average of the individual current gains",
+            "C. It is independent of the individual stages",
+            "D. It is the product of the individual current gains"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "A cascade of two amplifiers has Av1 = 20 dB and Av2 = 20 dB. What is the linear (V/V) overall voltage gain?",
+        "choices": [
+            "A. 100",
+            "B. 40",
+            "C. 10000",
+            "D. 400"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "If the output of a two-stage RC coupled amplifier shows noticeable phase distortion, which frequency component is most likely being affected?",
+        "choices": [
+            "A. Midband frequencies",
+            "B. Low frequencies",
+            "C. DC frequencies",
+            "D. Radio frequencies"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "A worded circuit: Stage 1 has a low-frequency pole at 100 Hz. Stage 2 has a low-frequency pole at 1 kHz. Stage 3 has a low-frequency pole at 10 Hz. Which coupling network dominates the overall lower cutoff frequency?",
+        "choices": [
+            "A. The one in Stage 1",
+            "B. The one in Stage 3",
+            "C. The one in Stage 2",
+            "D. They all contribute equally"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "Which amplifier coupling method is most suitable for amplifying a 10 MHz RF signal?",
+        "choices": [
+            "A. RC coupling",
+            "B. Direct coupling",
+            "C. Resistive coupling",
+            "D. Transformer (or tuned LC) coupling"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "Two amplifier stages, one with Av=10 and the other with Av=-10, are cascaded. The overall gain is:",
+        "choices": [
+            "A. -100",
+            "B. 0",
+            "C. 100",
+            "D. 20"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "A direct-coupled amplifier is preferred in operational amplifiers primarily to:",
+        "choices": [
+            "A. Minimize power consumption",
+            "B. Allow the amplification of DC and very low frequency signals",
+            "C. Reduce the physical size",
+            "D. Maximize the high-frequency bandwidth"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "A worded circuit: An amplifier cascade has 5 identical stages. If the overall upper cutoff frequency is 100 kHz, what is the approximate upper cutoff frequency of a single stage?",
+        "choices": [
+            "A. 100 kHz",
+            "B. 500 kHz",
+            "C. 259 kHz",
+            "D. 38 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "The process of connecting the output of one amplifier stage to the input of the next stage is called:",
+        "choices": [
+            "A. Rectifying",
+            "B. Modulating",
+            "C. Multiplexing",
+            "D. Cascading"
+        ],
+        "correct_answer": "D"
+    }
+]

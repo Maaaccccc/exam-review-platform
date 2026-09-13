@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "What is the ideal Common-Mode Rejection Ratio (CMRR) of an operational amplifier?",
+        "choices": [
+            "A. Infinite",
+            "B. Zero",
+            "C. Unity",
+            "D. 100 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "The maximum rate of change of the output voltage of an op-amp in response to a step input is called the:",
+        "choices": [
+            "A. Gain-bandwidth product",
+            "B. Slew rate",
+            "C. Settling time",
+            "D. Rise time"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "For a non-inverting op-amp amplifier with input resistor R1 to ground and feedback resistor Rf, the closed-loop voltage gain is:",
+        "choices": [
+            "A. -Rf/R1",
+            "B. Rf/(R1+Rf)",
+            "C. 1 + (Rf/R1)",
+            "D. 1 - (Rf/R1)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "If a square wave is applied to the input of an ideal op-amp integrator, the resulting output waveform is a:",
+        "choices": [
+            "A. Sine wave",
+            "B. Pulse train",
+            "C. Square wave",
+            "D. Triangle wave"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "In a standard inverting op-amp configuration with an input resistor R1 and feedback resistor Rf, what is the approximate input impedance seen by the voltage source?",
+        "choices": [
+            "A. Infinite",
+            "B. Equal to R1",
+            "C. Zero",
+            "D. Equal to Rf"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "An op-amp voltage follower (unity gain buffer) has a feedback fraction (beta) equal to:",
+        "choices": [
+            "A. Zero",
+            "B. 0.5",
+            "C. 1",
+            "D. Infinite"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "A precision half-wave rectifier uses an op-amp and a diode in the feedback loop. What is its primary advantage over a simple passive diode rectifier?",
+        "choices": [
+            "A. It operates at microwave frequencies",
+            "B. It provides infinite voltage gain",
+            "C. It filters out high-frequency noise",
+            "D. It overcomes the forward voltage drop of the diode"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "An op-amp has a differential gain of 10^5 and a CMRR of 100 dB. What is its common-mode gain?",
+        "choices": [
+            "A. 1",
+            "B. 10",
+            "C. 0.1",
+            "D. 0.01"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "In a feedback amplifier, if the feedback signal is completely out of phase (180 degrees) with the input signal, the feedback is termed:",
+        "choices": [
+            "A. Regenerative",
+            "B. Positive",
+            "C. Negative",
+            "D. Neutral"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "Positive feedback is primarily utilized in the design of which electronic circuits?",
+        "choices": [
+            "A. Active filters",
+            "B. Voltage regulators",
+            "C. Audio amplifiers",
+            "D. Oscillators"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "In a negative feedback system, the product of the open-loop gain (A) and the feedback factor (beta) is known as the:",
+        "choices": [
+            "A. Loop gain",
+            "B. Closed-loop gain",
+            "C. Return ratio",
+            "D. Desensitivity factor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "The factor (1 + A*beta) in a negative feedback system is mathematically defined as the:",
+        "choices": [
+            "A. Loop gain",
+            "B. Desensitivity factor",
+            "C. Return ratio",
+            "D. Closed-loop gain"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "The voltage-series feedback topology is also commonly referred to in two-port network terminology as:",
+        "choices": [
+            "A. Shunt-shunt feedback",
+            "B. Series-series feedback",
+            "C. Shunt-series feedback",
+            "D. Series-shunt feedback"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "The voltage-shunt feedback topology is alternatively known as:",
+        "choices": [
+            "A. Shunt-shunt feedback",
+            "B. Series-shunt feedback",
+            "C. Series-series feedback",
+            "D. Shunt-series feedback"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "The current-series feedback topology corresponds to which two-port network connection?",
+        "choices": [
+            "A. Series-shunt",
+            "B. Series-series",
+            "C. Shunt-shunt",
+            "D. Shunt-series"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "The current-shunt feedback topology is equivalent to which combination?",
+        "choices": [
+            "A. Series-shunt",
+            "B. Series-series",
+            "C. Shunt-series",
+            "D. Shunt-shunt"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "Which feedback topology samples the output voltage and mixes the feedback signal in series with the input source?",
+        "choices": [
+            "A. Voltage-series",
+            "B. Voltage-shunt",
+            "C. Current-series",
+            "D. Current-shunt"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "Which feedback topology approaches the characteristics of an ideal voltage amplifier (high Zin, low Zout)?",
+        "choices": [
+            "A. Current-series",
+            "B. Voltage-series",
+            "C. Voltage-shunt",
+            "D. Current-shunt"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Which feedback topology approaches the characteristics of an ideal transconductance amplifier (high Zin, high Zout)?",
+        "choices": [
+            "A. Voltage-series",
+            "B. Voltage-shunt",
+            "C. Current-series",
+            "D. Current-shunt"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Which feedback topology behaves like an ideal transresistance amplifier (low Zin, low Zout)?",
+        "choices": [
+            "A. Current-series",
+            "B. Current-shunt",
+            "C. Voltage-series",
+            "D. Voltage-shunt"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "A feedback amplifier that provides a stable current gain (low Zin, high Zout) utilizes which topology?",
+        "choices": [
+            "A. Voltage-shunt",
+            "B. Current-shunt",
+            "C. Current-series",
+            "D. Voltage-series"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "Applying negative feedback to an amplifier has what effect on its gain stability with respect to parameter variations?",
+        "choices": [
+            "A. Worsens stability",
+            "B. Has no effect",
+            "C. Improves stability",
+            "D. Causes oscillations"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "How does negative feedback generally affect the bandwidth of an amplifier?",
+        "choices": [
+            "A. Narrows the bandwidth",
+            "B. Shifts the bandwidth to DC",
+            "C. Eliminates bandwidth limitations",
+            "D. Widens the bandwidth"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "Negative feedback affects non-linear distortion generated within the amplifier loop by:",
+        "choices": [
+            "A. Reducing the distortion",
+            "B. Amplifying the distortion",
+            "C. Eliminating the distortion completely",
+            "D. Shifting the distortion to a higher frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "The Nyquist criterion in feedback amplifiers is primarily used to determine:",
+        "choices": [
+            "A. Bandwidth",
+            "B. Input impedance",
+            "C. Stability",
+            "D. Output impedance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "The Barkhausen criterion for sustained oscillations requires a loop gain magnitude of 1 and a total loop phase shift of:",
+        "choices": [
+            "A. 90 degrees",
+            "B. 180 degrees",
+            "C. 270 degrees",
+            "D. 360 (or 0) degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "In a Bode plot, the frequency at which the loop gain magnitude",
+        "choices": [
+            "A. A*beta",
+            "B. drops to unity (0 dB) is used to determine the:",
+            "C. Phase margin",
+            "D. Gain margin"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Voltage sampling at the output of a feedback amplifier has what specific effect on the output impedance?",
+        "choices": [
+            "A. Increases the output impedance",
+            "B. Decreases the output impedance",
+            "C. Eliminates the output impedance",
+            "D. Makes the output impedance reactive"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "Current sampling at the output of a feedback amplifier causes the overall output impedance to:",
+        "choices": [
+            "A. Decrease",
+            "B. Eliminate",
+            "C. Remain unchanged",
+            "D. Increase"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "Series mixing at the input of a feedback amplifier affects the input impedance by:",
+        "choices": [
+            "A. Increasing it",
+            "B. Decreasing it",
+            "C. Making it zero",
+            "D. Matching it to the source"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "Shunt mixing at the input of a feedback amplifier causes the overall input impedance to:",
+        "choices": [
+            "A. Increase",
+            "B. Decrease",
+            "C. Become infinite",
+            "D. Become inductive"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "An amplifier has an open-loop gain A = 10^4 and a feedback factor beta = 0.0099. What is the exact closed-loop gain?",
+        "choices": [
+            "A. 1000",
+            "B. 99",
+            "C. 100",
+            "D. 101"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "Calculate the desensitivity factor of a feedback amplifier if the open-loop gain is 1000 and the closed-loop gain is 10.",
+        "choices": [
+            "A. 1000",
+            "B. 10",
+            "C. 0.01",
+            "D. 100"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 34,
+        "question": "An amplifier's open-loop gain changes by 20% due to temperature. If the desensitivity factor is 10, what is the percentage change in the closed-loop gain?",
+        "choices": [
+            "A. 2%",
+            "B. 200%",
+            "C. 0.5%",
+            "D. 10%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "A basic amplifier has a bandwidth of 100 kHz and an open-loop gain of 100. If negative feedback is applied with beta = 0.09, what is the new bandwidth?",
+        "choices": [
+            "A. 900 kHz",
+            "B. 1 MHz",
+            "C. 10 MHz",
+            "D. 500 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "An amplifier has a lower cutoff frequency of 500 Hz without feedback. With a feedback desensitivity factor of 20, the new lower cutoff frequency will be:",
+        "choices": [
+            "A. 10 kHz",
+            "B. 500 Hz",
+            "C. 25 Hz",
+            "D. 100 Hz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "A circuit describes an operational amplifier where a resistor network divides the output voltage, and this fraction is fed directly back into the inverting terminal. What is this topology?",
+        "choices": [
+            "A. Current-shunt",
+            "B. Current-series",
+            "C. Voltage-shunt",
+            "D. Voltage-series"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 38,
+        "question": "A single-stage BJT Common Emitter amplifier features a resistor Rf connected directly from its collector to its base. This configuration represents what type of feedback?",
+        "choices": [
+            "A. Voltage-shunt",
+            "B. Voltage-series",
+            "C. Current-series",
+            "D. Current-shunt"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "A BJT Common Emitter amplifier is constructed with an unbypassed emitter resistor Re. The voltage developed across Re is proportional to the emitter current and opposes the input signal. This is an example of:",
+        "choices": [
+            "A. Voltage-shunt",
+            "B. Current-series",
+            "C. Current-shunt",
+            "D. Voltage-series"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "A two-stage amplifier cascade has a feedback resistor connecting the unbypassed emitter of the second stage to the base of the first stage. This topology is best classified as:",
+        "choices": [
+            "A. Voltage-series",
+            "B. Voltage-shunt",
+            "C. Current-shunt",
+            "D. Current-series"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "A voltage-series feedback amplifier has an open-loop input impedance Zi = 10 kOhms. If A = 100 and beta = 0.09, what is the closed-loop input impedance Zif?",
+        "choices": [
+            "A. 100 kOhms",
+            "B. 10 kOhms",
+            "C. 1 kOhm",
+            "D. 1000 kOhms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "A voltage-series feedback amplifier has an open-loop output impedance Zo = 500 Ohms. With a desensitivity factor of 25, the closed-loop output impedance Zof is:",
+        "choices": [
+            "A. 12.5 kOhms",
+            "B. 20 Ohms",
+            "C. 250 Ohms",
+            "D. 500 Ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "A current-series feedback amplifier has an open-loop output impedance Zo = 4 kOhms. If the desensitivity factor is 5, what is the closed-loop output impedance Zof?",
+        "choices": [
+            "A. 800 Ohms",
+            "B. 1.25 kOhms",
+            "C. 20 kOhms",
+            "D. 4 kOhms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "A voltage-shunt feedback amplifier has an open-loop input impedance Zi = 100 kOhms. If the loop gain A*beta is 49, what is the closed-loop input impedance Zif?",
+        "choices": [
+            "A. 5000 kOhms",
+            "B. 4900 kOhms",
+            "C. 100 kOhms",
+            "D. 2 kOhms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "A transconductance amplifier has an open-loop gain Gm = 5 A/V. If negative feedback is applied with a feedback factor beta = 0.8 V/A, what is the closed-loop transconductance Gmf?",
+        "choices": [
+            "A. 5 A/V",
+            "B. 1 A/V",
+            "C. 4.16 A/V",
+            "D. 0.8 A/V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "For a BJT CE amplifier with an unbypassed emitter resistor Re, the transconductance is approximately Gm = gm / (1 + gm*Re). In this current-series feedback model, the feedback factor beta is represented by:",
+        "choices": [
+            "A. rc",
+            "B. gm",
+            "C. Re",
+            "D. 1/Re"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "An amplifier needs a closed-loop gain of 10. If the open-loop gain is 1000, what is the required feedback factor beta?",
+        "choices": [
+            "A. 0.101",
+            "B. 0.010",
+            "C. 0.100",
+            "D. 0.099"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 48,
+        "question": "An amplifier has a Total Harmonic Distortion (THD) of 15% without feedback. To reduce the THD to 1%, what must the loop gain (A*beta) be?",
+        "choices": [
+            "A. 14",
+            "B. 15",
+            "C. 1",
+            "D. 1.5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "If a feedback amplifier has a closed-loop gain of 100 and a feedback factor beta of 0.009, what is its open-loop gain A?",
+        "choices": [
+            "A. 100",
+            "B. 500",
+            "C. 1000",
+            "D. 900"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "A voltage-series feedback amplifier uses an op-amp with an open-loop gain of 106 dB. The feedback network consists of R1 = 1 kOhm and Rf = 99 kOhms. What is the approximate loop gain in dB?",
+        "choices": [
+            "A. 146 dB",
+            "B. 106 dB",
+            "C. 40 dB",
+            "D. 66 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 51,
+        "question": "Given a transresistance amplifier with an open-loop gain Rm = -100 kOhms and a feedback resistor Rf = 10 kOhms. The feedback factor beta (conductance) is roughly -1/Rf. What is the closed-loop transresistance?",
+        "choices": [
+            "A. -9.09 kOhms",
+            "B. -10 kOhms",
+            "C. -100 kOhms",
+            "D. -11 kOhms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "A current-series amplifier has an open-loop transconductance of 10 A/V and a desensitivity of 100. The closed-loop transconductance is:",
+        "choices": [
+            "A. 1000 A/V",
+            "B. 0.1 A/V",
+            "C. 100 A/V",
+            "D. 10 A/V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "A feedback amplifier has an upper cutoff frequency of 200 kHz. If the open-loop upper cutoff frequency was 10 kHz, what is the desensitivity factor?",
+        "choices": [
+            "A. 10",
+            "B. 200",
+            "C. 20",
+            "D. 0.05"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "The input impedance of a voltage-shunt feedback amplifier is measured as 500 Ohms. If the desensitivity factor is 20, what was the open-loop input impedance?",
+        "choices": [
+            "A. 25 Ohms",
+            "B. 100 Ohms",
+            "C. 1 kOhm",
+            "D. 10 kOhms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 55,
+        "question": "In a voltage-series feedback circuit, the feedback voltage Vf is 0.5V when the output voltage Vo is 10V. What is the feedback factor beta?",
+        "choices": [
+            "A. 0.05",
+            "B. 0.5",
+            "C. 20",
+            "D. 5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "If a closed-loop amplifier has Af = 50 and the open-loop gain A decreases by 10%, the closed-loop gain decreases by only 1%. What is the open-loop gain A?",
+        "choices": [
+            "A. 200",
+            "B. 500",
+            "C. 100",
+            "D. 50"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "An amplifier has a dominant pole at 100 Hz and a second pole at 1 MHz. If a large amount of negative feedback is applied, what typically happens to the two poles?",
+        "choices": [
+            "A. Cancel each other out",
+            "B. Remain unchanged",
+            "C. Move toward each other and may become complex conjugates",
+            "D. Split further apart"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "For a two-pole feedback amplifier, the phase margin is evaluated at the frequency where the loop gain magnitude",
+        "choices": [
+            "A. A*beta",
+            "B. is:",
+            "C. Infinite",
+            "D. 3 dB"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 59,
+        "question": "If a feedback amplifier has a phase margin of exactly 0 degrees, the system is classified as:",
+        "choices": [
+            "A. Stable",
+            "B. Marginally stable (oscillatory)",
+            "C. Unstable",
+            "D. Overdamped"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "A feedback loop is designed to have a phase margin of 60 degrees. At the crossover frequency, what is the total phase angle of the loop gain A*beta?",
+        "choices": [
+            "A. -60 degrees",
+            "B. 180 degrees",
+            "C. -120 degrees",
+            "D. -240 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "A three-pole amplifier has open-loop poles at 1 MHz, 2 MHz, and 3 MHz. Applying heavy negative feedback to this system will most likely cause it to:",
+        "choices": [
+            "A. Oscillate due to the accumulation of excess phase shift",
+            "B. Increase its DC gain",
+            "C. Turn into a first-order system",
+            "D. Become unconditionally stable"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "To ensure stability in a multi-pole feedback amplifier, a dominant pole is often intentionally introduced to roll off the gain before the phase shift reaches 180 degrees. This technique is called:",
+        "choices": [
+            "A. Frequency compensation",
+            "B. Pole splitting",
+            "C. Bootstrapping",
+            "D. Gain peaking"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "A voltage-series feedback amplifier uses a basic amplifier with an open-loop gain A = 10^5 and an open-loop bandwidth of 10 Hz. If it is configured for a closed-loop gain of 100, what is the new bandwidth?",
+        "choices": [
+            "A. 100 Hz",
+            "B. 1000 Hz",
+            "C. 10 kHz",
+            "D. 100 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "An inverting op-amp circuit (voltage-shunt feedback) has R1 = 1 kOhm and Rf = 10 kOhms. The op-amp has an open-loop gain of 100 V/V. The feedback factor beta for the loop gain calculation is determined by the voltage divider formed by R1 and Rf. What is the value of beta?",
+        "choices": [
+            "A. 10",
+            "B. 1/10",
+            "C. 1/11",
+            "D. 10/11"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "In a current-series feedback amplifier involving a MOSFET with an unbypassed source resistor Rs, the effective transconductance Gmf is gm / (1 + gm*Rs). As Rs is made very large, the transconductance approaches:",
+        "choices": [
+            "A. 1/Rs",
+            "B. gm",
+            "C. Zero",
+            "D. Infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "A negative feedback amplifier has an open-loop gain A = -1000 (inverting). For the feedback to be negative, the feedback network beta must ideally be:",
+        "choices": [
+            "A. Positive",
+            "B. Negative",
+            "C. Complex",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "An amplifier uses a transformer in series with the load to sense the output current, and feeds a proportional current back in parallel with the input source. What is the topology?",
+        "choices": [
+            "A. Voltage-series",
+            "B. Voltage-shunt",
+            "C. Current-shunt",
+            "D. Current-series"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "If a feedback amplifier topology decreases both input and output impedances, it must be:",
+        "choices": [
+            "A. Current-series",
+            "B. Voltage-shunt",
+            "C. Current-shunt",
+            "D. Voltage-series"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "A BJT emitter follower is a classic example of which feedback topology?",
+        "choices": [
+            "A. Voltage-shunt",
+            "B. Voltage-series",
+            "C. Current-series",
+            "D. Current-shunt"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "What is the feedback factor beta of a simple BJT emitter follower (ignoring r_e)?",
+        "choices": [
+            "A. 0",
+            "B. beta",
+            "C. 1",
+            "D. 1/beta"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "In an op-amp non-inverting amplifier, the topology is voltage-series. If the open-loop input impedance of the op-amp is 2 MOhms, A = 10^5, and closed-loop gain is 10, what is the theoretical closed-loop input impedance?",
+        "choices": [
+            "A. 200 MOhms",
+            "B. 2 MOhms",
+            "C. 20 MOhms",
+            "D. 20,000 MOhms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "The open-loop output impedance of the op-amp in the previous question is 75 Ohms. What is the theoretical closed-loop output impedance?",
+        "choices": [
+            "A. 7.5 Ohms",
+            "B. 75 Ohms",
+            "C. 75 kOhms",
+            "D. 7.5 mOhms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "A voltage-shunt feedback amplifier has an open-loop transresistance Rm = -10^5 V/A. The feedback resistor is 10 kOhms. Beta is approximately -1/10k A/V. The loop gain is:",
+        "choices": [
+            "A. 100",
+            "B. 10",
+            "C. 1000",
+            "D. 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "Using the data from the previous question (Rm = -10^5, loop gain = 10), what is the exact closed-loop transresistance Rmf?",
+        "choices": [
+            "A. -90.9 kOhms",
+            "B. -10 kOhms",
+            "C. -9.09 kOhms",
+            "D. -100 kOhms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 75,
+        "question": "In a current amplifier using current-shunt feedback, if the open-loop current gain is Ai and the feedback factor is beta_i, the closed-loop input impedance Zif relates to open-loop Zi by:",
+        "choices": [
+            "A. Zif = Zi / (1 + Ai*beta_i)",
+            "B. Zif = Zi",
+            "C. Zif = 1 / Zi",
+            "D. Zif = Zi * (1 + Ai*beta_i)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "In the same current-shunt amplifier (with open-loop output impedance Zo), the closed-loop output impedance Zof is:",
+        "choices": [
+            "A. Zof = Zo * (1 + Ai*beta_i)",
+            "B. Zof = Zo / (1 + Ai*beta_i)",
+            "C. Zof = Zo",
+            "D. Zof = 1 / Zo"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "An amplifier consists of three cascaded CE stages. A feedback resistor connects the collector of the third stage to the emitter of the first stage. What is the topology?",
+        "choices": [
+            "A. Voltage-shunt",
+            "B. Current-series",
+            "C. Voltage-series",
+            "D. Current-shunt"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "A feedback resistor connects the collector of a single CE stage to its own base. The feedback signal is a current proportional to the output voltage. What is the topology?",
+        "choices": [
+            "A. Voltage-series",
+            "B. Current-series",
+            "C. Current-shunt",
+            "D. Voltage-shunt"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "A feedback amplifier has an open-loop gain A = 1000 +/- 100. If a closed-loop gain of exactly 10 +/- 0.1 is required, what is the approximate minimum desensitivity factor D needed?",
+        "choices": [
+            "A. 10",
+            "B. 20",
+            "C. 100",
+            "D. 50"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "An amplifier has an open-loop gain A = 10^4 and a single pole at 100 kHz. Negative feedback is applied with beta = 0.01. What is the frequency where the loop gain magnitude becomes 0 dB (crossover frequency)?",
+        "choices": [
+            "A. 100 kHz",
+            "B. 10 MHz",
+            "C. 1 MHz",
+            "D. 10 GHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "A two-pole feedback amplifier has open-loop poles at 1 MHz and 10 MHz. To achieve a phase margin of 45 degrees, the crossover frequency must be placed approximately at:",
+        "choices": [
+            "A. 1 MHz",
+            "B. 3.16 MHz",
+            "C. 100 MHz",
+            "D. 10 MHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 82,
+        "question": "Which of the following feedback networks will cause an otherwise stable single-pole amplifier to become a tuned oscillator?",
+        "choices": [
+            "A. Wien bridge network",
+            "B. Purely resistive divider",
+            "C. Low-pass RC filter",
+            "D. High-pass RC filter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "In a voltage-series feedback configuration, the feedback network beta is typically characterized by which two-port parameter set?",
+        "choices": [
+            "A. z-parameters",
+            "B. h-parameters",
+            "C. y-parameters",
+            "D. g-parameters"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "In a voltage-shunt feedback configuration, the feedback network beta is typically characterized by which parameter set?",
+        "choices": [
+            "A. h-parameters",
+            "B. z-parameters",
+            "C. y-parameters",
+            "D. g-parameters"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "Current-series feedback networks are best analyzed using which two-port parameters?",
+        "choices": [
+            "A. y-parameters",
+            "B. h-parameters",
+            "C. g-parameters",
+            "D. z-parameters"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "Current-shunt feedback networks are best analyzed using which two-port parameters?",
+        "choices": [
+            "A. g-parameters",
+            "B. h-parameters",
+            "C. z-parameters",
+            "D. y-parameters"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "An op-amp has an open-loop gain of 100 dB and a dominant pole at 10 Hz. If it is used to build an inverting amplifier with a gain of -10, the closed-loop bandwidth is:",
+        "choices": [
+            "A. 100 kHz",
+            "B. 90.9 kHz",
+            "C. 10 kHz",
+            "D. 1 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "A transimpedance amplifier uses a 1 MOhm feedback resistor. The op-amp has a GBP of 10 MHz and an input capacitance of 10 pF. Without a feedback capacitor, this circuit is prone to peaking. The feedback factor beta at high frequencies is primarily determined by:",
+        "choices": [
+            "A. The op-amp's output resistance",
+            "B. The feedback resistor",
+            "C. The voltage divider formed by the feedback resistor and input capacitance",
+            "D. The input voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "In a feedback amplifier, if the loop gain A*beta is large (A*beta >> 1), the closed-loop gain Af approaches:",
+        "choices": [
+            "A. A",
+            "B. A*beta",
+            "C. Infinity",
+            "D. 1/beta"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "A voltage-series amplifier has an open-loop gain A = 1000. The feedback network has a transfer function beta = 0.1. Due to aging, the feedback network beta changes by 2%. What is the approximate percentage change in the closed-loop gain Af?",
+        "choices": [
+            "A. -2%",
+            "B. 0.02%",
+            "C. -0.2%",
+            "D. +2%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 91,
+        "question": "A non-inverting amplifier has R1 = 1 kOhm and Rf = 4 kOhms. The op-amp's open-loop gain drops to 10 at high frequencies. What is the exact closed-loop gain at this frequency?",
+        "choices": [
+            "A. 4",
+            "B. 3.33",
+            "C. 5",
+            "D. 2.5"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "A feedback loop has a transfer function L(s) = 100 / ( (1 + s/w1)*(1 + s/w2) ). If w2 is much greater than w1, the phase margin will be close to 90 degrees if the unity gain frequency is:",
+        "choices": [
+            "A. Equal to w1",
+            "B. Equal to w2",
+            "C. Much less than w2",
+            "D. Much greater than w2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "An amplifier with an active current-source load uses a small capacitor connected between the input base and output collector of the gain stage to intentionally create a dominant pole via the Miller effect. This internal feedback topology is:",
+        "choices": [
+            "A. Current-series",
+            "B. Voltage-series",
+            "C. Current-shunt",
+            "D. Voltage-shunt"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "The \"return difference\" in a feedback system is exactly equal to:",
+        "choices": [
+            "A. Closed-loop gain",
+            "B. 1 + Loop Gain",
+            "C. Open-loop gain",
+            "D. Feedback factor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "According to Blackman's Impedance Theorem, the input impedance of a feedback amplifier can be found using the formula Zif = Zi * ( (1 + T_sc) / (1 + T_oc) ). For series mixing at the input, T_sc is:",
+        "choices": [
+            "A. Zero",
+            "B. Equal to T_oc",
+            "C. Infinity",
+            "D. Equal to the nominal loop gain"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 96,
+        "question": "In a multi-stage feedback amplifier, inserting a compensation capacitor to split the poles will cause the dominant pole (lowest frequency) to move to a ______ frequency, and the non-dominant pole to move to a ______ frequency.",
+        "choices": [
+            "A. Higher, lower",
+            "B. Higher, higher",
+            "C. Lower, higher",
+            "D. Lower, lower"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 97,
+        "question": "An amplifier has a loop gain of exactly -1 at a specific frequency. According to the Nyquist stability criterion, the system will:",
+        "choices": [
+            "A. Unconditionally stable",
+            "B. Critically damped",
+            "C. Saturate at the DC rails",
+            "D. Oscillate continuously at that frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 98,
+        "question": "If a closed-loop system's characteristic equation has roots in the right half of the s-plane, the system is:",
+        "choices": [
+            "A. Stable",
+            "B. Marginally stable",
+            "C. Non-causal",
+            "D. Unstable"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 99,
+        "question": "An operational amplifier has an open-loop output impedance of 100 Ohms. It is configured as a non-inverting amplifier with a gain of 2. If the open-loop gain is 100,000, what is the approximate closed-loop output impedance?",
+        "choices": [
+            "A. 2 mOhms",
+            "B. 100 Ohms",
+            "C. 0.002 mOhms",
+            "D. 50 kOhms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 100,
+        "question": "A voltage-series feedback amplifier uses a feedback network consisting of two resistors, R1 and R2, forming a voltage divider across the output. The feedback factor beta is R1/(R1+R2). To achieve a closed-loop gain of exactly 50 with an infinite open-loop gain, the ratio R2/R1 must be:",
+        "choices": [
+            "A. 50",
+            "B. 49",
+            "C. 51",
+            "D. 1/50"
+        ],
+        "correct_answer": "B"
+    }
+]

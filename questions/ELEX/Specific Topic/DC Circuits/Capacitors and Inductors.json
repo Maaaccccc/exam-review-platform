@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "A DC voltage source of 12V is in series with a 4-ohm resistor. This branch is connected in parallel with a 2A current source. According to source transformation, what is the single equivalent current source and its parallel resistance?",
+        "choices": [
+            "A. 2A and 2 ohms",
+            "B. 5A and 2 ohms",
+            "C. 5A and 4 ohms",
+            "D. 3A and 4 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "According to the Maximum Power Transfer Theorem, for a DC circuit, maximum power is delivered to the load when the load resistance is:",
+        "choices": [
+            "A. equal to the Thevenin equivalent resistance",
+            "B. zero",
+            "C. infinite",
+            "D. twice the Thevenin resistance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "A linear circuit contains two independent sources. The power dissipated by a 2-ohm resistor is 18W when source 1 acts alone, and 8W when source 2 acts alone. If both sources are active and their currents flow in the same direction through the resistor, what is the total power dissipated?",
+        "choices": [
+            "A. 50 W",
+            "B. 26 W",
+            "C. 10 W",
+            "D. 50 W or 2 W depending on polarity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "Three parallel branches connect node A to a common ground. Branch 1 has a 10V source in series with 2 ohms. Branch 2 has a 5V source in series with 1 ohm. Branch 3 is a purely resistive 2-ohm branch. Using Millman's Theorem, what is the voltage at node A?",
+        "choices": [
+            "A. 5.5 V",
+            "B. 5.0 V",
+            "C. 7.5 V",
+            "D. 6.0 V"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 5,
+        "question": "Tellegen's Theorem is fundamentally based on which of the following principles?",
+        "choices": [
+            "A. Kirchhoff's Current Law only",
+            "B. Conservation of Energy",
+            "C. Ohm's Law",
+            "D. Faraday's Law"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "A network is defined as reciprocal if the ratio of the response to the excitation is invariant when their positions are interchanged. Which component strictly voids the reciprocity of a circuit?",
+        "choices": [
+            "A. Dependent voltage-controlled current source",
+            "B. Ideal transformer",
+            "C. Lossy inductor",
+            "D. Linear potentiometer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "In finding the Norton equivalent of a network, how is the equivalent resistance (Rn) calculated?",
+        "choices": [
+            "A. By shorting all voltage sources and opening all current sources, then measuring resistance at the terminals",
+            "B. By dividing the open-circuit voltage by the short-circuit current",
+            "C. By finding the resistance that dissipates maximum power",
+            "D. Both A and B"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "What is the fundamental unit of capacitance, defined as one coulomb per volt?",
+        "choices": [
+            "A. Henry",
+            "B. Farad",
+            "C. Weber",
+            "D. Tesla"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "A parallel-plate capacitor has a plate area of 0.02 square meters and a plate separation of 1 millimeter. If the dielectric is air (epsilon_r approx 1), what is its approximate capacitance?",
+        "choices": [
+            "A. 177 pF",
+            "B. 88.5 pF",
+            "C. 354 pF",
+            "D. 17.7 pF"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "A circuit consists of a 10V DC source connected to a 1-kiloohm resistor in series with an initially uncharged 5-microfarad capacitor. After an infinite amount of time, what is the current flowing through the capacitor and the voltage across it?",
+        "choices": [
+            "A. 0 A, 10 V",
+            "B. 10 mA, 10 V",
+            "C. 0 A, 0 V",
+            "D. 10 mA, 0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "Two capacitors, C1 = 4 uF and C2 = 6 uF, are connected in series across a 20V DC supply. What is the equivalent capacitance of this combination?",
+        "choices": [
+            "A. 10 uF",
+            "B. 2.4 uF",
+            "C. 5 uF",
+            "D. 0.416 uF"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "When capacitors are connected in parallel, the total equivalent capacitance is determined by:",
+        "choices": [
+            "A. Taking the reciprocal of the sum of their reciprocals",
+            "B. Multiplying their values and dividing by their sum",
+            "C. Summing their individual capacitances",
+            "D. Averaging their capacitances"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 13,
+        "question": "A parallel combination of a 3 uF and a 6 uF capacitor is connected in series with a 2 uF capacitor. What is the total equivalent capacitance of this entire circuit?",
+        "choices": [
+            "A. 1.63 uF",
+            "B. 3.5 uF",
+            "C. 11 uF",
+            "D. 1.8 uF"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "Three identical capacitors, each with capacitance C, are connected in a delta (pi) configuration. If this configuration is converted to an equivalent wye (T) configuration, what is the capacitance of each element in the wye network?",
+        "choices": [
+            "A. C / 3",
+            "B. 3 * C",
+            "C. C",
+            "D. C / 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "A 20-microfarad capacitor is charged to a potential difference of 50 volts. How much energy is stored in the capacitor's electric field?",
+        "choices": [
+            "A. 0.05 J",
+            "B. 0.5 J",
+            "C. 0.025 J",
+            "D. 1.0 J"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "The energy stored in a capacitor is directly proportional to the:",
+        "choices": [
+            "A. Voltage across it",
+            "B. Square of the voltage across it",
+            "C. Current flowing through it",
+            "D. Square of the current flowing through it"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 17,
+        "question": "Two capacitors, 10 uF charged to 100V and 20 uF charged to 50V, are connected in parallel with their positive terminals together. What is the total energy stored in the system after the connection is made and steady state is reached?",
+        "choices": [
+            "A. 0.075 J",
+            "B. 0.033 J",
+            "C. 0.067 J",
+            "D. 0.100 J"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 18,
+        "question": "A 5 uF capacitor is connected in series with a 15 uF capacitor. A total charge of 300 uC is supplied to the combination. What is the voltage across the 5 uF capacitor?",
+        "choices": [
+            "A. 15 V",
+            "B. 20 V",
+            "C. 60 V",
+            "D. 45 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "In a DC circuit, after a capacitor has fully charged, it behaves equivalently to a/an:",
+        "choices": [
+            "A. Short circuit",
+            "B. Open circuit",
+            "C. Voltage-controlled resistor",
+            "D. Ideal current source"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "What is the fundamental unit of inductance?",
+        "choices": [
+            "A. Tesla",
+            "B. Farad",
+            "C. Weber",
+            "D. Henry"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "An inductor has a core with a relative permeability of 500, a cross-sectional area of 2 square centimeters, and a length of 10 centimeters. If it has 200 turns, what is its approximate inductance?",
+        "choices": [
+            "A. 5.03 mH",
+            "B. 12.5 mH",
+            "C. 2.51 mH",
+            "D. 10.0 mH"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "A 10 mH inductor is connected across a circuit. The current through the inductor is given by the equation i(t) = 5t^2 amperes. What is the voltage across the inductor at t = 2 seconds?",
+        "choices": [
+            "A. 0.2 V",
+            "B. 0.4 V",
+            "C. 0.1 V",
+            "D. 0.8 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 23,
+        "question": "Three inductors are connected in series: L1 = 4 mH, L2 = 6 mH, and L3 = 10 mH. Assuming no mutual inductance between them, what is the total equivalent inductance?",
+        "choices": [
+            "A. 20 mH",
+            "B. 1.9 mH",
+            "C. 10 mH",
+            "D. 24 mH"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "When multiple inductors (with no mutual coupling) are connected in parallel, the total equivalent inductance is calculated by:",
+        "choices": [
+            "A. Summing their values",
+            "B. Summing the reciprocals of their values and taking the reciprocal of the sum",
+            "C. Multiplying their values",
+            "D. Finding the arithmetic mean"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "A 12 mH inductor and a 24 mH inductor are connected in parallel. What is their equivalent inductance assuming zero mutual coupling?",
+        "choices": [
+            "A. 36 mH",
+            "B. 6 mH",
+            "C. 8 mH",
+            "D. 4 mH"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "A circuit consists of a 10 V DC source, a switch, a 5-ohm resistor, and a 2 H inductor in series. If the switch is closed at t=0, what is the steady-state current flowing through the inductor after a long time?",
+        "choices": [
+            "A. 0 A",
+            "B. 2 A",
+            "C. 5 A",
+            "D. 10 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "How much energy is stored in a 50 mH inductor carrying a constant DC current of 4 A?",
+        "choices": [
+            "A. 0.1 J",
+            "B. 0.2 J",
+            "C. 0.4 J",
+            "D. 0.8 J"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "The energy stored in an inductor is physically contained within its:",
+        "choices": [
+            "A. Electric field",
+            "B. Dielectric core",
+            "C. Magnetic field",
+            "D. Wire resistance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "Two inductors, L1 = 100 mH and L2 = 200 mH, are connected in series aiding. The mutual inductance between them is 50 mH. What is the total equivalent inductance?",
+        "choices": [
+            "A. 300 mH",
+            "B. 400 mH",
+            "C. 250 mH",
+            "D. 350 mH"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "The coefficient of coupling (k) between two coils can never be greater than:",
+        "choices": [
+            "A. 0.5",
+            "B. 1.0",
+            "C. 2.0",
+            "D. 100"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Two coupled coils have self-inductances of 4 mH and 9 mH. If the coefficient of coupling is 0.8, what is the mutual inductance between them?",
+        "choices": [
+            "A. 4.8 mH",
+            "B. 2.4 mH",
+            "C. 7.2 mH",
+            "D. 6.0 mH"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "Two coils, L1 = 5 H and L2 = 2 H, are connected in parallel with their mutual inductance M = 1 H opposing. What is the total equivalent inductance of this parallel combination?",
+        "choices": [
+            "A. 1.25 H",
+            "B. 0.9 H",
+            "C. 1.0 H",
+            "D. 0.75 H"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "A variable capacitor is adjusted from 50 pF to 200 pF while remaining connected to a 12V DC battery. What is the change in the charge stored?",
+        "choices": [
+            "A. 600 pC",
+            "B. 2400 pC",
+            "C. 1800 pC",
+            "D. 1200 pC"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "The property of a capacitor that opposes any change in voltage across it is due to its ability to store:",
+        "choices": [
+            "A. Magnetic flux",
+            "B. Charge",
+            "C. Current",
+            "D. Resistance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "A parallel plate capacitor has a capacitance of C0. If the distance between the plates is halved and a dielectric material with a relative permittivity of 3 is inserted between them, what is the new capacitance?",
+        "choices": [
+            "A. 1.5 C0",
+            "B. 6 C0",
+            "C. 3 C0",
+            "D. 0.67 C0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 36,
+        "question": "Which of the following dielectric materials generally offers the highest dielectric constant (relative permittivity)?",
+        "choices": [
+            "A. Air",
+            "B. Teflon",
+            "C. Ceramic (Barium Titanate)",
+            "D. Paper"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "Two pure inductors of 5 H and 20 H are perfectly coupled. What is the maximum possible mutual inductance between them?",
+        "choices": [
+            "A. 10 H",
+            "B. 25 H",
+            "C. 100 H",
+            "D. 5 H"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "In a purely inductive DC circuit operating in steady-state, the inductor acts ideally as a:",
+        "choices": [
+            "A. Open circuit",
+            "B. Short circuit",
+            "C. Current source",
+            "D. Voltage source"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "A 100-microfarad capacitor is charged to 100 V. It is then disconnected from the source and connected in parallel with an uncharged 20-microfarad capacitor. What is the final steady-state voltage across the combination?",
+        "choices": [
+            "A. 83.33 V",
+            "B. 50.0 V",
+            "C. 100.0 V",
+            "D. 16.67 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 40,
+        "question": "An inductor stores 50 mJ of energy when carrying a current of 2",
+        "choices": [
+            "A. What is the inductance of the coil?",
+            "A. 50 mH",
+            "B. 25 mH",
+            "C. 12.5 mH"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "If the number of turns of an air-core inductor is doubled while maintaining the same physical length and cross-sectional area, its new inductance will be:",
+        "choices": [
+            "A. Halved",
+            "B. Doubled",
+            "C. Quadrupled",
+            "D. Unchanged"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "What happens to the total capacitance when an array of capacitors is connected in series rather than parallel?",
+        "choices": [
+            "A. The total capacitance is greater than the largest individual capacitor",
+            "B. The total capacitance is less than the smallest individual capacitor",
+            "C. The total capacitance equals the average of the capacitors",
+            "D. The total capacitance approaches infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "A circuit contains a 4 uF, a 6 uF, and a 12 uF capacitor in series. What is the total equivalent capacitance?",
+        "choices": [
+            "A. 2 uF",
+            "B. 22 uF",
+            "C. 3 uF",
+            "D. 4.8 uF"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "For a capacitor in a DC circuit, the current i(t) is mathematically related to the voltage v(t) by which equation?",
+        "choices": [
+            "A. i = L (dv/dt)",
+            "B. i = (1/C) integral(v dt)",
+            "C. i = C (dv/dt)",
+            "D. i = V/C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "Three inductors (3 H, 6 H, 9 H) are connected in parallel. Assume no mutual inductance. What is their equivalent inductance?",
+        "choices": [
+            "A. 18 H",
+            "B. 1.64 H",
+            "C. 3 H",
+            "D. 1.5 H"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "When applying the dot convention for coupled coils in series, if the current enters the dotted terminal of both coils, the mutual inductance is considered:",
+        "choices": [
+            "A. Opposing (subtractive)",
+            "B. Aiding (additive)",
+            "C. Zero",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "A 2 uF capacitor is connected in parallel with a 3 uF capacitor. This parallel combination is then connected in series with a 5 uF capacitor. What is the total equivalent capacitance?",
+        "choices": [
+            "A. 10 uF",
+            "B. 2.5 uF",
+            "C. 3.33 uF",
+            "D. 1.2 uF"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 48,
+        "question": "Calculate the energy stored in a 10 uF capacitor that has a charge of 500 uC.",
+        "choices": [
+            "A. 12.5 mJ",
+            "B. 25 mJ",
+            "C. 5 mJ",
+            "D. 2.5 mJ"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "An inductor has a value of 2 H. If the current through it changes uniformly from 2 A to 6 A in 0.5 seconds, what is the magnitude of the induced EMF?",
+        "choices": [
+            "A. 4 V",
+            "B. 8 V",
+            "C. 16 V",
+            "D. 2 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "Two mutually coupled coils have L1 = 12 mH, L2 = 3 mH, and k = 0.5. They are connected in series opposing. What is the equivalent total inductance?",
+        "choices": [
+            "A. 18 mH",
+            "B. 12 mH",
+            "C. 9 mH",
+            "D. 15 mH"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "A capacitor's dielectric has broken down, creating a conductive path between the plates. In a DC circuit, this failed component will now act as a:",
+        "choices": [
+            "A. Perfect open circuit",
+            "B. Capacitor with infinite capacitance",
+            "C. Low-resistance short circuit",
+            "D. Voltage amplifier"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "If the current flowing through an inductor is constant DC, the induced voltage across it is:",
+        "choices": [
+            "A. Equal to the supply voltage",
+            "B. Infinite",
+            "C. Zero",
+            "D. Dependent on the inductance value only"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 53,
+        "question": "A 50 V DC source is applied across a series combination of a 10-ohm resistor and a 5 H inductor. What is the rate of change of current (di/dt) at the exact instant the circuit is energized (t=0)?",
+        "choices": [
+            "A. 10 A/s",
+            "B. 0 A/s",
+            "C. 50 A/s",
+            "D. 5 A/s"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "The equivalent capacitance of two identical capacitors in series is 10 uF. What is the value of each individual capacitor?",
+        "choices": [
+            "A. 5 uF",
+            "B. 20 uF",
+            "C. 10 uF",
+            "D. 40 uF"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "If the plate area of a parallel-plate capacitor is increased by a factor of 4, and the distance between plates is doubled, the capacitance is:",
+        "choices": [
+            "A. Doubled",
+            "B. Halved",
+            "C. Quadrupled",
+            "D. Unchanged"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "For an inductor, the relationship between voltage, inductance, and current is defined by Faraday's law of induction. Which equation represents this?",
+        "choices": [
+            "A. v = L integral(i dt)",
+            "B. v = i / L",
+            "C. v = L (di/dt)",
+            "D. v = L (di/dt)^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "Which parameter determines the proportion of magnetic flux produced by one coil that links with a second mutually coupled coil?",
+        "choices": [
+            "A. Self-inductance",
+            "B. Quality factor",
+            "C. Coefficient of coupling",
+            "D. Dielectric constant"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "Two coils are connected in series aiding. The total inductance is 40 mH. When connected in series opposing, the total inductance is 20 mH. What is the mutual inductance between the two coils?",
+        "choices": [
+            "A. 10 mH",
+            "B. 5 mH",
+            "C. 20 mH",
+            "D. 2.5 mH"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "A 4 mH inductor and a 12 mH inductor are connected in parallel, with no mutual coupling. A total steady-state DC current of 16 A flows into the combination. How much current flows through the 4 mH inductor?",
+        "choices": [
+            "A. 12 A",
+            "B. 4 A",
+            "C. 8 A",
+            "D. 16 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "A circuit contains a 10 V source, a 2-ohm resistor, and a 0.5 F capacitor in series. At steady state, what is the energy stored in the capacitor?",
+        "choices": [
+            "A. 100 J",
+            "B. 25 J",
+            "C. 50 J",
+            "D. 0 J"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "The core material of an inductor is changed from air to a ferromagnetic material with a relative permeability of 1000. Assuming all physical dimensions remain the same, the energy storing capacity of the inductor for a given current will:",
+        "choices": [
+            "A. Decrease by a factor of 1000",
+            "B. Remain the same",
+            "C. Increase by a factor of 1000",
+            "D. Become zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "A capacitor is constructed of two parallel metal plates separated by a vacuum. If the vacuum is replaced by oil with a relative permittivity of 2.2, the capacitance will:",
+        "choices": [
+            "A. Decrease by a factor of 2.2",
+            "B. Increase by a factor of 2.2",
+            "C. Increase by a factor of 4.84",
+            "D. Not change"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "Which of the following combinations of capacitors will yield a total capacitance of 1 uF?",
+        "choices": [
+            "A. Two 2 uF capacitors in series",
+            "B. Two 0.5 uF capacitors in series",
+            "C. Two 1 uF capacitors in parallel",
+            "D. A 3 uF and a 2 uF capacitor in series"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "An ideal inductor in a DC circuit dissipates how much average real power in steady state?",
+        "choices": [
+            "A. It depends on the current",
+            "B. Zero watts",
+            "C. Infinite watts",
+            "D. It depends on the voltage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "The mutual inductance M between two coils is given by the formula M = k * sqrt(L1 * L2). If L1 is 10 mH, L2 is 40 mH, and the coupling coefficient k is 0.25, what is M?",
+        "choices": [
+            "A. 5 mH",
+            "B. 10 mH",
+            "C. 100 mH",
+            "D. 2.5 mH"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "In a linear circuit, what is the equivalent inductance of a 2 H and an 8 H inductor connected in series aiding, if they are perfectly coupled (k=1)?",
+        "choices": [
+            "A. 18 H",
+            "B. 10 H",
+            "C. 26 H",
+            "D. 14 H"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 67,
+        "question": "A 300 V DC source is connected across a series combination of two capacitors: C1 = 2 uF and C2 = 4 uF. What is the voltage drop across C1?",
+        "choices": [
+            "A. 100 V",
+            "B. 150 V",
+            "C. 200 V",
+            "D. 300 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "A 6 uF capacitor has a voltage v(t) = 10 sin(100t) Volts. What is the maximum current that flows through it? (Note: apply basic derivative rule even though evaluating DC concepts, for basic component behavior test)",
+        "choices": [
+            "A. 6 mA",
+            "B. 0.6 mA",
+            "C. 60 mA",
+            "D. 100 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "An air-core coil has an inductance of 1 mH. If an iron core is inserted, the inductance increases to 500 mH. What is the effective relative permeability of the iron core?",
+        "choices": [
+            "A. 1",
+            "B. 500",
+            "C. 1000",
+            "D. 0.002"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "If three 15 mH inductors are connected in delta (pi) formation, what is the equivalent inductance of each branch when converted to a wye (T) formation?",
+        "choices": [
+            "A. 45 mH",
+            "B. 15 mH",
+            "C. 5 mH",
+            "D. 30 mH"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "What is the primary physical function of a capacitor in a direct current (DC) power supply filter?",
+        "choices": [
+            "A. To step up the voltage",
+            "B. To convert AC current to DC current",
+            "C. To smooth out voltage ripples by storing and releasing charge",
+            "D. To provide a short circuit for DC"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "Two mutually coupled coils, L1 and L2, have a coupling coefficient k. If the distance between the two coils is increased significantly, what happens to k?",
+        "choices": [
+            "A. It approaches 1",
+            "B. It approaches 0",
+            "C. It becomes negative",
+            "D. It increases to infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "A capacitor C is charged by a constant current source of 2 mA. If the voltage across the capacitor increases by 10 V every 5 seconds, what is the value of C?",
+        "choices": [
+            "A. 1 mF",
+            "B. 2 mF",
+            "C. 100 uF",
+            "D. 500 uF"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "The equivalent inductance of two coils connected in parallel aiding is given by the formula:",
+        "choices": [
+            "A. (L1*L2 - M^2) / (L1 + L2 - 2M)",
+            "B. (L1*L2 + M^2) / (L1 + L2 + 2M)",
+            "C. L1 + L2 + 2M",
+            "D. (L1*L2) / (L1 + L2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "A 10 mF capacitor is charged to 12 V. It is then connected across an uncharged 5 mF capacitor. What is the total energy dissipated as heat in the connecting wires during the charge redistribution?",
+        "choices": [
+            "A. 0.240 J",
+            "B. 0 J",
+            "C. 0.160 J",
+            "D. 0.080 J"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "When an ideal inductor is suddenly connected to a DC voltage source through a switch, the current through the inductor immediately after the switch is closed is:",
+        "choices": [
+            "A. Infinite",
+            "B. Equal to V/L",
+            "C. Zero",
+            "D. Equal to the steady-state current"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "Which of the following best describes the \"dot convention\" used in magnetically coupled circuits?",
+        "choices": [
+            "A. Dots indicate the physical start of the winding wire",
+            "B. Dots indicate terminals where currents entering produce additive magnetic fluxes",
+            "C. Dots represent the positive voltage terminals exclusively",
+            "D. Dots are used to mark the high-resistance terminals"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "In a series-opposing connection of two coupled inductors, the total inductance is:",
+        "choices": [
+            "A. L1 + L2 + 2M",
+            "B. L1 + L2 - 2M",
+            "C. L1 + L2 + M",
+            "D. L1 + L2 - M"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "A 1 F capacitor is initially uncharged. A steady DC current of 1 A flows into it for 1 second. What is the energy stored in the capacitor at the end of this period?",
+        "choices": [
+            "A. 1 J",
+            "B. 0.5 J",
+            "C. 2 J",
+            "D. 0 J"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "Calculate the equivalent inductance of three 12 H inductors connected in parallel, assuming no mutual coupling.",
+        "choices": [
+            "A. 4 H",
+            "B. 36 H",
+            "C. 12 H",
+            "D. 0.33 H"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 81,
+        "question": "Two identical coils are connected in series aiding. The total equivalent inductance is measured as 100 mH. When reconnected in series opposing, the equivalent inductance is 60 mH. What is the self-inductance of each coil?",
+        "choices": [
+            "A. 40 mH",
+            "B. 80 mH",
+            "C. 20 mH",
+            "D. 10 mH"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "A capacitor's value is determined by the physical characteristics of the device. Which of the following will decrease the capacitance?",
+        "choices": [
+            "A. Using a dielectric with a higher permittivity",
+            "B. Increasing the area of the plates",
+            "C. Decreasing the distance between the plates",
+            "D. Increasing the distance between the plates"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "Two capacitors, C1 and C2, are connected in series. If C1 is much larger than C2 (C1 >> C2), the equivalent series capacitance is approximately equal to:",
+        "choices": [
+            "A. C1",
+            "B. C1 + C2",
+            "C. C2",
+            "D. Zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "An inductor is constructed by winding 100 turns of wire around a toroidal core. If a second inductor is built using the exact same core but with 300 turns, its inductance will be how many times larger than the first?",
+        "choices": [
+            "A. 3 times",
+            "B. 6 times",
+            "C. 9 times",
+            "D. 27 times"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "A 5 V DC source is connected across a 10 uF capacitor. In steady-state, what is the charge on the positive plate of the capacitor?",
+        "choices": [
+            "A. 2 uC",
+            "B. 50 uC",
+            "C. 15 uC",
+            "D. 5 uC"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "Which theorem would be most useful to simplify a complex DC resistive circuit into a single voltage source and a single series resistor before calculating the steady-state energy stored in a subsequently attached capacitor?",
+        "choices": [
+            "A. Superposition Theorem",
+            "B. Norton's Theorem",
+            "C. Tellegen's Theorem",
+            "D. Thevenin's Theorem"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "In a circuit with two coupled inductors, L1 = 8 H and L2 = 2 H. If they are perfectly coupled, what is the equivalent inductance if they are connected in parallel opposing?",
+        "choices": [
+            "A. 0 H",
+            "B. 1 H",
+            "C. 1.6 H",
+            "D. Infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "A 50 pF capacitor is charged to 1000 V. What is the energy stored?",
+        "choices": [
+            "A. 0.05 J",
+            "B. 0.025 J",
+            "C. 2.5 J",
+            "D. 50 mJ"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "What is the time constant of a circuit containing a 100-ohm resistor and a 5 mH inductor in series?",
+        "choices": [
+            "A. 50 ms",
+            "B. 0.5 ms",
+            "C. 500 ms",
+            "D. 0.05 ms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "If a dielectric material in a capacitor has a relative permittivity (dielectric constant) of 5, this means its capacitance is how many times greater than if the dielectric were a vacuum?",
+        "choices": [
+            "A. 1/5",
+            "B. 25",
+            "C. 5",
+            "D. 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "An inductor of 0.5 H has a DC resistance of 10 ohms. If connected to a 20V DC source, what is the steady-state energy stored in the magnetic field?",
+        "choices": [
+            "A. 1 J",
+            "B. 2 J",
+            "C. 0.5 J",
+            "D. 4 J"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 93,
+        "question": "When two non-coupled inductors are in parallel, the current divides between them. The branch with the larger inductance will carry:",
+        "choices": [
+            "A. Less current than the smaller inductor branch",
+            "B. More current than the smaller inductor branch",
+            "C. The same current",
+            "D. Zero current"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "A capacitor holds a charge of 0.02 Coulombs when 100 Volts is applied. What is its capacitance?",
+        "choices": [
+            "A. 2 uF",
+            "B. 200 uF",
+            "C. 2 F",
+            "D. 20 uF"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "Which of the following statements about ideal DC behavior is strictly true?",
+        "choices": [
+            "A. Capacitors act as short circuits, inductors as open circuits",
+            "B. Capacitors act as open circuits, inductors as short circuits",
+            "C. Both act as short circuits",
+            "D. Both act as open circuits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "The mutual inductance between two coils is 10 mH. If the current in the first coil changes at a rate of 5 A/s, what is the voltage induced in the second coil?",
+        "choices": [
+            "A. 2 mV",
+            "B. 50 mV",
+            "C. 0.5 V",
+            "D. 5 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "A circuit contains a parallel combination of two identical capacitors, each with capacitance",
+        "choices": [
+            "C. This combination is then connected in series with a third identical capacitor",
+            "C. What is the total equivalent capacitance?",
+            "A. (2/3) C",
+            "B. 1.5 C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "If the current through a 100 mH inductor is constant at 5 A, what is the induced voltage across it?",
+        "choices": [
+            "A. 0.5 V",
+            "B. 50 V",
+            "C. 0 V",
+            "D. 5 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "Two capacitors, 20 uF and 30 uF, are connected in series. A DC voltage of 100V is applied across the combination. What is the voltage across the 20 uF capacitor?",
+        "choices": [
+            "A. 40 V",
+            "B. 60 V",
+            "C. 50 V",
+            "D. 20 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 100,
+        "question": "Which of the following affects the inductance of a coil?",
+        "choices": [
+            "A. The voltage applied across it",
+            "B. The steady-state DC current flowing through it",
+            "C. The number of turns of wire",
+            "D. The resistance of the wire used"
+        ],
+        "correct_answer": "C"
+    }
+]

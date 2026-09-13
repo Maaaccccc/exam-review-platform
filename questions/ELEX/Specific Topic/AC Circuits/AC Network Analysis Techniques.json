@@ -1,0 +1,1069 @@
+[
+    {
+        "number": 1,
+        "question": "The product of the RMS voltage and the RMS current in an AC circuit mathematically defines the:",
+        "choices": [
+            "A. Active Power",
+            "B. Reactive Power",
+            "C. Apparent Power",
+            "D. Complex Power"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "The exact AC mesh equation for Mesh 1 is:",
+        "choices": [
+            "A. (2 - j4)I1 - (-j4)I2 = 10<0",
+            "B. (2 - j4)I1 + (-j4)I2 = 10<0",
+            "C. (2 + j4)I1 - (-j4)I2 = 10<0",
+            "D. (2)I1 - (j4)I2 = 10<0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "Worded circuit: An impedance Z = 6 + j8 ohms is connected to a 100V RMS AC source. What is the mathematically exact reactive power drawn from the source?",
+        "choices": [
+            "A. 1000 VAR",
+            "B. 800 VAR",
+            "C. 600 VAR",
+            "D. 1200 VAR"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 4,
+        "question": "Worded circuit: A load draws a complex power of S = 1200 - j900 VA. What is the exact magnitude of the apparent power and the nature of the power factor?",
+        "choices": [
+            "A. 1500 VA, Lagging",
+            "B. 2100 VA, Leading",
+            "C. 1500 VA, Unity",
+            "D. 1500 VA, Leading"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "The theoretical active power (P) mathematically dissipated in a purely ideal capacitive AC circuit operating at steady-state is exactly:",
+        "choices": [
+            "A. Infinite",
+            "B. 0 W",
+            "C. Vrms * Irms",
+            "D. Vrms^2 * XC"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "Worded circuit: Two parallel loads are connected to a 200V source. Load 1 draws S1 = 300 + j400 VA. Load 2 draws S2 = 500 - j200 VA. The exact total complex power drawn is:",
+        "choices": [
+            "A. 800 + j200 VA",
+            "B. 200 + j600 VA",
+            "C. 800 - j200 VA",
+            "D. 800 + j600 VA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "Worded circuit: An industrial plant draws 100 kVA at a lagging power factor of 0.8. What is the mathematically exact maximum active power it can safely draw if the power factor is corrected to unity without exceeding the kVA rating?",
+        "choices": [
+            "A. 80 kW",
+            "B. 60 kW",
+            "C. 100 kW",
+            "D. 125 kW"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "Instantaneous power p(t) can theoretically be negative during a portion of an AC cycle. Physically, a negative p(t) strictly indicates that electrical energy is:",
+        "choices": [
+            "A. Being completely converted into heat",
+            "B. Being absorbed continuously by the load",
+            "C. Being permanently lost due to line resistance",
+            "D. Flowing back from the reactive load to the source"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "In AC mesh analysis, the fundamental principle utilized to derive the loop equations is mathematically based strictly on:",
+        "choices": [
+            "A. Kirchhoff's Current Law",
+            "B. Kirchhoff's Voltage Law",
+            "C. Ohm's Law only",
+            "D. Faraday's Law"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "When formulating the mesh current equations for a planar AC circuit in matrix form [Z][I] = [V], the diagonal elements of the impedance matrix [Z] represent the:",
+        "choices": [
+            "A. Mutual impedance between adjacent meshes",
+            "B. Total admittance of the respective mesh",
+            "C. Total self-impedance of the respective mesh",
+            "D. Sum of voltage sources in the mesh"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "In AC mesh analysis, a \"supermesh\" is mathematically and physically created when a specific circuit element is shared strictly between two adjacent meshes. This element is a/an:",
+        "choices": [
+            "A. Ideal current source",
+            "B. Ideal voltage source",
+            "C. Purely capacitive reactance",
+            "D. Purely inductive reactance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "Worded circuit: A planar AC circuit has exactly 4 nodes and 6 branches. What is the mathematically exact minimum number of independent mesh equations required to fully solve the circuit?",
+        "choices": [
+            "A. 4",
+            "B. 2",
+            "C. 5",
+            "D. 3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "In a standard mesh impedance matrix [Z], if there are no dependent sources, the mutual impedance Z_ij strictly mathematically relates to Z_ji as:",
+        "choices": [
+            "A. Z_ij = -Z_ji",
+            "B. Z_ij = Z_ji",
+            "C. Z_ij = 1 / Z_ji",
+            "D. Z_ij = Z_ji* (conjugate)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Worded circuit: A 2-mesh AC circuit yields the determinant delta = 10 + j0. The voltage matrix has V1 = 50<0 and V2 = 0. The mutual impedance is -j5. Solving via Cramer's rule, what is the nature of the math used to find I2?",
+        "choices": [
+            "A. Vector division",
+            "B. Scalar addition",
+            "C. Complex matrix algebra",
+            "D. Real integration"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "Mesh analysis is fundamentally mathematically restricted and CANNOT be directly applied to circuit topologies that are:",
+        "choices": [
+            "A. Highly reactive",
+            "B. Containing dependent sources",
+            "C. Unbalanced three-phase",
+            "D. Non-planar"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "Worded circuit: Mesh 1 has self-impedance Z11 = 5 + j5 ohms. Mesh 2 has self-impedance Z22 = 5 - j5 ohms. They share a mutual impedance Z12 = -j5 ohms. If V1 = 100<0 V and V2 = 0, what is the exact value of mesh current I1?",
+        "choices": [
+            "A. 10 - j10 A",
+            "B. 20 + j0 A",
+            "C. 10 + j0 A",
+            "D. 5 - j5 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "Worded circuit: In an AC mesh network, a dependent voltage source V_x is controlled by the current in another mesh: V_x = 2*I_2. This strictly causes the resulting mesh impedance matrix [Z] to become:",
+        "choices": [
+            "A. Purely real",
+            "B. Perfectly diagonal",
+            "C. Asymmetrical",
+            "D. Singular"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "When creating a supermesh equation to bypass a shared current source between Mesh 1 and Mesh 2, the strict mathematical constraint equation linking the two mesh currents (assuming the source I_s points in the direction of I2) is:",
+        "choices": [
+            "A. I2 - I1 = I_s",
+            "B. I1 + I2 = I_s",
+            "C. I1 - I2 = I_s",
+            "D. I2 = I_s * I1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 20,
+        "question": "The mathematically exact formula for calculating the required number of independent mesh equations (M) in a planar network with B branches and N nodes is:",
+        "choices": [
+            "A. M = B + N - 1",
+            "B. M = B - N + 2",
+            "C. M = B / N",
+            "D. M = B - N + 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "Worded circuit: An AC circuit has two meshes. I1 is calculated as 4 + j3 A, and I2 is calculated as 4 - j3",
+        "choices": [
+            "A. The branch shared by both meshes carries the current (I1 - I2). What is the exact mathematical phase angle of this shared branch current?",
+            "A. 90 degrees",
+            "B. 0 degrees",
+            "C. -90 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "In AC nodal analysis, the fundamental principle utilized to derive the node equations is mathematically based strictly on:",
+        "choices": [
+            "A. Kirchhoff's Voltage Law",
+            "B. Kirchhoff's Current Law",
+            "C. Thevenin's Theorem",
+            "D. Superposition Theorem"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "In AC nodal analysis, a \"supernode\" is mathematically and physically established when a specific circuit element is connected strictly between two non-reference nodes. This element is a/an:",
+        "choices": [
+            "A. Ideal current source",
+            "B. Purely resistive impedance",
+            "C. Ideal voltage source",
+            "D. Purely reactive admittance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "When formulating the AC nodal equations in matrix form [Y][V] = [I], the diagonal elements (Y_ii) of the admittance matrix [Y] mathematically represent the:",
+        "choices": [
+            "A. Sum of all admittances connected directly to node i",
+            "B. Mutual admittance between node i and node j",
+            "C. Sum of all current sources entering node i",
+            "D. Inverse of the Thevenin impedance at node i"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "Worded circuit: A complex AC circuit has exactly 6 nodes. One node is designated as the reference (ground). What is the exact mathematically minimum number of independent nodal equations required?",
+        "choices": [
+            "A. 6",
+            "B. 4",
+            "C. 7",
+            "D. 5"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 26,
+        "question": "Worded circuit: Node 1 is connected to a 5<0 A current source (entering), a 0.2 S conductance to ground, and a j0.1 S susceptance to Node 2. The exact AC nodal equation for Node 1 is:",
+        "choices": [
+            "A. (0.2 + j0.1)V1 + (j0.1)V2 = 5<0",
+            "B. (0.2 + j0.1)V1 - (j0.1)V2 = 5<0",
+            "C. (0.2)V1 - (j0.1)V2 = 5<0",
+            "D. (0.2 - j0.1)V1 - (j0.1)V2 = -5<0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "When dealing with a supernode enclosing Node 1 and Node 2 connected by an AC voltage source V_s (positive at Node 1), the strict mathematical voltage constraint equation is:",
+        "choices": [
+            "A. V1 + V2 = V_s",
+            "B. V2 - V1 = V_s",
+            "C. V1 - V2 = V_s",
+            "D. V1 = V_s * V2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Worded circuit: A circuit has two non-reference nodes. Node 1 is fed by 10<0",
+        "choices": [
+            "A. The self-admittance of Node 1 is 1-j1 S, Node 2 is 1+j1 S, and the mutual admittance is completely zero. What is the exact voltage V1?",
+            "A. 5 + j5 V",
+            "B. 5 - j5 V",
+            "C. 10 + j10 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 29,
+        "question": "For an AC circuit containing significantly more loops than nodes, which mathematical analysis technique generally yields the fewest number of simultaneous equations?",
+        "choices": [
+            "A. Mesh Analysis",
+            "B. Superposition Theorem",
+            "C. Millman's Theorem",
+            "D. Nodal Analysis"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "Worded circuit: In an AC nodal network, a dependent current source entering Node 1 is mathematically defined as 0.5*V2. When forming the admittance matrix [Y], this dependent source strictly causes the matrix to become:",
+        "choices": [
+            "A. Singular",
+            "B. Asymmetrical",
+            "C. Perfectly diagonal",
+            "D. Purely real"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "In a standard AC nodal admittance matrix [Y] with no dependent sources, the off-diagonal element Y_ij mathematically represents:",
+        "choices": [
+            "A. The sum of all admittances at node i",
+            "B. The total impedance between node i and j",
+            "C. The negative sum of admittances directly connecting node i to node j",
+            "D. The positive sum of admittances directly connecting node i to node j"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "Worded circuit: An AC circuit has 3 non-reference nodes. If a 100V ideal AC voltage source connects Node 2 directly to the reference ground, the exact mathematical value of V2 is:",
+        "choices": [
+            "A. 100<0 V",
+            "B. 0 V",
+            "C. 100<90 V",
+            "D. Undefined"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "Worded circuit: Node 1 has a pure capacitive admittance of j0.5 S to ground. A current source of 10<90 A feeds the node. What is the exact mathematical AC voltage at Node 1?",
+        "choices": [
+            "A. 20<180 V",
+            "B. 20<-90 V",
+            "C. 20<90 V",
+            "D. 20<0 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 34,
+        "question": "Worded circuit: Node A and Node B are non-reference nodes. An ideal AC voltage source V1 connects Node A to ground. Another ideal AC voltage source V2 connects Node A to Node",
+        "choices": [
+            "B. To mathematically solve this circuit using nodal analysis, one must establish:",
+            "A. A supermesh",
+            "B. A supernode enclosing Node A and Node B",
+            "C. A Norton equivalent"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "The Superposition Theorem in AC network analysis is mathematically applicable strictly because the electrical components in the circuit exhibit:",
+        "choices": [
+            "A. Non-linear characteristics",
+            "B. High Quality factors",
+            "C. Linear mathematical relationships between voltage and current",
+            "D. Perfect resonance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "When systematically applying the AC Superposition Theorem, an ideal AC voltage source is mathematically \"turned off\" or \"deactivated\" by completely replacing it with a/an:",
+        "choices": [
+            "A. Short circuit",
+            "B. Open circuit",
+            "C. Internal impedance",
+            "D. Current source"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "When systematically applying the AC Superposition Theorem, an ideal AC current source is mathematically \"turned off\" or \"deactivated\" by completely replacing it with a/an:",
+        "choices": [
+            "A. Short circuit",
+            "B. Internal admittance",
+            "C. Voltage source",
+            "D. Open circuit"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 38,
+        "question": "Consider the following statement: \"In a linear AC circuit, the total active power dissipated by a resistor is equal to the algebraic sum of the active powers dissipated due to each independent source acting alone.\" This statement is:",
+        "choices": [
+            "A. Strictly true for all frequencies",
+            "B. Strictly false under all conditions",
+            "C. True only if the sources are purely DC",
+            "D. True only if the sources have different frequencies"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "If an AC circuit contains two independent sources operating at completely different frequencies, how must the Superposition Theorem be mathematically applied?",
+        "choices": [
+            "A. It cannot be applied at all",
+            "B. The impedances must be averaged",
+            "C. The circuit must be solved separately for each frequency, and the resulting time-domain expressions added",
+            "D. The voltage magnitudes can be added algebraically"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "Worded circuit: An AC circuit contains two identical 10<0 V sources. Source 1 acting alone produces a current of 2 + j2 A in a branch. Source 2 acting alone produces a current of 3 - j2 A in the same branch. The exact total complex current is:",
+        "choices": [
+            "A. 5 + j0 A",
+            "B. 1 - j4 A",
+            "C. 5 + j4 A",
+            "D. -1 + j4 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "Worded circuit: A resistor R = 10 ohms is subjected to a combined AC and DC current: i(t) = 5 + 10 sin(wt)",
+        "choices": [
+            "A. What is the mathematically exact total RMS voltage across the resistor?",
+            "A. 150 V",
+            "B. 70.7 V",
+            "C. 122.5 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 42,
+        "question": "Worded circuit: An AC circuit contains a dependent voltage source mathematically defined as 2*Ix. When applying the Superposition Theorem, this dependent source must strictly be:",
+        "choices": [
+            "A. Replaced by a short circuit",
+            "B. Kept active in the circuit for every step of the analysis",
+            "C. Replaced by an open circuit",
+            "D. Treated as an independent source"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Worded circuit: A linear circuit has a 12V DC source and a 10V peak AC source. When applying superposition to find the DC component of the load voltage, the AC source is strictly replaced by a/an:",
+        "choices": [
+            "A. Short circuit",
+            "B. Open circuit",
+            "C. Capacitor",
+            "D. Inductor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "The Superposition Theorem is mathematically valid for computing which of the following AC circuit quantities?",
+        "choices": [
+            "A. Active Power",
+            "B. Reactive Power",
+            "C. Complex Voltage and Complex Current",
+            "D. Apparent Power"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "Worded circuit: Two AC sources of the exact same frequency drive a 10-ohm resistor. Source 1 produces V1 = 10<0 V across it. Source 2 produces V2 = 10<90 V across it. The exact total active power mathematically dissipated is:",
+        "choices": [
+            "A. 10 W",
+            "B. 20 W",
+            "C. 0 W",
+            "D. 200 W"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 46,
+        "question": "Worded circuit: Source 1 acting alone causes a voltage of 10<0 V across a capacitor. Source 2 (same frequency) acting alone causes a voltage of 10<180 V across the exact same capacitor. The exact total voltage is:",
+        "choices": [
+            "A. 20<0 V",
+            "B. 0 V",
+            "C. 10<90 V",
+            "D. 14.14<45 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "Worded circuit: A network has 3 independent AC sources. Using superposition to find a specific branch current mathematically requires solving the complete circuit how many exact times?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "In AC circuit analysis, the Thevenin equivalent voltage (V_th) is mathematically strictly defined as the:",
+        "choices": [
+            "A. Open-circuit complex voltage measured at the load terminals",
+            "B. Short-circuit complex current at the load terminals",
+            "C. Ratio of open-circuit voltage to short-circuit current",
+            "D. Voltage dropped across the internal impedance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "In AC circuit analysis, the Thevenin equivalent impedance (Z_th) is mathematically strictly defined as the complex impedance looking into the open load terminals when all independent sources are:",
+        "choices": [
+            "A. Left active",
+            "B. Replaced by short circuits",
+            "C. Driven to resonance",
+            "D. Deactivated (voltage sources shorted, current sources opened)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "If an AC circuit contains dependent sources, the Thevenin equivalent impedance (Z_th) CANNOT be found by simply combining passive components. It must be mathematically calculated using the strict ratio of:",
+        "choices": [
+            "A. V_th to V_load",
+            "B. V_th to I_sc (Short-circuit current)",
+            "C. I_sc to V_th",
+            "D. V_load to I_load"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "If the Thevenin equivalent voltage V_th and Thevenin equivalent impedance Z_th of an AC network are known, the exact Norton equivalent current I_n is mathematically:",
+        "choices": [
+            "A. V_th + Z_th",
+            "B. V_th * Z_th",
+            "C. V_th / Z_th",
+            "D. Z_th / V_th"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "Worded circuit: A Thevenin equivalent circuit is to be found for a network consisting purely of a 10-ohm resistor in parallel with an inductor of j10 ohms (sources deactivated). The exact Thevenin impedance Z_th is:",
+        "choices": [
+            "A. 5 + j5 ohms",
+            "B. 10 + j10 ohms",
+            "C. 5 - j5 ohms",
+            "D. 10 - j10 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "Worded circuit: An AC voltage source V = 100<0 V is in series with a 50-ohm resistor. This combination is in parallel with a capacitor of -j50 ohms. The exact open-circuit Thevenin voltage V_th across the capacitor is:",
+        "choices": [
+            "A. 50 - j50 V",
+            "B. 100<0 V",
+            "C. 70.7<-45 V",
+            "D. 50 - j50 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 54,
+        "question": "Worded circuit: A Wheatstone bridge configuration is driven by an AC source. To mathematically determine the exact Thevenin impedance facing the galvanometer branch, one must replace the AC source with a short circuit and calculate the:",
+        "choices": [
+            "A. Parallel equivalent of all four arms",
+            "B. Equivalent impedance looking strictly into the galvanometer terminals",
+            "C. Series sum of the arms",
+            "D. Admittance of the source"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "When utilizing the \"test source\" method to mathematically find Z_th in a highly complex circuit containing dependent sources, one applies a test voltage V_test at the load terminals, calculates the resulting current I_test entering the terminals, and computes Z_th exactly as:",
+        "choices": [
+            "A. I_test / V_test",
+            "B. V_test * I_test",
+            "C. V_test / I_test",
+            "D. (V_test)^2 / I_test"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "Worded circuit: An ideal 50V AC voltage source is connected directly across the terminals A and",
+        "choices": [
+            "B. What is the mathematically exact Thevenin impedance (Z_th) looking into terminals A and B?",
+            "A. 0 ohms",
+            "B. Infinite",
+            "C. 50 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 57,
+        "question": "The mathematical phase angle of a complex Thevenin impedance (Z_th) physically determines whether the equivalent internal network behaves as predominantly:",
+        "choices": [
+            "A. Active or passive",
+            "B. Linear or non-linear",
+            "C. Series or parallel",
+            "D. Inductive or capacitive"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "Worded circuit: A Thevenin equivalent circuit has V_th = 20<0 V and Z_th = 5 + j5 ohms. If a purely resistive load R_L = 5 ohms is connected, what is the exact magnitude of the load current?",
+        "choices": [
+            "A. 4.0 A",
+            "B. 1.79 A",
+            "C. 2.0 A",
+            "D. 2.83 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "If an AC circuit strictly contains multiple independent sources operating at completely different frequencies, the circuit:",
+        "choices": [
+            "A. Can be modeled by a single Thevenin equivalent",
+            "B. Cannot be modeled by a Thevenin equivalent",
+            "C. Must be modeled by a separate Thevenin equivalent circuit mathematically derived for each individual frequency",
+            "D. Can only be modeled using Norton's Theorem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "Worded circuit: A circuit consists of an independent current source I_s and a dependent voltage source V_x = 3*I_s. The exact Thevenin equivalent voltage V_th across the output terminals is mathematically directly proportional to:",
+        "choices": [
+            "A. I_s",
+            "B. I_s squared",
+            "C. The test current",
+            "D. Zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "The fundamental concept stating that any linear AC Thevenin equivalent circuit can be mathematically converted into a parallel AC Norton equivalent circuit is formally known as:",
+        "choices": [
+            "A. Millman's Theorem",
+            "B. Superposition",
+            "C. Maximum Power Transfer",
+            "D. Source Transformation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 62,
+        "question": "In AC circuit analysis, the Norton equivalent current (I_n) is mathematically strictly defined as the:",
+        "choices": [
+            "A. Open-circuit complex voltage at the load terminals",
+            "B. Short-circuit complex current flowing exactly through the connected load terminals",
+            "C. Ratio of V_th to R_th",
+            "D. Complex power divided by voltage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "The Norton equivalent circuit physically and mathematically consists of the Norton current source I_n connected strictly in:",
+        "choices": [
+            "A. Series with the Norton impedance Z_n",
+            "B. Series with the Thevenin voltage V_th",
+            "C. Parallel with the Norton impedance Z_n (where Z_n = Z_th)",
+            "D. Parallel with the load only"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "The mathematically exact relationship between the Norton equivalent impedance (Z_n) and the Thevenin equivalent impedance (Z_th) for any linear AC network is:",
+        "choices": [
+            "A. Z_n = Z_th",
+            "B. Z_n = 1 / Z_th",
+            "C. Z_n = Z_th (conjugate)",
+            "D. Z_n = -Z_th"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "To mathematically perform an AC source transformation converting a practical voltage source (V_s in series with Z_s) into a practical current source (I_s in parallel with Z_p), the strict formulas are:",
+        "choices": [
+            "A. I_s = V_s * Z_s, Z_p = 1/Z_s",
+            "B. I_s = V_s - Z_s, Z_p = Z_s",
+            "C. I_s = Z_s / V_s, Z_p = Z_s",
+            "D. I_s = V_s / Z_s, Z_p = Z_s"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 66,
+        "question": "Worded circuit: A Thevenin circuit has V_th = 100<0 V and Z_th = 10 + j10 ohms. What is the exact mathematical value of the Norton current I_n in polar form?",
+        "choices": [
+            "A. 10<-45 A",
+            "B. 7.07<-45 A",
+            "C. 7.07<45 A",
+            "D. 10<45 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "Worded circuit: A Norton circuit has I_n = 5<30 A and Z_n = 20<-45",
+        "choices": [
+            "A. What is the mathematically exact Thevenin voltage V_th?",
+            "A. 100<75 V",
+            "B. 4<75 V",
+            "C. 100<-15 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "Worded circuit: An AC voltage source V = 50<90 V is in series with a resistor R = 10 ohms and an inductor XL = 10 ohms. What is the exact complex value of the short-circuit Norton current I_n?",
+        "choices": [
+            "A. 3.54<45 A",
+            "B. 5.0<45 A",
+            "C. 3.54<-45 A",
+            "D. 5.0<90 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "If a complex AC circuit contains ONLY dependent sources (absolutely no independent sources), the exact mathematical value of the Norton short-circuit current I_n is strictly:",
+        "choices": [
+            "A. Infinite",
+            "B. V_th / Z_th",
+            "C. Undefined",
+            "D. Zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "Worded circuit: A completely passive AC network consists of purely reactive components (inductors and capacitors). The exact mathematical Norton equivalent impedance Z_n will strictly be:",
+        "choices": [
+            "A. A pure resistance",
+            "B. Purely imaginary (reactance)",
+            "C. Zero",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "Worded circuit: Two Norton equivalent circuits are connected perfectly in parallel. Circuit 1 has I_n1 = 5<0",
+        "choices": [
+            "A. Circuit 2 has I_n2 = 5<180",
+            "A. The exact total combined Norton current for the overall parallel system is:",
+            "A. 10<0 A",
+            "B. 10<90 A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "Worded circuit: An AC bridge circuit is balanced. The mathematically exact Norton short-circuit current I_n measured strictly across the detector terminals is:",
+        "choices": [
+            "A. 0 A",
+            "B. Infinite",
+            "C. Equal to the source current",
+            "D. Undefined"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "When mathematically solving an AC circuit in the frequency domain (using s or jw), the principle of source transformation:",
+        "choices": [
+            "A. Is completely invalid",
+            "B. Requires changing Z to 1/Z",
+            "C. Only applies to resistors",
+            "D. Remains completely valid and mathematically identical to the DC application"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "Worded circuit: A Norton equivalent circuit has an internal admittance Y_n = 0.03 + j0.04 S. The mathematically exact Norton impedance Z_n is:",
+        "choices": [
+            "A. 30 - j40 ohms",
+            "B. 12 - j16 ohms",
+            "C. 0.03 - j0.04 ohms",
+            "D. 3 + j4 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "According to the Maximum Power Transfer Theorem in AC circuits, to mathematically transfer the absolute maximum active power to a load impedance Z_L, the load must strictly be chosen such that:",
+        "choices": [
+            "A. Z_L = Z_th",
+            "B. Z_L = 1 / Z_th",
+            "C. Z_L = Z_th* (the complex conjugate of Z_th)",
+            "D. Z_L = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "If the Thevenin impedance is Z_th = R_th + jX_th, selecting the load Z_L = R_th - jX_th physically guarantees that the total mathematical series reactance of the system becomes:",
+        "choices": [
+            "A. Infinite",
+            "B. Doubled",
+            "C. Unchanged",
+            "D. Exactly zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "If the load in an AC circuit is restricted to being a PURELY RESISTIVE element (Z_L = R_L), the mathematically exact condition to extract maximum real power from a source with Z_th = R_th + jX_th is:",
+        "choices": [
+            "A. R_L = R_th",
+            "B. R_L = X_th",
+            "C. R_L = R_th + X_th",
+            "D. R_L = sqrt(R_th^2 + X_th^2) (i.e.,"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 78,
+        "question": "Worded circuit: A communication transmitter has an internal Thevenin impedance Z_th = 50 + j20 ohms. To mathematically achieve maximum active power transfer, the exact antenna load impedance Z_L must be:",
+        "choices": [
+            "A. 50 + j20 ohms",
+            "B. 50 - j20 ohms",
+            "C. 50 + j0 ohms",
+            "D. 20 - j50 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "Worded circuit: An AC audio amplifier has an output impedance of Z_th = 40 - j30 ohms. The strictly optimal load impedance Z_L for maximum power transfer is:",
+        "choices": [
+            "A. 40 - j30 ohms",
+            "B. 50 + j0 ohms",
+            "C. 40 + j30 ohms",
+            "D. 30 + j40 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 81,
+        "question": "When a load is perfectly mathematically matched to an AC source for maximum active power transfer (Z_L = Z_th*), the theoretical maximum electrical efficiency of the power transfer is strictly:",
+        "choices": [
+            "A. 100%",
+            "B. 70.7%",
+            "C. 25%",
+            "D. 50%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "Worded circuit: A Thevenin source has V_th = 20<0 V RMS and Z_th = 10 + j10 ohms. If a perfectly matched load is connected, what is the exact maximum active power transferred?",
+        "choices": [
+            "A. 5 W",
+            "B. 20 W",
+            "C. 10 W",
+            "D. 40 W"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "Worded circuit: A Thevenin source has Z_th = 30 + j40 ohms. If the load is constrained to be a PURE RESISTOR, what mathematically exact value of R_L absorbs the maximum possible active power?",
+        "choices": [
+            "A. 50 ohms",
+            "B. 30 ohms",
+            "C. 40 ohms",
+            "D. 70.7 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "Worded circuit: An AC source has Z_th = 8 - j6 ohms. It is connected to a purely resistive load R_L. For maximum power transfer under this restriction, the exact value of R_L is:",
+        "choices": [
+            "A. 8 ohms",
+            "B. 14 ohms",
+            "C. 6 ohms",
+            "D. 10 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "Worded circuit: An audio amplifier has an internal resistance of 800 ohms (purely real). It must drive a purely resistive 8-ohm speaker. To mathematically achieve maximum power transfer, an ideal matching transformer is used. The exact required turns ratio (N_primary / N_secondary) is:",
+        "choices": [
+            "A. 100",
+            "B. 10",
+            "C. 0.1",
+            "D. 1000"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "In RF engineering, perfectly matching a complex load to a complex source using reactive components (inductors and capacitors) is highly preferred over using resistors because pure reactive matching components theoretically dissipate:",
+        "choices": [
+            "A. Maximum power",
+            "B. Half the source power",
+            "C. Exactly zero active power",
+            "D. Reactive power as heat"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "Worded circuit: An AC generator has an internal impedance of 50 + j100 ohms at 1 MHz. To mathematically extract maximum real power, the load must consist of a 50-ohm resistor strictly in series with a:",
+        "choices": [
+            "A. Capacitor having XC = 100 ohms",
+            "B. Inductor having XL = 100 ohms",
+            "C. Resistor of 100 ohms",
+            "D. Capacitor having XC = 50 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "Millman's Theorem in AC network analysis provides a highly efficient mathematical method strictly for finding the common voltage across:",
+        "choices": [
+            "A. A series combination of voltage sources",
+            "B. A Wheatstone bridge detector",
+            "C. A cascaded amplifier network",
+            "D. A set of parallel branches containing voltage sources and impedances"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 90,
+        "question": "The exact mathematical formula for the common Millman voltage (V_AB) across a set of parallel branches (where each branch has a voltage source V_i and an impedance Z_i) is strictly:",
+        "choices": [
+            "A. V_AB = Sum(V_i * Z_i) / Sum(Z_i)",
+            "B. V_AB = Sum(V_i * Y_i) / Sum(Y_i)",
+            "C. V_AB = Sum(V_i / Y_i) * Sum(Z_i)",
+            "D. V_AB = Sum(V_i) / Sum(Y_i)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "Millman's Theorem mathematically functions by converting every individual practical voltage branch into its Norton equivalent, summing the currents, and then converting the total back. It is therefore a direct specific application of:",
+        "choices": [
+            "A. Superposition",
+            "B. Thevenin's Theorem",
+            "C. Source Transformation",
+            "D. Maximum Power Transfer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "Worded circuit: Branch 1 has V1 = 10<0 V and Z1 = 2 ohms. Branch 2 has V2 = 20<0 V and Z2 = 2 ohms. The branches are in perfect parallel. Using Millman's Theorem, the exact common voltage across them is:",
+        "choices": [
+            "A. 15<0 V",
+            "B. 30<0 V",
+            "C. 10<0 V",
+            "D. 20<0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 93,
+        "question": "When mathematically applying Millman's Theorem, the total equivalent internal AC impedance (Z_eq) of the entire parallel network is strictly computed as:",
+        "choices": [
+            "A. Sum(Z_i)",
+            "B. Sum(Y_i)",
+            "C. 1 / Sum(Z_i)",
+            "D. 1 / Sum(Y_i)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "Worded circuit: When applying Millman's Theorem to a parallel network where one specific branch contains ONLY a pure impedance Z_3 (i.e., it has no physical voltage source), the mathematical term V_3 * Y_3 for that branch strictly becomes:",
+        "choices": [
+            "A. Infinity",
+            "B. Zero",
+            "C. Y_3",
+            "D. Z_3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "Worded circuit: If one of the parallel branches in a Millman network contains an ideal AC current source (I_s) instead of a practical voltage source, how is it strictly mathematically incorporated into the numerator of the Millman formula?",
+        "choices": [
+            "A. It is ignored",
+            "B. It is converted to a voltage",
+            "C. It is algebraically added directly as a current I_s",
+            "D. It causes the formula to fail completely"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "Worded circuit: Three completely identical branches are connected in parallel. Each branch consists of an AC source V_s = 100<0 V in series with an impedance Z_s = 5 + j5 ohms. The mathematically exact Millman voltage across the parallel combination is:",
+        "choices": [
+            "A. 100<0 V",
+            "B. 300<0 V",
+            "C. 33.3<0 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "Worded circuit: Branch 1 has V1 = 50<0 V and R1 = 5 ohms. Branch 2 has V2 = 50<180 V (which is -50<0 V) and R2 = 5 ohms. They are in parallel. The exact mathematically derived Millman voltage is:",
+        "choices": [
+            "A. 50<0 V",
+            "B. 50<90 V",
+            "C. 25<0 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 98,
+        "question": "Worded circuit: Two parallel branches contain purely capacitive impedances. Branch 1 has V1 and C1. Branch 2 has V2 and C2. The mathematically exact Millman voltage formula for this specific purely capacitive system simplifies to:",
+        "choices": [
+            "A. (V1/C1 + V2/C2) / (C1+C2)",
+            "B. (V1*C1 + V2*C2) / (C1 + C2)",
+            "C. (V1 + V2) / (C1 * C2)",
+            "D. (V1*C2 + V2*C1) / (C1 + C2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "Worded circuit: In a 3-branch Millman network, the total complex admittance of the branches is strictly Sum(Y) = 0.5 - j0.5 S. If the sum of the short-circuit currents Sum(V*Y) is exactly 10 + j0 A, the mathematically exact Millman voltage is:",
+        "choices": [
+            "A. 10 - j10 V",
+            "B. 20 + j20 V",
+            "C. 10 + j10 V",
+            "D. 5 - j5 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "A critical mathematical limitation of directly applying standard Millman's Theorem is that it cannot easily handle parallel branches containing:",
+        "choices": [
+            "A. Pure capacitors",
+            "B. Dependent sources controlled by variables outside the branch",
+            "C. AC sources of different frequencies (simultaneously in one step)",
+            "D. Both B and C"
+        ],
+        "correct_answer": "A"
+    }
+]

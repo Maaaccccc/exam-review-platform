@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "In a standard bipolar cascode amplifier, which configuration arrangement is utilized to achieve high bandwidth and high output impedance?",
+        "choices": [
+            "A. Common-Collector driving Common-Base",
+            "B. Common-Emitter driving Common-Base",
+            "C. Common-Base driving Common-Emitter",
+            "D. Common-Emitter driving Common-Collector"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "What is the primary advantage of using a Sziklai pair over a standard Darlington pair in the output stage of a power amplifier?",
+        "choices": [
+            "A. It has an infinite input impedance",
+            "B. It completely eliminates crossover distortion",
+            "C. It requires a lower overall base-emitter turn-on voltage",
+            "D. It provides a much higher voltage gain"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 3,
+        "question": "For a Darlington pair constructed with two BJTs having current gains of 50 and 80, what is the approximate overall current gain of the combination?",
+        "choices": [
+            "A. 4000",
+            "B. 130",
+            "C. 30",
+            "D. 1.6"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 4,
+        "question": "In a folded cascode CMOS amplifier, what is the main architectural difference compared to a telescopic cascode?",
+        "choices": [
+            "A. It uses opposite-type transistors for the input and cascode devices to increase voltage headroom",
+            "B. It uses bipolar transistors exclusively",
+            "C. It eliminates all current sources",
+            "D. It connects the gate of the cascode device directly to the input"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 5,
+        "question": "A BJT Common-Emitter amplifier is driving a capacitive load, causing a dominant high-frequency pole. If a Common-Base stage is added to form a cascode, what happens to the Miller capacitance at the input?",
+        "choices": [
+            "A. It is squared",
+            "B. It remains unchanged",
+            "C. It becomes infinite",
+            "D. It is virtually eliminated"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 6,
+        "question": "Which of the following describes the output impedance of a Darlington emitter-follower compared to a single BJT emitter-follower?",
+        "choices": [
+            "A. It is significantly lower",
+            "B. It is entirely reactive",
+            "C. It is significantly higher",
+            "D. It is exactly the same"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "In a CS-CG FET cascode amplifier, if the transconductance of both FETs is gm, what is the approximate overall transconductance of the entire cascode circuit?",
+        "choices": [
+            "A. 2 * gm",
+            "B. gm / 2",
+            "C. gm",
+            "D. gm squared"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "A standard Darlington pair using two identical silicon NPN transistors will start conducting significant collector current when the base-to-emitter voltage reaches approximately:",
+        "choices": [
+            "A. 0.3 V",
+            "B. 0.7 V",
+            "C. 2.1 V",
+            "D. 1.4 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "What are the characteristic parameters of an ideal operational amplifier?",
+        "choices": [
+            "A. Infinite input impedance, zero output impedance, infinite open-loop gain",
+            "B. Zero input impedance, infinite output impedance, zero open-loop gain",
+            "C. Infinite input impedance, infinite output impedance, infinite bandwidth",
+            "D. Zero input impedance, zero output impedance, infinite bandwidth"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "In a practical operational amplifier, what term describes the ratio of the change in input offset voltage to the change in temperature?",
+        "choices": [
+            "A. Slew rate",
+            "B. Thermal runaway factor",
+            "C. Input offset voltage drift",
+            "D. Common-mode rejection ratio"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "Which concept states that in a closed-loop negative feedback op-amp circuit, the voltage difference between the inverting and non-inverting input terminals is ideally zero?",
+        "choices": [
+            "A. Virtual ground / Virtual short",
+            "B. Superposition principle",
+            "C. Millman's theorem",
+            "D. Null offset condition"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "If a practical op-amp has an open-loop voltage gain of 100 dB, what is its linear voltage gain factor (V/V)?",
+        "choices": [
+            "A. 100,000",
+            "B. 10,000",
+            "C. 1,000",
+            "D. 1,000,000"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "The Common-Mode Rejection Ratio (CMRR) of an op-amp is defined as the ratio of:",
+        "choices": [
+            "A. Differential voltage gain to common-mode voltage gain",
+            "B. Common-mode voltage gain to differential voltage gain",
+            "C. Open-loop gain to closed-loop gain",
+            "D. Input offset voltage to input bias current"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "An op-amp has a differential gain of 10^5 and a CMRR of 100 dB. What is the common-mode gain of this op-amp?",
+        "choices": [
+            "A. 0.1",
+            "B. 10",
+            "C. 1",
+            "D. 0.01"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 15,
+        "question": "What is the primary physical cause of input bias current in a bipolar operational amplifier?",
+        "choices": [
+            "A. The leakage current of the compensation capacitor",
+            "B. The base currents required to bias the input differential pair transistors",
+            "C. The thermal noise of the input resistors",
+            "D. The reverse saturation current of the output push-pull stage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "Which parameter defines the maximum rate of change of the output voltage of an operational amplifier in response to a step input?",
+        "choices": [
+            "A. Gain-bandwidth product",
+            "B. Settling time",
+            "C. Slew rate",
+            "D. Rise time"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "An op-amp is required to output a 10 V peak sine wave at a frequency of 20 kHz. What is the minimum slew rate required to prevent distortion?",
+        "choices": [
+            "A. 1.26 V/us",
+            "B. 0.63 V/us",
+            "C. 3.14 V/us",
+            "D. 0.31 V/us"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "If an operational amplifier has a slew rate of 0.5 V/us, how long will it take for the output to change from -5 V to +5 V?",
+        "choices": [
+            "A. 20 us",
+            "B. 50 us",
+            "C. 5 us",
+            "D. 10 us"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "What internal component of a compensated operational amplifier is the primary limiting factor for its slew rate?",
+        "choices": [
+            "A. The input differential pair transistors",
+            "B. The output short-circuit protection resistor",
+            "C. The internal compensation capacitor",
+            "D. The tail current source"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "In a standard 741 operational amplifier, what is the purpose of the \"offset null\" pins?",
+        "choices": [
+            "A. To connect an external potentiometer to balance the input differential pair and zero the output DC offset",
+            "B. To bypass the internal compensation capacitor for higher speed",
+            "C. To set the common-mode voltage limit",
+            "D. To adjust the open-loop voltage gain"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 21,
+        "question": "An op-amp has an input offset voltage of 2 mV. It is used in a non-inverting amplifier circuit with a gain of 50. Assuming input bias currents are negligible, what is the worst-case DC output offset voltage?",
+        "choices": [
+            "A. 100 mV",
+            "B. 25 mV",
+            "C. 50 mV",
+            "D. 2 mV"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "To minimize the DC output offset voltage caused by input bias currents, a compensating resistor is often placed in series with the non-inverting terminal of an inverting amplifier. What should the value of this resistor be?",
+        "choices": [
+            "A. The sum of the input and feedback resistors",
+            "B. The parallel combination of the input and feedback resistors",
+            "C. Equal to the feedback resistor",
+            "D. Equal to the input resistor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "An inverting amplifier is built with an input resistor R1 = 5 kOhms and a feedback resistor Rf = 25 kOhms. If the input voltage is a 2 V DC signal, what is the output voltage?",
+        "choices": [
+            "A. -10 V",
+            "B. +10 V",
+            "C. +12 V",
+            "D. -12 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "For a non-inverting amplifier with an input resistor R1 to ground and a feedback resistor Rf, the closed-loop voltage gain is given by:",
+        "choices": [
+            "A. -Rf / R1",
+            "B. 1 + (Rf / R1)",
+            "C. Rf / (R1 + Rf)",
+            "D. 1 - (Rf / R1)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "An op-amp voltage follower (unity gain buffer) is characterized by a feedback network where:",
+        "choices": [
+            "A. The output is connected directly to the inverting input",
+            "B. The output is connected directly to the non-inverting input",
+            "C. A resistor connects the output to ground",
+            "D. A capacitor connects the output to the inverting input"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "A worded circuit: An op-amp has a 10 kOhm resistor connected from its inverting input to ground, and a 50 kOhm resistor connected from its output to the inverting input. The signal is applied to the non-inverting input. What is the voltage gain?",
+        "choices": [
+            "A. 6",
+            "B. -5",
+            "C. 5",
+            "D. -6"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "In an ideal inverting amplifier, what is the input impedance seen by the signal source?",
+        "choices": [
+            "A. Infinite",
+            "B. Equal to the feedback resistor (Rf)",
+            "C. Equal to the input resistor (R1)",
+            "D. Zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "A worded circuit: A non-inverting amplifier has Rf = 100 kOhms and R1 = 10 kOhms. If the input signal is a 1 V peak-to-peak sine wave, what is the amplitude and phase of the output signal relative to the input?",
+        "choices": [
+            "A. 10 V p-p, 180 degrees out of phase",
+            "B. 11 V p-p, in phase",
+            "C. 10 V p-p, in phase",
+            "D. 11 V p-p, 180 degrees out of phase"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "If the open-loop gain of an op-amp drops at -20 dB/decade at high frequencies, and it has a Gain-Bandwidth Product (GBW) of 1 MHz, what is the closed-loop bandwidth when configured for a non-inverting gain of 10?",
+        "choices": [
+            "A. 100 kHz",
+            "B. 1 MHz",
+            "C. 10 kHz",
+            "D. 100 Hz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "An op-amp is configured as an inverting amplifier with a gain of -100. If the GBW of the op-amp is 2 MHz, what is the approximate closed-loop bandwidth?",
+        "choices": [
+            "A. 200 kHz",
+            "B. 2 MHz",
+            "C. 19.8 kHz",
+            "D. 20 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "A worded circuit: An AC signal passes through a capacitor into the non-inverting terminal of an op-amp. A resistor R connects the non-inverting terminal to ground to provide a DC path for bias current. What type of filter does this input network form?",
+        "choices": [
+            "A. Low-pass filter",
+            "B. Band-pass filter",
+            "C. High-pass filter",
+            "D. Notch filter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "In a standard inverting amplifier circuit, the non-inverting terminal is grounded. Because of the infinite open-loop gain assumption, the inverting terminal is said to be at:",
+        "choices": [
+            "A. Virtual ground",
+            "B. Positive saturation",
+            "C. Negative saturation",
+            "D. The supply voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "An inverting amplifier is designed to have an input impedance of 20 kOhms and a closed-loop voltage gain of -15. What are the required values for R1 (input resistor) and Rf (feedback resistor)?",
+        "choices": [
+            "A. R1 = 20 kOhms, Rf = 300 kOhms",
+            "B. R1 = 1.33 kOhms, Rf = 20 kOhms",
+            "C. R1 = 300 kOhms, Rf = 20 kOhms",
+            "D. R1 = 15 kOhms, Rf = 20 kOhms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "If an op-amp is operated without any feedback (open-loop) and a 10 mV DC signal is applied to the non-inverting input while the inverting input is grounded, what will the output voltage likely do?",
+        "choices": [
+            "A. Output exactly 10 mV",
+            "B. Saturate near the positive supply rail",
+            "C. Oscillate continuously",
+            "D. Saturate near the negative supply rail"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "A non-inverting amplifier uses a voltage divider in its feedback loop. If the feedback fraction (beta) is 0.05, what is the closed-loop voltage gain?",
+        "choices": [
+            "A. 20",
+            "B. 50",
+            "C. 5",
+            "D. 0.05"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 36,
+        "question": "A summing amplifier uses an inverting op-amp configuration. Input V1 = 2V is applied through a 10 kOhm resistor. Input V2 = -1V is applied through a 5 kOhm resistor. The feedback resistor is 20 kOhm. What is the output voltage?",
+        "choices": [
+            "A. -2 V",
+            "B. +2 V",
+            "C. 0 V",
+            "D. -6 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "To create an averaging amplifier for three input voltages (V1, V2, V3) using an inverting summing configuration with input resistors all equal to R, what must the value of the feedback resistor Rf be?",
+        "choices": [
+            "A. R / 3",
+            "B. 3 * R",
+            "C. R",
+            "D. R / 2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "A scaling adder has three inputs: V1, V2, V3. The input resistors are R1 = 10k, R2 = 20k, R3 = 40k, and the feedback resistor is Rf = 40k. What is the output voltage equation?",
+        "choices": [
+            "A. Vout = - (4*V1 + 2*V2 + V3)",
+            "B. Vout = - (0.25*V1 + 0.5*V2 + V3)",
+            "C. Vout = - (V1 + V2 + V3) / 4",
+            "D. Vout = 4*V1 + 2*V2 + V3"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "In a non-inverting summing amplifier with two inputs V1 and V2 applied through identical resistors R to the non-inverting terminal, and a grounded resistor R at the non-inverting terminal, the voltage at the non-inverting terminal is:",
+        "choices": [
+            "A. (V1 + V2)",
+            "B. (V1 + V2) / 3",
+            "C. (V1 + V2) / 2",
+            "D. V1 - V2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "An inverting summing amplifier has a feedback resistor of 100 kOhms. It needs to sum two signals such that Vout = - (5*V1 + 10*V2). What are the required values for input resistors R1 and R2?",
+        "choices": [
+            "A. R1 = 20 kOhms, R2 = 10 kOhms",
+            "B. R1 = 500 kOhms, R2 = 1000 kOhms",
+            "C. R1 = 5 kOhms, R2 = 10 kOhms",
+            "D. R1 = 10 kOhms, R2 = 20 kOhms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "If a basic op-amp integrator has an input resistor R and a feedback capacitor C, the output voltage is proportional to the negative integral of the input voltage. The constant of proportionality is:",
+        "choices": [
+            "A. 1 / (R*C)",
+            "B. R*C",
+            "C. - R*C",
+            "D. - 1 / (R*C)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 42,
+        "question": "When a constant positive DC voltage is applied to the input of an ideal inverting integrator, the output waveform will be a:",
+        "choices": [
+            "A. Positive-going ramp",
+            "B. Square wave",
+            "C. Negative-going ramp",
+            "D. Constant negative DC voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "A square wave is applied to the input of an ideal op-amp integrator. The resulting output waveform will be a:",
+        "choices": [
+            "A. Sine wave",
+            "B. Triangle wave",
+            "C. Pulse train",
+            "D. Differentiated impulse"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "A worded circuit: An op-amp has a capacitor C connecting the input signal to the inverting terminal, and a resistor R connecting the inverting terminal to the output. The non-inverting terminal is grounded. What mathematical operation does this circuit perform?",
+        "choices": [
+            "A. Integration",
+            "B. Logarithmic amplification",
+            "C. Differentiation",
+            "D. Summation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "If a triangle wave is applied to the input of an ideal op-amp differentiator, the output waveform will be a:",
+        "choices": [
+            "A. Sine wave",
+            "B. Square wave",
+            "C. Series of impulses",
+            "D. Ramp"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "In a practical op-amp integrator, a resistor Rf is placed in parallel with the feedback capacitor",
+        "choices": [
+            "C. What is the primary purpose of this resistor?",
+            "A. To prevent the op-amp from saturating due to input offset voltage and bias current integrating over time",
+            "B. To increase the high-frequency gain",
+            "C. To convert the circuit into a differentiator"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "In a practical op-amp differentiator, a resistor Rin is placed in series with the input capacitor",
+        "choices": [
+            "C. What is the primary purpose of this resistor?",
+            "A. To limit high-frequency gain and prevent noise amplification and instability",
+            "B. To provide a DC path for bias current",
+            "C. To eliminate the phase shift"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "An ideal integrator has R = 10 kOhms and C = 1 uF. If a 2V step input is applied at t=0, what is the output voltage at t = 5 ms? Assume the initial capacitor voltage is zero.",
+        "choices": [
+            "A. -1 V",
+            "B. +1 V",
+            "C. -10 V",
+            "D. -2 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 49,
+        "question": "A basic op-amp integrator effectively behaves as what type of active filter?",
+        "choices": [
+            "A. High-pass filter",
+            "B. Low-pass filter",
+            "C. Band-pass filter",
+            "D. Notch filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 50,
+        "question": "A basic op-amp differentiator effectively behaves as what type of active filter?",
+        "choices": [
+            "A. High-pass filter",
+            "B. Low-pass filter",
+            "C. Band-pass filter",
+            "D. All-pass filter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "The classic 3-op-amp instrumentation amplifier provides high common-mode rejection. Where is the gain-setting resistor (Rg) typically located in this topology?",
+        "choices": [
+            "A. Between the output and ground",
+            "B. Between the inverting inputs of the two input buffer op-amps",
+            "C. In series with the non-inverting input of the differential stage",
+            "D. Across the feedback loop of the final differential amplifier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "What is the primary advantage of an instrumentation amplifier over a simple single-op-amp difference amplifier?",
+        "choices": [
+            "A. It has extremely high input impedance on both inputs and does not load the signal source",
+            "B. It can operate without a power supply",
+            "C. It has a much higher slew rate",
+            "D. It has zero output impedance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 53,
+        "question": "In a standard 3-op-amp instrumentation amplifier, if the internal feedback resistors of the input stage are R1, and the gain-setting resistor is Rg, the differential voltage gain of the input stage alone is:",
+        "choices": [
+            "A. 1 + (R1 / Rg)",
+            "B. 1 + (2 * R1 / Rg)",
+            "C. Rg / (2 * R1)",
+            "D. 2 * Rg / R1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "A precision half-wave rectifier (super diode) uses an op-amp and a diode. The input signal is applied to the non-inverting terminal. The diode is in the forward path, inside the feedback loop. What is the key benefit of this circuit compared to a simple passive diode rectifier?",
+        "choices": [
+            "A. It eliminates the forward voltage drop (Vf) of the diode, allowing rectification of millivolt-level signals",
+            "B. It provides infinite voltage gain",
+            "C. It operates at microwave frequencies",
+            "D. It filters out high-frequency noise"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "A worded circuit: An op-amp has its non-inverting input tied to a signal. The output connects to the anode of a diode. The cathode of the diode is connected to a capacitor (which is grounded) and also feeds back to the inverting input. What is the function of this circuit?",
+        "choices": [
+            "A. Peak detector",
+            "B. Instrumentation amplifier",
+            "C. Logarithmic amplifier",
+            "D. Integrator"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "In the peak detector circuit described above, what is the purpose of adding an electronic switch (e.g., a MOSFET) in parallel with the capacitor?",
+        "choices": [
+            "A. To reverse the polarity of the output",
+            "B. To reset the circuit by discharging the capacitor",
+            "C. To increase the charging speed",
+            "D. To provide a DC offset"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "A basic logarithmic amplifier is constructed using an op-amp with a specific non-linear component in the feedback loop. Which component is typically used?",
+        "choices": [
+            "A. A capacitor",
+            "B. A Zener diode",
+            "C. A forward-biased diode or BJT base-emitter junction",
+            "D. An inductor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "The output voltage of a basic diode-based log amplifier is proportional to the natural logarithm of the input voltage. This proportionality constant is heavily dependent on:",
+        "choices": [
+            "A. The input resistor value only",
+            "B. The supply voltage",
+            "C. Thermal voltage (VT), making the circuit highly temperature sensitive",
+            "D. The op-amp's slew rate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "An antilog (exponential) amplifier is created by placing the non-linear element (diode/BJT) in which part of the op-amp circuit?",
+        "choices": [
+            "A. Between the non-inverting input and ground",
+            "B. In the feedback path",
+            "C. In series with the input signal path to the inverting terminal",
+            "D. At the output terminal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "If the input to an antilog amplifier is a linearly increasing ramp voltage, the output will be:",
+        "choices": [
+            "A. A logarithmically decaying curve",
+            "B. A sine wave",
+            "C. An exponentially increasing voltage",
+            "D. A constant DC voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "By connecting a log amplifier, a summing amplifier, and an antilog amplifier in sequence, what mathematical operation can be performed on two input analog voltages?",
+        "choices": [
+            "A. Analog multiplication",
+            "B. Analog integration",
+            "C. Analog differentiation",
+            "D. Analog division"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "In a single-op-amp difference amplifier, true high Common-Mode Rejection Ratio (CMRR) relies heavily on:",
+        "choices": [
+            "A. The op-amp having infinite slew rate",
+            "B. The precise matching of the resistor ratios in the inverting and non-inverting paths",
+            "C. The use of extremely low-value resistors",
+            "D. Operating strictly from a dual power supply"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "A worded circuit: An inverting amplifier has a variable resistor Rf in the feedback loop. As Rf is increased toward infinity, what happens to the output voltage for a small non-zero DC input?",
+        "choices": [
+            "A. It drops to exactly zero",
+            "B. It perfectly tracks the input voltage",
+            "C. It integrates the input voltage",
+            "D. It saturates at the op-amp's supply rail"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "In an op-amp configured as a comparator with no feedback, what limits the output voltage swing?",
+        "choices": [
+            "A. The input resistor value",
+            "B. The power supply rail voltages",
+            "C. The slew rate",
+            "D. The internal compensation capacitor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "To prevent a comparator from rapidly oscillating when a noisy input signal crosses the threshold voltage, positive feedback is added. This creates a circuit known as a:",
+        "choices": [
+            "A. Precision rectifier",
+            "B. Peak detector",
+            "C. Schmitt trigger",
+            "D. Voltage follower"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "A Schmitt trigger provides two different threshold voltages for low-to-high and high-to-low transitions. The difference between these two threshold voltages is called:",
+        "choices": [
+            "A. Slew rate",
+            "B. Offset voltage",
+            "C. Hysteresis",
+            "D. Common-mode voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "An operational amplifier has a Power Supply Rejection Ratio (PSRR) of 80 dB. If the power supply ripple voltage increases by 1 V, what is the maximum resulting change in the input offset voltage?",
+        "choices": [
+            "A. 100 mV",
+            "B. 10 mV",
+            "C. 1 mV",
+            "D. 0.1 mV"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 68,
+        "question": "Which specification indicates an op-amp's ability to operate with input signals that are close to the power supply rails?",
+        "choices": [
+            "A. Input Common-Mode Voltage Range",
+            "B. Slew Rate",
+            "C. Gain-Bandwidth Product",
+            "D. Output Short-Circuit Current"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 69,
+        "question": "A bridge amplifier is used to measure a small resistance change in a strain gauge. The bridge output is a small differential voltage riding on a large common-mode voltage (half the supply). Which op-amp circuit is best suited to amplify this signal?",
+        "choices": [
+            "A. Inverting amplifier",
+            "B. Instrumentation amplifier",
+            "C. Differentiator",
+            "D. Summing amplifier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "An ideal op-amp operates with a supply of +/- 15V. It is configured as a non-inverting amplifier with a gain of 10. If a +2V DC signal is applied to the input, what will the output voltage be?",
+        "choices": [
+            "A. +20 V",
+            "B. +15 V",
+            "C. -15 V",
+            "D. +10 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "In a precision full-wave rectifier (absolute value circuit) using op-amps, the output voltage is theoretically:",
+        "choices": [
+            "A. The square of the input voltage",
+            "B. Zero for negative inputs",
+            "C. The mathematical absolute value of the input voltage",
+            "D. The derivative of the input voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "A basic inverting amplifier has R1 = 1 kOhm and Rf = 100 kOhms. The op-amp has an open-loop gain of 100,000. What is the approximate percentage error between the ideal closed-loop gain and the actual closed-loop gain due to the finite open-loop gain?",
+        "choices": [
+            "A. 10%",
+            "B. 1%",
+            "C. 0.1%",
+            "D. 0.001%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 73,
+        "question": "An op-amp differentiator has C = 0.1 uF and R = 10 kOhms. The input is a ramp voltage v(t) = 5t volts (where t is in seconds). What is the steady output voltage?",
+        "choices": [
+            "A. -5 V",
+            "B. -0.5 V",
+            "C. -50 mV",
+            "D. 0 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "A logarithmic amplifier utilizing a bipolar junction transistor (BJT) in the feedback loop is generally preferred over a diode version because the BJT:",
+        "choices": [
+            "A. Has a higher forward voltage drop",
+            "B. Provides a precise logarithmic relationship over a much wider range of input currents",
+            "C. Completely eliminates temperature dependence",
+            "D. Has zero internal capacitance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "To compensate for the strong temperature dependence of a BJT-based logarithmic amplifier, modern designs often incorporate:",
+        "choices": [
+            "A. A high-power cooling fan",
+            "B. A temperature-sensitive resistor (thermistor) in the gain-setting network or a matched differential transistor pair",
+            "C. A large bypass capacitor across the power rails",
+            "D. A zener diode in series with the input"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 76,
+        "question": "In an ideal op-amp integrator with a DC input voltage Vi, the output voltage Vout(t) is given by:",
+        "choices": [
+            "A. -Vi * t / (R*C)",
+            "B. Vi * t * R * C",
+            "C. -Vi * R * C / t",
+            "D. Vi / (t * R * C)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "If a sinusoidal voltage v_in(t) = Vp * sin(wt) is applied to an ideal differentiator with time constant RC, what is the output voltage?",
+        "choices": [
+            "A. -Vp * w * RC * cos(wt)",
+            "B. Vp * RC * sin(wt)",
+            "C. -Vp / (w*RC) * cos(wt)",
+            "D. Vp * w * RC * sin(wt)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "A transimpedance amplifier (current-to-voltage converter) is essentially what type of basic op-amp configuration with the input resistor removed?",
+        "choices": [
+            "A. Non-inverting amplifier",
+            "B. Voltage follower",
+            "C. Integrator",
+            "D. Inverting amplifier"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "In a transimpedance amplifier using a photodiode connected to the inverting input and a feedback resistor Rf, what is the output voltage if the photodiode generates a current Ip?",
+        "choices": [
+            "A. Vout = Ip / Rf",
+            "B. Vout = - Ip * Rf",
+            "C. Vout = Ip * Rf",
+            "D. Vout = - Ip / Rf"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "What is the primary effect of adding a small capacitor in parallel with the feedback resistor in a transimpedance amplifier?",
+        "choices": [
+            "A. It converts the circuit into an oscillator",
+            "B. It differentiates the signal",
+            "C. It ensures stability by compensating for the photodiode's junction capacitance and reduces high-frequency noise",
+            "D. It dramatically increases the DC gain"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 81,
+        "question": "In a standard difference amplifier using one op-amp and four resistors (R1 and Rf for inverting, R2 and Rg for non-inverting), what condition must be met to maximize the CMRR?",
+        "choices": [
+            "A. R1 = R2 and Rf = Rg",
+            "B. R1/Rf = R2/Rg",
+            "C. Rf/R1 = Rg/R2",
+            "D. Rf = R1 and Rg = R2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "A worded circuit: An op-amp is configured as an inverting amplifier with R1 = 10 kOhms and Rf = 50 kOhms. A load resistor RL = 2 kOhms is connected from the output to ground. If Vin = 1V, how much current must the op-amp output terminal supply? (Assume ideal op-amp).",
+        "choices": [
+            "A. 2.5 mA",
+            "B. 3.0 mA",
+            "C. 0.5 mA",
+            "D. 2.0 mA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "An op-amp is specified to have an input bias current of 50 nA and an input offset current of 10 nA. What are the individual bias currents for the inverting (Ib-) and non-inverting (Ib+) terminals?",
+        "choices": [
+            "A. Ib- = 55 nA, Ib+ = 45 nA",
+            "B. Ib- = 60 nA, Ib+ = 40 nA",
+            "C. Ib- = 50 nA, Ib+ = 10 nA",
+            "D. Ib- = 10 nA, Ib+ = 50 nA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "A voltage follower (unity gain buffer) has a closed-loop gain of exactly 1. What is the feedback fraction (beta) for this circuit?",
+        "choices": [
+            "A. 0",
+            "B. 0.5",
+            "C. 1",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "In an active peak detector, the capacitor holds the peak voltage. Real-world capacitors have leakage, and the op-amp input has bias current. This causes the held voltage to slowly decrease over time. What is this phenomenon called?",
+        "choices": [
+            "A. Slew limiting",
+            "B. Droop",
+            "C. Offset drift",
+            "D. Phase margin degradation"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "Which of the following is NOT a typical characteristic of a fully internally compensated operational amplifier (like the 741)?",
+        "choices": [
+            "A. It is unconditionally stable for a closed-loop gain of 1 (voltage follower)",
+            "B. It has a very high slew rate (e.g., > 100 V/us)",
+            "C. It has a dominant low-frequency pole",
+            "D. Its open-loop gain rolls off at -20 dB/decade"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "The Gain-Bandwidth Product (GBW) of an op-amp is constant because its open-loop frequency response behaves like a:",
+        "choices": [
+            "A. First-order high-pass filter",
+            "B. Second-order low-pass filter",
+            "C. First-order low-pass filter",
+            "D. Band-pass filter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "A fully differential amplifier has two inputs (Vin+ and Vin-) and two outputs (Vout+ and Vout-). The differential output voltage is (Vout+ - Vout-). What is the primary advantage of fully differential signals over single-ended signals?",
+        "choices": [
+            "A. They consume half the power",
+            "B. They are immune to external common-mode noise and double the available voltage swing",
+            "C. They require only one wire for transmission",
+            "D. They eliminate the need for a power supply"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "An inverting amplifier is subjected to a high-frequency input signal. If the signal frequency exceeds the closed-loop bandwidth of the amplifier, the output waveform will experience:",
+        "choices": [
+            "A. Phase lead",
+            "B. Amplitude attenuation and phase shift",
+            "C. Amplitude amplification",
+            "D. Complete clipping"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "If the internal compensation capacitor of an op-amp is physically removed or reduced in a custom IC design (uncompensated op-amp), what happens to the op-amp's characteristics?",
+        "choices": [
+            "A. The slew rate decreases and stability increases",
+            "B. The bandwidth decreases and it becomes a perfect integrator",
+            "C. The slew rate increases, but the op-amp becomes unstable at low closed-loop gains",
+            "D. The open-loop gain becomes infinite"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "A worded circuit: Three input voltages (1V, 2V, 3V) are connected via 10 kOhm resistors to the inverting input of an op-amp. The non-inverting input is grounded. The feedback resistor is 10 kOhms. What is the output voltage?",
+        "choices": [
+            "A. -6 V",
+            "B. +6 V",
+            "C. -2 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "An active low-pass filter is built using an op-amp. Compared to a passive low-pass filter (RC only), what is a major advantage of the active filter?",
+        "choices": [
+            "A. It requires no power supply",
+            "B. It can provide voltage gain and does not load the signal source",
+            "C. It operates up to optical frequencies",
+            "D. It uses inductors exclusively"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "In an instrumentation amplifier, the common-mode voltage is completely rejected by the:",
+        "choices": [
+            "A. First stage (input buffers)",
+            "B. Final stage (difference amplifier)",
+            "C. The power supply bypass capacitors",
+            "D. The gain-setting resistor Rg"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "A bridge rectifier uses four diodes and has a voltage drop of 1.4V. A precision full-wave rectifier uses op-amps and diodes. What is the effective diode voltage drop seen by the input signal in the precision circuit?",
+        "choices": [
+            "A. 0.7 V",
+            "B. 1.4 V",
+            "C. Zero",
+            "D. 0.3 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "Which op-amp parameter dictates the minimum detectable DC input signal?",
+        "choices": [
+            "A. Slew rate",
+            "B. Input offset voltage",
+            "C. Gain-bandwidth product",
+            "D. Output voltage swing"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "If an op-amp has a maximum output current limit of 20 mA, and it is outputting 10 V, what is the minimum load resistance it can drive without activating its short-circuit protection?",
+        "choices": [
+            "A. 100 Ohms",
+            "B. 200 Ohms",
+            "C. 500 Ohms",
+            "D. 1000 Ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 97,
+        "question": "An op-amp is configured as a non-inverting amplifier with a gain of 11. If the op-amp has an open-loop output resistance (Ro) of 100 Ohms and an open-loop gain of 100,000, the closed-loop output resistance will be approximately:",
+        "choices": [
+            "A. 100 Ohms",
+            "B. 1100 Ohms",
+            "C. 0.01 Ohms",
+            "D. 0 Ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 98,
+        "question": "For an integrator to function properly at very low frequencies, it is crucial that the op-amp used has:",
+        "choices": [
+            "A. A very high slew rate",
+            "B. Extremely low input bias currents",
+            "C. A low open-loop gain",
+            "D. High output impedance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "In a log amplifier using a BJT in the feedback loop, the collector is connected to the inverting input and the emitter to the output. The base is connected to:",
+        "choices": [
+            "A. The non-inverting input",
+            "B. The power supply",
+            "C. Ground",
+            "D. The input signal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "A V-to-I (Voltage-to-Current) converter with a grounded load requires how many op-amps in the classic Howland Current Pump configuration?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "A"
+    }
+]

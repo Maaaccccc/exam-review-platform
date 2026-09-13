@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "The gradient of any continuously differentiable scalar field results in a mathematically defined:",
+        "choices": [
+            "A. A vector field",
+            "B. A scalar field",
+            "C. A tensor",
+            "D. Zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "For any continuously differentiable vector field A, what is the divergence of the curl of A?",
+        "choices": [
+            "A. 1",
+            "B. 0",
+            "C. -1",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "The cross product of two parallel, non-zero vectors results in:",
+        "choices": [
+            "A. 1",
+            "B. -1",
+            "C. The zero vector",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "Two non-zero vectors are considered orthogonal if their dot product evaluates to:",
+        "choices": [
+            "A. 1",
+            "B. Infinity",
+            "C. -1",
+            "D. 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "Which equation strictly represents Laplace's equation for a region free of charge?",
+        "choices": [
+            "A. Del V = 0",
+            "B. Del^2 V = 0",
+            "C. Del x V = 0",
+            "D. Del . V = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "Stokes' theorem mathematically bridges a closed line integral with a:",
+        "choices": [
+            "A. Surface integral of its curl",
+            "B. Volume integral",
+            "C. Surface integral of its divergence",
+            "D. Contour integral"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 7,
+        "question": "A unit vector is mathematically defined as a vector that possesses:",
+        "choices": [
+            "A. Magnitude of zero",
+            "B. Magnitude of one",
+            "C. Infinite magnitude",
+            "D. Negative magnitude"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "In electrostatics, Poisson's equation relating electric potential V and volume charge density rho is:",
+        "choices": [
+            "A. Del^2 V = -rho/eps0",
+            "B. Del^2 V = rho",
+            "C. Del V = rho",
+            "D. Del^2 V = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "The cross product of vector A and vector B produces a vector that is:",
+        "choices": [
+            "A. Parallel to A",
+            "B. Parallel to B",
+            "C. Orthogonal to both A and B",
+            "D. The zero vector"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "The Divergence Theorem establishes a mathematical transformation between a closed surface integral and a:",
+        "choices": [
+            "A. Line integral",
+            "B. Path integral",
+            "C. Volume integral",
+            "D. Gradient integral"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "What is the standard SI unit for electric field intensity?",
+        "choices": [
+            "A. Volts/meter",
+            "B. Coulombs/meter",
+            "C. Joules/Coulomb",
+            "D. Amperes/meter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "According to Coulomb's Law, the electrostatic force between two like point charges is always:",
+        "choices": [
+            "A. Attractive",
+            "B. Repulsive",
+            "C. Zero",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "Find the electrostatic force of repulsion between a 1 uC and a 2 uC charge separated by 1 meter in free space.",
+        "choices": [
+            "A. 9 mN",
+            "B. 18 mN",
+            "C. 9 uN",
+            "D. 18 uN"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 14,
+        "question": "The electric field intensity at a distance r from an isolated point charge Q is proportional to:",
+        "choices": [
+            "A. 1/r",
+            "B. 1/r^2",
+            "C. r",
+            "D. r^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Two identical point charges Q are placed a distance d apart. A third charge q is placed exactly halfway between them. For the entire system to be in static equilibrium, q must be:",
+        "choices": [
+            "A. -Q/4",
+            "B. Q/4",
+            "C. -Q/2",
+            "D. Q/2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 16,
+        "question": "An electron is placed in a uniform electric field of 100 V/m. Its initial acceleration is approximately:",
+        "choices": [
+            "A. 1.76 x 10^13 m/s^2",
+            "B. 1.76 x 10^11 m/s^2",
+            "C. 1.76 x 10^14 m/s^2",
+            "D. 1.76 x 10^10 m/s^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "The permittivity of free space, denoted by epsilon_not, has a standard value of approximately:",
+        "choices": [
+            "A. 8.854 x 10^-12 F/m",
+            "B. 8.854 x 10^-14 F/m",
+            "C. 4pi x 10^-7 F/m",
+            "D. 9 x 10^9 F/m"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "If the distance between two isolated point charges is doubled, the electrostatic force between them:",
+        "choices": [
+            "A. Is halved",
+            "B. Doubles",
+            "C. Becomes four times",
+            "D. Is quartered"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 19,
+        "question": "The electric field intensity at the origin due to a point charge of 4*pi*eps0 Coulombs located at Cartesian coordinates (1, 1, 1) is:",
+        "choices": [
+            "A. (a_x + a_y + a_z) / 3",
+            "B. -(a_x + a_y + a_z) / (3 sqrt(3))",
+            "C. (a_x + a_y + a_z) / (3 sqrt(3))",
+            "D. -(a_x + a_y + a_z) / 3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "By convention, electric field lines originate from:",
+        "choices": [
+            "A. Negative charges",
+            "B. Neutral particles",
+            "C. Positive charges",
+            "D. Magnetic poles"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "Two point charges, 4 C and 16 C, are separated by 3 meters. At what distance from the 4 C charge is the net electric field intensity equal to zero?",
+        "choices": [
+            "A. 1 m",
+            "B. 1.5 m",
+            "C. 2 m",
+            "D. 0.5 m"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "An electric dipole consists of charges +q and -q separated by a distance d. The electric field at a distance r (where r >> d) along the dipole axis is proportional to:",
+        "choices": [
+            "A. 1/r",
+            "B. 1/r^2",
+            "C. 1/r^3",
+            "D. 1/r^4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "The theoretical test charge used to define the direction of an electric field is conventionally assumed to be:",
+        "choices": [
+            "A. Positive",
+            "B. Negative",
+            "C. Neutral",
+            "D. Imaginary"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "The electric field at a point is given by E = 5x a_x V/m. What is the electrostatic force on a 2 C charge placed at x = 2?",
+        "choices": [
+            "A. 5 N a_x",
+            "B. 10 N a_x",
+            "C. 15 N a_x",
+            "D. 20 N a_x"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "The electric field vector evaluated at any point on the perpendicular bisector of an electric dipole is:",
+        "choices": [
+            "A. Parallel to the dipole moment",
+            "B. Anti-parallel to the dipole moment",
+            "C. Perpendicular to the dipole moment",
+            "D. Exactly zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "What is the standard SI unit for surface charge density?",
+        "choices": [
+            "A. C/m^2",
+            "B. C/m",
+            "C. C/m^3",
+            "D. C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "In free space, the electric flux density D is mathematically related to the electric field intensity E by the equation:",
+        "choices": [
+            "A. D = E/eps0",
+            "B. D = eps0 * E",
+            "C. D = eps0 + E",
+            "D. D = E - eps0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "Gauss's law states that the total outward electric flux passing through any closed imaginary surface is equal to:",
+        "choices": [
+            "A. Zero",
+            "B. The total charge enclosed",
+            "C. The medium's permittivity",
+            "D. The magnetic flux"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "An infinite line charge with uniform density 20 nC/m lies along the z-axis. Determine the magnitude of the electric flux density D at the point (3, 4, 0) in meters.",
+        "choices": [
+            "A. 0.637 nC/m^2",
+            "B. 1.27 nC/m^2",
+            "C. 3.18 nC/m^2",
+            "D. 0.318 nC/m^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "Unlike the electric field intensity E, the electric flux density D is independent of:",
+        "choices": [
+            "A. The enclosed charge",
+            "B. The permittivity of the medium",
+            "C. The surface area",
+            "D. The volume enclosed"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Calculate the total electric flux passing through a spherical surface of radius 2m enclosing a 10 C point charge exactly at its center.",
+        "choices": [
+            "A. 10 C",
+            "B. 20 C",
+            "C. 40 pi C",
+            "D. 10/eps0 C"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "A volume charge distribution is given by rho_v = 10 e^(-2r) C/m^3 in spherical coordinates. The total charge enclosed in a sphere of radius r = 1 is:",
+        "choices": [
+            "A. 5 pi (1 - e^-2)",
+            "B. 5 pi (1 - 5e^-2)",
+            "C. 10 pi (1 - 5e^-2)",
+            "D. 10 pi"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "The point (differential) form of Gauss's Law is expressed mathematically as:",
+        "choices": [
+            "A. Del . D = rho_v",
+            "B. Del x D = rho_v",
+            "C. Del . E = 0",
+            "D. Del^2 D = rho_v"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "A conducting spherical shell of inner radius a and outer radius b contains a point charge Q placed at its exact center. The surface charge density on the outer surface (radius b) is:",
+        "choices": [
+            "A. Q / (4 pi b^2)",
+            "B. -Q / (4 pi b^2)",
+            "C. 0",
+            "D. Q / (4 pi a^2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "An infinite flat sheet of charge lying in the xy-plane has a uniform density of 10 nC/m^2. The electric field E at z = 5m is:",
+        "choices": [
+            "A. 10/eps0 a_x",
+            "B. 5/eps0 a_z",
+            "C. 5/eps0 a_z nV/m",
+            "D. 10/(eps0) a_y"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "A solid sphere of radius a possesses a uniform volume charge density rho_0. The magnitude of the electric field inside the sphere (where r < a) is proportional to:",
+        "choices": [
+            "A. r^2",
+            "B. 1/r^2",
+            "C. 1/r",
+            "D. r"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "Which among the following combinations is dimensionally equivalent to 1 Coulomb?",
+        "choices": [
+            "A. 1 Ampere-second",
+            "B. 1 Volt-second",
+            "C. 1 Farad-meter",
+            "D. 1 Joule/Volt"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Given the electric flux density D = x a_x + y a_y + z a_z. The total enclosed charge within a unit cube defined by 0 < x < 1, 0 < y < 1, 0 < z < 1 is:",
+        "choices": [
+            "A. 1",
+            "B. 3",
+            "C. 0",
+            "D. 6"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Two infinite parallel flat sheets of charge have uniform densities of +rho_S and -rho_S. The magnitude of the electric field exactly between them is:",
+        "choices": [
+            "A. 0",
+            "B. rho_S / eps0",
+            "C. rho_S / (2 eps0)",
+            "D. 2 rho_S / eps0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "The conceptual model of electric flux lines used to visualize electric fields was first introduced by:",
+        "choices": [
+            "A. James Clerk Maxwell",
+            "B. Andre-Marie Ampere",
+            "C. Michael Faraday",
+            "D. Carl Friedrich Gauss"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "A coaxial cable has an inner conductor bearing a uniform line charge density of +rho_L. What is the induced line charge density on the inner surface of its outer conductor?",
+        "choices": [
+            "A. +rho_L",
+            "B. 0",
+            "C. -rho_L",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "Applying Gauss's Law, the electric field outside a uniformly charged infinitely long solid cylinder is mathematically identical to that of:",
+        "choices": [
+            "A. A point charge",
+            "B. An infinite plane",
+            "C. A line charge on its axis",
+            "D. A perfect dipole"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "Determine the net electric flux passing through an arbitrary closed surface containing three point charges: 2 C, -3 C, and 5",
+        "choices": [
+            "C. A. 10 C",
+            "B. 4 C",
+            "C. 0 C",
+            "D. -1 C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "Taking the divergence of the electric flux density vector field at any point yields the local:",
+        "choices": [
+            "A. Electric potential",
+            "B. Line charge density",
+            "C. Volume charge density",
+            "D. Surface charge density"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "To easily apply Gauss's Law, the chosen Gaussian surface must be:",
+        "choices": [
+            "A. A real physical solid boundary",
+            "B. Chosen such that D is either strictly normal or strictly tangential to it",
+            "C. Symmetrical to the ambient magnetic field",
+            "D. Spherical in all coordinate cases"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "The magnitude of the electric field just outside a charged conductor with a local surface charge density rho_S is:",
+        "choices": [
+            "A. rho_S / (2 eps0)",
+            "B. 0",
+            "C. rho_S / eps0",
+            "D. 2 rho_S / eps0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "If the electric field is measured to be zero everywhere on the surface of a closed imaginary volume, the net charge enclosed is:",
+        "choices": [
+            "A. Strictly Positive",
+            "B. Strictly Negative",
+            "C. Exactly Zero",
+            "D. Cannot be determined"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "In the International System of Units (SI), the unit of electric flux is the:",
+        "choices": [
+            "A. Tesla",
+            "B. Weber",
+            "C. Coulomb",
+            "D. Volt-meter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "The electric flux density vector D due to a point charge Q located at the origin in free space is:",
+        "choices": [
+            "A. (Q/(4 pi r^2)) a_r",
+            "B. (Q/(2 pi r)) a_r",
+            "C. (Q/(4 pi r^3)) a_r",
+            "D. (Q/(4 pi eps0 r^2)) a_r"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "A hollow conducting sphere of radius R carries a net charge Q. The magnitude of the electric flux density at a distance r = R/2 from the center is:",
+        "choices": [
+            "A. Q/(pi R^2)",
+            "B. 0",
+            "C. Q/(4 pi R^2)",
+            "D. Q/(2 pi eps0 R^2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Electrostatic potential difference between two points is formally defined as the work done per unit:",
+        "choices": [
+            "A. Length",
+            "B. Mass",
+            "C. Area",
+            "D. Charge"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "The gradient relationship between the electric field intensity E and the scalar electric potential V is:",
+        "choices": [
+            "A. E = Del V",
+            "B. V = Del E",
+            "C. V = Del . E",
+            "D. E = -Del V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "The calculated electrostatic potential difference between any two fixed points in a static field is strictly independent of the:",
+        "choices": [
+            "A. End points",
+            "B. E-field magnitude",
+            "C. Charge moved",
+            "D. Path taken"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 54,
+        "question": "Calculate the work done by an external agent in moving a +2C point charge from a point at 10V to a point at 50V.",
+        "choices": [
+            "A. 20 J",
+            "B. 40 J",
+            "C. 100 J",
+            "D. 80 J"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 55,
+        "question": "The absolute electrostatic potential at a radial distance r from an isolated point charge Q in free space is given by:",
+        "choices": [
+            "A. Q/(4 pi eps0 r^2)",
+            "B. Q/(2 pi eps0 r)",
+            "C. Q^2/(4 pi eps0 r)",
+            "D. Q/(4 pi eps0 r)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 56,
+        "question": "In any static electric field, equipotential surfaces are geometrically always:",
+        "choices": [
+            "A. Parallel to E-field lines",
+            "B. At 45 degrees to E-field lines",
+            "C. Spherically shaped",
+            "D. Perpendicular to E-field lines"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "What is the standard SI unit of electrostatic potential difference?",
+        "choices": [
+            "A. Ampere",
+            "B. Joules",
+            "C. Weber",
+            "D. Volt"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "If the scalar potential is given by V = 10x^2 y, find the electric field vector E at the point (1, 2, 0).",
+        "choices": [
+            "A. 20 a_x + 5 a_y",
+            "B. 40 a_x + 10 a_y",
+            "C. -20 a_x - 5 a_y",
+            "D. -40 a_x - 10 a_y"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 59,
+        "question": "The electric potential everywhere inside a solid isolated conducting sphere of radius R carrying a total charge Q is:",
+        "choices": [
+            "A. Zero",
+            "B. Q/(4 pi eps0 r)",
+            "C. Q/(4 pi eps0 R^2)",
+            "D. Q/(4 pi eps0 R)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "The net work done in moving a test charge around any completely closed path in a static electric field is:",
+        "choices": [
+            "A. Positive",
+            "B. Negative",
+            "C. Infinite",
+            "D. Zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "An ideal or perfect dielectric material is characterized by having a conductivity equal to:",
+        "choices": [
+            "A. Zero",
+            "B. One",
+            "C. 100",
+            "D. Infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "Under completely static conditions, the internal electric field of any solid conductor is:",
+        "choices": [
+            "A. Constant but non-zero",
+            "B. Zero",
+            "C. Infinite",
+            "D. Equal to the surface E-field"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "When a dielectric material is placed in an external electric field, its atoms or molecules become:",
+        "choices": [
+            "A. Polarized",
+            "B. Ionized",
+            "C. Magnetized",
+            "D. Conductive"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 64,
+        "question": "The boundary condition for the tangential components of the electric field across a source-free dielectric interface states that:",
+        "choices": [
+            "A. E_t1 = 0",
+            "B. E_t1 = E_t2",
+            "C. E_t1 - E_t2 = rho_s",
+            "D. E_t1 / E_t2 = eps_1 / eps_2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "The boundary condition relating the normal components of the electric flux density across an interface with a surface charge density rho_s is:",
+        "choices": [
+            "A. D_n1 + D_n2 = rho_s",
+            "B. D_n1 = D_n2",
+            "C. D_n1 - D_n2 = rho_s",
+            "D. D_n1 / D_n2 = eps_1 / eps_2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "The relative permittivity (dielectric constant) of a perfect vacuum is exactly:",
+        "choices": [
+            "A. 8.854 x 10^-12",
+            "B. 0",
+            "C. 1",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "Which of the following common materials typically exhibits the highest dielectric constant?",
+        "choices": [
+            "A. Barium titanate",
+            "B. Air",
+            "C. Paper",
+            "D. Teflon"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "When a net static charge is placed on a perfect conductor, all the excess charge ultimately resides:",
+        "choices": [
+            "A. At the exact geometric center",
+            "B. On the outer surface",
+            "C. In the surrounding dielectric",
+            "D. Distributed evenly throughout the volume"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "The electric susceptibility chi_e of a linear isotropic dielectric is related to its relative permittivity eps_r by the equation:",
+        "choices": [
+            "A. chi_e = eps_r",
+            "B. chi_e = eps_r + 1",
+            "C. chi_e = 1 - eps_r",
+            "D. chi_e = eps_r - 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "A planar boundary at z=0 separates free space (z>0, eps_r1 = 1) and a dielectric (z<0, eps_r2 = 4). If the electric field in region 1 is E1 = 2 a_x + 3 a_y + 4 a_z, find E2.",
+        "choices": [
+            "A. 2 a_x + 3 a_y + 16 a_z",
+            "B. 8 a_x + 12 a_y + 4 a_z",
+            "C. 2 a_x + 3 a_y + 4 a_z",
+            "D. 2 a_x + 3 a_y + 1 a_z"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 71,
+        "question": "The dielectric strength of an insulating material is defined as the maximum:",
+        "choices": [
+            "A. Voltage it can withstand continuously",
+            "B. Current it can carry before melting",
+            "C. Temperature it can operate at safely",
+            "D. Electric field it can withstand without undergoing avalanche breakdown"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "The macroscopic polarization vector P in a dielectric is formally defined as the:",
+        "choices": [
+            "A. Net dipole moment per unit mass",
+            "B. Total charge per unit volume",
+            "C. Net dipole moment per unit area",
+            "D. Total dipole moment per unit volume"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "At the boundary interface between a perfect conductor and free space, the static electric field in the free space is always:",
+        "choices": [
+            "A. Parallel to the conducting surface",
+            "B. At exactly 45 degrees to the surface",
+            "C. Zero",
+            "D. Perpendicular to the conducting surface"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "Which of the following statements is strictly true for a perfect conductor in electrostatic equilibrium?",
+        "choices": [
+            "A. E is zero inside, V is highly variable",
+            "B. E is infinite inside, V is exactly zero",
+            "C. E is constant inside, V is zero",
+            "D. E is zero inside, V is constant"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "The ratio of the electric flux density D to the electric field intensity E in a linear dielectric medium yields its:",
+        "choices": [
+            "A. Conductivity",
+            "B. Susceptibility",
+            "C. Permeability",
+            "D. Permittivity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 76,
+        "question": "What is the standard SI unit of capacitance?",
+        "choices": [
+            "A. Henry",
+            "B. Ohm",
+            "C. Weber",
+            "D. Farad"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "The capacitance of an ideal parallel plate capacitor with plate area A and separation d is given by C =",
+        "choices": [
+            "A. eps A d",
+            "B. eps d / A",
+            "C. d / (eps A)",
+            "D. eps A / d"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "If the separation distance between the plates of a parallel plate capacitor is halved, its new capacitance is:",
+        "choices": [
+            "A. Halved",
+            "B. Unchanged",
+            "C. Doubled",
+            "D. Quartered"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "The exact capacitance of a coaxial cable of length L, inner radius a, and outer radius b is given by:",
+        "choices": [
+            "A. 2 pi eps L / ln(b/a)",
+            "B. pi eps L / ln(b/a)",
+            "C. 2 pi eps L / (b-a)",
+            "D. 2 pi eps L ln(b/a)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "The absolute capacitance of an isolated spherical conductor of radius R in free space is:",
+        "choices": [
+            "A. 4 pi eps0 / R",
+            "B. 2 pi eps0 R",
+            "C. 4 pi eps0 R",
+            "D. eps0 R"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 81,
+        "question": "Two capacitors, C1 = 2 uF and C2 = 3 uF, are connected in series. Their equivalent capacitance is:",
+        "choices": [
+            "A. 5 uF",
+            "B. 1 uF",
+            "C. 1.2 uF",
+            "D. 1.5 uF"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "Two capacitors, C1 = 2 uF and C2 = 3 uF, are connected in parallel. Their equivalent capacitance is:",
+        "choices": [
+            "A. 1.2 uF",
+            "B. 5 uF",
+            "C. 6 uF",
+            "D. 1 uF"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "An isolated parallel plate capacitor has a dielectric with eps_r = 4. If the dielectric is completely removed, its capacitance:",
+        "choices": [
+            "A. Decreases to 1/4 of its original value",
+            "B. Increases 4 times",
+            "C. Decreases to 1/2 of its original value",
+            "D. Decreases to 1/16 of its original value"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "The capacitance of a spherical capacitor with an inner conductor of radius a and an outer shell of inner radius b is:",
+        "choices": [
+            "A. 4 pi eps ab / (b-a)",
+            "B. 4 pi eps (b-a) / ab",
+            "C. 2 pi eps ab / (b-a)",
+            "D. 4 pi eps (a+b)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "Calculate the total energy stored in a 10 uF capacitor that is fully charged to 100 V.",
+        "choices": [
+            "A. 0.1 J",
+            "B. 0.05 J",
+            "C. 1 J",
+            "D. 0.5 J"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "The total capacitance of any multiconductor system depends strictly on:",
+        "choices": [
+            "A. The physical geometry and the permittivity of the medium",
+            "B. The total charge only",
+            "C. The applied voltage only",
+            "D. Both the applied charge and voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 87,
+        "question": "An isolated parallel-plate capacitor is charged and then the voltage source is disconnected. If the plate separation is subsequently doubled, the energy stored:",
+        "choices": [
+            "A. Remains the same",
+            "B. Is halved",
+            "C. Is doubled",
+            "D. Is quartered"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "Which specific capacitor geometry yields a theoretical capacitance expression that involves a natural logarithm?",
+        "choices": [
+            "A. Parallel plate capacitor",
+            "B. Spherical capacitor",
+            "C. Isolated spherical conductor",
+            "D. Coaxial cylindrical cable"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "An ideal capacitor fundamentally stores energy in the physical form of an:",
+        "choices": [
+            "A. Magnetic field",
+            "B. Heat signature",
+            "C. Electric field",
+            "D. Kinetic energy"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "Three identical capacitors are connected in a delta configuration, having an equivalent capacitance C_eq between any two terminals. If reconnected in a star (wye) configuration, the new capacitance between any two terminals is:",
+        "choices": [
+            "A. 3 C_eq",
+            "B. C_eq / 3",
+            "C. C_eq",
+            "D. C_eq / 9"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "The electrostatic energy density (energy per unit volume) in an electric field E is mathematically given by:",
+        "choices": [
+            "A. 1/2 eps E",
+            "B. 1/2 eps E^2",
+            "C. 1/2 eps^2 E",
+            "D. eps E^2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "Find the total electrostatic energy stored in a specific region of volume 2 m^3 where the uniform electric field is 100 V/m and eps_r = 1.",
+        "choices": [
+            "A. 8.85 nJ",
+            "B. 17.7 nJ",
+            "C. 88.5 nJ",
+            "D. 177 nJ"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 93,
+        "question": "The mathematical Method of Images is primarily utilized to solve complex electrostatic problems involving point charges and:",
+        "choices": [
+            "A. Other interacting point charges",
+            "B. Complex dielectrics",
+            "C. Resistor networks",
+            "D. Infinite conducting boundaries"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "A point charge +Q is placed in free space at a distance d above an infinite grounded conducting flat plane. The required image charge is:",
+        "choices": [
+            "A. +Q at distance d below the plane",
+            "B. -Q at distance 2d below the plane",
+            "C. -Q at distance d below the plane",
+            "D. -Q at distance d/2 below the plane"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "Calculate the force experienced by a point charge +Q placed at a distance d above an infinite grounded conducting plane.",
+        "choices": [
+            "A. Attractive, Q^2 / (16 pi eps0 d^2)",
+            "B. Repulsive, Q^2 / (16 pi eps0 d^2)",
+            "C. Attractive, Q^2 / (4 pi eps0 d^2)",
+            "D. Repulsive, Q^2 / (4 pi eps0 d^2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 96,
+        "question": "The total electrostatic potential energy of a discrete system of n interacting point charges is given by the formula:",
+        "choices": [
+            "A. (1/2) Sum(Q_i V_i)",
+            "B. Sum(Q_i V_i)",
+            "C. (1/2) Sum(Q_i^2 V_i)",
+            "D. Sum(Q_i V_i^2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "Two parallel metal plates maintained at potentials 0V and 100V are separated by 2 cm in free space. The energy density between them is approximately:",
+        "choices": [
+            "A. 11 uJ/m^3",
+            "B. 110.6 uJ/m^3",
+            "C. 1.1 uJ/m^3",
+            "D. 110 mJ/m^3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "To maintain mathematical validity, an image charge in the Method of Images must physically be located:",
+        "choices": [
+            "A. Inside the region where the field is being calculated",
+            "B. Outside the region where the field is being calculated",
+            "C. Exactly on the conducting boundary surface",
+            "D. At infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "A long line charge rho_L is located at a distance d from the axis of an infinite grounded conducting cylinder of radius a (where d > a). The required image is a line charge of density:",
+        "choices": [
+            "A. rho_L",
+            "B. rho_L * (a/d)",
+            "C. -rho_L",
+            "D. -rho_L * (a/d)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "Which powerful analytical method drastically simplifies finding the electric potential distribution due to charges near complex but highly symmetric conducting planes or spheres?",
+        "choices": [
+            "A. Method of Moments",
+            "B. Finite Element Method",
+            "C. Method of Images",
+            "D. Finite Difference Method"
+        ],
+        "correct_answer": "C"
+    }
+]

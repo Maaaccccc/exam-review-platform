@@ -1,0 +1,1069 @@
+[
+    {
+        "number": 1,
+        "question": "What is the principal value of the argument of the complex number -1 + j?",
+        "choices": [
+            "A. 3π/4",
+            "B. π/4",
+            "C. -π/4",
+            "D. 5π/4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "Which of the following is equivalent to Euler's formula?",
+        "choices": [
+            "A. e^(jθ) = sin θ + j cos θ",
+            "B. e^(jθ) = cos θ + j sin θ",
+            "C. e^(jθ) = cosh θ + j sinh θ",
+            "D. e^(jθ) = cos θ - j sin θ"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Find the complex conjugate of z = 3 - 4j.",
+        "choices": [
+            "A. -3 - 4j",
+            "B. 3 - 4j",
+            "C. 3 + 4j",
+            "D. -3 + 4j"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "What is the magnitude of the complex number 5 + 12j?",
+        "choices": [
+            "A. 17",
+            "B. 7",
+            "C. 144",
+            "D. 13"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "According to De Moivre's theorem, what is (cos θ + j sin θ)^n?",
+        "choices": [
+            "A. cos(nθ) + j sin(nθ)",
+            "B. cos^n(θ) + j sin^n(θ)",
+            "C. n(cos θ + j sin θ)",
+            "D. cos(θ/n) + j sin(θ/n)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "If z = 2 e^(jπ/3), what is z^3?",
+        "choices": [
+            "A. 8",
+            "B. -8",
+            "C. 8j",
+            "D. -8j"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 8,
+        "question": "What is the reciprocal of the imaginary unit j?",
+        "choices": [
+            "A. j",
+            "B. 1",
+            "C. -1",
+            "D. -j"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "The product of a complex number and its conjugate always results in a:",
+        "choices": [
+            "A. purely real non-negative number",
+            "B. purely imaginary number",
+            "C. complex number with a negative real part",
+            "D. complex number with magnitude 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "Find the sum of (2 + 3j) and (4 - 5j).",
+        "choices": [
+            "A. 6 + 2j",
+            "B. 6 - 2j",
+            "C. 8 - 15j",
+            "D. -2 + 8j"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "A signal whose independent variable takes on a continuum of values is called a:",
+        "choices": [
+            "A. digital signal",
+            "B. discrete-time signal",
+            "C. continuous-time signal",
+            "D. aperiodic signal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "A discrete-time signal is typically represented mathematically as:",
+        "choices": [
+            "A. x(t)",
+            "B. X(s)",
+            "C. X(jω)",
+            "D. x[n]"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Signals that can take on any value within a continuous range are classified as:",
+        "choices": [
+            "A. analog signals",
+            "B. digital signals",
+            "C. discrete-time signals",
+            "D. quantized signals"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "A digital signal is defined as a signal that is:",
+        "choices": [
+            "A. continuous in time and amplitude",
+            "B. discrete in time and quantized in amplitude",
+            "C. discrete in time and continuous in amplitude",
+            "D. continuous in time and quantized in amplitude"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "A signal is strictly periodic with period T if which of the following holds for all t?",
+        "choices": [
+            "A. x(t) = x(-t)",
+            "B. x(t) = x(t/T)",
+            "C. x(t) = x(t + T)",
+            "D. x(t) = x(T - t)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "For a discrete-time signal x[n] to be periodic, its fundamental period N must be:",
+        "choices": [
+            "A. an irrational number",
+            "B. zero",
+            "C. any real number",
+            "D. an integer"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "Which of the following continuous-time signals is always periodic?",
+        "choices": [
+            "A. sin(3t) + cos(4t)",
+            "B. sin(πt) + cos(t)",
+            "C. e^(-t)sin(2t)",
+            "D. t*cos(t)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "A deterministic signal is one whose values:",
+        "choices": [
+            "A. are determined by a random process",
+            "B. can be perfectly predicted by a mathematical equation",
+            "C. are unknown until they are observed",
+            "D. follow a Gaussian distribution"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "Noise in an electrical circuit is best modeled as a:",
+        "choices": [
+            "A. periodic signal",
+            "B. deterministic signal",
+            "C. random signal",
+            "D. power signal exclusively"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "An aperiodic signal can be considered as a periodic signal with a period of:",
+        "choices": [
+            "A. zero",
+            "B. one",
+            "C. pi",
+            "D. infinity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "The discrete-time signal x[n] = cos(ωn) is periodic if and only if ω/(2π) is:",
+        "choices": [
+            "A. a rational number",
+            "B. an integer",
+            "C. an irrational number",
+            "D. a purely imaginary number"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "Which type of signal carries information in the form of discrete levels?",
+        "choices": [
+            "A. analog signal",
+            "B. digital signal",
+            "C. continuous-time signal",
+            "D. energy signal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "What is the fundamental period of the continuous-time signal x(t) = sin(10πt)?",
+        "choices": [
+            "A. 0.5 sec",
+            "B. 0.1 sec",
+            "C. 0.2 sec",
+            "D. 5 sec"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "For the signal x(t) = cos(3t) + sin(5t), what is the fundamental period?",
+        "choices": [
+            "A. 2π/3",
+            "B. 2π/5",
+            "C. 15π",
+            "D. 2π"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "A signal that has no uncertainty regarding its value at any given time is called:",
+        "choices": [
+            "A. deterministic",
+            "B. stochastic",
+            "C. random",
+            "D. probabilistic"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "Which of the following is an example of an analog signal?",
+        "choices": [
+            "A. ASCII character code",
+            "B. A human voice waveform",
+            "C. A DVD video output",
+            "D. A binary phase shift keying signal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "The sum of two continuous-time periodic signals is periodic only if the ratio of their periods is:",
+        "choices": [
+            "A. an integer",
+            "B. an irrational number",
+            "C. a rational number",
+            "D. exactly one"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "If a signal x(t) has a finite total energy, its average power must be:",
+        "choices": [
+            "A. finite",
+            "B. infinite",
+            "C. equal to its energy",
+            "D. zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "An energy signal is characterized by having:",
+        "choices": [
+            "A. finite energy and zero average power",
+            "B. infinite energy and finite average power",
+            "C. finite energy and infinite average power",
+            "D. zero energy and finite average power"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "A power signal is characterized by having:",
+        "choices": [
+            "A. finite energy",
+            "B. infinite energy and finite average power",
+            "C. zero average power",
+            "D. finite average power and zero energy"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Which of the following is generally classified as a power signal?",
+        "choices": [
+            "A. A single rectangular pulse",
+            "B. A decaying exponential",
+            "C. A periodic sine wave",
+            "D. A single triangular pulse"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "The average power P of a continuous-time signal x(t) is defined as the limit as T approaches infinity of:",
+        "choices": [
+            "A. (1/2T) integral from -T to T of",
+            "B. x(t)",
+            "C. ^2 dt",
+            "D. integral from -T to T of"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 35,
+        "question": "What is the energy of the signal x(t) = e^(-2t) u(t)?",
+        "choices": [
+            "A. 1/2",
+            "B. 1/8",
+            "C. 1/4",
+            "D. 1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "A unit step function u(t) is classified as a:",
+        "choices": [
+            "A. energy signal",
+            "B. neither energy nor power signal",
+            "C. finite energy signal",
+            "D. power signal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "If a signal has infinite energy and infinite average power, it is:",
+        "choices": [
+            "A. neither an energy nor a power signal",
+            "B. an energy signal",
+            "C. a power signal",
+            "D. a deterministic signal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "The operation x(t - t0) represents which modification of the signal x(t) if t0 > 0?",
+        "choices": [
+            "A. Time reversal",
+            "B. Time delay",
+            "C. Time advance",
+            "D. Time scaling"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "If a signal x(t) is delayed by 3 seconds, the resulting signal mathematically is:",
+        "choices": [
+            "A. x(3t)",
+            "B. x(t + 3)",
+            "C. x(t - 3)",
+            "D. x(-t + 3)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "The operation x(t + t0) with t0 > 0 represents a:",
+        "choices": [
+            "A. time delay",
+            "B. time reversal",
+            "C. time compression",
+            "D. time advance"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Time scaling is represented mathematically by substituting t with:",
+        "choices": [
+            "A. at",
+            "B. t - a",
+            "C. t + a",
+            "D. t/a only"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "If a > 1, the operation x(at) results in:",
+        "choices": [
+            "A. time expansion",
+            "B. time compression",
+            "C. time reversal",
+            "D. time delay"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "If 0 < a < 1, the operation x(at) results in:",
+        "choices": [
+            "A. time compression",
+            "B. time reversal",
+            "C. time expansion",
+            "D. time advance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "The operation x(-t) is known as:",
+        "choices": [
+            "A. time shifting",
+            "B. time compression",
+            "C. time scaling by zero",
+            "D. time reversal"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Time reversal reflects the signal x(t) about the:",
+        "choices": [
+            "A. vertical axis (y-axis)",
+            "B. horizontal axis (x-axis)",
+            "C. origin",
+            "D. line y = x"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "In the transformation x(at - b), which operation is generally performed first to avoid confusion when plotting?",
+        "choices": [
+            "A. time scaling",
+            "B. time shifting",
+            "C. time reversal",
+            "D. amplitude scaling"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "The signal x(2t + 4) is equivalent to advancing x(t) by 4 and then compressing by a factor of:",
+        "choices": [
+            "A. 4",
+            "B. 0.5",
+            "C. 2",
+            "D. 8"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "If x[n] is a discrete-time signal, x[2n] represents:",
+        "choices": [
+            "A. expanding the signal by inserting zeros",
+            "B. delaying the signal by 2 samples",
+            "C. shifting the signal left",
+            "D. decimation (discarding every other sample)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "An even signal exhibits symmetry such that:",
+        "choices": [
+            "A. x(t) = x(-t)",
+            "B. x(t) = -x(-t)",
+            "C. x(t) = x(t-1)",
+            "D. x(t) = -x(t)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "An odd signal exhibits symmetry such that:",
+        "choices": [
+            "A. x(t) = x(-t)",
+            "B. x(t) = -x(-t)",
+            "C. x(t) =",
+            "D. x(t)"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 51,
+        "question": "The even part of a signal x(t) is given by the formula:",
+        "choices": [
+            "A. (x(t) - x(-t))/2",
+            "B. x(t) + x(-t)",
+            "C. (x(t) + x(-t))/2",
+            "D. (x(t) * x(-t))/2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "The odd part of a signal x(t) is given by the formula:",
+        "choices": [
+            "A. (x(t) + x(-t))/2",
+            "B. x(t) - x(-t)",
+            "C. (x(t) + x(-t))",
+            "D. (x(t) - x(-t))/2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "What is the value of the unit step function u(t) for t < 0?",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. 0.5",
+            "D. undefined"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "What is the value of the unit step function u(t) for t > 0?",
+        "choices": [
+            "A. 0",
+            "B. 1",
+            "C. infinity",
+            "D. -1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "The continuous-time unit impulse function δ(t) is zero everywhere except at:",
+        "choices": [
+            "A. t = 1",
+            "B. t = infinity",
+            "C. t = 0",
+            "D. t = -1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "The integral of the unit impulse function δ(t) from -infinity to +infinity is:",
+        "choices": [
+            "A. 0",
+            "B. infinity",
+            "C. undefined",
+            "D. 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "The unit step function u(t) is related to the unit impulse function δ(t) by:",
+        "choices": [
+            "A. u(t) = integral from -inf to t of δ(τ) dτ",
+            "B. u(t) = d/dt δ(t)",
+            "C. u(t) = δ(t) * t",
+            "D. u(t) = δ(t-1)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "The unit ramp function r(t) is defined as:",
+        "choices": [
+            "A. r(t) = t for all t",
+            "B. r(t) = t for t >= 0 and 0 for t < 0",
+            "C. r(t) = 1 for t >= 0",
+            "D. r(t) = t^2 for t >= 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "The derivative of the unit ramp function r(t) is the:",
+        "choices": [
+            "A. unit impulse function δ(t)",
+            "B. doublet function",
+            "C. unit step function u(t)",
+            "D. parabolic function"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "The derivative of the unit step function u(t) is the:",
+        "choices": [
+            "A. unit ramp function r(t)",
+            "B. signum function sgn(t)",
+            "C. rectangular pulse function",
+            "D. unit impulse function δ(t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "Which of the following is true for the sifting property of the impulse function for a continuous function f(t)?",
+        "choices": [
+            "A. integral of f(t)δ(t-t0) = f(t0)",
+            "B. integral of f(t)δ(t) = f(t-t0)",
+            "C. integral of f(t)δ(t-t0) = f(0)",
+            "D. integral of f(t)δ(t-t0) = δ(t0)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "What is the value of the integral from -5 to 5 of (t^2 + 3t)δ(t-2) dt?",
+        "choices": [
+            "A. 0",
+            "B. 10",
+            "C. 14",
+            "D. 2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "The discrete-time unit impulse δ[n] is equal to 1 when:",
+        "choices": [
+            "A. n > 0",
+            "B. n < 0",
+            "C. n = 0",
+            "D. n is an integer"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "The discrete-time unit step function u[n] is 1 for:",
+        "choices": [
+            "A. n > 0",
+            "B. n = 0",
+            "C. n < 0",
+            "D. n >= 0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "The scaling property of the impulse function states that δ(at) is equivalent to:",
+        "choices": [
+            "A. (1/",
+            "B. a",
+            "C. ) δ(t)",
+            "D. a δ(t)"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 66,
+        "question": "What is the result of multiplying a signal x(t) by a unit step function u(t)?",
+        "choices": [
+            "A. The signal is inverted",
+            "B. The signal is zeroed out for t < 0",
+            "C. The signal is shifted right",
+            "D. The signal's amplitude is doubled for t > 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "The rectangular pulse function, rect(t/T), has a width of:",
+        "choices": [
+            "A. T/2",
+            "B. 1",
+            "C. T",
+            "D. 2T"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "A continuous-time signal x(t) = 5 for -2 < t < 2, and 0 elsewhere. This can be represented using step functions as:",
+        "choices": [
+            "A. 5(u(t-2) - u(t+2))",
+            "B. 5u(t)",
+            "C. 5(u(t+2) + u(t-2))",
+            "D. 5(u(t+2) - u(t-2))"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "The signum function, sgn(t), is defined as:",
+        "choices": [
+            "A. 1 for t>0, -1 for t<0",
+            "B. 1 for t>0, 0 for t<0",
+            "C. t for t>0, -t for t<0",
+            "D. u(t) - u(-t) only when t is not 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "The relationship between the signum function sgn(t) and the unit step function u(t) is:",
+        "choices": [
+            "A. sgn(t) = u(t)",
+            "B. sgn(t) = 2u(t) - 1",
+            "C. sgn(t) = u(t) + 1",
+            "D. sgn(t) = u(t) - u(-t) + 1"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 71,
+        "question": "What is the fundamental period of the discrete-time signal x[n] = e^(j(π/4)n)?",
+        "choices": [
+            "A. 2",
+            "B. 4",
+            "C. 8",
+            "D. 16"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "For a signal to be an energy signal, its average power must be:",
+        "choices": [
+            "A. finite",
+            "B. exactly 1",
+            "C. dependent on time",
+            "D. strictly zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 73,
+        "question": "If x(t) has energy E, what is the energy of the time-scaled signal x(at) where a > 0?",
+        "choices": [
+            "A. E/a",
+            "B. aE",
+            "C. E",
+            "D. E/a^2"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "If x(t) is a power signal with average power P, what is the power of x(t - t0)?",
+        "choices": [
+            "A. P/2",
+            "B. P",
+            "C. P + t0",
+            "D. 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "Evaluate the integral of e^(-3t) δ(t-1) from t = 0 to 2.",
+        "choices": [
+            "A. e^3",
+            "B. e^-1",
+            "C. e^-3",
+            "D. 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "The sum of an even signal and an odd signal is:",
+        "choices": [
+            "A. always even",
+            "B. always odd",
+            "C. always zero",
+            "D. neither strictly even nor strictly odd"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "If x[n] = u[n] - u[n-4], how many non-zero samples does x[n] have?",
+        "choices": [
+            "A. 4",
+            "B. 5",
+            "C. 3",
+            "D. infinite"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "A continuous-time sinusoidal signal x(t) = A cos(ωt + φ) is a:",
+        "choices": [
+            "A. energy signal",
+            "B. power signal",
+            "C. neither power nor energy signal",
+            "D. random signal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "In the function x(3 - t), the correct sequence of operations on x(t) could be:",
+        "choices": [
+            "A. shift right by 3, then time scale by -1",
+            "B. time reverse, then shift right by 3",
+            "C. time reverse, then shift right by 3 (on the independent variable)",
+            "D. shift left by 3, then time reverse"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 80,
+        "question": "The operation of replacing t with -t is commonly utilized to check if a signal is:",
+        "choices": [
+            "A. causal",
+            "B. periodic",
+            "C. stable",
+            "D. even or odd"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "A causal continuous-time signal x(t) is defined such that x(t) = 0 for:",
+        "choices": [
+            "A. t < 0",
+            "B. t > 0",
+            "C. t = 0",
+            "D. t not equal to zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "The product of two odd signals results in a signal that is:",
+        "choices": [
+            "A. odd",
+            "B. even",
+            "C. zero",
+            "D. undefined"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "The product of an even signal and an odd signal is:",
+        "choices": [
+            "A. even",
+            "B. symmetric",
+            "C. odd",
+            "D. always zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "What is the energy of the signal x(t) = rect(t/4)?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 16",
+            "D. 4"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "The unit doublet function is the derivative of the:",
+        "choices": [
+            "A. unit impulse function",
+            "B. unit step function",
+            "C. unit ramp function",
+            "D. parabolic function"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Which singularity function is used to model an instantaneous point source or a sudden impact?",
+        "choices": [
+            "A. unit step function",
+            "B. unit impulse function",
+            "C. unit ramp function",
+            "D. signum function"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "The signal x(t) = e^(jωt) is a complex exponential. Its real part is:",
+        "choices": [
+            "A. sin(ωt)",
+            "B. e^(ωt)",
+            "C. cos(ωt)",
+            "D. sinh(ωt)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "Which of the following continuous-time signals represents a physical DC voltage of 5V turned on at t=0?",
+        "choices": [
+            "A. 5",
+            "B. 5 δ(t)",
+            "C. 5 r(t)",
+            "D. 5 u(t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "The fundamental angular frequency ω0 of a periodic continuous-time signal with period T is:",
+        "choices": [
+            "A. 2π/T",
+            "B. T/2π",
+            "C. π/T",
+            "D. 1/T"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "If a signal x(t) is compressed in time by a factor of 2, its fundamental frequency:",
+        "choices": [
+            "A. decreases by half",
+            "B. doubles",
+            "C. remains the same",
+            "D. quadruples"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "For a random signal, which mathematical tool is typically used to describe its characteristics instead of explicit time functions?",
+        "choices": [
+            "A. Fourier Transform",
+            "B. Laplace Transform",
+            "C. Statistical measures (like PDF, PSD)",
+            "D. Z-Transform"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "The signal x(t) = t * u(t) is mathematically identical to which function?",
+        "choices": [
+            "A. unit step u(t)",
+            "B. impulse δ(t)",
+            "C. signum sgn(t)",
+            "D. unit ramp r(t)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 93,
+        "question": "The operation x(t/3) stretches the signal in time by a factor of:",
+        "choices": [
+            "A. 3",
+            "B. 1/3",
+            "C. -3",
+            "D. 0.33"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "If a discrete-time signal is defined as x[n] = (1/2)^n u[n], its values for negative n are:",
+        "choices": [
+            "A. negative",
+            "B. zero",
+            "C. infinite",
+            "D. complex"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "Which operation shifts the signal x(t) to the left on the time axis by 5 units?",
+        "choices": [
+            "A. x(t-5)",
+            "B. x(5t)",
+            "C. x(t+5)",
+            "D. x(-t-5)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "Determine the fundamental period of the discrete signal x[n] = cos(3πn/4).",
+        "choices": [
+            "A. 4/3",
+            "B. 3",
+            "C. 4",
+            "D. 8"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "If x(t) is a non-periodic signal, it can be considered a periodic signal with a fundamental period T approaching:",
+        "choices": [
+            "A. infinity",
+            "B. zero",
+            "C. one",
+            "D. negative infinity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "Evaluating the integral of f(t) δ'(t-t0) from -∞ to ∞ yields:",
+        "choices": [
+            "A. f'(t0)",
+            "B. -f'(t0)",
+            "C. f(t0)",
+            "D. -f(t0)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "The energy of a signal x(t) can be calculated in the frequency domain using:",
+        "choices": [
+            "A. Parseval's theorem",
+            "B. Convolution theorem",
+            "C. Nyquist theorem",
+            "D. Sampling theorem"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "What is the average power of the signal x(t) = A cos(ωt)?",
+        "choices": [
+            "A. A^2",
+            "B. A / sqrt(2)",
+            "C. A",
+            "D. A^2 / 2"
+        ],
+        "correct_answer": "D"
+    }
+]

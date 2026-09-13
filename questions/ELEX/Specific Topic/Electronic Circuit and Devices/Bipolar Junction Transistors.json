@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "In an intrinsic semiconductor, doping it with pentavalent impurities creates what type of material?",
+        "choices": [
+            "A. P-type",
+            "B. Intrinsic",
+            "C. Insulator",
+            "D. N-type"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 2,
+        "question": "When a PN junction diode is forward biased, the width of its depletion region...",
+        "choices": [
+            "A. Decreases",
+            "B. Increases",
+            "C. Remains the same",
+            "D. Doubles"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "Which type of diode is optimized specifically for operating in the reverse breakdown region to regulate voltage?",
+        "choices": [
+            "A. Tunnel diode",
+            "B. Schottky diode",
+            "C. Zener diode",
+            "D. Varactor diode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "At room temperature (300K), the thermal voltage (Vt) used in the Shockley diode equation is approximately equal to:",
+        "choices": [
+            "A. 0.7 V",
+            "B. 26 mV",
+            "C. 1.2 V",
+            "D. 100 mV"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "What is the Peak Inverse Voltage (PIV) rating required for the diodes in a center-tapped full-wave rectifier with a peak secondary voltage Vm?",
+        "choices": [
+            "A. Vm/2",
+            "B. Vm",
+            "C. 2Vm",
+            "D. 4Vm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 6,
+        "question": "Avalanche breakdown in a semiconductor diode occurs primarily due to:",
+        "choices": [
+            "A. Low reverse voltage and high doping",
+            "B. Thermal agitation of holes",
+            "C. Direct tunneling of electrons",
+            "D. High reverse voltage accelerating minority carriers"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 7,
+        "question": "The theoretical ripple factor for a basic half-wave rectifier without a filter capacitor is:",
+        "choices": [
+            "A. 1.21",
+            "B. 0.48",
+            "C. 1.00",
+            "D. 0.707"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "The standard barrier potential for a Silicon diode at room temperature is commonly accepted as:",
+        "choices": [
+            "A. 0.3 V",
+            "B. 0.7 V",
+            "C. 1.1 V",
+            "D. 1.5 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "In a P-type semiconductor material, which of the following acts as the majority charge carrier?",
+        "choices": [
+            "A. Electrons",
+            "B. Neutrons",
+            "C. Holes",
+            "D. Protons"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "A varactor diode takes advantage of the variable transition capacitance that occurs specifically in which operating region?",
+        "choices": [
+            "A. Reverse bias",
+            "B. Forward bias",
+            "C. Avalanche breakdown",
+            "D. Saturation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 11,
+        "question": "What does the acronym BJT stand for in electronics?",
+        "choices": [
+            "A. Bi-Junction Transistor",
+            "B. Bipolar Junction Transistor",
+            "C. Bipolar Junction Thyristor",
+            "D. Base Junction Terminal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "How many PN junctions are physically present within a single Bipolar Junction Transistor?",
+        "choices": [
+            "A. Zero",
+            "B. One",
+            "C. Three",
+            "D. Two"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Among the three regions of a BJT, which region is the most heavily doped to ensure maximum injection of charge carriers?",
+        "choices": [
+            "A. Emitter",
+            "B. Base",
+            "C. Collector",
+            "D. Substrate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Physically, the base region of a BJT is designed to be:",
+        "choices": [
+            "A. Thick and heavily doped",
+            "B. Thin and lightly doped",
+            "C. Thick and lightly doped",
+            "D. Thin and heavily doped"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "Which region of the BJT is physically the largest to effectively dissipate heat generated during normal operation?",
+        "choices": [
+            "A. Emitter",
+            "B. Base",
+            "C. Collector",
+            "D. Gate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "The standard transistor alpha is defined as the mathematical ratio of which two DC currents?",
+        "choices": [
+            "A. Ib / Ie",
+            "B. Ic / Ib",
+            "C. Ib / Ic",
+            "D. Ic / Ie"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "The common-emitter current gain, Beta, represents the ratio of the collector current to which other current?",
+        "choices": [
+            "A. Emitter current",
+            "B. Source current",
+            "C. Substrate current",
+            "D. Base current"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 18,
+        "question": "For a BJT to operate in the linear active region as an amplifier, the Emitter-Base Junction (EBJ) and Collector-Base Junction (CBJ) must be biased as:",
+        "choices": [
+            "A. EBJ Forward, CBJ Reverse",
+            "B. EBJ Reverse, CBJ Forward",
+            "C. Both Forward",
+            "D. Both Reverse"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "When a transistor is used as an open switch in logic circuits, it is operating in the cutoff region where the junctions are:",
+        "choices": [
+            "A. Both Forward biased",
+            "B. Both Reverse biased",
+            "C. EBJ Forward, CBJ Reverse",
+            "D. EBJ Reverse, CBJ Forward"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "In the saturation region, which allows maximum current flow like a closed switch, the junction biasing is:",
+        "choices": [
+            "A. Both Reverse",
+            "B. EBJ Reverse, CBJ Forward",
+            "C. Both Forward",
+            "D. EBJ Forward, CBJ Reverse"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "In the standard schematic symbol of a BJT, the small arrow placed on the emitter terminal points in the direction of:",
+        "choices": [
+            "A. Electron flow",
+            "B. Conventional current flow",
+            "C. Hole drift",
+            "D. Recombination current"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 22,
+        "question": "In a PNP transistor operating normally, the majority charge carriers injected from the emitter into the base are:",
+        "choices": [
+            "A. Electrons",
+            "B. Phonons",
+            "C. Holes",
+            "D. Anions"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 23,
+        "question": "The current transfer ratio Gamma is used in common-collector configurations. It is the ratio of:",
+        "choices": [
+            "A. Ic / Ib",
+            "B. Ib / Ie",
+            "C. Ic / Ie",
+            "D. Ie / Ib"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "If the current gain Beta is known, the mathematical relationship to find the corresponding Alpha is:",
+        "choices": [
+            "A. Alpha = Beta / (Beta + 1)",
+            "B. Alpha = (Beta + 1) / Beta",
+            "C. Alpha = Beta - 1",
+            "D. Alpha = 1 / Beta"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "If the common-base current gain Alpha is given, the relationship to find Beta is defined as:",
+        "choices": [
+            "A. Beta = Alpha + 1",
+            "B. Beta = (1 - Alpha) / Alpha",
+            "C. Beta = Alpha / (1 - Alpha)",
+            "D. Beta = Alpha / (Alpha + 1)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "In typical low-power BJT amplifier operation, the base current (Ib) is normally measured in what magnitude range?",
+        "choices": [
+            "A. Amperes",
+            "B. MilliAmperes",
+            "C. NanoAmperes",
+            "D. MicroAmperes"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "According to Kirchhoff's Current Law applied to a BJT, the primary relationship of the terminal currents is:",
+        "choices": [
+            "A. Ie = Ic + Ib",
+            "B. Ic = Ie + Ib",
+            "C. Ib = Ic + Ie",
+            "D. Ie = Ic - Ib"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "A Common-Base (CB) amplifier configuration provides significant voltage gain, but its expected current gain is:",
+        "choices": [
+            "A. Extremely high",
+            "B. Slightly less than unity",
+            "C. Exactly equal to Beta",
+            "D. Infinity"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "When a sinusoidal input signal is fed to a basic Common-Emitter (CE) amplifier, the output voltage signal experiences a phase shift of:",
+        "choices": [
+            "A. 180 degrees",
+            "B. 90 degrees",
+            "C. 0 degrees",
+            "D. 360 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "The Common-Collector (CC) amplifier configuration is widely used for impedance matching and is commonly known as a/an:",
+        "choices": [
+            "A. Base limiter",
+            "B. Collector booster",
+            "C. Emitter follower",
+            "D. Voltage multiplier"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "In DC biasing of transistors, the designated operating point on the load line is universally referred to as the:",
+        "choices": [
+            "A. Pivot point",
+            "B. Q-point (Quiescent point)",
+            "C. Saturation intercept",
+            "D. Cutoff coordinate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "The reverse saturation current or leakage current (Ico) in a BJT is highly sensitive to and primarily doubles with every 10-degree increase in:",
+        "choices": [
+            "A. Base voltage",
+            "B. Collector voltage",
+            "C. Emitter resistance",
+            "D. Temperature"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "To faithfully amplify an AC analog signal without clipping, the Q-point should ideally be placed near the center of which region?",
+        "choices": [
+            "A. Cutoff",
+            "B. Active",
+            "C. Saturation",
+            "D. Breakdown"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 34,
+        "question": "In digital computer logic, BJT circuits act as simple electronic switches by rapidly shifting strictly between which two regions?",
+        "choices": [
+            "A. Saturation and Cutoff",
+            "B. Active and Reverse",
+            "C. Reverse and Breakdown",
+            "D. Cutoff and Active"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "The stability factor S is a critical design parameter that measures the rate of change of collector current with respect to changes in:",
+        "choices": [
+            "A. Base resistance",
+            "B. Temperature",
+            "C. Power supply",
+            "D. Leakage current (Ico)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "For a perfectly stable bias circuit completely immune to temperature-induced leakage changes, the ideal value of stability factor S would be:",
+        "choices": [
+            "A. Zero",
+            "B. Infinity",
+            "C. One",
+            "D. Negative one"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "In an operating NPN transistor, the fundamental physical electron flow inside the device travels from the:",
+        "choices": [
+            "A. Collector to Emitter",
+            "B. Base to Emitter",
+            "C. Base to Collector",
+            "D. Emitter to Collector"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 38,
+        "question": "As Vcb increases, the effective width of the neutral base region decreases, affecting collector current. This phenomenon is termed the:",
+        "choices": [
+            "A. Zener effect",
+            "B. Early effect",
+            "C. Miller effect",
+            "D. Hall effect"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "In the reverse active operating region, the normal biasing is swapped, meaning the junctions are configured as:",
+        "choices": [
+            "A. Both Forward",
+            "B. Both Reverse",
+            "C. EBJ Reverse, CBJ Forward",
+            "D. EBJ Forward, CBJ Reverse"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "Looking at the energy band diagram of an unbiased NPN transistor, the Fermi level in the heavily doped emitter region is located:",
+        "choices": [
+            "A. Very close to the conduction band",
+            "B. At the intrinsic energy level",
+            "C. Very close to the valence band",
+            "D. Exactly in the middle of the bandgap"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "A specific NPN transistor has a manufacturer-rated Beta of 150. What is its corresponding common-base current gain (Alpha)?",
+        "choices": [
+            "A. 0.993",
+            "B. 0.985",
+            "C. 1.000",
+            "D. 0.950"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "If a BJT exhibits a common-base current gain (Alpha) of 0.98, calculate its common-emitter current gain (Beta).",
+        "choices": [
+            "A. 25",
+            "B. 100",
+            "C. 49",
+            "D. 98"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "A basic CE amplifier has a DC base current of 25 microamperes. If the Beta is 80, what is the expected collector current?",
+        "choices": [
+            "A. 2.5 mA",
+            "B. 2.0 mA",
+            "C. 1.5 mA",
+            "D. 3.2 mA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "Given an emitter current of 5.0 mA and an Alpha of 0.99, determine the exact value of the base current.",
+        "choices": [
+            "A. 0.5 mA",
+            "B. 500 uA",
+            "C. 0.01 mA",
+            "D. 50 uA"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "Circuit Design: A fixed-bias NPN circuit is powered by a Vcc of 12V. A base resistor of 1.2 M-ohms is used. Assuming Vbe is 0.7V, calculate the base current.",
+        "choices": [
+            "A. 10.0 uA",
+            "B. 9.42 uA",
+            "C. 8.85 uA",
+            "D. 11.2 uA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "From the fixed-bias circuit described previously (Ib = 9.42 uA), if the transistor Beta is 120, what is the collector current?",
+        "choices": [
+            "A. 1.45 mA",
+            "B. 0.88 mA",
+            "C. 2.10 mA",
+            "D. 1.13 mA"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 47,
+        "question": "Continuing with the fixed-bias circuit (Vcc=12V, Ic=1.13 mA), if the collector resistor Rc is 4.7 k-ohms, find the collector-emitter voltage (Vce).",
+        "choices": [
+            "A. 6.69 V",
+            "B. 5.31 V",
+            "C. 12.0 V",
+            "D. 4.70 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "Circuit Design: An emitter-stabilized bias circuit uses Vcc=15V, Rb=560 k-ohms, Re=1.5 k-ohms. If Beta is 100 and Vbe=0.7V, calculate the approximate base current.",
+        "choices": [
+            "A. 25.5 uA",
+            "B. 15.2 uA",
+            "C. 20.1 uA",
+            "D. 18.9 uA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "Using the base current from the previous emitter bias circuit (Ib = 20.1 uA) and Beta=100, calculate the collector current.",
+        "choices": [
+            "A. 3.50 mA",
+            "B. 1.55 mA",
+            "C. 2.01 mA",
+            "D. 2.80 mA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "For the emitter bias circuit (Vcc=15V, Ic=2.01 mA, Re=1.5k), if Rc is 2.2 k-ohms, what is the value of Vce? (Assume Ic approximately equals Ie).",
+        "choices": [
+            "A. 7.56 V",
+            "B. 6.30 V",
+            "C. 8.95 V",
+            "D. 5.12 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 51,
+        "question": "Circuit Design: A voltage-divider biased NPN has Vcc=20V, R1=68k, R2=10k, Rc=4.7k, Re=1.2k. Using the approximate method, find the base voltage (Vb).",
+        "choices": [
+            "A. 1.25 V",
+            "B. 4.10 V",
+            "C. 3.55 V",
+            "D. 2.56 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 52,
+        "question": "For the same voltage-divider circuit (Vcc=20V, R1=68k, R2=10k), what is the exact Thevenin equivalent voltage (Vth) looking into the base?",
+        "choices": [
+            "A. 3.56 V",
+            "B. 2.56 V",
+            "C. 2.05 V",
+            "D. 4.12 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "For the same voltage-divider circuit (R1=68k, R2=10k), what is the Thevenin equivalent resistance (Rth) at the base terminal?",
+        "choices": [
+            "A. 11.2 k-ohms",
+            "B. 6.80 k-ohms",
+            "C. 78.0 k-ohms",
+            "D. 8.72 k-ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 54,
+        "question": "Given the approximate base voltage Vb = 2.56V in the voltage divider circuit, what is the emitter voltage (Ve) assuming Vbe = 0.7V?",
+        "choices": [
+            "A. 2.56 V",
+            "B. 1.86 V",
+            "C. 1.16 V",
+            "D. 3.26 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "From the previous problem with Ve = 1.86V and Re = 1.2 k-ohms, calculate the expected emitter current (Ie).",
+        "choices": [
+            "A. 1.86 mA",
+            "B. 2.23 mA",
+            "C. 1.55 mA",
+            "D. 0.98 mA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "Assuming Ic is approximately equal to Ie (1.55 mA) in the voltage divider circuit with Vcc=20V, Rc=4.7k, and Re=1.2k, determine Vce.",
+        "choices": [
+            "A. 10.86 V",
+            "B. 12.55 V",
+            "C. 9.40 V",
+            "D. 11.12 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 57,
+        "question": "Circuit Design: A collector-feedback bias circuit has Vcc=12V, Rb=470k, Rc=3.3k, and Beta=80. Calculate the base current (Ib) given Vbe=0.7V.",
+        "choices": [
+            "A. 15.3 uA",
+            "B. 18.5 uA",
+            "C. 12.2 uA",
+            "D. 22.4 uA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "Using the collector-feedback circuit base current (Ib = 15.3 uA) and Beta=80, find the resulting collector current.",
+        "choices": [
+            "A. 2.05 mA",
+            "B. 0.88 mA",
+            "C. 1.22 mA",
+            "D. 1.55 mA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "Calculate Vce for the collector-feedback circuit (Vcc=12V, Rc=3.3k, Ic=1.22 mA, and ignore Ib in Rc voltage drop for simplicity).",
+        "choices": [
+            "A. 4.02 V",
+            "B. 7.97 V",
+            "C. 6.55 V",
+            "D. 9.12 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "In a generic fixed-bias setup where Vcc=15V and Rc=5 k-ohms, what is the absolute theoretical maximum saturation current (Ic_sat) if Vce reaches 0V?",
+        "choices": [
+            "A. 5.0 mA",
+            "B. 1.5 mA",
+            "C. 15.0 mA",
+            "D. 3.0 mA"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "For a basic fixed-bias transistor acting as a switch in cutoff, if Vcc is 12V, what is the expected collector-emitter voltage?",
+        "choices": [
+            "A. 0 V",
+            "B. 6 V",
+            "C. 12 V",
+            "D. 0.7 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 62,
+        "question": "The Common-Collector (CC) amplifier configuration, also known as the emitter follower, has a characteristic voltage gain that is:",
+        "choices": [
+            "A. Approximately 1",
+            "B. Very high",
+            "C. Very negative",
+            "D. Exactly zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 63,
+        "question": "Which fundamental characteristic describes the input impedance of a Common-Base (CB) amplifier configuration?",
+        "choices": [
+            "A. Very high",
+            "B. Medium",
+            "C. Infinite",
+            "D. Very low"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "A standard Common-Emitter (CE) amplifier, favored for general amplification, typically provides an input impedance that is categorized as:",
+        "choices": [
+            "A. Extremely low",
+            "B. Medium (kilohms range)",
+            "C. Extremely high (megohms range)",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "When connecting a high-impedance source to a low-impedance load, which BJT configuration is ideally suited as a buffer?",
+        "choices": [
+            "A. Common-Base",
+            "B. Common-Collector",
+            "C. Common-Emitter",
+            "D. Darlington-Emitter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "The inherent stability factor, S(Ico), for a basic fixed-bias circuit is mathematically evaluated as:",
+        "choices": [
+            "A. 1",
+            "B. Beta",
+            "C. Zero",
+            "D. Beta + 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 67,
+        "question": "To function effectively without a separate negative power supply, a basic emitter bias circuit requires the addition of:",
+        "choices": [
+            "A. An emitter resistor",
+            "B. A collector choke",
+            "C. A base coupling capacitor",
+            "D. A zener diode"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "In a voltage-divider biased circuit, the network is considered \"stiff\" or relatively independent of Beta variations if the relation Beta * Re is at least:",
+        "choices": [
+            "A. Equal to R2",
+            "B. Ten times greater than R1",
+            "C. Ten times greater than R2",
+            "D. Equal to R1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "If the leakage current (Ico) of a silicon transistor is 20 nA at 25 degrees Celsius, what is its approximate value if the temperature rises to 55 degrees Celsius?",
+        "choices": [
+            "A. 160 nA",
+            "B. 120 nA",
+            "C. 80 nA",
+            "D. 60 nA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "On a BJT's output characteristic curve (Ic vs Vce), the exact operating point established by the DC bias network is graphically located by plotting the:",
+        "choices": [
+            "A. AC load line",
+            "B. Power dissipation curve",
+            "C. DC load line",
+            "D. Early voltage intercept"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "The term Gamma, used in emitter followers to relate emitter current to base current, can be expressed in terms of Alpha as:",
+        "choices": [
+            "A. Alpha / (1 - Alpha)",
+            "B. (1 - Alpha) / Alpha",
+            "C. 1 / Alpha",
+            "D. 1 / (1 - Alpha)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "When a typical low-power silicon switching transistor goes into hard saturation, the expected Vce(sat) is typically in the range of:",
+        "choices": [
+            "A. 0.7 V to 1.0 V",
+            "B. 0.1 V to 0.3 V",
+            "C. 0 V exactly",
+            "D. 1.5 V to 2.0 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "Which of the following statements strictly defines the boundary constraint for a BJT operating purely in the linear active region?",
+        "choices": [
+            "A. Vce = 0.2V and Ic < Beta*Ib",
+            "B. Vbe < 0.7V and Vbc > 0V",
+            "C. Ic > Ie + Ib",
+            "D. Vce > Vce(sat) and Ic = Beta * Ib"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "To properly forward bias the emitter-base junction of a PNP transistor, the external DC voltage applied to the base terminal must be:",
+        "choices": [
+            "A. More positive than the emitter",
+            "B. More negative than the emitter",
+            "C. Exactly equal to the emitter",
+            "D. Grounded strictly"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "What is the algebraic sum of Alpha and Beta when expressed purely in terms of Beta?",
+        "choices": [
+            "A. Beta - 1",
+            "B. (Beta - 1)/Beta",
+            "C. (Beta^2 + 2*Beta) / (Beta + 1)",
+            "D. Beta^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "A power transistor is rated for a maximum power dissipation (Pd_max) of 2.0 Watts. If operating at Vce = 8V, what is the absolute maximum safe collector current?",
+        "choices": [
+            "A. 250 mA",
+            "B. 125 mA",
+            "C. 500 mA",
+            "D. 160 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 77,
+        "question": "The destructive condition known as thermal runaway in a BJT is fundamentally initiated by a temperature-driven increase in:",
+        "choices": [
+            "A. Base voltage",
+            "B. Leakage current (Ico)",
+            "C. Recombination rate",
+            "D. Emitter resistance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "Among standard single-stage BJT biasing configurations, which provides the best stability against Beta variations and temperature drift?",
+        "choices": [
+            "A. Voltage Divider Bias",
+            "B. Base Bias",
+            "C. Fixed Bias",
+            "D. Collector Feedback Bias"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "In digital electronics, when a transistor is saturated, it effectively functions as a/an:",
+        "choices": [
+            "A. Voltage amplifier",
+            "B. Open circuit",
+            "C. Variable resistor",
+            "D. Closed switch"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "Conversely, when the logic input voltage is below the turn-on threshold (Vbe < 0.7V), the transistor enters cutoff, acting as a/an:",
+        "choices": [
+            "A. Current source",
+            "B. Closed switch",
+            "C. Open switch",
+            "D. Integrator"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 81,
+        "question": "Circuit Design: NPN CE amplifier has Vcc=15V, R1=100k, R2=22k, Rc=3.3k, Re=1k. Beta=150. Calculate precise Vce without approximations. (Vth=2.7V, Rth=18.03k. Ib=11.83uA. Ic=1.77mA).",
+        "choices": [
+            "A. 8.20 V",
+            "B. 6.55 V",
+            "C. 7.39 V",
+            "D. 9.15 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "Calculate the precise stability factor S(Ico) for the voltage divider bias circuit in the previous item (Rth=18.03k, Re=1k, Beta=150). (S = 151*(1+18.03)/(151+18.03) = 17.06).",
+        "choices": [
+            "A. 32.5",
+            "B. 17.1",
+            "C. 8.5",
+            "D. 45.2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "Circuit Design: A PNP transistor uses voltage divider bias with a negative supply Vcc = -20V. R1 (to ground) = 15k, R2 (to Vcc) = 33k. Find the magnitude of the Thevenin voltage at the base.",
+        "choices": [
+            "A. 6.25 V",
+            "B. 8.45 V",
+            "C. 10.0 V",
+            "D. 13.75 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "Circuit Design: An emitter follower (CC) uses Vcc=12V, Rb=270k, Re=2.2k. Beta=100. Find the collector-emitter voltage Vce. (Ib=(12-0.7)/(270+101*2.2)=22.9uA. Ic=2.29mA. Ve=5.08V. Vce=12-5.08=6.92V).",
+        "choices": [
+            "A. 5.50 V",
+            "B. 4.25 V",
+            "C. 8.12 V",
+            "D. 6.92 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "In the physics of a BJT, the base transit time (tau_b), which determines switching speed, is fundamentally proportional to:",
+        "choices": [
+            "A. The square of the base width",
+            "B. The inverse of collector voltage",
+            "C. The cube of emitter doping",
+            "D. The square root of temperature"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "A BJT has an Early voltage (Va) magnitude of 80V. If it is biased at a collector current (Ic) of 2 mA, calculate its small-signal output resistance (ro).",
+        "choices": [
+            "A. 20 k-ohms",
+            "B. 60 k-ohms",
+            "C. 80 k-ohms",
+            "D. 40 k-ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "In a standard Darlington pair configuration, if the first transistor has a Beta of 40 and the second has a Beta of 80, what is the approximate overall current gain?",
+        "choices": [
+            "A. 120",
+            "B. 1600",
+            "C. 3280",
+            "D. 3200"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 88,
+        "question": "In the Ebers-Moll solid-state model of the BJT, the mathematical equivalence of (Alpha_F * Ieo) to (Alpha_R * Ico) is formally known as the:",
+        "choices": [
+            "A. Continuity equation",
+            "B. Reciprocity relation",
+            "C. Early principle",
+            "D. Shockley boundary condition"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "If the base terminal of a BJT is externally shorted directly to its collector terminal, the resulting two-terminal device electrically behaves precisely as a:",
+        "choices": [
+            "A. Capacitor",
+            "B. Voltage regulator",
+            "C. Diode",
+            "D. Resistor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "Circuit Design: A switching transistor has Vcc=10V, Rc=1k-ohm. It is driven hard such that Ib = 2 mA. Assuming Vce(sat)=0.2V, what is the \"forced Beta\" of this circuit?",
+        "choices": [
+            "A. 10.0",
+            "B. 4.9",
+            "C. 2.5",
+            "D. 8.2"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "In an unstable simple base bias circuit, if a replacement transistor causes Beta to jump from 50 to 150, the Q-point on the load line will abruptly:",
+        "choices": [
+            "A. Shift down into cutoff",
+            "B. Move precisely to the center",
+            "C. Remain completely unaffected",
+            "D. Move drastically upward toward saturation"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "Circuit Design: An NPN emitter follower has its collector tied directly to +15V and its base grounded. The emitter connects to a -10V supply via a 3.3 k-ohm resistor. Find the exact emitter current.",
+        "choices": [
+            "A. 2.82 mA",
+            "B. 3.03 mA",
+            "C. 1.55 mA",
+            "D. 4.20 mA"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 93,
+        "question": "Based on the previous split-supply emitter follower circuit (Vc=+15V, Ve=-0.7V), determine the exact Vce across the transistor.",
+        "choices": [
+            "A. 14.3 V",
+            "B. 10.7 V",
+            "C. 25.0 V",
+            "D. 15.7 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "In a perfectly active NPN BJT, the minority carrier concentration profile across the neutral base region takes what distinct mathematical shape?",
+        "choices": [
+            "A. Linear slope decreasing to zero at collector",
+            "B. Parabolic peak in the middle",
+            "C. Exponential decay across the entire width",
+            "D. Flat constant concentration"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "The physical breakdown phenomenon known as \"punch-through\" in a high-voltage BJT occurs precisely when:",
+        "choices": [
+            "A. Avalanche multiplication exceeds safe limits",
+            "B. The emitter-base junction overheats",
+            "C. The CBJ depletion region expands across the entire base",
+            "D. The collector melts due to thermal runaway"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "Circuit Design: A dual-supply bias network has Vcc=+12V, Vee=-12V, Re=4.7k, Rb=100k. Beta=120. Using approximation, find the emitter current (Ie) assuming Ve is roughly -0.7V.",
+        "choices": [
+            "A. 1.85 mA",
+            "B. 2.40 mA",
+            "C. 3.10 mA",
+            "D. 2.95 mA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "Calculating precisely for the dual-supply circuit (Re=4.7k, Rb=100k, Beta=120, Vee=-12V), find the exact base current Ib. (Ie=(12-0.7)/(4.7k + 100k/121) = 11.3 / (4.7 + 0.826) = 11.3 / 5.526 = 2.04 mA. Ib = 2.04/121 = 16.9uA).",
+        "choices": [
+            "A. 12.5 uA",
+            "B. 16.9 uA",
+            "C. 20.2 uA",
+            "D. 14.1 uA"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "Circuit Design: A common-base amplifier is biased with an emitter current Ie=2mA. Determine its intrinsic emitter resistance (re) at room temperature (assume Vt=26mV).",
+        "choices": [
+            "A. 26 ohms",
+            "B. 1.3 ohms",
+            "C. 13 ohms",
+            "D. 52 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "The unity-gain frequency (fT) of a high-frequency BJT designates the specific operating frequency at which the short-circuit current gain drops exactly to:",
+        "choices": [
+            "A. One",
+            "B. Zero",
+            "C. 0.707 of midband",
+            "D. Alpha"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 100,
+        "question": "In high-frequency CE amplifiers, the parasitic capacitance across the base-collector junction is severely magnified at the input due to an effect called:",
+        "choices": [
+            "A. Early effect",
+            "B. Punch-through effect",
+            "C. Zener effect",
+            "D. Miller effect"
+        ],
+        "correct_answer": "D"
+    }
+]

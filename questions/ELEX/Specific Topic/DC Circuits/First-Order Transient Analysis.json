@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "According to Norton's Theorem, a linear two-terminal circuit can be replaced by which of the following equivalent circuits?",
+        "choices": [
+            "A. A voltage source in series with a resistor",
+            "B. A voltage source in parallel with a resistor",
+            "C. A current source in series with a resistor",
+            "D. A current source in parallel with a resistor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 2,
+        "question": "What is the steady-state energy stored in a 10-microfarad capacitor connected across a 50-volt DC source?",
+        "choices": [
+            "A. 12.5 mJ",
+            "B. 25 mJ",
+            "C. 5 mJ",
+            "D. 250 mJ"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "In a purely resistive DC circuit containing a single inductor that has reached steady-state conditions, the inductor is modeled as what ideal component?",
+        "choices": [
+            "A. An open circuit",
+            "B. A dependent source",
+            "C. A short circuit",
+            "D. A current source"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "When applying the Superposition Theorem, how are ideal independent voltage sources and current sources treated when they are turned off?",
+        "choices": [
+            "A. Both are replaced by open circuits",
+            "B. Voltage sources are shorted, current sources are opened",
+            "C. Voltage sources are opened, current sources are shorted",
+            "D. Both are replaced by short circuits"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "Thevenin's Theorem reduces a complex linear circuit into an equivalent circuit consisting of what elements?",
+        "choices": [
+            "A. A voltage source in series with a resistor",
+            "B. A current source in parallel with a resistor",
+            "C. A voltage source in parallel with a resistor",
+            "D. A current source in series with a resistor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "For a DC circuit, maximum power transfer occurs when the load resistance equals the:",
+        "choices": [
+            "A. Norton equivalent current",
+            "B. Internal source voltage",
+            "C. Thevenin equivalent resistance",
+            "D. Zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "Two coils have self-inductances of 4 mH and 9 mH. If the coefficient of coupling is 0.5, what is the mutual inductance?",
+        "choices": [
+            "A. 6 mH",
+            "B. 1.5 mH",
+            "C. 18 mH",
+            "D. 3 mH"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "Two capacitors, 6 microfarads and 3 microfarads, are connected in series. What is the total equivalent capacitance?",
+        "choices": [
+            "A. 9 microfarads",
+            "B. 2 microfarads",
+            "C. 4.5 microfarads",
+            "D. 18 microfarads"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 9,
+        "question": "Three 12-millihenry inductors are connected in parallel with no mutual coupling. What is their equivalent inductance?",
+        "choices": [
+            "A. 4 millihenrys",
+            "B. 36 millihenrys",
+            "C. 12 millihenrys",
+            "D. 1.33 millihenrys"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "Millman's Theorem is particularly useful for simplifying circuits that consist primarily of branches connected in what configuration?",
+        "choices": [
+            "A. Series",
+            "B. Delta",
+            "C. Parallel",
+            "D. Wye"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 11,
+        "question": "In a first-order RC circuit, the time constant tau is defined mathematically by which expression?",
+        "choices": [
+            "A. R/C",
+            "B. C/R",
+            "C. L/R",
+            "D. RC"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 12,
+        "question": "For an RL circuit, what is the formula for the time constant tau?",
+        "choices": [
+            "A. RL",
+            "B. R/L",
+            "C. L/R",
+            "D. 1/(RL)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 13,
+        "question": "The time constant of a first-order circuit represents the time required for the natural response to decay to approximately what percentage of its initial value?",
+        "choices": [
+            "A. 63.2 percent",
+            "B. 50.0 percent",
+            "C. 36.8 percent",
+            "D. 100.0 percent"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 14,
+        "question": "Which fundamental circuit variable cannot change instantaneously across a capacitor?",
+        "choices": [
+            "A. Current",
+            "B. Power",
+            "C. Resistance",
+            "D. Voltage"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 15,
+        "question": "Which fundamental circuit variable cannot change instantaneously through an inductor?",
+        "choices": [
+            "A. Voltage",
+            "B. Current",
+            "C. Energy",
+            "D. Charge"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "A circuit contains a 12-volt DC source, a switch, and a 5-ohm resistor in series with a 2-henry inductor. The switch is closed for a long time. What is the initial current through the inductor just after the switch is suddenly opened?",
+        "choices": [
+            "A. 2.4 A",
+            "B. 0 A",
+            "C. 12 A",
+            "D. Infinite"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "A capacitor is charged to 20 volts. At t=0, it is connected across a 10-ohm resistor. What is the voltage across the capacitor exactly at t=0+?",
+        "choices": [
+            "A. 0 V",
+            "B. 2 V",
+            "C. 10 V",
+            "D. 20 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 18,
+        "question": "In transient analysis, the term \"t=0-\" refers to what specific moment?",
+        "choices": [
+            "A. The exact moment the switch moves",
+            "B. The time just after the switching action",
+            "C. The time infinitely far in the past",
+            "D. The time just before the switching action"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 19,
+        "question": "After a period equal to five time constants (5 tau), the transient response of a first-order circuit is generally considered to have reached what condition?",
+        "choices": [
+            "A. Resonance",
+            "B. Steady state",
+            "C. Half-power point",
+            "D. Maximum transient"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "The step response of a first-order circuit is the response of the circuit when it is subjected to what type of independent source?",
+        "choices": [
+            "A. A sinusoidal AC source",
+            "B. A suddenly applied constant DC source",
+            "C. An impulse source",
+            "D. A ramp source"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "A 100-microfarad capacitor is in series with a 2-kiloohm resistor. What is the time constant of this RC circuit?",
+        "choices": [
+            "A. 200 ms",
+            "B. 0.2 ms",
+            "C. 50 ms",
+            "D. 0.05 ms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "A source-free RC circuit has an initial voltage of 50 V. If the time constant is 2 seconds, what is the capacitor voltage at t = 2 seconds?",
+        "choices": [
+            "A. 31.6 V",
+            "B. 18.4 V",
+            "C. 25 V",
+            "D. 50 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "A 5-millihenry inductor is connected in series with a 50-ohm resistor. What is the time constant of this RL circuit?",
+        "choices": [
+            "A. 100 microseconds",
+            "B. 250 milliseconds",
+            "C. 10 microseconds",
+            "D. 0.1 milliseconds"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "In a source-free RL circuit, the initial current is 10",
+        "choices": [
+            "A. The resistance is 5 ohms and inductance is 2 H. What is the current at t = 0.4 seconds?",
+            "A. 3.68 A",
+            "B. 6.32 A",
+            "C. 5.00 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "An uncharged 50-microfarad capacitor is connected in series with a 10-kiloohm resistor and a 100-volt DC source at t=0. What is the voltage across the capacitor at t = 0.5 seconds?",
+        "choices": [
+            "A. 36.8 V",
+            "B. 63.2 V",
+            "C. 100 V",
+            "D. 50 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "A circuit consists of a 24-volt battery, a switch, a 4-ohm resistor, and a 0.5-henry inductor. The switch closes at t=0. What is the inductor current at steady state?",
+        "choices": [
+            "A. 12 A",
+            "B. 0 A",
+            "C. 6 A",
+            "D. 48 A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "For the same 24-volt, 4-ohm, 0.5-henry series circuit, what is the time constant?",
+        "choices": [
+            "A. 2.0 s",
+            "B. 0.125 s",
+            "C. 8.0 s",
+            "D. 0.5 s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "In a step-response RC circuit, the formula for the capacitor voltage v(t) for t > 0 is given by v(t) = v(infinity) + [v(0) - v(infinity)] * e^(-t/tau). If v(0)=0 and v(infinity)=10V, what is v(tau)?",
+        "choices": [
+            "A. 5.0 V",
+            "B. 3.68 V",
+            "C. 10.0 V",
+            "D. 6.32 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "An initially uncharged 1-millifarad capacitor is connected in series with a 1-kiloohm resistor and a 5-volt source. How long will it take for the capacitor to reach 2.5 volts?",
+        "choices": [
+            "A. 0.693 seconds",
+            "B. 1.0 seconds",
+            "C. 0.5 seconds",
+            "D. 2.0 seconds"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "A source-free RC circuit consists of a 2-microfarad capacitor charged to 100 volts, discharging through a 500-kiloohm resistor. What is the energy dissipated by the resistor from t=0 to t=infinity?",
+        "choices": [
+            "A. 20 mJ",
+            "B. 10 mJ",
+            "C. 5 mJ",
+            "D. 50 mJ"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "An RL circuit has L = 10 H and R = 5 ohms. It is initially connected to a 20-volt DC source for a long time. At t=0, the source is suddenly short-circuited. What is the inductor current i(t) for t > 0?",
+        "choices": [
+            "A. 4 e^(-2t) A",
+            "B. 4 e^(-0.5t) A",
+            "C. 20 e^(-2t) A",
+            "D. 4 (1 - e^(-0.5t)) A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "A first-order circuit contains multiple resistors. When calculating the time constant, how should the equivalent resistance be determined?",
+        "choices": [
+            "A. The sum of all resistors in the circuit",
+            "B. The Thevenin resistance looking into the terminals of the energy storage element",
+            "C. The Norton resistance looking into the voltage source",
+            "D. The parallel combination of all resistors"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 33,
+        "question": "A switch in an RC circuit closes at t=0, connecting a 12V source in series with R=3 ohms and C=4 farads. What is the initial current drawn from the source at t=0+?",
+        "choices": [
+            "A. 0 A",
+            "B. 3 A",
+            "C. 4 A",
+            "D. 12 A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "An inductor L=2 H is in series with R=10 ohms. A DC source of 50V is applied at t=0. What is the rate of change of the current, di/dt, precisely at t=0+?",
+        "choices": [
+            "A. 0 A/s",
+            "B. 25 A/s",
+            "C. 5 A/s",
+            "D. 50 A/s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "In an RC step response, the current i(t) through the capacitor will eventually approach what value as time goes to infinity?",
+        "choices": [
+            "A. The initial current",
+            "B. The short-circuit current",
+            "C. Zero",
+            "D. The source voltage divided by R"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "A 10-microfarad capacitor is charged to 50V. It is discharged through a 100-kiloohm resistor. At what time will the voltage be 5V?",
+        "choices": [
+            "A. 1.0 s",
+            "B. 3.2 s",
+            "C. 2.3 s",
+            "D. 0.5 s"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 37,
+        "question": "For an RL circuit, if the resistance is doubled while the inductance remains constant, what happens to the time constant?",
+        "choices": [
+            "A. It is halved",
+            "B. It is doubled",
+            "C. It quadruples",
+            "D. It remains the same"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "A circuit has a 5V DC source in series with a switch, a 2-kiloohm resistor, and an uncharged 10-millifarad capacitor. The switch closes at t=0. What is the voltage across the resistor at t=20 seconds?",
+        "choices": [
+            "A. 1.84 V",
+            "B. 3.16 V",
+            "C. 0 V",
+            "D. 5.0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "An RL circuit has a time constant of 5 milliseconds. If L is 10 millihenrys, what is R?",
+        "choices": [
+            "A. 2 ohms",
+            "B. 50 ohms",
+            "C. 0.5 ohms",
+            "D. 5 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 40,
+        "question": "A capacitor C discharges through a resistor R. After one time constant, the charge on the capacitor has decreased by what percentage of its initial value?",
+        "choices": [
+            "A. 63.2 percent",
+            "B. 36.8 percent",
+            "C. 50 percent",
+            "D. 100 percent"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 41,
+        "question": "What does the term \"transient response\" refer to in linear circuits?",
+        "choices": [
+            "A. The part of the response that persists forever",
+            "B. The response exclusively due to AC sources",
+            "C. The part of the response that decays to zero as time approaches infinity",
+            "D. The response when all switches are open"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "A 100-volt source is connected via a switch to a series combination of a 10-ohm resistor and a 5-henry inductor. The switch closes at t=0. Find the exact time t when the current reaches 5 amperes.",
+        "choices": [
+            "A. 0.500 s",
+            "B. 0.347 s",
+            "C. 0.693 s",
+            "D. 1.000 s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "If a source-free RL circuit has an initial current of I0, the power dissipated by the resistor at any time t > 0 is given by:",
+        "choices": [
+            "A. (I0^2)*R * e^(-t/tau)",
+            "B. I0*R * e^(-2t/tau)",
+            "C. (I0^2)*R * e^(-2t/tau)",
+            "D. (I0^2)*R * e^(-t/(2*tau))"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "A 12V battery is connected in series with a switch, a 6-ohm resistor, and a 2-farad capacitor. The switch closes at t=0. What is the power being delivered by the battery at exactly t=0+?",
+        "choices": [
+            "A. 24 W",
+            "B. 12 W",
+            "C. 72 W",
+            "D. 0 W"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "In a parallel RC circuit, the time constant is calculated using the equivalent resistance. If a 10-ohm and a 40-ohm resistor are in parallel with a 2-farad capacitor, what is the time constant?",
+        "choices": [
+            "A. 16 s",
+            "B. 100 s",
+            "C. 25 s",
+            "D. 8 s"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 46,
+        "question": "A step current of 5A is applied at t=0 to a parallel combination of a 2-ohm resistor and a 0.5-henry inductor. The inductor is initially unenergized. What is the steady-state current through the inductor?",
+        "choices": [
+            "A. 2.5 A",
+            "B. 0 A",
+            "C. 5 A",
+            "D. 10 A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "For the same parallel RL circuit (5A step, 2-ohm R, 0.5-henry L), what is the time constant?",
+        "choices": [
+            "A. 1.0 s",
+            "B. 0.25 s",
+            "C. 4.0 s",
+            "D. 0.5 s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "A capacitor has an initial voltage of 10V. At t=0, a current source of 2A begins charging it in parallel with a 5-ohm resistor. The steady-state voltage of the capacitor will be:",
+        "choices": [
+            "A. 20 V",
+            "B. 10 V",
+            "C. 5 V",
+            "D. 0 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "A first-order circuit is defined as a circuit that contains:",
+        "choices": [
+            "A. Only resistors and voltage sources",
+            "B. Exactly one resistor and one capacitor",
+            "C. Only one equivalent energy-storage element (either an equivalent C or an equivalent L)",
+            "D. Both a capacitor and an inductor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "If the initial voltage across a capacitor in an RC circuit is zero, the response to a step input is often called the:",
+        "choices": [
+            "A. Zero-input response",
+            "B. Zero-state response",
+            "C. Natural response",
+            "D. Source-free response"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "A switch in an RL circuit with R=4 ohms and L=2 H has been closed for a long time, allowing a steady current of 10A from a 40V source. At t=0, the source is removed but the circuit remains closed in a loop. What is the current at t = 0.5 seconds?",
+        "choices": [
+            "A. 3.68 A",
+            "B. 0 A",
+            "C. 10 A",
+            "D. 6.32 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "A complex circuit containing multiple DC sources, resistors, and a single capacitor is simplified to its Thevenin equivalent connected to the capacitor. The Thevenin voltage is 15V and Thevenin resistance is 3 ohms. If C=2F and is initially uncharged, what is v_c(t) for t > 0?",
+        "choices": [
+            "A. 15 e^(-t/6) V",
+            "B. 15 (1 - e^(-6t)) V",
+            "C. 15 (1 - e^(-t/6)) V",
+            "D. 5 (1 - e^(-t/6)) V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 53,
+        "question": "Which equation governs the voltage across a capacitor during the charging phase in a simple series RC circuit with a DC source V?",
+        "choices": [
+            "A. v(t) = V (1 - e^(-t/RC))",
+            "B. v(t) = V e^(-t/RC)",
+            "C. v(t) = V (1 - e^(-RC/t))",
+            "D. v(t) = V / (RC)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "An inductor of 0.1 H is in series with a 5-ohm resistor. At t=0, a 20V DC source is applied. How much energy is stored in the inductor as t approaches infinity?",
+        "choices": [
+            "A. 4.0 J",
+            "B. 0.8 J",
+            "C. 1.6 J",
+            "D. 0.2 J"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "The differential equation describing a source-free series RL circuit is:",
+        "choices": [
+            "A. L(di/dt) - Ri = 0",
+            "B. L(di/dt) + Ri = 0",
+            "C. R(di/dt) + Li = 0",
+            "D. (1/L)i + R(di/dt) = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "A 20-microfarad capacitor is charged to 100V. It is then connected across a parallel combination of a 100-ohm resistor and a 400-ohm resistor. What is the time constant of the discharge?",
+        "choices": [
+            "A. 2.5 ms",
+            "B. 1.6 ms",
+            "C. 10 ms",
+            "D. 8.0 ms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 57,
+        "question": "In an RC step-response circuit, what is the value of the capacitor current at t=infinity?",
+        "choices": [
+            "A. V/R",
+            "B. Infinite",
+            "C. Zero",
+            "D. V/C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "In a multi-interval switching problem, the initial condition for the second interval is determined by:",
+        "choices": [
+            "A. The steady-state value of the first interval",
+            "B. Zero, as memory is lost",
+            "C. The final value of the energy storage element's state variable at the end of the first interval",
+            "D. The source voltage of the second interval"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "A 5V source is connected to an RC circuit for 10 seconds, which is exactly one time constant. The source is then switched off. What is the initial voltage for the source-free decay phase?",
+        "choices": [
+            "A. 5.00 V",
+            "B. 1.84 V",
+            "C. 3.16 V",
+            "D. 0.00 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "A coil has an inductance of 1 H and a resistance of 10 ohms. It is connected to a 100V DC source. How long does it take for the current to reach 5A?",
+        "choices": [
+            "A. 0.05 s",
+            "B. 0.10 s",
+            "C. 0.693 s",
+            "D. 0.0693 s"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "A source-free RC circuit has v(0) = 12V. If v(t) = 3V at t = 2 seconds, what is the time constant of the circuit?",
+        "choices": [
+            "A. 0.693 s",
+            "B. 1.44 s",
+            "C. 2.88 s",
+            "D. 0.5 s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "An RC circuit has R = 2 ohms and C = 0.5 farads. A 10V step is applied at t=0. The switch is opened at t=2 seconds, disconnecting the source but leaving R and C in a closed loop. What is the capacitor voltage at t=2+?",
+        "choices": [
+            "A. 6.32 V",
+            "B. 8.65 V",
+            "C. 10.0 V",
+            "D. 3.68 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "For the circuit in the previous question, what is the capacitor voltage at t=4 seconds?",
+        "choices": [
+            "A. 6.32 V",
+            "B. 3.18 V",
+            "C. 8.65 V",
+            "D. 1.17 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "A 4-henry inductor is in series with a 12-ohm resistor. If the initial current is 8A, what is the current at t = 1/3 seconds?",
+        "choices": [
+            "A. 2.94 A",
+            "B. 8.00 A",
+            "C. 5.06 A",
+            "D. 1.00 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 65,
+        "question": "In a linear circuit, the time constant of a first-order network is independent of:",
+        "choices": [
+            "A. The initial energy stored in the circuit",
+            "B. The value of the resistors",
+            "C. The network topology",
+            "D. The value of the capacitor or inductor"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "A capacitor C is in series with two resistors, R1 and R2, and a DC source V. The switch closes at t=0. The time constant is:",
+        "choices": [
+            "A. (R1+R2)/C",
+            "B. (R1*R2)*C / (R1+R2)",
+            "C. (R1+R2)*C",
+            "D. C / (R1+R2)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "If a step input of 10V is applied to an RC circuit at t=2 seconds instead of t=0, the mathematical expression for the source is:",
+        "choices": [
+            "A. 10 u(t-2) V",
+            "B. 10 u(t) V",
+            "C. 10 delta(t-2) V",
+            "D. 10 e^(-2t) V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 68,
+        "question": "A circuit contains a 12V DC source, a switch that closes at t=0, a 2-ohm resistor in series with a parallel combination of a 4-ohm resistor and a 1-farad capacitor. What is the steady-state voltage across the capacitor?",
+        "choices": [
+            "A. 12 V",
+            "B. 0 V",
+            "C. 8 V",
+            "D. 4 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "For the same circuit (12V source, 2-ohm series, parallel 4-ohm and 1F), what is the Thevenin equivalent resistance seen by the capacitor to determine the time constant?",
+        "choices": [
+            "A. 6 ohms",
+            "B. 1.33 ohms",
+            "C. 4 ohms",
+            "D. 2 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "What is the time constant of the circuit described in the previous question (Req = 1.33 ohms, C = 1F)?",
+        "choices": [
+            "A. 1.33 s",
+            "B. 4 s",
+            "C. 6 s",
+            "D. 2 s"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 71,
+        "question": "A source-free RL circuit has an initial current of 5A. The energy stored in the inductor at t=0 is 100 J. What is the value of the inductor?",
+        "choices": [
+            "A. 20 H",
+            "B. 4 H",
+            "C. 8 H",
+            "D. 10 H"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "If the time constant of an RC circuit is extremely large, the capacitor charges:",
+        "choices": [
+            "A. Very rapidly",
+            "B. Very slowly",
+            "C. Instantaneously",
+            "D. Not at all"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "A step voltage is applied to a series RL circuit. The voltage across the inductor v_L(t) is proportional to:",
+        "choices": [
+            "A. 1 - e^(-t/tau)",
+            "B. e^(-t/tau)",
+            "C. t * e^(-t/tau)",
+            "D. a constant"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "A circuit has a 10-millifarad capacitor. A constant current of 2 milliamperes is applied to it for 5 seconds. If the initial voltage was zero, what is the final voltage?",
+        "choices": [
+            "A. 1 V",
+            "B. 10 V",
+            "C. 5 V",
+            "D. 0.5 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 75,
+        "question": "In evaluating transient conditions, what is the physical meaning of a time constant tau = 0?",
+        "choices": [
+            "A. The system responds infinitely slowly",
+            "B. The system does not respond",
+            "C. The system responds instantaneously",
+            "D. The system is unstable"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "A 50V source is applied to an RL circuit with R = 25 ohms and L = 0.1 H at t=0. What is the total energy supplied by the source from t=0 to t=infinity?",
+        "choices": [
+            "A. 20 J",
+            "B. 0.4 J",
+            "C. 0 J",
+            "D. Infinite"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "A sequential switching problem involves a capacitor charging from an initial 0V toward 10V with tau=1s. At t=1s, the switch alters the circuit, connecting the capacitor to a 0V ground with a new tau=2s. What is the voltage at t=3s?",
+        "choices": [
+            "A. 2.32 V",
+            "B. 6.32 V",
+            "C. 0 V",
+            "D. 3.68 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 78,
+        "question": "Which of the following represents the total response of a first-order circuit?",
+        "choices": [
+            "A. Zero-input response + Steady-state response",
+            "B. Transient response + Steady-state response",
+            "C. Zero-state response - Natural response",
+            "D. Natural response only"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "A 10V source is connected to a 5-ohm resistor and a 2-henry inductor in series. The switch closes at t=0. At what time is the voltage across the resistor exactly equal to the voltage across the inductor?",
+        "choices": [
+            "A. 0.277 s",
+            "B. 0.693 s",
+            "C. 0.400 s",
+            "D. 0.347 s"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "A capacitor with C = 0.5 F has a voltage v(t) = 10 e^(-4t) V. What is the power being absorbed by the capacitor at t=0?",
+        "choices": [
+            "A. 200 W",
+            "B. -200 W",
+            "C. 100 W",
+            "D. -100 W"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "An RC circuit has a time constant of 3 seconds. How long does it take for the transient portion of the response to decay to 1% of its initial value?",
+        "choices": [
+            "A. 13.8 s",
+            "B. 3.0 s",
+            "C. 15.0 s",
+            "D. 6.0 s"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "If an RL circuit has R = 0 (an ideal inductor shorted on itself), and an initial current I0 flows, what happens to the current as t increases?",
+        "choices": [
+            "A. It decays immediately to zero",
+            "B. It oscillates infinitely",
+            "C. It remains constant at I0",
+            "D. It increases to infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 83,
+        "question": "In a first-order circuit containing dependent sources, the Thevenin resistance R_th seen by the storage element can be negative. If R_th is negative, the time constant is negative. What does this imply about the natural response?",
+        "choices": [
+            "A. It decays to zero",
+            "B. It oscillates",
+            "C. It grows exponentially",
+            "D. It is a constant DC value"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "A switch connects a 20V source to an uncharged 1-farad capacitor through a 2-ohm resistor. After 2 seconds, the resistor is instantaneously changed to 4 ohms. What is the value of the capacitor voltage exactly at the moment of the change?",
+        "choices": [
+            "A. 12.64 V",
+            "B. 0 V",
+            "C. 20 V",
+            "D. 10.0 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "For the previous switching circuit, what is the new time constant after t=2 seconds?",
+        "choices": [
+            "A. 2 s",
+            "B. 4 s",
+            "C. 1 s",
+            "D. 6 s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "A current source of 4A is in parallel with a 10-ohm resistor and a 0.2-farad capacitor. The switch closes at t=0. What is the final steady-state charge stored on the capacitor?",
+        "choices": [
+            "A. 0.8 C",
+            "B. 8 C",
+            "C. 40 C",
+            "D. 2 C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 87,
+        "question": "An RL circuit (R=5, L=10) has a step input of 20V at t=0. What is the energy dissipated by the resistor from t=0 to steady-state?",
+        "choices": [
+            "A. Infinite",
+            "B. 80 J",
+            "C. 40 J",
+            "D. 0 J"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "A circuit is composed of a DC source, switches, and a single inductor. If the inductor is modeled as a short circuit, this means we are evaluating the circuit at:",
+        "choices": [
+            "A. t = 0-",
+            "B. t = 0+",
+            "C. t = tau",
+            "D. t = infinity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "A 12V battery charges a 0.1F capacitor through a 10-ohm resistor. At t=1s, the battery voltage suddenly drops to 6V. What is the capacitor voltage at t=1+?",
+        "choices": [
+            "A. 6.32 V",
+            "B. 12 V",
+            "C. 7.59 V",
+            "D. 6.0 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "When a capacitor is discharging through a resistor, the current flow is in what direction relative to its charging state?",
+        "choices": [
+            "A. The same direction",
+            "B. The opposite direction",
+            "C. Perpendicular",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "An uncharged capacitor is connected in series with a resistor and a 10V source at t=0. The current at t=0+ is 5A. What is the resistance?",
+        "choices": [
+            "A. 50 ohms",
+            "B. 2 ohms",
+            "C. 5 ohms",
+            "D. 0.5 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 92,
+        "question": "In an RL circuit with a step DC input, the voltage across the inductor v_L(t) does what over time?",
+        "choices": [
+            "A. Starts at zero and increases exponentially",
+            "B. Starts at the source voltage and decays exponentially to zero",
+            "C. Remains constant",
+            "D. Oscillates"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "A source-free RC circuit discharges to half its initial voltage in 5 seconds. What is the time constant of the circuit?",
+        "choices": [
+            "A. 5.0 s",
+            "B. 3.47 s",
+            "C. 7.21 s",
+            "D. 10.0 s"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "In a circuit with a single capacitor, the initial condition v(0) = 5V. The Thevenin equivalent circuit connected to the capacitor has V_th = 5V and R_th = 10 ohms. What is the transient response?",
+        "choices": [
+            "A. 5 e^(-t/10C)",
+            "B. 0 (no transient response)",
+            "C. 5 (1 - e^(-t/10C))",
+            "D. 10 e^(-t/10C)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "For a series RL circuit connected to a DC source V, the total energy supplied by the source during the time it takes to reach steady state is divided between the resistor and inductor. The inductor stores (1/2)LI^2. How much energy is dissipated by the resistor during this infinite time interval?",
+        "choices": [
+            "A. (1/2)LI^2",
+            "B. LI^2",
+            "C. Zero",
+            "D. Infinite"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "A 5-farad capacitor is charged to 10V. It is then connected to a 2-ohm resistor. The power dissipated by the resistor at t=10 seconds is:",
+        "choices": [
+            "A. 50.0 W",
+            "B. 6.77 W",
+            "C. 13.5 W",
+            "D. 25.0 W"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "A circuit has a switch that opens at t=0, removing a short circuit across a parallel combination of a 4A DC current source, a 2-ohm resistor, and a 3-henry inductor. At t=0-, the inductor current is 4A. What is the inductor current at t=infinity?",
+        "choices": [
+            "A. 4 A",
+            "B. 0 A",
+            "C. Infinite",
+            "D. 2 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "A 10V source is applied to an RC circuit at t=0. At t=2 tau, the voltage across the capacitor is approximately:",
+        "choices": [
+            "A. 6.32 V",
+            "B. 9.50 V",
+            "C. 8.65 V",
+            "D. 9.93 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "Which fundamental principle dictates that the voltage across a capacitor cannot change instantaneously?",
+        "choices": [
+            "A. Kirchhoff's Current Law",
+            "B. Conservation of Charge",
+            "C. Ohm's Law",
+            "D. Ampere's Law"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 100,
+        "question": "A source-free RL circuit has i(0) = 2A. If L = 4 H and R = 8 ohms, what is the rate of change of current di/dt at t=0+?",
+        "choices": [
+            "A. 4 A/s",
+            "B. -4 A/s",
+            "C. -2 A/s",
+            "D. -0.5 A/s"
+        ],
+        "correct_answer": "B"
+    }
+]

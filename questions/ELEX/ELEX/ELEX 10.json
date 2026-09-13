@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "Audio amplifiers are designed to amplify signals in what frequency range?",
+        "choices": [
+            "A. 10 Hz to 100 kHz",
+            "B. 20 Hz to 20 kHz",
+            "C. 100 Hz to 1 GHz",
+            "D. 1 Hz to 10 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 2,
+        "question": "RF amplifiers are designed to amplify signals with frequencies between:",
+        "choices": [
+            "A. 10 kHz and 100 GHz",
+            "B. 20 Hz and 20 kHz",
+            "C. 300 MHz and 300 GHz",
+            "D. 10 Hz and 100 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "Which type of amplifier is typically required to drive a motor or feed a loudspeaker?",
+        "choices": [
+            "A. Small-signal amplifier",
+            "B. Video amplifier",
+            "C. RF amplifier",
+            "D. Power amplifier"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "What is the output signal conduction angle for a Class A amplifier?",
+        "choices": [
+            "A. 180 degrees",
+            "B. 90 degrees",
+            "C. 360 degrees",
+            "D. 270 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 5,
+        "question": "Which class of amplifier is characterized by good fidelity and low efficiency?",
+        "choices": [
+            "A. Class A",
+            "B. Class B",
+            "C. Class C",
+            "D. Class D"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "What percentage of the input signal is amplified in a Class B amplifier?",
+        "choices": [
+            "A. 25%",
+            "B. 50%",
+            "C. 100%",
+            "D. 75%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "In which class of amplifier does the output signal flow for more than 180 degrees but less than 360 degrees?",
+        "choices": [
+            "A. Class A",
+            "B. Class B",
+            "C. Class AB",
+            "D. Class C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "Which class of amplifier has the best efficiency but the worst fidelity?",
+        "choices": [
+            "A. Class A",
+            "B. Class B",
+            "C. Class AB",
+            "D. Class C"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "A Class D audio amplifier is basically which type of amplifier?",
+        "choices": [
+            "A. Linear voltage amplifier",
+            "B. Non-linear switching or PWM amplifier",
+            "C. Tuned RF amplifier",
+            "D. Direct-coupled amplifier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 10,
+        "question": "Which class of amplifier shapes the output waveform into a square wave using harmonic resonators?",
+        "choices": [
+            "A. Class D",
+            "B. Class F",
+            "C. Class G",
+            "D. Class S"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "Which class of amplifier uses multiple power supply rails of various voltages and switches between them to reduce power loss?",
+        "choices": [
+            "A. Class F",
+            "B. Class G",
+            "C. Class I",
+            "D. Class T"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "Class I switching signal currents are interleaved at the output, giving it what alternative name?",
+        "choices": [
+            "A. Delta-sigma modulator",
+            "B. Interleaved PWM amplifier",
+            "C. H-bridge switcher",
+            "D. Linear driver"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "Which class of switching mode amplifier converts analogue input signals into digital square wave pulses using a delta-sigma modulator?",
+        "choices": [
+            "A. Class S",
+            "B. Class T REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "C. Class D",
+            "D. Class I"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Which digital switching amplifier design combines the low distortion of Class AB with the power efficiency of Class D?",
+        "choices": [
+            "A. Class F",
+            "B. Class G",
+            "C. Class S",
+            "D. Class T"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 15,
+        "question": "What characteristic of an amplifier refers to the ratio of supply power delivered to the load?",
+        "choices": [
+            "A. Fidelity",
+            "B. Linear gain",
+            "C. Efficiency",
+            "D. Impedance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "Which class of amplifier has the highest linearity and least distortion?",
+        "choices": [
+            "A. Class A",
+            "B. Class B",
+            "C. Class C",
+            "D. Class AB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 17,
+        "question": "Class C amplifiers are almost always operated as which of the following?",
+        "choices": [
+            "A. Wideband audio amplifiers",
+            "B. Tuned RF amplifiers",
+            "C. Direct-coupled preamplifiers",
+            "D. Transformer-coupled audio amplifiers"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 18,
+        "question": "What happens to the bandwidth of a Class C amplifier when its circuit Q increases?",
+        "choices": [
+            "A. It increases",
+            "B. It remains constant",
+            "C. It decreases",
+            "D. It becomes infinite"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "What is another term for mixing current fed summing?",
+        "choices": [
+            "A. Series Fed",
+            "B. Series Comparison",
+            "C. Shunt Fed",
+            "D. Voltage Summing"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "What term describes the process of deriving the output signal and feeding it back to the input of the amplifier?",
+        "choices": [
+            "A. Summing",
+            "B. Sampling",
+            "C. Scaling",
+            "D. Interleaving"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "In a Voltage-Series (Series-Shunt) feedback amplifier, what are the sum and sample signals respectively?",
+        "choices": [
+            "A. Current, Current",
+            "B. Current, Voltage",
+            "C. Voltage, Voltage",
+            "D. Voltage, Current"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "A Voltage-Shunt (Shunt-Shunt) feedback connection represents which type of amplifier?",
+        "choices": [
+            "A. Voltage amplifier",
+            "B. Transimpedance amplifier",
+            "C. Transconductance amplifier",
+            "D. Current amplifier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "What type of amplifier is approximated by a Current-Series (Series-Series) feedback topology?",
+        "choices": [
+            "A. Voltage amplifier",
+            "B. Transimpedance amplifier",
+            "C. Transconductance amplifier",
+            "D. Current amplifier"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "What is the sum signal in a Current-Shunt feedback connection?",
+        "choices": [
+            "A. Voltage",
+            "B. Current",
+            "C. Resistance",
+            "D. Power"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "If the op-amp's open-loop gain doubles from 100,000 to 200,000, the closed-loop gain will:",
+        "choices": [
+            "A. Double",
+            "B. Drop to 12.5",
+            "C. Remain practically at 25",
+            "D. Increase slightly"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "With negative feedback, how does the returning signal interact with the input signal?",
+        "choices": [
+            "A. It aids the input signal",
+            "B. It multiplies the input signal",
+            "C. It opposes the input signal",
+            "D. It has no effect REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 27,
+        "question": "A Voltage-Controlled Voltage Source (VCVS) feedback amplifier approximates what ideal device?",
+        "choices": [
+            "A. Voltage amplifier",
+            "B. Current-to-voltage converter",
+            "C. Voltage-to-current converter",
+            "D. Current amplifier"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "An Input Current-Controlled Voltage Source (ICVS) amplifier approximates which ideal device?",
+        "choices": [
+            "A. Voltage amplifier",
+            "B. Current-to-voltage converter",
+            "C. Voltage-to-current converter",
+            "D. Current amplifier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "The basic differential amplifier is a combination of which two configurations?",
+        "choices": [
+            "A. Common-Emitter and Common-Collector",
+            "B. Common-Emitter and Common-Base",
+            "C. Common-Base and Common-Collector",
+            "D. Common-Collector and Common-Collector"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "What is the ideal value of output impedance (Zout) for an operational amplifier?",
+        "choices": [
+            "A. Infinity",
+            "B. 100 ohms",
+            "C. 0 ohms",
+            "D. 1 megohm"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 31,
+        "question": "What is defined as the differential DC voltage required between op-amp inputs to force the output to zero volts?",
+        "choices": [
+            "A. Input bias voltage",
+            "B. Common-mode voltage",
+            "C. Input offset voltage",
+            "D. Slew rate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "A standard integrated IC operational amplifier typically has how many inputs and outputs?",
+        "choices": [
+            "A. Two inputs and two outputs",
+            "B. One input and one output",
+            "C. Two inputs and one output",
+            "D. One input and two outputs"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "If an op-amp has a differential gain of 20,000 and a common-mode gain of 0.2, what is its common-mode rejection ratio (CMRR) in decibels?",
+        "choices": [
+            "A. 50 dB",
+            "B. 100 dB",
+            "C. 80 dB",
+            "D. 120 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "An operational amplifier's output increases by 8 V in a duration of 12 microseconds. What is its slew rate?",
+        "choices": [
+            "A. 96 V/µs",
+            "B. 1.5 V/µs",
+            "C. 0.67 V/µs",
+            "D. 0.12 V/µs"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "What is the most commonly used coupling method in multi-stage audio amplifiers?",
+        "choices": [
+            "A. Direct coupling",
+            "B. RC coupling",
+            "C. Transformer coupling",
+            "D. Impedance coupling"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "Which coupling method in amplifiers uses the absolute minimum number of circuit elements?",
+        "choices": [
+            "A. RC coupling",
+            "B. Direct coupling",
+            "C. Transformer coupling",
+            "D. Impedance coupling"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "What is the most common form of coupling employed in RF amplifiers?",
+        "choices": [
+            "A. RC coupling",
+            "B. Transformer coupling",
+            "C. Direct coupling",
+            "D. Impedance coupling"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Magnetic amplifiers use electromagnetism to amplify signals, with a frequency response typically limited to:",
+        "choices": [
+            "A. 0 Hz and below",
+            "B. 100 Hz and below",
+            "C. 10 kHz and above",
+            "D. 1 MHz and below"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "Four cascaded amplifiers have gains of 7 dB, 8 dB, 9 dB, and a voltage ratio of 10, respectively. What is the REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS overall gain of the system?",
+        "choices": [
+            "A. 34 dB",
+            "B. 24 dB",
+            "C. 44 dB",
+            "D. 50 dB"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "A Class A transformer-coupled amplifier uses a 25:1 turns ratio transformer to drive a 4-ohm load. What is the effective AC load seen by the transistor?",
+        "choices": [
+            "A. 100 ohms",
+            "B. 2500 ohms",
+            "C. 0.16 ohms",
+            "D. 625 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "An amplifier has the following critical frequencies: 1.2 kHz, 950 Hz, 8 kHz, and 8.5 kHz. What is its bandwidth?",
+        "choices": [
+            "A. 7550 Hz",
+            "B. 7300 Hz",
+            "C. 6800 Hz",
+            "D. 7050 Hz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "What is a low-value diverting resistor connected in parallel with a meter to measure larger currents called?",
+        "choices": [
+            "A. Multiplier",
+            "B. Shunt",
+            "C. Bleeder",
+            "D. Swamping resistor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "Which of the following is a pentavalent impurity element used to dope silicon to make n-type material?",
+        "choices": [
+            "A. Boron",
+            "B. Aluminum",
+            "C. Phosphorus",
+            "D. Gallium"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 45,
+        "question": "Which impurity element with three valence electrons can be added to semiconductor material to create p-type material?",
+        "choices": [
+            "A. Phosphorus",
+            "B. Arsenic",
+            "C. Antimony",
+            "D. Boron"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 46,
+        "question": "What is the typical external voltage required to narrow the depletion layer and start conduction in a silicon p-n junction?",
+        "choices": [
+            "A. 0.2 V",
+            "B. 0.6 V",
+            "C. 1.1 V",
+            "D. 2.0 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "What is the typical thickness of the depletion layer in a semiconductor diode junction?",
+        "choices": [
+            "A. 0.5 µm",
+            "B. 5.0 µm",
+            "C. 50 nm",
+            "D. 0.2 mm"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 48,
+        "question": "A bipolar junction transistor consists of three regions. In an n-p-n transistor, what region is sandwiched in the middle?",
+        "choices": [
+            "A. Heavily doped n-type emitter",
+            "B. Thin layer of p-type base",
+            "C. Thick layer of n-type collector",
+            "D. P-type substrate"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 49,
+        "question": "In a p-n-p transistor, which region is relatively heavily doped with holes?",
+        "choices": [
+            "A. Emitter",
+            "B. Base",
+            "C. Collector",
+            "D. Substrate"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "What is the typical range of input impedance for a standard practical operational amplifier?",
+        "choices": [
+            "A. 100 to 1000 ohms",
+            "B. 10k to 100k ohms",
+            "C. 10^6 to 10^12 ohms",
+            "D. 10^3 to 10^5 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "What is the typical output impedance of a standard integrated operational amplifier?",
+        "choices": [
+            "A. 0 ohms",
+            "B. Around 100 ohms",
+            "C. 10k ohms",
+            "D. 1 megohm"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "Which op-amp circuit is commonly used as a buffer amplifier to match a high impedance source to a low impedance load?",
+        "choices": [
+            "A. Inverting amplifier",
+            "B. Differentiator",
+            "C. Voltage-follower",
+            "D. Integrator REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 53,
+        "question": "What is the power factor of an electrical network at resonance?",
+        "choices": [
+            "A. 0.5",
+            "B. 0.8",
+            "C. Unity",
+            "D. Zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "Under what condition is an RLC circuit said to be critically damped?",
+        "choices": [
+            "A. (R/2L)^2 > 1/LC",
+            "B. (R/2L)^2 < 1/LC",
+            "C. (R/2L)^2 = 1/LC",
+            "D. R = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "What is the damping condition of a series RLC circuit if (R/2L)^2 < 1/LC?",
+        "choices": [
+            "A. Overdamped",
+            "B. Underdamped",
+            "C. Critically damped",
+            "D. Undamped"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 56,
+        "question": "What is the maximum theoretical efficiency of a Class B push-pull power amplifier?",
+        "choices": [
+            "A. 25%",
+            "B. 50%",
+            "C. 78.5%",
+            "D. 90%"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "What is the maximum theoretical efficiency of a series-fed Class A power amplifier?",
+        "choices": [
+            "A. 25%",
+            "B. 50%",
+            "C. 78.5%",
+            "D. 100%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "What is the maximum theoretical efficiency of a transformer-coupled Class A power amplifier?",
+        "choices": [
+            "A. 25%",
+            "B. 50%",
+            "C. 78.5%",
+            "D. 90%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Which equation mathematically defines the general characteristics of a semiconductor diode in forward and reverse regions?",
+        "choices": [
+            "A. Shockley's equation",
+            "B. Maxwell's equation",
+            "C. Coulomb's law",
+            "D. Barkhausen equation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "What is the main difference in control mechanism between a BJT and a JFET?",
+        "choices": [
+            "A. BJT is voltage-controlled, JFET is current-controlled",
+            "B. BJT is current-controlled, JFET is voltage-controlled",
+            "C. BJT is power-controlled, JFET is resistance-controlled",
+            "D. Both are current-controlled"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "Why is a field-effect transistor (FET) classified as a unipolar device?",
+        "choices": [
+            "A. It uses only one power supply polarity",
+            "B. It depends solely on one type of charge carrier for conduction",
+            "C. It has only one junction",
+            "D. It operates in only one quadrant of the drain curves"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "What is the typical range of input impedance for a field-effect transistor?",
+        "choices": [
+            "A. A few ohms to 50 ohms",
+            "B. 1 kilohm to 10 kilohms",
+            "C. 1 megohm to several hundred megohms",
+            "D. 100 megohms to several gigohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "Which of the following is an advantage of FETs over BJTs?",
+        "choices": [
+            "A. Much higher voltage gain",
+            "B. Better temperature stability and smaller size",
+            "C. Higher sensitivity to small input voltages",
+            "D. Immunity to electrostatic discharge"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "While a BJT's amplification is characterized by beta, what factor is used for a field-effect transistor?",
+        "choices": [
+            "A. Slew rate",
+            "B. Transconductance (gm)",
+            "C. Alpha",
+            "D. Collector resistance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "Which transistor configuration displays improved high-frequency characteristics over the common-emitter due to the absence of the Miller effect?",
+        "choices": [
+            "A. Common-Collector",
+            "B. Common-Base",
+            "C. Emitter-Follower",
+            "D. Source-Follower REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 66,
+        "question": "What is the process of amplifying the difference signal while rejecting signals common to both inputs in a differential connection called?",
+        "choices": [
+            "A. High-frequency sweep",
+            "B. Common-mode rejection",
+            "C. Summing scaling",
+            "D. Phase inversion"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "What are the input impedance and output impedance values of an ideal operational amplifier?",
+        "choices": [
+            "A. Zero input impedance, infinite output impedance",
+            "B. Infinite input impedance, zero output impedance",
+            "C. 100 ohms input, 0 ohms output",
+            "D. 1 megohm input, 75 ohms output"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "What component is used as the feedback element in an operational amplifier integrator circuit?",
+        "choices": [
+            "A. Resistor",
+            "B. Inductor",
+            "C. Capacitor",
+            "D. Zener diode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 69,
+        "question": "Which op-amp circuit produces an output voltage proportional to the rate of change of its input voltage?",
+        "choices": [
+            "A. Integrator",
+            "B. Summer",
+            "C. Differentiator",
+            "D. Voltage-follower"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 70,
+        "question": "The concept of \"virtual ground\" in op-amp circuit analysis is based on the fact that the differential input voltage is:",
+        "choices": [
+            "A. Infinite",
+            "B. Equal to supply voltage",
+            "C. Nearly zero volts",
+            "D. Variable"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "What is the effect of series feedback on the input resistance of an amplifier?",
+        "choices": [
+            "A. It decreases input resistance",
+            "B. It has no effect",
+            "C. It increases input resistance",
+            "D. It reduces input resistance to zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 72,
+        "question": "What is the effect of voltage feedback on the output impedance of an amplifier?",
+        "choices": [
+            "A. It increases output impedance",
+            "B. It decreases output impedance",
+            "C. It has no effect",
+            "D. It makes output impedance infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "What is the effect of current feedback on the output impedance of an amplifier?",
+        "choices": [
+            "A. It decreases output impedance",
+            "B. It has no effect",
+            "C. It increases output impedance",
+            "D. It reduces output impedance to zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "What is the feedback fraction (beta) of a standard emitter-follower circuit?",
+        "choices": [
+            "A. 0.5",
+            "B. 1",
+            "C. 0.1",
+            "D. 100"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "An unbypassed emitter resistor in a common-emitter amplifier provides what type of feedback?",
+        "choices": [
+            "A. Voltage-series",
+            "B. Voltage-shunt",
+            "C. Current-series",
+            "D. Current-shunt"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "An inverting constant-gain op-amp circuit provides which type of negative feedback connection?",
+        "choices": [
+            "A. Voltage-series",
+            "B. Voltage-shunt",
+            "C. Current-series",
+            "D. Current-shunt"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "What is the Barkhausen criterion for oscillation regarding the loop gain (βA) magnitude?",
+        "choices": [
+            "A. Loop gain must be less than 1",
+            "B. Loop gain must equal unity (1)",
+            "C. Loop gain must be zero",
+            "D. Loop gain must be infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "Which reactances are used in a Colpitts oscillator's resonant feedback network?",
+        "choices": [
+            "A. Two inductors and one capacitor",
+            "B. Two capacitors and one inductor",
+            "C. Three capacitors",
+            "D. Three inductors"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 79,
+        "question": "Which reactances are used in a Hartley oscillator's resonant feedback network? REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+        "choices": [
+            "A. Two inductors and one capacitor",
+            "B. Two capacitors and one inductor",
+            "C. Three capacitors",
+            "D. Three inductors"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "What is the typical value of the equivalent quality factor (Q) of a quartz crystal?",
+        "choices": [
+            "A. 10",
+            "B. 100",
+            "C. 500",
+            "D. 20,000 or more"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 81,
+        "question": "At its series-resonant frequency, the impedance of a quartz crystal is:",
+        "choices": [
+            "A. Minimum",
+            "B. Maximum",
+            "C. Infinite",
+            "D. Zero"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 82,
+        "question": "At its parallel-resonant frequency (antiresonance), a quartz crystal offers what level of impedance?",
+        "choices": [
+            "A. Very low",
+            "B. Very high",
+            "C. Zero",
+            "D. Moderately low"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "What is the feedback attenuation factor (β) of a three-section RC phase-shift network in a phase-shift oscillator?",
+        "choices": [
+            "A. 1/9",
+            "B. 1/3",
+            "C. 1/29",
+            "D. 1/18"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "What is the typical turn-off time range for standard silicon-controlled rectifiers (SCRs)?",
+        "choices": [
+            "A. 5 ns to 30 ns",
+            "B. 5 µs to 30 µs",
+            "C. 5 ms to 30 ms",
+            "D. 1 s to 3 s"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "What are the majority charge carriers in an n-channel JFET?",
+        "choices": [
+            "A. Holes",
+            "B. Free electrons",
+            "C. Ions",
+            "D. Protons"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "What does the depletion layer around a p-n junction in a JFET consist of?",
+        "choices": [
+            "A. Mobile holes",
+            "B. Mobile electrons",
+            "C. Immobile charges",
+            "D. Free protons"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "What is the general relationship between the series and parallel resonant frequencies of a quartz crystal?",
+        "choices": [
+            "A. Parallel resonant frequency is approximately 1 kHz higher",
+            "B. Series resonant frequency is approximately 1 kHz higher",
+            "C. They are exactly equal",
+            "D. Parallel resonant frequency is ten times higher"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "In a semiconductor diode, the total capacitance between terminals and electrodes under reverse bias is called:",
+        "choices": [
+            "A. Diffusion capacitance",
+            "B. Transition capacitance",
+            "C. Storage capacitance",
+            "D. Bulk capacitance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "In a self-biased JFET, the gate terminal is returned to:",
+        "choices": [
+            "A. Positive supply voltage",
+            "B. Negative supply voltage",
+            "C. Ground",
+            "D. Drain terminal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "A depletion-type MOSFET (D-MOSFET) can operate in which mode(s)?",
+        "choices": [
+            "A. Depletion mode only",
+            "B. Enhancement mode only",
+            "C. Both depletion and enhancement modes",
+            "D. Ohmic mode only"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "A MOSFET differs from a JFET mainly because:",
+        "choices": [
+            "A. The MOSFET has a larger power rating",
+            "B. The JFET has a physical channel while MOSFET does not",
+            "C. The MOSFET gate is insulated by a layer of silicon dioxide (SiO2) while JFET uses a p-n junction",
+            "D. The JFET operates in enhancement mode"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 92,
+        "question": "What type of circuit is used to generate square or rectangular waves?",
+        "choices": [
+            "A. Sinusoidal generator",
+            "B. Multi-vibrator REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS",
+            "C. Class C tuned amplifier",
+            "D. Phase-shift oscillator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "Multivibrators, blocking oscillators, and sawtooth generators are classified as which type of oscillators?",
+        "choices": [
+            "A. Resonant circuits",
+            "B. Synchronized generators",
+            "C. Relaxation oscillators",
+            "D. Tuned oscillators"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "The Pierce crystal oscillator configuration is electrically similar to which LC oscillator circuit?",
+        "choices": [
+            "A. Armstrong",
+            "B. Hartley",
+            "C. Colpitts",
+            "D. Clapp"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "A zero-biased JFET is known to be in what state?",
+        "choices": [
+            "A. Cut off",
+            "B. Conducting",
+            "C. Saturated",
+            "D. Pinched off"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 96,
+        "question": "What is the input impedance characteristic of a MOSFET?",
+        "choices": [
+            "A. Extremely low",
+            "B. Moderately low",
+            "C. High",
+            "D. Extremely high"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 97,
+        "question": "The voltage gain of a common-collector configuration is approximately:",
+        "choices": [
+            "A. Zero",
+            "B. Unity (1)",
+            "C. Infinite",
+            "D. Negative"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "What is the natural internal resistance of a P-type or N-type semiconductor material called?",
+        "choices": [
+            "A. Contact resistance",
+            "B. Junction resistance",
+            "C. Bulk resistance",
+            "D. Swamping resistance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "A diode is zero-biased when its anode and cathode are at the same:",
+        "choices": [
+            "A. Current",
+            "B. Charge",
+            "C. Potential",
+            "D. Temperature"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "Which class of amplifier is characterized by the highest fidelity?",
+        "choices": [
+            "A. Class A",
+            "B. Class B",
+            "C. Class C",
+            "D. Class AB REPUBLIC OF THE PHILIPPINES PROFESSIONAL REGULATION COMMISSION ELECTRONICS ENGINEERING MOCK BOARD EXAM - ADVANCED MATH & ECE SET: A TIME: 4 HOURS"
+        ],
+        "correct_answer": "A"
+    }
+]

@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "The mathematically exact formula for capacitive reactance (XC) is:",
+        "choices": [
+            "A. 1 / (2*pi*f*C)",
+            "B. 2*pi*f*C",
+            "C. C / (2*pi*f)",
+            "D. 2*pi / (f*C)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "The average real power dissipated in a purely ideal inductive AC circuit over one full cycle is mathematically:",
+        "choices": [
+            "A. Vrms * Irms",
+            "B. Zero",
+            "C. Vrms^2 / XL",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Worded circuit: Find the exact inductive reactance of a 10 mH pure coil operated at 60 Hz.",
+        "choices": [
+            "A. 377 ohms",
+            "B. 37.7 ohms",
+            "C. 3.77 ohms",
+            "D. 0.377 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "Worded circuit: What is the theoretical capacitive reactance of a 20 uF ideal capacitor connected to a 50 Hz AC supply?",
+        "choices": [
+            "A. 15.91 ohms",
+            "B. 318.3 ohms",
+            "C. 79.58 ohms",
+            "D. 159.15 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "Worded circuit: An ideal inductor L = 0.1 H is subjected to a voltage v(t) = 100 sin(377t) V. The exact mathematical expression for the current i(t) is:",
+        "choices": [
+            "A. 2.65 sin(377t + 90) A",
+            "B. 2.65 sin(377t - 90) A",
+            "C. 0.377 sin(377t - 90) A",
+            "D. 37.7 sin(377t + 90) A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "In a purely resistive AC circuit, the mathematical phase relationship between the voltage and current is:",
+        "choices": [
+            "A. Voltage leads current by 90 degrees",
+            "B. Current leads voltage by 90 degrees",
+            "C. Voltage and current are in phase",
+            "D. Voltage lags current by 180 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "Worded circuit: A pure inductance of 20 mH is in series with another pure inductance of 30 mH. This series combination is connected to a 60 Hz supply. What is the total inductive reactance?",
+        "choices": [
+            "A. 37.70 ohms",
+            "B. 7.54 ohms",
+            "C. 11.31 ohms",
+            "D. 18.85 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "Worded circuit: A pure capacitor of 10 uF is connected to an AC voltage source defined by v(t) = 200 cos(100t) V. What is the exact peak current drawn by the capacitor?",
+        "choices": [
+            "A. 0.2 A",
+            "B. 2.0 A",
+            "C. 0.02 A",
+            "D. 20.0 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "If the voltage across an unknown ideal passive component strictly leads the current through it by exactly 90 degrees, the component is mathematically:",
+        "choices": [
+            "A. Purely resistive",
+            "B. Purely capacitive",
+            "C. Purely inductive",
+            "D. A complex impedance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "The susceptance (B) of a purely ideal capacitor is mathematically expressed strictly as:",
+        "choices": [
+            "A. -1 / wC",
+            "B. 1 / wC",
+            "C. -wC",
+            "D. wC"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "In AC circuit analysis, impedance is fundamentally defined as the:",
+        "choices": [
+            "A. Total opposition to alternating current, expressed in ohms",
+            "B. Real power dissipated by the circuit",
+            "C. Imaginary component of the admittance",
+            "D. Purely resistive portion of the circuit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 13,
+        "question": "The exact mathematical formula for the conductance (G) of a complex impedance Z = R + jX is given by:",
+        "choices": [
+            "A. 1 / R",
+            "B. R / X",
+            "C. X / (R^2 + X^2)",
+            "D. R / (R^2 + X^2)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "The standard SI unit of complex admittance (Y) is the:",
+        "choices": [
+            "A. Siemens",
+            "B. Ohm",
+            "C. Henry",
+            "D. Farad"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "Complex admittance (Y) is mathematically and strictly defined as:",
+        "choices": [
+            "A. The sum of resistance and reactance",
+            "B. The reciprocal of complex impedance",
+            "C. The product of voltage and current",
+            "D. The reciprocal of conductance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "In an admittance triangle, the horizontal (adjacent) side strictly represents the:",
+        "choices": [
+            "A. Susceptance",
+            "B. Admittance magnitude",
+            "C. Conductance",
+            "D. Phase angle"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "In an impedance triangle, if the phase angle is mathematically exactly -45 degrees, which of the following is strictly true?",
+        "choices": [
+            "A. R = XC",
+            "B. R = XL",
+            "C. XL = XC",
+            "D. R = 0"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "Susceptance (B) is formally defined as the imaginary component of strictly the:",
+        "choices": [
+            "A. Impedance",
+            "B. Admittance",
+            "C. Conductance",
+            "D. Reactance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "The mathematical product of any complex impedance Z and its exact corresponding complex admittance Y is always strictly equal to:",
+        "choices": [
+            "A. 0 + j0",
+            "B. 0 + j1",
+            "C. 1 + j0",
+            "D. Z^2"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "Which electrical parameter acts as a direct measure of the ease with which alternating current flows through a complex circuit?",
+        "choices": [
+            "A. Impedance",
+            "B. Reactance",
+            "C. Susceptance",
+            "D. Admittance"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "If a series circuit has a complex impedance Z = 5 + j12 ohms, what is the exact magnitude of its admittance (",
+        "choices": [
+            "A. Y",
+            "B. )?",
+            "C. 0.200 S",
+            "D. 0.077 S"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 22,
+        "question": "A parallel circuit possesses a conductance G = 0.03 S and a susceptance B = -0.04 S. What is the exact magnitude of its total impedance (",
+        "choices": [
+            "A. Z",
+            "B. )?",
+            "C. 0.05 ohms",
+            "D. 10 ohms"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 23,
+        "question": "The phase angle (theta) of a practical, non-ideal series RL circuit is strictly constrained mathematically between:",
+        "choices": [
+            "A. -90 and 0 degrees",
+            "B. 0 and -90 degrees",
+            "C. +90 and +180 degrees",
+            "D. 0 and +90 degrees"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 24,
+        "question": "Worded circuit: In a series RL circuit, a voltmeter measures the voltage across the resistor as 30V and across the inductor as 40V. The total applied AC voltage magnitude is exactly:",
+        "choices": [
+            "A. 50 V",
+            "B. 70 V",
+            "C. 10 V",
+            "D. 1200 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 25,
+        "question": "Worded circuit: A series circuit consists of a 15-ohm resistor and a 20-ohm inductive reactance. If it draws exactly 2A RMS, what is the magnitude of the total applied voltage?",
+        "choices": [
+            "A. 70 V",
+            "B. 10 V",
+            "C. 50 V",
+            "D. 35 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 26,
+        "question": "Worded circuit: A 10-ohm resistor and a pure inductor having 10 ohms of reactance are connected in series. The overall power factor of this circuit is exactly:",
+        "choices": [
+            "A. 1.00",
+            "B. 0.707 leading",
+            "C. 0.500 lagging",
+            "D. 0.707 lagging"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 27,
+        "question": "Worded circuit: A series RL circuit is connected to a 100V RMS source. If the voltage drop strictly across the resistor is 80V, what is the exact voltage drop across the inductor?",
+        "choices": [
+            "A. 60 V",
+            "B. 20 V",
+            "C. 120 V",
+            "D. 100 V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 28,
+        "question": "Worded circuit: A real coil draws 12A when connected to a 120V pure DC source. When connected to a 120V AC, 60 Hz source, it draws only 6A. Find the exact inductance of the coil.",
+        "choices": [
+            "A. 20.5 mH",
+            "B. 45.9 mH",
+            "C. 53.1 mH",
+            "D. 31.8 mH"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 29,
+        "question": "Worded circuit: A series RL circuit has an impedance Z = 50 /_ 60 deg ohms. If the applied voltage is v(t) = 141.4 sin(377t + 30 deg) V, the exact mathematical expression for the current i(t) is:",
+        "choices": [
+            "A. 2.83 sin(377t + 90 deg) A",
+            "B. 2.83 sin(377t + 30 deg) A",
+            "C. 2.83 sin(377t - 60 deg) A",
+            "D. 2.83 sin(377t - 30 deg) A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "Worded circuit: Two coils are connected in series. Coil 1 has Z1 = 5 + j10 ohms. Coil 2 has Z2 = 10 + j10 ohms. The exact magnitude of the total series impedance is:",
+        "choices": [
+            "A. 25 ohms",
+            "B. 35 ohms",
+            "C. 15 ohms",
+            "D. 20 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "Worded circuit: A series RL circuit operates with a power factor of 0.6 lagging. If the total impedance magnitude is strictly 10 ohms, what is the exact value of the resistance?",
+        "choices": [
+            "A. 8 ohms",
+            "B. 6 ohms",
+            "C. 10 ohms",
+            "D. 4 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "In a series RL circuit connected to a variable-frequency AC source, as the frequency approaches theoretical infinity, the phase angle of the impedance approaches exactly:",
+        "choices": [
+            "A. 0 degrees",
+            "B. -90 degrees",
+            "C. +90 degrees",
+            "D. 45 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "The phase angle (theta) of a practical, non-ideal series RC circuit is strictly constrained mathematically between:",
+        "choices": [
+            "A. 0 and -90 degrees",
+            "B. 0 and +90 degrees",
+            "C. -90 and -180 degrees",
+            "D. +90 and +180 degrees"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "In a series RC circuit connected to a variable-frequency source, as the applied frequency is steadily increased, the total impedance magnitude will theoretically:",
+        "choices": [
+            "A. Increase",
+            "B. Decrease",
+            "C. Remain exactly constant",
+            "D. Fluctuate sinusoidally"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Worded circuit: A series circuit comprises a 60-ohm resistor and an 80-ohm capacitive reactance. If connected to a 200V RMS source, the total RMS current is exactly:",
+        "choices": [
+            "A. 1.43 A",
+            "B. 10 A",
+            "C. 2 A",
+            "D. 2.83 A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Worded circuit: In a series RC circuit, an AC voltmeter measures exactly 12V across the resistor and exactly 5V across the capacitor. The total applied source voltage is:",
+        "choices": [
+            "A. 17 V",
+            "B. 7 V",
+            "C. 60 V",
+            "D. 13 V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "Worded circuit: A 100-ohm resistor and a capacitor with XC = 100 ohms are in series. What is the strict phase relationship of the total current with respect to the applied voltage?",
+        "choices": [
+            "A. Current lags voltage by 45 degrees",
+            "B. Current leads voltage by 45 degrees",
+            "C. Current and voltage are in phase",
+            "D. Current leads voltage by 90 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "Worded circuit: A series RC circuit draws 5A RMS from a 100V, 60Hz source. If the real power dissipated is exactly 300W, find the exact capacitive reactance (XC).",
+        "choices": [
+            "A. 20 ohms",
+            "B. 12 ohms",
+            "C. 16 ohms",
+            "D. 25 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "Worded circuit: If the RMS voltage across the resistor exactly equals the RMS voltage across the capacitor in a series RC circuit, the power factor of the entire circuit is strictly:",
+        "choices": [
+            "A. 1.00",
+            "B. 0.500 leading",
+            "C. 0.707 lagging",
+            "D. 0.707 leading"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "Worded circuit: A 50-ohm pure resistor and a 10 uF ideal capacitor are connected in series across a 120V, 400Hz source. The exact total impedance magnitude (",
+        "choices": [
+            "A. Z",
+            "B. ) is approximately:",
+            "C. 63.9 ohms",
+            "D. 89.8 ohms"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 41,
+        "question": "Worded circuit: A series RC circuit exhibits a total impedance angle of exactly -30 degrees. If the resistance is 17.32 ohms, what is the exact capacitive reactance?",
+        "choices": [
+            "A. 5 ohms",
+            "B. 17.32 ohms",
+            "C. 10 ohms",
+            "D. 30 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "In a functioning series RC circuit, physically replacing the existing capacitor with a new one having a much larger Farad value will mathematically cause the total impedance magnitude to:",
+        "choices": [
+            "A. Become infinite",
+            "B. Remain unchanged",
+            "C. Increase",
+            "D. Decrease"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 43,
+        "question": "In a series RLC circuit, if the inductive reactance (XL) is mathematically greater than the capacitive reactance (XC), the overall circuit strictly behaves as:",
+        "choices": [
+            "A. Inductive",
+            "B. Capacitive",
+            "C. Purely resistive",
+            "D. Superconducting"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 44,
+        "question": "At the exact point of series resonance in an RLC circuit, the total complex impedance of the circuit is mathematically:",
+        "choices": [
+            "A. Maximum and purely resistive",
+            "B. Minimum and purely resistive",
+            "C. Minimum and purely reactive",
+            "D. Infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 45,
+        "question": "Consider the statement for a series RLC circuit: \"The total applied RMS voltage is strictly equal to the simple algebraic sum of the RMS voltage drops VR + VL + VC.\" This statement is:",
+        "choices": [
+            "A. True only at resonance",
+            "B. True for all frequencies",
+            "C. False, it is the algebraic difference",
+            "D. False, it must be computed as a phasor sum"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 46,
+        "question": "Worded circuit: A resistor of 30 ohms, an XL of 90 ohms, and an XC of 50 ohms are all connected in series. The exact magnitude of the total impedance is:",
+        "choices": [
+            "A. 50 ohms",
+            "B. 170 ohms",
+            "C. 70 ohms",
+            "D. 10 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "Worded circuit: In a series RLC circuit, the individual voltage drops are measured as VR = 40V, VL = 100V, and VC = 70V. The total applied source voltage magnitude is exactly:",
+        "choices": [
+            "A. 210 V",
+            "B. 50 V",
+            "C. 10 V",
+            "D. 70 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "Worded circuit: A series combination of R=10 ohms, XL=20 ohms, and XC=20 ohms is connected to a 100V RMS supply. What is the exact total current drawn by the circuit?",
+        "choices": [
+            "A. 5 A",
+            "B. 2 A",
+            "C. 10 A",
+            "D. 0 A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "Worded circuit: A series RLC circuit possesses a total impedance magnitude of 100 ohms and operates at a power factor of 0.8 lagging. The exact value of the series resistance is:",
+        "choices": [
+            "A. 80 ohms",
+            "B. 60 ohms",
+            "C. 100 ohms",
+            "D. 125 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "Worded circuit: R=15 ohms, XL=40 ohms, and XC=20 ohms are in series across a 125V RMS source. What is the exact RMS voltage measured strictly across the inductor?",
+        "choices": [
+            "A. 100 V",
+            "B. 200 V",
+            "C. 125 V",
+            "D. 50 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Worded circuit: In a series RLC circuit, the voltages are VR=10V, VL=20V, and VC=20V. What is the exact mathematical Quality Factor (Q) of this entire circuit at this operating point?",
+        "choices": [
+            "A. 0.5",
+            "B. 1",
+            "C. 2",
+            "D. 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "Worded circuit: A practical series RLC circuit is deliberately operated at a frequency strictly below its natural resonant frequency. Its overall power factor will mathematically be:",
+        "choices": [
+            "A. Unity",
+            "B. Lagging",
+            "C. Zero",
+            "D. Leading"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "Worded circuit: R=5 ohms, L=10 mH, and C=100 uF are connected in series. If driven at an angular frequency exactly w=1000 rad/s, what is the total impedance magnitude?",
+        "choices": [
+            "A. 15 ohms",
+            "B. 5 ohms",
+            "C. 25 ohms",
+            "D. 0 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "Worded circuit: A series RLC circuit has a total measured phase angle of exactly 0 degrees. Which of the following mathematical conditions is strictly true?",
+        "choices": [
+            "A. R = XL + XC",
+            "B. XL > XC",
+            "C. XL = XC",
+            "D. R = 0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 55,
+        "question": "A series RLC circuit has a total impedance Z = 10 - j5 ohms. If the frequency of the source is slightly increased, the impedance phase angle will mathematically:",
+        "choices": [
+            "A. Become more negative",
+            "B. Remain exactly the same",
+            "C. Jump to +90 degrees",
+            "D. Become less negative"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 56,
+        "question": "In any series RLC circuit, the instantaneous voltage across the ideal inductor and the instantaneous voltage across the ideal capacitor are strictly mathematically:",
+        "choices": [
+            "A. 180 degrees out of phase",
+            "B. In phase with each other",
+            "C. 90 degrees out of phase",
+            "D. Dependent on the resistance value"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 57,
+        "question": "If a theoretically ideal series RLC circuit has absolutely zero resistance (R=0), what is its exact mathematical impedance strictly at its resonant frequency?",
+        "choices": [
+            "A. Infinite",
+            "B. 100 ohms",
+            "C. Zero",
+            "D. Purely capacitive"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 58,
+        "question": "In a standard parallel RL circuit, the AC voltage physically across the resistor and the AC voltage across the inductor are mathematically:",
+        "choices": [
+            "A. 90 degrees out of phase",
+            "B. 180 degrees out of phase",
+            "C. Dependent on the branch currents",
+            "D. Exactly the same"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 59,
+        "question": "In a parallel RL circuit, the total RMS current (IT) drawn from the source is mathematically calculated from the branch currents (IR and IL) using the strict formula:",
+        "choices": [
+            "A. sqrt(IR^2 + IL^2)",
+            "B. IR + IL",
+            "C. IR - IL",
+            "D. sqrt(IR^2 - IL^2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "Worded circuit: A 10-ohm resistor and an inductor with an XL of 10 ohms are in parallel across a 100V RMS source. The exact total RMS current drawn is:",
+        "choices": [
+            "A. 20 A",
+            "B. 14.14 A",
+            "C. 10 A",
+            "D. 0 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 61,
+        "question": "Worded circuit: A pure 20-ohm resistor is in parallel with an inductor having XL = 15 ohms. What is the exact magnitude of the total circuit admittance (",
+        "choices": [
+            "A. Y",
+            "B. )?",
+            "C. 0.1167 S",
+            "D. 0.0167 S"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 62,
+        "question": "Worded circuit: R=40 ohms and XL=30 ohms are connected in parallel. What is the exact equivalent total impedance magnitude (",
+        "choices": [
+            "A. Z",
+            "B. ) of this combination?",
+            "C. 24 ohms",
+            "D. 70 ohms"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 63,
+        "question": "Worded circuit: A parallel RL circuit draws a total of 10A RMS from a 120V source. If the real power dissipated is exactly 720W, find the exact inductive branch current (IL).",
+        "choices": [
+            "A. 6 A",
+            "B. 8 A",
+            "C. 4 A",
+            "D. 2 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "Worded circuit: A parallel RL circuit has a total measured impedance Z = 12 + j16 ohms. What is the exact mathematical value of its parallel resistor branch (Rp)?",
+        "choices": [
+            "A. 12.0 ohms",
+            "B. 20.0 ohms",
+            "C. 33.33 ohms",
+            "D. 25.0 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "Worded circuit: An inductive industrial load (modeled as parallel RL) consumes 5 kW of real power and 5 kVAR of reactive power at 100V RMS. Its equivalent parallel resistance is strictly:",
+        "choices": [
+            "A. 2 ohms",
+            "B. 5 ohms",
+            "C. 10 ohms",
+            "D. 0.5 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "In a standard parallel RL circuit, the phase angle of the total current strictly with respect to the applied source voltage is mathematically:",
+        "choices": [
+            "A. Positive / Leading",
+            "B. Negative / Lagging",
+            "C. Exactly Zero",
+            "D. +90 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "If the applied frequency to a parallel RL circuit is significantly decreased, what will theoretically happen to the total RMS current drawn from the source?",
+        "choices": [
+            "A. It will remain entirely unchanged",
+            "B. It will decrease due to higher XL",
+            "C. It will increase due to lower XL",
+            "D. It will drop to exactly zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "In a standard parallel RC circuit, the total mathematical current drawn from the source strictly:",
+        "choices": [
+            "A. Lags the applied voltage",
+            "B. Is in phase with the applied voltage",
+            "C. Lags the resistor current",
+            "D. Leads the applied voltage"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "When calculating the complex admittance of a parallel RC circuit, the susceptance (B) portion is mathematically strictly:",
+        "choices": [
+            "A. Negative",
+            "B. Positive",
+            "C. Zero",
+            "D. Equal to Conductance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 70,
+        "question": "Worded circuit: A 30-ohm resistor and a capacitor with XC = 40 ohms are connected in parallel across a 120V RMS source. The exact total RMS current is:",
+        "choices": [
+            "A. 7 A",
+            "B. 1 A",
+            "C. 5 A",
+            "D. 12 A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "Worded circuit: A 100-ohm resistor and a 100-ohm capacitive reactance are in parallel. What is the exact magnitude of the equivalent total impedance?",
+        "choices": [
+            "A. 200 ohms",
+            "B. 50 ohms",
+            "C. 100 ohms",
+            "D. 70.7 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "Worded circuit: A parallel RC circuit has a measured conductance G = 0.04 S and a capacitive susceptance B = 0.03 S. The exact total admittance magnitude (",
+        "choices": [
+            "A. Y",
+            "B. ) is:",
+            "C. 0.05 S",
+            "D. 0.07 S"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 73,
+        "question": "Worded circuit: A parallel RC circuit draws 2A from a 100V source. If the power factor is exactly 0.5 leading, what is the exact capacitive reactance (XC) of the circuit?",
+        "choices": [
+            "A. 100 ohms",
+            "B. 50 ohms",
+            "C. 57.7 ohms",
+            "D. 86.6 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "Worded circuit: A parallel RC circuit consists of Rp = 50 ohms and XCp = 50 ohms. If converted to a mathematically equivalent series circuit, the new series resistance (Rs) is exactly:",
+        "choices": [
+            "A. 50 ohms",
+            "B. 70.7 ohms",
+            "C. 12.5 ohms",
+            "D. 25 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "Worded circuit: A branch consists of Rs = 10 ohms and XCs = 10 ohms in series. If converted to a mathematically equivalent parallel circuit, the new parallel resistance (Rp) is exactly:",
+        "choices": [
+            "A. 20 ohms",
+            "B. 10 ohms",
+            "C. 5 ohms",
+            "D. 14.14 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "In a parallel RC circuit, physically replacing the capacitor with a new one having double the Farad value will theoretically cause the total equivalent impedance magnitude to:",
+        "choices": [
+            "A. Increase",
+            "B. Decrease",
+            "C. Remain exactly unchanged",
+            "D. Double"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "A parallel RC circuit possesses an exact total admittance angle of +45 degrees. Which of the following mathematical statements is strictly true for this circuit?",
+        "choices": [
+            "A. R = 0",
+            "B. R = 2*XC",
+            "C. XC = 0",
+            "D. R = XC"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 78,
+        "question": "In a parallel RLC circuit, if the capacitive branch current (IC) is mathematically greater than the inductive branch current (IL), the total circuit behaves as:",
+        "choices": [
+            "A. Capacitive",
+            "B. Inductive",
+            "C. Purely resistive",
+            "D. Open circuit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 79,
+        "question": "At the exact point of parallel resonance in a theoretically ideal parallel RLC circuit (no internal coil resistance), the total impedance is mathematically:",
+        "choices": [
+            "A. Minimum and purely resistive",
+            "B. Maximum and purely resistive",
+            "C. Zero",
+            "D. Infinite and purely reactive"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 80,
+        "question": "Worded circuit: A parallel RLC circuit has measured branch currents of IR = 3A, IL = 8A, and IC = 4A. What is the exact total RMS current drawn from the source?",
+        "choices": [
+            "A. 15 A",
+            "B. 7 A",
+            "C. 5 A",
+            "D. 11 A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 81,
+        "question": "Worded circuit: R=20 ohms, XL=10 ohms, and XC=20 ohms are all connected in parallel. What is the exact magnitude of the total admittance (",
+        "choices": [
+            "A. Y",
+            "B. )?",
+            "C. 0.0707 S",
+            "D. 0.100 S"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 82,
+        "question": "Worded circuit: R=50 ohms, XL=25 ohms, and XC=25 ohms are connected in parallel across a 100V RMS source. The exact total current drawn by the entire circuit is:",
+        "choices": [
+            "A. 10 A",
+            "B. 2 A",
+            "C. 0 A",
+            "D. 8 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "Worded circuit: A parallel RLC circuit at 120V consumes 720W of real power. If IL = 10A and IC = 2A, find the exact magnitude of the total impedance (",
+        "choices": [
+            "A. Z",
+            "B. ).",
+            "C. 20 ohms",
+            "D. 10 ohms"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 84,
+        "question": "Worded circuit: A complex parallel RLC circuit yields a total admittance Y = 0.02 - j0.05 + j0.01 S. The exact value of its equivalent parallel resistor branch is:",
+        "choices": [
+            "A. 0.02 ohms",
+            "B. 25 ohms",
+            "C. 100 ohms",
+            "D. 50 ohms"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 85,
+        "question": "Worded circuit: R=10 ohms, L=0.1 H, and C=10 uF are connected in parallel and driven at exactly w=1000 rad/s. The total complex admittance (Y) is strictly:",
+        "choices": [
+            "A. 0.1 - j0.1 S",
+            "B. 0.1 + j0 S",
+            "C. 10 + j0 S",
+            "D. 0.1 + j0.02 S"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 86,
+        "question": "If a standard parallel RLC circuit is operated at a frequency strictly above its natural resonant frequency, the overall power factor of the circuit will be mathematically:",
+        "choices": [
+            "A. Inductive / Lagging",
+            "B. Unity",
+            "C. Capacitive / Leading",
+            "D. Zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "A specific parallel RLC circuit has a total net susceptance of exactly zero Siemens. This mathematically guarantees that the circuit is currently operating at:",
+        "choices": [
+            "A. Infinite frequency",
+            "B. Zero frequency",
+            "C. Maximum current",
+            "D. Resonance"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 88,
+        "question": "Worded circuit: A parallel RLC circuit has an inductive susceptance BL = 0.05 S and a capacitive susceptance BC = 0.08 S. The exact total net susceptance (B_total) is:",
+        "choices": [
+            "A. +0.03 S",
+            "B. -0.03 S",
+            "C. 0.13 S",
+            "D. -0.13 S"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 89,
+        "question": "In a parallel RLC circuit, the instantaneous current through the ideal capacitor and the instantaneous current through the ideal inductor are mathematically strictly:",
+        "choices": [
+            "A. In phase with each other",
+            "B. 90 degrees out of phase with each other",
+            "C. 180 degrees out of phase with each other",
+            "D. In phase with the source voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "Kirchhoff's Current Law (KCL) applied to any node in a parallel AC circuit rigorously states that the algebraic sum of the instantaneous branch currents is exactly:",
+        "choices": [
+            "A. Equal to the RMS source current",
+            "B. Equal to the real current",
+            "C. Equal to the reactive current",
+            "D. Zero"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 91,
+        "question": "When determining the total RMS current in a parallel AC network, the individual RMS branch currents must always be added:",
+        "choices": [
+            "A. Vectorially / using phasor addition",
+            "B. Algebraically",
+            "C. Logarithmically",
+            "D. By simple scalar addition"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "Worded circuit: Branch 1 is purely resistive and draws 4A. Branch 2 is purely inductive and draws 3A. They are in parallel. The exact magnitude of the total current is:",
+        "choices": [
+            "A. 7 A",
+            "B. 5 A",
+            "C. 1 A",
+            "D. 12 A"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "Worded circuit: Two parallel branches draw currents I1 = 10 /_ 30 deg A and I2 = 10 /_ -30 deg",
+        "choices": [
+            "A. The exact magnitude of the total current is:",
+            "A. 20 A",
+            "B. 10 A",
+            "C. 14.14 A"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "Worded circuit: Two branches are in parallel across V = 100 /_ 0 deg V. Branch 1 has Z1 = 3 + j4 ohms. Branch 2 has Z2 = 8 - j6 ohms. The exact magnitude of the total current is:",
+        "choices": [
+            "A. 22.36 A",
+            "B. 30.0 A",
+            "C. 10.0 A",
+            "D. 28.28 A"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 95,
+        "question": "Worded circuit: A circuit has an admittance Y1 = 0.1 + j0.2 S in parallel with another admittance Y2 = 0.2 - j0.1 S. What is the exact magnitude of the total equivalent impedance (",
+        "choices": [
+            "A. Z",
+            "B. )?",
+            "C. 0.316 ohms",
+            "D. 3.16 ohms"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 96,
+        "question": "An admittance triangle has a hypotenuse (total admittance) of 0.5 S and a net susceptance of -0.4 S. The exact mathematical value of the conductance is:",
+        "choices": [
+            "A. 0.1 S",
+            "B. 0.9 S",
+            "C. 0.3 S",
+            "D. 0.64 S"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 97,
+        "question": "If two parallel branches possess completely equal impedance magnitudes but conjugate phase angles (Z and Z*), their total equivalent parallel impedance will strictly be:",
+        "choices": [
+            "A. Purely real / Resistive",
+            "B. Purely imaginary / Reactive",
+            "C. Exactly zero",
+            "D. Infinite"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 98,
+        "question": "Worded circuit: An AC circuit has an applied voltage of 100V RMS and draws a total complex power S = 400 - j300 VA. What is the exact total complex admittance (Y) of this circuit?",
+        "choices": [
+            "A. 0.04 - j0.03 S",
+            "B. 0.04 + j0.03 S",
+            "C. 4.0 - j3.0 S",
+            "D. 4.0 + j3.0 S"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "Mathematically, taking the exact reciprocal of a circuit's total equivalent parallel admittance Y_p directly yields the circuit's:",
+        "choices": [
+            "A. Equivalent parallel resistance R_p",
+            "B. Total susceptance B_p",
+            "C. Equivalent series impedance Z_s",
+            "D. Equivalent series reactance X_s"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 100,
+        "question": "In any complex AC circuit network, the total real power supplied strictly by the source is mathematically exactly equal to:",
+        "choices": [
+            "A. The vector sum of all apparent powers",
+            "B. The algebraic sum of all reactive powers",
+            "C. Zero, if the circuit is purely reactive",
+            "D. The arithmetic sum of the real power dissipated by all individual resistors"
+        ],
+        "correct_answer": "D"
+    }
+]

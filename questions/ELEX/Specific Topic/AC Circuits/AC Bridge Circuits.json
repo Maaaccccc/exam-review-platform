@@ -1,0 +1,1091 @@
+[
+    {
+        "number": 1,
+        "question": "The mathematically exact formula for the time constant of a standard first-order series RC circuit is strictly given by:",
+        "choices": [
+            "A. R / C",
+            "B. C / R",
+            "C. R * C",
+            "D. 1 / (R * C)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 2,
+        "question": "Worded circuit: An uncharged 5 uF capacitor is connected in series with a 200 k-ohm resistor to a 50V DC source at t=0. What is the mathematically exact time required for the capacitor voltage to reach 31.6V (approx 63.2% of its final value)?",
+        "choices": [
+            "A. 1.0 s",
+            "B. 0.1 s",
+            "C. 5.0 s",
+            "D. 10.0 s"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 3,
+        "question": "In the s-domain analysis of a linear circuit, the Initial Value Theorem mathematically establishes that the exact value of f(0+) is evaluated by finding the limit as s approaches infinity of:",
+        "choices": [
+            "A. F(s) / s",
+            "B. F(s)",
+            "C. s^2 * F(s)",
+            "D. s * F(s)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 4,
+        "question": "A second-order RLC circuit is mathematically classified as strictly \"overdamped\" when its damping factor (alpha) and undamped natural frequency (w0) satisfy the exact condition:",
+        "choices": [
+            "A. alpha < w0",
+            "B. alpha > w0",
+            "C. alpha = w0",
+            "D. alpha = 0"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 5,
+        "question": "Worded circuit: A series RLC circuit possesses L = 1 H and C = 0.01 F. What exact physical value of resistance R will rigorously force the transient response to be perfectly critically damped?",
+        "choices": [
+            "A. 10 ohms",
+            "B. 20 ohms",
+            "C. 5 ohms",
+            "D. 100 ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "Worded circuit: A switch connects a 12V DC source to an RL circuit (R=4 ohms, L=2 H) for exactly 1 second, then suddenly disconnects the source, shorting the RL circuit. To mathematically solve for the current strictly at t = 1.5s using piecewise analysis, the initial condition I0 at the start of the discharge phase must be:",
+        "choices": [
+            "A. 3.0 A",
+            "B. 0 A",
+            "C. 3(1 - e^-2) A",
+            "D. 3 e^-2 A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "A fundamental principle in electrical transient analysis rigorously states that the physical current flowing through a purely ideal inductor:",
+        "choices": [
+            "A. Cannot change instantaneously",
+            "B. Must decay to zero instantly when switched",
+            "C. Can change instantaneously if a switch opens",
+            "D. Will always lead the applied voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 8,
+        "question": "Worded circuit: A parallel RLC circuit has R = 100 ohms, L = 10 mH, and C = 10 uF. The mathematically exact undamped natural frequency (w0) in rad/s is:",
+        "choices": [
+            "A. 500",
+            "B. 100",
+            "C. 10000",
+            "D. 3162"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "Worded circuit: A 10V DC step is suddenly applied to a series RLC circuit that is initially completely uncharged. As time mathematically approaches infinity, the exact final steady-state voltage strictly across the ideal capacitor is:",
+        "choices": [
+            "A. 0 V",
+            "B. 5 V",
+            "C. 10 V",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "The characteristic roots (s1 and s2) of the denominator polynomial of a circuit's Laplace transfer function H(s) physically and exactly dictate the circuit's:",
+        "choices": [
+            "A. Final steady-state purely DC conditions",
+            "B. Active and reactive power consumption",
+            "C. Initial boundary conditions at t=0",
+            "D. Natural frequencies and overall stability"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "The fundamental theoretical condition for perfect balance in an AC bridge consisting of four impedance arms (Z1, Z2, Z3, Z4 in cyclic order) is mathematically expressed strictly as:",
+        "choices": [
+            "A. Z1 * Z2 = Z3 * Z4",
+            "B. Z1 * Z4 = Z2 * Z3",
+            "C. Z1 / Z3 = Z2 / Z4",
+            "D. Z1 + Z4 = Z2 + Z3"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 12,
+        "question": "Worded circuit: An AC bridge is perfectly balanced. Arm 1 has Z1 = 100 + j0 ohms. Arm 2 has Z2 = 50 + j0 ohms. Arm 3 has Z3 = 60 - j80 ohms. If Z4 is the unknown arm opposite to Z1, what is the mathematically exact complex impedance Z4?",
+        "choices": [
+            "A. 30 - j40 ohms",
+            "B. 60 - j80 ohms",
+            "C. 40 - j30 ohms",
+            "D. 30 + j40 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Unlike basic DC Wheatstone bridges which are exclusively used for resistance, AC bridges are fundamentally physically utilized to precisely measure unknown:",
+        "choices": [
+            "A. Inductances and capacitances",
+            "B. Active power and reactive power",
+            "C. Harmonic distortion factors",
+            "D. Direct current leakage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "In certain specific AC bridges, the balance condition mathematically contains the angular frequency term (omega). This physical fact implies that the bridge:",
+        "choices": [
+            "A. Can only be balanced using a DC source",
+            "B. Is highly sensitive to the frequency of the applied AC source",
+            "C. Cannot be balanced under any circumstances",
+            "D. Measures only pure resistances"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "A practical null detector in an AC bridge has a finite internal impedance. Mathematically and physically, the detector's sensitivity is maximized when its internal impedance is exactly equal to the:",
+        "choices": [
+            "A. Impedance of the unknown arm Z4",
+            "B. Lowest impedance arm in the bridge",
+            "C. Source impedance",
+            "D. Thevenin equivalent impedance looking back into the detector terminals"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "Which of the following electrical instruments is most universally and appropriately used as a null detector in an AC bridge operating strictly at low audio frequencies (e.g., 1 kHz)?",
+        "choices": [
+            "A. High-impedance headphones or an oscilloscope",
+            "B. Standard moving-coil DC galvanometer",
+            "C. Digital logic probe",
+            "D. Hot-wire ammeter"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "Worded circuit: An AC bridge is to be balanced. Arm 1 (Z1) is purely resistive. Arm 2 (Z2) is purely capacitive. Arm 3 (Z3) is purely resistive. To mathematically satisfy the phase angle balance condition, the unknown Arm 4 (Z4) must strictly be:",
+        "choices": [
+            "A. Purely inductive",
+            "B. Purely resistive",
+            "C. Purely capacitive",
+            "D. A complex series RL combination"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 19,
+        "question": "If it is mathematically more convenient to use admittances rather than impedances, the fundamental balance equation for an AC bridge (where Y1 is opposite to Y4) takes the strict algebraic form:",
+        "choices": [
+            "A. Y1 * Y2 = Y3 * Y4",
+            "B. Y1 + Y4 = Y2 + Y3",
+            "C. Y1 / Y4 = Y2 / Y3",
+            "D. Y1 * Y4 = Y2 * Y3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 20,
+        "question": "In a practical AC bridge fed by an impure oscillator, harmonics present in the source voltage can physically make it impossible to find a perfect, absolute null on the detector. To mathematically eliminate this severe issue in precision measurements, one must strictly employ a:",
+        "choices": [
+            "A. Lower excitation voltage",
+            "B. Tuned narrow-band filter in series with the null detector",
+            "C. Purely resistive detector",
+            "D. Thermocouple meter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 21,
+        "question": "The classic Maxwell bridge (or Maxwell-Wien bridge) is primarily utilized in engineering to precisely measure an unknown:",
+        "choices": [
+            "A. Very high frequency capacitance",
+            "B. Dielectric loss factor of insulators",
+            "C. Pure resistance in the micro-ohm range",
+            "D. Inductance using a standard known capacitor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 22,
+        "question": "In the standard topology of a Maxwell bridge, the unknown coil (Rx and Lx in series) is in Arm 4. Arm 1 contains a standard capacitor C1 in parallel with R1. Arms 2 and 3 are pure resistors R2 and R3. The mathematically exact equation for the unknown resistance Rx is:",
+        "choices": [
+            "A. Rx = (R1 * R2) / R3",
+            "B. Rx = (R2 * R3) / R1",
+            "C. Rx = R1 * R2 * R3",
+            "D. Rx = R1 / (R2 * R3)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "Using the exact same standard Maxwell bridge configuration from the previous question, the mathematically exact equation for the unknown inductance Lx is strictly given by:",
+        "choices": [
+            "A. Lx = R2 * R3 * C1",
+            "B. Lx = C1 / (R2 * R3)",
+            "C. Lx = (R2 * C1) / R3",
+            "D. Lx = R1 * R2 * C1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "The classic Maxwell bridge is highly unsuitable for measuring high-Q coils (Q > 10) because mathematically and physically:",
+        "choices": [
+            "A. The standard capacitor would need to be prohibitively small",
+            "B. The bridge frequency equations become imaginary",
+            "C. It requires a prohibitively large and impractical value for the parallel resistor R1",
+            "D. High-Q coils create dangerous resonant voltages in the arms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 25,
+        "question": "In the standard Maxwell bridge, Arm 1 consists of a resistor R1 strictly in parallel with a standard capacitor C1. The overall mathematical phase angle of this specific arm must strictly be:",
+        "choices": [
+            "A. Exactly 0 degrees",
+            "B. Between 0 and -90 degrees",
+            "C. Exactly -90 degrees",
+            "D. Between 0 and +90 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 26,
+        "question": "Worded circuit: A Maxwell bridge is perfectly balanced. The standard arms are R2 = 500 ohms, R3 = 400 ohms, and the parallel standard arm has C1 = 0.1 uF. The mathematically exact value of the unknown inductance Lx is:",
+        "choices": [
+            "A. 20.0 mH",
+            "B. 12.5 mH",
+            "C. 2.0 mH",
+            "D. 5.0 mH"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "Worded circuit: In the identical balanced Maxwell bridge (R2 = 500 ohms, R3 = 400 ohms), the parallel standard arm also contains R1 = 10 k-ohms. What is the mathematically exact value of the unknown internal coil resistance Rx?",
+        "choices": [
+            "A. 10.0 ohms",
+            "B. 2.5 ohms",
+            "C. 20.0 ohms",
+            "D. 100.0 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "Worded circuit: A Maxwell bridge measures a coil. The bridge balances at a frequency of 1 kHz. The standard parallel arm has R1 = 15.9 k-ohms and C1 = 0.1 uF. The mathematically exact Quality Factor (Q) of the unknown coil is strictly:",
+        "choices": [
+            "A. 1.59",
+            "B. 3.18",
+            "C. 5.0",
+            "D. 10.0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "A massive physical advantage of the Maxwell bridge is that its exact mathematical balance equations for Rx and Lx are entirely:",
+        "choices": [
+            "A. Independent of the standard capacitor value",
+            "B. Independent of the operating AC frequency",
+            "C. Linearly dependent on the square of the voltage",
+            "D. Based strictly on inductors rather than capacitors"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 30,
+        "question": "In high-precision audio-frequency measurements using a Maxwell bridge, stray parasitic capacitance between the connecting wires can alter the balance. This physically manifests mathematically as an effective error primarily in the measured:",
+        "choices": [
+            "A. Frequency of the source",
+            "B. Value of the standard resistor R2",
+            "C. DC resistance of the null detector",
+            "D. Equivalent resistance Rx of the coil, severely affecting its calculated Q"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 31,
+        "question": "In standard instrumentation literature, the classic Maxwell bridge utilized for inductance measurement is formally and frequently referred to as the:",
+        "choices": [
+            "A. Maxwell-Faraday bridge",
+            "B. Maxwell-Kelvin bridge",
+            "C. Maxwell-Wien bridge",
+            "D. Maxwell-Heaviside bridge"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "To mathematically derive the balance equations for the Maxwell bridge, the admittance of the parallel standard arm (Y1) is equated in the generic formula Z4 = Z2 * Z3 * Y1. The exact algebraic expression for Y1 is:",
+        "choices": [
+            "A. (1 / R1) + j * w * C1",
+            "B. R1 + (1 / (j * w * C1))",
+            "C. (1 / R1) - j * w * C1",
+            "D. R1 * j * w * C1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 33,
+        "question": "The theoretical Quality Factor (Q) of an inductor is defined as w*L / R. In terms of the Maxwell bridge balance components, this Q mathematically simplifies exactly to:",
+        "choices": [
+            "A. w * R2 * C1",
+            "B. 1 / (w * R1 * C1)",
+            "C. w * R1 * C1",
+            "D. w * R3 * C1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 34,
+        "question": "To achieve an extremely precise balance in a practical Maxwell bridge, variable capacitors are rarely used due to their limited range. Instead, the balance procedure mathematically dictates tuning which exact components?",
+        "choices": [
+            "A. C1 and R2",
+            "B. R1 and R3 (or R2)",
+            "C. Lx and Rx directly",
+            "D. The source frequency and voltage magnitude"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "Why is a standard precision capacitor universally preferred over a standard precision inductor in the reference arms of an AC bridge like the Maxwell?",
+        "choices": [
+            "A. Capacitors can handle much higher currents",
+            "B. Capacitors generate inductive magnetic fields that aid the detector",
+            "C. Standard inductors are absolutely frictionless",
+            "D. Precision capacitors are far more ideal, compact, and lack external stray magnetic fields compared to inductors"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "Worded circuit: A Maxwell bridge is being designed to measure an unknown 50 mH coil. If the fixed bridge arms are chosen as R2 = 1 k-ohm and R3 = 1 k-ohm, what mathematically exact value of standard capacitor C1 is required?",
+        "choices": [
+            "A. 0.05 uF",
+            "B. 0.50 uF",
+            "C. 0.10 uF",
+            "D. 5.0 uF"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 37,
+        "question": "The highly frustrating phenomenon in AC bridge balancing where adjusting one variable resistor throws the other balance condition off, requiring back-and-forth tuning, is officially termed:",
+        "choices": [
+            "A. Sliding balance",
+            "B. Harmonic hunting",
+            "C. Reactive overshoot",
+            "D. Damped nulling"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Worded circuit: A coil is measured with a Maxwell bridge at a frequency of 500 Hz. If the parallel standard arm balances at R1 = 6.36 k-ohms and C1 = 0.1 uF, the mathematically approximate Q of the coil is:",
+        "choices": [
+            "A. 5.0",
+            "B. 0.5",
+            "C. 1.0",
+            "D. 2.0"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 39,
+        "question": "The standard Maxwell-Wien bridge is highly recommended and accurate only for measuring coils with Quality Factors (Q) physically ranging approximately between:",
+        "choices": [
+            "A. 0.01 and 1",
+            "B. 1 and 10",
+            "C. 10 and 100",
+            "D. 100 and 1000"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 40,
+        "question": "Worded circuit: A Maxwell bridge balances an unknown coil having an internal resistance of 50 ohms. If R1 is strictly set to 5 k-ohms and R3 is 250 ohms, what must the mathematically exact value of R2 be?",
+        "choices": [
+            "A. 500 ohms",
+            "B. 250 ohms",
+            "C. 1000 ohms",
+            "D. 100 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 41,
+        "question": "The Hay bridge is an important AC bridge topology explicitly designed and mathematically optimized for measuring inductors characterized by a:",
+        "choices": [
+            "A. Very high internal DC resistance",
+            "B. High Quality Factor (Q strictly greater than 10)",
+            "C. Low Quality Factor (Q strictly less than 1)",
+            "D. Massive physical capacitance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 42,
+        "question": "In the standard Hay bridge, Arm 1 consists of a standard capacitor C1 strictly in SERIES with a resistor R1. The exact rigorous mathematical formula for the unknown inductance Lx is:",
+        "choices": [
+            "A. (R2 * R3 * C1) / (1 - w^2 * R1^2 * C1^2)",
+            "B. R2 * R3 * C1 * (1 + w^2 * R1^2 * C1^2)",
+            "C. (R2 * R3 * C1) / (1 + w^2 * R1^2 * C1^2)",
+            "D. C1 / (R2 * R3 * (1 + w^2 * R1^2 * C1^2))"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 43,
+        "question": "Unlike the Maxwell bridge, the exact mathematical balance equations for Lx and Rx in a Hay bridge heavily feature the angular frequency term (w). This physically necessitates that the:",
+        "choices": [
+            "A. Null detector must be a pure DC galvanometer",
+            "B. Bridge can only be used at 1 MHz or higher",
+            "C. The standard capacitor must be continuously varied",
+            "D. AC source must possess an extremely stable and accurately known frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 44,
+        "question": "Using the standard Hay bridge configuration (R1 in series with C1), the mathematically exact rigorous formula for the unknown coil resistance Rx is:",
+        "choices": [
+            "A. (w^2 * C1^2 * R1 * R2 * R3) / (1 + w^2 * C1^2 * R1^2)",
+            "B. (w * C1 * R1 * R2 * R3) / (1 + w^2 * C1^2 * R1^2)",
+            "C. (R2 * R3) / (R1 * (1 + w^2 * C1^2 * R1^2))",
+            "D. (w^2 * C1^2 * R1) / (R2 * R3)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 45,
+        "question": "The fundamental topological difference between a Maxwell bridge and a Hay bridge lies entirely in the configuration of the standard capacitor C1 and resistor R1. In the Hay bridge, they are mathematically and physically connected in:",
+        "choices": [
+            "A. Series",
+            "B. Parallel",
+            "C. A Delta arrangement",
+            "D. Different opposing arms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "For measuring high-Q coils, the term (1/Q)^2 in the Hay bridge Lx equation mathematically becomes extremely small. If this term is neglected (assuming 1 + (1/Q)^2 approx 1), the simplified Lx formula elegantly reverts strictly to:",
+        "choices": [
+            "A. Lx = (R1 * R2) / C1",
+            "B. Lx = R1 * R2 * R3",
+            "C. Lx = R2 * R3 * C1",
+            "D. Lx = C1 / (R2 * R3)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "Worded circuit: A Hay bridge is used to measure a very high-Q coil. The bridge balances with R2 = 1 k-ohm, R3 = 1 k-ohm, and C1 = 0.05 uF. Using the simplified assumption for high-Q coils, the approximate mathematically calculated Lx is:",
+        "choices": [
+            "A. 20 mH",
+            "B. 50 mH",
+            "C. 10 mH",
+            "D. 100 mH"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "Worded circuit: In a Hay bridge, the measured Q of the coil is 2. The exact formula for Lx yields a value of 40 mH. If a technician erroneously uses the simplified high-Q formula (Lx = R2*R3*C1) for this low-Q coil, the mathematically computed Lx will be:",
+        "choices": [
+            "A. 40 mH",
+            "B. 30 mH",
+            "C. 10 mH",
+            "D. 50 mH"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "The theoretical Quality Factor (Q) of the unknown inductor in a Hay bridge is mathematically strictly defined in terms of the standard balancing components as:",
+        "choices": [
+            "A. Q = w * R1 * C1",
+            "B. Q = R1 / (w * C1)",
+            "C. Q = 1 / (w * R1 * C1)",
+            "D. Q = w * R2 * C1"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 50,
+        "question": "A mathematically rigorous comparison of the Q equations for the Maxwell bridge (Q_maxwell) and the Hay bridge (Q_hay) reveals that their formulas are strictly:",
+        "choices": [
+            "A. Identical",
+            "B. Scaled by a factor of 2*pi",
+            "C. Unrelated due to different physical topologies",
+            "D. Exact mathematical reciprocals of each other"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 51,
+        "question": "Worded circuit: A Hay bridge operates at 1000 Hz. The standard series arm balances precisely at R1 = 15.9 ohms and C1 = 1 uF. The mathematically exact Quality Factor (Q) of the measured coil is approximately:",
+        "choices": [
+            "A. 10.0",
+            "B. 1.0",
+            "C. 100.0",
+            "D. 0.1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 52,
+        "question": "To physically construct a Hay bridge from an existing Maxwell bridge, an engineer must mathematically and practically change the standard RC arm from a:",
+        "choices": [
+            "A. Series to a Wye configuration",
+            "B. Parallel to a series configuration",
+            "C. Series to a parallel configuration",
+            "D. Capacitive to an inductive configuration"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 53,
+        "question": "Worded circuit: A Hay bridge is designed to measure a 20 H high-Q choke coil. If the fixed bridge arms are R2 = 10 k-ohms and R3 = 10 k-ohms, the mathematically exact value required for the standard capacitor C1 is:",
+        "choices": [
+            "A. 0.1 uF",
+            "B. 0.2 uF",
+            "C. 2.0 uF",
+            "D. 0.05 uF"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 54,
+        "question": "If a Hay bridge is used to measure an inductor with a Q of exactly 10, the mathematical error introduced into the Lx calculation by using the simplified formula (Lx = R2*R3*C1) instead of the exact rigorous formula is precisely:",
+        "choices": [
+            "A. +1.0%",
+            "B. -1.0%",
+            "C. +10.0%",
+            "D. -10.0%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "Worded circuit: In a balanced Hay bridge operating at w = 1000 rad/s, the unknown coil has a strict Q of 50. If C1 is exactly 1 uF, the mathematically required balance value for R1 is:",
+        "choices": [
+            "A. 10 ohms",
+            "B. 50 ohms",
+            "C. 20 ohms",
+            "D. 100 ohms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "When attempting to measure a very low-Q coil with a Hay bridge, the physical required value of the series balancing resistor R1 mathematically becomes:",
+        "choices": [
+            "A. Negative",
+            "B. Purely reactive",
+            "C. Extremely small (near short circuit)",
+            "D. Extremely large and impractical"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "Due to the presence of the exact angular frequency term (w) squared in its rigorous balance equations, the Hay bridge is exceptionally physically sensitive to which electrical phenomenon generated by poor AC oscillators?",
+        "choices": [
+            "A. Sub-harmonic oscillations",
+            "B. DC offset drift",
+            "C. Electromagnetic interference (EMI)",
+            "D. Source waveform harmonic distortion"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 58,
+        "question": "Worded circuit: For a very high-Q coil (Q > 50) measured in a Hay bridge, the mathematically complex exact formula for the coil resistance Rx practically simplifies to:",
+        "choices": [
+            "A. Rx = (R1 * R2) / R3",
+            "B. Rx = w^2 * C1^2 * R1 * R2 * R3",
+            "C. Rx = R2 * R3 * C1",
+            "D. Rx = 1 / (w^2 * C1^2 * R1)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "Worded circuit: A Hay bridge is balanced. C1 = 1 uF, R1 = 100 ohms. The Q of the coil is exactly 10. What is the mathematically exact operating angular frequency (w) in rad/s?",
+        "choices": [
+            "A. 1000 rad/s",
+            "B. 314 rad/s",
+            "C. 100 rad/s",
+            "D. 50 rad/s"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 60,
+        "question": "In a rigorous phasor diagram analysis of a perfectly balanced Hay bridge, the voltage phasor strictly across the standard series RC arm mathematically:",
+        "choices": [
+            "A. Leads the total branch current by exactly 90 degrees",
+            "B. Lags the total branch current by exactly 90 degrees",
+            "C. Lags the total branch current by an angle strictly between 0 and 90 degrees",
+            "D. Is exactly in phase with the total branch current"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 61,
+        "question": "The classic Schering bridge is an industry-standard AC bridge fundamentally utilized for the highly precise measurement of:",
+        "choices": [
+            "A. Unknown capacitances and dielectric dissipation factors",
+            "B. Radio frequency inductances",
+            "C. Mutual inductance between coupled coils",
+            "D. Absolute standard resistance values"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "In a standard Schering bridge, the unknown capacitor (Cx in series with rx) is in Arm 1. Arm 2 contains a standard capacitor C2. Arm 3 contains a pure resistor R3. Arm 4 contains a parallel combination of R4 and C4. The exact mathematical balance equation for Cx is strictly:",
+        "choices": [
+            "A. Cx = C4 * (R3 / R4)",
+            "B. Cx = C2 * (R3 / R4)",
+            "C. Cx = C4 * (R4 / R3)",
+            "D. Cx = C2 * (R4 / R3)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 63,
+        "question": "Using the exact same standard Schering bridge configuration described previously, the mathematically rigorous formula for the unknown internal series resistance (Rx) of the capacitor is:",
+        "choices": [
+            "A. Rx = R4 * (C2 / C4)",
+            "B. Rx = R3 * (C4 / C2)",
+            "C. Rx = R3 * (C2 / C4)",
+            "D. Rx = R4 * (C4 / C2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 64,
+        "question": "The theoretical Dissipation Factor (D) of a capacitor is mathematically defined as the ratio of its series resistance to its capacitive reactance (w*Cx*Rx). In a balanced Schering bridge, this physically translates strictly to the exact formula:",
+        "choices": [
+            "A. D = w * C2 * R3",
+            "B. D = w * C2 * R4",
+            "C. D = w * C4 * R4",
+            "D. D = 1 / (w * C4 * R4)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 65,
+        "question": "In a high-voltage Schering bridge utilized for testing power cables, the standard reference capacitor (C2) is universally chosen to be a highly specialized, lossless:",
+        "choices": [
+            "A. Electrolytic capacitor",
+            "B. Tantalum capacitor",
+            "C. Compressed gas-filled (e.g., SF6) or air capacitor",
+            "D. High-k ceramic capacitor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "To mathematically entirely eliminate the severe errors caused by stray physical capacitances between the high-voltage arms and ground in a precision Schering bridge, engineers strictly employ a technique known as a/an:",
+        "choices": [
+            "A. Wagner ground connection or guard ring circuit",
+            "B. Superposition cancellation network",
+            "C. Faraday cage unbalance",
+            "D. Inductive compensation loop"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 67,
+        "question": "Worded circuit: A Schering bridge balances an unknown capacitor. The standard components are C2 = 100 pF, R3 = 1 k-ohm, and R4 = 5 k-ohms. The mathematically exact value of the unknown capacitance Cx is:",
+        "choices": [
+            "A. 20 pF",
+            "B. 100 pF",
+            "C. 50 pF",
+            "D. 500 pF"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 68,
+        "question": "Worded circuit: In the exact same balanced Schering bridge (C2 = 100 pF, R3 = 1 k-ohm, R4 = 5 k-ohms), the parallel capacitor C4 is precisely adjusted to 0.5 uF. What is the mathematically exact equivalent series resistance (Rx) of the unknown capacitor?",
+        "choices": [
+            "A. 50 k-ohms",
+            "B. 5.0 M-ohms",
+            "C. 500 k-ohms",
+            "D. 2.5 M-ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "In dielectric engineering, the Dissipation Factor (D) measured directly by a Schering bridge mathematically and physically represents the:",
+        "choices": [
+            "A. Total capacitance of the test sample",
+            "B. Dielectric breakdown voltage",
+            "C. Ratio of reactive power to real power",
+            "D. Tangent of the dielectric loss angle (tan delta), indicating the ratio of real power loss to reactive power"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "In standard safety protocols for a High-Voltage Schering bridge, the specific nodes connecting the detector to the low-voltage tuning arms (R3 and R4/C4 combination) must physically and mathematically be kept at a potential strictly:",
+        "choices": [
+            "A. Equal to the high voltage source",
+            "B. Exactly half of the high voltage source",
+            "C. Very close to ground (earth) potential",
+            "D. Floating to prevent leakage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "Worded circuit: A Schering bridge balances at 60 Hz. The parallel arm tuning components are R4 = 2.65 k-ohms and C4 = 1 uF. The mathematically exact Dissipation Factor (D) of the test specimen is approximately:",
+        "choices": [
+            "A. 0.010",
+            "B. 1.000",
+            "C. 0.100",
+            "D. 2.650"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 72,
+        "question": "Worded circuit: A Schering bridge is designed to measure exactly 1000 pF using a standard C2 of 100 pF. If the physical value of R4 is fixed at 10 k-ohms, what must be the mathematically exact balance value of R3?",
+        "choices": [
+            "A. 1 k-ohm",
+            "B. 10 k-ohms",
+            "C. 100 k-ohms",
+            "D. 100 ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 73,
+        "question": "A mathematically rigorous analysis of the Schering bridge balance equations dictates that while the physical calculated values of Cx and Rx are entirely independent of the applied source frequency, the measured Dissipation Factor (D) is strictly:",
+        "choices": [
+            "A. Directly proportional to the source frequency",
+            "B. Inversely proportional to the source frequency",
+            "C. Independent of the source frequency",
+            "D. Proportional to the square of the source frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 74,
+        "question": "In standard physical laboratory practice, the Schering bridge is widely preferred over other capacitance bridges largely because its tuning adjustments (R3 and C4) mathematically do not:",
+        "choices": [
+            "A. Affect the phase angle",
+            "B. Interfere with each other, avoiding the frustrating sliding balance effect",
+            "C. Require precision components",
+            "D. Have any high voltage across them"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "Worded circuit: A Schering bridge is being used to verify a capacitor that must possess a maximum dissipation factor D = 0.05 at 1000 rad/s. If R4 is fixed at 10 k-ohms, what mathematically exact value of C4 guarantees this limit?",
+        "choices": [
+            "A. 50 uF",
+            "B. 0.5 uF",
+            "C. 5.0 nF",
+            "D. 5.0 uF"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "When adapting a standard Schering bridge mathematically to measure exceedingly small physical capacitances (e.g., less than 10 pF), a highly specialized shielding technique is strictly required. This is formally known as a/an:",
+        "choices": [
+            "A. Kelvin double shield",
+            "B. Anti-resonance trap",
+            "C. Maxwell compensation",
+            "D. Substitution method or shielded Wagner earth"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 77,
+        "question": "Worded circuit: A highly precise Schering bridge must measure exactly Cx = 2 uF using a standard C2 = 0.1 uF. If R3 is precisely 1 k-ohm, what must the mathematically exact required value of R4 be?",
+        "choices": [
+            "A. 10 k-ohms",
+            "B. 20 k-ohms",
+            "C. 5 k-ohms",
+            "D. 2 k-ohms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "For a physical capacitor measured in a Schering bridge, the mathematical relationship strictly connecting the measured Dissipation Factor (D) to the equivalent Quality Factor (Q) is:",
+        "choices": [
+            "A. D = Q^2",
+            "B. D = Q",
+            "C. D = 1 / Q^2",
+            "D. D = 1 / Q"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "In a highly rigorous error analysis of a Schering bridge, physical stray capacitance acting mathematically precisely in parallel with the non-inductive resistor R3 will primarily cause a direct measurement error strictly in the:",
+        "choices": [
+            "A. Dissipation factor (D) calculation",
+            "B. Source frequency",
+            "C. Standard capacitor C2 value",
+            "D. Series capacitance Cx calculation"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "Worded circuit: A Schering bridge yields balance values of Cx = 0.1 uF and Rx = 10 ohms at a frequency of 1000 rad/s. What is the exact mathematical magnitude of the complex impedance",
+        "choices": [
+            "A. Zx",
+            "B. of the test specimen?",
+            "C. 10.0 ohms",
+            "D. 1000 ohms"
+        ],
+        "correct_answer": ""
+    },
+    {
+        "number": 81,
+        "question": "While other classic AC bridges primarily measure R, L, or C, the fundamental engineering application of the Wien bridge is mathematically and physically to precisely measure or determine:",
+        "choices": [
+            "A. Magnetic flux density",
+            "B. Harmonic distortion",
+            "C. Ultra-high resistances",
+            "D. The frequency of the applied AC source"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 82,
+        "question": "The mathematically exact equation for the balance frequency (f) of a perfectly standard Wien bridge containing a series R1-C1 arm and a parallel R2-C2 arm is rigorously given by:",
+        "choices": [
+            "A. f = 1 / (2 * pi * sqrt(R1 * R2 * C1 * C2))",
+            "B. f = 1 / (2 * pi * R1 * C1)",
+            "C. f = 1 / (sqrt(R1 * R2 * C1 * C2))",
+            "D. f = 2 * pi / sqrt(R1 * R2 * C1 * C2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "In the mathematical analysis of a standard Wien bridge, achieving perfect balance requires satisfying the frequency equation AND a strictly distinct resistance ratio equation. This exact ratio equation (for R3/R4) is:",
+        "choices": [
+            "A. R3/R4 = (R1*C1) / (R2*C2)",
+            "B. R3/R4 = R1/R2 - C2/C1",
+            "C. R3/R4 = R1/R2 + C2/C1",
+            "D. R3/R4 = (R1/R2) * (C1/C2)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "The rigorous mathematical derivation of the Wien bridge balance frequency strictly mandates isolating the imaginary part of the generic bridge equation and setting it to exactly zero. This physical condition definitively proves that at balance, the phase shift across the reactive arms is:",
+        "choices": [
+            "A. 180 degrees",
+            "B. Exactly 0 degrees",
+            "C. 90 degrees",
+            "D. -90 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "The classic physical topology of a Wien bridge prominently features four arms. The uniquely distinguishing characteristic is the inclusion of:",
+        "choices": [
+            "A. A series RC circuit in one arm adjoining a parallel RC circuit in the adjacent arm",
+            "B. Four pure inductors",
+            "C. Two opposing high-voltage standard capacitors",
+            "D. A purely inductive arm adjoining a purely capacitive arm"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 86,
+        "question": "Worded circuit: A Wien bridge is constructed using entirely identical reactive components: R1 = R2 = R, and C1 = C2 =",
+        "choices": [
+            "C. The exact mathematical formula for the balance frequency strictly simplifies to:",
+            "A. f = R * C",
+            "B. f = 1 / (sqrt(R*C))",
+            "C. f = 1 / (pi * R * C)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "In advanced instrumentation, a Wien bridge is frequently utilized physically as a high-precision notch filter. When properly balanced at the fundamental frequency, any residual voltage measured by the null detector mathematically strictly represents:",
+        "choices": [
+            "A. The DC offset of the source",
+            "B. The total harmonic distortion (THD) present in the AC source",
+            "C. The fundamental frequency magnitude",
+            "D. The phase angle of the standard capacitor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "Worded circuit: A Wien bridge utilizes identical reactive components (R1 = R2, C1 = C2). To physically and mathematically achieve a perfect AC balance, the pure resistance ratio of the opposite arms (R3 / R4) MUST be exactly:",
+        "choices": [
+            "A. 1.0",
+            "B. 0.5",
+            "C. 2.0",
+            "D. 3.14"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "The classic Wien bridge is universally and highly favored for measuring frequencies primarily within the strict physical range of:",
+        "choices": [
+            "A. Microwaves (GHz)",
+            "B. Direct Current (0 Hz)",
+            "C. Audio frequencies (20 Hz to 20 kHz)",
+            "D. Ultra-High Frequencies (UHF)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "Worded circuit: A Wien bridge frequency meter is designed with identical arms R1 = R2 = 10 k-ohms. To mathematically balance exactly at a frequency of 1000 Hz, what must be the physical value of identical capacitors C1 = C2?",
+        "choices": [
+            "A. 31.8 nF",
+            "B. 15.9 nF",
+            "C. 1.59 uF",
+            "D. 3.18 uF"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "When a Wien bridge is physically configured to operate as a self-sustaining AC oscillator, an active amplifier is placed across the detector nodes. The Barkhausen criterion rigorously mathematically demands that the amplifier's closed-loop voltage gain must be exactly:",
+        "choices": [
+            "A. 1.0",
+            "B. Infinity",
+            "C. 0.5",
+            "D. 3.0 (or slightly higher for startup)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "Worded circuit: A Wien bridge is perfectly balanced using identical reactive components (R1=R2, C1=C2). If the purely resistive arm R3 is exactly 20 k-ohms, the mathematically exact required value of the adjoining pure resistor R4 is:",
+        "choices": [
+            "A. 10 k-ohms",
+            "B. 20 k-ohms",
+            "C. 40 k-ohms",
+            "D. 5 k-ohms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 93,
+        "question": "If a Wien bridge physically employs components where R1 is NOT equal to R2 and C1 is NOT equal to C2, the actual mathematical phase shift exactly at the calculated balance frequency is:",
+        "choices": [
+            "A. +90 degrees",
+            "B. +45 degrees",
+            "C. -90 degrees",
+            "D. Exactly 0 degrees regardless of component asymmetry"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 94,
+        "question": "Unlike the Maxwell or Hay bridges which mathematically isolate the frequency term during inductance calculations, a fundamental property of the Wien bridge is that its exact state of balance is rigorously:",
+        "choices": [
+            "A. Independent of frequency",
+            "B. Independent of voltage",
+            "C. Explicitly dependent on frequency",
+            "D. Dependent on the ambient magnetic field"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "Worded circuit: A Wien bridge is perfectly balanced at 400 Hz using identical resistors R1 = R2 = 100 k-ohms. The standard arms R3 and R4 satisfy the 2:1 ratio. What is the mathematically exact value of the identical capacitors C1 and C2?",
+        "choices": [
+            "A. 3.98 nF",
+            "B. 1.59 nF",
+            "C. 39.8 nF",
+            "D. 7.96 nF"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 96,
+        "question": "In a rigorous theoretical analysis of a Wien bridge null network, the transfer function V_out / V_in mathematically exhibits a physical band-pass characteristic. Exactly at the resonant balance frequency, the magnitude of this transfer function (for identical R and C) strictly peaks at exactly:",
+        "choices": [
+            "A. 1.0",
+            "B. 1/3 (or 0.333)",
+            "C. 0.5",
+            "D. 0.707"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "Worded circuit: A Wien bridge is perfectly balanced at a frequency f0. If the applied source frequency mathematically suddenly shifts to 1.05 * f0, what happens physically to the null detector?",
+        "choices": [
+            "A. It will continue to read zero because the bridge self-compensates",
+            "B. It will permanently burn out",
+            "C. It will immediately register a non-zero voltage, indicating an unbalance",
+            "D. It will oscillate at 0.05 * f0"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 98,
+        "question": "In the physical construction of precision Wien bridge oscillators for laboratory use, the required non-linear amplitude stabilization element traditionally placed strictly in the resistive arm (R3/R4) is a:",
+        "choices": [
+            "A. High-voltage capacitor",
+            "B. Small incandescent lamp or thermistor",
+            "C. Tunnel diode",
+            "D. Large iron-core inductor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 99,
+        "question": "Worded circuit: To physically tune a Wien bridge oscillator continuously over a massive 10:1 frequency range (e.g., 20 Hz to 200 Hz), designers mathematically and practically universally alter the value of:",
+        "choices": [
+            "A. R3 and R4 simultaneously",
+            "B. Only C1",
+            "C. Only R1",
+            "D. C1 and C2 simultaneously using a ganged dual-variable capacitor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "In a highly advanced theoretical application, a Wien bridge is mathematically adapted to measure unknown parallel equivalent resistance and capacitance. By meticulously balancing the network at a precisely known frequency, the unknown parameters are rigorously extracted strictly by solving:",
+        "choices": [
+            "A. Two simultaneous non-linear real equations derived from equating the real and imaginary parts of the balance condition",
+            "B. A single linear first-order differential equation",
+            "C. A second-order Laplace transform integration",
+            "D. A single algebraic phasor summation"
+        ],
+        "correct_answer": "A"
+    }
+]

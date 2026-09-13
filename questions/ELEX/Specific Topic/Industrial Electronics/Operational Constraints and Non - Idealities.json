@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "What is the primary purpose of a coupling capacitor in a multi-stage transistor amplifier?",
+        "choices": [
+            "A. To pass the AC signal while blocking DC voltage from mixing between stages",
+            "B. To filter out high-frequency noise from the power supply",
+            "C. To increase the overall DC voltage gain",
+            "D. To provide a direct short for DC biasing currents"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "A worded circuit: A common-emitter amplifier has an emitter bypass capacitor. If this capacitor completely opens, what is the immediate effect on the circuit's performance?",
+        "choices": [
+            "A. The transistor enters thermal runaway",
+            "B. The AC voltage gain drops significantly due to massive negative feedback",
+            "C. The DC bias point shifts into deep cutoff",
+            "D. The circuit begins to oscillate violently at high frequencies"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "What is the fundamental principle of the \"Signal Injection\" troubleshooting technique?",
+        "choices": [
+            "A. Tracing the DC power supply lines",
+            "B. Using an oscilloscope to measure ambient noise",
+            "C. Applying a known test signal at various points, starting near the output stage and moving backward toward the input",
+            "D. Injecting high voltage to burn out faulty components"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "When testing an active circuit with a digital multimeter, how can you quickly identify a shorted coupling capacitor between two stages without removing it from the PCB?",
+        "choices": [
+            "A. Check for continuity across it to see if it beeps",
+            "B. Measure its exact capacitance value in Farads",
+            "C. Physically remove it and test it with an LCR meter",
+            "D. Measure the DC voltage on both sides to ground; they will be nearly identical if it is shorted"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "A worded circuit: An NPN common-emitter amplifier is fed by a signal generator with 0V DC offset through a coupling capacitor. The base is normally biased at 1.8V DC. If the input coupling capacitor suffers a dead short, what happens to the base voltage?",
+        "choices": [
+            "A. It drops to approximately 0V",
+            "B. It rises to VCC",
+            "C. It remains at 1.8V",
+            "D. It increases to 2.5V"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "A worded scenario: A 6-stage audio amplifier has no output. Using the efficient \"Half-Split\" method, where is the most logical first point to inject or trace a signal?",
+        "choices": [
+            "A. At the input of stage 1",
+            "B. At the input of stage 4 (the middle)",
+            "C. At the output of stage 6",
+            "D. At the main power supply terminals"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "If a digital multimeter diode test shows 0.00V (a dead short) between the Collector and Emitter of a bipolar junction transistor, regardless of the probe polarity, the transistor is:",
+        "choices": [
+            "A. Functioning normally",
+            "B. Operating in deep cutoff mode",
+            "C. Catastrophically destroyed (shorted internally)",
+            "D. A PNP type instead of an NPN"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "A worded circuit: An N-channel JFET amplifier has zero DC drain current. You measure VGS and find it is a large negative voltage exactly equal to the datasheet's pinch-off voltage (Vp). What is causing this cutoff condition?",
+        "choices": [
+            "A. The gate resistor is shorted directly to VDD",
+            "B. The JFET is shorted drain-to-source",
+            "C. The power supply polarity is reversed",
+            "D. The source resistor (RS) is much too large or open"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "The slew rate of an operational amplifier is fundamentally defined as the:",
+        "choices": [
+            "A. Maximum rate of change of output voltage with respect to time",
+            "B. Maximum rate of change of input voltage",
+            "C. Ratio of output voltage to input voltage",
+            "D. Maximum operating frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "The standard unit of measurement for Slew Rate in op-amp datasheets is:",
+        "choices": [
+            "A. Volts per millisecond (V/ms)",
+            "B. Volts per microsecond (V/us)",
+            "C. Microvolts per second (uV/s)",
+            "D. Amperes per microsecond (A/us)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "Slew rate limiting in an internally compensated operational amplifier is physically caused by:",
+        "choices": [
+            "A. The finite switching speed of the output transistors",
+            "B. The power supply voltage limits",
+            "C. The limited tail current available to charge and discharge the internal dominant-pole compensation capacitor",
+            "D. The input bias currents"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "A worded circuit: An operational amplifier is driven by a high-frequency, large-amplitude sine wave. The output waveform on an oscilloscope appears as a triangle wave instead of a sine wave, though it is not clipping at the rails. What operational constraint is being violated?",
+        "choices": [
+            "A. Gain-Bandwidth Product",
+            "B. Common-Mode Rejection Ratio",
+            "C. Input Offset Voltage",
+            "D. Slew Rate"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "The mathematical relationship between Slew Rate (SR), maximum operating frequency (f_max), and peak output voltage (Vp) for an undistorted sine wave is:",
+        "choices": [
+            "A. SR = 2 * pi * f_max * Vp",
+            "B. SR = f_max / Vp",
+            "C. SR = Vp / (2 * pi * f_max)",
+            "D. SR = 2 * pi * f_max / Vp"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "An op-amp has a slew rate of 10 V/us. What is the highest approximate frequency at which it can output an undistorted sine wave with a peak voltage of 5V?",
+        "choices": [
+            "A. 159 kHz",
+            "B. 318 kHz",
+            "C. 636 kHz",
+            "D. 1.59 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "If a massive voltage step is applied to an op-amp configured as a buffer with a slew rate of 0.5 V/us, how long will it theoretically take for the output to change by a full 10 Volts?",
+        "choices": [
+            "A. 5 us",
+            "B. 10 us",
+            "C. 20 us",
+            "D. 50 us"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "A worded circuit: An op-amp is configured as a unity-gain buffer. A 100 kHz square wave is applied. The output shows sloped trapezoidal edges. If the output peak-to-peak voltage swing is 20V and the rise time (0 to 100%) is 4 us, what is the effective slew rate of the device?",
+        "choices": [
+            "A. 2 V/us",
+            "B. 4 V/us",
+            "C. 10 V/us",
+            "D. 5 V/us"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "The small-signal step response rise time (tr) of an amplifier is inversely proportional to its upper cutoff frequency (Bandwidth, BW). The standard approximation formula used by engineers is:",
+        "choices": [
+            "A. tr = BW / 0.35",
+            "B. tr = 1 / BW",
+            "C. tr = 0.35 * BW",
+            "D. tr = 0.35 / BW"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 18,
+        "question": "An amplifier has a strictly small-signal bandwidth of 1 MHz. What is its approximate pulse rise time when subjected to a tiny step input?",
+        "choices": [
+            "A. 350 ns",
+            "B. 35 ns",
+            "C. 100 ns",
+            "D. 1 us"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "A worded circuit: A transimpedance amplifier converts a fast laser pulse into a voltage. The output pulse must have a rise time no greater than 10 ns. What is the absolute minimum bandwidth required for this amplifier?",
+        "choices": [
+            "A. 350 MHz",
+            "B. 35 MHz",
+            "C. 3.5 MHz",
+            "D. 10 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "In an op-amp, applying a large-signal step input results in a transient response limited by _______, whereas a small-signal step input results in a response limited by _______.",
+        "choices": [
+            "A. Slew Rate ; Slew Rate",
+            "B. Gain-Bandwidth Product ; Slew Rate",
+            "C. Slew Rate ; Gain-Bandwidth Product",
+            "D. Gain-Bandwidth Product ; Gain-Bandwidth Product"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "An internal compensation capacitor of 30 pF is charged by a maximum tail current of 15 uA. What is the theoretical slew rate limit of this op-amp?",
+        "choices": [
+            "A. 0.5 V/us",
+            "B. 2.0 V/us",
+            "C. 50 V/us",
+            "D. 450 V/us"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "A worded circuit: An op-amp circuit exhibits excessive ringing and overshoot when subjected to a fast small-signal square wave. This transient response non-ideality is a direct indication of:",
+        "choices": [
+            "A. Inadequate slew rate",
+            "B. Insufficient phase margin",
+            "C. Excessive input offset voltage",
+            "D. Poor power supply rejection"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "Full-power bandwidth (f_max) is formally defined as the maximum frequency at which an op-amp can output:",
+        "choices": [
+            "A. A small-signal sine wave without clipping",
+            "B. A perfect square wave",
+            "C. An undistorted sine wave at its absolute maximum rated output voltage swing",
+            "D. A signal with unity voltage gain"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 24,
+        "question": "For a standard internally compensated (dominant pole) operational amplifier, the Gain-Bandwidth Product (GBW) is:",
+        "choices": [
+            "A. Directly proportional to the closed-loop gain",
+            "B. Inversely proportional to frequency",
+            "C. Dependent entirely on the load resistor",
+            "D. Constant across the linear operating frequency range"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "The specific frequency at which the open-loop voltage gain of an operational amplifier drops to exactly 1 (0 dB) is known as the:",
+        "choices": [
+            "A. Unity-gain frequency (fT)",
+            "B. Cutoff frequency (fc)",
+            "C. Resonant frequency (fr)",
+            "D. Corner frequency"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "A worded circuit: An op-amp with a GBW of 2 MHz is configured as a non-inverting amplifier with a closed-loop gain of 50. What is the approximate closed-loop bandwidth (-3dB frequency) of this circuit?",
+        "choices": [
+            "A. 100 kHz",
+            "B. 40 kHz",
+            "C. 10 kHz",
+            "D. 2 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "An op-amp has an open-loop DC gain of 100,000 (100 dB) and a dominant-pole open-loop cutoff frequency of 10 Hz. What is its resulting Gain-Bandwidth Product?",
+        "choices": [
+            "A. 100 kHz",
+            "B. 10 MHz",
+            "C. 1 MHz",
+            "D. 10 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "A worded circuit: An inverting amplifier is built with Rin = 1 kOhm and Rf = 10 kOhms. The op-amp has a stated GBW of 1.1 MHz. What is the closed-loop bandwidth? (Hint: Consider the noise gain).",
+        "choices": [
+            "A. 110 kHz",
+            "B. 1 MHz",
+            "C. 11 kHz",
+            "D. 100 kHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "In a Bode plot of a standard compensated op-amp's open-loop gain, the slope of the roll-off region beyond the dominant pole is typically:",
+        "choices": [
+            "A. -20 dB/decade",
+            "B. -10 dB/decade",
+            "C. -40 dB/decade",
+            "D. -6 dB/decade"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "If a specific application strictly requires a voltage gain of 100 and a bandwidth of 500 kHz, what is the absolute minimum GBW required for the chosen operational amplifier?",
+        "choices": [
+            "A. 5 MHz",
+            "B. 50 MHz",
+            "C. 500 kHz",
+            "D. 100 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "A worded circuit: Two identical non-inverting amplifier stages, each with a closed-loop gain of 10, are cascaded to achieve a total gain of 100. If the individual op-amps used have a GBW of 1 MHz, what is the overall -3dB bandwidth of the cascaded system?",
+        "choices": [
+            "A. 100 kHz",
+            "B. 1 MHz",
+            "C. 64 kHz",
+            "D. 50 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 32,
+        "question": "Why are Current Feedback Amplifiers (CFAs) generally preferred over traditional Voltage Feedback Amplifiers (VFAs) for high-speed video applications?",
+        "choices": [
+            "A. CFAs have absolute zero input offset voltage",
+            "B. CFAs consume virtually no power",
+            "C. CFAs have infinite input impedance",
+            "D. CFAs do not exhibit a constant Gain-Bandwidth Product, allowing high bandwidth even at very high gains"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "A compensated op-amp has a constant GBW. If you decrease the closed-loop gain by a factor of 10 by changing the feedback resistors, what happens to the upper cutoff frequency (bandwidth)?",
+        "choices": [
+            "A. It increases by a factor of 10",
+            "B. It remains unchanged",
+            "C. It decreases by a factor of 10",
+            "D. It increases by a factor of 100"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "At frequencies significantly above the open-loop cutoff frequency, the phase shift of the open-loop gain of a standard dominant-pole compensated op-amp approaches:",
+        "choices": [
+            "A. 0 degrees",
+            "B. -90 degrees",
+            "C. -180 degrees",
+            "D. +90 degrees"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 35,
+        "question": "A worded circuit: An op-amp is configured as an ideal active differentiator. However, the finite GBW of the op-amp interacts with the ideal differentiator response at high frequencies, causing the physical circuit to essentially act as a:",
+        "choices": [
+            "A. Pure differentiator at all frequencies",
+            "B. High-pass filter",
+            "C. Band-pass filter",
+            "D. Notch filter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "The unity-gain bandwidth of an op-amp is 5 MHz. If it is configured as a voltage follower (unity-gain buffer), what is the expected closed-loop bandwidth?",
+        "choices": [
+            "A. 0 Hz",
+            "B. 500 kHz",
+            "C. 10 MHz",
+            "D. 5 MHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 37,
+        "question": "The dominant pole in an internally compensated op-amp is intentionally created by adding a small capacitor (often called a Miller capacitor) across which internal stage?",
+        "choices": [
+            "A. The high-gain voltage amplification stage",
+            "B. The input differential pair",
+            "C. The push-pull output stage",
+            "D. The bias current network"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "A worded circuit: A multi-stage instrumentation amplifier uses three identical op-amps. The overall GBW limitation and high-frequency roll-off of the system is primarily determined by:",
+        "choices": [
+            "A. The output buffer op-amp",
+            "B. The closed-loop gain configured for the input differential stages",
+            "C. The common-mode rejection network",
+            "D. The power supply voltage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 39,
+        "question": "Common-Mode Rejection Ratio (CMRR) is formally defined as the absolute ratio of:",
+        "choices": [
+            "A. Open-loop gain to closed-loop gain",
+            "B. Slew rate to bandwidth",
+            "C. Differential-mode voltage gain to common-mode voltage gain",
+            "D. Input offset voltage to bias current"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "In standard decibel (dB) notation, the formula for calculating CMRR is:",
+        "choices": [
+            "A. 10 log (A_cm / A_d)",
+            "B. 20 log (A_cm / A_d)",
+            "C. 10 log (A_d / A_cm)",
+            "D. 20 log (A_d / A_cm)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "An operational amplifier has a differential gain of 200,000 and a common-mode gain of 0.2. What is its CMRR in dB?",
+        "choices": [
+            "A. 120 dB",
+            "B. 100 dB",
+            "C. 80 dB",
+            "D. 60 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "A worded circuit: A differential amplifier is subjected to a 5V common-mode noise signal (e.g., 60 Hz hum). The amplifier has a differential gain of 1000 and a CMRR of 80 dB. What is the absolute common-mode gain?",
+        "choices": [
+            "A. 10",
+            "B. 0.1",
+            "C. 1",
+            "D. 0.01"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 43,
+        "question": "Using the data from the previous question (Common-mode gain = 0.1, V_cm = 5V), what is the magnitude of the noise voltage present directly at the output of the amplifier?",
+        "choices": [
+            "A. 50 mV",
+            "B. 5 V",
+            "C. 500 mV",
+            "D. 50 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "For a completely ideal operational amplifier, the theoretical value of the Common-Mode Rejection Ratio (CMRR) is:",
+        "choices": [
+            "A. 1 (0 dB)",
+            "B. 100 (40 dB)",
+            "C. Zero",
+            "D. Infinity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "The intrinsic CMRR of a bipolar differential amplifier pair is highly dependent on the output resistance of its tail current source. To maximize CMRR, the tail current source must have:",
+        "choices": [
+            "A. Infinite output resistance",
+            "B. Zero output resistance",
+            "C. Output resistance equal to the collector resistors",
+            "D. Output resistance equal to the emitter resistance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 46,
+        "question": "A worded circuit: An op-amp is wired as a standard 4-resistor difference amplifier (subtractor). Even if the op-amp itself has infinite CMRR, the overall circuit CMRR will be severely degraded by:",
+        "choices": [
+            "A. The tolerance (mismatch) of the four external resistors",
+            "B. The power supply voltage",
+            "C. The ambient temperature",
+            "D. The input bias current"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 47,
+        "question": "How does the Common-Mode Rejection Ratio (CMRR) of a typical practical op-amp behave as the frequency of the input signal increases?",
+        "choices": [
+            "A. It remains strictly constant",
+            "B. It increases exponentially",
+            "C. It degrades (decreases) due to parasitic capacitance mismatches",
+            "D. It becomes infinite"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 48,
+        "question": "A differential amplifier has a CMRR of 120 dB and a differential gain of 100 dB. What is its common-mode gain in dB?",
+        "choices": [
+            "A. 20 dB",
+            "B. 220 dB",
+            "C. 1.2 dB",
+            "D. -20 dB"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "Which specialized amplifier topology is explicitly designed to have an astronomically high CMRR by buffering the inputs before feeding the difference amplifier stage?",
+        "choices": [
+            "A. Instrumentation Amplifier",
+            "B. Summing Amplifier",
+            "C. Logarithmic Amplifier",
+            "D. Transconductance Amplifier"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 50,
+        "question": "A worded circuit: An ECG machine requires massive common-mode rejection to eliminate 60 Hz power line noise from the human body. If the common-mode noise on the patient is 1V and the acceptable output error is 1mV, with a system differential gain of 1000, what is the minimum required CMRR?",
+        "choices": [
+            "A. 100 dB",
+            "B. 120 dB",
+            "C. 60 dB",
+            "D. 80 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "If an op-amp datasheet specifies a CMRR of 100 dB, what is the equivalent input offset voltage error introduced by a 10V common-mode input signal?",
+        "choices": [
+            "A. 1 mV",
+            "B. 10 mV",
+            "C. 100 uV",
+            "D. 1 V"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "In a fully differential amplifier (double-ended output), common-mode feedback (CMFB) is strictly required to:",
+        "choices": [
+            "A. Maximize differential gain",
+            "B. Prevent the differential output from oscillating",
+            "C. Maximize the slew rate",
+            "D. Stabilize the output common-mode DC voltage level"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "A worded circuit: An op-amp operates in a non-inverting configuration. A 2V DC signal is applied. Because both inputs ride at 2V, a common-mode error is generated. If the CMRR is 60dB, what is the error voltage referred to the input?",
+        "choices": [
+            "A. 2 mV",
+            "B. 20 mV",
+            "C. 200 uV",
+            "D. 2 uV"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "Input Offset Voltage (Vos) is formally defined as the:",
+        "choices": [
+            "A. Voltage difference between the power supply rails",
+            "B. Voltage that must be applied between the two input terminals to force the output strictly to zero volts",
+            "C. Maximum safe differential voltage that can be applied",
+            "D. Voltage at the output when both inputs are grounded"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Input Bias Current (Ib) is formally defined as the:",
+        "choices": [
+            "A. Difference between the currents flowing into the two input terminals",
+            "B. Minimum current required to power the IC",
+            "C. Average of the DC currents flowing into the inverting and non-inverting input terminals to properly bias the internal transistors",
+            "D. Leakage current out of the output terminal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "Input Offset Current (Ios) is defined as the:",
+        "choices": [
+            "A. Sum of the two input bias currents",
+            "B. Current drawn from the power supply",
+            "C. Current flowing through the feedback resistor",
+            "D. Absolute difference between the two input bias currents"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 57,
+        "question": "A worded circuit: An op-amp is configured as a high-gain inverting amplifier (Gain = -100). Both the input signal and the non-inverting terminal are connected directly to ground. The output measures +200 mV DC. This non-ideality is primarily caused by:",
+        "choices": [
+            "A. Input offset voltage and input bias currents",
+            "B. Insufficient GBW",
+            "C. Low slew rate",
+            "D. Poor PSRR"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 58,
+        "question": "In an op-amp circuit, the effect of Input Bias Current on the output offset voltage can be mathematically cancelled (assuming perfectly matched bias currents) by:",
+        "choices": [
+            "A. Connecting a resistor equal to the parallel combination of the input and feedback resistors to the non-inverting input",
+            "B. Grounding the non-inverting input directly",
+            "C. Adding a large capacitor in series with the input",
+            "D. Using a lower power supply voltage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 59,
+        "question": "A worded circuit: An inverting amplifier uses Rin = 10 kOhms and Rf = 100 kOhms. The op-amp has an input offset voltage of 2 mV. Assuming bias currents are negligible, what is the worst-case DC output offset voltage?",
+        "choices": [
+            "A. 200 mV",
+            "B. 2 mV",
+            "C. 22 mV",
+            "D. 20 mV"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 60,
+        "question": "Many precision op-amps have specialized \"Offset Null\" or \"Trim\" pins. These are typically connected to:",
+        "choices": [
+            "A. The main power supply",
+            "B. The feedback resistor",
+            "C. A grounding strap",
+            "D. An external potentiometer specifically to balance the internal input differential stage and zero out Vos"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 61,
+        "question": "The Input Offset Voltage of an op-amp is heavily dependent on temperature. This parameter, which specifies how much Vos changes per degree Celsius, is called:",
+        "choices": [
+            "A. Offset drift (TCVos)",
+            "B. Thermal runaway",
+            "C. Slew rate",
+            "D. Junction thermal resistance"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 62,
+        "question": "Which specialized operational amplifier architecture actively corrects its own input offset voltage continuously using an internal electronic switch mechanism, achieving near-zero drift?",
+        "choices": [
+            "A. Instrumentation Amplifier",
+            "B. Chopper-stabilized (or Auto-zero) Amplifier",
+            "C. Transconductance Amplifier",
+            "D. Current Feedback Amplifier"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 63,
+        "question": "A worded circuit: A generic BJT op-amp has an inverting bias current (Ib-) of 100 nA and a non-inverting bias current (Ib+) of 120 nA. What is the Input Bias Current (Ib) and Input Offset Current (Ios)?",
+        "choices": [
+            "A. Ib = 220 nA, Ios = 20 nA",
+            "B. Ib = 20 nA, Ios = 110 nA",
+            "C. Ib = 110 nA, Ios = 20 nA",
+            "D. Ib = 100 nA, Ios = 120 nA"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 64,
+        "question": "An integrator circuit built with a standard op-amp tends to have its output voltage ramp up to the saturation rail even when the input is perfectly grounded. This classic failure is caused by:",
+        "choices": [
+            "A. The Miller effect",
+            "B. Thermal noise",
+            "C. High common-mode signals",
+            "D. Input offset voltage and bias current charging the feedback capacitor"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "To minimize input bias current effects, a designer selects an op-amp with JFET or CMOS inputs instead of BJT inputs. What is the typical magnitude of input bias current for a generic JFET op-amp at room temperature?",
+        "choices": [
+            "A. Picoamperes (pA)",
+            "B. Milliamperes (mA)",
+            "C. Microamperes (uA)",
+            "D. Amperes (A)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 66,
+        "question": "A worded circuit: A non-inverting amplifier has Rf = 50 kOhms and Rin = 10 kOhms. To compensate for bias current offset, a resistor Rc is placed in series with the non-inverting input. What is the required value of Rc?",
+        "choices": [
+            "A. 50 kOhms",
+            "B. 8.33 kOhms",
+            "C. 60 kOhms",
+            "D. 10 kOhms"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "If an op-amp has a perfectly compensated bias current network (the external resistors are precisely balanced), the remaining output offset voltage due to currents is caused strictly by the:",
+        "choices": [
+            "A. Total input bias current",
+            "B. Supply ripple",
+            "C. Input offset current (Ios)",
+            "D. Source impedance"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "When designing a photodiode transimpedance amplifier (I-to-V converter) utilizing a very large feedback resistor (e.g., 100 MOhms), which op-amp non-ideality is absolutely most critical to minimize to prevent massive DC offset errors?",
+        "choices": [
+            "A. Common-Mode Rejection Ratio",
+            "B. Slew Rate",
+            "C. Gain-Bandwidth Product",
+            "D. Input Bias Current"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "A worded circuit: An op-amp acts as a comparator. Due to internal mismatches, it switches state when the differential input is +3mV instead of exactly 0V. This +3mV is a direct manifestation of the:",
+        "choices": [
+            "A. Input offset voltage",
+            "B. Offset current",
+            "C. Hysteresis",
+            "D. Slew rate limit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "Power Supply Rejection Ratio (PSRR) measures an operational amplifier's ability to:",
+        "choices": [
+            "A. Reject noise from the input signal",
+            "B. Maintain a constant output current",
+            "C. Reject variations and noise originating from the power supply rails",
+            "D. Provide power to the load"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "PSRR is mathematically defined as the ratio of the change in:",
+        "choices": [
+            "A. Supply voltage to the change in input offset voltage",
+            "B. Input offset voltage to the change in supply voltage",
+            "C. Output voltage to supply voltage",
+            "D. Supply voltage to output voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "If a datasheet specifies PSRR in microvolts per volt (uV/V), a value of 10 uV/V is equivalent to a PSRR in decibels of:",
+        "choices": [
+            "A. 80 dB",
+            "B. 100 dB",
+            "C. 120 dB",
+            "D. 60 dB"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "A worded circuit: An op-amp has a PSRR of 80 dB. It is powered by a 12V supply that has a 1V peak-to-peak 120Hz ripple. What is the peak-to-peak ripple voltage referred to the input of the op-amp?",
+        "choices": [
+            "A. 1 mV",
+            "B. 10 uV",
+            "C. 100 uV",
+            "D. 10 mV"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 74,
+        "question": "Similar to CMRR, the PSRR of a practical operational amplifier dramatically degrades (decreases in dB) as:",
+        "choices": [
+            "A. Temperature decreases",
+            "B. The closed-loop gain decreases",
+            "C. The output load increases",
+            "D. The frequency of the power supply noise increases"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 75,
+        "question": "For a completely ideal operational amplifier, the Power Supply Rejection Ratio is theoretically:",
+        "choices": [
+            "A. Infinity",
+            "B. Zero",
+            "C. 1",
+            "D. 100 dB"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "A worded circuit: A battery-powered op-amp circuit uses a 9V battery. Over time, the battery voltage drops to 7V (a 2V change). If the op-amp has a PSRR of 100 uV/V, how much does the input offset voltage shift?",
+        "choices": [
+            "A. 100 uV",
+            "B. 200 uV",
+            "C. 50 uV",
+            "D. 2 mV"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 77,
+        "question": "In a non-inverting amplifier with a closed-loop gain of 50, a 1 mV supply ripple referred to the input (due to finite PSRR) will result in an output ripple voltage of:",
+        "choices": [
+            "A. 1 mV",
+            "B. 25 mV",
+            "C. 50 mV",
+            "D. 100 mV"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "High-frequency switching noise on the power supply rails easily couples into the op-amp output because PSRR is very poor at high frequencies. What is the mandatory circuit design practice to counteract this?",
+        "choices": [
+            "A. Increase the closed-loop gain",
+            "B. Remove the ground plane",
+            "C. Use a higher voltage power supply",
+            "D. Place low-ESR ceramic decoupling capacitors physically as close to the op-amp supply pins as possible"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "Some op-amp datasheets specify PSRR+ and PSRR- separately. This specifically accounts for the differing rejection capabilities of the:",
+        "choices": [
+            "A. Positive and negative supply rails",
+            "B. Inverting and non-inverting inputs",
+            "C. High and low frequencies",
+            "D. AC and DC gains"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "A worded circuit: A linear regulator powering an op-amp fails, allowing massive 60 Hz hum onto the VCC line. The op-amp output shows a strong 60 Hz signal. This is a direct failure of the system's:",
+        "choices": [
+            "A. CMRR",
+            "B. PSRR",
+            "C. Slew Rate",
+            "D. GBW"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "If PSRR is 60 dB, what is the numerical ratio of Delta V_supply to Delta V_os?",
+        "choices": [
+            "A. 10",
+            "B. 100",
+            "C. 1000",
+            "D. 10000"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "The PSRR limitation in monolithic op-amps is primarily physically caused by:",
+        "choices": [
+            "A. Resistance of the external wiring",
+            "B. The finite speed of light",
+            "C. The packaging material",
+            "D. Parasitic capacitances coupling the supply rails to critical internal biasing nodes"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 83,
+        "question": "A designer is building a precision DC bridge amplifier. The power supply exhibits a slow thermal drift of 100 mV over the day. To ensure the output doesn't drift, the selected op-amp must have a very high:",
+        "choices": [
+            "A. PSRR",
+            "B. Slew rate",
+            "C. Input capacitance",
+            "D. Bandwidth"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 84,
+        "question": "Is PSRR completely independent of the common-mode input voltage?",
+        "choices": [
+            "A. Yes, they are entirely unrelated",
+            "B. No, severe common-mode voltages can alter internal biasing, thereby degrading PSRR",
+            "C. Yes, but only in ideal op-amps",
+            "D. No, they are exactly the same parameter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 85,
+        "question": "Total Harmonic Distortion (THD) is officially defined as the ratio of the:",
+        "choices": [
+            "A. RMS amplitude of the fundamental frequency to the RMS amplitude of the noise",
+            "B. Peak voltage to the RMS voltage",
+            "C. RMS amplitude of a set of higher harmonics to the RMS amplitude of the fundamental frequency",
+            "D. Bandwidth to the center frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 86,
+        "question": "In mathematical terms, if V1 is the fundamental RMS voltage, and V2, V3, V4... are the RMS voltages of the harmonics, the formula for THD percentage is:",
+        "choices": [
+            "A. (V2 + V3 + V4...) / V1 * 100%",
+            "B. V1 / sqrt(V2^2 + V3^2 + V4^2 ...) * 100%",
+            "C. V1 / (V2 + V3 + V4...) * 100%",
+            "D. sqrt(V2^2 + V3^2 + V4^2 ...) / V1 * 100%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "The acronym THD+N stands for Total Harmonic Distortion plus Noise. How does a THD+N measurement technically differ from a pure THD measurement?",
+        "choices": [
+            "A. THD+N includes broadband noise, hum, and interference in the numerator along with the harmonics",
+            "B. THD+N only measures odd harmonics",
+            "C. THD+N is measured in watts instead of percentage",
+            "D. THD+N is only valid at exactly 1 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 88,
+        "question": "A worded circuit: A pure 1 kHz sine wave is applied to an amplifier. The 1 kHz fundamental output is 10V RMS. The 2 kHz harmonic is 0.3V RMS, and the 3 kHz harmonic is 0.4V RMS. What is the THD?",
+        "choices": [
+            "A. 7.0%",
+            "B. 5.0%",
+            "C. 1.0%",
+            "D. 3.0%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 89,
+        "question": "If an amplifier is severely overdriven and its output waveform is clipped perfectly symmetrically on both the top and bottom peaks, the resulting distorted waveform will predominantly contain:",
+        "choices": [
+            "A. Only the fundamental frequency",
+            "B. Even harmonics (2nd, 4th, 6th...)",
+            "C. Odd harmonics (3rd, 5th, 7th...)",
+            "D. White noise"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 90,
+        "question": "Conversely, if an amplifier suffers from asymmetrical distortion (e.g., clipping only on the positive peak due to incorrect biasing), the output will heavily feature:",
+        "choices": [
+            "A. Odd harmonics",
+            "B. A perfect square wave",
+            "C. A DC offset and even harmonics",
+            "D. Even harmonics without a DC offset"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 91,
+        "question": "In a closed-loop amplifier system, the application of negative feedback will fundamentally:",
+        "choices": [
+            "A. Increase the THD by the feedback factor",
+            "B. Have absolutely no effect on THD",
+            "C. Generate higher order harmonics indefinitely",
+            "D. Reduce the THD by a factor of (1 + A*Beta)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "A worded circuit: An open-loop amplifier has a THD of 10%. If negative feedback is applied such that the loop gain (A*Beta) is 99, what is the new theoretical closed-loop THD?",
+        "choices": [
+            "A. 0.1%",
+            "B. 0.01%",
+            "C. 1.0%",
+            "D. 0.001%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 93,
+        "question": "As the frequency of the input signal increases, the THD of a typical closed-loop operational amplifier circuit tends to:",
+        "choices": [
+            "A. Decrease, because high frequencies are attenuated",
+            "B. Increase, because the open-loop gain (and thus the available negative feedback) decreases at higher frequencies",
+            "C. Remain constant",
+            "D. Drop to exactly zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 94,
+        "question": "Crossover distortion is a common non-ideality in Class B push-pull audio power amplifiers. This specific type of distortion creates severe harmonics primarily at:",
+        "choices": [
+            "A. Extremely high power levels",
+            "B. The clipping threshold",
+            "C. Zero crossing points, most noticeable at low signal amplitudes",
+            "D. Radio frequencies"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 95,
+        "question": "To accurately measure THD in a laboratory setting, a standard test setup uses a highly pure sine wave generator and a specialized piece of equipment that utilizes a deep, narrow ________ filter to completely remove the fundamental frequency before measuring the remaining signal.",
+        "choices": [
+            "A. High-pass",
+            "B. Low-pass",
+            "C. Band-pass",
+            "D. Notch (Band-stop)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 96,
+        "question": "A THD specification of -60 dB is mathematically equivalent to a percentage distortion of:",
+        "choices": [
+            "A. 0.1%",
+            "B. 0.001%",
+            "C. 10.0%",
+            "D. 1.0%"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 97,
+        "question": "In high-fidelity audio systems, a THD level below what threshold is generally considered completely imperceptible to the human ear?",
+        "choices": [
+            "A. 10%",
+            "B. 0.1% or lower",
+            "C. 1% to 5%",
+            "D. 50%"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 98,
+        "question": "An ideal operational amplifier has a theoretical THD of:",
+        "choices": [
+            "A. 100%",
+            "B. 1%",
+            "C. Zero",
+            "D. Infinity"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "A worded circuit: An audio amplifier generates a 1 kHz fundamental tone. A spectrum analyzer shows a distinct spike at 3 kHz. This specific spike is referred to as the:",
+        "choices": [
+            "A. Second harmonic",
+            "B. First harmonic",
+            "C. Fundamental",
+            "D. Third harmonic"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 100,
+        "question": "Intermodulation Distortion (IMD) is closely related to THD, but it specifically measures the distortion products created when:",
+        "choices": [
+            "A. Two or more different frequencies are simultaneously applied to a non-linear amplifier, creating sum and difference frequencies",
+            "B. The amplifier is overdriven",
+            "C. The power supply is noisy",
+            "D. A single pure sine wave is applied"
+        ],
+        "correct_answer": "A"
+    }
+]

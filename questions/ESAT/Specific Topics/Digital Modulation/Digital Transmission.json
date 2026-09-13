@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "A digital communication system fundamentally trades increased transmission bandwidth for:",
+        "choices": [
+            "A. Improved signal-to-noise ratio performance",
+            "B. Higher analog fidelity",
+            "C. Decreased circuit complexity",
+            "D. Elimination of quantization noise"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "According to Shannon's limit, if a communication channel has a bandwidth of 1 MHz and a Signal-to-Noise Ratio of 15 (linear power ratio), the theoretical maximum capacity is:",
+        "choices": [
+            "A. 2 Mbps",
+            "B. 4 Mbps",
+            "C. 1 Mbps",
+            "D. 8 Mbps"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "The critical digital link parameter Eb/N0 is mathematically equivalent to the standard Signal-to-Noise Ratio (SNR) multiplied by:",
+        "choices": [
+            "A. The transmission bandwidth",
+            "B. The bit rate",
+            "C. The ratio of bandwidth to bit rate",
+            "D. The sampling frequency"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "Baseband transmission is explicitly defined in telecommunications as transmitting digital data:",
+        "choices": [
+            "A. Using a high-frequency RF carrier",
+            "B. Through an optical fiber using laser multiplexing",
+            "C. Over a bandpass analog channel",
+            "D. Without shifting its frequency spectrum to a higher carrier"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "In the standard block diagram of a digital communication receiver, which component strictly reverses the addition of parity bits previously used for forward error correction?",
+        "choices": [
+            "A. Channel decoder",
+            "B. Source decoder",
+            "C. Demodulator",
+            "D. Equalizer"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 6,
+        "question": "What is the theoretical minimum Nyquist transmission bandwidth required to securely transmit a 10 Mbps data stream using QPSK modulation?",
+        "choices": [
+            "A. 10 MHz",
+            "B. 2.5 MHz",
+            "C. 5 MHz",
+            "D. 20 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 7,
+        "question": "Which of the following physical transmission media is fundamentally incapable of propagating a true baseband digital signal due to its inherent inability to pass DC (0 Hz) components?",
+        "choices": [
+            "A. Coaxial cable",
+            "B. Twisted pair copper",
+            "C. Free-space radio link",
+            "D. Printed circuit board trace"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 8,
+        "question": "Calculate the precise Energy per bit (Eb) for a digital receiver operating at a bit rate of 5 Mbps with a total received signal power of 10 microwatts.",
+        "choices": [
+            "A. 5.0 x 10^-11 J",
+            "B. 5.0 x 10^-12 J",
+            "C. 2.0 x 10^-12 J",
+            "D. 2.0 x 10^-13 J"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 9,
+        "question": "In unipolar line coding, the binary logic state '0' is physically and typically represented on the transmission line by:",
+        "choices": [
+            "A. Zero volts",
+            "B. A negative voltage",
+            "C. A positive voltage",
+            "D. An alternating voltage"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 10,
+        "question": "Which standard line coding format explicitly utilizes two non-zero voltage levels (e.g., +V and -V) to represent binary 1 and binary 0 respectively?",
+        "choices": [
+            "A. Unipolar",
+            "B. Polar",
+            "C. Bipolar",
+            "D. Manchester"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 11,
+        "question": "A major technical engineering drawback of Unipolar NRZ line coding in long-distance communication is the unavoidable presence of a strong:",
+        "choices": [
+            "A. High-frequency carrier",
+            "B. Clock synchronization signal",
+            "C. DC component",
+            "D. Alternating baseline"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 12,
+        "question": "In Bipolar Return-to-Zero (AMI) signaling, successive binary 1s in the data stream are strictly encoded as:",
+        "choices": [
+            "A. Pulses of the exact same polarity",
+            "B. Zero voltage levels",
+            "C. Pulses of constant amplitude",
+            "D. Pulses of alternating polarity"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 13,
+        "question": "Which specific digital line coding scheme is also formally known in the telecommunications industry as Alternate Mark Inversion (AMI)?",
+        "choices": [
+            "A. Bipolar RZ",
+            "B. Polar NRZ",
+            "C. Unipolar RZ",
+            "D. Differential Manchester"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 14,
+        "question": "Return-to-Zero (RZ) line coding effectively provides a strong, discrete timing component for clock recovery at the receiver, but it inherently requires:",
+        "choices": [
+            "A. Less bandwidth than NRZ",
+            "B. Twice the transmission bandwidth of NRZ",
+            "C. Complex carrier recovery",
+            "D. Differential encoding"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 15,
+        "question": "In Polar NRZ encoding, what is the normalized average DC power dissipated across a 1-ohm load if binary 1 (+V) and binary 0 (-V) are statistically equiprobable?",
+        "choices": [
+            "A. V^2 / 2",
+            "B. V",
+            "C. V^2",
+            "D. Zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 16,
+        "question": "A unipolar NRZ baseband signal has a peak amplitude of 5V. If binary 1s and 0s are equiprobable, what is the normalized average DC voltage component?",
+        "choices": [
+            "A. 0V",
+            "B. 1.25V",
+            "C. 5V",
+            "D. 2.5V"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 17,
+        "question": "Which of the following common baseband line codes completely eliminates the DC wander problem even if an extremely long string of continuous 1s or 0s is transmitted?",
+        "choices": [
+            "A. Manchester",
+            "B. Unipolar NRZ",
+            "C. Polar NRZ",
+            "D. Unipolar RZ"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 18,
+        "question": "In terms of channel error detection, standard Bipolar AMI provides a built-in mechanism for detecting single bit errors because a single error will instantly cause a:",
+        "choices": [
+            "A. Parity bit mismatch",
+            "B. Bipolar violation (two consecutive pulses of the same polarity)",
+            "C. Loss of clock synchronization",
+            "D. DC baseline shift"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 19,
+        "question": "A digital baseband signal utilizes Polar RZ formatting. During a binary '1' bit period, the signal pulse transitions from +V to 0V exactly at:",
+        "choices": [
+            "A. The beginning of the bit period",
+            "B. The end of the bit period",
+            "C. The exact middle of the bit period",
+            "D. It never returns to zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 20,
+        "question": "If a continuous 10 Mbps data stream is encoded strictly using Unipolar RZ, what is the fundamental frequency of the resulting clock timing component extracted at the receiver?",
+        "choices": [
+            "A. 5 MHz",
+            "B. 2.5 MHz",
+            "C. 20 MHz",
+            "D. 10 MHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 21,
+        "question": "Which fundamental line coding technique is heavily criticized by engineers for being highly inefficient in terms of power because it transmits a massive DC component that carries no useful information?",
+        "choices": [
+            "A. Unipolar NRZ",
+            "B. Bipolar AMI",
+            "C. Polar NRZ",
+            "D. Manchester"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 22,
+        "question": "The technical term \"Non-Return-to-Zero\" (NRZ) explicitly signifies that the physical signal voltage during any single assigned bit interval:",
+        "choices": [
+            "A. Always transitions in the exact middle",
+            "B. Remains completely constant and does not return to a zero-volt resting state",
+            "C. Returns to zero at the end of the interval",
+            "D. Alternates its polarity periodically"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 23,
+        "question": "A 64 kbps PCM digital voice signal is transmitted baseband using Polar NRZ line coding. The absolute minimum theoretical Nyquist channel bandwidth required is:",
+        "choices": [
+            "A. 32 kHz",
+            "B. 128 kHz",
+            "C. 64 kHz",
+            "D. 16 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "In standard Bipolar AMI line coding rules, a binary '0' is strictly and exclusively represented by:",
+        "choices": [
+            "A. Alternating polarity pulses",
+            "B. A positive pulse",
+            "C. A negative pulse",
+            "D. Zero volts"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 25,
+        "question": "If the continuous bit rate of a Polar NRZ signal is exactly 1 Mbps, the main lobe of its power spectral density strictly occupies a total bandwidth of:",
+        "choices": [
+            "A. 1 MHz",
+            "B. 2 MHz",
+            "C. 500 kHz",
+            "D. 1.5 MHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 26,
+        "question": "In terms of power spectral density, the standard Bipolar AMI code has exactly zero radiated power at which specific frequency?",
+        "choices": [
+            "A. The Nyquist frequency",
+            "B. DC (0 Hz)",
+            "C. The bit rate frequency",
+            "D. Half the bit rate frequency"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 27,
+        "question": "Manchester line coding is widely utilized in local area networks for its inherent and robust ability to provide:",
+        "choices": [
+            "A. Absolute minimum transmission bandwidth",
+            "B. Zero power consumption",
+            "C. Excellent self-synchronization (clock recovery)",
+            "D. Forward error correction"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 28,
+        "question": "The standard IEEE 802.3 (10Base-T Ethernet) physically utilizes which specific line coding format for its copper baseband transmission?",
+        "choices": [
+            "A. Unipolar RZ",
+            "B. Polar NRZ",
+            "C. Bipolar AMI",
+            "D. Manchester"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 29,
+        "question": "In a standard Manchester encoded digital signal, a binary '1' is typically and formally represented by a physical voltage transition from:",
+        "choices": [
+            "A. High to low in the exact middle of the bit period",
+            "B. Low to high at the end of the bit period",
+            "C. Low to high in the exact middle of the bit period",
+            "D. High to low at the beginning of the bit period"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 30,
+        "question": "What is the primary technical and engineering disadvantage of utilizing Manchester coding compared to standard Polar NRZ?",
+        "choices": [
+            "A. It suffers from severe baseline wander",
+            "B. It strictly requires twice the transmission bandwidth for the same data rate",
+            "C. It cannot be used on twisted-pair copper cables",
+            "D. It has absolutely no timing component"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 31,
+        "question": "Differential line encoding (such as NRZ-I or Differential Manchester) mathematically determines the logic state of a bit based entirely on:",
+        "choices": [
+            "A. The physical presence or absence of a transition at the beginning of the bit interval",
+            "B. The absolute maximum voltage level",
+            "C. The phase of a high-frequency carrier",
+            "D. The amplitude of the returning pulse"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 32,
+        "question": "A major engineering advantage of Differential line coding (like NRZ-I) over standard non-differential coding is its robust inherent immunity to:",
+        "choices": [
+            "A. Intersymbol Interference (ISI) jitter",
+            "B. Channel attenuation over long distances",
+            "C. Additive white Gaussian noise",
+            "D. Unintentional signal polarity inversion during transmission"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 33,
+        "question": "In standard Differential Manchester line coding, a logical binary '1' is typically represented by:",
+        "choices": [
+            "A. A transition at both the beginning and the middle of the bit interval",
+            "B. A transition only in the middle of the bit interval",
+            "C. No transition at all during the bit period",
+            "D. A positive voltage level held for the entire bit period"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 34,
+        "question": "If a high-speed 10 Mbps data stream is encoded using standard Manchester coding, what is the effective physical baud rate of the transmission on the wire?",
+        "choices": [
+            "A. 5 Mbaud",
+            "B. 10 Mbaud",
+            "C. 20 Mbaud",
+            "D. 40 Mbaud"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 35,
+        "question": "The continuous power spectral density of a standard Manchester encoded signal has its peak energy concentrated exactly at:",
+        "choices": [
+            "A. Zero Hz (DC)",
+            "B. The symbol rate frequency",
+            "C. Half the bit rate frequency",
+            "D. 0.75 times the bit rate frequency"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 36,
+        "question": "Which specific baseband line code relies strictly on a change in voltage level to signify a binary '1' and no change in voltage level to signify a binary '0'?",
+        "choices": [
+            "A. NRZ-L",
+            "B. NRZ-M (NRZ-I)",
+            "C. Unipolar RZ",
+            "D. Bipolar AMI"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "Calculate the absolute minimum theoretical Nyquist bandwidth strictly required to transmit a 100 Mbps data stream using standard Manchester line coding.",
+        "choices": [
+            "A. 100 MHz",
+            "B. 50 MHz",
+            "C. 200 MHz",
+            "D. 25 MHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 38,
+        "question": "Inter-Symbol Interference (ISI) in a baseband digital communication system is primarily and physically caused by:",
+        "choices": [
+            "A. Insufficient transmission power",
+            "B. Improper analog-to-digital conversion",
+            "C. The dispersive (band-limited) nature of the physical transmission channel",
+            "D. Electromagnetic interference from power lines"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 39,
+        "question": "ISI fundamentally manifests as the temporal spreading (smearing) of a transmitted digital pulse such that it:",
+        "choices": [
+            "A. Reverses its absolute polarity",
+            "B. Shifts its frequency spectrum entirely",
+            "C. Attenuates to absolute zero immediately",
+            "D. Spills over into adjacent symbol time slots, corrupting subsequent bits"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 40,
+        "question": "According to Nyquist's First Criterion for zero ISI, a baseband pulse must have exactly zero amplitude at perfectly regular intervals of:",
+        "choices": [
+            "A. n * Ts / 2",
+            "B. n * Ts (where Ts is the exact symbol period)",
+            "C. 2n * Ts",
+            "D. n * Ts / 4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 41,
+        "question": "The ideal theoretical pulse shape that mathematically satisfies Nyquist's First Criterion for zero ISI while occupying the absolute minimum physical bandwidth is the:",
+        "choices": [
+            "A. Sinc function pulse",
+            "B. Gaussian pulse",
+            "C. Rectangular pulse",
+            "D. Triangular pulse"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 42,
+        "question": "Why is the mathematically ideal Nyquist sinc pulse physically unrealizable in a practical hardware communication transmitter?",
+        "choices": [
+            "A. It requires a non-causal system (infinite duration in both past and future time)",
+            "B. It has a perfectly flat frequency spectrum",
+            "C. It requires an infinite voltage amplitude",
+            "D. It cannot carry binary data formats"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 43,
+        "question": "To actively mitigate the unrealizable nature of the ideal sinc pulse while perfectly maintaining zero ISI, engineers universally employ a practical pulse shaping filter known as the:",
+        "choices": [
+            "A. Butterworth filter",
+            "B. Elliptic filter",
+            "C. Raised Cosine filter",
+            "D. Chebyshev filter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 44,
+        "question": "The numerical roll-off factor (alpha) of a raised cosine pulse shaping filter mathematically dictates the:",
+        "choices": [
+            "A. Signal-to-noise ratio margin",
+            "B. Amplitude of the transmitted signal",
+            "C. Phase shift of the local carrier",
+            "D. Excess bandwidth utilized beyond the theoretical Nyquist minimum"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "If a raised cosine filter is strictly designed with a roll-off factor (alpha) of exactly 0, its frequency response perfectly mimics a(n):",
+        "choices": [
+            "A. Ideal Gaussian filter",
+            "B. Ideal brick-wall low-pass filter",
+            "C. All-pass filter",
+            "D. RC low-pass filter"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "A digital baseband system operates at a symbol rate of 10 kbaud. If a raised cosine filter with a roll-off factor of 0.5 is utilized, the absolute minimum required transmission bandwidth is exactly:",
+        "choices": [
+            "A. 5 kHz",
+            "B. 10 kHz",
+            "C. 7.5 kHz",
+            "D. 15 kHz"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 47,
+        "question": "Calculate the required channel bandwidth for a 20 Mbps QPSK transmission if the system utilizes a raised cosine pulse shaping filter with a roll-off factor of exactly 0.25.",
+        "choices": [
+            "A. 10 MHz",
+            "B. 6.25 MHz",
+            "C. 20 MHz",
+            "D. 25 MHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "A raised cosine pulse shaping filter designed with a roll-off factor of exactly 1.0 is officially designated in telecommunications as a:",
+        "choices": [
+            "A. Purely causal filter",
+            "B. Sinc squared filter",
+            "C. Full-cosine roll-off filter",
+            "D. Minimum bandwidth filter"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 49,
+        "question": "In a raised cosine temporal response, as the roll-off factor (alpha) is systematically increased from 0 to 1, the corresponding time-domain pulse exhibits:",
+        "choices": [
+            "A. Increased duration of ringing tails",
+            "B. A wider main lobe",
+            "C. Slower amplitude decay",
+            "D. Faster decaying tails, making the system significantly less sensitive to timing jitter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "Which of the following mathematical conditions definitively guarantees zero Inter-Symbol Interference (ISI) in a bandlimited digital channel?",
+        "choices": [
+            "A. Nyquist's Second Criterion",
+            "B. Shannon's Channel Coding Theorem",
+            "C. The channel impulse response passes through exactly zero at all non-zero integer multiples of the symbol period",
+            "D. The transmitted pulses are perfectly rectangular"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 51,
+        "question": "A strictly bandlimited physical channel has an absolute maximum cutoff frequency of W Hz. What is the maximum theoretical symbol rate that can be transmitted through this channel with exactly zero ISI?",
+        "choices": [
+            "A. W symbols/sec",
+            "B. 2W symbols/sec",
+            "C. W/2 symbols/sec",
+            "D. 4W symbols/sec"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 52,
+        "question": "A baseband digital system securely transmits data at a rate of 100 kbaud. The absolute minimum Nyquist bandwidth physically required for zero ISI transmission (using an ideal brick-wall filter) is exactly:",
+        "choices": [
+            "A. 100 kHz",
+            "B. 200 kHz",
+            "C. 25 kHz",
+            "D. 50 kHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 53,
+        "question": "Which critical mathematical signal processing tool is most commonly utilized in the receiver's baseband circuitry to explicitly counteract and cancel the effects of ISI caused by a dispersive channel?",
+        "choices": [
+            "A. Adaptive Equalizer",
+            "B. Pre-emphasis filter",
+            "C. Envelope detector",
+            "D. Phase-locked loop"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 54,
+        "question": "A Transversal Filter (Finite Impulse Response filter) utilized as a baseband equalizer combats ISI by employing a tapped delay line with dynamically:",
+        "choices": [
+            "A. Adjustable tap weights (amplifier gains)",
+            "B. Capacitor values",
+            "C. Delay lengths",
+            "D. Resistor limits"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 55,
+        "question": "Zero-Forcing Equalization attempts to eliminate ISI completely by actively designing the equalizer's overall frequency response to be the exact mathematical inverse of the:",
+        "choices": [
+            "A. Channel's frequency response",
+            "B. Transmitted pulse shape",
+            "C. Noise power spectral density",
+            "D. Nyquist roll-off characteristic"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 56,
+        "question": "What is a major engineering disadvantage of deploying a simple Zero-Forcing Equalizer in a physical transmission channel containing deep spectral nulls?",
+        "choices": [
+            "A. It creates extreme baseline wander",
+            "B. It strictly requires a non-linear amplifier",
+            "C. It can severely amplify high-frequency thermal noise",
+            "D. It completely destroys the signal's phase information"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "An eye pattern is a highly effective oscilloscope display used to rapidly evaluate digital transmission quality. It is strictly generated by applying the received baseband signal to the vertical input and triggering the horizontal sweep with the:",
+        "choices": [
+            "A. Carrier frequency",
+            "B. Recovered symbol clock",
+            "C. Power supply frequency (60 Hz)",
+            "D. Frame synchronization pulse"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "When visually evaluating a baseband digital signal using an eye pattern, the vertical distance from the center of the eye to the upper or lower trace edge explicitly represents the:",
+        "choices": [
+            "A. Maximum ISI jitter",
+            "B. Maximum timing phase error",
+            "C. Noise margin (immunity to additive amplitude noise)",
+            "D. Minimum required bandwidth"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "In a standard oscilloscope eye diagram, the horizontal width of the open eye space directly and physically represents the receiver system's tolerance to:",
+        "choices": [
+            "A. Additive white Gaussian noise",
+            "B. Non-linear harmonic distortion",
+            "C. Thermal noise",
+            "D. Timing errors and clock jitter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 60,
+        "question": "The physical thickness (vertical blurring) of the signal traces forming the top and bottom bounds of the eye pattern specifically indicates the exact presence and severity of:",
+        "choices": [
+            "A. Noise and Intersymbol Interference (ISI)",
+            "B. Carrier frequency drift",
+            "C. A broken oscilloscope probe",
+            "D. Zero-crossing distortion"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "If an eye pattern is observed on test equipment to be completely \"closed\" (no clear opening visible in the center), this fundamentally and practically signifies that:",
+        "choices": [
+            "A. The data transmission is perfectly error-free",
+            "B. Reliable symbol detection is impossible due to severe ISI and noise",
+            "C. The baud rate is far too slow",
+            "D. The signal has exactly zero amplitude variations"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "The optimum sampling instant for a digital receiver to make a hard decision on the logical state of a symbol corresponds to the exact point in the eye pattern where the eye is:",
+        "choices": [
+            "A. Completely closed",
+            "B. Crossing the zero-voltage threshold",
+            "C. Widest open vertically",
+            "D. Widest open horizontally"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "The physical steepness or slope of the signal traces crossing the horizontal zero-axis in an eye diagram directly evaluates the system's sensitivity to:",
+        "choices": [
+            "A. Additive noise",
+            "B. Carrier phase error",
+            "C. Nyquist filtering",
+            "D. Timing phase errors (jitter sensitivity)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "As the roll-off factor (alpha) of a raised cosine pulse shaping filter strictly approaches zero (approximating an ideal brick-wall filter), the resulting eye pattern will physically exhibit:",
+        "choices": [
+            "A. Wider horizontal openings",
+            "B. Absolutely no ISI",
+            "C. An infinitely tall vertical opening",
+            "D. Severe narrowing of the horizontal eye opening due to extreme sensitivity to timing jitter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 65,
+        "question": "A 4-level Pulse Amplitude Modulation (4-PAM) baseband signal is displayed on a standard eye diagram. Exactly how many distinct, vertically stacked \"eyes\" will be clearly visible during one single symbol period?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "An 8-level baseband Pulse Amplitude Modulation (8-PAM) system will strictly and physically exhibit exactly how many vertically stacked \"eyes\" in its corresponding eye diagram?",
+        "choices": [
+            "A. 8",
+            "B. 7",
+            "C. 4",
+            "D. 16"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 67,
+        "question": "If an oscilloscope displaying a clear eye pattern suddenly loses its trigger connection to the recovered symbol clock and begins to free-run, the eye pattern will instantly:",
+        "choices": [
+            "A. Become perfectly clear and stationary",
+            "B. Split into two identical eyes",
+            "C. Collapse into a blur of meaningless, overlapping traces",
+            "D. Only show the binary 1s"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 68,
+        "question": "In long-haul digital transmission systems like T1 or E1, standard Bipolar AMI line coding suffers from a critical, fatal flaw when the transmitted user data accidentally contains:",
+        "choices": [
+            "A. A long sequence of alternating 1s and 0s",
+            "B. A high density of binary 1s",
+            "C. An excessive amount of parity bits",
+            "D. A long, continuous string of consecutive binary 0s"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 69,
+        "question": "A long, unbroken sequence of zeros in a standard Bipolar AMI transmission fundamentally causes the distant receiver's regenerative repeaters to:",
+        "choices": [
+            "A. Lose clock synchronization",
+            "B. Generate severe ISI",
+            "C. Overheat rapidly",
+            "D. Invert the signal polarity"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 70,
+        "question": "To permanently solve the zero-density clock recovery problem without arbitrarily increasing the required transmission bandwidth, modern telecommunications networks employ specialized line codes officially called:",
+        "choices": [
+            "A. Forward Error Correctors",
+            "B. Companders",
+            "C. High-Density Scramblers (e.g., B8ZS, HDB3)",
+            "D. Raised Cosine Filters"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "The standard scrambling technique heavily and officially utilized in North American T1 carrier systems to strictly prevent the loss of clock synchronization is:",
+        "choices": [
+            "A. HDB3 (High-Density Bipolar 3-zeros)",
+            "B. CMI (Coded Mark Inversion)",
+            "C. 4B5B encoding",
+            "D. B8ZS (Bipolar with 8-Zero Substitution)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 72,
+        "question": "In standard B8ZS encoding, a consecutive sequence of exactly 8 zeros is deliberately and automatically replaced by a specific pattern containing:",
+        "choices": [
+            "A. Eight binary 1s",
+            "B. Two deliberate bipolar violations",
+            "C. Manchester encoded pulses",
+            "D. Differential shifts"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "The intentional bipolar violations dynamically injected by scramblers like B8ZS and HDB3 are completely distinct from genuine channel errors because they strictly occur in:",
+        "choices": [
+            "A. Unpredictable, random patterns",
+            "B. Odd-numbered time slots only",
+            "C. Pairs of successive violations of the same polarity",
+            "D. Successive pulses of the same polarity according to a fixed, recognizable algorithmic rule"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 74,
+        "question": "The standard scrambling technique officially adopted by the ITU-T for universal use in European E1 carrier systems is:",
+        "choices": [
+            "A. B8ZS",
+            "B. HDB3",
+            "C. AMI",
+            "D. NRZ-I"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "The HDB3 (High-Density Bipolar 3-zeros) line code strictly algorithmically limits the absolute maximum number of consecutive transmitted zeros on the line to exactly:",
+        "choices": [
+            "A. 3",
+            "B. 4",
+            "C. 8",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 76,
+        "question": "If a digital system utilizes a 4B5B block encoding scheme (commonly found in 100Base-TX Fast Ethernet), a 4-bit data nibble is explicitly mapped to a 5-bit symbol strictly to ensure:",
+        "choices": [
+            "A. Perfect error correction",
+            "B. Absolute minimum bandwidth",
+            "C. Sufficient bit transitions for highly reliable clock recovery",
+            "D. Complete DC suppression"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "Scrambling algorithms utilizing Linear Feedback Shift Registers (LFSR) are frequently applied to baseband data before line coding primarily to:",
+        "choices": [
+            "A. Eliminate parity bits",
+            "B. Randomize the bit stream to evenly distribute signal energy and suppress discrete spectral lines",
+            "C. Increase the overall bit rate",
+            "D. Convert the signal from digital to analog"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 78,
+        "question": "A critical hardware component installed at regular physical intervals along a long-distance digital transmission line (such as a T1 span) to completely rebuild the degraded signal is the:",
+        "choices": [
+            "A. Linear RF amplifier",
+            "B. Baseband multiplexer",
+            "C. Envelope detector",
+            "D. Regenerative repeater"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 79,
+        "question": "Unlike a standard analog amplifier which amplifies both the signal and accumulated noise equally, a digital regenerative repeater fundamentally improves line performance by:",
+        "choices": [
+            "A. Making fresh, completely noise-free decisions on each bit and retransmitting a pristine pulse",
+            "B. Filtering out exactly 50% of the thermal noise",
+            "C. Converting the signal to a higher frequency",
+            "D. Adding more redundancy bits"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 80,
+        "question": "The three primary functional blocks internal to a standard digital regenerative repeater are the equalizer, the timing extraction circuit, and the:",
+        "choices": [
+            "A. Modulator",
+            "B. Decision-making device (Threshold detector/Slicer)",
+            "C. Multiplexer",
+            "D. Forward Error Corrector"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "In a regenerative repeater, the exact instant when the decision device samples the equalized pulse is strictly and dynamically controlled by the:",
+        "choices": [
+            "A. Incoming signal amplitude",
+            "B. Thermal noise floor",
+            "C. Recovered clock from the timing extraction circuit",
+            "D. Built-in fixed delay line"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "If a long transmission line suffers from severe, uncorrected Inter-Symbol Interference (ISI), the decision device in a regenerative repeater will immediately experience a drastically reduced:",
+        "choices": [
+            "A. Bandwidth limit",
+            "B. Noise margin",
+            "C. Clock frequency",
+            "D. Output power"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 83,
+        "question": "While digital regenerative repeaters completely eliminate cumulative amplitude noise, they cannot perfectly eliminate timing jitter. Over a very long daisy-chain of repeaters, timing jitter mathematically tends to:",
+        "choices": [
+            "A. Cancel itself out perfectly",
+            "B. Decrease exponentially",
+            "C. Accumulate systematically",
+            "D. Remain absolutely zero"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 84,
+        "question": "The absolute maximum physical distance permitted between regenerative repeaters in a digital copper cable span is dictated strictly by the cable's attenuation and the receiver's required minimum:",
+        "choices": [
+            "A. Signal-to-Noise Ratio (or Eb/N0) to successfully maintain an acceptable BER",
+            "B. Transmit power",
+            "C. Baud rate",
+            "D. Equalization level"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 85,
+        "question": "In a typical North American T1 carrier system originally deployed over twisted-pair copper cables, regenerative repeaters are historically spaced at physical intervals of approximately:",
+        "choices": [
+            "A. 60 miles",
+            "B. 10 miles",
+            "C. 100 feet",
+            "D. 6,000 feet (approx. 1.1 miles)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 86,
+        "question": "Which widely used digital line coding format explicitly utilizes three distinct voltage levels (e.g., +V, 0, -V) for physical data transmission?",
+        "choices": [
+            "A. Unipolar NRZ",
+            "B. Polar RZ",
+            "C. Manchester",
+            "D. Bipolar (AMI)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 87,
+        "question": "In a standard Polar NRZ line code, binary 1 is represented by +V and binary 0 by -V. What is the normalized average power of a single transmitted pulse over a 1-ohm load?",
+        "choices": [
+            "A. V",
+            "B. V^2",
+            "C. V^2 / 2",
+            "D. Zero"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "Unipolar RZ coding requires exactly how much physical transmission bandwidth compared to standard Unipolar NRZ to transmit at the exact same data rate?",
+        "choices": [
+            "A. Half the bandwidth",
+            "B. The exact same bandwidth",
+            "C. Twice the bandwidth",
+            "D. Four times the bandwidth"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 89,
+        "question": "A digital baseband signal is transmitted using Polar NRZ format at a continuous rate of 100 kbps. The theoretical minimum Nyquist channel bandwidth required is exactly:",
+        "choices": [
+            "A. 50 kHz",
+            "B. 100 kHz",
+            "C. 200 kHz",
+            "D. 25 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 90,
+        "question": "A digital baseband signal is transmitted using Bipolar AMI format at a rate of 100 kbps. The main spectral lobe of this specific signal physically occupies a bandwidth of exactly:",
+        "choices": [
+            "A. 50 kHz",
+            "B. 100 kHz",
+            "C. 200 kHz",
+            "D. 150 kHz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "Differential line coding formats (like standard NRZ-I) are technically classified under the Non-Return-to-Zero category explicitly because the signal voltage:",
+        "choices": [
+            "A. Never drops to a true zero-volt resting level during any bit interval",
+            "B. Alternates polarity every clock cycle",
+            "C. Contains a strong DC component",
+            "D. Remains perfectly constant throughout the entire bit interval"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 92,
+        "question": "A highly significant engineering advantage of employing a Raised Cosine filter over a simple RC low-pass filter for baseband pulse shaping is that the Raised Cosine filter can mathematically be designed to provide:",
+        "choices": [
+            "A. Infinite bandwidth",
+            "B. A completely linear phase response and exactly zero ISI at the designated sampling instants",
+            "C. Zero power consumption",
+            "D. Perfect immunity to thermal noise"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "As the physical transmission channel bandwidth becomes severely restricted (approaching the theoretical Nyquist minimum), the required pulse shaping filter's time-domain impulse response will physically:",
+        "choices": [
+            "A. Disappear completely",
+            "B. Become extremely narrow",
+            "C. Expand, exhibiting much longer and slower-decaying ringing tails",
+            "D. Become a perfect rectangle"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 94,
+        "question": "In the detailed, optimal design of a digital Baseband receiver, what specific mathematical filter is placed directly before the decision threshold to absolutely maximize the Signal-to-Noise Ratio at the exact sampling instant?",
+        "choices": [
+            "A. The Raised Cosine Filter",
+            "B. The Anti-aliasing filter",
+            "C. The Equalizer",
+            "D. The Matched Filter"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 95,
+        "question": "The mathematical impulse response of an ideal Matched Filter is defined explicitly and strictly as a time-reversed and delayed exact replica of the:",
+        "choices": [
+            "A. Channel impulse response",
+            "B. Received noise spectrum",
+            "C. Incoming transmitted pulse shape",
+            "D. Output bit stream"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 96,
+        "question": "When evaluating the overall transfer function of a digital baseband link engineered for zero ISI, the Raised Cosine spectral characteristic is typically and optimally distributed equally by placing:",
+        "choices": [
+            "A. The entire filter at the transmitter",
+            "B. The entire filter at the receiver",
+            "C. A simple RC filter at the transmitter",
+            "D. A square-root raised cosine (SRRC) filter at the transmitter and an identical SRRC filter at the receiver"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 97,
+        "question": "In a multi-level baseband PAM system, increasing the number of discrete voltage levels (M) allows for a higher bit rate in a fixed bandwidth. However, for a strictly fixed maximum transmit power, this inherently causes the physical voltage distance between adjacent levels to:",
+        "choices": [
+            "A. Increase significantly",
+            "B. Fluctuate randomly",
+            "C. Decrease, thereby requiring a higher SNR to maintain the exact same BER",
+            "D. Remain absolutely constant"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 98,
+        "question": "A high-speed 16-level baseband PAM transmission (16-PAM) operates continuously at a symbol rate of 10 kbaud. What is the exact aggregate bit rate of this communication system?",
+        "choices": [
+            "A. 10 kbps",
+            "B. 20 kbps",
+            "C. 160 kbps",
+            "D. 40 kbps"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 99,
+        "question": "A T1 line utilizes B8ZS line coding. If the incoming baseband bit stream contains exactly 12 consecutive zeros bounded by 1s, what is the absolute maximum number of consecutive zero-volt bit intervals that will physically appear on the transmission line?",
+        "choices": [
+            "A. 0",
+            "B. 4",
+            "C. 8",
+            "D. 12"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 100,
+        "question": "In evaluating digital baseband systems, the term \"Error Propagation\" refers to a specific phenomenon commonly found in decision-feedback equalizers and differential decoding where:",
+        "choices": [
+            "A. The signal amplitude attenuates over time",
+            "B. Thermal noise accumulates in repeaters",
+            "C. A single erroneous bit decision physically causes mathematical errors in subsequent bit decisions",
+            "D. The transmission speed exceeds channel capacity"
+        ],
+        "correct_answer": "C"
+    }
+]

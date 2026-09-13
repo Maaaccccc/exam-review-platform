@@ -1,0 +1,1102 @@
+[
+    {
+        "number": 1,
+        "question": "What is the primary effect of negative feedback on the bandwidth of an amplifier?",
+        "choices": [
+            "A. It increases the bandwidth",
+            "B. It decreases the bandwidth",
+            "C. It makes the bandwidth zero",
+            "D. It has no effect"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 2,
+        "question": "An amplifier has an open-loop gain A=1000 and a feedback factor beta=0.009. What is the exact closed-loop gain?",
+        "choices": [
+            "A. 1000",
+            "B. 100",
+            "C. 90",
+            "D. 10"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 3,
+        "question": "Which feedback topology decreases both the input and output impedances of the amplifier?",
+        "choices": [
+            "A. Voltage-series",
+            "B. Current-shunt",
+            "C. Voltage-shunt",
+            "D. Current-series"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 4,
+        "question": "According to the Nyquist stability criterion, a feedback amplifier is unstable if the polar plot of the loop gain encloses which specific coordinate point?",
+        "choices": [
+            "A. (0, 0)",
+            "B. (1, 0)",
+            "C. (0, -1)",
+            "D. (-1, 0)"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 5,
+        "question": "In a negative feedback system, what is the term for the quantity (1 + A*beta)?",
+        "choices": [
+            "A. Loop gain",
+            "B. Desensitivity factor",
+            "C. Return difference",
+            "D. Closed-loop gain"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 6,
+        "question": "In a current-series feedback amplifier, what are the characteristic effects on the input and output impedances?",
+        "choices": [
+            "A. Zin decreases, Zout decreases",
+            "B. Zin increases, Zout decreases",
+            "C. Zin increases, Zout increases",
+            "D. Zin decreases, Zout increases"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 7,
+        "question": "An amplifier's open-loop gain drops by 10% due to heating. With a desensitivity factor of 20, what is the percentage change in the closed-loop gain?",
+        "choices": [
+            "A. 10%",
+            "B. 5%",
+            "C. 2%",
+            "D. 0.5%"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 8,
+        "question": "Which parameter defines the mathematical product of the open-loop gain and the feedback factor (A*beta)?",
+        "choices": [
+            "A. Loop gain",
+            "B. Closed-loop gain",
+            "C. Return ratio",
+            "D. Transfer function"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 9,
+        "question": "What is the fundamental requirement for sustained oscillations according to the Barkhausen criterion?",
+        "choices": [
+            "A. Loop gain magnitude = 0",
+            "B. Phase shift = 90 degrees",
+            "C. Loop gain magnitude = 1 and phase shift = 360 degrees",
+            "D. Phase shift = 180 degrees"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 10,
+        "question": "To ensure a self-starting oscillator, the initial loop gain magnitude must be set to what value before amplitude stabilization kicks in?",
+        "choices": [
+            "A. Exactly 0",
+            "B. Exactly 1",
+            "C. Less than 1",
+            "D. Greater than 1"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 11,
+        "question": "What inherent physical phenomenon provides the initial signal to start the oscillation process in an electronic oscillator?",
+        "choices": [
+            "A. Thermal noise",
+            "B. Quantization noise",
+            "C. A DC offset",
+            "D. Cosmic microwave background"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 12,
+        "question": "What is the minimum number of RC sections required in a standard RC phase shift oscillator to achieve the necessary 180-degree phase shift without infinite attenuation?",
+        "choices": [
+            "A. 1",
+            "B. 3",
+            "C. 2",
+            "D. 4"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 13,
+        "question": "In a standard 3-section RC phase shift oscillator using identical R and C components, what is the mathematical formula for the resonant frequency?",
+        "choices": [
+            "A. 1 / (2*pi*R*C)",
+            "B. 1 / (2*pi*R*C*sqrt(3))",
+            "C. 1 / (pi*R*C)",
+            "D. 1 / (2*pi*R*C*sqrt(6))"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 14,
+        "question": "To maintain sustained oscillations, what is the minimum required voltage gain for the inverting amplifier in a standard 3-section RC phase shift oscillator?",
+        "choices": [
+            "A. 29",
+            "B. 3",
+            "C. 10",
+            "D. 14.5"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 15,
+        "question": "Which low-frequency oscillator utilizes both positive and negative feedback paths and features a lead-lag RC network?",
+        "choices": [
+            "A. Colpitts oscillator",
+            "B. Wien bridge oscillator",
+            "C. Hartley oscillator",
+            "D. Clapp oscillator"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 16,
+        "question": "In a Wien bridge oscillator, what is the attenuation factor of the lead-lag feedback network exactly at the resonant frequency?",
+        "choices": [
+            "A. 1/2",
+            "B. 1/4",
+            "C. 1/3",
+            "D. 1/29"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 17,
+        "question": "For a Wien bridge oscillator to output a pure sine wave, the non-inverting amplifier must have a precisely controlled voltage gain of:",
+        "choices": [
+            "A. 29",
+            "B. 1",
+            "C. 1/3",
+            "D. 3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 18,
+        "question": "A worded circuit: A Wien bridge oscillator is designed with R1 = R2 = 10 kOhms and C1 = C2 = 1 nF. What is the approximate frequency of oscillation?",
+        "choices": [
+            "A. 15.9 kHz",
+            "B. 1.59 kHz",
+            "C. 159 kHz",
+            "D. 159 Hz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 19,
+        "question": "A Wien bridge oscillator is producing a severely clipped sine wave (approaching a square wave). What is the most likely cause?",
+        "choices": [
+            "A. The amplifier gain is set precisely to 3",
+            "B. The amplifier gain is set significantly higher than 3",
+            "C. The capacitor values are unmatched",
+            "D. The feedback loop is broken"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 20,
+        "question": "In classic Wien bridge oscillator designs, what component is often placed in the negative feedback loop to provide automatic amplitude stabilization via non-linear resistance?",
+        "choices": [
+            "A. A Zener diode",
+            "B. A ceramic capacitor",
+            "C. An incandescent lamp or PTC thermistor",
+            "D. An inductor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 21,
+        "question": "The RC phase shift oscillator is generally best suited for generating frequencies in which range?",
+        "choices": [
+            "A. Microwave frequencies",
+            "B. Radio frequencies (RF)",
+            "C. Audio frequencies (AF)",
+            "D. Extremely high frequencies (EHF)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 22,
+        "question": "A worded circuit: An RC phase shift oscillator uses R = 4.7 kOhms and C = 0.01 uF. What is the approximate oscillation frequency?",
+        "choices": [
+            "A. 13.8 kHz",
+            "B. 8.2 kHz",
+            "C. 3.4 kHz",
+            "D. 1.38 kHz"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 23,
+        "question": "In an RC phase shift oscillator using an op-amp, the feedback signal from the RC network must be connected to which terminal of the op-amp to satisfy the Barkhausen criterion?",
+        "choices": [
+            "A. The non-inverting terminal",
+            "B. The output terminal",
+            "C. The positive power supply pin",
+            "D. The inverting terminal"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 24,
+        "question": "If both resistor values in the frequency-determining network of a Wien bridge oscillator are doubled, what happens to the oscillation frequency?",
+        "choices": [
+            "A. It is doubled",
+            "B. It is halved",
+            "C. It is quadrupled",
+            "D. It remains unchanged"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 25,
+        "question": "Which high-frequency oscillator utilizes a tapped inductor in its tank circuit for feedback?",
+        "choices": [
+            "A. Colpitts oscillator",
+            "B. Clapp oscillator",
+            "C. Armstrong oscillator",
+            "D. Hartley oscillator"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 26,
+        "question": "Which high-frequency oscillator utilizes a capacitive voltage divider (two capacitors in series) in its tank circuit?",
+        "choices": [
+            "A. Colpitts oscillator",
+            "B. Hartley oscillator",
+            "C. Phase shift oscillator",
+            "D. Pierce oscillator"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 27,
+        "question": "The Clapp oscillator is a direct variation of which classic oscillator, featuring an added series capacitor in the inductor branch?",
+        "choices": [
+            "A. Hartley",
+            "B. Colpitts",
+            "C. Wien Bridge",
+            "D. Crystal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 28,
+        "question": "What is the primary technical advantage of a Clapp oscillator over a standard Colpitts oscillator?",
+        "choices": [
+            "A. It can generate much higher power",
+            "B. It uses fewer components",
+            "C. It offers improved frequency stability by swamping transistor capacitances",
+            "D. It operates at audio frequencies"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 29,
+        "question": "A worded circuit: A Colpitts oscillator tank circuit has C1 = 10 nF, C2 = 100 nF, and L = 1 mH. What is the equivalent capacitance (Ceq) of the tank?",
+        "choices": [
+            "A. 110 nF",
+            "B. 10 nF",
+            "C. 90 nF",
+            "D. 9.09 nF"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 30,
+        "question": "Using the Ceq from the previous question (9.09 nF) and L = 1 mH, what is the approximate resonant frequency of the Colpitts oscillator?",
+        "choices": [
+            "A. 52.8 kHz",
+            "B. 15.9 kHz",
+            "C. 100 kHz",
+            "D. 5.28 kHz"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 31,
+        "question": "In a Hartley oscillator, if the two coil sections L1 and L2 have a mutual inductance M, the total equivalent inductance Leq (assuming series aiding) is:",
+        "choices": [
+            "A. L1 + L2",
+            "B. L1 + L2 + 2M",
+            "C. L1 + L2 - 2M",
+            "D. (L1*L2)/M"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 32,
+        "question": "LC oscillators (Hartley, Colpitts) are practically best suited for which frequency range due to component size limitations?",
+        "choices": [
+            "A. Sub-audio frequencies",
+            "B. Audio frequencies (AF)",
+            "C. Radio frequencies (RF)",
+            "D. DC generation"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 33,
+        "question": "A worded circuit: A Clapp oscillator has tank capacitors C1 = 0.1 uF, C2 = 0.1 uF, and a series capacitor C3 = 100 pF. Which capacitor overwhelmingly determines the resonant frequency?",
+        "choices": [
+            "A. C1",
+            "B. C2",
+            "C. Both C1 and C2 equally",
+            "D. C3"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 34,
+        "question": "In a BJT Colpitts oscillator, the feedback fraction beta is determined by the ratio of the tank capacitors. If the output is across C1 and feedback is across C2, beta is proportional to:",
+        "choices": [
+            "A. C1 / C2",
+            "B. C2 / C1",
+            "C. C1 * C2",
+            "D. sqrt(C1 / C2)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 35,
+        "question": "The Armstrong oscillator relies on what specific mechanism to provide positive feedback?",
+        "choices": [
+            "A. A tapped capacitor",
+            "B. A tapped inductor",
+            "C. Transformer action (a tickler coil)",
+            "D. A piezoelectric crystal"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 36,
+        "question": "Why are LC oscillators generally avoided for generating low audio frequencies (e.g., 100 Hz)?",
+        "choices": [
+            "A. They produce excessive distortion at low frequencies",
+            "B. The required inductors and capacitors would be physically enormous and impractical",
+            "C. The Barkhausen criterion cannot be met at low frequencies",
+            "D. The Q factor becomes infinite"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 37,
+        "question": "Evaluate the Barkhausen criterion for a standard Common-Emitter Hartley oscillator. The CE amplifier provides 180 degrees of phase shift. How does the tank circuit provide the remaining 180 degrees?",
+        "choices": [
+            "A. The inductor introduces a delay",
+            "B. The grounded tap on the inductor forces the voltages at the ends to be completely out of phase",
+            "C. The capacitors shift the phase by 90 degrees each",
+            "D. The transistor's internal capacitance inverts the signal"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 38,
+        "question": "If the inductor in a Colpitts oscillator is doubled in value and both capacitors are halved in value, what happens to the resonant frequency?",
+        "choices": [
+            "A. It remains exactly the same",
+            "B. It doubles",
+            "C. It is halved",
+            "D. It increases by a factor of 4"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 39,
+        "question": "What effect does the internal output capacitance (C_oe) of a BJT have on a practical high-frequency Colpitts oscillator?",
+        "choices": [
+            "A. It stops oscillation completely",
+            "B. It increases the resonant frequency",
+            "C. It lowers the resonant frequency slightly",
+            "D. It has absolutely no effect"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 40,
+        "question": "The piezoelectric effect is defined as the generation of an electrical voltage across a material when it is subjected to:",
+        "choices": [
+            "A. Extreme heat",
+            "B. A magnetic field",
+            "C. Mechanical stress",
+            "D. Light"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 41,
+        "question": "Which crystalline material is overwhelmingly the most common choice for manufacturing precise electronic oscillator crystals?",
+        "choices": [
+            "A. Silicon",
+            "B. Diamond",
+            "C. Quartz",
+            "D. Gallium Arsenide"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 42,
+        "question": "The equivalent electrical circuit of a quartz crystal consists of which combination of ideal components?",
+        "choices": [
+            "A. A series RLC branch in parallel with a mounting capacitance Cp",
+            "B. A parallel LC tank only",
+            "C. A single inductor and resistor",
+            "D. Three series capacitors"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 43,
+        "question": "Due to its equivalent circuit, a quartz crystal naturally exhibits two closely spaced resonant frequencies known as:",
+        "choices": [
+            "A. High and low frequencies",
+            "B. Series and parallel resonant frequencies",
+            "C. Fundamental and harmonic frequencies",
+            "D. Active and reactive frequencies"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 44,
+        "question": "At the exact series resonant frequency of a quartz crystal, its electrical impedance is theoretically:",
+        "choices": [
+            "A. Infinite",
+            "B. Maximum and purely resistive",
+            "C. Zero",
+            "D. Minimum and purely resistive"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 45,
+        "question": "At the parallel resonant frequency of a quartz crystal (anti-resonance), its electrical impedance is theoretically:",
+        "choices": [
+            "A. Minimum and reactive",
+            "B. Maximum and purely resistive",
+            "C. Zero",
+            "D. Infinite and capacitive"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 46,
+        "question": "Between the series resonant frequency and the parallel resonant frequency, the quartz crystal behaves electrically as an:",
+        "choices": [
+            "A. Inductor",
+            "B. Capacitor",
+            "C. Resistor",
+            "D. Open circuit"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 47,
+        "question": "Crystal oscillators are renowned for their extreme frequency stability. This stability is directly attributed to the crystal's exceptionally high:",
+        "choices": [
+            "A. Power rating",
+            "B. Quality factor (Q)",
+            "C. Voltage tolerance",
+            "D. Capacitance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 48,
+        "question": "What is the typical range of the Quality factor (Q) for a high-grade quartz crystal?",
+        "choices": [
+            "A. 10 to 100",
+            "B. 100 to 1,000",
+            "C. 1,000 to 10,000",
+            "D. 10,000 to >100,000"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 49,
+        "question": "A Pierce crystal oscillator configuration is essentially a variation of which classic LC oscillator, with the crystal replacing the inductor?",
+        "choices": [
+            "A. Hartley",
+            "B. Clapp",
+            "C. Armstrong",
+            "D. Colpitts"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 50,
+        "question": "The Pierce crystal oscillator design relies on the crystal operating in which specific region of its reactance curve?",
+        "choices": [
+            "A. Exactly at series resonance",
+            "B. In the inductive region (between series and parallel resonance)",
+            "C. In the capacitive region",
+            "D. Exactly at parallel resonance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 51,
+        "question": "Which specific cut of a quartz crystal is most widely used for megahertz-range oscillators because it exhibits a very low temperature coefficient (minimal frequency drift with temperature)?",
+        "choices": [
+            "A. X cut",
+            "B. Y cut",
+            "C. AT cut",
+            "D. BT cut"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 52,
+        "question": "If a small variable capacitor (a trimmer) is placed in series with a quartz crystal in an oscillator circuit, what is its practical purpose?",
+        "choices": [
+            "A. To convert the circuit to an RC oscillator",
+            "B. To increase the output power",
+            "C. To \"pull\" or slightly adjust the resonant frequency for fine-tuning",
+            "D. To protect the crystal from overvoltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 53,
+        "question": "Overtone crystal oscillators are used to achieve higher frequencies. An overtone frequency is a mechanical resonance that is:",
+        "choices": [
+            "A. An exact even integer multiple of the fundamental",
+            "B. An exact odd integer multiple of the fundamental",
+            "C. An approximate odd integer multiple, but slightly lower than the exact harmonic",
+            "D. Unrelated to the fundamental"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 54,
+        "question": "The frequency stability of a crystal oscillator is typically specified in parts per million (ppm). If a 10 MHz crystal has a stability of +/- 50 ppm, what is the maximum frequency deviation?",
+        "choices": [
+            "A. +/- 50 Hz",
+            "B. +/- 500 Hz",
+            "C. +/- 5,000 Hz",
+            "D. +/- 50,000 Hz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 55,
+        "question": "Unlike harmonic sinusoidal oscillators, relaxation oscillators are specifically designed to produce which types of waveforms?",
+        "choices": [
+            "A. Pure sine waves",
+            "B. AM modulated waves",
+            "C. Non-sinusoidal waves (square, triangle, sawtooth)",
+            "D. FM modulated waves"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 56,
+        "question": "A Unijunction Transistor (UJT) relaxation oscillator is primarily used to generate what specific type of waveform across its timing capacitor?",
+        "choices": [
+            "A. Square wave",
+            "B. Sine wave",
+            "C. Sawtooth / Exponential sweep",
+            "D. Impulse train"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 57,
+        "question": "The intrinsic standoff ratio (eta) of a UJT is determined by its internal resistances. What is the formula for eta?",
+        "choices": [
+            "A. Rb1 / Rb2",
+            "B. Rb1 / (Rb1 + Rb2)",
+            "C. Rb2 / (Rb1 + Rb2)",
+            "D. (Rb1 * Rb2) / (Rb1 + Rb2)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 58,
+        "question": "In a UJT relaxation oscillator, the capacitor charges until the emitter voltage reaches the peak voltage (Vp). What is the theoretical formula for Vp?",
+        "choices": [
+            "A. eta * Vbb",
+            "B. Vbb - Vd",
+            "C. eta * Vbb + Vd",
+            "D. Vbb / eta"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 59,
+        "question": "A worded circuit: A UJT has an intrinsic standoff ratio of 0.6. The interbase voltage (Vbb) is 10V, and the emitter diode drop (Vd) is 0.7V. What is the peak voltage (Vp) required to fire the UJT?",
+        "choices": [
+            "A. 6.0 V",
+            "B. 6.7 V",
+            "C. 10.7 V",
+            "D. 5.3 V"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 60,
+        "question": "What is the mathematical formula for the period (T) of oscillation of a basic UJT relaxation oscillator with timing components R and C?",
+        "choices": [
+            "A. T = R * C * ln(1 / (1 - eta))",
+            "B. T = R * C * eta",
+            "C. T = 1.1 * R * C",
+            "D. T = R * C * ln(eta)"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 61,
+        "question": "The standard 555 timer IC is packaged in an 8-pin DIP. What is the internal voltage divider string made of?",
+        "choices": [
+            "A. Three 10 kOhm resistors",
+            "B. Three 5 kOhm resistors",
+            "C. Two 5 kOhm resistors",
+            "D. Four 5 kOhm resistors"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 62,
+        "question": "Inside the 555 timer, the upper comparator's non-inverting input is connected to the Threshold pin, while its inverting input is internally referenced to what voltage?",
+        "choices": [
+            "A. 1/3 Vcc",
+            "B. 1/2 Vcc",
+            "C. 2/3 Vcc",
+            "D. Vcc"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 63,
+        "question": "The astable mode of a 555 timer is defined by the fact that it:",
+        "choices": [
+            "A. Has one stable state",
+            "B. Has two stable states",
+            "C. Operates only when triggered externally",
+            "D. Has no stable states and oscillates continuously"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 64,
+        "question": "In a standard 555 timer astable circuit with timing resistors RA and RB, and capacitor C, what is the formula for the charge time (output HIGH time, t_high)?",
+        "choices": [
+            "A. 0.693 * RA * C",
+            "B. 0.693 * (RA + RB) * C",
+            "C. 0.693 * RB * C",
+            "D. 1.1 * (RA + RB) * C"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 65,
+        "question": "In the same standard 555 astable circuit, what is the formula for the discharge time (output LOW time, t_low)?",
+        "choices": [
+            "A. 0.693 * (RA + RB) * C",
+            "B. 0.693 * RA * C",
+            "C. 0.693 * RB * C",
+            "D. 1.1 * RB * C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 66,
+        "question": "Can a standard 555 timer astable circuit (without any external diodes) produce an exact 50% duty cycle?",
+        "choices": [
+            "A. Yes, by setting RA = RB",
+            "B. Yes, by setting RA = 0",
+            "C. No, because the charge path must always include RA, making t_high > t_low",
+            "D. Yes, by leaving RA open"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 67,
+        "question": "A worded circuit: A 555 timer is wired in astable mode with RA = 1 kOhm, RB = 2 kOhms, and C = 1 uF. What is the approximate frequency of oscillation? (Use f = 1.44 / ((RA + 2RB)*C) )",
+        "choices": [
+            "A. 144 Hz",
+            "B. 288 Hz",
+            "C. 480 Hz",
+            "D. 720 Hz"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 68,
+        "question": "To achieve a duty cycle of exactly 50% or less in a 555 astable circuit, what modification is commonly made to the standard circuit?",
+        "choices": [
+            "A. Removing resistor RA",
+            "B. A diode is placed in parallel with RB to bypass it during the charging cycle",
+            "C. A capacitor is placed in series with RA",
+            "D. The Control Voltage pin is grounded"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 69,
+        "question": "The monostable mode of a 555 timer is frequently referred to in digital logic terminology as a:",
+        "choices": [
+            "A. Flip-flop",
+            "B. Schmitt trigger",
+            "C. Multiplexer",
+            "D. One-shot"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 70,
+        "question": "What is the mathematical formula for the output pulse width (time delay) of a 555 timer configured in monostable mode with resistor R and capacitor C?",
+        "choices": [
+            "A. 0.693 * R * C",
+            "B. 1.44 * R * C",
+            "C. 1.1 * R * C",
+            "D. 2.2 * R * C"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 71,
+        "question": "A worded circuit: A 555 timer in monostable mode is triggered. The timing components are R = 10 kOhms and C = 10 uF. What is the duration of the output high pulse?",
+        "choices": [
+            "A. 110 ms",
+            "B. 69.3 ms",
+            "C. 144 ms",
+            "D. 1.1 ms"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 72,
+        "question": "Which pin on the standard 8-pin 555 timer is the active-low Reset pin used to manually override the timing cycle and force the output low?",
+        "choices": [
+            "A. Pin 2",
+            "B. Pin 4",
+            "C. Pin 5",
+            "D. Pin 7"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 73,
+        "question": "Pin 5 of the 555 timer is the Control Voltage pin. In standard astable and monostable operations, this pin is typically connected to ground via a 0.01 uF capacitor. Why?",
+        "choices": [
+            "A. To set the oscillation frequency",
+            "B. To bypass high-frequency noise and prevent false triggering of the internal comparators",
+            "C. To increase the output current capacity",
+            "D. To act as the main timing capacitor"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 74,
+        "question": "In a 555 timer, what specific electrical event on Pin 2 (Trigger) initiates the monostable pulse?",
+        "choices": [
+            "A. A positive-going edge crossing 2/3 Vcc",
+            "B. A negative-going pulse dropping below 1/3 Vcc",
+            "C. A continuous DC voltage of 1/2 Vcc",
+            "D. A positive-going pulse exceeding Vcc"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 75,
+        "question": "Pin 7 (Discharge) of the 555 timer is internally connected to the collector of an NPN transistor. What is the function of this transistor?",
+        "choices": [
+            "A. To provide the output signal",
+            "B. To trigger the timer",
+            "C. To discharge the external timing capacitor to ground when the output is LOW",
+            "D. To charge the external timing capacitor"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 76,
+        "question": "A 555 timer astable circuit oscillates at a frequency of 1 kHz with a duty cycle of 75%. What is the exact duration of the output high state (t_high) during one cycle?",
+        "choices": [
+            "A. 0.25 ms",
+            "B. 0.50 ms",
+            "C. 0.75 ms",
+            "D. 1.00 ms"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 77,
+        "question": "If the Control Voltage pin (Pin 5) of a 555 astable multivibrator is modulated with an external varying analog signal, what type of modulation is produced at the output?",
+        "choices": [
+            "A. Amplitude Modulation (AM)",
+            "B. Phase Shift Keying (PSK)",
+            "C. Frequency Modulation (FM) / Pulse Position Modulation (PPM)",
+            "D. Quadrature Amplitude Modulation (QAM)"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 78,
+        "question": "Looking at the voltage-current characteristic curve of a Unijunction Transistor (UJT), what critical electronic property is exhibited in the region between the peak point and the valley point?",
+        "choices": [
+            "A. Superconductivity",
+            "B. Infinite resistance",
+            "C. Negative resistance",
+            "D. Constant voltage"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 79,
+        "question": "For a UJT relaxation oscillator to oscillate reliably, the DC load line established by the emitter timing resistor R must intersect the UJT characteristic curve in which specific region?",
+        "choices": [
+            "A. The cutoff region",
+            "B. The saturation region",
+            "C. The breakdown region",
+            "D. The negative resistance region"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 80,
+        "question": "What happens to a 555 timer in monostable mode if the trigger pulse applied to Pin 2 is held LOW for a duration longer than the designed output pulse width (1.1*R*C)?",
+        "choices": [
+            "A. The output will go low at the correct time regardless",
+            "B. The output will remain HIGH until the trigger is released HIGH",
+            "C. The timer will explode",
+            "D. The timer will switch to astable mode"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 81,
+        "question": "The output stage of a standard bipolar 555 timer can source or sink a maximum current of approximately:",
+        "choices": [
+            "A. 10 mA",
+            "B. 20 mA",
+            "C. 200 mA",
+            "D. 1 A"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 82,
+        "question": "A Colpitts oscillator is constructed using a BJT. The tank capacitors are C1 = 100 pF (collector to emitter) and C2 = 1000 pF (base to emitter). What is the minimum theoretical voltage gain required from the BJT to sustain oscillation?",
+        "choices": [
+            "A. 10",
+            "B. 100",
+            "C. 0.1",
+            "D. 1"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 83,
+        "question": "In a phase-shift oscillator using an op-amp, if the three RC sections are buffered from one another with unity-gain followers, the required gain of the inverting amplifier drops from 29 to what value?",
+        "choices": [
+            "A. 1",
+            "B. 8",
+            "C. 3",
+            "D. 10"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 84,
+        "question": "The frequency stability of a Wien bridge oscillator is heavily dependent on the stability of its RC components. To achieve high stability in an RF environment, why is it NOT used?",
+        "choices": [
+            "A. It requires inductors",
+            "B. The op-amp slew rate limits it",
+            "C. The required RC values become parasitically small and unstable at high RF",
+            "D. It produces square waves"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 85,
+        "question": "A Crystal oscillator provides a very stable frequency. If you need to construct a highly stable digital clock for a microprocessor, which logic gate is commonly used as the active inverting amplifier element alongside the crystal?",
+        "choices": [
+            "A. AND gate",
+            "B. OR gate",
+            "C. Inverter (NOT gate)",
+            "D. XOR gate"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 86,
+        "question": "What is the primary difference between an astable multivibrator and a bistable multivibrator?",
+        "choices": [
+            "A. Astable has two stable states, bistable has none",
+            "B. Astable requires a trigger, bistable does not",
+            "C. Astable has no stable states, bistable has two stable states",
+            "D. There is no functional difference"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 87,
+        "question": "When designing a very low-frequency 555 astable oscillator, large values of R and C are required. What practical component limitation restricts the maximum usable value of the timing resistor R?",
+        "choices": [
+            "A. The physical size of the resistor",
+            "B. The input bias current of the 555 timer's threshold comparator",
+            "C. The voltage rating of the capacitor",
+            "D. The output current of the 555"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 88,
+        "question": "A UJT is a three-terminal device. The terminals are called:",
+        "choices": [
+            "A. Emitter, Base, Collector",
+            "B. Gate, Source, Drain",
+            "C. Anode, Cathode, Gate",
+            "D. Emitter, Base 1, Base 2"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 89,
+        "question": "In an LC oscillator, the energy oscillates back and forth between the electric field of the capacitor and the magnetic field of the inductor. This continuous exchange is known as the:",
+        "choices": [
+            "A. Piezoelectric effect",
+            "B. Flywheel effect",
+            "C. Hall effect",
+            "D. Doppler effect"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 90,
+        "question": "A Clapp oscillator uses C1, C2, and a much smaller C3 in series with the inductor. Because C3 is very small, its reactance is very high. What is the effect of C1 and C2 on the resonant frequency?",
+        "choices": [
+            "A. They determine the frequency completely",
+            "B. They have almost no effect; the frequency is governed by L and C3",
+            "C. They divide the frequency by 2",
+            "D. They cancel out the inductance"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 91,
+        "question": "If the internal resistance of the 555 timer's discharge transistor (Pin 7) is considered non-ideal (e.g., 20 ohms), how does this affect the astable discharge time t_low?",
+        "choices": [
+            "A. It decreases t_low",
+            "B. It has no effect",
+            "C. It makes t_low infinite",
+            "D. It increases t_low slightly"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "number": 92,
+        "question": "Why is a Colpitts oscillator generally preferred over a Hartley oscillator for higher frequencies (VHF/UHF)?",
+        "choices": [
+            "A. Inductors are easier to tune than capacitors",
+            "B. The tapped inductor of the Hartley is difficult to construct without parasitic capacitance causing spurious oscillations",
+            "C. Colpitts uses fewer components",
+            "D. Colpitts has a lower Q"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 93,
+        "question": "In a 555 timer configured as a missing-pulse detector, the circuit is essentially a:",
+        "choices": [
+            "A. Retriggerable monostable multivibrator",
+            "B. Free-running astable",
+            "C. Bistable flip-flop",
+            "D. Voltage controlled oscillator"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 94,
+        "question": "To construct a Voltage Controlled Oscillator (VCO) using a 555 timer, the modulating voltage is applied to which pin?",
+        "choices": [
+            "A. Pin 2 (Trigger)",
+            "B. Pin 5 (Control Voltage)",
+            "C. Pin 4 (Reset)",
+            "D. Pin 6 (Threshold)"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 95,
+        "question": "A worded circuit: An RC phase shift oscillator uses a BJT. The phase shift network consists of three high-pass RC sections. The output of the network feeds the base. The amplifier provides 180 deg phase shift. The RC network must provide 180 deg. Does the frequency of oscillation occur where the phase is exactly 180 deg?",
+        "choices": [
+            "A. Yes, to satisfy the Barkhausen criterion",
+            "B. No, it occurs at 90 deg",
+            "C. No, it occurs at 0 deg",
+            "D. Yes, but only if the amplifier is non-inverting"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 96,
+        "question": "The \"Start-up\" of an oscillator from zero initial conditions relies on the poles of the closed-loop system initially being located in which part of the s-plane?",
+        "choices": [
+            "A. Left-half plane",
+            "B. Right-half plane",
+            "C. Exactly on the imaginary axis",
+            "D. At the origin"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "number": 97,
+        "question": "If an oscillator's closed-loop poles remain strictly in the right-half of the s-plane indefinitely, what happens to the output waveform?",
+        "choices": [
+            "A. It remains a perfect sine wave",
+            "B. It decays to zero",
+            "C. It grows until it is severely clipped by the amplifier's non-linearities (rails)",
+            "D. It oscillates at multiple frequencies simultaneously"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 98,
+        "question": "A quartz crystal cut for a fundamental frequency of 10 MHz can be forced to oscillate at 30 MHz in a specially designed circuit. This 30 MHz mode is called the:",
+        "choices": [
+            "A. First harmonic",
+            "B. Second harmonic",
+            "C. Third overtone",
+            "D. Sub-harmonic"
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "number": 99,
+        "question": "In a standard Pierce crystal oscillator, the crystal acts as a highly stable:",
+        "choices": [
+            "A. Inductor",
+            "B. Resistor",
+            "C. Capacitor",
+            "D. Voltage source"
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "number": 100,
+        "question": "A 555 astable multivibrator is built with RA = 10 kOhms, RB = 10 kOhms, and C = 0.1 uF. What is the duty cycle of the output waveform?",
+        "choices": [
+            "A. 50%",
+            "B. 33.3%",
+            "C. 66.7%",
+            "D. 75%"
+        ],
+        "correct_answer": "C"
+    }
+]
