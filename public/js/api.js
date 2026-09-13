@@ -1,46 +1,52 @@
-/**
- * API Service for interacting with backend endpoints
- */
+let staticDataPromise = null;
+
+async function loadStaticData() {
+  if (!staticDataPromise) {
+    staticDataPromise = fetch('./data/static-db.json').then(res => {
+      if (!res.ok) throw new Error('Failed to load static database bundle.');
+      return res.json();
+    });
+  }
+  return staticDataPromise;
+}
+
 export const API = {
-  /**
-   * Fetches full dynamic topic hierarchy tree
-   */
   async getTopics() {
     try {
-      const response = await fetch('/api/topics');
-      if (!response.ok) {
-        throw new Error(`Server returned HTTP ${response.status}`);
-      }
-      const result = await response.json();
-      return result.data || [];
+      const res = await fetch('/api/topics');
+      if (!res.ok) throw new Error('API server error');
+      return await res.json();
     } catch (err) {
-      console.error('[API Error] Fetch topics failed:', err);
-      throw err;
+      // Static fallback for GitHub Pages
+      console.warn('[API] Express backend not detected. Falling back to static data bundle...');
+      const staticDb = await loadStaticData();
+      return staticDb.topics;
     }
   },
 
-  /**
-   * Fetches questions for a target subtopic path with optional count limit and ordering
-   */
-  async getQuestions(topicPath, options = {}) {
+  async getQuestions(topicPath = '', options = {}) {
     try {
-      const { limit, order = 'sequential' } = options;
-      const params = new URLSearchParams();
-      if (limit) params.append('limit', limit);
-      if (order) params.append('order', order);
-
-      const encodedPath = topicPath.split('/').map(encodeURIComponent).join('/');
-      const url = `/api/questions/${encodedPath}?${params.toString()}`;
-
-      const response = await fetch(url);
-      if (!response.ok) {
-        throw new Error(`Failed to load questions (HTTP ${response.status})`);
-      }
-      const result = await response.json();
-      return result.questions || [];
+      const query = new URLSearchParams(options).toString();
+      const res = await fetch(`/api/questions/${topicPath}?${query}`);
+      if (!res.ok) throw new Error('API server error');
+      return await res.json();
     } catch (err) {
-      console.error(`[API Error] Fetch questions failed for path "${topicPath}":`, err);
-      throw err;
+      // Static fallback for GitHub Pages
+      const staticDb = await loadStaticData();
+      let questions = staticDb.questionsMap[topicPath] || [];
+
+      if (options.order === 'random') {
+        questions = [...questions].sort(() => Math.random() - 0.5);
+      }
+
+      if (options.limit && options.limit !== 'all') {
+        const limitNum = parseInt(options.limit, 10);
+        if (!isNaN(limitNum)) {
+          questions = questions.slice(0, limitNum);
+        }
+      }
+
+      return questions;
     }
   }
 };
