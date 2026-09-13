@@ -1,4 +1,7 @@
-"scripts": {
-  "start": "node server/server.js",
-  "build": "node scripts/build-static.js"
+{
+  "name": "exam-review-platform",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server/server.js"
+  }
 }
