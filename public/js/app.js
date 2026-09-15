@@ -191,6 +191,32 @@ function renderQuizView(container) {
     });
   });
 
+  // Listener for Reveal Answer Button
+  container.querySelector('#reveal-answer-btn')?.addEventListener('click', (e) => {
+    const currentQ = store.currentQuestion;
+    if (!currentQ) return;
+
+    // Highlight the correct answer choice
+    container.querySelectorAll('#choices-list .choice-option').forEach(opt => {
+      if (opt.getAttribute('data-choice') === currentQ.correct_answer) {
+        opt.style.backgroundColor = '#ecfdf5';
+        opt.style.borderColor = '#10b981';
+        opt.style.color = '#065f46';
+        opt.style.fontWeight = '600';
+
+        const badge = opt.querySelector('.correct-badge');
+        if (badge) badge.style.display = 'inline-block';
+      }
+    });
+
+    // Reveal explanation container if present
+    const expBox = container.querySelector('#explanation-box');
+    if (expBox) expBox.style.display = 'block';
+
+    // Hide the toggle button after revelation
+    e.currentTarget.style.display = 'none';
+  });
+
   container.querySelector('#prev-btn')?.addEventListener('click', () => {
     store.goToQuestion(store.currentQuestionIndex - 1);
   });

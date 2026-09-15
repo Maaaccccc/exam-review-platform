@@ -120,10 +120,18 @@ export const Components = {
       return `
         <div class="choice-option ${isSelected ? 'selected' : ''}" data-choice="${choice}">
           <div class="choice-indicator"></div>
-          <div>${choice}</div>
+          <div style="flex-grow: 1;">${choice}</div>
+          <span class="correct-badge" style="display: none; margin-left: auto; font-weight: 700; font-size: 0.85rem; color: #059669;">✓ Correct Answer</span>
         </div>
       `;
     }).join('');
+
+    const explanationHtml = q.explanation ? `
+      <div id="explanation-box" class="explanation-card" style="display: none; margin-top: 1.5rem; padding: 1rem; background: var(--bg-main, #f8fafc); border-left: 4px solid var(--brand-primary, #2563eb); border-radius: 0 8px 8px 0; text-align: left;">
+        <strong>Explanation:</strong>
+        <p style="margin-top: 0.25rem; color: var(--text-secondary, #475569);">${q.explanation}</p>
+      </div>
+    ` : '';
 
     return `
       <div class="quiz-layout">
@@ -144,6 +152,14 @@ export const Components = {
           <div class="choices-list" id="choices-list">
             ${choicesHtml}
           </div>
+
+          <div style="margin-top: 1.25rem;">
+            <button id="reveal-answer-btn" class="btn btn-secondary" style="width: 100%; border: 1px dashed var(--brand-primary, #2563eb); color: var(--brand-primary, #2563eb); font-weight: 600;">
+              👁️ Show Answer & Explanation
+            </button>
+          </div>
+
+          ${explanationHtml}
 
           <div class="quiz-actions">
             <div>
